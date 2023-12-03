@@ -1,0 +1,52 @@
+{
+  "dependencies": [
+    "Train Casing"
+  ],
+  "tasks": {
+    "Train station": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "create:track_station"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The train station allows you to connect your",
+      "first train to the tracks, and also allows you ",
+      "to name your train if you plan on creating a",
+      "massive train station."
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          230,
+          -80
+        ]
+      }
+    },
+    "icon": {
+      "item": "create:track_station",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Train Station"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

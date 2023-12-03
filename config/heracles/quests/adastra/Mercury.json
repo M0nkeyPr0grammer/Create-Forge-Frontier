@@ -1,0 +1,70 @@
+{
+  "dependencies": [
+    "Tier 3 Rocket"
+  ],
+  "tasks": {
+    "mercury": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "ad_astra:mercury"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Mercury is a planent full on new ores."
+    ],
+    "groups": {
+      "Ad Astra": {
+        "position": [
+          120,
+          -30
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ad_astra:mercury_globe",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Mercury"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

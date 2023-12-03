@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Andesite Alloy"
+  ],
+  "tasks": {
+    "shaft": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "create:shaft"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "Give Alloy": {
+      "item": {
+        "id": "create:andesite_alloy",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Crafted with 2 andesite alloy"
+    },
+    "description": [
+      "Shafts are way to transfer a rotation in a straight line either vertical or horizontal"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -251,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": "create:shaft",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Shaft"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

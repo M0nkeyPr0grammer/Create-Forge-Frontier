@@ -1,0 +1,91 @@
+{
+  "dependencies": [
+    "Creative Blaze Cake"
+  ],
+  "tasks": {
+    "drawer upgrade": {
+      "type": "heracles:item",
+      "item": "extended_drawers:creative_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "extended_drawers:creative_upgrade",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "LEVEL",
+      "amount": 25,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "blaze cake": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:creative_blaze_cake",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:creative_blaze_cake",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": " "
+    },
+    "description": [
+      "This creative drawer upgrade allows you to store",
+      "an infinite amount of items in one drawer.",
+      "",
+      "This is crafted using these items in a Mechanical Crafter Setup",
+      "- 6 Diamond Netherite Ingots",
+      "- 2 Extended Drawer Tier 4 Upgrades",
+      "- 1 Creative Blaze Cake"
+    ],
+    "groups": {
+      "Creative Items": {
+        "position": [
+          0,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "extended_drawers:creative_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Creative Drawer Upgrade"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

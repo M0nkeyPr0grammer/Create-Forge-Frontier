@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Diamond shulker"
+  ],
+  "tasks": {
+    "netherite shulker": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "#reinfshulker:netherite_shulker_boxes"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "Give scraps": {
+      "item": {
+        "id": "minecraft:netherite_scrap",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "The final shulker upgrade"
+    },
+    "description": [
+      "Has 144 slots, fire and blast proof"
+    ],
+    "groups": {
+      "Better Storage": {
+        "position": [
+          -150,
+          -70
+        ]
+      }
+    },
+    "icon": {
+      "item": "reinfshulker:netherite_shulker_box",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Netherite shulker"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

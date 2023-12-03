@@ -1,0 +1,26 @@
+To refresh this file, delete it and run /reload command again! Last updated: Jul 9, 2023, 10:30:52 PM
+
+#angling:base_colors
+- angling:ivory (from Angling Mod)
+- angling:onyx (from Angling Mod)
+- angling:periwinkle (from Angling Mod)
+- angling:jade (from Angling Mod)
+- angling:midnight (from Angling Mod)
+- angling:ultramarine (from Angling Mod)
+- angling:coffee (from Angling Mod)
+- angling:eggplant (from Angling Mod)
+- angling:cyclamen (from Angling Mod)
+- angling:amber (from Angling Mod)
+- angling:iris (from Angling Mod)
+
+#angling:pattern_colors
+- angling:ivory (from Angling Mod)
+- angling:burgundy (from Angling Mod)
+- angling:coquelicot (from Angling Mod)
+- angling:gamboge (from Angling Mod)
+- angling:celeste (from Angling Mod)
+- angling:olivine (from Angling Mod)
+- angling:pear (from Angling Mod)
+- angling:amber (from Angling Mod)
+- angling:orchid (from Angling Mod)
+- angling:folly (from Angling Mod)

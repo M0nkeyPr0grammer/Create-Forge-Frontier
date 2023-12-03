@@ -1,0 +1,47 @@
+{
+  "dependencies": [
+    "Enter the Otherside"
+  ],
+  "tasks": {
+    "echoing forest": {
+      "biomes": "deeperdarker:echoing_forest",
+      "type": "heracles:biome"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Visit Echoing Forest"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Deeper and Darker": {
+        "position": [
+          -250,
+          30
+        ]
+      }
+    },
+    "icon": {
+      "item": "deeperdarker:echo_soil",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Echoing forest"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

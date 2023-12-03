@@ -1,0 +1,51 @@
+{
+  "dependencies": [
+    "Void Casing",
+    "Graviton Tube"
+  ],
+  "tasks": {
+    "void motor": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "createutilities:void_motor"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "This item is created with a shaft, void casing, and",
+      "a graviton tube."
+    ],
+    "groups": {
+      "Create Addons": {
+        "position": [
+          324,
+          68
+        ]
+      }
+    },
+    "icon": {
+      "item": "createutilities:void_motor",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Void Motor"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

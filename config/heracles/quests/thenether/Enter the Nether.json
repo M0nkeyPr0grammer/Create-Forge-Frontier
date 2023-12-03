@@ -1,0 +1,46 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "Enter the nether": {
+      "from": "minecraft:overworld",
+      "to": "minecraft:the_nether",
+      "type": "heracles:changed_dimension"
+    }
+  },
+  "rewards": {
+    "Nether xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Enter the Nether"
+    },
+    "description": [
+      "Enter the nether"
+    ],
+    "groups": {
+      "The Nether": {
+        "position": [
+          -350,
+          -20
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:flint_and_steel",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Enter the Nether"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "Create Slice & Dice"
+  ],
+  "tasks": {
+    "slicer": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "sliceanddice:slicer"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "casing": {
+      "item": {
+        "id": "create:andesite_casing",
+        "count": 3
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The slicer, allows you to automate farmer's",
+      "delight cutting board recipes."
+    ],
+    "groups": {
+      "Create Addons": {
+        "position": [
+          205,
+          5
+        ]
+      }
+    },
+    "icon": {
+      "item": "sliceanddice:slicer",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Slicer"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

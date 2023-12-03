@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Diamond barrel"
+  ],
+  "tasks": {
+    "netherite barrel": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "reinfbarrel:netherite_barrel"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "Give scraps": {
+      "item": {
+        "id": "minecraft:netherite_scrap",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "The final barrel upgrade"
+    },
+    "description": [
+      "Has 144 slots, fire and blast proof"
+    ],
+    "groups": {
+      "Better Storage": {
+        "position": [
+          -150,
+          -120
+        ]
+      }
+    },
+    "icon": {
+      "item": "reinfbarrel:netherite_barrel",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Netherite barrel"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

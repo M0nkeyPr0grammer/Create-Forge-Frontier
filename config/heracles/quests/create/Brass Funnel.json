@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "Brass"
+  ],
+  "tasks": {
+    "brass funnel": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "create:brass_funnel"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "An upgraded funnel"
+    },
+    "description": [
+      "The brass funnel is an upgraded andesite funnel, lets you add item filters and moves up to a stack at a time"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          100,
+          100
+        ]
+      }
+    },
+    "icon": {
+      "item": "create:brass_funnel",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Brass Funnel"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

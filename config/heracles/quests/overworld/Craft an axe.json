@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "Craft a crafting table"
+  ],
+  "tasks": {
+    "Craft an axe": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "minecraft:wooden_axe"
+    }
+  },
+  "rewards": {
+    "Axe xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Make an axe"
+    },
+    "description": [
+      "Craft an axe to chop trees quicker"
+    ],
+    "groups": {
+      "Overworld": {
+        "position": [
+          -200,
+          30
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:wooden_axe",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Craft an axe"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

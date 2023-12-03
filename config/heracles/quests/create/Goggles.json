@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Cogwheel"
+  ],
+  "tasks": {
+    "goggles": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "create:goggles"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "Give Gold": {
+      "item": {
+        "id": "minecraft:gold_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "See extra information"
+    },
+    "description": [
+      "The Goggles are really helpful to be able to see how much stress units (SU) machines are using or producing, it's really nice to be able to see why you machines have stopped"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -250,
+          -100
+        ]
+      }
+    },
+    "icon": {
+      "item": "create:goggles",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Goggles"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

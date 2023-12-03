@@ -1,0 +1,9 @@
+{
+  "name": "Toms Simple Storage",
+  "landing_text": "This guide is designed to provide comprehensive insights into the 'Tom's Simple Storage' mod. $(br2)/$$(br)/$created by M0nkeyPr0grammer",
+  "version": "0",
+  "creative_tab": "toms_simple_storage.main",
+  "show_progress": true,
+  "nameplate_color": "dddddd",
+  "model": "patchouli:book_purple"
+}

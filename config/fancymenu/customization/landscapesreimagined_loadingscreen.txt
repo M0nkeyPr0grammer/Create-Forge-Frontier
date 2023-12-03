@@ -1,0 +1,107 @@
+type = menu
+
+customization-meta {
+  identifier = de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = config/drippyloadingscreen/picture.png
+  action = texturizebackground
+}
+
+customization {
+  action = setscale
+  scale = 3
+}
+
+customization {
+  baseheight = 1440
+  action = autoscale
+  basewidth = 2560
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = bottom-centered
+  hidden = false
+  original_pos_size_calculation = false
+  x = -50
+  width = 100
+  action = deep_customization_element:drippy_overlay_logo
+  actionid = 7a0f436f-19ee-4ff5-9e44-1550be3ad8031694108718044
+  y = -67
+  height = 25
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = -1000000
+  width = 0
+  action = deep_customization_element:drippy_overlay_background
+  actionid = 57b86c96-7217-4243-a005-5beb4726d4281694108718045
+  y = -1000000
+  height = 0
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  original_pos_size_calculation = true
+  x = 208
+  width = 480
+  action = deep_customization_element:drippy_overlay_progress_bar
+  actionid = a152ed24-640a-4974-b4e9-3fa81e9a51e51694108718045
+  y = 394
+  height = 10
+}
+
+customization {
+  orientation = bottom-right
+  enable_scrolling = true
+  shadow = true
+  scale = 2.0
+  source = v3.0.0
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -66
+  width = 60
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 91b8efac-8028-4ab0-bbb7-494e381213581694109740609
+  y = -25
+  alignment = centered
+  height = 21
+}
+
+customization {
+  path = config/drippyloadingscreen/logo.png
+  orientation = mid-centered
+  x = -240
+  width = 480
+  action = addtexture
+  actionid = af3c6045-9353-483d-aa50-4b7ab896232a1694194610940
+  y = -129
+  height = 186
+}
+
+customization {
+  path = config/drippyloadingscreen/genesislogo.png
+  orientation = mid-centered
+  x = -229
+  width = 460
+  action = addtexture
+  actionid = 420d15ab-a90d-408f-b836-d133ca8ab5541700673802218
+  y = -136
+  height = 250
+}
+

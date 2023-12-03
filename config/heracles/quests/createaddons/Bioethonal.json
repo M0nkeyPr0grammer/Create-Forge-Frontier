@@ -1,0 +1,45 @@
+{
+  "dependencies": [
+    "Biomass"
+  ],
+  "tasks": {
+    "bioethonal": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "createaddition:bioethanol_bucket"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Bioethonal is crated by heating biomass with cinder flour",
+      "and sugar. This new fuel is used to super heat blazes after",
+      "they are given a straw."
+    ],
+    "groups": {
+      "Create Addons": {
+        "position": [
+          90,
+          45
+        ]
+      }
+    },
+    "icon": {
+      "item": "createaddition:bioethanol_bucket",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Bioethonal"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Mine iron"
+  ],
+  "tasks": {
+    "iron pick": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "minecraft:iron_pickaxe"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "Give Iron": {
+      "item": {
+        "id": "minecraft:iron_ore",
+        "count": 3
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Make an iron pickaxe"
+    },
+    "description": [
+      "Use your iron ingots to make a pickaxe to be able to mine more ores"
+    ],
+    "groups": {
+      "Overworld": {
+        "position": [
+          0,
+          -20
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:iron_pickaxe",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Craft an iron pickaxe"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

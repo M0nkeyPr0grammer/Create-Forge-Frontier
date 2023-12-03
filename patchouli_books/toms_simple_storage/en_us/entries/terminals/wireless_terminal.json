@@ -1,0 +1,12 @@
+{
+  "name": "Wireless Terminal",
+  "icon": "toms_storage:ts.wireless_terminal",
+  "category": "patchouli:terminals",
+  "pages": [
+  "The wireless terminal is used to extend your reach of the $(l:patchouli:terminals/storage_terminal)storage/$ or $(l:patchouli:terminals/crafting_terminal)crafting terminal/$ by 16 blocks. Additionally it requires many create items in its recipe.",
+    {
+      "type": "patchouli:crafting",
+	  "recipe": "minecraft:kjs_toms_storage_ts.wireless_terminal"
+    }
+  ]
+}

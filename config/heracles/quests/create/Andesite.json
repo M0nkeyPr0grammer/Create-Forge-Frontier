@@ -1,0 +1,54 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "andesite": {
+      "type": "heracles:item",
+      "amount": 2,
+      "collection": "AUTOMATIC",
+      "item": "minecraft:andesite"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "Give Andesite": {
+      "item": {
+        "id": "minecraft:andesite",
+        "count": 16
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -350,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:andesite",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Andesite"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

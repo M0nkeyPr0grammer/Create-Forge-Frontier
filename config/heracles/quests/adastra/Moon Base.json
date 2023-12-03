@@ -1,0 +1,70 @@
+{
+  "dependencies": [
+    "Moon"
+  ],
+  "tasks": {
+    "Village": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "structures": "ad_astra:lunarian_village",
+      "type": "heracles:structure"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "This structure is full of Lunarian Villages,",
+      "which will allow you to trade for special",
+      "Ad Astra items."
+    ],
+    "groups": {
+      "Ad Astra": {
+        "position": [
+          0,
+          -30
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ad_astra:iron_sliding_door",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Moon Village"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

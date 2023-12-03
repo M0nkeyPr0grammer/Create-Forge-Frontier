@@ -1,0 +1,103 @@
+{
+  "dependencies": [
+    "Diesal Generators"
+  ],
+  "tasks": {
+    "Piston": {
+      "type": "heracles:item",
+      "item": "createdieselgenerators:engine_piston",
+      "amount": 4,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "createdieselgenerators:engine_piston",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    },
+    "diesal": {
+      "type": "heracles:item",
+      "item": "createdieselgenerators:diesel_engine",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "createdieselgenerators:diesel_engine",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "mecanism": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:precision_mechanism",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:precision_mechanism",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "A diesel engine is a compact way of producing kenetic",
+      "energy. Once fuel is pumped into the bottom, it will start",
+      "producting rotation.",
+      "",
+      "Check ponder for more info."
+    ],
+    "groups": {
+      "Create Addons": {
+        "position": [
+          -370,
+          5
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "createdieselgenerators:diesel_engine",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Diesel Engine"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

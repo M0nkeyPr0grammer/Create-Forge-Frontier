@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "Craft a pickaxe"
+  ],
+  "tasks": {
+    "Mine stone": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "#c:cobblestone"
+    }
+  },
+  "rewards": {
+    "Mine stone xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Mine stone"
+    },
+    "description": [
+      "Mine stone to get cobblestone to make better tools"
+    ],
+    "groups": {
+      "Overworld": {
+        "position": [
+          -150,
+          -20
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:stone",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Mine stone"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

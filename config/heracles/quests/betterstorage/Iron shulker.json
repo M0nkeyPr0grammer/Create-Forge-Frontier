@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Copper shulker"
+  ],
+  "tasks": {
+    "iron shulker": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "#reinfshulker:iron_shulker_boxes"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "Give Iron": {
+      "item": {
+        "id": "minecraft:iron_ingot",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "The second shulker upgrade"
+    },
+    "description": [
+      "Has 53 slots"
+    ],
+    "groups": {
+      "Better Storage": {
+        "position": [
+          -300,
+          -70
+        ]
+      }
+    },
+    "icon": {
+      "item": "reinfshulker:iron_shulker_box",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Iron shulker"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

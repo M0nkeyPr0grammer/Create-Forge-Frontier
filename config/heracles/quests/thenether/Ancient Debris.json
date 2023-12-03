@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Find a bastion"
+  ],
+  "tasks": {
+    "debris": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "minecraft:ancient_debris"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "Give Debris": {
+      "item": {
+        "id": "minecraft:ancient_debris",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Gather an ancient debris"
+    },
+    "description": [
+      "Collect an ancient debris to start your journey to making a netherite ingot"
+    ],
+    "groups": {
+      "The Nether": {
+        "position": [
+          -250,
+          -105
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:ancient_debris",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Ancient Debris"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

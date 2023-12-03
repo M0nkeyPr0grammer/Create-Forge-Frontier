@@ -1,0 +1,17 @@
+{
+  "enableUDCropCrates": true,
+  "farmersBuyUDCrops": true,
+  "wanderingTraderSellsUDItems": true,
+  "isFoodEffectTooltip": true,
+  "generateUDChestLoot": true,
+  "generateWildUbe": true,
+  "chanceWildUbe": 50,
+  "generateWildGarlic": true,
+  "chanceWildGarlic": 80,
+  "generateWildGinger": true,
+  "chanceWildGinger": 80,
+  "generateWildLemongrass": true,
+  "chanceWildLemongrass": 80,
+  "enableGarlicCompat": false,
+  "enableGingerCompat": false
+}

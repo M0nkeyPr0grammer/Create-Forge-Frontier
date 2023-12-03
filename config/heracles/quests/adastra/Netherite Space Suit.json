@@ -1,0 +1,155 @@
+{
+  "dependencies": [
+    "Ostrum"
+  ],
+  "tasks": {
+    "n suit 1": {
+      "type": "heracles:item",
+      "item": "ad_astra:netherite_space_helmet",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "ad_astra:netherite_space_helmet",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
+        },
+        "type": "heracles:item"
+      }
+    },
+    "n suit 2": {
+      "type": "heracles:item",
+      "item": "ad_astra:netherite_space_suit",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "ad_astra:netherite_space_suit",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
+        },
+        "type": "heracles:item"
+      }
+    },
+    "n suit 3": {
+      "type": "heracles:item",
+      "item": "ad_astra:netherite_space_pants",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "ad_astra:netherite_space_pants",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
+        },
+        "type": "heracles:item"
+      }
+    },
+    "n suit 4": {
+      "type": "heracles:item",
+      "item": "ad_astra:netherite_space_boots",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "ad_astra:netherite_space_boots",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "tank": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "ad_astra_giselle_addon:netherite_oxygen_can",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "ad_astra_giselle_addon:netherite_oxygen_can",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "This space suit will protect you from harsh",
+      "environments on future planets."
+    ],
+    "groups": {
+      "Ad Astra": {
+        "position": [
+          60,
+          -30
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ad_astra:netherite_space_helmet",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Netherite Space Suit"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

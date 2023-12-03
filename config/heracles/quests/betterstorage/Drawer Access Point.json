@@ -1,0 +1,54 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "Access Point": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "extended_drawers:access_point"
+    }
+  },
+  "rewards": {
+    "Give Drawer": {
+      "item": {
+        "id": "extended_drawers:single_drawer",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "Access Point xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "The block to easily deposit stuff into your system"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Better Storage": {
+        "position": [
+          -250,
+          -220
+        ]
+      }
+    },
+    "icon": {
+      "item": "extended_drawers:access_point",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Drawer Access Point"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

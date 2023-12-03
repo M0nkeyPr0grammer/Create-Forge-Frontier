@@ -1,0 +1,54 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "copper barrel": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "reinfbarrel:copper_barrel"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "Give Copper": {
+      "item": {
+        "id": "minecraft:copper_ingot",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "The first barrel upgrade"
+    },
+    "description": [
+      "Has 45 slots"
+    ],
+    "groups": {
+      "Better Storage": {
+        "position": [
+          -350,
+          -120
+        ]
+      }
+    },
+    "icon": {
+      "item": "reinfbarrel:copper_barrel",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Copper barrel"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

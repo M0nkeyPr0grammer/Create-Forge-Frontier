@@ -1,0 +1,72 @@
+{
+  "dependencies": [
+    "Moon Base"
+  ],
+  "tasks": {
+    "dungeon": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "structures": "ad_astra:moon_dungeon",
+      "type": "heracles:structure"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Becareful visiting this structure as it",
+      "has spawners that spawn corrupted Lunarians",
+      "that shoot ice at you. ",
+      "",
+      "This structure also has some amazing loot!"
+    ],
+    "groups": {
+      "Ad Astra": {
+        "position": [
+          0,
+          -61
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ad_astra:vent",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Moon Dungeon"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

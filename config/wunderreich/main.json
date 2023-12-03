@@ -1,0 +1,17 @@
+{
+  "create_version": "6.0.4",
+  "features": {
+    "enableWhispers": true,
+    "addBlankWhisperer": true,
+    "addImprintedWhispers": true,
+    "allowBuilderTools": true,
+    "allowExperimentalConstructionTools": false,
+    "addSlabs": true,
+    "addStairs": true,
+    "addWalls": true
+  },
+  "display": {
+    "multiTexturedWunderkiste": true
+  },
+  "modify_version": "6.0.4"
+}

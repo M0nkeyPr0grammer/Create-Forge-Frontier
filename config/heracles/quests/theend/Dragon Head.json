@@ -1,0 +1,88 @@
+{
+  "dependencies": [
+    "Dragon's Breath"
+  ],
+  "tasks": {
+    "Dragon head": {
+      "type": "heracles:item",
+      "item": "minecraft:dragon_head",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:dragon_head",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    },
+    "dragons breath": {
+      "type": "heracles:item",
+      "item": "kubejs:liquid_dragons_breath_bucket",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "kubejs:liquid_dragons_breath_bucket",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "LEVEL",
+      "amount": 25,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "There are three different methods of",
+      "obtaining a dragon head:",
+      "- Kill the Ender Dragon",
+      "- Find an End City Ship",
+      "- Craft one with Liquid Dragons Breath and a wither skull"
+    ],
+    "groups": {
+      "The End": {
+        "position": [
+          -250,
+          -95
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:dragon_head",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Dragon Head"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

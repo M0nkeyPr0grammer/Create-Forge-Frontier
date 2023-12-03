@@ -1,0 +1,51 @@
+{
+  "dependencies": [
+    "Void Casing",
+    "Graviton Tube"
+  ],
+  "tasks": {
+    "void chest": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "createutilities:void_chest"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "This item is created with a chest, void casing, and",
+      "a graviton tube."
+    ],
+    "groups": {
+      "Create Addons": {
+        "position": [
+          379,
+          90
+        ]
+      }
+    },
+    "icon": {
+      "item": "createutilities:void_chest",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Void Chest"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Sturdy Pipes",
+  "icon": "immersive_aircraft:sturdy_pipes",
+  "category": "patchouli:upgrades",
+  "pages": [
+  "The sturdy pipes is used to increase engine power by 10%, plus can be used on most $(l:aircrafts)aircrafts/$. Additionally it requires nothing but create items in the recipe.",
+    {
+      "type": "patchouli:crafting",
+	  "recipe": "minecraft:kjs_immersive_aircraft_sturdy_pipes"
+    }
+  ]
+}

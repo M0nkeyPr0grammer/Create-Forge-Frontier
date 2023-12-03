@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Brass"
+  ],
+  "tasks": {
+    "polished rq": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "create:polished_rose_quartz"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "Give Rose Quartz": {
+      "item": {
+        "id": "create:rose_quartz",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Off hand the sand paper and then right click with the rose quartz"
+    },
+    "description": [
+      "You will polish the rose quartz to use in making electron tubes"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          50,
+          -1
+        ]
+      }
+    },
+    "icon": {
+      "item": "create:polished_rose_quartz",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Polished Rose Quartz"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Copper casing#"
+  ],
+  "tasks": {
+    "tank": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "create:fluid_tank"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "Give Copper": {
+      "item": {
+        "id": "minecraft:copper_ingot",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "A large liquid container"
+    },
+    "description": [
+      "The fluid tank is an easy way to store a large amount of liquid. The biggest it can be is a 3x3 base and up to 30 tall, which stores a crazy amountThe fluid tank is an easy way to store a large amount of liquid. The biggest it can be is a 3x3 base and up to 30 tall, which stores a crazy amount"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -50,
+          -100
+        ]
+      }
+    },
+    "icon": {
+      "item": "create:fluid_tank",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Tank"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

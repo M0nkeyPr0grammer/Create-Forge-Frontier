@@ -1,0 +1,49 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "Drawer lock": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "extended_drawers:lock"
+    }
+  },
+  "rewards": {
+    "Drawer lock xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "The way to lock draws"
+    },
+    "description": [
+      "The drawer lock is used to remember items within a drawer so if the drawer gets emptied out",
+      "then it will save the item within the drawers memory so when you get more of the item it will",
+      "go back into the drawer that it was in before it got emptied"
+    ],
+    "groups": {
+      "Better Storage": {
+        "position": [
+          100,
+          -220
+        ]
+      }
+    },
+    "icon": {
+      "item": "extended_drawers:lock",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Drawer lock"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "Drawer connector": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "extended_drawers:connector"
+    }
+  },
+  "rewards": {
+    "Connector xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Connects drawers to eachother but don't store items within them"
+    },
+    "description": [
+      "The drawer connectors work as a way to link drawers that are not directly next to eachother",
+      " ",
+      "They can not store any item within them but make it so the access point can connect to more drawers"
+    ],
+    "groups": {
+      "Better Storage": {
+        "position": [
+          -200,
+          -220
+        ]
+      }
+    },
+    "icon": {
+      "item": "extended_drawers:connector",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Drawer Connectors"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

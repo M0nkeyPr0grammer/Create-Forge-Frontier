@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Copper casing#"
+  ],
+  "tasks": {
+    "hose": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "create:hose_pulley"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "Give Copper": {
+      "item": {
+        "id": "minecraft:copper_ingot",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Moving Liquid"
+    },
+    "description": [
+      "The hose pulley has the ability to pull liquids from the world to be transported, if the source the pulley is pulling from is larger than 10,000 blocks then it classes it as an infinite source of liquid"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -50,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": "create:hose_pulley",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Hose pulley"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

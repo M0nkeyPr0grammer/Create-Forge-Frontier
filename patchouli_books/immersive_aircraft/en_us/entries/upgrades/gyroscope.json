@@ -1,0 +1,12 @@
+{
+  "name": "Gyroscope",
+  "icon": "immersive_aircraft:gyroscope",
+  "category": "patchouli:upgrades",
+  "pages": [
+  "The gyroscope is used to decrease wind effect by 100% and can be used on most $(l:aircrafts)aircrafts/$. Additionally it requires one create item in the recipe.",
+    {
+      "type": "patchouli:crafting",
+	  "recipe": "minecraft:kjs_immersive_aircraft_gyroscope"
+    }
+  ]
+}

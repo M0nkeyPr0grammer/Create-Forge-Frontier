@@ -1,0 +1,14 @@
+To refresh this file, delete it and run /reload command again! Last updated: Jul 9, 2023, 10:30:52 PM
+
+#angling:natural_sunfish
+- angling:pumpkinseed (from Angling Mod)
+- angling:longear (from Angling Mod)
+- angling:bluegill (from Angling Mod)
+- angling:redbreast (from Angling Mod)
+- angling:green (from Angling Mod)
+- angling:warmouth (from Angling Mod)
+
+#angling:pelican_beak_variants
+- #angling:natural_sunfish (from Angling Mod)
+- angling:bluegill_and_redbreast_hybrid (from Angling Mod)
+- angling:bluegill_and_pumpkinseed_hybrid (from Angling Mod)

@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "Create Goggles"
+  ],
+  "tasks": {
+    "goggle helmet": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "creategoggles:goggle_diamond_helmet"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "diamonds": {
+      "item": {
+        "id": "minecraft:diamond_ore",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "This Goggle Helmet will allow you to both wear",
+      "create googles and a helmet at the same time."
+    ],
+    "groups": {
+      "Create Addons": {
+        "position": [
+          -120,
+          5
+        ]
+      }
+    },
+    "icon": {
+      "item": "creategoggles:goggle_diamond_helmet",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Goggle Helmet"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

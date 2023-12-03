@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Drawer upgrade 2"
+  ],
+  "tasks": {
+    "Level 3 upgrade": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "extended_drawers:t3_upgrade"
+    }
+  },
+  "rewards": {
+    "Give Diamond": {
+      "item": {
+        "id": "minecraft:diamond_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "Level 3 upgrade xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "The third tier of upgrade"
+    },
+    "description": [
+      "The third level of storage upgrade for the drawers"
+    ],
+    "groups": {
+      "Better Storage": {
+        "position": [
+          0,
+          -220
+        ]
+      }
+    },
+    "icon": {
+      "item": "extended_drawers:t3_upgrade",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Drawer upgrade 3"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

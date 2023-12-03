@@ -1,0 +1,11 @@
+{
+	"openableFittings": false,
+	"dispensing": true,
+	"specialEffectDispensing": true,
+	"dispenseSounds": true,
+	"suctionSounds": true,
+	"senseGameEvents": true,
+	"carryWater": true,
+	"carryLava": true,
+	"carrySmoke": true,
+}

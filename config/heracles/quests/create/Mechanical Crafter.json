@@ -1,0 +1,64 @@
+{
+  "dependencies": [
+    "Brass Casing"
+  ],
+  "tasks": {
+    "mech craft": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "create:mechanical_crafter"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "Give Casing": {
+      "item": {
+        "id": "create:brass_casing",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "A large crafting table"
+    },
+    "description": [
+      "The mechanical crafter can be made into a multi block to craft different items, the biggest item it will need to craft is the crushing wheels",
+      " ",
+      "The largest size and shape of the crushing wheel is shown below with an X the O don't have any mechanical crafters",
+      " ",
+      "OXXXO ",
+      "XXXXX ",
+      "XXXXX ",
+      "XXXXX ",
+      "OXXXO "
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          215,
+          40
+        ]
+      }
+    },
+    "icon": {
+      "item": "create:mechanical_crafter",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Mechanical Crafter"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

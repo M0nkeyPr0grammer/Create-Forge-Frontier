@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "Brass Casing"
+  ],
+  "tasks": {
+    "e pulley": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "create:elevator_pulley"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "Give Casing": {
+      "item": {
+        "id": "create:brass_casing",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Vertical travel"
+    },
+    "description": [
+      "Elevators are a really fun way to travel vertically.",
+      " ",
+      "Mr Beardstone has done a video on how to make one, feel free to check it out"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          150,
+          100
+        ]
+      }
+    },
+    "icon": {
+      "item": "create:elevator_pulley",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Elevator Pulley"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

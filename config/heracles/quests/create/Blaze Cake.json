@@ -1,0 +1,64 @@
+{
+  "dependencies": [
+    "Blaze Cake Base"
+  ],
+  "tasks": {
+    "Blaze Cake": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "create:blaze_cake"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "Blaze Cake": {
+      "item": {
+        "id": "create:blaze_cake",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "This blaze cake will allow super heating of the mixer"
+    },
+    "description": [
+      "Now that you have your first blaze cake base",
+      "its time to create your first blaze cake.",
+      "",
+      "Using a spout and a depot, fill your cake base",
+      "with 333 mb of lava thus creating the blaze cake.",
+      "",
+      "This cake will allow you to super heat a mixer allowing",
+      "access to more create recipes and also take you into Create ",
+      "Foundry."
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          50,
+          150
+        ]
+      }
+    },
+    "icon": {
+      "item": "create:blaze_cake",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Blaze Cake"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

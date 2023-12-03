@@ -1,0 +1,62 @@
+{
+  "dependencies": [
+    "Rolling Mill"
+  ],
+  "tasks": {
+    "portal interface": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "createaddition:portable_energy_interface"
+    },
+    "copper spool": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "createaddition:copper_spool"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "brass casing": {
+      "item": {
+        "id": "create:brass_casing",
+        "count": 3
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The Portable energy interface transfers energy to and from contraptions."
+    ],
+    "groups": {
+      "Create Addons": {
+        "position": [
+          -56,
+          48
+        ]
+      }
+    },
+    "icon": {
+      "item": "createaddition:portable_energy_interface",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Portable Energy Interface"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

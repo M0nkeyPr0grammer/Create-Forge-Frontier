@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "Molten Ancient Debris"
+  ],
+  "tasks": {
+    "netherite": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "createfoundry:molten_netherite_bucket"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "netherite": {
+      "item": {
+        "id": "minecraft:netherite_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "In order to get a bucket of molten netherite, you need to mix molten",
+      "gold and molten ancient debris in a mixer while super heated.",
+      "",
+      "This bucket can be converted into one block of netherite and",
+      "one netherite ingot."
+    ],
+    "groups": {
+      "Create Foundry": {
+        "position": [
+          20,
+          30
+        ]
+      }
+    },
+    "icon": {
+      "item": "createfoundry:molten_netherite_bucket",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Molten Netherite"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

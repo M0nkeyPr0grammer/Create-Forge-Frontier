@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "Andesite Casing"
+  ],
+  "tasks": {
+    "harv": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "create:mechanical_harvester"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Crop harvesting"
+    },
+    "description": [
+      "The harvester will automatically harvest crops when added to a machine"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -100,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": "create:mechanical_harvester",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Harvester"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Copper barrel"
+  ],
+  "tasks": {
+    "iron barrel": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "reinfbarrel:iron_barrel"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "Give Iron": {
+      "item": {
+        "id": "minecraft:iron_ingot",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "The second barrel upgrade"
+    },
+    "description": [
+      "Has 53 slots"
+    ],
+    "groups": {
+      "Better Storage": {
+        "position": [
+          -300,
+          -120
+        ]
+      }
+    },
+    "icon": {
+      "item": "reinfbarrel:iron_barrel",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Iron barrel"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

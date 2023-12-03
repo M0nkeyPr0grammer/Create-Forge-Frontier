@@ -1,0 +1,54 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "copper shulker": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "#reinfshulker:copper_shulker_boxes"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "Give Copper": {
+      "item": {
+        "id": "minecraft:copper_ingot",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "The first shulker upgrade"
+    },
+    "description": [
+      "Has 45 slots"
+    ],
+    "groups": {
+      "Better Storage": {
+        "position": [
+          -350,
+          -70
+        ]
+      }
+    },
+    "icon": {
+      "item": "reinfshulker:copper_shulker_box",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Copper shulker"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

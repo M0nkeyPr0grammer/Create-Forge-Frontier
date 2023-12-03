@@ -1,0 +1,12 @@
+{
+  "name": "Hydraulic Engine",
+  "icon": "immersive_aircraft:eco_engine",
+  "category": "patchouli:upgrades",
+  "pages": [
+  "The hydraulic engine is used to decrease engine power by 20% and decrease fuel requirement by 75%, plus can be used on most $(l:aircrafts)aircrafts/$. Additionally it requires many create items and the $(l:patchouli:items/basic_engine)basic engine/$ in the recipe.",
+  {
+      "type": "patchouli:crafting",
+	  "recipe": "minecraft:kjs_immersive_aircraft_eco_engine"
+    }
+  ]
+}

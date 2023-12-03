@@ -1,0 +1,74 @@
+{
+  "dependencies": [
+    "Sandpaper Overhaul"
+  ],
+  "tasks": {
+    "polishing wheel": {
+      "type": "heracles:item",
+      "item": "create_so:polishing_wheel",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_so:polishing_wheel",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The polishing wheel is used to mass polish",
+      "items instead of having to make a ton of sandpaper.",
+      "",
+      "These wheels act similar to crushing wheels but polish",
+      "the items instead."
+    ],
+    "groups": {
+      "Create Addons": {
+        "position": [
+          380,
+          -35
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create_so:polishing_wheel",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Polishing Wheel"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

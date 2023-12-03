@@ -1,0 +1,47 @@
+{
+  "dependencies": [
+    "Enter the Nether"
+  ],
+  "tasks": {
+    "Enter a Nether Fortress": {
+      "structures": "#betterfortresses:better_fortresses",
+      "type": "heracles:structure"
+    }
+  },
+  "rewards": {
+    "Fortress xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Find and enter a Nether Fortress"
+    },
+    "description": [
+      "Find a nether fortress and enter it"
+    ],
+    "groups": {
+      "The Nether": {
+        "position": [
+          -300,
+          5
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:nether_bricks",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Find a nether fortress"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

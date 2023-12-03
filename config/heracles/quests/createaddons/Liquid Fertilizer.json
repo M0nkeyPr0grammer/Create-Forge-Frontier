@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "Create Slice & Dice"
+  ],
+  "tasks": {
+    "fertilizer": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "sliceanddice:fertilizer_bucket"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "fertilizer": {
+      "item": {
+        "id": "create:tree_fertilizer",
+        "count": 16
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Liquid Fertilizer, a new fluid, applies a bonemeal affect to blocks.",
+      "This is created by mixing tree fertilizer and water together."
+    ],
+    "groups": {
+      "Create Addons": {
+        "position": [
+          184,
+          45
+        ]
+      }
+    },
+    "icon": {
+      "item": "sliceanddice:fertilizer_bucket",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Liquid Fertilizer"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

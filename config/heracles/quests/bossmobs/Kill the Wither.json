@@ -1,0 +1,55 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "Kill Wither": {
+      "entity": {
+        "type": "minecraft:wither"
+      },
+      "amount": 1,
+      "type": "heracles:kill_entity"
+    }
+  },
+  "rewards": {
+    "Wither xp": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    },
+    "Give Wither Skull": {
+      "item": {
+        "id": "minecraft:wither_skeleton_skull",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Kill the Wither"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Boss Mobs": {
+        "position": [
+          -200,
+          100
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:wither_skeleton_skull",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Kill the Wither"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

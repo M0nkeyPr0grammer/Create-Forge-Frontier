@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Large Cogwheel"
+  ],
+  "tasks": {
+    "cop cas": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "create:copper_casing"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "Give Copper": {
+      "item": {
+        "id": "minecraft:copper_ingot",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Right click a copper on to a stripped log"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -100,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": "create:copper_casing",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Copper casing"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

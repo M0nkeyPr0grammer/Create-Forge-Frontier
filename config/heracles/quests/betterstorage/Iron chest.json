@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Copper chest"
+  ],
+  "tasks": {
+    "iron chest": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "reinfchest:iron_chest"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "Give Iron": {
+      "item": {
+        "id": "minecraft:iron_ingot",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "The second chest upgrade"
+    },
+    "description": [
+      "Has 53 slots"
+    ],
+    "groups": {
+      "Better Storage": {
+        "position": [
+          -300,
+          -170
+        ]
+      }
+    },
+    "icon": {
+      "item": "reinfchest:iron_chest",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Iron chest"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

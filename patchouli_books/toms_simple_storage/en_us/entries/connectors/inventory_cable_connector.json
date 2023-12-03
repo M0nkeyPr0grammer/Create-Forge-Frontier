@@ -1,0 +1,12 @@
+{
+  "name": "Inventory Cable Connector",
+  "icon": "toms_storage:ts.inventory_cable_connector",
+  "category": "patchouli:connectors",
+  "pages": [
+  "The inventory cable connector connects the inventory to the inventory network, or gives it access to the network. Required to connect cables to $(l:terminals)terminals/$. Place it on a lvl 1 beacon to make a link accessable anywhere in the same dimension and a lvl 2 beacon accessable anywhere. Both sides of the chunk have to be loaded. Additionally requires a $(l:patchouli:cables/inventory_cable)inventory cable/$ in its recipe.",
+    {
+      "type": "patchouli:crafting",
+	  "recipe": "minecraft:kjs_toms_storage_ts.inventory_cable_connector"
+    }
+  ]
+}

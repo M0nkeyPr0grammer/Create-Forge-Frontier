@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Deployer"
+  ],
+  "tasks": {
+    "pres m": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "create:precision_mechanism"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "Give Mechanism": {
+      "item": {
+        "id": "create:precision_mechanism",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Used in some crafting recipes"
+    },
+    "description": [
+      "The precision mechanism is used in making some more advanced items like the rotational speed controller and it requires a gold sheet to have 3 items deployed onto it in a specific order of small cogwheel then large cogwheel and lastly an iron nugget. That process is repeated 5x and has an 80% chance to work at the end"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          140,
+          -40
+        ]
+      }
+    },
+    "icon": {
+      "item": "create:precision_mechanism",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Precision Mechanism"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

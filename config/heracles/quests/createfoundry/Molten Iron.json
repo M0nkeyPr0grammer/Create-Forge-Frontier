@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "Molten Copper"
+  ],
+  "tasks": {
+    "Iron": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "createfoundry:molten_iron_bucket"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "Iron": {
+      "item": {
+        "id": "minecraft:iron_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "In order to get a bucket of molten iron, you need to mix iron",
+      "ore or raw iron in a mixer while super heated.",
+      "",
+      "This bucket can be converted into one block of iron and",
+      "one iron ingot."
+    ],
+    "groups": {
+      "Create Foundry": {
+        "position": [
+          -20,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": "createfoundry:molten_iron_bucket",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Molten Iron"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "Chop a tree": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "#minecraft:completes_find_tree_tutorial"
+    }
+  },
+  "rewards": {
+    "Collect a log reward": {
+      "item": {
+        "id": "minecraft:oak_log",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Chop down a tree"
+    },
+    "description": [
+      "Chop down a log to start you on your adventure"
+    ],
+    "groups": {
+      "Overworld": {
+        "position": [
+          -350,
+          -20
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:oak_log",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Get a log"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

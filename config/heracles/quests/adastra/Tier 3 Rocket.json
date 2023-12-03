@@ -1,0 +1,71 @@
+{
+  "dependencies": [
+    "Ostrum"
+  ],
+  "tasks": {
+    "tier 3": {
+      "type": "heracles:item",
+      "item": "ad_astra:tier_3_rocket",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "ad_astra:tier_3_rocket",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "This rocket will allow you to travel to Mercury",
+      "and Venus."
+    ],
+    "groups": {
+      "Ad Astra": {
+        "position": [
+          90,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ad_astra:tier_3_rocket",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Tier 3 Rocket"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

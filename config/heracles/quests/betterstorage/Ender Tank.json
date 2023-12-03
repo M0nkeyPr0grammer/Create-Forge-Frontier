@@ -1,0 +1,64 @@
+{
+  "dependencies": [
+    "Ender Bucket"
+  ],
+  "tasks": {
+    "ender tank": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "endertanks:ender_tank"
+    }
+  },
+  "rewards": {
+    "eye": {
+      "item": {
+        "id": "minecraft:ender_eye",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Dimensional liquid tank. Contents are accessible from any other of the same color and network.",
+      "Use dyes on the bands to change colors. Unique bands, unique contents.",
+      "Storage can be expanded, and made private or team access.",
+      "Upgrades are applied by a Shift+Right-click with an item.",
+      "An Enderpearl or Endereye will add storage space. 8 and 16 buckets respectively, up to 256 buckets.",
+      "A Piston speeds up fluid transfur. Up to 4 buckets a sec.",
+      "A Diamond will make it a private network. An Emerald will make it a team network.",
+      "Private network allows color codes unique for each player.",
+      "Team network functions like private network but for players of the team. (/spc_teams)"
+    ],
+    "groups": {
+      "Better Storage": {
+        "position": [
+          -100,
+          30
+        ]
+      }
+    },
+    "icon": {
+      "item": "endertanks:ender_tank",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Ender Tank"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

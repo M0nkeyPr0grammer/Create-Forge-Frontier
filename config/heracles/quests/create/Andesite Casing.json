@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Andesite Alloy"
+  ],
+  "tasks": {
+    "a cas": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "create:andesite_casing"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "Give Alloy": {
+      "item": {
+        "id": "create:andesite_alloy",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Right click a stripped log with an andesite alloy"
+    },
+    "description": [
+      "Andesite casing is one of the most used items in the start of create it is used to make a bunch of helpful blocks to make progress"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -200,
+          50
+        ]
+      }
+    },
+    "icon": {
+      "item": "create:andesite_casing",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Andesite Casing"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

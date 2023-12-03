@@ -1,0 +1,54 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "connector": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "toms_storage:ts.inventory_connector"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "give brass": {
+      "item": {
+        "id": "create:brass_ingot",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "The brain of the network"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Better Storage": {
+        "position": [
+          -350,
+          -20
+        ]
+      }
+    },
+    "icon": {
+      "item": "toms_storage:ts.inventory_connector",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Inventory Connector"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

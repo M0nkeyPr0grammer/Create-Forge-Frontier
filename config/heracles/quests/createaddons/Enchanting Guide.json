@@ -1,0 +1,85 @@
+{
+  "dependencies": [
+    "Enchantment Industry"
+  ],
+  "tasks": {
+    "enchanting guide": {
+      "type": "heracles:item",
+      "item": "create_enchantment_industry:enchanting_guide",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_enchantment_industry:enchanting_guide",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "bottle": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_enchantment_industry:hyper_experience_bottle",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create_enchantment_industry:hyper_experience_bottle",
+        "count": 3
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "This enchanting guide allows you to automate crafting on enchantment books when given to a blaze. Once the blaze is provided liquid experience and a book it will create the newly chosen enchanted book."
+    ],
+    "groups": {
+      "Create Addons": {
+        "position": [
+          -400,
+          5
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create_enchantment_industry:enchanting_guide",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Enchanting Guide"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

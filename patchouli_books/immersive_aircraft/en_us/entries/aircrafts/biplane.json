@@ -1,0 +1,12 @@
+{
+  "name": "Biplane",
+  "icon": "immersive_aircraft:biplane",
+  "category": "patchouli:aircrafts",
+  "pages": [
+  "The biplane is a fast and rather reliable aircraft. It requires the $(l:patchouli:items/large_sail)large sail/$, $(l:patchouli:items/hull)hull/$, and a few create items in its recipe. Additionally you can use and of the $(l:upgrades)upgrades/$ in it.",
+    {
+      "type": "patchouli:image",
+	  "images": ["immersive_aircraft:patchouli_books/immersive_aircraft/images/immersive_aircraft_biplane.png"]
+    }
+  ]
+}

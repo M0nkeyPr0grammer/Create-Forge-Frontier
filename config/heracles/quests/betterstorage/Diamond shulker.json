@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Gold shulker"
+  ],
+  "tasks": {
+    "Diamond shulker": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "#reinfshulker:diamond_shulker_boxes"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "Give Diamond": {
+      "item": {
+        "id": "minecraft:diamond",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "The fourth shulker upgrade"
+    },
+    "description": [
+      "Has 108 slots"
+    ],
+    "groups": {
+      "Better Storage": {
+        "position": [
+          -200,
+          -70
+        ]
+      }
+    },
+    "icon": {
+      "item": "reinfshulker:diamond_shulker_box",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Diamond shulker"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

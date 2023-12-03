@@ -1,0 +1,156 @@
+{
+  "dependencies": [
+    "Tier 1 Rocket"
+  ],
+  "tasks": {
+    "Space": {
+      "type": "heracles:item",
+      "item": "ad_astra:space_helmet",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "ad_astra:space_helmet",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
+        },
+        "type": "heracles:item"
+      }
+    },
+    "space s": {
+      "type": "heracles:item",
+      "item": "ad_astra:space_pants",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "ad_astra:space_pants",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
+        },
+        "type": "heracles:item"
+      }
+    },
+    "space su": {
+      "type": "heracles:item",
+      "item": "ad_astra:space_boots",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "ad_astra:space_boots",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
+        },
+        "type": "heracles:item"
+      }
+    },
+    "space": {
+      "type": "heracles:item",
+      "item": "ad_astra:space_suit",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "ad_astra:space_suit",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "tank": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "ad_astra_giselle_addon:oxygen_can",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "ad_astra_giselle_addon:oxygen_can",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The space suit will allow you to travel",
+      "to space, make sure you fill it up with",
+      "oxygen using the oxygen loader before leaving the Overworld"
+    ],
+    "groups": {
+      "Ad Astra": {
+        "position": [
+          -30,
+          30
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ad_astra:space_helmet",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Space Suit"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "dependencies": [
+    "Rolling Mill"
+  ],
+  "tasks": {
+    "tesla coil": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "createaddition:tesla_coil"
+    },
+    "copper spool": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "createaddition:copper_spool"
+    },
+    "capacitor": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "createaddition:capacitor"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Can be used to charge items,",
+      "which is not used in this pack right now, and",
+      "when powered by redstone shocks neaby players and mobs."
+    ],
+    "groups": {
+      "Create Addons": {
+        "position": [
+          -21,
+          108
+        ]
+      }
+    },
+    "icon": {
+      "item": "createaddition:tesla_coil",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Tesla Coil"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

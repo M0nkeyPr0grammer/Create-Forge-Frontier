@@ -1,0 +1,74 @@
+{
+  "dependencies": [
+    "Rolling Mill"
+  ],
+  "tasks": {
+    "motor": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "createaddition:electric_motor"
+    },
+    "spool": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "createaddition:copper_spool"
+    },
+    "rod": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "createaddition:iron_rod"
+    },
+    "capactior": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "createaddition:capacitor"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "wire": {
+      "item": {
+        "id": "createaddition:gold_spool",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Generates kinetic energy from Forge Energy."
+    ],
+    "groups": {
+      "Create Addons": {
+        "position": [
+          42,
+          106
+        ]
+      }
+    },
+    "icon": {
+      "item": "createaddition:electric_motor",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Electric Motor"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

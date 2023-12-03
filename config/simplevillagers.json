@@ -1,0 +1,29 @@
+{
+  "// How many ticks between each golem spawn. Defaults to 4 minutes.": "",
+  "golem_timer": 4800,
+  "// How many ticks does golem 'live'. Defaults to 12 seconds.": "",
+  "golem_death_ticks": 240,
+  "// How many ticks must pass between each breeding cycle. Defaults to 5 minutes.": "",
+  "breeding_timer": 6000,
+  "// Age of new baby villagers. Default is 20 minutes to grow up (like in vanilla).": "",
+  "born_baby_age": -24000,
+  "// How much should age be increased by each tick in *incubator* block. Vanilla would be 1.": "",
+  "baby_age_increase": 2,
+  "// Settings for zombie villager converter (curing).": "",
+  "converter": {
+    "// How many ticks does zombie -> villager conversion take.": "",
+    "time": 6000,
+    "// Whether players must be online when conversion finishes to get discounts.": "",
+    "// Vanilla acts strangely here as it defaults to true, but that doesn't make much sense.": "",
+    "requires_player_be_online": false,
+    "// Whether to require *splash* potion of weakness.": "",
+    "require_splash_potion_type": true
+  },
+  "restock": {
+    "// How many ticks must pass between each restocking.": "",
+    "timer": 6000,
+    "How many times per day restocking can occur.": "",
+    "maxAmount": 2,
+    "minWaitTime": 12000
+  }
+}

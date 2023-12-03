@@ -1,0 +1,70 @@
+{
+  "dependencies": [
+    "Mechanical Crafter"
+  ],
+  "tasks": {
+    "crush": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "create:crushing_wheel"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "Give Crushed Ore": {
+      "item": {
+        "id": "create:crushed_raw_zinc",
+        "count": 16
+      },
+      "type": "heracles:item"
+    },
+    "Give Ore": {
+      "item": {
+        "id": "create:crushed_raw_iron",
+        "count": 16
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Crushing stuff"
+    },
+    "description": [
+      "The crushing wheel is used to start processing raw resources more automatically",
+      " ",
+      "Some natural spawning blocks from create can be crushed to get resources the list is:",
+      " ",
+      "/4/Crimsite/4/ is crushed to get a 40% chance at raw crushed Iron and a nugget",
+      "/b/Asurine/b/ is crushed to get a 30% chance at raw crushed Zinc and a nugget",
+      "/a/Veridium/a/ is crushed to get a 80% chance at raw crushed Copper and a nugget",
+      "/e/Ochrum/e/ is crushed to get a 20% chance at raw crushed Gold and a nugget"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          255,
+          40
+        ]
+      }
+    },
+    "icon": {
+      "item": "create:crushing_wheel",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Crushing Wheel"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

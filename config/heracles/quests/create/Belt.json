@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "Shaft"
+  ],
+  "tasks": {
+    "belt": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "create:belt_connector"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "Give Belt": {
+      "item": {
+        "id": "create:belt_connector",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Crafted with 6 dried kelp"
+    },
+    "description": [
+      "An efficient way to transport items",
+      " ",
+      "You can also use the belts to transfer rotation force by connecting them to 2 shafts at either end of where you want to belt to go along",
+      " ",
+      "They do go diagonal up or down but not always at some angles you can tell if it will as there will be rainbow particles showing it can be place"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -250,
+          50
+        ]
+      }
+    },
+    "icon": {
+      "item": "create:belt_connector",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Belt"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

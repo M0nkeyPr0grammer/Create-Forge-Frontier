@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "Molten Emerald"
+  ],
+  "tasks": {
+    "carbon": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "createfoundry:molten_carbon_bucket"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "coal": {
+      "item": {
+        "id": "minecraft:coal_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "In order to get a bucket of molten carbon, you need to mix coal",
+      "ore in a mixer while super heated.",
+      "",
+      "This bucket can be converted into one block of coal and",
+      "one coal or molten diamond when pressed."
+    ],
+    "groups": {
+      "Create Foundry": {
+        "position": [
+          180,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": "createfoundry:molten_carbon_bucket",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Molten Carbon"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

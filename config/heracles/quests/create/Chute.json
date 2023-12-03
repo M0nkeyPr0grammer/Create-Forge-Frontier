@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Mechanical Press"
+  ],
+  "tasks": {
+    "chute": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "create:chute"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "Give Iron": {
+      "item": {
+        "id": "minecraft:iron_ingot",
+        "count": 3
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "A way to move items"
+    },
+    "description": [
+      "The chute acts similar to a hopper and dropper combined, as you can stack them on top of each other and they will continue to funnel the items down and drop them once they reach the end but they can also push items up if there is an encased fan blowing air up through the chute"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -250,
+          100
+        ]
+      }
+    },
+    "icon": {
+      "item": "create:chute",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Chute"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

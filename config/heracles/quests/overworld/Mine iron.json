@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "Craft a stone pickaxe"
+  ],
+  "tasks": {
+    "Raw iron": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "minecraft:raw_iron"
+    }
+  },
+  "rewards": {
+    "Raw iron xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Mine iron to upgrade your tools and armour"
+    },
+    "description": [
+      "Mine and collect some iron to improve your gear"
+    ],
+    "groups": {
+      "Overworld": {
+        "position": [
+          -50,
+          -20
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:raw_iron",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Mine iron"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

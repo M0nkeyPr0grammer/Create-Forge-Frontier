@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Iron chest"
+  ],
+  "tasks": {
+    "gold chest": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "reinfchest:gold_chest"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "Give Gold": {
+      "item": {
+        "id": "minecraft:gold_ingot",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "The third chest upgrade"
+    },
+    "description": [
+      "Has 81 slots"
+    ],
+    "groups": {
+      "Better Storage": {
+        "position": [
+          -250,
+          -170
+        ]
+      }
+    },
+    "icon": {
+      "item": "reinfchest:gold_chest",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Gold chest"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

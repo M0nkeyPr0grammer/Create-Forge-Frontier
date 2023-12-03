@@ -1,0 +1,88 @@
+{
+  "dependencies": [
+    "Enter the End"
+  ],
+  "tasks": {
+    "dragons breath": {
+      "type": "heracles:item",
+      "item": "minecraft:dragon_breath",
+      "amount": 9,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:dragon_breath",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "dragons breath": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:dragon_breath",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:dragon_breath",
+        "count": 9
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Gathering Dragon's Breath",
+      "will help you with future Creative",
+      "items, and crafting of a Dragon Head",
+      ""
+    ],
+    "groups": {
+      "The End": {
+        "position": [
+          -300,
+          -95
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:dragon_breath",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Dragon's Breath"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

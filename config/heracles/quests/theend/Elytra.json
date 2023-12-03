@@ -1,0 +1,88 @@
+{
+  "dependencies": [
+    "End city"
+  ],
+  "tasks": {
+    "elytra": {
+      "type": "heracles:item",
+      "item": "minecraft:elytra",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "Give Fireworks": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:firework_rocket",
+        "count": 32
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Find an elytra to start flying"
+    },
+    "description": [
+      "Find an elytra in a ship that is attached to the /9/End City/9/ to be able to take to the skies and speed up your travel time"
+    ],
+    "groups": {
+      "The End": {
+        "position": [
+          -250,
+          60
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:elytra",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Elytra"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

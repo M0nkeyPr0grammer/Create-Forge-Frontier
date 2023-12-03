@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Andesite Alloy"
+  ],
+  "tasks": {
+    "cog": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "create:cogwheel"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "Give Cogwheel": {
+      "item": {
+        "id": "create:cogwheel",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "The smaller of the cogwheels"
+    },
+    "description": [
+      "You can place small cogwheels next to each other to keep rotational force sideways but the rotations will change from cogwheel to cogwheel"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -200,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": "create:cogwheel",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Cogwheel"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

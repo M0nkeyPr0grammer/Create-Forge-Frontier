@@ -1,0 +1,71 @@
+{
+  "dependencies": [
+    "Tier 3 Rocket"
+  ],
+  "tasks": {
+    "venus": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "ad_astra:venus"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Venus, is a planent that gives you access to Calorite, which",
+      "will allow for future space travel."
+    ],
+    "groups": {
+      "Ad Astra": {
+        "position": [
+          120,
+          30
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ad_astra:venus_globe",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Venus"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "Vanilla Ender Chest"
+  ],
+  "tasks": {
+    "ender pouch": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "enderchests:ender_pouch"
+    }
+  },
+  "rewards": {
+    "eye": {
+      "item": {
+        "id": "minecraft:ender_eye",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Pouches provide remote access to the Vanilla EnderChest.",
+      "They are also used to craft this mods EnderBags and EnderChests."
+    ],
+    "groups": {
+      "Better Storage": {
+        "position": [
+          -300,
+          30
+        ]
+      }
+    },
+    "icon": {
+      "item": "enderchests:ender_pouch",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Ender Pouch"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

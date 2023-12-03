@@ -1,0 +1,43 @@
+{
+  "dependencies": [
+    "Create Addons"
+  ],
+  "tasks": {
+    "netherite": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Create Addons": {
+        "position": [
+          240,
+          -35
+        ]
+      }
+    },
+    "icon": {
+      "item": "createutilities:void_steel_ingot",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "Create Utilities"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

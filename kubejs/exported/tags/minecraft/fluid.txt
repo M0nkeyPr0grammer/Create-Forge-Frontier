@@ -1,0 +1,15 @@
+To refresh this file, delete it and run /reload command again! Last updated: Jun 12, 2023, 12:25:40 PM
+
+#minecraft:lava
+- minecraft:lava (from Default)
+- minecraft:flowing_lava (from Default)
+
+#minecraft:water
+- minecraft:water (from Default)
+- minecraft:flowing_water (from Default)
+
+#c:water
+- #minecraft:water? (from Fabric Convention Tags)
+
+#c:lava
+- #minecraft:lava? (from Fabric Convention Tags)

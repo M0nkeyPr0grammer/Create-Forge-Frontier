@@ -1,0 +1,62 @@
+{
+  "dependencies": [
+    "Brass Casing",
+    "Sturdy Sheet"
+  ],
+  "tasks": {
+    "Train Casing": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "create:railway_casing"
+    }
+  },
+  "rewards": {
+    "Train Casing": {
+      "item": {
+        "id": "create:railway_casing",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "To craft a train casing you right click a brass casing with",
+      "a sturdy sheet.",
+      "",
+      "This train casing will be used in both the creation",
+      "of your first train and also for other parts",
+      "of the train"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          200,
+          -40
+        ]
+      }
+    },
+    "icon": {
+      "item": "create:railway_casing",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Train Casing"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

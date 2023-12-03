@@ -1,0 +1,52 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "Extended Drawers": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "#extended_drawers:drawers"
+    }
+  },
+  "rewards": {
+    "Drawers xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Drawers are 1 block storage solution"
+    },
+    "description": [
+      "                 /a/Extended Drawers are a way to store a larger number of items in 1 place/a/",
+      " ",
+      "There are multiple different types of drawers. ",
+      "There is a 1x1 drawer which stores only 1 item in it at a high ammount.",
+      "There is also a 2x1 it will store 2 different items but the total stack size is split between the 2. ",
+      "The 2x2 drawer can hold the most unique items but the total stack size is slit between the 4 items so will store less of each item"
+    ],
+    "groups": {
+      "Better Storage": {
+        "position": [
+          -350,
+          -220
+        ]
+      }
+    },
+    "icon": {
+      "item": "extended_drawers:single_drawer",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Extended Drawers"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

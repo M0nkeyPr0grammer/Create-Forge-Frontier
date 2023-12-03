@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "Molten Carbon"
+  ],
+  "tasks": {
+    "diamond": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "createfoundry:molten_diamond_bucket"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "diamond": {
+      "item": {
+        "id": "minecraft:diamond_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "In order to get a bucket of molten diamond, you need to mix diamond",
+      "ore in a mixer while super heated or press molten carbon, while superheated.",
+      "",
+      "This bucket can be converted into one block of diamond and",
+      "one diamond."
+    ],
+    "groups": {
+      "Create Foundry": {
+        "position": [
+          180,
+          -10
+        ]
+      }
+    },
+    "icon": {
+      "item": "createfoundry:molten_diamond_bucket",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Molten Diamond"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

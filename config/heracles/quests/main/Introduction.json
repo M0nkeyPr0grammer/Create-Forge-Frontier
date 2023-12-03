@@ -1,0 +1,48 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "Break a log": {
+      "block": "#minecraft:completes_find_tree_tutorial",
+      "state": {},
+      "type": "heracles:block_interaction"
+    }
+  },
+  "rewards": {
+    "10xp starter": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Welcome to Landscapes Reimagined"
+    },
+    "description": [
+      "                                  /b/Welcome to Landscapes Reimagined/b/",
+      " ",
+      "The questbook is here to help you throughout your journey through the modpack"
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          -28,
+          -129
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:map",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Introduction"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "Create Ore Excavation"
+  ],
+  "tasks": {
+    "ore finder": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "createoreexcavation:vein_finder"
+    }
+  },
+  "rewards": {
+    "eye": {
+      "item": {
+        "id": "minecraft:ender_eye",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Upon completion of crafting the ore vein",
+      "finder, this will help you locate an",
+      "ore vein, which allows you to extract ore via",
+      "the drilling machine, which will be created in the",
+      "next quest."
+    ],
+    "groups": {
+      "Create Addons": {
+        "position": [
+          -180,
+          5
+        ]
+      }
+    },
+    "icon": {
+      "item": "createoreexcavation:vein_finder",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Create Ore Vein Finder"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

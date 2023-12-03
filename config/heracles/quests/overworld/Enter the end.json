@@ -1,0 +1,48 @@
+{
+  "dependencies": [
+    "Find the Stronghold"
+  ],
+  "tasks": {
+    "end": {
+      "from": "minecraft:overworld",
+      "to": "minecraft:the_end",
+      "type": "heracles:changed_dimension"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Enter the End"
+    },
+    "description": [
+      "Enter the end"
+    ],
+    "groups": {
+      "Overworld": {
+        "position": [
+          200,
+          -71
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:end_portal_frame",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Enter the end"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

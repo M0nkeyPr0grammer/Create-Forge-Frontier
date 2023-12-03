@@ -1,0 +1,84 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "backpack": {
+      "type": "heracles:item",
+      "item": "travelersbackpack:standard",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "travelersbackpack:standard",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "upgrade": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "travelersbackpack:blank_upgrade",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "travelersbackpack:blank_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The standard travelers back has a 9 x 3 storage area",
+      "and storage for 2 buckets of water and lava."
+    ],
+    "groups": {
+      "Better Storage": {
+        "position": [
+          -350,
+          80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "travelersbackpack:standard",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Standard Traveler Backpack"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

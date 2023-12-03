@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "Large Cogwheel"
+  ],
+  "tasks": {
+    "water w": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "create:water_wheel"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "Give Water Wheel": {
+      "item": {
+        "id": "create:water_wheel",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "A method of generation stress"
+    },
+    "description": [
+      "When you place the water wheel you can flow water over it to start producing stress units, it will produce the same stress whether 1 or more sides are covered in water",
+      " ",
+      "You can change the aesthetic of the water wheel by right clicking it with a plank and it will appear like that plank type"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -150,
+          -100
+        ]
+      }
+    },
+    "icon": {
+      "item": "create:water_wheel",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Water wheel"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

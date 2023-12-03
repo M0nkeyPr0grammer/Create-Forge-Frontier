@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "Andesite Casing"
+  ],
+  "tasks": {
+    "mill": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "create:millstone"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Can make dye and other things"
+    },
+    "description": [
+      "The millstone has the ability to crush many items"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -51,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": "create:millstone",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Millstone"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

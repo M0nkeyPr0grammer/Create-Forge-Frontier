@@ -1,0 +1,82 @@
+{
+  "dependencies": [
+    "Rolling Mill"
+  ],
+  "tasks": {
+    "copper rod": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "createaddition:copper_rod"
+    },
+    "acculator": {
+      "type": "heracles:item",
+      "amount": 4,
+      "collection": "AUTOMATIC",
+      "item": "createaddition:modular_accumulator"
+    },
+    "gold wire": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "createaddition:gold_wire"
+    },
+    "capacitor": {
+      "type": "heracles:item",
+      "amount": 2,
+      "collection": "AUTOMATIC",
+      "item": "createaddition:capacitor"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "brass casing": {
+      "item": {
+        "id": "create:brass_casing",
+        "count": 2
+      },
+      "type": "heracles:item"
+    },
+    "capacitor": {
+      "item": {
+        "id": "createaddition:capacitor",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The accumulator is a multi block block, using",
+      "4 acculators. This multiblock is used to store energy."
+    ],
+    "groups": {
+      "Create Addons": {
+        "position": [
+          10,
+          124
+        ]
+      }
+    },
+    "icon": {
+      "item": "createaddition:modular_accumulator",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Accumulator"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

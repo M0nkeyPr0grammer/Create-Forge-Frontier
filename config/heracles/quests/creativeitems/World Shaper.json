@@ -1,0 +1,100 @@
+{
+  "dependencies": [
+    "Creative Crate"
+  ],
+  "tasks": {
+    "worldshaper": {
+      "type": "heracles:item",
+      "item": "create:handheld_worldshaper",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:handheld_worldshaper",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "LEVEL",
+      "amount": 10000,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "crate": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:creative_crate",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:creative_crate",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "A Creative Worldshaper can Place, Merge and Attach Blocks.",
+      "It can also place cubes, cylinders and spheres ",
+      "up to X32 Y32 Z32.",
+      "",
+      "To set what the Worldshaper places, left click the",
+      "desired block and right click to place blocks. ",
+      "Shift right click to adjust the settings.",
+      "",
+      "The Worldshaper can be crafted using these items",
+      "- 21 Dragons Breath",
+      "- 3 Nether Stars",
+      "- 2 Creative Blaze Cakes",
+      "- 1 Netherite Diamond Shovel",
+      "- 1 Warden Shovel",
+      "- 1 Creative Generator",
+      "- 1 Creative Crate"
+    ],
+    "groups": {
+      "Creative Items": {
+        "position": [
+          -250,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:handheld_worldshaper",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Creative Worldshaper"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

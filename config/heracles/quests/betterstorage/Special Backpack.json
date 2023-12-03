@@ -1,0 +1,84 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "backpack": {
+      "type": "heracles:item",
+      "item": "travelersbackpack:wither",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "travelersbackpack:wither",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "wither skull": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:wither_skeleton_skull",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:wither_skeleton_skull",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 50,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "One of the many special backpacks that grant abilities,",
+      "the Wither Traveler's Backpack grants wither ammunity."
+    ],
+    "groups": {
+      "Better Storage": {
+        "position": [
+          -100,
+          80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "travelersbackpack:wither",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Wither Traveler Backpack"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

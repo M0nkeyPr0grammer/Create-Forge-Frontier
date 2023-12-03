@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "Ender Pouch"
+  ],
+  "tasks": {
+    "ender bag": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "enderchests:ender_bag"
+    }
+  },
+  "rewards": {
+    "eye": {
+      "item": {
+        "id": "minecraft:ender_eye",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Bags link to chests and thus are used to store or access items remotely.\r",
+      "Shift+Right-click on a chest with a bag to link them."
+    ],
+    "groups": {
+      "Better Storage": {
+        "position": [
+          -250,
+          30
+        ]
+      }
+    },
+    "icon": {
+      "item": "enderchests:ender_bag",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Ender Bag"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

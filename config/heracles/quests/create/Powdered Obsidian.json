@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "Crushing Wheel"
+  ],
+  "tasks": {
+    "powdered ob": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "create:powdered_obsidian"
+    }
+  },
+  "rewards": {
+    "lava bucket": {
+      "item": {
+        "id": "minecraft:lava_bucket",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Powdered obsidian is created by tossing",
+      "obsidian into the crushing wheels."
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          255,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": "create:powdered_obsidian",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Powdered Obsidian"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "Cogwheel"
+  ],
+  "tasks": {
+    "wrench": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "create:wrench"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "Give Gold": {
+      "item": {
+        "id": "minecraft:gold_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "The most used item in create"
+    },
+    "description": [
+      "The Wrench is used to pick up create items really easily, just shift right click a create block to pick it up",
+      " ",
+      "It can also rotate blocks by just regular right clicking on a side "
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -200,
+          -99
+        ]
+      }
+    },
+    "icon": {
+      "item": "create:wrench",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Wrench"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

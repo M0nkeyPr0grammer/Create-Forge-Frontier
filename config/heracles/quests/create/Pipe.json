@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Tank"
+  ],
+  "tasks": {
+    "pipe": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "create:fluid_pipe"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "Give Copper": {
+      "item": {
+        "id": "minecraft:copper_ingot",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Moving liquid in pipes"
+    },
+    "description": [
+      "The pipe and mechanical pump are used hand in hand to move liquids around, the pump does need to be given so rotational speed, depending on the way the rotation goes decides which way by default the pump wants to move the liquid, the wrench can be used on it to switch the way the liquid is moved by the pump"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -100,
+          -150
+        ]
+      }
+    },
+    "icon": {
+      "item": "create:fluid_pipe",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Pipe"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

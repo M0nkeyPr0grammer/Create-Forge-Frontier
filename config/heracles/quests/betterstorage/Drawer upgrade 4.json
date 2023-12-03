@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Drawer upgrade 3"
+  ],
+  "tasks": {
+    "Level 4 upgrade": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "extended_drawers:t4_upgrade"
+    }
+  },
+  "rewards": {
+    "Give shulker": {
+      "item": {
+        "id": "minecraft:shulker_box",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "Level 4 upgrade xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "The fourth tier of upgrade"
+    },
+    "description": [
+      "The fourth and last level of storage upgrade for drawers"
+    ],
+    "groups": {
+      "Better Storage": {
+        "position": [
+          50,
+          -220
+        ]
+      }
+    },
+    "icon": {
+      "item": "extended_drawers:t4_upgrade",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Drawer upgrade 4"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

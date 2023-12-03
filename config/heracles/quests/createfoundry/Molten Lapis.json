@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "Molten Redstone"
+  ],
+  "tasks": {
+    "lapis": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "createfoundry:molten_lapis_bucket"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "lapis": {
+      "item": {
+        "id": "minecraft:lapis_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "In order to get a bucket of molten lapis, you need to mix lapis",
+      "ore in a mixer while super heated.",
+      "",
+      "This bucket can be converted into one block of lapis and",
+      "one lapis lazuli."
+    ],
+    "groups": {
+      "Create Foundry": {
+        "position": [
+          100,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": "createfoundry:molten_lapis_bucket",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Molten Lapis"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

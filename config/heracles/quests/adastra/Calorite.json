@@ -1,0 +1,86 @@
+{
+  "dependencies": [
+    "Tier 3 Rocket"
+  ],
+  "tasks": {
+    "calorite": {
+      "type": "heracles:item",
+      "item": "ad_astra:calorite_ingot",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "ad_astra:calorite_ingot",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "calorite": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "ad_astra:venus_calorite_ore",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "ad_astra:venus_calorite_ore",
+        "count": 3
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "This new ore will allow you to craft a jet suit and the tier",
+      "4 rocket."
+    ],
+    "groups": {
+      "Ad Astra": {
+        "position": [
+          150,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ad_astra:calorite_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Calorite"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

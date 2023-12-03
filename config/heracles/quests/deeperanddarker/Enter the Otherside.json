@@ -1,0 +1,48 @@
+{
+  "dependencies": [
+    "Heart of the warden"
+  ],
+  "tasks": {
+    "Deeper and darker": {
+      "from": "minecraft:overworld",
+      "to": "deeperdarker:otherside",
+      "type": "heracles:changed_dimension"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Deeper and Darker": {
+        "position": [
+          -300,
+          -20
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:reinforced_deepslate",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Enter the Otherside"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

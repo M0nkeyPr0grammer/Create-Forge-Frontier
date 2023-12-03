@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Mechanical Bearing"
+  ],
+  "tasks": {
+    "glue": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "create:super_glue"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "Give Slime": {
+      "item": {
+        "id": "minecraft:slime_ball",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Getting stuck in"
+    },
+    "description": [
+      "Super glue is the key part of all create multi blocks as it makes sure all the parts stay as one when the machine is started"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -150,
+          150
+        ]
+      }
+    },
+    "icon": {
+      "item": "create:super_glue",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Super glue"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

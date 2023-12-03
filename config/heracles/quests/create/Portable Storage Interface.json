@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Chute"
+  ],
+  "tasks": {
+    "port s i": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "create:portable_storage_interface"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "Give Casing": {
+      "item": {
+        "id": "create:andesite_casing",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Move items from farms to storage"
+    },
+    "description": [
+      "The portable storage interface needs 2 to work correctly, one of them on the machine and the other one not attached to the machine and with a 1 block gap and aligned with each other before the machine is started so that on each rotation is will deposit the excess items into the stationary one"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -250,
+          150
+        ]
+      }
+    },
+    "icon": {
+      "item": "create:portable_storage_interface",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Portable Storage Interface"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

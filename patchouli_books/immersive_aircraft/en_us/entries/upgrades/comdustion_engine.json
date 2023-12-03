@@ -1,0 +1,12 @@
+{
+  "name": "Combustion Engine",
+  "icon": "immersive_aircraft:nether_engine",
+  "category": "patchouli:upgrades",
+  "pages": [
+  "The combustion engine is used to increase engine power by 40% and increase fuel requirement by 30%, plus can be used on most $(l:aircrafts)aircrafts/$. Additionally it requires many create items and the $(l:patchouli:items/basic_engine)basic engine/$ in the recipe.",
+    {
+      "type": "patchouli:crafting",
+	  "recipe": "minecraft:kjs_immersive_aircraft_nether_engine"
+    }
+  ]
+}

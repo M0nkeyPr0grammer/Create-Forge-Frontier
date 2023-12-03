@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Gold barrel"
+  ],
+  "tasks": {
+    "diamond barrel": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "reinfbarrel:diamond_barrel"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "Give Diamond": {
+      "item": {
+        "id": "minecraft:diamond",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "The fourth barrel upgrade"
+    },
+    "description": [
+      "Has 108 slots"
+    ],
+    "groups": {
+      "Better Storage": {
+        "position": [
+          -200,
+          -120
+        ]
+      }
+    },
+    "icon": {
+      "item": "reinfbarrel:diamond_barrel",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Diamond barrel"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

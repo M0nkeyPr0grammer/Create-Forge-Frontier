@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Drawer upgrade frame"
+  ],
+  "tasks": {
+    "Level 1 upgrade": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "extended_drawers:t1_upgrade"
+    }
+  },
+  "rewards": {
+    "Level 1 upgrade xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "Give Barrel": {
+      "item": {
+        "id": "minecraft:barrel",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "The first tier of upgrade"
+    },
+    "description": [
+      "The first level of storage upgrade for the drawers"
+    ],
+    "groups": {
+      "Better Storage": {
+        "position": [
+          -100,
+          -220
+        ]
+      }
+    },
+    "icon": {
+      "item": "extended_drawers:t1_upgrade",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Drawer upgrade 1"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

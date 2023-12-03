@@ -1,0 +1,72 @@
+{
+  "dependencies": [
+    "Ad Astra"
+  ],
+  "tasks": {
+    "tier 1": {
+      "type": "heracles:item",
+      "item": "ad_astra:tier_1_rocket",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "ad_astra:tier_1_rocket",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The Tier 1 Rocket is crafted using",
+      "the NASA Workbench, and will allow you",
+      "to travel to the moon."
+    ],
+    "groups": {
+      "Ad Astra": {
+        "position": [
+          -30,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ad_astra:tier_1_rocket",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Tier 1 Rocket"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

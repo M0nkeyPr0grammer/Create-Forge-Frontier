@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "Water wheel"
+  ],
+  "tasks": {
+    "large water": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "create:large_water_wheel"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "give large water wheel": {
+      "item": {
+        "id": "create:large_water_wheel",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Bigger but slower"
+    },
+    "description": [
+      "The large water wheel works the same as the regular water wheel but has a few differences, it will spin slower than a regular water wheel but it can produce a higher stress capacity before it stops from over stressing. It also doesn't matter if 1 or more sides are covered as it will produce the same amount of stress units",
+      " ",
+      "It can also be aesthetically changed to match any plank type you right click on it"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -150,
+          -150
+        ]
+      }
+    },
+    "icon": {
+      "item": "create:large_water_wheel",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Large water wheel"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

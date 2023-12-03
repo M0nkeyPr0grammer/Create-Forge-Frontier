@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "Create Ore Finder"
+  ],
+  "tasks": {
+    "drilling machine": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "createoreexcavation:drilling_machine"
+    }
+  },
+  "rewards": {
+    "drill head": {
+      "item": {
+        "id": "createoreexcavation:drill",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Upon completion of creating the drilling machine",
+      "you will be able to automatically generate ore,",
+      "via stress going into the drilling machine. ",
+      "Also, don't forget a drill head, I'll give you a basic",
+      "one to help you out."
+    ],
+    "groups": {
+      "Create Addons": {
+        "position": [
+          -180,
+          45
+        ]
+      }
+    },
+    "icon": {
+      "item": "createoreexcavation:drilling_machine",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Create Drilling Machine"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

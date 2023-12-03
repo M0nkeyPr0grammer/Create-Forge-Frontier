@@ -1,0 +1,163 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "2": {
+      "type": "heracles:item",
+      "item": "createaddition:creative_energy",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "createaddition:creative_energy",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    },
+    "item": {
+      "type": "heracles:item",
+      "item": "create:handheld_worldshaper",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:handheld_worldshaper",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    },
+    "4": {
+      "type": "heracles:item",
+      "item": "create:creative_blaze_cake",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:creative_blaze_cake",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    },
+    "5": {
+      "type": "heracles:item",
+      "item": "create:creative_crate",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:creative_crate",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    },
+    "6": {
+      "type": "heracles:item",
+      "item": "create:creative_fluid_tank",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:creative_fluid_tank",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    },
+    "7": {
+      "type": "heracles:item",
+      "item": "create:creative_motor",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:creative_motor",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    },
+    "item 1": {
+      "type": "heracles:item",
+      "item": "extended_drawers:creative_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "extended_drawers:creative_upgrade",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "trophy": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "kubejs:trophy_block",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "kubejs:trophy_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Congratulations! You have succeffully completed the pack,",
+      "Landscapes Reimagined Genesis! For completing the pack you will be",
+      "given a special trophy. If you're not already on our Discord Server, join",
+      "and post screenshots of you and this trophy bragging about this great",
+      "accomplishment.",
+      "Note this trophy can only be mined with a pickaxe and no other tool, so be careful so you don't loose it.",
+      "",
+      "Upon Completion, you should try out the sequal to this pack, Landscapes",
+      "Reimagined Forge Frontier, which will be released on Modrinth",
+      "in January of 2024."
+    ],
+    "groups": {
+      "Creative Items": {
+        "position": [
+          -126,
+          -117
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "kubejs:trophy_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "title": {
+      "translate": "Pack Complete!"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": true,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

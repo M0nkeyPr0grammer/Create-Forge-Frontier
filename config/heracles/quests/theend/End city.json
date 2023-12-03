@@ -1,0 +1,47 @@
+{
+  "dependencies": [
+    "Enter the End"
+  ],
+  "tasks": {
+    "End city": {
+      "structures": "#minecraft:end_city",
+      "type": "heracles:structure"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Find and enter a end city"
+    },
+    "description": [
+      "Find and enter a end city"
+    ],
+    "groups": {
+      "The End": {
+        "position": [
+          -300,
+          10
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:purpur_block",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "End city"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

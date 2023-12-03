@@ -1,0 +1,47 @@
+{
+  "dependencies": [
+    "Craft a diamond pickaxe"
+  ],
+  "tasks": {
+    "deep dark": {
+      "biomes": "minecraft:deep_dark",
+      "type": "heracles:biome"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Enter into the deep dark"
+    },
+    "description": [
+      "Find a deep dark biome"
+    ],
+    "groups": {
+      "Overworld": {
+        "position": [
+          150,
+          30
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:sculk",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Enter the Deep Dark"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

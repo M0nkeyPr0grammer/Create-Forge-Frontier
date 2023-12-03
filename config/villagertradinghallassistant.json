@@ -1,0 +1,32 @@
+{
+  "Config": {
+    "autoFindWorkstation": true,
+    "acceptableEnchantments": [
+      ""
+    ],
+    "enableMod": {
+      "enabled": false,
+      "hotkey": {
+        "keys": "F,E"
+      }
+    },
+    "maxTradeCost": 64
+  },
+  "Hotkeys": {
+    "findVillagerWorkstation": {
+      "keys": "F,O"
+    },
+    "findVillager": {
+      "keys": "F,V"
+    },
+    "openGui": {
+      "keys": "V,C"
+    },
+    "enableMod": {
+      "enabled": false,
+      "hotkey": {
+        "keys": "F,E"
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Copper casing#"
+  ],
+  "tasks": {
+    "spout": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "create:spout"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "Give Copper": {
+      "item": {
+        "id": "minecraft:copper_ingot",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Liquid used in crafting?"
+    },
+    "description": [
+      "The spout can be used to drop liquid onto an item that's below it on a depot or belt to be able to change what the item is"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -100,
+          -100
+        ]
+      }
+    },
+    "icon": {
+      "item": "create:spout",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Spout"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

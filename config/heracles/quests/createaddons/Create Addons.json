@@ -1,0 +1,48 @@
+{
+  "dependencies": [
+    "Andesite Casing"
+  ],
+  "tasks": {
+    "casing": {
+      "block": "#create:casing",
+      "state": {},
+      "type": "heracles:block_interaction"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Here you will see all the create addons used in this pack!"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Create Addons": {
+        "position": [
+          0,
+          -120
+        ]
+      }
+    },
+    "icon": {
+      "item": "create:schematic",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "Create Addons"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

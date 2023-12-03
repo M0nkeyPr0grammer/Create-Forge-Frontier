@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "Sturdy Sheet",
+    "Train Station"
+  ],
+  "tasks": {
+    "schedule": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "create:schedule"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "cap": {
+      "item": {
+        "id": "railways:black_conductor_cap",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The train schedule allows you to put a mob as your train",
+      "conductor to automate movement of your trains."
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          255,
+          -120
+        ]
+      }
+    },
+    "icon": {
+      "item": "create:schedule",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Train Schedule"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

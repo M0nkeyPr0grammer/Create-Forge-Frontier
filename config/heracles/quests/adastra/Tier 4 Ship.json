@@ -1,0 +1,71 @@
+{
+  "dependencies": [
+    "Calorite"
+  ],
+  "tasks": {
+    "tier 4": {
+      "type": "heracles:item",
+      "item": "ad_astra:tier_4_rocket",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "ad_astra:tier_4_rocket",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 1000,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "This is the final rocket, allowing you to travel to Glacio.",
+      ""
+    ],
+    "groups": {
+      "Ad Astra": {
+        "position": [
+          180,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ad_astra:tier_4_rocket",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Tier 4 Rocket"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

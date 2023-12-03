@@ -1,0 +1,63 @@
+{
+  "dependencies": [
+    "Create Crafts & Additions"
+  ],
+  "tasks": {
+    "seed oil": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "createaddition:seed_oil_bucket"
+    },
+    "biomass": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "createaddition:biomass"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "biomass": {
+      "item": {
+        "id": "createaddition:biomass",
+        "count": 16
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Seed oil, is created by compacting seeds in a basin,",
+      "that oil is then mixed with any plant to create Biomass."
+    ],
+    "groups": {
+      "Create Addons": {
+        "position": [
+          90,
+          5
+        ]
+      }
+    },
+    "icon": {
+      "item": "createaddition:biomass",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Biomass"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

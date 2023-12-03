@@ -1,0 +1,47 @@
+{
+  "dependencies": [
+    "Craft a diamond pickaxe"
+  ],
+  "tasks": {
+    "stronghold": {
+      "structures": "#betterstrongholds:better_strongholds",
+      "type": "heracles:structure"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Find the Stronghold"
+    },
+    "description": [
+      "Craft eyes of ender and locate the stronghold"
+    ],
+    "groups": {
+      "Overworld": {
+        "position": [
+          150,
+          -70
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:ender_eye",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Find the Stronghold"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

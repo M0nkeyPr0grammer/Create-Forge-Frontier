@@ -1,0 +1,55 @@
+{
+  "dependencies": [
+    "Create Addons"
+  ],
+  "tasks": {
+    "brass": {
+      "block": "create:brass_casing",
+      "state": {},
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:brass_casing",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:block_interaction"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Create Addons": {
+        "position": [
+          -340,
+          -35
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "createdieselgenerators:diesel_engine",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "Diesel Generators"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

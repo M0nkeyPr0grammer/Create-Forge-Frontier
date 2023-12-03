@@ -1,0 +1,47 @@
+{
+  "dependencies": [
+    "Enter the Otherside"
+  ],
+  "tasks": {
+    "Deeplands": {
+      "biomes": "deeperdarker:deeplands",
+      "type": "heracles:biome"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Visit Deeplands"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Deeper and Darker": {
+        "position": [
+          -250,
+          -70
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:sculk",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Deeplands"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

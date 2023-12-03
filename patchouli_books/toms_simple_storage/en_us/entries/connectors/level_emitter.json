@@ -1,0 +1,12 @@
+{
+  "name": "Level Emitter",
+  "icon": "toms_storage:ts.level_emitter",
+  "category": "patchouli:connectors",
+  "pages": [
+  "The level emitter emits a redstone signal based on inventory system contents. Addtionally it requires a $(l:patchouli:cables/inventory_cable)inventory cable/$ in its recipe.",
+    {
+      "type": "patchouli:crafting",
+	  "recipe": "minecraft:kjs_toms_storage_ts.level_emitter"
+    }
+  ]
+}

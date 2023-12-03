@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Cogwheel"
+  ],
+  "tasks": {
+    "l cog": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "create:large_cogwheel"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "Give Cogwheel": {
+      "item": {
+        "id": "create:large_cogwheel",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "The larger of the cogwheels"
+    },
+    "description": [
+      "You can place large cogwheels at 90 degrees to each other and it will change the direction of rotation"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -150,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": "create:large_cogwheel",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Large Cogwheel"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

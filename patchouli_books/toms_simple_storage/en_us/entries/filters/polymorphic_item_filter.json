@@ -1,0 +1,12 @@
+{
+  "name": "Polymorphic Item Filter",
+  "icon": "toms_storage:ts.polymorphic_item_filter",
+  "category": "patchouli:filters",
+  "pages": [
+  "The polymorphic item filter allows inserting items that already exits in the inventory. Additionally requires a $(l:patchouli:filters/item_filter)item filter/$ in its recipe.",
+    {
+      "type": "patchouli:crafting",
+	  "recipe": "toms_storage:poly_item_filter"
+    }
+  ]
+}

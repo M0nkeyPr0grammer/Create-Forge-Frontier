@@ -1,0 +1,58 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "advanced terminal": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "toms_storage:ts.adv_wireless_terminal"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "Give scrap": {
+      "item": {
+        "id": "minecraft:netherite_scrap",
+        "count": 3
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Wirelessly access the network within a 64 block radius"
+    },
+    "description": [
+      "This is the advanced version of the terminal",
+      " ",
+      "If you have a tier 1 beacon(9 blocks below it) within 8 blocks of the network connector it will be able to be accessed from within the same dimension",
+      " ",
+      "If you have a tier 4 beacon(Max level beacon) within 8 blocks of the network connector it will be able to be access from any dimension"
+    ],
+    "groups": {
+      "Better Storage": {
+        "position": [
+          0,
+          -20
+        ]
+      }
+    },
+    "icon": {
+      "item": "toms_storage:ts.adv_wireless_terminal",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Advanced Terminal"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "Void motor": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "createutilities:void_motor"
+    },
+    "void chest": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "createutilities:void_chest"
+    },
+    "void tank": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "createutilities:void_tank"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    },
+    "void steel ingot": {
+      "item": {
+        "id": "createutilities:void_steel_ingot",
+        "count": 6
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Congrats on Creating all the create utility items!"
+    ],
+    "groups": {
+      "Create Addons": {
+        "position": [
+          280,
+          -35
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:writable_book",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "Create Utility Reward"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

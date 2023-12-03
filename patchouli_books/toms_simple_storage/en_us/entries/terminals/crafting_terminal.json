@@ -1,0 +1,12 @@
+{
+  "name": "Crafting Terminal",
+  "icon": "toms_storage:ts.crafting_terminal",
+  "category": "patchouli:terminals",
+  "pages": [
+  "The storage terminal is used to give you access to your items connected to your network, and has a built in crafting grid. Additionally it requires multiple create items, the $(l:patchouli:terminals/storage_terminal)storage terminal/$ and mechanical crafters in its recipe.",
+    {
+      "type": "patchouli:image",
+	  "images": ["toms_storage:patchouli_books/toms_simple_storage/images/crafting_terminal.png"]
+    }
+  ]
+}

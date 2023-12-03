@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "Windmill Bearing"
+  ],
+  "tasks": {
+    "sail": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "create:white_sail"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "Give Alloy": {
+      "item": {
+        "id": "create:andesite_alloy",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "More sails = quicker windmill = more stress created"
+    },
+    "description": [
+      "Connecting sails to a plank or any block on top of the windmill bearing will generate more stress",
+      " ",
+      "You can place them in any shape you like"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -350,
+          50
+        ]
+      }
+    },
+    "icon": {
+      "item": "create:white_sail",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Sail"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

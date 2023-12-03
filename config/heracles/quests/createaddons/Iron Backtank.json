@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "Goggle Helmet"
+  ],
+  "tasks": {
+    "backtank": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "creategoggles:diamond_backtank"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "diamonds": {
+      "item": {
+        "id": "minecraft:diamond_ore",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "This diamond backtank will allow you",
+      "to wear a diamond chestplate and a backtank",
+      "at the same time."
+    ],
+    "groups": {
+      "Create Addons": {
+        "position": [
+          -120,
+          45
+        ]
+      }
+    },
+    "icon": {
+      "item": "creategoggles:diamond_backtank",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Diamond Backtank"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

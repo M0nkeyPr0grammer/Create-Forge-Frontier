@@ -1,0 +1,62 @@
+{
+  "dependencies": [
+    "Mixer and Basin"
+  ],
+  "tasks": {
+    "blaze b": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "create:blaze_burner"
+    },
+    "empt blaze b": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "create:empty_blaze_burner"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "Give Blaze Burner": {
+      "item": {
+        "id": "create:empty_blaze_burner",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Used to heat a basin below a mixer"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          50,
+          50
+        ]
+      }
+    },
+    "icon": {
+      "item": "create:empty_blaze_burner",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Blaze Burner"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

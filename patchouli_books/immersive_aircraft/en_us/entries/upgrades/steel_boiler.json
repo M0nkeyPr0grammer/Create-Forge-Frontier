@@ -1,0 +1,12 @@
+{
+  "name": "Steel Boiler",
+  "icon": "immersive_aircraft:steel_boiler",
+  "category": "patchouli:upgrades",
+  "pages": [
+  "The steel boiler is used to increase engine power by 25% and increase fuel requirement by 50%, plus can be used on most $(l:aircrafts)aircrafts/$. Additionally it requires nothing but create items in the recipe.",
+    {
+      "type": "patchouli:crafting",
+	  "recipe": "minecraft:kjs_immersive_aircraft_steel_boiler"
+    }
+  ]
+}

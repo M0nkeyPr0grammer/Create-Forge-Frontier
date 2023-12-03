@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "Cogwheel",
+    "Andesite Alloy",
+    "Andesite Casing"
+  ],
+  "tasks": {
+    "gearb": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "create:gearbox"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "Give Gears": {
+      "item": {
+        "id": "create:cogwheel",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "You can craft each gearbox into the other one"
+    },
+    "description": [
+      "A gearbox is used to change the direction of rotation"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -200,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": "create:gearbox",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Gearbox"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "dependencies": [
+    "Andesite Casing"
+  ],
+  "tasks": {
+    "mixer": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "create:mechanical_mixer"
+    },
+    "basin": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "create:basin"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "Give casing": {
+      "item": {
+        "id": "create:andesite_casing",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "It's got a lot of uses"
+    },
+    "description": [
+      "The mixer has many different recipes that it can be used for.",
+      " ",
+      "One of the recipes is it can make andesite alloy in a more efficient manner only costing 1 andesite and 1 iron/zinc nugget"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -50,
+          50
+        ]
+      }
+    },
+    "icon": {
+      "item": "create:mechanical_mixer",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Mixer and Basin"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

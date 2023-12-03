@@ -1,0 +1,95 @@
+{
+  "dependencies": [
+    "Creative Motor"
+  ],
+  "tasks": {
+    "generator": {
+      "type": "heracles:item",
+      "item": "createaddition:creative_energy",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "createaddition:creative_energy",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "LEVEL",
+      "amount": 200,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "tank": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:creative_fluid_tank",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:creative_fluid_tank",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The Creative Generator is a Crafts and Additions item,",
+      "that provides an infinite supply of enegry.",
+      "",
+      "This item is crafted using these items:",
+      "- 20 Dragons Breath",
+      "- 4 Acculators",
+      "- 4 Alternators",
+      "- 2 Tesla Coils",
+      "- 2 Nether Stars",
+      "- 2 Warden Hearts",
+      "- 2 Creative Tanks"
+    ],
+    "groups": {
+      "Creative Items": {
+        "position": [
+          -150,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "createaddition:creative_energy",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Creative Generator"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

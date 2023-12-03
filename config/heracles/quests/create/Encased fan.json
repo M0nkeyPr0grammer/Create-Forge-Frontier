@@ -1,0 +1,61 @@
+{
+  "dependencies": [
+    "Andesite Casing"
+  ],
+  "tasks": {
+    "fan": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "create:encased_fan"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "Give Casing": {
+      "item": {
+        "id": "create:andesite_casing",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Has multiple uses"
+    },
+    "description": [
+      "The encased fan has many different uses, it can be used to blast, wash, haunt and smoke items. The rotation will mean it either pushes or pulls air",
+      " ",
+      "To /4/blast/4/ items you need to put a lava source infront of the fan ",
+      "To /3/wash/3/ items you need to put a water source infront of the fan ",
+      "To /b/haunt/b/ items you need to put a soul campfire infront of the fan ",
+      "To /6/smoke/6/ items you need to put a campire infront of the fan "
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -50,
+          99
+        ]
+      }
+    },
+    "icon": {
+      "item": "create:encased_fan",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Encased fan"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

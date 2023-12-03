@@ -1,0 +1,85 @@
+{
+  "dependencies": [
+    "Mecury"
+  ],
+  "tasks": {
+    "ostrum": {
+      "type": "heracles:item",
+      "item": "ad_astra:ostrum_ingot",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "ad_astra:ostrum_ingot",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "ostrum": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "ad_astra:mars_ostrum_ore",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "ad_astra:mars_ostrum_ore",
+        "count": 3
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "This ore will allow you to craft a new space suit and a new rocket."
+    ],
+    "groups": {
+      "Ad Astra": {
+        "position": [
+          60,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ad_astra:ostrum_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Ostrum"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

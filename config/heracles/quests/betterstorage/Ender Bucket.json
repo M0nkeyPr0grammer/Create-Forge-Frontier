@@ -1,0 +1,55 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "ender bucket": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "endertanks:ender_bucket"
+    }
+  },
+  "rewards": {
+    "eye": {
+      "item": {
+        "id": "minecraft:ender_eye",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Buckets link to tanks and thus are used to store or place liquid remotely.\r",
+      "Shift+Right-Click on a tank with a bucket to link them."
+    ],
+    "groups": {
+      "Better Storage": {
+        "position": [
+          -150,
+          30
+        ]
+      }
+    },
+    "icon": {
+      "item": "endertanks:ender_bucket",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Ender Bucket"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

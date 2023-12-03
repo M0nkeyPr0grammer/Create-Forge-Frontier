@@ -1,0 +1,11 @@
+type = slideshow
+
+slideshow-meta {
+   name = bg_slideshow
+   width = 1920
+   height = 1080
+   x = 0
+   y = 0
+   duration = 6.0
+   fadespeed = 4.0
+}

@@ -1,0 +1,54 @@
+{
+  "dependencies": [
+    "Enter the Nether"
+  ],
+  "tasks": {
+    "Enter a bastion": {
+      "structures": "minecraft:bastion_remnant",
+      "type": "heracles:structure"
+    }
+  },
+  "rewards": {
+    "Give gold": {
+      "item": {
+        "id": "minecraft:gold_block",
+        "count": 2
+      },
+      "type": "heracles:item"
+    },
+    "Bastion XP": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Find and enter a bastion"
+    },
+    "description": [
+      "Find a bastion and enter it"
+    ],
+    "groups": {
+      "The Nether": {
+        "position": [
+          -300,
+          -55
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:polished_blackstone",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Find a bastion"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

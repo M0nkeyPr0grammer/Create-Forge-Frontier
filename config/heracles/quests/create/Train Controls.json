@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "Train Casing"
+  ],
+  "tasks": {
+    "train controls": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "create:controls"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "conductor cap": {
+      "item": {
+        "id": "railways:red_conductor_cap",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Once your train is crafted these train controls will allow you",
+      "to control your train in a backwards and forwards",
+      "direction."
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          170,
+          -80
+        ]
+      }
+    },
+    "icon": {
+      "item": "create:controls",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Train Controls"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

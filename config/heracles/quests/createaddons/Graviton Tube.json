@@ -1,0 +1,63 @@
+{
+  "dependencies": [
+    "Void Plate"
+  ],
+  "tasks": {
+    "amethyst": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "createutilities:polished_amethyst"
+    },
+    "graviton": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "createutilities:graviton_tube"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "void steel ingot": {
+      "item": {
+        "id": "minecraft:netherite_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "This item is created by polishing an amethyst shard",
+      "and and combining it with a void steel plate."
+    ],
+    "groups": {
+      "Create Addons": {
+        "position": [
+          240,
+          90
+        ]
+      }
+    },
+    "icon": {
+      "item": "createutilities:graviton_tube",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Graviton Tube"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

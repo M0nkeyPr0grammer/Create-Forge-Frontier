@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Brass"
+  ],
+  "tasks": {
+    "b casing": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "create:brass_casing"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "Give Brass": {
+      "item": {
+        "id": "create:brass_ingot",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "The next generation of casing"
+    },
+    "description": [
+      "The brass casing is the upgrade of the andesite casing with it's ability to make better quality items for automation"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          150,
+          50
+        ]
+      }
+    },
+    "icon": {
+      "item": "create:brass_casing",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Brass Casing"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

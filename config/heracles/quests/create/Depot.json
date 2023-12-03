@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Mechanical Press"
+  ],
+  "tasks": {
+    "depot": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "create:depot"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "Give Casing": {
+      "item": {
+        "id": "create:andesite_casing",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Holds items on it and can be used with multiple machines"
+    },
+    "description": [
+      "The depot is used to hold items on one block"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -200,
+          150
+        ]
+      }
+    },
+    "icon": {
+      "item": "create:depot",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Depot"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

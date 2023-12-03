@@ -1,0 +1,14 @@
+{
+  "create_version": "6.0.4",
+  "whisperer": true,
+  "whisperer_blank": true,
+  "builders_trowel": true,
+  "diamond_builders_trowel": true,
+  "ruler": true,
+  "blueprint_empty": true,
+  "blueprint_sphere": true,
+  "blueprint_box": true,
+  "blueprint_cylinder": true,
+  "blueprint_union": true,
+  "modify_version": "6.0.4"
+}

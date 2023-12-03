@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "Create Utilities"
+  ],
+  "tasks": {
+    "void casing": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "createutilities:void_casing"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "This item is created by right clicking a stripped",
+      "log with a void steel ingot."
+    ],
+    "groups": {
+      "Create Addons": {
+        "position": [
+          280,
+          5
+        ]
+      }
+    },
+    "icon": {
+      "item": "createutilities:void_casing",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Void Casing"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "Train Controls",
+    "Deployer"
+  ],
+  "tasks": {
+    "track": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "create:track"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "tracks": {
+      "item": {
+        "id": "create:track",
+        "count": 32
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The train tracks is crafted placing nuggets",
+      "on a slab using deployers. These tracks",
+      "will allow you to use your newly crafted",
+      "train."
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          120,
+          -110
+        ]
+      }
+    },
+    "icon": {
+      "item": "create:track",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Train Tracks"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

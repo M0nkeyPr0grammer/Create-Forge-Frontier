@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "Belt"
+  ],
+  "tasks": {
+    "a funnel": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "create:andesite_funnel"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Crafted with andesite alloy and dried kelp"
+    },
+    "description": [
+      "Andesite funnels are used to pull items out of a chest one at a time, they will drop the items onto a belt or depot below it"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -300,
+          50
+        ]
+      }
+    },
+    "icon": {
+      "item": "create:andesite_funnel",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Andesite Funnel"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

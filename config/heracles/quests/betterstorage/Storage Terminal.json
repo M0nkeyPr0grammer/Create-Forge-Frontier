@@ -1,0 +1,54 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "terminal": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "toms_storage:ts.storage_terminal"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "Give mechanism": {
+      "item": {
+        "id": "create:precision_mechanism",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "See into all connected chest within the network"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Better Storage": {
+        "position": [
+          -300,
+          -20
+        ]
+      }
+    },
+    "icon": {
+      "item": "toms_storage:ts.storage_terminal",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Storage Terminal"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

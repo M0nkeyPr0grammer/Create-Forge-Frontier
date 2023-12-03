@@ -1,0 +1,32 @@
+
+[theme]
+	background_color = "80,0,0,0"
+	title_color = "255,255,255,255"
+	artist_color = "255,255,255,255"
+	hide_image = false
+	border_color = "255,1,165,82"
+
+	[theme.controls]
+		color = "255,255,255,255"
+		selected_hover_color = "255,0,212,105"
+		hover_color = "255,150,150,150"
+		selected_color = "255,1,165,82"
+
+	[theme.progress_bar]
+		background_color = "255,50,50,50"
+		color = "255,255,255,255"
+		radius = 3.0
+		number_color = "255,255,255,255"
+
+	[theme.icons]
+		play = "https://i.imgur.com/9tsZMcO.png"
+		next = "https://i.imgur.com/4L2322Q.png"
+		settings = "https://i.imgur.com/Nd4gQzY.png"
+		previous = "https://i.imgur.com/Lb4YYOu.png"
+		volume_control = "https://i.imgur.com/RNfbruf.png"
+		repeat = "https://i.imgur.com/C8h1RBc.png"
+		position_editor = "https://i.imgur.com/XZWUSSe.png"
+		shuffle = "https://i.imgur.com/W58UJGf.png"
+		pause = "https://i.imgur.com/JQdBt2K.png"
+		external_link = "https://i.imgur.com/qQs0WHt.png"
+

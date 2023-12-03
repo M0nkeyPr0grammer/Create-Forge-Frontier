@@ -1,0 +1,91 @@
+{
+  "dependencies": [
+    "Diesal Engine"
+  ],
+  "tasks": {
+    "modular engine": {
+      "type": "heracles:item",
+      "item": "createdieselgenerators:large_diesel_engine",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "createdieselgenerators:large_diesel_engine",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "engine": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "createdieselgenerators:large_diesel_engine",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "createdieselgenerators:large_diesel_engine",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Similar to the Diesel engine, this can be used to produce ",
+      "kenetic energy in a compact way. One thing different about",
+      "this is that if linked to other modular engines you can have",
+      "the fuel come in one of them and it automatically provide fuel",
+      "to the other, if you close off the top.",
+      "",
+      "Check ponder for more info."
+    ],
+    "groups": {
+      "Create Addons": {
+        "position": [
+          -370,
+          45
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "createdieselgenerators:large_diesel_engine",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Modular Diesel Engine"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

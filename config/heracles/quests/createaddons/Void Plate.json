@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "Void Ingot"
+  ],
+  "tasks": {
+    "void": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "createutilities:void_steel_sheet"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The void steel plate is created by pressing",
+      "a void steel ingot."
+    ],
+    "groups": {
+      "Create Addons": {
+        "position": [
+          240,
+          45
+        ]
+      }
+    },
+    "icon": {
+      "item": "createutilities:void_steel_sheet",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Void Steel Plate"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

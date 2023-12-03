@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Brass Casing"
+  ],
+  "tasks": {
+    "mech arm": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "create:mechanical_arm"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "Give Casing": {
+      "item": {
+        "id": "create:brass_casing",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "A helping hand"
+    },
+    "description": [
+      "The mechanical arm can be setup to move items from one spot to another spot like depot to depot"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          190,
+          100
+        ]
+      }
+    },
+    "icon": {
+      "item": "create:mechanical_arm",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Mechanical Arm"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

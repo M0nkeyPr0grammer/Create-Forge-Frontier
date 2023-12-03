@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "Andesite Casing"
+  ],
+  "tasks": {
+    "drill": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "create:mechanical_drill"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Mines for you"
+    },
+    "description": [
+      "The mechanical drill is a item that will mine any block in front of it which is really nice for setting up farms that require blocks to be broken, like a cobblestone farm"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -150,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": "create:mechanical_drill",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Mechanical Drill"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

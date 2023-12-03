@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "Andesite Alloy"
+  ],
+  "tasks": {
+    "cart": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "create:cart_assembler"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "Give Alloy": {
+      "item": {
+        "id": "create:andesite_alloy",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Maybe one of the most OP items"
+    },
+    "description": [
+      "The cart assembler has the ability to attach any machine you want to build to a minecart, it can also move blocks that aren't able to be moved in regular vanilla like budding amethyst and spawners",
+      " ",
+      "If you want to move spawners you need to enable it in the create configs "
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -296,
+          -99
+        ]
+      }
+    },
+    "icon": {
+      "item": "create:cart_assembler",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Cart assembler"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

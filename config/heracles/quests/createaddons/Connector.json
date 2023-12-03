@@ -1,0 +1,63 @@
+{
+  "dependencies": [
+    "Rolling Mill"
+  ],
+  "tasks": {
+    "copper rod": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "createaddition:copper_rod"
+    },
+    "connector": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "createaddition:connector"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "slime": {
+      "item": {
+        "id": "minecraft:slime_ball",
+        "count": 16
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The connector is used in conjunction with wires",
+      "to transfer energy."
+    ],
+    "groups": {
+      "Create Addons": {
+        "position": [
+          -60,
+          19
+        ]
+      }
+    },
+    "icon": {
+      "item": "createaddition:connector",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Connector"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

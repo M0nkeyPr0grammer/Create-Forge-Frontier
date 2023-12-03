@@ -1,0 +1,12 @@
+{
+  "name": "Advanced Engine",
+  "icon": "immersive_aircraft:engine",
+  "category": "patchouli:items",
+  "pages": [
+  "The advanced engine is used in crafting many $(l:aircrafts)aircrafts/$ and uses multiple create items and a $(l:patchouli:items/basic_engine)basic engine/$ to craft.",
+    {
+      "type": "patchouli:crafting",
+	  "recipe": "minecraft:kjs_immersive_aircraft_engine"
+    }
+  ]
+}

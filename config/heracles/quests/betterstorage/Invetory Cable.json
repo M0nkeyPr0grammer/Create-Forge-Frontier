@@ -1,0 +1,54 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "cable": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "toms_storage:ts.inventory_cable"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "Give brass": {
+      "item": {
+        "id": "create:brass_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Connect inventories over a larger distance"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Better Storage": {
+        "position": [
+          -150,
+          -20
+        ]
+      }
+    },
+    "icon": {
+      "item": "toms_storage:ts.inventory_cable",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Invetory Cable"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

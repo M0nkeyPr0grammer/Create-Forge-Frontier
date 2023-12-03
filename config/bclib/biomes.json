@@ -1,0 +1,26 @@
+{
+  "force_include": {
+    "NETHER": [
+      "regions_unexplored:blackstone_basin", 
+      "regions_unexplored:glistering_meadow", 
+      "regions_unexplored:infernal_holt", 
+      "regions_unexplored:mycotoxic_undergrowth",
+      "regions_unexplored:redstone_abyss",
+      "incendium:ash_barrens",
+      "incendium:infernal_dunes",
+      "incendium:inverted_forest",
+      "incendium:quartz_flats",
+      "incendium:toxic_heap",
+      "incendium:volcanic_deltas",
+      "incendium:weeping_valley",
+      "incendium:withered_forest"],
+    "END_LAND": ["nullscape:crystal_peaks", "nullscape:shadowlands"],
+    "END_VOID": [],
+    "END_CENTER": [],
+    "END_BARRENS": ["nullscape:void_barrens"]
+  },
+  "force_exclude": {
+    "NETHER": [],
+    "END": []
+  }
+}

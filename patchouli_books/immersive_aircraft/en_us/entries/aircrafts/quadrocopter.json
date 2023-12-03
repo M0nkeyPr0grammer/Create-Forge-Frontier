@@ -1,0 +1,12 @@
+{
+  "name": "Quadrocopter",
+  "icon": "immersive_aircraft:quadrocopter",
+  "category": "patchouli:aircrafts",
+  "pages": [
+  "The quadrocopter is the perfect aircraft in assisting you build. Additionally it requires multiple create items and the $(l:patchouli:items/basic_engine)basic engine/$ to craft.",
+    {
+      "type": "patchouli:crafting",
+	  "recipe": "minecraft:kjs_immersive_aircraft_quadrocopter"
+    }
+  ]
+}

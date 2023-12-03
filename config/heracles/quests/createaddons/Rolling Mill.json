@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "Create Crafts & Additions"
+  ],
+  "tasks": {
+    "Rolling Mill": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "createaddition:rolling_mill"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "straw": {
+      "item": {
+        "id": "createaddition:straw",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The rolling mill is used to create many",
+      "Create Crafts & Addition items."
+    ],
+    "groups": {
+      "Create Addons": {
+        "position": [
+          14,
+          5
+        ]
+      }
+    },
+    "icon": {
+      "item": "createaddition:rolling_mill",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Rolling Mill"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

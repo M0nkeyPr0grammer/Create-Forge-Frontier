@@ -1,0 +1,54 @@
+{
+  "dependencies": [
+    "Enter the Deep Dark"
+  ],
+  "tasks": {
+    "deeperdarker:ancient_temple": {
+      "structures": "deeperdarker:ancient_temple",
+      "type": "heracles:structure"
+    }
+  },
+  "rewards": {
+    "Give Echo Shards": {
+      "item": {
+        "id": "minecraft:echo_shard",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "Give XP": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Deeper and Darker": {
+        "position": [
+          -185,
+          -20
+        ]
+      }
+    },
+    "icon": {
+      "item": "deeperdarker:ancient_vase",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Ancient temple"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

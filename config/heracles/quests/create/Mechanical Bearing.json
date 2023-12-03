@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Andesite Casing"
+  ],
+  "tasks": {
+    "bearing": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "create:mechanical_bearing"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "Give Slime": {
+      "item": {
+        "id": "minecraft:slime_ball",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "The key to machines"
+    },
+    "description": [
+      "The mechanical bearing is the centerpiece of machines, it lets you build any machine onto it and becomes the central spinning part of the machine"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -150,
+          100
+        ]
+      }
+    },
+    "icon": {
+      "item": "create:mechanical_bearing",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Mechanical Bearing"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

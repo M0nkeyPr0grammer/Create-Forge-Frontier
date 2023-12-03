@@ -1,0 +1,12 @@
+{
+  "name": "Storage Terminal",
+  "icon": "toms_storage:ts.storage_terminal",
+  "category": "patchouli:terminals",
+  "pages": [
+  "The storage terminal is used to give you access to your items connected to your network. Additionally it requires multiple create items in its recipe.",
+    {
+      "type": "patchouli:crafting",
+	  "recipe": "minecraft:kjs_toms_storage_ts.storage_terminal"
+    }
+  ]
+}

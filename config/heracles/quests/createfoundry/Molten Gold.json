@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "Molten Iron"
+  ],
+  "tasks": {
+    "gold": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "createfoundry:molten_gold_bucket"
+    }
+  },
+  "rewards": {
+    "gold": {
+      "item": {
+        "id": "minecraft:gold_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "In order to get a bucket of molten gold, you need to mix gold",
+      "ore or gold zinc in a mixer while super heated.",
+      "",
+      "This bucket can be converted into one block of gold and",
+      "one gold ingot."
+    ],
+    "groups": {
+      "Create Foundry": {
+        "position": [
+          20,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": "createfoundry:molten_gold_bucket",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Molten Gold"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

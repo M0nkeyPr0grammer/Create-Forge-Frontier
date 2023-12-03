@@ -1,0 +1,26 @@
+{
+  "create_version": "6.0.4",
+  "whispers": {
+    "durability": 20,
+    "trainedDurability": 40,
+    "minXPMultiplier": 75,
+    "maxXPMultiplier": 100
+  },
+  "wunderkiste": {
+    "redstonePowerWhenOpened": true,
+    "analogRedstoneOutput": true,
+    "canColor": true,
+    "showColored": true,
+    "allowNetworks": true,
+    "allowNamedNetworks": true,
+    "changeNetworkCost": 1,
+    "chunkLoaderRadius": 1
+  },
+  "wunderreich": {
+    "allowTradesCycling": true,
+    "allowLibrarianSelection": true,
+    "cyclingNeedsWhisperer": true,
+    "doNotDespawnWithNameTag": true
+  },
+  "modify_version": "6.0.4"
+}

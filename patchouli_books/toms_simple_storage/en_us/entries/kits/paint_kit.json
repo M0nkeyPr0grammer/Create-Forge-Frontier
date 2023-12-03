@@ -1,0 +1,12 @@
+{
+  "name": "Paint Kit",
+  "icon": "toms_storage:ts.paint_kit",
+  "category": "patchouli:kits",
+  "pages": [
+  "The paint kit is used to paint $(l:blocks)blocks/$ to match their surrounding.",
+    {
+      "type": "patchouli:crafting",
+	  "recipe": "toms_storage:paint_kit"
+    }
+  ]
+}

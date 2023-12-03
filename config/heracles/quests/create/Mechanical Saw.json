@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "Andesite Casing"
+  ],
+  "tasks": {
+    "saw": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "create:mechanical_saw"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "Give Casing": {
+      "item": {
+        "id": "create:andesite_casing",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Advanced Lumberjacking"
+    },
+    "description": [
+      "The mechanical saw lets you chop down a whole tree with only destroying one of the logs using the saw.",
+      " ",
+      "It can also be used to process different wooden resources, just make sure that the saw is moving in the same direction as the items are flowing"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -100,
+          100
+        ]
+      }
+    },
+    "icon": {
+      "item": "create:mechanical_saw",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Mechanical Saw"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

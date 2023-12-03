@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "Molten Zinc"
+  ],
+  "tasks": {
+    "Copper": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "createfoundry:molten_copper_bucket"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "Copper": {
+      "item": {
+        "id": "minecraft:copper_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "In order to get a bucket of molten copper, you need to mix copper",
+      "ore or raw copper in a mixer while super heated.",
+      "",
+      "This bucket can be converted into one block of copper and",
+      "one copper ingot."
+    ],
+    "groups": {
+      "Create Foundry": {
+        "position": [
+          -60,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": "createfoundry:molten_copper_bucket",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Molten Copper"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

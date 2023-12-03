@@ -1,0 +1,72 @@
+{
+  "dependencies": [
+    "Create Addons"
+  ],
+  "tasks": {
+    "chisel": {
+      "type": "heracles:item",
+      "item": "rechiseled:chisel",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "rechiseled:chisel",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Rechiseled allows you to chisel blocks into various decorative blocks with connected textures! ",
+      "",
+      "With the addition of Rechiseled: Create it also adds new decorative variants of blocks in Create!"
+    ],
+    "groups": {
+      "Create Addons": {
+        "position": [
+          -473,
+          -39
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "rechiseled:chisel",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Rechiseled"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

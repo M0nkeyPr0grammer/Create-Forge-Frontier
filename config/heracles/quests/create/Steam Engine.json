@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Tank"
+  ],
+  "tasks": {
+    "steam e": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "create:steam_engine"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "Give Copper": {
+      "item": {
+        "id": "minecraft:copper_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "A different stress unit source"
+    },
+    "description": [
+      "The steam engine is a way to produce stress units using heat and water. When placing a steam engine on the side of a fluid tank that's full of water and has a heat source below it it will start to create rotational force. The higher the heat source the faster the steam engine will move. The best source for the highest output is blaze burners being fed blaze cakes to super heat the water tank. At the highest level you can add 8 steam engines to the tank."
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -50,
+          -150
+        ]
+      }
+    },
+    "icon": {
+      "item": "create:steam_engine",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Steam Engine"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

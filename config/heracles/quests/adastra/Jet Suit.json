@@ -1,0 +1,154 @@
+{
+  "dependencies": [
+    "Calorite"
+  ],
+  "tasks": {
+    "j suit 4": {
+      "type": "heracles:item",
+      "item": "ad_astra:jet_suit_boots",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "ad_astra:jet_suit_boots",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
+        },
+        "type": "heracles:item"
+      }
+    },
+    "j suit 3": {
+      "type": "heracles:item",
+      "item": "ad_astra:jet_suit_pants",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "ad_astra:jet_suit_pants",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
+        },
+        "type": "heracles:item"
+      }
+    },
+    "j suit 2": {
+      "type": "heracles:item",
+      "item": "ad_astra:jet_suit",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "ad_astra:jet_suit",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
+        },
+        "type": "heracles:item"
+      }
+    },
+    "j suit 1": {
+      "type": "heracles:item",
+      "item": "ad_astra:jet_suit_helmet",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "ad_astra:jet_suit_helmet",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "calorite": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "ad_astra:venus_calorite_ore",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "ad_astra:venus_calorite_ore",
+        "count": 16
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "This space suit is the highest tier and allows you to fly."
+    ],
+    "groups": {
+      "Ad Astra": {
+        "position": [
+          150,
+          30
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ad_astra:jet_suit_helmet",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Jet Suit"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

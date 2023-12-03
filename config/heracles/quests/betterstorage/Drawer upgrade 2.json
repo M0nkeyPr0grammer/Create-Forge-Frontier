@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Drawer upgrade 1"
+  ],
+  "tasks": {
+    "Level 2 upgrade": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "extended_drawers:t2_upgrade"
+    }
+  },
+  "rewards": {
+    "Give iron": {
+      "item": {
+        "id": "minecraft:iron_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "Level 2 upgrade xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "The second tier of upgrade"
+    },
+    "description": [
+      "The second level of storage upgrade for the drawers"
+    ],
+    "groups": {
+      "Better Storage": {
+        "position": [
+          -50,
+          -220
+        ]
+      }
+    },
+    "icon": {
+      "item": "extended_drawers:t2_upgrade",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Drawer upgrade 2"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

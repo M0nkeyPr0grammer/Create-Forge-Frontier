@@ -1,0 +1,50 @@
+{
+  "#README": "This config file does not support comments. To see them configure it in-game using YACL or Cloth Config",
+  "misc": {
+    "creative_tab": false,
+    "stonecutter_damage": true,
+    "disable_diamond_grindstone_depletion": false,
+    "diamond_grindstone_deplete_chance": 20,
+    "parachute_delay": 10,
+    "enable_rough_gems": false,
+    "enable_raw_nuggets": true,
+    "ore_stone_drops": true
+  },
+  "slimes": {
+    "increased_slime_spawn_rate": false,
+    "slime_cauldrons": false,
+    "slimes_friendly_if_regen": true,
+    "slimes_always_friendly": false,
+    "slime_eat_cooldown": 150,
+    "enable_slime_growth": false,
+    "slime_growth_chance": 10,
+    "slime_growth_max": 5
+  },
+  "utilities": {
+    "hammer_chisel_charge_time": 20,
+    "sculk_drops_with_shears": true,
+    "echo_fork_range": 16,
+    "echo_cooldown": 600,
+    "echo_glow_durration": 1200,
+    "magnet_range": 8,
+    "magnetite_range": 64
+  },
+  "nether_portals": {
+    "portal_fluid_drinking": true,
+    "flint_and_steel_portal_lighting": true,
+    "crying_obsidian_dimensional_tears": true,
+    "respawn_anchor_dimensional_tears": true,
+    "portal_destruction_crying_obsidian": false,
+    "piglins_give_crying_obsidian": true,
+    "portal_creation_sound": false,
+    "portal_destruction_sound": false
+  },
+  "worldgen": {
+    "stone_stripe_features": true,
+    "enable_sporophytes": true,
+    "better_sculk_patches": false,
+    "dark_forest_portabellas": true,
+    "enable_mores": true,
+    "portal_fluid_ocean": false
+  }
+}

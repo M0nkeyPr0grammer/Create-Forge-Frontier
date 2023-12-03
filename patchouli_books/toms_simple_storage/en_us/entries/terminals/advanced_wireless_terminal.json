@@ -1,0 +1,12 @@
+{
+  "name": "Advanced Wireless Terminal",
+  "icon": "toms_storage:ts.adv_wireless_terminal",
+  "category": "patchouli:terminals",
+  "pages": [
+  "The advanced wireless terminal extends the $(l:patchouli:terminals/storage_terminal)storage/$ or $(l:patchouli:terminals/crafting_terminal)crafting terminal's/$ reach by 64 blocks. Ensure the terminal's chunk is loaded. Boost range with a beacon: Level 1 adds 8 blocks, Level 4 offers unlimited access. Bind to a hotkey for ease. Recipe needs a netherite ingot and the wireless terminal.",
+  {
+      "type": "patchouli:image",
+	  "images": ["toms_storage:patchouli_books/toms_simple_storage/images/adv_wireless_terminal.png"]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "dependencies": [
+    "Powdered Obsidian"
+  ],
+  "tasks": {
+    "sturdy sheet": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "create:sturdy_sheet"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "sheet": {
+      "item": {
+        "id": "create:sturdy_sheet",
+        "count": 9
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The sturdy sheet is crafted by pouring lava onto",
+      "a powdered obsidian via a spout then pressing it.",
+      "",
+      "The sturdy sheet will be used to create many other items."
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          255,
+          -40
+        ]
+      }
+    },
+    "icon": {
+      "item": "create:sturdy_sheet",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Sturdy Sheet"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "dependencies": [
+    "Enchantment Industry"
+  ],
+  "tasks": {
+    "bottle": {
+      "type": "heracles:item",
+      "item": "create_enchantment_industry:hyper_experience_bottle",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_enchantment_industry:hyper_experience_bottle",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "bottle": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_enchantment_industry:hyper_experience_bottle",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create_enchantment_industry:hyper_experience_bottle",
+        "count": 16
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Hyper Expierence is a new form of experience created by mixing these items",
+      "- Glow Ink Sack",
+      "- Lapis Lazuli",
+      "- 100Mb of Liquid Experience",
+      "After mixing these items you will recieve 10Mb of hyper experience which is then spouted into bottles to create a usabled item.",
+      "This new experience grants you a ton more experience produced from standard bottles of experience."
+    ],
+    "groups": {
+      "Create Addons": {
+        "position": [
+          -435,
+          5
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create_enchantment_industry:hyper_experience_bottle",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Hyper Experience"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

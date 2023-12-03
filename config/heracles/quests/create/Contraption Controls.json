@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Elevator Pulley"
+  ],
+  "tasks": {
+    "contrap control": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "create:contraption_controls"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "Give Alloy": {
+      "item": {
+        "id": "create:andesite_alloy",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Part of the elevator"
+    },
+    "description": [
+      "The contraption control is used as the interface of the elevator for the player to look at and scroll up or down on the mouse to select the level"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          170,
+          149
+        ]
+      }
+    },
+    "icon": {
+      "item": "create:contraption_controls",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Contraption Controls"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

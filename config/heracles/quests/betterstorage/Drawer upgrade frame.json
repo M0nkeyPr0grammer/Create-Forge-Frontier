@@ -1,0 +1,54 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "Upgrade frame": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "extended_drawers:upgrade_frame"
+    }
+  },
+  "rewards": {
+    "Give chest": {
+      "item": {
+        "id": "minecraft:chest",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "Upgrade frame xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "The frame to start upgrades"
+    },
+    "description": [
+      "The base item needed to start any drawer upgrade"
+    ],
+    "groups": {
+      "Better Storage": {
+        "position": [
+          -150,
+          -220
+        ]
+      }
+    },
+    "icon": {
+      "item": "extended_drawers:upgrade_frame",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Drawer upgrade frame"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

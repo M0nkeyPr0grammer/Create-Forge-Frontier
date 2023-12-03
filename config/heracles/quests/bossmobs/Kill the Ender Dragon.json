@@ -1,0 +1,55 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "Kill Ender Dragon": {
+      "entity": {
+        "type": "minecraft:ender_dragon"
+      },
+      "amount": 1,
+      "type": "heracles:kill_entity"
+    }
+  },
+  "rewards": {
+    "Give Dragons Breath": {
+      "item": {
+        "id": "minecraft:dragon_breath",
+        "count": 16
+      },
+      "type": "heracles:item"
+    },
+    "Ender Dragon xp": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Kill the Ender Dragon"
+    },
+    "description": [
+      "Kill the Ender Dragon"
+    ],
+    "groups": {
+      "Boss Mobs": {
+        "position": [
+          -200,
+          -20
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:dragon_egg",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Kill the Ender Dragon"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

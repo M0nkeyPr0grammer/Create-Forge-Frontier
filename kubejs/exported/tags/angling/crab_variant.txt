@@ -1,0 +1,6 @@
+To refresh this file, delete it and run /reload command again! Last updated: Jul 9, 2023, 10:30:52 PM
+
+#angling:natural_variants
+- angling:dungeness (from Angling Mod)
+- angling:ghost (from Angling Mod)
+- angling:blue_claw (from Angling Mod)

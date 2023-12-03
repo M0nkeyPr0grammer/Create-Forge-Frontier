@@ -1,0 +1,51 @@
+{
+  "dependencies": [
+    "Create Addons"
+  ],
+  "tasks": {
+    "chunk loader": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "createchunkloading:chunk_loader"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "This chunk loader will allow you to ",
+      "load a chunk, as long as there is rotating create",
+      "components nearbye."
+    ],
+    "groups": {
+      "Create Addons": {
+        "position": [
+          -60,
+          -35
+        ]
+      }
+    },
+    "icon": {
+      "item": "createchunkloading:chunk_loader",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Create Chunkloading"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

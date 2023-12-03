@@ -1,0 +1,114 @@
+{
+  "dependencies": [
+    "Enter the End"
+  ],
+  "tasks": {
+    "fruit": {
+      "type": "heracles:item",
+      "item": "minecraft:chorus_fruit",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "flower": {
+      "type": "heracles:item",
+      "item": "minecraft:chorus_flower",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "Give Chorus fruit": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:chorus_fruit",
+        "count": 3
+      },
+      "type": "heracles:item"
+    },
+    "Give End Stone": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:end_stone",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Collect a chorus flower and fruit"
+    },
+    "description": [
+      "Collect a chorus fruit and chorus flower"
+    ],
+    "groups": {
+      "The End": {
+        "position": [
+          -300,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:chorus_fruit",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Chorus flower"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

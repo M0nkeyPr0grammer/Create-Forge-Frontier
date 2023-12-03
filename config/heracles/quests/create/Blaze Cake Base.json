@@ -1,0 +1,75 @@
+{
+  "dependencies": [
+    "Blaze Burner"
+  ],
+  "tasks": {
+    "Egg": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "minecraft:egg"
+    },
+    "sugar": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "minecraft:sugar"
+    },
+    "cinder flour": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "create:cinder_flour"
+    }
+  },
+  "rewards": {
+    "Cake Base": {
+      "item": {
+        "id": "create:blaze_cake_base",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "This will help you create your first blaze cake"
+    },
+    "description": [
+      "Gather these items to help you create your first",
+      "blaze cake base:",
+      "- 1 egg",
+      "- 1 sugar",
+      "- 1 cinder flour",
+      "",
+      "Once you gather these items, put them in a basin and compact",
+      "them with a press to make the cake base."
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          50,
+          100
+        ]
+      }
+    },
+    "icon": {
+      "item": "create:blaze_cake_base",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Blaze Cake Base"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

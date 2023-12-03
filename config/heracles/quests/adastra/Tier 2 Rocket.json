@@ -1,0 +1,70 @@
+{
+  "dependencies": [
+    "Desh"
+  ],
+  "tasks": {
+    "tier 2": {
+      "type": "heracles:item",
+      "item": "ad_astra:tier_2_rocket",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "ad_astra:tier_2_rocket",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Crafting this rocket will allow you to travel to Mars."
+    ],
+    "groups": {
+      "Ad Astra": {
+        "position": [
+          30,
+          30
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ad_astra:tier_2_rocket",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Tier 2 Rocket"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "wireless terminal": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "toms_storage:ts.wireless_terminal"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "Give mechanism": {
+      "item": {
+        "id": "create:precision_mechanism",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Wirelessly access your network within a 16 block radius"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Better Storage": {
+        "position": [
+          -50,
+          -20
+        ]
+      }
+    },
+    "icon": {
+      "item": "toms_storage:ts.wireless_terminal",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Wireless Terminal"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

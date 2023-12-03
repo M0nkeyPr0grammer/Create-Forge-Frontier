@@ -1,0 +1,54 @@
+{
+  "dependencies": [
+    "Create Slice & Dice"
+  ],
+  "tasks": {
+    "sprinkler": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "sliceanddice:sprinkler"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The Sprinkler is a block which, when provided with a fluid using a pipe, will distribute it in a small area below.",
+      "Different fluids can have different effects.",
+      "- Lava applies a small amount of fire damage to entities below",
+      "- Water makes the area below wet, making the world think it's raining there.",
+      "- Potions apply their affect for a short duration to entities below",
+      "- Liquid Fertilizer, a new fluid, applies a bonemeal affect to blocks."
+    ],
+    "groups": {
+      "Create Addons": {
+        "position": [
+          160,
+          5
+        ]
+      }
+    },
+    "icon": {
+      "item": "sliceanddice:sprinkler",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Sprinkler"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

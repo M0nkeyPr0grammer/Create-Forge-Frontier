@@ -1,0 +1,12 @@
+{
+  "name": "Inventory Cable",
+  "icon": "toms_storage:ts.inventory_cable",
+  "category": "patchouli:cables",
+  "pages": [
+  "The inventory cable is used to connect inventories across long distances. $(l:patchouli:connectors/inventory_cable_connector)Inventory cable connecters/$  have to be used to attach inventories. One $(l:patchouli:blocks/inventory_connector)inventory connector/$ must be present in the network.",
+    {
+      "type": "patchouli:crafting",
+	  "recipe": "minecraft:kjs_toms_storage_ts.inventory_cable"
+    }
+  ]
+}
