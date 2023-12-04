@@ -1,7 +1,7 @@
 type = menu
 
 customization-meta {
-  identifier = net.minecraft.class_442
+  identifier = net.minecraft.client.gui.screens.TitleScreen
   randomgroup = 1
   renderorder = background
   randommode = false
@@ -27,6 +27,11 @@ customization {
 customization {
   keepaspectratio = false
   action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  action = hidebutton
 }
 
 customization {
@@ -60,95 +65,25 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
-  orientation = mid-left
-  x = 19
-  action = movebutton
-  y = 5
-}
-
-customization {
-  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
-  width = 102
-  action = resizebutton
-  height = 17
-}
-
-customization {
-  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
-  action = setbuttonlabel
-  value = 
-}
-
-customization {
-  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = config/fancymenu/assets/modsh.png
-  backgroundnormal = config/fancymenu/assets/mods.png
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
-  action = hidebutton
-}
-
-customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
   action = hidebutton
 }
 
 customization {
-  identifier = %id=376310%
-  orientation = mid-left
-  x = 19
+  identifier = %id=376322%
+  orientation = bottom-left
+  x = 20
   action = movebutton
-  y = 91
+  y = -64
 }
 
 customization {
-  identifier = %id=376310%
+  identifier = %id=376322%
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
   backgroundhovered = config/fancymenu/assets/createh.png
   backgroundnormal = config/fancymenu/assets/create.png
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
-  orientation = mid-left
-  x = 19
-  action = movebutton
-  y = -55
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
-  width = 102
-  action = resizebutton
-  height = 17
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
-  action = setbuttonlabel
-  value = 
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = config/fancymenu/assets/singleplayerh.png
-  backgroundnormal = config/fancymenu/assets/singleplayer.png
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
-  action = hidebutton
 }
 
 customization {
@@ -217,6 +152,71 @@ customization {
 }
 
 customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-left
+  x = 19
+  action = movebutton
+  y = -55
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 102
+  action = resizebutton
+  height = 17
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/assets/singleplayerh.png
+  backgroundnormal = config/fancymenu/assets/singleplayer.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = mid-left
+  x = 19
+  action = movebutton
+  y = 5
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  width = 102
+  action = resizebutton
+  height = 17
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/assets/modsh.png
+  backgroundnormal = config/fancymenu/assets/mods.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
   orientation = top-left
   hidden = true
   x = 2
@@ -260,6 +260,28 @@ customization {
   actionid = 8cd35f71-4039-4e9c-8b41-dc94b0d14c581693928784274
   y = 0
   height = 30
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 118
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = d529d4bb-4e54-4e21-b046-41c0e66e41181701675254703
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 275
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 15a67ab9-2c21-4c4a-8bef-f105a931f0751701675254703
+  y = 250
+  height = 9
 }
 
 customization {

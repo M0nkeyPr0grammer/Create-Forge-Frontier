@@ -66,7 +66,7 @@ customization {
 
 customization {
   orientation = bottom-right
-  enable_scrolling = true
+  enable_scrolling = false
   shadow = true
   scale = 2.0
   source = v3.0.0
