@@ -239,3 +239,400 @@
 			#Range: 0 ~ 100
 			glareTamingChance = 33
 
+	[integration.aquaculture]
+
+		[integration.aquaculture.arrau_turtle]
+			#Ingredients required for arrau_turtle breeding
+			arrau_turtleIngredients = "#aquaculture:turtle_edible"
+			arrau_turtleSpawnEgg = "aquaculture:arrau_turtle_spawn_egg"
+			arrau_turtleBreedingCooldown = 6000
+
+		[integration.aquaculture.box_turtle]
+			#Ingredients required for box_turtle breeding
+			box_turtleIngredients = "#aquaculture:turtle_edible"
+			box_turtleSpawnEgg = "aquaculture:box_turtle_spawn_egg"
+			box_turtleBreedingCooldown = 6000
+
+		[integration.aquaculture.starshell_turtle]
+			#Ingredients required for starshell_turtle breeding
+			starshell_turtleIngredients = "#aquaculture:turtle_edible"
+			starshell_turtleSpawnEgg = "aquaculture:starshell_turtle_spawn_egg"
+			starshell_turtleBreedingCooldown = 6000
+
+	[integration.naturalist]
+
+		[integration.naturalist.alligator]
+			#Ingredients required for alligator breeding
+			alligatorIngredients = "#naturalist:alligator_food_items"
+			alligatorSpawnEgg = "naturalist:alligator_spawn_egg"
+			#Egg that alligator lays after breeding
+			alligatoreggResult = "naturalist:alligator_egg"
+			#Min amount of eggs that alligator lays after breeding
+			#Range: 1 ~ 64
+			alligatorEggMinAmount = 1
+			#Max amount of eggs that alligator lays after breeding
+			#Range: 1 ~ 64
+			alligatorEggMaxAmount = 4
+			alligatorBreedingCooldown = 6000
+
+		[integration.naturalist.bear]
+			#Ingredients required for bear breeding
+			bearIngredients = "#naturalist:bear_tempt_items"
+			bearSpawnEgg = "naturalist:bear_spawn_egg"
+			bearBreedingCooldown = 6000
+
+		[integration.naturalist.boar]
+			#Ingredients required for boar breeding
+			boarIngredients = "#naturalist:boar_food_items"
+			boarSpawnEgg = "naturalist:boar_spawn_egg"
+			boarBreedingCooldown = 6000
+
+		[integration.naturalist.butterfly]
+			#Ingredients required for butterfly breeding
+			butterflyIngredients = "#minecraft:flowers"
+			butterflySpawnEgg = "naturalist:butterfly_spawn_egg"
+			butterflyBreedingCooldown = 6000
+
+		[integration.naturalist.deer]
+			#Ingredients required for deer breeding
+			deerIngredients = "minecraft:apple"
+			deerSpawnEgg = "naturalist:deer_spawn_egg"
+			deerBreedingCooldown = 6000
+
+		[integration.naturalist.duck]
+			#Ingredients required for duck breeding
+			duckIngredients = "#naturalist:duck_food_items"
+			duckSpawnEgg = "naturalist:duck_spawn_egg"
+			duckBreedingCooldown = 6000
+
+		[integration.naturalist.giraffe]
+			#Ingredients required for giraffe breeding
+			giraffeIngredients = "minecraft:hay_block"
+			giraffeSpawnEgg = "naturalist:giraffe_spawn_egg"
+			giraffeBreedingCooldown = 6000
+
+		[integration.naturalist.tortoise]
+			#Ingredients required for tortoise breeding
+			tortoiseIngredients = "#naturalist:tortoise_tempt_items"
+			tortoiseSpawnEgg = "naturalist:tortoise_spawn_egg"
+			#Egg that tortoise lays after breeding
+			tortoiseeggResult = "naturalist:tortoise_egg"
+			#Min amount of eggs that tortoise lays after breeding
+			#Range: 1 ~ 64
+			tortoiseEggMinAmount = 1
+			#Max amount of eggs that tortoise lays after breeding
+			#Range: 1 ~ 64
+			tortoiseEggMaxAmount = 4
+			tortoiseBreedingCooldown = 6000
+
+	[integration.alexsmobs]
+
+		[integration.alexsmobs.alligator_snapping_turtle]
+			#Ingredients required for alligator_snapping_turtle breeding
+			alligator_snapping_turtleIngredients = "minecraft:cod"
+			alligator_snapping_turtleSpawnEgg = "alexsmobs:spawn_egg_alligator_snapping_turtle"
+
+		[integration.alexsmobs.anaconda]
+			#Ingredients required for anaconda breeding
+			anacondaIngredients = "minecraft:chicken, minecraft:cooked_chicken"
+			anacondaSpawnEgg = "alexsmobs:spawn_egg_anaconda"
+
+		[integration.alexsmobs.anteater]
+			#Ingredients required for anteater breeding
+			anteaterIngredients = "alexsmobs:leafcutter_ant_pupa"
+			anteaterSpawnEgg = "alexsmobs:spawn_egg_anteater"
+
+		[integration.alexsmobs.bald_eagle]
+			#Ingredients required for bald_eagle breeding
+			bald_eagleIngredients = "minecraft:rotten_flesh"
+			bald_eagleSpawnEgg = "alexsmobs:spawn_egg_bald_eagle"
+
+		[integration.alexsmobs.banana_slug]
+			#Ingredients required for banana_slug breeding
+			banana_slugIngredients = "minecraft:brown_mushroom"
+			banana_slugSpawnEgg = "alexsmobs:spawn_egg_banana_slug"
+
+		[integration.alexsmobs.bison]
+			#Ingredients required for bison breeding
+			bisonIngredients = "minecraft:wheat"
+			bisonSpawnEgg = "alexsmobs:spawn_egg_bison"
+
+		[integration.alexsmobs.blue_jay]
+			#Ingredients required for blue_jay breeding
+			blue_jayIngredients = "#alexsmobs:insect_items"
+			blue_jaySpawnEgg = "alexsmobs:spawn_egg_blue_jay"
+
+		[integration.alexsmobs.capuchin_monkey]
+			#Ingredients required for capuchin_monkey breeding
+			capuchin_monkeyIngredients = "#alexsmobs:insect_items"
+			capuchin_monkeySpawnEgg = "alexsmobs:spawn_egg_capuchin_monkey"
+
+		[integration.alexsmobs.cockroach]
+			#Ingredients required for cockroach breeding
+			cockroachIngredients = "minecraft:sugar"
+			cockroachSpawnEgg = "alexsmobs:spawn_egg_cockroach"
+
+		[integration.alexsmobs.crocodile]
+			#Ingredients required for crocodile breeding
+			crocodileIngredients = "minecraft:rotten_flesh"
+			crocodileSpawnEgg = "alexsmobs:spawn_egg_crocodile"
+			#Egg that crocodile lays after breeding
+			crocodileeggResult = "alexsmobs:crocodile_egg"
+			#Min amount of eggs that crocodile lays after breeding
+			#Range: 1 ~ 64
+			crocodileEggMinAmount = 1
+			#Max amount of eggs that crocodile lays after breeding
+			#Range: 1 ~ 64
+			crocodileEggMaxAmount = 1
+
+		[integration.alexsmobs.crow]
+			#Ingredients required for crow breeding
+			crowIngredients = "minecraft:pumpkin_seeds"
+			crowSpawnEgg = "alexsmobs:spawn_egg_crow"
+
+		[integration.alexsmobs.emu]
+			#Ingredients required for emu breeding
+			emuIngredients = "minecraft:wheat"
+			emuSpawnEgg = "alexsmobs:spawn_egg_emu"
+
+		[integration.alexsmobs.endergrade]
+			#Ingredients required for endergrade breeding
+			endergradeIngredients = "minecraft:chorus_fruit"
+			endergradeSpawnEgg = "alexsmobs:spawn_egg_endergrade"
+
+		[integration.alexsmobs.flutter]
+			#Ingredients required for flutter breeding
+			flutterIngredients = "minecraft:bone_meal"
+			flutterSpawnEgg = "alexsmobs:spawn_egg_flutter"
+
+		[integration.alexsmobs.fly]
+			#Ingredients required for fly breeding
+			flyIngredients = "minecraft:rotten_flesh"
+			flySpawnEgg = "alexsmobs:spawn_egg_fly"
+
+		[integration.alexsmobs.gazelle]
+			#Ingredients required for gazelle breeding
+			gazelleIngredients = "minecraft:wheat"
+			gazelleSpawnEgg = "alexsmobs:spawn_egg_gazelle"
+
+		[integration.alexsmobs.gelada_monkey]
+			#Ingredients required for gelada_monkey breeding
+			gelada_monkeyIngredients = "minecraft:dead_bush"
+			gelada_monkeySpawnEgg = "alexsmobs:spawn_egg_gelada_monkey"
+
+		[integration.alexsmobs.hummingbird]
+			#Ingredients required for hummingbird breeding
+			hummingbirdIngredients = "#minecraft:flowers"
+			hummingbirdSpawnEgg = "alexsmobs:spawn_egg_hummingbird"
+
+		[integration.alexsmobs.jerboa]
+			#Ingredients required for jerboa breeding
+			jerboaIngredients = "alexsmobs:maggot"
+			jerboaSpawnEgg = "alexsmobs:spawn_egg_jerboa"
+
+		[integration.alexsmobs.kangaroo]
+			#Ingredients required for kangaroo breeding
+			kangarooIngredients = "minecraft:dead_bush, minecraft:grass"
+			kangarooSpawnEgg = "alexsmobs:spawn_egg_kangaroo"
+
+		[integration.alexsmobs.laviathan]
+			#Ingredients required for laviathan breeding
+			laviathanIngredients = "alexsmobs:mosquito_larva"
+			laviathanSpawnEgg = "alexsmobs:spawn_egg_laviathan"
+
+		[integration.alexsmobs.maned_wolf]
+			#Ingredients required for maned_wolf breeding
+			maned_wolfIngredients = "minecraft:chicken, minecraft:cooked_chicken, minecraft:cooked_rabbit, minecraft:rabbit"
+			maned_wolfSpawnEgg = "alexsmobs:spawn_egg_maned_wolf"
+
+		[integration.alexsmobs.mantis_shrimp]
+			#Ingredients required for mantis_shrimp breeding
+			mantis_shrimpIngredients = "alexsmobs:cooked_lobster_tail, alexsmobs:lobster_tail"
+			mantis_shrimpSpawnEgg = "alexsmobs:spawn_egg_mantis_shrimp"
+
+		[integration.alexsmobs.mimic_octopus]
+			#Ingredients required for mimic_octopus breeding
+			mimic_octopusIngredients = "minecraft:tropical_fish"
+			mimic_octopusSpawnEgg = "alexsmobs:spawn_egg_mimic_octopus"
+
+		[integration.alexsmobs.mudskipper]
+			#Ingredients required for mudskipper breeding
+			mudskipperIngredients = "alexsmobs:cooked_lobster_tail, alexsmobs:lobster_tail, alexsmobs:mosquito_larva"
+			mudskipperSpawnEgg = "alexsmobs:spawn_egg_mudskipper"
+
+		[integration.alexsmobs.mungus]
+			#Ingredients required for mungus breeding
+			mungusIngredients = "alexsmobs:mungal_spores"
+			mungusSpawnEgg = "alexsmobs:spawn_egg_mungus"
+
+		[integration.alexsmobs.orca]
+			#Ingredients required for orca breeding
+			orcaIngredients = "minecraft:salmon"
+			orcaSpawnEgg = "alexsmobs:spawn_egg_orca"
+
+		[integration.alexsmobs.platypus]
+			#Ingredients required for platypus breeding
+			platypusIngredients = "alexsmobs:cooked_lobster_tail, alexsmobs:lobster_tail"
+			platypusSpawnEgg = "alexsmobs:spawn_egg_platypus"
+
+		[integration.alexsmobs.potoo]
+			#Ingredients required for potoo breeding
+			potooIngredients = "#alexsmobs:insect_items"
+			potooSpawnEgg = "alexsmobs:spawn_egg_potoo"
+
+		[integration.alexsmobs.raccoon]
+			#Ingredients required for raccoon breeding
+			raccoonIngredients = "minecraft:bread"
+			raccoonSpawnEgg = "alexsmobs:spawn_egg_raccoon"
+
+		[integration.alexsmobs.rattlesnake]
+			#Ingredients required for rattlesnake breeding
+			rattlesnakeIngredients = "minecraft:porkchop, minecraft:cooked_porkchop, minecraft:beef, minecraft:cooked_beef, minecraft:chicken, minecraft:cooked_chicken, minecraft:rotten_flesh, minecraft:rabbit, minecraft:cooked_rabbit, minecraft:mutton, minecraft:cooked_mutton"
+			rattlesnakeSpawnEgg = "alexsmobs:spawn_egg_rattlesnake"
+
+		[integration.alexsmobs.rhinoceros]
+			#Ingredients required for rhinoceros breeding
+			rhinocerosIngredients = "minecraft:dead_bush"
+			rhinocerosSpawnEgg = "alexsmobs:spawn_egg_rhinoceros"
+
+		[integration.alexsmobs.roadrunner]
+			#Ingredients required for roadrunner breeding
+			roadrunnerIngredients = "#alexsmobs:insect_items"
+			roadrunnerSpawnEgg = "alexsmobs:spawn_egg_roadrunner"
+
+		[integration.alexsmobs.seagull]
+			#Ingredients required for seagull breeding
+			seagullIngredients = "minecraft:cod"
+			seagullSpawnEgg = "alexsmobs:spawn_egg_seagull"
+
+		[integration.alexsmobs.seal]
+			#Ingredients required for seal breeding
+			sealIngredients = "alexsmobs:lobster_tail"
+			sealSpawnEgg = "alexsmobs:spawn_egg_seal"
+
+		[integration.alexsmobs.skunk]
+			#Ingredients required for skunk breeding
+			skunkIngredients = "minecraft:sweet_berries"
+			skunkSpawnEgg = "alexsmobs:spawn_egg_skunk"
+
+		[integration.alexsmobs.snow_leopard]
+			#Ingredients required for snow_leopard breeding
+			snow_leopardIngredients = "alexsmobs:cooked_moose_ribs, alexsmobs:moose_ribs"
+			snow_leopardSpawnEgg = "alexsmobs:spawn_egg_snow_leopard"
+
+		[integration.alexsmobs.sugar_glider]
+			#Ingredients required for sugar_glider breeding
+			sugar_gliderIngredients = "minecraft:honeycomb"
+			sugar_gliderSpawnEgg = "alexsmobs:spawn_egg_sugar_glider"
+
+		[integration.alexsmobs.tasmanian_devil]
+			#Ingredients required for tasmanian_devil breeding
+			tasmanian_devilIngredients = "minecraft:porkchop, minecraft:cooked_porkchop, minecraft:beef, minecraft:cooked_beef, minecraft:chicken, minecraft:cooked_chicken, minecraft:rabbit, minecraft:cooked_rabbit, minecraft:mutton, minecraft:cooked_mutton"
+			tasmanian_devilSpawnEgg = "alexsmobs:spawn_egg_tasmanian_devil"
+
+		[integration.alexsmobs.terrapin]
+			#Ingredients required for terrapin breeding
+			terrapinIngredients = "minecraft:seagrass"
+			terrapinSpawnEgg = "alexsmobs:spawn_egg_terrapin"
+			#Egg that terrapin lays after breeding
+			terrapineggResult = "alexsmobs:terrapin_egg"
+			#Min amount of eggs that terrapin lays after breeding
+			#Range: 1 ~ 64
+			terrapinEggMinAmount = 1
+			#Max amount of eggs that terrapin lays after breeding
+			#Range: 1 ~ 64
+			terrapinEggMaxAmount = 4
+
+		[integration.alexsmobs.tiger]
+			#Ingredients required for tiger breeding
+			tigerIngredients = "#alexsmobs:tiger_breedables"
+			tigerSpawnEgg = "alexsmobs:spawn_egg_tiger"
+
+		[integration.alexsmobs.toucan]
+			#Ingredients required for toucan breeding
+			toucanIngredients = "minecraft:egg"
+			toucanSpawnEgg = "alexsmobs:spawn_egg_toucan"
+
+		[integration.alexsmobs.tusklin]
+			#Ingredients required for tusklin breeding
+			tusklinIngredients = "minecraft:red_mushroom"
+			tusklinSpawnEgg = "alexsmobs:spawn_egg_tusklin"
+
+	[integration.alexscaves]
+
+		[integration.alexscaves.relicheirus]
+			#Ingredients required for relicheirus breeding
+			relicheirusIngredients = "alexscaves:tree_star"
+			relicheirusSpawnEgg = "alexscaves:spawn_egg_relicheirus"
+			relicheirusBreedingCooldown = 6000
+			#Egg that relicheirus lays after breeding
+			relicheirusEggResult = "alexscaves:relicheirus_egg"
+			#Min amount of eggs that relicheirus lays after breeding
+			#Range: 1 ~ 64
+			relicheirusEggMinAmount = 1
+			#Max amount of eggs that relicheirus lays after breeding
+			#Range: 1 ~ 64
+			relicheirusEggMaxAmount = 1
+
+		[integration.alexscaves.subterranodon]
+			#Ingredients required for subterranodon breeding
+			subterranodonIngredients = "minecraft:cod, minecraft:cooked_cod"
+			subterranodonSpawnEgg = "alexscaves:spawn_egg_subterranodon"
+			subterranodonBreedingCooldown = 6000
+			#Egg that subterranodon lays after breeding
+			subterranodonEggResult = "alexscaves:subterranodon_egg"
+			#Min amount of eggs that subterranodon lays after breeding
+			#Range: 1 ~ 64
+			subterranodonEggMinAmount = 1
+			#Max amount of eggs that subterranodon lays after breeding
+			#Range: 1 ~ 64
+			subterranodonEggMaxAmount = 4
+
+		[integration.alexscaves.tremorsaurus]
+			#Ingredients required for tremorsaurus breeding
+			tremorsaurusIngredients = "alexscaves:cooked_dinosaur_chop, alexscaves:dinosaur_chop"
+			tremorsaurusSpawnEgg = "alexscaves:spawn_egg_tremorsaurus"
+			tremorsaurusBreedingCooldown = 6000
+			#Egg that tremorsaurus lays after breeding
+			tremorsaurusEggResult = "alexscaves:tremorsaurus_egg"
+			#Min amount of eggs that tremorsaurus lays after breeding
+			#Range: 1 ~ 64
+			tremorsaurusEggMinAmount = 1
+			#Max amount of eggs that tremorsaurus lays after breeding
+			#Range: 1 ~ 64
+			tremorsaurusEggMaxAmount = 1
+			#Ingredients required for tremorsaurus taming
+			tremorsaurusTamingIngredients = "alexscaves:serene_salad"
+			#Range: 0 ~ 100
+			tremorsaurusTamingChance = 33
+			#Extra ingredients required for tremorsaurus taming
+			tremorsaurusExtraTamingIngredients = "alexscaves:primitive_club"
+
+		[integration.alexscaves.vallumraptor]
+			#Ingredients required for vallumraptor breeding
+			vallumraptorIngredients = "alexscaves:dinosaur_nugget"
+			vallumraptorSpawnEgg = "alexscaves:spawn_egg_vallumraptor"
+			vallumraptorBreedingCooldown = 6000
+			#Egg that vallumraptor lays after breeding
+			vallumraptorEggResult = "alexscaves:vallumraptor_egg"
+			#Min amount of eggs that vallumraptor lays after breeding
+			#Range: 1 ~ 64
+			vallumraptorEggMinAmount = 1
+			#Max amount of eggs that vallumraptor lays after breeding
+			#Range: 1 ~ 64
+			vallumraptorEggMaxAmount = 4
+			#Ingredients required for vallumraptor taming
+			vallumraptorTamingIngredients = "alexscaves:serene_salad"
+			#Range: 0 ~ 100
+			vallumraptorTamingChance = 33
+
+		[integration.alexscaves.raycat]
+			#Ingredients required for raycat breeding
+			raycatIngredients = "alexscaves:radgill"
+			raycatSpawnEgg = "alexscaves:spawn_egg_raycat"
+			raycatBreedingCooldown = 6000
+			#Ingredients required for raycat taming
+			raycatTamingIngredients = "alexscaves:radgill"
+			#Range: 0 ~ 100
+			raycatTamingChance = 33
+

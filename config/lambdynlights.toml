@@ -188,6 +188,7 @@ mode = "fancy"
 				elephant = true
 				lion = true
 				hippo = true
+				dragonfly = true
 
 			[light_sources.settings.entities.charm]
 				moobloom = true
@@ -425,6 +426,7 @@ mode = "fancy"
 				end_enderman = true
 				snowy_enderman = true
 				flower_fields_enderman = true
+				savanna_enderman = true
 
 			[light_sources.settings.entities.ad_astra]
 				tier_1_rocket = true
@@ -435,4 +437,15 @@ mode = "fancy"
 				lunarian = true
 				tier_4_rocket = true
 				glacian_ram = true
+
+			[light_sources.settings.entities.aquaculture]
+				piranha = true
+
+			[light_sources.settings.entities.alexsmobs]
+				crow = true
+				cockroach = true
+				centipede_head = true
+				centipede_body = true
+				centipede_tail = true
+				fly = true
 

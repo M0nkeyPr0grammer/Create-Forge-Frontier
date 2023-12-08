@@ -16,7 +16,6 @@
     "fluid_storage.detailed": false,
     "energy_storage": true,
     "entity_armor.max_for_render": 40,
-    "trellis.pot_plant": true,
     "breaking_progress": true,
     "tnt_stability": true,
     "item_storage.items_per_line": 9,
@@ -55,24 +54,11 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "jadeaddons": {
-    "equipment_requirement": ""
-  },
   "endertanks": {
     "hud.basic": true,
     "hud": true,
     "hud.status": true,
     "hud.contents": true
-  },
-  "shetiphiancore": {
-    "hud.rgb16": true,
-    "hud": true,
-    "hud.redstone": true
-  },
-  "reputation": {
-    "iron_golem": true,
-    "villager_snitch": true,
-    "villager_reputation": true
   },
   "jade": {
     "coordinates.rel": false,
@@ -81,6 +67,33 @@
     "coordinates": false,
     "registry_name": "OFF",
     "mod_name": true
+  },
+  "apotheosis": {
+    "adventure": true,
+    "ench": true,
+    "spawner": true
+  },
+  "lootr": {
+    "info": true
+  },
+  "jadeaddons": {
+    "equipment_requirement": ""
+  },
+  "shetiphiancore": {
+    "hud.rgb16": true,
+    "hud": true,
+    "hud.redstone": true
+  },
+  "easy_villagers": {
+    "villager": true,
+    "converter": true,
+    "breeder": true
+  },
+  "pipez": {
+    "pipe": true
+  },
+  "supplementaries": {
+    "hat_stand": true
   },
   "create": {
     "filter": true,
@@ -93,14 +106,10 @@
     "goggles.detailed": false,
     "placard": true
   },
-  "beautify": {
-    "lamp_jar.glowstone_dust": true,
-    "hanging_pot.pot_flower": true
-  },
   "waystones": {
     "waystone": true
   },
-  "lootr": {
-    "info": true
+  "gravestone": {
+    "grave": true
   }
 }

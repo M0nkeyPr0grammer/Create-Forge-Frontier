@@ -115,5 +115,56 @@
          * Type: Integer
          */
         "gravity_normalizing_durability_duration": 60
+    },
+    "compats": {
+        "mekanism": {
+            /*
+             * Energy usage for provide oxygen [in every 30 ticks]
+             * Type: Integer
+             */
+            "modules_space_breathing_energy_using_provide": 300,
+            /*
+             * Energy usage per mb when produce Mekanism oxygen to player in water, rain
+             * Type: Integer
+             */
+            "modules_space_breathing_energy_using_produce": 200,
+            /*
+             * Energy usage for proof in every ticks [in every 10 ticks]
+             * Type: Integer
+             */
+            "modules_space_fire_proof_energy_using": 100,
+            /*
+             * Energy usage for proof in every ticks [in every 10 ticks]
+             * Type: Integer
+             */
+            "modules_acid_rain_proof_energy_using": 100,
+            /*
+             * Energy usage for proof in every ticks [in every 10 ticks]
+             * Type: Integer
+             */
+            "modules_gravity_normalizing_energy_using": 100
+        },
+        "pneumaticcraft": {
+            /*
+             * Air usage for provide oxygen [in every 30 ticks]
+             * Type: Integer
+             */
+            "upgades_space_breathing_air_using": 150,
+            /*
+             * Air usage for proof [in every 10 ticks]
+             * Type: Integer
+             */
+            "upgades_space_fire_proof_air_using": 50,
+            /*
+             * Air usage for proof [in every 10 ticks]
+             * Type: Integer
+             */
+            "upgades_acid_rain_proof_air_using": 50,
+            /*
+             * Air usage for proof [in every 10 ticks]
+             * Type: Integer
+             */
+            "upgades_gravity_normalizing_air_using": 50
+        }
     }
 }

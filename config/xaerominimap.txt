@@ -54,7 +54,6 @@ waypointOpacityMap:90
 hideWorldNames:1
 openSlimeSettings:true
 alwaysShowDistance:false
-renderLayerIndex:1
 crossDimensionalTp:true
 biomeColorsVanillaMode:false
 lookingAtAngle:10
@@ -111,7 +110,7 @@ displayClaims:true
 displayCurrentClaim:true
 claimsFillOpacity:46
 claimsBorderOpacity:80
-infoDisplayOrder:coords:overworld_coords:chunk_coords:angles:dimension:biome:weather:light_level:time:real_time:highlights:light_overlay_indicator:manual_cave_mode_indicator:custom_sub_world
+infoDisplayOrder:coords:overworld_coords:chunk_coords:angles:dimension:biome:weather:light_level:time:real_time:highlights:light_overlay_indicator:manual_cave_mode_indicator:custom_sub_world:season
 infoDisplay:coords:true:15:-1
 infoDisplay:overworld_coords:false:15:-1
 infoDisplay:chunk_coords:false:15:-1
@@ -126,6 +125,7 @@ infoDisplay:highlights:true:15:-1
 infoDisplay:light_overlay_indicator:true:15:-1
 infoDisplay:manual_cave_mode_indicator:true:15:-1
 infoDisplay:custom_sub_world:true:15:-1
+infoDisplay:season:true:15:-1
 interface:dummy:0:36:true:false:false:false
 interface:dummy:0:10000:true:false:false:false
 interface:dummy:0:0:false:false:true:false

@@ -24,11 +24,6 @@
 	#Log a stack-trace when rendering issues happen within a moving contraption.
 	explainRenderErrors = true
 	#.
-	#The fluid unit that will be displayed when viewing fluids
-	#Example: 1000 mB or 81000 Droplets
-	#Allowed Values: DROPLETS, MILLIBUCKETS
-	fluidUnitType = "MILLIBUCKETS"
-	#.
 	#[in Blocks]
 	#Maximum Distance to the player at which items in Blocks' filter slots will be displayed
 	#Range: 1.0 ~ 3.4028234663852886E38
@@ -37,15 +32,8 @@
 	#Show kinetic debug information on blocks while the F3-Menu is open.
 	enableRainbowDebug = false
 	#.
-	#Vertical offset for the Toolbox Hotbar overlay.
-	#Range: > -2147483648
-	toolboxHotbarOverlayOffset = 0
-	#.
 	#Display a tooltip when looking at overstressed components.
 	enableOverstressedTooltip = true
-	#.
-	#Determines if the fluid unit should be simplified
-	simplifyFluidUnit = true
 	#.
 	#Offset the Create config button in the in-game menu by this many pixels on the X axis
 	#The sign (-/+) of this value determines what side of the row the button appears on (left/right)

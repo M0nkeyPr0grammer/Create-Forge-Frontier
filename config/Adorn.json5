@@ -21,15 +21,18 @@
 	},
 	// Mod compatibility toggles (enabled: true, disabled: false)
 	"compat": {
-		"byg": true,
-		"traverse": true,
 		"terrestria": true,
-		"cinderscapes": true,
-		"blockus": true,
-		"promenade": true,
 		"woods_and_mires": true,
 		"towelette": true,
 		"biomemakeover": true,
+		"biomesoplenty": true,
+		"byg": true,
+		"traverse": true,
+		"architects_palette": true,
+		"cinderscapes": true,
+		"blockus": true,
+		"promenade": true,
+		"ecologics": true,
 		"techreborn": true
 	}
 }
