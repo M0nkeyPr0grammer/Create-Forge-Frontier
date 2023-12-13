@@ -4,16 +4,10 @@ console.info('Hello, World! (You will see this line every time server resources 
 
 ServerEvents.recipes(event => {
 	// Remove recipes here
-	event.remove({ id: 'wunderreich:wunder_kiste' }) // Removes Wunder_Kistes
-	event.remove({ id: 'betterend:guidebook' }) // Removes guide book
-	event.remove({ id: 'betternether:betternether_book' }) // Removes guide book
-	event.remove({ id: 'seasonsextras:seasonal_compendium' }) // Removes Guide Book
 	event.remove({ id: 'chipped:benches/mechanist_workbench' }) // Removes Recipe, fixed below
 	event.remove({ id: 'createaddition:crafting/diamond_grit_sandpaper' }) // Removes Broken Recipe
 	event.remove({ id: 'createfoundry:mixing/melting/ore/redstone_from_ore' })
 	event.remove({ id: 'createfoundry:mixing/melting/ore/lapis_from_ore' })
-	event.remove({ id: 'simplevillagers:iron_farm_block' })
-	event.remove({ id: 'simplevillagers:trading_block' })
 	event.remove({ id: 'create:crushing/nether_wart_block'})
 
 	// Any Dirt to Vanilla Dirt

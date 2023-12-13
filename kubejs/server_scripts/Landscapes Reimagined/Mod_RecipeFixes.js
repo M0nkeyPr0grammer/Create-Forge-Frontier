@@ -83,7 +83,6 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'railways:sequenced_assembly/track_biomesoplenty_cherry_wide' });
     event.remove({ id: 'mctb:smogstem_crafting_table' });
 
-    // Template: event.remove({ id: '' });
         // All the Compressed Decompressed Recipes
         event.remove({ id: 'allthecompressed:decompress/bronze_block_1x' });
         event.remove({ id: 'allthecompressed:decompress/vibrant_alloy_block_1x' });
