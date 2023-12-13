@@ -13,6 +13,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'createdieselgenerators:compacting/plant_oil'})
     event.remove({ id: 'sliceanddice:sprinkler'});
 
+    
     // Removes Missing Item Related Recipes
     event.remove({ id: 'create:cutting/stripped_cherry_log' });
     event.remove({ id: 'create:cutting/stripped_cherry_wood' });
@@ -25,6 +26,109 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'create:milling/white_trilium' });
     event.remove({ id: 'create:milling/wilting_trilium' });
     event.remove({ id: 'createaddition:compat/ae2/charged_certus_quartz' });
+
+    // Template: event.remove({ id: '' });
+        // All the Compressed Decompressed Recipes
+        event.remove({ id: 'allthecompressed:decompress/bronze_block_1x' });
+        event.remove({ id: 'allthecompressed:decompress/vibrant_alloy_block_1x' });
+        event.remove({ id: 'allthecompressed:decompress/vibranium_allthemodium_alloy_block_1x' });
+        event.remove({ id: 'allthecompressed:decompress/platinum_block_1x' });
+        event.remove({ id: 'allthecompressed:decompress/conductive_alloy_block_1x' });
+        event.remove({ id: 'allthecompressed:decompress/unobtainium_block_1x' });
+        event.remove({ id: 'allthecompressed:decompress/zinc_block_1x' });
+        event.remove({ id: 'allthecompressed:decompress/uraninite_block_1x' });
+        event.remove({ id: 'allthecompressed:decompress/invar_block_1x' });
+        event.remove({ id: 'allthecompressed:decompress/redstone_alloy_block_1x' });
+        event.remove({ id: 'allthecompressed:decompress/nickel_block_1x' });
+        event.remove({ id: 'allthecompressed:decompress/blazing_crystal_block_1x' });
+        event.remove({ id: 'allthecompressed:decompress/ruby_block_1x' });
+        event.remove({ id: 'allthecompressed:decompress/silver_block_1x' });
+        event.remove({ id: 'allthecompressed:decompress/tin_block_1x' });
+        event.remove({ id: 'allthecompressed:decompress/spirited_crystal_block_1x' });
+        event.remove({ id: 'allthecompressed:decompress/constantan_block_1x' });
+        event.remove({ id: 'allthecompressed:decompress/peridot_block_1x' });
+        event.remove({ id: 'allthecompressed:decompress/ender_pearl_block_1x' });
+        event.remove({ id: 'allthecompressed:decompress/copper_alloy_block_1x' });
+        event.remove({ id: 'allthecompressed:decompress/dark_steel_block_1x' });
+        event.remove({ id: 'allthecompressed:decompress/sapphire_block_1x' });
+        event.remove({ id: 'allthecompressed:decompress/uranium_block_1x' });
+        event.remove({ id: 'allthecompressed:decompress/enderium_block_1x' });
+        event.remove({ id: 'allthecompressed:decompress/nether_star_block_1x' });
+        event.remove({ id: 'allthecompressed:decompress/osmium_block_1x' });
+        event.remove({ id: 'allthecompressed:decompress/energetic_alloy_block_1x' });
+        event.remove({ id: 'allthecompressed:decompress/soularium_block_1x' });
+        event.remove({ id: 'allthecompressed:decompress/energized_steel_block_1x' });
+        event.remove({ id: 'allthecompressed:decompress/unobtainium_vibranium_alloy_block_1x' });
+        event.remove({ id: 'allthecompressed:decompress/lead_block_1x' });
+        event.remove({ id: 'allthecompressed:decompress/allthemodium_block_1x' });
+        event.remove({ id: 'allthecompressed:decompress/lumium_block_1x' });
+        event.remove({ id: 'allthecompressed:decompress/atm_star_block_1x' });
+        event.remove({ id: 'allthecompressed:decompress/steel_block_1x' });
+        event.remove({ id: 'allthecompressed:decompress/blaze_block_1x' });
+        event.remove({ id: 'allthecompressed:decompress/wax_block_1x' });
+        event.remove({ id: 'allthecompressed:decompress/ancient_log_0_1x' });
+        event.remove({ id: 'allthecompressed:decompress/unobtainium_allthemodium_alloy_block_1x' });
+        event.remove({ id: 'allthecompressed:decompress/signalum_block_1x' });
+        event.remove({ id: 'allthecompressed:decompress/electrum_block_1x' });
+        event.remove({ id: 'allthecompressed:decompress/nitro_crystal_block_1x' });
+        event.remove({ id: 'allthecompressed:decompress/pulsating_alloy_block_1x' });
+        event.remove({ id: 'allthecompressed:decompress/aluminum_block_1x' });
+        event.remove({ id: 'allthecompressed:decompress/ancient_stone_1x' });
+        event.remove({ id: 'allthecompressed:decompress/end_steel_block_1x' });
+        event.remove({ id: 'allthecompressed:decompress/niotic_crystal_block_1x' });
+        event.remove({ id: 'allthecompressed:decompress/iridium_block_1x' });
+        event.remove({ id: 'allthecompressed:decompress/vibranium_block_1x' });
+
+        // All the Compressed Compressed Recipes
+        event.remove({ id: 'allthecompressed:compress/bronze_block_1x' });
+        event.remove({ id: 'allthecompressed:compress/vibrant_alloy_block_1x' });
+        event.remove({ id: 'allthecompressed:compress/vibranium_allthemodium_alloy_block_1x' });
+        event.remove({ id: 'allthecompressed:compress/platinum_block_1x' });
+        event.remove({ id: 'allthecompressed:compress/conductive_alloy_block_1x' });
+        event.remove({ id: 'allthecompressed:compress/unobtainium_block_1x' });
+        event.remove({ id: 'allthecompressed:compress/zinc_block_1x' });
+        event.remove({ id: 'allthecompressed:compress/uraninite_block_1x' });
+        event.remove({ id: 'allthecompressed:compress/invar_block_1x' });
+        event.remove({ id: 'allthecompressed:compress/redstone_alloy_block_1x' });
+        event.remove({ id: 'allthecompressed:compress/nickel_block_1x' });
+        event.remove({ id: 'allthecompressed:compress/blazing_crystal_block_1x' });
+        event.remove({ id: 'allthecompressed:compress/ruby_block_1x' });
+        event.remove({ id: 'allthecompressed:compress/silver_block_1x' });
+        event.remove({ id: 'allthecompressed:compress/tin_block_1x' });
+        event.remove({ id: 'allthecompressed:compress/spirited_crystal_block_1x' });
+        event.remove({ id: 'allthecompressed:compress/constantan_block_1x' });
+        event.remove({ id: 'allthecompressed:compress/peridot_block_1x' });
+        event.remove({ id: 'allthecompressed:compress/ender_pearl_block_1x' });
+        event.remove({ id: 'allthecompressed:compress/copper_alloy_block_1x' });
+        event.remove({ id: 'allthecompressed:compress/dark_steel_block_1x' });
+        event.remove({ id: 'allthecompressed:compress/sapphire_block_1x' });
+        event.remove({ id: 'allthecompressed:compress/uranium_block_1x' });
+        event.remove({ id: 'allthecompressed:compress/enderium_block_1x' });
+        event.remove({ id: 'allthecompressed:compress/nether_star_block_1x' });
+        event.remove({ id: 'allthecompressed:compress/osmium_block_1x' });
+        event.remove({ id: 'allthecompressed:compress/energetic_alloy_block_1x' });
+        event.remove({ id: 'allthecompressed:compress/soularium_block_1x' });
+        event.remove({ id: 'allthecompressed:compress/energized_steel_block_1x' });
+        event.remove({ id: 'allthecompressed:compress/unobtainium_vibranium_alloy_block_1x' });
+        event.remove({ id: 'allthecompressed:compress/lead_block_1x' });
+        event.remove({ id: 'allthecompressed:compress/allthemodium_block_1x' });
+        event.remove({ id: 'allthecompressed:compress/lumium_block_1x' });
+        event.remove({ id: 'allthecompressed:compress/atm_star_block_1x' });
+        event.remove({ id: 'allthecompressed:compress/steel_block_1x' });
+        event.remove({ id: 'allthecompressed:compress/blaze_block_1x' });
+        event.remove({ id: 'allthecompressed:compress/wax_block_1x' });
+        event.remove({ id: 'allthecompressed:compress/ancient_log_0_1x' });
+        event.remove({ id: 'allthecompressed:compress/unobtainium_allthemodium_alloy_block_1x' });
+        event.remove({ id: 'allthecompressed:compress/signalum_block_1x' });
+        event.remove({ id: 'allthecompressed:compress/electrum_block_1x' });
+        event.remove({ id: 'allthecompressed:compress/nitro_crystal_block_1x' });
+        event.remove({ id: 'allthecompressed:compress/pulsating_alloy_block_1x' });
+        event.remove({ id: 'allthecompressed:compress/aluminum_block_1x' });
+        event.remove({ id: 'allthecompressed:compress/ancient_stone_1x' });
+        event.remove({ id: 'allthecompressed:compress/end_steel_block_1x' });
+        event.remove({ id: 'allthecompressed:compress/niotic_crystal_block_1x' });
+        event.remove({ id: 'allthecompressed:compress/iridium_block_1x' });
+        event.remove({ id: 'allthecompressed:compress/vibranium_block_1x' });
 
 // Fixes Farmer's Delight Ethonal Fermenting Recipe
 event.custom({
@@ -155,48 +259,4 @@ event.custom({
         }
     );
 
-
-    
-    // Fixes Supplementaries Ash Bricks Cutting Recipe
-    event.custom({
-        type: "farmersdelight:cutting",
-        ingredients: [
-            {
-                item: 'supplementaries:ash_bricks'
-            }
-        ],
-        tool: {
-            type: "farmersdelight:tool",
-            tag: "c:tools/pickaxes"
-        },
-        result: [
-            {
-                item: 'supplementaries:ash_brick',
-                count: 4
-            }
-        ],
-        sound: "minecraft:pickaxe_dig"
-    }).id("kubejs:cutting/ash_bricks");
-
-    // Fixes Supplementaries Lapis Bricks Cutting Recipe
-    event.custom({
-        type: "farmersdelight:cutting",
-        ingredients: [
-            {
-                item: 'supplementaries:lapis_bricks'
-            }
-        ],
-        tool: {
-            type: "farmersdelight:tool",
-            tag: "c:tools/pickaxes"
-        },
-        result: [
-            {
-                item: 'minecraft:lapis_lazuli',
-                count: 4
-            }
-        ],
-        sound: "minecraft:pickaxe_dig"
-    }).id("kubejs:cutting/lapis_bricks");
-
-});
+    })

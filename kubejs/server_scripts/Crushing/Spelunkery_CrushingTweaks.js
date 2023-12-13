@@ -11,7 +11,7 @@ ServerEvents.recipes(event => {
 			{ item: 'spelunkery:cinnabar', count: 1 },
             { item: 'spelunkery:cinnabar', chance: .50 }
 		]
-	}).id('kubejs:crushing/cinnabar');
+	}).id('kubejs:crushing/so_cinnabar');
 
     // Amethyst Crushing Recipe
     event.custom({
@@ -24,7 +24,7 @@ ServerEvents.recipes(event => {
 			{ item: 'createutilities:polished_amethyst', count: 1 },
             { item: 'createutilities:polished_amethyst', chance: .50 }
 		]
-	}).id('kubejs:crushing/amethyst');
+	}).id('kubejs:crushing/so_amethyst');
 
     // Cinnabar Block Crushing Recipe
     event.custom({
@@ -37,7 +37,7 @@ ServerEvents.recipes(event => {
 			{ item: 'spelunkery:cinnabar_block', count: 1 },
             { item: 'spelunkery:cinnabar_block', chance: .15 }
 		]
-	}).id('kubejs:crushing/cinnabar_block');
+	}).id('kubejs:crushing/so_cinnabar_block');
 
     // Diamond Crushing Recipe
     event.custom({
@@ -50,7 +50,7 @@ ServerEvents.recipes(event => {
 			{ item: 'minecraft:diamond', count: 1 },
             { item: 'minecraft:diamond', chance: .50 }
 		]
-	}).id('kubejs:crushing/diamond');
+	}).id('kubejs:crushing/so_diamond');
 
     // Cinnabar Crushing Recipe
     event.custom({
@@ -63,7 +63,7 @@ ServerEvents.recipes(event => {
 			{ item: 'spelunkery:cinnabar_shard', count: 1 },
             { item: 'spelunkery:cinnabar_shard', chance: .50 }
 		]
-	}).id('kubejs:crushing/cinnabar_shard');
+	}).id('kubejs:crushing/so_cinnabar_shard');
 
     // Lazurite Crushing Recipe
     event.custom({
@@ -76,7 +76,7 @@ ServerEvents.recipes(event => {
 			{ item: 'minecraft:lapis_lazuli', count: 1 },
             { item: 'minecraft:lapis_lazuli', chance: .50 }
 		]
-	}).id('kubejs:crushing/lazurite');
+	}).id('kubejs:crushing/so_lazurite');
 
     // Emerald Crushing Recipe
     event.custom({
@@ -89,7 +89,7 @@ ServerEvents.recipes(event => {
 			{ item: 'minecraft:emerald', count: 1 },
             { item: 'minecraft:emerald', chance: .50 }
 		]
-	}).id('kubejs:crushing/emerald');
+	}).id('kubejs:crushing/so_emerald');
 
     // Diamond Block Crushing Recipe
     event.custom({
@@ -102,7 +102,7 @@ ServerEvents.recipes(event => {
 			{ item: 'minecraft:diamond_block', count: 1 },
             { item: 'minecraft:diamond_block', chance: .15 }
 		]
-	}).id('kubejs:crushing/diamond_block');
+	}).id('kubejs:crushing/so_diamond_block');
 
     // Lazurite Shard Crushing Recipe
     event.custom({
@@ -115,7 +115,7 @@ ServerEvents.recipes(event => {
 			{ item: 'spelunkery:lapis_lazuli_shard', count: 1 },
             { item: 'spelunkery:lapis_lazuli_shard', chance: .50 }
 		]
-	}).id('kubejs:crushing/lazurite_shard');
+	}).id('kubejs:crushing/so_lazurite_shard');
 
     // Lazurite Block Crushing Recipe
     event.custom({
@@ -128,7 +128,7 @@ ServerEvents.recipes(event => {
 			{ item: 'minecraft:lapis_block', count: 1 },
             { item: 'minecraft:lapis_block', chance: .15 }
 		]
-	}).id('kubejs:crushing/lazurite_block');
+	}).id('kubejs:crushing/so_lazurite_block');
 
     // Emerald Shard Crushing Recipe
     event.custom({
@@ -141,7 +141,7 @@ ServerEvents.recipes(event => {
 			{ item: 'spelunkery:emerald_shard', count: 1 },
             { item: 'spelunkery:emerald_shard', chance: .50 }
 		]
-	}).id('kubejs:crushing/emerald_shard');
+	}).id('kubejs:crushing/so_emerald_shard');
 
     // Diamond Shard Crushing Recipe
     event.custom({
@@ -154,7 +154,7 @@ ServerEvents.recipes(event => {
 			{ item: 'spelunkery:diamond_shard', count: 1 },
             { item: 'spelunkery:diamond_shard', chance: .50 }
 		]
-	}).id('kubejs:crushing/diamond_shard');
+	}).id('kubejs:crushing/so_diamond_shard');
 
     // Emerald Block Crushing Recipe
     event.custom({
@@ -167,6 +167,6 @@ ServerEvents.recipes(event => {
 			{ item: 'minecraft:emerald_block', count: 1 },
             { item: 'minecraft:emerald_block', chance: .15 }
 		]
-	}).id('kubejs:crushing/emerald_block');
+	}).id('kubejs:crushing/so_emerald_block');
 
 })

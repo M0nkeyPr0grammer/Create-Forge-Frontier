@@ -4,16 +4,6 @@ ServerEvents.recipes(event => {
 	// Alternate Chest Recipes
 	var chest_types = [
 		['minecraft:chest', 'minecraft:oak_log'],
-		['lolmcv:acacia_chest', 'minecraft:acacia_log'],
-		['lolmcv:birch_chest', 'minecraft:birch_log'],
-		['lolmcv:spruce_chest', 'minecraft:spruce_log'], 
-		['lolmcv:dark_oak_chest', 'minecraft:dark_oak_log'],
-		['lolmcv:jungle_chest', 'minecraft:jungle_log'],
-		['lolmcv:mangrove_chest', 'minecraft:mangrove_log'],
-		['lolmcv:bamboo_chest', 'minecraft:bamboo_block'],
-		['lolmcv:cherry_chest', 'minecraft:cherry_log'],
-		['lolmcv:warped_chest', 'minecraft:warped_stem'],
-		['lolmcv:crimson_chest', 'minecraft:crimson_stem'],
 		// Regions Unexplore Log to Chest Recipes
 		['minecraft:chest', 'regions_unexplored:blackwood_log'],
 		['minecraft:chest', 'regions_unexplored:blue_bioshroom_stem'],
@@ -36,16 +26,6 @@ ServerEvents.recipes(event => {
 		['minecraft:chest', 'regions_unexplored:yellow_bioshroom_stem'],
 		['minecraft:chest', 'regions_unexplored:baobab_log'],
 		['minecraft:chest', 'regions_unexplored:cypress_log'],
-		// Terrestria Log to Chest Recipes
-		['minecraft:chest', 'terrestria:yucca_palm_log'],
-		['minecraft:chest', 'terrestria:sakura_log'],
-		['minecraft:chest', 'terrestria:rainbow_eucalyptus_log'],
-		['minecraft:chest', 'terrestria:japanese_maple_log'],
-		['minecraft:chest', 'terrestria:willow_log'],
-		['minecraft:chest', 'terrestria:cypress_log'],
-		['minecraft:chest', 'terrestria:rubber_log'],
-		['minecraft:chest', 'terrestria:hemlock_log'],
-		['minecraft:chest', 'terrestria:redwood_log'],
 	]
 
 	chest_types.forEach(chest_type => {
@@ -94,7 +74,6 @@ ServerEvents.recipes(event => {
 		['regions_unexplored:green_bioshroom_trapdoor', 'regions_unexplored:green_bioshroom_stem'],
 		['regions_unexplored:joshua_trapdoor', 'regions_unexplored:joshua_log'],
 		['regions_unexplored:kapok_trapdoor', 'regions_unexplored:kapok_log'],
-		['betterend:lacugrove_trapdoor', 'betterend:lacugrove_log'],
 		['regions_unexplored:larch_trapdoor', 'regions_unexplored:larch_log'],
 		['regions_unexplored:magnolia_trapdoor', 'regions_unexplored:magnolia_log'],
 		['regions_unexplored:maple_trapdoor', 'regions_unexplored:maple_log'],
@@ -102,7 +81,6 @@ ServerEvents.recipes(event => {
 		['regions_unexplored:palm_trapdoor', 'regions_unexplored:palm_log'],
 		['regions_unexplored:pine_trapdoor', 'regions_unexplored:pine_log'],
 		['regions_unexplored:pink_bioshroom_trapdoor', 'regions_unexplored:pink_bioshroom_stem'],
-		['betterend:pythadendron_trapdoor', 'betterend:pythadendron_log'],
 		['regions_unexplored:redwood_trapdoor', 'regions_unexplored:redwood_log'],
 		['betterarcheology:rotten_trapdoor', 'betterarcheology:rotten_log'],
 		['regions_unexplored:socotra_trapdoor', 'regions_unexplored:socotra_log'],

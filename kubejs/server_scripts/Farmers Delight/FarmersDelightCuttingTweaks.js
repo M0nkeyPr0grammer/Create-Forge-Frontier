@@ -65,14 +65,28 @@ ServerEvents.recipes(event => {
     modded_logs.forEach(log => {
         const strippedLog = log.replace(":", ":stripped_");
         const bark = 'farmersdelight:tree_bark';
-
-        // Use ShapelessRecipeBuilder to define the custom recipe
-        ShapelessRecipeBuilder.shapelessRecipe('farmersdelight:cutting')
-            .addIngredient(log)
-            .addIngredient(log) // Add the log again as the second ingredient for stripped log
-            .addIngredient(bark) // Add tree bark as an ingredient
-            .addCriterion('has_log', 'forge:has_item_' + log) // Criterion for the log
-            .build(consumer, 'kubejs:cutting/' + log.replace(":", "_bark"));
+    
+        // Define the custom recipe in JSON format
+        const customRecipe = {
+            "type": "farmersdelight:cutting",
+            "ingredients": [
+                { "item": log }
+            ],
+            "result": [
+                { "item": strippedLog },
+                { "item": bark }
+            ],
+            "sound": "minecraft:item.axe.strip",
+            "tool": {
+                "type": "farmersdelight:tool_action",
+                "action": "axe_strip"
+            }
+        };
+    
+        // Register the custom recipe with KubeJS
+        event.custom(customRecipe).id('kubejs:cutting/' + log.replace(":", "_bark"));
     });
+
+    
 
 })

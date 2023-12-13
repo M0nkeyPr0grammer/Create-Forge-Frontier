@@ -22,31 +22,6 @@ ServerEvents.recipes(event => {
 
     // Creates Brand New Recipes for Ad Astra Machines
 
-        // Creates new Steel Ingot recipe
-        event.custom({
-            type: "create:mixing",
-            ingredients: [
-                {
-                    item: 'minecraft:iron_ingot',
-                    nbt: {},
-                    amount: 1
-                },
-                {
-                    item: 'betterend:thallasium_ingot',
-                    nbt: {},
-                    amount: 1
-                }
-            ],
-            results: [
-                {
-                    item: 'ad_astra:steel_ingot',
-                    nbt: {},
-                    amount: 1
-                }
-            ],
-            heatRequirement: "superheated"
-        }).id('kubejs:mixing/steel_ingot');
-
         // Creates Oil Mixing Recipe
         event.custom({
             type: "create:mixing",

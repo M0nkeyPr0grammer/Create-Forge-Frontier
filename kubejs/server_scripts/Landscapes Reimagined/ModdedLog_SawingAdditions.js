@@ -10,15 +10,6 @@ ServerEvents.recipes(event => {
         // Deeper and Darker Wood and Log
         'deeperdarker:echo_wood',
         'deeperdarker:echo_log',
-        // Promenade Wood and Logs
-        'promenade:sakura_log',
-        'promenade:palm_wood',
-        'promenade:palm_log',
-        'promenade:maple_wood',
-        'promenade:maple_log',
-        'promenade:dark_amaranth_stem',
-        'promenade:dark_amaranth_hyphae',
-        'promenade:sakura_wood',
         // Regions Unexplored Wood and Logs
         'regions_unexplored:bamboo_log',
         'regions_unexplored:blue_bioshroom_hyphae',
