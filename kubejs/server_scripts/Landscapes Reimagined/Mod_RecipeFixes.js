@@ -12,7 +12,11 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'createdieselgenerators:compat/farmers_delight/basin_fermenting/fermentable'});
     event.remove({ id: 'createdieselgenerators:compacting/plant_oil'})
     event.remove({ id: 'sliceanddice:sprinkler'});
-
+    event.remove({ id: 'create_confectionery:ruby_chocolate_recipe_6' });
+    event.remove({ id: 'create_confectionery:white_chocolate_recipe_6' });
+    event.remove({ id: 'create_confectionery:chocolate_recipe_6' });
+    event.remove({ id: 'create_confectionery:black_chocolate_recipe_6' });
+   
     
     // Removes Missing Item Related Recipes
     event.remove({ id: 'create:cutting/stripped_cherry_log' });
@@ -26,6 +30,58 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'create:milling/white_trilium' });
     event.remove({ id: 'create:milling/wilting_trilium' });
     event.remove({ id: 'createaddition:compat/ae2/charged_certus_quartz' });
+    event.remove({ id: 'mctb:archwood_planks_crafting_table' });
+    event.remove({ id: 'mctb:dark_crafting_table' });
+    event.remove({ id: 'create:cutting/compat/biomesoplenty/cherry_log' });
+    event.remove({ id: 'tfmg:colored_concrete/full_block/yellow_concrete_q' });
+    event.remove({ id: 'mctb:soul_planks_crafting_table' });
+    event.remove({ id: 'mctb:mining_crafting_table' });
+    event.remove({ id: 'tfmg:colored_concrete/full_block/red_concrete_q' });
+    event.remove({ id: 'tfmg:colored_concrete/full_block/lime_concrete_q' });
+    event.remove({ id: 'mctb:twilight_oak_crafting_table' });
+    event.remove({ id: 'tfmg:colored_concrete/full_block/pink_concrete_q' });
+    event.remove({ id: 'tfmg:colored_concrete/full_block/black_concrete_q' });
+    event.remove({ id: 'mctb:rubber_planks_crafting_table' });
+    event.remove({ id: 'mctb:transformation_crafting_table' });
+    event.remove({ id: 'railways:sequenced_assembly/track_biomesoplenty_cherry_narrow' });
+    event.remove({ id: 'mctb:ad_ancient_crafting_table' });
+    event.remove({ id: 'mctb:demonic_planks_crafting_table' });
+    event.remove({ id: 'mctb:grongle_crafting_table' });
+    event.remove({ id: 'mctb:menril_planks_crafting_table' });
+    event.remove({ id: 'create:cutting/compat/biomesoplenty/stripped_cherry_wood' });
+    event.remove({ id: 'mctb:wigglewood_crafting_table' });
+    event.remove({ id: 'tfmg:colored_concrete/full_block/light_gray_concrete_q' });
+    event.remove({ id: 'tfmg:colored_concrete/full_block/cyan_concrete_q' });
+    event.remove({ id: 'tfmg:colored_concrete/full_block/purple_concrete_q' });
+    event.remove({ id: 'mctb:sorting_crafting_table' });
+    event.remove({ id: 'mctb:canopy_crafting_table' });
+    event.remove({ id: 'mctb:azalea_crafting_table' });
+    event.remove({ id: 'design_decor:item_application/crushing_wheels/special_aluminum_cylinder' });
+    event.remove({ id: 'tfmg:colored_concrete/full_block/light_blue_concrete_q' });
+    event.remove({ id: 'mctb:walnut_planks_crafting_table' });
+    event.remove({ id: 'tfmg:colored_concrete/full_block/green_concrete_q' });
+    event.remove({ id: 'railways:sequenced_assembly/track_biomesoplenty_cherry' });
+    event.remove({ id: 'tfmg:colored_concrete/full_block/magenta_concrete_q' });
+    event.remove({ id: 'tfmg:colored_concrete/full_block/blue_concrete_q' });
+    event.remove({ id: 'create:cutting/compat/biomesoplenty/cherry_wood' });
+    event.remove({ id: 'mctb:ancient_crafting_table' });
+    event.remove({ id: 'tfmg:colored_concrete/full_block/white_concrete_q' });
+    event.remove({ id: 'tfmg:colored_concrete/full_block/gray_concrete_q' });
+    event.remove({ id: 'mctb:ancient_planks_crafting_table' });
+    event.remove({ id: 'tfmg:colored_concrete/full_block/brown_concrete_q' });
+    event.remove({ id: 'tfmg:colored_concrete/full_block/pink_concrete' });
+    event.remove({ id: 'create_things_and_misc:schematic_chair' });
+    event.remove({ id: 'mctb:time_crafting_table' });
+    event.remove({ id: 'create:filling/chocolate_bagutte' });
+    event.remove({ id: 'create_things_and_misc:copper_scaffolding_craft' });
+    event.remove({ id: 'tfmg:colored_concrete/full_block/orange_concrete_q' });
+    event.remove({ id: 'mctb:twilight_mangrove_crafting_table' });
+    event.remove({ id: 'mctb:bop_cherry_crafting_table' });
+    event.remove({ id: 'mctb:blossom_crafting_table' });
+    event.remove({ id: 'create:cutting/compat/biomesoplenty/stripped_cherry_log' });
+    event.remove({ id: 'design_decor:item_application/millstones/special_aluminum_cylinder' });
+    event.remove({ id: 'railways:sequenced_assembly/track_biomesoplenty_cherry_wide' });
+    event.remove({ id: 'mctb:smogstem_crafting_table' });
 
     // Template: event.remove({ id: '' });
         // All the Compressed Decompressed Recipes
