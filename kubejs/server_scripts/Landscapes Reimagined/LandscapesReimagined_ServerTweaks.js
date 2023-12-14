@@ -121,7 +121,7 @@ ServerEvents.recipes(event => {
 			},
 			{
 				fluid: 'kubejs:liquid_dragons_breath',
-				amount: 8100
+				amount: 100
 			}
 		],
 	}).id('kubejs:emptying/dragons_breath')
@@ -132,7 +132,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			{
 				fluid: 'kubejs:liquid_dragons_breath',
-				amount: 8100
+				amount: 100
 			},
 			{
 				item: 'minecraft:glass_bottle',
@@ -157,7 +157,7 @@ ServerEvents.recipes(event => {
             },
 			{
 				fluid: "kubejs:liquid_dragons_breath",
-				amount: 81000
+				amount: 1000
 			}
         ],
         results: [

@@ -17,11 +17,11 @@ ServerEvents.recipes(event => {
             results: [
                 {
                     fluid: 'kubejs:molten_desh',
-                    amount: 40500
+                    amount: 500
                 },
                 {
                     fluid: 'minecraft:lava',
-                    amount: 4050
+                    amount: 50
                 },
             ],
             heatRequirement: "superheated"
@@ -40,11 +40,11 @@ ServerEvents.recipes(event => {
             results: [
                 {
                     fluid: 'kubejs:molten_desh',
-                    amount: 40500
+                    amount: 500
                 },
                 {
                     fluid: 'minecraft:lava',
-                    amount: 4050
+                    amount: 50
                 },
             ],
             heatRequirement: "superheated"
@@ -64,11 +64,11 @@ ServerEvents.recipes(event => {
             results: [
                 {
                     fluid: 'kubejs:molten_ostrum',
-                    amount: 40500
+                    amount: 500
                 },
                 {
                     fluid: 'minecraft:lava',
-                    amount: 4050
+                    amount: 50
                 },
             ],
             heatRequirement: "superheated"
@@ -87,11 +87,11 @@ ServerEvents.recipes(event => {
             results: [
                 {
                     fluid: 'kubejs:molten_ostrum',
-                    amount: 40500
+                    amount: 500
                 },
                 {
                     fluid: 'minecraft:lava',
-                    amount: 4050
+                    amount: 50
                 },
             ],
             heatRequirement: "superheated"
@@ -111,11 +111,11 @@ ServerEvents.recipes(event => {
             results: [
                 {
                     fluid: 'kubejs:molten_calorite',
-                    amount: 40500
+                    amount: 500
                 },
                 {
                     fluid: 'minecraft:lava',
-                    amount: 4050
+                    amount: 50
                 },
             ],
             heatRequirement: "superheated"
@@ -134,11 +134,11 @@ ServerEvents.recipes(event => {
             results: [
                 {
                     fluid: 'kubejs:molten_calorite',
-                    amount: 40500
+                    amount: 500
                 },
                 {
                     fluid: 'minecraft:lava',
-                    amount: 4050
+                    amount: 50
                 },
             ],
             heatRequirement: "superheated"
@@ -159,7 +159,7 @@ ServerEvents.recipes(event => {
             results: [
                 {
                     fluid: 'kubejs:molten_desh',
-                    amount: 16200
+                    amount: 200
                 }
             ],
             heatRequirement: "superheated"
@@ -178,7 +178,7 @@ ServerEvents.recipes(event => {
             results: [
                 {
                     fluid: 'kubejs:molten_ostrum',
-                    amount: 16200
+                    amount: 200
                 }
             ],
             heatRequirement: "superheated"
@@ -197,7 +197,7 @@ ServerEvents.recipes(event => {
             results: [
                 {
                     fluid: 'kubejs:molten_calorite',
-                    amount: 16200
+                    amount: 200
                 }
             ],
             heatRequirement: "superheated"
@@ -218,7 +218,7 @@ ServerEvents.recipes(event => {
             results: [
                 {
                     fluid: 'kubejs:molten_desh',
-                    amount: 145800
+                    amount: 1800
                 }
             ],
             heatRequirement: "superheated"
@@ -237,7 +237,7 @@ ServerEvents.recipes(event => {
             results: [
                 {
                     fluid: 'kubejs:molten_ostrum',
-                    amount: 145800
+                    amount: 1800
                 }
             ],
             heatRequirement: "superheated"
@@ -256,7 +256,7 @@ ServerEvents.recipes(event => {
             results: [
                 {
                     fluid: 'kubejs:molten_calorite',
-                    amount: 145800
+                    amount: 1800
                 }
             ],
             heatRequirement: "superheated"
@@ -277,7 +277,7 @@ ServerEvents.recipes(event => {
             results: [
                 {
                     fluid: 'kubejs:molten_desh',
-                    amount: 16200
+                    amount: 200
                 }
             ],
             heatRequirement: "superheated"
@@ -296,7 +296,7 @@ ServerEvents.recipes(event => {
             results: [
                 {
                     fluid: 'kubejs:molten_ostrum',
-                    amount: 16200
+                    amount: 200
                 }
             ],
             heatRequirement: "superheated"
@@ -315,7 +315,7 @@ ServerEvents.recipes(event => {
             results: [
                 {
                     fluid: 'kubejs:molten_calorite',
-                    amount: 16200
+                    amount: 200
                 }
             ],
             heatRequirement: "superheated"
@@ -335,7 +335,7 @@ ServerEvents.recipes(event => {
             results: [
                 {
                     fluid: 'kubejs:molten_desh',
-                    amount: 8100
+                    amount: 100
                 }
             ],
             heatRequirement: "superheated"
@@ -354,7 +354,7 @@ ServerEvents.recipes(event => {
             results: [
                 {
                     fluid: 'kubejs:molten_ostrum',
-                    amount: 8100
+                    amount: 100
                 }
             ],
             heatRequirement: "superheated"
@@ -373,7 +373,7 @@ ServerEvents.recipes(event => {
             results: [
                 {
                     fluid: 'kubejs:molten_calorite',
-                    amount: 8100
+                    amount: 100
                 }
             ],
             heatRequirement: "superheated"
@@ -392,7 +392,7 @@ ServerEvents.recipes(event => {
             results: [
                 {
                     fluid: 'kubejs:molten_desh',
-                    amount: 72900 
+                    amount: 900 
                 }
             ],
             heatRequirement: "superheated"
@@ -411,7 +411,7 @@ ServerEvents.recipes(event => {
             results: [
                 {
                     fluid: 'kubejs:molten_ostrum',
-                    amount: 72900 
+                    amount: 900 
                 }
             ],
             heatRequirement: "superheated"
@@ -430,7 +430,7 @@ ServerEvents.recipes(event => {
             results: [
                 {
                     fluid: 'kubejs:molten_calorite',
-                    amount: 72900 
+                    amount: 900 
                 }
             ],
             heatRequirement: "superheated"
@@ -444,7 +444,7 @@ ServerEvents.recipes(event => {
                 {
                     fluid: 'kubejs:molten_desh',
                     nbt: {},
-                    amount: 72900 
+                    amount: 900 
                 }
             ],
             results: [
@@ -462,7 +462,7 @@ ServerEvents.recipes(event => {
                 {
                     fluid: 'kubejs:molten_ostrum',
                     nbt: {},
-                    amount: 72900 
+                    amount: 900 
                 }
             ],
             results: [
@@ -480,7 +480,7 @@ ServerEvents.recipes(event => {
                 {
                     fluid: 'kubejs:molten_calorite',
                     nbt: {},
-                    amount: 72900 
+                    amount: 900 
                 }
             ],
             results: [
