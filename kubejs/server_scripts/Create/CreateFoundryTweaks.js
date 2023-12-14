@@ -1,6 +1,81 @@
 // Create Foundry Tweaks
 ServerEvents.recipes(event => {
 
+    // Removes Broken Recipes
+    event.remove({ id: 'createfoundry:mixing/melting/ore/zinc_from_ore' });
+    event.remove({ id: 'createfoundry:mixing/melting/ore/redstone_from_ore' });
+    event.remove({ id: 'createfoundry:mixing/melting/ore/lapis_from_ore' });
+    event.remove({ id: 'createfoundry:mixing/molten_netherite_from_ancient_debris_gold'})
+
+    // Creates Lapis to Molten Mixing Recipe
+    event.custom({
+        type: "create:mixing",
+        ingredients: [
+            {
+                tag: 'forge:ores/lapis',
+                nbt: {},
+                amount: 1
+            }
+        ],
+        results: [
+            {
+                fluid: 'createfoundry:molten_lapis',
+                amount: 1500
+            },
+            {
+                fluid: 'minecraft:lava',
+                amount: 50
+            },
+        ],
+        heatRequirement: "superheated"
+    }).id('kubejs:mixing/lapis_ore');
+
+    // Creates Redstone to Molten Mixing Recipe
+    event.custom({
+        type: "create:mixing",
+        ingredients: [
+            {
+                tag: 'forge:ores/redstone',
+                nbt: {},
+                amount: 1
+            }
+        ],
+        results: [
+            {
+                fluid: 'createfoundry:molten_redstone',
+                amount: 1500
+            },
+            {
+                fluid: 'minecraft:lava',
+                amount: 50
+            },
+        ],
+        heatRequirement: "superheated"
+    }).id('kubejs:mixing/redstone_ore');
+
+    // Creates Zinc to Molten Mixing Recipe
+    event.custom({
+        type: "create:mixing",
+        ingredients: [
+            {
+                tag: 'forge:ores/zinc',
+                nbt: {},
+                amount: 1
+            }
+        ],
+        results: [
+            {
+                fluid: 'createfoundry:molten_zinc',
+                amount: 500
+            },
+            {
+                fluid: 'minecraft:lava',
+                amount: 50
+            },
+        ],
+        heatRequirement: "superheated"
+    }).id('kubejs:mixing/zinc_ore');
+
     // Create Copper Block Compacting Recipe
     event.custom({
         type: "create:compacting",
@@ -8,7 +83,7 @@ ServerEvents.recipes(event => {
             {
                 fluid: 'createfoundry:molten_copper',
                 nbt: {},
-                amount: 72900
+                amount: 900
             }
         ],
         results: [
@@ -26,7 +101,7 @@ ServerEvents.recipes(event => {
             {
                 fluid: 'createfoundry:molten_iron',
                 nbt: {},
-                amount: 72900 
+                amount: 900 
             }
         ],
         results: [
@@ -44,7 +119,7 @@ ServerEvents.recipes(event => {
             {
                 fluid: 'createfoundry:molten_gold',
                 nbt: {},
-                amount: 72900
+                amount: 900
             }
         ],
         results: [
@@ -62,7 +137,7 @@ ServerEvents.recipes(event => {
             {
                 fluid: 'createfoundry:molten_carbon',
                 nbt: {},
-                amount: 72900
+                amount: 900
             }
         ],
         results: [
@@ -80,7 +155,7 @@ ServerEvents.recipes(event => {
             {
                 fluid: 'createfoundry:molten_diamond',
                 nbt: {},
-                amount: 72900
+                amount: 900
             }
         ],
         results: [
@@ -98,7 +173,7 @@ ServerEvents.recipes(event => {
             {
                 fluid: 'createfoundry:molten_zinc',
                 nbt: {},
-                amount: 72900
+                amount: 900
             }
         ],
         results: [
@@ -116,7 +191,7 @@ ServerEvents.recipes(event => {
             {
                 fluid: 'createfoundry:molten_brass',
                 nbt: {},
-                amount: 72900
+                amount: 900
             }
         ],
         results: [
@@ -134,7 +209,7 @@ ServerEvents.recipes(event => {
             {
                 fluid: 'createfoundry:molten_emerald',
                 nbt: {},
-                amount: 72900
+                amount: 900
             }
         ],
         results: [
@@ -152,7 +227,7 @@ ServerEvents.recipes(event => {
             {
                 fluid: 'createfoundry:molten_redstone',
                 nbt: {},
-                amount: 72900
+                amount: 900
             }
         ],
         results: [
@@ -170,7 +245,7 @@ ServerEvents.recipes(event => {
             {
                 fluid: 'createfoundry:molten_lapis',
                 nbt: {},
-                amount: 72900
+                amount: 900
             }
         ],
         results: [
@@ -188,7 +263,7 @@ ServerEvents.recipes(event => {
             {
                 fluid: 'createfoundry:molten_ancient_debris',
                 nbt: {},
-                amount: 72900
+                amount: 900
             }
         ],
         results: [
@@ -206,7 +281,7 @@ ServerEvents.recipes(event => {
             {
                 fluid: 'createfoundry:molten_netherite',
                 nbt: {},
-                amount: 72900
+                amount: 900
             }
         ],
         results: [
@@ -217,930 +292,241 @@ ServerEvents.recipes(event => {
         ]
     }).id('kubejs:compacting/molten_netherite');
 
-    // Create Molten Diamond Compacting Recipe
+    // Modded Ore Mixing Recipes
+    // Spelunkery Ores
+    
+    // Coal Ore to Molten Mixing Recipe
     event.custom({
-        type: "create:compacting",
+        type: "create:mixing",
         ingredients: [
             {
-                fluid: 'createfoundry:molten_carbon',
+                tag: 'spelunkery:coal_ores',
                 nbt: {},
-                amount: 8100
+                amount: 1
+            }
+        ],
+        results: [
+            {
+                fluid: 'createfoundry:molten_carbon',
+                amount: 500
+            },
+            {
+                fluid: 'minecraft:lava',
+                amount: 50
+            },
+        ],
+        heatRequirement: "superheated"
+    }).id('kubejs:mixing/s_coal_ore');
+
+    // Iron Ore to Molten Mixing Recipe
+    event.custom({
+        type: "create:mixing",
+        ingredients: [
+            {
+                tag: 'spelunkery:iron_ores',
+                nbt: {},
+                amount: 1
+            }
+        ],
+        results: [
+            {
+                fluid: 'createfoundry:molten_iron',
+                amount: 500
+            },
+            {
+                fluid: 'minecraft:lava',
+                amount: 50
+            },
+        ],
+        heatRequirement: "superheated"
+    }).id('kubejs:mixing/s_iron_ore');
+    
+    // Copper Ore to Molten Mixing Recipe
+    event.custom({
+        type: "create:mixing",
+        ingredients: [
+            {
+                tag: 'spelunkery:copper_ores',
+                nbt: {},
+                amount: 1
+            }
+        ],
+        results: [
+            {
+                fluid: 'createfoundry:molten_copper',
+                amount: 500
+            },
+            {
+                fluid: 'minecraft:lava',
+                amount: 50
+            },
+        ],
+        heatRequirement: "superheated"
+    }).id('kubejs:mixing/s_copper_ore');
+
+    // Gold Ore to Molten Mixing Recipe
+    event.custom({
+        type: "create:mixing",
+        ingredients: [
+            {
+                tag: 'spelunkery:gold_ores',
+                nbt: {},
+                amount: 1
+            }
+        ],
+        results: [
+            {
+                fluid: 'createfoundry:molten_gold',
+                amount: 500
+            },
+            {
+                fluid: 'minecraft:lava',
+                amount: 50
+            },
+        ],
+        heatRequirement: "superheated"
+    }).id('kubejs:mixing/s_gold_ore');
+
+    // Redstone Ore to Molten Mixing Recipe
+    event.custom({
+        type: "create:mixing",
+        ingredients: [
+            {
+                tag: 'spelunkery:redstone_ores',
+                nbt: {},
+                amount: 1
+            }
+        ],
+        results: [
+            {
+                fluid: 'createfoundry:molten_redstone',
+                amount: 1500
+            },
+            {
+                fluid: 'minecraft:lava',
+                amount: 50
+            },
+        ],
+        heatRequirement: "superheated"
+    }).id('kubejs:mixing/s_redstone_ore');
+
+    // Emerald Ore to Molten Mixing Recipe
+    event.custom({
+        type: "create:mixing",
+        ingredients: [
+            {
+                tag: 'spelunkery:emerald_ores',
+                nbt: {},
+                amount: 1
+            }
+        ],
+        results: [
+            {
+                fluid: 'createfoundry:molten_emerald',
+                amount: 500
+            },
+            {
+                fluid: 'minecraft:lava',
+                amount: 50
+            },
+        ],
+        heatRequirement: "superheated"
+    }).id('kubejs:mixing/s_emerald_ore');
+
+    // Lapis Ore to Molten Mixing Recipe
+    event.custom({
+        type: "create:mixing",
+        ingredients: [
+            {
+                tag: 'spelunkery:lapis_ores',
+                nbt: {},
+                amount: 1
+            }
+        ],
+        results: [
+            {
+                fluid: 'createfoundry:molten_lapis',
+                amount: 1500
+            },
+            {
+                fluid: 'minecraft:lava',
+                amount: 50
+            },
+        ],
+        heatRequirement: "superheated"
+    }).id('kubejs:mixing/s_lapis_ore');
+
+    // Diamond Ore to Molten Mixing Recipe
+    event.custom({
+        type: "create:mixing",
+        ingredients: [
+            {
+                tag: 'spelunkery:diamond_ores',
+                nbt: {},
+                amount: 1
             }
         ],
         results: [
             {
                 fluid: 'createfoundry:molten_diamond',
-                amount: 8100
-            }
+                amount: 500
+            },
+            {
+                fluid: 'minecraft:lava',
+                amount: 50
+            },
         ],
         heatRequirement: "superheated"
-    }).id('kubejs:compacting/molten_diamond_carbon');
+    }).id('kubejs:mixing/s_diamond_ore');
 
-    // Modded Ore Mixing Recipes
+    // Alex Caves Ores
+    // Redstone Ore to Molten Mixing Recipe
+    event.custom({
+        type: "create:mixing",
+        ingredients: [
+            {
+                item: 'alexscaves:guanostone_redstone_ore',
+                nbt: {},
+                amount: 1
+            }
+        ],
+        results: [
+            {
+                fluid: 'createfoundry:molten_redstone',
+                amount: 1500
+            },
+            {
+                fluid: 'minecraft:lava',
+                amount: 50
+            },
+        ],
+        heatRequirement: "superheated"
+    }).id('kubejs:mixing/ac_redstone_ore');
 
-    // Spelunkery Ores
-        // Calcite Redstone Ore
-        event.custom({
-            type: "create:mixing",
-            ingredients: [
-                {
-                    item: 'spelunkery:calcite_redstone_ore',
-                    nbt: {},
-                    amount: 1
-                }
-            ],
-            results: [
-                {
-                    fluid: 'createfoundry:molten_redstone',
-                    amount: 121500
-                },
-                {
-                    fluid: 'minecraft:lava',
-                    amount: 4050
-                },
-            ],
-            heatRequirement: "superheated"
-        }).id('kubejs:mixing/s_calcite_redstone_ore');
+    // Coal Ore to Molten Mixing Recipe
+    event.custom({
+        type: "create:mixing",
+        ingredients: [
+            {
+                item: 'alexscaves:coprolith_coal_ore',
+                nbt: {},
+                amount: 1
+            }
+        ],
+        results: [
+            {
+                fluid: 'createfoundry:molten_carbon',
+                amount: 500
+            },
+            {
+                fluid: 'minecraft:lava',
+                amount: 50
+            },
+        ],
+        heatRequirement: "superheated"
+    }).id('kubejs:mixing/ac_coal_ore');
 
-        // Sandstone Lapis Ore
-        event.custom({
-            type: "create:mixing",
-            ingredients: [
-                {
-                    item: 'spelunkery:sandstone_lapis_ore',
-                    nbt: {},
-                    amount: 1
-                }
-            ],
-            results: [
-                {
-                    fluid: 'createfoundry:molten_lapis',
-                    amount: 121500
-                },
-                {
-                    fluid: 'minecraft:lava',
-                    amount: 4050
-                },
-            ],
-            heatRequirement: "superheated"
-        }).id('kubejs:mixing/s_sandstone_lapis_ore');
-
-        // Smooth Basalt Diamond Ore
-        event.custom({
-            type: "create:mixing",
-            ingredients: [
-                {
-                    item: 'spelunkery:smooth_basalt_diamond_ore',
-                    nbt: {},
-                    amount: 1
-                }
-            ],
-            results: [
-                {
-                    fluid: 'createfoundry:molten_diamond',
-                    amount: 40500
-                },
-                {
-                    fluid: 'minecraft:lava',
-                    amount: 4050
-                },
-            ],
-            heatRequirement: "superheated"
-        }).id('kubejs:mixing/s_basalt_diamond_ore');
-
-        // Granite Ores
-            // Coal Ore
-            event.custom({
-                type: "create:mixing",
-                ingredients: [
-                    {
-                        item: 'spelunkery:granite_coal_ore',
-                        nbt: {},
-                        amount: 1
-                    }
-                ],
-                results: [
-                    {
-                        fluid: 'createfoundry:molten_carbon',
-                        amount: 40500
-                    },
-                    {
-                        fluid: 'minecraft:lava',
-                        amount: 4050
-                    },
-                ],
-                heatRequirement: "superheated"
-            }).id('kubejs:mixing/s_g_coal_ore');
-
-            // Iron Ore
-            event.custom({
-                type: "create:mixing",
-                ingredients: [
-                    {
-                        item: 'spelunkery:granite_iron_ore',
-                        nbt: {},
-                        amount: 1
-                    }
-                ],
-                results: [
-                    {
-                        fluid: 'createfoundry:molten_iron',
-                        amount: 40500
-                    },
-                    {
-                        fluid: 'minecraft:lava',
-                        amount: 4050
-                    },
-                ],
-                heatRequirement: "superheated"
-            }).id('kubejs:mixing/s_g_iron_ore');
-
-            // Copper Ore
-            event.custom({
-                type: "create:mixing",
-                ingredients: [
-                    {
-                        item: 'spelunkery:granite_copper_ore',
-                        nbt: {},
-                        amount: 1
-                    }
-                ],
-                results: [
-                    {
-                        fluid: 'createfoundry:molten_copper',
-                        amount: 40500
-                    },
-                    {
-                        fluid: 'minecraft:lava',
-                        amount: 4050
-                    },
-                ],
-                heatRequirement: "superheated"
-            }).id('kubejs:mixing/s_g_copper_ore');
-
-            // Gold Ore
-            event.custom({
-                type: "create:mixing",
-                ingredients: [
-                    {
-                        item: 'spelunkery:granite_gold_ore',
-                        nbt: {},
-                        amount: 1
-                    }
-                ],
-                results: [
-                    {
-                        fluid: 'createfoundry:molten_gold',
-                        amount: 40500
-                    },
-                    {
-                        fluid: 'minecraft:lava',
-                        amount: 4050
-                    },
-                ],
-                heatRequirement: "superheated"
-            }).id('kubejs:mixing/s_g_gold_ore');
-
-            // Redstone Ore
-            event.custom({
-                type: "create:mixing",
-                ingredients: [
-                    {
-                        item: 'spelunkery:granite_redstone_ore',
-                        nbt: {},
-                        amount: 1
-                    }
-                ],
-                results: [
-                    {
-                        fluid: 'createfoundry:molten_redstone',
-                        amount: 121500
-                    },
-                    {
-                        fluid: 'minecraft:lava',
-                        amount: 4050
-                    },
-                ],
-                heatRequirement: "superheated"
-            }).id('kubejs:mixing/s_g_redstone_ore');
-
-            // Emerald Ore
-            event.custom({
-                type: "create:mixing",
-                ingredients: [
-                    {
-                        item: 'spelunkery:granite_emerald_ore',
-                        nbt: {},
-                        amount: 1
-                    }
-                ],
-                results: [
-                    {
-                        fluid: 'createfoundry:molten_emerald',
-                        amount: 40500
-                    },
-                    {
-                        fluid: 'minecraft:lava',
-                        amount: 4050
-                    },
-                ],
-                heatRequirement: "superheated"
-            }).id('kubejs:mixing/s_g_emerald_ore');
-
-            // Lapis Ore
-            event.custom({
-                type: "create:mixing",
-                ingredients: [
-                    {
-                        item: 'spelunkery:granite_lapis_ore',
-                        nbt: {},
-                        amount: 1
-                    }
-                ],
-                results: [
-                    {
-                        fluid: 'createfoundry:molten_lapis',
-                        amount: 121500
-                    },
-                    {
-                        fluid: 'minecraft:lava',
-                        amount: 4050
-                    },
-                ],
-                heatRequirement: "superheated"
-            }).id('kubejs:mixing/s_g_lapis_ore');
-
-            // Diamond Ore
-            event.custom({
-                type: "create:mixing",
-                ingredients: [
-                    {
-                        item: 'spelunkery:granite_diamond_ore',
-                        nbt: {},
-                        amount: 1
-                    }
-                ],
-                results: [
-                    {
-                        fluid: 'createfoundry:molten_diamond',
-                        amount: 40500
-                    },
-                    {
-                        fluid: 'minecraft:lava',
-                        amount: 4050
-                    },
-                ],
-                heatRequirement: "superheated"
-            }).id('kubejs:mixing/s_g_diamond_ore');
-
-            // Zinc Ore
-            event.custom({
-                type: "create:mixing",
-                ingredients: [
-                    {
-                        item: 'spelunkery:granite_zinc_ore',
-                        nbt: {},
-                        amount: 1
-                    }
-                ],
-                results: [
-                    {
-                        fluid: 'createfoundry:molten_zinc',
-                        amount: 40500
-                    },
-                    {
-                        fluid: 'minecraft:lava',
-                        amount: 4050
-                    },
-                ],
-                heatRequirement: "superheated"
-            }).id('kubejs:mixing/s_g_zinc_ore');
-
-        // Diorite Ores
-            // Coal Ore
-            event.custom({
-                type: "create:mixing",
-                ingredients: [
-                    {
-                        item: 'spelunkery:diorite_coal_ore',
-                        nbt: {},
-                        amount: 1
-                    }
-                ],
-                results: [
-                    {
-                        fluid: 'createfoundry:molten_carbon',
-                        amount: 40500
-                    },
-                    {
-                        fluid: 'minecraft:lava',
-                        amount: 4050
-                    },
-                ],
-                heatRequirement: "superheated"
-            }).id('kubejs:mixing/s_d_coal_ore');
-
-            // Iron Ore
-            event.custom({
-                type: "create:mixing",
-                ingredients: [
-                    {
-                        item: 'spelunkery:diorite_iron_ore',
-                        nbt: {},
-                        amount: 1
-                    }
-                ],
-                results: [
-                    {
-                        fluid: 'createfoundry:molten_iron',
-                        amount: 40500
-                    },
-                    {
-                        fluid: 'minecraft:lava',
-                        amount: 4050
-                    },
-                ],
-                heatRequirement: "superheated"
-            }).id('kubejs:mixing/s_d_iron_ore');
-
-            // Copper Ore
-            event.custom({
-                type: "create:mixing",
-                ingredients: [
-                    {
-                        item: 'spelunkery:diorite_copper_ore',
-                        nbt: {},
-                        amount: 1
-                    }
-                ],
-                results: [
-                    {
-                        fluid: 'createfoundry:molten_copper',
-                        amount: 40500
-                    },
-                    {
-                        fluid: 'minecraft:lava',
-                        amount: 4050
-                    },
-                ],
-                heatRequirement: "superheated"
-            }).id('kubejs:mixing/s_d_copper_ore');
-
-            // Gold Ore
-            event.custom({
-                type: "create:mixing",
-                ingredients: [
-                    {
-                        item: 'spelunkery:diorite_gold_ore',
-                        nbt: {},
-                        amount: 1
-                    }
-                ],
-                results: [
-                    {
-                        fluid: 'createfoundry:molten_gold',
-                        amount: 40500
-                    },
-                    {
-                        fluid: 'minecraft:lava',
-                        amount: 4050
-                    },
-                ],
-                heatRequirement: "superheated"
-            }).id('kubejs:mixing/s_d_gold_ore');
-
-            // Redstone Ore
-            event.custom({
-                type: "create:mixing",
-                ingredients: [
-                    {
-                        item: 'spelunkery:diorite_redstone_ore',
-                        nbt: {},
-                        amount: 1
-                    }
-                ],
-                results: [
-                    {
-                        fluid: 'createfoundry:molten_redstone',
-                        amount: 121500
-                    },
-                    {
-                        fluid: 'minecraft:lava',
-                        amount: 4050
-                    },
-                ],
-                heatRequirement: "superheated"
-            }).id('kubejs:mixing/s_d_redstone_ore');
-
-            // Emerald Ore
-            event.custom({
-                type: "create:mixing",
-                ingredients: [
-                    {
-                        item: 'spelunkery:diorite_emerald_ore',
-                        nbt: {},
-                        amount: 1
-                    }
-                ],
-                results: [
-                    {
-                        fluid: 'createfoundry:molten_emerald',
-                        amount: 40500
-                    },
-                    {
-                        fluid: 'minecraft:lava',
-                        amount: 4050
-                    },
-                ],
-                heatRequirement: "superheated"
-            }).id('kubejs:mixing/s_d_emerald_ore');
-
-            // Lapis Ore
-            event.custom({
-                type: "create:mixing",
-                ingredients: [
-                    {
-                        item: 'spelunkery:diorite_lapis_ore',
-                        nbt: {},
-                        amount: 1
-                    }
-                ],
-                results: [
-                    {
-                        fluid: 'createfoundry:molten_lapis',
-                        amount: 121500
-                    },
-                    {
-                        fluid: 'minecraft:lava',
-                        amount: 4050
-                    },
-                ],
-                heatRequirement: "superheated"
-            }).id('kubejs:mixing/s_d_lapis_ore');
-
-            // Diamond Ore
-            event.custom({
-                type: "create:mixing",
-                ingredients: [
-                    {
-                        item: 'spelunkery:diorite_diamond_ore',
-                        nbt: {},
-                        amount: 1
-                    }
-                ],
-                results: [
-                    {
-                        fluid: 'createfoundry:molten_diamond',
-                        amount: 40500
-                    },
-                    {
-                        fluid: 'minecraft:lava',
-                        amount: 4050
-                    },
-                ],
-                heatRequirement: "superheated"
-            }).id('kubejs:mixing/s_d_diamond_ore');
-
-            // Zinc Ore
-            event.custom({
-                type: "create:mixing",
-                ingredients: [
-                    {
-                        item: 'spelunkery:diorite_zinc_ore',
-                        nbt: {},
-                        amount: 1
-                    }
-                ],
-                results: [
-                    {
-                        fluid: 'createfoundry:molten_zinc',
-                        amount: 40500
-                    },
-                    {
-                        fluid: 'minecraft:lava',
-                        amount: 4050
-                    },
-                ],
-                heatRequirement: "superheated"
-            }).id('kubejs:mixing/s_d_zinc_ore');
-
-        // Tuff Ores
-            // Coal Ore
-            event.custom({
-                type: "create:mixing",
-                ingredients: [
-                    {
-                        item: 'spelunkery:tuff_coal_ore',
-                        nbt: {},
-                        amount: 1
-                    }
-                ],
-                results: [
-                    {
-                        fluid: 'createfoundry:molten_carbon',
-                        amount: 40500
-                    },
-                    {
-                        fluid: 'minecraft:lava',
-                        amount: 4050
-                    },
-                ],
-                heatRequirement: "superheated"
-            }).id('kubejs:mixing/s_t_coal_ore');
-
-            // Iron Ore
-            event.custom({
-                type: "create:mixing",
-                ingredients: [
-                    {
-                        item: 'spelunkery:tuff_iron_ore',
-                        nbt: {},
-                        amount: 1
-                    }
-                ],
-                results: [
-                    {
-                        fluid: 'createfoundry:molten_iron',
-                        amount: 40500
-                    },
-                    {
-                        fluid: 'minecraft:lava',
-                        amount: 4050
-                    },
-                ],
-                heatRequirement: "superheated"
-            }).id('kubejs:mixing/s_t_iron_ore');
-
-            // Copper Ore
-            event.custom({
-                type: "create:mixing",
-                ingredients: [
-                    {
-                        item: 'spelunkery:tuff_copper_ore',
-                        nbt: {},
-                        amount: 1
-                    }
-                ],
-                results: [
-                    {
-                        fluid: 'createfoundry:molten_copper',
-                        amount: 40500
-                    },
-                    {
-                        fluid: 'minecraft:lava',
-                        amount: 4050
-                    },
-                ],
-                heatRequirement: "superheated"
-            }).id('kubejs:mixing/s_t_copper_ore');
-
-            // Gold Ore
-            event.custom({
-                type: "create:mixing",
-                ingredients: [
-                    {
-                        item: 'spelunkery:tuff_gold_ore',
-                        nbt: {},
-                        amount: 1
-                    }
-                ],
-                results: [
-                    {
-                        fluid: 'createfoundry:molten_gold',
-                        amount: 40500
-                    },
-                    {
-                        fluid: 'minecraft:lava',
-                        amount: 4050
-                    },
-                ],
-                heatRequirement: "superheated"
-            }).id('kubejs:mixing/s_t_gold_ore');
-
-            // Redstone Ore
-            event.custom({
-                type: "create:mixing",
-                ingredients: [
-                    {
-                        item: 'spelunkery:tuff_redstone_ore',
-                        nbt: {},
-                        amount: 1
-                    }
-                ],
-                results: [
-                    {
-                        fluid: 'createfoundry:molten_redstone',
-                        amount: 121500
-                    },
-                    {
-                        fluid: 'minecraft:lava',
-                        amount: 4050
-                    },
-                ],
-                heatRequirement: "superheated"
-            }).id('kubejs:mixing/s_t_redstone_ore');
-
-            // Emerald Ore
-            event.custom({
-                type: "create:mixing",
-                ingredients: [
-                    {
-                        item: 'spelunkery:tuff_emerald_ore',
-                        nbt: {},
-                        amount: 1
-                    }
-                ],
-                results: [
-                    {
-                        fluid: 'createfoundry:molten_emerald',
-                        amount: 40500
-                    },
-                    {
-                        fluid: 'minecraft:lava',
-                        amount: 4050
-                    },
-                ],
-                heatRequirement: "superheated"
-            }).id('kubejs:mixing/s_t_emerald_ore');
-
-            // Lapis Ore
-            event.custom({
-                type: "create:mixing",
-                ingredients: [
-                    {
-                        item: 'spelunkery:tuff_lapis_ore',
-                        nbt: {},
-                        amount: 1
-                    }
-                ],
-                results: [
-                    {
-                        fluid: 'createfoundry:molten_lapis',
-                        amount: 121500
-                    },
-                    {
-                        fluid: 'minecraft:lava',
-                        amount: 4050
-                    },
-                ],
-                heatRequirement: "superheated"
-            }).id('kubejs:mixing/s_t_lapis_ore');
-
-            // Diamond Ore
-            event.custom({
-                type: "create:mixing",
-                ingredients: [
-                    {
-                        item: 'spelunkery:tuff_diamond_ore',
-                        nbt: {},
-                        amount: 1
-                    }
-                ],
-                results: [
-                    {
-                        fluid: 'createfoundry:molten_diamond',
-                        amount: 40500
-                    },
-                    {
-                        fluid: 'minecraft:lava',
-                        amount: 4050
-                    },
-                ],
-                heatRequirement: "superheated"
-            }).id('kubejs:mixing/s_t_diamond_ore');
-
-            // Zinc Ore
-            event.custom({
-                type: "create:mixing",
-                ingredients: [
-                    {
-                        item: 'spelunkery:tuff_zinc_ore',
-                        nbt: {},
-                        amount: 1
-                    }
-                ],
-                results: [
-                    {
-                        fluid: 'createfoundry:molten_zinc',
-                        amount: 40500
-                    },
-                    {
-                        fluid: 'minecraft:lava',
-                        amount: 4050
-                    },
-                ],
-                heatRequirement: "superheated"
-            }).id('kubejs:mixing/s_t_zinc_ore');
-
-        // Andesite Ores
-            // Coal Ore
-            event.custom({
-                type: "create:mixing",
-                ingredients: [
-                    {
-                        item: 'spelunkery:andesite_coal_ore',
-                        nbt: {},
-                        amount: 1
-                    }
-                ],
-                results: [
-                    {
-                        fluid: 'createfoundry:molten_carbon',
-                        amount: 40500
-                    },
-                    {
-                        fluid: 'minecraft:lava',
-                        amount: 4050
-                    },
-                ],
-                heatRequirement: "superheated"
-            }).id('kubejs:mixing/s_a_coal_ore');
-
-            // Iron Ore
-            event.custom({
-                type: "create:mixing",
-                ingredients: [
-                    {
-                        item: 'spelunkery:andesite_iron_ore',
-                        nbt: {},
-                        amount: 1
-                    }
-                ],
-                results: [
-                    {
-                        fluid: 'createfoundry:molten_iron',
-                        amount: 40500
-                    },
-                    {
-                        fluid: 'minecraft:lava',
-                        amount: 4050
-                    },
-                ],
-                heatRequirement: "superheated"
-            }).id('kubejs:mixing/s_a_iron_ore');
-
-            // Copper Ore
-            event.custom({
-                type: "create:mixing",
-                ingredients: [
-                    {
-                        item: 'spelunkery:andesite_copper_ore',
-                        nbt: {},
-                        amount: 1
-                    }
-                ],
-                results: [
-                    {
-                        fluid: 'createfoundry:molten_copper',
-                        amount: 40500
-                    },
-                    {
-                        fluid: 'minecraft:lava',
-                        amount: 4050
-                    },
-                ],
-                heatRequirement: "superheated"
-            }).id('kubejs:mixing/s_a_copper_ore');
-
-            // Gold Ore
-            event.custom({
-                type: "create:mixing",
-                ingredients: [
-                    {
-                        item: 'spelunkery:andesite_gold_ore',
-                        nbt: {},
-                        amount: 1
-                    }
-                ],
-                results: [
-                    {
-                        fluid: 'createfoundry:molten_gold',
-                        amount: 40500
-                    },
-                    {
-                        fluid: 'minecraft:lava',
-                        amount: 4050
-                    },
-                ],
-                heatRequirement: "superheated"
-            }).id('kubejs:mixing/s_a_gold_ore');
-
-            // Redstone Ore
-            event.custom({
-                type: "create:mixing",
-                ingredients: [
-                    {
-                        item: 'spelunkery:andesite_redstone_ore',
-                        nbt: {},
-                        amount: 1
-                    }
-                ],
-                results: [
-                    {
-                        fluid: 'createfoundry:molten_redstone',
-                        amount: 121500
-                    },
-                    {
-                        fluid: 'minecraft:lava',
-                        amount: 4050
-                    },
-                ],
-                heatRequirement: "superheated"
-            }).id('kubejs:mixing/s_a_redstone_ore');
-
-            // Emerald Ore
-            event.custom({
-                type: "create:mixing",
-                ingredients: [
-                    {
-                        item: 'spelunkery:andesite_emerald_ore',
-                        nbt: {},
-                        amount: 1
-                    }
-                ],
-                results: [
-                    {
-                        fluid: 'createfoundry:molten_emerald',
-                        amount: 40500
-                    },
-                    {
-                        fluid: 'minecraft:lava',
-                        amount: 4050
-                    },
-                ],
-                heatRequirement: "superheated"
-            }).id('kubejs:mixing/s_a_emerald_ore');
-
-            // Lapis Ore
-            event.custom({
-                type: "create:mixing",
-                ingredients: [
-                    {
-                        item: 'spelunkery:andesite_lapis_ore',
-                        nbt: {},
-                        amount: 1
-                    }
-                ],
-                results: [
-                    {
-                        fluid: 'createfoundry:molten_lapis',
-                        amount: 121500
-                    },
-                    {
-                        fluid: 'minecraft:lava',
-                        amount: 4050
-                    },
-                ],
-                heatRequirement: "superheated"
-            }).id('kubejs:mixing/s_a_lapis_ore');
-
-            // Diamond Ore
-            event.custom({
-                type: "create:mixing",
-                ingredients: [
-                    {
-                        item: 'spelunkery:andesite_diamond_ore',
-                        nbt: {},
-                        amount: 1
-                    }
-                ],
-                results: [
-                    {
-                        fluid: 'createfoundry:molten_diamond',
-                        amount: 40500
-                    },
-                    {
-                        fluid: 'minecraft:lava',
-                        amount: 4050
-                    },
-                ],
-                heatRequirement: "superheated"
-            }).id('kubejs:mixing/s_a_diamond_ore');
-
-            // Zinc Ore
-            event.custom({
-                type: "create:mixing",
-                ingredients: [
-                    {
-                        item: 'spelunkery:andesite_zinc_ore',
-                        nbt: {},
-                        amount: 1
-                    }
-                ],
-                results: [
-                    {
-                        fluid: 'createfoundry:molten_zinc',
-                        amount: 40500
-                    },
-                    {
-                        fluid: 'minecraft:lava',
-                        amount: 4050
-                    },
-                ],
-                heatRequirement: "superheated"
-            }).id('kubejs:mixing/s_a_zinc_ore');
-
-    // Andesite Cut Copper Mixing Recipe
+    // Cut Copper Mixing Recipe
     event.custom({
         type: "create:mixing",
         ingredients: [
@@ -1153,7 +539,7 @@ ServerEvents.recipes(event => {
         results: [
             {
                 fluid: 'createfoundry:molten_copper',
-                amount: 72900
+                amount: 900
             }
         ],
         heatRequirement: "superheated"
@@ -1163,11 +549,11 @@ ServerEvents.recipes(event => {
     event.custom({
         type: "create:mixing",
         ingredients: [
-            { fluid: 'createfoundry:molten_ancient_debris', amount: 8100 },
-            { fluid: 'createfoundry:molten_gold', amount: 8100 }
+            { fluid: 'createfoundry:molten_ancient_debris', amount: 100 },
+            { fluid: 'createfoundry:molten_gold', amount: 100 }
         ],
         results: [
-            { fluid: 'createfoundry:molten_netherite', amount: 8100 }
+            { fluid: 'createfoundry:molten_netherite', amount: 100 }
         ],
         heatRequirement: 'superheated'
     }).id('kubejs:mixing/molten_netherite');
@@ -1176,11 +562,11 @@ ServerEvents.recipes(event => {
     event.custom({
         type: "create:mixing",
         ingredients: [
-            { fluid: 'createfoundry:molten_zinc', amount: 81000 },
-            { fluid: 'createfoundry:molten_copper', amount: 81000 }
+            { fluid: 'createfoundry:molten_zinc', amount: 1000 },
+            { fluid: 'createfoundry:molten_copper', amount: 1000 }
         ],
         results: [
-            { fluid: 'createfoundry:molten_brass', amount: 81000 }
+            { fluid: 'createfoundry:molten_brass', amount: 1000 }
         ],
         heatRequirement: 'superheated'
     }).id('kubejs:mixing/molten_brass');
@@ -1199,7 +585,7 @@ ServerEvents.recipes(event => {
             results: [
                 {
                     fluid: 'createfoundry:molten_iron',
-                    amount: 16200
+                    amount: 200
                 }
             ],
             heatRequirement: "superheated"
@@ -1219,7 +605,7 @@ ServerEvents.recipes(event => {
         results: [
             {
                 fluid: 'createfoundry:molten_gold',
-                amount: 16200
+                amount: 200
             }
         ],
         heatRequirement: "superheated"
@@ -1239,7 +625,7 @@ ServerEvents.recipes(event => {
         results: [
             {
                 fluid: 'createfoundry:molten_copper',
-                amount: 16200
+                amount: 200
             }
         ],
         heatRequirement: "superheated"
@@ -1258,61 +644,11 @@ ServerEvents.recipes(event => {
         results: [
             {
                 fluid: 'createfoundry:molten_zinc',
-                amount: 16200
+                amount: 200
             }
         ],
         heatRequirement: "superheated"
     }).id('kubejs:mixing/crushed_zinc');
-
-    // Redstone Ore Fix
-    event.custom({
-        type: "create:mixing",
-        ingredients: [
-            {
-                tag: "minecraft:redstone_ores"
-            }
-        ],
-        results: [
-            {
-                fluid: "createfoundry:molten_redstone",
-                amount: 81000
-            },
-            {
-                item: "minecraft:redstone",
-                count: 5
-            },
-            {
-                fluid: "minecraft:lava",
-                amount: 4050
-            }
-        ],
-        heatRequirement: "superheated"
-    }).id('kubejs:mixing/redstone_ores')
-
-    // Lapis Ore Fix
-    event.custom({
-        type: "create:mixing",
-        ingredients: [
-            {
-                tag: "minecraft:lapis_ores"
-            }
-        ],
-        results: [
-            {
-                fluid: "createfoundry:molten_lapis",
-                amount: 81000
-            },
-            {
-                item: "minecraft:lapis_lazuli",
-                count: 5
-            },
-            {
-                fluid: "minecraft:lava",
-                amount: 4050
-            }
-        ],
-        heatRequirement: "superheated"
-    }).id('kubejs:mixing/lapis_ores')
 
     // Raw Emerald Ore
     event.custom({
@@ -1327,7 +663,7 @@ ServerEvents.recipes(event => {
         results: [
             {
                 fluid: 'createfoundry:molten_emerald',
-                amount: 16200
+                amount: 200
             }
         ],
         heatRequirement: "superheated"
@@ -1346,7 +682,7 @@ ServerEvents.recipes(event => {
         results: [
             {
                 fluid: 'createfoundry:molten_diamond',
-                amount: 16200
+                amount: 200
             }
         ],
         heatRequirement: "superheated"
@@ -1365,7 +701,7 @@ ServerEvents.recipes(event => {
         results: [
             {
                 fluid: 'createfoundry:molten_redstone',
-                amount: 16200
+                amount: 200
             }
         ],
         heatRequirement: "superheated"
