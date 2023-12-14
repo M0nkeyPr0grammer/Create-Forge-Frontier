@@ -9,16 +9,39 @@ Download **Landscapes Reimagined Forge Frontier** today and dive into an elevate
 [![BisectHosting Code](https://raw.githubusercontent.com/M0nkeyPr0grammer/Landscapes-Reimagined/main/BH_Landscape_Reimagined.png)](https://bisecthosting.com/M0nkeyPr0grammer?r=modrinth)
 
 # Included Content
-## Mods
-### Modrinth
-- Coming Soon! [Mod List will be provided on Discord ,under the wiki section](https://discord.gg/quenZthXgy) - Check here for more information
-### Curseforge
-- Coming Soon
-## Datapacks, Resource Packs, and shaders
-### Datapacks
-- Coming Soon
-### Resource Packs
-- Coming Soon
-### Shaders
-- [Complementary Reimagined](https://modrinth.com/shader/complementary-reimagined)
-- [Complementary Reimagined Unbound](https://modrinth.com/shader/complementary-unbound)
+  <details>
+    <summary>Mods</summary>
+    <h3>Modrinth</h3>
+    <ul>
+      <li>
+        Coming Soon! <a href="https://discord.gg/quenZthXgy">Mod List will be provided on Discord, under the wiki section</a> - Check here for more information
+      </li>
+    </ul>
+    <h3>Curseforge</h3>
+    <p>Coming Soon</p>
+  </details>
+  
+  <details>
+    <summary>Datapacks</summary>
+    <p>Coming Soon</p>
+  </details>
+  
+  <details>
+    <summary>Resource Packs</summary>
+    <p>Coming Soon</p>
+  </details>
+  
+  <details>
+    <summary>Shaders</summary>
+    <ul>
+      <li>
+        <a href="https://modrinth.com/shader/complementary-reimagined">Complementary Reimagined</a>
+      </li>
+      <li>
+        <a href="https://modrinth.com/shader/complementary-unbound">Complementary Reimagined Unbound</a>
+      </li>
+    </ul>
+  </details>
+  
+
+
