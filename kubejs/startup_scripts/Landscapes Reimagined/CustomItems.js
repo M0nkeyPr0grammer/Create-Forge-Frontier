@@ -16,3 +16,18 @@ StartupEvents.registry('block', event => {
         .fullBlock(true); 
 });
 
+// New Items
+StartupEvents.registry('item', event => {
+    event.create('crushed_bismuth')
+        .displayName('Crushed Bismuth')
+        .texture('kubejs:item/crushed_bismuth');
+
+    event.create('crushed_irradium')
+        .displayName('Crushed Irradium')
+        .texture('kubejs:item/crushed_irradium');
+
+    event.create('crushed_malachite')
+        .displayName('Crushed Malachite')
+        .texture('kubejs:item/crushed_malachite');
+});
+
