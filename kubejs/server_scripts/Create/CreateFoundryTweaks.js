@@ -1195,7 +1195,7 @@ ServerEvents.recipes(event => {
         type: "create:mixing",
         ingredients: [
             {
-                item: 'enlightened_end:quartz_ore',
+                tag: 'forge:ores/quartz',
                 nbt: {},
                 amount: 1
             }
