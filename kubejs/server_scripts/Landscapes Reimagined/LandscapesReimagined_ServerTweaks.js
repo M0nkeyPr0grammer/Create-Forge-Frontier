@@ -27,14 +27,6 @@ ServerEvents.recipes(event => {
 		]
 	)
 
-	// Creates Tom's Simple Storage Guide
-	event.shapeless(
-		Item.of('patchouli:guide_book', '{"patchouli:book":"patchouli:toms_simple_storage"}'),
-		[
-			'minecraft:book',
-			'minecraft:chest'
-		]
-	)
 
 	// Creates Immersive Aircrafts Guide
 	event.shapeless(
@@ -101,7 +93,7 @@ ServerEvents.recipes(event => {
 			A: 'minecraft:redstone_torch',
 			B: 'minecraft:piston',
 			C: '#minecraft:wooden_slabs',
-			D: '#c:stripped_logs',
+			D: '#forge:stripped_logs',
 			E: 'minecraft:tnt'
 		}
 	)

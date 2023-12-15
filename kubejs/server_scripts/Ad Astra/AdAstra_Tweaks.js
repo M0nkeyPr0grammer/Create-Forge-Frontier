@@ -28,17 +28,17 @@ ServerEvents.recipes(event => {
             ingredients: [
                 {
                     fluid: 'createfoundry:molten_carbon',
-                    amount: 8100
+                    amount: 100
                 },
                 {
                     fluid: 'createaddition:bioethanol',
-                    amount: 8100
+                    amount: 100
                 }
             ],
             results: [
                 {
                     fluid: 'ad_astra:oil',
-                    amount: 8100
+                    amount: 100
                 }
             ],
             heatRequirement: "superheated"
@@ -72,7 +72,7 @@ ServerEvents.recipes(event => {
                 'ABA'
             ],
             key: {
-                A: Ingredient.of('#c:iron_plates').toJson(),
+                A: Ingredient.of('#forge:plates/iron').toJson(),
                 B: Ingredient.of('minecraft:iron_ingot').toJson(),
                 C: Ingredient.of('create:blaze_burner').toJson()
             },
@@ -89,7 +89,7 @@ ServerEvents.recipes(event => {
                 'ABA'
             ],
             key: {
-                A: Ingredient.of('#c:iron_plates').toJson(),
+                A: Ingredient.of('#forge:plates/iron').toJson(),
                 B: Ingredient.of('create:mechanical_press').toJson()
             },
             result: Ingredient.of('ad_astra:compressor').toJson(),
@@ -216,7 +216,7 @@ ServerEvents.recipes(event => {
             ],
             key: {
                 A: Ingredient.of('ad_astra:steel_ingot').toJson(),
-                B: Ingredient.of('#c:iron_plates').toJson(),
+                B: Ingredient.of('#forge:plates/iron').toJson(),
                 C: Ingredient.of('create:content_observer').toJson()
             },
             result: Ingredient.of('ad_astra_giselle_addon:rocket_sensor').toJson(),
@@ -251,7 +251,7 @@ ServerEvents.recipes(event => {
             ],
             key: {
                 A: Ingredient.of('ad_astra:steel_ingot').toJson(),
-                B: Ingredient.of('#c:iron_plates').toJson(),
+                B: Ingredient.of('#forge:plates/iron').toJson(),
                 C: Ingredient.of('create:mechanical_pump').toJson()
             },
             result: Ingredient.of('ad_astra_giselle_addon:fuel_loader').toJson(),
@@ -270,7 +270,7 @@ ServerEvents.recipes(event => {
             ],
             key: {
                 A: Ingredient.of('ad_astra:steel_ingot').toJson(),
-                B: Ingredient.of('#c:iron_plates').toJson(),
+                B: Ingredient.of('#forge:plates/iron').toJson(),
                 C: Ingredient.of('ad_astra:space_boots').toJson()
             },
             result: Ingredient.of('ad_astra_giselle_addon:gravity_normalizer').toJson(),
@@ -341,7 +341,7 @@ ServerEvents.recipes(event => {
             ],
             key: {
                 A: Ingredient.of('ad_astra:desh_block').toJson(),
-                B: Ingredient.of('#c:iron_rods').toJson(),
+                B: Ingredient.of('#forge:rods/iron').toJson(),
                 C: Ingredient.of('ad_astra:steel_block').toJson(),
                 D: Ingredient.of('ad_astra:desh_engine').toJson(),
                 E: Ingredient.of('ad_astra:wheel').toJson(),
@@ -361,7 +361,7 @@ ServerEvents.recipes(event => {
             ],
             key: {
                 A: Ingredient.of('ad_astra:steel_plate').toJson(),
-                B: Ingredient.of('#c:iron_plates').toJson()
+                B: Ingredient.of('#forge:plates/iron').toJson()
             },
             result: Ingredient.of('ad_astra:launch_pad').toJson(),
             acceptMirrored: false

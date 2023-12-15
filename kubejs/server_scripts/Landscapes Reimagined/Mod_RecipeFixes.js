@@ -7,15 +7,15 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'createdieselgenerators:crafting/engine_piston'});
     event.remove({ id: 'createdieselgenerators:mechanical_crafting/diesel_engine'});
     event.remove({ id: 'createdieselgenerators:mechanical_crafting/large_diesel_engine'});
-    event.remove({ id: 'createdieselgenerators:mixing/biodiesel'});
-    event.remove({ id: 'createdieselgenerators:basin_fermenting/fermentable'});
-    event.remove({ id: 'createdieselgenerators:compat/farmers_delight/basin_fermenting/fermentable'});
     event.remove({ id: 'createdieselgenerators:compacting/plant_oil'})
     event.remove({ id: 'sliceanddice:sprinkler'});
     event.remove({ id: 'create_confectionery:ruby_chocolate_recipe_6' });
     event.remove({ id: 'create_confectionery:white_chocolate_recipe_6' });
     event.remove({ id: 'create_confectionery:chocolate_recipe_6' });
     event.remove({ id: 'create_confectionery:black_chocolate_recipe_6' });
+    event.remove({ id: 'mctb:twilight_to_oak_crafting_table'});
+    event.remove({ id: 'mctb:towerwood_crafting_table'});
+    event.remove({ id: 'enlightened_end:cerulean_planks'});
    
     
     // Removes Missing Item Related Recipes
@@ -82,6 +82,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'design_decor:item_application/millstones/special_aluminum_cylinder' });
     event.remove({ id: 'railways:sequenced_assembly/track_biomesoplenty_cherry_wide' });
     event.remove({ id: 'mctb:smogstem_crafting_table' });
+
 
         // All the Compressed Decompressed Recipes
         event.remove({ id: 'allthecompressed:decompress/bronze_block_1x' });
@@ -185,68 +186,19 @@ ServerEvents.recipes(event => {
         event.remove({ id: 'allthecompressed:compress/iridium_block_1x' });
         event.remove({ id: 'allthecompressed:compress/vibranium_block_1x' });
 
-// Fixes Farmer's Delight Ethonal Fermenting Recipe
-event.custom({
-    type: "createdieselgenerators:basin_fermenting",
-    ingredients: [
-        {
-            tag: 'createdieselgenerators:fd_fermentable'
-        },
-        {
-            item: 'minecraft:bone_meal'
-        }
-    ],
-    processingTime: 400,
-    results: [
-        {
-            fluid: 'createdieselgenerators:ethanol',
-            amount: 4050
-        },
-    ],
-}).id('kubejs:fd_basin_fermenting/ethanol');
-
-    // Fixes Ethonal Fermenting Recipe
-    event.custom({
-        type: "createdieselgenerators:basin_fermenting",
-        ingredients: [
+        // Fixed Cerulean Plank Recipe
+        event.shaped(
+            Item.of('enlightened_end:cerulean_planks', 2),
+            [
+                '   ',
+                ' A ',
+                '   '
+            ],
             {
-                tag: 'c:fermentable'
-            },
-            {
-                item: 'minecraft:bone_meal'
+                A: 'enlightened_end:cerulean_stalk'
             }
-        ],
-        processingTime: 400,
-        results: [
-            {
-                fluid: 'createdieselgenerators:ethanol',
-                amount: 4050
-            },
-        ],
-    }).id('kubejs:basin_fermenting/ethanol');
+        )
 
-    // Fixes Create Biodiesel Mixing Recipe
-    event.custom({
-        type: "create:mixing",
-        ingredients: [
-            {
-                fluid: 'createaddition:seed_oil',
-                amount: 8100
-            },
-            {
-                fluid: 'createdieselgenerators:ethanol',
-                amount: 8100
-
-            }
-        ],
-        results: [
-            {
-                fluid: 'createdieselgenerators:biodiesel',
-                amount: 16200
-            },
-        ],
-        heatRequirement: "heated"
-    }).id('kubejs:mixing/biodiesel');
     
         // Fixes Create Diesel Engine Recipe
     event.custom({
