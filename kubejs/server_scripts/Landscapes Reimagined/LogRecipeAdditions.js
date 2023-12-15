@@ -1,31 +1,19 @@
  // Log Recipe Additions
 ServerEvents.recipes(event => {
-	
-	// Alternate Chest Recipes
+
+	// Log to Sophicated Chest Recipes
 	var chest_types = [
 		['minecraft:chest', 'minecraft:oak_log'],
 		// Regions Unexplore Log to Chest Recipes
-		['minecraft:chest', 'regions_unexplored:blackwood_log'],
-		['minecraft:chest', 'regions_unexplored:blue_bioshroom_stem'],
-		['minecraft:chest', 'regions_unexplored:brimwood_log'],
-		['minecraft:chest', 'regions_unexplored:cobalt_log'],
-		['minecraft:chest', 'regions_unexplored:dead_log'],
-		['minecraft:chest', 'regions_unexplored:eucalyptus_log'],
-		['minecraft:chest', 'regions_unexplored:green_bioshroom_stem'],
-		['minecraft:chest', 'regions_unexplored:joshua_log'],
-		['minecraft:chest', 'regions_unexplored:kapok_log'],
-		['minecraft:chest', 'regions_unexplored:magnolia_log'],
-		['minecraft:chest', 'regions_unexplored:maple_log'],
-		['minecraft:chest', 'regions_unexplored:mauve_log'],
-		['minecraft:chest', 'regions_unexplored:palm_log'],
-		['minecraft:chest', 'regions_unexplored:pine_log'],
-		['minecraft:chest', 'regions_unexplored:pink_bioshroom_stem'],
-		['minecraft:chest', 'regions_unexplored:redwood_log'],
-		['minecraft:chest', 'regions_unexplored:socotra_log'],
-		['minecraft:chest', 'regions_unexplored:willow_log'],
-		['minecraft:chest', 'regions_unexplored:yellow_bioshroom_stem'],
-		['minecraft:chest', 'regions_unexplored:baobab_log'],
-		['minecraft:chest', 'regions_unexplored:cypress_log'],
+		[Item.of('sophisticatedstorage:chest', '{woodType:"oak"}'), 'minecraft:oak_log'],
+		[Item.of('sophisticatedstorage:chest', '{woodType:"dark_oak"}'), 'minecraft:dark_oak_log'],
+		[Item.of('sophisticatedstorage:chest', '{woodType:"birch"}'), 'minecraft:birch_log'],
+		[Item.of('sophisticatedstorage:chest', '{woodType:"spruce"}'), 'minecraft:spruce_log'],
+		[Item.of('sophisticatedstorage:chest', '{woodType:"jungle"}'), 'minecraft:jungle_log'],
+		[Item.of('sophisticatedstorage:chest', '{woodType:"crimson"}'), 'minecraft:crimson_stem'],
+		[Item.of('sophisticatedstorage:chest', '{woodType:"mangrove"}'), 'minecraft:mangrove_log'],
+		[Item.of('sophisticatedstorage:chest', '{woodType:"warped"}'), 'minecraft:warped_stem'],
+		[Item.of('sophisticatedstorage:chest', '{woodType:"acacia"}'), 'minecraft:acacia_log'],
 	]
 
 	chest_types.forEach(chest_type => {
@@ -33,14 +21,73 @@ ServerEvents.recipes(event => {
 			Item.of(chest_type[0], 4),
 			[
 				'AAA',
-				'A A',
+				'ABA',
 				'AAA'
 			],
 			{
-				A: chest_type[1]
+				A: chest_type[1],
+				B: 'minecraft:redstone_torch'
 			}
 		)
 	}); 
+	
+	// Log to Chest Recipe
+	event.shaped(
+		Item.of('minecraft:chest', 4),
+		[
+			'AAA',
+			'A A',
+			'AAA'
+		],
+		{
+			A: '#minecraft:logs'
+		}
+	)
+
+	// Log to Sophicated Barrel Recipes
+	var barrel_types = [
+		['minecraft:barrel', 'minecraft:oak_log'],
+		// Regions Unexplore Log to Barrel Recipes
+		[Item.of('sophisticatedstorage:barrel', '{woodType:"oak"}'), 'minecraft:oak_log'],
+		[Item.of('sophisticatedstorage:barrel', '{woodType:"dark_oak"}'), 'minecraft:dark_oak_log'],
+		[Item.of('sophisticatedstorage:barrel', '{woodType:"birch"}'), 'minecraft:birch_log'],
+		[Item.of('sophisticatedstorage:barrel', '{woodType:"spruce"}'), 'minecraft:spruce_log'],
+		[Item.of('sophisticatedstorage:barrel', '{woodType:"jungle"}'), 'minecraft:jungle_log'],
+		[Item.of('sophisticatedstorage:barrel', '{woodType:"crimson"}'), 'minecraft:crimson_stem'],
+		[Item.of('sophisticatedstorage:barrel', '{woodType:"mangrove"}'), 'minecraft:mangrove_log'],
+		[Item.of('sophisticatedstorage:barrel', '{woodType:"warped"}'), 'minecraft:warped_stem'],
+		[Item.of('sophisticatedstorage:barrel', '{woodType:"acacia"}'), 'minecraft:acacia_log'],
+	]
+
+	barrel_types.forEach(barrel_type => {
+		event.shaped(
+			Item.of(barrel_type[0], 4),
+			[
+				'ABA',
+				'ACA',
+				'ABA'
+			],
+			{
+				A: barrel_type[1],
+				B: '#minecraft:wooden_slabs',
+				C: 'minecraft:redstone_torch'
+			}
+		)
+	}); 
+
+	event.shaped(
+		Item.of('minecraft:barrel', 4),
+		[
+			'ABA',
+			'A A',
+			'ABA'
+		],
+		{
+			A: '#minecraft:logs',
+			B: '#minecraft:wooden_slabs'
+		}
+	);
+	
 	
 	// Alternate Stick Recipe
 	event.shaped(
@@ -88,6 +135,25 @@ ServerEvents.recipes(event => {
 		['regions_unexplored:yellow_bioshroom_trapdoor', 'regions_unexplored:yellow_bioshroom_stem'],
 		['regions_unexplored:baobab_trapdoor', 'regions_unexplored:baobab_log'],
 		['regions_unexplored:cypress_trapdoor', 'regions_unexplored:cypress_log'],
+		['biomesoplenty:dead_trapdoor','biomesoplenty:dead_log'],
+		['biomesoplenty:fir_trapdoor','biomesoplenty:fir_log'],
+		['biomesoplenty:hellbark_trapdoor','biomesoplenty:hellbark_log'],
+		['biomesoplenty:jacaranda_trapdoor','biomesoplenty:jacaranda_log'],
+		['biomesoplenty:magic_trapdoor','biomesoplenty:magic_log'],
+		['biomesoplenty:mahogany_trapdoor','biomesoplenty:mahogany_log'],
+		['biomesoplenty:palm_trapdoor','biomesoplenty:palm_log'],
+		['biomesoplenty:redwood_trapdoor','biomesoplenty:redwood_log'],
+		['biomesoplenty:umbran_trapdoor','biomesoplenty:umbran_log'],
+		['biomesoplenty:willow_trapdoor','biomesoplenty:willow_log'],
+		['endlessbiomes:penumbra_trapdoor','endlessbiomes:penumbra_stem'],
+		['endlessbiomes:twisted_trapdoor','endlessbiomes:twisted_stem'],
+		['regions_unexplored:dead_trapdoor','regions_unexplored:ashen_log'],
+		['minecraft:bamboo_trapdoor','regions_unexplored:bamboo_log'],
+		['minecraft:birch_trapdoor','regions_unexplored:silver_birch_log'],
+		['minecraft:oak_trapdoor','regions_unexplored:small_oak_log'],
+		['regions_unexplored:brimwood_trapdoor','regions_unexplored:brimwood_log_magma'],
+		['alexscaves:pewen_trapdoor','alexscaves:pewen_log'],
+		['alexscaves:thornwood_trapdoor','alexscaves:thornwood_log']
 	]
 
 	trapdoor_types.forEach(trapdoor_type => {
@@ -141,6 +207,25 @@ ServerEvents.recipes(event => {
 		['regions_unexplored:baobab_slab', 'regions_unexplored:baobab_log'],
 		['regions_unexplored:cypress_slab', 'regions_unexplored:cypress_log'],
 		['regions_unexplored:alpha_slab', 'regions_unexplored:alpha_log'],
+		['biomesoplenty:dead_slab','biomesoplenty:dead_log'],
+		['biomesoplenty:fir_slab','biomesoplenty:fir_log'],
+		['biomesoplenty:hellbark_slab','biomesoplenty:hellbark_log'],
+		['biomesoplenty:jacaranda_slab','biomesoplenty:jacaranda_log'],
+		['biomesoplenty:magic_slab','biomesoplenty:magic_log'],
+		['biomesoplenty:mahogany_slab','biomesoplenty:mahogany_log'],
+		['biomesoplenty:palm_slab','biomesoplenty:palm_log'],
+		['biomesoplenty:redwood_slab','biomesoplenty:redwood_log'],
+		['biomesoplenty:umbran_slab','biomesoplenty:umbran_log'],
+		['biomesoplenty:willow_slab','biomesoplenty:willow_log'],
+		['endlessbiomes:penumbra_slabs','endlessbiomes:penumbra_stem'],
+		['endlessbiomes:twisted_slabs','endlessbiomes:twisted_stem'],
+		['regions_unexplored:dead_slab','regions_unexplored:ashen_log'],
+		['minecraft:bamboo_slab','regions_unexplored:bamboo_log'],
+		['minecraft:birch_slab','regions_unexplored:silver_birch_log'],
+		['minecraft:oak_slab','regions_unexplored:small_oak_log'],
+		['regions_unexplored:brimwood_slab','regions_unexplored:brimwood_log_magma'],
+		['alexscaves:pewen_slab','alexscaves:pewen_log'],
+		['alexscaves:thornwood_slab','alexscaves:thornwood_log']
 	]
 
 	slab_types.forEach(slab_type => {
@@ -192,6 +277,25 @@ ServerEvents.recipes(event => {
 		['regions_unexplored:yellow_bioshroom_door', 'regions_unexplored:yellow_bioshroom_stem'],
 		['regions_unexplored:baobab_door', 'regions_unexplored:baobab_log'],
 		['regions_unexplored:cypress_door', 'regions_unexplored:cypress_log'],
+		['biomesoplenty:dead_door','biomesoplenty:dead_log'],
+		['biomesoplenty:fir_door','biomesoplenty:fir_log'],
+		['biomesoplenty:hellbark_door','biomesoplenty:hellbark_log'],
+		['biomesoplenty:jacaranda_door','biomesoplenty:jacaranda_log'],
+		['biomesoplenty:magic_door','biomesoplenty:magic_log'],
+		['biomesoplenty:mahogany_door','biomesoplenty:mahogany_log'],
+		['biomesoplenty:palm_door','biomesoplenty:palm_log'],
+		['biomesoplenty:redwood_door','biomesoplenty:redwood_log'],
+		['biomesoplenty:umbran_door','biomesoplenty:umbran_log'],
+		['biomesoplenty:willow_door','biomesoplenty:willow_log'],
+		['endlessbiomes:penumbra_door','endlessbiomes:penumbra_stem'],
+		['endlessbiomes:twisted_door','endlessbiomes:twisted_stem'],
+		['regions_unexplored:dead_door','regions_unexplored:ashen_log'],
+		['minecraft:bamboo_door','regions_unexplored:bamboo_log'],
+		['minecraft:birch_door','regions_unexplored:silver_birch_log'],
+		['minecraft:oak_door','regions_unexplored:small_oak_log'],
+		['regions_unexplored:brimwood_door','regions_unexplored:brimwood_log_magma'],
+		['alexscaves:pewen_door','alexscaves:pewen_log'],
+		['alexscaves:thornwood_door','alexscaves:thornwood_log']
 	]
 
 	door_types.forEach(door_type => {
@@ -248,6 +352,25 @@ ServerEvents.recipes(event => {
 		['regions_unexplored:baobab_stairs', 'regions_unexplored:baobab_log'],
 		['regions_unexplored:cypress_stairs', 'regions_unexplored:cypress_log'],
 		['regions_unexplored:alpha_stairs', 'regions_unexplored:alpha_log'],
+		['biomesoplenty:dead_stairs','biomesoplenty:dead_log'],
+		['biomesoplenty:fir_stairs','biomesoplenty:fir_log'],
+		['biomesoplenty:hellbark_stairs','biomesoplenty:hellbark_log'],
+		['biomesoplenty:jacaranda_stairs','biomesoplenty:jacaranda_log'],
+		['biomesoplenty:magic_stairs','biomesoplenty:magic_log'],
+		['biomesoplenty:mahogany_stairs','biomesoplenty:mahogany_log'],
+		['biomesoplenty:palm_stairs','biomesoplenty:palm_log'],
+		['biomesoplenty:redwood_stairs','biomesoplenty:redwood_log'],
+		['biomesoplenty:umbran_stairs','biomesoplenty:umbran_log'],
+		['biomesoplenty:willow_stairs','biomesoplenty:willow_log'],
+		['endlessbiomes:penumbra_stairs','endlessbiomes:penumbra_stem'],
+		['endlessbiomes:twisted_stairs','endlessbiomes:twisted_stem'],
+		['regions_unexplored:dead_stairs','regions_unexplored:ashen_log'],
+		['minecraft:bamboo_stairs','regions_unexplored:bamboo_log'],
+		['minecraft:birch_stairs','regions_unexplored:silver_birch_log'],
+		['minecraft:oak_stairs','regions_unexplored:small_oak_log'],
+		['regions_unexplored:brimwood_stairs','regions_unexplored:brimwood_log_magma'],
+		['alexscaves:pewen_stairs','alexscaves:pewen_log'],
+		['alexscaves:thornwood_stairs','alexscaves:thornwood_log']
 	]
 
 	stairs_types.forEach(stairs_type => {
@@ -264,43 +387,5 @@ ServerEvents.recipes(event => {
 		)
 	});
 
-	// Plank to Oak Chest Recipes
-	var chest_types2 = [
-		// Regions Unexplore planks to Chest Recipes
-		['minecraft:chest', 'regions_unexplored:blackwood_planks'],
-		['minecraft:chest', 'regions_unexplored:blue_bioshroom_stem'],
-		['minecraft:chest', 'regions_unexplored:brimwood_planks'],
-		['minecraft:chest', 'regions_unexplored:cobalt_planks'],
-		['minecraft:chest', 'regions_unexplored:dead_planks'],
-		['minecraft:chest', 'regions_unexplored:eucalyptus_planks'],
-		['minecraft:chest', 'regions_unexplored:green_bioshroom_stem'],
-		['minecraft:chest', 'regions_unexplored:joshua_planks'],
-		['minecraft:chest', 'regions_unexplored:kapok_planks'],
-		['minecraft:chest', 'regions_unexplored:magnolia_planks'],
-		['minecraft:chest', 'regions_unexplored:maple_planks'],
-		['minecraft:chest', 'regions_unexplored:mauve_planks'],
-		['minecraft:chest', 'regions_unexplored:palm_planks'],
-		['minecraft:chest', 'regions_unexplored:pine_planks'],
-		['minecraft:chest', 'regions_unexplored:pink_bioshroom_stem'],
-		['minecraft:chest', 'regions_unexplored:redwood_planks'],
-		['minecraft:chest', 'regions_unexplored:socotra_planks'],
-		['minecraft:chest', 'regions_unexplored:willow_planks'],
-		['minecraft:chest', 'regions_unexplored:yellow_bioshroom_stem'],
-		['minecraft:chest', 'regions_unexplored:baobab_planks'],
-		['minecraft:chest', 'regions_unexplored:cypress_planks'],
-	]
-
-	chest_types2.forEach(chest_type2 => {
-		event.shaped(
-			Item.of(chest_type2[0], 1),
-			[
-				'AAA',
-				'A A',
-				'AAA'
-			],
-			{
-				A: chest_type2[1]
-			}
-		)
-	});
+	
 });
