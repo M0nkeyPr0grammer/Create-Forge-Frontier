@@ -47,6 +47,10 @@
 	#The amount of time (in ticks) that players can fly with the Cloak of Darkness ability.
 	#Range: > 20
 	darkness_cloak_fly_time = 200
+	#True if one Cave Codex is all that is needed to unlock every Cave Compendium entry.
+	only_one_research_needed = false
+	#Whether some block items are dropped by nuclear explosions. False if all destroyed blocks do not drop items.
+	nuke_spawn_item_drops = true
 
 [vanilla-changes]
 	#percent chance of bastion having a cave tablet for magnetic caves in its loot table:

@@ -11,7 +11,7 @@
     "oxygenTankSize": 40500,
     // Type: Integer
     "hammerDurability": 64,
-    "giveAstroduxAtSpawn": false,
+    "giveAstroduxAtSpawn": true,
     // Type: Integer
     "oxygenBarXOffset": 0,
     // Type: Integer

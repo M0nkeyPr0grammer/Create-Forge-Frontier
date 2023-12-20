@@ -1,13 +1,12 @@
 
 [misc]
 	creative_tab = false
-	stonecutter_damage = true
 	disable_diamond_grindstone_depletion = false
 	#Range: 0 ~ 128
 	diamond_grindstone_deplete_chance = 20
 	#Range: 0 ~ 128
 	parachute_delay = 10
-	enable_rough_gems = true
+	enable_rough_gems = false
 	enable_raw_nuggets = true
 
 [slimes]
@@ -27,7 +26,7 @@
 	#Range: 1 ~ 128
 	hammer_chisel_charge_time = 20
 	sculk_drops_with_shears = true
-	#Range: 1 ~ 128
+	#Range: 1 ~ 256
 	echo_fork_range = 16
 	#Range: 1 ~ 72000
 	echo_cooldown = 600
@@ -37,6 +36,8 @@
 	magnet_range = 8
 	#Range: 1 ~ 512
 	magnetite_range = 64
+	#Range: 1 ~ 256
+	tuning_fork_range = 128
 
 [nether_portals]
 	portal_fluid_drinking = true
@@ -55,4 +56,5 @@
 	dark_forest_portabellas = true
 	enable_mores = true
 	portal_fluid_ocean = false
+	end_ocean_bucketable = false
 

@@ -5,7 +5,7 @@ general = {}
 [generation_settings]
 	#The size of overworld biome regions from each mod that uses TerraBlender.
 	#Range: 2-6
-	overworld_region_size = 3
+	overworld_region_size = 4
 	#The weighting of vanilla biome regions in the nether.
 	#Range: 0-2147483647
 	vanilla_nether_region_weight = 10

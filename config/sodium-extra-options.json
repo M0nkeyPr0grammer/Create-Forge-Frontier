@@ -13,12 +13,7 @@
     "rain_splash": true,
     "block_break": true,
     "block_breaking": true,
-    "other": {
-      "minecraft:ambient_entity_effect": false,
-      "minecraft:sculk_charge": false,
-      "minecraft:sculk_charge_pop": false,
-      "minecraft:sculk_soul": false
-    }
+    "other": {}
   },
   "detail_settings": {
     "sky": true,
@@ -29,14 +24,11 @@
     "sky_colors": true
   },
   "render_settings": {
+    "fog_type": "DEFAULT",
     "fog_distance": 0,
     "fog_start": 100,
-    "multi_dimension_fog_control": true,
-    "dimensionFogDistance": {
-      "minecraft:overworld": 0,
-      "minecraft:the_nether": 0,
-      "minecraft:the_end": 0
-    },
+    "multi_dimension_fog_control": false,
+    "dimensionFogDistance": {},
     "light_updates": true,
     "item_frame": true,
     "armor_stand": true,
@@ -50,12 +42,13 @@
   "extra_settings": {
     "overlay_corner": "TOP_LEFT",
     "text_contrast": "NONE",
-    "show_fps": true,
+    "show_fps": false,
     "show_f_p_s_extended": true,
     "show_coords": false,
-    "reduce_resolution_on_mac": true,
+    "reduce_resolution_on_mac": false,
     "use_adaptive_sync": false,
     "cloud_height": 192,
+    "cloud_distance": 100,
     "toasts": true,
     "advancement_toast": true,
     "recipe_toast": true,
@@ -65,9 +58,6 @@
     "prevent_shaders": false,
     "steady_debug_hud": true,
     "steady_debug_hud_refresh_interval": 1
-  },
-  "notification_settings": {
-    "hide_r_s_o_recommendation": false
   },
   "super_secret_settings": {
     "fetch_sodium_extra_crowdin_translations": false,
