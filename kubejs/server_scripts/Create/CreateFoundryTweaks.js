@@ -7,6 +7,84 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'createfoundry:mixing/melting/ore/lapis_from_ore' });
     event.remove({ id: 'createfoundry:mixing/molten_netherite_from_ancient_debris_gold'})
 
+    // Adds Mixing Recipes for Compressed Crushed Ore Piles
+
+    // Crushed Copper Pile
+    event.custom({
+        type: "create:mixing",
+        ingredients: [
+            {
+                item: 'create_compressed:crushed_copper_pile',
+                nbt: {},
+                amount: 1
+            }
+        ],
+        results: [
+            {
+                fluid: 'createfoundry:molten_copper',
+                amount: 1800
+            }
+        ],
+        heatRequirement: "superheated"
+    }).id('kubejs:mixing/crushed_copper_pile');
+
+    // Crushed Zinc Pile
+    event.custom({
+        type: "create:mixing",
+        ingredients: [
+            {
+                item: 'create_compressed:crushed_zinc_pile',
+                nbt: {},
+                amount: 1
+            }
+        ],
+        results: [
+            {
+                fluid: 'createfoundry:molten_zinc',
+                amount: 1800
+            }
+        ],
+        heatRequirement: "superheated"
+    }).id('kubejs:mixing/crushed_zinc_pile');
+
+    // Crushed Iron Pile
+    event.custom({
+        type: "create:mixing",
+        ingredients: [
+            {
+                item: 'create_compressed:crushed_iron_pile',
+                nbt: {},
+                amount: 1
+            }
+        ],
+        results: [
+            {
+                fluid: 'createfoundry:molten_iron',
+                amount: 1800
+            }
+        ],
+        heatRequirement: "superheated"
+    }).id('kubejs:mixing/crushed_iron_pile');
+
+    // Crushed Gold Pile
+    event.custom({
+        type: "create:mixing",
+        ingredients: [
+            {
+                item: 'create_compressed:crushed_gold_pile',
+                nbt: {},
+                amount: 1
+            }
+        ],
+        results: [
+            {
+                fluid: 'createfoundry:molten_gold',
+                amount: 1800
+            }
+        ],
+        heatRequirement: "superheated"
+    }).id('kubejs:mixing/crushed_gold_pile');
+
     // Creates Lapis to Molten Mixing Recipe
     event.custom({
         type: "create:mixing",
