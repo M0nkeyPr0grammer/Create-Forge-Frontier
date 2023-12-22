@@ -1,16 +1,34 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Vanilla Bosses"
+  ],
   "tasks": {
     "Kill Ender Dragon": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "entity": {
         "type": "minecraft:ender_dragon"
       },
       "amount": 1,
+      "title": "",
       "type": "heracles:kill_entity"
     }
   },
   "rewards": {
     "Give Dragons Breath": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "minecraft:dragon_breath",
         "count": 16
@@ -18,8 +36,16 @@
       "type": "heracles:item"
     },
     "Ender Dragon xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
-      "amount": 100,
+      "amount": 1000,
+      "title": "",
       "type": "heracles:xp"
     }
   },
@@ -28,18 +54,34 @@
       "translate": "Kill the Ender Dragon"
     },
     "description": [
-      "Kill the Ender Dragon"
+      "The ender dragon is a giant flying hostile boss mob found when first entering the End. It is the largest naturally spawning mob in the game. It guards access to the end gateways that provide entry to the outer end islands in addition to the exit portal that allows return to the Overworld as well as access to the end credits of Minecraft. ",
+      "",
+      "This ender dragon fight will be different than the vanilla fight, she now has 500 health instead of 200, has a set of new attacks and more.",
+      "",
+      "Stage 1 Attacks",
+      "- Force Enderman to Attack Random Player",
+      "- Summon End Zombies",
+      "- Shoot Fireballs that explode",
+      "",
+      "Stage 2 Attacks, starts when the dragon reaches 250 health",
+      "- Teleport to Random End Crystal location",
+      "- Strikes Lightning on everyone",
+      "- Summons Anvils 20 blocks above everyone",
+      "- Spawns a Mini boss"
     ],
     "groups": {
       "Boss Mobs": {
         "position": [
           -200,
-          -20
+          -50
         ]
       }
     },
     "icon": {
-      "item": "minecraft:dragon_egg",
+      "item": {
+        "id": "minecraft:dragon_egg",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -48,8 +90,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

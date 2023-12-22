@@ -1,5 +1,7 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Vanilla Bosses"
+  ],
   "tasks": {
     "Kill Warden": {
       "icon": {
@@ -27,7 +29,7 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 100,
+      "amount": 1000,
       "title": "",
       "type": "heracles:xp"
     },
@@ -52,13 +54,15 @@
       "translate": "Kill a warden"
     },
     "description": [
-      "Kill the Warden"
+      "A warden is a powerful but evadable hostile mob summoned by sculk shriekers in the deep dark biome. It attacks by swinging its arms downward, dealing the highest melee damage of all mobs, or with its sonic boom attack which cannot be blocked by obstacles or armor. Wardens are completely blind and rely only on vibrations, smell, and touch to detect players and mobs to attack, and can therefore be evaded via sneaking, diversions (snowballs, arrows, etc.) and wool.",
+      "",
+      "After killing the Warden you are given its heart which allows you to access the Deeper and Darker dimension, when right clicking in on the portal in an Ancient City."
     ],
     "groups": {
       "Boss Mobs": {
         "position": [
           -200,
-          -120
+          -100
         ]
       }
     },

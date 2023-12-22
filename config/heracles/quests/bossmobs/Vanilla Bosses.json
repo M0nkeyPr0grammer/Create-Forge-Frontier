@@ -1,0 +1,53 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "grass": {
+      "block": "minecraft:grass_block",
+      "state": {},
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:grass_block",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:block_interaction"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Boss Mobs": {
+        "position": [
+          -300,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:grass_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Vanilla Bosses"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

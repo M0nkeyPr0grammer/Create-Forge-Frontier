@@ -1,21 +1,47 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Vanilla Bosses"
+  ],
   "tasks": {
     "Kill Wither": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "entity": {
         "type": "minecraft:wither"
       },
       "amount": 1,
+      "title": "",
       "type": "heracles:kill_entity"
     }
   },
   "rewards": {
     "Wither xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
-      "amount": 100,
+      "amount": 1000,
+      "title": "",
       "type": "heracles:xp"
     },
     "Give Wither Skull": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "minecraft:wither_skeleton_skull",
         "count": 1
@@ -28,18 +54,28 @@
       "translate": "Kill the Wither"
     },
     "description": [
-      ""
+      "The wither is a player-constructed and highly destructive undead hostile boss mob that can hover in mid-air and fire barrages of explosive wither skulls at any living thing. It is the only source of nether stars, which are used to craft beacons and other items.",
+      "",
+      "This Wither is different than the vanilla wither, is has double the health and new attacks.",
+      "",
+      "Attacks",
+      "- Explodes when at half health, summoning wither skeletons",
+      "- Charge Attack when below half its health",
+      "- Explodes when killed"
     ],
     "groups": {
       "Boss Mobs": {
         "position": [
           -200,
-          100
+          0
         ]
       }
     },
     "icon": {
-      "item": "minecraft:wither_skeleton_skull",
+      "item": {
+        "id": "minecraft:wither_skeleton_skull",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -48,8 +84,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }
