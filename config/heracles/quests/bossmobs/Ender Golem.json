@@ -1,0 +1,71 @@
+{
+  "dependencies": [
+    "Ruined Citadel"
+  ],
+  "tasks": {
+    "golem": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "entity": {
+        "type": "cataclysm:ender_golem"
+      },
+      "amount": 1,
+      "title": "",
+      "type": "heracles:kill_entity"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 1000,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The Ender Golem is found in a Ruined Citadel, and is the weaker of the two bosses found here."
+    ],
+    "groups": {
+      "Boss Mobs": {
+        "position": [
+          -100,
+          324
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "cataclysm:ender_golem_spawn_egg",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Ender Golem"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

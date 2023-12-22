@@ -1,0 +1,85 @@
+{
+  "dependencies": [
+    "Cursed Pyramid"
+  ],
+  "tasks": {
+    "necklace": {
+      "type": "heracles:item",
+      "item": "cataclysm:necklace_of_the_desert",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "cataclysm:necklace_of_the_desert",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    },
+    "ancient remnant": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "entity": {
+        "type": "cataclysm:ancient_remnant"
+      },
+      "amount": 1,
+      "title": "",
+      "type": "heracles:kill_entity"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 1000,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The Ancient Remnant, a boss from the Cataclysm mod, found in the Cursed Pyramid. Once you get to the structure, you need to brush the suspocious sand there to locate the Necklace of the Desert to awaken the Ancient Remnant."
+    ],
+    "groups": {
+      "Boss Mobs": {
+        "position": [
+          -100,
+          50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "cataclysm:ancient_remnant_spawn_egg",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Ancient Remnant"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "dirt": {
+      "block": "#minecraft:dirt",
+      "state": {},
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:dirt",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:block_interaction"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Boss Mobs": {
+        "position": [
+          -300,
+          175
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "cataclysm:void_core",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Cataclysm Bosses"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

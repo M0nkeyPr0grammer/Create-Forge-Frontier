@@ -1,0 +1,82 @@
+{
+  "dependencies": [
+    "Cataclysm Bosses"
+  ],
+  "tasks": {
+    "eye": {
+      "type": "heracles:item",
+      "item": "cataclysm:mech_eye",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "cataclysm:mech_eye",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    },
+    "factory": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "structures": "cataclysm:ancient_factory",
+      "type": "heracles:structure"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "This structure is found in the overworld by using an Eye of Mech."
+    ],
+    "groups": {
+      "Boss Mobs": {
+        "position": [
+          -200,
+          150
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "cataclysm:mech_eye",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Ancient Factory"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}
