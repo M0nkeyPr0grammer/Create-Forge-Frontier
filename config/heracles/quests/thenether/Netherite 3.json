@@ -1,0 +1,72 @@
+{
+  "dependencies": [
+    "Netherite 2"
+  ],
+  "tasks": {},
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "emerald": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:emerald",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:emerald",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The netherite emerald ingot is the next tier of netherite, when used to craft a chestplate it grants you an ability to pacify nearby vanilla enderman. The armor and tools of this tier has higher enchantability and durability of the previous tier. When mining you have an additional chance of getting more ore drops based off the type of netherite ingot, example netherite iron gives more raw iron when mining iron ore. Each tool has a higher speed of the previous tier, for example swords have more attack speed and pickaxes mine faster. When attacking the mob that you pacify you get additional drops when killing it.",
+      "",
+      "This ingot is crafted when combining a netherite gold ingot with 4 emeralds."
+    ],
+    "groups": {
+      "The Nether": {
+        "position": [
+          -50,
+          -105
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "advancednetherite:netherite_emerald_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Netherite-Emerald"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

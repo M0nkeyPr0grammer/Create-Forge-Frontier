@@ -1,0 +1,72 @@
+{
+  "dependencies": [
+    "Netherite 1"
+  ],
+  "tasks": {},
+  "rewards": {
+    "gold": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:gold_ingot",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:gold_ingot",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The netherite gold ingot is the next tier of netherite, when used to craft a chestplate it grants you an ability to pacify nearby piglins. The armor and tools of this tier has higher enchantability and durability of the previous tier. When mining you have an additional chance of getting more ore drops based off the type of netherite ingot, example netherite iron gives more raw iron when mining iron ore. Each tool has a higher speed of the previous tier, for example swords have more attack speed and pickaxes mine faster. When attacking the mob that you pacify you get additional drops when killing it.",
+      "",
+      "This ingot is crafted when combining a netherite iron ingot with 4 gold ingots."
+    ],
+    "groups": {
+      "The Nether": {
+        "position": [
+          -100,
+          -105
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "advancednetherite:netherite_gold_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Netherite-Gold"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

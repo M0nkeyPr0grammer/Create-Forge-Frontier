@@ -1,0 +1,72 @@
+{
+  "dependencies": [
+    "Netherite Ingot"
+  ],
+  "tasks": {},
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "iron": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:iron_ingot",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:iron_ingot",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The netherite iron ingot is the next tier of netherite, when used to craft a chestplate it grants you an ability to pacify nearby phantoms. The armor and tools of this tier has higher enchantability and durability of the previous tier. When mining you have an additional chance of getting more ore drops based off the type of netherite ingot, example netherite iron gives more raw iron when mining iron ore. Each tool has a higher speed of the previous tier, for example swords have more attack speed and pickaxes mine faster. When attacking the mob that you pacify you get additional drops when killing it.",
+      "",
+      "This ingot is crafted when combining a netherite ingot with 4 iron ingots."
+    ],
+    "groups": {
+      "The Nether": {
+        "position": [
+          -150,
+          -105
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "advancednetherite:netherite_iron_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Netherite-Iron"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

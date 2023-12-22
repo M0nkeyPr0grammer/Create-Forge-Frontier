@@ -6,18 +6,42 @@
   "tasks": {
     "netherite ingot": {
       "type": "heracles:item",
+      "item": "minecraft:netherite_ingot",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "minecraft:netherite_ingot"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     },
     "Give scraps": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "minecraft:netherite_scrap",
         "count": 2
@@ -35,13 +59,16 @@
     "groups": {
       "The Nether": {
         "position": [
-          -191,
-          -55
+          -200,
+          -105
         ]
       }
     },
     "icon": {
-      "item": "minecraft:netherite_ingot",
+      "item": {
+        "id": "minecraft:netherite_ingot",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -50,8 +77,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }
