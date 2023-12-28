@@ -1,16 +1,18 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Drawers"
+  ],
   "tasks": {
-    "botanist": {
+    "fluid drawer": {
       "type": "heracles:item",
-      "item": "chipped:botanist_workbench",
+      "item": "functionalstorage:fluid_1",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "functionalstorage:fluid_1",
+          "count": 1
         },
         "type": "heracles:item"
       }
@@ -36,27 +38,28 @@
       "text": ""
     },
     "description": [
-      "This table allows you to alter all kinds",
-      "of nature block textures."
+      "The Fluid drawer allows you to store any type of fluid of your choice.",
+      "",
+      "It can be crafted into 3 types: 1x1, 1x2, and 2x2"
     ],
     "groups": {
-      "Chipped Tables": {
+      "Better Storage": {
         "position": [
-          -100,
-          -50
+          -255,
+          -140
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "beautify:botanist_workbench",
+        "id": "functionalstorage:fluid_1",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Botanist Workbench"
+      "translate": "Fluid Drawer"
     }
   },
   "settings": {

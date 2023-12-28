@@ -1,16 +1,18 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Tools"
+  ],
   "tasks": {
-    "botanist": {
+    "drawer controller": {
       "type": "heracles:item",
-      "item": "chipped:botanist_workbench",
+      "item": "functionalstorage:storage_controller",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "functionalstorage:storage_controller",
+          "count": 1
         },
         "type": "heracles:item"
       }
@@ -26,7 +28,7 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 100,
       "title": "",
       "type": "heracles:xp"
     }
@@ -36,27 +38,26 @@
       "text": ""
     },
     "description": [
-      "This table allows you to alter all kinds",
-      "of nature block textures."
+      "The storage controller is used to access the contents of all linked drawer types to it, you can also import items into the controller and send it to the linked drawers wirelessly depending on the radius set via upgrades."
     ],
     "groups": {
-      "Chipped Tables": {
+      "Better Storage": {
         "position": [
-          -100,
-          -50
+          -30,
+          -80
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "beautify:botanist_workbench",
+        "id": "functionalstorage:storage_controller",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Botanist Workbench"
+      "translate": "Drawer Controller"
     }
   },
   "settings": {

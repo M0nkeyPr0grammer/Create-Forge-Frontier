@@ -1,16 +1,18 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Upgrades"
+  ],
   "tasks": {
-    "botanist": {
+    "diamond": {
       "type": "heracles:item",
-      "item": "chipped:botanist_workbench",
+      "item": "functionalstorage:diamond_upgrade",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "functionalstorage:diamond_upgrade",
+          "count": 1
         },
         "type": "heracles:item"
       }
@@ -29,6 +31,21 @@
       "amount": 10,
       "title": "",
       "type": "heracles:xp"
+    },
+    "diamond": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:diamond_block",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:diamond_block",
+        "count": 1
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
@@ -36,27 +53,26 @@
       "text": ""
     },
     "description": [
-      "This table allows you to alter all kinds",
-      "of nature block textures."
+      "The next tier up is the diamond upgrade which can be used to expand storage drawer capacity by 24 times the default size, fluid drawers by 12 times the default size, and drawer controller radius by 6 times the default size."
     ],
     "groups": {
-      "Chipped Tables": {
+      "Better Storage": {
         "position": [
-          -100,
-          -50
+          -182,
+          -140
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "beautify:botanist_workbench",
+        "id": "functionalstorage:diamond_upgrade",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Botanist Workbench"
+      "translate": "Diamond Upgrade"
     }
   },
   "settings": {

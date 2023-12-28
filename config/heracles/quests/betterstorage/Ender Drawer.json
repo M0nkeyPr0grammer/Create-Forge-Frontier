@@ -1,16 +1,18 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Drawers"
+  ],
   "tasks": {
-    "botanist": {
+    "ender drawer": {
       "type": "heracles:item",
-      "item": "chipped:botanist_workbench",
+      "item": "functionalstorage:ender_drawer",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "functionalstorage:ender_drawer",
+          "count": 1
         },
         "type": "heracles:item"
       }
@@ -36,27 +38,26 @@
       "text": ""
     },
     "description": [
-      "This table allows you to alter all kinds",
-      "of nature block textures."
+      "The Ender Drawer allows you to link drawers of the same type wirelessly. You can copy a drawer frequency by left clicking it with a Linking Tool and then you can right click another Ender Drawer and then they will have their contents synced. You will learn you use Linking tools later in the quests."
     ],
     "groups": {
-      "Chipped Tables": {
+      "Better Storage": {
         "position": [
-          -100,
-          -50
+          -235,
+          -112
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "beautify:botanist_workbench",
+        "id": "functionalstorage:ender_drawer",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Botanist Workbench"
+      "translate": "Ender Drawer"
     }
   },
   "settings": {

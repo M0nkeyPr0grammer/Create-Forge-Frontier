@@ -1,16 +1,18 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Tools"
+  ],
   "tasks": {
-    "botanist": {
+    "config": {
       "type": "heracles:item",
-      "item": "chipped:botanist_workbench",
+      "item": "functionalstorage:configuration_tool",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "functionalstorage:configuration_tool",
+          "count": 1
         },
         "type": "heracles:item"
       }
@@ -36,27 +38,26 @@
       "text": ""
     },
     "description": [
-      "This table allows you to alter all kinds",
-      "of nature block textures."
+      "The configuration tool is used to configure settings for each type of drawer. You can also use this tool on a drawer controller to change the settings to all the drawers linked to the controller."
     ],
     "groups": {
-      "Chipped Tables": {
+      "Better Storage": {
         "position": [
-          -100,
-          -50
+          -70,
+          -130
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "beautify:botanist_workbench",
+        "id": "functionalstorage:configuration_tool",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Botanist Workbench"
+      "translate": "Configuration Tool"
     }
   },
   "settings": {

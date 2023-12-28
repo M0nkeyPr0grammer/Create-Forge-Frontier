@@ -1,62 +1,54 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Functional Storage"
+  ],
   "tasks": {
-    "botanist": {
+    "drawer": {
       "type": "heracles:item",
-      "item": "chipped:botanist_workbench",
+      "item": "functionalstorage:oak_1",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "functionalstorage:oak_1",
+          "count": 1
         },
         "type": "heracles:item"
       }
     }
   },
-  "rewards": {
-    "xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "POINTS",
-      "amount": 10,
-      "title": "",
-      "type": "heracles:xp"
-    }
-  },
+  "rewards": {},
   "display": {
     "subtitle": {
       "text": ""
     },
     "description": [
-      "This table allows you to alter all kinds",
-      "of nature block textures."
+      "Within Functional Storage there are many types of drawers.",
+      "",
+      "This quest will teach you how to create the basic storage drawer.",
+      "",
+      "The storage drawer allows you to store any type of item of your choice.",
+      "It can be crafted into 3 types: 1x1, 1x2, and 2x2"
     ],
     "groups": {
-      "Chipped Tables": {
+      "Better Storage": {
         "position": [
-          -100,
-          -50
+          -275,
+          -80
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "beautify:botanist_workbench",
+        "id": "functionalstorage:oak_1",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Botanist Workbench"
+      "translate": "Drawers"
     }
   },
   "settings": {

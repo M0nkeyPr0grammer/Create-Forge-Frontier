@@ -1,58 +1,70 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Drawers"
+  ],
   "tasks": {
-    "Compacting Drawer": {
+    "compact drawer": {
       "type": "heracles:item",
+      "item": "functionalstorage:compacting_drawer",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "extended_drawers:compacting_drawer"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "functionalstorage:compacting_drawer",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
-    "Compacting Drawer xp": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
-    },
-    "Give drawer": {
-      "item": {
-        "id": "extended_drawers:single_drawer",
-        "count": 1
-      },
-      "type": "heracles:item"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Compact items in a single drawer"
+      "text": ""
     },
     "description": [
-      "Compacting Drawers are a nice way to compact items so you can access differnt varients of the item",
-      " ",
-      "Ores are the more common items to put into a compacting drawer.",
-      " ",
-      "An example is if you put iron into one, you put the nugget into the bottom right slot, then you can grab ingot and block forms that you can grab out if you have the amount in the drawer to grab one out"
+      "The compacting drawer allows you to compact items down, for an example: an iron ingot will display iron nuggets and iron blocks."
     ],
     "groups": {
       "Better Storage": {
         "position": [
-          -300,
-          -220
+          -315,
+          -111
         ]
       }
     },
     "icon": {
-      "item": "extended_drawers:compacting_drawer",
+      "item": {
+        "id": "functionalstorage:compacting_drawer",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Compacting drawer"
+      "translate": "Compacting Drawer"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

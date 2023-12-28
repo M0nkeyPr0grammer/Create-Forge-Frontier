@@ -5,13 +5,29 @@
   "tasks": {
     "ender bag": {
       "type": "heracles:item",
+      "item": "enderchests:ender_bag",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "enderchests:ender_bag"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "eye": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "minecraft:ender_eye",
         "count": 1
@@ -19,8 +35,16 @@
       "type": "heracles:item"
     },
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     }
   },
@@ -41,7 +65,10 @@
       }
     },
     "icon": {
-      "item": "enderchests:ender_bag",
+      "item": {
+        "id": "enderchests:ender_bag",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -50,8 +77,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

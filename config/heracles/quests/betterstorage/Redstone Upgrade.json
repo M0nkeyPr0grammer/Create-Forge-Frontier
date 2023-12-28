@@ -1,16 +1,18 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Upgrades"
+  ],
   "tasks": {
-    "botanist": {
+    "redstone": {
       "type": "heracles:item",
-      "item": "chipped:botanist_workbench",
+      "item": "functionalstorage:redstone_upgrade",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "functionalstorage:redstone_upgrade",
+          "count": 1
         },
         "type": "heracles:item"
       }
@@ -29,6 +31,21 @@
       "amount": 10,
       "title": "",
       "type": "heracles:xp"
+    },
+    "redstone": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:redstone_block",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:redstone_block",
+        "count": 2
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
@@ -36,27 +53,26 @@
       "text": ""
     },
     "description": [
-      "This table allows you to alter all kinds",
-      "of nature block textures."
+      "The redstone upgrade allows you to send a redstone signal based off the percentage of items stored inside of a drawer, the higher the percentage the stronger the signal."
     ],
     "groups": {
-      "Chipped Tables": {
+      "Better Storage": {
         "position": [
-          -100,
-          -50
+          -132,
+          -112
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "beautify:botanist_workbench",
+        "id": "functionalstorage:redstone_upgrade",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Botanist Workbench"
+      "translate": "Redstone Upgrade"
     }
   },
   "settings": {

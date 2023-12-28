@@ -1,16 +1,18 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Upgrades"
+  ],
   "tasks": {
-    "botanist": {
+    "netherite": {
       "type": "heracles:item",
-      "item": "chipped:botanist_workbench",
+      "item": "functionalstorage:netherite_upgrade",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "functionalstorage:netherite_upgrade",
+          "count": 1
         },
         "type": "heracles:item"
       }
@@ -29,6 +31,21 @@
       "amount": 10,
       "title": "",
       "type": "heracles:xp"
+    },
+    "netherite": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:netherite_ingot",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:netherite_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
@@ -36,27 +53,26 @@
       "text": ""
     },
     "description": [
-      "This table allows you to alter all kinds",
-      "of nature block textures."
+      "The last tier is the netherite upgrade which can be used to expand storage drawer capacity by 32 times the default size, fluid drawers by 16 times the default size, and drawer controller radius by 8 times the default size."
     ],
     "groups": {
-      "Chipped Tables": {
+      "Better Storage": {
         "position": [
-          -100,
-          -50
+          -151,
+          -140
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "beautify:botanist_workbench",
+        "id": "functionalstorage:netherite_upgrade",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Botanist Workbench"
+      "translate": "Netherite Upgrade"
     }
   },
   "settings": {

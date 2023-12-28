@@ -1,23 +1,8 @@
 {
   "dependencies": [],
   "tasks": {
-    "botanist": {
-      "type": "heracles:item",
-      "item": "chipped:botanist_workbench",
-      "amount": 1,
-      "collection": "AUTOMATIC",
+    "check": {
       "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
-    }
-  },
-  "rewards": {
-    "xp": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -25,38 +10,35 @@
         },
         "type": "heracles:item"
       },
-      "xptype": "POINTS",
-      "amount": 10,
-      "title": "",
-      "type": "heracles:xp"
+      "type": "heracles:check"
     }
   },
+  "rewards": {},
   "display": {
     "subtitle": {
       "text": ""
     },
     "description": [
-      "This table allows you to alter all kinds",
-      "of nature block textures."
+      "Functional Storage is an alternative take on the storage solution of Storage Drawers, with an updated look and additional functionalities."
     ],
     "groups": {
-      "Chipped Tables": {
+      "Better Storage": {
         "position": [
-          -100,
-          -50
+          -350,
+          -80
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "beautify:botanist_workbench",
+        "id": "functionalstorage:storage_controller",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Botanist Workbench"
+      "translate": "Functional Storage"
     }
   },
   "settings": {

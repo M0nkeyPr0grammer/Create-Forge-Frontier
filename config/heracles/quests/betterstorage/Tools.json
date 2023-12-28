@@ -1,23 +1,10 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Upgrades"
+  ],
   "tasks": {
-    "botanist": {
-      "type": "heracles:item",
-      "item": "chipped:botanist_workbench",
-      "amount": 1,
-      "collection": "AUTOMATIC",
+    "check": {
       "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
-    }
-  },
-  "rewards": {
-    "xp": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -25,38 +12,35 @@
         },
         "type": "heracles:item"
       },
-      "xptype": "POINTS",
-      "amount": 10,
-      "title": "",
-      "type": "heracles:xp"
+      "type": "heracles:check"
     }
   },
+  "rewards": {},
   "display": {
     "subtitle": {
       "text": ""
     },
     "description": [
-      "This table allows you to alter all kinds",
-      "of nature block textures."
+      "Within Functional storage there are two types of tools needed to configure and link drawers."
     ],
     "groups": {
-      "Chipped Tables": {
+      "Better Storage": {
         "position": [
-          -100,
-          -50
+          -85,
+          -80
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "beautify:botanist_workbench",
+        "id": "minecraft:map",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Botanist Workbench"
+      "translate": "Tools"
     }
   },
   "settings": {

@@ -1,16 +1,18 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Drawers"
+  ],
   "tasks": {
-    "botanist": {
+    "copper": {
       "type": "heracles:item",
-      "item": "chipped:botanist_workbench",
+      "item": "functionalstorage:copper_upgrade",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "functionalstorage:copper_upgrade",
+          "count": 1
         },
         "type": "heracles:item"
       }
@@ -29,6 +31,21 @@
       "amount": 10,
       "title": "",
       "type": "heracles:xp"
+    },
+    "copper block": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:copper_block",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:copper_block",
+        "count": 2
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
@@ -36,27 +53,27 @@
       "text": ""
     },
     "description": [
-      "This table allows you to alter all kinds",
-      "of nature block textures."
+      "Within function storage you have many types of upgrades that you can use.",
+      "To start this quest will have you create a copper upgrade, which can be used to expand storage drawer capacity by 8 times the default size, fluid drawers by 4 times the default size, and drawer controller radius by 2 times the default size."
     ],
     "groups": {
-      "Chipped Tables": {
+      "Better Storage": {
         "position": [
-          -100,
-          -50
+          -170,
+          -80
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "beautify:botanist_workbench",
+        "id": "functionalstorage:copper_upgrade",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Botanist Workbench"
+      "translate": "Upgrades"
     }
   },
   "settings": {
