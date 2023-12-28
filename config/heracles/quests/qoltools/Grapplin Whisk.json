@@ -1,16 +1,21 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Create Tools"
+  ],
   "tasks": {
-    "check": {
+    "grapple": {
+      "type": "heracles:item",
+      "item": "create_sa:grapplin_whisk",
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "create_sa:grapplin_whisk",
+          "count": 1
         },
         "type": "heracles:item"
-      },
-      "type": "heracles:check"
+      }
     }
   },
   "rewards": {
@@ -26,6 +31,21 @@
       "amount": 10,
       "title": "",
       "type": "heracles:xp"
+    },
+    "zinc": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:zinc_block",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:zinc_block",
+        "count": 1
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
@@ -33,26 +53,26 @@
       "text": ""
     },
     "description": [
-      "Within Landscapes Reimagined Forge Frontier, you have access to tons of different tools that help with every day tasks."
+      "The Grapplin Whisk  allows you to grapple around at the cost of fuel, make sure you create a fuel tank from Create Stuff and Additions to fuel it. I'd recommend making some slime boots to prevent fall damage."
     ],
     "groups": {
       "QOL Tools": {
         "position": [
-          -375,
-          0
+          -135,
+          -395
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "apotheosis:pickaxe_tome",
+        "id": "create_sa:grapplin_whisk",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "QOL Tools"
+      "translate": "Grapplin Whisk"
     }
   },
   "settings": {

@@ -1,20 +1,25 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Building Gadgets"
+  ],
   "tasks": {
-    "check": {
+    "dest": {
+      "type": "heracles:item",
+      "item": "buildinggadgets2:gadget_destruction",
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "buildinggadgets2:gadget_destruction",
+          "count": 1
         },
         "type": "heracles:item"
-      },
-      "type": "heracles:check"
+      }
     }
   },
   "rewards": {
-    "10xp starter": {
+    "xp": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -26,35 +31,48 @@
       "amount": 10,
       "title": "",
       "type": "heracles:xp"
+    },
+    "ore": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:diamond_ore",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:diamond_ore",
+        "count": 1
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Welcome to Landscapes Reimagined"
+      "text": ""
     },
     "description": [
-      "                 /b/Welcome to Landscapes Reimagined Forge Frontier/b/",
-      " ",
-      "The questbook is here to help you throughout your journey through the modpack"
+      "The Destruction Gadget allows you to void a large area of blocks."
     ],
     "groups": {
-      "Main": {
+      "QOL Tools": {
         "position": [
-          -28,
-          -129
+          -135,
+          -240
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:map",
+        "id": "buildinggadgets2:gadget_destruction",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Introduction"
+      "translate": "Destruction Gadget"
     }
   },
   "settings": {

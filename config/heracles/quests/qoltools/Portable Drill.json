@@ -1,16 +1,21 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Create Tools"
+  ],
   "tasks": {
-    "check": {
+    "drill": {
+      "type": "heracles:item",
+      "item": "create_sa:portable_drill",
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "create_sa:portable_drill",
+          "count": 1
         },
         "type": "heracles:item"
-      },
-      "type": "heracles:check"
+      }
     }
   },
   "rewards": {
@@ -26,6 +31,21 @@
       "amount": 10,
       "title": "",
       "type": "heracles:xp"
+    },
+    "brass": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:brass_block",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:brass_block",
+        "count": 1
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
@@ -33,26 +53,26 @@
       "text": ""
     },
     "description": [
-      "Within Landscapes Reimagined Forge Frontier, you have access to tons of different tools that help with every day tasks."
+      "The Portable Drill allows you to mine blocks at the cost of fuel, make sure you create a fuel tank from Create Stuff and Additions to fuel it. The drill can be enchanted with Digging to increase the mining size."
     ],
     "groups": {
       "QOL Tools": {
         "position": [
-          -375,
-          0
+          -135,
+          -435
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "apotheosis:pickaxe_tome",
+        "id": "create_sa:portable_drill",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "QOL Tools"
+      "translate": "Portable Drill"
     }
   },
   "settings": {

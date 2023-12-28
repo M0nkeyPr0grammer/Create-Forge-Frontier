@@ -1,16 +1,21 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "QOL Tools"
+  ],
   "tasks": {
-    "check": {
+    "build": {
+      "type": "heracles:item",
+      "item": "buildinggadgets2:gadget_building",
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "buildinggadgets2:gadget_building",
+          "count": 1
         },
         "type": "heracles:item"
-      },
-      "type": "heracles:check"
+      }
     }
   },
   "rewards": {
@@ -26,6 +31,21 @@
       "amount": 10,
       "title": "",
       "type": "heracles:xp"
+    },
+    "ore": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:diamond_ore",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:diamond_ore",
+        "count": 1
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
@@ -33,26 +53,26 @@
       "text": ""
     },
     "description": [
-      "Within Landscapes Reimagined Forge Frontier, you have access to tons of different tools that help with every day tasks."
+      "Building Gadgets has lots of handy tools that help with building and destroying multiple blocks at once, at the cost of Power. Make sure you have a Tesla Coil or a Flux Network before diving into this mod."
     ],
     "groups": {
       "QOL Tools": {
         "position": [
-          -375,
-          0
+          -195,
+          -175
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "apotheosis:pickaxe_tome",
+        "id": "buildinggadgets2:gadget_building",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "QOL Tools"
+      "translate": "Building Gadget"
     }
   },
   "settings": {

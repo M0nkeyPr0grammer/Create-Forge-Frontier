@@ -1,20 +1,25 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "On a Stick Tools"
+  ],
   "tasks": {
-    "check": {
+    "cart": {
+      "type": "heracles:item",
+      "item": "crafting_on_a_stick:cartography_table",
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "crafting_on_a_stick:cartography_table",
+          "count": 1
         },
         "type": "heracles:item"
-      },
-      "type": "heracles:check"
+      }
     }
   },
   "rewards": {
-    "10xp starter": {
+    "xp": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -30,31 +35,29 @@
   },
   "display": {
     "subtitle": {
-      "translate": "Welcome to Landscapes Reimagined"
+      "text": ""
     },
     "description": [
-      "                 /b/Welcome to Landscapes Reimagined Forge Frontier/b/",
-      " ",
-      "The questbook is here to help you throughout your journey through the modpack"
+      "The Cartography Table on a Stick allow you to have access to a cartography table without having to place down the block."
     ],
     "groups": {
-      "Main": {
+      "QOL Tools": {
         "position": [
-          -28,
-          -129
+          -135,
+          160
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:map",
+        "id": "crafting_on_a_stick:cartography_table",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Introduction"
+      "translate": "Cartography Table on a Stick"
     }
   },
   "settings": {

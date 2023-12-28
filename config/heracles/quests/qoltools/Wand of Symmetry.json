@@ -1,20 +1,25 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Create Tools"
+  ],
   "tasks": {
-    "check": {
+    "wand": {
+      "type": "heracles:item",
+      "item": "create:wand_of_symmetry",
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "create:wand_of_symmetry",
+          "count": 1
         },
         "type": "heracles:item"
-      },
-      "type": "heracles:check"
+      }
     }
   },
   "rewards": {
-    "10xp starter": {
+    "xp": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -26,35 +31,48 @@
       "amount": 10,
       "title": "",
       "type": "heracles:xp"
+    },
+    "brass": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:brass_block",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:brass_block",
+        "count": 1
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Welcome to Landscapes Reimagined"
+      "text": ""
     },
     "description": [
-      "                 /b/Welcome to Landscapes Reimagined Forge Frontier/b/",
-      " ",
-      "The questbook is here to help you throughout your journey through the modpack"
+      "The Wand of Symmetry mirrors block placement when placed on the ground."
     ],
     "groups": {
-      "Main": {
+      "QOL Tools": {
         "position": [
-          -28,
-          -129
+          -135,
+          -315
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:map",
+        "id": "create:wand_of_symmetry",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Introduction"
+      "translate": "Wand of Symmetry"
     }
   },
   "settings": {

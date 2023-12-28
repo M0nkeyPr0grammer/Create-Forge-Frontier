@@ -1,5 +1,7 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "QOL Tools"
+  ],
   "tasks": {
     "check": {
       "title": "",
@@ -14,7 +16,7 @@
     }
   },
   "rewards": {
-    "10xp starter": {
+    "xp": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -30,31 +32,29 @@
   },
   "display": {
     "subtitle": {
-      "translate": "Welcome to Landscapes Reimagined"
+      "text": ""
     },
     "description": [
-      "                 /b/Welcome to Landscapes Reimagined Forge Frontier/b/",
-      " ",
-      "The questbook is here to help you throughout your journey through the modpack"
+      "Within this modpack you have access to tons of Create Addons, within these addons you have tons of handy tools, these quests will help you understand what each one does."
     ],
     "groups": {
-      "Main": {
+      "QOL Tools": {
         "position": [
-          -28,
-          -129
+          -195,
+          -335
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:map",
+        "id": "create:wrench",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Introduction"
+      "translate": "Create Tools"
     }
   },
   "settings": {

@@ -1,20 +1,25 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Spelunkery Tools"
+  ],
   "tasks": {
-    "check": {
+    "tuning": {
+      "type": "heracles:item",
+      "item": "spelunkery:tuning_fork",
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "spelunkery:tuning_fork",
+          "count": 1
         },
         "type": "heracles:item"
-      },
-      "type": "heracles:check"
+      }
     }
   },
   "rewards": {
-    "10xp starter": {
+    "xp": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -26,35 +31,48 @@
       "amount": 10,
       "title": "",
       "type": "heracles:xp"
+    },
+    "cluster": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:amethyst_cluster",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:amethyst_cluster",
+        "count": 1
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Welcome to Landscapes Reimagined"
+      "text": ""
     },
     "description": [
-      "                 /b/Welcome to Landscapes Reimagined Forge Frontier/b/",
-      " ",
-      "The questbook is here to help you throughout your journey through the modpack"
+      "The tuning fork allows you to locate an Amethyst Geode within 128 blocks of you and will vibrate faster the closer you are to the geode."
     ],
     "groups": {
-      "Main": {
+      "QOL Tools": {
         "position": [
-          -28,
-          -129
+          -135,
+          -85
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:map",
+        "id": "spelunkery:tuning_fork",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Introduction"
+      "translate": "Tuning Fork"
     }
   },
   "settings": {

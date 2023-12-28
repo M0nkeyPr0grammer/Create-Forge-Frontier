@@ -1,5 +1,7 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "QOL Tools"
+  ],
   "tasks": {
     "check": {
       "title": "",
@@ -14,7 +16,7 @@
     }
   },
   "rewards": {
-    "10xp starter": {
+    "xp": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -30,31 +32,29 @@
   },
   "display": {
     "subtitle": {
-      "translate": "Welcome to Landscapes Reimagined"
+      "text": ""
     },
     "description": [
-      "                 /b/Welcome to Landscapes Reimagined Forge Frontier/b/",
-      " ",
-      "The questbook is here to help you throughout your journey through the modpack"
+      "Spelunkery is a handy mining themed mod, within this mod you have access to two different tools the Echo Fork and Tuning Fork, check out those quests to learn more about each one."
     ],
     "groups": {
-      "Main": {
+      "QOL Tools": {
         "position": [
-          -28,
-          -129
+          -195,
+          -65
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:map",
+        "id": "spelunkery:rough_cinnabar",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Introduction"
+      "text": "Spelunkery Tools"
     }
   },
   "settings": {

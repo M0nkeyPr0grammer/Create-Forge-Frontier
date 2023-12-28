@@ -1,16 +1,21 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Building Gadgets"
+  ],
   "tasks": {
-    "check": {
+    "exchange": {
+      "type": "heracles:item",
+      "item": "buildinggadgets2:gadget_exchanging",
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "buildinggadgets2:gadget_exchanging",
+          "count": 1
         },
         "type": "heracles:item"
-      },
-      "type": "heracles:check"
+      }
     }
   },
   "rewards": {
@@ -26,6 +31,21 @@
       "amount": 10,
       "title": "",
       "type": "heracles:xp"
+    },
+    "ore": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:diamond_ore",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:diamond_ore",
+        "count": 1
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
@@ -33,26 +53,26 @@
       "text": ""
     },
     "description": [
-      "Within Landscapes Reimagined Forge Frontier, you have access to tons of different tools that help with every day tasks."
+      "The Exchanging Gadget allows you to exchange blocks out in the world with other blocks, based off of what block you configured."
     ],
     "groups": {
       "QOL Tools": {
         "position": [
-          -375,
-          0
+          -135,
+          -120
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "apotheosis:pickaxe_tome",
+        "id": "buildinggadgets2:gadget_exchanging",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "QOL Tools"
+      "translate": "Exchanging Gadget"
     }
   },
   "settings": {

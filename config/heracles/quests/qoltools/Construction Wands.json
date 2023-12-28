@@ -1,0 +1,94 @@
+{
+  "dependencies": [
+    "QOL Tools"
+  ],
+  "tasks": {
+    "stone": {
+      "type": "heracles:item",
+      "item": "constructionwand:stone_wand",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "constructionwand:stone_wand",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "cobble": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:cobblestone",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:cobblestone",
+        "count": 3
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The Stone Construction Wand allows you to place blocks up to 9 blocks extending your build on the side that you are facing. This wand being the lowest tier only has a durability of 131."
+    ],
+    "groups": {
+      "QOL Tools": {
+        "position": [
+          -195,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "constructionwand:stone_wand",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Stone Wand"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

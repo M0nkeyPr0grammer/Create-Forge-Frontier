@@ -1,0 +1,94 @@
+{
+  "dependencies": [
+    "Construction Wands"
+  ],
+  "tasks": {
+    "iron": {
+      "type": "heracles:item",
+      "item": "constructionwand:iron_wand",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "constructionwand:iron_wand",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "iron": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:iron_ingot",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:iron_ingot",
+        "count": 3
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The Iron Construction Wand allows you to place blocks up to 27 blocks extending your build on the side that you are facing. This wand being the second tier has a durability of 250."
+    ],
+    "groups": {
+      "QOL Tools": {
+        "position": [
+          -135,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "constructionwand:iron_wand",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Iron Wand"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

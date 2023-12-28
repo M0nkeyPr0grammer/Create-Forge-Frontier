@@ -1,20 +1,40 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Magnets"
+  ],
   "tasks": {
-    "check": {
+    "advanced": {
+      "type": "heracles:item",
+      "item": "simplemagnets:advancedmagnet",
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "simplemagnets:advancedmagnet",
+          "count": 1
         },
         "type": "heracles:item"
-      },
-      "type": "heracles:check"
+      }
     }
   },
   "rewards": {
-    "10xp starter": {
+    "eye": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:ender_eye",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:ender_eye",
+        "count": 2
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -30,31 +50,29 @@
   },
   "display": {
     "subtitle": {
-      "translate": "Welcome to Landscapes Reimagined"
+      "text": ""
     },
     "description": [
-      "                 /b/Welcome to Landscapes Reimagined Forge Frontier/b/",
-      " ",
-      "The questbook is here to help you throughout your journey through the modpack"
+      "The advanced magnet allows you to pickup Items and Experience within a configurable range. Items can be filterred with a whitelist or blacklist."
     ],
     "groups": {
-      "Main": {
+      "QOL Tools": {
         "position": [
-          -28,
-          -129
+          -135,
+          50
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:map",
+        "id": "simplemagnets:advancedmagnet",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Introduction"
+      "translate": "Advanced Magnet"
     }
   },
   "settings": {

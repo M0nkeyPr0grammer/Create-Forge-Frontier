@@ -1,16 +1,21 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Spelunkery Tools"
+  ],
   "tasks": {
-    "check": {
+    "echo": {
+      "type": "heracles:item",
+      "item": "spelunkery:echo_fork",
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "spelunkery:echo_fork",
+          "count": 1
         },
         "type": "heracles:item"
-      },
-      "type": "heracles:check"
+      }
     }
   },
   "rewards": {
@@ -22,10 +27,25 @@
         },
         "type": "heracles:item"
       },
-      "xptype": "POINTS",
-      "amount": 10,
+      "xptype": "LEVEL",
+      "amount": 5,
       "title": "",
       "type": "heracles:xp"
+    },
+    "shard": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:echo_shard",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:echo_shard",
+        "count": 3
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
@@ -33,26 +53,26 @@
       "text": ""
     },
     "description": [
-      "Within Landscapes Reimagined Forge Frontier, you have access to tons of different tools that help with every day tasks."
+      "The Echo Fork allows you to highlight living entities within 64 blocks of you, and to disable crouch right click."
     ],
     "groups": {
       "QOL Tools": {
         "position": [
-          -375,
-          0
+          -135,
+          -50
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "apotheosis:pickaxe_tome",
+        "id": "spelunkery:echo_fork",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "QOL Tools"
+      "translate": "Echo Fork"
     }
   },
   "settings": {

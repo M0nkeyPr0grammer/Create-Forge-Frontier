@@ -1,20 +1,25 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "QOL Tools"
+  ],
   "tasks": {
-    "check": {
+    "simple": {
+      "type": "heracles:item",
+      "item": "simplemagnets:basicmagnet",
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "simplemagnets:basicmagnet",
+          "count": 1
         },
         "type": "heracles:item"
-      },
-      "type": "heracles:check"
+      }
     }
   },
   "rewards": {
-    "10xp starter": {
+    "xp": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -26,35 +31,48 @@
       "amount": 10,
       "title": "",
       "type": "heracles:xp"
+    },
+    "pearl": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:ender_pearl",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:ender_pearl",
+        "count": 2
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Welcome to Landscapes Reimagined"
+      "text": ""
     },
     "description": [
-      "                 /b/Welcome to Landscapes Reimagined Forge Frontier/b/",
-      " ",
-      "The questbook is here to help you throughout your journey through the modpack"
+      "The simple magnet allows you to pick up Items and Experience within a 5 block range of the player."
     ],
     "groups": {
-      "Main": {
+      "QOL Tools": {
         "position": [
-          -28,
-          -129
+          -195,
+          50
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:map",
+        "id": "simplemagnets:basicmagnet",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Introduction"
+      "translate": "Simple Magnet"
     }
   },
   "settings": {
