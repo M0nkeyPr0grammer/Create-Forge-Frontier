@@ -1,13 +1,23 @@
 Main
+QOL Tools
+Decoration Mods
+Chipped Tables
 Overworld
 The Nether
 The End
 Ad Astra
 Deeper and Darker
-Boss Mobs
-Better Storage
 Create
 Create Addons
+Create Addons pg 1
+Create Addons pg 2
+Create Addons pg 3
 Create Foundry
-Creative Items
-Chipped Tables
+Boss Mobs
+Better Storage
+Sophicated Mods
+Refined Storage
+Easy Automations
+Food
+Artifacts
+Apotheosis

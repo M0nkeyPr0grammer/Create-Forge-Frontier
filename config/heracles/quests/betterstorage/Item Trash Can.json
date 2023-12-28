@@ -1,0 +1,68 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "item": {
+      "type": "heracles:item",
+      "item": "trashcans:item_trash_can",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "trashcans:item_trash_can",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The Item Trash Can allows you to void any item of your choice and can be filtered within the GUI of the trash can."
+    ],
+    "groups": {
+      "Better Storage": {
+        "position": [
+          -350,
+          130
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "trashcans:item_trash_can",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Item Trash Can"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}
