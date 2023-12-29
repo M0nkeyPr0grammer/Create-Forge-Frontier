@@ -8,23 +8,23 @@
     },
     "description": [],
     "groups": {
-      "Artifacts and Baubley": {
+      "Transportation": {
         "position": [
-          -45,
-          -5
+          -114,
+          -57
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:map",
+        "id": "immersive_aircraft:propeller",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "text": "Artifacts"
+      "translate": "Immersive Aircrafts"
     }
   },
   "settings": {

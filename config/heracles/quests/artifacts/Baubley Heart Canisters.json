@@ -10,8 +10,8 @@
     "groups": {
       "Artifacts and Baubley": {
         "position": [
-          -45,
-          -5
+          1,
+          -9
         ]
       }
     },
@@ -24,7 +24,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "text": "Artifacts"
+      "text": "Baubley Heart Canisters"
     }
   },
   "settings": {

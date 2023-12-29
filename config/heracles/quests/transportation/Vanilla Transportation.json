@@ -8,23 +8,23 @@
     },
     "description": [],
     "groups": {
-      "Artifacts and Baubley": {
+      "Transportation": {
         "position": [
-          -45,
-          -5
+          19,
+          -59
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:map",
+        "id": "minecraft:grass_block",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "text": "Artifacts"
+      "translate": "Vanilla Transportation"
     }
   },
   "settings": {

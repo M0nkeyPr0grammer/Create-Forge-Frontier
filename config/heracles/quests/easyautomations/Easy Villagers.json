@@ -8,10 +8,10 @@
     },
     "description": [],
     "groups": {
-      "Artifacts and Baubley": {
+      "Easy Automations": {
         "position": [
-          -45,
-          -5
+          -149,
+          55
         ]
       }
     },
@@ -24,7 +24,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "text": "Artifacts"
+      "text": "Easy Villagers"
     }
   },
   "settings": {

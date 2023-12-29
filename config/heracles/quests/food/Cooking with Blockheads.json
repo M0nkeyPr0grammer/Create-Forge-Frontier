@@ -8,10 +8,10 @@
     },
     "description": [],
     "groups": {
-      "Artifacts and Baubley": {
+      "Food": {
         "position": [
-          -45,
-          -5
+          -29,
+          31
         ]
       }
     },
@@ -24,7 +24,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "text": "Artifacts"
+      "text": "Cooking with Blockheads"
     }
   },
   "settings": {
