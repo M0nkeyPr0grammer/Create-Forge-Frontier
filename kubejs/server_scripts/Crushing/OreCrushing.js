@@ -12,6 +12,98 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'spelunkery:crushing/granite_coal_ore'})
     event.remove({ id: 'spelunkery:crushing/andesite_coal_ore'})
 
+    // Enlightened End Ores
+
+    // Bismuth Ore
+
+        // Crushing Recipe
+        event.custom({
+            type: 'create:crushing',
+            ingredients: [
+                { item: 'enlightened_end:bismuth_ore' },
+            ],
+            processingTime: 400,
+            results: [
+                { item: 'kubejs:crushed_bismuth' },
+                { item: 'kubejs:crushed_bismuth', chance: 0.75 },
+                { item: 'create:experience_nugget', chance: 0.75 },
+                { item: 'minecraft:endstone', chance: 0.12 },
+            ],
+        }).id('kubejs:crushing/bismuth_ore');
+
+        // Smelting/Blasting Recipe
+        event.custom({
+            type: 'minecraft:blasting',
+            cookingtime: 100, 
+            experience: 0.1, 
+            ingredient: {
+                item: 'kubejs:crushed_bismuth' 
+            },
+            result: {
+                item: 'enlightened_end:bismuth_ingot' 
+            }
+        }).id('kubejs:blasting/bismuth_ore');
+        
+
+    // Malachite Ore
+
+        // Crushing Recipe
+        event.custom({
+            type: 'create:crushing',
+            ingredients: [
+                { item: 'enlightened_end:malachite_ore' },
+            ],
+            processingTime: 400,
+            results: [
+                { item: 'kubejs:crushed_malachite' },
+                { item: 'kubejs:crushed_malachite', chance: 0.75 },
+                { item: 'create:experience_nugget', chance: 0.75 },
+                { item: 'minecraft:endstone', chance: 0.12 },
+            ],
+        }).id('kubejs:crushing/malachite_ore');
+
+        // Smelting/Blasting Recipe
+        event.custom({
+            type: 'minecraft:blasting',
+            cookingtime: 100,
+            experience: 0.1,
+            ingredient: 
+                { item: 'kubejs:crushed_malachite' },
+            result: 
+                { item: 'enlightened_end:malachite' }
+        }).id('kubejs:blasting/malachite_ore');
+        
+
+    // Irradium Ore
+
+        // Crushing Recipe
+        event.custom({
+            type: 'create:crushing',
+            ingredients: [
+                { item: 'enlightened_end:irradium_ore' },
+            ],
+            processingTime: 400,
+            results: [
+                { item: 'kubejs:crushed_irradium' },
+                { item: 'kubejs:crushed_irradium', chance: 0.75 },
+                { item: 'create:experience_nugget', chance: 0.75 },
+                { item: 'minecraft:endstone', chance: 0.12 },
+            ],
+        }).id('kubejs:crushing/irradium_ore');
+
+        // Smelting/Blasting Recipe
+        event.custom({
+            type: 'minecraft:blasting',
+            cookingtime: 100,
+            experience: 0.1,
+            ingredient: 
+                { item: 'kubejs:crushed_irradium' },
+            result: 
+                { item: 'enlightened_end:irradium_bar' }
+        }).id('kubejs:blasting/irradium_ore');
+        
+
+
     // Coal Ore
 
     // Forge:Ores/Coal 
