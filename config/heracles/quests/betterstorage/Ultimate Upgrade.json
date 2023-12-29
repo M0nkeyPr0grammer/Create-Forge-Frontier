@@ -1,0 +1,85 @@
+{
+  "dependencies": [
+    "Advanced Upgrade"
+  ],
+  "tasks": {
+    "ultimate": {
+      "type": "heracles:item",
+      "item": "pipez:ultimate_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "pipez:ultimate_upgrade",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "upgrade": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:netherite_block",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:netherite_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The ultimate upgrade allows you to increase the transfer rate of 32 items, 2000mb, and 32768 FE to 64 items, 10000mb, and 131072 FE."
+    ],
+    "groups": {
+      "Better Storage": {
+        "position": [
+          -150,
+          280
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "pipez:ultimate_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Ultimate Upgrade"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

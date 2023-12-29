@@ -1,0 +1,85 @@
+{
+  "dependencies": [
+    "Improved Upgrade"
+  ],
+  "tasks": {
+    "advanced": {
+      "type": "heracles:item",
+      "item": "pipez:advanced_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "pipez:advanced_upgrade",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "upgrade": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:diamond_block",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:diamond_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The advanced upgrade allows you to increase the transfer rate of 16 items, 500mb, and 8192 FE to 32 items, 2000mb, and 32768 FE."
+    ],
+    "groups": {
+      "Better Storage": {
+        "position": [
+          -200,
+          280
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "pipez:advanced_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Advanced Upgrade"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

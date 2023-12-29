@@ -1,18 +1,21 @@
 {
   "dependencies": [
-    "Decoration Mods"
+    "Flux Point"
   ],
   "tasks": {
-    "check": {
+    "flux controller": {
+      "type": "heracles:item",
+      "item": "fluxnetworks:flux_controller",
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "fluxnetworks:flux_controller",
+          "count": 1
         },
         "type": "heracles:item"
-      },
-      "type": "heracles:check"
+      }
     }
   },
   "rewards": {
@@ -29,18 +32,18 @@
       "title": "",
       "type": "heracles:xp"
     },
-    "chair": {
+    "dust": {
       "title": "",
       "icon": {
         "item": {
-          "id": "adorn:oak_chair",
+          "id": "fluxnetworks:flux_dust",
           "count": 1
         },
         "type": "heracles:item"
       },
       "item": {
-        "id": "adorn:oak_chair",
-        "count": 1
+        "id": "fluxnetworks:flux_dust",
+        "count": 16
       },
       "type": "heracles:item"
     }
@@ -50,37 +53,31 @@
       "text": ""
     },
     "description": [
-      "Adorn is a decoration and furniture mod for Minecraft 1.16 that adds many decoration blocks, such as...",
-      "",
-      "- Chairs and sofas! You can sit and relax on them. A sofa is also a nice place for a nap.",
-      "- Drawers! Smaller container than chests, but a fancier piece of furniture.",
-      "- Stone torches! They're made of stone and are better light sources than wooden torches.",
-      "- Kitchen blocks! You can decorate your kitchens with kitchen counters, cupboards and sinks (Perfect for kitchen sink modpacks!)",
-      "- And more: tables, shelves, fences, chimneys..."
+      "The flux controller allows you to enable wireless charging of devices that a player is holding in their curios slot, hotbar, or off hand."
     ],
     "groups": {
-      "Decoration Mods": {
+      "Better Storage": {
         "position": [
-          -140,
-          -95
+          -100,
+          180
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "adorn:trading_station",
+        "id": "fluxnetworks:flux_controller",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Adorn"
+      "translate": "Flux Controller"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"
