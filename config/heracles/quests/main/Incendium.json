@@ -1,11 +1,7 @@
 {
   "dependencies": [],
   "tasks": {
-    "Chop a tree": {
-      "type": "heracles:item",
-      "item": "#minecraft:completes_find_tree_tutorial",
-      "amount": 1,
-      "collection": "AUTOMATIC",
+    "biome": {
       "title": "",
       "icon": {
         "item": {
@@ -13,12 +9,13 @@
           "count": 0
         },
         "type": "heracles:item"
-      }
+      },
+      "biomes": "#incendium:all_incendium_biomes",
+      "type": "heracles:biome"
     }
   },
   "rewards": {
-    "Collect a log reward": {
-      "title": "",
+    "xp": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -26,38 +23,37 @@
         },
         "type": "heracles:item"
       },
-      "item": {
-        "id": "minecraft:oak_log",
-        "count": 1
-      },
-      "type": "heracles:item"
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Chop down a tree"
+      "text": ""
     },
     "description": [
-      "Chop down a log to start you on your adventure"
+      "Incendium adds 8 unique biomes to the nether. Do you bravely venture through the perilous Quartz Flats, wander the mysterious Withered Forest, or battle your way through the steep Infernal Dunes? Each biome has a unique personality and story to tell. With unique block themes in each biomes, opportunities for new farms for technical players, 3D biomes, and stunning terrain, there is truly something for everyone."
     ],
     "groups": {
-      "Overworld": {
+      "Main": {
         "position": [
-          -350,
-          -20
+          -100,
+          -25
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:oak_log",
+        "id": "minecraft:netherrack",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Get a log"
+      "translate": "Incendium"
     }
   },
   "settings": {

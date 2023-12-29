@@ -1,11 +1,7 @@
 {
   "dependencies": [],
   "tasks": {
-    "Chop a tree": {
-      "type": "heracles:item",
-      "item": "#minecraft:completes_find_tree_tutorial",
-      "amount": 1,
-      "collection": "AUTOMATIC",
+    "biome": {
       "title": "",
       "icon": {
         "item": {
@@ -13,12 +9,13 @@
           "count": 0
         },
         "type": "heracles:item"
-      }
+      },
+      "biomes": "#minecraft:is_overworld",
+      "type": "heracles:biome"
     }
   },
   "rewards": {
-    "Collect a log reward": {
-      "title": "",
+    "xp": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -26,38 +23,37 @@
         },
         "type": "heracles:item"
       },
-      "item": {
-        "id": "minecraft:oak_log",
-        "count": 1
-      },
-      "type": "heracles:item"
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Chop down a tree"
+      "text": ""
     },
     "description": [
-      "Chop down a log to start you on your adventure"
+      "Vanilla Minecraft has a total of 53 biomes in the overworld, most of you are already familar with."
     ],
     "groups": {
-      "Overworld": {
+      "Main": {
         "position": [
-          -350,
-          -20
+          0,
+          -75
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:oak_log",
+        "id": "minecraft:oak_sapling",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Get a log"
+      "translate": "Vanilla"
     }
   },
   "settings": {

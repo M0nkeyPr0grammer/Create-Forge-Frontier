@@ -1,7 +1,7 @@
 {
   "dependencies": [],
   "tasks": {
-    "stat": {
+    "end": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -9,14 +9,14 @@
         },
         "type": "heracles:item"
       },
-      "stat": "minecraft:walk_one_cm",
-      "target": 1,
+      "from": "minecraft:",
+      "to": "minecraft:the_end",
       "title": "",
-      "type": "heracles:stat"
+      "type": "heracles:changed_dimension"
     }
   },
   "rewards": {
-    "10xp starter": {
+    "xp": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -25,44 +25,42 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 100,
       "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Welcome to Landscapes Reimagined"
+      "text": ""
     },
     "description": [
-      "                 /b/Welcome to Landscapes Reimagined Forge Frontier/b/",
-      " ",
-      "The questbook is here to help you throughout your journey through the modpack"
+      "Nullscape will make you feel tiny and alone in the vast expanse of the End. You against the void - nothing more than that. Nullscape boosts the End's height to 384 blocks, and makes full use of 1.18's modern features to generate incredibly varied terrain. You'll find everything from shattered islands, to floating valleys, to crystallized peaks! Different regions of the End - on very large scales - have different properties and feelings to allow for almost infinite variation in terrain shapes. From sponge-like porous terrain, to stretched alien landscapes, to stacked rounded islands; you'll find new and interesting terrain no matter how far you go."
     ],
     "groups": {
       "Main": {
         "position": [
           0,
-          -129
+          -25
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:map",
+        "id": "minecraft:end_stone",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Introduction"
+      "translate": "Nullscape"
     }
   },
   "settings": {
     "unlockNotification": false,
     "showDependencyArrow": true,
-    "repeatable": true,
+    "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"
   }

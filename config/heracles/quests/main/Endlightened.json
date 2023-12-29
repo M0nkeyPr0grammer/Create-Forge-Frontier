@@ -1,7 +1,7 @@
 {
   "dependencies": [],
   "tasks": {
-    "stat": {
+    "end": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -9,14 +9,14 @@
         },
         "type": "heracles:item"
       },
-      "stat": "minecraft:walk_one_cm",
-      "target": 1,
+      "from": "minecraft:",
+      "to": "minecraft:the_end",
       "title": "",
-      "type": "heracles:stat"
+      "type": "heracles:changed_dimension"
     }
   },
   "rewards": {
-    "10xp starter": {
+    "xp": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -25,44 +25,42 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 100,
       "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Welcome to Landscapes Reimagined"
+      "text": ""
     },
     "description": [
-      "                 /b/Welcome to Landscapes Reimagined Forge Frontier/b/",
-      " ",
-      "The questbook is here to help you throughout your journey through the modpack"
+      " Enlightend is a mod that adds more exploration below and above the end islands. Travelling upwards in the End will lead you into the Upper End, which is like a massive asteroid belt far out from the end islands acting as an opposite to overworld caves, featuring its own distinct biomes, blocks, and items. Similarly you can also travel downwards too, and find the radioactive Enderneath or other rare materials to use. Just be weary of the threats in the end, whether it be biological or inorganic, after-all, you're in unknown territories."
     ],
     "groups": {
       "Main": {
         "position": [
-          0,
-          -129
+          100,
+          -25
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:map",
+        "id": "enlightened_end:open_odd_roots",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Introduction"
+      "translate": "Enlightend"
     }
   },
   "settings": {
     "unlockNotification": false,
     "showDependencyArrow": true,
-    "repeatable": true,
+    "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"
   }

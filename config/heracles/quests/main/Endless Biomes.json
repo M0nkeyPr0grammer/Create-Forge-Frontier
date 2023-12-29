@@ -1,24 +1,22 @@
 {
   "dependencies": [],
   "tasks": {
-    "Chop a tree": {
-      "type": "heracles:item",
-      "item": "#minecraft:completes_find_tree_tutorial",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
+    "end": {
       "icon": {
         "item": {
           "id": "minecraft:air",
           "count": 0
         },
         "type": "heracles:item"
-      }
+      },
+      "from": "minecraft:",
+      "to": "minecraft:the_end",
+      "title": "",
+      "type": "heracles:changed_dimension"
     }
   },
   "rewards": {
-    "Collect a log reward": {
-      "title": "",
+    "xp": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -26,38 +24,37 @@
         },
         "type": "heracles:item"
       },
-      "item": {
-        "id": "minecraft:oak_log",
-        "count": 1
-      },
-      "type": "heracles:item"
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Chop down a tree"
+      "text": ""
     },
     "description": [
-      "Chop down a log to start you on your adventure"
+      "This is a Vanilla+ mod for the End modelled around the Nether update, adding biomes, structures and a whole bunch of miscellaneous features to the End; biome blobs spawn with large empty spaces between them so the dimension is still mostly dead with the occasional vibrant flare."
     ],
     "groups": {
-      "Overworld": {
+      "Main": {
         "position": [
-          -350,
-          -20
+          50,
+          -25
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:oak_log",
+        "id": "endlessbiomes:penumbral_moss",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Get a log"
+      "translate": "Endless Biomes"
     }
   },
   "settings": {
