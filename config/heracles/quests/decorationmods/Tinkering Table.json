@@ -1,5 +1,7 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Chipped"
+  ],
   "tasks": {
     "tinkering": {
       "type": "heracles:item",
@@ -40,7 +42,7 @@
       "of redstone type block textures."
     ],
     "groups": {
-      "Chipped Tables": {
+      "Decoration Mods": {
         "position": [
           0,
           0

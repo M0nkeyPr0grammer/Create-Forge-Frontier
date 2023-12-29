@@ -1,11 +1,9 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Decoration Mods"
+  ],
   "tasks": {
-    "loom": {
-      "type": "heracles:item",
-      "item": "chipped:loom_table",
-      "amount": 1,
-      "collection": "AUTOMATIC",
+    "check": {
       "title": "",
       "icon": {
         "item": {
@@ -13,7 +11,8 @@
           "count": 0
         },
         "type": "heracles:item"
-      }
+      },
+      "type": "heracles:check"
     }
   },
   "rewards": {
@@ -36,32 +35,31 @@
       "text": ""
     },
     "description": [
-      "This table allows you to alter all kinds",
-      "of wool block textures."
+      "Chipped is a mod that expands on the variety of blocks that you can use in-game. This mod offers over 9,000 unique building blocks, from stained glass variations all the way to concreate, prismarine and even gilded blackstone! Not only are all the textures hand-painted in the vanilla style, but also include many connected textures."
     ],
     "groups": {
-      "Chipped Tables": {
+      "Decoration Mods": {
         "position": [
-          80,
-          -50
+          0,
+          -95
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "chipped:loom_table",
+        "id": "chipped:cobblestone_pillar_top",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Loom Table"
+      "translate": "Chipped"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

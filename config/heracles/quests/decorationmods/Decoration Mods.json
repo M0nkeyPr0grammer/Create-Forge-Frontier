@@ -1,30 +1,46 @@
 {
   "dependencies": [],
-  "tasks": {},
+  "tasks": {
+    "stat": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "stat": "minecraft:interact_with_crafting_table",
+      "target": 1,
+      "title": "",
+      "type": "heracles:stat"
+    }
+  },
   "rewards": {},
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "Within Forge Frontier you have many options of decoration based mods to help spruce up you builds!"
+    ],
     "groups": {
       "Decoration Mods": {
         "position": [
-          -105,
-          -93
+          0,
+          -154
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:map",
+        "id": "minecraft:rose_bush",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "text": "Decoration Mods"
+      "translate": "Decoration Mods"
     }
   },
   "settings": {

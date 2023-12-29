@@ -1,9 +1,11 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Chipped"
+  ],
   "tasks": {
-    "carpenter": {
+    "botanist": {
       "type": "heracles:item",
-      "item": "chipped:carpenters_table",
+      "item": "chipped:botanist_workbench",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -37,26 +39,26 @@
     },
     "description": [
       "This table allows you to alter all kinds",
-      "of wooden block textures."
+      "of nature block textures."
     ],
     "groups": {
-      "Chipped Tables": {
+      "Decoration Mods": {
         "position": [
-          20,
+          -90,
           -50
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "chipped:carpenters_table",
+        "id": "chipped:botanist_workbench",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Carpenters Table"
+      "translate": "Botanist Workbench"
     }
   },
   "settings": {

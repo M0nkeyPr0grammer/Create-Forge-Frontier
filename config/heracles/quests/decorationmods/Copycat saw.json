@@ -1,22 +1,25 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Framed Blocks"
+  ],
   "tasks": {
-    "stat": {
+    "framing saw": {
+      "type": "heracles:item",
+      "item": "framedblocks:framing_saw",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "framedblocks:framing_saw",
+          "count": 1
         },
         "type": "heracles:item"
-      },
-      "stat": "minecraft:walk_one_cm",
-      "target": 1,
-      "title": "",
-      "type": "heracles:stat"
+      }
     }
   },
   "rewards": {
-    "10xp starter": {
+    "xp": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -32,37 +35,35 @@
   },
   "display": {
     "subtitle": {
-      "translate": "Welcome to Landscapes Reimagined"
+      "text": ""
     },
     "description": [
-      "                 /b/Welcome to Landscapes Reimagined Forge Frontier/b/",
-      " ",
-      "The questbook is here to help you throughout your journey through the modpack"
+      "The framing saw is used to change one form of the framed/copycat block to any other form of block as long as the initial required resource are the same, within the GUI it will highlight what block types are available for conversion."
     ],
     "groups": {
-      "Main": {
+      "Decoration Mods": {
         "position": [
-          -28,
-          -129
+          170,
+          -50
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:map",
+        "id": "framedblocks:framing_saw",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Introduction"
+      "translate": "Framing saw"
     }
   },
   "settings": {
     "unlockNotification": false,
     "showDependencyArrow": true,
-    "repeatable": true,
+    "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"
   }

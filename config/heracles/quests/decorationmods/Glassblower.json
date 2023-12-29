@@ -1,9 +1,11 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Chipped"
+  ],
   "tasks": {
-    "alchemy": {
+    "glassblower": {
       "type": "heracles:item",
-      "item": "chipped:alchemy_bench",
+      "item": "chipped:glassblower",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -36,27 +38,27 @@
       "text": ""
     },
     "description": [
-      "This table allows you to alter all other kinds",
-      "of block textures."
+      "This table allows you to alter all kinds",
+      "of glass block textures."
     ],
     "groups": {
-      "Chipped Tables": {
+      "Decoration Mods": {
         "position": [
-          -60,
-          0
+          -40,
+          -50
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "chipped:alchemy_bench",
+        "id": "chipped:glassblower",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Alchemy Bench"
+      "translate": "Glassblower"
     }
   },
   "settings": {

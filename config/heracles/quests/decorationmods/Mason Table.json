@@ -1,9 +1,11 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Chipped"
+  ],
   "tasks": {
-    "glassblower": {
+    "mason": {
       "type": "heracles:item",
-      "item": "chipped:glassblower",
+      "item": "chipped:mason_table",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -37,26 +39,26 @@
     },
     "description": [
       "This table allows you to alter all kinds",
-      "of glass block textures."
+      "of stone type block textures."
     ],
     "groups": {
-      "Chipped Tables": {
+      "Decoration Mods": {
         "position": [
-          -40,
-          -50
+          50,
+          0
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "chipped:glassblower",
+        "id": "chipped:mason_table",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Glassblower"
+      "translate": "Mason Table"
     }
   },
   "settings": {

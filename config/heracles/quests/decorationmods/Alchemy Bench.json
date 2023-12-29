@@ -1,9 +1,11 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Chipped"
+  ],
   "tasks": {
-    "mason": {
+    "alchemy": {
       "type": "heracles:item",
-      "item": "chipped:mason_table",
+      "item": "chipped:alchemy_bench",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -36,27 +38,27 @@
       "text": ""
     },
     "description": [
-      "This table allows you to alter all kinds",
-      "of stone type block textures."
+      "This table allows you to alter all other kinds",
+      "of block textures."
     ],
     "groups": {
-      "Chipped Tables": {
+      "Decoration Mods": {
         "position": [
-          60,
+          -50,
           0
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "chipped:mason_table",
+        "id": "chipped:alchemy_bench",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Mason Table"
+      "translate": "Alchemy Bench"
     }
   },
   "settings": {

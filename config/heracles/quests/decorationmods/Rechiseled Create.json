@@ -1,0 +1,87 @@
+{
+  "dependencies": [
+    "Chiseled"
+  ],
+  "tasks": {
+    "mech chisel": {
+      "type": "heracles:item",
+      "item": "rechiseledcreate:mechanical_chisel",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "rechiseledcreate:mechanical_chisel",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "casing": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:andesite_casing",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:andesite_casing",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Rechiseled: Create adds integration between Create and Rechiseled! Rechiseled: Create adds chiseling recipes for the various existing decorative blocks in Create as well as adding 100+ new variants of blocks in Create!",
+      "",
+      "With this addon mod you can craft a mechanical chisel to automate crafting of rechiseled block, note you will have to add a block filter like you would for a mechanical saw if you want a specific texture."
+    ],
+    "groups": {
+      "Decoration Mods": {
+        "position": [
+          -190,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "rechiseledcreate:mechanical_chisel",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Rechiseled Create"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

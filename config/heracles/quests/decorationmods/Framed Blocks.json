@@ -1,0 +1,77 @@
+{
+  "dependencies": [
+    "Decoration Mods"
+  ],
+  "tasks": {
+    "copycat block": {
+      "type": "heracles:item",
+      "item": "framedblocks:framed_cube",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "framedblocks:framed_cube",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "FramedBlocks adds blocks of various shapes that can be made to look like almost any other block in the game.",
+      "",
+      "Uses:",
+      "- Right click the block with a Framed Hammer, aka copycat hammer, to remove the camo.",
+      "- The Framed Wrench, aka copycat wrench, can be used to rotate the Framed Block, aka copycat copycat block. On most blocks, the rotation behaviour is dependent on the face that was clicked.",
+      "- The Framed Screwdriver, aka copycat screwdriver, can be used to cycle through different states of the camo block.",
+      "- The Framed Blueprint, aka copycat blueprint, allows copying Framed Blocks, aka copycat block, including their camo and glowing state. The rotation of the Framed Block itself is not copied.",
+      "- Many more"
+    ],
+    "groups": {
+      "Decoration Mods": {
+        "position": [
+          170,
+          -95
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "framedblocks:framed_cube",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Framed Blocks"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

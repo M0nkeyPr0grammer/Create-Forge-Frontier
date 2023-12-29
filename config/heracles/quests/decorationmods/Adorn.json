@@ -1,0 +1,88 @@
+{
+  "dependencies": [
+    "Decoration Mods"
+  ],
+  "tasks": {
+    "check": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "chair": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "adorn:oak_chair",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "adorn:oak_chair",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Adorn is a decoration and furniture mod for Minecraft 1.16 that adds many decoration blocks, such as...",
+      "",
+      "- Chairs and sofas! You can sit and relax on them. A sofa is also a nice place for a nap.",
+      "- Drawers! Smaller container than chests, but a fancier piece of furniture.",
+      "- Stone torches! They're made of stone and are better light sources than wooden torches.",
+      "- Kitchen blocks! You can decorate your kitchens with kitchen counters, cupboards and sinks (Perfect for kitchen sink modpacks!)",
+      "- And more: tables, shelves, fences, chimneys..."
+    ],
+    "groups": {
+      "Decoration Mods": {
+        "position": [
+          -140,
+          -96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "adorn:trading_station",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Adorn"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

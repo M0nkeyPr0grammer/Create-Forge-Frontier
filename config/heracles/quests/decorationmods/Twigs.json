@@ -1,22 +1,25 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Decoration Mods"
+  ],
   "tasks": {
-    "stat": {
+    "twig": {
+      "type": "heracles:item",
+      "item": "twigs:twig",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "twigs:twig",
+          "count": 1
         },
         "type": "heracles:item"
-      },
-      "stat": "minecraft:walk_one_cm",
-      "target": 1,
-      "title": "",
-      "type": "heracles:stat"
+      }
     }
   },
   "rewards": {
-    "10xp starter": {
+    "xp": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -32,37 +35,35 @@
   },
   "display": {
     "subtitle": {
-      "translate": "Welcome to Landscapes Reimagined"
+      "text": ""
     },
     "description": [
-      "                 /b/Welcome to Landscapes Reimagined Forge Frontier/b/",
-      " ",
-      "The questbook is here to help you throughout your journey through the modpack"
+      "Twigs is a Minecraft mod all about building, adding new and interesting materials, as well as new renditions of vanilla blocks!"
     ],
     "groups": {
-      "Main": {
+      "Decoration Mods": {
         "position": [
-          -28,
-          -129
+          120,
+          -95
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:map",
+        "id": "twigs:twigs",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Introduction"
+      "translate": "Twigs"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
-    "repeatable": true,
+    "showDependencyArrow": false,
+    "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"
   }
