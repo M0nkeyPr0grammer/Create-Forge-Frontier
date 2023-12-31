@@ -1,0 +1,16 @@
+{
+    "modId": "create_dd",
+    "group": {
+      "name": "Create Dreams and Desires Saplings",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:emerald"
+      },
+      "defaultCategory": "farmingforblockheads:saplings"
+    },
+    "customEntries": [
+      {
+        "output": "create_dd:rubber_sapling"
+      }
+    ]
+  }

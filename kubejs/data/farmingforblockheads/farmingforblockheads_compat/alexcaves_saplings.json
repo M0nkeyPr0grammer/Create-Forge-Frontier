@@ -1,0 +1,22 @@
+{
+    "modId": "alexcaves",
+    "group": {
+      "name": "Alex Caves Saplings",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:emerald"
+      },
+      "defaultCategory": "farmingforblockheads:saplings"
+    },
+    "customEntries": [
+      {
+        "output": "alexcaves:pewen_sapling"
+      },
+      {
+        "output":"alexcaves:ancient_sapling"
+      },
+      {
+        "output": "alexcaves:thornwood_sapling"
+      }
+    ]
+  }
