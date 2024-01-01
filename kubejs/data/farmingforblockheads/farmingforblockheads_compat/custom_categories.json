@@ -1,0 +1,16 @@
+{
+  "customCategories": {
+    "plants": {
+      "name": "Plants",
+      "icon": {
+        "item": "minecraft:sugar_cane"
+      }
+    },
+    "fertilizer": {
+        "name": "Fertilizer",
+        "icon": {
+            "item": "minecraft:bone_meal"
+        }
+    }
+  }
+}

@@ -10,31 +10,25 @@
     },
     "customEntries": [
       {
-        "output": "minecraft:nether_wart"
+        "output": "minecraft:nether_wart",
+        "payment": {
+          "item": "minecraft:emerald",
+          "count": 4
+        }
       },
       {
-        "output": "minecraft:bamboo"
+        "output": "minecraft:torchflower_seeds",
+        "payment": {
+          "item": "minecraft:emerald",
+          "count": 8
+        }
       },
       {
-        "output": "minecraft:sugar_cane"
-      },
-      {
-        "output": "minecraft:cactus"
-      },
-      {
-        "output": "minecraft:lily_pad"
-      },
-      {
-        "output": "minecraft:sea_pickle"
-      },
-      {
-        "output": "minecraft:kelp"
-      },
-      {
-        "output": "minecraft:moss_block"
-      },
-      {
-        "output": "minecraft:small_dripleaf"
+        "output": "minecraft:pitcher_pod",
+        "payment": {
+          "item": "minecraft:emerald",
+          "count": 8
+        }
       }
     ]
   }

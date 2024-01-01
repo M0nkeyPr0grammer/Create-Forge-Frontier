@@ -1,0 +1,25 @@
+{
+    "modId": "deeperdarker",
+    "group": {
+      "name": "Deeper and Darker Plants",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:emerald"
+      },
+      "defaultCategory": "plants"
+    },
+    "customEntries": [
+      {
+        "output": "deeperdarker:sculk_tendrils"
+      },
+      {
+        "output": "deeperdarker:sculk_vines"
+      },
+      {
+        "output": "deeperdarker:gloomy_cactus"
+      },
+      {
+        "output": "deeperdarker:gloomy_grass"
+      }
+    ]
+  }

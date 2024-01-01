@@ -1,0 +1,16 @@
+{
+    "modId": "alexscaves",
+    "group": {
+      "name": "Alexs Caves Fertilizer",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:emerald"
+      },
+      "defaultCategory": "fertilizer"
+    },
+    "customEntries": [
+      {
+        "output": "alexscaves:fertilizer"
+      }
+    ]
+  }

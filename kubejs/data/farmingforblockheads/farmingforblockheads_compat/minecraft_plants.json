@@ -1,0 +1,112 @@
+{
+    "modId": "minecraft",
+    "group": {
+      "name": "Minecraft Plants",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:emerald"
+      },
+      "defaultCategory": "plants"
+    },
+    "customEntries": [
+      {
+        "output": "minecraft:bamboo"
+      },
+      {
+        "output": "minecraft:sugar_cane"
+      },
+      {
+        "output": "minecraft:cactus"
+      },
+      {
+        "output": "minecraft:lily_pad"
+      },
+      {
+        "output": "minecraft:sea_pickle"
+      },
+      {
+        "output": "minecraft:kelp"
+      },
+      {
+        "output": "minecraft:moss_block"
+      },
+      {
+        "output": "minecraft:small_dripleaf"
+      },
+      {
+        "output": "minecraft:brown_mushroom"
+      },
+      {
+        "output": "minecraft:red_mushroom"
+      },
+      {
+        "output": "minecraft:crimson_fungus"
+      },
+      {
+        "output": "minecraft:warped_fungus"
+      },
+      {
+        "output": "minecraft:grass"
+      },
+      {
+        "output": "minecraft:fern"
+      },
+      {
+        "output": "minecraft:dead_bush"
+      },
+      {
+        "output": "minecraft:crimson_roots"
+      },
+      {
+        "output": "minecraft:warped_roots"
+      },
+      {
+        "output": "minecraft:nether_sprouts"
+      },
+      {
+        "output": "minecraft:weeping_vines"
+      },
+      {
+        "output": "minecraft:twisting_vines"
+      },
+      {
+        "output": "minecraft:vine"
+      },
+      {
+        "output": "minecraft:tall_grass"
+      },
+      {
+        "output": "minecraft:large_fern"
+      },
+      {
+        "output": "minecraft:chorus_flower"
+      },
+      {
+        "output": "minecraft:glow_lichen"
+      },
+      {
+        "output": "minecraft:hanging_roots"
+      },
+      {
+        "output": "minecraft:glow_berries"
+      },
+      {
+        "output": "minecraft:sweet_berries"
+      },
+      {
+        "output": "minecraft:apple"
+      },
+      {
+        "output": "minecraft:melon_slice"
+      },
+      {
+        "output": "minecraft:chorus_fruit"
+      },
+      {
+        "output": "minecraft:potato"
+      },
+      {
+        "output": "minecraft:carrot"
+      }
+    ]
+  }

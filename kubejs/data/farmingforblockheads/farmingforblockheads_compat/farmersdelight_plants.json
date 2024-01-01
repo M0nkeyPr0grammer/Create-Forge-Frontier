@@ -1,0 +1,22 @@
+{
+    "modId": "farmersdelight",
+    "group": {
+      "name": "Farmers Delight Plants",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:emerald"
+      },
+      "defaultCategory": "plants"
+    },
+    "customEntries": [
+      {
+        "output": "farmersdelight:pumpkin_slice"
+      },
+      {
+        "output": "farmersdelight:rice_panicle"
+      },
+      {
+        "output": "farmersdelight:sandy_shrub"
+      }
+    ]
+  }

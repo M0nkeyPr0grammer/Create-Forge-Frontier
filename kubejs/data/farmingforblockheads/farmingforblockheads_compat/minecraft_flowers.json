@@ -46,7 +46,11 @@
         "output": "minecraft:lily_of_the_valley"
       },
       {
-        "output": "minecraft:wither_rose"
+        "output": "minecraft:wither_rose",
+        "payment": {
+          "item": "minecraft:emerald",
+          "count": 16
+        }
       },
       {
         "output": "minecraft:pink_petals"
@@ -64,10 +68,18 @@
         "output": "minecraft:peony"
       },
       {
-        "output": "minecraft:torchflower"
+        "output": "minecraft:torchflower",
+        "payment": {
+          "item": "minecraft:emerald",
+          "count": 8
+        }
       },
       {
-        "output": "minecraft:pitcher_plant"
+        "output": "minecraft:pitcher_plant",
+        "payment": {
+          "item": "minecraft:emerald",
+          "count": 8
+        }
       }
 
     ]
