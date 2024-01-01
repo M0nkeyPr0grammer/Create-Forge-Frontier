@@ -1,0 +1,52 @@
+{
+    "modId": "flowerseeds",
+    "group": {
+      "name": "Flowerseeds Seeds",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:emerald"
+      },
+      "defaultCategory": "farmingforblockheads:seeds"
+    },
+    "customEntries": [
+      {
+        "output": "flowerseeds:dandelion_seed"
+      },
+      {
+        "output": "flowerseeds:allium_seed"
+      },
+      {
+        "output": "flowerseeds:azure_bluet_seed"
+      },
+      {
+        "output": "flowerseeds:cornflower_seed"
+      },
+      {
+        "output": "flowerseeds:blue_orchid_seed"
+      },
+      {
+        "output": "flowerseeds:lily_of_the_valley_seed"
+      },
+      {
+        "output": "flowerseeds:orange_tulip_seed"
+      },
+      {
+        "output": "flowerseeds:pink_tulip_seed"
+      },
+      {
+        "output": "flowerseeds:poppy_seed"
+      },
+      {
+        "output": "flowerseeds:red_tulip_seed"
+      },
+      {
+        "output": "flowerseeds:oxeye_daisy_seed"
+      },
+      {
+        "output": "flowerseeds:white_tulip_seed"
+      },
+      {
+        "output": "flowerseeds:wither_rose_seed"
+      }
+    ]
+  }

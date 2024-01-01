@@ -1,0 +1,16 @@
+{
+    "modId": "friendsandfoes",
+    "group": {
+      "name": "Friends and Foes Flowers",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:emerald"
+      },
+      "defaultCategory": "farmingforblockheads:flowers"
+    },
+    "customEntries": [
+      {
+        "output": "friendsandfoes:buttercup"
+      }
+    ]
+  }

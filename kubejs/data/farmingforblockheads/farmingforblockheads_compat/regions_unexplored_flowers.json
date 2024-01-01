@@ -1,0 +1,157 @@
+{
+    "modId": "regions_unexplored",
+    "group": {
+      "name": "Regions Unexplored Flowers",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:emerald"
+      },
+      "defaultCategory": "farmingforblockheads:flowers"
+    },
+    "customEntries": [
+      {
+        "output": "regions_unexplored:alpha_dandelion"
+      },
+      {
+        "output": "regions_unexplored:alpha_rose"
+      },
+      {
+        "output": "regions_unexplored:aster"
+      },
+      {
+        "output": "regions_unexplored:bleeding_heart"
+      },
+      {
+        "output": "regions_unexplored:daisy"
+      },
+      {
+        "output": "regions_unexplored:dorcel"
+      },
+      {
+        "output": "regions_unexplored:felicia_daisy"
+      },
+      {
+        "output": "regions_unexplored:fireweed"
+      },
+      {
+        "output": "regions_unexplored:glistering_bloom"
+      },
+      {
+        "output": "regions_unexplored:hibiscus"
+      },
+      {
+        "output": "regions_unexplored:hyssop"
+      },
+      {
+        "output": "regions_unexplored:mallow"
+      },
+      {
+        "output": "regions_unexplored:poppy_bush"
+      },
+      {
+        "output": "regions_unexplored:salmon_poppy_bush"
+      },
+      {
+        "output": "regions_unexplored:tsubaki"
+      },
+      {
+        "output": "regions_unexplored:waratah"
+      },
+      {
+        "output": "regions_unexplored:white_trillium"
+      },
+      {
+        "output": "regions_unexplored:wilting_trillium"
+      },
+      {
+        "output": "regions_unexplored:blue_lupine"
+      },
+      {
+        "output": "regions_unexplored:pink_lupine"
+      },
+      {
+        "output": "regions_unexplored:purple_lupine"
+      },
+      {
+        "output": "regions_unexplored:red_lupine"
+      },
+      {
+        "output": "regions_unexplored:yellow_lupine"
+      },
+      {
+        "output": "regions_unexplored:orange_coneflower"
+      },
+      {
+        "output": "regions_unexplored:purple_coneflower"
+      },
+      {
+        "output": "regions_unexplored:white_snowbelle"
+      },
+      {
+        "output": "regions_unexplored:light_gray_snowbelle"
+      },
+      {
+        "output": "regions_unexplored:gray_snowbelle"
+      },
+      {
+        "output": "regions_unexplored:red_snowbelle"
+      },
+      {
+        "output": "regions_unexplored:orange_snowbelle"
+      },
+      {
+        "output": "regions_unexplored:yellow_snowbelle"
+      },
+      {
+        "output": "regions_unexplored:lime_snowbelle"
+      },
+      {
+        "output": "regions_unexplored:green_snowbelle"
+      },
+      {
+        "output": "regions_unexplored:cyan_snowbelle"
+      },
+      {
+        "output": "regions_unexplored:light_blue_snowbelle"
+      },
+      {
+        "output": "regions_unexplored:blue_snowbelle"
+      },
+      {
+        "output": "regions_unexplored:purple_snowbelle"
+      },
+      {
+        "output": "regions_unexplored:magenta_snowbelle"
+      },
+      {
+        "output": "regions_unexplored:pink_snowbelle"
+      },
+      {
+        "output": "regions_unexplored:brown_snowbelle"
+      },
+      {
+        "output": "regions_unexplored:black_snowbelle"
+      },
+      {
+        "output": "regions_unexplored:hyacinth_flowers"
+      },
+      {
+        "output": "regions_unexplored:blue_magnolia_flowers"
+      },
+      {
+        "output": "regions_unexplored:pink_magnolia_flowers"
+      },
+      {
+        "output": "regions_unexplored:white_magnolia_flowers"
+      },
+      {
+        "output": "regions_unexplored:day_lily"
+      },
+      {
+        "output": "regions_unexplored:meadow_sage"
+      },
+      {
+        "output": "regions_unexplored:tassel"
+      }
+    ]
+  }

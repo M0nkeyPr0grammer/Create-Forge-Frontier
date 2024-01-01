@@ -1,0 +1,40 @@
+{
+    "modId": "minecraft",
+    "group": {
+      "name": "Minecraft Seeds",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:emerald"
+      },
+      "defaultCategory": "farmingforblockheads:seeds"
+    },
+    "customEntries": [
+      {
+        "output": "minecraft:nether_wart"
+      },
+      {
+        "output": "minecraft:bamboo"
+      },
+      {
+        "output": "minecraft:sugar_cane"
+      },
+      {
+        "output": "minecraft:cactus"
+      },
+      {
+        "output": "minecraft:lily_pad"
+      },
+      {
+        "output": "minecraft:sea_pickle"
+      },
+      {
+        "output": "minecraft:kelp"
+      },
+      {
+        "output": "minecraft:moss_block"
+      },
+      {
+        "output": "minecraft:small_dripleaf"
+      }
+    ]
+  }

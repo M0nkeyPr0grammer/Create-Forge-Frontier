@@ -1,0 +1,16 @@
+{
+    "modId": "alexmobs",
+    "group": {
+      "name": "Alex Mobs Flowers",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:emerald"
+      },
+      "defaultCategory": "farmingforblockheads:flowers"
+    },
+    "customEntries": [
+      {
+        "output": "alexmobs:acacia_blossom"
+      }
+    ]
+  }

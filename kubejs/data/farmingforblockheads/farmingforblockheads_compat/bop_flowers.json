@@ -1,0 +1,61 @@
+{
+    "modId": "biomesoplenty",
+    "group": {
+      "name": "Biomes O Plenty Flowers",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:emerald"
+      },
+      "defaultCategory": "farmingforblockheads:flowers"
+    },
+    "customEntries": [
+      {
+        "output": "biomesoplenty:rose"
+      },
+      {
+        "output": "biomesoplenty:violet"
+      },
+      {
+        "output": "biomesoplenty:lavender"
+      },
+      {
+        "output": "biomesoplenty:tall_lavender"
+      },
+      {
+        "output": "biomesoplenty:blue_hydrangea"
+      },
+      {
+        "output": "biomesoplenty:wildflower"
+      },
+      {
+        "output": "biomesoplenty:goldenrod"
+      },
+      {
+        "output": "biomesoplenty:orange_cosmos"
+      },
+      {
+        "output": "biomesoplenty:pink_daffodil"
+      },
+      {
+        "output": "biomesoplenty:pink_hibiscus"
+      },
+      {
+        "output": "biomesoplenty:waterlily"
+      },
+      {
+        "output": "biomesoplenty:white_petals"
+      },
+      {
+        "output": "biomesoplenty:icy_iris"
+      },
+      {
+        "output": "biomesoplenty:glowflower"
+      },
+      {
+        "output": "biomesoplenty:wilted_lily"
+      },
+      {
+        "output": "biomesoplenty:burning_blossom"
+      }
+    ]
+  }

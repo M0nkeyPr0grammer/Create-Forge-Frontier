@@ -1,0 +1,35 @@
+{
+    "modId": "flowerseedsbop",
+    "group": {
+      "name": "Flowerseeds Biomes O Plenty Seeds",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:emerald"
+      },
+      "defaultCategory": "farmingforblockheads:seeds"
+    },
+    "customEntries": [
+      {
+        "output": "flowerseedsbop:rose_seed"
+      },
+      {
+        "output": "flowerseedsbop:wild_flower_seed"
+      },
+      {
+        "output": "flowerseedsbop:orange_cosmos_seed"
+      },
+      {
+        "output": "flowerseedsbop:pink_daffodil_seed"
+      },
+      {
+        "output": "flowerseedsbop:glow_flower_seed"
+      },
+      {
+        "output": "flowerseedsbop:wilted_lily_seed"
+      },
+      {
+        "output": "flowerseedsbop:burning_blossom_seed"
+      }
+
+    ]
+  }

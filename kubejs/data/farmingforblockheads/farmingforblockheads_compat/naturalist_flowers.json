@@ -1,0 +1,16 @@
+{
+    "modId": "naturalist",
+    "group": {
+      "name": "Naturalist Flowers",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:emerald"
+      },
+      "defaultCategory": "farmingforblockheads:flowers"
+    },
+    "customEntries": [
+      {
+        "output": "naturalist:cattail"
+      }
+    ]
+  }

@@ -1,0 +1,16 @@
+{
+    "modId": "twigs",
+    "group": {
+      "name": "Twigs Flowers",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:emerald"
+      },
+      "defaultCategory": "farmingforblockheads:flowers"
+    },
+    "customEntries": [
+      {
+        "output": "twigs:azalea_flowers"
+      }
+    ]
+  }

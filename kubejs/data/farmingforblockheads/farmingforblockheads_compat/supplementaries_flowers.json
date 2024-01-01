@@ -1,0 +1,16 @@
+{
+    "modId": "supplementaries",
+    "group": {
+      "name": "Supplementaries Flowers",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:emerald"
+      },
+      "defaultCategory": "farmingforblockheads:flowers"
+    },
+    "customEntries": [
+      {
+        "output": "supplementaries:wild_flax"
+      }
+    ]
+  }
