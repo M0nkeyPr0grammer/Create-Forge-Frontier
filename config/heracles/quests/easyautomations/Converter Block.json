@@ -1,17 +1,17 @@
 {
   "dependencies": [
-    "Easy Automation"
+    "Incubator Block"
   ],
   "tasks": {
-    "piglin": {
+    "converter": {
       "type": "heracles:item",
-      "item": "easy_piglins:piglin",
+      "item": "easy_villagers:converter",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "easy_piglins:piglin",
+          "id": "easy_villagers:converter",
           "count": 1
         },
         "type": "heracles:item"
@@ -32,17 +32,38 @@
       "title": "",
       "type": "heracles:xp"
     },
-    "piglin": {
+    "potion": {
       "title": "",
       "icon": {
         "item": {
-          "id": "easy_piglins:piglin",
+          "id": "minecraft:potion",
+          "count": 1,
+          "nbt": {
+            "Potion": "minecraft:water"
+          }
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:potion",
+        "count": 3,
+        "nbt": {
+          "Potion": "minecraft:water"
+        }
+      },
+      "type": "heracles:item"
+    },
+    "golden apple": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:golden_apple",
           "count": 1
         },
         "type": "heracles:item"
       },
       "item": {
-        "id": "easy_piglins:piglin",
+        "id": "minecraft:golden_apple",
         "count": 1
       },
       "type": "heracles:item"
@@ -53,31 +74,31 @@
       "text": ""
     },
     "description": [
-      "This mod lets you pick up adult piglins as an item. There is also a block that automates bartering."
+      "The converter block converts villagers to zombie villagers and cures them afterwards, enabling the player that placed the block better trades from the cured villager. This block needs a golden apple, any type of potion of weakness and the villager to convert. This process takes approximately five minutes."
     ],
     "groups": {
       "Easy Automations": {
         "position": [
-          -100,
-          -50
+          -200,
+          75
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "easy_piglins:piglin",
+        "id": "easy_villagers:converter",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Easy Piglins"
+      "translate": "Converter Block"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

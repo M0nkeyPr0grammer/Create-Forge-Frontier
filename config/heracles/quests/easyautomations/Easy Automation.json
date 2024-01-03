@@ -1,30 +1,58 @@
 {
   "dependencies": [],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "check": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "Within this modpack you have many different types of easy automation available to you, this chapter will quickly review your options."
+    ],
     "groups": {
       "Easy Automations": {
         "position": [
-          -118,
-          22
+          -100,
+          -100
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:map",
+        "id": "supplementaries:hourglass",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "text": "Easy Automation"
+      "translate": "Easy Automation"
     }
   },
   "settings": {

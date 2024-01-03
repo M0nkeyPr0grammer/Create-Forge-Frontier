@@ -1,24 +1,39 @@
 {
   "dependencies": [
-    "Chipped"
+    "Item Collectors"
   ],
   "tasks": {
-    "carpenter": {
+    "basic": {
       "type": "heracles:item",
-      "item": "chipped:carpenters_table",
+      "item": "itemcollectors:basic_collector",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "itemcollectors:basic_collector",
+          "count": 1
         },
         "type": "heracles:item"
       }
     }
   },
   "rewards": {
+    "eye": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:ender_eye",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:ender_eye",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
     "xp": {
       "icon": {
         "item": {
@@ -27,7 +42,7 @@
         },
         "type": "heracles:item"
       },
-      "xptype": "POINTS",
+      "xptype": "LEVEL",
       "amount": 10,
       "title": "",
       "type": "heracles:xp"
@@ -38,27 +53,27 @@
       "text": ""
     },
     "description": [
-      "This table allows you to alter all kinds",
-      "of wooden block textures."
+      "The Basic Item Collector has a range of up to 5 blocks!",
+      "Right-click a Basic Item Collector to open its GUI"
     ],
     "groups": {
-      "Decoration Mods": {
+      "Easy Automations": {
         "position": [
-          40,
-          -50
+          0,
+          -25
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "chipped:carpenters_table",
+        "id": "itemcollectors:basic_collector",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Carpenters Table"
+      "translate": "Basic Item Collector"
     }
   },
   "settings": {

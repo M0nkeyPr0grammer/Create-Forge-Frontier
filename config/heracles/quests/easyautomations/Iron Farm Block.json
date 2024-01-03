@@ -1,17 +1,17 @@
 {
   "dependencies": [
-    "Easy Automation"
+    "Autotrader Block"
   ],
   "tasks": {
-    "piglin": {
+    "iron farm": {
       "type": "heracles:item",
-      "item": "easy_piglins:piglin",
+      "item": "easy_villagers:iron_farm",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "easy_piglins:piglin",
+          "id": "easy_villagers:iron_farm",
           "count": 1
         },
         "type": "heracles:item"
@@ -28,21 +28,21 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 100,
       "title": "",
       "type": "heracles:xp"
     },
-    "piglin": {
+    "iron block": {
       "title": "",
       "icon": {
         "item": {
-          "id": "easy_piglins:piglin",
+          "id": "allthecompressed:iron_block_1x",
           "count": 1
         },
         "type": "heracles:item"
       },
       "item": {
-        "id": "easy_piglins:piglin",
+        "id": "allthecompressed:iron_block_1x",
         "count": 1
       },
       "type": "heracles:item"
@@ -53,31 +53,33 @@
       "text": ""
     },
     "description": [
-      "This mod lets you pick up adult piglins as an item. There is also a block that automates bartering."
+      "The iron farm block contains a complete iron farm in a single block. It produces one iron golem every four minutes. This averages about one iron ingot per minute.",
+      "",
+      "Due to how overpowered this block is in a Create modpack, I have made it require 2 blocks of x1 Compressed Iron blocks. After creating your first one, you will be given 1 compressed iron block back to help you in crafting a second one."
     ],
     "groups": {
       "Easy Automations": {
         "position": [
-          -100,
-          -50
+          -200,
+          125
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "easy_piglins:piglin",
+        "id": "easy_villagers:iron_farm",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Easy Piglins"
+      "translate": "Iron Farm Block"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

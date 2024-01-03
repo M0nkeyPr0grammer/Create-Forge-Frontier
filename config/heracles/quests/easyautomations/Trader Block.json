@@ -1,18 +1,18 @@
 {
   "dependencies": [
-    "Chipped"
+    "Easy Villagers"
   ],
   "tasks": {
-    "carpenter": {
+    "trader": {
       "type": "heracles:item",
-      "item": "chipped:carpenters_table",
+      "item": "easy_villagers:trader",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "easy_villagers:trader",
+          "count": 1
         },
         "type": "heracles:item"
       }
@@ -31,6 +31,21 @@
       "amount": 10,
       "title": "",
       "type": "heracles:xp"
+    },
+    "villager": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "easy_villagers:villager",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "easy_villagers:villager",
+        "count": 1
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
@@ -38,27 +53,26 @@
       "text": ""
     },
     "description": [
-      "This table allows you to alter all kinds",
-      "of wooden block textures."
+      "The trader block allows trading with the villager without having to deal with securing the villager. This block also allows the villager to restock in non-working hours. The restocking time of the villager is not dependent on any external sources like day/night time or dimension."
     ],
     "groups": {
-      "Decoration Mods": {
+      "Easy Automations": {
         "position": [
-          40,
-          -50
+          -200,
+          -25
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "chipped:carpenters_table",
+        "id": "easy_villagers:trader",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Carpenters Table"
+      "translate": "Trader Block"
     }
   },
   "settings": {

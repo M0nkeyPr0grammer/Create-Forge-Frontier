@@ -1,18 +1,18 @@
 {
   "dependencies": [
-    "Chipped"
+    "Converter Block"
   ],
   "tasks": {
-    "carpenter": {
+    "auto trader": {
       "type": "heracles:item",
-      "item": "chipped:carpenters_table",
+      "item": "easy_villagers:auto_trader",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "easy_villagers:auto_trader",
+          "count": 1
         },
         "type": "heracles:item"
       }
@@ -28,7 +28,7 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 100,
       "title": "",
       "type": "heracles:xp"
     }
@@ -38,27 +38,26 @@
       "text": ""
     },
     "description": [
-      "This table allows you to alter all kinds",
-      "of wooden block textures."
+      "The auto trader works exactly line the trader block, except it automatically trades items for you. You can also automatically put items in and take items out with a hopper. "
     ],
     "groups": {
-      "Decoration Mods": {
+      "Easy Automations": {
         "position": [
-          40,
-          -50
+          -200,
+          100
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "chipped:carpenters_table",
+        "id": "easy_villagers:auto_trader",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Carpenters Table"
+      "translate": "Autotrader Block"
     }
   },
   "settings": {

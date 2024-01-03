@@ -1,7 +1,5 @@
 {
-  "dependencies": [
-    "Easy Automation"
-  ],
+  "dependencies": [],
   "tasks": {},
   "rewards": {},
   "display": {
@@ -10,28 +8,28 @@
     },
     "description": [],
     "groups": {
-      "Easy Automations": {
+      "Food": {
         "position": [
-          100,
-          -50
+          -130,
+          7
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "experienceobelisk:cognitive_crystal",
+        "id": "minecraft:map",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Cognition"
+      "text": "Farming with Blockheads"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

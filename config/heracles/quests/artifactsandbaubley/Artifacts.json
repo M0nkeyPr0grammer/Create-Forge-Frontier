@@ -1,7 +1,5 @@
 {
-  "dependencies": [
-    "Easy Automation"
-  ],
+  "dependencies": [],
   "tasks": {},
   "rewards": {},
   "display": {
@@ -10,28 +8,28 @@
     },
     "description": [],
     "groups": {
-      "Easy Automations": {
+      "Artifacts and Baubley": {
         "position": [
-          100,
+          -150,
           -50
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "experienceobelisk:cognitive_crystal",
+        "id": "minecraft:map",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Cognition"
+      "translate": "Artifacts"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

@@ -1,18 +1,18 @@
 {
   "dependencies": [
-    "Chipped"
+    "Easy Piglins"
   ],
   "tasks": {
-    "carpenter": {
+    "barter": {
       "type": "heracles:item",
-      "item": "chipped:carpenters_table",
+      "item": "easy_piglins:barterer",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "easy_piglins:barterer",
+          "count": 1
         },
         "type": "heracles:item"
       }
@@ -28,9 +28,24 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 100,
       "title": "",
       "type": "heracles:xp"
+    },
+    "netherite": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:netherite_ingot",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:netherite_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
@@ -38,27 +53,26 @@
       "text": ""
     },
     "description": [
-      "This table allows you to alter all kinds",
-      "of wooden block textures."
+      "The barterer block allows to automatically barter with piglins without having to deal with capturing it. This block can also be used in other dimensions without the piglins converting to zobified piglins."
     ],
     "groups": {
-      "Decoration Mods": {
+      "Easy Automations": {
         "position": [
-          40,
-          -50
+          -100,
+          -25
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "chipped:carpenters_table",
+        "id": "easy_piglins:barterer",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Carpenters Table"
+      "translate": "Barterer Block"
     }
   },
   "settings": {

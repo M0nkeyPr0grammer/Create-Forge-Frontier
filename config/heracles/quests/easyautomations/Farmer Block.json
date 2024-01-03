@@ -1,18 +1,18 @@
 {
   "dependencies": [
-    "Chipped"
+    "Trader Block"
   ],
   "tasks": {
-    "carpenter": {
+    "farmer": {
       "type": "heracles:item",
-      "item": "chipped:carpenters_table",
+      "item": "easy_villagers:farmer",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "easy_villagers:farmer",
+          "count": 1
         },
         "type": "heracles:item"
       }
@@ -31,6 +31,36 @@
       "amount": 10,
       "title": "",
       "type": "heracles:xp"
+    },
+    "wheat": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:wheat",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:wheat",
+        "count": 16
+      },
+      "type": "heracles:item"
+    },
+    "seeds": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:wheat_seeds",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:wheat_seeds",
+        "count": 16
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
@@ -38,27 +68,26 @@
       "text": ""
     },
     "description": [
-      "This table allows you to alter all kinds",
-      "of wooden block textures."
+      "The farmer block contains a whole crop farm in a single block. This helps to reduce lag and save space."
     ],
     "groups": {
-      "Decoration Mods": {
+      "Easy Automations": {
         "position": [
-          40,
-          -50
+          -200,
+          0
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "chipped:carpenters_table",
+        "id": "easy_villagers:farmer",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Carpenters Table"
+      "translate": "Farmer Block"
     }
   },
   "settings": {

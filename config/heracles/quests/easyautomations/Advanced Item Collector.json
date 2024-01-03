@@ -1,18 +1,18 @@
 {
   "dependencies": [
-    "Chipped"
+    "Basic Item Collector"
   ],
   "tasks": {
-    "carpenter": {
+    "advanced": {
       "type": "heracles:item",
-      "item": "chipped:carpenters_table",
+      "item": "itemcollectors:advanced_collector",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "itemcollectors:advanced_collector",
+          "count": 1
         },
         "type": "heracles:item"
       }
@@ -28,9 +28,24 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 100,
       "title": "",
       "type": "heracles:xp"
+    },
+    "blaze": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:blaze_rod",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:blaze_rod",
+        "count": 3
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
@@ -38,27 +53,28 @@
       "text": ""
     },
     "description": [
-      "This table allows you to alter all kinds",
-      "of wooden block textures."
+      "The Advanced Item Collector has a range of up to 7 blocks!",
+      "Right-click an Advanced Item Collector to open its GUI",
+      "The Advanced Item Collector can filter items"
     ],
     "groups": {
-      "Decoration Mods": {
+      "Easy Automations": {
         "position": [
-          40,
-          -50
+          0,
+          0
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "chipped:carpenters_table",
+        "id": "itemcollectors:advanced_collector",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Carpenters Table"
+      "translate": "Advanced Item Collector"
     }
   },
   "settings": {

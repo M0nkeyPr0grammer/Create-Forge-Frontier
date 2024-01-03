@@ -1,18 +1,18 @@
 {
   "dependencies": [
-    "Chipped"
+    "Breeder Block"
   ],
   "tasks": {
-    "carpenter": {
+    "incubator": {
       "type": "heracles:item",
-      "item": "chipped:carpenters_table",
+      "item": "easy_villagers:incubator",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "easy_villagers:incubator",
+          "count": 1
         },
         "type": "heracles:item"
       }
@@ -31,6 +31,21 @@
       "amount": 10,
       "title": "",
       "type": "heracles:xp"
+    },
+    "villager": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "easy_villagers:villager",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "easy_villagers:villager",
+        "count": 1
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
@@ -38,27 +53,26 @@
       "text": ""
     },
     "description": [
-      "This table allows you to alter all kinds",
-      "of wooden block textures."
+      "The incubator block increases the growth rate of baby villagers."
     ],
     "groups": {
-      "Decoration Mods": {
+      "Easy Automations": {
         "position": [
-          40,
-          -50
+          -200,
+          50
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "chipped:carpenters_table",
+        "id": "easy_villagers:incubator",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Carpenters Table"
+      "translate": "Incubator Block"
     }
   },
   "settings": {

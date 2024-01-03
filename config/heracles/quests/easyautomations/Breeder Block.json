@@ -1,18 +1,18 @@
 {
   "dependencies": [
-    "Chipped"
+    "Farmer Block"
   ],
   "tasks": {
-    "carpenter": {
+    "breeder": {
       "type": "heracles:item",
-      "item": "chipped:carpenters_table",
+      "item": "easy_villagers:breeder",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "easy_villagers:breeder",
+          "count": 1
         },
         "type": "heracles:item"
       }
@@ -31,6 +31,21 @@
       "amount": 10,
       "title": "",
       "type": "heracles:xp"
+    },
+    "bread": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:bread",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:bread",
+        "count": 16
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
@@ -38,27 +53,26 @@
       "text": ""
     },
     "description": [
-      "This table allows you to alter all kinds",
-      "of wooden block textures."
+      "The breeder block produces baby villagers by putting in food. This also helps to reduce lag, save space and also a lot of frustration."
     ],
     "groups": {
-      "Decoration Mods": {
+      "Easy Automations": {
         "position": [
-          40,
-          -50
+          -200,
+          25
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "chipped:carpenters_table",
+        "id": "easy_villagers:breeder",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Carpenters Table"
+      "translate": "Breeder Block"
     }
   },
   "settings": {

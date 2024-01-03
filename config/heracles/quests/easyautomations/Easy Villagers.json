@@ -1,35 +1,68 @@
 {
-  "dependencies": [],
-  "tasks": {},
-  "rewards": {},
+  "dependencies": [
+    "Easy Automation"
+  ],
+  "tasks": {
+    "villager": {
+      "type": "heracles:item",
+      "item": "easy_villagers:villager",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "easy_villagers:villager",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "This mod lets you pick up villagers as an item. There are also blocks that substitute every farm that includes villagers."
+    ],
     "groups": {
       "Easy Automations": {
         "position": [
-          -149,
-          55
+          -200,
+          -50
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:map",
+        "id": "easy_villagers:villager",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "text": "Easy Villagers"
+      "translate": "Easy Villagers"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

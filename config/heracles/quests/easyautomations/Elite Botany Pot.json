@@ -1,18 +1,18 @@
 {
   "dependencies": [
-    "Chipped"
+    "Bottany Pots"
   ],
   "tasks": {
-    "carpenter": {
+    "elite": {
       "type": "heracles:item",
-      "item": "chipped:carpenters_table",
+      "item": "botanypotstiers:elite_terracotta_botany_pot",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "botanypotstiers:elite_terracotta_botany_pot",
+          "count": 1
         },
         "type": "heracles:item"
       }
@@ -31,6 +31,21 @@
       "amount": 10,
       "title": "",
       "type": "heracles:xp"
+    },
+    "elite": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "botanypotstiers:elite_terracotta_hopper_botany_pot",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "botanypotstiers:elite_terracotta_hopper_botany_pot",
+        "count": 1
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
@@ -38,27 +53,26 @@
       "text": ""
     },
     "description": [
-      "This table allows you to alter all kinds",
-      "of wooden block textures."
+      "The Elite Botany Pot is the first of the tiered botany pots, it is 2 times faster and has 2 times the output of a standard botany pot."
     ],
     "groups": {
-      "Decoration Mods": {
+      "Easy Automations": {
         "position": [
-          40,
-          -50
+          -300,
+          -25
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "chipped:carpenters_table",
+        "id": "botanypotstiers:elite_terracotta_botany_pot",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Carpenters Table"
+      "translate": "Elite Botany Pot"
     }
   },
   "settings": {

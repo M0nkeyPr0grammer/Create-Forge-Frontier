@@ -1,0 +1,94 @@
+{
+  "dependencies": [
+    "Experince Obelisk"
+  ],
+  "tasks": {
+    "fountain": {
+      "type": "heracles:item",
+      "item": "experienceobelisk:experience_fountain",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "experienceobelisk:experience_fountain",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "crystal": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "experienceobelisk:cognitive_crystal",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "experienceobelisk:cognitive_crystal",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The Experience Fountain is a device that dispenses experience orbs from its top surface. This device needs to be bound to a nearby Obelisk by means of a Staff of Attunement in order to function. The fountain will deduct experience from the bound obelisk as it does so. The Fountain has four modes of operation:",
+      "-  Slow (4 xp / second)",
+      "- Moderate (40 xp / second)",
+      "- Fast (400 xp / second)",
+      "- Hyperspeed (4000 xp / second)",
+      "These modes can by cycled by right-clicking the fountain.",
+      "",
+      "The Fountain is activated by a neighboring redstone signal. It is also activated by a player standing on it in the absence of a redstone signal.",
+      "",
+      "Lastly, the Fountain also provides players with an easy way to obtain Cognitium Buckets or Bottles o' Enchanting. Provided the bound obelisk has enough Cognitium, right-click a fountain with an empty bucket or an empty bottle to get a Bucket of Cognitium or a Bottle o' Enchanting. Similarly, full buckets and bottles can be emptied into the Fountain to fill up its bound Obelisk. This behavior works with all modded items (modded buckets, tanks with a bucket function) that extend the Forge fluid capability."
+    ],
+    "groups": {
+      "Easy Automations": {
+        "position": [
+          100,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "experienceobelisk:experience_fountain",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Experience Fountain"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

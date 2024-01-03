@@ -1,18 +1,18 @@
 {
   "dependencies": [
-    "Chipped"
+    "Elite Botany Pot"
   ],
   "tasks": {
-    "carpenter": {
+    "ultra": {
       "type": "heracles:item",
-      "item": "chipped:carpenters_table",
+      "item": "botanypotstiers:ultra_terracotta_botany_pot",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "botanypotstiers:ultra_terracotta_botany_pot",
+          "count": 1
         },
         "type": "heracles:item"
       }
@@ -31,6 +31,21 @@
       "amount": 10,
       "title": "",
       "type": "heracles:xp"
+    },
+    "ultra": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "botanypotstiers:ultra_terracotta_hopper_botany_pot",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "botanypotstiers:ultra_terracotta_hopper_botany_pot",
+        "count": 1
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
@@ -38,27 +53,26 @@
       "text": ""
     },
     "description": [
-      "This table allows you to alter all kinds",
-      "of wooden block textures."
+      "The Ultra Botany Pot is the second tier of the tiered botany pots, it is 6 times faster and has 6 times the output of a standard botany pot."
     ],
     "groups": {
-      "Decoration Mods": {
+      "Easy Automations": {
         "position": [
-          40,
-          -50
+          -300,
+          0
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "chipped:carpenters_table",
+        "id": "botanypotstiers:ultra_terracotta_botany_pot",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Carpenters Table"
+      "translate": "Ultra Botany Pot"
     }
   },
   "settings": {
