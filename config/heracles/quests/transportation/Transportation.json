@@ -1,10 +1,7 @@
 {
-  "dependencies": [
-    "Transportation"
-  ],
+  "dependencies": [],
   "tasks": {
-    "check": {
-      "title": "",
+    "stat": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -12,7 +9,10 @@
         },
         "type": "heracles:item"
       },
-      "type": "heracles:check"
+      "stat": "minecraft:swim_one_cm",
+      "target": 1,
+      "title": "",
+      "type": "heracles:stat"
     }
   },
   "rewards": {
@@ -35,31 +35,31 @@
       "text": ""
     },
     "description": [
-      "Within vanilla you have three different types of transportation: boats, minecarts, and elytras."
+      "Within Landscapes Reimagined Forge Frontier, you have different options of transportation, complete the quests below to help you understand some of these options."
     ],
     "groups": {
       "Transportation": {
         "position": [
-          25,
-          -100
+          -80,
+          -150
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:grass_block",
+        "id": "minecraft:minecart",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Vanilla Transportation"
+      "translate": "Transportation"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

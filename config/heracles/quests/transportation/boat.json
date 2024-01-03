@@ -1,18 +1,21 @@
 {
   "dependencies": [
-    "Transportation"
+    "Vanilla Transportation"
   ],
   "tasks": {
-    "check": {
+    "boat": {
+      "type": "heracles:item",
+      "item": "minecraft:oak_boat",
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "minecraft:oak_boat",
+          "count": 1
         },
         "type": "heracles:item"
-      },
-      "type": "heracles:check"
+      }
     }
   },
   "rewards": {
@@ -35,31 +38,31 @@
       "text": ""
     },
     "description": [
-      "Within vanilla you have three different types of transportation: boats, minecarts, and elytras."
+      "The boat allows you to easily move across the water."
     ],
     "groups": {
       "Transportation": {
         "position": [
           25,
-          -100
+          -50
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:grass_block",
+        "id": "minecraft:oak_boat",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Vanilla Transportation"
+      "translate": "Boat"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

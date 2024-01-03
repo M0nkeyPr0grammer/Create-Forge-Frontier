@@ -1,18 +1,27 @@
 {
   "dependencies": [
-    "Transportation"
+    "Warp Plate"
   ],
   "tasks": {
-    "check": {
+    "warp stone": {
+      "type": "heracles:item",
+      "item": "waystones:warp_stone",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "waystones:warp_stone",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
         },
         "type": "heracles:item"
-      },
-      "type": "heracles:check"
+      }
     }
   },
   "rewards": {
@@ -25,36 +34,21 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 100,
       "title": "",
       "type": "heracles:xp"
     },
-    "hull": {
+    "waystone": {
       "title": "",
       "icon": {
         "item": {
-          "id": "immersive_aircraft:hull",
+          "id": "waystones:mossy_waystone",
           "count": 1
         },
         "type": "heracles:item"
       },
       "item": {
-        "id": "immersive_aircraft:hull",
-        "count": 1
-      },
-      "type": "heracles:item"
-    },
-    "book": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:book",
-          "count": 1
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "minecraft:book",
+        "id": "waystones:mossy_waystone",
         "count": 1
       },
       "type": "heracles:item"
@@ -65,31 +59,34 @@
       "text": ""
     },
     "description": [
-      "This mod adds bunch of rustic aircraft to travel, transport, and explore! The aircraft have a strong focus on being vanilla-faithful and many details and functionalities, without being overly complicated. Completing this quest will give you the items needed to craft a guide book that explains more in detail about all the items in the mod."
+      "The warp stone allows you to teleport to waystones with a small cooldown in between usage."
     ],
     "groups": {
       "Transportation": {
         "position": [
-          -115,
-          -100
+          -45,
+          50
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "immersive_aircraft:propeller",
-        "count": 1
+        "id": "waystones:warp_stone",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Immersive Aircrafts"
+      "translate": "Warp Stone"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

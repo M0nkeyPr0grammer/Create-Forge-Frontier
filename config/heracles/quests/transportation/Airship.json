@@ -1,18 +1,21 @@
 {
   "dependencies": [
-    "Transportation"
+    "Gyrodyne"
   ],
   "tasks": {
-    "check": {
+    "airship": {
+      "type": "heracles:item",
+      "item": "immersive_aircraft:airship",
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "immersive_aircraft:airship",
+          "count": 1
         },
         "type": "heracles:item"
-      },
-      "type": "heracles:check"
+      }
     }
   },
   "rewards": {
@@ -29,32 +32,17 @@
       "title": "",
       "type": "heracles:xp"
     },
-    "hull": {
+    "landing gear": {
       "title": "",
       "icon": {
         "item": {
-          "id": "immersive_aircraft:hull",
+          "id": "immersive_aircraft:improved_landing_gear",
           "count": 1
         },
         "type": "heracles:item"
       },
       "item": {
-        "id": "immersive_aircraft:hull",
-        "count": 1
-      },
-      "type": "heracles:item"
-    },
-    "book": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:book",
-          "count": 1
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "minecraft:book",
+        "id": "immersive_aircraft:improved_landing_gear",
         "count": 1
       },
       "type": "heracles:item"
@@ -65,31 +53,33 @@
       "text": ""
     },
     "description": [
-      "This mod adds bunch of rustic aircraft to travel, transport, and explore! The aircraft have a strong focus on being vanilla-faithful and many details and functionalities, without being overly complicated. Completing this quest will give you the items needed to craft a guide book that explains more in detail about all the items in the mod."
+      "Slower, but with two seats. Quite easy to maneuver, with acceptable speed thanks to the engine in the back.",
+      "",
+      "The improved landing gear given as a quest reward is another upgrade that improves takeoff speed by 25%"
     ],
     "groups": {
       "Transportation": {
         "position": [
           -115,
-          -100
+          50
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "immersive_aircraft:propeller",
+        "id": "immersive_aircraft:airship",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Immersive Aircrafts"
+      "translate": "Airship"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

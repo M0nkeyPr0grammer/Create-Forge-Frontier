@@ -3,7 +3,7 @@
     "Transportation"
   ],
   "tasks": {
-    "check": {
+    "train": {
       "title": "",
       "icon": {
         "item": {
@@ -12,7 +12,10 @@
         },
         "type": "heracles:item"
       },
-      "type": "heracles:check"
+      "advancements": [
+        "create:train"
+      ],
+      "type": "heracles:advancement"
     }
   },
   "rewards": {
@@ -35,26 +38,26 @@
       "text": ""
     },
     "description": [
-      "Within vanilla you have three different types of transportation: boats, minecarts, and elytras."
+      "Congrats on making your first train within create, you can either control this train yourself or hire a conductor to control the train. These trains can be used to transport materials long distances or even through dimensions via portal traveling. "
     ],
     "groups": {
       "Transportation": {
         "position": [
-          25,
+          -185,
           -100
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:grass_block",
+        "id": "create:track_station",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Vanilla Transportation"
+      "translate": "Create Trains"
     }
   },
   "settings": {

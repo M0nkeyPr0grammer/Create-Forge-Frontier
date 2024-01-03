@@ -1,18 +1,21 @@
 {
   "dependencies": [
-    "Transportation"
+    "Waystones"
   ],
   "tasks": {
-    "check": {
+    "sharestone": {
+      "type": "heracles:item",
+      "item": "waystones:sharestone",
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "waystones:sharestone",
+          "count": 1
         },
         "type": "heracles:item"
-      },
-      "type": "heracles:check"
+      }
     }
   },
   "rewards": {
@@ -28,6 +31,21 @@
       "amount": 10,
       "title": "",
       "type": "heracles:xp"
+    },
+    "sharestone": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "waystones:black_sharestone",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "waystones:black_sharestone",
+        "count": 1
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
@@ -35,31 +53,31 @@
       "text": ""
     },
     "description": [
-      "Within vanilla you have three different types of transportation: boats, minecarts, and elytras."
+      "Sharestones are similar to Waystones, but can only be used to teleport to other Sharestone, as a quest reward you will be given a second one to link up to."
     ],
     "groups": {
       "Transportation": {
         "position": [
-          25,
-          -100
+          -45,
+          -50
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:grass_block",
+        "id": "waystones:sharestone",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Vanilla Transportation"
+      "translate": "Sharestone"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

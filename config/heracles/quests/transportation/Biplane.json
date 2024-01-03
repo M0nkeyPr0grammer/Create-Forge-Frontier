@@ -1,18 +1,21 @@
 {
   "dependencies": [
-    "Transportation"
+    "Airship"
   ],
   "tasks": {
-    "check": {
+    "biplane": {
+      "type": "heracles:item",
+      "item": "immersive_aircraft:biplane",
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "immersive_aircraft:biplane",
+          "count": 1
         },
         "type": "heracles:item"
-      },
-      "type": "heracles:check"
+      }
     }
   },
   "rewards": {
@@ -28,6 +31,21 @@
       "amount": 10,
       "title": "",
       "type": "heracles:xp"
+    },
+    "pipes": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "immersive_aircraft:sturdy_pipes",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "immersive_aircraft:sturdy_pipes",
+        "count": 1
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
@@ -35,31 +53,33 @@
       "text": ""
     },
     "description": [
-      "Within vanilla you have three different types of transportation: boats, minecarts, and elytras."
+      "The biplane is fast, has one seat, medium difficulty.",
+      "",
+      "The sturdy pipes given from the quest reward is another upgrade that increases engine power by 10%"
     ],
     "groups": {
       "Transportation": {
         "position": [
-          25,
-          -100
+          -115,
+          100
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:grass_block",
+        "id": "immersive_aircraft:biplane",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Vanilla Transportation"
+      "translate": "Biplane"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"
