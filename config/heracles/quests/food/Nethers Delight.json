@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Food"
+    "Farmers Delight"
   ],
   "tasks": {},
   "rewards": {},
@@ -12,26 +12,26 @@
     "groups": {
       "Food": {
         "position": [
-          100,
-          -50
+          200,
+          -25
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "farmersdelight:straw",
+        "id": "minecraft:netherrack",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Farmers Delight"
+      "translate": "Nethers Delight"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

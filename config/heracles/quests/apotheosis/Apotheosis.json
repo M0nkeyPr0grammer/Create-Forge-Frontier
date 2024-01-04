@@ -10,21 +10,21 @@
     "groups": {
       "Apotheosis": {
         "position": [
-          -45,
-          -3
+          0,
+          -150
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:map",
+        "id": "minecraft:enchanted_book",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "text": "Apotheosis"
+      "translate": "Apotheosis"
     }
   },
   "settings": {

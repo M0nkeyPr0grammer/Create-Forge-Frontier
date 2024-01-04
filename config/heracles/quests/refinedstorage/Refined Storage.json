@@ -17,14 +17,14 @@
     },
     "icon": {
       "item": {
-        "id": "minecraft:map",
+        "id": "refinedstorage:silicon",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "text": "Refined Storage"
+      "translate": "Refined Storage"
     }
   },
   "settings": {

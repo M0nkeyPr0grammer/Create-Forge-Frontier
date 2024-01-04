@@ -17,7 +17,7 @@
     },
     "icon": {
       "item": {
-        "id": "minecraft:map",
+        "id": "artifacts:mimic_spawn_egg",
         "count": 1
       },
       "type": "heracles:item"

@@ -17,7 +17,7 @@
     },
     "icon": {
       "item": {
-        "id": "minecraft:map",
+        "id": "bhc:red_heart",
         "count": 1
       },
       "type": "heracles:item"
