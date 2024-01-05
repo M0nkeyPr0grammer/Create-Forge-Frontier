@@ -3,22 +3,16 @@
     "QOL Tools"
   ],
   "tasks": {
-    "wrench": {
+    "shrink": {
       "type": "heracles:item",
-      "item": "supplementaries:wrench",
-      "nbt": {
-        "Damage": 0
-      },
+      "item": "shrink:shrinking_device",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "supplementaries:wrench",
-          "count": 1,
-          "nbt": {
-            "Damage": 0
-          }
+          "id": "shrink:shrinking_device",
+          "count": 1
         },
         "type": "heracles:item"
       }
@@ -34,24 +28,9 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 100,
       "title": "",
       "type": "heracles:xp"
-    },
-    "copper": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:copper_block",
-          "count": 1
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "minecraft:copper_block",
-        "count": 1
-      },
-      "type": "heracles:item"
     }
   },
   "display": {
@@ -59,29 +38,30 @@
       "text": ""
     },
     "description": [
-      "The Wrench from Supplementaries allows you to rotate blocks at the cost of durability."
+      "Shrink is a small mod for Minecraft that allows players to change their player's size.",
+      "",
+      "Shrinking to a smaller size allows the player to access places that they could normally not access without breaking blocks. ",
+      "",
+      "This mod adds a single item called a Personal Shrinking Device, Shift-right clicking this item will cause your player to shrink down to about the size of a quarter of a block."
     ],
     "groups": {
       "QOL Tools": {
         "position": [
           -195,
-          300
+          350
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "supplementaries:wrench",
-        "count": 1,
-        "nbt": {
-          "Damage": 0
-        }
+        "id": "shrink:shrinking_device",
+        "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Supplementaries Wrench"
+      "translate": "Personal Shrinking Device"
     }
   },
   "settings": {
