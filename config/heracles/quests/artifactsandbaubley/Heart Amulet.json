@@ -1,15 +1,17 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Red Health Patch"
+  ],
   "tasks": {
-    "heart": {
+    "heart amu": {
       "type": "heracles:item",
-      "item": "bhc:red_heart",
+      "item": "bhc:heart_amulet",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "bhc:red_heart",
+          "id": "bhc:heart_amulet",
           "count": 1
         },
         "type": "heracles:item"
@@ -26,9 +28,24 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 100,
       "title": "",
       "type": "heracles:xp"
+    },
+    "heart": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "bhc:green_heart",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "bhc:green_heart",
+        "count": 2
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
@@ -36,38 +53,26 @@
       "text": ""
     },
     "description": [
-      "This mod adds back the old Tinkers' Contruct heart canisters in a new and reimagined way to become Baubles/Curios!",
-      "",
-      "❤Red Hearts - drop from hostile mobs",
-      "",
-      "💛Yellow Hearts - drop from boss mobs (i.e. Wither)",
-      "",
-      "💚Green Hearts - drop from the Ender Dragon",
-      "",
-      "💙Blue Hearts - drop from Wardens (1.19+)",
-      "",
-      "Each tier of heart can also be obtained by using crafting recipes utilising the previous tiers. It is reccomended to check EMI for recipes to craft each tier of heart.",
-      "",
-      "The Warden has also been changed to drop Echo Shards, making them renewable."
+      "The Heart Amulet increase your hp value depending on how many heart canisters are store inside, each canister gives you 2 HP, and can hold a max of 10 canisters per color. With all canisters inside the heart amulet you will max out at 100 HP, instead of the standard 20 HP."
     ],
     "groups": {
       "Artifacts and Baubley": {
         "position": [
           50,
-          -50
+          25
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "bhc:red_heart",
+        "id": "bhc:heart_amulet",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Baubley Heart Canisters"
+      "translate": "Heart Amulet"
     }
   },
   "settings": {

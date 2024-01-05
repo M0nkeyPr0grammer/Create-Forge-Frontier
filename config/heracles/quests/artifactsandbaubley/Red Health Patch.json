@@ -1,16 +1,24 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Red Heart Canister"
+  ],
   "tasks": {
-    "heart": {
+    "patch": {
       "type": "heracles:item",
-      "item": "bhc:red_heart",
+      "item": "bhc:red_heart_patch",
+      "nbt": {
+        "Damage": 0
+      },
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "bhc:red_heart",
-          "count": 1
+          "id": "bhc:red_heart_patch",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
         },
         "type": "heracles:item"
       }
@@ -29,6 +37,21 @@
       "amount": 10,
       "title": "",
       "type": "heracles:xp"
+    },
+    "heart": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "bhc:yellow_heart",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "bhc:yellow_heart",
+        "count": 2
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
@@ -36,38 +59,29 @@
       "text": ""
     },
     "description": [
-      "This mod adds back the old Tinkers' Contruct heart canisters in a new and reimagined way to become Baubles/Curios!",
-      "",
-      "❤Red Hearts - drop from hostile mobs",
-      "",
-      "💛Yellow Hearts - drop from boss mobs (i.e. Wither)",
-      "",
-      "💚Green Hearts - drop from the Ender Dragon",
-      "",
-      "💙Blue Hearts - drop from Wardens (1.19+)",
-      "",
-      "Each tier of heart can also be obtained by using crafting recipes utilising the previous tiers. It is reccomended to check EMI for recipes to craft each tier of heart.",
-      "",
-      "The Warden has also been changed to drop Echo Shards, making them renewable."
+      "A health patch is used to heal you multiple times dependent on the level of the patch. Each higher tier of the patch heals for more health and also has more uses."
     ],
     "groups": {
       "Artifacts and Baubley": {
         "position": [
           50,
-          -50
+          0
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "bhc:red_heart",
-        "count": 1
+        "id": "bhc:red_heart_patch",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Baubley Heart Canisters"
+      "translate": "Red Health Patch"
     }
   },
   "settings": {
