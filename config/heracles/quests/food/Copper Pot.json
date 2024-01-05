@@ -1,18 +1,21 @@
 {
   "dependencies": [
-    "Farmers Delight"
+    "Sticky Backet"
   ],
   "tasks": {
-    "check": {
+    "copper pot": {
+      "type": "heracles:item",
+      "item": "miners_delight:copper_pot",
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "miners_delight:copper_pot",
+          "count": 1
         },
         "type": "heracles:item"
-      },
-      "type": "heracles:check"
+      }
     }
   },
   "rewards": {
@@ -28,6 +31,21 @@
       "amount": 10,
       "title": "",
       "type": "heracles:xp"
+    },
+    "block": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:copper_block",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:copper_block",
+        "count": 1
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
@@ -35,30 +53,26 @@
       "text": ""
     },
     "description": [
-      "Nether's Delight is an addon mod for Farmer's Delight based around adding culinary content to the nether!",
-      "",
-      "Using advanced hunting techniques and culinary skills, you can manage to prepare a myriad of disgusting meals and moss-covered snacks, and even survive a little longer in the Nether!",
-      "",
-      "This Addon Mod for Farmer's Delight focuses on giving more content to the Nether to satisfy our desire to eat the infernal creatures!!!"
+      "This new cooking utensil is somewhat smaller than the conventional pot and is specialized for quick lunches."
     ],
     "groups": {
       "Food": {
         "position": [
-          200,
-          -25
+          150,
+          25
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:netherrack",
+        "id": "miners_delight:copper_pot",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Nethers Delight"
+      "translate": "Copper Pot"
     }
   },
   "settings": {

@@ -1,0 +1,89 @@
+{
+  "dependencies": [
+    "Skillet"
+  ],
+  "tasks": {
+    "rich soil": {
+      "type": "heracles:item",
+      "item": "farmersdelight:rich_soil",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "farmersdelight:rich_soil",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Rich Soil is an enhanced type of dirt, more fertile and durable to the elements.",
+      "",
+      "**Crafting**",
+      "Rich Soil cannot be directly crafted. To make it, you must craft Organic Compost and place it into the world, letting it decompose over time.",
+      "",
+      "Organic Compost will decompose more easily under sunlight and moisture from nearby water, but doesn't actually hydrate like farmland. It can also be gently accelerated by placing activators next to it, in a 3x3x3 area centered on itself.",
+      "",
+      "Currently, the following blocks behave as activators for Organic Compost:",
+      "",
+      "- Brown and Red Mushrooms, and their Colonies;",
+      "- Podzol and Mycelium;",
+      "- Other blocks of Organic Compost;",
+      "- Rich Soil, normal or tilled.",
+      "",
+      "**Usage**",
+      "When any growable plant is placed on Rich Soil, its growth will be randomly boosted, similar to the usage of Bone Meal.",
+      "",
+      "Rich Soil can be tilled into Rich Farmland through the use of hoes. Rich Farmland is immune to mob trampling and won't unravel to Melons or Pumpkins, but requires hydration in order to boost crops.",
+      "",
+      "Mushrooms planted on Rich Soil under sufficient darkness will eventually form a Mushroom Colony. Such colonies will grow from 2 to 5 mushroom caps over time, dropping them when harvested."
+    ],
+    "groups": {
+      "Food": {
+        "position": [
+          100,
+          100
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "farmersdelight:rich_soil",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Rich Soil"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

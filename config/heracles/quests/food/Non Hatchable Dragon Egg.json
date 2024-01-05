@@ -1,21 +1,39 @@
 {
   "dependencies": [
-    "Farmers Delight"
+    "Dragon Tooth"
   ],
   "tasks": {
-    "check": {
+    "egg": {
+      "type": "heracles:item",
+      "item": "ends_delight:non_hatchable_dragon_egg",
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "ends_delight:non_hatchable_dragon_egg",
+          "count": 1
         },
         "type": "heracles:item"
-      },
-      "type": "heracles:check"
+      }
     }
   },
   "rewards": {
+    "star": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:nether_star",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:nether_star",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
     "xp": {
       "icon": {
         "item": {
@@ -25,7 +43,7 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 100,
       "title": "",
       "type": "heracles:xp"
     }
@@ -35,30 +53,26 @@
       "text": ""
     },
     "description": [
-      "Nether's Delight is an addon mod for Farmer's Delight based around adding culinary content to the nether!",
-      "",
-      "Using advanced hunting techniques and culinary skills, you can manage to prepare a myriad of disgusting meals and moss-covered snacks, and even survive a little longer in the Nether!",
-      "",
-      "This Addon Mod for Farmer's Delight focuses on giving more content to the Nether to satisfy our desire to eat the infernal creatures!!!"
+      "The Non hatchable dragon egg used to get more items within Ends Delight, you will need a netherstar in your off hand while on a cutting board to crack it open."
     ],
     "groups": {
       "Food": {
         "position": [
-          200,
-          -25
+          250,
+          25
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:netherrack",
+        "id": "ends_delight:non_hatchable_dragon_egg",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Nethers Delight"
+      "translate": "Non Hatchable Dragon Egg"
     }
   },
   "settings": {

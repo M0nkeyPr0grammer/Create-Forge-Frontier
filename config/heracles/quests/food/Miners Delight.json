@@ -2,13 +2,45 @@
   "dependencies": [
     "Farmers Delight"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "check": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "Miner's delight is an addon for Farmer's Delight that adds culinary content focused on Caves, including a new and mysterious meat-flavored crop that grows in caves!",
+      "",
+      "Experiment with new and unique ingredients to prepare delicious or unusual meals to share with your friends!!",
+      "",
+      "This Addon Mod for Farmer's Delight focuses on making gastronomic content more accessible to mining!!!"
+    ],
     "groups": {
       "Food": {
         "position": [

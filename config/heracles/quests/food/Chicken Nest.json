@@ -1,18 +1,21 @@
 {
   "dependencies": [
-    "Farmers Delight"
+    "Farming with Blockheads"
   ],
   "tasks": {
-    "check": {
+    "nest": {
+      "type": "heracles:item",
+      "item": "farmingforblockheads:chicken_nest",
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "farmingforblockheads:chicken_nest",
+          "count": 1
         },
         "type": "heracles:item"
-      },
-      "type": "heracles:check"
+      }
     }
   },
   "rewards": {
@@ -28,6 +31,21 @@
       "amount": 10,
       "title": "",
       "type": "heracles:xp"
+    },
+    "eggs": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:egg",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:egg",
+        "count": 16
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
@@ -35,30 +53,26 @@
       "text": ""
     },
     "description": [
-      "Nether's Delight is an addon mod for Farmer's Delight based around adding culinary content to the nether!",
-      "",
-      "Using advanced hunting techniques and culinary skills, you can manage to prepare a myriad of disgusting meals and moss-covered snacks, and even survive a little longer in the Nether!",
-      "",
-      "This Addon Mod for Farmer's Delight focuses on giving more content to the Nether to satisfy our desire to eat the infernal creatures!!!"
+      "Chicken Nest to collect chicken eggs laid by all those chickens"
     ],
     "groups": {
       "Food": {
         "position": [
-          200,
+          -200,
           -25
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:netherrack",
+        "id": "farmingforblockheads:chicken_nest",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Nethers Delight"
+      "translate": "Chicken Nest"
     }
   },
   "settings": {

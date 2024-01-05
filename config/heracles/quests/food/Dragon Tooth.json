@@ -1,18 +1,21 @@
 {
   "dependencies": [
-    "Food"
+    "Ends Delight"
   ],
   "tasks": {
-    "check": {
+    "tooth": {
+      "type": "heracles:item",
+      "item": "ends_delight:dragon_tooth",
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "ends_delight:dragon_tooth",
+          "count": 1
         },
         "type": "heracles:item"
-      },
-      "type": "heracles:check"
+      }
     }
   },
   "rewards": {
@@ -25,22 +28,28 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 100,
       "title": "",
       "type": "heracles:xp"
     },
-    "book": {
+    "knife": {
       "title": "",
       "icon": {
         "item": {
-          "id": "cookingforblockheads:recipe_book",
-          "count": 1
+          "id": "ends_delight:dragon_tooth_knife",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
         },
         "type": "heracles:item"
       },
       "item": {
-        "id": "cookingforblockheads:recipe_book",
-        "count": 1
+        "id": "ends_delight:dragon_tooth_knife",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
       },
       "type": "heracles:item"
     }
@@ -50,33 +59,31 @@
       "text": ""
     },
     "description": [
-      "This mod adds a cooking book along with a functional kitchen to Minecraft. Use the book or the Cooking Table to find out what you can cook with what ingredients you currently have available, and start cooking immediately through a single click.",
-      "",
-      "The kitchen is modular and can be upgraded through additional blocks, allowing for expanded storage, infinite water for crafting provided by the sink, or efficient and delicious cooking with the oven. Some people even went as far as capturing a cow in a jar to provide them with infinite milk!"
+      "The dragon tooth is obtained by killing the Ender Dragon with a knife from Farmers Delight or any of its addon mods. The Dragon tooth is used to make several items within this mod."
     ],
     "groups": {
       "Food": {
         "position": [
-          -100,
-          -50
+          250,
+          0
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "cookingforblockheads:counter",
+        "id": "ends_delight:dragon_tooth",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Cooking with Blockheads"
+      "translate": "Dragon Tooth"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

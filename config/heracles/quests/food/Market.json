@@ -1,18 +1,21 @@
 {
   "dependencies": [
-    "Food"
+    "Feeding Trough"
   ],
   "tasks": {
-    "check": {
+    "market": {
+      "type": "heracles:item",
+      "item": "farmingforblockheads:market",
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "farmingforblockheads:market",
+          "count": 1
         },
         "type": "heracles:item"
-      },
-      "type": "heracles:check"
+      }
     }
   },
   "rewards": {
@@ -25,22 +28,22 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 100,
       "title": "",
       "type": "heracles:xp"
     },
-    "book": {
+    "emerald": {
       "title": "",
       "icon": {
         "item": {
-          "id": "cookingforblockheads:recipe_book",
+          "id": "minecraft:emerald_block",
           "count": 1
         },
         "type": "heracles:item"
       },
       "item": {
-        "id": "cookingforblockheads:recipe_book",
-        "count": 1
+        "id": "minecraft:emerald_block",
+        "count": 3
       },
       "type": "heracles:item"
     }
@@ -50,33 +53,33 @@
       "text": ""
     },
     "description": [
-      "This mod adds a cooking book along with a functional kitchen to Minecraft. Use the book or the Cooking Table to find out what you can cook with what ingredients you currently have available, and start cooking immediately through a single click.",
+      "The market allows searching and scrolling through trades, can filter by category, and is configurable to add further trades and categories to it.",
       "",
-      "The kitchen is modular and can be upgraded through additional blocks, allowing for expanded storage, infinite water for crafting provided by the sink, or efficient and delicious cooking with the oven. Some people even went as far as capturing a cow in a jar to provide them with infinite milk!"
+      "- Note I have added in all the flowers, seeds, sapplings, and plants to this to help you out in setting up your basic farms"
     ],
     "groups": {
       "Food": {
         "position": [
-          -100,
-          -50
+          -200,
+          25
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "cookingforblockheads:counter",
+        "id": "farmingforblockheads:market",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Cooking with Blockheads"
+      "translate": "Market"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

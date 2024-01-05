@@ -1,0 +1,42 @@
+{
+  "dependencies": [
+    "Neptunium Ingot"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [],
+    "groups": {
+      "Food": {
+        "position": [
+          0,
+          25
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "aquaculture:neptunium_fishing_rod",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Neptunium Rod"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

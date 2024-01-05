@@ -2,13 +2,41 @@
   "dependencies": [
     "Farmers Delight"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "check": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "End's Delight is an addon mod for Farmer's Delight based around adding culinary content to the end!"
+    ],
     "groups": {
       "Food": {
         "position": [

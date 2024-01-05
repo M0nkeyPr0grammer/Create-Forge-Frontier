@@ -2,13 +2,47 @@
   "dependencies": [
     "Food"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "check": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "Farmer's Delight is a mod that gently expands upon farming and cooking in Minecraft.",
+      "",
+      "Using a simple cooking system and a few familiar ingredients, you'll be able to prepare a wide variety of hearty meals: from sandwiches to salads and stews, from beautiful desserts to mouth-watering feasts, no ingredient will be left behind in your kitchen!",
+      "",
+      "It also introduces a rich set of utilities: a way to improve the very soil your crops grow in, brand new tools and weapons to hunt and gather with, cute decorations for your builds, and many blocks and items to help you on your adventure!",
+      "",
+      "It's time to farm a little bit of everything!"
+    ],
     "groups": {
       "Food": {
         "position": [

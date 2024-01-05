@@ -1,18 +1,27 @@
 {
   "dependencies": [
-    "Farmers Delight"
+    "Nethers Delight"
   ],
   "tasks": {
-    "check": {
+    "machete": {
+      "type": "heracles:item",
+      "item": "nethersdelight:iron_machete",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "nethersdelight:iron_machete",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
         },
         "type": "heracles:item"
-      },
-      "type": "heracles:check"
+      }
     }
   },
   "rewards": {
@@ -28,6 +37,21 @@
       "amount": 10,
       "title": "",
       "type": "heracles:xp"
+    },
+    "hoglin food": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "nethersdelight:plate_of_stuffed_hoglin_snout",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
@@ -35,30 +59,29 @@
       "text": ""
     },
     "description": [
-      "Nether's Delight is an addon mod for Farmer's Delight based around adding culinary content to the nether!",
-      "",
-      "Using advanced hunting techniques and culinary skills, you can manage to prepare a myriad of disgusting meals and moss-covered snacks, and even survive a little longer in the Nether!",
-      "",
-      "This Addon Mod for Farmer's Delight focuses on giving more content to the Nether to satisfy our desire to eat the infernal creatures!!!"
+      "A special weapon from this mod, that helps in obtaining hoglin loins when killing them."
     ],
     "groups": {
       "Food": {
         "position": [
           200,
-          -25
+          0
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:netherrack",
-        "count": 1
+        "id": "nethersdelight:iron_machete",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Nethers Delight"
+      "translate": "Machete"
     }
   },
   "settings": {

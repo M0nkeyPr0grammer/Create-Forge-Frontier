@@ -1,18 +1,21 @@
 {
   "dependencies": [
-    "Food"
+    "Machete"
   ],
   "tasks": {
-    "check": {
+    "soil": {
+      "type": "heracles:item",
+      "item": "nethersdelight:rich_soul_soil",
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "nethersdelight:rich_soul_soil",
+          "count": 1
         },
         "type": "heracles:item"
-      },
-      "type": "heracles:check"
+      }
     }
   },
   "rewards": {
@@ -25,22 +28,37 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 100,
       "title": "",
       "type": "heracles:xp"
     },
-    "book": {
+    "fungus": {
       "title": "",
       "icon": {
         "item": {
-          "id": "cookingforblockheads:recipe_book",
+          "id": "nethersdelight:warped_fungus_colony",
           "count": 1
         },
         "type": "heracles:item"
       },
       "item": {
-        "id": "cookingforblockheads:recipe_book",
-        "count": 1
+        "id": "nethersdelight:warped_fungus_colony",
+        "count": 3
+      },
+      "type": "heracles:item"
+    },
+    "shroom": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "nethersdelight:crimson_fungus_colony",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "nethersdelight:crimson_fungus_colony",
+        "count": 3
       },
       "type": "heracles:item"
     }
@@ -50,33 +68,31 @@
       "text": ""
     },
     "description": [
-      "This mod adds a cooking book along with a functional kitchen to Minecraft. Use the book or the Cooking Table to find out what you can cook with what ingredients you currently have available, and start cooking immediately through a single click.",
-      "",
-      "The kitchen is modular and can be upgraded through additional blocks, allowing for expanded storage, infinite water for crafting provided by the sink, or efficient and delicious cooking with the oven. Some people even went as far as capturing a cow in a jar to provide them with infinite milk!"
+      "Similar to Rich Soil, but for nether-based shrooms."
     ],
     "groups": {
       "Food": {
         "position": [
-          -100,
-          -50
+          200,
+          25
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "cookingforblockheads:counter",
+        "id": "nethersdelight:rich_soul_soil",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Cooking with Blockheads"
+      "translate": "Rick Soul Soil"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

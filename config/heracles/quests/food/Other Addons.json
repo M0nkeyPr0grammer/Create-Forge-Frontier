@@ -1,0 +1,116 @@
+{
+  "dependencies": [
+    "Farmers Delight"
+  ],
+  "tasks": {
+    "guardian": {
+      "type": "heracles:item",
+      "item": "oceansdelight:guardian",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "oceansdelight:guardian",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    },
+    "cheese": {
+      "type": "heracles:item",
+      "item": "casualness_delight:cheese_wheel",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "casualness_delight:cheese_wheel",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "g soup": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "oceansdelight:guardian_soup",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "oceansdelight:guardian_soup",
+        "count": 3
+      },
+      "type": "heracles:item"
+    },
+    "pudding": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "casualness_delight:yorkshire_pudding",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "casualness_delight:yorkshire_pudding",
+        "count": 3
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "There are a two other Farmers Delight addons in the pack, ",
+      "- Ocean's Delight is an addon mod for Farmer's Delight based around adding culinary content to the ocean!",
+      "- This is an extension module of Farmer's Delight, which includes some food from Europe and the author's casual ideas. Now it adds Five new edibles called: Stargazy Pie,Quiche Lorraine,Yorkshire pudding,Fish and Chips,Beef noodles.You can make cheese now!"
+    ],
+    "groups": {
+      "Food": {
+        "position": [
+          300,
+          -25
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:carrot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Other Addons"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

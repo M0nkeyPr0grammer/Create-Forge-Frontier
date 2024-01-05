@@ -1,0 +1,101 @@
+{
+  "dependencies": [
+    "Farmers Delight"
+  ],
+  "tasks": {
+    "cutting ": {
+      "type": "heracles:item",
+      "item": "farmersdelight:cutting_board",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "farmersdelight:cutting_board",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "knife": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "farmersdelight:iron_knife",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "farmersdelight:iron_knife",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Items can be placed on the Cutting Board by using them on it. It always prefers receiving items from the off-hand, allowing players to hold their ingredients there while holding the tool in their main hand, processing the stack simply by holding the use button.",
+      "",
+      "When the correct tool is used on a valid item, it will be broken down into 1-4 different outputs, which are swiped sideways. Outputs always fly to the direction opposite to the Cutting Board's handle, allowing them to be collected by an item-capturing block, such as a Hopper or Basket. The tool receives 1 point of damage for each processed item.",
+      "",
+      "By default, Farmer's Delight adds certain types of recipes for the following tool categories:",
+      "",
+      "- Knives: food portioning and processing;",
+      "- Pickaxes: splitting brick blocks back into individual bricks;",
+      "- Axes: stripping wood for its bark, salvaging wooden furniture;",
+      "- Shovels: digging out Clay Balls from Clay blocks;",
+      "- Shears: salvaging leather items;"
+    ],
+    "groups": {
+      "Food": {
+        "position": [
+          100,
+          -25
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "farmersdelight:cutting_board",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Cutting Board"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

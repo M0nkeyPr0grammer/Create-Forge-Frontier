@@ -1,0 +1,115 @@
+{
+  "dependencies": [
+    "Basket"
+  ],
+  "tasks": {
+    "pot": {
+      "type": "heracles:item",
+      "item": "farmersdelight:cooking_pot",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "farmersdelight:cooking_pot",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "vegi noodles": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "farmersdelight:vegetable_noodles",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "farmersdelight:vegetable_noodles",
+        "count": 3
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "**Conditions**",
+      "In order to prepare meals, the pot must be heated by the block underneath it. This is indicated by boiling bubbles, steam and a campfire icon in the pot's interface: if flames appear, the pot is heated. There are many suitable heat sources by default, and more can be added through the heat_sources tag:",
+      "",
+      "- Fire and Soul Fire",
+      "- Lava",
+      "- Magma Block",
+      "- Campfire and Soul Campfire (lit)",
+      "- Stove (lit)",
+      "- Blaze Burner (for special usage, check ponder)",
+      "",
+      "**Usage**",
+      "",
+      "**Cooking**",
+      "The Cooking Pot has an interface similar to a Crafting Table, with a few key differences. It has six (6) slots to add ingredients, and one (1) slot to add containers. Prepared meals will appear into the pot-shaped slot, where they're stored until a suitable container is inserted, taking one serving from the pot. If the prepared meal lacks a container, it will drop straight to output.",
+      "",
+      "You can see which container the meal is served on by hovering the cursor over it.",
+      "",
+      "If an ingredient has a container (e.g. Milk Bottle, Tomato Sauce), such container will be ejected from the pot's top side when the recipe is done cooking. Ingredient containers will always be thrown opposite to the wooden spoon, and can be captured by hoppers, baskets and similar.",
+      "",
+      "Meals, on average, are prepared over the course of 10 seconds, with simpler ones (such as Cooked Rice) preparing in 5 seconds.",
+      "",
+      "Hoppers and similar blocks from other mods can transfer items through the Cooking Pot:",
+      "",
+      "Top: insert/extract ingredients;",
+      "Side: insert containers;",
+      "Bottom: extract outputted meals (after inputting a container).",
+      "",
+      "**Food storage**",
+      "Meals that require a container will be held inside the pot, stacking up to 64 servings, regardless of the item's maximum stack limit. The pot can be mined, carried and placed back down, keeping all stored meals inside, similar to a Shulker Box; however, all other slots will drop their contents when the pot is mined. This allows players to carry a large amount of foods that would otherwise occupy too much space in their inventory, such as Mushroom Stew.",
+      "",
+      "Players can take servings by either adding containers through the Cooking Pot's interface, or right-clicking the pot directly with a valid container."
+    ],
+    "groups": {
+      "Food": {
+        "position": [
+          100,
+          50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "farmersdelight:cooking_pot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Cooking Pot"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}
