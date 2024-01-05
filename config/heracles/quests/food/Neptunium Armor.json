@@ -2,13 +2,92 @@
   "dependencies": [
     "Neptunium Rod"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "armor": {
+      "type": "heracles:item",
+      "item": "aquaculture:neptunium_block",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "aquaculture:neptunium_block",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "loot 3": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "loot_table": "aquaculture:gameplay/fishing/neptunium",
+      "type": "heracles:loottable"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "loot 2": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "loot_table": "aquaculture:gameplay/fishing/neptunium",
+      "type": "heracles:loottable"
+    },
+    "loot": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "loot_table": "aquaculture:gameplay/fishing/neptunium",
+      "type": "heracles:loottable"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "With Neputunium you have different armor and tools that you can make, each with its own special ability",
+      "",
+      "**Armor**",
+      "- Helmet: the wearer sees better underwater.",
+      "- Chestpiece: the wearer breathes underwater.",
+      "- Leggings: the wearer \"falls\" underwater.",
+      "- Boots: the wearer swims faster.",
+      "",
+      "**Tools**",
+      "- Pickaxe and Shovel: do not have a mining speed penalty when underwater.",
+      "- Sword and Axe: deal extra damage underwater.",
+      "- Bow: normal arrows fired from it are not impeded underwater.",
+      "- Hoe: land hoe'd with this item will always be hydrated."
+    ],
     "groups": {
       "Food": {
         "position": [
