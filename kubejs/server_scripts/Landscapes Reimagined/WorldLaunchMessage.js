@@ -1,5 +1,4 @@
 
-
 // Listen for the player join event
 PlayerEvents.loggedIn((event) => {
   const player = event.player;

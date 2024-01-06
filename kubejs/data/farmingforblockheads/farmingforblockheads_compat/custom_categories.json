@@ -3,7 +3,7 @@
     "plants": {
       "name": "Plants",
       "icon": {
-        "item": "minecraft:sugar_cane"
+        "item": "minecraft:apple"
       }
     },
     "fertilizer": {
