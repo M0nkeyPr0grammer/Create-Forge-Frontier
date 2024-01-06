@@ -1,0 +1,88 @@
+{
+  "dependencies": [
+    "S Upgrades"
+  ],
+  "tasks": {
+    "blas 2": {
+      "type": "heracles:item",
+      "item": "sophisticatedbackpacks:auto_blasting_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "sophisticatedbackpacks:auto_blasting_upgrade",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    },
+    "blas 1": {
+      "type": "heracles:item",
+      "item": "sophisticatedbackpacks:blasting_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "sophisticatedbackpacks:blasting_upgrade",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Portable blast furnace in backpack which can also work automatically",
+      "",
+      "- Regular upgrade works just as blast furnace would",
+      "- Auto smelting one will automatically pull fuel, items to smelt and will automatically push smelted items back into backpack",
+      "- It also has filters for fuel and what items to smelt"
+    ],
+    "groups": {
+      "Sophicated Mods": {
+        "position": [
+          -125,
+          -100
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sophisticatedbackpacks:blasting_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Blasting Upgrades"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "dependencies": [
+    "S Upgrades"
+  ],
+  "tasks": {
+    "smok 2": {
+      "type": "heracles:item",
+      "item": "sophisticatedbackpacks:auto_smoking_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "sophisticatedbackpacks:auto_smoking_upgrade",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    },
+    "smok 1": {
+      "type": "heracles:item",
+      "item": "sophisticatedbackpacks:smoking_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "sophisticatedbackpacks:smoking_upgrade",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Portable smoker in backpack which can also work automatically",
+      "",
+      "- Regular upgrade works just as smoker would",
+      "- Auto smelting one will automatically pull fuel, items to smelt and will automatically push smelted items back into backpack",
+      "- It also has filters for fuel and what items to smelt"
+    ],
+    "groups": {
+      "Sophicated Mods": {
+        "position": [
+          -125,
+          -75
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sophisticatedbackpacks:smoking_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Smoking Upgrades"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

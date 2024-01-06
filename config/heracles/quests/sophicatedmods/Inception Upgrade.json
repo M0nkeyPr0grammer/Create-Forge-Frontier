@@ -1,0 +1,91 @@
+{
+  "dependencies": [
+    "S Upgrades"
+  ],
+  "tasks": {
+    "inc": {
+      "type": "heracles:item",
+      "item": "sophisticatedbackpacks:inception_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "sophisticatedbackpacks:inception_upgrade",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "LEVEL",
+      "amount": 3,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "skull": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:diamond_block",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:diamond_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      " Allows putting backpacks in backpack",
+      "",
+      "- Only allows this on one level so no backpack in backpack in backpack",
+      "- Upgrades in these backpacks will also work so you can have for example pickup upgrade in one of these picking up items directly into it",
+      "- Upgrades in the main backpack can access inventory of the subbackpacks and there's an option that defines whether they use inventory in subbackpacks first or the main one first",
+      "- Filter upgrade in subbackpacks can be used to limit what items get inserted / pulled from them",
+      "- Backpacks in backpack can be open using open backpack keybind when cursor is over them"
+    ],
+    "groups": {
+      "Sophicated Mods": {
+        "position": [
+          -200,
+          -25
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sophisticatedbackpacks:inception_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Inception Upgrade"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

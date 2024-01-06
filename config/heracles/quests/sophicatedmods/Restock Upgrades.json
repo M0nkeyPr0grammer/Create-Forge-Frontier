@@ -1,0 +1,88 @@
+{
+  "dependencies": [
+    "S Upgrades"
+  ],
+  "tasks": {
+    "restock 1 ": {
+      "type": "heracles:item",
+      "item": "sophisticatedbackpacks:restock_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "sophisticatedbackpacks:restock_upgrade",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    },
+    "restock 2": {
+      "type": "heracles:item",
+      "item": "sophisticatedbackpacks:advanced_restock_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "sophisticatedbackpacks:advanced_restock_upgrade",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Takes items defined in its filter from inventory shift right clicked with backpack in hand and puts them in backpack.",
+      "",
+      "- Regular upgrade can only filter by item and has 9 filter slots",
+      "- Advanced one has more filtering options - match by item/mod/tags, match nbt, match damage and 16 slots that can be used to filter",
+      "- In addition to these regular filters it can also filter by the contents of the backpack so only items already present in backpack get pulled from inventory"
+    ],
+    "groups": {
+      "Sophicated Mods": {
+        "position": [
+          -100,
+          -75
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sophisticatedbackpacks:restock_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Restock Upgrades"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

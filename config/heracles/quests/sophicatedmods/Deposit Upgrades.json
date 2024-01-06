@@ -1,0 +1,88 @@
+{
+  "dependencies": [
+    "S Upgrades"
+  ],
+  "tasks": {
+    "depo 1": {
+      "type": "heracles:item",
+      "item": "sophisticatedbackpacks:deposit_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "sophisticatedbackpacks:deposit_upgrade",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    },
+    "depo 2": {
+      "type": "heracles:item",
+      "item": "sophisticatedbackpacks:advanced_deposit_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "sophisticatedbackpacks:advanced_deposit_upgrade",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Deposit upgrade makes it so that shift right clicking an inventory with the backpack in hand deposits items specified in upgrades filter into that inventory.",
+      "",
+      "- Regular upgrade can only filter by item and has 9 filter slots",
+      "- Advanced one has more filtering options - match by item/mod/tags, match nbt, match damage and 16 slots that can be used to filter",
+      "- In addition to these regular filters it can also filter by the contents of the target inventory"
+    ],
+    "groups": {
+      "Sophicated Mods": {
+        "position": [
+          -100,
+          -100
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sophisticatedbackpacks:deposit_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Deposit Upgrades"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

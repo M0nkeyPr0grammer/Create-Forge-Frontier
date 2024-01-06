@@ -1,15 +1,17 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "S Upgrades"
+  ],
   "tasks": {
-    "chest": {
+    "anvil": {
       "type": "heracles:item",
-      "item": "minecraft:chest",
+      "item": "sophisticatedbackpacks:anvil_upgrade",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:chest",
+          "id": "sophisticatedbackpacks:anvil_upgrade",
           "count": 1
         },
         "type": "heracles:item"
@@ -26,7 +28,7 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 100,
       "title": "",
       "type": "heracles:xp"
     }
@@ -36,31 +38,31 @@
       "text": ""
     },
     "description": [
-      "Sophisticated Storage is mod that adds multiple tiers of Barrels, Chests and Shulker Boxes, any of these can have many different combinations of two colors applied to them and barrels/chests come in different wood varieties and in addition to that you can use many different upgrades in them to augment their functionality. Also adds its own take on mass storage - Limited Barrels that only have 1 to 4 slots for items with higher stack size limits in each that get even higher when their tier gets upgraded."
+      "This upgrade allows you to use an anvil inside your backpack"
     ],
     "groups": {
       "Sophicated Mods": {
         "position": [
-          25,
-          0
+          -200,
+          -100
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "sophisticatedstorage:barrel",
+        "id": "sophisticatedbackpacks:anvil_upgrade",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Sophisticated Storage"
+      "translate": "Anvil Upgrades"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

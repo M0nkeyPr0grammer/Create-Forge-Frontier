@@ -1,15 +1,17 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Sophisticated Backpacks"
+  ],
   "tasks": {
-    "chest": {
+    "iron": {
       "type": "heracles:item",
-      "item": "minecraft:chest",
+      "item": "sophisticatedbackpacks:iron_backpack",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:chest",
+          "id": "sophisticatedbackpacks:iron_backpack",
           "count": 1
         },
         "type": "heracles:item"
@@ -29,6 +31,21 @@
       "amount": 10,
       "title": "",
       "type": "heracles:xp"
+    },
+    "iron block": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:iron_block",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:iron_block",
+        "count": 1
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
@@ -36,26 +53,26 @@
       "text": ""
     },
     "description": [
-      "Sophisticated Storage is mod that adds multiple tiers of Barrels, Chests and Shulker Boxes, any of these can have many different combinations of two colors applied to them and barrels/chests come in different wood varieties and in addition to that you can use many different upgrades in them to augment their functionality. Also adds its own take on mass storage - Limited Barrels that only have 1 to 4 slots for items with higher stack size limits in each that get even higher when their tier gets upgraded."
+      "This backpack is similar to the basic backpack but has expanded storage from 27 slots to 54 slots and 1 upgrade slot to 2 upgrade slots."
     ],
     "groups": {
       "Sophicated Mods": {
         "position": [
-          25,
-          0
+          -25,
+          -25
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "sophisticatedstorage:barrel",
+        "id": "sophisticatedbackpacks:iron_backpack",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Sophisticated Storage"
+      "translate": "Iron Backpack"
     }
   },
   "settings": {

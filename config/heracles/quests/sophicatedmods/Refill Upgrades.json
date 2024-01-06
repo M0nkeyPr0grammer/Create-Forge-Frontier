@@ -1,15 +1,31 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "S Upgrades"
+  ],
   "tasks": {
-    "chest": {
+    "rest 1": {
       "type": "heracles:item",
-      "item": "minecraft:chest",
+      "item": "sophisticatedbackpacks:restock_upgrade",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:chest",
+          "id": "sophisticatedbackpacks:restock_upgrade",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    },
+    "rest 2": {
+      "type": "heracles:item",
+      "item": "sophisticatedbackpacks:advanced_restock_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "sophisticatedbackpacks:advanced_restock_upgrade",
           "count": 1
         },
         "type": "heracles:item"
@@ -26,7 +42,7 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 100,
       "title": "",
       "type": "heracles:xp"
     }
@@ -36,31 +52,35 @@
       "text": ""
     },
     "description": [
-      "Sophisticated Storage is mod that adds multiple tiers of Barrels, Chests and Shulker Boxes, any of these can have many different combinations of two colors applied to them and barrels/chests come in different wood varieties and in addition to that you can use many different upgrades in them to augment their functionality. Also adds its own take on mass storage - Limited Barrels that only have 1 to 4 slots for items with higher stack size limits in each that get even higher when their tier gets upgraded."
+      "Refill upgrade",
+      "Keeps a stack of item filled in player's inventory",
+      "",
+      "- Up to 6 stacks can be defined in its filter to refill like that",
+      "- Advanced one has 12 slots that can be used to filter"
     ],
     "groups": {
       "Sophicated Mods": {
         "position": [
-          25,
-          0
+          -125,
+          -25
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "sophisticatedstorage:barrel",
+        "id": "sophisticatedbackpacks:refill_upgrade",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Sophisticated Storage"
+      "translate": "Refill Upgrades"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

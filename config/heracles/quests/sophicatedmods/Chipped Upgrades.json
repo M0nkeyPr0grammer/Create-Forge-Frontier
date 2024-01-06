@@ -1,0 +1,154 @@
+{
+  "dependencies": [
+    "S Upgrades"
+  ],
+  "tasks": {
+    "chip 2": {
+      "type": "heracles:item",
+      "item": "sophisticatedbackpacks:chipped/glassblower_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "sophisticatedbackpacks:chipped/glassblower_upgrade",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    },
+    "chip 3": {
+      "type": "heracles:item",
+      "item": "sophisticatedbackpacks:chipped/carpenters_table_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "sophisticatedbackpacks:chipped/carpenters_table_upgrade",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    },
+    "chip 1": {
+      "type": "heracles:item",
+      "item": "sophisticatedbackpacks:chipped/botanist_workbench_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "sophisticatedbackpacks:chipped/botanist_workbench_upgrade",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    },
+    "chip 6": {
+      "type": "heracles:item",
+      "item": "sophisticatedbackpacks:chipped/alchemy_bench_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "sophisticatedbackpacks:chipped/alchemy_bench_upgrade",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    },
+    "chip 7": {
+      "type": "heracles:item",
+      "item": "sophisticatedbackpacks:chipped/tinkering_table_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "sophisticatedbackpacks:chipped/tinkering_table_upgrade",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    },
+    "chip 4": {
+      "type": "heracles:item",
+      "item": "sophisticatedbackpacks:chipped/loom_table_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "sophisticatedbackpacks:chipped/loom_table_upgrade",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    },
+    "chip 5": {
+      "type": "heracles:item",
+      "item": "sophisticatedbackpacks:chipped/mason_table_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "sophisticatedbackpacks:chipped/mason_table_upgrade",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "LEVEL",
+      "amount": 5,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "These upgrades allow you to use chipped tables inside of your backpack without having to place the tables down on the ground."
+    ],
+    "groups": {
+      "Sophicated Mods": {
+        "position": [
+          -200,
+          -75
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sophisticatedbackpacks:chipped/botanist_workbench_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Chipped Upgrades"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}
