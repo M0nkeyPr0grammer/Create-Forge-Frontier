@@ -46,6 +46,7 @@ Download **Landscapes Reimagined Forge Frontier** today and dive into an elevate
       <li><a href="https://www.curseforge.com/minecraft/mc-mods/kubejs-delight">KubeJS Delight</a></li>
       <li><a href="https://www.curseforge.com/minecraft/mc-mods/placebo">Placebo</a></li>
       <li><a href="https://www.curseforge.com/minecraft/mc-mods/probejs">ProbeJS</a></li>
+      <li><a href="https://www.curseforge.com/minecraft/mc-mods/shrink_">Shrink</a></li>
       <li><a href="https://www.curseforge.com/minecraft/mc-mods/simple-discord-rich-presence">Simple Discord Rich Presence (Forge / Fabric)</a></li>
       <li><a href="https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks">Sophisticated Backpacks</a></li>
       <li><a href="https://www.curseforge.com/minecraft/mc-mods/sophisticated-core">Sophisticated Core</a></li>
