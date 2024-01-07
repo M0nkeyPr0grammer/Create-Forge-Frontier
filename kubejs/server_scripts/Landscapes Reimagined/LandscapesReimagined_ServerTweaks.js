@@ -10,6 +10,22 @@ ServerEvents.recipes(event => {
 	event.remove({ id: 'createfoundry:mixing/melting/ore/lapis_from_ore' })
 	event.remove({ id: 'create:crushing/nether_wart_block'})
 	event.remove({ id: 'easy_villagers:iron_farm'})
+	event.remove({ id: 'structurecompass:structure_compass'})
+
+	// Creates Structure Compass Recipe
+	event.shaped(
+		Item.of('structurecompass:structure_compass', 1),
+		[
+			'ACA',
+			'CBC',
+			'ACA'
+		],
+		{
+			A: 'advancednetherite:netherite_iron_ingot',
+			B: 'naturescompass:naturescompass',
+			C: 'create:brass_block'
+		}
+	)
 
 	// Creates Nether Eye Crafting Recipe
 	event.shaped(
