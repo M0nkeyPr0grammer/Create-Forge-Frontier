@@ -32,14 +32,12 @@ Download **Landscapes Reimagined Forge Frontier** today and dive into an elevate
       <li><a href="https://www.curseforge.com/minecraft/mc-mods/create-confectionery">Create Confectionery</a></li>
       <li><a href="https://www.curseforge.com/minecraft/mc-mods/create-oppenheimered">Create: Oppenheimered</a></li>
       <li><a href="https://www.curseforge.com/minecraft/mc-mods/create-industry">Create: The Factory Must Grow</a></li>
-      <li><a href="https://www.curseforge.com/minecraft/mc-mods/cupboard">Cupboard</a></li>
       <li><a href="https://www.curseforge.com/minecraft/mc-mods/detected-setblock-be-gone">Detected setBlock Be Gone</a></li>
       <li><a href="https://www.curseforge.com/minecraft/mc-mods/disenchantingforge">DisenchantingForge</a></li>
       <li><a href="https://www.curseforge.com/minecraft/mc-mods/dungeon-crawl">Dungeon Crawl</a></li>
       <li><a href="https://www.curseforge.com/minecraft/mc-mods/dynamic-view">Dynamic View[Forge]</a></li>
       <li><a href="https://www.curseforge.com/minecraft/mc-mods/eating-animation-forge">Eating Animation [Forge]</a></li>
       <li><a href="https://www.curseforge.com/minecraft/mc-mods/embeddium-plus">Embeddium++</a></li>
-      <li><a href="https://www.curseforge.com/minecraft/mc-mods/farsight">Farsight [Forge]</a></li>
       <li><a href="https://www.curseforge.com/minecraft/mc-mods/flux-networks">Flux Networks</a></li>
       <li><a href="https://www.curseforge.com/minecraft/mc-mods/gml">GroovyModLoader (GML)</a></li>
       <li><a href="https://www.curseforge.com/minecraft/mc-mods/krypton-reforged">Krypton Reforged</a></li>
