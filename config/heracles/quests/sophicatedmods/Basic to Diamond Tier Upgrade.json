@@ -2,13 +2,59 @@
   "dependencies": [
     "Basic to Gold Upgrade"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "diamond": {
+      "type": "heracles:item",
+      "item": "sophisticatedstorage:basic_to_diamond_tier_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "sophisticatedstorage:basic_to_diamond_tier_upgrade",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "diamond": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:diamond_block",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:diamond_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "The basic to Diamond tier upgrade is used to upgrade a vanilla barrel, chest, or shulker box to a sophisticated diamond tier version."
+    ],
     "groups": {
       "Sophicated Mods": {
         "position": [

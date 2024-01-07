@@ -2,13 +2,59 @@
   "dependencies": [
     "Packing Tape"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "upgrade": {
+      "type": "heracles:item",
+      "item": "sophisticatedstorage:upgrade_base",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "sophisticatedstorage:upgrade_base",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "base": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "sophisticatedstorage:upgrade_base",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "sophisticatedstorage:upgrade_base",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "Sophisticated Upgrades has many different upgrades that you can use, these quests will help you understand each one."
+    ],
     "groups": {
       "Sophicated Mods": {
         "position": [

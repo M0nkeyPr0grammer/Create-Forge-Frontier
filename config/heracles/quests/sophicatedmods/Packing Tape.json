@@ -2,13 +2,71 @@
   "dependencies": [
     "Storage Tool"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "packing tape": {
+      "type": "heracles:item",
+      "item": "sophisticatedstorage:packing_tape",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "sophisticatedstorage:packing_tape",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "packing tape": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "sophisticatedstorage:packing_tape",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "sophisticatedstorage:packing_tape",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "Packing Tape allows you to pick up a drawer, chest without causing all of its contents to spill out in the world. To use it right click on your prefered storage block, then break it with an axe or your hand."
+    ],
     "groups": {
       "Sophicated Mods": {
         "position": [

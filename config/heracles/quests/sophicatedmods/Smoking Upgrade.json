@@ -2,13 +2,63 @@
   "dependencies": [
     "SS Upgrades"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "smok 2": {
+      "type": "heracles:item",
+      "item": "sophisticatedstorage:auto_smoking_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "sophisticatedstorage:auto_smoking_upgrade",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    },
+    "smok 1": {
+      "type": "heracles:item",
+      "item": "sophisticatedstorage:smoking_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "sophisticatedstorage:smoking_upgrade",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "Furnace in storage block which can also work automatically",
+      "",
+      "- Regular upgrade works just as furnace would",
+      "- Auto smelting one will automatically pull fuel, items to smelt and will automatically push smelted items back into the block's inventory",
+      "- It also has filters for fuel and what items to smelt",
+      "- Smoking/Blasting upgrades work similar but with double speed and just for items that would go into vanilla smoker / blasting furnace"
+    ],
     "groups": {
       "Sophicated Mods": {
         "position": [

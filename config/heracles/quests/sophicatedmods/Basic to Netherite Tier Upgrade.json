@@ -2,13 +2,59 @@
   "dependencies": [
     "Basic to Diamond Tier Upgrade"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "netherite": {
+      "type": "heracles:item",
+      "item": "sophisticatedstorage:basic_to_netherite_tier_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "sophisticatedstorage:basic_to_netherite_tier_upgrade",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "LEVEL",
+      "amount": 3,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "netherite": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:netherite_ingot",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:netherite_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "The basic to Netherite tier upgrade is used to upgrade a vanilla barrel, chest, or shulker box to a sophisticated netherite tier version."
+    ],
     "groups": {
       "Sophicated Mods": {
         "position": [

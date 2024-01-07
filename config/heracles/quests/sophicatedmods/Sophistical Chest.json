@@ -2,13 +2,44 @@
   "dependencies": [
     "Sophisticated Storage"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "chest": {
+      "type": "heracles:item",
+      "item": "sophisticatedstorage:chest",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "sophisticatedstorage:chest",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "The sophisticated Chest is the first tier of chests of this mod and it is crafted using a chest and a redstone torch."
+    ],
     "groups": {
       "Sophicated Mods": {
         "position": [

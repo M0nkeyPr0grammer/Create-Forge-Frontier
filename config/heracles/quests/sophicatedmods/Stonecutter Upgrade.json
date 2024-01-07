@@ -2,13 +2,48 @@
   "dependencies": [
     "SS Upgrades"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "stone": {
+      "type": "heracles:item",
+      "item": "sophisticatedstorage:stonecutter_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "sophisticatedstorage:stonecutter_upgrade",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "Stonecutter in upgrade tab",
+      "",
+      "- Also remembers the last recipe used",
+      "- If the same block is inserted it will preselect that recipe",
+      "- So stonecutting multiple stacks of the same block is much faster"
+    ],
     "groups": {
       "Sophicated Mods": {
         "position": [

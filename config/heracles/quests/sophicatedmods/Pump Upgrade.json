@@ -2,13 +2,58 @@
   "dependencies": [
     "SS Upgrades"
   ],
-  "tasks": {},
+  "tasks": {
+    "pump 2": {
+      "type": "heracles:item",
+      "item": "sophisticatedstorage:advanced_pump_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "sophisticatedstorage:advanced_pump_upgrade",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    },
+    "pump 3": {
+      "type": "heracles:item",
+      "item": "sophisticatedstorage:xp_pump_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "sophisticatedstorage:xp_pump_upgrade",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    },
+    "pump 1": {
+      "type": "heracles:item",
+      "item": "sophisticatedstorage:pump_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "sophisticatedstorage:pump_upgrade",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
   "rewards": {},
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "These pump upgrades act in a similar manner as the pump upgrades from Sophisticated backpacks."
+    ],
     "groups": {
       "Sophicated Mods": {
         "position": [

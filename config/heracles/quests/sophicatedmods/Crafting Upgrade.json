@@ -2,13 +2,47 @@
   "dependencies": [
     "SS Upgrades"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "craft": {
+      "type": "heracles:item",
+      "item": "sophisticatedstorage:crafting_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "sophisticatedstorage:crafting_upgrade",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "Crafting table in upgrade tab",
+      "",
+      "- Integration with crafting tweaks and mouse tweaks",
+      "- Also has performance enhancements that make it faster in crafting than vanilla workbench"
+    ],
     "groups": {
       "Sophicated Mods": {
         "position": [

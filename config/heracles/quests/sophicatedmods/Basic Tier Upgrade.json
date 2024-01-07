@@ -2,13 +2,59 @@
   "dependencies": [
     "SS Upgrades"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "basic": {
+      "type": "heracles:item",
+      "item": "sophisticatedstorage:basic_tier_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "sophisticatedstorage:basic_tier_upgrade",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "redstone": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:redstone_block",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:redstone_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "The basic tier upgrade is used to upgrade a vanilla barrel, chest, or shulker box to a sophisticated version."
+    ],
     "groups": {
       "Sophicated Mods": {
         "position": [

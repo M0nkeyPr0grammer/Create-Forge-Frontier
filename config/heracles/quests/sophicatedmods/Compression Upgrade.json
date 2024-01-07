@@ -2,13 +2,44 @@
   "dependencies": [
     "SS Upgrades"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "compre": {
+      "type": "heracles:item",
+      "item": "sophisticatedstorage:compression_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "sophisticatedstorage:compression_upgrade",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "This upgrade allows you to compress and decompress items."
+    ],
     "groups": {
       "Sophicated Mods": {
         "position": [

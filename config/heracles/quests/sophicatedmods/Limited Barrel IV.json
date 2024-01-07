@@ -2,13 +2,44 @@
   "dependencies": [
     "Limited Barrel III"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "barrel 4": {
+      "type": "heracles:item",
+      "item": "sophisticatedstorage:limited_barrel_4",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "sophisticatedstorage:limited_barrel_4",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "The Limited Barrel IV is similar to a drawer where you can store multiple stacks of four different items. Note you can still upgrade this barrel like you would a normal sophisticated barrel."
+    ],
     "groups": {
       "Sophicated Mods": {
         "position": [

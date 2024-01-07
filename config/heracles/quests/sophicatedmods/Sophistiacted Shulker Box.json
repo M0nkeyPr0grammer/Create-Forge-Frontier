@@ -2,13 +2,44 @@
   "dependencies": [
     "Sophistical Chest"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "shulker": {
+      "type": "heracles:item",
+      "item": "sophisticatedstorage:shulker_box",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "sophisticatedstorage:shulker_box",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "The sophisticated Shulker Box is like a standard shulker box but can be upgraded using the standard sophisticated storage upgrades."
+    ],
     "groups": {
       "Sophicated Mods": {
         "position": [
@@ -26,7 +57,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Sophistiacted Shulker Box"
+      "translate": "Sophisticated Shulker Box"
     }
   },
   "settings": {

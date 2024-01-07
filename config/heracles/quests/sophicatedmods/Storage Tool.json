@@ -2,13 +2,52 @@
   "dependencies": [
     "Storage Link"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "tool": {
+      "type": "heracles:item",
+      "item": "sophisticatedstorage:storage_tool",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "sophisticatedstorage:storage_tool",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "Allows to link, lock and toggle visibility of locks and counts",
+      "",
+      "- Shift scroll to change mode",
+      "",
+      "- Linking works by right clicking the controller to start linking to it and then right click storages or storage link to get these linked",
+      "",
+      "- Locking locks/unlocks either a single storage that was right clicked or all storages that are connected to right clicked controller",
+      "",
+      "- Toggling visibility of locks / counts works similar to locking so just right click on storage or controller"
+    ],
     "groups": {
       "Sophicated Mods": {
         "position": [
