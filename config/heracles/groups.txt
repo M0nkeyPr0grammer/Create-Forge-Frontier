@@ -3,6 +3,7 @@ QOL Tools
 Decoration Mods
 Overworld
 The Nether
+End Remastered
 The End
 Ad Astra
 Deeper and Darker
@@ -21,3 +22,4 @@ Food
 Artifacts and Baubley
 Apotheosis
 Transportation
+Creative Items
