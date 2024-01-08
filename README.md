@@ -79,7 +79,6 @@ Download **Landscapes Reimagined Forge Frontier** today and dive into an elevate
     <li><a href="https://www.curseforge.com/minecraft/texture-packs/lootrchestretexture-for-create">LootrChestRetexture for Create!</a></li>
     <li><a href="https://www.curseforge.com/minecraft/texture-packs/create-style-construction-wands">Lopy's Create Style Construction Wands</a></li>
     <li><a href="https://www.curseforge.com/minecraft/texture-packs/create-pipez">Lopy's Create Style Pipez</a></li>
-    <li><a href="https://www.curseforge.com/minecraft/texture-packs/refined-storage-recreated">Refined Storage - ReCreated</a></li>
     <li><a href="https://modrinth.com/resourcepack/sparkles">Stardust Labs Resourcepack</a></li>
   </details>
   
