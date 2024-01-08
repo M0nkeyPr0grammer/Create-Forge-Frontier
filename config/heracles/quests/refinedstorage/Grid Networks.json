@@ -2,8 +2,68 @@
   "dependencies": [
     "Controller"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "rece": {
+      "type": "heracles:item",
+      "item": "refinedstorage:network_receiver",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "refinedstorage:network_receiver",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    },
+    "trans": {
+      "type": "heracles:item",
+      "item": "refinedstorage:network_transmitter",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "refinedstorage:network_transmitter",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "casing": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "refinedstorage:machine_casing",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "refinedstorage:machine_casing",
+        "count": 3
+      },
+      "type": "heracles:item"
+    },
+    "netherite": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:netherite_ingot",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:netherite_ingot",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""

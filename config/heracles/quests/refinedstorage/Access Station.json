@@ -1,0 +1,41 @@
+{
+  "dependencies": [
+    "Kitchen Station"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Kitchen Access Point needs to be placed in the Refined Storage Network in order to link to a Kitchen Station."
+    ],
+    "groups": {
+      "Refined Storage": {
+        "position": [
+          250,
+          230
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "refinedcooking:kitchen_access_point",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Kitchen Access Station"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

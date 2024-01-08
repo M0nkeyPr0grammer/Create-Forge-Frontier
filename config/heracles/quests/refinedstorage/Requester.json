@@ -1,0 +1,41 @@
+{
+  "dependencies": [
+    "interface"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The Requester is a rs network block where you can specify how many of 1 item you want to keep stocked in your system. For example, if you want to have a stack of chest always in your RS system the Requester will do that for you by automatically creating crafting jobs for you."
+    ],
+    "groups": {
+      "Refined Storage": {
+        "position": [
+          575,
+          50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "rsrequestify:requester",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Requester"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

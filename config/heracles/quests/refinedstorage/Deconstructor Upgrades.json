@@ -2,8 +2,66 @@
   "dependencies": [
     "Deconstructor"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "silk": {
+      "type": "heracles:item",
+      "item": "refinedstorage:silk_touch_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "refinedstorage:silk_touch_upgrade",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    },
+    "fortune": {
+      "type": "heracles:item",
+      "item": "refinedstorage:fortune_1_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "refinedstorage:fortune_1_upgrade",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "upgrades": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "refinedstorage:upgrade",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "refinedstorage:upgrade",
+        "count": 3
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""

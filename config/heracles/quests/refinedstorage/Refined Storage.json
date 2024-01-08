@@ -26,6 +26,36 @@
       "amount": 10,
       "title": "",
       "type": "heracles:xp"
+    },
+    "quartz": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "refinedstorage:quartz_enriched_iron",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "refinedstorage:quartz_enriched_iron",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "silicon": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "refinedstorage:silicon",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "refinedstorage:silicon",
+        "count": 6
+      },
+      "type": "heracles:item"
     }
   },
   "display": {

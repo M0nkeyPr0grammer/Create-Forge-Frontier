@@ -2,18 +2,59 @@
   "dependencies": [
     "Regulatory Upgrades"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "insert": {
+      "type": "heracles:item",
+      "item": "rsinsertexportupgrade:insert_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "rsinsertexportupgrade:insert_upgrade",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    },
+    "export": {
+      "type": "heracles:item",
+      "item": "rsinsertexportupgrade:export_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "rsinsertexportupgrade:export_upgrade",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "stack": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "refinedstorage:stack_upgrade",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "refinedstorage:stack_upgrade",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
     "description": [
-      "The insert upgrade takes items in specific slots of your inventory and dumps them into your Refined Storage.",
-      "",
-      "To configure it, put it in your hand and right click. Click on slots to turn them red. Any item that goes into the red slots will get imported to your Refined Storage. You can whitelist or blacklist items by adding them to the filter at the top.",
-      "",
-      "Once you've configured it, open up your wireless grid and add it to the slot on the right.",
+      "The insert upgrade takes items in specific slots of your inventory and dumps them into your Refined Storage. To configure it, put it in your hand and right click. Click on slots to turn them red. Any item that goes into the red slots will get imported to your Refined Storage. You can whitelist or blacklist items by adding them to the filter at the top.",
       "",
       "The export upgrade works exactly the same but will pull items from your Refined Storage into your inventory. To specify what items, drag the item from JEI into one of the colored slots at the top and click on a slot in your inventory to change it to the desired color. Right clicking clears the color."
     ],
@@ -21,7 +62,7 @@
       "Refined Storage": {
         "position": [
           -230,
-          10
+          0
         ]
       }
     },

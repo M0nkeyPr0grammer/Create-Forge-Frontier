@@ -1,0 +1,41 @@
+{
+  "dependencies": [
+    "Access Station"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Allows linking between a Kitchen Station and a Kitchen Access Station."
+    ],
+    "groups": {
+      "Refined Storage": {
+        "position": [
+          250,
+          260
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "refinedcooking:kitchen_network_card",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Network Card"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

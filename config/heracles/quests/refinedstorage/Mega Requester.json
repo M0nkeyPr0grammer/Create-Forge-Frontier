@@ -1,0 +1,39 @@
+{
+  "dependencies": [
+    "Ultra Requester"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [],
+    "groups": {
+      "Refined Storage": {
+        "position": [
+          575,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "cabletiers:mega_requester",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Mega Requester"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

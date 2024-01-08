@@ -2,8 +2,52 @@
   "dependencies": [
     "Cables"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "construct": {
+      "type": "heracles:item",
+      "item": "refinedstorage:constructor",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "refinedstorage:constructor",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "construct": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "refinedstorage:constructor",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "refinedstorage:constructor",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""

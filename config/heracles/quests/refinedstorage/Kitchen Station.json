@@ -1,0 +1,41 @@
+{
+  "dependencies": [
+    "Refined Cooking"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The Kitchen Station acts as Refined Storage Network Receiver and needs to be attached to a Kitchen Network Card. "
+    ],
+    "groups": {
+      "Refined Storage": {
+        "position": [
+          250,
+          200
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "refinedcooking:kitchen_station",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Kitchen Station"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -2,8 +2,52 @@
   "dependencies": [
     "Ultra Deconstructor"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "destruct": {
+      "type": "heracles:item",
+      "item": "cabletiers:mega_destructor",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "cabletiers:mega_destructor",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "destruct": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "cabletiers:mega_destructor",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "cabletiers:mega_destructor",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
