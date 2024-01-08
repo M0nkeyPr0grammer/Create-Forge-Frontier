@@ -1,6 +1,43 @@
 // Mod Recipe Fixes
 ServerEvents.recipes(event => {
 
+    // Removes Duplicate Recipes
+    event.remove({ id: 'extrastorage:storage_block/block_256k'});
+    event.remove({ id: 'extrastorage:storage_block/block_1024k'});
+    event.remove({ id: 'extrastorage:storage_block/block_4096k'});
+    event.remove({ id: 'extrastorage:storage_block/block_16384k'});
+    event.remove({ id: 'extrastorage:storage_block/block_16384k_fluid'});
+    event.remove({ id: 'extrastorage:storage_block/block_65536k_fluid'});
+    event.remove({ id: 'extrastorage:storage_block/block_262144k_fluid'});
+    event.remove({ id: 'extrastorage:storage_block/block_1048576k_fluid'});
+    event.remove({ id: 'extrastorage:part/storagepart_256k'});
+    event.remove({ id: 'extrastorage:part/storagepart_1024k'});
+    event.remove({ id: 'extrastorage:part/storagepart_4096k'});
+    event.remove({ id: 'extrastorage:part/storagepart_16384k'});
+    event.remove({ id: 'extrastorage:part/storagepart_16384k_fluid'});
+    event.remove({ id: 'extrastorage:part/storagepart_65536k_fluid'});
+    event.remove({ id: 'extrastorage:part/storagepart_262144k_fluid'});
+    event.remove({ id: 'extrastorage:part/storagepart_1048576k_fluid'});
+    event.remove({ id: 'extrastorage:disk/shapeless/disk_256k'});
+    event.remove({ id: 'extrastorage:disk/shapeless/disk_1024k'});
+    event.remove({ id: 'extrastorage:disk/shapeless/disk_4096k'});
+    event.remove({ id: 'extrastorage:disk/shapeless/disk_16384k'});
+    event.remove({ id: 'extrastorage:disk/shapeless/disk_16384k_fluid'});
+    event.remove({ id: 'extrastorage:disk/shapeless/disk_65536k_fluid'});
+    event.remove({ id: 'extrastorage:disk/shapeless/disk_262144k_fluid'});
+    event.remove({ id: 'extrastorage:disk/shapeless/disk_1048576k_fluid'});
+    event.remove({ id: 'extrastorage:disk/shaped/disk_256k'});
+    event.remove({ id: 'extrastorage:disk/shaped/disk_1024k'});
+    event.remove({ id: 'extrastorage:disk/shaped/disk_4096k'});
+    event.remove({ id: 'extrastorage:disk/shaped/disk_16384k'});
+    event.remove({ id: 'extrastorage:disk/shaped/disk_16384k_fluid'});
+    event.remove({ id: 'extrastorage:disk/shaped/disk_65536k_fluid'});
+    event.remove({ id: 'extrastorage:disk/shaped/disk_262144k_fluid'});
+    event.remove({ id: 'extrastorage:disk/shaped/disk_1048576k_fluid'});
+    event.remove({ id: 'extrastorage:advanced_importer'});
+    event.remove({ id: 'extrastorage:advanced_exporter'});
+
+
     // Removes Broken Recipes
     event.remove({ id: 'supplementaries:integration/ash_bricks_fd' });
     event.remove({ id: 'supplementaries:integration/lapis_bricks_fd' });
