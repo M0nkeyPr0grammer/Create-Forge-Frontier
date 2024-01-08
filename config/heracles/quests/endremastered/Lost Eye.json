@@ -1,20 +1,27 @@
 {
   "dependencies": [
-    "Find the Stronghold"
+    "Nether Eye"
   ],
   "tasks": {
-    "end": {
+    "Lost Eye": {
+      "type": "heracles:item",
+      "item": "endrem:lost_eye",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "endrem:lost_eye",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
         },
         "type": "heracles:item"
-      },
-      "from": "minecraft:overworld",
-      "to": "minecraft:the_end",
-      "title": "",
-      "type": "heracles:changed_dimension"
+      }
     }
   },
   "rewards": {
@@ -26,37 +33,42 @@
         },
         "type": "heracles:item"
       },
-      "xptype": "LEVEL",
-      "amount": 10,
+      "xptype": "POINTS",
+      "amount": 100,
       "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Enter the End"
+      "text": ""
     },
     "description": [
-      "Enter the end"
+      "It is told that it was forged by the first blacksmiths of time",
+      "",
+      "This eye can be found in Mineshafts."
     ],
     "groups": {
-      "Overworld": {
+      "End Remastered": {
         "position": [
-          200,
-          -71
+          120,
+          -50
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:end_portal_frame",
-        "count": 1
+        "id": "endrem:lost_eye",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Enter the end"
+      "translate": "Lost Eye"
     }
   },
   "settings": {

@@ -1,20 +1,27 @@
 {
   "dependencies": [
-    "Find the Stronghold"
+    "Witch Eye"
   ],
   "tasks": {
-    "end": {
+    "eye": {
+      "type": "heracles:item",
+      "item": "endrem:wither_eye",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "endrem:wither_eye",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
         },
         "type": "heracles:item"
-      },
-      "from": "minecraft:overworld",
-      "to": "minecraft:the_end",
-      "title": "",
-      "type": "heracles:changed_dimension"
+      }
     }
   },
   "rewards": {
@@ -26,37 +33,42 @@
         },
         "type": "heracles:item"
       },
-      "xptype": "LEVEL",
-      "amount": 10,
+      "xptype": "POINTS",
+      "amount": 100,
       "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Enter the End"
+      "text": ""
     },
     "description": [
-      "Enter the end"
+      "Has witnessed destruction. Maybe it also witnessed your stuff disappear",
+      "",
+      "This eye is dropped when killing a Wither."
     ],
     "groups": {
-      "Overworld": {
+      "End Remastered": {
         "position": [
-          200,
-          -71
+          155,
+          55
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:end_portal_frame",
-        "count": 1
+        "id": "endrem:wither_eye",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Enter the end"
+      "translate": "Wither Eye"
     }
   },
   "settings": {

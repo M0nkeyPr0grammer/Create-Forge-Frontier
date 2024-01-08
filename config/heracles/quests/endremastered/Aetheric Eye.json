@@ -1,20 +1,27 @@
 {
   "dependencies": [
-    "Find the Stronghold"
+    "Black Eye"
   ],
   "tasks": {
-    "end": {
+    "eye": {
+      "type": "heracles:item",
+      "item": "endrem:exotic_eye",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "endrem:exotic_eye",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
         },
         "type": "heracles:item"
-      },
-      "from": "minecraft:overworld",
-      "to": "minecraft:the_end",
-      "title": "",
-      "type": "heracles:changed_dimension"
+      }
     }
   },
   "rewards": {
@@ -26,37 +33,42 @@
         },
         "type": "heracles:item"
       },
-      "xptype": "LEVEL",
-      "amount": 10,
+      "xptype": "POINTS",
+      "amount": 100,
       "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Enter the End"
+      "text": ""
     },
     "description": [
-      "Enter the end"
+      "Those who followed this eye were never seen again; rumors say they found the great city of Atlantis, or lost their way trying",
+      "",
+      "This eye is crafted using aquatic items, check EMI/JEI for recipe."
     ],
     "groups": {
-      "Overworld": {
+      "End Remastered": {
         "position": [
-          200,
-          -71
+          260,
+          -10
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:end_portal_frame",
-        "count": 1
+        "id": "endrem:exotic_eye",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Enter the end"
+      "translate": "Aetheric Eye"
     }
   },
   "settings": {

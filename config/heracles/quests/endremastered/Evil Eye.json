@@ -1,20 +1,27 @@
 {
   "dependencies": [
-    "Find the Stronghold"
+    "Magic Eye"
   ],
   "tasks": {
-    "end": {
+    "evil eye": {
+      "type": "heracles:item",
+      "item": "endrem:evil_eye",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "endrem:evil_eye",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
         },
         "type": "heracles:item"
-      },
-      "from": "minecraft:overworld",
-      "to": "minecraft:the_end",
-      "title": "",
-      "type": "heracles:changed_dimension"
+      }
     }
   },
   "rewards": {
@@ -26,37 +33,42 @@
         },
         "type": "heracles:item"
       },
-      "xptype": "LEVEL",
-      "amount": 10,
+      "xptype": "POINTS",
+      "amount": 100,
       "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Enter the End"
+      "text": ""
     },
     "description": [
-      "Enter the end"
+      " A holy talisman said to protect its owner from bad luck",
+      "",
+      "This eye can be bought from a Master Cleric"
     ],
     "groups": {
-      "Overworld": {
+      "End Remastered": {
         "position": [
-          200,
-          -71
+          120,
+          -5
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:end_portal_frame",
-        "count": 1
+        "id": "endrem:evil_eye",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Enter the end"
+      "translate": "Evil Eye"
     }
   },
   "settings": {

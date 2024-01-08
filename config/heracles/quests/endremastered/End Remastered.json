@@ -16,25 +16,41 @@
       }
     }
   },
-  "rewards": {},
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
     "description": [
-      ""
+      "The Eyes are a really important part of End Remastered, just like Vanilla Ender Eyes, they allow you to activate the portal to the End. However, unlike Vanilla Ender Eyes, they are not dropped by Endermen, but must be found by exploring, fighting and mining. ",
+      "",
+      "In total there are 16 eyes, you have to find at least 12 of them in order to active the End Portal inside a Stronghold."
     ],
     "groups": {
       "End Remastered": {
         "position": [
-          -9,
-          -28
+          13,
+          15
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:ender_eye",
+        "id": "minecraft:end_portal_frame",
         "count": 1
       },
       "type": "heracles:item"
