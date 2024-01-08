@@ -1,0 +1,94 @@
+{
+  "dependencies": [
+    "QOL Tools"
+  ],
+  "tasks": {
+    "compass": {
+      "type": "heracles:item",
+      "item": "naturescompass:naturescompass",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "naturescompass:naturescompass",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "compass": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:compass",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:compass",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "aka Biome Compass"
+    },
+    "description": [
+      "Nature's Compass is an item that allows you to search for a biome's location anywhere in the world and view information about it.",
+      "",
+      "Features",
+      "- Right-clicking with the Nature's Compass will open the biome selection GUI, from which you can search for a biome or view information about it",
+      "- Shift-right-clicking will reset the compass's state",
+      "- When the compass is not pointing at a biome, it will point at the world spawn",
+      "- Supports all registered biomes, both vanilla and modded",
+      "",
+      "Recipe",
+      "- The Recipe for this is 4 sapplings, 4 logs, and a compass."
+    ],
+    "groups": {
+      "QOL Tools": {
+        "position": [
+          -195,
+          425
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "naturescompass:naturescompass",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Natures Compass"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

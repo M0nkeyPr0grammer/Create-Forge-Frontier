@@ -1,12 +1,29 @@
 {
   "dependencies": [],
-  "tasks": {},
+  "tasks": {
+    "ender pearl": {
+      "type": "heracles:item",
+      "item": "minecraft:ender_pearl",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:ender_pearl",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
   "rewards": {},
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      ""
+    ],
     "groups": {
       "End Remastered": {
         "position": [

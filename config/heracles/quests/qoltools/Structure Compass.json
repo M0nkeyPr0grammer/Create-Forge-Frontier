@@ -1,0 +1,105 @@
+{
+  "dependencies": [
+    "Biome Compass"
+  ],
+  "tasks": {
+    "compass": {
+      "type": "heracles:item",
+      "item": "structurecompass:structure_compass",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "structurecompass:structure_compass",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "brass": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:brass_block",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:brass_block",
+        "count": 2
+      },
+      "type": "heracles:item"
+    },
+    "netherite": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "advancednetherite:netherite_iron_ingot",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "advancednetherite:netherite_iron_ingot",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "This mod adds a compass that can be used to locate structures of choice.",
+      "When you craft the Structure Compass it's not set to any particular structure. You'll have to Sneak Right-click to set the structure you want to locate.",
+      "After which you Right-click the Structure Compass normally to start searching.",
+      "",
+      "Recipe",
+      "- The recipe for this compass uses the nature compass, 4 brass blocks, and 4 netherite iron ingots."
+    ],
+    "groups": {
+      "QOL Tools": {
+        "position": [
+          -135,
+          425
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "structurecompass:structure_compass",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Structure Compass"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}
