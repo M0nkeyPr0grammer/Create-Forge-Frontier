@@ -1,17 +1,45 @@
 {
   "dependencies": [],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "check": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "LEVEL",
+      "amount": 5,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
   "display": {
     "subtitle": {
-      "text": ""
+      "translate": "Will be added Later"
     },
-    "description": [],
+    "description": [
+      "This chapter will not be fully completed until Creative items are fully added in a later update."
+    ],
     "groups": {
       "Creative Items": {
         "position": [
-          -7,
-          -18
+          -10,
+          -39
         ]
       }
     },
