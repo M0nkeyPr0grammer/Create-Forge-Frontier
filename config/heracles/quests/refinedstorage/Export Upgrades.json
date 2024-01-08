@@ -1,0 +1,47 @@
+{
+  "dependencies": [
+    "Regulatory Upgrades"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The insert upgrade takes items in specific slots of your inventory and dumps them into your Refined Storage.",
+      "",
+      "To configure it, put it in your hand and right click. Click on slots to turn them red. Any item that goes into the red slots will get imported to your Refined Storage. You can whitelist or blacklist items by adding them to the filter at the top.",
+      "",
+      "Once you've configured it, open up your wireless grid and add it to the slot on the right.",
+      "",
+      "The export upgrade works exactly the same but will pull items from your Refined Storage into your inventory. To specify what items, drag the item from JEI into one of the colored slots at the top and click on a slot in your inventory to change it to the desired color. Right clicking clears the color."
+    ],
+    "groups": {
+      "Refined Storage": {
+        "position": [
+          -230,
+          10
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "rsinsertexportupgrade:insert_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Insert/Export Upgrades"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

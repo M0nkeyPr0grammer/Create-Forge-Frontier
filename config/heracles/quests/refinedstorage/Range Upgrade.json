@@ -1,0 +1,43 @@
+{
+  "dependencies": [
+    "Wireless Access"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "To increase the range of your wireless connection to your system, you'll need to craft Range Upgrades.",
+      "",
+      "The Wireless Transmitter can only hold 4 total. Here's one on the house."
+    ],
+    "groups": {
+      "Refined Storage": {
+        "position": [
+          375,
+          80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "refinedstorage:range_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Range Upgrade"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

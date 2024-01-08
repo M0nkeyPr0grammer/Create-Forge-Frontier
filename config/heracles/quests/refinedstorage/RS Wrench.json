@@ -1,0 +1,41 @@
+{
+  "dependencies": [
+    "Controller"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The Wrench is used to rotate blocks, instantly break Refined Storage blocks, or break Covers."
+    ],
+    "groups": {
+      "Refined Storage": {
+        "position": [
+          -60,
+          105
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "refinedstorage:wrench",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "RS Wrench"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

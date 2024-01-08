@@ -1,0 +1,41 @@
+{
+  "dependencies": [
+    "Cables"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "When connected to your system, this block will display the current number of an item within your network."
+    ],
+    "groups": {
+      "Refined Storage": {
+        "position": [
+          -55,
+          10
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "refinedstorage:storage_monitor",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Storage Monitor"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

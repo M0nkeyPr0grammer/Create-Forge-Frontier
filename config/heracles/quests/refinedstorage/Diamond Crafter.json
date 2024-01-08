@@ -1,0 +1,41 @@
+{
+  "dependencies": [
+    "Gold Crafter"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "An upgraded crafter that holds more patterns and has an increased crafting speed."
+    ],
+    "groups": {
+      "Refined Storage": {
+        "position": [
+          250,
+          -130
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "extrastorage:diamond_crafter",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Diamond Crafter"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

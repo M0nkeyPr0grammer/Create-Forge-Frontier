@@ -1,0 +1,41 @@
+{
+  "dependencies": [
+    "Wireless Access"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Allows you to access your grid wirelessly but with a crafting table built-in."
+    ],
+    "groups": {
+      "Refined Storage": {
+        "position": [
+          325,
+          10
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "refinedstorageaddons:wireless_crafting_grid",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Wireless Crafting Grid"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

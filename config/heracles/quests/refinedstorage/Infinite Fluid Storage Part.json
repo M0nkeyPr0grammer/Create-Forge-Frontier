@@ -1,0 +1,41 @@
+{
+  "dependencies": [
+    "1048m Fluid Storage Part"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Infinite fluid storage!"
+    ],
+    "groups": {
+      "Refined Storage": {
+        "position": [
+          40,
+          355
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "extradisks:infinite_fluid_storage_part",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Infinite Fluid Storage Part"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

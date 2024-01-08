@@ -1,0 +1,41 @@
+{
+  "dependencies": [
+    "64K Fluid Storage Part"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The 256k Fluid Storage Part is used to craft the 256k Fluid Storage Disk."
+    ],
+    "groups": {
+      "Refined Storage": {
+        "position": [
+          40,
+          145
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "refinedstorage:256k_fluid_storage_part",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "256K Fluid Storage Part"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

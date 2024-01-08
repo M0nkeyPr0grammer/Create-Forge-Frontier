@@ -1,0 +1,41 @@
+{
+  "dependencies": [
+    "Regulatory Upgrades"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "But what if you need an item that is crafted? The Crafting Upgrade does exactly this. If you have the recipe learned inside of a crafter, adding this upgrade to an interface will let it know to craft it if you run out."
+    ],
+    "groups": {
+      "Refined Storage": {
+        "position": [
+          -230,
+          -75
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "refinedstorage:crafting_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Crafting Upgrades"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

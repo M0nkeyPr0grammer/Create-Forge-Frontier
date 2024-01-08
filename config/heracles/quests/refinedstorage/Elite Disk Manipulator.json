@@ -1,0 +1,41 @@
+{
+  "dependencies": [
+    "Disk Manipulator"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Has 18 filter slots and works 2x faster."
+    ],
+    "groups": {
+      "Refined Storage": {
+        "position": [
+          100,
+          -10
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "cabletiers:elite_disk_manipulator",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Elite Disk Manipulator"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

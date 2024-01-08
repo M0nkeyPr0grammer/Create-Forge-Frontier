@@ -1,0 +1,45 @@
+{
+  "dependencies": [
+    "Range Upgrade"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "\"I need more RANGE!!!\"",
+      "",
+      "Well, slap one of these bad boys in your Wireless Transmitter and you'll be able to access your network storage with infinite range.",
+      "",
+      "This, however, does not extend to other dimensions....."
+    ],
+    "groups": {
+      "Refined Storage": {
+        "position": [
+          375,
+          110
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "rsinfinitybooster:infinity_card",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Infinity Range Booster"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "dependencies": [
+    "Disk Drive"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Great! We can store items virtually, but how do we see what is on the network?",
+      "",
+      "To access the system, you'll need to create a Grid. The Grid is the most basic form of \"Display\" for the items in your inventory."
+    ],
+    "groups": {
+      "Refined Storage": {
+        "position": [
+          250,
+          50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "refinedstorage:grid",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Grid"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

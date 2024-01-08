@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "Controller"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Because of the Controller limit, you'll probably end up wanting to connect different systems to your main hub without a billion cables connecting them.",
+      "",
+      "This is done using Network Transmitters and Receivers.",
+      "",
+      "Transmitters should be connected to your main system, wherever your Controller is.",
+      "",
+      "The Receiver should go wherever you want your external network to be. For example, this can be a separate part of your base where you have Bees, a mob farm, etc.",
+      "",
+      "To connect the Receiver to your main network, you'll need to use a Network Card. To bind the Network Card, right-click on the Network Receiver, and then place the Network Card into the Network Transmitter that is attached to your main system."
+    ],
+    "groups": {
+      "Refined Storage": {
+        "position": [
+          -100,
+          105
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "refinedstorage:network_receiver",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Grid Networks"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

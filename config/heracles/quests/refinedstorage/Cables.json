@@ -1,0 +1,43 @@
+{
+  "dependencies": [
+    "Refined Storage"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Cables are used to connect blocks and items to your system.",
+      "",
+      "In the beginning, you can get by with placing blocks next to each other to connect them to your system, but Cables allow you to extend out! This is a staple for any Refined Storage Network."
+    ],
+    "groups": {
+      "Refined Storage": {
+        "position": [
+          -100,
+          -30
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "refinedstorage:cable",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Cables"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

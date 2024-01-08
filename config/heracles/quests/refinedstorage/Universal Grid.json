@@ -1,0 +1,43 @@
+{
+  "dependencies": [
+    "Wireless Grid",
+    "Wireless Fluid Grid",
+    "Wireless Crafting Grid"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Allows you to switch between your Wireless Grid, Crafting Grid, and Fluid grid."
+    ],
+    "groups": {
+      "Refined Storage": {
+        "position": [
+          375,
+          -39
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "universalgrid:wireless_universal_grid",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Wireless Universal Grid"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

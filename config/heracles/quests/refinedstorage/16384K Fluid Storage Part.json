@@ -1,0 +1,41 @@
+{
+  "dependencies": [
+    "Advanced Storage Housing"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The 16384k Fluid Storage Part is used to craft the 16384k Fluid Storage Disk."
+    ],
+    "groups": {
+      "Refined Storage": {
+        "position": [
+          40,
+          295
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "extrastorage:storagepart_16384k_fluid",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "16384K Fluid Storage Part"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "dependencies": [
+    "Grid"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Plan on storing Liquids? You'll need a Fluid Grid to be able to see what fluids you have in your Fluid Disks. "
+    ],
+    "groups": {
+      "Refined Storage": {
+        "position": [
+          280,
+          80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "refinedstorage:fluid_grid",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Fluid Grid"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

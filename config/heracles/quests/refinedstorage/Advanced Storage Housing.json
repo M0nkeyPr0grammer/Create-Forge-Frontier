@@ -1,0 +1,44 @@
+{
+  "dependencies": [
+    "64K Storage Part",
+    "4096 Fluid Storage Part"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "It's like the regular one but ADVANCED.",
+      "",
+      "These are used to house the larger Disk Drives. "
+    ],
+    "groups": {
+      "Refined Storage": {
+        "position": [
+          100,
+          265
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "extradisks:advanced_storage_housing",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Advanced Storage Housing"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

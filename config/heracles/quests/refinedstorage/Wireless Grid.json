@@ -1,0 +1,41 @@
+{
+  "dependencies": [
+    "Wireless Access"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Allows you to access your storage wirelessly."
+    ],
+    "groups": {
+      "Refined Storage": {
+        "position": [
+          395,
+          10
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "refinedstorage:wireless_grid",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Wireless Grid"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

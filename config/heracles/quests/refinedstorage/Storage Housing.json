@@ -1,0 +1,43 @@
+{
+  "dependencies": [
+    "Disk Drive"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "It's time to create the \"Hard Drives\" of Refined Storage. To do this, we'll need a Storage Housing that we'll combine with a Storage Part to create a Storage Disk. Just simply make the desired size of the part, then combine with the housing to create a disk.",
+      "",
+      "The Storage Disk is used to store your items virtually once placed inside of the Disk Drive. It has to be put in a Disk Drive. The Storage Disk won’t despawn when dropped in the world."
+    ],
+    "groups": {
+      "Refined Storage": {
+        "position": [
+          100,
+          90
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "refinedstorage:storage_housing",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Storage Housing"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

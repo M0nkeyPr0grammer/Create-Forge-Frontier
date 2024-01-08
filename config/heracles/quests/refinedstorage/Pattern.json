@@ -1,0 +1,41 @@
+{
+  "dependencies": [
+    "Grid"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Patterns are the bread and butter of autocrafting. These store recipes to let your RS network know how to craft items."
+    ],
+    "groups": {
+      "Refined Storage": {
+        "position": [
+          250,
+          20
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "refinedstorage:pattern",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Pattern"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

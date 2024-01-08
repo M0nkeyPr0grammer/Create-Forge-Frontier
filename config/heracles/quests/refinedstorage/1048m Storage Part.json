@@ -1,0 +1,43 @@
+{
+  "dependencies": [
+    "262m Storage Part"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "You won't believe this.",
+      "",
+      "The 1048m Storage Disk can store 1048m items."
+    ],
+    "groups": {
+      "Refined Storage": {
+        "position": [
+          110,
+          355
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "extradisks:1048576k_storage_part",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "1048m Storage Part"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

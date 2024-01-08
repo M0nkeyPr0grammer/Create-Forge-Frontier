@@ -1,0 +1,43 @@
+{
+  "dependencies": [
+    "Grid"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "If you want to access your Refined Storage network wirelessly, you'll need to start by creating a Wireless Transmitter.",
+      "",
+      "You can attach this anywhere on your system. This is needed to use wireless grids."
+    ],
+    "groups": {
+      "Refined Storage": {
+        "position": [
+          375,
+          50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "refinedstorage:wireless_transmitter",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Wireless Access"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "dependencies": [
+    "Controller"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "To store your items, you'll need to create disks that are stored in a Disk Drive. You can attach this to your network by placing it beside your Controller, or by using pipes.",
+      "",
+      "These have 8 slots for Storage Drives. "
+    ],
+    "groups": {
+      "Refined Storage": {
+        "position": [
+          100,
+          50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "refinedstorage:disk_drive",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Disk Drive"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

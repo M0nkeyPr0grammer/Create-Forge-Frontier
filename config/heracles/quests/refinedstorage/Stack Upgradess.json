@@ -1,0 +1,41 @@
+{
+  "dependencies": [
+    "Speed Upgrade"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The Stack Upgrade increases the speed of transfer by a stack of items rather than just one. Combine with Speed Upgrades!"
+    ],
+    "groups": {
+      "Refined Storage": {
+        "position": [
+          -190,
+          -30
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "refinedstorage:stack_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Stack Upgradess"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "dependencies": [
+    "1K Storage Part"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The 4k Storage Disk can store 4000 items."
+    ],
+    "groups": {
+      "Refined Storage": {
+        "position": [
+          160,
+          145
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "refinedstorage:4k_storage_part",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "4K Storage Part"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

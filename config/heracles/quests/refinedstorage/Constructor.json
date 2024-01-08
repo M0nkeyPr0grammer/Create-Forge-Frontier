@@ -1,0 +1,43 @@
+{
+  "dependencies": [
+    "Cables"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "This interface will place the designated block in the direction it is pointed.",
+      "",
+      "You can designate the block within the GUI. This is useful for automation!"
+    ],
+    "groups": {
+      "Refined Storage": {
+        "position": [
+          -80,
+          -70
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "refinedstorage:constructor",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Constructor"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

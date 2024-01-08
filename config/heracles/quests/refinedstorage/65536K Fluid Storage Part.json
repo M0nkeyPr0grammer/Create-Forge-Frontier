@@ -1,0 +1,41 @@
+{
+  "dependencies": [
+    "16384K Fluid Storage Part"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The 65536k Fluid Storage Part is used to craft the 65536k Fluid Storage Disk."
+    ],
+    "groups": {
+      "Refined Storage": {
+        "position": [
+          -25,
+          355
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "extrastorage:storagepart_65536k_fluid",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "65536K Fluid Storage Part"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

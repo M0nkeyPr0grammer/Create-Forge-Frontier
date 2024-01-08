@@ -1,0 +1,41 @@
+{
+  "dependencies": [
+    "Disk Drive"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Allows you to take items and fluids from one disk into another grid's disks."
+    ],
+    "groups": {
+      "Refined Storage": {
+        "position": [
+          100,
+          20
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "refinedstorage:disk_manipulator",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Disk Manipulator"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

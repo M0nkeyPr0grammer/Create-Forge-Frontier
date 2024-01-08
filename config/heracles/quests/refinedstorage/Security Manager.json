@@ -1,0 +1,45 @@
+{
+  "dependencies": [
+    "Controller"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The Security Manager allows you to grant access and permissions to users within your network.",
+      "",
+      "When placed in your system, you'll need to create a Security Card for each player you'd like to configure permissions for. When no cards are present, everyone has access to all permissions.",
+      "",
+      "To restrict permissions and access to all unconfigured players, configure a card that isn't bound to a player and put it into the manager. The person who placed the Security Manager will always have access to it."
+    ],
+    "groups": {
+      "Refined Storage": {
+        "position": [
+          -140,
+          105
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "refinedstorage:security_manager",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Security Manager"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "dependencies": [
+    "Cables"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "This type of cable interface is probably the most important item one can make in their Refined Storage journey.",
+      "",
+      "This type of cable interface connects an external storage to your Refined Storage Network. It basically lets RS look into the storage container to let you access it within your grid!",
+      "",
+      "This works on many things, including but not limited to: Chests, Barrels, Drawers, Drawer Controllers, and more!",
+      "",
+      "If you can't make drives and have a bunch of chests everywhere, this is your best bet in creating a storage Network!"
+    ],
+    "groups": {
+      "Refined Storage": {
+        "position": [
+          -145,
+          10
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "refinedstorage:external_storage",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "External Storage"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

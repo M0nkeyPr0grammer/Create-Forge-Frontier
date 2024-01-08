@@ -1,0 +1,41 @@
+{
+  "dependencies": [
+    "65536K Fluid Storage Part"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The 262m Fluid Storage Part is used to craft the 262m Fluid Storage Disk."
+    ],
+    "groups": {
+      "Refined Storage": {
+        "position": [
+          41,
+          415
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "extradisks:262144k_fluid_storage_part",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "262m Fluid Storage Part"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

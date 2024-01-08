@@ -1,0 +1,43 @@
+{
+  "dependencies": [
+    "Infinity Range Booster"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "But this one does!",
+      "",
+      "This allows your RS system to be accessed wirelessly from any dimension."
+    ],
+    "groups": {
+      "Refined Storage": {
+        "position": [
+          375,
+          140
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "rsinfinitybooster:dimension_card",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Dimension Card"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

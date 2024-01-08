@@ -1,0 +1,43 @@
+{
+  "dependencies": [
+    "Grid"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "This lets you access your storage, but with a crafting table!",
+      "",
+      "Let's be honest, no one just uses regular Grids."
+    ],
+    "groups": {
+      "Refined Storage": {
+        "position": [
+          220,
+          80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "refinedstorage:crafting_grid",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Crafting Grid"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

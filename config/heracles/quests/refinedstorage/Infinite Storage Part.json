@@ -1,0 +1,41 @@
+{
+  "dependencies": [
+    "1048m Storage Part"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Infinite item storage!"
+    ],
+    "groups": {
+      "Refined Storage": {
+        "position": [
+          160,
+          355
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "extradisks:infinite_storage_part",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Infinite Storage Part"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}
