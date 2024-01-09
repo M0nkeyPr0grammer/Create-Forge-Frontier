@@ -2,8 +2,52 @@
   "dependencies": [
     "4K Storage Part"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "16": {
+      "type": "heracles:item",
+      "item": "refinedstorage:16k_storage_part",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "refinedstorage:16k_storage_part",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "16": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "refinedstorage:16k_storage_part",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "refinedstorage:16k_storage_part",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""

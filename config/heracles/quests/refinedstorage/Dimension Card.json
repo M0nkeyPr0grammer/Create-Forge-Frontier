@@ -2,8 +2,52 @@
   "dependencies": [
     "Infinity Range Booster"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "dim card": {
+      "type": "heracles:item",
+      "item": "rsinfinitybooster:dimension_card",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "rsinfinitybooster:dimension_card",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "LEVEL",
+      "amount": 5,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "nether star": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:nether_star",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:nether_star",
+        "count": 7
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""

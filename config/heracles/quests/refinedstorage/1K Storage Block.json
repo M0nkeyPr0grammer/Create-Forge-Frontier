@@ -3,8 +3,52 @@
     "1K Storage Part",
     "64K Fluid Storage Part"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "1K": {
+      "type": "heracles:item",
+      "item": "refinedstorage:1k_storage_block",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "refinedstorage:1k_storage_block",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "4k": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "refinedstorage:64k_fluid_storage_block",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "refinedstorage:64k_fluid_storage_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""

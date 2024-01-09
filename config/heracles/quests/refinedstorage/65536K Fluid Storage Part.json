@@ -2,8 +2,52 @@
   "dependencies": [
     "16384K Fluid Storage Part"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "65": {
+      "type": "heracles:item",
+      "item": "extradisks:65536k_fluid_storage_part",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "extradisks:65536k_fluid_storage_part",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "65": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "extradisks:65536k_fluid_storage_part",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "extradisks:65536k_fluid_storage_part",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""

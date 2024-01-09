@@ -2,8 +2,67 @@
   "dependencies": [
     "1048m Fluid Storage Part"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "infinite": {
+      "type": "heracles:item",
+      "item": "extradisks:infinite_fluid_storage_part",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "extradisks:infinite_fluid_storage_part",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "LEVEL",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "nether star": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:nether_star",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:nether_star",
+        "count": 7
+      },
+      "type": "heracles:item"
+    },
+    "part": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "extradisks:advanced_storage_housing",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "extradisks:advanced_storage_housing",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""

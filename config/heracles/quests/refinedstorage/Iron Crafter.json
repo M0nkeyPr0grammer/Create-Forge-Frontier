@@ -2,8 +2,52 @@
   "dependencies": [
     "Crafter"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "iron c": {
+      "type": "heracles:item",
+      "item": "extrastorage:iron_crafter",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "extrastorage:iron_crafter",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "iron": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:iron_block",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:iron_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""

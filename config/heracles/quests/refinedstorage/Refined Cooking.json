@@ -1,5 +1,7 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Requester"
+  ],
   "tasks": {},
   "rewards": {},
   "display": {
@@ -12,8 +14,8 @@
     "groups": {
       "Refined Storage": {
         "position": [
-          250,
-          170
+          675,
+          50
         ]
       }
     },

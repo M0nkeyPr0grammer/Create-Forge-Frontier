@@ -2,8 +2,52 @@
   "dependencies": [
     "Range Upgrade"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "infite": {
+      "type": "heracles:item",
+      "item": "rsinfinitybooster:infinity_card",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "rsinfinitybooster:infinity_card",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "range": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "rsinfinitybooster:infinity_card",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "rsinfinitybooster:infinity_card",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""

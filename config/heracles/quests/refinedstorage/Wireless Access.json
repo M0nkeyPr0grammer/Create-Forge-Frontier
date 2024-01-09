@@ -2,8 +2,52 @@
   "dependencies": [
     "Grid"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "wireless": {
+      "type": "heracles:item",
+      "item": "refinedstorage:wireless_transmitter",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "refinedstorage:wireless_transmitter",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "up": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "refinedstorage:upgrade",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "refinedstorage:upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""

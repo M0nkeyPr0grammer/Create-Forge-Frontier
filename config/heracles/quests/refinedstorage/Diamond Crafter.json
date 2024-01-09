@@ -2,8 +2,52 @@
   "dependencies": [
     "Gold Crafter"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "diamond c": {
+      "type": "heracles:item",
+      "item": "extrastorage:diamond_crafter",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "extrastorage:diamond_crafter",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "diamond": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:diamond_block",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:diamond_block",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""

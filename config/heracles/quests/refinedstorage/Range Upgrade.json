@@ -2,8 +2,52 @@
   "dependencies": [
     "Wireless Access"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "range": {
+      "type": "heracles:item",
+      "item": "refinedstorage:range_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "refinedstorage:range_upgrade",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "range": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "refinedstorage:range_upgrade",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "refinedstorage:range_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""

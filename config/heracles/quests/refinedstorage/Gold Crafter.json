@@ -2,8 +2,52 @@
   "dependencies": [
     "Iron Crafter"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "gold c": {
+      "type": "heracles:item",
+      "item": "extrastorage:gold_crafter",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "extrastorage:gold_crafter",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "gold": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:gold_block",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:gold_block",
+        "count": 2
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""

@@ -33,6 +33,19 @@
     }
   },
   "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    },
     "stack": {
       "title": "",
       "icon": {
@@ -75,7 +88,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Insert/Export Upgrades"
+      "translate": "Import/Export Upgrade"
     }
   },
   "settings": {
