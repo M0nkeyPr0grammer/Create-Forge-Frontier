@@ -2,8 +2,52 @@
   "dependencies": [
     "Refined Cooking"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "station": {
+      "type": "heracles:item",
+      "item": "refinedcooking:kitchen_station",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "refinedcooking:kitchen_station",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "improve": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "refinedstorage:advanced_processor",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "refinedstorage:advanced_processor",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""

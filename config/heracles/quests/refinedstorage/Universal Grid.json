@@ -4,8 +4,67 @@
     "Wireless Fluid Grid",
     "Wireless Crafting Grid"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "universal": {
+      "type": "heracles:item",
+      "item": "universalgrid:wireless_universal_grid",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "universalgrid:wireless_universal_grid",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "LEVEL",
+      "amount": 5,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "advanced": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "refinedstorage:advanced_processor",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "refinedstorage:advanced_processor",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "diamond": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:diamond_block",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:diamond_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""

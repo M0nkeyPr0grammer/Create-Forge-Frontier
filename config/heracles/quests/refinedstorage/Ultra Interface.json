@@ -2,13 +2,59 @@
   "dependencies": [
     "Elite"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "ultra": {
+      "type": "heracles:item",
+      "item": "cabletiers:ultra_interface",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "cabletiers:ultra_interface",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "diamond": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:diamond_block",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:diamond_block",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "The Ultra Interface has a total of 22 filter slots compared to the 9 filters of the standard interface."
+    ],
     "groups": {
       "Refined Storage": {
         "position": [
