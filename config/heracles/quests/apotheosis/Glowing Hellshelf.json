@@ -1,0 +1,39 @@
+{
+  "dependencies": [
+    "Blazing Hellshelf"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [],
+    "groups": {
+      "Apotheosis": {
+        "position": [
+          -50,
+          230
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "apotheosis:glowing_hellshelf",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Glowing Hellshelf"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

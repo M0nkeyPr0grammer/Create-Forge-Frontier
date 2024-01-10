@@ -1,0 +1,39 @@
+{
+  "dependencies": [
+    "Seashelf"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [],
+    "groups": {
+      "Apotheosis": {
+        "position": [
+          -50,
+          50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "apotheosis:infused_seashelf",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Infused Seashelf"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

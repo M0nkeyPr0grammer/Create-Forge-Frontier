@@ -1,0 +1,39 @@
+{
+  "dependencies": [
+    "Materials"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [],
+    "groups": {
+      "Apotheosis": {
+        "position": [
+          100,
+          -70
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "apotheosis:uncommon_material",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Timeworn Fabric"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

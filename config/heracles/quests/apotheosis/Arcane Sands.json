@@ -1,0 +1,39 @@
+{
+  "dependencies": [
+    "Luminous Crystal Shard"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [],
+    "groups": {
+      "Apotheosis": {
+        "position": [
+          100,
+          -10
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "apotheosis:epic_material",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Arcane Sands"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

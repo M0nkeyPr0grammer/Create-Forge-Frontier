@@ -1,0 +1,39 @@
+{
+  "dependencies": [
+    "Melonshelf"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [],
+    "groups": {
+      "Apotheosis": {
+        "position": [
+          -50,
+          -10
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "apotheosis:beeshelf",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Beeshelf"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}
