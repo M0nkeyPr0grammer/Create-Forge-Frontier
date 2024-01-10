@@ -32,12 +32,14 @@
   },
   "display": {
     "subtitle": {
-      "translate": "Welcome to Landscapes Reimagined"
+      "translate": "Welcome to Landscapes Reimagined Forge Frontier"
     },
     "description": [
       "                 /b/Welcome to Landscapes Reimagined Forge Frontier/b/",
-      " ",
-      "The questbook is here to help you throughout your journey through the modpack"
+      "",
+      "Welcome to **Landscapes Reimagined Forge Frontier**, the ultimate Minecraft modpack and a brilliant sequel to **Landscapes Reimagined Genesis**. This edition revolutionizes your gaming world, offering a vast array of landscapes and structures enhanced by premium mods. With new mobs, quests, and custom recipes, your adventure becomes richer and more engaging. Featuring innovative storage and automation options like Framed Blocks and Refined Storage, it brings a fresh take to your gameplay. Immerse yourself in beautifully generated worlds, all while experiencing the creative possibilities of the Create mod and its addons. Get ready for a Minecraft adventure like no other! ",
+      "",
+      "The questbook is here to help you throughout your journey through the modpack!"
     ],
     "groups": {
       "Main": {
