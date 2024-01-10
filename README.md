@@ -1,6 +1,16 @@
 # Landscapes Reimagined Forge Frontier
+![Temp Logo, placeholder until proper screenshot](https://cdn.modrinth.com/data/cached_images/342552e08328c55eb5da8a6cdcf11b702c166f8e.png)
 ## Description
-Coming Soon!
+Discover the pinnacle of Minecraft modding with **Landscapes Reimagined Forge Frontier**, 
+a masterful sequel to the acclaimed **Landscapes Reimagined Genesis**. This edition, powered
+by the Forge mod loader, delivers an unparalleled gaming experience, featuring sprawling
+landscapes and intricate structures, courtesy of top-tier mods from YUNG and other notable
+creators. Encounter a rich array of new mobs, delve into numerous quests, and explore custom
+recipes. With cutting-edge additions like Framed Blocks, Sophisticated Backpacks, and 
+Refined Storage,and many more, this modpack redefines storage and automation. Experience revamped world 
+generation across all dimensions, immersing you in a world that honors the essence of Vanilla 
+Minecraft, all while centering around the innovative Create mod and its many addons. Prepare for an adventure that 
+captivates and elevates your Minecraft journey.
 
 Download **Landscapes Reimagined Forge Frontier** today and dive into an elevated Minecraft adventure, striking a perfect balance between originality and innovation. The adventure awaits!
 #### **Interested in joining our Patreon. Check out our benefits [here](https://discord.com/servers/landscapes-reimagined-1097668922737696919), then join our [Discord](https://discord.gg/quenZthXgy)**
@@ -94,5 +104,3 @@ Download **Landscapes Reimagined Forge Frontier** today and dive into an elevate
     </ul>
   </details>
   
-
-
