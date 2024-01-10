@@ -1,0 +1,77 @@
+{
+  "dependencies": [
+    "Caged Mobs"
+  ],
+  "tasks": {
+    "check": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "You have a range of different cage upgrades that you can use, below are the available upgrades",
+      "",
+      "__Upgrades__",
+      "- Speed I Cage Upgrade: Increases Cage Speed by 50%",
+      "- Speed II Cage Upgrade: Increases Cage Speed by 100%",
+      "- Speed III Cage Upgrade: Increases Cage Speed by 200%",
+      "- Looting Cage Upgrade: Applies Looting III to the cage drops",
+      "- Arrow Cage Upgrade: Kills entities inside the cage with arrows",
+      "- Cooking Cage Upgrade: Automatically cooks cookable entity drops",
+      "- Lightning Cage Upgrade: Kills entities inside the cage with lightning",
+      "- Experience Cage Upgrade: Entities killed inside the cage drop Crystallized Experience"
+    ],
+    "groups": {
+      "Easy Automations": {
+        "position": [
+          -350,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "cagedmobs:speed_i_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Cage Upgrades"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}
