@@ -104,3 +104,5 @@ Download **Landscapes Reimagined Forge Frontier** today and dive into an elevate
     </ul>
   </details>
   
+## Want to play the prequel to this pack, check out my other modpack by clicking the link below
+### [Landscapes Reimagined Genesis](https://modrinth.com/modpack/landscapes-reimagined-genesis)
