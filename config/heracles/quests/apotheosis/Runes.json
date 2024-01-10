@@ -1,19 +1,21 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Libraries"
+  ],
   "tasks": {
-    "getting an upgrade": {
+    "sac rune": {
+      "type": "heracles:item",
+      "item": "apotheotic_additions:sacrificial_shelf",
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "apotheotic_additions:sacrificial_shelf",
+          "count": 1
         },
         "type": "heracles:item"
-      },
-      "advancements": [
-        "minecraft:story/upgrade_tools"
-      ],
-      "type": "heracles:advancement"
+      }
     }
   },
   "rewards": {
@@ -26,7 +28,7 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 100,
       "title": "",
       "type": "heracles:xp"
     }
@@ -36,28 +38,30 @@
       "text": ""
     },
     "description": [
-      "Apotheosis is a content mod that allows you to become stronger than ever before, while trying to stay true to vanilla mechanics at heart. Every feature is carefully put together to feel cohesive and complete.",
-      "",
-      "Features range from simple changes, like taller sugarcane, to massive overhauls of core systems such as Enchanting."
+      "Within Apotheosis you have access to runic shelves that grant even additional stats. The first one being the Sacrificial Rune grants the following enchanting stats",
+      "- Eterna: 7.5 each for a max of 50",
+      "- Quanta: 7.5%",
+      "- Arcana: -10%",
+      "- Enchanting Clues: -2"
     ],
     "groups": {
       "Apotheosis": {
         "position": [
-          0,
-          -150
+          -150,
+          -100
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:enchanted_book",
+        "id": "apotheotic_additions:sacrificial_shelf",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Apotheosis"
+      "translate": "Runes"
     }
   },
   "settings": {

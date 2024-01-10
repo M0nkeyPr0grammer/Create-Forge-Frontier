@@ -1,19 +1,21 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Enchanting"
+  ],
   "tasks": {
-    "getting an upgrade": {
+    "simple": {
+      "type": "heracles:item",
+      "item": "apotheosis:simple_reforging_table",
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "apotheosis:simple_reforging_table",
+          "count": 1
         },
         "type": "heracles:item"
-      },
-      "advancements": [
-        "minecraft:story/upgrade_tools"
-      ],
-      "type": "heracles:advancement"
+      }
     }
   },
   "rewards": {
@@ -36,28 +38,26 @@
       "text": ""
     },
     "description": [
-      "Apotheosis is a content mod that allows you to become stronger than ever before, while trying to stay true to vanilla mechanics at heart. Every feature is carefully put together to feel cohesive and complete.",
-      "",
-      "Features range from simple changes, like taller sugarcane, to massive overhauls of core systems such as Enchanting."
+      "Within Apotheosis you have different workstation tables. This first one, the simple reforging table, allows you to use gem dust and materials to reroll affixes up to Rare."
     ],
     "groups": {
       "Apotheosis": {
         "position": [
-          0,
-          -150
+          50,
+          -100
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:enchanted_book",
+        "id": "apotheosis:simple_reforging_table",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Apotheosis"
+      "translate": "Tables"
     }
   },
   "settings": {

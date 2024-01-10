@@ -1,19 +1,21 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Materials"
+  ],
   "tasks": {
-    "getting an upgrade": {
+    "vial of unaming": {
+      "type": "heracles:item",
+      "item": "apotheosis:vial_of_unnaming",
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "apotheosis:vial_of_unnaming",
+          "count": 1
         },
         "type": "heracles:item"
-      },
-      "advancements": [
-        "minecraft:story/upgrade_tools"
-      ],
-      "type": "heracles:advancement"
+      }
     }
   },
   "rewards": {
@@ -36,28 +38,26 @@
       "text": ""
     },
     "description": [
-      "Apotheosis is a content mod that allows you to become stronger than ever before, while trying to stay true to vanilla mechanics at heart. Every feature is carefully put together to feel cohesive and complete.",
-      "",
-      "Features range from simple changes, like taller sugarcane, to massive overhauls of core systems such as Enchanting."
+      "Within Apotheosis you have different vials that do different things, this first vial is the vial of unnaming, which removes Apotheotic names from armor and tools."
     ],
     "groups": {
       "Apotheosis": {
         "position": [
-          0,
-          -150
+          150,
+          -100
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:enchanted_book",
+        "id": "apotheosis:vial_of_unnaming",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Apotheosis"
+      "translate": "Vials"
     }
   },
   "settings": {
