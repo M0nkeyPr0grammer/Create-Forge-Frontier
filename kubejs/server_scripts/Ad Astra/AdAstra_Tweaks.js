@@ -22,6 +22,68 @@ ServerEvents.recipes(event => {
 
     // Creates Brand New Recipes for Ad Astra Machines
 
+                //Creates Alternate Faster Oil Mixing Recipe by Voidmaster01
+        
+                event.custom({
+                    type: "create:mixing",
+                    ingredients: [
+                        {
+                            item: 'farmersdelight:tree_bark',
+                            nbt: {},
+                            amount: 1
+                        }
+                    ],
+                    results: [
+                        {
+                            fluid: 'ad_astra:oil',
+                            amount: 5
+                        },
+                        {
+                            fluid: 'minecraft:water',
+                            amount: 2
+                        },
+                        {
+                            item: 'minecraft:charcoal',
+                           nbt: {},
+                            amount: 1
+                        },
+                    ],
+                    processingTime: 100, 
+                    heatRequirement: "superheated"
+                }).id('voidmaster01:mixing/fast_oil') 
+
+        //Creates Alternate Oil Mixing Recipe by Voidmaster01
+        
+        event.custom({
+            type: "create:mixing",
+            ingredients: [
+                {
+                    item: 'farmersdelight:tree_bark',
+                    nbt: {},
+                    amount: 1
+                }
+            ],
+            results: [
+                {
+                    fluid: 'ad_astra:oil',
+                    amount: 5
+                },
+                {
+                    fluid: 'minecraft:water',
+                    amount: 2
+                },
+                {
+                    item: 'minecraft:charcoal',
+                   nbt: {},
+                    amount: 1
+                },
+            ],
+            processingTime: 500, 
+            heatRequirement: "heated"
+        }).id('voidmaster01:mixing/oil') 
+
+
+
         // Creates Oil Mixing Recipe
         event.custom({
             type: "create:mixing",
