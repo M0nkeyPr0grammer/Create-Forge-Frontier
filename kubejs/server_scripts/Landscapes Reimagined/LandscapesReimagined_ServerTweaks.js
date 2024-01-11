@@ -9,7 +9,6 @@ ServerEvents.recipes(event => {
 	event.remove({ id: 'createfoundry:mixing/melting/ore/redstone_from_ore' })
 	event.remove({ id: 'createfoundry:mixing/melting/ore/lapis_from_ore' })
 	event.remove({ id: 'create:crushing/nether_wart_block'})
-	event.remove({ id: 'easy_villagers:iron_farm'})
 	event.remove({ id: 'structurecompass:structure_compass'})
 	event.remove({ id: 'shrink:shrinking_device'})
 
@@ -58,25 +57,6 @@ ServerEvents.recipes(event => {
 			C: 'minecraft:ender_eye'
 		}
 	)
-
-	// Easy Villagers Iron Farm Recipe
-	event.shaped(
-		Item.of('easy_villagers:iron_farm', 1),
-		[
-			'AAA',
-			'ABA',
-			'CDC'
-		],
-		{
-			A: 'minecraft:glass_pane',
-			B: 'minecraft:lava_bucket',
-			C: 'allthecompressed:iron_block_1x',
-			D: 'minecraft:stone'
-		}
-	)
-	
-	
-
 
 	// Any Dirt to Vanilla Dirt
 	event.shapeless(
