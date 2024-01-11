@@ -14,6 +14,6 @@ StartupEvents.registry('item', event => {
 
   event
     .create("kubejs:incomplete_raw_withering_processor")
-    .texture("extradisks:raw_withering_processor")
+    .texture("extradisks:item/raw_withering_processor")
 }
 )
