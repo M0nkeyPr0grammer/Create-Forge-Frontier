@@ -11,6 +11,23 @@ ServerEvents.recipes(event => {
 	event.remove({ id: 'create:crushing/nether_wart_block'})
 	event.remove({ id: 'easy_villagers:iron_farm'})
 	event.remove({ id: 'structurecompass:structure_compass'})
+	event.remove({ id: 'shrink:shrinking_device'})
+
+	// Creates Shrinking Device Recipe
+	event.shaped(
+		Item.of('shrink:shrinking_device', 1),
+		[
+			'ABA',
+			'ACA',
+			'ADA'
+		],
+		{
+			A: '#forge:ingots/steel',
+			B: '#forge:ender_pearls',
+			C: '#forge:glass',
+			D: '#minecraft:buttons'
+		}
+	)
 
 	// Creates Structure Compass Recipe
 	event.shaped(
