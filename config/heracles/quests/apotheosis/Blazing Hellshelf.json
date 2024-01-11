@@ -2,13 +2,62 @@
   "dependencies": [
     "Infused Hellshelf"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "s": {
+      "type": "heracles:item",
+      "item": "apotheosis:blazing_hellshelf",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "apotheosis:blazing_hellshelf",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "s": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "apotheosis:blazing_hellshelf",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "apotheosis:blazing_hellshelf",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "The Blazing Hellshelf grants you the following stats",
+      "- Eterena: +4 (Max 30)",
+      "- Quanta: +5%",
+      "- Enchanting Clues: -1"
+    ],
     "groups": {
       "Apotheosis": {
         "position": [

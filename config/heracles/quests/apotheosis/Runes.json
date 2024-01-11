@@ -31,6 +31,21 @@
       "amount": 100,
       "title": "",
       "type": "heracles:xp"
+    },
+    "a": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "apotheosis:ancient_material",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "apotheosis:ancient_material",
+        "count": 2
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
@@ -40,7 +55,7 @@
     "description": [
       "Within Apotheosis you have access to runic shelves that grant even additional stats. The first one being the Sacrificial Rune grants the following enchanting stats",
       "- Eterna: 7.5 each for a max of 50",
-      "- Quanta: 7.5%",
+      "- Quanta: +7.5%",
       "- Arcana: -10%",
       "- Enchanting Clues: -2"
     ],

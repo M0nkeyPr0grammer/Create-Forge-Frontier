@@ -38,7 +38,8 @@
       "text": ""
     },
     "description": [
-      "Within Apotheosis you have different tiers of bookshelves that each grant different enchantment stats. The basic bookshelf only grants you 1 Eterna each, with a maxiumun of 15 Eterna for enchanting purposes."
+      "Within Apotheosis you have different tiers of bookshelves that each grant different enchantment stats. The basic bookshelf only grants you the following stats",
+      "- Eterena: +1 (Max 15)"
     ],
     "groups": {
       "Apotheosis": {

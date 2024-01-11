@@ -2,13 +2,59 @@
   "dependencies": [
     "Godforged Pearl"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "ancient": {
+      "type": "heracles:item",
+      "item": "apotheosis:ancient_material",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "apotheosis:ancient_material",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "LEVEL",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "an": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "apotheosis:ancient_material",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "apotheosis:ancient_material",
+        "count": 3
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "This final material, the ancient material, is obtained when crushing ancient items in the salvaging table."
+    ],
     "groups": {
       "Apotheosis": {
         "position": [

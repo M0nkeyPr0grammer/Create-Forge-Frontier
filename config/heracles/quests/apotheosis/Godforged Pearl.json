@@ -2,13 +2,59 @@
   "dependencies": [
     "Arcane Sands"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "pearl": {
+      "type": "heracles:item",
+      "item": "apotheosis:mythic_material",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "apotheosis:mythic_material",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "p": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "apotheosis:mythic_material",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "apotheosis:mythic_material",
+        "count": 3
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "This fifth material, the godforged pearl, is obtained when crushing mythic items in the salvaging table."
+    ],
     "groups": {
       "Apotheosis": {
         "position": [

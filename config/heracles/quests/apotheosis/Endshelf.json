@@ -1,19 +1,70 @@
 {
   "dependencies": [
-    "Sou-Touched Deepshelf"
+    "Echoing Sculkshelf"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "s": {
+      "type": "heracles:item",
+      "item": "apotheosis:endshelf",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "apotheosis:endshelf",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "s": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "apotheosis:endshelf",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "apotheosis:endshelf",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "The Endshelf grants you the following stats",
+      "- Eterena: +2.5 (Max 45)",
+      "- Arcana: +5%",
+      "- Quanta: +5%",
+      "",
+      "In order to craft this you will need an infused Dragons breath, which is obtained by infusing dragons breath at a certain level, check EMI/JEI for levels."
+    ],
     "groups": {
       "Apotheosis": {
         "position": [
           -50,
-          380
+          410
         ]
       }
     },

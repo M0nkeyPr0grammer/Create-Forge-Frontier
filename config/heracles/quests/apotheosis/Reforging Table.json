@@ -2,13 +2,44 @@
   "dependencies": [
     "Tables"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "reforge": {
+      "type": "heracles:item",
+      "item": "apotheosis:reforging_table",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "apotheosis:reforging_table",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "Similar to the Simple Reforging table, but allows affixing of items Rare or higher."
+    ],
     "groups": {
       "Apotheosis": {
         "position": [

@@ -1,17 +1,17 @@
 {
   "dependencies": [
-    "Pearlescent Endshelf"
+    "Sou-Touched Deepshelf"
   ],
   "tasks": {
-    "s": {
+    "ech": {
       "type": "heracles:item",
-      "item": "apotheosis:draconic_endshelf",
+      "item": "apotheosis:echoing_sculkshelf",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "apotheosis:draconic_endshelf",
+          "id": "apotheosis:echoing_sculkshelf",
           "count": 1
         },
         "type": "heracles:item"
@@ -27,22 +27,22 @@
         },
         "type": "heracles:item"
       },
-      "xptype": "LEVEL",
-      "amount": 25,
+      "xptype": "POINTS",
+      "amount": 100,
       "title": "",
       "type": "heracles:xp"
     },
-    "s": {
+    "shelf": {
       "title": "",
       "icon": {
         "item": {
-          "id": "apotheosis:draconic_endshelf",
+          "id": "apotheosis:echoing_sculkshelf",
           "count": 1
         },
         "type": "heracles:item"
       },
       "item": {
-        "id": "apotheosis:draconic_endshelf",
+        "id": "apotheosis:echoing_sculkshelf",
         "count": 1
       },
       "type": "heracles:item"
@@ -53,27 +53,30 @@
       "text": ""
     },
     "description": [
-      "The Draconic Endshelf grants you the following stats",
-      "- Eterena: +10 (Max 50)"
+      "The Echoing Sculkshelf grants you the following stats",
+      "- Eterena: +5 (Max 40)",
+      "- Quanta: +5%",
+      "- Arcana: +15%",
+      "- Enchanting Clues: +1"
     ],
     "groups": {
       "Apotheosis": {
         "position": [
           -50,
-          470
+          380
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "apotheosis:draconic_endshelf",
+        "id": "apotheosis:echoing_sculkshelf",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Draconic Endshelf"
+      "translate": "Echoing Sculkshelf"
     }
   },
   "settings": {

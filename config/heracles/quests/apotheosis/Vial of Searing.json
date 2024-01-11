@@ -2,13 +2,59 @@
   "dependencies": [
     "Vial of Arcane Extraction"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "sear": {
+      "type": "heracles:item",
+      "item": "apotheosis:vial_of_expulsion",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "apotheosis:vial_of_expulsion",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "v": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "apotheosis:vial_of_expulsion",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "apotheosis:vial_of_expulsion",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "Using this vial allows you to remove Apotheosis gems from an item destroying them, but keeping the item."
+    ],
     "groups": {
       "Apotheosis": {
         "position": [

@@ -2,13 +2,61 @@
   "dependencies": [
     "Echoing Deepshelf"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "s": {
+      "type": "heracles:item",
+      "item": "apotheosis:soul_touched_deepshelf",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "apotheosis:soul_touched_deepshelf",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "s": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "apotheosis:soul_touched_deepshelf",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "apotheosis:soul_touched_deepshelf",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "The Soul-Touched Deepshelf grants you the following stats",
+      "- Eterena: +2.5 (Max 37.5)",
+      "- Quanta: +15%"
+    ],
     "groups": {
       "Apotheosis": {
         "position": [
@@ -26,7 +74,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Sou-Touched Deepshelf"
+      "translate": "Soul-Touched Deepshelf"
     }
   },
   "settings": {

@@ -2,13 +2,59 @@
   "dependencies": [
     "Luminous Crystal Shard"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "sands": {
+      "type": "heracles:item",
+      "item": "apotheosis:epic_material",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "apotheosis:epic_material",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "sa": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "apotheosis:epic_material",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "apotheosis:epic_material",
+        "count": 3
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "This fourth material, the arcane sands, is obtained when crushing epic items in the salvaging table."
+    ],
     "groups": {
       "Apotheosis": {
         "position": [

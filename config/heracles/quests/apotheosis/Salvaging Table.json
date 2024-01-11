@@ -2,13 +2,44 @@
   "dependencies": [
     "Reforging Table"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "salvaging": {
+      "type": "heracles:item",
+      "item": "apotheosis:salvaging_table",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "apotheosis:salvaging_table",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "The Salvaging Table allows you to crush Apothothic gems without having to drop an anvil on it to crush the gem. With this being in a create modpack, you are also able to crush gems via the crushing wheel for higher item output."
+    ],
     "groups": {
       "Apotheosis": {
         "position": [

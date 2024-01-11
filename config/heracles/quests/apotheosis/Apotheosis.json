@@ -38,7 +38,9 @@
     "description": [
       "Apotheosis is a content mod that allows you to become stronger than ever before, while trying to stay true to vanilla mechanics at heart. Every feature is carefully put together to feel cohesive and complete.",
       "",
-      "Features range from simple changes, like taller sugarcane, to massive overhauls of core systems such as Enchanting."
+      "Features range from simple changes, like taller sugarcane, to massive overhauls of core systems such as Enchanting.",
+      "",
+      "You can read more about Apotheosis in The Chronicle of Shadows, which is crafted with a book and a gold ingot."
     ],
     "groups": {
       "Apotheosis": {

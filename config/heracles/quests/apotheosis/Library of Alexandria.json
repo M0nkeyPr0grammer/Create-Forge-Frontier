@@ -2,13 +2,44 @@
   "dependencies": [
     "Libraries"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "library 2": {
+      "type": "heracles:item",
+      "item": "apotheosis:ender_library",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "apotheosis:ender_library",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "LEVEL",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "Similar to the Enchantment Library but allows you to store to the highest level enchantment available, for in this pack it is level 31."
+    ],
     "groups": {
       "Apotheosis": {
         "position": [

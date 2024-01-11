@@ -1,0 +1,86 @@
+{
+  "dependencies": [
+    "Apotheosis"
+  ],
+  "tasks": {
+    "charm": {
+      "type": "heracles:item",
+      "item": "apotheosis:potion_charm",
+      "nbt": {
+        "Potion": "minecraft:long_invisibility",
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "apotheosis:potion_charm",
+          "count": 1,
+          "nbt": {
+            "Potion": "minecraft:long_invisibility",
+            "Damage": 0
+          }
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Apotheosis includes new potions, adding in new recipes for previously unobtainable potions, and adds some other new content to support the usage of potions.  Immediately, you'll see new potions and recipes for some vanilla effects that could not be obtained before. You'll also see a brand new item - the Potion Charm, a combined and controllable potion.",
+      "",
+      "These charms are the combination of three copies of the same potion and some blaze powder.  Charms provide their specified effect when active and in the inventory (or in a curios slot if installed). Each charm has more effective potion duration than the three potions combined.  Most importantly, you can disable the charm whenever you want.  The duration is only applied in very short intervals.  If the Enchantment Module is enabled, you can make charms Unbreakable.",
+      "",
+      "This module also adds some brand new effects, such as Sundering, the inverse of resistance, and Ancient Knowledge, which increases experience gained from mob kills."
+    ],
+    "groups": {
+      "Apotheosis": {
+        "position": [
+          50,
+          -150
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "apotheosis:potion_charm",
+        "count": 1,
+        "nbt": {
+          "Potion": "minecraft:long_invisibility",
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Potion Charms"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

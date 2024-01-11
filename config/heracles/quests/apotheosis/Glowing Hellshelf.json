@@ -2,13 +2,62 @@
   "dependencies": [
     "Blazing Hellshelf"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "s": {
+      "type": "heracles:item",
+      "item": "apotheosis:glowing_hellshelf",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "apotheosis:glowing_hellshelf",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "s": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "apotheosis:glowing_hellshelf",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "apotheosis:glowing_hellshelf",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "The Glowing Hellshelf grants you the following stats",
+      "- Eterena: +2 (Max 30)",
+      "- Arcana: +4%",
+      "- Quanta: +2%"
+    ],
     "groups": {
       "Apotheosis": {
         "position": [

@@ -2,13 +2,44 @@
   "dependencies": [
     "Shelves"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "library 1": {
+      "type": "heracles:item",
+      "item": "apotheosis:library",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "apotheosis:library",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "LEVEL",
+      "amount": 2,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "Within Apotheosis you have access to two different enchantment libraries, this first level allows you to store enchantment books, each new one combines with the other to get higher level enchantment. You right click to get one level of the chosen enchantment, and shift right click to get the highest available level. This first tier allows you to store enchantments up to level 16 enchantments."
+    ],
     "groups": {
       "Apotheosis": {
         "position": [

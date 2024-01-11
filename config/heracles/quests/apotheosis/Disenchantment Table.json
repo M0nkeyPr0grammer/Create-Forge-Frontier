@@ -2,13 +2,44 @@
   "dependencies": [
     "Enchanting"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "disenchant": {
+      "type": "heracles:item",
+      "item": "disenchanting:disenchanter",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "disenchanting:disenchanter",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "The Disenchanter will remove the first enchantment from the item and transfer it onto a book. If you shift-click the output book, the Disenchanter will try to transfer all enchantments onto all available books, assuming you have enough experience and books to cover the cost."
+    ],
     "groups": {
       "Apotheosis": {
         "position": [

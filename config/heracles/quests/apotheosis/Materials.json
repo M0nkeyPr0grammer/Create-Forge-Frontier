@@ -31,6 +31,21 @@
       "amount": 10,
       "title": "",
       "type": "heracles:xp"
+    },
+    "sc": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "apotheosis:common_material",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "apotheosis:common_material",
+        "count": 3
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
@@ -38,7 +53,7 @@
       "text": ""
     },
     "description": [
-      "Within Apotheosis, you have different materials that you can get you affix to armor to get special stats on armor and tools. This first material, the mysterious scrap metal, is obtained when crushing common armor in the salvaging table."
+      "Within Apotheosis, you have different materials that you can get you affix to armor to get special stats on armor and tools. This first material, the mysterious scrap metal, is obtained when crushing common items in the salvaging table."
     ],
     "groups": {
       "Apotheosis": {

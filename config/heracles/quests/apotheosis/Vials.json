@@ -31,6 +31,21 @@
       "amount": 10,
       "title": "",
       "type": "heracles:xp"
+    },
+    "vi": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "apotheosis:vial_of_unnaming",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "apotheosis:vial_of_unnaming",
+        "count": 2
+      },
+      "type": "heracles:item"
     }
   },
   "display": {

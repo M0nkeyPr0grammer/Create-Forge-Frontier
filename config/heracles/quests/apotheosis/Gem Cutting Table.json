@@ -2,13 +2,44 @@
   "dependencies": [
     "Salvaging Table"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "gem table": {
+      "type": "heracles:item",
+      "item": "apotheosis:gem_cutting_table",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "apotheosis:gem_cutting_table",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "The Gem cutting table allows you to upgrade gems by using gem dust, any of the materials, and a second gem of equal rarity."
+    ],
     "groups": {
       "Apotheosis": {
         "position": [

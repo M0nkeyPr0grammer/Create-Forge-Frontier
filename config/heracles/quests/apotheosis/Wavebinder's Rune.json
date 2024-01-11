@@ -2,13 +2,63 @@
   "dependencies": [
     "Runes"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "wave": {
+      "type": "heracles:item",
+      "item": "apotheotic_additions:wavebinders_shelf",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "apotheotic_additions:wavebinders_shelf",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "r": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "apotheosis:ancient_material",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "apotheosis:ancient_material",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "The second one being the Wavebinder's Rune grants the following enchanting stats",
+      "- Eterna: 5 each for a max of 50",
+      "- Quanta: -1%",
+      "- Arcana: +15%",
+      "- Rectification: -10%"
+    ],
     "groups": {
       "Apotheosis": {
         "position": [

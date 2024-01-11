@@ -2,13 +2,61 @@
   "dependencies": [
     "Shelves"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "s": {
+      "type": "heracles:item",
+      "item": "apotheosis:stoneshelf",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "apotheosis:stoneshelf",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "s": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "apotheosis:stoneshelf",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "apotheosis:stoneshelf",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "The stoneshelf grants you the following stats",
+      "- Eterena: -1.5",
+      "- Arcana: -7.5%"
+    ],
     "groups": {
       "Apotheosis": {
         "position": [
