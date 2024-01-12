@@ -1,0 +1,67 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "basin": {
+      "block": "create:basin",
+      "state": {},
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:block_interaction"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "With the wonderful addition of Create Foundry, thanks to a friend of mine **CuddleTheif** for updating it for us, allows you to melt down ores for higher output compared to smelting or crushing methods. This chapter will take you through all the different forms of molten ore."
+    ],
+    "groups": {
+      "Molten Ores: Create Foundry": {
+        "position": [
+          0,
+          -120
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:basin",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Create Foundry"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

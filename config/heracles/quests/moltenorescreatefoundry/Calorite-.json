@@ -1,0 +1,39 @@
+{
+  "dependencies": [
+    "Create Foundry"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [],
+    "groups": {
+      "Molten Ores: Create Foundry": {
+        "position": [
+          -100,
+          20
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ad_astra:raw_calorite",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Calorite-"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

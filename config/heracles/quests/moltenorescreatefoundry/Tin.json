@@ -1,0 +1,39 @@
+{
+  "dependencies": [
+    "Create Foundry"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [],
+    "groups": {
+      "Molten Ores: Create Foundry": {
+        "position": [
+          20,
+          20
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create_dd:raw_tin",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Tin"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}
