@@ -5,9 +5,17 @@
   "tasks": {
     "sappling": {
       "type": "heracles:item",
+      "item": "#minecraft:saplings",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "#minecraft:saplings"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {},
@@ -27,7 +35,10 @@
       }
     },
     "icon": {
-      "item": "createaddition:biomass_pellet",
+      "item": {
+        "id": "createaddition:biomass_pellet",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
@@ -36,8 +47,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

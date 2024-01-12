@@ -1,17 +1,17 @@
 {
   "dependencies": [
-    "Sandpaper Overhaul"
+    "Enchantment Industry"
   ],
   "tasks": {
-    "polishing wheel": {
+    "enchanting guide": {
       "type": "heracles:item",
-      "item": "create_so:polishing_wheel",
+      "item": "create_enchantment_industry:enchanting_guide",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "create_so:polishing_wheel",
+          "id": "create_enchantment_industry:enchanting_guide",
           "count": 1
         },
         "type": "heracles:item"
@@ -28,9 +28,24 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 100,
+      "amount": 10,
       "title": "",
       "type": "heracles:xp"
+    },
+    "bottle": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_enchantment_industry:hyper_experience_bottle",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create_enchantment_industry:hyper_experience_bottle",
+        "count": 3
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
@@ -38,30 +53,26 @@
       "text": ""
     },
     "description": [
-      "The polishing wheel is used to mass polish",
-      "items instead of having to make a ton of sandpaper.",
-      "",
-      "These wheels act similar to crushing wheels but polish",
-      "the items instead."
+      "This enchanting guide allows you to automate crafting on enchantment books when given to a blaze. Once the blaze is provided liquid experience and a book it will create the newly chosen enchanted book."
     ],
     "groups": {
-      "Create Addons": {
+      "Create Addons pg 1": {
         "position": [
-          380,
-          -35
+          -400,
+          5
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "create_so:polishing_wheel",
+        "id": "create_enchantment_industry:enchanting_guide",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Polishing Wheel"
+      "translate": "Enchanting Guide"
     }
   },
   "settings": {

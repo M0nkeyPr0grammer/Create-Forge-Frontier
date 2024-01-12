@@ -1,50 +1,52 @@
 {
   "dependencies": [
-    "Blaze Cake"
+    "Create Goggles"
   ],
   "tasks": {
-    "Zinc Bucket": {
+    "goggle helmet": {
       "type": "heracles:item",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "createfoundry:molten_zinc_bucket"
+      "item": "creategoggles:goggle_diamond_helmet"
     }
   },
   "rewards": {
-    "Zine": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "diamonds": {
       "item": {
-        "id": "create:zinc_block",
-        "count": 1
+        "id": "minecraft:diamond_ore",
+        "count": 2
       },
       "type": "heracles:item"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Gathering this, starts your journey into more ore automation"
+      "text": ""
     },
     "description": [
-      "In order to get a bucket of molten zinc, you need to mix zinc",
-      "ore or raw zinc in a mixer while super heated.",
-      "",
-      "This bucket can be converted into one block of zinc and",
-      "one zinc."
+      "This Goggle Helmet will allow you to both wear",
+      "create googles and a helmet at the same time."
     ],
     "groups": {
-      "Create Foundry": {
+      "Create Addons pg 1": {
         "position": [
-          -100,
-          -50
+          -120,
+          5
         ]
       }
     },
     "icon": {
-      "item": "createfoundry:molten_zinc_bucket",
+      "item": "creategoggles:goggle_diamond_helmet",
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Molten Zinc"
+      "translate": "Goggle Helmet"
     }
   },
   "settings": {

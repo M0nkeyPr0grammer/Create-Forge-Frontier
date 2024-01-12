@@ -1,13 +1,13 @@
 {
   "dependencies": [
-    "Molten Redstone"
+    "Goggle Helmet"
   ],
   "tasks": {
-    "lapis": {
+    "backtank": {
       "type": "heracles:item",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "createfoundry:molten_lapis_bucket"
+      "item": "creategoggles:diamond_backtank"
     }
   },
   "rewards": {
@@ -16,10 +16,10 @@
       "amount": 10,
       "type": "heracles:xp"
     },
-    "lapis": {
+    "diamonds": {
       "item": {
-        "id": "minecraft:lapis_block",
-        "count": 1
+        "id": "minecraft:diamond_ore",
+        "count": 2
       },
       "type": "heracles:item"
     }
@@ -29,27 +29,25 @@
       "text": ""
     },
     "description": [
-      "In order to get a bucket of molten lapis, you need to mix lapis",
-      "ore in a mixer while super heated.",
-      "",
-      "This bucket can be converted into one block of lapis and",
-      "one lapis lazuli."
+      "This diamond backtank will allow you",
+      "to wear a diamond chestplate and a backtank",
+      "at the same time."
     ],
     "groups": {
-      "Create Foundry": {
+      "Create Addons pg 1": {
         "position": [
-          100,
-          -50
+          -120,
+          45
         ]
       }
     },
     "icon": {
-      "item": "createfoundry:molten_lapis_bucket",
+      "item": "creategoggles:diamond_backtank",
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Molten Lapis"
+      "translate": "Diamond Backtank"
     }
   },
   "settings": {

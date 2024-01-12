@@ -1,13 +1,19 @@
 {
   "dependencies": [
-    "Molten Emerald"
+    "Rolling Mill"
   ],
   "tasks": {
-    "carbon": {
+    "copper rod": {
       "type": "heracles:item",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "createfoundry:molten_carbon_bucket"
+      "item": "createaddition:copper_rod"
+    },
+    "connector": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "createaddition:connector"
     }
   },
   "rewards": {
@@ -16,10 +22,10 @@
       "amount": 10,
       "type": "heracles:xp"
     },
-    "coal": {
+    "slime": {
       "item": {
-        "id": "minecraft:coal_block",
-        "count": 1
+        "id": "minecraft:slime_ball",
+        "count": 16
       },
       "type": "heracles:item"
     }
@@ -29,27 +35,24 @@
       "text": ""
     },
     "description": [
-      "In order to get a bucket of molten carbon, you need to mix coal",
-      "ore in a mixer while super heated.",
-      "",
-      "This bucket can be converted into one block of coal and",
-      "one coal or molten diamond when pressed."
+      "The connector is used in conjunction with wires",
+      "to transfer energy."
     ],
     "groups": {
-      "Create Foundry": {
+      "Create Addons pg 1": {
         "position": [
-          180,
-          -50
+          -60,
+          19
         ]
       }
     },
     "icon": {
-      "item": "createfoundry:molten_carbon_bucket",
+      "item": "createaddition:connector",
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Molten Carbon"
+      "translate": "Connector"
     }
   },
   "settings": {

@@ -1,20 +1,27 @@
 {
   "dependencies": [
-    "Create Addons"
+    "Create Slice & Dice"
   ],
   "tasks": {
-    "chunk loader": {
+    "slicer": {
       "type": "heracles:item",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "createchunkloading:chunk_loader"
+      "item": "sliceanddice:slicer"
     }
   },
   "rewards": {
     "xp": {
       "xptype": "POINTS",
-      "amount": 100,
+      "amount": 10,
       "type": "heracles:xp"
+    },
+    "casing": {
+      "item": {
+        "id": "create:andesite_casing",
+        "count": 3
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
@@ -22,25 +29,24 @@
       "text": ""
     },
     "description": [
-      "This chunk loader will allow you to ",
-      "load a chunk, as long as there is rotating create",
-      "components nearbye."
+      "The slicer, allows you to automate farmer's",
+      "delight cutting board recipes."
     ],
     "groups": {
-      "Create Addons": {
+      "Create Addons pg 1": {
         "position": [
-          -60,
-          -35
+          205,
+          5
         ]
       }
     },
     "icon": {
-      "item": "createchunkloading:chunk_loader",
+      "item": "sliceanddice:slicer",
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Create Chunkloading"
+      "translate": "Slicer"
     }
   },
   "settings": {

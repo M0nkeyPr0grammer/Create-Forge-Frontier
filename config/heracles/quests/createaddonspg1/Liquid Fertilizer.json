@@ -1,13 +1,13 @@
 {
   "dependencies": [
-    "Molten Gold"
+    "Create Slice & Dice"
   ],
   "tasks": {
-    "ancient debris": {
+    "fertilizer": {
       "type": "heracles:item",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "createfoundry:molten_ancient_debris_bucket"
+      "item": "sliceanddice:fertilizer_bucket"
     }
   },
   "rewards": {
@@ -16,10 +16,10 @@
       "amount": 10,
       "type": "heracles:xp"
     },
-    "debris": {
+    "fertilizer": {
       "item": {
-        "id": "minecraft:ancient_debris",
-        "count": 1
+        "id": "create:tree_fertilizer",
+        "count": 16
       },
       "type": "heracles:item"
     }
@@ -29,27 +29,24 @@
       "text": ""
     },
     "description": [
-      "In order to get a bucket of molten ancient debris, you need to mix",
-      "ancient debris in a mixer while super heated.",
-      "",
-      "This bucket can be converted into one block ancient debris",
-      "or netherite, when mixed with gold."
+      "Liquid Fertilizer, a new fluid, applies a bonemeal affect to blocks.",
+      "This is created by mixing tree fertilizer and water together."
     ],
     "groups": {
-      "Create Foundry": {
+      "Create Addons pg 1": {
         "position": [
-          20,
-          -10
+          184,
+          45
         ]
       }
     },
     "icon": {
-      "item": "createfoundry:molten_ancient_debris_bucket",
+      "item": "sliceanddice:fertilizer_bucket",
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Molten Ancient Debris"
+      "translate": "Liquid Fertilizer"
     }
   },
   "settings": {

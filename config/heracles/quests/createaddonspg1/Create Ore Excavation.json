@@ -3,9 +3,9 @@
     "Create Addons"
   ],
   "tasks": {
-    "bucket": {
+    "iron": {
       "type": "heracles:item",
-      "item": "minecraft:bucket",
+      "item": "minecraft:raw_iron",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -27,28 +27,28 @@
       ""
     ],
     "groups": {
-      "Create Addons": {
+      "Create Addons pg 1": {
         "position": [
-          -240,
+          -180,
           -35
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "delightfulcreators:hot_cocoa_bucket",
+        "id": "minecraft:raw_iron",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
     "title": {
-      "translate": "Delightful Creators"
+      "translate": "Create Ore Excavation"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

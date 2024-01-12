@@ -1,13 +1,14 @@
 {
   "dependencies": [
-    "Create Addons"
+    "Void Casing",
+    "Graviton Tube"
   ],
   "tasks": {
-    "jetpack": {
+    "void motor": {
       "type": "heracles:item",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "create_jetpack:jetpack"
+      "item": "createutilities:void_motor"
     }
   },
   "rewards": {
@@ -15,13 +16,6 @@
       "xptype": "POINTS",
       "amount": 100,
       "type": "heracles:xp"
-    },
-    "cog wheel": {
-      "item": {
-        "id": "create:cogwheel",
-        "count": 1
-      },
-      "type": "heracles:item"
     }
   },
   "display": {
@@ -29,25 +23,24 @@
       "text": ""
     },
     "description": [
-      "This jetpack will allow close to creative flight, ",
-      "just remember to fill the jetpack with air, via rotation,",
-      "or it won't work."
+      "This item is created with a shaft, void casing, and",
+      "a graviton tube."
     ],
     "groups": {
-      "Create Addons": {
+      "Create Addons pg 1": {
         "position": [
-          120,
-          -35
+          324,
+          68
         ]
       }
     },
     "icon": {
-      "item": "create_jetpack:jetpack",
+      "item": "createutilities:void_motor",
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Create Jetpacks"
+      "translate": "Void Motor"
     }
   },
   "settings": {

@@ -1,13 +1,13 @@
 {
   "dependencies": [
-    "Molten Ancient Debris"
+    "Create Utilities"
   ],
   "tasks": {
-    "netherite": {
+    "void casing": {
       "type": "heracles:item",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "createfoundry:molten_netherite_bucket"
+      "item": "createutilities:void_casing"
     }
   },
   "rewards": {
@@ -15,13 +15,6 @@
       "xptype": "POINTS",
       "amount": 10,
       "type": "heracles:xp"
-    },
-    "netherite": {
-      "item": {
-        "id": "minecraft:netherite_block",
-        "count": 1
-      },
-      "type": "heracles:item"
     }
   },
   "display": {
@@ -29,27 +22,24 @@
       "text": ""
     },
     "description": [
-      "In order to get a bucket of molten netherite, you need to mix molten",
-      "gold and molten ancient debris in a mixer while super heated.",
-      "",
-      "This bucket can be converted into one block of netherite and",
-      "one netherite ingot."
+      "This item is created by right clicking a stripped",
+      "log with a void steel ingot."
     ],
     "groups": {
-      "Create Foundry": {
+      "Create Addons pg 1": {
         "position": [
-          20,
-          30
+          280,
+          5
         ]
       }
     },
     "icon": {
-      "item": "createfoundry:molten_netherite_bucket",
+      "item": "createutilities:void_casing",
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Molten Netherite"
+      "translate": "Void Casing"
     }
   },
   "settings": {

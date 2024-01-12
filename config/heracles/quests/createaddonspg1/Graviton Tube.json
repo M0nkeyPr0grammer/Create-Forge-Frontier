@@ -1,14 +1,19 @@
 {
   "dependencies": [
-    "Molten Zinc",
-    "Molten Copper"
+    "Void Plate"
   ],
   "tasks": {
-    "Molten Brass": {
+    "amethyst": {
       "type": "heracles:item",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "createfoundry:molten_brass_bucket"
+      "item": "createutilities:polished_amethyst"
+    },
+    "graviton": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "createutilities:graviton_tube"
     }
   },
   "rewards": {
@@ -17,9 +22,9 @@
       "amount": 10,
       "type": "heracles:xp"
     },
-    "Brass": {
+    "void steel ingot": {
       "item": {
-        "id": "create:brass_block",
+        "id": "minecraft:netherite_ingot",
         "count": 1
       },
       "type": "heracles:item"
@@ -30,27 +35,24 @@
       "text": ""
     },
     "description": [
-      "In order to get a bucket of molten brass, you need to mix brass",
-      "or molten copper and molten zinc in a mixer while super heated.",
-      "",
-      "This bucket can be converted into one block of brass and",
-      "one brass."
+      "This item is created by polishing an amethyst shard",
+      "and and combining it with a void steel plate."
     ],
     "groups": {
-      "Create Foundry": {
+      "Create Addons pg 1": {
         "position": [
-          -100,
-          -10
+          240,
+          90
         ]
       }
     },
     "icon": {
-      "item": "createfoundry:molten_brass_bucket",
+      "item": "createutilities:graviton_tube",
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Molten Brass"
+      "translate": "Graviton Tube"
     }
   },
   "settings": {

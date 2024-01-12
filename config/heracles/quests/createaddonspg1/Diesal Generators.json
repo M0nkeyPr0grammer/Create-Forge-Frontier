@@ -3,19 +3,18 @@
     "Create Addons"
   ],
   "tasks": {
-    "Brass": {
-      "type": "heracles:item",
-      "item": "create:brass_block",
-      "amount": 1,
-      "collection": "AUTOMATIC",
+    "brass": {
+      "block": "create:brass_casing",
+      "state": {},
       "title": "",
       "icon": {
         "item": {
-          "id": "create:brass_block",
+          "id": "create:brass_casing",
           "count": 1
         },
         "type": "heracles:item"
-      }
+      },
+      "type": "heracles:block_interaction"
     }
   },
   "rewards": {},
@@ -27,28 +26,28 @@
       ""
     ],
     "groups": {
-      "Create Addons": {
+      "Create Addons pg 1": {
         "position": [
-          340,
-          -35
+          -340,
+          -34
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "create_so:polishing_wheel",
+        "id": "createdieselgenerators:diesel_engine",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
     "title": {
-      "translate": "Sandpaper Overhaul"
+      "translate": "Diesel Generators"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

@@ -2,48 +2,31 @@
   "dependencies": [
     "Create Addons"
   ],
-  "tasks": {
-    "iron": {
-      "type": "heracles:item",
-      "item": "minecraft:raw_iron",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
-    }
-  },
+  "tasks": {},
   "rewards": {},
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [
-      ""
-    ],
+    "description": [],
     "groups": {
-      "Create Addons": {
+      "Create Addons pg 1": {
         "position": [
-          -180,
-          -35
+          -414,
+          -38
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:raw_iron",
+        "id": "minecraft:enchanting_table",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
     "title": {
-      "translate": "Create Ore Excavation"
+      "translate": "Enchantment Industry"
     }
   },
   "settings": {

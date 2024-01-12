@@ -1,13 +1,19 @@
 {
   "dependencies": [
-    "Molten Zinc"
+    "Create Crafts & Additions"
   ],
   "tasks": {
-    "Copper": {
+    "seed oil": {
       "type": "heracles:item",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "createfoundry:molten_copper_bucket"
+      "item": "createaddition:seed_oil_bucket"
+    },
+    "biomass": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "createaddition:biomass"
     }
   },
   "rewards": {
@@ -16,10 +22,10 @@
       "amount": 10,
       "type": "heracles:xp"
     },
-    "Copper": {
+    "biomass": {
       "item": {
-        "id": "minecraft:copper_block",
-        "count": 1
+        "id": "createaddition:biomass",
+        "count": 16
       },
       "type": "heracles:item"
     }
@@ -29,27 +35,24 @@
       "text": ""
     },
     "description": [
-      "In order to get a bucket of molten copper, you need to mix copper",
-      "ore or raw copper in a mixer while super heated.",
-      "",
-      "This bucket can be converted into one block of copper and",
-      "one copper ingot."
+      "Seed oil, is created by compacting seeds in a basin,",
+      "that oil is then mixed with any plant to create Biomass."
     ],
     "groups": {
-      "Create Foundry": {
+      "Create Addons pg 1": {
         "position": [
-          -60,
-          -50
+          90,
+          5
         ]
       }
     },
     "icon": {
-      "item": "createfoundry:molten_copper_bucket",
+      "item": "createaddition:biomass",
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Molten Copper"
+      "translate": "Biomass"
     }
   },
   "settings": {

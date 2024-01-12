@@ -1,46 +1,46 @@
 {
   "dependencies": [
-    "Delightful Creators"
+    "Diesal Generators"
   ],
   "tasks": {
-    "pie part": {
+    "basin lid": {
       "type": "heracles:item",
-      "item": "delightfulcreators:incomplete_apple_pie",
+      "item": "createdieselgenerators:basin_lid",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "createdieselgenerators:basin_lid",
+          "count": 1
         },
         "type": "heracles:item"
       }
     },
-    "pie": {
+    "seed oil": {
       "type": "heracles:item",
-      "item": "farmersdelight:apple_pie",
+      "item": "createaddition:seed_oil_bucket",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "createaddition:seed_oil_bucket",
+          "count": 1
         },
         "type": "heracles:item"
       }
     },
-    "crust": {
+    "fuel 2": {
       "type": "heracles:item",
-      "item": "farmersdelight:pie_crust",
+      "item": "createdieselgenerators:ethanol_bucket",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "createdieselgenerators:ethanol_bucket",
+          "count": 1
         },
         "type": "heracles:item"
       }
@@ -60,18 +60,18 @@
       "title": "",
       "type": "heracles:xp"
     },
-    "pie": {
+    "biodesal": {
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "createdieselgenerators:biodiesel_bucket",
+          "count": 1
         },
         "type": "heracles:item"
       },
       "item": {
-        "id": "farmersdelight:apple_pie_slice",
-        "count": 16
+        "id": "createdieselgenerators:biodiesel_bucket",
+        "count": 1
       },
       "type": "heracles:item"
     }
@@ -81,36 +81,27 @@
       "text": ""
     },
     "description": [
-      "With the addition of the Delightful Creators mod",
-      "you can automate the creation of Farmer's Delight",
-      "items through the process of sequenced assembly.",
-      "",
-      "To help you understand how to do this, you need to",
-      "create 3 tasks shown in the next tab.",
-      "~",
-      "Steps on how to complete:",
-      "- Create Pie Crust",
-      "- Place Apple, wheat flour, then sugar via the deployer",
-      "- Repeat the above step to complete the pie"
+      "These fuel sources are used inside the diesel engines",
+      "to produce kenetic energy."
     ],
     "groups": {
-      "Create Addons": {
+      "Create Addons pg 1": {
         "position": [
-          -280,
-          -35
+          -310,
+          5
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "delightfulcreators:incomplete_apple_pie",
+        "id": "createdieselgenerators:biodiesel_bucket",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "F.D. Sequenced Assembly"
+      "translate": "Fuel Sources"
     }
   },
   "settings": {

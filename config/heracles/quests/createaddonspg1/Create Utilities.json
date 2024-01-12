@@ -3,9 +3,9 @@
     "Create Addons"
   ],
   "tasks": {
-    "iron": {
+    "netherite": {
       "type": "heracles:item",
-      "item": "minecraft:raw_iron",
+      "item": "minecraft:netherite_ingot",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -27,23 +27,23 @@
       ""
     ],
     "groups": {
-      "Create Addons": {
+      "Create Addons pg 1": {
         "position": [
-          -180,
+          240,
           -35
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:raw_iron",
+        "id": "createutilities:void_steel_ingot",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
     "title": {
-      "translate": "Create Ore Excavation"
+      "translate": "Create Utilities"
     }
   },
   "settings": {

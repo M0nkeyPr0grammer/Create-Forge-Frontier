@@ -10,8 +10,8 @@
     "groups": {
       "Create Addons pg 1": {
         "position": [
-          -52,
-          1
+          -39,
+          -120
         ]
       }
     },
@@ -24,7 +24,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "text": "Create Addons Page 1"
+      "translate": "Create Addons Page 1"
     }
   },
   "settings": {
