@@ -460,24 +460,6 @@ ServerEvents.recipes(event => {
         ]
     }).id('kubejs:compacting/molten_lapis');
 
-    // Create Ancient Debris Compacting Recipe
-    event.custom({
-        type: "create:compacting",
-        ingredients: [
-            {
-                fluid: 'createfoundry:molten_ancient_debris',
-                nbt: {},
-                amount: 900
-            }
-        ],
-        results: [
-            {
-                item: 'minecraft:ancient_debris',
-                amount: 1
-            }
-        ]
-    }).id('kubejs:compacting/molten_ancient_debris');
-
     // Create Netherite Block Compacting Recipe
     event.custom({
         type: "create:compacting",
