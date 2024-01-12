@@ -8,9 +8,35 @@ ServerEvents.recipes(event => {
 	event.remove({ id: 'createaddition:crafting/diamond_grit_sandpaper' }) // Removes Broken Recipe
 	event.remove({ id: 'createfoundry:mixing/melting/ore/redstone_from_ore' })
 	event.remove({ id: 'createfoundry:mixing/melting/ore/lapis_from_ore' })
-	event.remove({ id: 'create:crushing/nether_wart_block'})
-	event.remove({ id: 'structurecompass:structure_compass'})
-	event.remove({ id: 'shrink:shrinking_device'})
+	event.remove({ id: 'create:crushing/nether_wart_block' })
+	event.remove({ id: 'structurecompass:structure_compass' })
+	event.remove({ id: 'shrink:shrinking_device' })
+	event.remove({ id: 'waystones:warp_stone' })
+	event.remove({ id: 'waystones:warp_dust' })
+
+	// Creates New Warp Stone Recipe
+	event.shaped(
+		Item.of('waystones:warp_stone', 1),
+		[
+			'ABA',
+			'BCB',
+			'ABA'
+		],
+		{
+			A: 'create:polished_rose_quartz',
+			B: '#forge:ender_pearls',
+			C: 'minecraft:emerald'
+		}
+	)
+
+	// Creates New Warp Dust Recipe
+	event.shapeless(
+		Item.of('waystones:warp_dust'),
+		[
+			'create:polished_rose_quartz',
+			'#forge:ender_pearls'
+		]
+	)
 
 	// Creates Shrinking Device Recipe
 	event.shaped(
