@@ -13,6 +13,21 @@ ServerEvents.recipes(event => {
 	event.remove({ id: 'shrink:shrinking_device' })
 	event.remove({ id: 'waystones:warp_stone' })
 	event.remove({ id: 'waystones:warp_dust' })
+	event.remove({ id: 'angelblockrenewed:angel_block'})
+
+	// Creates New Angel Block Recipe
+	event.shaped(
+		Item.of('angelblockrenewed:angel_block', 1),
+		[
+			'ABA',
+			'B B',
+			'ABA'
+		],
+		{
+			A: 'minecraft:feather',
+			B: 'createaddition:brass_rod'
+		}
+	)
 
 	// Creates New Warp Stone Recipe
 	event.shaped(
