@@ -1,7 +1,5 @@
 {
-  "dependencies": [
-    "Create Addons"
-  ],
+  "dependencies": [],
   "tasks": {},
   "rewards": {},
   "display": {
@@ -12,8 +10,8 @@
     "groups": {
       "Create Addons pg 1": {
         "position": [
-          -414,
-          -38
+          -140,
+          -60
         ]
       }
     },
@@ -24,7 +22,7 @@
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "title": {
       "translate": "Enchantment Industry"
     }

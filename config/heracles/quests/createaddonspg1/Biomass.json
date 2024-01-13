@@ -5,24 +5,56 @@
   "tasks": {
     "seed oil": {
       "type": "heracles:item",
+      "item": "createaddition:seed_oil_bucket",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "createaddition:seed_oil_bucket"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     },
     "biomass": {
       "type": "heracles:item",
+      "item": "createaddition:biomass",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "createaddition:biomass"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     },
     "biomass": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "createaddition:biomass",
         "count": 16
@@ -41,13 +73,16 @@
     "groups": {
       "Create Addons pg 1": {
         "position": [
-          90,
-          5
+          20,
+          -20
         ]
       }
     },
     "icon": {
-      "item": "createaddition:biomass",
+      "item": {
+        "id": "createaddition:biomass",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -56,8 +91,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

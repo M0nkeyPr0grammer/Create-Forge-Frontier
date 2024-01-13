@@ -1,0 +1,39 @@
+{
+  "dependencies": [
+    "Andesite Mesh"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [],
+    "groups": {
+      "Create Addons pg 2": {
+        "position": [
+          100,
+          60
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "createsifter:zinc_mesh",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Zinc Mesh"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

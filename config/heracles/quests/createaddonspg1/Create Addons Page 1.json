@@ -10,19 +10,19 @@
     "groups": {
       "Create Addons pg 1": {
         "position": [
-          -39,
+          0,
           -120
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:map",
+        "id": "create:cogwheel",
         "count": 1
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
     "title": {
       "translate": "Create Addons Page 1"
     }

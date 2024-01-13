@@ -1,0 +1,39 @@
+{
+  "dependencies": [
+    "Create Confectionery"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [],
+    "groups": {
+      "Create Addons pg 2": {
+        "position": [
+          -60,
+          -20
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create_confectionery:gingerbread",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Gingerbread"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

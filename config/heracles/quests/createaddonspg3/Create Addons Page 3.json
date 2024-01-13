@@ -17,14 +17,14 @@
     },
     "icon": {
       "item": {
-        "id": "minecraft:map",
+        "id": "create:large_water_wheel",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "text": "Create Addons Page 3"
+      "translate": "Create Addons Page 3"
     }
   },
   "settings": {

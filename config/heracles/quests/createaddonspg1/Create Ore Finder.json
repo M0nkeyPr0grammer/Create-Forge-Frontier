@@ -5,13 +5,29 @@
   "tasks": {
     "ore finder": {
       "type": "heracles:item",
+      "item": "createoreexcavation:vein_finder",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "createoreexcavation:vein_finder"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "eye": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "minecraft:ender_eye",
         "count": 1
@@ -19,8 +35,16 @@
       "type": "heracles:item"
     },
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     }
   },
@@ -38,13 +62,16 @@
     "groups": {
       "Create Addons pg 1": {
         "position": [
-          -180,
-          5
+          -60,
+          -20
         ]
       }
     },
     "icon": {
-      "item": "createoreexcavation:vein_finder",
+      "item": {
+        "id": "createoreexcavation:vein_finder",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -53,8 +80,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

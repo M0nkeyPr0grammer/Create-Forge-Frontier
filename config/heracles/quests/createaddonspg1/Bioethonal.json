@@ -5,9 +5,17 @@
   "tasks": {
     "bioethonal": {
       "type": "heracles:item",
+      "item": "createaddition:bioethanol_bucket",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "createaddition:bioethanol_bucket"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {},
@@ -23,13 +31,16 @@
     "groups": {
       "Create Addons pg 1": {
         "position": [
-          90,
-          45
+          20,
+          20
         ]
       }
     },
     "icon": {
-      "item": "createaddition:bioethanol_bucket",
+      "item": {
+        "id": "createaddition:bioethanol_bucket",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -38,8 +49,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

@@ -5,18 +5,42 @@
   "tasks": {
     "goggle helmet": {
       "type": "heracles:item",
+      "item": "creategoggles:goggle_diamond_helmet",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "creategoggles:goggle_diamond_helmet"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     },
     "diamonds": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "minecraft:diamond_ore",
         "count": 2
@@ -35,13 +59,19 @@
     "groups": {
       "Create Addons pg 1": {
         "position": [
-          -120,
-          5
+          -20,
+          -20
         ]
       }
     },
     "icon": {
-      "item": "creategoggles:goggle_diamond_helmet",
+      "item": {
+        "id": "creategoggles:goggle_diamond_helmet",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -50,8 +80,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

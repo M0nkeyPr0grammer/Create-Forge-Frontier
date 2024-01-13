@@ -1,20 +1,35 @@
 {
   "dependencies": [
-    "Void Casing",
-    "Graviton Tube"
+    "Void Casing"
   ],
   "tasks": {
     "void chest": {
       "type": "heracles:item",
+      "item": "createutilities:void_chest",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "createutilities:void_chest"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 100,
+      "title": "",
       "type": "heracles:xp"
     }
   },
@@ -29,13 +44,16 @@
     "groups": {
       "Create Addons pg 1": {
         "position": [
-          379,
-          90
+          100,
+          100
         ]
       }
     },
     "icon": {
-      "item": "createutilities:void_chest",
+      "item": {
+        "id": "createutilities:void_chest",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -44,8 +62,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

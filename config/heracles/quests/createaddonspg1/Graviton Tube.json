@@ -5,24 +5,56 @@
   "tasks": {
     "amethyst": {
       "type": "heracles:item",
+      "item": "createutilities:polished_amethyst",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "createutilities:polished_amethyst"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     },
     "graviton": {
       "type": "heracles:item",
+      "item": "createutilities:graviton_tube",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "createutilities:graviton_tube"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     },
     "void steel ingot": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "minecraft:netherite_ingot",
         "count": 1
@@ -41,13 +73,16 @@
     "groups": {
       "Create Addons pg 1": {
         "position": [
-          240,
-          90
+          100,
+          20
         ]
       }
     },
     "icon": {
-      "item": "createutilities:graviton_tube",
+      "item": {
+        "id": "createutilities:graviton_tube",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -56,8 +91,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

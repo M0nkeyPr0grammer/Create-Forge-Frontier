@@ -1,22 +1,46 @@
 {
   "dependencies": [
-    "Rolling Mill"
+    "Connector"
   ],
   "tasks": {
     "redstone relay": {
       "type": "heracles:item",
+      "item": "createaddition:redstone_relay",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "createaddition:redstone_relay"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     },
     "electron tube": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "create:electron_tube",
         "count": 1
@@ -34,13 +58,16 @@
     "groups": {
       "Create Addons pg 1": {
         "position": [
-          -41,
-          77
+          20,
+          140
         ]
       }
     },
     "icon": {
-      "item": "createaddition:redstone_relay",
+      "item": {
+        "id": "createaddition:redstone_relay",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -49,8 +76,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

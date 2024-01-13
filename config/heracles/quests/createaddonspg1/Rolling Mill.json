@@ -1,22 +1,46 @@
 {
   "dependencies": [
-    "Create Crafts & Additions"
+    "Bioethonal"
   ],
   "tasks": {
     "Rolling Mill": {
       "type": "heracles:item",
+      "item": "createaddition:rolling_mill",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "createaddition:rolling_mill"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     },
     "straw": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "createaddition:straw",
         "count": 1
@@ -35,13 +59,16 @@
     "groups": {
       "Create Addons pg 1": {
         "position": [
-          14,
-          5
+          20,
+          60
         ]
       }
     },
     "icon": {
-      "item": "createaddition:rolling_mill",
+      "item": {
+        "id": "createaddition:rolling_mill",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -50,8 +77,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

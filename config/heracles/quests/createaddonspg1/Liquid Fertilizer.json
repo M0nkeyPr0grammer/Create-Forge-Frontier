@@ -1,22 +1,46 @@
 {
   "dependencies": [
-    "Create Slice & Dice"
+    "Sprinkler"
   ],
   "tasks": {
     "fertilizer": {
       "type": "heracles:item",
+      "item": "sliceanddice:fertilizer_bucket",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "sliceanddice:fertilizer_bucket"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     },
     "fertilizer": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "create:tree_fertilizer",
         "count": 16
@@ -35,13 +59,16 @@
     "groups": {
       "Create Addons pg 1": {
         "position": [
-          184,
-          45
+          60,
+          60
         ]
       }
     },
     "icon": {
-      "item": "sliceanddice:fertilizer_bucket",
+      "item": {
+        "id": "sliceanddice:fertilizer_bucket",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -50,8 +77,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

@@ -1,19 +1,35 @@
 {
   "dependencies": [
-    "Create Slice & Dice"
+    "Slicer"
   ],
   "tasks": {
     "sprinkler": {
       "type": "heracles:item",
+      "item": "sliceanddice:sprinkler",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "sliceanddice:sprinkler"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     }
   },
@@ -32,13 +48,16 @@
     "groups": {
       "Create Addons pg 1": {
         "position": [
-          160,
-          5
+          60,
+          20
         ]
       }
     },
     "icon": {
-      "item": "sliceanddice:sprinkler",
+      "item": {
+        "id": "sliceanddice:sprinkler",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -47,8 +66,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

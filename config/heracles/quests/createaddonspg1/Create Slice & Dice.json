@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Create Addons"
+    "Create Addons Page 1"
   ],
   "tasks": {
     "knife": {
@@ -35,8 +35,8 @@
     "groups": {
       "Create Addons pg 1": {
         "position": [
-          180,
-          -35
+          60,
+          -60
         ]
       }
     },
@@ -50,7 +50,7 @@
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "title": {
       "translate": "Create Slice & Dice"
     }

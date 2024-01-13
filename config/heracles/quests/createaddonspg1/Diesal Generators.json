@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Create Addons"
+    "Create Addons Page 1"
   ],
   "tasks": {
     "brass": {
@@ -28,8 +28,8 @@
     "groups": {
       "Create Addons pg 1": {
         "position": [
-          -340,
-          -34
+          -100,
+          -60
         ]
       }
     },
@@ -40,7 +40,7 @@
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "title": {
       "translate": "Diesel Generators"
     }

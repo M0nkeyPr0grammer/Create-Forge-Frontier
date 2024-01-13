@@ -5,18 +5,42 @@
   "tasks": {
     "slicer": {
       "type": "heracles:item",
+      "item": "sliceanddice:slicer",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "sliceanddice:slicer"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     },
     "casing": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "create:andesite_casing",
         "count": 3
@@ -35,13 +59,16 @@
     "groups": {
       "Create Addons pg 1": {
         "position": [
-          205,
-          5
+          60,
+          -20
         ]
       }
     },
     "icon": {
-      "item": "sliceanddice:slicer",
+      "item": {
+        "id": "sliceanddice:slicer",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -50,8 +77,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

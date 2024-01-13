@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Create Addons"
+    "Create Addons Page 1"
   ],
   "tasks": {
     "netherite": {
@@ -24,13 +24,15 @@
       "text": ""
     },
     "description": [
-      ""
+      "The Void steel ingot is made by heating",
+      "a netherite ingot and a ender pearl",
+      "in a mixer."
     ],
     "groups": {
       "Create Addons pg 1": {
         "position": [
-          240,
-          -35
+          100,
+          -60
         ]
       }
     },
@@ -41,7 +43,7 @@
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "title": {
       "translate": "Create Utilities"
     }

@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Diesal Generators"
+    "Fuel Sources"
   ],
   "tasks": {
     "Piston": {
@@ -76,8 +76,8 @@
     "groups": {
       "Create Addons pg 1": {
         "position": [
-          -370,
-          5
+          -100,
+          20
         ]
       }
     },

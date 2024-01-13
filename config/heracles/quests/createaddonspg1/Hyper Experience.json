@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Enchantment Industry"
+    "Disenchanter"
   ],
   "tasks": {
     "bottle": {
@@ -63,8 +63,8 @@
     "groups": {
       "Create Addons pg 1": {
         "position": [
-          -435,
-          5
+          -140,
+          60
         ]
       }
     },

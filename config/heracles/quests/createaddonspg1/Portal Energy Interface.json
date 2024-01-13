@@ -1,28 +1,60 @@
 {
   "dependencies": [
-    "Rolling Mill"
+    "Electric Motor"
   ],
   "tasks": {
     "portal interface": {
       "type": "heracles:item",
+      "item": "createaddition:portable_energy_interface",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "createaddition:portable_energy_interface"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     },
     "copper spool": {
       "type": "heracles:item",
+      "item": "createaddition:copper_spool",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "createaddition:copper_spool"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     },
     "brass casing": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "create:brass_casing",
         "count": 3
@@ -40,13 +72,16 @@
     "groups": {
       "Create Addons pg 1": {
         "position": [
-          -56,
-          48
+          20,
+          300
         ]
       }
     },
     "icon": {
-      "item": "createaddition:portable_energy_interface",
+      "item": {
+        "id": "createaddition:portable_energy_interface",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -55,8 +90,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

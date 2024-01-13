@@ -1,40 +1,88 @@
 {
   "dependencies": [
-    "Rolling Mill"
+    "Alternator"
   ],
   "tasks": {
     "motor": {
       "type": "heracles:item",
+      "item": "createaddition:electric_motor",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "createaddition:electric_motor"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     },
     "spool": {
       "type": "heracles:item",
+      "item": "createaddition:copper_spool",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "createaddition:copper_spool"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     },
     "rod": {
       "type": "heracles:item",
+      "item": "createaddition:iron_rod",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "createaddition:iron_rod"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     },
     "capactior": {
       "type": "heracles:item",
+      "item": "createaddition:capacitor",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "createaddition:capacitor"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     },
     "wire": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "createaddition:gold_spool",
         "count": 8
@@ -52,13 +100,16 @@
     "groups": {
       "Create Addons pg 1": {
         "position": [
-          42,
-          106
+          20,
+          260
         ]
       }
     },
     "icon": {
-      "item": "createaddition:electric_motor",
+      "item": {
+        "id": "createaddition:electric_motor",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -67,8 +118,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }
