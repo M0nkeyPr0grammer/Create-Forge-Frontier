@@ -2,13 +2,59 @@
   "dependencies": [
     "Create Foundry"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "netherite": {
+      "type": "heracles:item",
+      "item": "createfoundry:molten_netherite_bucket",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "createfoundry:molten_netherite_bucket",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "netherite": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:netherite_block",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:netherite_block",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "Molten Ore of the variant is obtained by superheating a mixer and mixing 100mb of molten ancient debris and 100mb of molten gold into the basin."
+    ],
     "groups": {
       "Molten Ores: Create Foundry": {
         "position": [

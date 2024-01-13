@@ -2,13 +2,59 @@
   "dependencies": [
     "Create Foundry"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "tin": {
+      "type": "heracles:item",
+      "item": "kubejs:molten_tin_bucket",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "kubejs:molten_tin_bucket",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "tin": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_dd:raw_tin_block",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create_dd:raw_tin_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "Molten Ore of the variant is obtained by superheating a mixer and tossing ore or raw ore into the basin."
+    ],
     "groups": {
       "Molten Ores: Create Foundry": {
         "position": [
