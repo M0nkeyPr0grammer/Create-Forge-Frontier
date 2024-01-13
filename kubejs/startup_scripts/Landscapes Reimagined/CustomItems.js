@@ -29,5 +29,9 @@ StartupEvents.registry('item', event => {
     event.create('crushed_malachite')
         .displayName('Crushed Malachite')
         .texture('kubejs:item/crushed_malachite');
+
+    event.create('modpack_logo')
+        .displayName('Forge Frontier Logo')
+        .texture('kubejs:item/landscapes_reimagined_forgefrontier')
 });
 

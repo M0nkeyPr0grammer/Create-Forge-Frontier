@@ -16,6 +16,21 @@
     }
   },
   "rewards": {
+    "logo": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "kubejs:modpack_logo",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "kubejs:modpack_logo",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
     "10xp starter": {
       "icon": {
         "item": {
@@ -51,12 +66,12 @@
     },
     "icon": {
       "item": {
-        "id": "minecraft:map",
+        "id": "kubejs:modpack_logo",
         "count": 1
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
     "title": {
       "translate": "Introduction"
     }
