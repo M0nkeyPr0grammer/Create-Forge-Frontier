@@ -2,7 +2,7 @@
 ![Temp Logo, placeholder until proper screenshot](https://cdn.modrinth.com/data/cached_images/342552e08328c55eb5da8a6cdcf11b702c166f8e.png)
 ## Description
 Discover the pinnacle of Minecraft modding with **Landscapes Reimagined Forge Frontier**, 
-a masterful sequel to the acclaimed **Landscapes Reimagined Genesis**. This edition, powered
+a masterful sequel to the acclaimed [**Landscapes Reimagined Genesis**](https://modrinth.com/modpack/landscapes-reimagined-genesis). This edition, powered
 by the Forge mod loader, delivers an unparalleled gaming experience, featuring sprawling
 landscapes and intricate structures, courtesy of top-tier mods from YUNG and other notable
 creators. Encounter a rich array of new mobs, delve into numerous quests, and explore custom
@@ -87,8 +87,8 @@ Download **Landscapes Reimagined Forge Frontier** today and dive into an elevate
     <li><a href="https://www.curseforge.com/minecraft/texture-packs/copycat-framed-blocks">Copycat Framed Blocks</a></li>
     <li><a href="https://www.curseforge.com/minecraft/texture-packs/create-immersive-aircrafts-resource-pack">Create Immersive Aircrafts</a></li>
     <li><a href="https://www.curseforge.com/minecraft/texture-packs/lootrchestretexture-for-create">LootrChestRetexture for Create!</a></li>
-    <li><a href="https://www.curseforge.com/minecraft/texture-packs/create-style-construction-wands">Lopy's Create Style Construction Wands</a></li>
-    <li><a href="https://www.curseforge.com/minecraft/texture-packs/create-pipez">Lopy's Create Style Pipez</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/texture-packs/create-style-construction-wands">Lopy's Create Style Construction Wands (Requires External Download upon first launch)</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/texture-packs/create-pipez">Lopy's Create Style Pipez (Requires External Download upon first launch)</a></li>
     <li><a href="https://modrinth.com/resourcepack/sparkles">Stardust Labs Resourcepack</a></li>
   </details>
   
@@ -102,7 +102,4 @@ Download **Landscapes Reimagined Forge Frontier** today and dive into an elevate
         <a href="https://modrinth.com/shader/complementary-unbound">Complementary Reimagined Unbound</a>
       </li>
     </ul>
-  </details>
-  
-## Want to play the prequel to this pack, check out my other modpack by clicking the link below
-### [Landscapes Reimagined Genesis](https://modrinth.com/modpack/landscapes-reimagined-genesis)
+  </details> 
