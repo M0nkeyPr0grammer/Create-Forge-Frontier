@@ -80,7 +80,7 @@ ServerEvents.recipes(event => {
 		{
 			A: 'advancednetherite:netherite_iron_ingot',
 			B: 'naturescompass:naturescompass',
-			C: 'create:brass_block'
+			C: 'create_dd:blaze_gold_block'
 		}
 	)
 
