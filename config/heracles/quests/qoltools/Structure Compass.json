@@ -73,7 +73,8 @@
       "After which you Right-click the Structure Compass normally to start searching.",
       "",
       "Recipe",
-      "- The recipe for this compass uses the nature compass, 4 brass blocks, and 4 netherite iron ingots."
+      "- The recipe for this compass uses the nature compass, 4 blazing brass blocks, and 4 netherite iron ingots.",
+      "- Blazing Brass is obtained right clicking a Blaze with a Dreams and Desires Chromatic Compound."
     ],
     "groups": {
       "QOL Tools": {
