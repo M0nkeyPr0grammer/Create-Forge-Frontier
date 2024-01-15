@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Create Addons Page 3"
+    "Overstress Clutch"
   ],
   "tasks": {},
   "rewards": {},
@@ -13,25 +13,25 @@
       "Create Addons pg 3": {
         "position": [
           -60,
-          -60
+          260
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "create_connected:parallel_gearbox",
+        "id": "create_connected:item_silo",
         "count": 1
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Create Connected"
+      "translate": "Item Silo"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

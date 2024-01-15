@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Create Addons Page 3"
+    "Create Dreams and Desires"
   ],
   "tasks": {},
   "rewards": {},
@@ -12,26 +12,26 @@
     "groups": {
       "Create Addons pg 3": {
         "position": [
-          -60,
-          -60
+          20,
+          -20
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "create_connected:parallel_gearbox",
+        "id": "create_dd:ponder_stone_generation",
         "count": 1
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Create Connected"
+      "translate": "Fluid Stone Generation"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

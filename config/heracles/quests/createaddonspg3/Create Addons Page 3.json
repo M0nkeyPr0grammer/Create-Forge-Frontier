@@ -10,8 +10,8 @@
     "groups": {
       "Create Addons pg 3": {
         "position": [
-          -87,
-          20
+          0,
+          -120
         ]
       }
     },
@@ -22,7 +22,7 @@
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
     "title": {
       "translate": "Create Addons Page 3"
     }

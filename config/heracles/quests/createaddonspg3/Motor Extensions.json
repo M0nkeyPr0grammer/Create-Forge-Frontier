@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Create Addons Page 3"
+    "Motors"
   ],
   "tasks": {},
   "rewards": {},
@@ -12,26 +12,26 @@
     "groups": {
       "Create Addons pg 3": {
         "position": [
-          -60,
-          -60
+          60,
+          220
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "create_connected:parallel_gearbox",
+        "id": "create_new_age:basic_motor_extension",
         "count": 1
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Create Connected"
+      "translate": "Motor Extensions"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"
