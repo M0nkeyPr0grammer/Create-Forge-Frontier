@@ -5,24 +5,56 @@
   "tasks": {
     "f & s": {
       "type": "heracles:item",
+      "item": "minecraft:flint_and_steel",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "minecraft:flint_and_steel"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     },
     "oby": {
       "type": "heracles:item",
+      "item": "minecraft:obsidian",
       "amount": 10,
       "collection": "AUTOMATIC",
-      "item": "minecraft:obsidian"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     },
     "Give Obsidian": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "minecraft:obsidian",
         "count": 4
@@ -32,7 +64,7 @@
   },
   "display": {
     "subtitle": {
-      "translate": "Gather 10 obsidian and a flint and steel"
+      "text": ""
     },
     "description": [
       "Collect the resources to travel to the nether"
@@ -40,23 +72,28 @@
     "groups": {
       "Overworld": {
         "position": [
-          150,
-          -20
+          60,
+          -60
         ]
       }
     },
     "icon": {
-      "item": "minecraft:obsidian",
+      "item": {
+        "id": "minecraft:obsidian",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Nether portal resources"
+      "translate": "Build a Portal"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

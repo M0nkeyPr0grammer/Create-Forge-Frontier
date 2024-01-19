@@ -1,23 +1,39 @@
 {
   "dependencies": [
-    "Craft a diamond pickaxe"
+    "Enter the nether OW"
   ],
   "tasks": {
     "deep dark": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "biomes": "minecraft:deep_dark",
       "type": "heracles:biome"
     }
   },
   "rewards": {
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Enter into the deep dark"
+      "text": ""
     },
     "description": [
       "Find a deep dark biome"
@@ -25,13 +41,16 @@
     "groups": {
       "Overworld": {
         "position": [
-          150,
-          30
+          100,
+          -60
         ]
       }
     },
     "icon": {
-      "item": "minecraft:sculk",
+      "item": {
+        "id": "minecraft:sculk",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -40,8 +59,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

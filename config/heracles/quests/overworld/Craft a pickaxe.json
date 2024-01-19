@@ -1,25 +1,59 @@
 {
   "dependencies": [
-    "Craft a crafting table"
+    "Craft a sword"
   ],
   "tasks": {
     "Craft a pickaxe": {
       "type": "heracles:item",
+      "item": "minecraft:wooden_pickaxe",
+      "nbt": {
+        "Damage": 0
+      },
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "item": "minecraft:wooden_pickaxe"
+      "collection": "MANUAL",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "Pickaxe xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
+    },
+    "planks": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:oak_planks",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:oak_planks",
+        "count": 3
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Make a pickaxe"
+      "text": ""
     },
     "description": [
       "Craft a pickaxe to start your mining and progressing"
@@ -27,13 +61,19 @@
     "groups": {
       "Overworld": {
         "position": [
-          -200,
-          -20
+          -100,
+          20
         ]
       }
     },
     "icon": {
-      "item": "minecraft:wooden_pickaxe",
+      "item": {
+        "id": "minecraft:wooden_pickaxe",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -42,8 +82,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

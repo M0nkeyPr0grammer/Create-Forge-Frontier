@@ -1,32 +1,59 @@
 {
   "dependencies": [
-    "Craft a crafting table"
+    "Craft an axe"
   ],
   "tasks": {
     "Craft a shovel": {
       "type": "heracles:item",
+      "item": "minecraft:wooden_shovel",
+      "nbt": {
+        "Damage": 0
+      },
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "item": "minecraft:wooden_shovel"
+      "collection": "MANUAL",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "Receive Oak Plank": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:oak_planks",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "minecraft:oak_planks",
-        "count": 3
+        "count": 1
       },
       "type": "heracles:item"
     },
     "Shovel xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Make a shovel"
+      "text": ""
     },
     "description": [
       "Craft a shovel to make resource collection quicker"
@@ -34,13 +61,19 @@
     "groups": {
       "Overworld": {
         "position": [
-          -200,
-          -71
+          -100,
+          100
         ]
       }
     },
     "icon": {
-      "item": "minecraft:wooden_shovel",
+      "item": {
+        "id": "minecraft:wooden_shovel",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -49,8 +82,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

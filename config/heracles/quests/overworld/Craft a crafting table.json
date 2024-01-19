@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Get some planks"
+    "Craft some Planks"
   ],
   "tasks": {
     "Craft a crafting table": {
@@ -45,8 +45,8 @@
     "groups": {
       "Overworld": {
         "position": [
-          -250,
-          -20
+          -100,
+          -60
         ]
       }
     },
@@ -64,7 +64,7 @@
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

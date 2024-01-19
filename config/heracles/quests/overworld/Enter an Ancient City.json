@@ -4,20 +4,36 @@
   ],
   "tasks": {
     "Enter an Ancient City": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "structures": "#minecraft:ancient_city",
       "type": "heracles:structure"
     }
   },
   "rewards": {
     "Ancient city xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Enter an Ancient City"
+      "text": ""
     },
     "description": [
       "Enter an ancient city"
@@ -25,13 +41,16 @@
     "groups": {
       "Overworld": {
         "position": [
-          201,
-          30
+          100,
+          -20
         ]
       }
     },
     "icon": {
-      "item": "minecraft:reinforced_deepslate",
+      "item": {
+        "id": "minecraft:reinforced_deepslate",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -40,8 +59,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

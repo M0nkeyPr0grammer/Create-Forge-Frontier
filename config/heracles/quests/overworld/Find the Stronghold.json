@@ -1,6 +1,7 @@
 {
   "dependencies": [
-    "Craft a diamond pickaxe"
+    "Enter an Ancient City",
+    "End Remastered"
   ],
   "tasks": {
     "stronghold": {
@@ -33,16 +34,18 @@
   },
   "display": {
     "subtitle": {
-      "translate": "Find the Stronghold"
+      "text": ""
     },
     "description": [
-      "Craft eyes of ender and locate the stronghold"
+      "Craft an eye of ender to locate the stronghold",
+      "",
+      "- Note you will need to complete the initial End Remastered quest first, as it will teach you how to open the end portal."
     ],
     "groups": {
       "Overworld": {
         "position": [
-          150,
-          -70
+          140,
+          -60
         ]
       }
     },
@@ -60,7 +63,7 @@
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

@@ -1,25 +1,59 @@
 {
   "dependencies": [
-    "Craft a crafting table"
+    "Craft a pickaxe"
   ],
   "tasks": {
     "Craft an axe": {
       "type": "heracles:item",
+      "item": "minecraft:wooden_axe",
+      "nbt": {
+        "Damage": 0
+      },
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "item": "minecraft:wooden_axe"
+      "collection": "MANUAL",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "Axe xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
+    },
+    "planks": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:oak_planks",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:oak_planks",
+        "count": 3
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Make an axe"
+      "text": ""
     },
     "description": [
       "Craft an axe to chop trees quicker"
@@ -27,13 +61,19 @@
     "groups": {
       "Overworld": {
         "position": [
-          -200,
-          30
+          -100,
+          60
         ]
       }
     },
     "icon": {
-      "item": "minecraft:wooden_axe",
+      "item": {
+        "id": "minecraft:wooden_axe",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -42,8 +82,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

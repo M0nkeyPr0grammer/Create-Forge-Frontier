@@ -1,24 +1,25 @@
 {
   "dependencies": [
-    "Nether portal resources"
+    "Get a log"
   ],
   "tasks": {
-    "Enter the Nether overworld": {
+    "planks": {
+      "type": "heracles:item",
+      "item": "minecraft:oak_planks",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "minecraft:oak_planks",
+          "count": 1
         },
         "type": "heracles:item"
-      },
-      "from": "minecraft:overworld",
-      "to": "minecraft:the_nether",
-      "title": "",
-      "type": "heracles:changed_dimension"
+      }
     }
   },
   "rewards": {
-    "Nether OW": {
+    "xp": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -37,29 +38,26 @@
       "text": ""
     },
     "description": [
-      "Enter the Nether"
+      "Obtain oak planks"
     ],
     "groups": {
       "Overworld": {
         "position": [
-          60,
+          -140,
           -20
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:flint_and_steel",
-        "count": 1,
-        "nbt": {
-          "Damage": 0
-        }
+        "id": "minecraft:oak_planks",
+        "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Enter the Nether"
+      "translate": "Craft some Planks"
     }
   },
   "settings": {

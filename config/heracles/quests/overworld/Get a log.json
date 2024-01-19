@@ -1,5 +1,7 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Overworld"
+  ],
   "tasks": {
     "Chop a tree": {
       "type": "heracles:item",
@@ -35,7 +37,7 @@
   },
   "display": {
     "subtitle": {
-      "translate": "Chop down a tree"
+      "text": ""
     },
     "description": [
       "Chop down a log to start you on your adventure"
@@ -43,8 +45,8 @@
     "groups": {
       "Overworld": {
         "position": [
-          -350,
-          -20
+          -140,
+          -60
         ]
       }
     },
@@ -62,7 +64,7 @@
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

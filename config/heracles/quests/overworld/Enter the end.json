@@ -34,7 +34,7 @@
   },
   "display": {
     "subtitle": {
-      "translate": "Enter the End"
+      "text": ""
     },
     "description": [
       "Enter the end"
@@ -42,8 +42,8 @@
     "groups": {
       "Overworld": {
         "position": [
-          200,
-          -71
+          140,
+          -20
         ]
       }
     },
@@ -56,7 +56,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Enter the end"
+      "translate": "Enter the End"
     }
   },
   "settings": {

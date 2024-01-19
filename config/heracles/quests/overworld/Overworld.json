@@ -1,9 +1,8 @@
 {
-  "dependencies": [
-    "Nether portal resources"
-  ],
+  "dependencies": [],
   "tasks": {
-    "Enter the Nether overworld": {
+    "overworld": {
+      "title": "",
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -11,14 +10,12 @@
         },
         "type": "heracles:item"
       },
-      "from": "minecraft:overworld",
-      "to": "minecraft:the_nether",
-      "title": "",
-      "type": "heracles:changed_dimension"
+      "biomes": "#minecraft:is_overworld",
+      "type": "heracles:biome"
     }
   },
   "rewards": {
-    "Nether OW": {
+    "xp": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -37,29 +34,26 @@
       "text": ""
     },
     "description": [
-      "Enter the Nether"
+      ""
     ],
     "groups": {
       "Overworld": {
         "position": [
-          60,
-          -20
+          0,
+          -120
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:flint_and_steel",
-        "count": 1,
-        "nbt": {
-          "Damage": 0
-        }
+        "id": "minecraft:grass_block",
+        "count": 1
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
     "title": {
-      "translate": "Enter the Nether"
+      "translate": "Overworld"
     }
   },
   "settings": {

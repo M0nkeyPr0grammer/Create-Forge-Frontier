@@ -1,24 +1,31 @@
 {
   "dependencies": [
-    "Nether portal resources"
+    "Mine diamonds"
   ],
   "tasks": {
-    "Enter the Nether overworld": {
+    "sword": {
+      "type": "heracles:item",
+      "item": "minecraft:diamond_sword",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "minecraft:diamond_sword",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
         },
         "type": "heracles:item"
-      },
-      "from": "minecraft:overworld",
-      "to": "minecraft:the_nether",
-      "title": "",
-      "type": "heracles:changed_dimension"
+      }
     }
   },
   "rewards": {
-    "Nether OW": {
+    "xp": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -30,6 +37,21 @@
       "amount": 10,
       "title": "",
       "type": "heracles:xp"
+    },
+    "diamond": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:diamond",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:diamond",
+        "count": 2
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
@@ -37,19 +59,19 @@
       "text": ""
     },
     "description": [
-      "Enter the Nether"
+      "Gather a Diamond Sword"
     ],
     "groups": {
       "Overworld": {
         "position": [
-          60,
+          20,
           -20
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:flint_and_steel",
+        "id": "minecraft:diamond_sword",
         "count": 1,
         "nbt": {
           "Damage": 0
@@ -59,7 +81,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Enter the Nether"
+      "translate": "Diamond Sword"
     }
   },
   "settings": {
