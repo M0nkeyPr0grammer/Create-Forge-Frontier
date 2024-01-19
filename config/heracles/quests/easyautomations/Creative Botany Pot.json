@@ -36,13 +36,13 @@
       "title": "",
       "icon": {
         "item": {
-          "id": "botanypotstiers:creative_terracotta_hopper_botany_pot",
+          "id": "botanypotstiers:creative_terracotta_botany_pot",
           "count": 1
         },
         "type": "heracles:item"
       },
       "item": {
-        "id": "botanypotstiers:creative_terracotta_hopper_botany_pot",
+        "id": "botanypotstiers:creative_terracotta_botany_pot",
         "count": 1
       },
       "type": "heracles:item"
@@ -53,7 +53,9 @@
       "text": ""
     },
     "description": [
-      "The Creative Botany Pot is the highest tier of the tiered botany pots, it is 10 times faster and has 10 times the output of a standard botany pot."
+      "The Creative Botany Pot is the highest tier of the tiered botany pots, it is 10 times faster and has 10 times the output of a standard botany pot.",
+      "",
+      "- Note a Hopper Variant is created by combing a standard port with a create chute"
     ],
     "groups": {
       "Easy Automations": {

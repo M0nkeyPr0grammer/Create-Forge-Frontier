@@ -36,13 +36,13 @@
       "title": "",
       "icon": {
         "item": {
-          "id": "botanypots:terracotta_hopper_botany_pot",
+          "id": "botanypots:terracotta_botany_pot",
           "count": 1
         },
         "type": "heracles:item"
       },
       "item": {
-        "id": "botanypots:terracotta_hopper_botany_pot",
+        "id": "botanypots:terracotta_botany_pot",
         "count": 1
       },
       "type": "heracles:item"
@@ -55,7 +55,9 @@
     "description": [
       "The Botany Pot can be used for decoration, and to also make farming certain types of crops much easier.",
       "",
-      "First you need to craft the Botany Pot. Then you must think about the type of crop you want to grow and the soil it grows in. There are many kinds of soil blocks and certain crops will need certain soils. A good example of this is wheat growing in dirt and nether wart growing in soul sand. Once you have the soil and seed for your crop simply right click the block with your soil and then your seed. This will start the growth process for your crop. The crop may take a while to grow, you can speed it up by right clicking with bone meal and other fertilizers. Once the crop is done growing right click it to harvest and automatically plant another. To remove items from the botany pot you can sneak and right click the block with an empty hand. Breaking the block will also work."
+      "First you need to craft the Botany Pot. Then you must think about the type of crop you want to grow and the soil it grows in. There are many kinds of soil blocks and certain crops will need certain soils. A good example of this is wheat growing in dirt and nether wart growing in soul sand. Once you have the soil and seed for your crop simply right click the block with your soil and then your seed. This will start the growth process for your crop. The crop may take a while to grow, you can speed it up by right clicking with bone meal and other fertilizers. Once the crop is done growing right click it to harvest and automatically plant another. To remove items from the botany pot you can sneak and right click the block with an empty hand. Breaking the block will also work.",
+      "",
+      "- Note a Hopper Variant is created by combing a standard port with a create chute"
     ],
     "groups": {
       "Easy Automations": {
