@@ -43,8 +43,8 @@
     "groups": {
       "End Remastered": {
         "position": [
-          13,
-          15
+          0,
+          -120
         ]
       }
     },
@@ -55,7 +55,7 @@
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
     "title": {
       "translate": "End Remastered"
     }

@@ -51,8 +51,8 @@
     "groups": {
       "End Remastered": {
         "position": [
-          50,
-          -50
+          40,
+          -60
         ]
       }
     },
@@ -66,14 +66,14 @@
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "title": {
       "translate": "Old Eye"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Magic Eye"
+    "Warden's Eye"
   ],
   "tasks": {
     "evil eye": {
@@ -51,8 +51,8 @@
     "groups": {
       "End Remastered": {
         "position": [
-          120,
-          -5
+          0,
+          100
         ]
       }
     },
