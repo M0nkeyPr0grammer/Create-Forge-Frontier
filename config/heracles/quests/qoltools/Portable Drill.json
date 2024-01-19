@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Create Tools"
+    "Grapplin Whisk"
   ],
   "tasks": {
     "drill": {
@@ -58,8 +58,8 @@
     "groups": {
       "QOL Tools": {
         "position": [
-          -135,
-          -435
+          140,
+          140
         ]
       }
     },

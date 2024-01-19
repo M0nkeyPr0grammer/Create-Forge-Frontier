@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Create Tools"
+    "Wand of Symmetry"
   ],
   "tasks": {
     "extend": {
@@ -64,8 +64,8 @@
     "groups": {
       "QOL Tools": {
         "position": [
-          -135,
-          -275
+          140,
+          20
         ]
       }
     },

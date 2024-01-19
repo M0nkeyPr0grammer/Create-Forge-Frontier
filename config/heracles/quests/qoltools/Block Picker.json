@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Create Tools"
+    "Extendo Grip"
   ],
   "tasks": {
     "block picker": {
@@ -58,8 +58,8 @@
     "groups": {
       "QOL Tools": {
         "position": [
-          -135,
-          -355
+          140,
+          60
         ]
       }
     },

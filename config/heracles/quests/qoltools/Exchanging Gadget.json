@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Building Gadgets"
+    "Destruction Gadget"
   ],
   "tasks": {
     "exchange": {
@@ -58,8 +58,8 @@
     "groups": {
       "QOL Tools": {
         "position": [
-          -135,
-          -120
+          100,
+          100
         ]
       }
     },

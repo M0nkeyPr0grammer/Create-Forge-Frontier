@@ -58,8 +58,8 @@
     "groups": {
       "QOL Tools": {
         "position": [
-          -195,
-          50
+          -20,
+          -60
         ]
       }
     },
@@ -70,14 +70,14 @@
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "title": {
       "translate": "Simple Magnet"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

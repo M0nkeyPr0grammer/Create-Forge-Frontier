@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Building Gadgets"
+    "Cut Paste Gadget"
   ],
   "tasks": {
     "dest": {
@@ -58,8 +58,8 @@
     "groups": {
       "QOL Tools": {
         "position": [
-          -135,
-          -240
+          100,
+          60
         ]
       }
     },

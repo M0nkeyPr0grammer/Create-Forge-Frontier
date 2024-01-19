@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Create Tools"
+    "Block Picker"
   ],
   "tasks": {
     "grapple": {
@@ -58,8 +58,8 @@
     "groups": {
       "QOL Tools": {
         "position": [
-          -135,
-          -395
+          140,
+          100
         ]
       }
     },

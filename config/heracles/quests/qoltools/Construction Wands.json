@@ -64,8 +64,8 @@
     "groups": {
       "QOL Tools": {
         "position": [
-          -195,
-          0
+          60,
+          -60
         ]
       }
     },
@@ -79,14 +79,14 @@
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "title": {
       "translate": "Stone Wand"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"
