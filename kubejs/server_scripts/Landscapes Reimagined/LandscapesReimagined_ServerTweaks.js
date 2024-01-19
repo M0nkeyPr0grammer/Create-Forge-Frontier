@@ -1,7 +1,5 @@
 // priority: 0
 
-console.info('Hello, World! (You will see this line every time server resources reload)')
-
 ServerEvents.recipes(event => {
 	// Remove recipes here
 	event.remove({ id: 'chipped:benches/mechanist_workbench' }) // Removes Recipe, fixed below
