@@ -1,0 +1,99 @@
+{
+  "dependencies": [
+    "QOL Tools"
+  ],
+  "tasks": {
+    "check": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "emerald": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:emerald_block",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:emerald_block",
+        "count": 3
+      },
+      "type": "heracles:item"
+    },
+    "book": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:book",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:book",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Vein Mining is available in this pack as an enchantment, which allows the enchanted tool to break matching connected blocks at the press of a keybinded key. This book can be obtained by either finding it in loot, trading it with a Villager, or through an enchantment table.",
+      "",
+      "- Note that when using vein mining it will use up durability on your tools and use up player exhaustion."
+    ],
+    "groups": {
+      "QOL Tools": {
+        "position": [
+          -196,
+          486
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:enchanted_book",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Vein Mining"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}
