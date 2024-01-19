@@ -10,7 +10,7 @@
         "type": "heracles:item"
       },
       "stat": "minecraft:walk_one_cm",
-      "target": 1,
+      "target": 10,
       "title": "",
       "type": "heracles:stat"
     }

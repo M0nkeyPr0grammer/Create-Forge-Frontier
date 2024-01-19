@@ -10,7 +10,7 @@
         },
         "type": "heracles:item"
       },
-      "biomes": "#minecraft:is_overworld",
+      "biomes": "#minecraft:is_river",
       "type": "heracles:biome"
     }
   },
