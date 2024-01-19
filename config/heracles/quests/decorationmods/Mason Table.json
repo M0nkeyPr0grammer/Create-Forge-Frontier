@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Chipped"
+    "Carpenters Table"
   ],
   "tasks": {
     "mason": {
@@ -44,8 +44,8 @@
     "groups": {
       "Decoration Mods": {
         "position": [
-          50,
-          0
+          100,
+          20
         ]
       }
     },

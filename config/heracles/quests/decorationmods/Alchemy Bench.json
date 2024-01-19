@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Chipped"
+    "Tinkering Table"
   ],
   "tasks": {
     "alchemy": {
@@ -44,8 +44,8 @@
     "groups": {
       "Decoration Mods": {
         "position": [
-          -50,
-          0
+          140,
+          60
         ]
       }
     },

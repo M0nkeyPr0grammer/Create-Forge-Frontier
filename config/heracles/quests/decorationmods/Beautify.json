@@ -46,8 +46,8 @@
     "groups": {
       "Decoration Mods": {
         "position": [
-          0,
-          47
+          -60,
+          -60
         ]
       }
     },
@@ -58,7 +58,7 @@
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "title": {
       "translate": "Beautify"
     }

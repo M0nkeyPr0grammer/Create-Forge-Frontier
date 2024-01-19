@@ -50,8 +50,8 @@
     "groups": {
       "Decoration Mods": {
         "position": [
-          170,
-          -95
+          60,
+          -60
         ]
       }
     },
@@ -62,7 +62,7 @@
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "title": {
       "translate": "Framed Blocks"
     }

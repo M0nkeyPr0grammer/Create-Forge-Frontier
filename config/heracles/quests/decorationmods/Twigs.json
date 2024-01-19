@@ -43,8 +43,8 @@
     "groups": {
       "Decoration Mods": {
         "position": [
-          120,
-          -95
+          -20,
+          -60
         ]
       }
     },
@@ -55,7 +55,7 @@
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "title": {
       "translate": "Twigs"
     }

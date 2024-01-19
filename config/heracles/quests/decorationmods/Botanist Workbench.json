@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Chipped"
+    "Glassblower"
   ],
   "tasks": {
     "botanist": {
@@ -44,8 +44,8 @@
     "groups": {
       "Decoration Mods": {
         "position": [
-          -90,
-          -50
+          100,
+          100
         ]
       }
     },

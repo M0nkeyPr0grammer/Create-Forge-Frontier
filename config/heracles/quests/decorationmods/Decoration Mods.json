@@ -27,7 +27,7 @@
       "Decoration Mods": {
         "position": [
           0,
-          -150
+          -120
         ]
       }
     },
@@ -38,7 +38,7 @@
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
     "title": {
       "translate": "Decoration Mods"
     }
