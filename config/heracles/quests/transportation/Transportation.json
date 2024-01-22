@@ -40,8 +40,8 @@
     "groups": {
       "Transportation": {
         "position": [
-          -80,
-          -150
+          0,
+          -120
         ]
       }
     },
@@ -52,7 +52,7 @@
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
     "title": {
       "translate": "Transportation"
     }
