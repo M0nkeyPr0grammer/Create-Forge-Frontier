@@ -1,23 +1,9 @@
 {
   "dependencies": [
-    "Netherite Monstrosity"
+    "Infernal Altar"
   ],
   "tasks": {
-    "eye": {
-      "type": "heracles:item",
-      "item": "cataclysm:flame_eye",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "cataclysm:flame_eye",
-          "count": 1
-        },
-        "type": "heracles:item"
-      }
-    },
-    "burning arena": {
+    "fallen to ashes": {
       "title": "",
       "icon": {
         "item": {
@@ -26,8 +12,10 @@
         },
         "type": "heracles:item"
       },
-      "structures": "cataclysm:burning_arena",
-      "type": "heracles:structure"
+      "advancements": [
+        "incendium:infernal_dunes/inferno/kill"
+      ],
+      "type": "heracles:advancement"
     }
   },
   "rewards": {
@@ -40,7 +28,7 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 100,
+      "amount": 1000,
       "title": "",
       "type": "heracles:xp"
     }
@@ -50,26 +38,26 @@
       "text": ""
     },
     "description": [
-      "This structure is found in the Nether by using an Eye of Flame."
+      "In order to spawn the hovering inferno, you need to right click a nether star on the altar. Good luck killing this boss!"
     ],
     "groups": {
       "Boss Mobs": {
         "position": [
           0,
-          100
+          260
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "cataclysm:altar_of_fire",
+        "id": "minecraft:blaze_spawn_egg",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Burning Arena"
+      "translate": "Hovering Inferno"
     }
   },
   "settings": {

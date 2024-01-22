@@ -1,24 +1,9 @@
 {
   "dependencies": [
-    "Netherite Monstrosity"
+    "Citadel"
   ],
   "tasks": {
-    "eye": {
-      "type": "heracles:item",
-      "item": "cataclysm:flame_eye",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "cataclysm:flame_eye",
-          "count": 1
-        },
-        "type": "heracles:item"
-      }
-    },
-    "burning arena": {
-      "title": "",
+    "wild fire": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -26,8 +11,12 @@
         },
         "type": "heracles:item"
       },
-      "structures": "cataclysm:burning_arena",
-      "type": "heracles:structure"
+      "entity": {
+        "type": "friendsandfoes:wildfire"
+      },
+      "amount": 1,
+      "title": "",
+      "type": "heracles:kill_entity"
     }
   },
   "rewards": {
@@ -40,7 +29,7 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 100,
+      "amount": 1000,
       "title": "",
       "type": "heracles:xp"
     }
@@ -50,26 +39,26 @@
       "text": ""
     },
     "description": [
-      "This structure is found in the Nether by using an Eye of Flame."
+      "Wildfire, the master of blazes, which is protected by four shields. This encounter is not a friendly one, watch out for its shield debris barrage and ground-shaking shockwave attack. When cornered, it summons blazes for reinforcement. Conquer the challenge, wield strategy against this fiery sentinel in it's citadel domain."
     ],
     "groups": {
       "Boss Mobs": {
         "position": [
           0,
-          100
+          340
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "cataclysm:altar_of_fire",
+        "id": "friendsandfoes:wildfire_spawn_egg",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Burning Arena"
+      "translate": "Wildfire"
     }
   },
   "settings": {
