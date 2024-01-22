@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Sophistical Chest"
+    "Limited Barrel IV"
   ],
   "tasks": {
     "shulker": {
@@ -43,8 +43,8 @@
     "groups": {
       "Sophicated Mods": {
         "position": [
-          25,
-          50
+          20,
+          180
         ]
       }
     },

@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Sophisticated Storage"
+    "Sophistical Chest"
   ],
   "tasks": {
     "limit 1": {
@@ -43,8 +43,8 @@
     "groups": {
       "Sophicated Mods": {
         "position": [
-          25,
-          -25
+          20,
+          20
         ]
       }
     },
