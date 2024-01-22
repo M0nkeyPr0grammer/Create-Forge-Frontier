@@ -1,9 +1,9 @@
 {
   "dependencies": [
-    "Special Structures"
+    "Find a bastion"
   ],
   "tasks": {
-    "Enter a Nether Fortress": {
+    "cit": {
       "title": "",
       "icon": {
         "item": {
@@ -12,12 +12,12 @@
         },
         "type": "heracles:item"
       },
-      "structures": "#betterfortresses:better_fortresses",
+      "structures": "friendsandfoes:citadel",
       "type": "heracles:structure"
     }
   },
   "rewards": {
-    "Fortress xp": {
+    "x": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -30,18 +30,18 @@
       "title": "",
       "type": "heracles:xp"
     },
-    "blaze rod": {
+    "frag": {
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:blaze_rod",
+          "id": "friendsandfoes:wildfire_crown_fragment",
           "count": 1
         },
         "type": "heracles:item"
       },
       "item": {
-        "id": "minecraft:blaze_rod",
-        "count": 3
+        "id": "friendsandfoes:wildfire_crown_fragment",
+        "count": 2
       },
       "type": "heracles:item"
     }
@@ -51,26 +51,26 @@
       "text": ""
     },
     "description": [
-      "Find a Nether Fortress and enter it"
+      "Find a Citadel and enter it"
     ],
     "groups": {
       "The Nether": {
         "position": [
           -100,
-          -20
+          60
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:nether_bricks",
+        "id": "minecraft:red_nether_bricks",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Fortress"
+      "translate": "Citadel"
     }
   },
   "settings": {

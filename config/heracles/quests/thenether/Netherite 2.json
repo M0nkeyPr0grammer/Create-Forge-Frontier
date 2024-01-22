@@ -2,23 +2,23 @@
   "dependencies": [
     "Netherite 1"
   ],
-  "tasks": {},
-  "rewards": {
-    "gold": {
+  "tasks": {
+    "netherite gold": {
+      "type": "heracles:item",
+      "item": "advancednetherite:netherite_gold_ingot",
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:gold_ingot",
+          "id": "advancednetherite:netherite_gold_ingot",
           "count": 1
         },
         "type": "heracles:item"
-      },
-      "item": {
-        "id": "minecraft:gold_ingot",
-        "count": 4
-      },
-      "type": "heracles:item"
-    },
+      }
+    }
+  },
+  "rewards": {
     "xp": {
       "icon": {
         "item": {
@@ -31,6 +31,21 @@
       "amount": 100,
       "title": "",
       "type": "heracles:xp"
+    },
+    "netherite gold": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "advancednetherite:netherite_gold_ingot",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "advancednetherite:netherite_gold_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
@@ -38,15 +53,13 @@
       "text": ""
     },
     "description": [
-      "The netherite gold ingot is the next tier of netherite, when used to craft a chestplate it grants you an ability to pacify nearby piglins. The armor and tools of this tier has higher enchantability and durability of the previous tier. When mining you have an additional chance of getting more ore drops based off the type of netherite ingot, example netherite iron gives more raw iron when mining iron ore. Each tool has a higher speed of the previous tier, for example swords have more attack speed and pickaxes mine faster. When attacking the mob that you pacify you get additional drops when killing it.",
-      "",
-      "This ingot is crafted when combining a netherite iron ingot with 4 gold ingots."
+      "Netherite Gold is the third tier of netherite, crafted using 4 Gold Ingots and one Netherite Iron Ingot"
     ],
     "groups": {
       "The Nether": {
         "position": [
-          -100,
-          -105
+          20,
+          20
         ]
       }
     },

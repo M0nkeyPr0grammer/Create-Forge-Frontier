@@ -1,6 +1,7 @@
 {
   "dependencies": [
-    "Find a bastion"
+    "The Nether",
+    "Loot"
   ],
   "tasks": {
     "debris": {
@@ -50,7 +51,7 @@
   },
   "display": {
     "subtitle": {
-      "translate": "Gather an ancient debris"
+      "text": ""
     },
     "description": [
       "Collect an ancient debris to start your journey to making a netherite ingot"
@@ -58,8 +59,8 @@
     "groups": {
       "The Nether": {
         "position": [
-          -250,
-          -105
+          -20,
+          -60
         ]
       }
     },
@@ -77,7 +78,7 @@
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

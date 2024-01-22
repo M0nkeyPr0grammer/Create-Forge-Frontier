@@ -1,18 +1,24 @@
 {
   "dependencies": [
-    "Netherite 2"
+    "Netherite 3"
   ],
   "tasks": {
-    "netherite em": {
+    "pick": {
       "type": "heracles:item",
-      "item": "advancednetherite:netherite_emerald_ingot",
+      "item": "advancednetherite:netherite_emerald_pickaxe",
+      "nbt": {
+        "Damage": 0
+      },
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "advancednetherite:netherite_emerald_ingot",
-          "count": 1
+          "id": "advancednetherite:netherite_emerald_pickaxe",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
         },
         "type": "heracles:item"
       }
@@ -28,11 +34,11 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 100,
+      "amount": 10,
       "title": "",
       "type": "heracles:xp"
     },
-    "netherite em": {
+    "n": {
       "title": "",
       "icon": {
         "item": {
@@ -53,26 +59,56 @@
       "text": ""
     },
     "description": [
-      "Netherite Emerald is the forth tier of netherite, crafted using 4 Emeralds and one Netherite Gold Ingot"
+      "Pickaxes have a special perk by default: chance on a bonus ore drop!",
+      "- Emerald Ore, 40% of emerald when mined, min drops of 1 and max of 1",
+      "",
+      "Swords have a special perk by default: chance on a bonus mob drop!",
+      "- Enderman, 30% of ender pearl when killed, min drops of 0 and max of 1",
+      "",
+      "Durability Change",
+      "- 2651 vs 2031 of standard netherite",
+      "",
+      "Breaking Speed",
+      "- 29 vs 9 of standard netherite",
+      "",
+      "Enchantability",
+      "- 20 vs 15 of standard netherite",
+      "",
+      "Attack Damage",
+      "- Axe : 12",
+      "- Hoe: 1",
+      "- Pick: 7",
+      "- Shovel: 7",
+      "- Sword: 10",
+      "",
+      "Attack Speed",
+      "- Axe : 1",
+      "- Hoe: 4",
+      "- Pick: 1.2",
+      "- Shovel: 1",
+      "- Sword: 1.6"
     ],
     "groups": {
       "The Nether": {
         "position": [
-          20,
+          60,
           60
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "advancednetherite:netherite_emerald_ingot",
-        "count": 1
+        "id": "advancednetherite:netherite_emerald_pickaxe",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Netherite-Emerald"
+      "translate": "Netherite Emerald Tool"
     }
   },
   "settings": {

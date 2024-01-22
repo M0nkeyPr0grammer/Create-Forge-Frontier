@@ -1,9 +1,9 @@
 {
   "dependencies": [
-    "Special Structures"
+    "Sanctum"
   ],
   "tasks": {
-    "Enter a Nether Fortress": {
+    "fb": {
       "title": "",
       "icon": {
         "item": {
@@ -12,12 +12,27 @@
         },
         "type": "heracles:item"
       },
-      "structures": "#betterfortresses:better_fortresses",
+      "structures": "incendium:forbidden_castle",
       "type": "heracles:structure"
     }
   },
   "rewards": {
-    "Fortress xp": {
+    "gold": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:gold_block",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:gold_block",
+        "count": 3
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -29,21 +44,6 @@
       "amount": 100,
       "title": "",
       "type": "heracles:xp"
-    },
-    "blaze rod": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:blaze_rod",
-          "count": 1
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "minecraft:blaze_rod",
-        "count": 3
-      },
-      "type": "heracles:item"
     }
   },
   "display": {
@@ -51,26 +51,26 @@
       "text": ""
     },
     "description": [
-      "Find a Nether Fortress and enter it"
+      "Find a Forbidden Castle and enter it"
     ],
     "groups": {
       "The Nether": {
         "position": [
           -100,
-          -20
+          300
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:nether_bricks",
+        "id": "minecraft:piglin_head",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Fortress"
+      "translate": "Forbidden Castle"
     }
   },
   "settings": {

@@ -32,25 +32,40 @@
       "title": "",
       "type": "heracles:xp"
     },
-    "Give scraps": {
+    "temp": {
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "minecraft:netherite_upgrade_smithing_template",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:netherite_upgrade_smithing_template",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "scr": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:netherite_scrap",
+          "count": 1
         },
         "type": "heracles:item"
       },
       "item": {
         "id": "minecraft:netherite_scrap",
-        "count": 3
+        "count": 2
       },
       "type": "heracles:item"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Make a netherite pickaxe"
+      "text": ""
     },
     "description": [
       "Make a netherite pickaxe to give your tool extra durability"
@@ -58,8 +73,8 @@
     "groups": {
       "The Nether": {
         "position": [
-          -200,
-          -55
+          60,
+          -60
         ]
       }
     },

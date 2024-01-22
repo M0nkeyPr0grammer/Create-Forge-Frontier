@@ -1,7 +1,7 @@
 {
   "dependencies": [
     "Smithing upgrade",
-    "Ancient Debris"
+    "The Nether"
   ],
   "tasks": {
     "netherite ingot": {
@@ -59,8 +59,8 @@
     "groups": {
       "The Nether": {
         "position": [
-          -200,
-          -105
+          20,
+          -60
         ]
       }
     },
@@ -78,7 +78,7 @@
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

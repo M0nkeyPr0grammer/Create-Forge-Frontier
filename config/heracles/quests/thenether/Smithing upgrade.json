@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Find a bastion"
+    "Ancient Debris"
   ],
   "tasks": {
     "netherite upgrade": {
@@ -35,7 +35,7 @@
   },
   "display": {
     "subtitle": {
-      "translate": "Find a netherite upgrade"
+      "text": ""
     },
     "description": [
       "Collect your first netherite upgrade smithing template to start upgrading all your stuff"
@@ -43,8 +43,8 @@
     "groups": {
       "The Nether": {
         "position": [
-          -250,
-          -55
+          -20,
+          -20
         ]
       }
     },

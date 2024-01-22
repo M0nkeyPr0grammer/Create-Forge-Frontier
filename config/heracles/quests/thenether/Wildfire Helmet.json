@@ -1,23 +1,31 @@
 {
   "dependencies": [
-    "Special Structures"
+    "Wither Skulls"
   ],
   "tasks": {
-    "Enter a Nether Fortress": {
+    "helm": {
+      "type": "heracles:item",
+      "item": "friendsandfoes:wildfire_crown",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "friendsandfoes:wildfire_crown",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
         },
         "type": "heracles:item"
-      },
-      "structures": "#betterfortresses:better_fortresses",
-      "type": "heracles:structure"
+      }
     }
   },
   "rewards": {
-    "Fortress xp": {
+    "xp": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -29,21 +37,6 @@
       "amount": 100,
       "title": "",
       "type": "heracles:xp"
-    },
-    "blaze rod": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:blaze_rod",
-          "count": 1
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "minecraft:blaze_rod",
-        "count": 3
-      },
-      "type": "heracles:item"
     }
   },
   "display": {
@@ -51,26 +44,31 @@
       "text": ""
     },
     "description": [
-      "Find a Nether Fortress and enter it"
+      "Craft a Wildfire crown",
+      "",
+      "When equipped, a wildfire crown will grant a player 1 armor points, 1 armour toughness points and 1 knockback resistance and Fire Resistance for 8 seconds, which starts expiring each time the player is in lava or on fire."
     ],
     "groups": {
       "The Nether": {
         "position": [
-          -100,
-          -20
+          -60,
+          100
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:nether_bricks",
-        "count": 1
+        "id": "friendsandfoes:wildfire_crown",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Fortress"
+      "translate": "Wildfire Helmet"
     }
   },
   "settings": {

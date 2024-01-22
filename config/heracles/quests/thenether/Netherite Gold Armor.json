@@ -1,0 +1,166 @@
+{
+  "dependencies": [
+    "Netherite Gold Tool"
+  ],
+  "tasks": {
+    "h": {
+      "type": "heracles:item",
+      "item": "advancednetherite:netherite_gold_helmet",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "advancednetherite:netherite_gold_helmet",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
+        },
+        "type": "heracles:item"
+      }
+    },
+    "b": {
+      "type": "heracles:item",
+      "item": "advancednetherite:netherite_gold_boots",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "advancednetherite:netherite_gold_boots",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
+        },
+        "type": "heracles:item"
+      }
+    },
+    "c": {
+      "type": "heracles:item",
+      "item": "advancednetherite:netherite_gold_chestplate",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "advancednetherite:netherite_gold_chestplate",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
+        },
+        "type": "heracles:item"
+      }
+    },
+    "l": {
+      "type": "heracles:item",
+      "item": "advancednetherite:netherite_gold_leggings",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "advancednetherite:netherite_gold_leggings",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "n": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "advancednetherite:netherite_gold_block",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "advancednetherite:netherite_gold_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Piglins will behave passive towards players wearing Netherite-Gold armor",
+      "",
+      "Toughness Change",
+      "- 3.5 vs 3 of standard netherite",
+      "",
+      "Enchantability  Change",
+      "- 25 vs 15 of standard netherite",
+      " ",
+      "Durability and Armor Points",
+      "- Helmet: 451, 4",
+      "- Chestplate: 656, 9",
+      "- Leggings: 615, 7",
+      "- Boots: 533, 4"
+    ],
+    "groups": {
+      "The Nether": {
+        "position": [
+          100,
+          20
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "advancednetherite:netherite_gold_helmet",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Netherite Gold Armor"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

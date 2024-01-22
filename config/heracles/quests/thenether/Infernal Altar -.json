@@ -1,9 +1,9 @@
 {
   "dependencies": [
-    "Special Structures"
+    "Forbidden Castle"
   ],
   "tasks": {
-    "Enter a Nether Fortress": {
+    "alt": {
       "title": "",
       "icon": {
         "item": {
@@ -12,12 +12,12 @@
         },
         "type": "heracles:item"
       },
-      "structures": "#betterfortresses:better_fortresses",
+      "structures": "incendium:infernal_altar",
       "type": "heracles:structure"
     }
   },
   "rewards": {
-    "Fortress xp": {
+    "xp": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -30,7 +30,7 @@
       "title": "",
       "type": "heracles:xp"
     },
-    "blaze rod": {
+    "blaze": {
       "title": "",
       "icon": {
         "item": {
@@ -51,26 +51,26 @@
       "text": ""
     },
     "description": [
-      "Find a Nether Fortress and enter it"
+      "Find a Infernal Altar and enter it"
     ],
     "groups": {
       "The Nether": {
         "position": [
           -100,
-          -20
+          340
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:nether_bricks",
+        "id": "alexscaves:abyssal_altar",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Fortress"
+      "translate": "Infernal Altar"
     }
   },
   "settings": {

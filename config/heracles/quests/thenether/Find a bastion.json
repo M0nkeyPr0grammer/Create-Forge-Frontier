@@ -1,54 +1,83 @@
 {
   "dependencies": [
-    "Enter the Nether"
+    "Find a nether fortress"
   ],
   "tasks": {
     "Enter a bastion": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "structures": "minecraft:bastion_remnant",
       "type": "heracles:structure"
     }
   },
   "rewards": {
     "Give gold": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "minecraft:gold_block",
-        "count": 2
+        "count": 3
       },
       "type": "heracles:item"
     },
     "Bastion XP": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 100,
+      "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Find and enter a bastion"
+      "text": ""
     },
     "description": [
-      "Find a bastion and enter it"
+      "Find a Bastion and enter it"
     ],
     "groups": {
       "The Nether": {
         "position": [
-          -300,
-          -55
+          -100,
+          20
         ]
       }
     },
     "icon": {
-      "item": "minecraft:polished_blackstone",
+      "item": {
+        "id": "minecraft:polished_blackstone",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Find a bastion"
+      "translate": "Bastion"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

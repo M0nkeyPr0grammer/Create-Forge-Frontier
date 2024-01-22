@@ -1,10 +1,7 @@
 {
-  "dependencies": [
-    "Special Structures"
-  ],
+  "dependencies": [],
   "tasks": {
-    "Enter a Nether Fortress": {
-      "title": "",
+    "nether": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -12,12 +9,14 @@
         },
         "type": "heracles:item"
       },
-      "structures": "#betterfortresses:better_fortresses",
-      "type": "heracles:structure"
+      "from": "minecraft:overworld",
+      "to": "minecraft:the_nether",
+      "title": "",
+      "type": "heracles:changed_dimension"
     }
   },
   "rewards": {
-    "Fortress xp": {
+    "xp": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -29,21 +28,6 @@
       "amount": 100,
       "title": "",
       "type": "heracles:xp"
-    },
-    "blaze rod": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:blaze_rod",
-          "count": 1
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "minecraft:blaze_rod",
-        "count": 3
-      },
-      "type": "heracles:item"
     }
   },
   "display": {
@@ -51,26 +35,26 @@
       "text": ""
     },
     "description": [
-      "Find a Nether Fortress and enter it"
+      ""
     ],
     "groups": {
       "The Nether": {
         "position": [
-          -100,
-          -20
+          0,
+          -120
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:nether_bricks",
+        "id": "minecraft:netherrack",
         "count": 1
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
     "title": {
-      "translate": "Fortress"
+      "translate": "The Nether"
     }
   },
   "settings": {

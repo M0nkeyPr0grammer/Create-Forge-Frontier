@@ -1,38 +1,71 @@
 {
   "dependencies": [
-    "Find a nether fortress"
+    "Loot"
   ],
   "tasks": {
-    "soul sand": {
-      "type": "heracles:item",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "item": "minecraft:soul_sand"
-    },
     "Nether wart and Soul Sand": {
       "type": "heracles:item",
+      "item": "minecraft:nether_wart",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "minecraft:nether_wart"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
-    "Give Blaze Rob": {
+    "blz": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:blaze_rod",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "minecraft:blaze_rod",
-        "count": 3
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "soul": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:soul_sand",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:soul_sand",
+        "count": 1
       },
       "type": "heracles:item"
     },
     "Give XP": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Collect a nether wart and a soul sand"
+      "text": ""
     },
     "description": [
       "Collect a nether wart and a soul sand to start growing your own to brew potions"
@@ -40,23 +73,28 @@
     "groups": {
       "The Nether": {
         "position": [
-          -250,
-          55
+          -60,
+          -20
         ]
       }
     },
     "icon": {
-      "item": "minecraft:nether_wart",
+      "item": {
+        "id": "minecraft:nether_wart",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Nether wart and soul sand"
+      "translate": "Nether wart"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

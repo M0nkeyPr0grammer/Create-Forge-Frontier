@@ -1,9 +1,9 @@
 {
   "dependencies": [
-    "Special Structures"
+    "Quartz Tower"
   ],
   "tasks": {
-    "Enter a Nether Fortress": {
+    "p": {
       "title": "",
       "icon": {
         "item": {
@@ -12,12 +12,27 @@
         },
         "type": "heracles:item"
       },
-      "structures": "#betterfortresses:better_fortresses",
+      "structures": "incendium:pipeline",
       "type": "heracles:structure"
     }
   },
   "rewards": {
-    "Fortress xp": {
+    "mem": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:phantom_membrane",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:phantom_membrane",
+        "count": 3
+      },
+      "type": "heracles:item"
+    },
+    "x": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -29,21 +44,6 @@
       "amount": 100,
       "title": "",
       "type": "heracles:xp"
-    },
-    "blaze rod": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:blaze_rod",
-          "count": 1
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "minecraft:blaze_rod",
-        "count": 3
-      },
-      "type": "heracles:item"
     }
   },
   "display": {
@@ -51,26 +51,26 @@
       "text": ""
     },
     "description": [
-      "Find a Nether Fortress and enter it"
+      "Find a Pipeline and enter it"
     ],
     "groups": {
       "The Nether": {
         "position": [
           -100,
-          -20
+          180
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:nether_bricks",
+        "id": "immersive_aircraft:sturdy_pipes",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Fortress"
+      "translate": "Pipeline"
     }
   },
   "settings": {

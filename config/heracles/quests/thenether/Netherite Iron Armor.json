@@ -1,0 +1,166 @@
+{
+  "dependencies": [
+    "Netherite Iron Tool"
+  ],
+  "tasks": {
+    "h": {
+      "type": "heracles:item",
+      "item": "advancednetherite:netherite_iron_helmet",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "advancednetherite:netherite_iron_helmet",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
+        },
+        "type": "heracles:item"
+      }
+    },
+    "b": {
+      "type": "heracles:item",
+      "item": "advancednetherite:netherite_iron_boots",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "advancednetherite:netherite_iron_boots",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
+        },
+        "type": "heracles:item"
+      }
+    },
+    "l": {
+      "type": "heracles:item",
+      "item": "advancednetherite:netherite_iron_leggings",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "advancednetherite:netherite_iron_leggings",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
+        },
+        "type": "heracles:item"
+      }
+    },
+    "ch": {
+      "type": "heracles:item",
+      "item": "advancednetherite:netherite_iron_chestplate",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "advancednetherite:netherite_iron_chestplate",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "n": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "advancednetherite:netherite_iron_block",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "advancednetherite:netherite_iron_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Phantoms will behave passive towards players wearing Netherite-Iron armor",
+      "",
+      "Toughness Change",
+      "- 3.5 vs 3 of standard netherite",
+      "",
+      "Enchantability  Change",
+      "- Same as Netherite",
+      " ",
+      "Durability and Armor Points",
+      "- Helmet: 429, 4",
+      "- Chestplate: 624, 8",
+      "- Leggings: 585, 6",
+      "- Boots: 507, 4"
+    ],
+    "groups": {
+      "The Nether": {
+        "position": [
+          100,
+          -20
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "advancednetherite:netherite_iron_helmet",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Netherite Iron Armor"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

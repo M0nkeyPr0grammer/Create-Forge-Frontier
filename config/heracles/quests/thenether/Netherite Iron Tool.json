@@ -1,18 +1,24 @@
 {
   "dependencies": [
-    "Netherite Ingot"
+    "Netherite 1"
   ],
   "tasks": {
-    "netherite iron": {
+    "pick": {
       "type": "heracles:item",
-      "item": "advancednetherite:netherite_iron_ingot",
+      "item": "advancednetherite:netherite_iron_pickaxe",
+      "nbt": {
+        "Damage": 0
+      },
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "advancednetherite:netherite_iron_ingot",
-          "count": 1
+          "id": "advancednetherite:netherite_iron_pickaxe",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
         },
         "type": "heracles:item"
       }
@@ -28,11 +34,11 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 100,
+      "amount": 10,
       "title": "",
       "type": "heracles:xp"
     },
-    "netherite iron": {
+    "ne": {
       "title": "",
       "icon": {
         "item": {
@@ -53,26 +59,56 @@
       "text": ""
     },
     "description": [
-      "Netherite Iron is the second tier of netherite, crafted using 4 Iron Ingots and one Netherite Ingot"
+      "Pickaxes have a special perk by default: chance on a bonus ore drop!",
+      "- Iron Ore, 20% of raw iron when mined, min drops of 1 and max of 2",
+      "",
+      "Swords have a special perk by default: chance on a bonus mob drop!",
+      "- Phantom, 50% of phantom membrane when killed, min drops of 0 and max of 2",
+      "",
+      "Durability Change",
+      "- 2281 vs 2031 of standard netherite",
+      "",
+      "Breaking Speed",
+      "- 12 vs 9 of standard netherite",
+      "",
+      "Enchantability",
+      "- Same as Netherite",
+      "",
+      "Attack Damage",
+      "- Axe : 10",
+      "- Hoe: 1",
+      "- Pick: 6",
+      "- Shovel: 6.5",
+      "- Sword: 8",
+      "",
+      "Attack Speed",
+      "- Axe : 1",
+      "- Hoe: 4",
+      "- Pick: 1.2",
+      "- Shovel: 1",
+      "- Sword: 1.6"
     ],
     "groups": {
       "The Nether": {
         "position": [
-          20,
+          60,
           -20
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "advancednetherite:netherite_iron_ingot",
-        "count": 1
+        "id": "advancednetherite:netherite_iron_pickaxe",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Netherite-Iron"
+      "translate": "Netherite Iron Tool"
     }
   },
   "settings": {

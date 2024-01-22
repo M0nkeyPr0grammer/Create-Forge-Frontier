@@ -1,18 +1,24 @@
 {
   "dependencies": [
-    "Netherite 3"
+    "Netherite 4"
   ],
   "tasks": {
-    "netherite diamond": {
+    "pick": {
       "type": "heracles:item",
-      "item": "advancednetherite:netherite_diamond_ingot",
+      "item": "advancednetherite:netherite_diamond_pickaxe",
+      "nbt": {
+        "Damage": 0
+      },
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "advancednetherite:netherite_diamond_ingot",
-          "count": 1
+          "id": "advancednetherite:netherite_diamond_pickaxe",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
         },
         "type": "heracles:item"
       }
@@ -28,11 +34,11 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 100,
+      "amount": 10,
       "title": "",
       "type": "heracles:xp"
     },
-    "neth diamond": {
+    "ne": {
       "title": "",
       "icon": {
         "item": {
@@ -53,26 +59,56 @@
       "text": ""
     },
     "description": [
-      "Netherite Diamond is the highest tier of netherite, crafted using 4 Diamonds and one Netherite Emerald Ingot"
+      "Pickaxes have a special perk by default: chance on a bonus ore drop!",
+      "- Diamond Ore, 25% of diamond when mined, min drops of 1 and max of 1",
+      "",
+      "Swords have a special perk by default: chance on a bonus mob drop!",
+      "- Has all other tiers perks",
+      "",
+      "Durability Change",
+      "- 3092 vs 2031 of standard netherite",
+      "",
+      "Breaking Speed",
+      "- 39 vs 9 of standard netherite",
+      "",
+      "Enchantability",
+      "- 15 vs 15 of standard netherite",
+      "",
+      "Attack Damage",
+      "- Axe : 13",
+      "- Hoe: 1",
+      "- Pick: 7",
+      "- Shovel: 7",
+      "- Sword: 11",
+      "",
+      "Attack Speed",
+      "- Axe : 1",
+      "- Hoe: 4",
+      "- Pick: 1.2",
+      "- Shovel: 1",
+      "- Sword: 1.6"
     ],
     "groups": {
       "The Nether": {
         "position": [
-          20,
+          60,
           100
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "advancednetherite:netherite_diamond_ingot",
-        "count": 1
+        "id": "advancednetherite:netherite_diamond_pickaxe",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Netherite-Diamond"
+      "translate": "Netherite Diamond Tool"
     }
   },
   "settings": {

@@ -1,9 +1,9 @@
 {
   "dependencies": [
-    "Special Structures"
+    "Quartz Kitchen"
   ],
   "tasks": {
-    "Enter a Nether Fortress": {
+    "t": {
       "title": "",
       "icon": {
         "item": {
@@ -12,12 +12,12 @@
         },
         "type": "heracles:item"
       },
-      "structures": "#betterfortresses:better_fortresses",
+      "structures": "incendium:abandoned_tower",
       "type": "heracles:structure"
     }
   },
   "rewards": {
-    "Fortress xp": {
+    "x": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -30,18 +30,24 @@
       "title": "",
       "type": "heracles:xp"
     },
-    "blaze rod": {
+    "lead": {
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:blaze_rod",
-          "count": 1
+          "id": "apotheosis:ender_lead",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
         },
         "type": "heracles:item"
       },
       "item": {
-        "id": "minecraft:blaze_rod",
-        "count": 3
+        "id": "apotheosis:ender_lead",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
       },
       "type": "heracles:item"
     }
@@ -51,26 +57,26 @@
       "text": ""
     },
     "description": [
-      "Find a Nether Fortress and enter it"
+      "Find a Quartz Tower and enter it"
     ],
     "groups": {
       "The Nether": {
         "position": [
           -100,
-          -20
+          140
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:nether_bricks",
+        "id": "minecraft:smooth_quartz",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Fortress"
+      "translate": "Quartz Tower"
     }
   },
   "settings": {

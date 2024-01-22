@@ -1,9 +1,9 @@
 {
   "dependencies": [
-    "Special Structures"
+    "Citadel -"
   ],
   "tasks": {
-    "Enter a Nether Fortress": {
+    "qc": {
       "title": "",
       "icon": {
         "item": {
@@ -12,12 +12,12 @@
         },
         "type": "heracles:item"
       },
-      "structures": "#betterfortresses:better_fortresses",
+      "structures": "incendium:quartz_kitchen",
       "type": "heracles:structure"
     }
   },
   "rewards": {
-    "Fortress xp": {
+    "x": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -30,17 +30,17 @@
       "title": "",
       "type": "heracles:xp"
     },
-    "blaze rod": {
+    "q": {
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:blaze_rod",
+          "id": "minecraft:nether_quartz_ore",
           "count": 1
         },
         "type": "heracles:item"
       },
       "item": {
-        "id": "minecraft:blaze_rod",
+        "id": "minecraft:nether_quartz_ore",
         "count": 3
       },
       "type": "heracles:item"
@@ -51,26 +51,26 @@
       "text": ""
     },
     "description": [
-      "Find a Nether Fortress and enter it"
+      "Find a Quartz Kitchen and enter it"
     ],
     "groups": {
       "The Nether": {
         "position": [
           -100,
-          -20
+          100
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:nether_bricks",
+        "id": "adorn:oak_kitchen_sink",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Fortress"
+      "translate": "Quartz Kitchen"
     }
   },
   "settings": {

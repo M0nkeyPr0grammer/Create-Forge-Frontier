@@ -1,9 +1,10 @@
 {
   "dependencies": [
-    "Special Structures"
+    "Enter the Nether",
+    "The Nether"
   ],
   "tasks": {
-    "Enter a Nether Fortress": {
+    "c": {
       "title": "",
       "icon": {
         "item": {
@@ -12,12 +13,11 @@
         },
         "type": "heracles:item"
       },
-      "structures": "#betterfortresses:better_fortresses",
-      "type": "heracles:structure"
+      "type": "heracles:check"
     }
   },
   "rewards": {
-    "Fortress xp": {
+    "x": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -26,24 +26,9 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 100,
+      "amount": 10,
       "title": "",
       "type": "heracles:xp"
-    },
-    "blaze rod": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:blaze_rod",
-          "count": 1
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "minecraft:blaze_rod",
-        "count": 3
-      },
-      "type": "heracles:item"
     }
   },
   "display": {
@@ -51,31 +36,31 @@
       "text": ""
     },
     "description": [
-      "Find a Nether Fortress and enter it"
+      "Within this pack there are many types of structures you can find in the Nether, these happen to be special ones centered around pack progression."
     ],
     "groups": {
       "The Nether": {
         "position": [
           -100,
-          -20
+          -60
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:nether_bricks",
+        "id": "minecraft:structure_block",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Fortress"
+      "translate": "Special Structures"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

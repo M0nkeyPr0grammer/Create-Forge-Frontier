@@ -1,23 +1,25 @@
 {
   "dependencies": [
-    "Special Structures"
+    "Nether wart and soul sand"
   ],
   "tasks": {
-    "Enter a Nether Fortress": {
+    "tear": {
+      "type": "heracles:item",
+      "item": "minecraft:ghast_tear",
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "minecraft:ghast_tear",
+          "count": 1
         },
         "type": "heracles:item"
-      },
-      "structures": "#betterfortresses:better_fortresses",
-      "type": "heracles:structure"
+      }
     }
   },
   "rewards": {
-    "Fortress xp": {
+    "xp": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -26,21 +28,21 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 100,
+      "amount": 10,
       "title": "",
       "type": "heracles:xp"
     },
-    "blaze rod": {
+    "ghast": {
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:blaze_rod",
+          "id": "minecraft:ghast_tear",
           "count": 1
         },
         "type": "heracles:item"
       },
       "item": {
-        "id": "minecraft:blaze_rod",
+        "id": "minecraft:ghast_tear",
         "count": 3
       },
       "type": "heracles:item"
@@ -51,26 +53,26 @@
       "text": ""
     },
     "description": [
-      "Find a Nether Fortress and enter it"
+      "Kill A Ghast and collect its tear"
     ],
     "groups": {
       "The Nether": {
         "position": [
-          -100,
-          -20
+          -60,
+          20
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:nether_bricks",
+        "id": "minecraft:ghast_tear",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Fortress"
+      "translate": "Ghast Tear"
     }
   },
   "settings": {
