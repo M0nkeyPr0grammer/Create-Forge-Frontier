@@ -1,5 +1,7 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Creative Grids"
+  ],
   "tasks": {},
   "rewards": {},
   "display": {
@@ -10,8 +12,8 @@
     "groups": {
       "Creative Items": {
         "position": [
-          4,
-          -161
+          -20,
+          -20
         ]
       }
     },

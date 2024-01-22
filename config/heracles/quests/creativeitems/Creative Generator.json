@@ -1,5 +1,7 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Creative Motor"
+  ],
   "tasks": {},
   "rewards": {},
   "display": {
@@ -10,8 +12,8 @@
     "groups": {
       "Creative Items": {
         "position": [
-          -107,
-          87
+          20,
+          100
         ]
       }
     },

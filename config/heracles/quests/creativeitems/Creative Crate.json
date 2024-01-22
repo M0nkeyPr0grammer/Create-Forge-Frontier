@@ -1,5 +1,7 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Creative Fluid Tank"
+  ],
   "tasks": {},
   "rewards": {},
   "display": {
@@ -10,8 +12,8 @@
     "groups": {
       "Creative Items": {
         "position": [
-          119,
-          -34
+          60,
+          -20
         ]
       }
     },

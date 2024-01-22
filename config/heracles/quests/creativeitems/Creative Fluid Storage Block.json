@@ -1,5 +1,7 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Creative Controller"
+  ],
   "tasks": {},
   "rewards": {},
   "display": {
@@ -10,8 +12,8 @@
     "groups": {
       "Creative Items": {
         "position": [
-          -52,
-          -162
+          -20,
+          20
         ]
       }
     },
