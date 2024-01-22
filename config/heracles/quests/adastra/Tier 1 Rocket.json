@@ -45,8 +45,8 @@
     "groups": {
       "Ad Astra": {
         "position": [
-          -30,
-          0
+          -100,
+          100
         ]
       }
     },

@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Ostrum"
+    "Mars Temple"
   ],
   "tasks": {
     "n suit 1": {
@@ -125,8 +125,8 @@
     "groups": {
       "Ad Astra": {
         "position": [
-          60,
-          -30
+          -20,
+          20
         ]
       }
     },

@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Calorite"
+    "Jet Suit"
   ],
   "tasks": {
     "tier 4": {
@@ -44,8 +44,8 @@
     "groups": {
       "Ad Astra": {
         "position": [
-          180,
-          0
+          40,
+          100
         ]
       }
     },

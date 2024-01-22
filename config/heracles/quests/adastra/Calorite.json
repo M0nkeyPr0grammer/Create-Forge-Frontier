@@ -1,6 +1,7 @@
 {
   "dependencies": [
-    "Tier 3 Rocket"
+    "Venus",
+    "Mercury"
   ],
   "tasks": {
     "calorite": {
@@ -59,8 +60,8 @@
     "groups": {
       "Ad Astra": {
         "position": [
-          150,
-          0
+          40,
+          -20
         ]
       }
     },

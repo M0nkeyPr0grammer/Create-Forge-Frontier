@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Moon Base"
+    "Moon"
   ],
   "tasks": {
     "dungeon": {
@@ -45,8 +45,8 @@
     "groups": {
       "Ad Astra": {
         "position": [
-          0,
-          -61
+          -60,
+          -20
         ]
       }
     },

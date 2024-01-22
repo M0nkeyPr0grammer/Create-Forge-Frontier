@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Tier 3 Rocket"
+    "Ad Astra-"
   ],
   "tasks": {
     "mercury": {
@@ -43,8 +43,8 @@
     "groups": {
       "Ad Astra": {
         "position": [
-          120,
-          -30
+          60,
+          -60
         ]
       }
     },
@@ -55,14 +55,14 @@
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "title": {
       "translate": "Mercury"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

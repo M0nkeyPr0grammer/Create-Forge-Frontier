@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Mecury"
+    "Netherite Space Suit"
   ],
   "tasks": {
     "ostrum": {
@@ -58,8 +58,8 @@
     "groups": {
       "Ad Astra": {
         "position": [
-          60,
-          0
+          -20,
+          60
         ]
       }
     },

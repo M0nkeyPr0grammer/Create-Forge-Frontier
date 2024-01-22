@@ -1,17 +1,17 @@
 {
   "dependencies": [
-    "Desh"
+    "Glacio"
   ],
   "tasks": {
-    "tier 2": {
+    "ice shard": {
       "type": "heracles:item",
-      "item": "ad_astra:tier_2_rocket",
-      "amount": 1,
+      "item": "ad_astra:ice_shard",
+      "amount": 9,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "ad_astra:tier_2_rocket",
+          "id": "ad_astra:ice_shard",
           "count": 1
         },
         "type": "heracles:item"
@@ -19,6 +19,21 @@
     }
   },
   "rewards": {
+    "molten ice": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "kubejs:molten_ice_shard_bucket",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "kubejs:molten_ice_shard_bucket",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
     "xp": {
       "icon": {
         "item": {
@@ -28,7 +43,7 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 100,
+      "amount": 10,
       "title": "",
       "type": "heracles:xp"
     }
@@ -38,26 +53,26 @@
       "text": ""
     },
     "description": [
-      "Crafting this rocket will allow you to travel to Mars."
+      "Ice Shard ore can be found easily on Glacio and can be used to make ice via a custom recipe."
     ],
     "groups": {
       "Ad Astra": {
         "position": [
-          -60,
-          100
+          100,
+          -20
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "ad_astra:tier_2_rocket",
+        "id": "ad_astra:ice_shard",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Tier 2 Rocket"
+      "translate": "Ice Shard"
     }
   },
   "settings": {

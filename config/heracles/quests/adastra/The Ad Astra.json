@@ -1,17 +1,17 @@
 {
   "dependencies": [
-    "Enter the End"
+    "Ad Astra-"
   ],
   "tasks": {
     "steel": {
       "type": "heracles:item",
-      "item": "ad_astra:steel_ingot",
+      "item": "ad_astra:steel_plate",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "ad_astra:steel_ingot",
+          "id": "ad_astra:steel_plate",
           "count": 1
         },
         "type": "heracles:item"
@@ -43,14 +43,13 @@
       "be able to visit the moon and other planents.",
       "",
       "To start, you will need to gather steel.",
-      "To craft steel you super heat iron and thallasium",
-      "in a mixer."
+      "To craft steel you heat industrial iron mixed with charcoal or industrial blasting coal coke dust and industrial mix, via The Factory Must Grow."
     ],
     "groups": {
       "Ad Astra": {
         "position": [
-          -150,
-          0
+          -100,
+          -60
         ]
       }
     },
@@ -61,14 +60,14 @@
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "title": {
-      "translate": "Ad Astra"
+      "translate": "Earth"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

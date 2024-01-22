@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Moon"
+    "Moon Base"
   ],
   "tasks": {
     "desh": {
@@ -58,8 +58,8 @@
     "groups": {
       "Ad Astra": {
         "position": [
-          0,
-          30
+          -60,
+          60
         ]
       }
     },

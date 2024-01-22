@@ -38,14 +38,14 @@
       "text": ""
     },
     "description": [
-      "Oil is crafted by superheat mixing molten",
-      "carbon and bioethanol."
+      "Oil is crafted by superheated mixing molten",
+      "carbon and bioethanol or heating mixing bark for a slower but easier oil production."
     ],
     "groups": {
       "Ad Astra": {
         "position": [
-          -120,
-          0
+          -100,
+          -20
         ]
       }
     },
