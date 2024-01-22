@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Upgrades"
+    "Redstone Upgrade"
   ],
   "tasks": {
     "gold": {
@@ -58,8 +58,8 @@
     "groups": {
       "Better Storage": {
         "position": [
-          -205,
-          -112
+          180,
+          180
         ]
       }
     },

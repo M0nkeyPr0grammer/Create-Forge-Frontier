@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Upgrades"
+    "Puller Upgrade"
   ],
   "tasks": {
     "redstone": {
@@ -58,8 +58,8 @@
     "groups": {
       "Better Storage": {
         "position": [
-          -132,
-          -112
+          180,
+          140
         ]
       }
     },

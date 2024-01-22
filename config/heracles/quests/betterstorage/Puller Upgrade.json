@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Upgrades"
+    "Collector Upgrade"
   ],
   "tasks": {
     "puller": {
@@ -43,8 +43,8 @@
     "groups": {
       "Better Storage": {
         "position": [
-          -170,
-          -10
+          180,
+          100
         ]
       }
     },

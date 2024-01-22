@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Tools"
+    "Configuration Tool"
   ],
   "tasks": {
     "linking": {
@@ -43,8 +43,8 @@
     "groups": {
       "Better Storage": {
         "position": [
-          -105,
-          -130
+          220,
+          60
         ]
       }
     },

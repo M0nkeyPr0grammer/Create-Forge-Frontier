@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Drawers"
+    "Fluid Drawer"
   ],
   "tasks": {
     "ender drawer": {
@@ -43,8 +43,8 @@
     "groups": {
       "Better Storage": {
         "position": [
-          -235,
-          -112
+          140,
+          100
         ]
       }
     },

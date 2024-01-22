@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Upgrades"
+    "Diamond Upgrade"
   ],
   "tasks": {
     "netherite": {
@@ -58,8 +58,8 @@
     "groups": {
       "Better Storage": {
         "position": [
-          -151,
-          -140
+          180,
+          260
         ]
       }
     },

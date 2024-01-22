@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Drawers"
+    "Compacting Drawer"
   ],
   "tasks": {
     "armory cab": {
@@ -43,8 +43,8 @@
     "groups": {
       "Better Storage": {
         "position": [
-          -275,
-          -40
+          140,
+          180
         ]
       }
     },

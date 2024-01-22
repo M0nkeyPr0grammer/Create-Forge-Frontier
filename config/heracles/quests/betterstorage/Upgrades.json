@@ -1,5 +1,6 @@
 {
   "dependencies": [
+    "Functional Storage",
     "Drawers"
   ],
   "tasks": {
@@ -59,8 +60,8 @@
     "groups": {
       "Better Storage": {
         "position": [
-          -170,
-          -80
+          180,
+          -22
         ]
       }
     },
@@ -71,14 +72,14 @@
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
     "title": {
       "translate": "Upgrades"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

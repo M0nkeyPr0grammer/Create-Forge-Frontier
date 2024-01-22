@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Drawers"
+    "Framed Drawer"
   ],
   "tasks": {
     "fluid drawer": {
@@ -45,8 +45,8 @@
     "groups": {
       "Better Storage": {
         "position": [
-          -255,
-          -140
+          140,
+          60
         ]
       }
     },

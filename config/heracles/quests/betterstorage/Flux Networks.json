@@ -1,5 +1,7 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Better Storage"
+  ],
   "tasks": {
     "check": {
       "title": "",
@@ -53,8 +55,8 @@
     "groups": {
       "Better Storage": {
         "position": [
-          -350,
-          180
+          20,
+          -60
         ]
       }
     },
@@ -65,14 +67,14 @@
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "title": {
       "translate": "Flux Networks"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

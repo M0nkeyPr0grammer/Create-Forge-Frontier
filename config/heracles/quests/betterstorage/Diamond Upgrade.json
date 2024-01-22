@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Upgrades"
+    "Gold Upgrade"
   ],
   "tasks": {
     "diamond": {
@@ -58,8 +58,8 @@
     "groups": {
       "Better Storage": {
         "position": [
-          -182,
-          -140
+          180,
+          220
         ]
       }
     },

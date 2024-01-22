@@ -1,5 +1,7 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Better Storage"
+  ],
   "tasks": {
     "item pipe": {
       "type": "heracles:item",
@@ -56,8 +58,8 @@
     "groups": {
       "Better Storage": {
         "position": [
-          -350,
-          230
+          60,
+          -60
         ]
       }
     },
@@ -68,14 +70,14 @@
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "title": {
-      "translate": "Item Pipe"
+      "translate": "Pipez"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

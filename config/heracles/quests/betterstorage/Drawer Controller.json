@@ -1,6 +1,7 @@
 {
   "dependencies": [
-    "Tools"
+    "Tools",
+    "Functional Storage"
   ],
   "tasks": {
     "drawer controller": {
@@ -43,8 +44,8 @@
     "groups": {
       "Better Storage": {
         "position": [
-          -30,
-          -80
+          260,
+          -24
         ]
       }
     },
@@ -55,14 +56,14 @@
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
     "title": {
       "translate": "Drawer Controller"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"
