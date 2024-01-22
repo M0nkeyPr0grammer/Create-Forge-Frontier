@@ -1,5 +1,6 @@
 {
   "dependencies": [
+    "The Harbinger",
     "Cataclysm Bosses"
   ],
   "tasks": {
@@ -55,8 +56,8 @@
     "groups": {
       "Boss Mobs": {
         "position": [
-          -200,
-          200
+          -40,
+          180
         ]
       }
     },

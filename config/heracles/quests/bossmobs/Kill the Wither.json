@@ -1,5 +1,6 @@
 {
   "dependencies": [
+    "Nether Bosses",
     "Vanilla Bosses"
   ],
   "tasks": {
@@ -66,8 +67,8 @@
     "groups": {
       "Boss Mobs": {
         "position": [
-          -200,
-          0
+          0,
+          -20
         ]
       }
     },

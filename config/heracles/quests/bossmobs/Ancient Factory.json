@@ -1,5 +1,6 @@
 {
   "dependencies": [
+    "Ancient Remnant",
     "Cataclysm Bosses"
   ],
   "tasks": {
@@ -55,8 +56,8 @@
     "groups": {
       "Boss Mobs": {
         "position": [
-          -200,
-          150
+          -40,
+          100
         ]
       }
     },

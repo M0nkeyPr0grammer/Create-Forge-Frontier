@@ -1,24 +1,9 @@
 {
   "dependencies": [
-    "Soul Forge"
+    "Bosses",
+    "Enter the End"
   ],
-  "tasks": {
-    "boss": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "entity": {
-        "type": "cataclysm:netherite_monstrosity"
-      },
-      "amount": 1,
-      "title": "",
-      "type": "heracles:kill_entity"
-    }
-  },
+  "tasks": {},
   "rewards": {
     "xp": {
       "icon": {
@@ -29,7 +14,7 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 1000,
+      "amount": 100,
       "title": "",
       "type": "heracles:xp"
     }
@@ -39,26 +24,26 @@
       "text": ""
     },
     "description": [
-      "The Netherite Monstrosity, a boss from the Cataclysm mod, found in the Soul Forge, you awaken it by hitting it."
+      ""
     ],
     "groups": {
       "Boss Mobs": {
         "position": [
-          0,
-          60
+          40,
+          -60
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "cataclysm:netherite_monstrosity_spawn_egg",
+        "id": "minecraft:end_stone",
         "count": 1
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "title": {
-      "translate": "Netherite Monstrosity"
+      "translate": "End Bosses"
     }
   },
   "settings": {

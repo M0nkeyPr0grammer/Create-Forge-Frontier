@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Burning Arena"
+    "Ignited Revenant"
   ],
   "tasks": {
     "ignis": {
@@ -44,8 +44,8 @@
     "groups": {
       "Boss Mobs": {
         "position": [
-          -100,
-          235
+          0,
+          180
         ]
       }
     },

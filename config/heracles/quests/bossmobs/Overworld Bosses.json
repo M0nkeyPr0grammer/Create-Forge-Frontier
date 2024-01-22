@@ -1,21 +1,24 @@
 {
-  "dependencies": [],
-  "tasks": {
-    "dirt": {
-      "block": "#minecraft:dirt",
-      "state": {},
-      "title": "",
+  "dependencies": [
+    "Overworld",
+    "Bosses"
+  ],
+  "tasks": {},
+  "rewards": {
+    "xp": {
       "icon": {
         "item": {
-          "id": "minecraft:dirt",
-          "count": 1
+          "id": "minecraft:air",
+          "count": 0
         },
         "type": "heracles:item"
       },
-      "type": "heracles:block_interaction"
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
-  "rewards": {},
   "display": {
     "subtitle": {
       "text": ""
@@ -26,21 +29,21 @@
     "groups": {
       "Boss Mobs": {
         "position": [
-          -300,
-          175
+          -40,
+          -60
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "cataclysm:void_core",
+        "id": "minecraft:grass_block",
         "count": 1
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "title": {
-      "translate": "Cataclysm Bosses"
+      "translate": "Overworld Bosses"
     }
   },
   "settings": {

@@ -1,5 +1,6 @@
 {
   "dependencies": [
+    "Overworld Bosses",
     "Vanilla Bosses"
   ],
   "tasks": {
@@ -61,8 +62,8 @@
     "groups": {
       "Boss Mobs": {
         "position": [
-          -200,
-          -100
+          -40,
+          -20
         ]
       }
     },
