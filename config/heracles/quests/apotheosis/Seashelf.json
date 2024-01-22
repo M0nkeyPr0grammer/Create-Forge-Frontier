@@ -60,8 +60,8 @@
     "groups": {
       "Apotheosis": {
         "position": [
-          -50,
-          20
+          -80,
+          100
         ]
       }
     },
@@ -72,7 +72,7 @@
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
     "title": {
       "translate": "Seashelf"
     }

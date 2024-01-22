@@ -55,8 +55,8 @@
     "groups": {
       "Apotheosis": {
         "position": [
-          50,
-          -150
+          40,
+          -60
         ]
       }
     },
@@ -71,14 +71,14 @@
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "title": {
       "translate": "Potion Charms"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"
