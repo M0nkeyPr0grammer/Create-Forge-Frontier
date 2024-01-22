@@ -12,6 +12,38 @@ ServerEvents.recipes(event => {
 	event.remove({ id: 'waystones:warp_stone' })
 	event.remove({ id: 'waystones:warp_dust' })
 	event.remove({ id: 'angelblockrenewed:angel_block'})
+	event.remove({ id: 'cagedmobs:crafting/hopping_mob_cage'})
+	event.remove({ id: 'cagedmobs:crafting/mob_cage'})
+
+	// Creates New Mob Cage Recipe
+	event.shaped(
+		Item.of('cagedmobs:mob_cage'),
+		[
+			' A ',
+			'B B',
+			'CCC'
+		],
+		{
+			A: 'minecraft:chain',
+			B: 'createaddition:iron_rod',
+			C: 'minecraft:iron_block'
+		}
+	)
+
+	// Creates New Hopping Mob Cage Recipe
+	event.shaped(
+		Item.of('cagedmobs:hopping_mob_cage'),
+		[
+			'   ',
+			'ABA',
+			' C '
+		],
+		{
+			A: 'minecraft:redstone',
+			B: 'cagedmobs:mob_cage',
+			C: 'create:chute'
+		}
+	)
 
 	// Creates New Angel Block Recipe
 	event.shaped(
