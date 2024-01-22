@@ -38,8 +38,8 @@
     "groups": {
       "Easy Automations": {
         "position": [
-          -100,
-          -100
+          0,
+          -120
         ]
       }
     },
@@ -50,7 +50,7 @@
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
     "title": {
       "translate": "Easy Automation"
     }

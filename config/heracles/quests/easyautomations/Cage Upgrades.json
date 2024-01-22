@@ -50,8 +50,8 @@
     "groups": {
       "Easy Automations": {
         "position": [
-          -350,
-          -50
+          20,
+          -20
         ]
       }
     },
@@ -62,14 +62,14 @@
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
     "title": {
       "translate": "Cage Upgrades"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"
