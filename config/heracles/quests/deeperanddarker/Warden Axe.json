@@ -2,18 +2,74 @@
   "dependencies": [
     "Warden Pickaxe"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "axe": {
+      "type": "heracles:item",
+      "item": "deeperdarker:warden_axe",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "deeperdarker:warden_axe",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "netherite": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:netherite_ingot",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:netherite_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "- Damage 11",
+      "- Reach 3",
+      "- Attack Speed 1",
+      "",
+      "Crafted with Netherite axe, warden upgrade template, and reinforced echo shard"
+    ],
     "groups": {
       "Deeper and Darker": {
         "position": [
-          60,
-          60
+          100,
+          20
         ]
       }
     },

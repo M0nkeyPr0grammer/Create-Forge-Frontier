@@ -2,18 +2,74 @@
   "dependencies": [
     "Warden Leggings"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "booty": {
+      "type": "heracles:item",
+      "item": "deeperdarker:warden_boots",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "deeperdarker:warden_boots",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "LEVEL",
+      "amount": 5,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "netherite": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:netherite_block",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:netherite_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "- Armor +4",
+      "- Toughness +4",
+      "- Knockback Resistance +10%",
+      "",
+      "Crafted with Netherite boots, warden upgrade template, and reinforced echo shard"
+    ],
     "groups": {
       "Deeper and Darker": {
         "position": [
-          100,
-          100
+          140,
+          60
         ]
       }
     },

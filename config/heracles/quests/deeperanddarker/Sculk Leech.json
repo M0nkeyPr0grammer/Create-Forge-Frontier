@@ -2,18 +2,50 @@
   "dependencies": [
     "Sculk Centipede"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "leech": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "entity": {
+        "type": "deeperdarker:sculk_leech"
+      },
+      "amount": 1,
+      "title": "",
+      "type": "heracles:kill_entity"
+    }
+  },
+  "rewards": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "Kill a Sculk Leech"
+    ],
     "groups": {
       "Deeper and Darker": {
         "position": [
           20,
-          20
+          -19
         ]
       }
     },

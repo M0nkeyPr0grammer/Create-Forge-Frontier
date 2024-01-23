@@ -2,18 +2,50 @@
   "dependencies": [
     "Sculk Snapper"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "scattered": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "entity": {
+        "type": "deeperdarker:shattered"
+      },
+      "amount": 1,
+      "title": "",
+      "type": "heracles:kill_entity"
+    }
+  },
+  "rewards": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "Kill a Shattered"
+    ],
     "groups": {
       "Deeper and Darker": {
         "position": [
           20,
-          100
+          60
         ]
       }
     },

@@ -1,11 +1,11 @@
 {
   "dependencies": [
-    "Warden Shovel"
+    "Soul Crystal"
   ],
   "tasks": {
-    "hoe": {
+    "soul": {
       "type": "heracles:item",
-      "item": "deeperdarker:warden_hoe",
+      "item": "deeperdarker:soul_elytra",
       "nbt": {
         "Damage": 0
       },
@@ -14,7 +14,7 @@
       "title": "",
       "icon": {
         "item": {
-          "id": "deeperdarker:warden_hoe",
+          "id": "deeperdarker:soul_elytra",
           "count": 1,
           "nbt": {
             "Damage": 0
@@ -38,18 +38,24 @@
       "title": "",
       "type": "heracles:xp"
     },
-    "shard": {
+    "elytra": {
       "title": "",
       "icon": {
         "item": {
-          "id": "deeperdarker:reinforced_echo_shard",
-          "count": 1
+          "id": "minecraft:elytra",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
         },
         "type": "heracles:item"
       },
       "item": {
-        "id": "deeperdarker:reinforced_echo_shard",
-        "count": 4
+        "id": "minecraft:elytra",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
       },
       "type": "heracles:item"
     }
@@ -59,23 +65,19 @@
       "text": ""
     },
     "description": [
-      "- Damage 2",
-      "- Reach 3",
-      "- Attack Speed 4",
-      "",
-      "Crafted with Netherite hoe, warden upgrade template, and reinforced echo shard"
+      "Crafted using 3 Soul Dust, 4 Sculk Bones, 1 Soul Crystal, and 1 Elytra"
     ],
     "groups": {
       "Deeper and Darker": {
         "position": [
-          100,
-          100
+          60,
+          180
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "deeperdarker:warden_hoe",
+        "id": "deeperdarker:soul_elytra",
         "count": 1,
         "nbt": {
           "Damage": 0
@@ -85,7 +87,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Warden Hoe"
+      "translate": "Soul Elytra"
     }
   },
   "settings": {

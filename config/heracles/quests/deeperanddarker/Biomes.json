@@ -3,13 +3,41 @@
     "Enter the Otherside",
     "Heart of the warden"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "c": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "Within the mod Deeper and Darker you currently have access to 3 different biomes, you can find more info about each biome in the quests below."
+    ],
     "groups": {
       "Deeper and Darker": {
         "position": [

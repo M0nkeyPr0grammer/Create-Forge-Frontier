@@ -2,18 +2,50 @@
   "dependencies": [
     "Shriek Worm"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "stalker": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "entity": {
+        "type": "deeperdarker:stalker"
+      },
+      "amount": 1,
+      "title": "",
+      "type": "heracles:kill_entity"
+    }
+  },
+  "rewards": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "LEVEL",
+      "amount": 5,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "Kill a Stalker"
+    ],
     "groups": {
       "Deeper and Darker": {
         "position": [
           20,
-          180
+          140
         ]
       }
     },

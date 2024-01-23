@@ -1,23 +1,25 @@
 {
   "dependencies": [
-    "Biomes"
+    "Soul Dust"
   ],
   "tasks": {
-    "Deeplands": {
+    "bone": {
+      "type": "heracles:item",
+      "item": "deeperdarker:sculk_bone",
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "deeperdarker:sculk_bone",
+          "count": 1
         },
         "type": "heracles:item"
-      },
-      "biomes": "deeperdarker:deeplands",
-      "type": "heracles:biome"
+      }
     }
   },
   "rewards": {
-    "xp": {
+    "x": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -29,6 +31,21 @@
       "amount": 10,
       "title": "",
       "type": "heracles:xp"
+    },
+    "bone": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "deeperdarker:sculk_bone",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "deeperdarker:sculk_bone",
+        "count": 2
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
@@ -36,26 +53,26 @@
       "text": ""
     },
     "description": [
-      "This biome is made up of mostly Sculk and Sculk Stone. Large groups of Phantoms can be seen flying around the caverns of this biome, along with hordes of Sculk Snappers. Sculk Jaws and Infested Sculk are very common in the Deeplands, making it more difficult to navigate."
+      "Obtained when killing a shattered"
     ],
     "groups": {
       "Deeper and Darker": {
         "position": [
-          -60,
-          -20
+          60,
+          100
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:sculk",
+        "id": "deeperdarker:sculk_bone",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Deeplands"
+      "translate": "Sculk Bone"
     }
   },
   "settings": {

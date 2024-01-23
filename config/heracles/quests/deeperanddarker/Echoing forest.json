@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Overcast lands"
+    "Deeplands"
   ],
   "tasks": {
     "echoing forest": {
@@ -36,13 +36,13 @@
       "text": ""
     },
     "description": [
-      ""
+      "This biome often generates in layers consisting of Sculk, Sculk Stone, and Echo Soil. Echo trees populate the biome making The Otherside more vibrant with their purple leaves and Sculk Gleam. The fog color in this biome is purple much like the leaves, and the only mobs that spawn here are Shattered, which makes this biome a pleasant change from the many horrors of the Otherside Deeplands."
     ],
     "groups": {
       "Deeper and Darker": {
         "position": [
           -60,
-          60
+          20
         ]
       }
     },

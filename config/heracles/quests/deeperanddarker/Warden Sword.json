@@ -1,19 +1,75 @@
 {
   "dependencies": [
-    "Armor and Tools"
+    "Heart of the warden"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "sword": {
+      "type": "heracles:item",
+      "item": "deeperdarker:warden_sword",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "deeperdarker:warden_sword",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "shard": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:netherite_ingot",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:netherite_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "- Damage 9",
+      "- Reach 3",
+      "- Attack Speed 1.6",
+      "",
+      "Crafted with Netherite sword, warden upgrade template, and reinforced echo shard"
+    ],
     "groups": {
       "Deeper and Darker": {
         "position": [
-          60,
-          -20
+          100,
+          -60
         ]
       }
     },
@@ -27,14 +83,14 @@
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "title": {
-      "translate": "Warden Sword"
+      "translate": "Tools"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

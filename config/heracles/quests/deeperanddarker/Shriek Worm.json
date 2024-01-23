@@ -2,18 +2,50 @@
   "dependencies": [
     "Shattered"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "worm": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "entity": {
+        "type": "deeperdarker:shriek_worm"
+      },
+      "amount": 1,
+      "title": "",
+      "type": "heracles:kill_entity"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "Kill a Shriek Worm"
+    ],
     "groups": {
       "Deeper and Darker": {
         "position": [
           20,
-          140
+          100
         ]
       }
     },

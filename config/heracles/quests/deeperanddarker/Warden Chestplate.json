@@ -2,18 +2,74 @@
   "dependencies": [
     "Warden Helmet"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "chest": {
+      "type": "heracles:item",
+      "item": "deeperdarker:warden_chestplate",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "deeperdarker:warden_chestplate",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "LEVEL",
+      "amount": 2,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "netherite": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:netherite_ingot",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:netherite_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "- Armor +9",
+      "- Toughness +4",
+      "- Knockback Resistance +10%",
+      "",
+      "Crafted with Netherite chestplate, warden upgrade template, and reinforced echo shard"
+    ],
     "groups": {
       "Deeper and Darker": {
         "position": [
-          100,
-          20
+          140,
+          -20
         ]
       }
     },

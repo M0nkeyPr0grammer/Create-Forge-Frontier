@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Deeplands"
+    "Echoing forest"
   ],
   "tasks": {
     "overcast": {
@@ -36,13 +36,13 @@
       "text": ""
     },
     "description": [
-      ""
+      "This biome is composed of multiple amber columns, which have a biome-exclusive Crystallized Amber block in each of them. Overcast Columns also have multiple Geysers scattered throughout the terrain, which is composed of Gloomslate and Gloom Sculk."
     ],
     "groups": {
       "Deeper and Darker": {
         "position": [
           -60,
-          20
+          60
         ]
       }
     },

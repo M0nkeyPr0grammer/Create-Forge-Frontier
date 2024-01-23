@@ -3,14 +3,40 @@
     "Biomes",
     "Heart of the warden"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "c": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
     "description": [
-      ""
+      "The Otherside currently only has one structure, which you can find more info about it in the quest below."
     ],
     "groups": {
       "Deeper and Darker": {

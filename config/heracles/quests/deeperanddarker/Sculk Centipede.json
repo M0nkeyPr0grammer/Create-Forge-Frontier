@@ -1,19 +1,60 @@
 {
   "dependencies": [
-    "Mobs"
+    "Heart of the warden"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "centepede": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "entity": {
+        "type": "deeperdarker:sculk_centipede"
+      },
+      "amount": 1,
+      "title": "",
+      "type": "heracles:kill_entity"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "Deeper and Darker has a few different mobs that spawn",
+      "- Warden",
+      "- Phantom",
+      "- Sculk Snapper",
+      "- Sculk Leech",
+      "- Shattered",
+      "- Shriek Worm",
+      "- Sculk Centipede",
+      "",
+      "This first quest you need to kill a Sculk Centipede"
+    ],
     "groups": {
       "Deeper and Darker": {
         "position": [
           20,
-          -20
+          -60
         ]
       }
     },
@@ -24,14 +65,14 @@
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "title": {
-      "translate": "Sculk Centipede"
+      "translate": "Mobs"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"
