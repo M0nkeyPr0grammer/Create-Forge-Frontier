@@ -1,9 +1,9 @@
 {
   "dependencies": [
-    "End Bosses"
+    "Enter the End"
   ],
   "tasks": {
-    "Kill Ender Dragon": {
+    "dragon": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -20,22 +20,7 @@
     }
   },
   "rewards": {
-    "Give Dragons Breath": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "minecraft:dragon_breath",
-        "count": 16
-      },
-      "type": "heracles:item"
-    },
-    "Ender Dragon xp": {
+    "xp": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -44,14 +29,14 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 1000,
+      "amount": 100,
       "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Kill the Ender Dragon"
+      "text": ""
     },
     "description": [
       "The ender dragon is a giant flying hostile boss mob found when first entering the End. It is the largest naturally spawning mob in the game. It guards access to the end gateways that provide entry to the outer end islands in addition to the exit portal that allows return to the Overworld as well as access to the end credits of Minecraft. ",
@@ -70,10 +55,10 @@
       "- Spawns a Mini boss"
     ],
     "groups": {
-      "Boss Mobs": {
+      "The End": {
         "position": [
-          40,
-          -20
+          -80,
+          -60
         ]
       }
     },
@@ -84,14 +69,14 @@
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "title": {
-      "translate": "Kill the Ender Dragon"
+      "translate": "Dragon Fight"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

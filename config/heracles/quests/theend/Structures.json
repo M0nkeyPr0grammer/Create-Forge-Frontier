@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Bosses"
+    "Enter the End"
   ],
   "tasks": {
     "c": {
@@ -16,7 +16,7 @@
     }
   },
   "rewards": {
-    "xp": {
+    "x": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -25,7 +25,7 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 100,
+      "amount": 10,
       "title": "",
       "type": "heracles:xp"
     }
@@ -35,26 +35,26 @@
       "text": ""
     },
     "description": [
-      ""
+      "There are many different structure mods that affect the end, below are a few"
     ],
     "groups": {
-      "Boss Mobs": {
+      "The End": {
         "position": [
-          0,
+          40,
           -60
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:netherrack",
+        "id": "minecraft:structure_block",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "title": {
-      "translate": "Nether Bosses"
+      "translate": "Structures"
     }
   },
   "settings": {

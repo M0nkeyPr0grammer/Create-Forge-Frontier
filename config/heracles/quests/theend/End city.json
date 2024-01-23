@@ -1,23 +1,39 @@
 {
   "dependencies": [
-    "Enter the End"
+    "Structures"
   ],
   "tasks": {
     "End city": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "structures": "#minecraft:end_city",
       "type": "heracles:structure"
     }
   },
   "rewards": {
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Find and enter a end city"
+      "text": ""
     },
     "description": [
       "Find and enter a end city"
@@ -25,13 +41,16 @@
     "groups": {
       "The End": {
         "position": [
-          -300,
-          10
+          40,
+          -20
         ]
       }
     },
     "icon": {
-      "item": "minecraft:purpur_block",
+      "item": {
+        "id": "minecraft:purpur_block",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -40,8 +59,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

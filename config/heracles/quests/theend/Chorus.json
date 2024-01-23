@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Enter the End"
+    "Loota"
   ],
   "tasks": {
     "fruit": {
@@ -79,7 +79,7 @@
   },
   "display": {
     "subtitle": {
-      "translate": "Collect a chorus flower and fruit"
+      "text": ""
     },
     "description": [
       "Collect a chorus fruit and chorus flower"
@@ -87,8 +87,8 @@
     "groups": {
       "The End": {
         "position": [
-          -300,
-          -50
+          80,
+          -20
         ]
       }
     },

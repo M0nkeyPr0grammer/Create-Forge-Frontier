@@ -1,9 +1,9 @@
 {
   "dependencies": [
-    "Bosses"
+    "Enter the End"
   ],
   "tasks": {
-    "c": {
+    "esc": {
       "title": "",
       "icon": {
         "item": {
@@ -12,11 +12,14 @@
         },
         "type": "heracles:item"
       },
-      "type": "heracles:check"
+      "advancements": [
+        "minecraft:end/enter_end_gateway"
+      ],
+      "type": "heracles:advancement"
     }
   },
   "rewards": {
-    "xp": {
+    "x": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -35,26 +38,26 @@
       "text": ""
     },
     "description": [
-      ""
+      "Escape the Main End Island, after killing the dragon."
     ],
     "groups": {
-      "Boss Mobs": {
+      "The End": {
         "position": [
-          0,
+          -40,
           -60
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:netherrack",
+        "id": "minecraft:end_stone",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "title": {
-      "translate": "Nether Bosses"
+      "translate": "Escape the Main Island"
     }
   },
   "settings": {

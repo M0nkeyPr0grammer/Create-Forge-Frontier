@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Enter the End"
+    "Dragon Fight"
   ],
   "tasks": {
     "dragons breath": {
@@ -61,8 +61,8 @@
     "groups": {
       "The End": {
         "position": [
-          -300,
-          -95
+          -80,
+          -20
         ]
       }
     },

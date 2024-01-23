@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Bosses"
+    "Enter the End"
   ],
   "tasks": {
     "c": {
@@ -16,7 +16,7 @@
     }
   },
   "rewards": {
-    "xp": {
+    "x": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -35,10 +35,10 @@
       "text": ""
     },
     "description": [
-      ""
+      "More Quests will be added in a future update"
     ],
     "groups": {
-      "Boss Mobs": {
+      "The End": {
         "position": [
           0,
           -60
@@ -47,14 +47,14 @@
     },
     "icon": {
       "item": {
-        "id": "minecraft:netherrack",
+        "id": "design_decor:stop_sign",
         "count": 1
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
     "title": {
-      "translate": "Nether Bosses"
+      "translate": "More Will be added Later"
     }
   },
   "settings": {

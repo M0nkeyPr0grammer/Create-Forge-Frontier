@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "End city"
+    "Chorus"
   ],
   "tasks": {
     "Shells": {
@@ -50,7 +50,7 @@
   },
   "display": {
     "subtitle": {
-      "translate": "Collect 2 shulker shells to make a shulker"
+      "text": ""
     },
     "description": [
       "Kill shulkers to collect 2 shulkker shells to start making shulkers to carry items"
@@ -58,8 +58,8 @@
     "groups": {
       "The End": {
         "position": [
-          -250,
-          10
+          80,
+          20
         ]
       }
     },

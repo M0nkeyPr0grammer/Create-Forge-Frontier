@@ -1,9 +1,9 @@
 {
   "dependencies": [
-    "Bosses"
+    "End Highlands"
   ],
   "tasks": {
-    "c": {
+    "cry": {
       "title": "",
       "icon": {
         "item": {
@@ -12,11 +12,12 @@
         },
         "type": "heracles:item"
       },
-      "type": "heracles:check"
+      "biomes": "nullscape:crystal_peaks",
+      "type": "heracles:biome"
     }
   },
   "rewards": {
-    "xp": {
+    "x": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -35,31 +36,31 @@
       "text": ""
     },
     "description": [
-      ""
+      "Enter a Crystal Peaks biome"
     ],
     "groups": {
-      "Boss Mobs": {
+      "The End": {
         "position": [
-          0,
-          -60
+          -40,
+          100
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:netherrack",
+        "id": "minecraft:amethyst_cluster",
         "count": 1
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Nether Bosses"
+      "translate": "Crystal Peaks"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

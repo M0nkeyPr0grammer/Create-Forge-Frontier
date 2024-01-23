@@ -1,6 +1,5 @@
 {
-  "dependencies": [
-  ],
+  "dependencies": [],
   "tasks": {
     "End": {
       "icon": {
@@ -33,7 +32,7 @@
   },
   "display": {
     "subtitle": {
-      "translate": "Enter the End"
+      "text": ""
     },
     "description": [
       "Enter the end"
@@ -41,8 +40,8 @@
     "groups": {
       "The End": {
         "position": [
-          -350,
-          -20
+          0,
+          -120
         ]
       }
     },
@@ -53,7 +52,7 @@
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
     "title": {
       "translate": "Enter the End"
     }

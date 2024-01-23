@@ -1,9 +1,9 @@
 {
   "dependencies": [
-    "Bosses"
+    "Small End Island"
   ],
   "tasks": {
-    "c": {
+    "high": {
       "title": "",
       "icon": {
         "item": {
@@ -12,11 +12,12 @@
         },
         "type": "heracles:item"
       },
-      "type": "heracles:check"
+      "biomes": "minecraft:end_highlands",
+      "type": "heracles:biome"
     }
   },
   "rewards": {
-    "xp": {
+    "x": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -35,31 +36,31 @@
       "text": ""
     },
     "description": [
-      ""
+      "Enter a End Highlands biome"
     ],
     "groups": {
-      "Boss Mobs": {
+      "The End": {
         "position": [
-          0,
-          -60
+          -40,
+          60
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:netherrack",
+        "id": "minecraft:chorus_flower",
         "count": 1
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Nether Bosses"
+      "translate": "End Highlands"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

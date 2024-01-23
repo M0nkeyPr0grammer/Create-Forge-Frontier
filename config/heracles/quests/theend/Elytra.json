@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "End city"
+    "Shulker shells"
   ],
   "tasks": {
     "elytra": {
@@ -50,7 +50,7 @@
   },
   "display": {
     "subtitle": {
-      "translate": "Find an elytra to start flying"
+      "text": ""
     },
     "description": [
       "Find an elytra in a ship that is attached to the /9/End City/9/ to be able to take to the skies and speed up your travel time"
@@ -58,7 +58,7 @@
     "groups": {
       "The End": {
         "position": [
-          -250,
+          80,
           60
         ]
       }
