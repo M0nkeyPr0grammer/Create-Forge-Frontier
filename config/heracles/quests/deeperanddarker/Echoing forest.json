@@ -1,23 +1,39 @@
 {
   "dependencies": [
-    "Enter the Otherside"
+    "Overcast lands"
   ],
   "tasks": {
     "echoing forest": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "biomes": "deeperdarker:echoing_forest",
       "type": "heracles:biome"
     }
   },
   "rewards": {
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Visit Echoing Forest"
+      "text": ""
     },
     "description": [
       ""
@@ -25,13 +41,16 @@
     "groups": {
       "Deeper and Darker": {
         "position": [
-          -250,
-          30
+          -60,
+          60
         ]
       }
     },
     "icon": {
-      "item": "deeperdarker:echo_soil",
+      "item": {
+        "id": "deeperdarker:echo_soil",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -40,8 +59,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

@@ -4,15 +4,31 @@
   ],
   "tasks": {
     "Deeper and darker": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "from": "minecraft:overworld",
       "to": "deeperdarker:otherside",
+      "title": "",
       "type": "heracles:changed_dimension"
     }
   },
   "rewards": {
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     }
   },
@@ -26,23 +42,28 @@
     "groups": {
       "Deeper and Darker": {
         "position": [
-          -300,
-          -20
+          -100,
+          -60
         ]
       }
     },
     "icon": {
-      "item": "minecraft:reinforced_deepslate",
+      "item": {
+        "id": "minecraft:reinforced_deepslate",
+        "count": 1
+      },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "title": {
       "translate": "Enter the Otherside"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

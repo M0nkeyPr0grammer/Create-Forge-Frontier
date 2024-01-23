@@ -1,0 +1,39 @@
+{
+  "dependencies": [
+    "Shattered"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [],
+    "groups": {
+      "Deeper and Darker": {
+        "position": [
+          20,
+          140
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "deeperdarker:shriek_worm_spawn_egg",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Shriek Worm"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

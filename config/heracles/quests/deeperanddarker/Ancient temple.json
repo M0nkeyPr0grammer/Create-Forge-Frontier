@@ -1,15 +1,31 @@
 {
   "dependencies": [
-    "Enter the Deep Dark"
+    "Structure"
   ],
   "tasks": {
     "deeperdarker:ancient_temple": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "structures": "deeperdarker:ancient_temple",
       "type": "heracles:structure"
     }
   },
   "rewards": {
     "Give Echo Shards": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "minecraft:echo_shard",
         "count": 4
@@ -17,8 +33,16 @@
       "type": "heracles:item"
     },
     "Give XP": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 100,
+      "title": "",
       "type": "heracles:xp"
     }
   },
@@ -32,13 +56,16 @@
     "groups": {
       "Deeper and Darker": {
         "position": [
-          -185,
+          -20,
           -20
         ]
       }
     },
     "icon": {
-      "item": "deeperdarker:ancient_vase",
+      "item": {
+        "id": "deeperdarker:ancient_vase",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -47,8 +74,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }
