@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Enter the End"
+    "End city"
   ],
   "tasks": {
     "c": {
@@ -40,8 +40,8 @@
     "groups": {
       "The End": {
         "position": [
-          0,
-          -60
+          40,
+          20
         ]
       }
     },
@@ -59,7 +59,7 @@
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

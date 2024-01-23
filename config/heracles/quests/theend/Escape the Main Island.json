@@ -50,7 +50,7 @@
     },
     "icon": {
       "item": {
-        "id": "minecraft:end_stone",
+        "id": "minecraft:ender_pearl",
         "count": 1
       },
       "type": "heracles:item"

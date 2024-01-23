@@ -1,23 +1,25 @@
 {
   "dependencies": [
-    "Escape the Main Island"
+    "Bismuth-"
   ],
   "tasks": {
-    "e": {
+    "mala": {
+      "type": "heracles:item",
+      "item": "enlightened_end:malachite",
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "enlightened_end:malachite",
+          "count": 1
         },
         "type": "heracles:item"
-      },
-      "biomes": "minecraft:the_end",
-      "type": "heracles:biome"
+      }
     }
   },
   "rewards": {
-    "x": {
+    "xp": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -26,9 +28,24 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 100,
+      "amount": 10,
       "title": "",
       "type": "heracles:xp"
+    },
+    "malachite": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "enlightened_end:malachite_ore",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "enlightened_end:malachite_ore",
+        "count": 3
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
@@ -36,26 +53,27 @@
       "text": ""
     },
     "description": [
-      "Enter a \"The End\" biome"
+      "Malachite is an ore from the Enlightened mod that adds in new building blocks, special armor, and reflectors. ",
+      "- Check EMI/JEI for more uses."
     ],
     "groups": {
       "The End": {
         "position": [
-          -40,
-          -20
+          0,
+          20
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:end_stone",
+        "id": "enlightened_end:malachite_ore",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "The End"
+      "translate": "Malachite"
     }
   },
   "settings": {

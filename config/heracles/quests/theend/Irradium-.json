@@ -1,23 +1,25 @@
 {
   "dependencies": [
-    "Escape the Main Island"
+    "Malachite-"
   ],
   "tasks": {
-    "e": {
+    "irradium": {
+      "type": "heracles:item",
+      "item": "enlightened_end:raw_irradium",
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "enlightened_end:raw_irradium",
+          "count": 1
         },
         "type": "heracles:item"
-      },
-      "biomes": "minecraft:the_end",
-      "type": "heracles:biome"
+      }
     }
   },
   "rewards": {
-    "x": {
+    "xp": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -29,6 +31,21 @@
       "amount": 100,
       "title": "",
       "type": "heracles:xp"
+    },
+    "irradium": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "enlightened_end:irradium_ore",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "enlightened_end:irradium_ore",
+        "count": 3
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
@@ -36,26 +53,26 @@
       "text": ""
     },
     "description": [
-      "Enter a \"The End\" biome"
+      "Irradium is a radioactive ore from Enlightened, used for nuclear crafting and decorational lamps."
     ],
     "groups": {
       "The End": {
         "position": [
-          -40,
-          -20
+          0,
+          60
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:end_stone",
+        "id": "enlightened_end:irradium_ore",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "The End"
+      "translate": "Irradium"
     }
   },
   "settings": {

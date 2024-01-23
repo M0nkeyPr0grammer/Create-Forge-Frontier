@@ -1,9 +1,10 @@
 {
   "dependencies": [
-    "Escape the Main Island"
+    "Escape the Main Island",
+    "Enter the End"
   ],
   "tasks": {
-    "e": {
+    "c": {
       "title": "",
       "icon": {
         "item": {
@@ -12,12 +13,11 @@
         },
         "type": "heracles:item"
       },
-      "biomes": "minecraft:the_end",
-      "type": "heracles:biome"
+      "type": "heracles:check"
     }
   },
   "rewards": {
-    "x": {
+    "xp": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -26,7 +26,7 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 100,
+      "amount": 10,
       "title": "",
       "type": "heracles:xp"
     }
@@ -36,31 +36,31 @@
       "text": ""
     },
     "description": [
-      "Enter a \"The End\" biome"
+      "Within this pack there are a few different types of ores that you can find in the end."
     ],
     "groups": {
       "The End": {
         "position": [
-          -40,
-          -20
+          0,
+          -62
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:end_stone",
+        "id": "minecraft:iron_ore",
         "count": 1
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "title": {
-      "translate": "The End"
+      "translate": "Special Ores"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"
