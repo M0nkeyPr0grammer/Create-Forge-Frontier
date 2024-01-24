@@ -5,18 +5,42 @@
   "tasks": {
     "l cog": {
       "type": "heracles:item",
+      "item": "create:large_cogwheel",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "create:large_cogwheel"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     },
     "Give Cogwheel": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "create:large_cogwheel",
         "count": 4
@@ -26,7 +50,7 @@
   },
   "display": {
     "subtitle": {
-      "translate": "The larger of the cogwheels"
+      "text": ""
     },
     "description": [
       "You can place large cogwheels at 90 degrees to each other and it will change the direction of rotation"
@@ -34,13 +58,16 @@
     "groups": {
       "Create": {
         "position": [
-          -150,
-          -50
+          -120,
+          60
         ]
       }
     },
     "icon": {
-      "item": "create:large_cogwheel",
+      "item": {
+        "id": "create:large_cogwheel",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -49,8 +76,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

@@ -1,22 +1,46 @@
 {
   "dependencies": [
-    "Brass Casing"
+    "Crushing Wheel"
   ],
   "tasks": {
     "mech craft": {
       "type": "heracles:item",
+      "item": "create:mechanical_crafter",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "create:mechanical_crafter"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     },
     "Give Casing": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "create:brass_casing",
         "count": 1
@@ -26,7 +50,7 @@
   },
   "display": {
     "subtitle": {
-      "translate": "A large crafting table"
+      "text": ""
     },
     "description": [
       "The mechanical crafter can be made into a multi block to craft different items, the biggest item it will need to craft is the crushing wheels",
@@ -42,13 +66,16 @@
     "groups": {
       "Create": {
         "position": [
-          215,
-          40
+          -80,
+          460
         ]
       }
     },
     "icon": {
-      "item": "create:mechanical_crafter",
+      "item": {
+        "id": "create:mechanical_crafter",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -57,8 +84,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

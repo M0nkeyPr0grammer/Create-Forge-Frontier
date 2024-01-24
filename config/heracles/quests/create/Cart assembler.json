@@ -1,22 +1,46 @@
 {
   "dependencies": [
-    "Andesite Alloy"
+    "Sticker"
   ],
   "tasks": {
     "cart": {
       "type": "heracles:item",
+      "item": "create:cart_assembler",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "create:cart_assembler"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     },
     "Give Alloy": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "create:andesite_alloy",
         "count": 4
@@ -26,7 +50,7 @@
   },
   "display": {
     "subtitle": {
-      "translate": "Maybe one of the most OP items"
+      "text": ""
     },
     "description": [
       "The cart assembler has the ability to attach any machine you want to build to a minecart, it can also move blocks that aren't able to be moved in regular vanilla like budding amethyst and spawners",
@@ -36,13 +60,16 @@
     "groups": {
       "Create": {
         "position": [
-          -296,
-          -99
+          80,
+          420
         ]
       }
     },
     "icon": {
-      "item": "create:cart_assembler",
+      "item": {
+        "id": "create:cart_assembler",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -51,8 +78,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

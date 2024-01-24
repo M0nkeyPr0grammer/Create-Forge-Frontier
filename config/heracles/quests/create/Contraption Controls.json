@@ -1,22 +1,46 @@
 {
   "dependencies": [
-    "Elevator Pulley"
+    "Redstone Contact"
   ],
   "tasks": {
     "contrap control": {
       "type": "heracles:item",
+      "item": "create:contraption_controls",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "create:contraption_controls"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     },
     "Give Alloy": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "create:andesite_alloy",
         "count": 4
@@ -26,7 +50,7 @@
   },
   "display": {
     "subtitle": {
-      "translate": "Part of the elevator"
+      "text": ""
     },
     "description": [
       "The contraption control is used as the interface of the elevator for the player to look at and scroll up or down on the mouse to select the level"
@@ -34,13 +58,16 @@
     "groups": {
       "Create": {
         "position": [
-          170,
-          149
+          160,
+          20
         ]
       }
     },
     "icon": {
-      "item": "create:contraption_controls",
+      "item": {
+        "id": "create:contraption_controls",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -49,8 +76,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

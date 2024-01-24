@@ -1,22 +1,46 @@
 {
   "dependencies": [
-    "Mechanical Press"
+    "Create"
   ],
   "tasks": {
     "depot": {
       "type": "heracles:item",
+      "item": "create:depot",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "create:depot"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     },
     "Give Casing": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "create:andesite_casing",
         "count": 1
@@ -26,7 +50,7 @@
   },
   "display": {
     "subtitle": {
-      "translate": "Holds items on it and can be used with multiple machines"
+      "text": ""
     },
     "description": [
       "The depot is used to hold items on one block"
@@ -34,23 +58,28 @@
     "groups": {
       "Create": {
         "position": [
-          -200,
-          150
+          -40,
+          -60
         ]
       }
     },
     "icon": {
-      "item": "create:depot",
+      "item": {
+        "id": "create:depot",
+        "count": 1
+      },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "title": {
       "translate": "Depot"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

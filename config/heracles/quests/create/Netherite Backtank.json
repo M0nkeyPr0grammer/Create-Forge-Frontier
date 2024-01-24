@@ -1,0 +1,39 @@
+{
+  "dependencies": [
+    "Netherite Diving Helmet"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [],
+    "groups": {
+      "Create": {
+        "position": [
+          -160,
+          340
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:netherite_backtank",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Netherite Backtank"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

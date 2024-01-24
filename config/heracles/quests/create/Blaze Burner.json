@@ -1,28 +1,60 @@
 {
   "dependencies": [
-    "Mixer and Basin"
+    "Mechanical Roller"
   ],
   "tasks": {
     "blaze b": {
       "type": "heracles:item",
+      "item": "create:blaze_burner",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "create:blaze_burner"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     },
     "empt blaze b": {
       "type": "heracles:item",
+      "item": "create:empty_blaze_burner",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "create:empty_blaze_burner"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     },
     "Give Blaze Burner": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "create:empty_blaze_burner",
         "count": 1
@@ -32,7 +64,7 @@
   },
   "display": {
     "subtitle": {
-      "translate": "Used to heat a basin below a mixer"
+      "text": ""
     },
     "description": [
       ""
@@ -40,13 +72,16 @@
     "groups": {
       "Create": {
         "position": [
-          50,
-          50
+          -80,
+          340
         ]
       }
     },
     "icon": {
-      "item": "create:empty_blaze_burner",
+      "item": {
+        "id": "create:empty_blaze_burner",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -55,8 +90,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

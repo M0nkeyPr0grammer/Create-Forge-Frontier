@@ -1,22 +1,46 @@
 {
   "dependencies": [
-    "Windmill Bearing"
+    "Create"
   ],
   "tasks": {
     "sail": {
       "type": "heracles:item",
+      "item": "create:white_sail",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "create:white_sail"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     },
     "Give Alloy": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "create:andesite_alloy",
         "count": 2
@@ -26,7 +50,7 @@
   },
   "display": {
     "subtitle": {
-      "translate": "More sails = quicker windmill = more stress created"
+      "text": ""
     },
     "description": [
       "Connecting sails to a plank or any block on top of the windmill bearing will generate more stress",
@@ -36,23 +60,28 @@
     "groups": {
       "Create": {
         "position": [
-          -350,
-          50
+          80,
+          -60
         ]
       }
     },
     "icon": {
-      "item": "create:white_sail",
+      "item": {
+        "id": "create:white_sail",
+        "count": 1
+      },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "title": {
       "translate": "Sail"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

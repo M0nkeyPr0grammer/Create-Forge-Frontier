@@ -1,22 +1,46 @@
 {
   "dependencies": [
-    "Andesite Alloy"
+    "Linear Chassis"
   ],
   "tasks": {
     "wind bearing": {
       "type": "heracles:item",
+      "item": "create:windmill_bearing",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "create:windmill_bearing"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     },
     "Give Alloy": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "create:andesite_alloy",
         "count": 4
@@ -26,7 +50,7 @@
   },
   "display": {
     "subtitle": {
-      "translate": "An alternative stress source to water"
+      "text": ""
     },
     "description": [
       "When you place a windmill bearing down you can place a plank on top of it to be able to connect the sails to"
@@ -34,13 +58,16 @@
     "groups": {
       "Create": {
         "position": [
-          -300,
-          0
+          80,
+          60
         ]
       }
     },
     "icon": {
-      "item": "create:windmill_bearing",
+      "item": {
+        "id": "create:windmill_bearing",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -49,8 +76,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

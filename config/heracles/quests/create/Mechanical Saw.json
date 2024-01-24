@@ -1,22 +1,46 @@
 {
   "dependencies": [
-    "Andesite Casing"
+    "Mechanical Press"
   ],
   "tasks": {
     "saw": {
       "type": "heracles:item",
+      "item": "create:mechanical_saw",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "create:mechanical_saw"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     },
     "Give Casing": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "create:andesite_casing",
         "count": 1
@@ -26,7 +50,7 @@
   },
   "display": {
     "subtitle": {
-      "translate": "Advanced Lumberjacking"
+      "text": ""
     },
     "description": [
       "The mechanical saw lets you chop down a whole tree with only destroying one of the logs using the saw.",
@@ -36,13 +60,16 @@
     "groups": {
       "Create": {
         "position": [
-          -100,
-          100
+          -80,
+          -20
         ]
       }
     },
     "icon": {
-      "item": "create:mechanical_saw",
+      "item": {
+        "id": "create:mechanical_saw",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -51,8 +78,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

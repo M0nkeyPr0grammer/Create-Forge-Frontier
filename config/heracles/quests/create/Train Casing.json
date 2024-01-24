@@ -1,18 +1,33 @@
 {
   "dependencies": [
-    "Brass Casing",
-    "Sturdy Sheet"
+    "Brass Casing"
   ],
   "tasks": {
     "Train Casing": {
       "type": "heracles:item",
+      "item": "create:railway_casing",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "create:railway_casing"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "Train Casing": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "create:railway_casing",
         "count": 1
@@ -20,8 +35,16 @@
       "type": "heracles:item"
     },
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     }
   },
@@ -40,13 +63,16 @@
     "groups": {
       "Create": {
         "position": [
-          200,
-          -40
+          -200,
+          60
         ]
       }
     },
     "icon": {
-      "item": "create:railway_casing",
+      "item": {
+        "id": "create:railway_casing",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -55,8 +81,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

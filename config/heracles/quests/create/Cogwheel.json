@@ -1,22 +1,46 @@
 {
   "dependencies": [
-    "Andesite Alloy"
+    "Shaft"
   ],
   "tasks": {
     "cog": {
       "type": "heracles:item",
+      "item": "create:cogwheel",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "create:cogwheel"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     },
     "Give Cogwheel": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "create:cogwheel",
         "count": 4
@@ -26,7 +50,7 @@
   },
   "display": {
     "subtitle": {
-      "translate": "The smaller of the cogwheels"
+      "text": ""
     },
     "description": [
       "You can place small cogwheels next to each other to keep rotational force sideways but the rotations will change from cogwheel to cogwheel"
@@ -34,13 +58,16 @@
     "groups": {
       "Create": {
         "position": [
-          -200,
-          -50
+          -120,
+          20
         ]
       }
     },
     "icon": {
-      "item": "create:cogwheel",
+      "item": {
+        "id": "create:cogwheel",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -49,8 +76,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

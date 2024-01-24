@@ -5,18 +5,42 @@
   "tasks": {
     "red c": {
       "type": "heracles:item",
+      "item": "create:redstone_contact",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "create:redstone_contact"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     },
     "Give Alloy": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "create:andesite_alloy",
         "count": 4
@@ -26,7 +50,7 @@
   },
   "display": {
     "subtitle": {
-      "translate": "Part of the elevator"
+      "text": ""
     },
     "description": [
       "The redstone contact is used to dictate where the elevator will stop at when the 2 contacts connect to each other"
@@ -34,13 +58,16 @@
     "groups": {
       "Create": {
         "position": [
-          120,
-          150
+          160,
+          -20
         ]
       }
     },
     "icon": {
-      "item": "create:redstone_contact",
+      "item": {
+        "id": "create:redstone_contact",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -49,8 +76,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

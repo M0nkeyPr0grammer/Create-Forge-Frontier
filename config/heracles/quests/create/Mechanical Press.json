@@ -1,22 +1,46 @@
 {
   "dependencies": [
-    "Andesite Casing"
+    "Create"
   ],
   "tasks": {
     "press": {
       "type": "heracles:item",
+      "item": "create:mechanical_press",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "create:mechanical_press"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     },
     "Give Casing": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "create:andesite_casing",
         "count": 1
@@ -26,7 +50,7 @@
   },
   "display": {
     "subtitle": {
-      "translate": "Helpful for making a lot of things"
+      "text": ""
     },
     "description": [
       "The mechanical press is used for a lot of different things, like making sheets or some recipes using a basin"
@@ -34,23 +58,28 @@
     "groups": {
       "Create": {
         "position": [
-          -201,
-          100
+          -80,
+          -60
         ]
       }
     },
     "icon": {
-      "item": "create:mechanical_press",
+      "item": {
+        "id": "create:mechanical_press",
+        "count": 1
+      },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "title": {
       "translate": "Mechanical Press"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

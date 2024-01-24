@@ -1,22 +1,46 @@
 {
   "dependencies": [
-    "Andesite Alloy"
+    "Hand Crank"
   ],
   "tasks": {
     "shaft": {
       "type": "heracles:item",
+      "item": "create:shaft",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "create:shaft"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     },
     "Give Alloy": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "create:andesite_alloy",
         "count": 4
@@ -26,7 +50,7 @@
   },
   "display": {
     "subtitle": {
-      "translate": "Crafted with 2 andesite alloy"
+      "text": ""
     },
     "description": [
       "Shafts are way to transfer a rotation in a straight line either vertical or horizontal"
@@ -34,13 +58,16 @@
     "groups": {
       "Create": {
         "position": [
-          -251,
-          0
+          -120,
+          -20
         ]
       }
     },
     "icon": {
-      "item": "create:shaft",
+      "item": {
+        "id": "create:shaft",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -49,8 +76,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

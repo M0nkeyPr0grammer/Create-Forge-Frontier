@@ -1,22 +1,46 @@
 {
   "dependencies": [
-    "Copper casing#"
+    "Smart Fluid Pipe"
   ],
   "tasks": {
     "hose": {
       "type": "heracles:item",
+      "item": "create:hose_pulley",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "create:hose_pulley"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     },
     "Give Copper": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "minecraft:copper_ingot",
         "count": 4
@@ -26,7 +50,7 @@
   },
   "display": {
     "subtitle": {
-      "translate": "Moving Liquid"
+      "text": ""
     },
     "description": [
       "The hose pulley has the ability to pull liquids from the world to be transported, if the source the pulley is pulling from is larger than 10,000 blocks then it classes it as an infinite source of liquid"
@@ -34,13 +58,16 @@
     "groups": {
       "Create": {
         "position": [
-          -50,
-          -50
+          40,
+          140
         ]
       }
     },
     "icon": {
-      "item": "create:hose_pulley",
+      "item": {
+        "id": "create:hose_pulley",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -49,8 +76,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

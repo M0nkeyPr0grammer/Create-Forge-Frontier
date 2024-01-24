@@ -1,29 +1,61 @@
 {
   "dependencies": [
-    "Blaze Burner"
+    "Polished Rose Quartz"
   ],
   "tasks": {
     "Egg": {
       "type": "heracles:item",
+      "item": "minecraft:egg",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "minecraft:egg"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     },
     "sugar": {
       "type": "heracles:item",
+      "item": "minecraft:sugar",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "minecraft:sugar"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     },
     "cinder flour": {
       "type": "heracles:item",
+      "item": "create:cinder_flour",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "create:cinder_flour"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "Cake Base": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "create:blaze_cake_base",
         "count": 1
@@ -31,14 +63,22 @@
       "type": "heracles:item"
     },
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "This will help you create your first blaze cake"
+      "text": ""
     },
     "description": [
       "Gather these items to help you create your first",
@@ -53,13 +93,16 @@
     "groups": {
       "Create": {
         "position": [
-          50,
+          -240,
           100
         ]
       }
     },
     "icon": {
-      "item": "create:blaze_cake_base",
+      "item": {
+        "id": "create:blaze_cake_base",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -68,8 +111,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

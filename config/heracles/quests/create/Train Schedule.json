@@ -1,23 +1,46 @@
 {
   "dependencies": [
-    "Sturdy Sheet",
-    "Train Station"
+    "Steam Whistle"
   ],
   "tasks": {
     "schedule": {
       "type": "heracles:item",
+      "item": "create:schedule",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "create:schedule"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     },
     "cap": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "railways:black_conductor_cap",
         "count": 1
@@ -36,13 +59,16 @@
     "groups": {
       "Create": {
         "position": [
-          255,
-          -120
+          200,
+          100
         ]
       }
     },
     "icon": {
-      "item": "create:schedule",
+      "item": {
+        "id": "create:schedule",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -51,8 +77,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

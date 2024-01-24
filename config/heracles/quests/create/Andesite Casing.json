@@ -1,22 +1,46 @@
 {
   "dependencies": [
-    "Andesite Alloy"
+    "Create"
   ],
   "tasks": {
     "a cas": {
       "type": "heracles:item",
+      "item": "create:andesite_casing",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "create:andesite_casing"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     },
     "Give Alloy": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "create:andesite_alloy",
         "count": 2
@@ -26,7 +50,7 @@
   },
   "display": {
     "subtitle": {
-      "translate": "Right click a stripped log with an andesite alloy"
+      "text": ""
     },
     "description": [
       "Andesite casing is one of the most used items in the start of create it is used to make a bunch of helpful blocks to make progress"
@@ -35,22 +59,27 @@
       "Create": {
         "position": [
           -200,
-          50
+          -60
         ]
       }
     },
     "icon": {
-      "item": "create:andesite_casing",
+      "item": {
+        "id": "create:andesite_casing",
+        "count": 1
+      },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "title": {
       "translate": "Andesite Casing"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

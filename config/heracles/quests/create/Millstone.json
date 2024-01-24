@@ -1,25 +1,41 @@
 {
   "dependencies": [
-    "Andesite Casing"
+    "Mechanical Saw"
   ],
   "tasks": {
     "mill": {
       "type": "heracles:item",
+      "item": "create:millstone",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "create:millstone"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Can make dye and other things"
+      "text": ""
     },
     "description": [
       "The millstone has the ability to crush many items"
@@ -27,13 +43,16 @@
     "groups": {
       "Create": {
         "position": [
-          -51,
-          0
+          -80,
+          20
         ]
       }
     },
     "icon": {
-      "item": "create:millstone",
+      "item": {
+        "id": "create:millstone",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -42,8 +61,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

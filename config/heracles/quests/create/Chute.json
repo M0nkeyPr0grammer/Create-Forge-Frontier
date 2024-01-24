@@ -1,22 +1,46 @@
 {
   "dependencies": [
-    "Mechanical Press"
+    "Basin"
   ],
   "tasks": {
     "chute": {
       "type": "heracles:item",
+      "item": "create:chute",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "create:chute"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     },
     "Give Iron": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "minecraft:iron_ingot",
         "count": 3
@@ -26,7 +50,7 @@
   },
   "display": {
     "subtitle": {
-      "translate": "A way to move items"
+      "text": ""
     },
     "description": [
       "The chute acts similar to a hopper and dropper combined, as you can stack them on top of each other and they will continue to funnel the items down and drop them once they reach the end but they can also push items up if there is an encased fan blowing air up through the chute"
@@ -34,13 +58,16 @@
     "groups": {
       "Create": {
         "position": [
-          -250,
-          100
+          -40,
+          60
         ]
       }
     },
     "icon": {
-      "item": "create:chute",
+      "item": {
+        "id": "create:chute",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -49,8 +76,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

@@ -1,28 +1,60 @@
 {
   "dependencies": [
-    "Andesite Casing"
+    "Encased fan"
   ],
   "tasks": {
     "mixer": {
       "type": "heracles:item",
+      "item": "create:mechanical_mixer",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "create:mechanical_mixer"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     },
     "basin": {
       "type": "heracles:item",
+      "item": "create:basin",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "create:basin"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     },
     "Give casing": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "create:andesite_casing",
         "count": 1
@@ -32,7 +64,7 @@
   },
   "display": {
     "subtitle": {
-      "translate": "It's got a lot of uses"
+      "text": ""
     },
     "description": [
       "The mixer has many different recipes that it can be used for.",
@@ -42,13 +74,16 @@
     "groups": {
       "Create": {
         "position": [
-          -50,
-          50
+          -80,
+          100
         ]
       }
     },
     "icon": {
-      "item": "create:mechanical_mixer",
+      "item": {
+        "id": "create:mechanical_mixer",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -57,8 +92,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

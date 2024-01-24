@@ -1,19 +1,35 @@
 {
   "dependencies": [
-    "Train Casing"
+    "Create"
   ],
   "tasks": {
     "Train station": {
       "type": "heracles:item",
+      "item": "create:track_station",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "create:track_station"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     }
   },
@@ -30,23 +46,28 @@
     "groups": {
       "Create": {
         "position": [
-          230,
-          -80
+          200,
+          -60
         ]
       }
     },
     "icon": {
-      "item": "create:track_station",
+      "item": {
+        "id": "create:track_station",
+        "count": 1
+      },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "title": {
       "translate": "Train Station"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

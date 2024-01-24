@@ -1,24 +1,46 @@
 {
   "dependencies": [
-    "Cogwheel",
-    "Andesite Alloy",
-    "Andesite Casing"
+    "Large Water Wheel"
   ],
   "tasks": {
     "gearb": {
       "type": "heracles:item",
+      "item": "create:gearbox",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "create:gearbox"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     },
     "Give Gears": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "create:cogwheel",
         "count": 4
@@ -28,7 +50,7 @@
   },
   "display": {
     "subtitle": {
-      "translate": "You can craft each gearbox into the other one"
+      "text": ""
     },
     "description": [
       "A gearbox is used to change the direction of rotation"
@@ -36,13 +58,16 @@
     "groups": {
       "Create": {
         "position": [
-          -200,
-          0
+          -120,
+          180
         ]
       }
     },
     "icon": {
-      "item": "create:gearbox",
+      "item": {
+        "id": "create:gearbox",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -51,8 +76,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

@@ -1,22 +1,46 @@
 {
   "dependencies": [
-    "Copper casing#"
+    "Rope Pulley"
   ],
   "tasks": {
     "spout": {
       "type": "heracles:item",
+      "item": "create:spout",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "create:spout"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     },
     "Give Copper": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "minecraft:copper_ingot",
         "count": 4
@@ -26,7 +50,7 @@
   },
   "display": {
     "subtitle": {
-      "translate": "Liquid used in crafting?"
+      "text": ""
     },
     "description": [
       "The spout can be used to drop liquid onto an item that's below it on a depot or belt to be able to change what the item is"
@@ -34,13 +58,16 @@
     "groups": {
       "Create": {
         "position": [
-          -100,
-          -100
+          40,
+          180
         ]
       }
     },
     "icon": {
-      "item": "create:spout",
+      "item": {
+        "id": "create:spout",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -49,8 +76,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

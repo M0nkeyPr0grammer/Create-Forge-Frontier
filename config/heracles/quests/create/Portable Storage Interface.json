@@ -1,22 +1,46 @@
 {
   "dependencies": [
-    "Chute"
+    "Weighted Ejector"
   ],
   "tasks": {
     "port s i": {
       "type": "heracles:item",
+      "item": "create:portable_storage_interface",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "create:portable_storage_interface"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     },
     "Give Casing": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "create:andesite_casing",
         "count": 1
@@ -26,7 +50,7 @@
   },
   "display": {
     "subtitle": {
-      "translate": "Move items from farms to storage"
+      "text": ""
     },
     "description": [
       "The portable storage interface needs 2 to work correctly, one of them on the machine and the other one not attached to the machine and with a 1 block gap and aligned with each other before the machine is started so that on each rotation is will deposit the excess items into the stationary one"
@@ -34,13 +58,16 @@
     "groups": {
       "Create": {
         "position": [
-          -250,
-          150
+          -40,
+          220
         ]
       }
     },
     "icon": {
-      "item": "create:portable_storage_interface",
+      "item": {
+        "id": "create:portable_storage_interface",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -49,8 +76,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

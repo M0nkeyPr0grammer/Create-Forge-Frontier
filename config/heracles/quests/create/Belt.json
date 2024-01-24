@@ -1,22 +1,46 @@
 {
   "dependencies": [
-    "Shaft"
+    "Depot"
   ],
   "tasks": {
     "belt": {
       "type": "heracles:item",
+      "item": "create:belt_connector",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "create:belt_connector"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     },
     "Give Belt": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "create:belt_connector",
         "count": 4
@@ -26,7 +50,7 @@
   },
   "display": {
     "subtitle": {
-      "translate": "Crafted with 6 dried kelp"
+      "text": ""
     },
     "description": [
       "An efficient way to transport items",
@@ -38,13 +62,16 @@
     "groups": {
       "Create": {
         "position": [
-          -250,
-          50
+          -40,
+          -20
         ]
       }
     },
     "icon": {
-      "item": "create:belt_connector",
+      "item": {
+        "id": "create:belt_connector",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -53,8 +80,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

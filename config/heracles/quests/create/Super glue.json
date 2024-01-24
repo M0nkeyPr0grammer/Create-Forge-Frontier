@@ -1,22 +1,46 @@
 {
   "dependencies": [
-    "Mechanical Bearing"
+    "Sand Paper"
   ],
   "tasks": {
     "glue": {
       "type": "heracles:item",
+      "item": "create:super_glue",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "create:super_glue"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     },
     "Give Slime": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "minecraft:slime_ball",
         "count": 2
@@ -26,7 +50,7 @@
   },
   "display": {
     "subtitle": {
-      "translate": "Getting stuck in"
+      "text": ""
     },
     "description": [
       "Super glue is the key part of all create multi blocks as it makes sure all the parts stay as one when the machine is started"
@@ -34,13 +58,19 @@
     "groups": {
       "Create": {
         "position": [
-          -150,
-          150
+          -160,
+          100
         ]
       }
     },
     "icon": {
-      "item": "create:super_glue",
+      "item": {
+        "id": "create:super_glue",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -49,8 +79,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

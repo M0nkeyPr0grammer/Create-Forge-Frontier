@@ -1,22 +1,46 @@
 {
   "dependencies": [
-    "Brass Casing"
+    "Precision Mechanism"
   ],
   "tasks": {
     "rsc": {
       "type": "heracles:item",
+      "item": "create:rotation_speed_controller",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "create:rotation_speed_controller"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     },
     "Give Casing": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "create:brass_casing",
         "count": 1
@@ -26,7 +50,7 @@
   },
   "display": {
     "subtitle": {
-      "translate": "Replaces the cog wheel method"
+      "text": ""
     },
     "description": [
       "The mechanical speed controller is a easier way to speed up rotational speeds, you can right click it and set the speed you want it to spin at"
@@ -34,13 +58,16 @@
     "groups": {
       "Create": {
         "position": [
-          215,
-          75
+          -120,
+          500
         ]
       }
     },
     "icon": {
-      "item": "create:rotation_speed_controller",
+      "item": {
+        "id": "create:rotation_speed_controller",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -49,8 +76,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

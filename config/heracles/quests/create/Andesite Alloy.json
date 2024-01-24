@@ -5,18 +5,42 @@
   "tasks": {
     "alloy": {
       "type": "heracles:item",
+      "item": "create:andesite_alloy",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "create:andesite_alloy"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     },
     "Give Alloy": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "create:andesite_alloy",
         "count": 4
@@ -26,7 +50,7 @@
   },
   "display": {
     "subtitle": {
-      "translate": "Make andesite alloy"
+      "text": ""
     },
     "description": [
       "To make andesite alloy you will need 2 andesite and 2 iron or zinc nuggets"
@@ -34,13 +58,16 @@
     "groups": {
       "Create": {
         "position": [
-          -250,
-          -50
+          -240,
+          -20
         ]
       }
     },
     "icon": {
-      "item": "create:andesite_alloy",
+      "item": {
+        "id": "create:andesite_alloy",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -49,8 +76,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

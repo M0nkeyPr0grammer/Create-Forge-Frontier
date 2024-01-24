@@ -1,25 +1,41 @@
 {
   "dependencies": [
-    "Andesite Casing"
+    "Mechanical Drill"
   ],
   "tasks": {
     "harv": {
       "type": "heracles:item",
+      "item": "create:mechanical_harvester",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "create:mechanical_harvester"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Crop harvesting"
+      "text": ""
     },
     "description": [
       "The harvester will automatically harvest crops when added to a machine"
@@ -27,13 +43,16 @@
     "groups": {
       "Create": {
         "position": [
-          -100,
-          0
+          -80,
+          180
         ]
       }
     },
     "icon": {
-      "item": "create:mechanical_harvester",
+      "item": {
+        "id": "create:mechanical_harvester",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -42,8 +61,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

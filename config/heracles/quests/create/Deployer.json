@@ -1,23 +1,46 @@
 {
   "dependencies": [
-    "Brass",
-    "Polished Rose Quartz"
+    "Mechanical Plough"
   ],
   "tasks": {
     "deployer": {
       "type": "heracles:item",
+      "item": "create:deployer",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "create:deployer"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     },
     "Give Brass": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "create:brass_ingot",
         "count": 4
@@ -27,7 +50,7 @@
   },
   "display": {
     "subtitle": {
-      "translate": "Start of automation"
+      "text": ""
     },
     "description": [
       "The deployer is the start of automation as it is used in many different multi step crafts like precision mechanisms and many others"
@@ -35,13 +58,16 @@
     "groups": {
       "Create": {
         "position": [
-          100,
-          -40
+          -80,
+          260
         ]
       }
     },
     "icon": {
-      "item": "create:deployer",
+      "item": {
+        "id": "create:deployer",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -50,8 +76,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

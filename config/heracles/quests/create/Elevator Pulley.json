@@ -1,22 +1,46 @@
 {
   "dependencies": [
-    "Brass Casing"
+    "Create"
   ],
   "tasks": {
     "e pulley": {
       "type": "heracles:item",
+      "item": "create:elevator_pulley",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "create:elevator_pulley"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     },
     "Give Casing": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "create:brass_casing",
         "count": 1
@@ -26,7 +50,7 @@
   },
   "display": {
     "subtitle": {
-      "translate": "Vertical travel"
+      "text": ""
     },
     "description": [
       "Elevators are a really fun way to travel vertically.",
@@ -36,23 +60,28 @@
     "groups": {
       "Create": {
         "position": [
-          150,
-          100
+          160,
+          -60
         ]
       }
     },
     "icon": {
-      "item": "create:elevator_pulley",
+      "item": {
+        "id": "create:elevator_pulley",
+        "count": 1
+      },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "title": {
       "translate": "Elevator Pulley"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

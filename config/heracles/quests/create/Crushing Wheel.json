@@ -1,22 +1,46 @@
 {
   "dependencies": [
-    "Mechanical Crafter"
+    "Steam Engine"
   ],
   "tasks": {
     "crush": {
       "type": "heracles:item",
+      "item": "create:crushing_wheel",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "create:crushing_wheel"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     },
     "Give Crushed Ore": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "create:crushed_raw_zinc",
         "count": 16
@@ -24,6 +48,14 @@
       "type": "heracles:item"
     },
     "Give Ore": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "create:crushed_raw_iron",
         "count": 16
@@ -33,7 +65,7 @@
   },
   "display": {
     "subtitle": {
-      "translate": "Crushing stuff"
+      "text": ""
     },
     "description": [
       "The crushing wheel is used to start processing raw resources more automatically",
@@ -48,13 +80,16 @@
     "groups": {
       "Create": {
         "position": [
-          255,
-          40
+          -80,
+          420
         ]
       }
     },
     "icon": {
-      "item": "create:crushing_wheel",
+      "item": {
+        "id": "create:crushing_wheel",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -63,8 +98,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

@@ -1,22 +1,46 @@
 {
   "dependencies": [
-    "Andesite Casing"
+    "Millstone"
   ],
   "tasks": {
     "fan": {
       "type": "heracles:item",
+      "item": "create:encased_fan",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "create:encased_fan"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     },
     "Give Casing": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "create:andesite_casing",
         "count": 1
@@ -26,7 +50,7 @@
   },
   "display": {
     "subtitle": {
-      "translate": "Has multiple uses"
+      "text": ""
     },
     "description": [
       "The encased fan has many different uses, it can be used to blast, wash, haunt and smoke items. The rotation will mean it either pushes or pulls air",
@@ -39,13 +63,16 @@
     "groups": {
       "Create": {
         "position": [
-          -50,
-          99
+          -80,
+          60
         ]
       }
     },
     "icon": {
-      "item": "create:encased_fan",
+      "item": {
+        "id": "create:encased_fan",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -54,8 +81,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

@@ -1,22 +1,46 @@
 {
   "dependencies": [
-    "Tank"
+    "Create"
   ],
   "tasks": {
     "pipe": {
       "type": "heracles:item",
+      "item": "create:fluid_pipe",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "create:fluid_pipe"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     },
     "Give Copper": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "minecraft:copper_ingot",
         "count": 4
@@ -26,7 +50,7 @@
   },
   "display": {
     "subtitle": {
-      "translate": "Moving liquid in pipes"
+      "text": ""
     },
     "description": [
       "The pipe and mechanical pump are used hand in hand to move liquids around, the pump does need to be given so rotational speed, depending on the way the rotation goes decides which way by default the pump wants to move the liquid, the wrench can be used on it to switch the way the liquid is moved by the pump"
@@ -34,23 +58,28 @@
     "groups": {
       "Create": {
         "position": [
-          -100,
-          -150
+          40,
+          -60
         ]
       }
     },
     "icon": {
-      "item": "create:fluid_pipe",
+      "item": {
+        "id": "create:fluid_pipe",
+        "count": 1
+      },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "title": {
       "translate": "Pipe"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

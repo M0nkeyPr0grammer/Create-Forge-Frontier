@@ -5,18 +5,42 @@
   "tasks": {
     "large water": {
       "type": "heracles:item",
+      "item": "create:large_water_wheel",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "create:large_water_wheel"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     },
     "give large water wheel": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "create:large_water_wheel",
         "count": 1
@@ -26,7 +50,7 @@
   },
   "display": {
     "subtitle": {
-      "translate": "Bigger but slower"
+      "text": ""
     },
     "description": [
       "The large water wheel works the same as the regular water wheel but has a few differences, it will spin slower than a regular water wheel but it can produce a higher stress capacity before it stops from over stressing. It also doesn't matter if 1 or more sides are covered as it will produce the same amount of stress units",
@@ -36,13 +60,16 @@
     "groups": {
       "Create": {
         "position": [
-          -150,
-          -150
+          -120,
+          140
         ]
       }
     },
     "icon": {
-      "item": "create:large_water_wheel",
+      "item": {
+        "id": "create:large_water_wheel",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -51,8 +78,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

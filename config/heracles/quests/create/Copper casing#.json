@@ -1,22 +1,46 @@
 {
   "dependencies": [
-    "Large Cogwheel"
+    "Andesite Casing"
   ],
   "tasks": {
     "cop cas": {
       "type": "heracles:item",
+      "item": "create:copper_casing",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "create:copper_casing"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     },
     "Give Copper": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "minecraft:copper_ingot",
         "count": 4
@@ -26,7 +50,7 @@
   },
   "display": {
     "subtitle": {
-      "translate": "Right click a copper on to a stripped log"
+      "text": ""
     },
     "description": [
       ""
@@ -34,13 +58,16 @@
     "groups": {
       "Create": {
         "position": [
-          -100,
-          -50
+          -200,
+          -20
         ]
       }
     },
     "icon": {
-      "item": "create:copper_casing",
+      "item": {
+        "id": "create:copper_casing",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -49,8 +76,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

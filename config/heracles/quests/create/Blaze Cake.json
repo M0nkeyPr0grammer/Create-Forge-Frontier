@@ -5,18 +5,42 @@
   "tasks": {
     "Blaze Cake": {
       "type": "heracles:item",
+      "item": "create:blaze_cake",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "create:blaze_cake"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     },
     "Blaze Cake": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "create:blaze_cake",
         "count": 1
@@ -26,7 +50,7 @@
   },
   "display": {
     "subtitle": {
-      "translate": "This blaze cake will allow super heating of the mixer"
+      "text": ""
     },
     "description": [
       "Now that you have your first blaze cake base",
@@ -42,13 +66,16 @@
     "groups": {
       "Create": {
         "position": [
-          50,
-          150
+          -240,
+          140
         ]
       }
     },
     "icon": {
-      "item": "create:blaze_cake",
+      "item": {
+        "id": "create:blaze_cake",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -57,8 +84,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }
