@@ -1,8 +1,6 @@
 {
   "dependencies": [
-    "Wireless Grid",
-    "Wireless Fluid Grid",
-    "Wireless Crafting Grid"
+    "Wireless Crafting Monitor"
   ],
   "tasks": {
     "universal": {
@@ -34,21 +32,6 @@
       "title": "",
       "type": "heracles:xp"
     },
-    "advanced": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "refinedstorage:advanced_processor",
-          "count": 1
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "refinedstorage:advanced_processor",
-        "count": 8
-      },
-      "type": "heracles:item"
-    },
     "diamond": {
       "title": "",
       "icon": {
@@ -63,6 +46,21 @@
         "count": 1
       },
       "type": "heracles:item"
+    },
+    "advanced": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "refinedstorage:advanced_processor",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "refinedstorage:advanced_processor",
+        "count": 8
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
@@ -75,8 +73,8 @@
     "groups": {
       "Refined Storage": {
         "position": [
-          375,
-          -39
+          120,
+          100
         ]
       }
     },

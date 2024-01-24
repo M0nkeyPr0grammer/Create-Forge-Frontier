@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Pattern Grid"
+    "Refined Storage"
   ],
   "tasks": {},
   "rewards": {},
@@ -8,29 +8,25 @@
     "subtitle": {
       "text": ""
     },
-    "description": [
-      "When attached to your system, the Crafting Monitor allows you to see what items are currently in your crafting queue.",
-      "",
-      "You'll need one of these if you want to be able to cancel crafts that aren't working or are bugged. "
-    ],
+    "description": [],
     "groups": {
       "Refined Storage": {
         "position": [
-          -280,
-          460
+          280,
+          -120
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "refinedstorage:crafting_monitor",
+        "id": "design_decor:arrow_right_sign",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Crafting Monitor"
+      "translate": "Right"
     }
   },
   "settings": {

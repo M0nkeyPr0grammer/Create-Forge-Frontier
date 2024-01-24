@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Pattern"
+    "Grid Networks"
   ],
   "tasks": {
     "pat grid": {
@@ -64,8 +64,8 @@
     "groups": {
       "Refined Storage": {
         "position": [
-          250,
-          -10
+          -280,
+          420
         ]
       }
     },

@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Advanced Storage Housing"
+    "4096 Fluid Storage Part"
   ],
   "tasks": {
     "16": {
@@ -58,8 +58,8 @@
     "groups": {
       "Refined Storage": {
         "position": [
-          40,
-          295
+          -40,
+          100
         ]
       }
     },

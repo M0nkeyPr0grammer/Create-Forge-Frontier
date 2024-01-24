@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Cables"
+    "Deconstructor Upgrades"
   ],
   "tasks": {
     "filter": {
@@ -58,8 +58,8 @@
     "groups": {
       "Refined Storage": {
         "position": [
-          -55,
-          -30
+          -80,
+          180
         ]
       }
     },

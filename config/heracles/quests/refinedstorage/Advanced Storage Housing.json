@@ -1,7 +1,6 @@
 {
   "dependencies": [
-    "64K Storage Part",
-    "4096 Fluid Storage Part"
+    "Pattern"
   ],
   "tasks": {
     "advanced": {
@@ -76,8 +75,8 @@
     "groups": {
       "Refined Storage": {
         "position": [
-          100,
-          265
+          -80,
+          300
         ]
       }
     },

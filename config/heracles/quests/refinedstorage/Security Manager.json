@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Controller"
+    "Storage Monitor"
   ],
   "tasks": {
     "security": {
@@ -62,8 +62,8 @@
     "groups": {
       "Refined Storage": {
         "position": [
-          -140,
-          105
+          -280,
+          300
         ]
       }
     },

@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Range Upgrade"
+    "Dimension Card"
   ],
   "tasks": {
     "infite": {
@@ -62,8 +62,8 @@
     "groups": {
       "Refined Storage": {
         "position": [
-          375,
-          110
+          -80,
+          420
         ]
       }
     },

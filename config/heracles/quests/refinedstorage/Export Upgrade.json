@@ -1,31 +1,31 @@
 {
   "dependencies": [
-    "RS Crafting Upgrades"
+    "Filters"
   ],
   "tasks": {
-    "silk": {
+    "insert": {
       "type": "heracles:item",
-      "item": "refinedstorage:silk_touch_upgrade",
+      "item": "rsinsertexportupgrade:insert_upgrade",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "refinedstorage:silk_touch_upgrade",
+          "id": "rsinsertexportupgrade:insert_upgrade",
           "count": 1
         },
         "type": "heracles:item"
       }
     },
-    "fortune": {
+    "export": {
       "type": "heracles:item",
-      "item": "refinedstorage:fortune_1_upgrade",
+      "item": "rsinsertexportupgrade:export_upgrade",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "refinedstorage:fortune_1_upgrade",
+          "id": "rsinsertexportupgrade:export_upgrade",
           "count": 1
         },
         "type": "heracles:item"
@@ -46,18 +46,18 @@
       "title": "",
       "type": "heracles:xp"
     },
-    "upgrades": {
+    "stack": {
       "title": "",
       "icon": {
         "item": {
-          "id": "refinedstorage:upgrade",
+          "id": "refinedstorage:stack_upgrade",
           "count": 1
         },
         "type": "heracles:item"
       },
       "item": {
-        "id": "refinedstorage:upgrade",
-        "count": 3
+        "id": "refinedstorage:stack_upgrade",
+        "count": 2
       },
       "type": "heracles:item"
     }
@@ -67,28 +67,28 @@
       "text": ""
     },
     "description": [
-      "These upgrades add enchantments to your Destructor.",
+      "The insert upgrade takes items in specific slots of your inventory and dumps them into your Refined Storage. To configure it, put it in your hand and right click. Click on slots to turn them red. Any item that goes into the red slots will get imported to your Refined Storage. You can whitelist or blacklist items by adding them to the filter at the top.",
       "",
-      "Wondering why you would use this? Imagine having a Builder or Quarry pump Silk-Touched Ores into your system. You can have a Constructor place these ores, then a Destructor with Fortune on it to break it for even more raw ores."
+      "The export upgrade works exactly the same but will pull items from your Refined Storage into your inventory. To specify what items, drag the item from JEI into one of the colored slots at the top and click on a slot in your inventory to change it to the desired color. Right clicking clears the color."
     ],
     "groups": {
       "Refined Storage": {
         "position": [
           -80,
-          140
+          220
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "refinedstorage:silk_touch_upgrade",
+        "id": "rsinsertexportupgrade:insert_upgrade",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Fortune/ Silk Upgrades"
+      "translate": "Import/Export Upgrade"
     }
   },
   "settings": {

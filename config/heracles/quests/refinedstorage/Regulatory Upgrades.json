@@ -1,5 +1,7 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Storage Housing"
+  ],
   "tasks": {
     "reg": {
       "type": "heracles:item",
@@ -56,8 +58,8 @@
     "groups": {
       "Refined Storage": {
         "position": [
-          -230,
-          -30
+          -80,
+          60
         ]
       }
     },

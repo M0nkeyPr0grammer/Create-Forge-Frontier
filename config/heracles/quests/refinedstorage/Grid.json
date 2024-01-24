@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Disk Drive"
+    "External Storage"
   ],
   "tasks": {
     "grid": {
@@ -60,8 +60,8 @@
     "groups": {
       "Refined Storage": {
         "position": [
-          250,
-          50
+          -280,
+          100
         ]
       }
     },

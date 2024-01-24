@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "1K Storage Part"
+    "1K Storage Block"
   ],
   "tasks": {
     "4": {
@@ -58,8 +58,8 @@
     "groups": {
       "Refined Storage": {
         "position": [
-          160,
-          145
+          40,
+          20
         ]
       }
     },

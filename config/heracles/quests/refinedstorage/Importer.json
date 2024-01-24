@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Cables"
+    "Refined Storage"
   ],
   "tasks": {
     "import": {
@@ -64,8 +64,8 @@
     "groups": {
       "Refined Storage": {
         "position": [
-          -120,
-          -70
+          -240,
+          -60
         ]
       }
     },
@@ -76,14 +76,14 @@
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "title": {
       "translate": "Importer"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

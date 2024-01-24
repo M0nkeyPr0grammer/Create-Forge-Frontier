@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Wireless Access"
+    "Wireless Grid"
   ],
   "tasks": {
     "wireless": {
@@ -58,8 +58,8 @@
     "groups": {
       "Refined Storage": {
         "position": [
-          325,
-          10
+          120,
+          -20
         ]
       }
     },

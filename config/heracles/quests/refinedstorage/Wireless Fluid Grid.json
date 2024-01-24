@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Wireless Access"
+    "Wireless Crafting Grid"
   ],
   "tasks": {
     "fluid": {
@@ -58,8 +58,8 @@
     "groups": {
       "Refined Storage": {
         "position": [
-          425,
-          10
+          120,
+          20
         ]
       }
     },

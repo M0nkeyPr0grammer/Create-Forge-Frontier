@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Advanced Storage Housing"
+    "64K Storage Part"
   ],
   "tasks": {
     "256": {
@@ -58,8 +58,8 @@
     "groups": {
       "Refined Storage": {
         "position": [
-          160,
-          295
+          40,
+          140
         ]
       }
     },

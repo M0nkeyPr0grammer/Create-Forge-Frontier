@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Refined Storage"
+    "RS Wrench"
   ],
   "tasks": {
     "cable": {
@@ -60,8 +60,8 @@
     "groups": {
       "Refined Storage": {
         "position": [
-          -100,
-          -30
+          -280,
+          20
         ]
       }
     },

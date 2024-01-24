@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Controller"
+    "Refined Storage"
   ],
   "tasks": {
     "disk": {
@@ -60,8 +60,8 @@
     "groups": {
       "Refined Storage": {
         "position": [
-          100,
-          50
+          80,
+          -60
         ]
       }
     },
@@ -72,14 +72,14 @@
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "title": {
       "translate": "Disk Drive"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

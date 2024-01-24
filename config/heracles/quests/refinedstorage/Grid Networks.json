@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Controller"
+    "Wireless Access"
   ],
   "tasks": {
     "rece": {
@@ -82,8 +82,8 @@
     "groups": {
       "Refined Storage": {
         "position": [
-          -100,
-          105
+          -280,
+          380
         ]
       }
     },

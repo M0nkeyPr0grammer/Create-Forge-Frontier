@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Grid"
+    "Export Upgrade"
   ],
   "tasks": {
     "pat": {
@@ -58,8 +58,8 @@
     "groups": {
       "Refined Storage": {
         "position": [
-          250,
-          20
+          -80,
+          260
         ]
       }
     },

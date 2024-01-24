@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Wireless Access"
+    "Refined Storage"
   ],
   "tasks": {
     "interface": {
@@ -58,8 +58,8 @@
     "groups": {
       "Refined Storage": {
         "position": [
-          475,
-          50
+          240,
+          -60
         ]
       }
     },
@@ -70,14 +70,14 @@
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "title": {
       "translate": "Interface"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

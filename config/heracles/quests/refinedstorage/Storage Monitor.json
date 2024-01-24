@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Cables"
+    "Fluid Grid"
   ],
   "tasks": {
     "storage": {
@@ -32,21 +32,6 @@
       "title": "",
       "type": "heracles:xp"
     },
-    "basic": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "refinedstorage:basic_processor",
-          "count": 1
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "refinedstorage:basic_processor",
-        "count": 2
-      },
-      "type": "heracles:item"
-    },
     "casing": {
       "title": "",
       "icon": {
@@ -61,6 +46,21 @@
         "count": 1
       },
       "type": "heracles:item"
+    },
+    "basic": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "refinedstorage:basic_processor",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "refinedstorage:basic_processor",
+        "count": 2
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
@@ -73,8 +73,8 @@
     "groups": {
       "Refined Storage": {
         "position": [
-          -55,
-          10
+          -280,
+          260
         ]
       }
     },
