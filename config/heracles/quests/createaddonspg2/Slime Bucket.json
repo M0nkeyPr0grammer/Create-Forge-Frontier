@@ -2,13 +2,59 @@
   "dependencies": [
     "Create Things and Misc"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "slime": {
+      "type": "heracles:item",
+      "item": "create_things_and_misc:slime_bucket",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_things_and_misc:slime_bucket",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "slime": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:slime_block",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:slime_block",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "The slime bucket is the first way of picking up liquid slime which is obtained from mixing slimeballs in a basin."
+    ],
     "groups": {
       "Create Addons pg 2": {
         "position": [

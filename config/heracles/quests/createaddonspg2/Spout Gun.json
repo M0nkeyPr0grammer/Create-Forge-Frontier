@@ -2,13 +2,79 @@
   "dependencies": [
     "Sticky Launcher"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "spout": {
+      "type": "heracles:item",
+      "item": "create_things_and_misc:spout_gun",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_things_and_misc:spout_gun",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "prec": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:precision_mechanism",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:precision_mechanism",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "copper": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:copper_block",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:copper_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "The spout gun allows you to shoot liquid at your enemies. You can shoot the following liquids:",
+      "- Water",
+      "- Lava",
+      "- Chocolate",
+      "- Honey",
+      "- Slime"
+    ],
     "groups": {
       "Create Addons pg 2": {
         "position": [

@@ -2,13 +2,59 @@
   "dependencies": [
     "Card"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "sprinkler": {
+      "type": "heracles:item",
+      "item": "create_things_and_misc:sprinkler",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_things_and_misc:sprinkler",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "copper": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "allthecompressed:copper_block_1x",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "allthecompressed:copper_block_1x",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "The Sprinkler allows you to provide a dilluted bonemeal affect to every plant within a 5 block radius."
+    ],
     "groups": {
       "Create Addons pg 2": {
         "position": [

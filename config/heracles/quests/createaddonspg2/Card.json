@@ -2,13 +2,44 @@
   "dependencies": [
     "Vibration Mechanism"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "card": {
+      "type": "heracles:item",
+      "item": "create_things_and_misc:empty_card",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_things_and_misc:empty_card",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "The Card when put inside a card inscriber allows you to make unique cards that are used for card readers. Allowing you to setup some custom top secret things."
+    ],
     "groups": {
       "Create Addons pg 2": {
         "position": [

@@ -2,13 +2,71 @@
   "dependencies": [
     "Spout Gun"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "tube": {
+      "type": "heracles:item",
+      "item": "create_things_and_misc:neon_tube",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_things_and_misc:neon_tube",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "tube": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_things_and_misc:neon_tube",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create_things_and_misc:neon_tube",
+        "count": 3,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "The neon tube is essentially a throwable torch, crafted using 2 glass blocks and an electron tube."
+    ],
     "groups": {
       "Create Addons pg 2": {
         "position": [

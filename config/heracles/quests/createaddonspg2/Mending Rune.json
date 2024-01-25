@@ -2,13 +2,52 @@
   "dependencies": [
     "Neon Tube"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "rune": {
+      "type": "heracles:item",
+      "item": "create_things_and_misc:mending_rune",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_things_and_misc:mending_rune",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:experience_block",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:experience_block",
+        "count": 3
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "The mending rune allows you to repair all items that have the mending enchantment using XP from you XP bar."
+    ],
     "groups": {
       "Create Addons pg 2": {
         "position": [
