@@ -18,13 +18,36 @@
       }
     }
   },
-  "rewards": {},
+  "rewards": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
     "description": [
-      ""
+      "This mod adds hidden infinite ore veins to your world. You can extract these ores using machines. This mod requires Create.",
+      "",
+      "Features:",
+      "",
+      "- Adds hidden ore veins and fluid reservoirs that has a random chance to spawn in a chunk. Only one ore vein can exist in each chunk",
+      "- The veins are infinite",
+      "- Ore vein types can be configured using a Datapack or KubeJS",
+      "- Harvest the ores using Drilling Machine, and Fluid Extractor",
+      "- The machines are powered by Rotational Force",
+      "- Use the 'Ore Vein Finder' item to find ore veins and fluid reservoirs"
     ],
     "groups": {
       "Create Addons pg 1": {

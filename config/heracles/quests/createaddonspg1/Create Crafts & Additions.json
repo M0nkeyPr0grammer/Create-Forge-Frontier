@@ -18,13 +18,27 @@
       }
     }
   },
-  "rewards": {},
+  "rewards": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
     "description": [
-      ""
+      "Create Crafts & Additions extends Create and acts as a bridge between electricity and kinetic energy from Create by adding an Electric Motor which generates kinetic energy from Forge energy and an Alternator which does the opposite at 75% efficiency. To craft these items you need to make a Rolling Mill which is a kinetic machine that is used to make rods and wires."
     ],
     "groups": {
       "Create Addons pg 1": {

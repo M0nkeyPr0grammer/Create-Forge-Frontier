@@ -1,12 +1,42 @@
 {
-  "dependencies": [],
-  "tasks": {},
-  "rewards": {},
+  "dependencies": [
+    "Create Addons Page 1"
+  ],
+  "tasks": {
+    "c": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "Welcome to Create Enchantment Industry, a mod offering more tools and methods to handle experience & enchantment in Create."
+    ],
     "groups": {
       "Create Addons pg 1": {
         "position": [

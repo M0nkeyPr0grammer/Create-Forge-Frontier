@@ -18,13 +18,27 @@
       }
     }
   },
-  "rewards": {},
+  "rewards": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
     "description": [
-      ""
+      "Adds Helmets with Create Mod Goggle Function and Vanilla Armorstats. If you want to wear a full netherite armor but want also see the goggle stats or use your Backtank, this is the mod or you!"
     ],
     "groups": {
       "Create Addons pg 1": {

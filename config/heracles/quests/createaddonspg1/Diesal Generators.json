@@ -17,13 +17,27 @@
       "type": "heracles:block_interaction"
     }
   },
-  "rewards": {},
+  "rewards": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
     "description": [
-      ""
+      "A mod that adds Diesel Generators, Crude Oil Refinery and much more to the create mod."
     ],
     "groups": {
       "Create Addons pg 1": {

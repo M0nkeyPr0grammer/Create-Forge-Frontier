@@ -5,26 +5,57 @@
   "tasks": {
     "netherite": {
       "type": "heracles:item",
-      "item": "minecraft:netherite_ingot",
+      "item": "createutilities:void_steel_ingot",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
+      "icon": {
+        "item": {
+          "id": "createutilities:void_steel_ingot",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "x": {
       "icon": {
         "item": {
           "id": "minecraft:air",
           "count": 0
         },
         "type": "heracles:item"
-      }
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "void": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "createutilities:void_steel_ingot",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "createutilities:void_steel_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
     }
   },
-  "rewards": {},
   "display": {
     "subtitle": {
       "text": ""
     },
     "description": [
-      "The Void steel ingot is made by heating",
+      "Create Utilities is a Create Addon designed to enhance your gameplay with convenient teleportation features. This add-on focuses on ender-like utilities that simplify the transportation of resources and rotation over long distances.",
+      "",
+      "The first item, Void steel ingot, is made by heating",
       "a netherite ingot and a ender pearl",
       "in a mixer."
     ],
