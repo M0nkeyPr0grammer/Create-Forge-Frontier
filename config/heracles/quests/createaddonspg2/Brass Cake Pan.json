@@ -2,13 +2,74 @@
   "dependencies": [
     "Create Sweats and Treats"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "brass": {
+      "type": "heracles:item",
+      "item": "createsweetsandtreets:brass_cake_pan",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "createsweetsandtreets:brass_cake_pan",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "pie": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "createsweetsandtreets:apple_pie",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "createsweetsandtreets:apple_pie",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "brownie": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "createsweetsandtreets:unfinished_powdered_brownie",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "createsweetsandtreets:unfinished_powdered_brownie",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "The brass cake pan is used in making brownies new types of pies: Apple, Chocolate, and Honey"
+    ],
     "groups": {
       "Create Addons pg 2": {
         "position": [

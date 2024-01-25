@@ -2,13 +2,59 @@
   "dependencies": [
     "Donut"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "rock": {
+      "type": "heracles:item",
+      "item": "createsweetsandtreets:red_rock_candy",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "createsweetsandtreets:red_rock_candy",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "rock": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "createsweetsandtreets:red_rock_candy_block",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "createsweetsandtreets:red_rock_candy_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "There are 7 different color variants of Rock Candy helping you satisfy your sweet tooth."
+    ],
     "groups": {
       "Create Addons pg 2": {
         "position": [

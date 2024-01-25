@@ -2,13 +2,41 @@
   "dependencies": [
     "Create Addons Page 2"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "c": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "Create Sweets And Treats is an addon for the Create mod that introduces a delectable array of food items, enhancing the automation and enjoyment of your culinary adventures in Minecraft. "
+    ],
     "groups": {
       "Create Addons pg 2": {
         "position": [
@@ -26,7 +54,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "title": {
-      "translate": "Create Sweats and Treats"
+      "translate": "Create Sweets and Treats"
     }
   },
   "settings": {
