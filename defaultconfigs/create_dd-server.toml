@@ -1,0 +1,131 @@
+
+#.
+#Parameters and abilities of Create: Dreams n' Desire's kinetic mechanisms
+[kinetics]
+
+	#.
+	#.
+	#Industrial Fan
+	[kinetics.industrialFan]
+		#.
+		#multiplier used for calculating exhaustion from speed when a crank is turned.
+		#Range: 0.0 ~ 1.0
+		crankHungerMultiplier = 0.009999999776482582
+		#.
+		#Maximum distance in blocks Fans can push entities.
+		#Range: > 5
+		fanPushDistance = 30
+		#.
+		#Maximum distance in blocks from where Fans can pull entities.
+		#Range: > 5
+		fanPullDistance = 30
+		#.
+		#Game ticks between Fans checking for anything blocking their air flow.
+		#Range: > 10
+		fanBlockCheckRate = 30
+		#.
+		#[in Revolutions per Minute]
+		#Rotation speed at which the maximum stats of fans are reached.
+		#Range: > 64
+		fanRotationArgmax = 256
+		#.
+		#Game ticks required for a Fan-based processing recipe to take effect.
+		#Range: > 0
+		fanProcessingTime = 75
+
+	[kinetics.stressValues]
+
+		#.
+		#Fine tune the kinetic stats of individual components
+		[kinetics.stressValues.v2]
+
+			#.
+			#.
+			#[in Stress Units]
+			#Configure the individual stress impact of mechanical blocks. Note that this cost is doubled for every speed increase it receives.
+			[kinetics.stressValues.v2.impact]
+				2_blade_fan = 0.0
+				secondary_encased_chain_drive = 0.0
+				industrial_fan = 4.0
+				bronze_saw = 12.0
+				flywheel = 0.0
+				hydraulic_press = 32.0
+				secondary_adjustable_chain_gearshift = 0.0
+				shadow_drill = 16.0
+				8_blade_fan = 0.0
+				bronze_drill = 12.0
+				potato_turret = 2.0
+				radiant_drill = 16.0
+				4_blade_fan = 0.0
+
+			#.
+			#[in Stress Units]
+			#Configure how much stress a source can accommodate for.
+			[kinetics.stressValues.v2.capacity]
+				industrial_fan = 16.0
+				cog_crank = 8.0
+				furnace_engine = 341.5
+				accelerator_motor = 4.0
+				kinetic_motor = 1.5
+
+#.
+#Recipes
+[recipes]
+	#.
+	#.
+	#Allow the Hydraulic Press to process entire stacks at a time.
+	bulkPressing = true
+	#.
+	#Allow the Bronze Saw to process entire stacks at a time.
+	bulkCutting = true
+	#.
+	#Allow any stonecutting recipes to be processed by a Bronze Saw.
+	allowStonecuttingOnSaw = true
+	#.
+	#Allow any Druidcraft woodcutter recipes to be processed by a Bronze Saw.
+	allowWoodcuttingOnSaw = true
+
+	#.
+	#Compound Recipes
+	[recipes.recipe]
+		#.
+		#Blaze Brass Recipe
+		blaze_gold_recipe = true
+		#.
+		#Refined Radiance Recipe
+		refined_radiance_recipe = true
+		#.
+		#Shadow Steel Recipe Require Max Height
+		#Range: -2048 ~ 2048
+		refined_radiance_max_height = 319
+		#.
+		#Shadow Steel Recipe Require Min Height
+		#Range: -2048 ~ 2048
+		refined_radiance_min_height = -32
+		#.
+		#Shadow Steel Recipe Require Light Level
+		#Range: 0 ~ 15
+		refined_radiance_light_level = 15
+		#.
+		#Shadow Steel Recipe
+		shadow_steel_recipe = true
+		#.
+		#Shadow Steel Recipe Require Min Height
+		#Range: -2048 ~ 2048
+		shadow_steel_min_height = -10
+		#.
+		#Stargaze Recipe
+		stargaze_singularity_recipe = true
+		#.
+		#Stargaze Recipe Require Min Time
+		#Range: 0 ~ 24000
+		stargaze_singularity_min_time = 16000
+		#.
+		#Stargaze Recipe Require Max Time
+		#Range: 0 ~ 24000
+		stargaze_singularity_max_time = 20000
+		#.
+		#Stargaze Recipe Require Min of Max Height Division
+		#Range: -256.0 ~ 256.0
+		stargaze_singularity_max_height_division = 1.25
+
