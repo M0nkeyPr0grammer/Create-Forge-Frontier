@@ -1,5 +1,15 @@
 StartupEvents.registry('fluid',event => {
 
+    // Creates Molten Bronze
+    event.create('kubejs:molten_bronze')
+        .color(0xE47B55)
+        .displayName('Molten Bronze')
+        .bucketColor(0xE47B55)
+        .thickTexture(0xE47B55)
+        .viscosity(6000) // Similar to Lava
+        .temperature(1300) // Similar to Lava
+        .bucketItem; // Specify the bucket item here
+
     // Creates Liquid Dragons Breath
     event.create('kubejs:liquid_dragons_breath')
         .color(0xc34781)

@@ -9,6 +9,55 @@ ServerEvents.recipes(event => {
 
     // Adds Mixing Recipes for Compressed Crushed Ore Piles
 
+ // Bronze Compacting Recipe
+ event.custom({
+    type:"create:compacting",
+    ingredients: [
+        {
+            fluid: 'kubejs:molten_bronze',
+            nbt: {},
+            amount: 900
+        },
+    ],
+    results: [
+        {
+            item: 'create_dd:bronze_block',
+            nbt: {},
+            amount: 1
+        },
+    ]
+}).id('kubejs:compacting/bronze_block')
+
+// Realistic Bronze Mixing Recipe
+event.custom({
+    type: "create:mixing",
+    ingredients: [
+        {
+            fluid: 'createfoundry:molten_copper',
+            nbt: {},
+            amount: 300
+        },
+        {
+            fluid: 'kubejs:molten_tin',
+            nbt: {},
+            amount: 100
+        },
+        {
+            fluid: 'createfoundry:molten_zinc',
+            nbt: {},
+            amount: 100
+        },
+    ],
+    results: [
+        {
+        fluid: 'kubejs:molten_bronze',
+        amount: 500
+        },
+    ],
+    heatRequirement: "superheated"
+}).id('kubejs:mixing/molten_bronze');
+
+
     // Crushed Copper Pile
     event.custom({
         type: "create:mixing",
