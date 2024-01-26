@@ -2,13 +2,63 @@
   "dependencies": [
     "Brass Mesh"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "brass": {
+      "type": "heracles:item",
+      "item": "createsifter:brass_sifter",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "createsifter:brass_sifter",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "brass": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:brass_ingot",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:brass_ingot",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "The Brass sifter can do the following:",
+      "- High redstone disables processing",
+      "- Filters for allow or deny outputs.",
+      "- 8x processing per cycle",
+      "- Bigger output capaticy"
+    ],
     "groups": {
       "Create Addons pg 2": {
         "position": [

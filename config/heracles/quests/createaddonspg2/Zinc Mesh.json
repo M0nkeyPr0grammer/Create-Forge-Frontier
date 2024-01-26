@@ -2,13 +2,61 @@
   "dependencies": [
     "Andesite Mesh"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "zinc": {
+      "type": "heracles:item",
+      "item": "createsifter:zinc_mesh",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "createsifter:zinc_mesh",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "brass-": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:brass_ingot",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:brass_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "brass": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "The third tier, the zinc mesh outputs the following: ",
+      "- Gravel: 5% Copper Nugget, 2% Zinc Nugget , 5% Iron Nugget, 10% Gold Nugget, 5% Lapis Lazuli, 10% Coal, 10% Flint, 10% Nugget of Experience ",
+      "- Sand: 15% Redstone, 40% Bone Meal, 10% Nugget of Experience "
+    ],
     "groups": {
       "Create Addons pg 2": {
         "position": [

@@ -2,13 +2,46 @@
   "dependencies": [
     "Create Addons Page 2"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "sifter": {
+      "type": "heracles:item",
+      "item": "createsifter:sifter",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "createsifter:sifter",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "A simple sifter for the amazing create mod. This mod it's meant to be used in modpacks. Only contains very basic ore recipes.",
+      "",
+      "Heavily inspired on ex nihilo sieve."
+    ],
     "groups": {
       "Create Addons pg 2": {
         "position": [
@@ -24,7 +57,7 @@
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "title": {
       "translate": "Create Sifting"
     }
