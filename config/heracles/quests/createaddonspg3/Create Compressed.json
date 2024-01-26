@@ -2,13 +2,41 @@
   "dependencies": [
     "Create Addons Page 3"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "c": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "Create Compessed is a simple add-on for Create which allows you to combine common raw materials into storage blocks and prevent wasting your time on micro-management of crushed ores/nuggets and some other resources."
+    ],
     "groups": {
       "Create Addons pg 3": {
         "position": [
