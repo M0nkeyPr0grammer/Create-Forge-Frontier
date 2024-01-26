@@ -2,13 +2,77 @@
   "dependencies": [
     "Bar of Dark Chocolate"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "choco": {
+      "type": "heracles:item",
+      "item": "create_confectionery:full_chocolate_bar",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_confectionery:full_chocolate_bar",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "choco": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_confectionery:full_ruby_chocolate_bar",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create_confectionery:full_ruby_chocolate_bar",
+        "count": 3,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "With this mod you get access to a new item full chocolate bars, there are 4 variants:",
+      "- Chocolate",
+      "- Dark Chocolate",
+      "- White Chocolate",
+      "- Ruby Chocolate",
+      "",
+      "Each Bite of the bar gives you a random effect based on chocolate type, with a base durability of 16. You can enchant this bar with unbreaking and mending"
+    ],
     "groups": {
       "Create Addons pg 2": {
         "position": [

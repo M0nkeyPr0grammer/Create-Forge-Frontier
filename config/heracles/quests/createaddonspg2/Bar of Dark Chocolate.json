@@ -2,13 +2,65 @@
   "dependencies": [
     "Gingerbread"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "dark": {
+      "type": "heracles:item",
+      "item": "create_confectionery:bar_of_black_chocolate",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_confectionery:bar_of_black_chocolate",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "ruby": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_confectionery:bar_of_ruby_chocolate",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create_confectionery:bar_of_ruby_chocolate",
+        "count": 3
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "With this mod you have access to four new types of bars of chocolate",
+      "- Dark Chocolate",
+      "- White Chocolate",
+      "- Ruby Chocolate",
+      "- Caramel",
+      "",
+      "Eating one of these gives you a different temporary effect based on the chocolate type."
+    ],
     "groups": {
       "Create Addons pg 2": {
         "position": [
@@ -26,7 +78,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Bar of Dark Chocolate"
+      "translate": "Bars of Chocolate"
     }
   },
   "settings": {

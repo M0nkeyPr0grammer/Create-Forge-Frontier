@@ -2,13 +2,59 @@
   "dependencies": [
     "Marshmallow"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "candy": {
+      "type": "heracles:item",
+      "item": "create_confectionery:chocolate_candy",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_confectionery:chocolate_candy",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "choc": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_confectionery:ruby_chocolate_candy_2",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create_confectionery:ruby_chocolate_candy_2",
+        "count": 3
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "With this mod you get access to chocolate candy, which is basically chocolate covered chocolate. When eaten you get the combined effects of the glaze and the chocolate underneath. There are 4 variants of glazes, each covering the 4 types of bars."
+    ],
     "groups": {
       "Create Addons pg 2": {
         "position": [

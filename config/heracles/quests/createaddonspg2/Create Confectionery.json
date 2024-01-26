@@ -2,13 +2,41 @@
   "dependencies": [
     "Create Addons Page 2"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "c": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "This mod is a addon for Create and it adds food made with different materials. It adds crushed cocoa, cocoa butter, cocoa powder, white chocolate, black chocolate, caramel, chocolate candies, marshmallow..."
+    ],
     "groups": {
       "Create Addons pg 2": {
         "position": [

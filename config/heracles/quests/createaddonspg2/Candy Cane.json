@@ -2,13 +2,59 @@
   "dependencies": [
     "Chocolate Candy"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "cane": {
+      "type": "heracles:item",
+      "item": "create_confectionery:candy_cane",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_confectionery:candy_cane",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "cane": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_confectionery:candy_cane_block",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create_confectionery:candy_cane_block",
+        "count": 3
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "With this mod you get access to candy canes, which when eaten gives you 10 seconds of haste."
+    ],
     "groups": {
       "Create Addons pg 2": {
         "position": [
