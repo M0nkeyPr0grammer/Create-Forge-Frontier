@@ -2,13 +2,76 @@
   "dependencies": [
     "Create Power Loader"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "andesite": {
+      "type": "heracles:item",
+      "item": "create_power_loader:empty_andesite_chunk_loader",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_power_loader:empty_andesite_chunk_loader",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "mech": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:precision_mechanism",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:precision_mechanism",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "brass": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:brass_casing",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:brass_casing",
+        "count": 3
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "The Andesite Chunk loader is the first tier of loaders, which allows you to chunk load one chunk at a time, note you need to provide rotation to the chunk loader in order it to activate, when on the ground. This chunk loader can also be used in contraptions, trainstations, and trains.",
+      "",
+      "For this base tier you must meet a speed of 60 RPM in order to work, it also contributes a total of 960 su when used."
+    ],
     "groups": {
       "Create Addons pg 2": {
         "position": [

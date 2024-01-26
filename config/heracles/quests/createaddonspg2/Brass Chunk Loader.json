@@ -2,13 +2,79 @@
   "dependencies": [
     "Andesite Chunk Loader"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "brass": {
+      "type": "heracles:item",
+      "item": "create_power_loader:empty_brass_chunk_loader",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_power_loader:empty_brass_chunk_loader",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "LEVEL",
+      "amount": 5,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "mech": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:brass_casing",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:brass_casing",
+        "count": 6
+      },
+      "type": "heracles:item"
+    },
+    "mecha": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:precision_mechanism",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:precision_mechanism",
+        "count": 3
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "This higher tier chunk loader allows you to chunk load 3 different ranges:",
+      "- 1x1 Chunks; Speed Requirement: 60RPM; Stress Impact: 960su",
+      "- 3x3 Chunks; Speed Requirement: 120RPM; Stress Impact: 1920su",
+      "- 5x5 Chunks; Speed Requirement: 240RPM; Stress Impact: 3840su",
+      "",
+      "Similar to the andesite tier, this loader can be used on the ground, contraptions, trains and train stations."
+    ],
     "groups": {
       "Create Addons pg 2": {
         "position": [
