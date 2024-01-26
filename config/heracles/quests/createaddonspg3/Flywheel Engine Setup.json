@@ -2,13 +2,120 @@
   "dependencies": [
     "Integrated Mechanism"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "fly 1": {
+      "type": "heracles:item",
+      "item": "create_dd:furnace_engine",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_dd:furnace_engine",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    },
+    "fly 2": {
+      "type": "heracles:item",
+      "item": "create_dd:flywheel",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_dd:flywheel",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    },
+    "blast": {
+      "type": "heracles:item",
+      "item": "minecraft:blast_furnace",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:blast_furnace",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "mech 1": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_dd:integrated_mechanism",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create_dd:integrated_mechanism",
+        "count": 2
+      },
+      "type": "heracles:item"
+    },
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "LEVEL",
+      "amount": 5,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "mech 2": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_dd:infernal_mechanism",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create_dd:infernal_mechanism",
+        "count": 2
+      },
+      "type": "heracles:item"
+    },
+    "bronze": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_dd:bronze_block",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create_dd:bronze_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "The flywheel engine allows you to produce 8196 su and 24 RPM through the process of smelting items inside a blast furnace. The setup requires the following items: 1 Blast Furnace, 1 Flywheel Engine, and 1 Flywheel component",
+      "",
+      "- Flywheel Engine: Crafted using mechanical crafters using 3 Bronze, 2 Steel Plates, 1 Steel Casing, 2 Industrial Ingots, and 1 Infernal Mechanism",
+      "- Flywheel Component: Crafted using mechanical crafters using 8 brass, 1 Steel Casing, and 1 Integrated Mechanism"
+    ],
     "groups": {
       "Create Addons pg 3": {
         "position": [

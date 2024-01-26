@@ -2,13 +2,258 @@
   "dependencies": [
     "Sails"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "mithril": {
+      "type": "heracles:item",
+      "item": "create_dd:mithril_ingot",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_dd:mithril_ingot",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    },
+    "shadow": {
+      "type": "heracles:item",
+      "item": "create_dd:shadow_steel",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_dd:shadow_steel",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    },
+    "blaze": {
+      "type": "heracles:item",
+      "item": "create_dd:blaze_gold",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_dd:blaze_gold",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    },
+    "refined": {
+      "type": "heracles:item",
+      "item": "create_dd:refined_radiance",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_dd:refined_radiance",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    },
+    "compound": {
+      "type": "heracles:item",
+      "item": "create_dd:chromatic_compound",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_dd:chromatic_compound",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    },
+    "base": {
+      "type": "heracles:item",
+      "item": "create_dd:compound_base",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_dd:compound_base",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    },
+    "overcharge": {
+      "type": "heracles:item",
+      "item": "create_dd:overcharge_alloy",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_dd:overcharge_alloy",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "sap": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_dd:sap_bucket",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create_dd:sap_bucket",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "mass": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_dd:experience_mass",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create_dd:experience_mass",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "LEVEL",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "hot": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_dd:hot_chocolate_bucket",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create_dd:hot_chocolate_bucket",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "straw": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_dd:strawberry_milkshake_bucket",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create_dd:strawberry_milkshake_bucket",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "Caramel": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_dd:caramel_milkshake_bucket",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create_dd:caramel_milkshake_bucket",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "glow": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_dd:glowberry_milkshake_bucket",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create_dd:glowberry_milkshake_bucket",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "vanilla": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_dd:vanilla_milkshake_bucket",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create_dd:vanilla_milkshake_bucket",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "chrom": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_dd:chromatic_waste_bucket",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create_dd:chromatic_waste_bucket",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "Within Create Dreams and Desires you have different types of compound, listed below:",
+      "",
+      "- Create DD Chromatic Compound: Made by mixing 4 powdered obsidian, 1 polished rose quartz, and 1 polished spectral ruby; for 2 compound",
+      "- Compound Base: Made by placing Create DD Chromatic Compound on an item drain to extract the chromatic waste",
+      "- Refined Radiance: Made by tossing Create DD Chromatic Compound in a Beacon beam",
+      "- Shadow Steel: Made by tossing Create DD Chromatic Compound in the Void",
+      "- Blaze Brass: Made by right clicking Create DD Chromatic Compound on a blaze",
+      "- Mithril: Made by super heated mixing 4 nuggets of experience, 500mB of Glowberry Milkshake, 1 Steel Ingot, 1 Bronze Ingot, and 1 Create DD Chromatic Compound; for 1 Mithril Ingot",
+      "- Overcharge Alloy: Made by charging 10Mfe into a Create DD Chromatic Compound with a Tesla Coil",
+      "",
+      "__**Hint use the reward items to craft a bucket of shimmer**__"
+    ],
     "groups": {
       "Create Addons pg 3": {
         "position": [

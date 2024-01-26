@@ -2,13 +2,61 @@
   "dependencies": [
     "Compounds"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "stargaze": {
+      "type": "heracles:item",
+      "item": "create_dd:stargaze_singularity",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_dd:stargaze_singularity",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "LEVEL",
+      "amount": 25,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "block": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_dd:stargaze_singularity_block",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create_dd:stargaze_singularity_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "Fallen Stargaze: Made by Sequenced Assembly compound base and deploying refined radiance, shadow steel, blaze brass, mithril ingot, mass experience, then spouting shimmer.",
+      "",
+      "The Stargaze Singularity is obtained by tossing a Fallen Stargaze at night while at a high of 256 or higher"
+    ],
     "groups": {
       "Create Addons pg 3": {
         "position": [

@@ -2,13 +2,59 @@
   "dependencies": [
     "Create Dreams and Desires"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "c": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "With Dreams and Desires you can now produce many different stone variants via lava and water interacting with different fluids",
+      "",
+      "- Basalt: Lava and Blue Ice",
+      "- Blackstone: Lava and Carmel",
+      "- Veridium: Lava and Carmel Milkshave",
+      "- Scoria: Lava and Chocolate",
+      "- Crying Obsidian: Lava and Chromatic Paste",
+      "- Calcite: Lava and Condensed Milk",
+      "- Ochrum: Lava and Glowberry Milkshake",
+      "- Potastic: Lava and Vanilla Milkshake",
+      "- Assurine: Lava and Cream",
+      "- Dripstone: Lava and Glowberry Milk",
+      "- Deepslate: Lava and Vanilla Milk",
+      "- Gabbro: Lava and Strawberry Milk",
+      "- Crimsite: Lava and Strawberry Milkshake",
+      "- Aethersite: Lava and Shimmer",
+      "- Obsidian: Water and Chromatic Paste",
+      "- Limestone: Lava and Honey",
+      "- Scorchia: Lava and Hot Chocolate"
+    ],
     "groups": {
       "Create Addons pg 3": {
         "position": [

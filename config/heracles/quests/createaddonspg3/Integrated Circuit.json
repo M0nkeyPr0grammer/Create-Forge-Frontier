@@ -2,13 +2,61 @@
   "dependencies": [
     "Infernal Mechanism"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "circuit": {
+      "type": "heracles:item",
+      "item": "create_dd:integrated_circuit",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_dd:integrated_circuit",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "circuit": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_dd:integrated_circuit",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create_dd:integrated_circuit",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "Crafted in a Sequenced Assembly processed lapis alloy sheet 4 times deploying redstone, quartz, and a brass nugget each time; for a 93% chance of one circuit ",
+      "- Lapis Alloy Sheet: Lapis Alloy Pressed",
+      "- Lapis Alloy: 2 Lapis Lazuli, 2 Tin Nuggets"
+    ],
     "groups": {
       "Create Addons pg 3": {
         "position": [
