@@ -1,19 +1,93 @@
 {
   "dependencies": [
-    "Steam Engine-"
+    "Create Stuff and Additions"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "small": {
+      "type": "heracles:item",
+      "item": "create_sa:small_filling_tank",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_sa:small_filling_tank",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    },
+    "large": {
+      "type": "heracles:item",
+      "item": "create_sa:large_filling_tank",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_sa:large_filling_tank",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    },
+    "med": {
+      "type": "heracles:item",
+      "item": "create_sa:medium_filling_tank",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_sa:medium_filling_tank",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "copper": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "allthecompressed:copper_block_1x",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "allthecompressed:copper_block_1x",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "There are three different sizes of filling tanks which are used in conjunction with the jetpacks"
+    ],
     "groups": {
       "Create Addons pg 3": {
         "position": [
           -20,
-          100
+          -20
         ]
       }
     },

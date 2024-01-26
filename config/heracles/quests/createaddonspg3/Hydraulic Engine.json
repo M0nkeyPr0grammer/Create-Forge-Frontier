@@ -1,19 +1,108 @@
 {
   "dependencies": [
-    "Create Stuff and Additions"
+    "Fueling Tanks"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "jet": {
+      "type": "heracles:item",
+      "item": "create_sa:copper_jetpack_chestplate",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_sa:copper_jetpack_chestplate",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
+        },
+        "type": "heracles:item"
+      }
+    },
+    "exc": {
+      "type": "heracles:item",
+      "item": "create_sa:copper_exoskeleton_chestplate",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_sa:copper_exoskeleton_chestplate",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
+        },
+        "type": "heracles:item"
+      }
+    },
+    "engine": {
+      "type": "heracles:item",
+      "item": "create_sa:hydraulic_engine",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_sa:hydraulic_engine",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "heat": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_sa:heat_engine",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create_sa:heat_engine",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "LEVEL",
+      "amount": 2,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "The Hydraulic Engine, being the first tier of engines is the easiest to make.",
+      "This engine is used in crafting these items",
+      "- Copper Jetpack",
+      "- Copper Exoskeleton"
+    ],
     "groups": {
       "Create Addons pg 3": {
         "position": [
           -20,
-          -20
+          60
         ]
       }
     },

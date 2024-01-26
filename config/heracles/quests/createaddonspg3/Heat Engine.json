@@ -2,18 +2,121 @@
   "dependencies": [
     "Hydraulic Engine"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "jet": {
+      "type": "heracles:item",
+      "item": "create_sa:andesite_jetpack_chestplate",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_sa:andesite_jetpack_chestplate",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
+        },
+        "type": "heracles:item"
+      }
+    },
+    "exc": {
+      "type": "heracles:item",
+      "item": "create_sa:andesite_exoskeleton_chestplate",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_sa:andesite_exoskeleton_chestplate",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
+        },
+        "type": "heracles:item"
+      }
+    },
+    "flame": {
+      "type": "heracles:item",
+      "item": "create_sa:flamethrower",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_sa:flamethrower",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    },
+    "engine": {
+      "type": "heracles:item",
+      "item": "create_sa:heat_engine",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_sa:heat_engine",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "LEVEL",
+      "amount": 4,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "steam": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_sa:steam_engine",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create_sa:steam_engine",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "This second tier of engine is a little harder to craft and is used in crafting these items:",
+      "- Andesite Jetpack",
+      "- Andesite Exoskeleton",
+      "- Flamethrower"
+    ],
     "groups": {
       "Create Addons pg 3": {
         "position": [
           -20,
-          20
+          100
         ]
       }
     },
