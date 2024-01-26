@@ -2,13 +2,59 @@
   "dependencies": [
     "Create Encased"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "shaft": {
+      "type": "heracles:item",
+      "item": "createcasing:oak_shaft",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "createcasing:oak_shaft",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "shaft": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "createcasing:oak_shaft",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "createcasing:oak_shaft",
+        "count": 16
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "With this addon you get access to new shaft types, which are crafted using stripped logs, allowing for a cheaper source of shafts and another use for all that extra wood from you automated tree farms."
+    ],
     "groups": {
       "Create Addons pg 2": {
         "position": [

@@ -2,13 +2,59 @@
   "dependencies": [
     "Railway Press"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "depot": {
+      "type": "heracles:item",
+      "item": "createcasing:railway_depot",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "createcasing:railway_depot",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "casing": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:railway_casing",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:railway_casing",
+        "count": 3
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "With this addon you can now create depots with other types of casing"
+    ],
     "groups": {
       "Create Addons pg 2": {
         "position": [
