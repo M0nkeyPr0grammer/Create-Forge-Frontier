@@ -2,13 +2,59 @@
   "dependencies": [
     "Brass Gearbox"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "shear": {
+      "type": "heracles:item",
+      "item": "create_connected:shear_pin",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_connected:shear_pin",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "shear": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_connected:shear_pin",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create_connected:shear_pin",
+        "count": 3
+      },
+      "type": "heracles:item"
+    },
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "An early-game, single-use connector that breaks when the network is overstressed"
+    ],
     "groups": {
       "Create Addons pg 3": {
         "position": [

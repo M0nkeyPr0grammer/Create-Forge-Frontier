@@ -2,13 +2,59 @@
   "dependencies": [
     "Paralled Gearbox"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "gear": {
+      "type": "heracles:item",
+      "item": "create_connected:six_way_gearbox",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_connected:six_way_gearbox",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "gear": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_connected:six_way_gearbox",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create_connected:six_way_gearbox",
+        "count": 3
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "A gearbox with shafts on all 6 sides. Conceptually uses the same internal mechanism as Parallel Gearbox, so top and bottom spins at half speed"
+    ],
     "groups": {
       "Create Addons pg 3": {
         "position": [

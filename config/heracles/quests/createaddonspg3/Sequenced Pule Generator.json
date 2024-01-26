@@ -2,13 +2,75 @@
   "dependencies": [
     "Item Silo"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "chip": {
+      "type": "heracles:item",
+      "item": "create_connected:control_chip",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_connected:control_chip",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    },
+    "seq": {
+      "type": "heracles:item",
+      "item": "create_connected:sequenced_pulse_generator",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_connected:sequenced_pulse_generator",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "seq": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_connected:sequenced_pulse_generator",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create_connected:sequenced_pulse_generator",
+        "count": 3
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "Control Chip: A crafting ingredient for the Sequenced Pulse Generator",
+      "",
+      "Sequenced Pulse Generator: A flexible diode that can output precisely timed redstone pulses according to a configured sequence"
+    ],
     "groups": {
       "Create Addons pg 3": {
         "position": [

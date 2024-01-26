@@ -2,13 +2,90 @@
   "dependencies": [
     "Encased Chain Cogwheel"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "clutch": {
+      "type": "heracles:item",
+      "item": "create_connected:inverted_clutch",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_connected:inverted_clutch",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    },
+    "gear": {
+      "type": "heracles:item",
+      "item": "create_connected:inverted_gearshift",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_connected:inverted_gearshift",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "clutch": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_connected:inverted_clutch",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create_connected:inverted_clutch",
+        "count": 3
+      },
+      "type": "heracles:item"
+    },
+    "gear": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_connected:inverted_gearshift",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create_connected:inverted_gearshift",
+        "count": 3
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "- A clutch that is uncoupled unless powered",
+      "",
+      "- A gearshift that changes rotation direction unless powered"
+    ],
     "groups": {
       "Create Addons pg 3": {
         "position": [
@@ -26,7 +103,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Inverted Clutch"
+      "translate": "Inverted Clutch and Gearshift"
     }
   },
   "settings": {

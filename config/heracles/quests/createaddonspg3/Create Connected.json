@@ -2,13 +2,45 @@
   "dependencies": [
     "Create Addons Page 3"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "c": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "A Create mod add-on adding quality-of-life blocks that you wish existed in Create.",
+      "",
+      "Also adds some enhancements to create:",
+      "",
+      "Enhanced Sequenced Gearshift and Attribute Filter, functional blocks on contraptions, schematics in sub-folders... Small and simple QoL enhancement to Create's features."
+    ],
     "groups": {
       "Create Addons pg 3": {
         "position": [

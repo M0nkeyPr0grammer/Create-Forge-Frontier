@@ -2,13 +2,59 @@
   "dependencies": [
     "Overstress Clutch"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "silo": {
+      "type": "heracles:item",
+      "item": "create_connected:item_silo",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_connected:item_silo",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "silo": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_connected:item_silo",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create_connected:item_silo",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "A vertical item vault"
+    ],
     "groups": {
       "Create Addons pg 3": {
         "position": [

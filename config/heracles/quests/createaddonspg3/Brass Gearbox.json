@@ -2,13 +2,59 @@
   "dependencies": [
     "6-Way Gearbox"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "brass": {
+      "type": "heracles:item",
+      "item": "create_connected:brass_gearbox",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_connected:brass_gearbox",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "brass": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_connected:brass_gearbox",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create_connected:brass_gearbox",
+        "count": 3
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "A gearbox where the rotation direction of all 4 sides are independently configurable"
+    ],
     "groups": {
       "Create Addons pg 3": {
         "position": [
