@@ -2,13 +2,59 @@
   "dependencies": [
     "Create New Age"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "basic": {
+      "type": "heracles:item",
+      "item": "create_new_age:energiser_t1",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_new_age:energiser_t1",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "magnetite": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_new_age:magnetite_block",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create_new_age:magnetite_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "The basic energizer is a block similar to the Tesla Coil, but requires both rotation and energy in order to energize items below. It generates 4fe/t per 10 RPM and can store up to 10K fe"
+    ],
     "groups": {
       "Create Addons pg 3": {
         "position": [

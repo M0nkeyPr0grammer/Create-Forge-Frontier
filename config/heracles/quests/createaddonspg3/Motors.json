@@ -2,13 +2,97 @@
   "dependencies": [
     "Energizers"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "reinforced": {
+      "type": "heracles:item",
+      "item": "create_new_age:reinforced_motor",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_new_age:reinforced_motor",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    },
+    "strong": {
+      "type": "heracles:item",
+      "item": "create_new_age:advanced_motor",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_new_age:advanced_motor",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "LEVEL",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "iron": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_new_age:overcharged_iron",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create_new_age:overcharged_iron",
+        "count": 2
+      },
+      "type": "heracles:item"
+    },
+    "diamond": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_new_age:overcharged_diamond",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create_new_age:overcharged_diamond",
+        "count": 6
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "In Create New Age there are two higher tiers of motors",
+      "- Strong",
+      "Generates: 2048 su",
+      "Stores: 64K fe",
+      "Maximun Speed: 256 RPM",
+      "",
+      "- Reinforced",
+      "Generates: 8192 su",
+      "Stores: 128K fe",
+      "Maximun Speed: 256 RPM"
+    ],
     "groups": {
       "Create Addons pg 3": {
         "position": [

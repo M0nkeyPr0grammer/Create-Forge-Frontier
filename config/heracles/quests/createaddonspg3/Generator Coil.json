@@ -2,13 +2,140 @@
   "dependencies": [
     "Energized Items"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "brush": {
+      "type": "heracles:item",
+      "item": "create_new_age:carbon_brushes",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_new_age:carbon_brushes",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    },
+    "coil": {
+      "type": "heracles:item",
+      "item": "create_new_age:generator_coil",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_new_age:generator_coil",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    },
+    "mag": {
+      "type": "heracles:item",
+      "item": "create_new_age:magnetite_block",
+      "amount": 24,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_new_age:magnetite_block",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "red": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_new_age:redstone_magnet",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create_new_age:redstone_magnet",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "LEVEL",
+      "amount": 2,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "neth": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_new_age:netherite_magnet",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create_new_age:netherite_magnet",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "flux": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_new_age:fluxuated_magnetite",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create_new_age:fluxuated_magnetite",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "layer": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_new_age:layered_magnet",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create_new_age:layered_magnet",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "Within Create New Age you have a new way of generating energy, the higher magnet tier, the more energy produced at the expense of more stress units required. The coil requires any form of magnet surrounding it with a thickness of 2 blocks and a carbon brushes block to collect the energy. The types of magnets from lowest to highest are as follows:",
+      "",
+      "- Magnetite: Magnetic Force > 1",
+      "- Redstone: Magnetic Force > 2",
+      "- Layered: Magnetic Force > 4",
+      "- Fluxuated: Magnetic Force > 8",
+      "- Netherite: Magnetic Force > 24",
+      "",
+      "**__Note Magnetite is found throughout the world and the other tiers are crafted using different overcharged items__**"
+    ],
     "groups": {
       "Create Addons pg 3": {
         "position": [
