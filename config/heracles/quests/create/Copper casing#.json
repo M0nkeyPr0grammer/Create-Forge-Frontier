@@ -36,14 +36,14 @@
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "create:copper_casing",
+          "count": 1
         },
         "type": "heracles:item"
       },
       "item": {
-        "id": "minecraft:copper_ingot",
-        "count": 4
+        "id": "create:copper_casing",
+        "count": 3
       },
       "type": "heracles:item"
     }
@@ -53,7 +53,7 @@
       "text": ""
     },
     "description": [
-      ""
+      "Copper casing is crafted using a copper ingot on a stripped log."
     ],
     "groups": {
       "Create": {

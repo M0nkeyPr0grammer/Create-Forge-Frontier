@@ -2,13 +2,61 @@
   "dependencies": [
     "Display Board"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "nixie": {
+      "type": "heracles:item",
+      "item": "create:nixie_tube",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:nixie_tube",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "tube": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:electron_tube",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:electron_tube",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "The Nixie Tube is a block that can display text or numbers.",
+      "",
+      "When right clicked with a named Name Tag or a Clipboard with text, the Nixie Tube as well as adjacent Nixie Tubes will display the text."
+    ],
     "groups": {
       "Create": {
         "position": [

@@ -2,13 +2,59 @@
   "dependencies": [
     "Speedometer"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "stress": {
+      "type": "heracles:item",
+      "item": "create:stressometer",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:stressometer",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "alloy": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:andesite_alloy",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:andesite_alloy",
+        "count": 3
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "When connected to a component, the amount of stress in the system versus the stress capacity is shown by a hand on the face of the Stressometer. The higher the hand is, the more stress there is in the system. It can also output a Redstone Comparator signal, outputting at a strength of 15 when the system is overstressed. You can get more precise information such as current and max stress by using Engineer's Goggles."
+    ],
     "groups": {
       "Create": {
         "position": [

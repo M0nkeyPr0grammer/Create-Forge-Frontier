@@ -36,14 +36,14 @@
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "create:shaft",
+          "count": 1
         },
         "type": "heracles:item"
       },
       "item": {
-        "id": "create:andesite_alloy",
-        "count": 4
+        "id": "create:shaft",
+        "count": 3
       },
       "type": "heracles:item"
     }

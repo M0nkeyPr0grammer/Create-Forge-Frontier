@@ -36,14 +36,14 @@
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "create:large_water_wheel",
+          "count": 1
         },
         "type": "heracles:item"
       },
       "item": {
         "id": "create:large_water_wheel",
-        "count": 1
+        "count": 3
       },
       "type": "heracles:item"
     }

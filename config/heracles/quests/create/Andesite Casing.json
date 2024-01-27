@@ -36,14 +36,14 @@
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "create:andesite_casing",
+          "count": 1
         },
         "type": "heracles:item"
       },
       "item": {
-        "id": "create:andesite_alloy",
-        "count": 2
+        "id": "create:andesite_casing",
+        "count": 3
       },
       "type": "heracles:item"
     }
@@ -53,7 +53,7 @@
       "text": ""
     },
     "description": [
-      "Andesite casing is one of the most used items in the start of create it is used to make a bunch of helpful blocks to make progress"
+      "Andesite casing is one of the most used items in the start of create it is used to make a bunch of helpful blocks to make progress, crafted using andesite alloy on stripped logs."
     ],
     "groups": {
       "Create": {

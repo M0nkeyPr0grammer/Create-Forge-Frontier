@@ -2,13 +2,30 @@
   "dependencies": [
     "Brass Funnel"
   ],
-  "tasks": {},
+  "tasks": {
+    "tunnel": {
+      "type": "heracles:item",
+      "item": "create:brass_tunnel",
+      "amount": 3,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:brass_tunnel",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
   "rewards": {},
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "Sides of the Brass Tunnel can be Filtered to only allow certain items to pass. If multiple outputs are available, items will be treated according to the tunnel's setting, being split by default."
+    ],
     "groups": {
       "Create": {
         "position": [

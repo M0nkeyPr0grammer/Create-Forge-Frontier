@@ -31,6 +31,21 @@
       "amount": 10,
       "title": "",
       "type": "heracles:xp"
+    },
+    "alloy": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:andesite_casing",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:andesite_casing",
+        "count": 3
+      },
+      "type": "heracles:item"
     }
   },
   "display": {

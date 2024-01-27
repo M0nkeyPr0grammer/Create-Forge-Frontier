@@ -2,13 +2,59 @@
   "dependencies": [
     "Stressometer"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "chain": {
+      "type": "heracles:item",
+      "item": "create:encased_chain_drive",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:encased_chain_drive",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "chain": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:encased_chain_drive",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:encased_chain_drive",
+        "count": 3
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "Encased chain drives may be placed side by side either vertically or horizontally to form a chain passing rotational power among all the blocks. The blocks must touch on their sides (not axis to side) and be in a single straight line to form a chain. The axes of the encased chain drives may be all parallel or blocks can be rotated to orient the axis perpendicularly. Encased chain drives can also pass rotational power through their rotating axis, but this is not a continuation of the same chain."
+    ],
     "groups": {
       "Create": {
         "position": [

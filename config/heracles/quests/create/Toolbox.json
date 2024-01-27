@@ -2,13 +2,59 @@
   "dependencies": [
     "Goggles"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "toolbox": {
+      "type": "heracles:item",
+      "item": "create:brown_toolbox",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:brown_toolbox",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "chest": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:chest",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:chest",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "The Toolbox can hold up to 256 items per slot and has 8 slots. The inventory is retained when picked up. Players can press the toolbox keybind (Alt by default) to access the toolbox inventory from up to 10 blocks away. Retrieving an item in this manner causes a gold border with a red indicator on the top and bottom to appear. This red indicator becomes dark red when the toolbox is out of range."
+    ],
     "groups": {
       "Create": {
         "position": [

@@ -53,15 +53,7 @@
       "text": ""
     },
     "description": [
-      "The mechanical crafter can be made into a multi block to craft different items, the biggest item it will need to craft is the crushing wheels",
-      " ",
-      "The largest size and shape of the crushing wheel is shown below with an X the O don't have any mechanical crafters",
-      " ",
-      "OXXXO ",
-      "XXXXX ",
-      "XXXXX ",
-      "XXXXX ",
-      "OXXXO "
+      "Mechanical Crafters are machines that can automatically craft items."
     ],
     "groups": {
       "Create": {

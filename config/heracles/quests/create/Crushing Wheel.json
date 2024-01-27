@@ -72,10 +72,10 @@
       " ",
       "Some natural spawning blocks from create can be crushed to get resources the list is:",
       " ",
-      "/4/Crimsite/4/ is crushed to get a 40% chance at raw crushed Iron and a nugget",
-      "/b/Asurine/b/ is crushed to get a 30% chance at raw crushed Zinc and a nugget",
-      "/a/Veridium/a/ is crushed to get a 80% chance at raw crushed Copper and a nugget",
-      "/e/Ochrum/e/ is crushed to get a 20% chance at raw crushed Gold and a nugget"
+      "- Crimsite is crushed to get a 40% chance at raw crushed Iron and a nugget",
+      "- Asurine is crushed to get a 30% chance at raw crushed Zinc and a nugget",
+      "- Veridium is crushed to get a 80% chance at raw crushed Copper and a nugget",
+      "- Ochrum is crushed to get a 20% chance at raw crushed Gold and a nugget"
     ],
     "groups": {
       "Create": {

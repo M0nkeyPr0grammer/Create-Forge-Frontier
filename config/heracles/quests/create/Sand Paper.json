@@ -2,13 +2,73 @@
   "dependencies": [
     "Toolbox"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "paper": {
+      "type": "heracles:item",
+      "item": "create:sand_paper",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:sand_paper",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "sandpaper": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:sand_paper",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:sand_paper",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "To use Sand Paper, hold it in the offhand, and Rose Quartz in the main hand. The quartz will get polished, and drop on the ground. One durability will be used off the paper.",
+      "",
+      "This process can be automated by putting the sand paper into a Deployer, powering it, and dropping the Rose Quartz in front of it."
+    ],
     "groups": {
       "Create": {
         "position": [

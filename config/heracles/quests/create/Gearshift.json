@@ -2,13 +2,59 @@
   "dependencies": [
     "Encased Chain Drive"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "gear": {
+      "type": "heracles:item",
+      "item": "create:gearshift",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:gearshift",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "gear": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:gearshift",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:gearshift",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "The Gearshift reverses outgoing Rotational Force when a Redstone signal is applied."
+    ],
     "groups": {
       "Create": {
         "position": [

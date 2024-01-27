@@ -2,13 +2,61 @@
   "dependencies": [
     "Clutch"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "gear": {
+      "type": "heracles:item",
+      "item": "create:adjustable_chain_gearshift",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:adjustable_chain_gearshift",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "casing": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:andesite_casing",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:andesite_casing",
+        "count": 3
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "To control the speed of an encased chain, the Adjustable Chain Gearshift must be placed in line with Encased Chain Drives with sides touching. To increase the speed of an encased chain, an Adjustable Chain Gearshift must be connected to the source of rotational power by its axis and it must be powered by a redstone signal. A full strength redstone signal will double the speed of the chain. A partial strength signal, such as given by an analog lever, will give a proportional increase in speed between 1x and 2x.",
+      "",
+      "If a redstone-powered Adjustable Chain Gearshift receives its rotational power from an encased chain, then it will reduce the rotation speed of its axis by up to half, again depending on the strength of the redstone signal."
+    ],
     "groups": {
       "Create": {
         "position": [

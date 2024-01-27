@@ -32,18 +32,18 @@
       "title": "",
       "type": "heracles:xp"
     },
-    "Give Brass": {
+    "brass": {
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "create:brass_casing",
+          "count": 1
         },
         "type": "heracles:item"
       },
       "item": {
-        "id": "create:brass_ingot",
-        "count": 2
+        "id": "create:brass_casing",
+        "count": 3
       },
       "type": "heracles:item"
     }
@@ -53,7 +53,7 @@
       "text": ""
     },
     "description": [
-      "The brass casing is the upgrade of the andesite casing with it's ability to make better quality items for automation"
+      "The brass casing is the upgrade of the andesite casing with it's ability to make better quality items for automation, crafted using brass ingot on a stripped log."
     ],
     "groups": {
       "Create": {

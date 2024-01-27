@@ -2,13 +2,59 @@
   "dependencies": [
     "Belt"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "basin": {
+      "type": "heracles:item",
+      "item": "create:basin",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:basin",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "alloy": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:andesite_alloy_block",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:andesite_alloy_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "The Basin is a block that holds items and fluids used in Packing, Compacting, and Mixing recipes. A Basin can also function as an interaction point in fluid systems as fluids can be placed in or removed from a Basin directly by a player. In a survival game, a Basin's most significant function is creating Brass, which is essential for the creation of most advanced components."
+    ],
     "groups": {
       "Create": {
         "position": [

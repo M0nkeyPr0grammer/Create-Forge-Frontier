@@ -2,13 +2,61 @@
   "dependencies": [
     "Mechanical Arm"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "chute": {
+      "type": "heracles:item",
+      "item": "create:smart_chute",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:smart_chute",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "brass": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:brass_casing",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:brass_casing",
+        "count": 3
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "Smart Chutes behave similarly to Brass Funnels. They can be filtered to only allow certain items through, and be stopped with a redstone signal. Unlike funnels, they can insert and extract at the same time, but can only function vertically.",
+      "",
+      "When directly below an inventory, the Filter slot doubles as a Value Settings diode, much like the Brass Funnel. The Chute can be adjusted to extract up to or exactly a set amount of items. The Value Settings of a Smart Chute will be saved even when the inventory above is destroyed, though this has no effect on the Chute's behavior when not under an inventory."
+    ],
     "groups": {
       "Create": {
         "position": [

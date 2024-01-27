@@ -2,13 +2,61 @@
   "dependencies": [
     "Mechanical Crafter"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "nozzle": {
+      "type": "heracles:item",
+      "item": "create:nozzle",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:nozzle",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "alloy": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:andesite_alloy_block",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:andesite_alloy_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "The Nozzle can only be placed on the face of an Encased Fan. It spreads the effect of the fan with a radius of 1 block less than the fan's normal range, excluding the area behind the fan.",
+      "",
+      "It is helpful to remember that Sneaking negates the effects of the wind, allowing the player to approach the Nozzle without being behind it."
+    ],
     "groups": {
       "Create": {
         "position": [

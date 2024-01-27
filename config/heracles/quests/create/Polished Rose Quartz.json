@@ -2,13 +2,59 @@
   "dependencies": [
     "Rose Quartz"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "polished": {
+      "type": "heracles:item",
+      "item": "create:polished_rose_quartz",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:polished_rose_quartz",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "polished": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:polished_rose_quartz",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:polished_rose_quartz",
+        "count": 3
+      },
+      "type": "heracles:item"
+    },
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "Polished Rose Quartz is created through Polishing, which can be done manually by holding Rose Quartz and Sand Paper in both the main and offhand, and using the Sandpaper."
+    ],
     "groups": {
       "Create": {
         "position": [

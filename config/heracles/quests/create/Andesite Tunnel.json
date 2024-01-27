@@ -2,13 +2,59 @@
   "dependencies": [
     "Andesite Funnel"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "tunnel": {
+      "type": "heracles:item",
+      "item": "create:andesite_tunnel",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:andesite_tunnel",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "tunnel": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:andesite_tunnel",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:andesite_tunnel",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "Andesite Tunnels can also be used to separate single items from passing stacks to side outputs."
+    ],
     "groups": {
       "Create": {
         "position": [

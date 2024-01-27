@@ -11,8 +11,8 @@
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "create:brass_ingot",
+          "count": 1
         },
         "type": "heracles:item"
       }
@@ -36,14 +36,14 @@
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "create:brass_ingot",
+          "count": 1
         },
         "type": "heracles:item"
       },
       "item": {
         "id": "create:brass_ingot",
-        "count": 1
+        "count": 3
       },
       "type": "heracles:item"
     }
@@ -53,7 +53,7 @@
       "text": ""
     },
     "description": [
-      "Brass is the start of the next generation of create, it allows for crafting many more advanced options"
+      "Brass is an alloy obtained by mixing Copper and Zinc together with a Mechanical Mixer, Basin, and Blaze Burner. It is used primarily for crafting item sorting machines."
     ],
     "groups": {
       "Create": {
