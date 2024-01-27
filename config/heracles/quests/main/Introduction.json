@@ -79,7 +79,7 @@
   "settings": {
     "unlockNotification": false,
     "showDependencyArrow": true,
-    "repeatable": true,
+    "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"
   }

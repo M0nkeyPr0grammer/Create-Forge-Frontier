@@ -90,4 +90,14 @@ StartupEvents.registry('fluid',event => {
         .temperature(1300) // Similar to lava
         .bucketItem; // Specify the bucket item here
 
+    // Molten Steel
+    event.create('kubejs:molten_steel')
+        .color(0x5c585d)
+        .displayName('Molten Steel')
+        .bucketColor(0x5c585d)
+        .thickTexture(0x5c585d)
+        .viscosity(6000)
+        .temperature(1300)
+        .bucketItem;
+
 });

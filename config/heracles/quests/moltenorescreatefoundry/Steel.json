@@ -3,15 +3,15 @@
     "Create Foundry"
   ],
   "tasks": {
-    "ice": {
+    "molten steel": {
       "type": "heracles:item",
-      "item": "kubejs:molten_ice_shard_bucket",
+      "item": "kubejs:molten_steel_bucket",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "kubejs:molten_ice_shard_bucket",
+          "id": "kubejs:molten_steel_bucket",
           "count": 1
         },
         "type": "heracles:item"
@@ -32,18 +32,18 @@
       "title": "",
       "type": "heracles:xp"
     },
-    "ice": {
+    "steel": {
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:blue_ice",
+          "id": "ad_astra:steel_block",
           "count": 1
         },
         "type": "heracles:item"
       },
       "item": {
-        "id": "minecraft:blue_ice",
-        "count": 3
+        "id": "ad_astra:steel_block",
+        "count": 1
       },
       "type": "heracles:item"
     }
@@ -53,26 +53,26 @@
       "text": ""
     },
     "description": [
-      "Molten Ore of the variant is obtained by superheating a mixer and tossing ore or raw ore into the basin."
+      "Molten Ore of the variant is obtained by superheating a mixer and mixing 100mb of Molten Carbon and 200mb of Molten Iron to obtain 300mb of Molten steel."
     ],
     "groups": {
       "Molten Ores: Create Foundry": {
         "position": [
-          -100,
-          60
+          100,
+          -20
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "ad_astra:ice_shard",
+        "id": "ad_astra:steel_ingot",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Ice Shards"
+      "translate": "Steel"
     }
   },
   "settings": {

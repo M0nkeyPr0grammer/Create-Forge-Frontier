@@ -58,8 +58,8 @@
     "groups": {
       "Molten Ores: Create Foundry": {
         "position": [
-          100,
-          -20
+          -20,
+          20
         ]
       }
     },

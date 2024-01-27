@@ -7,55 +7,96 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'createfoundry:mixing/melting/ore/lapis_from_ore' });
     event.remove({ id: 'createfoundry:mixing/molten_netherite_from_ancient_debris_gold'})
 
-    // Adds Mixing Recipes for Compressed Crushed Ore Piles
+// Molten Steel Compacting Recipe
+    event.custom({
+        type:"create:compacting",
+        ingredients: [
+            {
+                fluid: 'kubejs:molten_steel',
+                nbt: {},
+                amount: 900
+            },
+        ],
+        results: [
+            {
+                item: 'ad_astra:steel_block',
+                nbt: {},
+                amount: 1
+            },
+        ]
+    }).id('kubejs:compacting/steel_block')
+
+// Molten Steel Mixing Recipe
+    event.custom({
+        type: "create:mixing",
+        ingredients: [
+            {
+                fluid: 'createfoundry:molten_carbon',
+                nbt: {},
+                amount: 100
+            },
+            {
+                fluid: 'createfoundry:molten_iron',
+                nbt: {},
+                amount: 200
+            }
+        ],
+        results: [
+            {
+            fluid: 'kubejs:molten_steel',
+            amount: 300
+            },
+        ],
+        heatRequirement: "superheated"
+    }).id('kubejs:mixing/molten_steel');   
 
  // Bronze Compacting Recipe
- event.custom({
-    type:"create:compacting",
-    ingredients: [
-        {
-            fluid: 'kubejs:molten_bronze',
-            nbt: {},
-            amount: 900
-        },
-    ],
-    results: [
-        {
-            item: 'create_dd:bronze_block',
-            nbt: {},
-            amount: 1
-        },
-    ]
-}).id('kubejs:compacting/bronze_block')
+    event.custom({
+        type:"create:compacting",
+        ingredients: [
+            {
+                fluid: 'kubejs:molten_bronze',
+                nbt: {},
+                amount: 900
+            },
+        ],
+        results: [
+            {
+                item: 'create_dd:bronze_block',
+                nbt: {},
+                amount: 1
+            },
+        ]
+    }).id('kubejs:compacting/bronze_block')
 
 // Realistic Bronze Mixing Recipe
-event.custom({
-    type: "create:mixing",
-    ingredients: [
-        {
-            fluid: 'createfoundry:molten_copper',
-            nbt: {},
-            amount: 300
-        },
-        {
-            fluid: 'kubejs:molten_tin',
-            nbt: {},
-            amount: 100
-        },
-        {
-            fluid: 'createfoundry:molten_zinc',
-            nbt: {},
-            amount: 100
-        },
-    ],
-    results: [
-        {
-        fluid: 'kubejs:molten_bronze',
-        amount: 500
-        },
-    ],
-    heatRequirement: "superheated"
-}).id('kubejs:mixing/molten_bronze');
+    event.custom({
+        type: "create:mixing",
+        ingredients: [
+            {
+                fluid: 'createfoundry:molten_copper',
+                nbt: {},
+                amount: 300
+            },
+            {
+                fluid: 'kubejs:molten_tin',
+                nbt: {},
+                amount: 100
+            },
+            {
+                fluid: 'createfoundry:molten_zinc',
+                nbt: {},
+                amount: 100
+            },
+        ],
+        results: [
+            {
+            fluid: 'kubejs:molten_bronze',
+            amount: 500
+            },
+        ],
+        heatRequirement: "superheated"
+    }).id('kubejs:mixing/molten_bronze');
 
 
     // Crushed Copper Pile
