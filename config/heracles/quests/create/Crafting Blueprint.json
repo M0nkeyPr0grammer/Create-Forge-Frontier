@@ -2,13 +2,65 @@
   "dependencies": [
     "Empty Schematic"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "crafting": {
+      "type": "heracles:item",
+      "item": "create:crafting_blueprint",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:crafting_blueprint",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "paper": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:paper",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:paper",
+        "count": 16
+      },
+      "type": "heracles:item"
+    },
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "Crafting Blueprint is a block much like a Painting that can be used to save crafting recipes and auto craft them easily.",
+      "",
+      "The Crafting Blueprint is placed much like a Painting. It can cover up to a 3x3 area.",
+      "",
+      "Right click a slot to open the interface and use items to save a crafting recipe. Filters can also be used to apply multiple potential crafting recipes.",
+      "",
+      "Outside the interface, right click the saved recipe to use available materials to craft the item. Shift right click to craft up to a stack of the item. Left click to delete a crafting recipe. A secondary display slot is available for each slot."
+    ],
     "groups": {
       "Create": {
         "position": [

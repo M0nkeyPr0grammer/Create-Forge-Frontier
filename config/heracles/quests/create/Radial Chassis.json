@@ -1,19 +1,69 @@
 {
   "dependencies": [
-    "Sail"
+    "Linear Chassis"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "chasis": {
+      "type": "heracles:item",
+      "item": "create:radial_chassis",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:radial_chassis",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "casing": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:andesite_casing",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:andesite_casing",
+        "count": 3
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "The Radial Chassis is a block used to connect Contraptions",
+      "",
+      "Unlike Linear Chassis, the Radial Chassis connects to a radius of blocks around it rather than a straight line of blocks. This can be unwieldy if there are blocks nearby one would rather not connect to the Contraption.",
+      "",
+      "You can right click on the sides of the chassis while holding a Slimeball or Super Glue to make them sticky, and again to apply it to all sides. The items are not consumed. The radius of affected blocks can be changed per chassis with a Wrench. Hold Ctrl to scroll every connected chassis."
+    ],
     "groups": {
       "Create": {
         "position": [
           80,
-          -20
+          20
         ]
       }
     },

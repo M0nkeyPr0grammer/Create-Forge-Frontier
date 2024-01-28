@@ -1,19 +1,69 @@
 {
   "dependencies": [
-    "Analog Lever"
+    "Powered Toggle Latch"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "link": {
+      "type": "heracles:item",
+      "item": "create:redstone_link",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:redstone_link",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "link": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:redstone_link",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:redstone_link",
+        "count": 3
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "Redstone links transfer redstone signals across long distances, keeping their redstone signal strength. Receivers will output the strongest redstone strength received from sending links.",
+      "",
+      "To toggle the Redstone Link between Sending and Receiving a signal, hold Shift and right click it or right click with a Wrench. A Redstone Link in Receiving mode will show a signal dish on the antenna. Assign an item or block to at least one of the two frequency slots, and the Redstone Link will only send or receive signals to or from Links with matching frequency slots.",
+      "",
+      "The Redstone Link has a signal strength of a radius of 256 blocks, which does not require line-of-sight and thus can be placed underground, in a separate structure, etc. Note that the Redstone Link seems to have a 'default state' of OFF, and any Redstone Links that are actively receiving when a world is saved will briefly pulse OFF when the world is loaded again; this can cause unintended behaviors in contraptions that rely upon heavily active Links."
+    ],
     "groups": {
       "Create": {
         "position": [
           120,
-          -20
+          140
         ]
       }
     },

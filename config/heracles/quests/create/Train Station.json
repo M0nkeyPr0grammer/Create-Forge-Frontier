@@ -31,6 +31,21 @@
       "amount": 10,
       "title": "",
       "type": "heracles:xp"
+    },
+    "train": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:railway_casing",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:railway_casing",
+        "count": 3
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
@@ -38,10 +53,27 @@
       "text": ""
     },
     "description": [
-      "The train station allows you to connect your",
-      "first train to the tracks, and also allows you ",
-      "to name your train if you plan on creating a",
-      "massive train station."
+      "Train Stations are used to create, disassemble, and guide Trains.",
+      "",
+      "Placement:",
+      "Right-click a Train Track, then place the Station within 15 blocks of the track. Stations can be placed on any Track so long as it isn't occupied by a Train Signal or Train Observer, however it can only create Trains if placed on a straight Track, and Bogeys may only be placed on a 3 long straight track.",
+      "",
+      "Naming:",
+      "Train Station Interface",
+      "In the interface, the Station can be named; these names are how non-player conducted Trains will identify stations. A conductor cannot be instructed to navigate to a station that is named the same as the station they are currently at, and will otherwise choose the closest accessible station out of multiple stations with the same name.",
+      "",
+      "The name will also show up on a Map if it is used on the station, similarly to Banners.",
+      "",
+      "Train Creation:",
+      "Trains can only be created on straight tracks; a Station cannot begin an assembly on a curved or diagonal track, and Bogeys may only be placed on at least 3 straight tracks in a row. Starting behind the station and going backwards, Trains are created from the front to the back. An assembly track can be up to 128 blocks long (adjustable in the Config.)",
+      "",
+      "Trains cannot be assembled or disassembled automatically in unmodified Create, but the 3rd party addon Create Steam n' Rails allows for this. With this addon loaded, A Deployer that hits a Train Station while equipped with a Wrench [via use of a Chute or alternative] will (dis)assemble the parked train.",
+      "",
+      "Door Controls:",
+      "In the Station's interface, the behavior of Sliding Doors on arriving trains can be decided. The options are Open All Doors, North, East, West, and South Side Only, or Keep Doors Closed.",
+      "",
+      "Train Scheduling:",
+      "Conductors can be instructed to navigate between Stations using Train Schedules. Notably, * can be used as a wildcard character when instructing conductors to navigate to stations. If a Train is scheduled to arrive at Station*, it can arrive at either Station1 or Station2 depending on which is more accessible at the time."
     ],
     "groups": {
       "Create": {

@@ -1,19 +1,69 @@
 {
   "dependencies": [
-    "Threshold Switch"
+    "Analog Lever"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "ext": {
+      "type": "heracles:item",
+      "item": "create:pulse_extender",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:pulse_extender",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "brass": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:brass_ingot",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:brass_ingot",
+        "count": 3
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "A Pulse Extender is a redstone device that emits a variable length pulse immediately after receiving a trigger signal. The output is normally off by default and emits a powered pulse when triggered. It can also be inverted to be normally on and emit a negative (power off) pulse. Right-clicking the device toggles it between modes. Regardless of which mode it is in, the device will begin outputting a pulse immediately after detecting the ascending edge (off to on) of a redstone signal. The pulse will remain on as long as the trigger signal is on. The pulse length timer begins counting down only after the device detects a descending edge (on to off) of the trigger signal. Once the device is triggered, additional signal pulses will be ignored until the active pulse is complete.",
+      "",
+      "The pulse length can be changed by placing the crosshairs over the center of the device and moving the scroll wheel on the mouse. Pulse lengths can be set from 2-19 ticks, 1-59 seconds, and 1-30 minutes. The device will accept changes to the pulse length after the ascending edge trigger and before the descending edge trigger. After the descending edge trigger, the device will accept changes that shorten the pulse length but ignore changes that lengthen it.",
+      "",
+      "Similar to a Redstone Repeater, a Pulse Extender acts as a diode transmitting a signal only in one direction. It outputs a signal strength of 15 regardless of the input strength thus behaving as a circuit extender. And it can both power and draw power from opaque blocks."
+    ],
     "groups": {
       "Create": {
         "position": [
           120,
-          140
+          -20
         ]
       }
     },

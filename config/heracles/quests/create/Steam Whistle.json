@@ -2,13 +2,65 @@
   "dependencies": [
     "Train Controls"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "whistle": {
+      "type": "heracles:item",
+      "item": "create:steam_whistle",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:steam_whistle",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "copper": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:copper_block",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:copper_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "The Steam Whistle is a musical block activated by redstone.",
+      "",
+      "The Steam Whistle can be placed on Fluid Tanks. The Tank must have a heat source beneath it for the Whistle to function. It can be activated by Redstone. Right click with a Whistle in hand to extend it. The Whistle can be extended up to 12 times, playing up to 13 notes per octave. Use a Wrench to change the octave; 3 octaves are available. Engineer's Goggles can be used to view the current note.",
+      "",
+      "Steam Whistles will also function on Trains, complete with a different set of sounds. While driving the train, use the sprint key to blow the whistle. The Whistle's pitch will be accounted for. Non-player conductors will also blow the whistles shortly before arriving at distant stations.",
+      "",
+      "If multiple whistles are on a Train, a player can only blow the Whistle at the frontmost of the Train. NPC Conductors can play every Whistle, however."
+    ],
     "groups": {
       "Create": {
         "position": [

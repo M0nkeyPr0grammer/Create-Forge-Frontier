@@ -1,19 +1,76 @@
 {
   "dependencies": [
-    "Piston Extension Pole"
+    "Mechanical Bearing"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "piston": {
+      "type": "heracles:item",
+      "item": "create:mechanical_piston",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:mechanical_piston",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "casing": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:andesite_casing",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:andesite_casing",
+        "count": 3
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "The Mechanical Piston is a piston that can push Contraptions when powered with Rotational Power.",
+      "",
+      "Mechanical Pistons are a Contraption that will collide with unmovable blocks.",
+      "",
+      "Moving Blocks",
+      "To extend, the Piston must have Piston Extension Poles at the end as well as Rotational power. The maximum extension pole length is 64 blocks, and this can be changed in the Config.",
+      "",
+      "When the rotation is reversed, the piston will retract. The end must be made sticky with a Slimeball to bring the pushed blocks back with it.",
+      "",
+      "A placed Mechanical Piston can be made sticky by right-clicking it with a Slimeball.",
+      "",
+      "Multiple blocks can be pushed with the use of Block Attachment Utilities."
+    ],
     "groups": {
       "Create": {
         "position": [
           80,
-          180
+          140
         ]
       }
     },

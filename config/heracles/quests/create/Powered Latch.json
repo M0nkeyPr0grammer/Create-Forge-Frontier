@@ -2,18 +2,70 @@
   "dependencies": [
     "Pulse Repeater"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "latach": {
+      "type": "heracles:item",
+      "item": "create:powered_latch",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:powered_latch",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "red": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:redstone_block",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:redstone_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "A Powered Latch has two inputs (a set and reset) and one output. The side with the redstone torch is the output. The opposite side is the set line. Either of the other two sides can act as the reset line. A pulse to the set line will power the latch which will maintain a powered output until a pulse detected on the reset line. When the output is on, any pulses to the set line will be ignored. When the output is off, any pulses to the reset line will be ignored. Both the set and reset actions are triggered on the ascending edge of the pulse.",
+      "",
+      "When continuous signals are applied rather than pulses, the behavior of the Powered Latch becomes more complicated. If the output is off when power is applied to the set line, the output will turn on regardless of the state of the reset signal. If the set line is subsequently turned off, then the output will remain on if the reset line is unpowered but will turn off if the reset line is powered. If the output is on when power is applied to the reset line, the output will turn off regardless of the state of the set signal. If the reset line is subsequently turned off, then the output will remain off if the set line is unpowered but will turn on if the set line is powered.",
+      "",
+      "A Powered Latch can also be turned on and off manually whenever the signals to the set and reset line are the same. When they are opposite, the latch is locked in its current state and cannot be changed manually.",
+      "",
+      "Similar to a Redstone Repeater, a Powered Latch can both power opaque blocks and can take signal inputs from opaque blocks."
+    ],
     "groups": {
       "Create": {
         "position": [
           120,
-          220
+          60
         ]
       }
     },

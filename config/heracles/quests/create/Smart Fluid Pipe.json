@@ -2,13 +2,61 @@
   "dependencies": [
     "Fluid Valve"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "smart": {
+      "type": "heracles:item",
+      "item": "create:smart_fluid_pipe",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:smart_fluid_pipe",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "pipe": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:fluid_pipe",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:fluid_pipe",
+        "count": 3
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "Smart Fluid Pipes can be used to allow only a certain liquid to pass through them. This can be set by placing a bucket or bottle of the liquid in the Filter slot on the pipe.",
+      "",
+      "A List Filter with Respect Data on may be required for the Smart Pipe to distinguish between certain liquids, such as Potions."
+    ],
     "groups": {
       "Create": {
         "position": [

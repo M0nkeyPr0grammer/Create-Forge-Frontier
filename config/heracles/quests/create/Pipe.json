@@ -32,18 +32,18 @@
       "title": "",
       "type": "heracles:xp"
     },
-    "Give Copper": {
+    "pipe": {
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "create:fluid_pipe",
+          "count": 1
         },
         "type": "heracles:item"
       },
       "item": {
-        "id": "minecraft:copper_ingot",
-        "count": 4
+        "id": "create:fluid_pipe",
+        "count": 3
       },
       "type": "heracles:item"
     }

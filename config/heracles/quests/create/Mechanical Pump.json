@@ -2,13 +2,61 @@
   "dependencies": [
     "Pipe"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "pump": {
+      "type": "heracles:item",
+      "item": "create:mechanical_pump",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:mechanical_pump",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "pipe": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:fluid_pipe",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:fluid_pipe",
+        "count": 3
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "Mechanical Pumps have a maximum range of 16 blocks (configurable) on either side. Mechanical Pumps will move fluid in only one direction at a time.",
+      "",
+      "The Brown arrow symbols on the pump indicate the direction of flow. The flow direction can be changed by using a Wrench. When a wrench is used, the entire valve will appear to have rotated 180 degrees. The brown directional arrows will appear on the other side of the pump's gear."
+    ],
     "groups": {
       "Create": {
         "position": [

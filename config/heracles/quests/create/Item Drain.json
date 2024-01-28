@@ -2,13 +2,63 @@
   "dependencies": [
     "Spout"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "drain": {
+      "type": "heracles:item",
+      "item": "create:item_drain",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:item_drain",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "casing": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:copper_casing",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:copper_casing",
+        "count": 3
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "The Item Drain drains fluid from items such as buckets and bottles inserted onto it.",
+      "",
+      "The Item Drain can hold up to 1500mb of fluid at a time. A Fluid Pump is needed to extract the fluid.",
+      "",
+      "A Basin will automatically deposit output fluids into an Item Drain placed near it."
+    ],
     "groups": {
       "Create": {
         "position": [

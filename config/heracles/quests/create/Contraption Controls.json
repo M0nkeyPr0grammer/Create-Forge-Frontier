@@ -53,7 +53,9 @@
       "text": ""
     },
     "description": [
-      "The contraption control is used as the interface of the elevator for the player to look at and scroll up or down on the mouse to select the level"
+      "Contraption Controls aren't strictly required, but are used to control the elevator from inside. Since the elevator will not turn into blocks unless the Pulley is right-clicked, the only other way to control an elevator is with the Elevator Contacts.",
+      "",
+      "On an assembled Elevator, the Contraption Controls will display the selected floor and its description. Scroll to see the available floors. If the displayed floor is the selected floor, it will be displayed in white text; otherwise, the text is orange. Right-click the Controller to select a floor and the elevator will move to that floor."
     ],
     "groups": {
       "Create": {

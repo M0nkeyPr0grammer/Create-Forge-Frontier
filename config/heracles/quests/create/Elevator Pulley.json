@@ -53,9 +53,15 @@
       "text": ""
     },
     "description": [
-      "Elevators are a really fun way to travel vertically.",
-      " ",
-      "Mr Beardstone has done a video on how to make one, feel free to check it out"
+      "An Elevator Pulley is a Contraption useful for creating multi-floor elevators easily.",
+      "",
+      "The Elevator Pulley moves much like the Rope Pulley and shares certain functionalities. Unlike the Rope Pulley, it can phase through blocks, and will not turn back into blocks unless the Pulley is right-clicked.",
+      "",
+      "Assembling",
+      "An Elevator Pulley requires a single horizontal Redstone Contact to be on the contraption in order to assemble. If more than one is added, the Elevator will not assemble. If either of these conditions are not met, a corresponding error message will be displayed while looking at the Elevator Pulley.",
+      "",
+      "Pulley Synchronization",
+      "The Elevator Pulley will synchronize with other Elevator Pulleys on the same y-level if they are able to connect to the main Pulley's Contraption. Synchronized Pulleys do not require Rotational Force."
     ],
     "groups": {
       "Create": {

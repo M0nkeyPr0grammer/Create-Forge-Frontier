@@ -2,18 +2,70 @@
   "dependencies": [
     "Cart assembler"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "controller": {
+      "type": "heracles:item",
+      "item": "create:controller_rail",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:controller_rail",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "tube": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:electron_tube",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:electron_tube",
+        "count": 3
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "Controller Rails are used to control the speed of Minecarts or Minecart Contraptions.",
+      "",
+      "When a Redstone signal is applied, the rail will move carts depending on the strength of the signal. An Analog Lever is helpful for this.",
+      "",
+      "A Controller Rail will propagate it's signal to other connected Controller Rails up to 8 blocks away.",
+      "",
+      "Powering two rails with different strengths will cause rails between them to interpolate the signal."
+    ],
     "groups": {
       "Create": {
         "position": [
           80,
-          460
+          340
         ]
       }
     },

@@ -36,14 +36,14 @@
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "create:redstone_contact",
+          "count": 1
         },
         "type": "heracles:item"
       },
       "item": {
-        "id": "create:andesite_alloy",
-        "count": 4
+        "id": "create:redstone_contact",
+        "count": 3
       },
       "type": "heracles:item"
     }
@@ -53,7 +53,16 @@
       "text": ""
     },
     "description": [
-      "The redstone contact is used to dictate where the elevator will stop at when the 2 contacts connect to each other"
+      "In front of the onboard Redstone Contact, Redstone Contacts placed in a column and facing the onboard contact will turn into Elevator Contacts, there is no separate crafting recipe. Elevator contacts show as a separate item in JEI but they do not have a crafting recipe.",
+      "",
+      "These will be used to define the Elevator's \"floors.\" Once one Elevator Contact is placed, all Redstone Contacts placed at the same x and z coordinates afterwards will become Elevator Contacts.",
+      "",
+      "A lamp or noteblock placed adjacent to a contact will be activated when the elevator reaches the current floor. If a gold block is places below this with a space above the noteblock, it can be used as an elevator arrived bell.",
+      "",
+      "Elevator Contact UI",
+      "Elevator Contacts can be given a redstone signal to call the elevator to them. They will also emit a redstone signal when the elevator is stopped at their floor. In their interface, floors can be given a name up to 4 characters long and a description up to 30 characters long. These will be displayed in Display Links and onboard Contraption Controls. Sliding Door functionality can also be adjusted to Open All Doors, open North, East, West, or South Side Doors only, or Keep Doors Closed. The interface will also tell you which way you are currently facing.",
+      "",
+      "Elevator Contacts will appear to light up slightly when an Elevator Pulley selects them before turning on when the Elevator Pulley reaches them."
     ],
     "groups": {
       "Create": {

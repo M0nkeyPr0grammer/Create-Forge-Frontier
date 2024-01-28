@@ -32,18 +32,18 @@
       "title": "",
       "type": "heracles:xp"
     },
-    "Give Slime": {
+    "casing": {
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "create:andesite_casing",
+          "count": 1
         },
         "type": "heracles:item"
       },
       "item": {
-        "id": "minecraft:slime_ball",
-        "count": 2
+        "id": "create:andesite_casing",
+        "count": 3
       },
       "type": "heracles:item"
     }
@@ -53,7 +53,18 @@
       "text": ""
     },
     "description": [
-      "The mechanical bearing is the centerpiece of machines, it lets you build any machine onto it and becomes the central spinning part of the machine"
+      "The Mechanical Bearing is used to create and rotate Contraptions.",
+      "",
+      "When the Mechanical Bearing is powered with Rotational Force, right clicking the bearing will start the rotation so long as there is a potential structure connected to the front of it.",
+      "",
+      "Structure Behavior",
+      "The structure will rotate. If another Mechanical Bearing is used within a Contraption, facing the same way as the original, the blocks attached to that bearing will keep their alignment as the rest of the structure moves.",
+      "",
+      "Ferris Wheel Mechanic 2",
+      "A bearing contraption does not collide with blocks unless the appropriate Contraption Actor makes the collision.",
+      "",
+      "Wrench",
+      "Shift-right-clicking on a Mechanical Bearing with a Wrench will destroy the Mechanical Bearing and place it in your inventory."
     ],
     "groups": {
       "Create": {

@@ -2,18 +2,68 @@
   "dependencies": [
     "Gantry Carriage"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "sticker": {
+      "type": "heracles:item",
+      "item": "create:sticker",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:sticker",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "slime": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:slime_block",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:slime_block",
+        "count": 3
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "The Sticker is used to stick and unstick things to moving Contraptions.",
+      "",
+      "Place the Sticker on a Contraption facing towards what it should stick to. When the contraption stops and the Sticker is toggled with a redstone signal, the affected block will move along with the contraption.",
+      "",
+      "Use Linear Chassis, Radial Chassis, or Super Glue to pull along bigger structures."
+    ],
     "groups": {
       "Create": {
         "position": [
           80,
-          380
+          260
         ]
       }
     },
