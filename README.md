@@ -41,7 +41,6 @@ Download **Landscapes Reimagined Forge Frontier** today and dive into an elevate
       <li><a href="https://www.curseforge.com/minecraft/mc-mods/create-compressed">Create Compressed</a></li>
       <li><a href="https://www.curseforge.com/minecraft/mc-mods/create-confectionery">Create Confectionery</a></li>
       <li><a href="https://www.curseforge.com/minecraft/mc-mods/create-oppenheimered">Create: Oppenheimered</a></li>
-      <li><a href="https://www.curseforge.com/minecraft/mc-mods/detected-setblock-be-gone">Detected setBlock Be Gone</a></li>
       <li><a href="https://www.curseforge.com/minecraft/mc-mods/disenchantingforge">DisenchantingForge</a></li>
       <li><a href="https://www.curseforge.com/minecraft/mc-mods/dungeon-crawl">Dungeon Crawl</a></li>
       <li><a href="https://www.curseforge.com/minecraft/mc-mods/dynamic-view">Dynamic View[Forge]</a></li>
