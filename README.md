@@ -1,5 +1,5 @@
 # Landscapes Reimagined Forge Frontier
-![Temp Logo, placeholder until proper screenshot](https://cdn.modrinth.com/data/cached_images/342552e08328c55eb5da8a6cdcf11b702c166f8e.png)
+![Forge Frontier Logo with CTOV Village in the background](https://github.com/M0nkeyPr0grammer/Landscapes-Reimagined-Forge-Frontier/blob/main/CTOV_Taiga_Village.png?raw=true)
 ## Description
 Discover the pinnacle of Minecraft modding with **Landscapes Reimagined Forge Frontier**, 
 a masterful sequel to the acclaimed [**Landscapes Reimagined Genesis**](https://modrinth.com/modpack/landscapes-reimagined-genesis). This edition, powered
