@@ -52,7 +52,7 @@
 		# This is the size of that list.
 		# For example, if this value is 5, then your 5 most recent biomes will be saved.
 		# Default: 5
-		"Number of Most Recent Biomes Saved" = 5
+		"Number of Most Recent Biomes Saved" = 3
 		# Whether or not the biome text should be centered on the screen.
 		# The Text X Offset and Text Y Offset options are relative to the center of the screen if this is enabled.
 		# Default: true
@@ -66,7 +66,7 @@
 		# If enabled, dimensions without ceilings (like the Overworld) will only display biome titles when the player is exposed to the skylight.
 		# This prevents biome titles from showing while the player is underground.
 		# Default: true
-		"Only Show Biome Titles When Exposed To Skylight" = true
+		"Only Show Biome Titles When Exposed To Skylight" = false
 
 	###########################################################################################################
 	## Dimension Title settings.

@@ -35,5 +35,26 @@
   "desert_alchemist_weight": 10,
   "desert_occultist_weight": 10,
   "desert_horticulturist_weight": 10,
-  "desert_oceanographer_weight": 15
+  "desert_oceanographer_weight": 15,
+  //Two flower offsets in flower tub for small flowers. Each offset is added to the following offsets.
+  "first_flower_in_two_X_offset": 0.15,
+  "first_flower_in_two_Z_offset": 0.15,
+  "second_flower_in_two_X_offset": -0.3,
+  "second_flower_in_two_Z_offset": -0.35,
+  //Three flower offsets in flower tub for small flowers. Each offset is added to the following offsets.
+  "first_flower_in_three_X_offset": 0.15,
+  "first_flower_in_three_Z_offset": 0.0,
+  "second_flower_in_three_X_offset": -0.3,
+  "second_flower_in_three_Z_offset": -0.15,
+  "third_flower_in_three_X_offset": -0.05,
+  "third_flower_in_three_Z_offset": 0.3,
+  //Four flower offsets in flower tub for small flowers. Each offset is added to the following offsets.
+  "first_flower_in_four_X_offset": 0.15,
+  "first_flower_in_four_Z_offset": 0.15,
+  "second_flower_in_four_X_offset": 0.0,
+  "second_flower_in_four_Z_offset": -0.35,
+  "third_flower_in_four_X_offset": -0.3,
+  "third_flower_in_four_Z_offset": 0.0,
+  "forth_flower_in_four_X_offset": -0.05,
+  "forth_flower_in_four_Z_offset": 0.37
 }

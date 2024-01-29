@@ -1,4 +1,4 @@
-ignoreUpdate:0
+ignoreUpdate:173
 updateNotification:true
 allowInternetAccess:true
 differentiateByServerAddress:true
@@ -67,6 +67,7 @@ globalVersion:1
 [XP] Transparent Obsidian Roof:true
 [XP] Roof Y Level:250.0
 [XP] Roof Obsidian Opacity:150.0
+[XP] Roof Snow Opacity:10.0
 [XP] Min WorldMap Zoom:0.1
 [XP] Skip Background Render:false
 [XP] NewChunks Highlighting:false

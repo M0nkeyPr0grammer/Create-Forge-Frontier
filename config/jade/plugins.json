@@ -54,6 +54,9 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "cagedmobs": {
+    "cagedmobs_jade": true
+  },
   "endertanks": {
     "hud.basic": true,
     "hud": true,
@@ -75,6 +78,10 @@
   },
   "lootr": {
     "info": true
+  },
+  "refinedcooking": {
+    "kitchen_access_point": true,
+    "kitchen_station": true
   },
   "jadeaddons": {
     "equipment_requirement": ""
@@ -111,5 +118,12 @@
   },
   "corpse": {
     "corpse": true
+  },
+  "cookingforblockheads": {
+    "fridge": true,
+    "oven": true,
+    "sink": true,
+    "milk_jar": true,
+    "toaster": true
   }
 }

@@ -5,7 +5,7 @@ rarity = "RARE"
 #Range: 1 ~ 5
 levels = 1
 #If enabled, the enchantment is considered a treasure enchantment.
-isTreasure = false
+isTreasure = true
 #If enabled, the enchantment can be offered by villagers for trade.
 isVillagerTrade = true
 #If enabled, the enchantment can generate in loot.

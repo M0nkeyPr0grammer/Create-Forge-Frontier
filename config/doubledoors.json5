@@ -9,5 +9,5 @@
 	// When enables, the mod works with double fence gates.
 	"enableFenceGates": true,
 	// When enables, the mod works with double trapdoors.
-	"enableTrapdoors": true
+	"enableTrapdoors": false
 }

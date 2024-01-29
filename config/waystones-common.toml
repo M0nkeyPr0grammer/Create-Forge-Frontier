@@ -56,7 +56,7 @@
 	#List of dimensions that players are not allowed to warp cross-dimension from and to. Only used if dimensionalWarpAllowList is empty.
 	dimensionalWarpDenyList = []
 	#If enabled, waystones generated in worldgen are unbreakable.
-	generatedWaystonesUnbreakable = false
+	generatedWaystonesUnbreakable = true
 	#Set to false to allow non-creative players to make waystones globally activated for all players.
 	globalWaystoneSetupRequiresCreativeMode = true
 	#List of leashed mobs that cannot be taken with you when teleporting
