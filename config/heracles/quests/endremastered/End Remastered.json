@@ -50,7 +50,7 @@
     },
     "icon": {
       "item": {
-        "id": "minecraft:end_portal_frame",
+        "id": "minecraft:ender_eye",
         "count": 1
       },
       "type": "heracles:item"

@@ -65,7 +65,7 @@
     },
     "icon": {
       "item": {
-        "id": "minecraft:iron_ingot",
+        "id": "minecraft:raw_iron",
         "count": 1
       },
       "type": "heracles:item"

@@ -3,20 +3,19 @@
     "Enter the End"
   ],
   "tasks": {
-    "dragon": {
+    "dragon egg": {
+      "type": "heracles:item",
+      "item": "minecraft:dragon_egg",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "minecraft:dragon_egg",
+          "count": 1
         },
         "type": "heracles:item"
-      },
-      "entity": {
-        "type": "minecraft:ender_dragon"
-      },
-      "amount": 1,
-      "title": "",
-      "type": "heracles:kill_entity"
+      }
     }
   },
   "rewards": {
