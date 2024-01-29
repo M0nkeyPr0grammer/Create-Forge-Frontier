@@ -56,6 +56,7 @@ globalVersion:1
 [XP] Fast Mapping:false
 [XP] Fast Mapping Delay:250.0
 [XP] Fast Mapping Rate Limit:25.0
+[XP] Fast Zip Writes:true
 [XP] Baritone Goal Waypoint:true
 [XP] Disable Waypoint Sharing:false
 [XP] Disable Receiving Waypoints:false
