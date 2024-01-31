@@ -3,7 +3,7 @@
 ## Description
 Discover the pinnacle of Minecraft modding with **Landscapes Reimagined Forge Frontier**, 
 a masterful sequel to the acclaimed [**Landscapes Reimagined Genesis**](https://modrinth.com/modpack/landscapes-reimagined-genesis). This edition, powered
-by the Forge mod loader, delivers an unparalleled gaming experience, featuring sprawling
+by the NeoForged mod loader, delivers an unparalleled gaming experience, featuring sprawling
 landscapes and intricate structures, courtesy of top-tier mods from YUNG and other notable
 creators. Encounter a rich array of new mobs, delve into numerous quests, and explore custom
 recipes. With cutting-edge additions like Framed Blocks, Sophisticated Backpacks, and 
@@ -77,6 +77,10 @@ Download **Landscapes Reimagined Forge Frontier** today and dive into an elevate
     <li><a href="https://modrinth.com/datapack/repurposed-structures-farmers-delight-compat">Repurposed Structures - Farmer's Delight Compat</a></li>
     <li><a href="https://modrinth.com/datapack/repurposed-structures-friends-and-foes-compat">Repurposed Structures - Friends and Foes Compat</a></li>
     <li><a href="https://modrinth.com/datapack/repurposed-structures-villagerplus-compat">Repurposed Structures - VillagerPlus Compat</a></li>
+    <li><a href="https://modrinth.com/datapack/better-end-cities-(vanilla)">Better End Cities (Vanilla)</a></li>
+    <li><a href="https://modrinth.com/datapack/the-ancient-city-overhaul">The Ancient City Overhaul</a></li>
+    <li><a href="https://modrinth.com/datapack/the-bastion-overhaul">The Bastion Overhaul</a></li>
+    <li><a href="https://modrinth.com/datapack/the-trail-ruins-overhaul">The Trail Ruins Overhaul</a></li>
   </details>
   
   <details>
