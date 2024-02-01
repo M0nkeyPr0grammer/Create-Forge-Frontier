@@ -105,3 +105,127 @@ Download **Landscapes Reimagined Forge Frontier** today and dive into an elevate
       </li>
     </ul>
   </details> 
+
+<details>
+    <summary>Quests (Spoiler)</summary>
+  <details>
+    <summary> Main Chapter </summary>
+    <img src="https://github.com/M0nkeyPr0grammer/Landscapes-Reimagined-Forge-Frontier/blob/main/Quest%20Screenshots/Main%20Chapter.png?raw=true" alt="Main Chapter">
+  </details>
+  
+  <details>
+    <summary> QOL Tools Chapter </summary>
+    <img src="https://github.com/M0nkeyPr0grammer/Landscapes-Reimagined-Forge-Frontier/blob/main/Quest%20Screenshots/QOL%20Tools%20Chapter.png?raw=true" alt="QOL Tools Chapter">
+  </details>
+
+  <details>
+    <summary> Decoration Mods Chapter </summary>
+    <img src="https://github.com/M0nkeyPr0grammer/Landscapes-Reimagined-Forge-Frontier/blob/main/Quest%20Screenshots/Decoration%20Mods%20Chapter.png?raw=true" alt="Decoration Mods Chapter">
+  </details>
+
+  <details>
+    <summary> Overworld Chapter </summary>
+    <img src="https://github.com/M0nkeyPr0grammer/Landscapes-Reimagined-Forge-Frontier/blob/main/Quest%20Screenshots/Overworld%20Chapter.png?raw=true" alt="Overworld Chapter">
+  </details>
+
+  <details>
+    <summary> The Nether Chapter </summary>
+    <img src="https://github.com/M0nkeyPr0grammer/Landscapes-Reimagined-Forge-Frontier/blob/main/Quest%20Screenshots/Nether%20Chapter.png?raw=true" alt="The Nether Chapter">
+  </details>
+
+  <details>
+    <summary> End Remastered Chapter </summary>
+    <img src="https://github.com/M0nkeyPr0grammer/Landscapes-Reimagined-Forge-Frontier/blob/main/Quest%20Screenshots/End%20Remastered%20Chapter.png?raw=true" alt="End Remastered Chapter">
+  </details>
+
+  <details>
+    <summary> The End Chapter </summary>
+    <img src="https://github.com/M0nkeyPr0grammer/Landscapes-Reimagined-Forge-Frontier/blob/main/Quest%20Screenshots/The%20End%20Chapter.png?raw=true" alt="The End Chapter">
+  </details>
+
+  <details>
+    <summary> Ad Astra Chapter </summary>
+    <img src="https://github.com/M0nkeyPr0grammer/Landscapes-Reimagined-Forge-Frontier/blob/main/Quest%20Screenshots/Ad%20Astra%20Chapter.png?raw=true" alt="Ad Astra Chapter ">
+  </details>
+
+  <details>
+    <summary> Deeper and Darker Chapter </summary>
+    <img src="https://github.com/M0nkeyPr0grammer/Landscapes-Reimagined-Forge-Frontier/blob/main/Quest%20Screenshots/Deeper%20and%20Darker%20Chapter.png?raw=true" alt="Deeper and Darker Chapter">
+  </details>
+
+  <details>
+    <summary> Create Chapter </summary>
+    <img src="https://github.com/M0nkeyPr0grammer/Landscapes-Reimagined-Forge-Frontier/blob/main/Quest%20Screenshots/Create%20Chapter.png?raw=true" alt="Create Chapter">
+  </details>
+
+  <details>
+    <summary> Create Addons pg 1 Chapter </summary>
+    <img src="https://github.com/M0nkeyPr0grammer/Landscapes-Reimagined-Forge-Frontier/blob/main/Quest%20Screenshots/Create%20Addons%20Page%201%20Chapter.png?raw=true" alt="Create Addons pg 1 Chapter">
+  </details>
+
+  <details>
+    <summary> Create Addons pg 2 Chapter </summary>
+    <img src="https://github.com/M0nkeyPr0grammer/Landscapes-Reimagined-Forge-Frontier/blob/main/Quest%20Screenshots/Create%20Addons%20Page%202%20Chapter.png?raw=true" alt="Create Addons pg 2 Chapter">
+  </details>
+
+  <details>
+    <summary> Create Addons pg 3 Chapter </summary>
+    <img src="https://github.com/M0nkeyPr0grammer/Landscapes-Reimagined-Forge-Frontier/blob/main/Quest%20Screenshots/Create%20Addons%20Page%203%20Chapter.png?raw=true" alt="Create Addons pg 3 Chapter">
+  </details>
+
+  <details>
+    <summary> Molten Ores Chapter </summary>
+    <img src="https://github.com/M0nkeyPr0grammer/Landscapes-Reimagined-Forge-Frontier/blob/main/Quest%20Screenshots/Molten%20Ores%20Chapter.png?raw=true" alt="Molten Ores Chapter">
+  </details>
+
+  <details>
+    <summary> Boss Mobs Chapter </summary>
+    <img src="https://github.com/M0nkeyPr0grammer/Landscapes-Reimagined-Forge-Frontier/blob/main/Quest%20Screenshots/Boss%20Mobs%20Chapter.png?raw=true" alt="Boss Mobs Chapter">
+  </details>
+
+  <details>
+    <summary> Better Storage Chapter </summary>
+    <img src="https://github.com/M0nkeyPr0grammer/Landscapes-Reimagined-Forge-Frontier/blob/main/Quest%20Screenshots/Better%20Storage%20Chapter.png?raw=true" alt="Better Storage Chapter">
+  </details>
+
+  <details>
+    <summary> Sophisticated Mods Chapter </summary>
+    <img src="https://github.com/M0nkeyPr0grammer/Landscapes-Reimagined-Forge-Frontier/blob/main/Quest%20Screenshots/Sophisticated%20Mods%20Chapter.png?raw=true" alt="Sophisticated Mods Chapter">
+  </details>
+
+  <details>
+    <summary> Refined Storage Chapter </summary>
+    <img src="https://github.com/M0nkeyPr0grammer/Landscapes-Reimagined-Forge-Frontier/blob/main/Quest%20Screenshots/Refined%20Storage%20Chapter.png?raw=true" alt="Refined Storage Chapter">
+  </details>
+
+  <details>
+    <summary> Easy Automations Chapter </summary>
+    <img src="https://github.com/M0nkeyPr0grammer/Landscapes-Reimagined-Forge-Frontier/blob/main/Quest%20Screenshots/Easy%20Automation%20Chapter.png?raw=true" alt="Easy Automations Chapter">
+  </details>
+
+  <details>
+    <summary> Food Chapter </summary>
+    <img src="https://github.com/M0nkeyPr0grammer/Landscapes-Reimagined-Forge-Frontier/blob/main/Quest%20Screenshots/Food%20Chapter.png?raw=true" alt="Food Chapter">
+  </details>
+
+  <details>
+    <summary> Artifacts and Baubley Chapter </summary>
+    <img src="https://github.com/M0nkeyPr0grammer/Landscapes-Reimagined-Forge-Frontier/blob/main/Quest%20Screenshots/Artifacts%20and%20Baubley%20Chapter.png?raw=true" alt="Artifacts and Baubley Chapter">
+  </details>
+
+  <details>
+    <summary> Apotheosis Chapter </summary>
+    <img src="https://github.com/M0nkeyPr0grammer/Landscapes-Reimagined-Forge-Frontier/blob/main/Quest%20Screenshots/Apotheosis%20Chapter.png?raw=true" alt="Apotheosis Chapter">
+  </details>
+
+  <details>
+    <summary> Transportation Chapter </summary>
+    <img src="https://github.com/M0nkeyPr0grammer/Landscapes-Reimagined-Forge-Frontier/blob/main/Quest%20Screenshots/Transportation%20Chapter.png?raw=true" alt="Transportation Chapter">
+  </details>
+
+  <details>
+    <summary> Creative Items Chapter </summary>
+    <img src="https://github.com/M0nkeyPr0grammer/Landscapes-Reimagined-Forge-Frontier/blob/main/Quest%20Screenshots/Creative%20Items%20Chapter.png?raw=true" alt="Creative Items Chapter">
+  </details>
+  
+</details>
