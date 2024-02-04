@@ -3,7 +3,7 @@
     "Decoration Mods"
   ],
   "tasks": {
-    "check": {
+    "c": {
       "title": "",
       "icon": {
         "item": {
@@ -16,7 +16,7 @@
     }
   },
   "rewards": {
-    "xp": {
+    "x": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -28,21 +28,6 @@
       "amount": 10,
       "title": "",
       "type": "heracles:xp"
-    },
-    "chair": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "adorn:oak_chair",
-          "count": 1
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "adorn:oak_chair",
-        "count": 1
-      },
-      "type": "heracles:item"
     }
   },
   "display": {
@@ -50,32 +35,30 @@
       "text": ""
     },
     "description": [
-      "Adorn is a decoration and furniture mod for Minecraft 1.16 that adds many decoration blocks, such as...",
-      "",
-      "- Chairs and sofas! You can sit and relax on them. A sofa is also a nice place for a nap.",
-      "- Drawers! Smaller container than chests, but a fancier piece of furniture.",
-      "- Stone torches! They're made of stone and are better light sources than wooden torches.",
-      "- Kitchen blocks! You can decorate your kitchens with kitchen counters, cupboards and sinks (Perfect for kitchen sink modpacks!)",
-      "- And more: tables, shelves, fences, chimneys..."
+      "In this pack you have access to the following Macaw's mods",
+      "- Macaw's Paths and Pavings",
+      "- Macaw's Furniture",
+      "- Macaw's Paintings",
+      "- Macaw's Fences and Walls"
     ],
     "groups": {
       "Decoration Mods": {
         "position": [
-          -100,
-          -60
+          -98,
+          -61
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "adorn:trading_station",
+        "id": "mcwfurnitures:stripped_mangrove_chair",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "title": {
-      "translate": "Adorn"
+      "translate": "Macaws"
     }
   },
   "settings": {
