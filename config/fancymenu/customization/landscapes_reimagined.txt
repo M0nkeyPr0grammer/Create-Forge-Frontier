@@ -217,6 +217,23 @@ customization {
 }
 
 customization {
+  identifier = %id=376346%
+  orientation = mid-centered
+  x = -209
+  action = movebutton
+  y = 71
+}
+
+customization {
+  identifier = %id=376346%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/assets/quarkh.png
+  backgroundnormal = config/fancymenu/assets/quark.png
+}
+
+customization {
   orientation = top-left
   hidden = true
   x = 2
@@ -265,7 +282,7 @@ customization {
 customization {
   orientation = top-left
   hidden = false
-  x = 118
+  x = 119
   width = 268
   action = deep_customization_element:title_screen_forge_top
   actionid = d529d4bb-4e54-4e21-b046-41c0e66e41181701675254703
@@ -276,7 +293,7 @@ customization {
 customization {
   orientation = top-left
   hidden = false
-  x = 275
+  x = 278
   width = 228
   action = deep_customization_element:title_screen_forge_copyright
   actionid = 15a67ab9-2c21-4c4a-8bef-f105a931f0751701675254703
