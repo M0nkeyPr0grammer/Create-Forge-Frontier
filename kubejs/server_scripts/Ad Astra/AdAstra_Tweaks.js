@@ -2,25 +2,43 @@ ServerEvents.recipes(event => {
 
     // Removes Old Recipes
     event.remove({ id: 'ad_astra:recipes/steel_ingot_from_blasting_iron_ingot'}) // Removes Old Steel Blasting Recipe
-    event.remove({ id: 'ad_astra:recipes/coal_generator'}) // Removes Old Coal Generator Recipe
-    event.remove({ id: 'ad_astra:recipes/compressor'}) // Removes Old Compressor Recipe
-    event.remove({ id: 'ad_astra:recipes/nasa_workbench'}) // Removes Old Nasaworkbench Recipe
-    event.remove({ id: 'ad_astra:recipes/fuel_refinery'}) // Removes Old Fuel Refinery Recipe
-    event.remove({ id: 'ad_astra:recipes/water_pump'}) // Removes Old Water Pump Recipe
-    event.remove({ id: 'ad_astra:recipes/oxygen_sensor'}) // Removes Old Oxygen Sensor Recipe
-    event.remove({ id: 'ad_astra:recipes/oxygen_loader'}) // Removes Old Oxygen Loader Recipe
-    event.remove({ id: 'ad_astra:recipes/energizer'}) // Removes Old Energizer Recipe
-    event.remove({ id: 'ad_astra:recipes/solar_panel'}) // Removes Old Solar Panel Recipe
-    event.remove({ id: 'ad_astra:recipes/oxygen_distributor'}) // Removes Old Oxygen Distributor Recipe
-    event.remove({ id: 'ad_astra:recipes/cryo_freezer'}) // Removes Old Cryo Freezer Recipe
-    event.remove({ id: 'ad_astra:recipes/tier_1_rover'}) // Removes Old Tier 1 Rover Recipe
-    event.remove({ id: 'ad_astra:recipes/launch_pad'}) // Removes Old Launch Pad Recipe
+    event.remove({ id: 'ad_astra:coal_generator'}) // Removes Old Coal Generator Recipe
+    event.remove({ id: 'ad_astra:compressor'}) // Removes Old Compressor Recipe
+    event.remove({ id: 'ad_astra:nasa_workbench'}) // Removes Old Nasaworkbench Recipe
+    event.remove({ id: 'ad_astra:fuel_refinery'}) // Removes Old Fuel Refinery Recipe
+    event.remove({ id: 'ad_astra:water_pump'}) // Removes Old Water Pump Recipe
+    event.remove({ id: 'ad_astra:oxygen_sensor'}) // Removes Old Oxygen Sensor Recipe
+    event.remove({ id: 'ad_astra:oxygen_loader'}) // Removes Old Oxygen Loader Recipe
+    event.remove({ id: 'ad_astra:energizer'}) // Removes Old Energizer Recipe
+    event.remove({ id: 'ad_astra:solar_panel'}) // Removes Old Solar Panel Recipe
+    event.remove({ id: 'ad_astra:oxygen_distributor'}) // Removes Old Oxygen Distributor Recipe
+    event.remove({ id: 'ad_astra:cryo_freezer'}) // Removes Old Cryo Freezer Recipe
+    event.remove({ id: 'ad_astra:tier_1_rover'}) // Removes Old Tier 1 Rover Recipe
+    event.remove({ id: 'ad_astra:launch_pad'}) // Removes Old Launch Pad Recipe
+    event.remove({ id: 'ad_astra:etrionic_blast_furnace'}) // Removes Old Recipe
     event.remove({ id: 'ad_astra_giselle_addon:crafting/gravity_normalizer'}) // Removes Old Gravity Normalizer Recipe
     event.remove({ id: 'ad_astra_giselle_addon:crafting/rocket_sensor'}) // Removes Old Rocket Sensor Recipe
     event.remove({ id: 'ad_astra_giselle_addon:crafting/automation_nasa_workbench'}) // Removes Old Automation Nasa Workbench Recipe
     event.remove({ id: 'ad_astra_giselle_addon:crafting/fuel_loader'}) // Removes Old Fuel Loader Recipe
 
     // Creates Brand New Recipes for Ad Astra Machines
+
+        // Creates New Etrionic Blast Furnace Recipe
+        event.custom({
+            type: "create:mechanical_crafting",
+            pattern: [
+                'AAA',
+                'BCB',
+                'AAA'
+            ],
+            key: {
+                A: Ingredient.of('#forge:plates/iron').toJson(),
+                B: Ingredient.of('minecraft:redstone').toJson(),
+                C: Ingredient.of('create:blaze_burner').toJson()
+            },
+            result: Ingredient.of('ad_astra:etrionic_blast_furnace').toJson(),
+            acceptMirrored: false
+        }).id('kubejs:ad_astra/etrionic_blast_furnace');
 
                 //Creates Alternate Faster Oil Mixing Recipe by Voidmaster01
         
@@ -222,7 +240,7 @@ ServerEvents.recipes(event => {
             ],
             key: {
                 A: Ingredient.of('ad_astra:ostrum_plate').toJson(),
-                B: Ingredient.of('ad_astra:engine_fan').toJson(),
+                B: Ingredient.of('ad_astra:fan').toJson(),
                 C: Ingredient.of('ad_astra:ostrum_ingot').toJson(),
                 D: Ingredient.of('create:content_observer').toJson(),
                 E: Ingredient.of('create:electron_tube').toJson()
@@ -241,8 +259,8 @@ ServerEvents.recipes(event => {
             ],
             key: {
                 A: Ingredient.of('ad_astra:steel_plate').toJson(),
-                B: Ingredient.of('ad_astra:engine_fan').toJson(),
-                C: Ingredient.of('ad_astra:oxygen_tank').toJson(),
+                B: Ingredient.of('ad_astra:fan').toJson(),
+                C: Ingredient.of('ad_astra:gas_tank').toJson(),
                 D: Ingredient.of('createaddition:connector').toJson(),
                 E: Ingredient.of('minecraft:redstone_block').toJson()
             },
@@ -360,13 +378,13 @@ ServerEvents.recipes(event => {
         event.custom({
             type: "create:mechanical_crafting",
             pattern: [
-                'AAA',
-                'BCB',
+                'ABA',
+                'ACA',
                 'DED'
             ],
             key: {
-                A: Ingredient.of('ad_astra:engine_fan').toJson(),
-                B: Ingredient.of('ad_astra:oxygen_tank').toJson(),
+                A: Ingredient.of('ad_astra:fan').toJson(),
+                B: Ingredient.of('ad_astra:large_gas_tank').toJson(),
                 C: Ingredient.of('ad_astra:oxygen_loader').toJson(),
                 D: Ingredient.of('ad_astra:desh_plate').toJson(),
                 E: Ingredient.of('ad_astra:oxygen_gear').toJson(),
