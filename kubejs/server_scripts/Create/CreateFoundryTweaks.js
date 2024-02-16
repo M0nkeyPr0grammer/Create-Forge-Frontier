@@ -6,6 +6,44 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'createfoundry:mixing/melting/ore/redstone_from_ore' });
     event.remove({ id: 'createfoundry:mixing/melting/ore/lapis_from_ore' });
     event.remove({ id: 'createfoundry:mixing/molten_netherite_from_ancient_debris_gold'})
+    
+    // Creates Polished Zinc to Molten Zinc Recipe
+    event.custom({
+        type: "create:mixing",
+        ingredients: [
+            {
+                item: 'create_dd:zinc_tiled_block',
+                nbt: {},
+                amount: 1
+            }
+        ],
+        results: [
+            {
+                fluid: 'createfoundry:molten_zinc',
+                amount: 225
+            }
+        ],
+        heatRequirement: "superheated"
+    }).id('kubejs:mixing/tiled_zinc');
+
+    // Creates Polished Zinc to Molten Zinc Recipe
+    event.custom({
+        type: "create:mixing",
+        ingredients: [
+            {
+                item: 'create_dd:zinc_polished_block',
+                nbt: {},
+                amount: 1
+            }
+        ],
+        results: [
+            {
+                fluid: 'createfoundry:molten_zinc',
+                amount: 225
+            }
+        ],
+        heatRequirement: "superheated"
+    }).id('kubejs:mixing/polished_zinc');
 
 // Molten Steel Compacting Recipe
     event.custom({
