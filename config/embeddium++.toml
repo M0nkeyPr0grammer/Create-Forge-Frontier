@@ -9,7 +9,7 @@
 		#Configure FPS Display mode
 		#Complete mode gives you min FPS count and average count
 		#Allowed Values: OFF, SIMPLE, ADVANCED
-		fpsDisplay = "ADVANCED"
+		fpsDisplay = "OFF"
 		#Configure FPS Display gravity
 		#Places counter on specified corner of your screen
 		#Allowed Values: LEFT, CENTER, RIGHT
@@ -31,7 +31,7 @@
 		fog = true
 		#Raise clouds
 		#Modify clouds height perfect for a adaptative world experience
-		#Range: 0 ~ 320
+		#Range: 0 ~ 512
 		cloudsHeight = 128
 		#Chunks fade in speed
 		#This option doesn't affect performance, just changes speed
@@ -56,7 +56,6 @@
 			#Range: 0.0 ~ 1.0
 			endFogBright = 0.5
 			#Toggle Darkness default mode for modded dimensions
-			#This option will be replaced with a whitelist in a near future
 			valueByDefault = false
 			#Toggle darkness when dimension has no SkyLight
 			enableOnNoSkyLight = false
@@ -71,6 +70,9 @@
 			#Configure min moon brightness level with darkness
 			#Range: 0.0 ~ 1.0
 			newMoonBright = 0.0
+			#List of all dimensions to use True Darkness
+			#This option overrides 'valueByDefault' state
+			dimensionWhitelist = []
 
 	[embeddiumplus.performance]
 		#Toggles JREI item rendering until searching
@@ -92,37 +94,37 @@
 				#Toggles distance culling for Block Entities
 				#Maybe you use another mod for that :(
 				enable = true
-				#Configure horizontal max distance before cull Block entities
-				#Value is squared, default was 64^2 (or 64x64)
-				#Range: > 0
-				cullingDistanceX = 4096
-				#Configure vertical max distance before cull Block entities
-				#Value is raw
-				#Range: 0 ~ 512
-				cullingDistanceY = 32
 				#List of all Block Entities to be ignored by distance culling
 				#Uses ResourceLocation to identify it
 				#Example 1: "minecraft:chest" - Ignores chests only
 				#Example 2: "ae2:*" - ignores all Block entities from Applied Energetics 2
 				whitelist = []
+				#Configure horizontal max distance before cull Block entities
+				#Value is squared, default was 64^2 (or 64x64)
+				#Range: > 0
+				cullingMaxDistanceX = 4096
+				#Configure vertical max distance before cull Block entities
+				#Value is raw
+				#Range: 0 ~ 512
+				cullingMaxDistanceY = 32
 
 			[embeddiumplus.performance.distanceCulling.entities]
 				#Toggles distance culling for entities
 				#Maybe you use another mod for that :(
 				enable = true
-				#Configure horizontal max distance before cull entities
-				#Value is squared, default was 64^2 (or 64x64)
-				#Range: > 0
-				cullingDistanceX = 4096
-				#Configure vertical max distance before cull entities
-				#Value is raw
-				#Range: 0 ~ 512
-				cullingDistanceY = 32
 				#List of all Entities to be ignored by distance culling
 				#Uses ResourceLocation to identify it
 				#Example 1: "minecraft:bat" - Ignores bats only
 				#Example 2: "alexsmobs:*" - ignores all entities for alexmobs mod
 				whitelist = []
+				#Configure horizontal max distance before cull entities
+				#Value is squared, default was 64^2 (or 64x64)
+				#Range: > 0
+				cullingMaxDistanceX = 4096
+				#Configure vertical max distance before cull entities
+				#Value is raw
+				#Range: 0 ~ 512
+				cullingMaxDistanceY = 32
 
 	[embeddiumplus.dynlights]
 		#Configure how fast light whould be updated

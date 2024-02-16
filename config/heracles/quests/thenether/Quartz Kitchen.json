@@ -63,7 +63,7 @@
     },
     "icon": {
       "item": {
-        "id": "adorn:oak_kitchen_sink",
+        "id": "cookingforblockheads:sink",
         "count": 1
       },
       "type": "heracles:item"

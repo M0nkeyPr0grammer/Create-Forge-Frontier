@@ -5,13 +5,13 @@
   "tasks": {
     "rest 1": {
       "type": "heracles:item",
-      "item": "sophisticatedbackpacks:restock_upgrade",
+      "item": "sophisticatedbackpacks:refill_upgrade",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "sophisticatedbackpacks:restock_upgrade",
+          "id": "sophisticatedbackpacks:refill_upgrade",
           "count": 1
         },
         "type": "heracles:item"
@@ -19,13 +19,13 @@
     },
     "rest 2": {
       "type": "heracles:item",
-      "item": "sophisticatedbackpacks:advanced_restock_upgrade",
+      "item": "sophisticatedbackpacks:advanced_refill_upgrade",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "sophisticatedbackpacks:advanced_restock_upgrade",
+          "id": "sophisticatedbackpacks:advanced_refill_upgrade",
           "count": 1
         },
         "type": "heracles:item"

@@ -95,9 +95,6 @@
   "apotheosis:ench": null,
   "apotheosis:adventure": null,
   "shetiphiancore:hud": null,
-  "supplementaries:present": null,
-  "supplementaries:safe": null,
-  "supplementaries:hat_stand": null,
   "corpse:corpse": null,
   "lootr:info": null,
   "lootr:inventory": null,
@@ -170,5 +167,8 @@
   "easy_villagers:villager": null,
   "easy_villagers:converter": null,
   "easy_villagers:breeder": null,
+  "supplementaries:present": null,
+  "supplementaries:safe": null,
+  "supplementaries:hat_stand": null,
   "enderchests:hud": null
 }

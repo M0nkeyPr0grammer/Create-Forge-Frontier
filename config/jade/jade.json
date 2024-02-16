@@ -1,6 +1,6 @@
 {
   "general": {
-    "hintOverlayToggle": true,
+    "hintOverlayToggle": false,
     "hintNarratorToggle": true,
     "previewOverlay": true,
     "displayTooltip": true,
@@ -15,8 +15,9 @@
     "fluidMode": "ANY",
     "reachDistance": 0.0,
     "debug": false,
-    "itemModNameTooltip": true,
-    "bossBarOverlapMode": "PUSH_DOWN"
+    "itemModNameTooltip": false,
+    "bossBarOverlapMode": "PUSH_DOWN",
+    "builtinCamouflage": true
   },
   "overlay": {
     "activeTheme": "jade:dark",

@@ -2,13 +2,41 @@
   "dependencies": [
     "Easy Automation"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "c": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "Cognition aims to overhaul player XP, by providing new ways to store, transport, and use it in weird and wonderful ways. Power all sorts of mystical machinery with Cognitium, best described as pure knowledge given corporeal form. As for now the content available is quite small, but much more is currently in the works!"
+    ],
     "groups": {
       "Easy Automations": {
         "position": [

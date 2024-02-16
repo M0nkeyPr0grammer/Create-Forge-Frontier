@@ -65,7 +65,7 @@ globalVersion:1
 [XP] Waystone Waypoint Set:false
 [XP] Persist Dim Switch:true
 [XP] Radar While Dim Switched:true
-[XP] Transparent Obsidian Roof:true
+[XP] Transparent Obsidian Roof:false
 [XP] Roof Y Level:250.0
 [XP] Roof Obsidian Opacity:150.0
 [XP] Roof Snow Opacity:10.0
