@@ -8,6 +8,8 @@
 	save_debug_resources = false
 	#Don't touch unless you are told to
 	debug_packet = false
+	#Sends a packet to verify all dependencies mod versions are the same on connect. DIsable if it causes issues
+	mod_version_check_packet = true
 
 	[general.tooltips]
 		#Enabled tooltips showing which mod an EC item is from
@@ -17,6 +19,7 @@
 		#Only show on advanced settings
 		show_on_advanced_tooltips = false
 
+	#Disables certain types
 	[general.types]
 
 		[general.types.cake]
@@ -247,6 +250,7 @@
 				penumbral = true
 				glowing_penumbral = true
 
+	#Disables specific entries
 	[general.entries]
 
 		[general.entries.wood_type]

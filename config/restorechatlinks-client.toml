@@ -11,4 +11,7 @@
 	colorName = "blue"
 	#Show raw message for debugging
 	debugMessage = false
+	#Prevent link detection issues with message containing formatting codes
+	#Required for received messages that contains it
+	convertFormattingCode = false
 

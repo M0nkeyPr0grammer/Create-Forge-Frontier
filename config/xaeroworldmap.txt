@@ -84,6 +84,9 @@ globalVersion:1
 [XP] Save/Load Portals to Disk:true
 [XP] Portal Highlights Opacity:100.0
 [XP] Portal Highlights Color:5
+[XP] WorldTools Highlights:true
+[XP] WorldTools Highlights Opacity:100.0
+[XP] WorldTools Highlights Color:1
 [XP] PortalSkip Detection:false
 [XP] PortalSkip Opacity:100.0
 [XP] PortalSkip Color:6

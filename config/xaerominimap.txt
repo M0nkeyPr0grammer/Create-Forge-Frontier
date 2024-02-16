@@ -134,6 +134,8 @@ interface:gui.xaero_minimap:60:-12:false:false:true:false
 #WAYPOINTS HAVE BEEN MOVED TO /XaeroWaypoints
 [XP] Show Render Distance:false
 [XP] Show Render Distance WorldMap:false
+[XP] Minimap FPS Limiter:false
+[XP] Minimap FPS Limit:60.0
 [XP] Transparent Background:false
 [XP] Minimap Scaling Factor:2.0
 [XP] Always Render Player Name:true
