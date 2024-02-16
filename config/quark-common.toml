@@ -238,7 +238,7 @@
 
 	[building.variant_chests]
 		"Enable Reverting Wooden Chests" = true
-		"Replace Worldgen Chests" = true
+		"Replace Worldgen Chests" = false
 		#Chests to put in structures. It's preferred to use worldgen tags for this. The format per entry is "structure=chest", where "structure" is a structure ID, and "chest" is a block ID, which must correspond to a standard chest block.
 		"Structure Chests" = []
 		#This feature disables itself if any of the following mods are loaded:
