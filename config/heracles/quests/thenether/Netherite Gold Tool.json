@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Netherite 2"
+    "Netherite Gold Template"
   ],
   "tasks": {
     "p": {
@@ -93,7 +93,7 @@
     "groups": {
       "The Nether": {
         "position": [
-          60,
+          100,
           20
         ]
       }

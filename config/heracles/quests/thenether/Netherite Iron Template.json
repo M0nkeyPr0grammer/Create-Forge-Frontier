@@ -1,24 +1,18 @@
 {
   "dependencies": [
-    "Netherite Iron Template"
+    "Netherite 1"
   ],
   "tasks": {
-    "pick": {
+    "iron": {
       "type": "heracles:item",
-      "item": "advancednetherite:netherite_iron_pickaxe",
-      "nbt": {
-        "Damage": 0
-      },
+      "item": "kubejs:netherite_iron_upgrade",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "advancednetherite:netherite_iron_pickaxe",
-          "count": 1,
-          "nbt": {
-            "Damage": 0
-          }
+          "id": "kubejs:netherite_iron_upgrade",
+          "count": 1
         },
         "type": "heracles:item"
       }
@@ -34,11 +28,11 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 100,
       "title": "",
       "type": "heracles:xp"
     },
-    "ne": {
+    "iron": {
       "title": "",
       "icon": {
         "item": {
@@ -59,56 +53,30 @@
       "text": ""
     },
     "description": [
-      "Pickaxes have a special perk by default: chance on a bonus ore drop!",
-      "- Iron Ore, 20% of raw iron when mined, min drops of 1 and max of 2",
+      "In order to upgrade your netherite tools or armor you will need a Netherite Iron Smithing Template.",
       "",
-      "Swords have a special perk by default: chance on a bonus mob drop!",
-      "- Phantom, 50% of phantom membrane when killed, min drops of 0 and max of 2",
-      "",
-      "Durability Change",
-      "- 2281 vs 2031 of standard netherite",
-      "",
-      "Breaking Speed",
-      "- 12 vs 9 of standard netherite",
-      "",
-      "Enchantability",
-      "- Same as Netherite",
-      "",
-      "Attack Damage",
-      "- Axe : 10",
-      "- Hoe: 1",
-      "- Pick: 6",
-      "- Shovel: 6.5",
-      "- Sword: 8",
-      "",
-      "Attack Speed",
-      "- Axe : 1",
-      "- Hoe: 4",
-      "- Pick: 1.2",
-      "- Shovel: 1",
-      "- Sword: 1.6"
+      "This is how you make that template",
+      "- Superheat Mix 700mb of Molten Netherite with 900mb of Molten Iron to get Molten Netherite Iron",
+      "- Then Superheat Mixing 100mb of the Molten Netherite Iron with a Netherite Smithing Template"
     ],
     "groups": {
       "The Nether": {
         "position": [
-          100,
+          60,
           -20
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "advancednetherite:netherite_iron_pickaxe",
-        "count": 1,
-        "nbt": {
-          "Damage": 0
-        }
+        "id": "kubejs:netherite_iron_upgrade",
+        "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Netherite Iron Tool"
+      "translate": "Netherite Iron Template"
     }
   },
   "settings": {

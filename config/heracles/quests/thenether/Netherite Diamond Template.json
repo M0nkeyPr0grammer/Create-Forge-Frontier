@@ -1,31 +1,25 @@
 {
   "dependencies": [
-    "Netherite Diamond Template"
+    "Netherite 4"
   ],
   "tasks": {
-    "pick": {
+    "diamond": {
       "type": "heracles:item",
-      "item": "advancednetherite:netherite_diamond_pickaxe",
-      "nbt": {
-        "Damage": 0
-      },
+      "item": "kubejs:netherite_diamond_upgrade",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "advancednetherite:netherite_diamond_pickaxe",
-          "count": 1,
-          "nbt": {
-            "Damage": 0
-          }
+          "id": "kubejs:netherite_diamond_upgrade",
+          "count": 1
         },
         "type": "heracles:item"
       }
     }
   },
   "rewards": {
-    "xp": {
+    "x": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -34,11 +28,11 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 100,
       "title": "",
       "type": "heracles:xp"
     },
-    "ne": {
+    "diamond": {
       "title": "",
       "icon": {
         "item": {
@@ -59,56 +53,30 @@
       "text": ""
     },
     "description": [
-      "Pickaxes have a special perk by default: chance on a bonus ore drop!",
-      "- Diamond Ore, 25% of diamond when mined, min drops of 1 and max of 1",
+      "In order to upgrade your netherite emerald tools or armor you will need a Netherite Diamond Smithing Template.",
       "",
-      "Swords have a special perk by default: chance on a bonus mob drop!",
-      "- Has all other tiers perks",
-      "",
-      "Durability Change",
-      "- 3092 vs 2031 of standard netherite",
-      "",
-      "Breaking Speed",
-      "- 39 vs 9 of standard netherite",
-      "",
-      "Enchantability",
-      "- 15 vs 15 of standard netherite",
-      "",
-      "Attack Damage",
-      "- Axe : 13",
-      "- Hoe: 1",
-      "- Pick: 7",
-      "- Shovel: 7",
-      "- Sword: 11",
-      "",
-      "Attack Speed",
-      "- Axe : 1",
-      "- Hoe: 4",
-      "- Pick: 1.2",
-      "- Shovel: 1",
-      "- Sword: 1.6"
+      "This is how you make that template",
+      "- Superheat Mix 700mb of Molten Netherite  with 900mb of Molten Diamond to get Molten Netherite Diamond",
+      "- Then Superheat Mixing 100mb of the Molten Netherite Diamond with a Netherite Emerald Smithing Template"
     ],
     "groups": {
       "The Nether": {
         "position": [
-          100,
+          60,
           100
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "advancednetherite:netherite_diamond_pickaxe",
-        "count": 1,
-        "nbt": {
-          "Damage": 0
-        }
+        "id": "kubejs:netherite_diamond_upgrade",
+        "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Netherite Diamond Tool"
+      "translate": "Netherite Diamond Template"
     }
   },
   "settings": {

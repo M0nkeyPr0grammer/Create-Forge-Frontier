@@ -1,0 +1,89 @@
+{
+  "dependencies": [
+    "Netherite 2"
+  ],
+  "tasks": {
+    "gold": {
+      "type": "heracles:item",
+      "item": "kubejs:netherite_gold_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "kubejs:netherite_gold_upgrade",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "gold": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "advancednetherite:netherite_gold_ingot",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "advancednetherite:netherite_gold_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "In order to upgrade your netherite iron tools or armor you will need a Netherite Gold Smithing Template.",
+      "",
+      "This is how you make that template",
+      "- Superheat Mix 700mb of Molten Netherite  with 900mb of Molten Gold to get Molten Netherite Gold",
+      "- Then Superheat Mixing 100mb of the Molten Netherite Gold with a Netherite Iron Smithing Template"
+    ],
+    "groups": {
+      "The Nether": {
+        "position": [
+          60,
+          20
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "kubejs:netherite_gold_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Netherite Gold Template"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}
