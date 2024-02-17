@@ -33,5 +33,21 @@ StartupEvents.registry('item', event => {
     event.create('modpack_logo')
         .displayName('Forge Frontier Logo')
         .texture('kubejs:item/landscapes_reimagined_forgefrontier')
+
+    event.create('netherite_iron_upgrade')
+        .displayName('Netherite Iron Smithing Template')
+        .texture('kubejs:item/netherite_iron_upgrade_smithing_template')
+
+    event.create('netherite_gold_upgrade')
+        .displayName('Netherite Gold Smithing Template')
+        .texture('kubejs:item/netherite_gold_upgrade_smithing_template')
+
+    event.create('netherite_emerald_upgrade')
+        .displayName('Netherite Emerald Smithing Template')
+        .texture('kubejs:item/netherite_emerald_upgrade_smithing_template')
+
+    event.create('netherite_diamond_upgrade')
+        .displayName('Netherite Diamond Smithing Template')
+        .texture('kubejs:item/netherite_diamond_upgrade_smithing_template')
 });
 

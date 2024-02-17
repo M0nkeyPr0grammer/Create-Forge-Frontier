@@ -6,6 +6,241 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'createfoundry:mixing/melting/ore/redstone_from_ore' });
     event.remove({ id: 'createfoundry:mixing/melting/ore/lapis_from_ore' });
     event.remove({ id: 'createfoundry:mixing/molten_netherite_from_ancient_debris_gold'})
+
+    // Ingot/Block to Molten Recipes
+        // Creates Molten Netherite Iron Mixing from Ingot
+        event.custom({
+            type: "create:mixing",
+            ingredients: [
+                {
+                    item: 'advancednetherite:netherite_iron_ingot',
+                    amount: 1
+                }
+            ],
+            results: [
+                {
+                    fluid: 'kubejs:molten_netherite_iron',
+                    amount: 100
+                }
+            ],
+            heatRequirement: "superheated"
+        }).id('kubejs:mixing/molten_netherite_iron_from_ingot');
+
+        // Creates Molten Netherite Iron Mixing from Block
+        event.custom({
+            type: "create:mixing",
+            ingredients: [
+                {
+                    item: 'advancednetherite:netherite_iron_block',
+                    amount: 1
+                }
+            ],
+            results: [
+                {
+                    fluid: 'kubejs:molten_netherite_iron',
+                    amount: 900
+                }
+            ],
+            heatRequirement: "superheated"
+        }).id('kubejs:mixing/molten_netherite_iron_from_block');
+
+        // Creates Molten Netherite Gold Mixing from Ingot
+        event.custom({
+            type: "create:mixing",
+            ingredients: [
+                {
+                    item: 'advancednetherite:netherite_gold_ingot',
+                    amount: 1
+                }
+            ],
+            results: [
+                {
+                    fluid: 'kubejs:molten_netherite_gold',
+                    amount: 100
+                }
+            ],
+            heatRequirement: "superheated"
+        }).id('kubejs:mixing/molten_netherite_gold_from_ingot');
+
+        // Creates Molten Netherite Gold Mixing from Block
+        event.custom({
+            type: "create:mixing",
+            ingredients: [
+                {
+                    item: 'advancednetherite:netherite_gold_block',
+                    amount: 1
+                }
+            ],
+            results: [
+                {
+                    fluid: 'kubejs:molten_netherite_gold',
+                    amount: 900
+                }
+            ],
+            heatRequirement: "superheated"
+        }).id('kubejs:mixing/molten_netherite_gold_from_block');
+
+        // Creates Molten Netherite Emerald Mixing from Ingot
+        event.custom({
+            type: "create:mixing",
+            ingredients: [
+                {
+                    item: 'advancednetherite:netherite_emerald_ingot',
+                    amount: 1
+                }
+            ],
+            results: [
+                {
+                    fluid: 'kubejs:molten_netherite_emerald',
+                    amount: 100
+                }
+            ],
+            heatRequirement: "superheated"
+        }).id('kubejs:mixing/molten_netherite_emerald_from_ingot');
+
+        // Creates Molten Netherite Emerald Mixing from Block
+        event.custom({
+            type: "create:mixing",
+            ingredients: [
+                {
+                    item: 'advancednetherite:netherite_emerald_block',
+                    amount: 1
+                }
+            ],
+            results: [
+                {
+                    fluid: 'kubejs:molten_netherite_emerald',
+                    amount: 900
+                }
+            ],
+            heatRequirement: "superheated"
+        }).id('kubejs:mixing/molten_netherite_emerald_from_block');
+
+        // Creates Molten Netherite Diamond Mixing from Ingot
+        event.custom({
+            type: "create:mixing",
+            ingredients: [
+                {
+                    item: 'advancednetherite:netherite_diamond_ingot',
+                    amount: 1
+                }
+            ],
+            results: [
+                {
+                    fluid: 'kubejs:molten_netherite_diamond',
+                    amount: 100
+                }
+            ],
+            heatRequirement: "superheated"
+        }).id('kubejs:mixing/molten_netherite_diamond_from_ingot');
+
+        // Creates Molten Netherite Diamond Mixing from Block
+        event.custom({
+            type: "create:mixing",
+            ingredients: [
+                {
+                    item: 'advancednetherite:netherite_diamond_block',
+                    amount: 1
+                }
+            ],
+            results: [
+                {
+                    fluid: 'kubejs:molten_netherite_diamond',
+                    amount: 900
+                }
+            ],
+            heatRequirement: "superheated"
+        }).id('kubejs:mixing/molten_netherite_diamond_from_block');
+
+
+    // Creates Molten Netherite Iron Mixing Recipe
+    event.custom({
+        type: "create:mixing",
+        ingredients: [
+            {
+                fluid: 'createfoundry:molten_netherite',
+                amount: 700
+            },
+            {
+                fluid: 'createfoundry:molten_iron',
+                amount: 900
+            }
+        ],
+        results: [
+            {
+                fluid: 'kubejs:molten_netherite_iron',
+                amount: 100
+            }
+        ],
+        heatRequirement: "superheated"
+    }).id('kubejs:mixing/molten_netherite_iron');
+
+    // Creates Molten Netherite Gold Mixing Recipe
+    event.custom({
+        type: "create:mixing",
+        ingredients: [
+            {
+                fluid: 'createfoundry:molten_netherite',
+                amount: 700
+            },
+            {
+                fluid: 'createfoundry:molten_gold',
+                amount: 900
+            }
+        ],
+        results: [
+            {
+                fluid: 'kubejs:molten_netherite_gold',
+                amount: 100
+            }
+        ],
+        heatRequirement: "superheated"
+    }).id('kubejs:mixing/molten_netherite_gold');
+
+    // Creates Molten Netherite Emerald Mixing Recipe
+    event.custom({
+        type: "create:mixing",
+        ingredients: [
+            {
+                fluid: 'createfoundry:molten_netherite',
+                amount: 700
+            },
+            {
+                fluid: 'createfoundry:molten_emerald',
+                amount: 900
+            }
+        ],
+        results: [
+            {
+                fluid: 'kubejs:molten_netherite_emerald',
+                amount: 100
+            }
+        ],
+        heatRequirement: "superheated"
+    }).id('kubejs:mixing/molten_netherite_emerald');
+
+    // Creates Molten Netherite Diamond Mixing Recipe
+    event.custom({
+        type: "create:mixing",
+        ingredients: [
+            {
+                fluid: 'createfoundry:molten_netherite',
+                amount: 700
+            },
+            {
+                fluid: 'createfoundry:molten_diamond',
+                amount: 900
+            }
+        ],
+        results: [
+            {
+                fluid: 'kubejs:molten_netherite_diamond',
+                amount: 100
+            }
+        ],
+        heatRequirement: "superheated"
+    }).id('kubejs:mixing/molten_netherite_diamond');
+
     
     // Creates Polished Zinc to Molten Zinc Recipe
     event.custom({

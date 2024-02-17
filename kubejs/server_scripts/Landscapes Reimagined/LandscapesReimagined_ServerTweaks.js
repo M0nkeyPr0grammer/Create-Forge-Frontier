@@ -15,6 +15,49 @@ ServerEvents.recipes(event => {
 	event.remove({ id: 'cagedmobs:crafting/hopping_mob_cage'})
 	event.remove({ id: 'cagedmobs:crafting/mob_cage'})
 
+	// Create Magnetite Recipe
+	event.custom({
+		type: "create_new_age:energising",
+		energy_needed: 1000,
+		ingredients: [
+		  {
+			item: 'allthecompressed:stone_2x'
+		  }
+		],
+		results: [
+		  {
+			item: 'create_new_age:magnetite_block'
+		  }
+		]
+	  })
+
+	// Creates Dragon Egg Recipe
+	event.custom({
+		type: "create:mixing",
+		ingredients: [
+			{
+				item: 'minecraft:nether_star',
+				amount: 1
+			},
+			{
+				item: 'ends_delight:non_hatchable_dragon_egg',
+				amount: 1
+			},
+			{
+				fluid: 'kubejs:liquid_dragons_breath',
+				amount: 1000
+			}
+		],
+		results: [
+			{
+				item: 'minecraft:dragon_egg',
+				amount: 1
+			}
+		],
+		heatRequirement: "superheated"
+	}).id('kubejs:mixing/dragon_egg');
+
+
 	// Creates New Mob Cage Recipe
 	event.shaped(
 		Item.of('cagedmobs:mob_cage'),
