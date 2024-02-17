@@ -41,6 +41,7 @@ Download **Landscapes Reimagined Forge Frontier** today and dive into an elevate
       <li><a href="https://www.curseforge.com/minecraft/mc-mods/create-compressed">Create Compressed</a></li>
       <li><a href="https://www.curseforge.com/minecraft/mc-mods/create-confectionery">Create Confectionery</a></li>
       <li><a href="https://www.curseforge.com/minecraft/mc-mods/create-oppenheimered">Create: Oppenheimered</a></li>
+      <li><a href="https://www.curseforge.com/minecraft/mc-mods/cosmetic-armor-reworked">Comstic Armor Reworked</a></li>
       <li><a href="https://www.curseforge.com/minecraft/mc-mods/disenchantingforge">DisenchantingForge</a></li>
       <li><a href="https://www.curseforge.com/minecraft/mc-mods/dungeon-crawl">Dungeon Crawl</a></li>
       <li><a href="https://www.curseforge.com/minecraft/mc-mods/dynamic-view">Dynamic View[Forge]</a></li>
@@ -49,6 +50,7 @@ Download **Landscapes Reimagined Forge Frontier** today and dive into an elevate
       <li><a href="https://www.curseforge.com/minecraft/mc-mods/gml">GroovyModLoader (GML)</a></li>
       <li><a href="https://www.curseforge.com/minecraft/mc-mods/krypton-reforged">Krypton Reforged</a></li>
       <li><a href="https://www.curseforge.com/minecraft/mc-mods/kubejs-delight">KubeJS Delight</a></li>
+      <li><a href="https://www.curseforge.com/minecraft/mc-mods/ore-excavation">Ore Excavation</a></li>
       <li><a href="https://www.curseforge.com/minecraft/mc-mods/placebo">Placebo</a></li>
       <li><a href="https://www.curseforge.com/minecraft/mc-mods/probejs">ProbeJS</a></li>
       <li><a href="https://www.curseforge.com/minecraft/mc-mods/shrink_">Shrink</a></li>
