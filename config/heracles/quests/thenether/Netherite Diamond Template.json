@@ -1,0 +1,89 @@
+{
+  "dependencies": [
+    "Netherite 4"
+  ],
+  "tasks": {
+    "diamond": {
+      "type": "heracles:item",
+      "item": "kubejs:netherite_diamond_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "kubejs:netherite_diamond_upgrade",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "diamond": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "advancednetherite:netherite_diamond_ingot",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "advancednetherite:netherite_diamond_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "In order to upgrade your netherite emerald tools or armor you will need a Netherite Diamond Smithing Template.",
+      "",
+      "This is how you make that template",
+      "- Superheat Mix 700mb of Molten Netherite  with 900mb of Molten Diamond to get Molten Netherite Diamond",
+      "- Then Superheat Mixing 100mb of the Molten Netherite Diamond with a Netherite Emerald Smithing Template"
+    ],
+    "groups": {
+      "The Nether": {
+        "position": [
+          60,
+          100
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "kubejs:netherite_diamond_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Netherite Diamond Template"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

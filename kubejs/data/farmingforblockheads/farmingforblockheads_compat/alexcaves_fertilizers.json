@@ -6,7 +6,7 @@
       "defaultPayment": {
         "item": "minecraft:emerald"
       },
-      "defaultCategory": "fertilizer"
+      "defaultCategory": "other"
     },
     "customEntries": [
       {

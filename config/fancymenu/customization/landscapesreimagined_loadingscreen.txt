@@ -56,7 +56,7 @@ customization {
   orientation = top-left
   hidden = false
   original_pos_size_calculation = true
-  x = 187
+  x = 210
   width = 480
   action = deep_customization_element:drippy_overlay_progress_bar
   actionid = a152ed24-640a-4974-b4e9-3fa81e9a51e51694108718045
@@ -69,7 +69,7 @@ customization {
   enable_scrolling = false
   shadow = true
   scale = 2.0
-  source = v1.0.0
+  source = v1.1.0
   text_border = 0
   case_mode = normal
   source_mode = direct

@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Netherite 4"
+    "Netherite Diamond Template"
   ],
   "tasks": {
     "pick": {
@@ -91,7 +91,7 @@
     "groups": {
       "The Nether": {
         "position": [
-          60,
+          100,
           100
         ]
       }

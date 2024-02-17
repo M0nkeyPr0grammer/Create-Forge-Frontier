@@ -13,8 +13,8 @@ ServerEvents.recipes(event => {
 			'BBB'
 		],
 		{
-			A: 'create_dd:steel_sheet',
-			B: 'create_dd:steel_ingot',
+			A: '#ad_astra:steel_plates',
+			B: '#forge:ingots/steel',
 			C: '#forge:chests'
 		}
 	)
@@ -28,8 +28,8 @@ ServerEvents.recipes(event => {
 			'BBB'
 		],
 		{
-			A: 'create_dd:steel_sheet',
-			B: 'create_dd:steel_ingot',
+			A: '#ad_astra:steel_plates',
+			B: '#forge:ingots/steel',
 			C: 'minecraft:redstone'
 		}
 	)
@@ -43,8 +43,8 @@ ServerEvents.recipes(event => {
 			'BBB'
 		],
 		{
-			A: 'create_dd:steel_sheet',
-			B: 'create_dd:steel_ingot',
+			A: '#ad_astra:steel_plates',
+			B: '#forge:ingots/steel',
 			C: 'minecraft:bucket'
 		}
 	)
