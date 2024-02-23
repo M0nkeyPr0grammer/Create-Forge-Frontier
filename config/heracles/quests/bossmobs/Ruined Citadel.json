@@ -1,7 +1,6 @@
 {
   "dependencies": [
-    "Kill the Ender Dragon",
-    "Cataclysm Bosses"
+    "Kill the Ender Dragon"
   ],
   "tasks": {
     "eye": {
@@ -27,8 +26,10 @@
         },
         "type": "heracles:item"
       },
-      "structures": "cataclysm:ruined_citadel",
-      "type": "heracles:structure"
+      "advancements": [
+        "cataclysm:find_ruined_citadel"
+      ],
+      "type": "heracles:advancement"
     }
   },
   "rewards": {

@@ -22,12 +22,6 @@
 	#Disables certain types
 	[general.types]
 
-		[general.types.cake]
-
-			[general.types.cake.createaddition]
-				chocolate_cake = true
-				honey_cake = true
-
 		[general.types.wood_type]
 
 			[general.types.wood_type.createdieselgenerators]
@@ -99,10 +93,6 @@
 
 			[general.types.wood_type.betterarcheology]
 				rotten = true
-
-			[general.types.wood_type.endlessbiomes]
-				penumbra = true
-				twisted = true
 
 		[general.types.leaves_type]
 
@@ -245,10 +235,6 @@
 				orange_blossom = true
 				yellow_blossom = true
 				red_blossom = true
-
-			[general.types.leaves_type.endlessbiomes]
-				penumbral = true
-				glowing_penumbral = true
 
 	#Disables specific entries
 	[general.entries]

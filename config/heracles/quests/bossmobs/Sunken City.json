@@ -1,7 +1,6 @@
 {
   "dependencies": [
-    "The Harbinger",
-    "Cataclysm Bosses"
+    "The Harbinger"
   ],
   "tasks": {
     "eye": {
@@ -18,7 +17,7 @@
         "type": "heracles:item"
       }
     },
-    "sunken city": {
+    "sunken": {
       "title": "",
       "icon": {
         "item": {
@@ -27,8 +26,10 @@
         },
         "type": "heracles:item"
       },
-      "structures": "cataclysm:sunken_city",
-      "type": "heracles:structure"
+      "advancements": [
+        "cataclysm:find_sunken_city"
+      ],
+      "type": "heracles:advancement"
     }
   },
   "rewards": {

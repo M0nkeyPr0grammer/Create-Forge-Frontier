@@ -17,7 +17,7 @@
         "type": "heracles:item"
       }
     },
-    "burning arena": {
+    "arena": {
       "title": "",
       "icon": {
         "item": {
@@ -26,8 +26,10 @@
         },
         "type": "heracles:item"
       },
-      "structures": "cataclysm:burning_arena",
-      "type": "heracles:structure"
+      "advancements": [
+        "cataclysm:find_burning_arena"
+      ],
+      "type": "heracles:advancement"
     }
   },
   "rewards": {

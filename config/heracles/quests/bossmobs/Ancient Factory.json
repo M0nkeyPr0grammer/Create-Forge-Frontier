@@ -1,7 +1,6 @@
 {
   "dependencies": [
-    "Ancient Remnant",
-    "Cataclysm Bosses"
+    "Ancient Remnant"
   ],
   "tasks": {
     "eye": {
@@ -18,7 +17,7 @@
         "type": "heracles:item"
       }
     },
-    "factory": {
+    "ancient": {
       "title": "",
       "icon": {
         "item": {
@@ -27,8 +26,10 @@
         },
         "type": "heracles:item"
       },
-      "structures": "cataclysm:ancient_factory",
-      "type": "heracles:structure"
+      "advancements": [
+        "cataclysm:find_ancient_factory"
+      ],
+      "type": "heracles:advancement"
     }
   },
   "rewards": {
