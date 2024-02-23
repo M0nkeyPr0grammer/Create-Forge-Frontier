@@ -1,7 +1,6 @@
 {
   "dependencies": [
-    "Kill the Wither",
-    "Cataclysm Bosses"
+    "Kill the Wither"
   ],
   "tasks": {
     "eye": {
@@ -18,7 +17,7 @@
         "type": "heracles:item"
       }
     },
-    "forge": {
+    "soul": {
       "title": "",
       "icon": {
         "item": {
@@ -27,8 +26,10 @@
         },
         "type": "heracles:item"
       },
-      "structures": "cataclysm:soul_black_smith",
-      "type": "heracles:structure"
+      "advancements": [
+        "cataclysm:find_soul_black_smith"
+      ],
+      "type": "heracles:advancement"
     }
   },
   "rewards": {

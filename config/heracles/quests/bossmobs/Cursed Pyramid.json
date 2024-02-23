@@ -1,10 +1,9 @@
 {
   "dependencies": [
-    "Kill the Warden",
-    "Cataclysm Bosses"
+    "Kill the Warden"
   ],
   "tasks": {
-    "pyramid": {
+    "cursed": {
       "title": "",
       "icon": {
         "item": {
@@ -13,8 +12,10 @@
         },
         "type": "heracles:item"
       },
-      "structures": "cataclysm:cursed_pyramid",
-      "type": "heracles:structure"
+      "advancements": [
+        "cataclysm:find_cursed_pyramid"
+      ],
+      "type": "heracles:advancement"
     },
     "eye of desert": {
       "type": "heracles:item",

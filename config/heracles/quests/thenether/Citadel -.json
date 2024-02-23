@@ -3,7 +3,7 @@
     "Find a bastion"
   ],
   "tasks": {
-    "cit": {
+    "ff_citadel": {
       "title": "",
       "icon": {
         "item": {
@@ -12,8 +12,10 @@
         },
         "type": "heracles:item"
       },
-      "structures": "friendsandfoes:citadel",
-      "type": "heracles:structure"
+      "advancements": [
+        "friendsandfoes:nether/find_citadel"
+      ],
+      "type": "heracles:advancement"
     }
   },
   "rewards": {

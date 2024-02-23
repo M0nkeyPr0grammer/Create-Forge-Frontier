@@ -41,6 +41,8 @@
 	nuclear_furnace_blasting_only = true
 	#True if the Nuclear Furnace should only use recipes using the `alexscaves:nuclear_furnace` recipe type, false to use regular behavior.
 	nuclear_furnace_custom_type = false
+	#True if players wearing boots can walk on any scarlet neodymium surface.
+	walking_on_magnets = true
 
 [item-behavior]
 	#The maximum explosion resistance that a block can have to be destroyed by a nuclear explosion. Set to zero to disable all nuclear explosion block breaking.

@@ -15,6 +15,17 @@ ServerEvents.recipes(event => {
 	event.remove({ id: 'cagedmobs:crafting/hopping_mob_cage'})
 	event.remove({ id: 'cagedmobs:crafting/mob_cage'})
 
+	// Creates Modded Crafting Table Recipe
+	event.shapeless(
+		Item.of('minecraft:crafting_table'),
+		[
+			'#minecraft:planks',
+			'#minecraft:planks',
+			'#minecraft:planks',
+			'#minecraft:planks'
+		]
+	)
+
 	// Create Magnetite Recipe
 	event.custom({
 		type: "create_new_age:energising",

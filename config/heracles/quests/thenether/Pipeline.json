@@ -3,7 +3,7 @@
     "Quartz Tower"
   ],
   "tasks": {
-    "p": {
+    "pipeline": {
       "title": "",
       "icon": {
         "item": {
@@ -12,8 +12,10 @@
         },
         "type": "heracles:item"
       },
-      "structures": "incendium:pipeline",
-      "type": "heracles:structure"
+      "advancements": [
+        "incendium:infernal_dunes/pipeline/root"
+      ],
+      "type": "heracles:advancement"
     }
   },
   "rewards": {
