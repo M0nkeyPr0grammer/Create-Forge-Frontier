@@ -1,9 +1,0 @@
-{
-  "name": "Immersive Aircrafts",
-  "landing_text": "This guide is designed to provide comprehensive insights into the 'Immersive Aircrafts' mod. $(br2)/$$(br)/$created by M0nkeyPr0grammer",
-  "version": "0",
-  "creative_tab": "immersive_aircrafts.main",
-  "show_progress": true,
-  "nameplate_color": "dddddd",
-  "model": "patchouli:book_gray"
-}
