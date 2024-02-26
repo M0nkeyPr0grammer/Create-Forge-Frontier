@@ -1,5 +1,5 @@
 {
-    "modId": "alexmobs",
+    "modId": "alexsmobs",
     "group": {
       "name": "Alex Mobs Seeds",
       "enabledByDefault": true,
@@ -10,7 +10,7 @@
     },
     "customEntries": [
       {
-        "output": "alexmobs:banana"
+        "output": "alexsmobs:banana"
       }
     ]
   }
