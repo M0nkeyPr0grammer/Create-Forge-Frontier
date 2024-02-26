@@ -47,7 +47,7 @@
 			#Show above the JourneyMap minimap, instead of below.
 			#(true/false)
 			#Default is false.
-			enable_above_map = false
+			enable_above_map = true
 			#Toggle for macOS retina display scaling when using JourneyMap.
 			#Enable if the season line is rendering around the halfway point of the screen.
 			#(true/false)

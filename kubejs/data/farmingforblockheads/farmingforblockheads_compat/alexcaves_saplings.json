@@ -1,5 +1,5 @@
 {
-    "modId": "alexcaves",
+    "modId": "alexscaves",
     "group": {
       "name": "Alex Caves Saplings",
       "enabledByDefault": true,
@@ -10,13 +10,13 @@
     },
     "customEntries": [
       {
-        "output": "alexcaves:pewen_sapling"
+        "output": "alexscaves:pewen_sapling"
       },
       {
-        "output":"alexcaves:ancient_sapling"
+        "output":"alexscaves:ancient_sapling"
       },
       {
-        "output": "alexcaves:thornwood_sapling"
+        "output": "alexscaves:thornwood_sapling"
       }
     ]
   }
