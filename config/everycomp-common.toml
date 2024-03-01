@@ -236,6 +236,12 @@
 				yellow_blossom = true
 				red_blossom = true
 
+		[general.types.cake]
+
+			[general.types.cake.createaddition]
+				chocolate_cake = true
+				honey_cake = true
+
 	#Disables specific entries
 	[general.entries]
 

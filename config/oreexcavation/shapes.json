@@ -16,7 +16,7 @@
       ]
     },
     {
-      "name": "3x3",
+      "name": "2x2",
       "depth": -1,
       "reverse": 0,
       "reticle": 12,
@@ -24,9 +24,9 @@
       "elevation": 0,
       "mask": [
         "OOOOO",
-        "OXXXO",
-        "OXXXO",
-        "OXXXO",
+        "OOOOO",
+        "OXXOO",
+        "OXXOO",
         "OOOOO"
       ]
     },
