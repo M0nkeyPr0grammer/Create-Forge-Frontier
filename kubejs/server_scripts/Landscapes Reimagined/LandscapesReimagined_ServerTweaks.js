@@ -7,7 +7,7 @@ ServerEvents.recipes(event => {
 	event.remove({ id: 'createfoundry:mixing/melting/ore/redstone_from_ore' })
 	event.remove({ id: 'createfoundry:mixing/melting/ore/lapis_from_ore' })
 	event.remove({ id: 'create:crushing/nether_wart_block' })
-	event.remove({ id: 'structurecompass:structure_compass' })
+	event.remove({ id: 'explorerscompass:explorers_compass' })
 	event.remove({ id: 'shrink:shrinking_device' })
 	event.remove({ id: 'waystones:warp_stone' })
 	event.remove({ id: 'waystones:warp_dust' })
@@ -243,7 +243,7 @@ ServerEvents.recipes(event => {
 
 	// Creates Structure Compass Recipe
 	event.shaped(
-		Item.of('structurecompass:structure_compass', 1),
+		Item.of('explorerscompass:explorerscompass', 1),
 		[
 			'ACA',
 			'CBC',
