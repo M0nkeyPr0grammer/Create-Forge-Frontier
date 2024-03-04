@@ -13,11 +13,23 @@ StartupEvents.registry('block', event => {
         .box(1, 0, 1, 15, 14, 15)
         .tagItem('tooltiprareness:epic_item')
         .tagBlock("mineable/pickaxe")
-        .fullBlock(true); 
+        .fullBlock(true);     
 });
 
 // New Items
 StartupEvents.registry('item', event => {
+    event.create('kubejs:netherite_specks')
+        .displayName('Netherite Specks')
+        .texture('kubejs:item/netherite_specks');
+
+    event.create('kubejs:incomplete_netherite_dust')
+        .displayName('Incomplete Netherite Dust')
+        .texture('spelunkery:item/dust');
+    
+    event.create('kubejs:netherite_dust')
+        .displayName('Netherite Dust')
+        .texture('kubejs:item/netherite_dust')
+
     event.create('crushed_bismuth')
         .displayName('Crushed Bismuth')
         .texture('kubejs:item/crushed_bismuth');
