@@ -1,0 +1,113 @@
+{
+  "dependencies": [
+    "Create"
+  ],
+  "tasks": {
+    "filter": {
+      "type": "heracles:item",
+      "item": "create:filter",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:filter",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "at filter": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:attribute_filter",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:attribute_filter",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The Filter and Attribute Filter are items that can be placed on certain blocks to limit their functions so that they only interact with certain items. The specifics of what items a Filter or Attribute Filter will look for can be set in a menu opened by right-clicking with the Filter or Attribute Filter in hand. A Filter is customized by individual item, while an Attribute Filter is customized more generally by sorting items by block tag.",
+      "",
+      "Filters and Attribute Filters can only be placed on blocks with filter slots, namely, Basins, Brass Funnels, Brass Tunnels, Content Observers, Deployers, and Mechanical Saws. Alternatively, a single item can be placed in the filter slot, which means that it is not necessary to create a Filter or Attribute Filter for only one item.",
+      "",
+      "## Modes",
+      "- Allow-List",
+      "A Filter set to allow-list mode will register any item on its list. An Attribute Filter has two separate allow-list modes: one registers items that match any of the attributes on its list, while another only registers items that match all of the attributes on its list.",
+      "",
+      "- Deny-List",
+      "A Filter set to deny-list mode will register any item not on its list. An Attribute Filter set to deny-list mode will register items that do not match any of the attributes on its list.",
+      "",
+      "## Usage",
+      "- On Basins",
+      "A Filter or an Attribute Filter placed on a Basin causes any Mechanical Mixer or Mechanical Press above the basin to only perform recipes that match the filter.",
+      "",
+      "- On Brass Funnels",
+      "A Filter or an Attribute Filter placed on a Brass Funnel causes the funnel to only transport blocks that the filter registers, with a customisable stack size. One example of how this can be used is by filtering for the products of an Encased Fan's processing recipes, so that the items can be processed in front of the funnel and will be funnelled immediately once processed.",
+      "",
+      "- On Brass Tunnels",
+      "A Filter or an Attribute Filter placed on the input end of a Brass Tunnel causes the tunnel to only accept items matching the filter. Additionally, a filter placed on the output end of a tunnel allows matching items to be output from the tunnel and connecting tunnels on adjacent belts. This allows for item sorting and splitting on belts.",
+      "",
+      "- On Content Observers",
+      "A Filter or an Attribute Filter placed on a Content Observer causes the content observer to only detect blocks that the filter registers. One example of how this can be used is by filtering for the ingredients of an Encased Fan's processing recipes and using the Content Observer's redstone signal to pause the belt so that the ingredients stay in front of the Content Observer until the processing recipe is complete.",
+      "",
+      "- On Deployers",
+      "A Filter or an Attribute Filter placed on a Deployer causes the deployer to only use or place items that match the filter. In addition, this prevents any non-matching items from being added to the deployer's inventory.",
+      "",
+      "- On Mechanical Saws",
+      "A Filter or an Attribute Filter placed on a Mechanical Saw causes the saw to only process recipes where the product is included in the filter. This can be useful when applying recipes to items that have multiple possible products. If the filter allows more than one product of the same input block, the saw will cycle through all possible products in order when the input block is provided."
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -160,
+          300
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:filter",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "List Filter"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}
