@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Redstone Relay"
+    "Create Crafts & Additions"
   ],
   "tasks": {
     "tesla coil": {
@@ -92,7 +92,7 @@
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

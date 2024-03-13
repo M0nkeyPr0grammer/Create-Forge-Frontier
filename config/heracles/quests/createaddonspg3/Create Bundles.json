@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Powdered Piles"
+    "Create Compressed"
   ],
   "tasks": {
     "cog": {
@@ -75,34 +75,6 @@
     }
   },
   "rewards": {
-    "x": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "LEVEL",
-      "amount": 5,
-      "title": "",
-      "type": "heracles:xp"
-    },
-    "cog": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "create_compressed:cogwheel_block",
-          "count": 1
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "create_compressed:cogwheel_block",
-        "count": 2
-      },
-      "type": "heracles:item"
-    },
     "belt": {
       "title": "",
       "icon": {
@@ -129,6 +101,34 @@
       },
       "item": {
         "id": "create_compressed:large_cogwheel_block",
+        "count": 2
+      },
+      "type": "heracles:item"
+    },
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "LEVEL",
+      "amount": 5,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "cog": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_compressed:cogwheel_block",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create_compressed:cogwheel_block",
         "count": 2
       },
       "type": "heracles:item"
@@ -198,7 +198,7 @@
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Rotational Speed Controller"
+    "Create"
   ],
   "tasks": {
     "gear": {
@@ -85,7 +85,7 @@
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

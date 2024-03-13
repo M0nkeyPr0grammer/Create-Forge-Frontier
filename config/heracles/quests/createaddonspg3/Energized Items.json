@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Basic Motor"
+    "Create New Age"
   ],
   "tasks": {
     "gold": {
@@ -111,7 +111,7 @@
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

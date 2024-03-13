@@ -1,25 +1,10 @@
 {
   "dependencies": [
-    "Void Rune"
+    "Create Addons Page 3"
   ],
   "tasks": {
-    "terra": {
-      "type": "heracles:item",
-      "item": "apotheotic_additions:terra_shelf",
-      "amount": 1,
-      "collection": "AUTOMATIC",
+    "c": {
       "title": "",
-      "icon": {
-        "item": {
-          "id": "apotheotic_additions:terra_shelf",
-          "count": 1
-        },
-        "type": "heracles:item"
-      }
-    }
-  },
-  "rewards": {
-    "xp": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -27,8 +12,20 @@
         },
         "type": "heracles:item"
       },
-      "xptype": "LEVEL",
-      "amount": 5,
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
       "title": "",
       "type": "heracles:xp"
     }
@@ -38,34 +35,31 @@
       "text": ""
     },
     "description": [
-      "The first one being the Terra Rune grants the following enchanting stats",
-      "- Eterna: -5%",
-      "- Quanta: +100%",
-      "- Arcana: +2.5%"
+      "This mod is an addon of Create, adds more interesting machine blocks and items for agricultural planting and food processing. It is also specifically tailored for a modpack of the same name."
     ],
     "groups": {
-      "Apotheosis": {
+      "Create Addons pg 3": {
         "position": [
-          -160,
-          60
+          -140,
+          -60
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "apotheotic_additions:terra_shelf",
+        "id": "ratatouille:sausage",
         "count": 1
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "title": {
-      "translate": "Terra Rune"
+      "translate": "Ratatouille"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

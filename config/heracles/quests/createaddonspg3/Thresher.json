@@ -1,40 +1,40 @@
 {
   "dependencies": [
-    "Ender Bucket"
+    "Ratatouille"
   ],
   "tasks": {
-    "ender tank": {
+    "thresher": {
       "type": "heracles:item",
-      "item": "endertanks:ender_tank",
+      "item": "ratatouille:thresher",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "ratatouille:thresher",
+          "count": 1
         },
         "type": "heracles:item"
       }
     }
   },
   "rewards": {
-    "eye": {
+    "harvester": {
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "create:mechanical_harvester",
+          "count": 1
         },
         "type": "heracles:item"
       },
       "item": {
-        "id": "minecraft:ender_eye",
+        "id": "create:mechanical_harvester",
         "count": 1
       },
       "type": "heracles:item"
     },
-    "xp": {
+    "x": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -46,6 +46,21 @@
       "amount": 10,
       "title": "",
       "type": "heracles:xp"
+    },
+    "alloy": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:andesite_alloy",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:andesite_alloy",
+        "count": 8
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
@@ -53,39 +68,33 @@
       "text": ""
     },
     "description": [
-      "Dimensional liquid tank. Contents are accessible from any other of the same color and network.",
-      "Use dyes on the bands to change colors. Unique bands, unique contents.",
-      "Storage can be expanded, and made private or team access.",
-      "Upgrades are applied by a Shift+Right-click with an item.",
-      "An Enderpearl or Endereye will add storage space. 8 and 16 buckets respectively, up to 256 buckets.",
-      "A Piston speeds up fluid transfur. Up to 4 buckets a sec.",
-      "A Diamond will make it a private network. An Emerald will make it a team network.",
-      "Private network allows color codes unique for each player.",
-      "Team network functions like private network but for players of the team. (/spc_teams)"
+      "Treat your grains more gently—this machine can thresh wheat and also supports rice, corn, and other grains.",
+      "",
+      "Check the ponder for more Details!"
     ],
     "groups": {
-      "Better Storage": {
+      "Create Addons pg 3": {
         "position": [
-          -20,
+          -140,
           20
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "endertanks:ender_tank",
+        "id": "ratatouille:thresher",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Ender Tank"
+      "translate": "Thresher"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

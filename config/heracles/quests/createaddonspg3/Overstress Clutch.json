@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Shear Pin"
+    "Create Connected"
   ],
   "tasks": {
     "c 2": {
@@ -139,7 +139,7 @@
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

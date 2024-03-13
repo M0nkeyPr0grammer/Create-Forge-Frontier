@@ -1,7 +1,6 @@
 {
   "dependencies": [
-    "Nether Bosses",
-    "Vanilla Bosses"
+    "Nether Bosses"
   ],
   "tasks": {
     "Kill Wither": {

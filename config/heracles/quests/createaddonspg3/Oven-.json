@@ -1,17 +1,31 @@
 {
   "dependencies": [
-    "Copy Paste Gadget"
+    "Ratatouille"
   ],
   "tasks": {
-    "cut": {
+    "oven": {
       "type": "heracles:item",
-      "item": "buildinggadgets2:gadget_cut_paste",
+      "item": "ratatouille:oven",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "buildinggadgets2:gadget_cut_paste",
+          "id": "ratatouille:oven",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    },
+    "oven fan": {
+      "type": "heracles:item",
+      "item": "ratatouille:oven_fan",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "ratatouille:oven_fan",
           "count": 1
         },
         "type": "heracles:item"
@@ -19,7 +33,7 @@
     }
   },
   "rewards": {
-    "xp": {
+    "x": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -32,17 +46,32 @@
       "title": "",
       "type": "heracles:xp"
     },
-    "ore": {
+    "oven": {
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:diamond_ore",
+          "id": "ratatouille:oven",
           "count": 1
         },
         "type": "heracles:item"
       },
       "item": {
-        "id": "minecraft:diamond_ore",
+        "id": "ratatouille:oven",
+        "count": 3
+      },
+      "type": "heracles:item"
+    },
+    "fan": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "ratatouille:oven_fan",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "ratatouille:oven_fan",
         "count": 1
       },
       "type": "heracles:item"
@@ -53,31 +82,33 @@
       "text": ""
     },
     "description": [
-      "The Cut Paste Gadget allows you to Cut and Paste a large radius of blocks to move to a different location."
+      "A multi-block structure for efficiently bulk-cooking food!",
+      "",
+      "Check the ponder for more Details!"
     ],
     "groups": {
-      "QOL Tools": {
+      "Create Addons pg 3": {
         "position": [
-          100,
-          20
+          -140,
+          -20
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "buildinggadgets2:gadget_cut_paste",
+        "id": "ratatouille:oven",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Cut Paste Gadget"
+      "translate": "Oven"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

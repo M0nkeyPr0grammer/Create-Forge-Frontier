@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Sticky Launcher"
+    "Create Things and Misc"
   ],
   "tasks": {
     "spout": {
@@ -32,21 +32,6 @@
       "title": "",
       "type": "heracles:xp"
     },
-    "prec": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "create:precision_mechanism",
-          "count": 1
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "create:precision_mechanism",
-        "count": 1
-      },
-      "type": "heracles:item"
-    },
     "copper": {
       "title": "",
       "icon": {
@@ -58,6 +43,21 @@
       },
       "item": {
         "id": "minecraft:copper_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "prec": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:precision_mechanism",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:precision_mechanism",
         "count": 1
       },
       "type": "heracles:item"
@@ -97,7 +97,7 @@
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

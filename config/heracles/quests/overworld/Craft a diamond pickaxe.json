@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Diamond Sword"
+    "Mine diamonds"
   ],
   "tasks": {
     "d pick": {
@@ -80,7 +80,7 @@
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

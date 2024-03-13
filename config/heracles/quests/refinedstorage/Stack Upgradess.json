@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Speed Upgrade"
+    "Refined Storage"
   ],
   "tasks": {
     "stack": {
@@ -77,7 +77,7 @@
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

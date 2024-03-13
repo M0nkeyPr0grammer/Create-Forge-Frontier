@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Stone Axe"
+    "Mine stone"
   ],
   "tasks": {
     "shovel": {
@@ -86,7 +86,7 @@
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

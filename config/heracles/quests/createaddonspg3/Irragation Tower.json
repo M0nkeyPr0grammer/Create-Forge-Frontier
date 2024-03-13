@@ -1,17 +1,17 @@
 {
   "dependencies": [
-    "Wavebinder's Rune"
+    "Ratatouille"
   ],
   "tasks": {
-    "void": {
+    "tower": {
       "type": "heracles:item",
-      "item": "apotheotic_additions:void_shelf",
+      "item": "ratatouille:irrigation_tower",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "apotheotic_additions:void_shelf",
+          "id": "ratatouille:irrigation_tower",
           "count": 1
         },
         "type": "heracles:item"
@@ -19,7 +19,7 @@
     }
   },
   "rewards": {
-    "xp": {
+    "x": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -28,21 +28,36 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 100,
+      "amount": 10,
       "title": "",
       "type": "heracles:xp"
     },
-    "r": {
+    "copper": {
       "title": "",
       "icon": {
         "item": {
-          "id": "apotheosis:ancient_material",
+          "id": "minecraft:copper_block",
           "count": 1
         },
         "type": "heracles:item"
       },
       "item": {
-        "id": "apotheosis:ancient_material",
+        "id": "minecraft:copper_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "fluid": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:fluid_tank",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:fluid_tank",
         "count": 1
       },
       "type": "heracles:item"
@@ -53,35 +68,35 @@
       "text": ""
     },
     "description": [
-      "The third one being the Void Rune grants the following enchanting stats",
-      "- Eterna: 6 each for a max of 50",
-      "- Quanta: +6%",
-      "- Arcana: +20%",
-      "- Enchanting Clues: +2"
+      "Say goodbye to traditional farming methods! An irrigation tower keeps large areas of farmland moist without the need for manual water scooping.",
+      "",
+      "Using the tower allows for you to plant crops 8 blocks away rather than the standard 4 blocks of regular water.",
+      "",
+      "Check the ponder for more Details!"
     ],
     "groups": {
-      "Apotheosis": {
+      "Create Addons pg 3": {
         "position": [
-          -160,
-          20
+          -140,
+          60
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "apotheotic_additions:void_shelf",
+        "id": "ratatouille:irrigation_tower",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Void Rune"
+      "translate": "Irragation Tower"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Deployer"
+    "Create"
   ],
   "tasks": {
     "roller": {
@@ -77,7 +77,7 @@
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

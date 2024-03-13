@@ -1,7 +1,10 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Create Addons Page 3"
+  ],
   "tasks": {
-    "end": {
+    "c": {
+      "title": "",
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -9,14 +12,11 @@
         },
         "type": "heracles:item"
       },
-      "from": "minecraft:",
-      "to": "minecraft:the_end",
-      "title": "",
-      "type": "heracles:changed_dimension"
+      "type": "heracles:check"
     }
   },
   "rewards": {
-    "xp": {
+    "x": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -35,31 +35,31 @@
       "text": ""
     },
     "description": [
-      "This is a Vanilla+ mod for the End modelled around the Nether update, adding biomes, structures and a whole bunch of miscellaneous features to the End; biome blobs spawn with large empty spaces between them so the dimension is still mostly dead with the occasional vibrant flare."
+      "A mechanical spawner block that spawns mobs from rotational energy and mob fluids."
     ],
     "groups": {
-      "Main": {
+      "Create Addons pg 3": {
         "position": [
-          50,
-          -25
+          -180,
+          -60
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "endlessbiomes:penumbral_moss",
+        "id": "create_mechanical_spawner:mechanical_spawner",
         "count": 1
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "title": {
-      "translate": "Endless Biomes"
+      "translate": "Mechanical Spawners"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

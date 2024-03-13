@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Shattered"
+    "Sculk Centipede"
   ],
   "tasks": {
     "worm": {
@@ -63,7 +63,7 @@
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

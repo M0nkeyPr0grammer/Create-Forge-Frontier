@@ -1,17 +1,17 @@
 {
   "dependencies": [
-    "Iron Rod"
+    "Ratatouille"
   ],
   "tasks": {
-    "neptunium": {
+    "spreader": {
       "type": "heracles:item",
-      "item": "aquaculture:neptunium_ingot",
+      "item": "ratatouille:spreader",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "aquaculture:neptunium_ingot",
+          "id": "ratatouille:spreader",
           "count": 1
         },
         "type": "heracles:item"
@@ -19,7 +19,7 @@
     }
   },
   "rewards": {
-    "xp": {
+    "x": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -28,21 +28,36 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 100,
+      "amount": 10,
       "title": "",
       "type": "heracles:xp"
     },
-    "neptunium": {
+    "alloy": {
       "title": "",
       "icon": {
         "item": {
-          "id": "aquaculture:neptunium_ingot",
+          "id": "create:andesite_alloy",
           "count": 1
         },
         "type": "heracles:item"
       },
       "item": {
-        "id": "aquaculture:neptunium_ingot",
+        "id": "create:andesite_alloy",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "bone": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:bone_block",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:bone_block",
         "count": 1
       },
       "type": "heracles:item"
@@ -53,33 +68,33 @@
       "text": ""
     },
     "description": [
-      "Aquaculture add a new material called Neptunium to the game. You can make tools and armor from Neptunium. This material has various properties when underwater.",
+      "Tired of slow crop growth? Use this machine to ripen a large area of crops at once, consuming only bone meal.",
       "",
-      "You can obtain this equipment, or Neptunium Ingots to craft it yourself, by getting it from Neptune's Bounty. Neptune's Bounty is rare treasure loot. (Luck of the Sea enchantment increases the chance of getting Neptune's Bounty)"
+      "Check the ponder for more Details!"
     ],
     "groups": {
-      "Food": {
+      "Create Addons pg 3": {
         "position": [
-          -20,
-          20
+          -140,
+          100
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "aquaculture:neptunium_ingot",
+        "id": "ratatouille:spreader",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Neptunium Ingot"
+      "translate": "Spreader"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

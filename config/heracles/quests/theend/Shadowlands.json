@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Crystal Peaks"
+    "The End"
   ],
   "tasks": {
     "shad": {
@@ -60,7 +60,7 @@
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

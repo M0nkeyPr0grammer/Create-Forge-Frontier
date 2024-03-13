@@ -1,7 +1,6 @@
 {
   "dependencies": [
-    "Overworld Bosses",
-    "Vanilla Bosses"
+    "Overworld Bosses"
   ],
   "tasks": {
     "Kill Warden": {

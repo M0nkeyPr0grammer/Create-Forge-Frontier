@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Item Silo"
+    "Create Connected"
   ],
   "tasks": {
     "chip": {
@@ -93,7 +93,7 @@
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"
