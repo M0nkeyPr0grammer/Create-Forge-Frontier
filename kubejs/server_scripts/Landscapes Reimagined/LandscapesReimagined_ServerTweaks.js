@@ -17,6 +17,123 @@ ServerEvents.recipes(event => {
 	event.remove({ id: 'endrem:undead_eye'})
 	event.remove({ id: 'create_power_loader:crafting/empty_andesite_chunk_loader'})
 	event.remove({ id: 'create_power_loader:crafting/empty_brass_chunk_loader'})
+	event.remove({ id: 'create_dd:crafting/coal_piece_from_decompacting'})
+	event.remove({ id: 'create_dd:crafting/coal_piece_compacting'})
+	event.remove({ id: 'tiab:time_in_a_bottle'})
+
+
+	// Bookstack to Shapeless Recipe
+	event.custom({
+		type: "minecraft:crafting_shapeless",
+		ingredients: [
+			{
+				item: 'beautify:bookstack'
+			}
+		],
+		result: {
+			item: 'minecraft:book',
+			count: 3
+		  }
+
+	})
+
+	// Nether Star Crushing Recipe
+	event.custom({
+        type: 'create:crushing',
+        ingredients: [
+            { item: 'minecraft:nether_star' },
+        ],
+        processingTime: 400,
+        results: [
+            { item: 'cagedmobs:nether_star_fragment', count: 4 },
+			{ item: 'cagedmobs:nether_star_fragment', chance: 0.10}
+        ],
+    }).id('kubejs:crushing/netherstar');
+
+	// Netherite Crushing Recipe
+	event.custom({
+        type: 'create:crushing',
+        ingredients: [
+            { item: 'minecraft:netherite_ingot' },
+        ],
+        processingTime: 400,
+        results: [
+            { item: 'minecraft:netherite_scrap', count: 4 },
+			{ item: 'minecraft:netherite_scrap', chance: 0.10}
+        ],
+    }).id('kubejs:crushing/netherite');
+
+	// Time in A Bottle Crafting Recipe
+	event.custom({
+		type: "create:mechanical_crafting",
+		pattern: [
+			'AAA',
+			'BCB',
+			'DED'
+		],
+		key: {
+			A: Ingredient.of('create:brass_ingot').toJson(),
+			B: Ingredient.of('advancednetherite:netherite_diamond_ingot').toJson(),
+			C: Ingredient.of('minecraft:clock').toJson(),
+			D: Ingredient.of('create_dd:overcharge_alloy').toJson(),
+			E: Ingredient.of('apotheosis:infused_breath').toJson()
+		},
+		result: Ingredient.of('tiab:time_in_a_bottle').toJson(),
+		acceptMirrored: false
+	}).id('kubejs:tiab/time_in_a_bottle');
+
+	// Adjust Coal Recipe
+	event.custom({
+		type: "minecraft:crafting_shapeless",
+		ingredients: [
+		  {
+			"tag": "forge:nuggets/coal"
+		  },
+		  {
+			"tag": "forge:nuggets/coal"
+		  },
+		  {
+			"tag": "forge:nuggets/coal"
+		  },
+		  {
+			"tag": "forge:nuggets/coal"
+		  },
+		  {
+			"tag": "forge:nuggets/coal"
+		  },
+		  {
+			"tag": "forge:nuggets/coal"
+		  },
+		  {
+			"tag": "forge:nuggets/coal"
+		  },
+		  {
+			"tag": "forge:nuggets/coal"
+		  },
+		  {
+			"tag": "forge:nuggets/coal"
+		  }
+		],
+		result: {
+		  item: "minecraft:coal",
+		  count: 1
+		}
+	  })
+
+	// Adjust Coal Piece Recipe
+	event.custom({
+		type: "minecraft:crafting_shapeless",
+		ingredients: [
+			{
+				item: 'minecraft:coal'
+			}
+		],
+		result: {
+			item: 'create_dd:coal_piece',
+			count: 9
+		  }
+
+	})
 
 	// Creates Andesite Chunk Loader
 	event.custom({
@@ -223,22 +340,6 @@ ServerEvents.recipes(event => {
 			'create:polished_rose_quartz',
 			'#forge:ender_pearls'
 		]
-	)
-
-	// Creates Shrinking Device Recipe
-	event.shaped(
-		Item.of('shrink:shrinking_device', 1),
-		[
-			'ABA',
-			'ACA',
-			'ADA'
-		],
-		{
-			A: '#forge:ingots/steel',
-			B: '#forge:ender_pearls',
-			C: '#forge:glass',
-			D: '#minecraft:buttons'
-		}
 	)
 
 	// Creates Structure Compass Recipe
