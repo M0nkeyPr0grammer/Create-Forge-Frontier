@@ -13,7 +13,104 @@ StartupEvents.registry('block', event => {
         .box(1, 0, 1, 15, 14, 15)
         .tagItem('tooltiprareness:epic_item')
         .tagBlock("mineable/pickaxe")
+        .fullBlock(true);
+        
+        event.create('crushed_bismuth_pile')
+        .displayName('Crushed Bismuth Pile')
+        .soundType('metal') 
+        .mapColor('Stone') 
+        .hardness(2.0)
+        .model('kubejs:block/crushed_bismuth_pile')
+        .requiresTool(true)
+        .renderType('solid')
+        .tagItem('tooltiprareness:common_item')
+        .tagBlock("mineable/pickaxe")
+        .fullBlock(true);
+        
+        event.create('crushed_calorite_pile')
+        .displayName('Crushed Calorite Pile')
+        .soundType('metal') 
+        .mapColor('Stone') 
+        .hardness(2.0)
+        .model('kubejs:block/crushed_calorite_pile')
+        .requiresTool(true)
+        .renderType('solid')
+        .tagItem('tooltiprareness:common_item')
+        .tagBlock("mineable/pickaxe")
         .fullBlock(true);     
+
+        event.create('crushed_desh_pile')
+        .displayName('Crushed Desh Pile')
+        .soundType('metal') 
+        .mapColor('Stone') 
+        .hardness(2.0)
+        .model('kubejs:block/crushed_desh_pile')
+        .requiresTool(true)
+        .renderType('solid')
+        .tagItem('tooltiprareness:common_item')
+        .tagBlock("mineable/pickaxe")
+        .fullBlock(true);     
+
+        event.create('crushed_irradium_pile')
+        .displayName('Crushed Irradium Pile')
+        .soundType('metal') 
+        .mapColor('Stone') 
+        .hardness(2.0)
+        .model('kubejs:block/crushed_irradium_pile')
+        .requiresTool(true)
+        .renderType('solid')
+        .tagItem('tooltiprareness:common_item')
+        .tagBlock("mineable/pickaxe")
+        .fullBlock(true);     
+
+        event.create('crushed_malachite_pile')
+        .displayName('Crushed Malachite Pile')
+        .soundType('metal') 
+        .mapColor('Stone') 
+        .hardness(2.0)
+        .model('kubejs:block/crushed_malachite_pile')
+        .requiresTool(true)
+        .renderType('solid')
+        .tagItem('tooltiprareness:common_item')
+        .tagBlock("mineable/pickaxe")
+        .fullBlock(true);     
+
+        event.create('crushed_ostrum_pile')
+        .displayName('Crushed Ostrum Pile')
+        .soundType('metal') 
+        .mapColor('Stone') 
+        .hardness(2.0)
+        .model('kubejs:block/crushed_ostrum_pile')
+        .requiresTool(true)
+        .renderType('solid')
+        .tagItem('tooltiprareness:common_item')
+        .tagBlock("mineable/pickaxe")
+        .fullBlock(true);     
+
+        event.create('crushed_tin_pile')
+        .displayName('Crushed Tin Pile')
+        .soundType('metal') 
+        .mapColor('Stone') 
+        .hardness(2.0)
+        .model('kubejs:block/crushed_tin_pile')
+        .requiresTool(true)
+        .renderType('solid')
+        .tagItem('tooltiprareness:common_item')
+        .tagBlock("mineable/pickaxe")
+        .fullBlock(true);     
+
+        event.create('crushed_uranium_pile')
+        .displayName('Crushed Uranium Pile')
+        .soundType('metal') 
+        .mapColor('Stone') 
+        .hardness(2.0)
+        .model('kubejs:block/crushed_uranium_pile')
+        .requiresTool(true)
+        .renderType('solid')
+        .tagItem('tooltiprareness:common_item')
+        .tagBlock("mineable/pickaxe")
+        .fullBlock(true);     
+
 });
 
 // New Items
