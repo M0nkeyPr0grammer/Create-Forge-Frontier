@@ -21,6 +21,37 @@ ServerEvents.recipes(event => {
 	event.remove({ id: 'create_dd:crafting/coal_piece_compacting'})
 	event.remove({ id: 'tiab:time_in_a_bottle'})
 
+	// Iron Plating Crushing Recipe
+	event.custom({
+		type: 'create:crushing',
+		ingredients: [
+			{ item: 'ad_astra:iron_plating' },
+		],
+		processingTime: 400,
+		results: [
+			{ 
+				item: 'create:iron_sheet', 
+				chance: 0.140625  
+			}
+		]
+	}).id('kubejs:crushing/iron_plating');
+
+
+	// Malachite Block to Malchite Shapeless Recipe
+	event.custom({
+		type: "minecraft:crafting_shapeless",
+		ingredients: [
+			{
+				item: 'enlightened_end:malachite_block'
+			}
+		],
+		result: {
+			item: 'enlightened_end:malachite',
+			count: 4
+		  }
+
+	})
+
 
 	// Bookstack to Shapeless Recipe
 	event.custom({
