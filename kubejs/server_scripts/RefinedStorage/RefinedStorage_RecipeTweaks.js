@@ -3,6 +3,29 @@ ServerEvents.recipes(event => {
     event.remove({ id: "refinedstorage:raw_improved_processor" }); // Removes Recipe
     event.remove({ id: "refinedstorage:raw_advanced_processor" }); // Removes Recipe
     event.remove({ id: "extradisks:raw_withering_processor" }); // Removes Recipe
+    event.remove({ id: "refinedstorage:processor_binding"}); //Removes Recipe
+    event.remove({ id: "refinedstorage:quartz_enriched_iron"})
+
+    // Create Quartz Enriched Iron Recipe
+    event.shapeless(
+      Item.of('refinedstorage:quartz_enriched_iron'),
+      [
+        'create_dd:andesite_sheet',
+        'create_dd:andesite_sheet',
+        'create_dd:andesite_sheet',
+        'minecraft:quartz'
+      ]
+    ); 
+  
+    // Creates Shapeless Recipe for Processor Binding
+    event.shapeless(
+      Item.of('refinedstorage:processor_binding'),
+      [
+        'minecraft:string',
+        'minecraft:slime_ball',
+        'minecraft:string',
+      ]
+    ); 
   
     // Creates Sequenced Assembly Recipe for Raw Basic Processor
     event.custom({
