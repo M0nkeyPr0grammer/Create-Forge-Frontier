@@ -390,15 +390,6 @@ ServerEvents.recipes(event => {
 	)
 
 
-	// Creates Immersive Aircrafts Guide
-	event.shapeless(
-		Item.of('patchouli:guide_book', '{"patchouli:book":"patchouli:immersive_aircraft"}'),
-		[
-			'minecraft:book',
-			'immersive_aircraft:hull'
-		]
-	)
-
 	// Create a Quest Book Recipe
 	event.shapeless(
 		Item.of('heracles:quest_book'),
@@ -501,26 +492,5 @@ ServerEvents.recipes(event => {
 		]
 	}).id('kubejs:filling/dragons_breath')
 
-	// New Dragon Head Recipe
-	event.custom({
-        type: "create:mixing",
-        ingredients: [
-            {
-                item: "minecraft:wither_skeleton_skull",
-				count: 1
-            },
-			{
-				fluid: "kubejs:liquid_dragons_breath",
-				amount: 1000
-			}
-        ],
-        results: [
-            {
-                item: "minecraft:dragon_head",
-				count: 1
-            }
-        ],
-        heatRequirement: "superheated"
-    }).id('kubejs:mixing/dragon_head')
 })
 

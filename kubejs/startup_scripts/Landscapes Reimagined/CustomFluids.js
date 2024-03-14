@@ -1,5 +1,15 @@
 StartupEvents.registry('fluid',event => {
 
+    // Creates Molten Bone Marrow
+    event.create('kubejs:molten_bone_marrow')
+        .color(0xc3bfa1)
+        .displayName('Molten Bone Marrow')
+        .bucketColor(0xc3bfa1)
+        .thickTexture(0xc3bfa1)
+        .viscosity(6000) // Similar to Lava
+        .temperature(1300) // Similar to Lava
+        .bucketItem; // Specify the bucket item here
+
     // Creates Molten Netherite Iron
     event.create('kubejs:molten_netherite_iron')
         .color(0x727272)

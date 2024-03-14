@@ -18,6 +18,19 @@ StartupEvents.registry('block', event => {
 
 // New Items
 StartupEvents.registry('item', event => {
+
+    event.create('kubejs:mould_template')
+        .displayName('Mould Template')
+        .texture('kubejs:item/mould_template');
+
+    event.create('kubejs:skull_mould')
+        .displayName('Skull Mould')
+        .texture('kubejs:item/skull_mould');
+
+    event.create('kubejs:head_mould')
+        .displayName('Head Mould')
+        .texture('kubejs:item/head_mould');
+
     event.create('kubejs:netherite_specks')
         .displayName('Netherite Specks')
         .texture('kubejs:item/netherite_specks');
