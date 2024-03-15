@@ -77,6 +77,17 @@ ServerEvents.recipes(event => {
         result: 'create_dd:tin_block'
     })
 
+    // Crushed Uranium Pile
+    event.custom({
+        type: "minecraft:smelting",
+        cookingtime: 200,
+        experience: 0.1,
+        ingredient: {
+            item: 'kubejs:crushed_uranium_pile'
+        },
+        result: 'alexscaves:block_of_uranium'
+    })
+
     // Crushed Iron Pile
     event.custom({
         type: "minecraft:smelting",

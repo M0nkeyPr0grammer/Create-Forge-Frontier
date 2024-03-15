@@ -49,7 +49,6 @@ ServerEvents.recipes(event => {
 			item: 'enlightened_end:malachite',
 			count: 4
 		  }
-
 	})
 
 
