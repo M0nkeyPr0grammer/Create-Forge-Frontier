@@ -1,6 +1,6 @@
 ServerEvents.recipes(event => {
 
-    // Compressed Bone to Mould Template
+    // Compressed Bone to Mold Template
     event.custom({
         type:"create:compacting",
         ingredients: [
@@ -11,19 +11,19 @@ ServerEvents.recipes(event => {
         ],
         results: [
             {
-                item: 'kubejs:mould_template',
+                item: 'kubejs:mold_template',
                 amount: 1
             },
         ],
         heatRequirement: "superheated"
-    }).id('kubejs:compacting/mould_template')
+    }).id('kubejs:compacting/mold_template')
 
-    // Mould Template to Skull Mould Recipe 1
+    // Mold Template to Skull Mold Recipe 1
     event.custom({
         type:"create:compacting",
         ingredients: [
             {
-                item: 'kubejs:mould_template',
+                item: 'kubejs:mold_template',
                 amount: 1
             },
             {
@@ -32,7 +32,7 @@ ServerEvents.recipes(event => {
         ],
         results: [
             {
-                item: 'kubejs:skull_mould',
+                item: 'kubejs:skull_mold',
                 amount: 1
             },
             {
@@ -40,14 +40,14 @@ ServerEvents.recipes(event => {
             }
         ],
         heatRequirement: "superheated"
-    }).id('kubejs:compacting/skull_mould_1')
+    }).id('kubejs:compacting/skull_mold_1')
 
-    // Mould Template to Skull Mould Recipe 2
+    // Mold Template to Skull Mold Recipe 2
     event.custom({
         type:"create:compacting",
         ingredients: [
             {
-                item: 'kubejs:mould_template',
+                item: 'kubejs:mold_template',
                 amount: 1
             },
             {
@@ -56,7 +56,7 @@ ServerEvents.recipes(event => {
         ],
         results: [
             {
-                item: 'kubejs:skull_mould',
+                item: 'kubejs:skull_mold',
                 amount: 1
             },
             {
@@ -64,14 +64,14 @@ ServerEvents.recipes(event => {
             }
         ],
         heatRequirement: "superheated"
-    }).id('kubejs:compacting/skull_mould_2')
+    }).id('kubejs:compacting/skull_mold_2')
 
-    // Mould Template to Skull Mould Recipe 3
+    // Mold Template to Skull Mold Recipe 3
     event.custom({
         type:"create:compacting",
         ingredients: [
             {
-                item: 'kubejs:mould_template',
+                item: 'kubejs:mold_template',
                 amount: 1
             },
             {
@@ -80,7 +80,7 @@ ServerEvents.recipes(event => {
         ],
         results: [
             {
-                item: 'kubejs:skull_mould',
+                item: 'kubejs:skull_mold',
                 amount: 1
             },
             {
@@ -88,14 +88,14 @@ ServerEvents.recipes(event => {
             }
         ],
         heatRequirement: "superheated"
-    }).id('kubejs:compacting/skull_mould_3')
+    }).id('kubejs:compacting/skull_mold_3')
 
-    // Mould Template to Skull Mould Recipe 4
+    // Mold Template to Skull Mold Recipe 4
     event.custom({
         type:"create:compacting",
         ingredients: [
             {
-                item: 'kubejs:mould_template',
+                item: 'kubejs:mold_template',
                 amount: 1
             },
             {
@@ -104,7 +104,7 @@ ServerEvents.recipes(event => {
         ],
         results: [
             {
-                item: 'kubejs:skull_mould',
+                item: 'kubejs:skull_mold',
                 amount: 1
             },
             {
@@ -112,14 +112,14 @@ ServerEvents.recipes(event => {
             }
         ],
         heatRequirement: "superheated"
-    }).id('kubejs:compacting/skull_mould_4')
+    }).id('kubejs:compacting/skull_mold_4')
 
-    // Mould Template to Skull Mould Recipe 5
+    // Mold Template to Skull Mold Recipe 5
     event.custom({
         type:"create:compacting",
         ingredients: [
             {
-                item: 'kubejs:mould_template',
+                item: 'kubejs:mold_template',
                 amount: 1
             },
             {
@@ -128,7 +128,7 @@ ServerEvents.recipes(event => {
         ],
         results: [
             {
-                item: 'kubejs:skull_mould',
+                item: 'kubejs:skull_mold',
                 amount: 1
             },
             {
@@ -136,14 +136,14 @@ ServerEvents.recipes(event => {
             }
         ],
         heatRequirement: "superheated"
-    }).id('kubejs:compacting/skull_mould_5')
+    }).id('kubejs:compacting/skull_mold_5')
 
-    // Mould Template to Head Mould
+    // Mold Template to Head Mold
     event.custom({
         type:"create:compacting",
         ingredients: [
             {
-                item: 'kubejs:mould_template',
+                item: 'kubejs:mold_template',
                 amount: 1
             },
             {
@@ -152,7 +152,7 @@ ServerEvents.recipes(event => {
         ],
         results: [
             {
-                item: 'kubejs:head_mould',
+                item: 'kubejs:head_mold',
                 amount: 1
             },
             {
@@ -160,7 +160,7 @@ ServerEvents.recipes(event => {
             }
         ],
         heatRequirement: "superheated"
-    }).id('kubejs:compacting/head_mould')
+    }).id('kubejs:compacting/head_mold')
 
     // Skeleton Skull Recipe
 	event.custom({
@@ -171,7 +171,7 @@ ServerEvents.recipes(event => {
 				amount: 1000
 			},
 			{
-				item: 'kubejs:skull_mould',
+				item: 'kubejs:skull_mold',
 				count: 1
 			}
 		],
@@ -181,7 +181,7 @@ ServerEvents.recipes(event => {
 				count: 1
 			},
             {
-                item: 'kubejs:skull_mould'
+                item: 'kubejs:skull_mold'
             }
 		],
         heatRequirement: 'superheated'
@@ -204,7 +204,7 @@ ServerEvents.recipes(event => {
                 amount: 1
             },
 			{
-				item: 'kubejs:skull_mould',
+				item: 'kubejs:skull_mold',
 				count: 1
 			}
 		],
@@ -214,7 +214,7 @@ ServerEvents.recipes(event => {
 				count: 1
 			},
             {
-                item: 'kubejs:skull_mould'
+                item: 'kubejs:skull_mold'
             }
 		],
         heatRequirement: 'superheated'
@@ -233,7 +233,7 @@ ServerEvents.recipes(event => {
                 amount: 1
             },
 			{
-				item: 'kubejs:head_mould',
+				item: 'kubejs:head_mold',
 				count: 1
 			}
 		],
@@ -243,7 +243,7 @@ ServerEvents.recipes(event => {
 				count: 1
 			},
             {
-                item: 'kubejs:head_mould'
+                item: 'kubejs:head_mold'
             }
 		],
         heatRequirement: 'superheated'
