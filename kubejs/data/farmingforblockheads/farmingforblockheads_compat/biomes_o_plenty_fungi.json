@@ -1,0 +1,19 @@
+{
+    "modId": "biomesoplenty",
+    "group": {
+      "name": "Biomes O Plenty Fungi",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:emerald"
+      },
+      "defaultCategory": "mushrooms"
+    },
+    "customEntries": [
+      {
+        "output": "biomesoplenty:glowshroom"
+      },
+      {
+        "output": "biomesoplenty:toadstool"
+      }
+    ]
+}
