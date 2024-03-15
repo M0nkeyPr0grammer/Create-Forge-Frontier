@@ -79,9 +79,6 @@
         "output": "minecraft:large_fern"
       },
       {
-        "output": "minecraft:chorus_flower"
-      },
-      {
         "output": "minecraft:glow_lichen"
       },
       {
@@ -98,9 +95,6 @@
       },
       {
         "output": "minecraft:melon_slice"
-      },
-      {
-        "output": "minecraft:chorus_fruit"
       },
       {
         "output": "minecraft:potato"
