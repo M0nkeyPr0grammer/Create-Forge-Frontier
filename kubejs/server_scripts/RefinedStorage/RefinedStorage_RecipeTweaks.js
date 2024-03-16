@@ -6,6 +6,24 @@ ServerEvents.recipes(event => {
     event.remove({ id: "refinedstorage:processor_binding"}); //Removes Recipe
     event.remove({ id: "refinedstorage:quartz_enriched_iron"})
 
+    // Creates Creative Wireless Universal Grid recipe
+    event.custom({
+      type:"createaddition:charging",
+      input: {
+        item: 'universalgrid:wireless_universal_grid',
+        count: 1
+      },
+      result: {
+        item: 'universalgrid:creative_wireless_universal_grid',
+        count: 1
+      },
+      energy: 10000000,
+      conditions: [{
+        type: "forge:mod_loaded",
+        modid: "createaddition"
+      }]
+    })
+
     // Create Quartz Enriched Iron Recipe
     event.shapeless(
       Item.of('refinedstorage:quartz_enriched_iron'),
