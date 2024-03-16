@@ -46,21 +46,6 @@
       "title": "",
       "type": "heracles:xp"
     },
-    "oven": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "ratatouille:oven",
-          "count": 1
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "ratatouille:oven",
-        "count": 3
-      },
-      "type": "heracles:item"
-    },
     "fan": {
       "title": "",
       "icon": {
@@ -73,6 +58,21 @@
       "item": {
         "id": "ratatouille:oven_fan",
         "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "oven": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "ratatouille:oven",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "ratatouille:oven",
+        "count": 3
       },
       "type": "heracles:item"
     }

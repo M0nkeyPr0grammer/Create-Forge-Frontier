@@ -79,7 +79,7 @@
 	zoom = false
 	#Control the window mode, normal mode does nothing.
 	#Allowed Values: NORMAL, FULLSCREEN, FULLSCREEN_BORDERLESS, MAXIMIZED, MAXIMIZED_BORDERLESS, WINDOWED, WINDOWED_BORDERLESS
-	windowMode = "NORMAL"
+	windowMode = "MAXIMIZED_BORDERLESS"
 	#Whether to replace vanilla GUI scale button to slider with tips.
 	useNewGuiScale = true
 	#Remove telemetry event of client behaviors.

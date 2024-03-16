@@ -246,26 +246,6 @@
 			#Range: 0 ~ 100
 			glareTamingChance = 33
 
-	[integration.aquaculture]
-
-		[integration.aquaculture.arrau_turtle]
-			#Ingredients required for arrau_turtle breeding
-			arrau_turtleIngredients = "#aquaculture:turtle_edible"
-			arrau_turtleSpawnEgg = "aquaculture:arrau_turtle_spawn_egg"
-			arrau_turtleBreedingCooldown = 6000
-
-		[integration.aquaculture.box_turtle]
-			#Ingredients required for box_turtle breeding
-			box_turtleIngredients = "#aquaculture:turtle_edible"
-			box_turtleSpawnEgg = "aquaculture:box_turtle_spawn_egg"
-			box_turtleBreedingCooldown = 6000
-
-		[integration.aquaculture.starshell_turtle]
-			#Ingredients required for starshell_turtle breeding
-			starshell_turtleIngredients = "#aquaculture:turtle_edible"
-			starshell_turtleSpawnEgg = "aquaculture:starshell_turtle_spawn_egg"
-			starshell_turtleBreedingCooldown = 6000
-
 	[integration.naturalist]
 
 		[integration.naturalist.alligator]
@@ -956,4 +936,24 @@
 			shibaTamingIngredients = "minecraft:bone"
 			#Range: 0 ~ 100
 			shibaTamingChance = 33
+
+	[integration.aquaculture]
+
+		[integration.aquaculture.arrau_turtle]
+			#Ingredients required for arrau_turtle breeding
+			arrau_turtleIngredients = "#aquaculture:turtle_edible"
+			arrau_turtleSpawnEgg = "aquaculture:arrau_turtle_spawn_egg"
+			arrau_turtleBreedingCooldown = 6000
+
+		[integration.aquaculture.box_turtle]
+			#Ingredients required for box_turtle breeding
+			box_turtleIngredients = "#aquaculture:turtle_edible"
+			box_turtleSpawnEgg = "aquaculture:box_turtle_spawn_egg"
+			box_turtleBreedingCooldown = 6000
+
+		[integration.aquaculture.starshell_turtle]
+			#Ingredients required for starshell_turtle breeding
+			starshell_turtleIngredients = "#aquaculture:turtle_edible"
+			starshell_turtleSpawnEgg = "aquaculture:starshell_turtle_spawn_egg"
+			starshell_turtleBreedingCooldown = 6000
 
