@@ -37,8 +37,10 @@ Version 1.3.0 marks a significant milestone in our development journey, represen
 - **Just Mob Heads**: Not essential to pack progression and also clashes with the **Create** theme of the pack
 - **ShetiPhian-Core**: Library mod for EnderTanks and EnderChests which are being removed
 - **Shrink**: Not essential to pack progression and also clashes with the **Create** theme of the pack
+## Mod Loader Update
+- v47.1.1.100 > v47.1.101
 ## Mod Updates
--
+- 
 ## KubeJS Updates
 - 
 ## Drippy Loading Screen Updates
