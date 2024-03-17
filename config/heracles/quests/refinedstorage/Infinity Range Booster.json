@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Dimension Card"
+    "Refined Storage"
   ],
   "tasks": {
     "infite": {
@@ -81,7 +81,7 @@
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

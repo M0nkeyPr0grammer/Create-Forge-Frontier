@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Andesite Tunnel"
+    "Create"
   ],
   "tasks": {
     "weight": {
@@ -83,7 +83,7 @@
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

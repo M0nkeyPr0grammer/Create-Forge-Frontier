@@ -1,0 +1,16 @@
+{
+    "modId": "quark",
+    "group": {
+      "name": "Quark Fungi",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:emerald"
+      },
+      "defaultCategory": "mushrooms"
+    },
+    "customEntries": [
+      {
+        "output": "quark:glow_shroom"
+      }
+    ]
+}

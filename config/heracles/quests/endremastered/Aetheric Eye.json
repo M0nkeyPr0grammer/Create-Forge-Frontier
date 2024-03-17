@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Black Eye"
+    "End Remastered"
   ],
   "tasks": {
     "eye": {
@@ -51,8 +51,8 @@
     "groups": {
       "End Remastered": {
         "position": [
-          80,
-          140
+          -40,
+          20
         ]
       }
     },
@@ -73,7 +73,7 @@
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

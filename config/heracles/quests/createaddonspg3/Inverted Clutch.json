@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Encased Chain Cogwheel"
+    "Create Connected"
   ],
   "tasks": {
     "clutch": {
@@ -108,7 +108,7 @@
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

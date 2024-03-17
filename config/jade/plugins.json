@@ -1,7 +1,4 @@
 {
-  "enderchests": {
-    "hud": true
-  },
   "minecraft": {
     "item_storage.show_name_amount": 5,
     "furnace": true,
@@ -57,11 +54,9 @@
   "cagedmobs": {
     "cagedmobs_jade": true
   },
-  "endertanks": {
-    "hud.basic": true,
-    "hud": true,
-    "hud.status": true,
-    "hud.contents": true
+  "extrastorage": {
+    "crafter": true,
+    "advanced_crafter": true
   },
   "jade": {
     "coordinates.rel": false,
@@ -86,10 +81,8 @@
   "jadeaddons": {
     "equipment_requirement": ""
   },
-  "shetiphiancore": {
-    "hud.rgb16": true,
-    "hud": true,
-    "hud.redstone": true
+  "create_mechanical_spawner": {
+    "spawner_data": true
   },
   "easy_villagers": {
     "villager": true,

@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Railway Encased Large Cogwheel"
+    "Create Encased"
   ],
   "tasks": {
     "c": {
@@ -74,7 +74,7 @@
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

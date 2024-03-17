@@ -91,11 +91,15 @@
   "cookingforblockheads:sink": null,
   "cagedmobs:hide_container_items": null,
   "cagedmobs:cagedmobs_jade": null,
+  "create_mechanical_spawner:spawner_data": null,
+  "extrastorage:advanced_crafter": null,
+  "extrastorage:crafter": null,
   "apotheosis:spawner": null,
   "apotheosis:ench": null,
   "apotheosis:adventure": null,
-  "shetiphiancore:hud": null,
   "corpse:corpse": null,
+  "extrastorage:advanced_crafter": null,
+  "extrastorage:crafter": null,
   "lootr:info": null,
   "lootr:inventory": null,
   "create:blaze_burner": null,
@@ -110,7 +114,7 @@
   "pipez:pipe": null,
   "cagedmobs:hide_container_items": null,
   "cagedmobs:cagedmobs_jade": null,
-  "endertanks:hud": null,
+  "create_mechanical_spawner:spawner_data": null,
   "waystones:waystone": null,
   "refinedcooking:kitchen_station": null,
   "refinedcooking:kitchen_access_point": null,
@@ -169,6 +173,5 @@
   "easy_villagers:breeder": null,
   "supplementaries:present": null,
   "supplementaries:safe": null,
-  "supplementaries:hat_stand": null,
-  "enderchests:hud": null
+  "supplementaries:hat_stand": null
 }

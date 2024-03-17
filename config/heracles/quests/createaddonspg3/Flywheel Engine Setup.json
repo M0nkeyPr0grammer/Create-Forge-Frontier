@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Integrated Mechanism"
+    "Create Dreams and Desires"
   ],
   "tasks": {
     "fly 1": {
@@ -138,7 +138,7 @@
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

@@ -1,0 +1,22 @@
+{
+    "modId": "quark",
+    "group": {
+      "name": "Quark Plants",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:emerald"
+      },
+      "defaultCategory": "plants"
+    },
+    "customEntries": [
+      {
+        "output": "quark:chorus_weeds"
+      },
+      {
+        "output": "quark:chorus_twist"
+      },
+      {
+        "output": "quark:glow_lichen_growth"
+      }
+    ]
+  }

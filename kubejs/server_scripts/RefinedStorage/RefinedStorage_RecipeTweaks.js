@@ -3,6 +3,47 @@ ServerEvents.recipes(event => {
     event.remove({ id: "refinedstorage:raw_improved_processor" }); // Removes Recipe
     event.remove({ id: "refinedstorage:raw_advanced_processor" }); // Removes Recipe
     event.remove({ id: "extradisks:raw_withering_processor" }); // Removes Recipe
+    event.remove({ id: "refinedstorage:processor_binding"}); //Removes Recipe
+    event.remove({ id: "refinedstorage:quartz_enriched_iron"})
+
+    // Creates Creative Wireless Universal Grid recipe
+    event.custom({
+      type:"createaddition:charging",
+      input: {
+        item: 'universalgrid:wireless_universal_grid',
+        count: 1
+      },
+      result: {
+        item: 'universalgrid:creative_wireless_universal_grid',
+        count: 1
+      },
+      energy: 10000000,
+      conditions: [{
+        type: "forge:mod_loaded",
+        modid: "createaddition"
+      }]
+    })
+
+    // Create Quartz Enriched Iron Recipe
+    event.shapeless(
+      Item.of('refinedstorage:quartz_enriched_iron'),
+      [
+        'create_dd:andesite_sheet',
+        'create_dd:andesite_sheet',
+        'create_dd:andesite_sheet',
+        'minecraft:quartz'
+      ]
+    ); 
+  
+    // Creates Shapeless Recipe for Processor Binding
+    event.shapeless(
+      Item.of('refinedstorage:processor_binding'),
+      [
+        'minecraft:string',
+        'minecraft:slime_ball',
+        'minecraft:string',
+      ]
+    ); 
   
     // Creates Sequenced Assembly Recipe for Raw Basic Processor
     event.custom({

@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Logistics Mechanism"
+    "Create Dreams and Desires"
   ],
   "tasks": {
     "press": {
@@ -92,7 +92,7 @@
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

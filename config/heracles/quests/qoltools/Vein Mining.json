@@ -43,21 +43,6 @@
         "count": 3
       },
       "type": "heracles:item"
-    },
-    "book": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:book",
-          "count": 1
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "minecraft:book",
-        "count": 1
-      },
-      "type": "heracles:item"
     }
   },
   "display": {
@@ -65,21 +50,55 @@
       "text": ""
     },
     "description": [
-      "Vein Mining is available in this pack as an enchantment, which allows the enchanted tool to break matching connected blocks at the press of a keybinded key. This book can be obtained by either finding it in loot, trading it with a Villager, or through an enchantment table.",
+      "Allows players to mine whole veins of ore, cut down whole trees or any other tool based action in one go. Simple, easy to understand, configs are also provided for mod pack developers such as tool or block black listings, size limits, tick rate and much more.",
       "",
-      "- Note that when using vein mining it will use up durability on your tools and use up player exhaustion."
+      "Features:",
+      "",
+      "- Mine entire ore veins",
+      "",
+      "- Cut down whole trees",
+      "",
+      "- Bulk harvest/excavate almost any block",
+      "",
+      "- Works with almost every modded tool out of the box",
+      "",
+      "- Tool blacklist (can invert to whitelist)",
+      "",
+      "- Block blacklist (can invert to whitelist)",
+      "",
+      "- Configurable speed, size, distance and cost",
+      "",
+      "- Control preferences per client",
+      "",
+      "- Per tool overrides for pack developers",
+      "",
+      "- Ore dictionary support for blacklisting and overrides",
+      "",
+      "- In game configuration with no restart/reload necessary",
+      "",
+      "- Built-in TPS guard prevents major game slow down",
+      "",
+      "- Customisable shape mining",
+      "",
+      "- Undo command in case of mistakes",
+      "",
+      "- Customisable block grouping",
+      "",
+      "- Event hooks for cross-mod integrations and behaviours",
+      "",
+      " "
     ],
     "groups": {
       "QOL Tools": {
         "position": [
-          -180,
+          -140,
           -60
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:enchanted_book",
+        "id": "minecraft:iron_ore",
         "count": 1
       },
       "type": "heracles:item"

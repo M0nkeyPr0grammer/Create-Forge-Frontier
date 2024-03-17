@@ -36,29 +36,29 @@
       "title": "",
       "icon": {
         "item": {
-          "id": "create:brass_casing",
+          "id": "allthecompressed:glass_2x",
           "count": 1
         },
         "type": "heracles:item"
       },
       "item": {
-        "id": "create:brass_casing",
-        "count": 6
+        "id": "allthecompressed:glass_2x",
+        "count": 1
       },
       "type": "heracles:item"
     },
-    "mecha": {
+    "mech block": {
       "title": "",
       "icon": {
         "item": {
-          "id": "create:precision_mechanism",
+          "id": "create_compressed:mechanism_block",
           "count": 1
         },
         "type": "heracles:item"
       },
       "item": {
-        "id": "create:precision_mechanism",
-        "count": 3
+        "id": "create_compressed:mechanism_block",
+        "count": 2
       },
       "type": "heracles:item"
     }

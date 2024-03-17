@@ -1,0 +1,37 @@
+{
+    "modId": "regions_unexplored",
+    "group": {
+      "name": "Regions Unexplored Fungi",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:emerald"
+      },
+      "defaultCategory": "mushrooms"
+    },
+    "customEntries": [
+      {
+        "output": "regions_unexplored:blue_bioshroom"
+      },   
+      {
+        "output": "regions_unexplored:tall_yellow_bioshroom"
+      },
+      {
+        "output": "regions_unexplored:pink_bioshroom"
+      },   
+      {
+        "output": "regions_unexplored:green_bioshroom"
+      },
+      {
+        "output": "regions_unexplored:tall_green_bioshroom"
+      },   
+      {
+        "output": "regions_unexplored:tall_blue_bioshroom"
+      },
+      {
+        "output": "regions_unexplored:tall_pink_bioshroom"
+      },   
+      {
+        "output": "regions_unexplored:yellow_bioshroom"
+      }
+    ]
+}

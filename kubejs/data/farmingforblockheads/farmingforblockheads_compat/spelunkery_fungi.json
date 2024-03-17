@@ -1,0 +1,22 @@
+{
+    "modId": "spelunkery",
+    "group": {
+      "name": "Spelunkery Fungi",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:emerald"
+      },
+      "defaultCategory": "mushrooms"
+    },
+    "customEntries": [
+      {
+        "output": "spelunkery:inkcap_mushroom"
+      },
+      {
+        "output": "spelunkery:white_inkcap_mushroom"
+      },
+      {
+        "output": "spelunkery:button_mushroom"
+      }
+    ]
+}

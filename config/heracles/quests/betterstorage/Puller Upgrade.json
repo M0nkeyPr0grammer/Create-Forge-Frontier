@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Collector Upgrade"
+    "Upgrades"
   ],
   "tasks": {
     "puller": {
@@ -62,7 +62,7 @@
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

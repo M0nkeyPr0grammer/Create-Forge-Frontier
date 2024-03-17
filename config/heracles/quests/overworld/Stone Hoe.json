@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Stone Shovel"
+    "Mine stone"
   ],
   "tasks": {
     "hoe": {
@@ -65,7 +65,7 @@
       "Overworld": {
         "position": [
           -60,
-          140
+          139
         ]
       }
     },
@@ -86,7 +86,7 @@
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

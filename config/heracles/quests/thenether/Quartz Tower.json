@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Quartz Kitchen"
+    "Special Structures"
   ],
   "tasks": {
     "quartz tower": {
@@ -83,7 +83,7 @@
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

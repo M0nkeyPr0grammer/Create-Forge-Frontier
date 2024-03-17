@@ -5,6 +5,13 @@
       "icon": {
         "item": "minecraft:apple"
       }
+    },
+
+    "mushrooms": {
+      "name": "Mushrooms",
+      "icon": {
+        "item": "farmersdelight:red_mushroom_colony"
+      }
     }
   }
 }

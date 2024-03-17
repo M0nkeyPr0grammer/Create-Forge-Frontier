@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Pattern"
+    "Refined Storage"
   ],
   "tasks": {
     "advanced": {
@@ -94,7 +94,7 @@
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

@@ -56,12 +56,12 @@
 
 	[redstone.enderman_head]
 		enabled = true
+		drop_head = true
 		#Time to increase 1 power level when being looked at
 		#Range: 0 ~ 10000
 		ticks_to_increase_power = 15
 		#do enderman heads work when looked from any side?
 		work_from_any_side = false
-		drop_head = true
 
 	[redstone.turn_table]
 		enabled = true
@@ -180,10 +180,10 @@
 
 		#This is a map of special blocks that can be cleaned with soap
 		[functional.soap.special_blocks]
-			"minecraft:sticky_piston" = "minecraft:piston"
 			"quark:dirty_glass_pane" = "minecraft:glass_pane"
-			"#alexscaves:cave_paintings" = "alexscaves:smooth_limestone"
+			"minecraft:sticky_piston" = "minecraft:piston"
 			"quark:dirty_glass" = "minecraft:glass"
+			"#alexscaves:cave_paintings" = "alexscaves:smooth_limestone"
 
 	[functional.present]
 		enabled = true
@@ -214,11 +214,6 @@
 	doormat = true
 	flint_block = true
 	candle_holder = true
-
-	[building.hat_stand]
-		enabled = true
-		#Allow all items to go on hat stand
-		unrestricted = false
 
 	[building.blackboard]
 		enabled = true
@@ -258,7 +253,7 @@
 	[building.planter]
 		enabled = true
 		#Makes so saplings that grow in a planter will break it turning into rooted dirt
-		broken_by_sapling = true
+		broken_by_sapling = false
 		#When Farmers Delight is on planter will also act like rich soil and use it in its recipe
 		rich_soil_planter = true
 
@@ -318,6 +313,11 @@
 
 	[building.ash_bricks]
 		enabled = true
+
+	[building.hat_stand]
+		enabled = true
+		#Allow all items to go on hat stand
+		unrestricted = false
 
 [tools]
 	candy = true

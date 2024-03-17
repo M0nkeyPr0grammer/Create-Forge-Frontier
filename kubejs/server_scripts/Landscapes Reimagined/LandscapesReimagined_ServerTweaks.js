@@ -17,6 +17,153 @@ ServerEvents.recipes(event => {
 	event.remove({ id: 'endrem:undead_eye'})
 	event.remove({ id: 'create_power_loader:crafting/empty_andesite_chunk_loader'})
 	event.remove({ id: 'create_power_loader:crafting/empty_brass_chunk_loader'})
+	event.remove({ id: 'create_dd:crafting/coal_piece_from_decompacting'})
+	event.remove({ id: 'create_dd:crafting/coal_piece_compacting'})
+	event.remove({ id: 'tiab:time_in_a_bottle'})
+
+	// Iron Plating Crushing Recipe
+	event.custom({
+		type: 'create:crushing',
+		ingredients: [
+			{ item: 'ad_astra:iron_plating' },
+		],
+		processingTime: 400,
+		results: [
+			{ 
+				item: 'create:iron_sheet', 
+				chance: 0.140625  
+			}
+		]
+	}).id('kubejs:crushing/iron_plating');
+
+
+	// Malachite Block to Malchite Shapeless Recipe
+	event.custom({
+		type: "minecraft:crafting_shapeless",
+		ingredients: [
+			{
+				item: 'enlightened_end:malachite_block'
+			}
+		],
+		result: {
+			item: 'enlightened_end:malachite',
+			count: 4
+		  }
+	})
+
+
+	// Bookstack to Shapeless Recipe
+	event.custom({
+		type: "minecraft:crafting_shapeless",
+		ingredients: [
+			{
+				item: 'beautify:bookstack'
+			}
+		],
+		result: {
+			item: 'minecraft:book',
+			count: 3
+		  }
+
+	})
+
+	// Nether Star Crushing Recipe
+	event.custom({
+        type: 'create:crushing',
+        ingredients: [
+            { item: 'minecraft:nether_star' },
+        ],
+        processingTime: 400,
+        results: [
+            { item: 'cagedmobs:nether_star_fragment', count: 4 },
+			{ item: 'cagedmobs:nether_star_fragment', chance: 0.10}
+        ],
+    }).id('kubejs:crushing/netherstar');
+
+	// Netherite Crushing Recipe
+	event.custom({
+        type: 'create:crushing',
+        ingredients: [
+            { item: 'minecraft:netherite_ingot' },
+        ],
+        processingTime: 400,
+        results: [
+            { item: 'minecraft:netherite_scrap', count: 4 },
+			{ item: 'minecraft:netherite_scrap', chance: 0.10}
+        ],
+    }).id('kubejs:crushing/netherite');
+
+	// Time in A Bottle Crafting Recipe
+	event.custom({
+		type: "create:mechanical_crafting",
+		pattern: [
+			'AAA',
+			'BCB',
+			'DED'
+		],
+		key: {
+			A: Ingredient.of('create:brass_ingot').toJson(),
+			B: Ingredient.of('advancednetherite:netherite_diamond_ingot').toJson(),
+			C: Ingredient.of('minecraft:clock').toJson(),
+			D: Ingredient.of('create_dd:overcharge_alloy').toJson(),
+			E: Ingredient.of('apotheosis:infused_breath').toJson()
+		},
+		result: Ingredient.of('tiab:time_in_a_bottle').toJson(),
+		acceptMirrored: false
+	}).id('kubejs:tiab/time_in_a_bottle');
+
+	// Adjust Coal Recipe
+	event.custom({
+		type: "minecraft:crafting_shapeless",
+		ingredients: [
+		  {
+			"tag": "forge:nuggets/coal"
+		  },
+		  {
+			"tag": "forge:nuggets/coal"
+		  },
+		  {
+			"tag": "forge:nuggets/coal"
+		  },
+		  {
+			"tag": "forge:nuggets/coal"
+		  },
+		  {
+			"tag": "forge:nuggets/coal"
+		  },
+		  {
+			"tag": "forge:nuggets/coal"
+		  },
+		  {
+			"tag": "forge:nuggets/coal"
+		  },
+		  {
+			"tag": "forge:nuggets/coal"
+		  },
+		  {
+			"tag": "forge:nuggets/coal"
+		  }
+		],
+		result: {
+		  item: "minecraft:coal",
+		  count: 1
+		}
+	  })
+
+	// Adjust Coal Piece Recipe
+	event.custom({
+		type: "minecraft:crafting_shapeless",
+		ingredients: [
+			{
+				item: 'minecraft:coal'
+			}
+		],
+		result: {
+			item: 'create_dd:coal_piece',
+			count: 9
+		  }
+
+	})
 
 	// Creates Andesite Chunk Loader
 	event.custom({
@@ -225,22 +372,6 @@ ServerEvents.recipes(event => {
 		]
 	)
 
-	// Creates Shrinking Device Recipe
-	event.shaped(
-		Item.of('shrink:shrinking_device', 1),
-		[
-			'ABA',
-			'ACA',
-			'ADA'
-		],
-		{
-			A: '#forge:ingots/steel',
-			B: '#forge:ender_pearls',
-			C: '#forge:glass',
-			D: '#minecraft:buttons'
-		}
-	)
-
 	// Creates Structure Compass Recipe
 	event.shaped(
 		Item.of('explorerscompass:explorerscompass', 1),
@@ -288,15 +419,6 @@ ServerEvents.recipes(event => {
 		]
 	)
 
-
-	// Creates Immersive Aircrafts Guide
-	event.shapeless(
-		Item.of('patchouli:guide_book', '{"patchouli:book":"patchouli:immersive_aircraft"}'),
-		[
-			'minecraft:book',
-			'immersive_aircraft:hull'
-		]
-	)
 
 	// Create a Quest Book Recipe
 	event.shapeless(
@@ -400,26 +522,5 @@ ServerEvents.recipes(event => {
 		]
 	}).id('kubejs:filling/dragons_breath')
 
-	// New Dragon Head Recipe
-	event.custom({
-        type: "create:mixing",
-        ingredients: [
-            {
-                item: "minecraft:wither_skeleton_skull",
-				count: 1
-            },
-			{
-				fluid: "kubejs:liquid_dragons_breath",
-				amount: 1000
-			}
-        ],
-        results: [
-            {
-                item: "minecraft:dragon_head",
-				count: 1
-            }
-        ],
-        heatRequirement: "superheated"
-    }).id('kubejs:mixing/dragon_head')
 })
 

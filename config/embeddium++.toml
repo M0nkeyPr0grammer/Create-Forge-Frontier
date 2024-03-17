@@ -9,7 +9,7 @@
 		#Configure FPS Display mode
 		#Complete mode gives you min FPS count and average count
 		#Allowed Values: OFF, SIMPLE, ADVANCED
-		fpsDisplay = "OFF"
+		fpsDisplay = "ADVANCED"
 		#Configure FPS Display gravity
 		#Places counter on specified corner of your screen
 		#Allowed Values: LEFT, CENTER, RIGHT
@@ -102,7 +102,7 @@
 				#Configure horizontal max distance before cull Block entities
 				#Value is squared, default was 64^2 (or 64x64)
 				#Range: > 0
-				cullingMaxDistanceX = 4096
+				cullingMaxDistanceX = 9216
 				#Configure vertical max distance before cull Block entities
 				#Value is raw
 				#Range: 0 ~ 512
@@ -120,7 +120,7 @@
 				#Configure horizontal max distance before cull entities
 				#Value is squared, default was 64^2 (or 64x64)
 				#Range: > 0
-				cullingMaxDistanceX = 4096
+				cullingMaxDistanceX = 9216
 				#Configure vertical max distance before cull entities
 				#Value is raw
 				#Range: 0 ~ 512
@@ -139,7 +139,7 @@
 	[embeddiumplus.others]
 		#Configure if borderless fullscreen option should be attached to F11 or replace vanilla fullscreen
 		#Allowed Values: ATTACH, REPLACE, OFF
-		borderlessAttachModeOnF11 = "ATTACH"
+		borderlessAttachModeOnF11 = "OFF"
 		#Toggles fast language reload
 		#Embeddedt points it maybe cause troubles to JEI, so ¿why not add it as a toggleable option?
 		fastLanguageReload = true

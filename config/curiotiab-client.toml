@@ -1,0 +1,16 @@
+
+#curiotiab's Client Config Settings
+[settings]
+	#Use 'TIAB Curio' Header in Overlay
+	useheader = true
+	#Define what you want shown on Overlay. Use only One: 'TOTAL', 'CURRENT', OR 'BOTH'
+	#Current -> Shows time stored currently on bottle
+	#Total -> Shows total Accumulated time on bottle
+	#Both -> Shows both Total and Current time
+	#Allowed Values: TOTAL, CURRENT, BOTH
+	overlaymode = "BOTH"
+
+[guipostion]
+	x = 5
+	y = 5
+

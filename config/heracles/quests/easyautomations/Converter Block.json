@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Incubator Block"
+    "Easy Villagers"
   ],
   "tasks": {
     "converter": {
@@ -98,7 +98,7 @@
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

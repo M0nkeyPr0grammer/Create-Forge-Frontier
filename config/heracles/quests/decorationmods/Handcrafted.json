@@ -1,0 +1,84 @@
+{
+  "dependencies": [
+    "Decoration Mods"
+  ],
+  "tasks": {
+    "c": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "hammer": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "handcrafted:hammer",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "handcrafted:hammer",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "From the creators of Chipped, we now present Handcrafted! A mod to make your house into your home! :D",
+      "",
+      "Are you looking for a fantasy, steampunk or medieval feel? Or do you want to stick to a more vanilla decor? Look no further! We've created over 250 furniture pieces for you to choose from. Be it chairs, tables, benches or desks; we got it all packaged neatly into a single mod. This mod will provide all the furniture you could ever need to make your blocky house a home!"
+    ],
+    "groups": {
+      "Decoration Mods": {
+        "position": [
+          -140,
+          -60
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "handcrafted:oak_fancy_bed",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "title": {
+      "translate": "Handcrafted"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

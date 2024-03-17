@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Range Upgrade"
+    "Refined Storage"
   ],
   "tasks": {
     "dim card": {
@@ -79,7 +79,7 @@
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

@@ -1,7 +1,5 @@
 {
-  "dependencies": [
-    "Card"
-  ],
+  "dependencies": [],
   "tasks": {
     "sprinkler": {
       "type": "heracles:item",

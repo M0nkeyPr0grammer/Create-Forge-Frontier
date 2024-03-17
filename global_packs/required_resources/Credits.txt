@@ -1,24 +1,28 @@
 The Following Assets were provided by external authors
-1.) Create Immersive Aircrafts: required_resources/Create+Immersive+Aircrafts+Resource+Pack+1.19.2+-+1.2 (1).zip
+1.) Create Immersive Aircrafts
 	- Created by nicky__21
 	- https://www.curseforge.com/minecraft/texture-packs/create-immersive-aircrafts-resource-pack
 	
-2.) LootrChestRetexture for Create: required_resources/LootrChestRetexture_v1.1_1.19.zip
+2.) LootrChestRetexture for Create
 	- Created by soldrk
 	- https://www.curseforge.com/minecraft/texture-packs/lootrchestretexture-for-create
 	
-3.) Tom's Create Storage: required_resources/Create+Simple+Storage+2.1.zip
-	- Created by EndRage
-	- https://www.curseforge.com/minecraft/texture-packs/create-simple-storage
-	
-4.) Reinforced Barrels Retextured: required_resources/ReinforcedBarrels_Retextured.zip
-	- Created by Myself (M0nkeyPr0grammer)
-	- https://modrinth.com/resourcepack/reinforced-barrels-retextured
-	
-5.) Reinforced Chests Retextured: required_resources/ReinforcedChests_Retextured.zip
-	- Created by Myself (M0nkeyPr0grammer)
-	- https://modrinth.com/resourcepack/reinforced-chests-retextured
+3.) Copycat Framed Blocks
+	- Created by ULSTICK
+	- https://www.curseforge.com/minecraft/texture-packs/copycat-framed-blocks
 
-6.) MoreChestVariantsOveride: required_resources/MoreChestVariantsOveride.zip
-	- Created by Myself (M0nkeyPr0grammer)
-	- N/A 
+4.) End Remastered Ideal
+	- chosti
+	- https://discord.com/invite/D9cxayDNSP
+	
+5.) Sparkles: Stardust Labs Resourcepack
+	- Stardust Labs
+	- https://modrinth.com/resourcepack/sparkles
+
+6.) Sparkles ADDON: Alpha Islands
+	- Stardust Labs
+	- https://modrinth.com/resourcepack/sparkles-addon-alpha-islands
+
+7.) Fresh Animations
+	- FreshLX
+	- https://modrinth.com/resourcepack/fresh-animations

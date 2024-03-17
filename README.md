@@ -30,42 +30,41 @@ Download **Landscapes Reimagined Forge Frontier** today and dive into an elevate
     <h3>Curseforge</h3>
       <li><a href="https://www.curseforge.com/minecraft/mc-mods/allthecompressed">AllTheCompressed</a></li>
       <li><a href="https://www.curseforge.com/minecraft/mc-mods/apotheosis">Apotheosis</a></li>
-      <li><a href="https://www.curseforge.com/minecraft/mc-mods/apotheotic-additions">Apotheotic Additions</a></li>
       <li><a href="https://www.curseforge.com/minecraft/mc-mods/apothic-attributes">Apothic Attributes (AttributesLib)</a></li>
       <li><a href="https://www.curseforge.com/minecraft/mc-mods/aquaculture">Aquaculture 2</a></li>
-      <li><a href="https://www.curseforge.com/minecraft/mc-mods/borderless">Borderless Window</a></li>
-      <li><a href="https://www.curseforge.com/minecraft/mc-mods/building-gadgets">Building Gadgets</a></li>
       <li><a href="https://www.curseforge.com/minecraft/mc-mods/chimes">Chimes</a></li>
+      <li><a href="https://www.curseforge.com/minecraft/mc-mods/chisels-bits">Chisels and Bits</a></li>
+      <li><a href="https://www.curseforge.com/minecraft/mc-mods/cosmetic-armor-reworked">Cosmetic Armor Reworked</a></li>
       <li><a href="https://www.curseforge.com/minecraft/mc-mods/crash-utilities">Crash Utilities</a></li>
-      <li><a href="https://www.curseforge.com/minecraft/mc-mods/create-chunkloading">Create Chunkloading</a></li>
       <li><a href="https://www.curseforge.com/minecraft/mc-mods/create-compressed">Create Compressed</a></li>
       <li><a href="https://www.curseforge.com/minecraft/mc-mods/create-confectionery">Create Confectionery</a></li>
-      <li><a href="https://www.curseforge.com/minecraft/mc-mods/create-oppenheimered">Create: Oppenheimered</a></li>
-      <li><a href="https://www.curseforge.com/minecraft/mc-mods/cosmetic-armor-reworked">Comstic Armor Reworked</a></li>
-      <li><a href="https://www.curseforge.com/minecraft/mc-mods/disenchantingforge">DisenchantingForge</a></li>
+      <li><a href="https://www.curseforge.com/minecraft/mc-mods/create-design-n-decor">Create Design n' Decord</a></li>
+      <li><a href="https://www.curseforge.com/minecraft/mc-mods/create-wooderwheels">Create WooderWheels/a></li>
       <li><a href="https://www.curseforge.com/minecraft/mc-mods/dungeon-crawl">Dungeon Crawl</a></li>
       <li><a href="https://www.curseforge.com/minecraft/mc-mods/dynamic-view">Dynamic View[Forge]</a></li>
       <li><a href="https://www.curseforge.com/minecraft/mc-mods/eating-animation-forge">Eating Animation [Forge]</a></li>
-      <li><a href="https://www.curseforge.com/minecraft/mc-mods/flux-networks">Flux Networks</a></li>
       <li><a href="https://www.curseforge.com/minecraft/mc-mods/gml">GroovyModLoader (GML)</a></li>
       <li><a href="https://www.curseforge.com/minecraft/mc-mods/krypton-reforged">Krypton Reforged</a></li>
       <li><a href="https://www.curseforge.com/minecraft/mc-mods/kubejs-delight">KubeJS Delight</a></li>
       <li><a href="https://www.curseforge.com/minecraft/mc-mods/ore-excavation">Ore Excavation</a></li>
       <li><a href="https://www.curseforge.com/minecraft/mc-mods/placebo">Placebo</a></li>
-      <li><a href="https://www.curseforge.com/minecraft/mc-mods/probejs">ProbeJS</a></li>
-      <li><a href="https://www.curseforge.com/minecraft/mc-mods/shrink_">Shrink</a></li>
       <li><a href="https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks">Sophisticated Backpacks</a></li>
       <li><a href="https://www.curseforge.com/minecraft/mc-mods/sophisticated-core">Sophisticated Core</a></li>
       <li><a href="https://www.curseforge.com/minecraft/mc-mods/sophisticated-storage">Sophisticated Storage</a></li>
+      <li><a href="https://www.curseforge.com/minecraft/mc-mods/time-in-a-bottle-forge">Time In A Bottle</a></li>
+      <li><a href="https://www.curseforge.com/minecraft/mc-mods/time-in-a-bottle-curio-support">Time In A Bottle Curio Support</a></li>
+      <li><a href="https://www.curseforge.com/minecraft/mc-mods/when-dungeons-arise">When Dungeons Arise</a></li>
       <li><a href="https://www.curseforge.com/minecraft/mc-mods/wither-skeleton-tweaks">Wither Skeleton Tweaks</a></li>
-      <li><a href="https://www.curseforge.com/minecraft/mc-mods/xaeroplus">XaeroPlus</a></li>
   </details>
   
   <details>
     <summary>Datapacks</summary>
+    <li><a href="https://modrinth.com/datapack/better-end-cities-(vanilla)">Better End Cities (Vanilla)</a></li>
     <li><a href="https://modrinth.com/datapack/create-renewable-ores">Create Renewable Ores</a></li>
     <li><a href="https://modrinth.com/datapack/edf-remastered">Ender Dragon Fight Remastered</a></li>
+    <li><a href="https://discord.com/invite/D9cxayDNSP">End Remastered Yungs</a></li>
     <li><a href="https://modrinth.com/datapack/remove-terralith-intro-message">Remove Terralith Intro Message</a></li>
+    <li><a href="https://modrinth.com/datapack/disable-ad-astra-oil-wells">Remove Oil Well</a></li>
     <li><a href="https://modrinth.com/datapack/repurposed-structures-better-desert-temples-compat">Repurposed Structures - Better Desert Temples Compat</a></li>
     <li><a href="https://modrinth.com/datapack/repurposed-structures-better-dungeons-compat">Repurposed Structures - Better Dungeons Compat</a></li>
     <li><a href="https://modrinth.com/datapack/repurposed-structures-better-jungle-temples">Repurposed Structures - Better Jungle Temples Compat</a></li>
@@ -77,7 +76,7 @@ Download **Landscapes Reimagined Forge Frontier** today and dive into an elevate
     <li><a href="https://modrinth.com/datapack/repurposed-structures-farmers-delight-compat">Repurposed Structures - Farmer's Delight Compat</a></li>
     <li><a href="https://modrinth.com/datapack/repurposed-structures-friends-and-foes-compat">Repurposed Structures - Friends and Foes Compat</a></li>
     <li><a href="https://modrinth.com/datapack/repurposed-structures-villagerplus-compat">Repurposed Structures - VillagerPlus Compat</a></li>
-    <li><a href="https://modrinth.com/datapack/better-end-cities-(vanilla)">Better End Cities (Vanilla)</a></li>
+    <li><a href="https://modrinth.com/datapack/gm4-shapeless-portals">Shapeless Portals</a></li>
     <li><a href="https://modrinth.com/datapack/the-ancient-city-overhaul">The Ancient City Overhaul</a></li>
     <li><a href="https://modrinth.com/datapack/the-bastion-overhaul">The Bastion Overhaul</a></li>
     <li><a href="https://modrinth.com/datapack/the-trail-ruins-overhaul">The Trail Ruins Overhaul</a></li>
@@ -85,13 +84,16 @@ Download **Landscapes Reimagined Forge Frontier** today and dive into an elevate
   
   <details>
     <summary>Resource Packs</summary>
-    <li><a href="https://www.curseforge.com/minecraft/texture-packs/building-gadgets-create-like">Building Gadgets Create like</a></li>
-    <li><a href="https://www.curseforge.com/minecraft/texture-packs/copycat-framed-blocks">Copycat Framed Blocks</a></li>
     <li><a href="https://www.curseforge.com/minecraft/texture-packs/create-immersive-aircrafts-resource-pack">Create Immersive Aircrafts</a></li>
     <li><a href="https://www.curseforge.com/minecraft/texture-packs/lootrchestretexture-for-create">LootrChestRetexture for Create!</a></li>
-    <li><a href="https://www.curseforge.com/minecraft/texture-packs/create-style-construction-wands">Lopy's Create Style Construction Wands (Requires External Download upon first launch)</a></li>
-    <li><a href="https://www.curseforge.com/minecraft/texture-packs/create-pipez">Lopy's Create Style Pipez (Requires External Download upon first launch)</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/texture-packs/copycat-framed-blocks">Copycat Framed Blocks</a></li>
+    <li><a href="https://discord.com/invite/D9cxayDNSP">End Remastered Ideal</a></li>
     <li><a href="https://modrinth.com/resourcepack/sparkles">Stardust Labs Resourcepack</a></li>
+    <li><a href="https://modrinth.com/resourcepack/sparkles-addon-alpha-islands">Sparkles ADDON: Alpha Islands</a></li>
+    <li><a href="https://modrinth.com/resourcepack/fresh-animations">Fresh Animations</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/texture-packs/create-style-construction-wands">Lopy's Create Style Construction Wands (Requires External Download upon world load)</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/texture-packs/create-pipez">Lopy's Create Style Pipez (Requires External Download upon world load)</a></li>
+    
   </details>
   
   <details>
