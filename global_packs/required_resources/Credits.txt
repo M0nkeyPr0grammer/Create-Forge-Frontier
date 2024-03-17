@@ -1,17 +1,17 @@
 The Following Assets were provided by external authors
-1.) Create Immersive Aircrafts: required_resources/Create Immersive Aircrafts Resource Pack 1.20.1 - 2.0.zip
+1.) Create Immersive Aircrafts
 	- Created by nicky__21
 	- https://www.curseforge.com/minecraft/texture-packs/create-immersive-aircrafts-resource-pack
 	
-2.) LootrChestRetexture for Create: required_resources/LootrChestRetexture_v1.1_1.19.zip
+2.) LootrChestRetexture for Create
 	- Created by soldrk
 	- https://www.curseforge.com/minecraft/texture-packs/lootrchestretexture-for-create
 	
-3.) Copycat Framed Blocks: required_resources/Copycat+Framed+Block
+3.) Copycat Framed Blocks
 	- Created by ULSTICK
 	- https://www.curseforge.com/minecraft/texture-packs/copycat-framed-blocks
 
-4.) End Remastered Ideal: required_resources/EndRem_Ideal_Resource
+4.) End Remastered Ideal
 	- chosti
 	- https://discord.com/invite/D9cxayDNSP
 	
