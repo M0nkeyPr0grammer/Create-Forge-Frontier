@@ -5,6 +5,10 @@ Version 1.3.1 constitutes a minor update aimed at enhancing the overall user exp
 
 ### As a standard safety protocol, we advise creating a backup of your saved data prior to updating the modification package to ensure the preservation of your progress.
 
+## New Additions
+- Chargers: A small mod that adds 4 configurable chargers and a wireless one. [Modrinth Link](https://modrinth.com/mod/chargers); [Curseforge Link](https://www.curseforge.com/minecraft/mc-mods/chargers)
+- More Mob Variants x Fresh Animations:Adds Fresh Animations compatibility to the More Mob Variants mod. [Modrinth Link](https://modrinth.com/resourcepack/more-mob-variants-fresh-animations-addon); [Curseforge Link](https://www.curseforge.com/minecraft/texture-packs/more-mob-variants-fresh-animations-addon)
+
 ## Mod Removals
 - Create Ratatoulle: Doesn't work on servers causing crashes, will be readded when that bug is fixed
 
