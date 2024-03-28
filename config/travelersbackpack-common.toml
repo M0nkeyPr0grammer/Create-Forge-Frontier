@@ -4,7 +4,6 @@
 
 	[common.backpackSettings]
 		enableTierUpgrades = true
-		disableCrafting = false
 		#Enables wearing backpack directly from ground
 		enableBackpackBlockWearable = true
 		#Enables unequipping the backpack when player clicks with empty hand on the ground
@@ -17,8 +16,6 @@
 		#List of items that can't be put in backpack inventory (Use registry names, for example: minecraft:apple, minecraft:flint)
 		blacklistedItems = []
 		allowShulkerBoxes = false
-		#Represents tanks capacity for each tier, from left: Leather, Iron, Gold, Diamond, Netherite, 1000 equals 1 Bucket
-		tanksCapacity = [2000, 3000, 4000, 5000, 6000]
 		#Prevents backpack disappearing in void
 		voidProtection = true
 		#Places backpack at place where player died
@@ -29,6 +26,72 @@
 		#If true, backpack can only be worn by placing it in curios 'Back' slot
 		#WARNING - Remember to TAKE OFF BACKPACK BEFORE enabling or disabling this integration!! - if not you'll lose your backpack
 		curiosIntegration = false
+		enableCraftingUpgrade = true
+		#New backpacks will have crafting grid by default
+		craftingUpgradeByDefault = false
+		craftingSavesItems = true
+		#Tool slots accept any item
+		toolSlotsAcceptEverything = false
+
+		#Leather Tier Backpack Settings
+		[common.backpackSettings.leatherTierBackpack]
+			#Number of inventory slots for the tier
+			#Range: 1 ~ 63
+			inventorySlotCount = 27
+			#Number of tool slots for the tier
+			#Range: 0 ~ 6
+			toolSlotCount = 2
+			#Tank capacity for the tier, 1000 equals 1 Bucket
+			#Range: 1 ~ 128000
+			tankCapacity = 3000
+
+		#Iron Tier Backpack Settings
+		[common.backpackSettings.ironTierBackpack]
+			#Number of inventory slots for the tier
+			#Range: 1 ~ 63
+			inventorySlotCount = 36
+			#Number of tool slots for the tier
+			#Range: 0 ~ 6
+			toolSlotCount = 3
+			#Tank capacity for the tier, 1000 equals 1 Bucket
+			#Range: 1 ~ 128000
+			tankCapacity = 4000
+
+		#Gold Tier Backpack Settings
+		[common.backpackSettings.goldTierBackpack]
+			#Number of inventory slots for the tier
+			#Range: 1 ~ 63
+			inventorySlotCount = 45
+			#Number of tool slots for the tier
+			#Range: 0 ~ 6
+			toolSlotCount = 4
+			#Tank capacity for the tier, 1000 equals 1 Bucket
+			#Range: 1 ~ 128000
+			tankCapacity = 5000
+
+		#Diamond Tier Backpack Settings
+		[common.backpackSettings.diamondTierBackpack]
+			#Number of inventory slots for the tier
+			#Range: 1 ~ 63
+			inventorySlotCount = 54
+			#Number of tool slots for the tier
+			#Range: 0 ~ 6
+			toolSlotCount = 5
+			#Tank capacity for the tier, 1000 equals 1 Bucket
+			#Range: 1 ~ 128000
+			tankCapacity = 6000
+
+		#Netherite Tier Backpack Settings
+		[common.backpackSettings.netheriteTierBackpack]
+			#Number of inventory slots for the tier
+			#Range: 1 ~ 63
+			inventorySlotCount = 63
+			#Number of tool slots for the tier
+			#Range: 0 ~ 6
+			toolSlotCount = 6
+			#Tank capacity for the tier, 1000 equals 1 Bucket
+			#Range: 1 ~ 128000
+			tankCapacity = 7000
 
 	[common.world]
 		#Enables backpacks spawning in loot chests

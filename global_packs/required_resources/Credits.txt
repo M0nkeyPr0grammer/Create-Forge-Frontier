@@ -26,3 +26,9 @@ The Following Assets were provided by external authors
 7.) Fresh Animations
 	- FreshLX
 	- https://modrinth.com/resourcepack/fresh-animations
+	- https://www.curseforge.com/minecraft/texture-packs/fresh-animations
+
+8.) More Mob Variants x Fresh Animations
+	- nyuppo
+	- https://modrinth.com/resourcepack/more-mob-variants-fresh-animations-addon
+	- https://www.curseforge.com/minecraft/texture-packs/more-mob-variants-fresh-animations-addon

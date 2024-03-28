@@ -13,6 +13,8 @@
 	renderBackpackWithElytra = true
 	#Disable backpack rendering
 	disableBackpackRender = false
+	#Enables legacy GUI (Blue slots for storage, brown for crafting and green for tools)
+	enableLegacyGui = false
 
 	#The position of the Overlay on the screen
 	[client.overlay]

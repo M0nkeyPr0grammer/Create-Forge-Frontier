@@ -42,6 +42,10 @@
 		#(true/false)
 		#Default is false.
 		enable_show_minimap_hidden = false
+		#Enable integration with minimap mods.
+		#(true/false)
+		#Default is true.
+		enable_minimap_integration = true
 
 		[SeasonHUD.Minimap.Journeymap]
 			#Show above the JourneyMap minimap, instead of below.

@@ -1,0 +1,87 @@
+{
+  "dependencies": [
+    "Charger Tier I"
+  ],
+  "tasks": {
+    "t2": {
+      "type": "heracles:item",
+      "item": "chargers:charger_t2",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "chargers:charger_t2",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "gold": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_new_age:overcharged_gold",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create_new_age:overcharged_gold",
+        "count": 6
+      },
+      "type": "heracles:item"
+    },
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The Tier II Charger allows you to charge inputed items with the following stats",
+      "- Max Transfer of 10,000 FE/t",
+      "- Max Storage of 500,000 FE"
+    ],
+    "groups": {
+      "Better Storage": {
+        "position": [
+          20,
+          60
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "chargers:charger_t2",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Charger Tier II"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}
