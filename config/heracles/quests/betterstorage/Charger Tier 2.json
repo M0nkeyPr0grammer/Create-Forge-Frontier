@@ -1,17 +1,17 @@
 {
   "dependencies": [
-    "Ratatouille"
+    "Charger Tier I"
   ],
   "tasks": {
-    "spreader": {
+    "t2": {
       "type": "heracles:item",
-      "item": "ratatouille:spreader",
+      "item": "chargers:charger_t2",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "ratatouille:spreader",
+          "id": "chargers:charger_t2",
           "count": 1
         },
         "type": "heracles:item"
@@ -19,6 +19,21 @@
     }
   },
   "rewards": {
+    "gold": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_new_age:overcharged_gold",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create_new_age:overcharged_gold",
+        "count": 6
+      },
+      "type": "heracles:item"
+    },
     "x": {
       "icon": {
         "item": {
@@ -28,39 +43,9 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 100,
       "title": "",
       "type": "heracles:xp"
-    },
-    "alloy": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "create:andesite_alloy",
-          "count": 1
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "create:andesite_alloy",
-        "count": 8
-      },
-      "type": "heracles:item"
-    },
-    "bone": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:bone_block",
-          "count": 1
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "minecraft:bone_block",
-        "count": 1
-      },
-      "type": "heracles:item"
     }
   },
   "display": {
@@ -68,33 +53,33 @@
       "text": ""
     },
     "description": [
-      "Tired of slow crop growth? Use this machine to ripen a large area of crops at once, consuming only bone meal.",
-      "",
-      "Check the ponder for more Details!"
+      "The Tier II Charger allows you to charge inputed items with the following stats",
+      "- Max Transfer of 10,000 FE/t",
+      "- Max Storage of 500,000 FE"
     ],
     "groups": {
-      "Create Addons pg 3": {
+      "Better Storage": {
         "position": [
-          -140,
-          100
+          20,
+          60
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "ratatouille:spreader",
+        "id": "chargers:charger_t2",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Spreader"
+      "translate": "Charger Tier II"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

@@ -1,7 +1,5 @@
 {
-  "dependencies": [
-    "Create Addons Page 3"
-  ],
+  "dependencies": [],
   "tasks": {
     "c": {
       "title": "",
@@ -35,31 +33,31 @@
       "text": ""
     },
     "description": [
-      "This mod is an addon of Create, adds more interesting machine blocks and items for agricultural planting and food processing. It is also specifically tailored for a modpack of the same name."
+      "Chargers is a small mod that adds 4 configurable chargers and a wireless one."
     ],
     "groups": {
-      "Create Addons pg 3": {
+      "Better Storage": {
         "position": [
-          -140,
+          20,
           -60
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "ratatouille:sausage",
+        "id": "alexscaves:tesla_bulb",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "title": {
-      "translate": "Ratatouille"
+      "translate": "Chargers"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

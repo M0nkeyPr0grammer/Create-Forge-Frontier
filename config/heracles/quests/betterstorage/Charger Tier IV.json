@@ -1,31 +1,17 @@
 {
   "dependencies": [
-    "Ratatouille"
+    "Charger Tier III"
   ],
   "tasks": {
-    "oven": {
+    "t4": {
       "type": "heracles:item",
-      "item": "ratatouille:oven",
+      "item": "chargers:charger_t4",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "ratatouille:oven",
-          "count": 1
-        },
-        "type": "heracles:item"
-      }
-    },
-    "oven fan": {
-      "type": "heracles:item",
-      "item": "ratatouille:oven_fan",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "ratatouille:oven_fan",
+          "id": "chargers:charger_t4",
           "count": 1
         },
         "type": "heracles:item"
@@ -42,37 +28,22 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 1000,
       "title": "",
       "type": "heracles:xp"
     },
-    "fan": {
+    "netherite": {
       "title": "",
       "icon": {
         "item": {
-          "id": "ratatouille:oven_fan",
+          "id": "minecraft:netherite_ingot",
           "count": 1
         },
         "type": "heracles:item"
       },
       "item": {
-        "id": "ratatouille:oven_fan",
-        "count": 1
-      },
-      "type": "heracles:item"
-    },
-    "oven": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "ratatouille:oven",
-          "count": 1
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "ratatouille:oven",
-        "count": 3
+        "id": "minecraft:netherite_ingot",
+        "count": 6
       },
       "type": "heracles:item"
     }
@@ -82,33 +53,33 @@
       "text": ""
     },
     "description": [
-      "A multi-block structure for efficiently bulk-cooking food!",
-      "",
-      "Check the ponder for more Details!"
+      "The Tier IV Charger allows you to charge inputed items with the following stats",
+      "- Max Transfer of 625,000 FE/t",
+      "- Max Storage of 25,000,000 F"
     ],
     "groups": {
-      "Create Addons pg 3": {
+      "Better Storage": {
         "position": [
-          -140,
-          -20
+          20,
+          140
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "ratatouille:oven",
+        "id": "chargers:charger_t4",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Oven"
+      "translate": "Charger Tier IV"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"
