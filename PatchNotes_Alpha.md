@@ -60,7 +60,7 @@ Version 1.3.1 constitutes a minor update aimed at enhancing the overall user exp
 ## Fancy Menu Updates
 - Updated version number to 1.3.1
 
-### More Details about the changes can be found here: [github repository merge]()
+### More Details about the changes can be found here: [github repository merge](https://github.com/M0nkeyPr0grammer/Landscapes-Reimagined-Forge-Frontier/commit/99e051d7f638d4fb030c927937c36c8e6ba5fbe5)
 
 ### Note: If you encounter any issues, please request support on our [Discord](https://discord.gg/quenZthXgy). Enjoy the update!
 
