@@ -33,6 +33,12 @@
 	#If enabled, special cube blocks will show a type overlay when a camo is applied
 	#Requires resource reload to take effect
 	showSpecialCubeTypeOverlay = true
+	#Configures the verbosity of messages displayed when a block cannot be used as a camo
+	#If NONE, no message will be shown
+	#If DEFAULT, a message will be shown when the block has a BlockEntity and isn't explicitly allowed or the block is explicitly disallowed
+	#If DETAILED, a message will be shown as above or when a block is non-solid and not explicitly allowed
+	#Allowed Values: NONE, DEFAULT, DETAILED
+	camoMessageVerbosity = "DEFAULT"
 
 [overlay]
 	#If set to HIDDEN, the State Lock overlay will be completely hidden
