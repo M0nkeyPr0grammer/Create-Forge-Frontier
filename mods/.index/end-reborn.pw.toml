@@ -1,0 +1,13 @@
+filename = 'endorium-forge-1.1.0.jar'
+name = 'Endorium (Forge)'
+side = 'both'
+
+[download]
+hash = '18dc12bf550bd0514d2d32c77eadd1f9b6d47c6e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5150874
+project-id = 286231

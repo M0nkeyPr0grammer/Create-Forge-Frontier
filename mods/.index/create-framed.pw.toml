@@ -1,0 +1,13 @@
+filename = 'createframed-1.20.1-1.4.1.jar'
+name = 'Create: Framed'
+side = 'both'
+
+[download]
+hash = 'fced783ee9b03a333472b6111034ea1473688643'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5151065
+project-id = 953126

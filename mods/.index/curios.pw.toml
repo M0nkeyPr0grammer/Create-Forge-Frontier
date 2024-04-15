@@ -1,0 +1,13 @@
+filename = 'curios-forge-5.7.2+1.20.1.jar'
+name = 'Curios API (Forge/NeoForge)'
+side = 'both'
+
+[download]
+hash = '8156335449154bef3cbfec538700173870f4e417'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5175956
+project-id = 309927

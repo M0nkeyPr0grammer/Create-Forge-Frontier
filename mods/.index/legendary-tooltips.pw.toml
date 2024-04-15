@@ -1,0 +1,13 @@
+filename = 'LegendaryTooltips-1.20.1-forge-1.4.5.jar'
+name = 'Legendary Tooltips [Forge]'
+side = 'both'
+
+[download]
+hash = '7d83a56572d333ea352706872f565b8b8537085c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4662781
+project-id = 532127

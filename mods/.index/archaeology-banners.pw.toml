@@ -1,0 +1,13 @@
+filename = 'ArchaeologyBanners-Forge-1.20.1-5.1.4.jar'
+name = 'Archaeology Banners'
+side = 'both'
+
+[download]
+hash = 'dd46ea9a36e3d5d1bc2af61323fc8d1af9751472'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4756646
+project-id = 861357

@@ -1,0 +1,13 @@
+filename = 'rechiseled-1.1.5c-forge-mc1.20.jar'
+name = 'Rechiseled'
+side = 'both'
+
+[download]
+hash = '371e113c52b09389c05624c694165ca24b4f2ede'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4872892
+project-id = 558998

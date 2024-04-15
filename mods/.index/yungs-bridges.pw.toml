@@ -1,0 +1,13 @@
+filename = 'YungsBridges-1.20-Forge-4.0.3.jar'
+name = "YUNG's Bridges (Forge)"
+side = 'both'
+
+[download]
+hash = '88467fe87b95e6cf7a432822033cf74dd8586254'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4769518
+project-id = 536660

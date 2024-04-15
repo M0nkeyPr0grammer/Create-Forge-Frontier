@@ -1,0 +1,13 @@
+filename = 'betterarcheology-1.1.7-1.20.1.jar'
+name = 'Better Archeology'
+side = 'both'
+
+[download]
+hash = '8e7e020a5370cb16af7766028ff752fc46bf2a0e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5158209
+project-id = 835687

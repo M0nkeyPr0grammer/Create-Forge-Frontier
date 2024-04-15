@@ -1,0 +1,13 @@
+filename = 'refinedpolymorph-0.1.0-1.20.1.jar'
+name = 'Refined Polymorphism'
+side = 'both'
+
+[download]
+hash = 'f968d002ce09818e028908eaf5852b4fe6bfe11f'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4902499
+project-id = 943086

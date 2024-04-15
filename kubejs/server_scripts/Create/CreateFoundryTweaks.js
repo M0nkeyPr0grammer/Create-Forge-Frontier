@@ -6,6 +6,27 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'createfoundry:mixing/melting/ore/redstone_from_ore' });
     event.remove({ id: 'createfoundry:mixing/melting/ore/lapis_from_ore' });
     event.remove({ id: 'createfoundry:mixing/molten_netherite_from_ancient_debris_gold'})
+    event.remove({ id: 'createfoundry:compacting/diamond_from_carbon'})
+
+    // New Diamond Recipe
+    event.custom({
+        type:"create:compacting",
+        ingredients: [
+            {
+                fluid: 'createfoundry:molten_carbon',
+                nbt: {},
+                amount: 1000
+            },
+        ],
+        results: [
+            {
+                fluid: 'createfoundry:molten_diamond',
+                nbt: {},
+                amount: 125
+            },
+        ],
+        heatRequirement: "superheated"
+    }).id('kubejs:compacting/carbon_molten_diamond')
 
     // Ingot/Block to Molten Recipes
         // Creates Molten Netherite Iron Mixing from Ingot

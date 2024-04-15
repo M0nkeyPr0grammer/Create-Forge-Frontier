@@ -1,0 +1,13 @@
+filename = 'EasyAnvils-v8.0.2-1.20.1-Forge.jar'
+name = 'Easy Anvils [Forge & Fabric]'
+side = 'both'
+
+[download]
+hash = 'd44a8b549b27713a92d59148729bf374ff3e25f0'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5156621
+project-id = 682567

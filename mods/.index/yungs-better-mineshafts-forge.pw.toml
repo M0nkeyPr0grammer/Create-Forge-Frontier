@@ -1,0 +1,13 @@
+filename = 'YungsBetterMineshafts-1.20-Forge-4.0.4.jar'
+name = "YUNG's Better Mineshafts (Forge)"
+side = 'both'
+
+[download]
+hash = 'e2cbc574807a994bb9610184eb4bbfe29a6c0774'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4769063
+project-id = 389665

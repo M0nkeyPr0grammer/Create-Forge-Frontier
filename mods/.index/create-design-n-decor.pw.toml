@@ -1,0 +1,13 @@
+filename = 'design_decor-0.3-1.20.1.jar'
+name = "Create: Design n' Decor"
+side = 'both'
+
+[download]
+hash = '6225ecb05ce891a33217a29c04489273ce281250'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5053133
+project-id = 923238

@@ -1,0 +1,13 @@
+filename = 'Ad-Astra-Giselle-Addon-forge-1.20.1-6.5.jar'
+name = 'Ad Astra: Giselle Addon'
+side = 'both'
+
+[download]
+hash = 'c113e3d9232d689f1dfc036bcc13c87e0858877f'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5132359
+project-id = 714958

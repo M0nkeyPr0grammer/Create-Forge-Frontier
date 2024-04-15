@@ -1,0 +1,13 @@
+filename = 'create_power_loader-1.4.0-mc1.20.1.jar'
+name = 'Create: Power Loader'
+side = 'both'
+
+[download]
+hash = '64d7c2bac7c5654dcc70b9a6c2e9c8de53059e38'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5062083
+project-id = 936020

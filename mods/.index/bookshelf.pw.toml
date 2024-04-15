@@ -1,0 +1,13 @@
+filename = 'Bookshelf-Forge-1.20.1-20.1.9.jar'
+name = 'Bookshelf'
+side = 'both'
+
+[download]
+hash = '5764ceb97546bdf075180e670330f7f9c4b948fd'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5084135
+project-id = 228525

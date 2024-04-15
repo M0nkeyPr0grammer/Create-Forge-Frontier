@@ -1,0 +1,13 @@
+filename = 'dsbg-1.0-1.20.1.jar'
+name = 'Detected setBlock Be Gone'
+side = 'both'
+
+[download]
+hash = '349a91654be8df6af5a19b02c7bb47758c09bac4'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4907288
+project-id = 942945

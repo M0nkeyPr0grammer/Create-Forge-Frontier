@@ -1,0 +1,13 @@
+filename = 'enlightend-5.0.14-1.20.1.jar'
+name = 'Enlightend'
+side = 'both'
+
+[download]
+hash = 'cad5b5b7b569ab55059aba71adadbb5aefc6c77f'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4880586
+project-id = 502786

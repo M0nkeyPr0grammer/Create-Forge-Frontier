@@ -1,0 +1,13 @@
+filename = 'Chargers-1.20-6.0.0.23.jar'
+name = 'Chargers'
+side = 'both'
+
+[download]
+hash = '057800c85883224b8732a12b56ee56786a406db8'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4584913
+project-id = 290433

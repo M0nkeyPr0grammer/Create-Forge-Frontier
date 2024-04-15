@@ -1,0 +1,13 @@
+filename = 'Heracles-forge-1.20.1-1.1.11.jar'
+name = 'Heracles'
+side = 'both'
+
+[download]
+hash = '6d9aa96d7b660f07fd4c2eb6afb1d9c9dbe2e70b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5168295
+project-id = 845831

@@ -82,3 +82,23 @@ The Following Assets were provided by external authors
 21.) Trail Ruins Overhaul
 	- nikeyso
 	- https://modrinth.com/datapack/the-trail-ruins-overhaul
+
+22.) Trims Expanded
+	- Ohmniv
+	- https://www.curseforge.com/minecraft/texture-packs/trims-expanded-datapack
+
+23.) CTOV Beautify Addon
+	- ChoiceTheorem
+	- https://www.curseforge.com/minecraft/texture-packs/ctov-beautify-compat
+
+24.) CTOV Farmers Delight Addon
+	- ChoiceTheorem
+	- https://www.curseforge.com/minecraft/texture-packs/ctov-farmer-delight-compat
+
+25.) CTOV Create Structures Addon
+	- ChoiceTheorem
+	- https://www.curseforge.com/minecraft/texture-packs/ctov-create-structures
+
+26.) CTOV Friends and Foes Addon
+	- ChoiceTheorem
+	- https://www.curseforge.com/minecraft/texture-packs/ctov-friends-and-foes-compat

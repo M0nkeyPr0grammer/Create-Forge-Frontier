@@ -1,0 +1,13 @@
+filename = 'durabilitytooltip-1.1.5-forge-mc1.20.jar'
+name = 'Durability Tooltip'
+side = 'both'
+
+[download]
+hash = '9bcc5359fd7f9f4a268bc774a3325ea0feb81909'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4741017
+project-id = 511040

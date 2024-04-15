@@ -1,0 +1,13 @@
+filename = 'YungsBetterEndIsland-1.20-Forge-2.0.6.jar'
+name = "YUNG's Better End Island (Forge)"
+side = 'both'
+
+[download]
+hash = '4e7bf109981593061b8100bc8bf23e1c9bbcbb76'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5193815
+project-id = 901344

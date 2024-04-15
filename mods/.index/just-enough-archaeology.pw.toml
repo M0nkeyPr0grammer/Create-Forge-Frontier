@@ -1,0 +1,13 @@
+filename = 'jearchaeology-1.20.1-1.0.3.jar'
+name = 'Just Enough Archaeology'
+side = 'both'
+
+[download]
+hash = 'a1e90ee6b9edd8e24c61d3c78bc008b1d27f9f75'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4749194
+project-id = 890755

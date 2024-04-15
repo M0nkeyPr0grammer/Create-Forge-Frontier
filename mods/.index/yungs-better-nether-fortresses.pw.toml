@@ -1,0 +1,13 @@
+filename = 'YungsBetterNetherFortresses-1.20-Forge-2.0.6.jar'
+name = "YUNG's Better Nether Fortresses (Forge)"
+side = 'both'
+
+[download]
+hash = '889cd16a93764d1d6af2e2dda5bbc286a2683e7a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5193465
+project-id = 817651

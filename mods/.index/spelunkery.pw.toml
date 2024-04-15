@@ -1,0 +1,13 @@
+filename = 'spelunkery-1.20.1-0.3.5-forge.jar'
+name = 'Spelunkery'
+side = 'both'
+
+[download]
+hash = 'fb26d6380be9d70c4adc0f176b80d9767dff6b1b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5043883
+project-id = 790530

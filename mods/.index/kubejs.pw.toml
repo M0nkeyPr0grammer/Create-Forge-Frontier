@@ -1,0 +1,13 @@
+filename = 'kubejs-forge-2001.6.4-build.138.jar'
+name = 'KubeJS'
+side = 'both'
+
+[download]
+hash = '481da8260990328d1e61c55ebeee3b525aa4c583'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5120836
+project-id = 238086

@@ -1,0 +1,13 @@
+filename = 'fast-ip-ping-mc1.20.4-forge-v1.0.1.jar'
+name = 'Fast IP Ping'
+side = 'both'
+
+[download]
+hash = 'd2ae47cc0e30f9dd354de6af5db0a65401dab631'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4976608
+project-id = 904356
