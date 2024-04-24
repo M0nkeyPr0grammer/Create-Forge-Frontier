@@ -1,0 +1,39 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "biome_exploration"
+	group: "3750F90D875B3398"
+	icon: "minecraft:oak_sapling"
+	id: "2CF857497FC30CDF"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		description: ["This is a test quest, visit a beach to complete the quest"]
+		id: "50C100F7C758C4AB"
+		rewards: [{
+			id: "07664EB77B7F8E3B"
+			item: "quark:cactus_block"
+			type: "item"
+		}]
+		subtitle: "Visit a Vanilla Beach"
+		tasks: [
+			{
+				biome: "minecraft:beach"
+				icon: "minecraft:sandstone"
+				id: "0AC25FCDFE4095A4"
+				optional_task: true
+				type: "biome"
+			}
+			{
+				id: "12826EB6D7434B7E"
+				observe_type: 0
+				timer: 0L
+				to_observe: "minecraft:sand"
+				type: "observation"
+			}
+		]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Biome Exploration"
+}

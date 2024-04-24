@@ -1,0 +1,15 @@
+
+[items]
+	#Should Tiny Tools be enabled?
+	enableTinyTools = true
+	#Should Glaives be enabled?
+	enableGlaives = true
+	#Should Hammers be enabled?
+	enableHammers = true
+	#Should Katanas be enabled?
+	enableKatanas = true
+	#Should Maces be enabled?
+	enableMaces = true
+	#Should Vanilla Tool (Axes, Swords, Iron Pickaxe, etc) recipes be overwritten to use the Molten Fluid system and Heads crafting system? If turned on, the only way to progress is with Tiny Pickaxe system.
+	enableVanillaRecipeOverwrite = true
+

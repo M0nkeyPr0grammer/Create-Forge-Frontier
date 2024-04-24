@@ -1,0 +1,6 @@
+{
+  "biomeSizeModifier": {
+    "desc:": "Biome size modifier, added to the vanilla biome size. Vanilla value:0, min = -8 max = 8 : default:-2",
+    "biomeSizeModifier": -2
+  }
+}
