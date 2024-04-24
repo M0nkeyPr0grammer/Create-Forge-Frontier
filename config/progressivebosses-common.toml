@@ -1,5 +1,5 @@
 "Enable Wither" = true
-"Enable Ender Dragon" = true
+"Enable Ender Dragon" = false
 "Enable Elder Guardian" = true
 
 [Wither]
