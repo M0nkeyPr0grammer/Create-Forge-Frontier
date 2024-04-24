@@ -7,7 +7,12 @@
   "modelExportMode": "NONE",
   "attemptPhysicsModPatch_2": "CUSTOM",
   "modelUpdateFrequency": "Average",
+  "entityRenderModeOverrides": {},
+  "entityPhysicsModPatchOverrides": {},
+  "entityVanillaHologramOverrides": {},
+  "modelsNamesDisabled": [],
   "allowEBEModConfigModify": true,
   "animationLODDistance": 20,
-  "retainDetailOnLowFps": true
+  "retainDetailOnLowFps": true,
+  "retainDetailOnLargerMobs": true
 }

@@ -94,6 +94,9 @@
 			[general.types.wood_type.betterarcheology]
 				rotten = true
 
+			[general.types.wood_type.phantasm]
+				pream = true
+
 		[general.types.leaves_type]
 
 			[general.types.leaves_type.biomesoplenty]
@@ -236,6 +239,9 @@
 				yellow_blossom = true
 				red_blossom = true
 
+			[general.types.leaves_type.phantasm]
+				pream = true
+
 		[general.types.cake]
 
 			[general.types.cake.createaddition]
@@ -357,85 +363,6 @@
 				diamond_planks = true
 				woven_glass_pane = true
 
-			[general.entries.wood_type.mcwfurnitures]
-				stripped_glass_table = true
-				end_table = true
-				stool_chair = true
-				stripped_drawer_counter = true
-				stripped_counter = true
-				covered_desk = true
-				stripped_modern_wardrobe = true
-				stripped_covered_desk = true
-				stripped_cupboard_counter = true
-				stripped_triple_drawer = true
-				stripped_chair = true
-				stripped_modern_desk = true
-				stripped_bookshelf_cupboard = true
-				modern_wardrobe = true
-				striped_chair = true
-				stripped_large_drawer = true
-				wardrobe = true
-				modern_desk = true
-				stripped_end_table = true
-				drawer = true
-				chair = true
-				stripped_table = true
-				double_drawer_counter = true
-				drawer_counter = true
-				counter = true
-				table = true
-				stripped_double_drawer = true
-				lower_triple_drawer = true
-				bookshelf = true
-				stripped_wardrobe = true
-				large_drawer = true
-				stripped_desk = true
-				stripped_lower_triple_drawer = true
-				bookshelf_drawer = true
-				double_drawer = true
-				stripped_coffee_table = true
-				stripped_striped_chair = true
-				stripped_stool_chair = true
-				cupboard_counter = true
-				coffee_table = true
-				glass_table = true
-				stripped_double_drawer_counter = true
-				lower_bookshelf_drawer = true
-				stripped_lower_bookshelf_drawer = true
-				stripped_bookshelf_drawer = true
-				stripped_bookshelf = true
-				modern_chair = true
-				stripped_modern_chair = true
-				bookshelf_cupboard = true
-				desk = true
-				stripped_double_wardrobe = true
-				triple_drawer = true
-				double_wardrobe = true
-				stripped_drawer = true
-
-			[general.entries.wood_type.mcwdoors]
-				japanese2_door = true
-				tropical_door = true
-				barn_glass_door = true
-				four_panel_door = true
-				waffle_door = true
-				cottage_door = true
-				swamp_door = true
-				barn_door = true
-				classic_door = true
-				beach_door = true
-				japanese_door = true
-				stable_door = true
-				modern_door = true
-				nether_door = true
-				stable_head_door = true
-				western_door = true
-				paper_door = true
-				bamboo_door = true
-				glass_door = true
-				mystic_door = true
-				bark_glass_door = true
-
 			[general.entries.wood_type.quark]
 				vertical_planks = true
 				hollow_log = true
@@ -445,17 +372,6 @@
 				trapped_chest = true
 				chest = true
 				stripped_post = true
-
-			[general.entries.wood_type.mcwpaths]
-				planks_path = true
-
-			[general.entries.wood_type.mcwfences]
-				picket_fence = true
-				wired_fence = true
-				pyramid_gate = true
-				highley_gate = true
-				stockade_fence = true
-				horse_fence = true
 
 			[general.entries.wood_type.farmersdelight]
 				cabinet = true
@@ -470,12 +386,15 @@
 				window_pane = true
 				window = true
 
+			[general.entries.wood_type.regions_unexplored]
+				branch = true
+
+			[general.entries.wood_type.mctb]
+				crafting_table = true
+
 		[general.entries.leaves_type]
 
 			[general.entries.leaves_type.quark]
 				hedge = true
 				leaf_carpet = true
-
-			[general.entries.leaves_type.mcwfences]
-				hedge = true
 
