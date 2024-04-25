@@ -5,7 +5,7 @@ ServerEvents.recipes(event => {
         type:"create:compacting",
         ingredients: [
             {
-                item: 'allthecompressed:bone_block_3x',
+                item: 'createcompression:compressed_bone_block_3x',
                 amount: 1
             },
         ],

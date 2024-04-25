@@ -205,45 +205,6 @@ ServerEvents.recipes(event => {
 		]
 	})
 
-    // Creates New Iron Farm Recipe
-    event.custom({
-		type: 'create:compacting',
-		ingredients: [
-			{
-				item: 'minecraft:glass_pane'
-			},
-            {
-				item: 'minecraft:glass_pane'
-			},
-            {
-				item: 'minecraft:glass_pane'
-			},
-            {
-				item: 'minecraft:glass_pane'
-			},
-            {
-				item: 'minecraft:glass_pane'
-			},
-            {
-				item: 'minecraft:lava_bucket'
-			},
-			{
-				item: 'allthecompressed:iron_block_1x'
-			},
-            {
-				item: 'minecraft:stone'
-			},
-            {
-				item: 'allthecompressed:iron_block_1x'
-			}
-		],
-		results: [
-			{
-				item: 'easy_villagers:iron_farm'
-			}
-		]
-	})
-
     // Creates New Incubator Recipe
     event.custom({
 		type: 'create:compacting',

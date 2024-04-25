@@ -19,7 +19,6 @@ ServerEvents.recipes(event => {
 	event.remove({ id: 'create_power_loader:crafting/empty_brass_chunk_loader'})
 	event.remove({ id: 'create_dd:crafting/coal_piece_from_decompacting'})
 	event.remove({ id: 'create_dd:crafting/coal_piece_compacting'})
-	event.remove({ id: 'tiab:time_in_a_bottle'})
 
 	// Iron Plating Crushing Recipe
 	event.custom({
@@ -93,25 +92,6 @@ ServerEvents.recipes(event => {
         ],
     }).id('kubejs:crushing/netherite');
 
-	// Time in A Bottle Crafting Recipe
-	event.custom({
-		type: "create:mechanical_crafting",
-		pattern: [
-			'AAA',
-			'BCB',
-			'DED'
-		],
-		key: {
-			A: Ingredient.of('create:brass_ingot').toJson(),
-			B: Ingredient.of('advancednetherite:netherite_diamond_ingot').toJson(),
-			C: Ingredient.of('minecraft:clock').toJson(),
-			D: Ingredient.of('create_dd:overcharge_alloy').toJson(),
-			E: Ingredient.of('apotheosis:infused_breath').toJson()
-		},
-		result: Ingredient.of('tiab:time_in_a_bottle').toJson(),
-		acceptMirrored: false
-	}).id('kubejs:tiab/time_in_a_bottle');
-
 	// Adjust Coal Recipe
 	event.custom({
 		type: "minecraft:crafting_shapeless",
@@ -174,7 +154,7 @@ ServerEvents.recipes(event => {
 			'CDC'
 		],
 		key: {
-			A: Ingredient.of('allthecompressed:glass_3x').toJson(),
+			A: Ingredient.of('createcompression:compressed_glass_3x').toJson(),
 			B: Ingredient.of('advancednetherite:netherite_diamond_block').toJson(),
 			C: Ingredient.of('create:andesite_casing').toJson(),
 			D: Ingredient.of('create_compressed:shaft_bundle').toJson()
@@ -194,7 +174,7 @@ ServerEvents.recipes(event => {
 			'CCECC'
 		],
 		key: {
-			A: Ingredient.of('allthecompressed:glass_1x').toJson(),
+			A: Ingredient.of('createcompression:compressed_glass_1x').toJson(),
 			B: Ingredient.of('create_power_loader:empty_andesite_chunk_loader').toJson(),
 			C: Ingredient.of('create:brass_casing').toJson(),
 			D: Ingredient.of('create_compressed:mechanism_block').toJson(),
@@ -267,7 +247,7 @@ ServerEvents.recipes(event => {
 		energy_needed: 1000,
 		ingredients: [
 		  {
-			item: 'allthecompressed:stone_2x'
+			item: 'createcompression:compressed_stone_2x'
 		  }
 		],
 		results: [
@@ -332,44 +312,6 @@ ServerEvents.recipes(event => {
 			B: 'cagedmobs:mob_cage',
 			C: 'create:chute'
 		}
-	)
-
-	// Creates New Angel Block Recipe
-	event.shaped(
-		Item.of('angelblockrenewed:angel_block', 1),
-		[
-			'ABA',
-			'B B',
-			'ABA'
-		],
-		{
-			A: 'minecraft:feather',
-			B: 'createaddition:brass_rod'
-		}
-	)
-
-	// Creates New Warp Stone Recipe
-	event.shaped(
-		Item.of('waystones:warp_stone', 1),
-		[
-			'ABA',
-			'BCB',
-			'ABA'
-		],
-		{
-			A: 'create:polished_rose_quartz',
-			B: '#forge:ender_pearls',
-			C: 'minecraft:emerald'
-		}
-	)
-
-	// Creates New Warp Dust Recipe
-	event.shapeless(
-		Item.of('waystones:warp_dust'),
-		[
-			'create:polished_rose_quartz',
-			'#forge:ender_pearls'
-		]
 	)
 
 	// Creates Structure Compass Recipe
