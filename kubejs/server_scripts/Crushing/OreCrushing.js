@@ -7,10 +7,6 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'create:crushing/sculk_stone_coal_ore'})
     event.remove({ id: 'create:crushing/glacio_coal_ore'})
     event.remove({ id: 'create:crushing/venus_coal_ore'})
-    event.remove({ id: 'spelunkery:crushing/tuff_coal_ore'})
-    event.remove({ id: 'spelunkery:crushing/diorite_coal_ore'})
-    event.remove({ id: 'spelunkery:crushing/granite_coal_ore'})
-    event.remove({ id: 'spelunkery:crushing/andesite_coal_ore'})
     event.remove({ id: 'vintageimprovements:crushing/scoria'})
     event.remove({ id: 'vintageimprovements:crushing/scoria_recycling'})
     event.remove({ id: 'create_dd:crushing/scorchia'})
@@ -176,21 +172,6 @@ ServerEvents.recipes(event => {
 		]
 	}).id('kubejs:crushing/a_coal_ore');
 
-    // Spelunkery Coal Ore
-    event.custom({
-		type: "create:crushing",
-		ingredients: [
-			{ tag: 'spelunkery:coal_ores' }
-		],
-		processingTime: 400,
-		results: [
-			{ item: 'minecraft:coal' },
-			{ item: 'minecraft:coal', chance: 0.75 },
-			{ item: 'create:experience_nugget', chance: 0.75 },
-			{ item: 'minecraft:cobblestone', chance: 0.12 }
-		]
-	}).id('kubejs:crushing/s_coal_ore');
-
     // Removes Old Iron Ore Recipes
     event.remove({ id: 'create:crushing/iron_ore'})
     event.remove({ id: 'create:crushing/deepslate_iron_ore'})
@@ -199,11 +180,6 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'create:crushing/glacio_iron_ore'})
     event.remove({ id: 'create:crushing/mercury_iron_ore'})
     event.remove({ id: 'create:crushing/mars_iron_ore'})
-    event.remove({ id: 'create:crushing/moon_iron_ore'})
-    event.remove({ id: 'spelunkery:crushing/tuff_iron_ore'})
-    event.remove({ id: 'spelunkery:crushing/diorite_iron_ore'})
-    event.remove({ id: 'spelunkery:crushing/granite_iron_ore'})
-    event.remove({ id: 'spelunkery:crushing/andesite_iron_ore'})
 
     // Iron Ore
 
@@ -222,20 +198,6 @@ ServerEvents.recipes(event => {
         ],
     }).id('kubejs:crushing/iron_ore');
 
-    // Spelunkery Iron Ore
-    event.custom({
-		type: "create:crushing",
-		ingredients: [
-			{ tag: 'spelunkery:iron_ores' }
-		],
-		processingTime: 400,
-		results: [
-			{ item: 'create:crushed_raw_iron' },
-			{ item: 'create:crushed_raw_iron', chance: 0.75 },
-			{ item: 'create:experience_nugget', chance: 0.75 },
-			{ item: 'minecraft:cobblestone', chance: 0.12 }
-		]
-	}).id('kubejs:crushing/s_iron_ore');
 
     // Removes Old Copper Ore Recipes
     event.remove({ id: 'create:crushing/copper_ore'})
@@ -244,10 +206,6 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'create:crushing/sculk_stone_copper_ore'})
     event.remove({ id: 'create:crushing/glacio_copper_ore'})
     event.remove({ id: 'create:crushing/venus_copper_ore'})
-    event.remove({ id: 'spelunkery:crushing/tuff_copper_ore'})
-    event.remove({ id: 'spelunkery:crushing/diorite_copper_ore'})
-    event.remove({ id: 'spelunkery:crushing/granite_copper_ore'})
-    event.remove({ id: 'spelunkery:crushing/andesite_copper_ore'})
 
     // Copper Ore
 
@@ -266,21 +224,6 @@ ServerEvents.recipes(event => {
         ],
     }).id('kubejs:crushing/copper_ore');
 
-    // Spelunkery Copper Ore
-    event.custom({
-		type: "create:crushing",
-		ingredients: [
-			{ tag: 'spelunkery:copper_ores' }
-		],
-		processingTime: 400,
-		results: [
-			{ item: 'create:crushed_raw_copper', count: 5 },
-			{ item: 'create:crushed_raw_copper', chance: 0.75 },
-			{ item: 'create:experience_nugget', chance: 0.75 },
-			{ item: 'minecraft:cobblestone', chance: 0.12 }
-		]
-	}).id('kubejs:crushing/s_copper_ore');
-
     // Removes Old Gold Ore Recipes
     event.remove({ id: 'create:crushing/gold_ore'})
     event.remove({ id: 'create:crushing/deepslate_gold_ore'})
@@ -288,10 +231,6 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'create:crushing/sculk_stone_gold_ore'})
     event.remove({ id: 'create:crushing/glacio_gold_ore'})
     event.remove({ id: 'create:crushing/venus_gold_ore'})
-    event.remove({ id: 'spelunkery:crushing/tuff_gold_ore'})
-    event.remove({ id: 'spelunkery:crushing/diorite_gold_ore'})
-    event.remove({ id: 'spelunkery:crushing/granite_gold_ore'})
-    event.remove({ id: 'spelunkery:crushing/andesite_gold_ore'})
     event.remove({ id: 'create:crushing/nether_gold_ore'})
 
     // Gold Ore
@@ -311,21 +250,6 @@ ServerEvents.recipes(event => {
         ],
     }).id('kubejs:crushing/gold_ore');
 
-    // Spelunkery Gold Ore
-    event.custom({
-		type: "create:crushing",
-		ingredients: [
-			{ tag: 'spelunkery:gold_ores' }
-		],
-		processingTime: 400,
-		results: [
-			{ item: 'create:crushed_raw_gold' },
-			{ item: 'create:crushed_raw_gold', chance: 0.75 },
-			{ item: 'create:experience_nugget', chance: 0.75 },
-			{ item: 'minecraft:cobblestone', chance: 0.12 }
-		]
-	}).id('kubejs:crushing/s_gold_ore');
-
     // Removes Old Redstone Ore Recipes
     event.remove({ id: 'create:crushing/redstone_ore'})
     event.remove({ id: 'create:crushing/deepslate_redstone_ore'})
@@ -333,11 +257,6 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'create:crushing/sculk_stone_redstone_ore'})
     event.remove({ id: 'create:crushing/glacio_redstone_ore'})
     event.remove({ id: 'create:crushing/venus_redstone_ore'})
-    event.remove({ id: 'spelunkery:crushing/tuff_redstone_ore'})
-    event.remove({ id: 'spelunkery:crushing/diorite_redstone_ore'})
-    event.remove({ id: 'spelunkery:crushing/granite_redstone_ore'})
-    event.remove({ id: 'spelunkery:crushing/andesite_redstone_ore'})
-    event.remove({ id: 'spelunkery:crushing/calcite_redstone_ore'})
 
     // Redstone Ore
 
@@ -355,21 +274,6 @@ ServerEvents.recipes(event => {
             { item: 'minecraft:cobblestone', chance: 0.12 },
         ],
     }).id('kubejs:crushing/redstone_ore');
-
-    // Spelunkery Redstone Ore
-    event.custom({
-		type: "create:crushing",
-		ingredients: [
-			{ tag: 'spelunkery:redstone_ores' }
-		],
-		processingTime: 400,
-		results: [
-			{ item: 'minecraft:redstone', count: 6 },
-			{ item: 'minecraft:redstone', chance: 0.75 },
-			{ item: 'create:experience_nugget', chance: 0.75 },
-			{ item: 'minecraft:cobblestone', chance: 0.12 }
-		]
-	}).id('kubejs:crushing/s_redstone_ore');
 
     // Alex Caves Ore
     event.custom({
@@ -393,10 +297,6 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'create:crushing/sculk_stone_emerald_ore'})
     event.remove({ id: 'create:crushing/glacio_emerald_ore'})
     event.remove({ id: 'create:crushing/venus_emerald_ore'})
-    event.remove({ id: 'spelunkery:crushing/tuff_emerald_ore'})
-    event.remove({ id: 'spelunkery:crushing/diorite_emerald_ore'})
-    event.remove({ id: 'spelunkery:crushing/granite_emerald_ore'})
-    event.remove({ id: 'spelunkery:crushing/andesite_emerald_ore'})
 
     // Emerald Ore
 
@@ -415,21 +315,6 @@ ServerEvents.recipes(event => {
         ],
     }).id('kubejs:crushing/emerald_ore');
 
-    // Spelunkery Emerald Ore
-    event.custom({
-		type: "create:crushing",
-		ingredients: [
-			{ tag: 'spelunkery:emerald_ores' }
-		],
-		processingTime: 400,
-		results: [
-			{ item: 'minecraft:emerald' },
-			{ item: 'minecraft:emerald', chance: 0.75 },
-			{ item: 'create:experience_nugget', chance: 0.75 },
-			{ item: 'minecraft:cobblestone', chance: 0.12 }
-		]
-	}).id('kubejs:crushing/s_emerald_ore');
-
     // Removes Old Lapis Ore Recipes
     event.remove({ id: 'create:crushing/lapis_ore'})
     event.remove({ id: 'create:crushing/deepslate_lapis_ore'})
@@ -437,11 +322,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'create:crushing/sculk_stone_lapis_ore'})
     event.remove({ id: 'create:crushing/glacio_lapis_ore'})
     event.remove({ id: 'create:crushing/venus_lapis_ore'})
-    event.remove({ id: 'spelunkery:crushing/tuff_lapis_ore'})
-    event.remove({ id: 'spelunkery:crushing/diorite_lapis_ore'})
-    event.remove({ id: 'spelunkery:crushing/granite_lapis_ore'})
-    event.remove({ id: 'spelunkery:crushing/andesite_lapis_ore'})
-    event.remove({ id: 'spelunkery:crushing/sandstone_lapis_ore'})
+
 
     // Lapis Ore
 
@@ -460,21 +341,6 @@ ServerEvents.recipes(event => {
         ],
     }).id('kubejs:crushing/lapis_ore');
 
-    // Spelunkery Lapis Ore
-    event.custom({
-		type: "create:crushing",
-		ingredients: [
-			{ tag: 'spelunkery:lapis_ores' }
-		],
-		processingTime: 400,
-		results: [
-			{ item: 'minecraft:lapis_lazuli', count: 10 },
-			{ item: 'minecraft:lapis_lazuli', chance: 0.75 },
-			{ item: 'create:experience_nugget', chance: 0.75 },
-			{ item: 'minecraft:cobblestone', chance: 0.12 }
-		]
-	}).id('kubejs:crushing/s_lapis_ore');
-
     // Removes Old Diamond Ore Recipes
     event.remove({ id: 'create:crushing/diamond_ore'})
     event.remove({ id: 'create:crushing/deepslate_diamond_ore'})
@@ -482,11 +348,6 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'create:crushing/sculk_stone_diamond_ore'})
     event.remove({ id: 'create:crushing/venus_diamond_ore'})
     event.remove({ id: 'create:crushing/mars_diamond_ore'})
-    event.remove({ id: 'spelunkery:crushing/tuff_diamond_ore'})
-    event.remove({ id: 'spelunkery:crushing/diorite_diamond_ore'})
-    event.remove({ id: 'spelunkery:crushing/granite_diamond_ore'})
-    event.remove({ id: 'spelunkery:crushing/andesite_diamond_ore'})
-    event.remove({ id: 'spelunkery:crushing/smooth_basalt_diamond_ore'})
 
     // Diamond Ore
 
@@ -504,21 +365,6 @@ ServerEvents.recipes(event => {
             { item: 'minecraft:cobblestone', chance: 0.12 },
         ],
     }).id('kubejs:crushing/diamond_ore');
-
-    // Spelunkery Diamond Ore
-    event.custom({
-		type: "create:crushing",
-		ingredients: [
-			{ tag: 'spelunkery:diamond_ores' }
-		],
-		processingTime: 400,
-		results: [
-			{ item: 'minecraft:diamond'},
-			{ item: 'minecraft:diamond', chance: 0.75 },
-			{ item: 'create:experience_nugget', chance: 0.75 },
-			{ item: 'minecraft:cobblestone', chance: 0.12 }
-		]
-	}).id('kubejs:crushing/s_diamond_ore');
 
     // Removes Old Quartz Ore Recipes
     event.remove({ id: 'create:crushing/nether_quartz_ore'})

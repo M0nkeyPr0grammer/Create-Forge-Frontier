@@ -16,25 +16,4 @@ ServerEvents.recipes(event => {
 		]
 	}).id('kubejs:crushing/raw_redstone');
 
-	// Salt Bucket to Salt
-	event.custom({
-		type: "create:crushing",
-		ingredients: [
-			{
-				item: "spelunkery:salt_bucket",
-				count: 1
-			}
-		],
-		results: [
-			{
-				item: "spelunkery:salt",
-				count: 8
-			},
-			{
-				item: "minecraft:bucket",
-				count: 1
-			}
-		]
-	}).id('kubejs:crushing/salt');
-
 })
