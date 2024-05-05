@@ -109,6 +109,42 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'design_decor:item_application/millstones/special_aluminum_cylinder' });
     event.remove({ id: 'railways:sequenced_assembly/track_biomesoplenty_cherry_wide' });
 
+    // Quick Fix for Log Cleanup, will adjust later
+    event.remove({ id:'create:crushing/sandstone/2x_to_2x_sand' });
+    event.remove({ id:'cp_tweaks:rockets/tier_6_rocket' });
+    event.remove({ id:'twilightforest:environments/maze' });
+    event.remove({ id: 'create:milling/sandstone/7x_to_7x_sand' });
+    event.remove({ id:'tfmg:mechanical_crafting/pumpjack_hammer_holder' });
+    event.remove({ id:'create:milling/sandstone/2x_to_2x_sand' });
+    event.remove({ id:'twilightdelight:neapolitan/torchberry_cake_slice' });
+    event.remove({ id:'create:milling/sandstone/8x_to_8x_sand' });
+    event.remove({ id:'create:crushing/sandstone/6x_to_6x_sand' });
+    event.remove({ id:'twilightforest:bosses/lich' });
+    event.remove({ id:'twilightdelight:refreshing_ice_cream' });
+    event.remove({ id:'create:crushing/sandstone/8x_to_8x_sand' });
+    event.remove({ id:'create:crushing/dripstone/1x_to_9x_clay_ball' });
+    event.remove({ id:'create:crushing/sandstone/4x_to_4x_sand' });
+    event.remove({ id:'twilightdelight:neapolitan/glacier_cake_slice' });
+    event.remove({ id:'create:milling/sandstone/4x_to_4x_sand' });
+    event.remove({ id:'twilightdelight:neapolitan/phytochemical_cake_slice' });
+    event.remove({ id:'create:milling/sandstone/6x_to_6x_sand' });
+    event.remove({ id:'create:crushing/sandstone/5x_to_5x_sand' });
+    event.remove({ id:'quark:entities/frog' });
+    event.remove({ id:'twilightdelight:twilight_ice_cream' });
+    event.remove({ id:'create:crushing/sandstone/3x_to_3x_sand' });
+    event.remove({ id:'create:crushing/sandstone/1x_to_1x_sand' });
+    event.remove({ id:'twilightdelight:aurora_cake_slice' });
+    event.remove({ id:'quark:entities/pig_tallow' });
+    event.remove({ id:'create:milling/dripstone/1x_to_9x_clay_ball' });
+    event.remove({ id:'create:milling/sandstone/5x_to_5x_sand' });
+    event.remove({ id:'create:crushing/sandstone/9x_to_9x_sand' });
+    event.remove({ id:'twilightdelight:rainbow_ice_cream' });
+    event.remove({ id:'quark:entities/wrapped' });
+    event.remove({ id:'create:milling/sandstone/1x_to_1x_sand' });
+    event.remove({ id:'create:milling/sandstone/3x_to_3x_sand' });
+    event.remove({ id:'create:crushing/sandstone/7x_to_7x_sand' });
+    event.remove({ id:'twilightdelight:neapolitan/aurora_cake_slice'});
+    event.remove({ id:'create:milling/sandstone/9x_to_9x_sand'});
 
     // Removes Failed Compatibility Related Recipes
     event.remove({ id: 'railways:sequenced_assembly/track_tieless_narrow'});
