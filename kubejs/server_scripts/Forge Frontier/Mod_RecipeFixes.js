@@ -37,7 +37,6 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'extrastorage:advanced_importer'});
     event.remove({ id: 'extrastorage:advanced_exporter'});
 
-
     // Removes Broken Recipes
     event.remove({ id: 'supplementaries:integration/ash_bricks_fd' });
     event.remove({ id: 'supplementaries:integration/lapis_bricks_fd' });
@@ -57,16 +56,9 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'mctb:mining_crafting_table' });
     event.remove({ id: 'mctb:wigglewood_crafting_table' });
     event.remove({ id: 'mctb:archwood_planks_crafting_table' });
-    event.remove({ id: 'mctb:dark_crafting_table' });
     event.remove({ id: 'mctb:demonic_planks_crafting_table' });
-    event.remove({ id: 'mctb:twilight_mangrove_crafting_table' });
-    event.remove({ id: 'mctb:canopy_crafting_table' });
     event.remove({ id: 'mctb:grongle_crafting_table' });
-    event.remove({ id: 'mctb:twilight_oak_crafting_table' });
     event.remove({ id: 'mctb:menril_planks_crafting_table' });
-    event.remove({ id: 'mctb:time_crafting_table' });
-    event.remove({ id: 'mctb:transformation_crafting_table' });
-    event.remove({ id: 'mctb:sorting_crafting_table' });
     event.remove({ id: 'mctb:bop_cherry_crafting_table' });
     event.remove({ id: 'mctb:walnut_planks_crafting_table' });
     event.remove({ id: 'mctb:soul_planks_crafting_table' });
