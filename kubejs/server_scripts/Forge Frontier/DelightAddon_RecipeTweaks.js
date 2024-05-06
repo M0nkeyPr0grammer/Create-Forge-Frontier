@@ -6,12 +6,6 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'casualness_delight:cooking/fish_and_chips' })
     event.remove({ id: 'casualness_delight:cooking/raw_cheese_wheel' })
 
-    // Twilight Delight
-    event.remove({ id: 'twilightdelight:twilight_ice_cream' })
-    event.remove({ id: 'twilightdelight:teardrop_sword' })
-    event.remove({ id: 'twilightdelight:refreshing_ice_cream' })
-    event.remove({ id: 'twilightdelight:rainbow_ice_cream' })
-
     // Casualness Delight
 
     // Beef Noodles Recipe Fix
@@ -182,5 +176,246 @@ ServerEvents.recipes(event => {
         cookingtime: 200,
         experience: 10
       })
+
+      // Chorus Fruit Milk Tea Recipe Fix
+      event.custom({
+        type: "farmersdelight:cooking",
+        ingredients: [
+          {
+            tag: "forge:milk"
+          },
+          [
+            {
+              item: "minecraft:chorus_fruit"
+            },
+            {
+              item: "ends_delight:chorus_fruit_grain"
+            }
+          ]
+        ],
+        result: {
+          item: "ends_delight:chorus_fruit_milk_tea"
+        },
+        cookingtime: 200,
+        experience: 5
+      })
+
+      // Bubble Tea Recipe Fix
+      event.custom({
+        type: "farmersdelight:cooking",
+        ingredients: [
+          {
+            tag: "forge:milk"
+          },
+          [
+            {
+              item: "minecraft:chorus_fruit"
+            },
+            {
+              item: "ends_delight:chorus_fruit_grain"
+            }
+          ],
+          {
+            item: "ends_delight:ender_pearl_grain"
+          }
+        ],
+        result: {
+          item: "ends_delight:bubble_tea"
+        },
+        cookingtime: 200,
+        experience: 5
+      })
+
+      // Ender Sauce Recipe Fix
+      event.custom({
+          type: "farmersdelight:cooking",
+          ingredients: [
+            {
+              item: "ends_delight:chorus_succulent"
+            },
+            [
+              {
+                item: "minecraft:chorus_fruit"
+              },
+              {
+                item: "ends_delight:chorus_fruit_grain"
+              }
+            ]
+          ],
+          result: {
+            item: "ends_delight:ender_sauce"
+          },
+          cookingtime: 200,
+          experience: 5
+        })
+
+        // Chorus Fruit Wine Recipe Fix
+        event.custom(
+          {
+            type: "farmersdelight:cooking",
+            ingredients: [
+              {
+                item: "minecraft:sugar"
+              },
+              [
+                {
+                  item: "minecraft:chorus_fruit"
+                },
+                {
+                  item: "ends_delight:chorus_fruit_grain"
+                }
+              ],
+              [
+                {
+                  item: "minecraft:chorus_fruit"
+                },
+                {
+                  item: "ends_delight:chorus_fruit_grain"
+                }
+              ]
+            ],
+            result: {
+              item: "ends_delight:chorus_fruit_wine"
+            },
+            cookingtime: 200,
+            experience: 5
+          })
+
+          // Ender Congee Recipe Fix
+          event.custom({
+              type: "farmersdelight:cooking",
+              ingredients: [
+                {
+                  tag: "forge:crops/rice"
+                },
+                {
+                  item: "ends_delight:dried_endermite_meat"
+                },
+                {
+                  item: "ends_delight:ender_pearl_grain"
+                }
+              ],
+              container: {
+                "item": "minecraft:bowl"
+              },
+              result: {
+                item: "ends_delight:ender_congee"
+              },
+              cookingtime: 200,
+              experience: 5
+            })
+
+            // Dragon Breath and Chorus Fruit Soup Recipe Fix
+            event.custom({
+                type: "farmersdelight:cooking",
+                ingredients: [
+                  {
+                    item: "minecraft:suspicious_stew"
+                  },
+                  {
+                    item: "minecraft:dragon_breath"
+                  },
+                  {
+                    item: "minecraft:chorus_flower"
+                  },
+                  {
+                    item: "minecraft:chorus_fruit"
+                  },
+                  {
+                    item: "minecraft:chorus_fruit"
+                  }
+                ],
+                result: {
+                  item: "ends_delight:dragon_breath_and_chorus_soup"
+                },
+                cookingtime: 200,
+                experience: 5
+              })
+
+              // Steam Dragon Egg Block Recipe Fix
+              event.custom({
+                  type: "farmersdelight:cooking",
+                  ingredients: [
+                    {
+                      item: "ends_delight:liquid_dragon_egg"
+                    },
+                    {
+                      tag: "forge:shulker_meat"
+                    },
+                    {
+                      item: "minecraft:chorus_fruit"
+                    },
+                    {
+                      item: "minecraft:brown_mushroom"
+                    },
+                    {
+                      item: "ends_delight:chorus_succulent"
+                    },
+                    {
+                      tag: "forge:crops/onion"
+                    }
+                  ],
+                  result: {
+                    item: "ends_delight:steamed_dragon_egg_block"
+                  },
+                  container: {
+                    item: "ends_delight:half_dragon_egg_shell"
+                  },
+                  cookingtime: 200,
+                  experience: 5
+                }
+              )
+
+              // Chorus Flower Tea Recipe Fix
+              event.custom({
+                type: "farmersdelight:cooking",
+                ingredients: [
+                  {
+                    item: "minecraft:ghast_tear"
+                  },
+                  {
+                    item: "ends_delight:dried_chorus_flower"
+                  }
+                ],
+                result: {
+                  "item": "ends_delight:chorus_flower_tea"
+                },
+                cookingtime: 200,
+                experience: 5
+              })
+
+              // Ender Sauce Recipe Fix
+              event.custom({
+                type: "farmersdelight:cooking",
+                ingredients: [
+                  {
+                    item: "ends_delight:chorus_succulent"
+                  },
+                  [
+                    {
+                      item: "minecraft:chorus_fruit"
+                    },
+                    {
+                      item: "ends_delight:chorus_fruit_grain"
+                    }
+                  ]
+                ],
+                result: {
+                  item: "ends_delight:ender_sauce"
+                },
+                cookingtime: 200,
+                experience: 5
+              })
+
+      // Twilight Delight
+        event.remove({ id: 'twilightdelight:teardrop_sword' })
+
+      // Twilight Tear Drop Sword
+      event.smithing(
+        "twilightdelight:teardrop_sword",
+        'minecraft:netherite_upgrade_smithing_template',
+        "twilightforest:fiery_sword",
+        "twilightdelight:experiment_110"
+      )
 
 })
