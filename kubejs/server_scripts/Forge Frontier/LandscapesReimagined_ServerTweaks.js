@@ -1,6 +1,7 @@
 // priority: 0
 
 ServerEvents.recipes(event => {
+	
 	// Remove recipes here
 	event.remove({ id: 'chipped:benches/mechanist_workbench' }) // Removes Recipe, fixed below
 	event.remove({ id: 'createaddition:crafting/diamond_grit_sandpaper' }) // Removes Broken Recipe

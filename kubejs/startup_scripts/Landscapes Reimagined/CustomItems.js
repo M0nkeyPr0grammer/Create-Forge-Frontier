@@ -1,5 +1,41 @@
 
 StartupEvents.registry('block', event => {
+    event.create('overcharged_iron_block')
+        .displayName('Overcharged Iron Block')
+        .soundType('metal') 
+        .mapColor('Stone') 
+        .hardness(2.0)
+        .model('kubejs:block/overcharged_iron_block')
+        .requiresTool(true)
+        .renderType('solid')
+        .tagItem('tooltiprareness:common_item')
+        .tagBlock("mineable/pickaxe")
+        .fullBlock(true);     
+    
+    event.create('overcharged_gold_block')
+        .displayName('Overcharged Gold Block')
+        .soundType('metal') 
+        .mapColor('Stone') 
+        .hardness(2.0)
+        .model('kubejs:block/overcharged_gold_block')
+        .requiresTool(true)
+        .renderType('solid')
+        .tagItem('tooltiprareness:common_item')
+        .tagBlock("mineable/pickaxe")
+        .fullBlock(true);     
+
+    event.create('overcharged_diamond_block')
+        .displayName('Overcharged Diamond Block')
+        .soundType('metal') 
+        .mapColor('Stone') 
+        .hardness(2.0)
+        .model('kubejs:block/overcharged_diamond_block')
+        .requiresTool(true)
+        .renderType('solid')
+        .tagItem('tooltiprareness:common_item')
+        .tagBlock("mineable/pickaxe")
+        .fullBlock(true);     
+
     event.create('trophy_block')
         .displayName('Landscapes Reimagined Trophy')
         .soundType('metal') // Example, replace 'wood' with the appropriate sound type
