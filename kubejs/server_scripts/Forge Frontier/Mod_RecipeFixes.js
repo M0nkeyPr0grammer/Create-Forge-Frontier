@@ -1,6 +1,164 @@
 // Mod Recipe Fixes
 ServerEvents.recipes(event => {
 
+    // Caged Mobs Twilight Forest Compat Recipe Fixes
+
+    // Recipe Removal
+    event.remove({ id: 'twilightforest:environments/maze'})
+
+    // Naga Cage Recipe Fix
+    event.custom({
+        type: "cagedmobs:environment_data",
+        conditions: [
+            {
+                type: "forge:mod_loaded",
+                modid: "twilightforest"
+            }
+        ],
+        input: {
+            item: "twilightforest:mazestone_brick"
+        },
+        render: "twilightforest:mazestone_brick",
+        growModifier: 1.0,
+        categories: ["maze"]
+    })
+
+    // Recipe Removal
+    event.remove({ id: 'twilightforest:bosses/lich'})
+
+    // Lich Boss Cage Recipe Fix
+    event.custom({
+        type: "cagedmobs:entity_data",
+        conditions: [
+            {
+                type: "forge:mod_loaded",
+                modid: "twilightforest"
+            }
+        ],
+        entity: "twilightforest:lich",
+        samplerTier: 3,
+        environments: ["forest"],
+        growTicks: 2400,
+        results: [
+            {
+                chance: 0.4,
+                    output: {
+                        item: "minecraft:ender_pearl"
+                    },
+                    minAmount: 1,
+                    maxAmount: 1
+            },
+            {
+                chance: 0.5,
+                    output: {
+                        item: "minecraft:bone"
+                    },
+                    minAmount: 1,
+                    maxAmount: 3
+            },
+            {
+                chance: 0.01,
+                output: {
+                    item: "twilightforest:zombie_scepter"
+                },
+                randomDurability: true,
+                minAmount: 1,
+                maxAmount: 1
+            },
+            {
+                chance: 0.01,
+                output: {
+                    item: "twilightforest:lifedrain_scepter"
+                },
+                randomDurability: true,
+                minAmount: 1,
+                maxAmount: 1
+            },
+            {
+                chance: 0.01,
+                output: {
+                    item: "twilightforest:twilight_scepter"
+                },
+                randomDurability: true,
+                minAmount: 1,
+                maxAmount: 1
+            },
+            {
+                chance: 0.01,
+                output: {
+                    item: "twilightforest:fortification_scepter"
+                },
+                randomDurability: true,
+                minAmount: 1,
+                maxAmount: 1
+            },
+            {
+                chance: 0.05,
+                output: {
+                    item: "minecraft:golden_sword"
+                },
+                randomDurability: true,
+                minAmount: 1,
+                maxAmount: 1
+            },
+            {
+                chance: 0.05,
+                output: {
+                    item: "minecraft:golden_helmet"
+                },
+                randomDurability: true,
+                minAmount: 1,
+                maxAmount: 1
+            },
+            {
+                chance: 0.05,
+                output: {
+                    item: "minecraft:golden_chestplate"
+                },
+                randomDurability: true,
+                minAmount: 1,
+                maxAmount: 1
+            },
+            {
+                chance: 0.05,
+                output: {
+                    item: "minecraft:golden_leggings"
+                },
+                randomDurability: true,
+                minAmount: 1,
+                maxAmount: 1
+            },
+            {
+                chance: 0.05,
+                output: {
+                    item: "minecraft:golden_boots"
+                },
+                randomDurability: true,
+                minAmount: 1,
+                maxAmount: 1
+            }
+        ]
+        
+    })
+
+    // Create Things and Misc
+    // Broken Recipe Removals
+    event.remove({ id:'create_things_and_misc:netheriteportablewithlecraft'})
+    event.remove({ id: 'create_things_and_misc:schematic_chair'})
+    event.remove({ id: 'create_things_and_misc:copper_scaffolding_craft'})
+
+    // Netherite Portable Whistle Smithing Fix
+    event.smithing(
+        'create_things_and_misc:netherite_portable_whistle',
+        'minecraft:netherite_upgrade_smithing_template',
+        'create_things_and_misc:portable_whistle',
+        'minecraft:netherite_ingot'
+    )
+
+    // Design & Decor Recipe Removals
+    event.remove({ id:'design_decor:stonecutting/metals/iron/screw'})
+    event.remove({ id: 'design_decor:stonecutting/metals/iron/bolt'})
+
     // Removes Duplicate Recipes
     event.remove({ id: 'extrastorage:storage_block/block_256k'});
     event.remove({ id: 'extrastorage:storage_block/block_1024k'});
@@ -38,13 +196,6 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'extrastorage:advanced_exporter'});
 
     // Removes Broken Recipes
-    event.remove({ id: 'supplementaries:integration/ash_bricks_fd' });
-    event.remove({ id: 'supplementaries:integration/lapis_bricks_fd' });
-    event.remove({ id: 'createdieselgenerators:crafting/engine_piston'});
-    event.remove({ id: 'createdieselgenerators:mechanical_crafting/diesel_engine'});
-    event.remove({ id: 'createdieselgenerators:mechanical_crafting/large_diesel_engine'});
-    event.remove({ id: 'createdieselgenerators:compacting/plant_oil'})
-    event.remove({ id: 'sliceanddice:sprinkler'});
     event.remove({ id: 'create_confectionery:ruby_chocolate_recipe_6' });
     event.remove({ id: 'create_confectionery:white_chocolate_recipe_6' });
     event.remove({ id: 'create_confectionery:chocolate_recipe_6' });
@@ -68,16 +219,6 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'mctb:ad_ancient_crafting_table' });
 
     // Removes Missing Item Related Recipes
-    event.remove({ id: 'create:cutting/stripped_cherry_log' });
-    event.remove({ id: 'create:cutting/stripped_cherry_wood' });
-    event.remove({ id: 'create:cutting/cherry_log' });
-    event.remove({ id: 'create:cutting/cherry_wood' });
-    event.remove({ id: 'create:pressing/plains_path' });
-    event.remove({ id: 'create:pressing/forest_path' });
-    event.remove({ id: 'create:filling/plain_grass_block' });
-    event.remove({ id: 'create:filling/forest_grass_block' });
-    event.remove({ id: 'create:milling/white_trilium' });
-    event.remove({ id: 'create:milling/wilting_trilium' });
     event.remove({ id: 'createaddition:compat/ae2/charged_certus_quartz' });
     event.remove({ id: 'create:cutting/compat/biomesoplenty/cherry_log' });
     event.remove({ id: 'tfmg:colored_concrete/full_block/yellow_concrete_q' });
@@ -90,7 +231,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'tfmg:colored_concrete/full_block/light_gray_concrete_q' });
     event.remove({ id: 'tfmg:colored_concrete/full_block/cyan_concrete_q' });
     event.remove({ id: 'tfmg:colored_concrete/full_block/purple_concrete_q' });
-    event.remove({ id: 'design_decor:item_application/crushing_wheels/special_aluminum_cylinder' });
+    event.remove({ id: 'design_decor:item_application/crushing_wheels/special_aluminum_cylinder' }); 
     event.remove({ id: 'tfmg:colored_concrete/full_block/light_blue_concrete_q' });
     event.remove({ id: 'tfmg:colored_concrete/full_block/green_concrete_q' });
     event.remove({ id: 'railways:sequenced_assembly/track_biomesoplenty_cherry' });
@@ -101,49 +242,37 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'tfmg:colored_concrete/full_block/gray_concrete_q' });
     event.remove({ id: 'tfmg:colored_concrete/full_block/brown_concrete_q' });
     event.remove({ id: 'tfmg:colored_concrete/full_block/pink_concrete' });
-    event.remove({ id: 'create_things_and_misc:schematic_chair' });
-    event.remove({ id: 'create:filling/chocolate_bagutte' });
-    event.remove({ id: 'create_things_and_misc:copper_scaffolding_craft' });
+    event.remove({ id: 'create:filling/chocolate_bagutte' }); 
     event.remove({ id: 'tfmg:colored_concrete/full_block/orange_concrete_q' });
     event.remove({ id: 'create:cutting/compat/biomesoplenty/stripped_cherry_log' });
     event.remove({ id: 'design_decor:item_application/millstones/special_aluminum_cylinder' });
     event.remove({ id: 'railways:sequenced_assembly/track_biomesoplenty_cherry_wide' });
 
-    // Quick Fix for Log Cleanup, will adjust later
+    // Broken Recipe Removals
     event.remove({ id:'create:crushing/sandstone/2x_to_2x_sand' });
     event.remove({ id:'cp_tweaks:rockets/tier_6_rocket' });
-    event.remove({ id:'twilightforest:environments/maze' });
     event.remove({ id: 'create:milling/sandstone/7x_to_7x_sand' });
     event.remove({ id:'tfmg:mechanical_crafting/pumpjack_hammer_holder' });
     event.remove({ id:'create:milling/sandstone/2x_to_2x_sand' });
-    event.remove({ id:'twilightdelight:neapolitan/torchberry_cake_slice' });
     event.remove({ id:'create:milling/sandstone/8x_to_8x_sand' });
     event.remove({ id:'create:crushing/sandstone/6x_to_6x_sand' });
-    event.remove({ id:'twilightforest:bosses/lich' });
-    event.remove({ id:'twilightdelight:refreshing_ice_cream' });
     event.remove({ id:'create:crushing/sandstone/8x_to_8x_sand' });
     event.remove({ id:'create:crushing/dripstone/1x_to_9x_clay_ball' });
     event.remove({ id:'create:crushing/sandstone/4x_to_4x_sand' });
-    event.remove({ id:'twilightdelight:neapolitan/glacier_cake_slice' });
     event.remove({ id:'create:milling/sandstone/4x_to_4x_sand' });
-    event.remove({ id:'twilightdelight:neapolitan/phytochemical_cake_slice' });
     event.remove({ id:'create:milling/sandstone/6x_to_6x_sand' });
     event.remove({ id:'create:crushing/sandstone/5x_to_5x_sand' });
     event.remove({ id:'quark:entities/frog' });
-    event.remove({ id:'twilightdelight:twilight_ice_cream' });
     event.remove({ id:'create:crushing/sandstone/3x_to_3x_sand' });
     event.remove({ id:'create:crushing/sandstone/1x_to_1x_sand' });
-    event.remove({ id:'twilightdelight:aurora_cake_slice' });
     event.remove({ id:'quark:entities/pig_tallow' });
     event.remove({ id:'create:milling/dripstone/1x_to_9x_clay_ball' });
     event.remove({ id:'create:milling/sandstone/5x_to_5x_sand' });
     event.remove({ id:'create:crushing/sandstone/9x_to_9x_sand' });
-    event.remove({ id:'twilightdelight:rainbow_ice_cream' });
     event.remove({ id:'quark:entities/wrapped' });
     event.remove({ id:'create:milling/sandstone/1x_to_1x_sand' });
     event.remove({ id:'create:milling/sandstone/3x_to_3x_sand' });
     event.remove({ id:'create:crushing/sandstone/7x_to_7x_sand' });
-    event.remove({ id:'twilightdelight:neapolitan/aurora_cake_slice'});
     event.remove({ id:'create:milling/sandstone/9x_to_9x_sand'});
 
     // Removes Failed Compatibility Related Recipes
@@ -215,17 +344,5 @@ ServerEvents.recipes(event => {
             }
         });
   
-    // Fixes Slice and Dice Sprinkler Recipe
-    event.shaped(
-        Item.of('sliceanddice:sprinkler', 3),
-        [
-            ' A',
-            ' B'
-        ],
-        {
-            A: 'create:fluid_pipe',
-            B: 'minecraft:iron_bars'
-        }
-    );
 
     })
