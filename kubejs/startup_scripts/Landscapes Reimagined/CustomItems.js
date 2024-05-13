@@ -186,7 +186,7 @@ StartupEvents.registry('item', event => {
 
     event.create('kubejs:incomplete_netherite_dust')
         .displayName('Incomplete Netherite Dust')
-        .texture('spelunkery:item/dust');
+        .texture('tfmg:item/coal_coke_dust');
     
     event.create('kubejs:netherite_dust')
         .displayName('Netherite Dust')
