@@ -34,6 +34,18 @@ StartupEvents.registry('block', event => {
         .renderType('solid')
         .tagItem('tooltiprareness:common_item')
         .tagBlock("mineable/pickaxe")
+        .fullBlock(true);
+    
+    event.create('overcharged_netherite_block')
+        .displayName('Overcharged Netherite Block')
+        .soundType('metal') 
+        .mapColor('Stone') 
+        .hardness(2.0)
+        .model('kubejs:block/overcharged_netherite_block')
+        .requiresTool(true)
+        .renderType('solid')
+        .tagItem('tooltiprareness:common_item')
+        .tagBlock("mineable/pickaxe")
         .fullBlock(true);     
 
     event.create('trophy_block')
@@ -151,6 +163,10 @@ StartupEvents.registry('block', event => {
 
 // New Items
 StartupEvents.registry('item', event => {
+
+    event.create('kubejs:overcharged_netherite_ingot')
+        .displayName('Overcharged Netherite Ingot')
+        .texture('kubejs:item/overcharged_netherite_ingot');
 
     event.create('kubejs:mold_template')
         .displayName('Mold Template')
