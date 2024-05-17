@@ -20,6 +20,64 @@ ServerEvents.recipes(event => {
 	event.remove({ id: 'create_power_loader:crafting/empty_brass_chunk_loader'})
 	event.remove({ id: 'create_dd:crafting/coal_piece_from_decompacting'})
 	event.remove({ id: 'create_dd:crafting/coal_piece_compacting'})
+	event.remove({ id: 'createteleporters:quantum_fluid_recipe'})
+	event.remove({ id: 'createteleporters:tele_fluid_chorus'})
+	event.remove({ id: 'createteleporters:telefluid_drain'})
+
+	// Create Teleporters Telejuice Tweak
+	event.custom({
+		type: 'create:mixing',
+		heatRequirement: 'heated',
+		ingredients: [
+		  {
+			item: 'twilightforest:thorn_rose'
+		  },
+		  {
+			amount: 250,
+			fluid: 'minecraft:water',
+			nbt: {}
+		  }
+		],
+		results: [
+		  {
+			amount: 1000,
+			fluid: 'createteleporters:quantum_fluid'
+		  }
+		]
+	  })
+
+	event.custom({
+		type: 'create:emptying',
+		ingredients: [
+		  {
+			item: 'twilightforest:thorn_rose'
+		  }
+		],
+		results: [
+		  {
+			amount: 100,
+			fluid: 'createteleporters:quantum_fluid'
+		  }
+		]
+	  })
+
+	  event.custom({
+		type: 'create:emptying',
+		ingredients: [
+		  {
+			item: 'createteleporters:quantum_fluid_bucket'
+		  }
+		],
+		results: [
+		  {
+			item: 'minecraft:bucket'
+		  },
+		  {
+			amount: 1000,
+			fluid: 'createteleporters:quantum_fluid'
+		  }
+		]
+	  })
 
 	// Iron Plating Crushing Recipe
 	event.custom({
@@ -39,7 +97,7 @@ ServerEvents.recipes(event => {
 
 	// Malachite Block to Malchite Shapeless Recipe
 	event.custom({
-		type: "minecraft:crafting_shapeless",
+		type: 'minecraft:crafting_shapeless',
 		ingredients: [
 			{
 				item: 'enlightened_end:malachite_block'
@@ -54,7 +112,7 @@ ServerEvents.recipes(event => {
 
 	// Bookstack to Shapeless Recipe
 	event.custom({
-		type: "minecraft:crafting_shapeless",
+		type: 'minecraft:crafting_shapeless',
 		ingredients: [
 			{
 				item: 'beautify:bookstack'
@@ -95,45 +153,45 @@ ServerEvents.recipes(event => {
 
 	// Adjust Coal Recipe
 	event.custom({
-		type: "minecraft:crafting_shapeless",
+		type: 'minecraft:crafting_shapeless',
 		ingredients: [
 		  {
-			"tag": "forge:nuggets/coal"
+			'tag': 'forge:nuggets/coal'
 		  },
 		  {
-			"tag": "forge:nuggets/coal"
+			'tag': 'forge:nuggets/coal'
 		  },
 		  {
-			"tag": "forge:nuggets/coal"
+			'tag': 'forge:nuggets/coal'
 		  },
 		  {
-			"tag": "forge:nuggets/coal"
+			'tag': 'forge:nuggets/coal'
 		  },
 		  {
-			"tag": "forge:nuggets/coal"
+			'tag': 'forge:nuggets/coal'
 		  },
 		  {
-			"tag": "forge:nuggets/coal"
+			'tag': 'forge:nuggets/coal'
 		  },
 		  {
-			"tag": "forge:nuggets/coal"
+			'tag': 'forge:nuggets/coal'
 		  },
 		  {
-			"tag": "forge:nuggets/coal"
+			'tag': 'forge:nuggets/coal'
 		  },
 		  {
-			"tag": "forge:nuggets/coal"
+			'tag': 'forge:nuggets/coal'
 		  }
 		],
 		result: {
-		  item: "minecraft:coal",
+		  item: 'minecraft:coal',
 		  count: 1
 		}
 	  })
 
 	// Adjust Coal Piece Recipe
 	event.custom({
-		type: "minecraft:crafting_shapeless",
+		type: 'minecraft:crafting_shapeless',
 		ingredients: [
 			{
 				item: 'minecraft:coal'
@@ -148,7 +206,7 @@ ServerEvents.recipes(event => {
 
 	// Creates Andesite Chunk Loader
 	event.custom({
-		type: "create:mechanical_crafting",
+		type: 'create:mechanical_crafting',
 		pattern: [
 			'AAA',
 			'ABA',
@@ -166,7 +224,7 @@ ServerEvents.recipes(event => {
 
 	// Creates Brass Chunk Loader
 	event.custom({
-		type: "create:mechanical_crafting",
+		type: 'create:mechanical_crafting',
 		pattern: [
 			'AAAAA',
 			'A F A',
@@ -244,7 +302,7 @@ ServerEvents.recipes(event => {
 
 	// Create Magnetite Recipe
 	event.custom({
-		type: "create_new_age:energising",
+		type: 'create_new_age:energising',
 		energy_needed: 1000,
 		ingredients: [
 		  {
@@ -260,7 +318,7 @@ ServerEvents.recipes(event => {
 
 	// Creates Dragon Egg Recipe
 	event.custom({
-		type: "create:mixing",
+		type: 'create:mixing',
 		ingredients: [
 			{
 				item: 'minecraft:nether_star',
@@ -281,7 +339,7 @@ ServerEvents.recipes(event => {
 				amount: 1
 			}
 		],
-		heatRequirement: "superheated"
+		heatRequirement: 'superheated'
 	}).id('kubejs:mixing/dragon_egg');
 
 
@@ -353,16 +411,6 @@ ServerEvents.recipes(event => {
 		]
 	)
 
-	// Creates Deeper and Darker Patchouli Guide
-	event.shapeless(
-		Item.of('patchouli:guide_book', '{"patchouli:book":"deeperdarker:wanderers_notebook"}'),
-		[
-			'minecraft:book',
-			'minecraft:sculk'
-		]
-	)
-
-
 	// Create a Quest Book Recipe
 	event.shapeless(
 		Item.of('heracles:quest_book'),
@@ -383,7 +431,7 @@ ServerEvents.recipes(event => {
 
 	// New Nether Wart Block Crushing Recipe
 	event.custom({
-		type: "create:crushing",
+		type: 'create:crushing',
 		ingredients: [
 			{ item: 'minecraft:nether_wart_block' }
 		],
@@ -395,7 +443,7 @@ ServerEvents.recipes(event => {
 
 	// Create Chromatic Compound
 	event.custom({
-		type: "create:mixing",
+		type: 'create:mixing',
 		ingredients: [
 			Ingredient.of('minecraft:glowstone_dust').toJson(),
 			Ingredient.of('create:powdered_obsidian').toJson(),
@@ -404,7 +452,7 @@ ServerEvents.recipes(event => {
 		results: [
 			Ingredient.of('create:chromatic_compound').toJson()
 		],
-		conditions: ["superheated"]
+		conditions: ['superheated']
 	}).id('kubejs:create/chromatic_compound');
 
 	// Fixes Chipped Tinkering Table Recipe
