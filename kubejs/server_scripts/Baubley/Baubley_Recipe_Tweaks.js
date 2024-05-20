@@ -2,6 +2,21 @@ ServerEvents.recipes(event => {
 
     event.remove({ id: 'bhc:blade_of_vitality'})
     event.remove({ id: 'bhc:heart_amulet'})
+    event.remove({ id: 'bhc:canister'})
+
+// Creates New Canister Recipe
+event.shaped(
+    Item.of('bhc:canister'),
+    [
+        ' A ',
+        'ABA',
+        ' A '
+    ],
+    {
+        A: '#forge:plates/andesite_alloy',
+        B: 'minecraft:bone'
+    }
+)
 
 // Creates New Blade of Vitality Recipe
 event.custom({

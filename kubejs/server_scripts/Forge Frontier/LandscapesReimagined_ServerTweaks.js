@@ -23,6 +23,27 @@ ServerEvents.recipes(event => {
 	event.remove({ id: 'createteleporters:quantum_fluid_recipe'})
 	event.remove({ id: 'createteleporters:tele_fluid_chorus'})
 	event.remove({ id: 'createteleporters:telefluid_drain'})
+	event.remove({ id: 'hyperbox:hyperbox'})
+	event.remove({ id: 'vintageimprovements:pressing/andesite_alloy'})
+
+	// Creates New Hyperbox Recipe
+	event.custom({
+		type: 'create:item_application',
+		ingredients: [
+		  {
+			item: 'minecraft:crying_obsidian'
+		  },
+		  {
+			item: 'create_dd:mithril_ingot'
+		  }
+		],
+		results: [
+		  {
+			item: 'hyperbox:hyperbox'
+		  }
+		]
+	  }).id('create:item_application/forge_frontier');
+
 
 	// Create Teleporters Telejuice Tweak
 	event.custom({
@@ -30,7 +51,7 @@ ServerEvents.recipes(event => {
 		heatRequirement: 'heated',
 		ingredients: [
 		  {
-			item: 'twilightforest:thorn_rose'
+			item: 'ad_astra:strophar_mushroom'
 		  },
 		  {
 			amount: 250,
@@ -50,7 +71,7 @@ ServerEvents.recipes(event => {
 		type: 'create:emptying',
 		ingredients: [
 		  {
-			item: 'twilightforest:thorn_rose'
+			item: 'ad_astra:strophar_mushroom'
 		  }
 		],
 		results: [

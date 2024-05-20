@@ -406,16 +406,5 @@ ServerEvents.recipes(event => {
                 cookingtime: 200,
                 experience: 5
               })
-
-      // Twilight Delight
-        event.remove({ id: 'twilightdelight:teardrop_sword' })
-
-      // Twilight Tear Drop Sword
-      event.smithing(
-        "twilightdelight:teardrop_sword",
-        'minecraft:netherite_upgrade_smithing_template',
-        "twilightforest:fiery_sword",
-        "twilightdelight:experiment_110"
-      )
-
+              
 })

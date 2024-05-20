@@ -4,7 +4,8 @@
       "name": "Ad Astra Fungi",
       "enabledByDefault": true,
       "defaultPayment": {
-        "item": "minecraft:emerald"
+        "item": "ad_astra:cheese",
+        "count": 8
       },
       "defaultCategory": "mushrooms"
     },
