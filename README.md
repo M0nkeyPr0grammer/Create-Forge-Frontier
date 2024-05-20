@@ -1,4 +1,4 @@
-# Landscapes Reimagined Forge Frontier
+# Create: Forge Frontier
 ![Forge Frontier Logo with CTOV Village in the background](https://github.com/M0nkeyPr0grammer/Landscapes-Reimagined-Forge-Frontier/blob/main/CTOV_Taiga_Village.png?raw=true)
 ## Description
 Discover the pinnacle of Minecraft modding with **Landscapes Reimagined Forge Frontier**, 
@@ -12,7 +12,7 @@ generation across all dimensions, immersing you in a world that honors the essen
 Minecraft, all while centering around the innovative Create mod and its many addons. Prepare for an adventure that 
 captivates and elevates your Minecraft journey.
 
-Download **Landscapes Reimagined Forge Frontier** today and dive into an elevated Minecraft adventure, striking a perfect balance between originality and innovation. The adventure awaits!
+Download **Create: Forge Frontier** today and dive into an elevated Minecraft adventure, striking a perfect balance between originality and innovation. The adventure awaits!
 #### **Interested in joining our Patreon. Check out our benefits [here](https://discord.com/servers/landscapes-reimagined-1097668922737696919), then join our [Discord](https://discord.gg/quenZthXgy)**
 
 ### Want to setup a server using our official server host, click the banner below!
