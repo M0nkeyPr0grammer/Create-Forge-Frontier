@@ -7,6 +7,7 @@ B:force_fullscreen = 'false';
 
 ##[customization]
 
+B:modpack_mode = 'false';
 B:show_customization_overlay = 'false';
 B:advanced_customization_mode = 'false';
 
@@ -23,11 +24,11 @@ B:game_intro_fade_out = 'true';
 
 ##[window]
 
-B:show_custom_window_icon = 'false';
-S:custom_window_icon_macos = '';
-S:custom_window_icon_32 = '';
-S:custom_window_title = 'Landscapes Reimagined Forge Frontier v2.0.0';
-S:custom_window_icon_16 = '';
+B:show_custom_window_icon = 'true';
+S:custom_window_icon_macos = '/config/fancymenu/assets/icon32.icns';
+S:custom_window_icon_32 = '/config/fancymenu/assets/icon32.png';
+S:custom_window_title = 'Create: Forge Frontier (v2.0.0) Alpha';
+S:custom_window_icon_16 = '/config/fancymenu/assets/icon16.png';
 
 
 ##[multiplayer_screen]
@@ -45,7 +46,7 @@ B:show_singleplayer_screen_world_icons = 'true';
 B:anchor_overlay_change_anchor_on_area_hover = 'true';
 B:show_layout_editor_grid = 'true';
 B:anchor_overlay_change_anchor_on_element_hover = 'true';
-S:anchor_overlay_visibility_mode = 'dragging';
+S:anchor_overlay_visibility_mode = 'keybind';
 B:anchor_overlay_show_all_connection_lines = 'false';
 S:anchor_overlay_color_base_override = '';
 I:layout_editor_grid_size = '10';
