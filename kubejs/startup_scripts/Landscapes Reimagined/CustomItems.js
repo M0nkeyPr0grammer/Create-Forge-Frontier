@@ -164,64 +164,118 @@ StartupEvents.registry('block', event => {
 // New Items
 StartupEvents.registry('item', event => {
 
-    event.create('kubejs:overcharged_netherite_ingot')
-        .displayName('Overcharged Netherite Ingot')
-        .texture('kubejs:item/overcharged_netherite_ingot');
+    // Overcharged Items
+        event.create('kubejs:overcharged_netherite_ingot')
+            .displayName('Overcharged Netherite Ingot')
+            .texture('kubejs:item/overcharged_netherite_ingot');
 
-    event.create('kubejs:mold_template')
-        .displayName('Mold Template')
-        .texture('kubejs:item/mold_template');
+    // New Molds
+        event.create('kubejs:axe_mold')
+            .displayName('Axe Mold')
+            .texture('kubejs:item/molds/axe_mold');
 
-    event.create('kubejs:skull_mold')
-        .displayName('Skull Mold')
-        .texture('kubejs:item/skull_mold');
+        event.create('kubejs:boots_mold')
+            .displayName('Boots Mold')
+            .texture('kubejs:item/molds/boots_mold');
 
-    event.create('kubejs:head_mold')
-        .displayName('Head Mold')
-        .texture('kubejs:item/head_mold');
+        event.create('kubejs:chestplate_mold')
+            .displayName('Chestplate Mold')
+            .texture('kubejs:item/molds/chestplate_mold');
 
-    event.create('kubejs:netherite_specks')
-        .displayName('Netherite Specks')
-        .texture('kubejs:item/netherite_specks');
+        event.create('kubejs:coal_mold')
+            .displayName('Coal Mold')
+            .texture('kubejs:item/molds/coal_mold');
 
-    event.create('kubejs:incomplete_netherite_dust')
-        .displayName('Incomplete Netherite Dust')
-        .texture('tfmg:item/coal_coke_dust');
-    
-    event.create('kubejs:netherite_dust')
-        .displayName('Netherite Dust')
-        .texture('kubejs:item/netherite_dust')
+        event.create('kubejs:gem_mold')
+            .displayName('Gem Mold')
+            .texture('kubejs:item/molds/gem_mold');
 
-    event.create('crushed_bismuth')
-        .displayName('Crushed Bismuth')
-        .texture('kubejs:item/crushed_bismuth');
+        event.create('kubejs:head_mold')
+            .displayName('Head Mold')
+            .texture('kubejs:item/molds/head_mold');
 
-    event.create('crushed_irradium')
-        .displayName('Crushed Irradium')
-        .texture('kubejs:item/crushed_irradium');
+        event.create('kubejs:helmet_mold')
+            .displayName('Helmet Mold')
+            .texture('kubejs:item/molds/helmet_mold');
 
-    event.create('crushed_malachite')
-        .displayName('Crushed Malachite')
-        .texture('kubejs:item/crushed_malachite');
+        event.create('kubejs:hoe_mold')
+            .displayName('Hoe Mold')
+            .texture('kubejs:item/molds/hoe_mold');
 
-    event.create('modpack_logo')
-        .displayName('Forge Frontier Logo')
-        .texture('kubejs:item/landscapes_reimagined_forgefrontier')
+        event.create('kubejs:ingot_mold')
+            .displayName('Ingot Mold')
+            .texture('kubejs:item/molds/ingot_mold');
 
-    event.create('netherite_iron_upgrade')
-        .displayName('Netherite Iron Smithing Template')
-        .texture('kubejs:item/netherite_iron_upgrade_smithing_template')
+        event.create('kubejs:leggings_mold')
+            .displayName('Leggings Mold')
+            .texture('kubejs:item/molds/leggings_mold');
 
-    event.create('netherite_gold_upgrade')
-        .displayName('Netherite Gold Smithing Template')
-        .texture('kubejs:item/netherite_gold_upgrade_smithing_template')
+        event.create('kubejs:mold_template')
+            .displayName('Mold Template')
+            .texture('kubejs:item/molds/mold_template');
 
-    event.create('netherite_emerald_upgrade')
-        .displayName('Netherite Emerald Smithing Template')
-        .texture('kubejs:item/netherite_emerald_upgrade_smithing_template')
+        event.create('kubejs:pickaxe_mold')
+            .displayName('Pickaxe Mold')
+            .texture('kubejs:item/molds/pickaxe_mold');
 
-    event.create('netherite_diamond_upgrade')
-        .displayName('Netherite Diamond Smithing Template')
-        .texture('kubejs:item/netherite_diamond_upgrade_smithing_template')
+        event.create('kubejs:shovel_mold')
+            .displayName('Shovel Mold')
+            .texture('kubejs:item/molds/shovel_mold');
+
+        event.create('kubejs:skull_mold')
+            .displayName('Skull Mold')
+            .texture('kubejs:item/molds/skull_mold');
+
+        event.create('kubejs:sword_mold')
+            .displayName('Sword Mold')
+            .texture('kubejs:item/molds/sword_mold');
+
+    // Netherite Automation Parts
+        event.create('kubejs:netherite_specks')
+            .displayName('Netherite Specks')
+            .texture('kubejs:item/netherite_specks');
+
+        event.create('kubejs:incomplete_netherite_dust')
+            .displayName('Incomplete Netherite Dust')
+            .texture('tfmg:item/coal_coke_dust');
+        
+        event.create('kubejs:netherite_dust')
+            .displayName('Netherite Dust')
+            .texture('kubejs:item/netherite_dust')
+
+    // Crushed Ores
+        event.create('crushed_bismuth')
+            .displayName('Crushed Bismuth')
+            .texture('kubejs:item/crushed_ore/crushed_bismuth');
+
+        event.create('crushed_irradium')
+            .displayName('Crushed Irradium')
+            .texture('kubejs:item/crushed_ore/crushed_irradium');
+
+        event.create('crushed_malachite')
+            .displayName('Crushed Malachite')
+            .texture('kubejs:item/crushed_ore/crushed_malachite');
+
+    // Logo
+        event.create('modpack_logo')
+            .displayName('Forge Frontier Logo')
+            .texture('kubejs:item/forgefrontier')
+
+    // Upgrades
+        event.create('netherite_iron_upgrade')
+            .displayName('Netherite Iron Smithing Template')
+            .texture('kubejs:item/upgrades/netherite_iron_upgrade_smithing_template')
+
+        event.create('netherite_gold_upgrade')
+            .displayName('Netherite Gold Smithing Template')
+            .texture('kubejs:item/upgrades/netherite_gold_upgrade_smithing_template')
+
+        event.create('netherite_emerald_upgrade')
+            .displayName('Netherite Emerald Smithing Template')
+            .texture('kubejs:item/upgrades/netherite_emerald_upgrade_smithing_template')
+
+        event.create('netherite_diamond_upgrade')
+            .displayName('Netherite Diamond Smithing Template')
+            .texture('kubejs:item/upgrades/netherite_diamond_upgrade_smithing_template')
 });
 
