@@ -178,6 +178,10 @@ StartupEvents.registry('item', event => {
             .displayName('Boots Mold')
             .texture('kubejs:item/molds/boots_mold');
 
+        event.create('kubejs:block_mold')
+            .displayName('Block Mold')
+            .texture('kubejs:item/molds/block_mold');
+
         event.create('kubejs:chestplate_mold')
             .displayName('Chestplate Mold')
             .texture('kubejs:item/molds/chestplate_mold');
