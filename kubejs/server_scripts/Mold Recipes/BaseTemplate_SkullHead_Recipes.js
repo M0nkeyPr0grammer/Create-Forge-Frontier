@@ -1,11 +1,11 @@
 ServerEvents.recipes(event => {
 
-    // Compressed Bone to Mold Template
+    // Compressed Sand to Mold Template
     event.custom({
         type:"create:compacting",
         ingredients: [
             {
-                item: 'createcompression:compressed_bone_block_3x',
+                item: 'createcompression:compressed_sand_2x',
                 amount: 1
             },
         ],
@@ -16,7 +16,7 @@ ServerEvents.recipes(event => {
             },
         ],
         heatRequirement: "superheated"
-    }).id('kubejs:compacting/mold_template')
+    }).id('forge_frontier:compacting/mold_template')
 
     // Mold Template to Skull Mold Recipe 1
     event.custom({
@@ -39,7 +39,6 @@ ServerEvents.recipes(event => {
                 item: 'minecraft:skeleton_skull'
             }
         ],
-        heatRequirement: "superheated"
     }).id('kubejs:compacting/skull_mold_1')
 
     // Mold Template to Skull Mold Recipe 2
@@ -63,7 +62,6 @@ ServerEvents.recipes(event => {
                 item: 'minecraft:wither_skeleton_skull'
             }
         ],
-        heatRequirement: "superheated"
     }).id('kubejs:compacting/skull_mold_2')
 
     // Mold Template to Skull Mold Recipe 3
@@ -87,7 +85,6 @@ ServerEvents.recipes(event => {
                 item: 'minecraft:player_head'
             }
         ],
-        heatRequirement: "superheated"
     }).id('kubejs:compacting/skull_mold_3')
 
     // Mold Template to Skull Mold Recipe 4
@@ -111,7 +108,6 @@ ServerEvents.recipes(event => {
                 item: 'minecraft:zombie_head'
             }
         ],
-        heatRequirement: "superheated"
     }).id('kubejs:compacting/skull_mold_4')
 
     // Mold Template to Skull Mold Recipe 5
@@ -135,7 +131,6 @@ ServerEvents.recipes(event => {
                 item: 'minecraft:creeper_head'
             }
         ],
-        heatRequirement: "superheated"
     }).id('kubejs:compacting/skull_mold_5')
 
     // Mold Template to Head Mold
@@ -159,7 +154,6 @@ ServerEvents.recipes(event => {
                 item: 'minecraft:dragon_head'
             }
         ],
-        heatRequirement: "superheated"
     }).id('kubejs:compacting/head_mold')
 
     // Skeleton Skull Recipe
@@ -248,60 +242,4 @@ ServerEvents.recipes(event => {
 		],
         heatRequirement: 'superheated'
 	}).id('kubejs:mixing/dragon_head')
-
-    // Bonemeal to Molten Bone Marrow Recipe
-	event.custom({
-		type: 'create:mixing',
-		ingredients: [
-			{
-				item: 'minecraft:bone_meal',
-				amount: 1
-			}
-		],
-		results: [
-			{
-				fluid: 'kubejs:molten_bone_marrow',
-				amount: 100
-			}
-		],
-        heatRequirement: 'superheated'
-	}).id('kubejs:mixing/meal_marrow')
-
-    // Bone Block to Molten Bone Marrow Recipe
-	event.custom({
-		type: 'create:mixing',
-		ingredients: [
-			{
-				item: 'minecraft:bone_block',
-				amount: 1
-			}
-		],
-		results: [
-			{
-				fluid: 'kubejs:molten_bone_marrow',
-				amount: 900
-			}
-		],
-        heatRequirement: 'superheated'
-	}).id('kubejs:mixing/block_marrow')
-
-    // Bone to Molten Bone Marrow Recipe
-	event.custom({
-		type: 'create:mixing',
-		ingredients: [
-			{
-				item: 'minecraft:bone',
-				amount: 1
-			}
-		],
-		results: [
-			{
-				fluid: 'kubejs:molten_bone_marrow',
-				amount: 300
-			}
-		],
-        heatRequirement: 'superheated'
-	}).id('kubejs:mixing/bone_marrow')
-
-
 })
