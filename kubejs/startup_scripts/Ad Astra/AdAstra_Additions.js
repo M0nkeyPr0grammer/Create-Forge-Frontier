@@ -36,13 +36,13 @@ StartupEvents.registry('fluid', event => {
 StartupEvents.registry('item', event => {
     event.create('crushed_desh_ore')
         .displayName('Crushed Desh Ore')
-        .texture('kubejs:item/crushed_desh_ore');
+        .texture('kubejs:item/crushed_ore/crushed_desh_ore');
 
     event.create('crushed_ostrum_ore')
         .displayName('Crushed Ostrum Ore')
-        .texture('kubejs:item/crushed_ostrum_ore');
+        .texture('kubejs:item/crushed_ore/crushed_ostrum_ore');
 
     event.create('crushed_calorite_ore')
         .displayName('Crushed Calorite Ore')
-        .texture('kubejs:item/crushed_calorite_ore');
+        .texture('kubejs:item/crushed_ore/crushed_calorite_ore');
 });

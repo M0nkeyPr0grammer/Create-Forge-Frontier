@@ -432,15 +432,6 @@ ServerEvents.recipes(event => {
 		]
 	)
 
-	// Create a Quest Book Recipe
-	event.shapeless(
-		Item.of('heracles:quest_book'),
-		[
-			'minecraft:book',
-			'minecraft:emerald'
-		]
-	)
-
 	// Diamond Grit Sandpaper
 	event.shapeless(
 		Item.of('createaddition:diamond_grit_sandpaper'),
