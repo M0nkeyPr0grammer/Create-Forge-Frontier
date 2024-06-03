@@ -218,5 +218,5 @@ ServerEvents.recipes(event => {
 		},
 		result: Ingredient.of('toms_storage:ts.crafting_terminal').toJson(),
 		acceptMirrored: false
-	}).id('kubejs:toms_storage/crafting_terminal')
+	}).id('forge_frontier:toms_storage/crafting_terminal')
 })

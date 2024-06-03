@@ -21,12 +21,12 @@ event.remove({ id: 'create:crushing/moon_desh_ore'})
                     ],
                     processingTime: 400,
                     results: [
-                        { item: 'kubejs:crushed_calorite_ore' },
-                        { item: 'kubejs:crushed_calorite_ore', chance: 0.75 },
+                        { item: 'forge_frontier:crushed_calorite_ore' },
+                        { item: 'forge_frontier:crushed_calorite_ore', chance: 0.75 },
                         { item: 'create:experience_nugget', chance: 0.75 },
                         { item: 'minecraft:cobbled_deepslate', chance: 0.12 }
                     ]
-                }).id('kubejs:crushing/deepslate_calorite_ore');
+                }).id('forge_frontier:crushing/deepslate_calorite_ore');
 
                 // Venus Calorite Ore
                 event.custom({
@@ -36,12 +36,12 @@ event.remove({ id: 'create:crushing/moon_desh_ore'})
                     ],
                     processingTime: 400,
                     results: [
-                        { item: 'kubejs:crushed_calorite_ore'},
-                        { item: 'kubejs:crushed_calorite_ore', chance: 0.75 },
+                        { item: 'forge_frontier:crushed_calorite_ore'},
+                        { item: 'forge_frontier:crushed_calorite_ore', chance: 0.75 },
                         { item: 'create:experience_nugget', chance: 0.75 },
                         { item: 'ad_astra:venus_cobblestone', chance: 0.12 }
                     ]
-                }).id('kubejs:crushing/venus_calorite_ore');
+                }).id('forge_frontier:crushing/venus_calorite_ore');
 
             // Ostrum Ore
                 // Mars Ostrum Ore
@@ -52,12 +52,12 @@ event.remove({ id: 'create:crushing/moon_desh_ore'})
                     ],
                     processingTime: 400,
                     results: [
-                        { item: 'kubejs:crushed_ostrum_ore'},
-                        { item: 'kubejs:crushed_ostrum_ore', chance: 0.75 },
+                        { item: 'forge_frontier:crushed_ostrum_ore'},
+                        { item: 'forge_frontier:crushed_ostrum_ore', chance: 0.75 },
                         { item: 'create:experience_nugget', chance: 0.75 },
                         { item: 'ad_astra:mars_cobblestone', chance: 0.12 }
                     ]
-                }).id('kubejs:crushing/mars_ostrum_ore');
+                }).id('forge_frontier:crushing/mars_ostrum_ore');
 
                 // Deepslate Ostrum Ore
                 event.custom({
@@ -67,12 +67,12 @@ event.remove({ id: 'create:crushing/moon_desh_ore'})
                     ],
                     processingTime: 400,
                     results: [
-                        { item: 'kubejs:crushed_ostrum_ore' },
-                        { item: 'kubejs:crushed_ostrum_ore', chance: 0.75 },
+                        { item: 'forge_frontier:crushed_ostrum_ore' },
+                        { item: 'forge_frontier:crushed_ostrum_ore', chance: 0.75 },
                         { item: 'create:experience_nugget', chance: 0.75 },
                         { item: 'minecraft:cobbled_deepslate', chance: 0.12 }
                     ]
-                }).id('kubejs:crushing/deepslate_ostrum_ore');
+                }).id('forge_frontier:crushing/deepslate_ostrum_ore');
 
             // Desh Ore
                 // Moon Desh Ore
@@ -83,12 +83,12 @@ event.remove({ id: 'create:crushing/moon_desh_ore'})
                     ],
                     processingTime: 400,
                     results: [
-                        { item: 'kubejs:crushed_desh_ore' },
-                        { item: 'kubejs:crushed_desh_ore', chance: 0.75 },
+                        { item: 'forge_frontier:crushed_desh_ore' },
+                        { item: 'forge_frontier:crushed_desh_ore', chance: 0.75 },
                         { item: 'create:experience_nugget', chance: 0.75 },
                         { item: 'ad_astra:moon_cobblestone', chance: 0.12 }
                     ]
-                }).id('kubejs:crushing/moon_desh_ore');
+                }).id('forge_frontier:crushing/moon_desh_ore');
 
                 // Deepslate Desh Ore
                 event.custom({
@@ -98,12 +98,12 @@ event.remove({ id: 'create:crushing/moon_desh_ore'})
                     ],
                     processingTime: 400,
                     results: [
-                        { item: 'kubejs:crushed_desh_ore' },
-                        { item: 'kubejs:crushed_desh_ore', chance: 0.75 },
+                        { item: 'forge_frontier:crushed_desh_ore' },
+                        { item: 'forge_frontier:crushed_desh_ore', chance: 0.75 },
                         { item: 'create:experience_nugget', chance: 0.75 },
                         { item: 'minecraft:cobbled_deepslate', chance: 0.12 }
                     ]
-                }).id('kubejs:crushing/deepslate_desh_ore');
+                }).id('forge_frontier:crushing/deepslate_desh_ore');
 
             // Creates Blasting Recipes
 
@@ -111,7 +111,7 @@ event.remove({ id: 'create:crushing/moon_desh_ore'})
             event.custom({
                 type: "minecraft:blasting",
                 ingredient: [ // Changed 'ingredients' to 'ingredient'
-                    { item: 'kubejs:crushed_desh_ore' }
+                    { item: 'forge_frontier:crushed_desh_ore' }
                 ],
                 cookingTime: 100,
                 experience: 0.1,
@@ -124,7 +124,7 @@ event.remove({ id: 'create:crushing/moon_desh_ore'})
             event.custom({
                 type: "minecraft:blasting",
                 ingredient: [ // Changed 'ingredients' to 'ingredient'
-                    { item: 'kubejs:crushed_ostrum_ore' }
+                    { item: 'forge_frontier:crushed_ostrum_ore' }
                 ],
                 cookingTime: 100,
                 experience: 0.1,
@@ -137,7 +137,7 @@ event.remove({ id: 'create:crushing/moon_desh_ore'})
             event.custom({
                 type: "minecraft:blasting",
                 ingredient: [ // Changed 'ingredients' to 'ingredient'
-                    { item: 'kubejs:crushed_calorite_ore' }
+                    { item: 'forge_frontier:crushed_calorite_ore' }
                 ],
                 cookingTime: 100,
                 experience: 0.1,

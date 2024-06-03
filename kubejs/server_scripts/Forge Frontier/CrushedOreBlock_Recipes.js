@@ -5,11 +5,11 @@ ServerEvents.recipes(event => {
 		type: "minecraft:crafting_shapeless",
 		ingredients: [
 			{
-				item: 'kubejs:crushed_bismuth_pile'
+				item: 'forge_frontier:crushed_bismuth_pile'
 			}
 		],
 		result: {
-			item: 'kubejs:crushed_bismuth',
+			item: 'forge_frontier:crushed_bismuth',
 			count: 9
 		  }
 	})
@@ -19,11 +19,11 @@ ServerEvents.recipes(event => {
 		type: "minecraft:crafting_shapeless",
 		ingredients: [
 			{
-				item: 'kubejs:crushed_desh_pile'
+				item: 'forge_frontier:crushed_desh_pile'
 			}
 		],
 		result: {
-			item: 'kubejs:crushed_desh_ore',
+			item: 'forge_frontier:crushed_desh_ore',
 			count: 9
 		  }
 	})
@@ -33,11 +33,11 @@ ServerEvents.recipes(event => {
 		type: "minecraft:crafting_shapeless",
 		ingredients: [
 			{
-				item: 'kubejs:crushed_irradium_pile'
+				item: 'forge_frontier:crushed_irradium_pile'
 			}
 		],
 		result: {
-			item: 'kubejs:crushed_irradium',
+			item: 'forge_frontier:crushed_irradium',
 			count: 9
 		  }
 	})
@@ -47,11 +47,11 @@ ServerEvents.recipes(event => {
 		type: "minecraft:crafting_shapeless",
 		ingredients: [
 			{
-				item: 'kubejs:crushed_malachite_pile'
+				item: 'forge_frontier:crushed_malachite_pile'
 			}
 		],
 		result: {
-			item: 'kubejs:crushed_malachite',
+			item: 'forge_frontier:crushed_malachite',
 			count: 9
 		  }
 	})
@@ -61,11 +61,11 @@ ServerEvents.recipes(event => {
 		type: "minecraft:crafting_shapeless",
 		ingredients: [
 			{
-				item: 'kubejs:crushed_ostrum_pile'
+				item: 'forge_frontier:crushed_ostrum_pile'
 			}
 		],
 		result: {
-			item: 'kubejs:crushed_ostrum_ore',
+			item: 'forge_frontier:crushed_ostrum_ore',
 			count: 9
 		  }
 	})
@@ -75,7 +75,7 @@ ServerEvents.recipes(event => {
 		type: "minecraft:crafting_shapeless",
 		ingredients: [
 			{
-				item: 'kubejs:crushed_tin_pile'
+				item: 'forge_frontier:crushed_tin_pile'
 			}
 		],
 		result: {
@@ -89,7 +89,7 @@ ServerEvents.recipes(event => {
 		type: "minecraft:crafting_shapeless",
 		ingredients: [
 			{
-				item: 'kubejs:crushed_uranium_pile'
+				item: 'forge_frontier:crushed_uranium_pile'
 			}
 		],
 		result: {
@@ -103,96 +103,96 @@ ServerEvents.recipes(event => {
 		type: "minecraft:crafting_shapeless",
 		ingredients: [
 			{
-				item: 'kubejs:crushed_calorite_pile'
+				item: 'forge_frontier:crushed_calorite_pile'
 			}
 		],
 		result: {
-			item: 'kubejs:crushed_calorite_ore',
+			item: 'forge_frontier:crushed_calorite_ore',
 			count: 9
 		  }
 	})
 
     // Crushed Bismuth Pile Recipe
     event.shaped(
-		Item.of('kubejs:crushed_bismuth_pile'),
+		Item.of('forge_frontier:crushed_bismuth_pile'),
 		[
 			'AAA',
 			'AAA',
 			'AAA'
 		],
 		{
-			A: 'kubejs:crushed_bismuth'
+			A: 'forge_frontier:crushed_bismuth'
 		}
 	)
 
     // Crushed Calorite Pile Recipe
     event.shaped(
-		Item.of('kubejs:crushed_calorite_pile'),
+		Item.of('forge_frontier:crushed_calorite_pile'),
 		[
 			'AAA',
 			'AAA',
 			'AAA'
 		],
 		{
-			A: 'kubejs:crushed_calorite_ore'
+			A: 'forge_frontier:crushed_calorite_ore'
 		}
 	)
 
     // Crushed Desh Pile Recipe
     event.shaped(
-		Item.of('kubejs:crushed_desh_pile'),
+		Item.of('forge_frontier:crushed_desh_pile'),
 		[
 			'AAA',
 			'AAA',
 			'AAA'
 		],
 		{
-			A: 'kubejs:crushed_desh_ore'
+			A: 'forge_frontier:crushed_desh_ore'
 		}
 	)
 
     // Crushed Irradium Pile Recipe
     event.shaped(
-		Item.of('kubejs:crushed_irradium_pile'),
+		Item.of('forge_frontier:crushed_irradium_pile'),
 		[
 			'AAA',
 			'AAA',
 			'AAA'
 		],
 		{
-			A: 'kubejs:crushed_irradium'
+			A: 'forge_frontier:crushed_irradium'
 		}
 	)
 
     // Crushed Malachite Pile Recipe
     event.shaped(
-        Item.of('kubejs:crushed_malachite_pile'),
+        Item.of('forge_frontier:crushed_malachite_pile'),
         [
             'AAA',
             'AAA',
             'AAA'
         ],
         {
-            A: 'kubejs:crushed_malachite'
+            A: 'forge_frontier:crushed_malachite'
         }
     )
 
     // Crushed Ostrum Pile Recipe
     event.shaped(
-        Item.of('kubejs:crushed_ostrum_pile'),
+        Item.of('forge_frontier:crushed_ostrum_pile'),
         [
             'AAA',
             'AAA',
             'AAA'
         ],
         {
-            A: 'kubejs:crushed_ostrum_ore'
+            A: 'forge_frontier:crushed_ostrum_ore'
         }
     )
 
     // Crushed Tin Pile Recipe
     event.shaped(
-        Item.of('kubejs:crushed_tin_pile'),
+        Item.of('forge_frontier:crushed_tin_pile'),
         [
             'AAA',
             'AAA',
@@ -205,7 +205,7 @@ ServerEvents.recipes(event => {
 
     // Crushed Tin Pile Recipe
     event.shaped(
-        Item.of('kubejs:crushed_uranium_pile'),
+        Item.of('forge_frontier:crushed_uranium_pile'),
         [
             'AAA',
             'AAA',

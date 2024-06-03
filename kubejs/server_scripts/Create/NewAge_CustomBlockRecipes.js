@@ -2,7 +2,7 @@ ServerEvents.recipes(event => {
 
 // Creates Overcharged Iron Block Recipe
 event.shaped(
-    Item.of('kubejs:overcharged_iron_block'),
+    Item.of('forge_frontier:overcharged_iron_block'),
     [
         'AAA',
         'AAA',
@@ -15,7 +15,7 @@ event.shaped(
 
 // Creates Overcharged Gold Block Recipe
 event.shaped(
-    Item.of('kubejs:overcharged_gold_block'),
+    Item.of('forge_frontier:overcharged_gold_block'),
     [
         'AAA',
         'AAA',
@@ -27,7 +27,7 @@ event.shaped(
 )
 // Creates Overcharged Diamond Block Recipe
 event.shaped(
-    Item.of('kubejs:overcharged_diamond_block'),
+    Item.of('forge_frontier:overcharged_diamond_block'),
     [
         'AAA',
         'AAA',
@@ -40,14 +40,14 @@ event.shaped(
 
 // Creates Overcharged Netherite Block Recipe
 event.shaped(
-  Item.of('kubejs:overcharged_netherite_block'),
+  Item.of('forge_frontier:overcharged_netherite_block'),
   [
       'AAA',
       'AAA',
       'AAA'
   ],
   {
-      A: 'kubejs:overcharged_netherite_ingot'
+      A: 'forge_frontier:overcharged_netherite_ingot'
   }
 )
 
@@ -62,7 +62,7 @@ event.custom({
     ],
     results: [
       {
-        item: 'kubejs:overcharged_iron_block'
+        item: 'forge_frontier:overcharged_iron_block'
       }
     ]
   })
@@ -78,7 +78,7 @@ event.custom({
     ],
     results: [
       {
-        item: 'kubejs:overcharged_gold_block'
+        item: 'forge_frontier:overcharged_gold_block'
       }
     ]
   })
@@ -94,7 +94,7 @@ event.custom({
     ],
     results: [
       {
-        item: 'kubejs:overcharged_diamond_block'
+        item: 'forge_frontier:overcharged_diamond_block'
       }
     ]
   })
@@ -110,7 +110,7 @@ event.custom({
   ],
   results: [
     {
-      item: 'kubejs:overcharged_netherite_block'
+      item: 'forge_frontier:overcharged_netherite_block'
     }
   ]
 })
@@ -126,7 +126,7 @@ event.custom({
   ],
   results: [
     {
-      item: 'kubejs:overcharged_netherite_ingot'
+      item: 'forge_frontier:overcharged_netherite_ingot'
     }
   ]
 })
@@ -136,7 +136,7 @@ event.custom({
 		type: "minecraft:crafting_shapeless",
 		ingredients: [
 			{
-				item: 'kubejs:overcharged_iron_block'
+				item: 'forge_frontier:overcharged_iron_block'
 			}
 		],
 		result: {
@@ -150,7 +150,7 @@ event.custom({
 		type: "minecraft:crafting_shapeless",
 		ingredients: [
 			{
-				item: 'kubejs:overcharged_gold_block'
+				item: 'forge_frontier:overcharged_gold_block'
 			}
 		],
 		result: {
@@ -164,7 +164,7 @@ event.custom({
 		type: "minecraft:crafting_shapeless",
 		ingredients: [
 			{
-				item: 'kubejs:overcharged_diamond_block'
+				item: 'forge_frontier:overcharged_diamond_block'
 			}
 		],
 		result: {
@@ -178,11 +178,11 @@ event.custom({
 		type: "minecraft:crafting_shapeless",
 		ingredients: [
 			{
-				item: 'kubejs:overcharged_netherite_block'
+				item: 'forge_frontier:overcharged_netherite_block'
 			}
 		],
 		result: {
-			item: 'kubejs:overcharged_netherite_ingot',
+			item: 'forge_frontier:overcharged_netherite_ingot',
 			count: 9
 		  }
 	})

@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "kubejs:block/overcharged_gold_block"
+    "all": "forge_frontier:block/crushed_calorite_pile"
   },
   "render_type": "solid"
 }

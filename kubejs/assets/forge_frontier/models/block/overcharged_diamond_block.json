@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "kubejs:block/crushed_desh_pile"
+    "all": "forge_frontier:block/overcharged_diamond_block"
   },
   "render_type": "solid"
 }

@@ -14,22 +14,22 @@ ServerEvents.recipes(event => {
         ],
         results: [
             {
-                item: 'kubejs:netherite_specks',
+                item: 'forge_frontier:netherite_specks',
                 amount: 2
             }
         ],
         heatRequirement: "superheated"
-    }).id('kubejs:mixing/netherite_specks');
+    }).id('forge_frontier:mixing/netherite_specks');
 
     event.custom({
         type: 'create:sequenced_assembly',
         ingredient: {
-            item: 'kubejs:netherite_specks'
+            item: 'forge_frontier:netherite_specks'
         },
         loops: 3,
         results: [
             {
-                item: 'kubejs:netherite_dust'
+                item: 'forge_frontier:netherite_dust'
             }
         ],
         sequence: [
@@ -37,7 +37,7 @@ ServerEvents.recipes(event => {
                 type: 'create:filling',
                 ingredients: [
                     {
-                        item: 'kubejs:incomplete_netherite_dust',
+                        item: 'forge_frontier:incomplete_netherite_dust',
 
                     }, 
                     {
@@ -48,7 +48,7 @@ ServerEvents.recipes(event => {
                 ],
                 results: [ 
                     {
-                        item: 'kubejs:incomplete_netherite_dust'
+                        item: 'forge_frontier:incomplete_netherite_dust'
                     }
                 ]
             },
@@ -56,18 +56,18 @@ ServerEvents.recipes(event => {
                 type: 'create:pressing',
                 ingredients: [ 
                     {
-                        item: 'kubejs:incomplete_netherite_dust'
+                        item: 'forge_frontier:incomplete_netherite_dust'
                     }
                 ],
                 results: [ 
                     {
-                        item: 'kubejs:incomplete_netherite_dust'
+                        item: 'forge_frontier:incomplete_netherite_dust'
                     }
                 ]
             }
         ],
         transitionalItem: {
-            item: 'kubejs:incomplete_netherite_dust'
+            item: 'forge_frontier:incomplete_netherite_dust'
         }
     });
 
@@ -79,12 +79,12 @@ ServerEvents.recipes(event => {
 			'CCC'
 		],
 		key: {
-			A: Ingredient.of('kubejs:netherite_dust').toJson(),
+			A: Ingredient.of('forge_frontier:netherite_dust').toJson(),
 			B: Ingredient.of('minecraft:wither_skeleton_skull').toJson(),
 			C: Ingredient.of('create_dd:chromatic_compound').toJson()
 		},
 		result: Ingredient.of('minecraft:netherite_ingot').toJson(),
 		acceptMirrored: false
-	}).id('kubejs:create/netherite_ingot');
+	}).id('forge_frontier:create/netherite_ingot');
 
 })

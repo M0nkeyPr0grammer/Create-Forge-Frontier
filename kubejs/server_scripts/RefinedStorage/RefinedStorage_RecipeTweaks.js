@@ -63,7 +63,7 @@ ServerEvents.recipes(event => {
           type: 'create:deploying',
           ingredients: [
             {
-              item: 'kubejs:incomplete_raw_basic_processor'
+              item: 'forge_frontier:incomplete_raw_basic_processor'
             },
             {
               item: 'refinedstorage:processor_binding'
@@ -71,7 +71,7 @@ ServerEvents.recipes(event => {
           ],
           results: [
             {
-              item: 'kubejs:incomplete_raw_basic_processor'
+              item: 'forge_frontier:incomplete_raw_basic_processor'
             }
           ]
         },
@@ -79,7 +79,7 @@ ServerEvents.recipes(event => {
           type: 'create:deploying',
           ingredients: [
             {
-              item: 'kubejs:incomplete_raw_basic_processor'
+              item: 'forge_frontier:incomplete_raw_basic_processor'
             },
             {
               item: 'refinedstorage:silicon'
@@ -87,7 +87,7 @@ ServerEvents.recipes(event => {
           ],
           results: [
             {
-              item: 'kubejs:incomplete_raw_basic_processor'
+              item: 'forge_frontier:incomplete_raw_basic_processor'
             }
           ]
         },
@@ -95,7 +95,7 @@ ServerEvents.recipes(event => {
             type: 'create:deploying',
             ingredients: [
               {
-                item: 'kubejs:incomplete_raw_basic_processor'
+                item: 'forge_frontier:incomplete_raw_basic_processor'
               },
               {
                 item: 'minecraft:redstone'
@@ -103,13 +103,13 @@ ServerEvents.recipes(event => {
             ],
             results: [
               {
-                item: 'kubejs:incomplete_raw_basic_processor'
+                item: 'forge_frontier:incomplete_raw_basic_processor'
               }
             ]
           }
       ],
       transitionalItem: {
-        item: 'kubejs:incomplete_raw_basic_processor'
+        item: 'forge_frontier:incomplete_raw_basic_processor'
       }
     });
 
@@ -131,7 +131,7 @@ ServerEvents.recipes(event => {
             type: 'create:deploying',
             ingredients: [
               {
-                item: 'kubejs:incomplete_raw_improved_processor'
+                item: 'forge_frontier:incomplete_raw_improved_processor'
               },
               {
                 item: 'refinedstorage:processor_binding'
@@ -139,7 +139,7 @@ ServerEvents.recipes(event => {
             ],
             results: [
               {
-                item: 'kubejs:incomplete_raw_improved_processor'
+                item: 'forge_frontier:incomplete_raw_improved_processor'
               }
             ]
           },
@@ -147,7 +147,7 @@ ServerEvents.recipes(event => {
             type: 'create:deploying',
             ingredients: [
               {
-                item: 'kubejs:incomplete_raw_improved_processor'
+                item: 'forge_frontier:incomplete_raw_improved_processor'
               },
               {
                 item: 'refinedstorage:silicon'
@@ -155,7 +155,7 @@ ServerEvents.recipes(event => {
             ],
             results: [
               {
-                item: 'kubejs:incomplete_raw_improved_processor'
+                item: 'forge_frontier:incomplete_raw_improved_processor'
               }
             ]
           },
@@ -163,7 +163,7 @@ ServerEvents.recipes(event => {
               type: 'create:deploying',
               ingredients: [
                 {
-                  item: 'kubejs:incomplete_raw_improved_processor'
+                  item: 'forge_frontier:incomplete_raw_improved_processor'
                 },
                 {
                   item: 'minecraft:redstone'
@@ -171,13 +171,13 @@ ServerEvents.recipes(event => {
               ],
               results: [
                 {
-                  item: 'kubejs:incomplete_raw_improved_processor'
+                  item: 'forge_frontier:incomplete_raw_improved_processor'
                 }
               ]
             }
         ],
         transitionalItem: {
-          item: 'kubejs:incomplete_raw_improved_processor'
+          item: 'forge_frontier:incomplete_raw_improved_processor'
         }
       });
 
@@ -199,7 +199,7 @@ ServerEvents.recipes(event => {
             type: 'create:deploying',
             ingredients: [
               {
-                item: 'kubejs:incomplete_raw_advanced_processor'
+                item: 'forge_frontier:incomplete_raw_advanced_processor'
               },
               {
                 item: 'refinedstorage:processor_binding'
@@ -207,7 +207,7 @@ ServerEvents.recipes(event => {
             ],
             results: [
               {
-                item: 'kubejs:incomplete_raw_advanced_processor'
+                item: 'forge_frontier:incomplete_raw_advanced_processor'
               }
             ]
           },
@@ -215,7 +215,7 @@ ServerEvents.recipes(event => {
             type: 'create:deploying',
             ingredients: [
               {
-                item: 'kubejs:incomplete_raw_advanced_processor'
+                item: 'forge_frontier:incomplete_raw_advanced_processor'
               },
               {
                 item: 'refinedstorage:silicon'
@@ -223,7 +223,7 @@ ServerEvents.recipes(event => {
             ],
             results: [
               {
-                item: 'kubejs:incomplete_raw_advanced_processor'
+                item: 'forge_frontier:incomplete_raw_advanced_processor'
               }
             ]
           },
@@ -231,7 +231,7 @@ ServerEvents.recipes(event => {
               type: 'create:deploying',
               ingredients: [
                 {
-                  item: 'kubejs:incomplete_raw_advanced_processor'
+                  item: 'forge_frontier:incomplete_raw_advanced_processor'
                 },
                 {
                   item: 'minecraft:redstone'
@@ -239,13 +239,13 @@ ServerEvents.recipes(event => {
               ],
               results: [
                 {
-                  item: 'kubejs:incomplete_raw_advanced_processor'
+                  item: 'forge_frontier:incomplete_raw_advanced_processor'
                 }
               ]
             }
         ],
         transitionalItem: {
-          item: 'kubejs:incomplete_raw_advanced_processor'
+          item: 'forge_frontier:incomplete_raw_advanced_processor'
         }
       });
 
@@ -267,7 +267,7 @@ ServerEvents.recipes(event => {
           type: 'create:deploying',
           ingredients: [
             {
-              item: 'kubejs:incomplete_raw_withering_processor'
+              item: 'forge_frontier:incomplete_raw_withering_processor'
             },
             {
               item: 'refinedstorage:processor_binding'
@@ -275,7 +275,7 @@ ServerEvents.recipes(event => {
           ],
           results: [
             {
-              item: 'kubejs:incomplete_raw_withering_processor'
+              item: 'forge_frontier:incomplete_raw_withering_processor'
             }
           ]
         },
@@ -283,7 +283,7 @@ ServerEvents.recipes(event => {
           type: 'create:deploying',
           ingredients: [
             {
-              item: 'kubejs:incomplete_raw_withering_processor'
+              item: 'forge_frontier:incomplete_raw_withering_processor'
             },
             {
               item: 'refinedstorage:silicon'
@@ -291,7 +291,7 @@ ServerEvents.recipes(event => {
           ],
           results: [
             {
-              item: 'kubejs:incomplete_raw_withering_processor'
+              item: 'forge_frontier:incomplete_raw_withering_processor'
             }
           ]
         },
@@ -299,7 +299,7 @@ ServerEvents.recipes(event => {
             type: 'create:deploying',
             ingredients: [
               {
-                item: 'kubejs:incomplete_raw_withering_processor'
+                item: 'forge_frontier:incomplete_raw_withering_processor'
               },
               {
                 item: 'minecraft:redstone'
@@ -307,13 +307,13 @@ ServerEvents.recipes(event => {
             ],
             results: [
               {
-                item: 'kubejs:incomplete_raw_withering_processor'
+                item: 'forge_frontier:incomplete_raw_withering_processor'
               }
             ]
           }
       ],
       transitionalItem: {
-        item: 'kubejs:incomplete_raw_withering_processor'
+        item: 'forge_frontier:incomplete_raw_withering_processor'
       }
     });
   });

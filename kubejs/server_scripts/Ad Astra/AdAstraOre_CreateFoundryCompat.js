@@ -16,7 +16,7 @@ ServerEvents.recipes(event => {
             ],
             results: [
                 {
-                    fluid: 'kubejs:molten_desh',
+                    fluid: 'forge_frontier:molten_desh',
                     amount: 500
                 },
                 {
@@ -25,7 +25,7 @@ ServerEvents.recipes(event => {
                 },
             ],
             heatRequirement: "superheated"
-        }).id('kubejs:mixing/deepslate_desh_ore');
+        }).id('forge_frontier:mixing/deepslate_desh_ore');
 
         // Moon Desh Ore
         event.custom({
@@ -39,7 +39,7 @@ ServerEvents.recipes(event => {
             ],
             results: [
                 {
-                    fluid: 'kubejs:molten_desh',
+                    fluid: 'forge_frontier:molten_desh',
                     amount: 500
                 },
                 {
@@ -48,7 +48,7 @@ ServerEvents.recipes(event => {
                 },
             ],
             heatRequirement: "superheated"
-        }).id('kubejs:mixing/moon_desh_ore');
+        }).id('forge_frontier:mixing/moon_desh_ore');
 
     // Ostrum Ore
         // Deepslate Ostrum Ore
@@ -63,7 +63,7 @@ ServerEvents.recipes(event => {
             ],
             results: [
                 {
-                    fluid: 'kubejs:molten_ostrum',
+                    fluid: 'forge_frontier:molten_ostrum',
                     amount: 500
                 },
                 {
@@ -72,7 +72,7 @@ ServerEvents.recipes(event => {
                 },
             ],
             heatRequirement: "superheated"
-        }).id('kubejs:mixing/deepslate_ostrum_ore');
+        }).id('forge_frontier:mixing/deepslate_ostrum_ore');
 
         // Mars Ostrum Ore
         event.custom({
@@ -86,7 +86,7 @@ ServerEvents.recipes(event => {
             ],
             results: [
                 {
-                    fluid: 'kubejs:molten_ostrum',
+                    fluid: 'forge_frontier:molten_ostrum',
                     amount: 500
                 },
                 {
@@ -95,7 +95,7 @@ ServerEvents.recipes(event => {
                 },
             ],
             heatRequirement: "superheated"
-        }).id('kubejs:mixing/mars_ostrum_ore');
+        }).id('forge_frontier:mixing/mars_ostrum_ore');
 
     // Calorite Ore
         // Deepslate Calorite Ore
@@ -110,7 +110,7 @@ ServerEvents.recipes(event => {
             ],
             results: [
                 {
-                    fluid: 'kubejs:molten_calorite',
+                    fluid: 'forge_frontier:molten_calorite',
                     amount: 500
                 },
                 {
@@ -119,7 +119,7 @@ ServerEvents.recipes(event => {
                 },
             ],
             heatRequirement: "superheated"
-        }).id('kubejs:mixing/deepslate_calorite_ore');
+        }).id('forge_frontier:mixing/deepslate_calorite_ore');
 
         // Venus Calorite Ore
         event.custom({
@@ -133,7 +133,7 @@ ServerEvents.recipes(event => {
             ],
             results: [
                 {
-                    fluid: 'kubejs:molten_calorite',
+                    fluid: 'forge_frontier:molten_calorite',
                     amount: 500
                 },
                 {
@@ -142,7 +142,7 @@ ServerEvents.recipes(event => {
                 },
             ],
             heatRequirement: "superheated"
-        }).id('kubejs:mixing/venus_calorite_ore');
+        }).id('forge_frontier:mixing/venus_calorite_ore');
 
     // Raw Ore to Molten Ore Mixing Recipes
 
@@ -158,12 +158,12 @@ ServerEvents.recipes(event => {
             ],
             results: [
                 {
-                    fluid: 'kubejs:molten_desh',
+                    fluid: 'forge_frontier:molten_desh',
                     amount: 200
                 }
             ],
             heatRequirement: "superheated"
-        }).id('kubejs:mixing/raw_desh');
+        }).id('forge_frontier:mixing/raw_desh');
 
         // Raw Ostrum Ore
         event.custom({
@@ -177,12 +177,12 @@ ServerEvents.recipes(event => {
             ],
             results: [
                 {
-                    fluid: 'kubejs:molten_ostrum',
+                    fluid: 'forge_frontier:molten_ostrum',
                     amount: 200
                 }
             ],
             heatRequirement: "superheated"
-        }).id('kubejs:mixing/raw_ostrum');
+        }).id('forge_frontier:mixing/raw_ostrum');
 
         // Raw Calorite Ore
         event.custom({
@@ -196,12 +196,12 @@ ServerEvents.recipes(event => {
             ],
             results: [
                 {
-                    fluid: 'kubejs:molten_calorite',
+                    fluid: 'forge_frontier:molten_calorite',
                     amount: 200
                 }
             ],
             heatRequirement: "superheated"
-        }).id('kubejs:mixing/raw_calorite');
+        }).id('forge_frontier:mixing/raw_calorite');
 
     // Raw Ore Block to Molten Ore Mixing Recipes
 
@@ -217,12 +217,12 @@ ServerEvents.recipes(event => {
             ],
             results: [
                 {
-                    fluid: 'kubejs:molten_desh',
+                    fluid: 'forge_frontier:molten_desh',
                     amount: 1800
                 }
             ],
             heatRequirement: "superheated"
-        }).id('kubejs:mixing/raw_desh_block');
+        }).id('forge_frontier:mixing/raw_desh_block');
 
         // Raw Ostrum Ore Block
         event.custom({
@@ -236,12 +236,12 @@ ServerEvents.recipes(event => {
             ],
             results: [
                 {
-                    fluid: 'kubejs:molten_ostrum',
+                    fluid: 'forge_frontier:molten_ostrum',
                     amount: 1800
                 }
             ],
             heatRequirement: "superheated"
-        }).id('kubejs:mixing/raw_ostrum_block');
+        }).id('forge_frontier:mixing/raw_ostrum_block');
 
         // Raw Calorite Ore Block
         event.custom({
@@ -255,12 +255,12 @@ ServerEvents.recipes(event => {
             ],
             results: [
                 {
-                    fluid: 'kubejs:molten_calorite',
+                    fluid: 'forge_frontier:molten_calorite',
                     amount: 1800
                 }
             ],
             heatRequirement: "superheated"
-        }).id('kubejs:mixing/raw_calorite_block');
+        }).id('forge_frontier:mixing/raw_calorite_block');
     
     // Crushed Raw Ore to Molten Ore Mixing Recipes
 
@@ -269,57 +269,57 @@ ServerEvents.recipes(event => {
             type: "create:mixing",
             ingredients: [
                 {
-                    item: 'kubejs:crushed_desh_ore',
+                    item: 'forge_frontier:crushed_desh_ore',
                     nbt: {},
                     amount: 1
                 }
             ],
             results: [
                 {
-                    fluid: 'kubejs:molten_desh',
+                    fluid: 'forge_frontier:molten_desh',
                     amount: 200
                 }
             ],
             heatRequirement: "superheated"
-        }).id('kubejs:mixing/crushed_desh');
+        }).id('forge_frontier:mixing/crushed_desh');
 
         // Crushed Ostrum Ore
         event.custom({
             type: "create:mixing",
             ingredients: [
                 {
-                    item: 'kubejs:crushed_ostrum_ore',
+                    item: 'forge_frontier:crushed_ostrum_ore',
                     nbt: {},
                     amount: 1
                 }
             ],
             results: [
                 {
-                    fluid: 'kubejs:molten_ostrum',
+                    fluid: 'forge_frontier:molten_ostrum',
                     amount: 200
                 }
             ],
             heatRequirement: "superheated"
-        }).id('kubejs:mixing/crushed_ostrum');
+        }).id('forge_frontier:mixing/crushed_ostrum');
 
         // Crushed Calorite Ore
         event.custom({
             type: "create:mixing",
             ingredients: [
                 {
-                    item: 'kubejs:crushed_calorite_ore',
+                    item: 'forge_frontier:crushed_calorite_ore',
                     nbt: {},
                     amount: 1
                 }
             ],
             results: [
                 {
-                    fluid: 'kubejs:molten_calorite',
+                    fluid: 'forge_frontier:molten_calorite',
                     amount: 200
                 }
             ],
             heatRequirement: "superheated"
-        }).id('kubejs:mixing/crushed_calorite');
+        }).id('forge_frontier:mixing/crushed_calorite');
 
     // Block and Ingot to Molten Ore
         // Desh Ingot
@@ -334,12 +334,12 @@ ServerEvents.recipes(event => {
             ],
             results: [
                 {
-                    fluid: 'kubejs:molten_desh',
+                    fluid: 'forge_frontier:molten_desh',
                     amount: 100
                 }
             ],
             heatRequirement: "superheated"
-        }).id('kubejs:mixing/desh_ingot');
+        }).id('forge_frontier:mixing/desh_ingot');
 
         // Ostrum Ingot
         event.custom({
@@ -353,12 +353,12 @@ ServerEvents.recipes(event => {
             ],
             results: [
                 {
-                    fluid: 'kubejs:molten_ostrum',
+                    fluid: 'forge_frontier:molten_ostrum',
                     amount: 100
                 }
             ],
             heatRequirement: "superheated"
-        }).id('kubejs:mixing/ostrum_ingot');
+        }).id('forge_frontier:mixing/ostrum_ingot');
 
         // Calorite Ingot
         event.custom({
@@ -372,12 +372,12 @@ ServerEvents.recipes(event => {
             ],
             results: [
                 {
-                    fluid: 'kubejs:molten_calorite',
+                    fluid: 'forge_frontier:molten_calorite',
                     amount: 100
                 }
             ],
             heatRequirement: "superheated"
-        }).id('kubejs:mixing/calorite_ingot');
+        }).id('forge_frontier:mixing/calorite_ingot');
 
         // Desh Block
         event.custom({
@@ -391,12 +391,12 @@ ServerEvents.recipes(event => {
             ],
             results: [
                 {
-                    fluid: 'kubejs:molten_desh',
+                    fluid: 'forge_frontier:molten_desh',
                     amount: 900 
                 }
             ],
             heatRequirement: "superheated"
-        }).id('kubejs:mixing/desh_block');
+        }).id('forge_frontier:mixing/desh_block');
 
         // Ostrum Block
         event.custom({
@@ -410,12 +410,12 @@ ServerEvents.recipes(event => {
             ],
             results: [
                 {
-                    fluid: 'kubejs:molten_ostrum',
+                    fluid: 'forge_frontier:molten_ostrum',
                     amount: 900 
                 }
             ],
             heatRequirement: "superheated"
-        }).id('kubejs:mixing/ostrum_block');
+        }).id('forge_frontier:mixing/ostrum_block');
 
         // Calorite Block
         event.custom({
@@ -429,12 +429,12 @@ ServerEvents.recipes(event => {
             ],
             results: [
                 {
-                    fluid: 'kubejs:molten_calorite',
+                    fluid: 'forge_frontier:molten_calorite',
                     amount: 900 
                 }
             ],
             heatRequirement: "superheated"
-        }).id('kubejs:mixing/calorite_block');
+        }).id('forge_frontier:mixing/calorite_block');
     
     // Molten Ore to Block Compacting Recipes
         // Create Desh Block Compacting Recipe
@@ -442,7 +442,7 @@ ServerEvents.recipes(event => {
             type: "create:compacting",
             ingredients: [
                 {
-                    fluid: 'kubejs:molten_desh',
+                    fluid: 'forge_frontier:molten_desh',
                     nbt: {},
                     amount: 900 
                 }
@@ -453,14 +453,14 @@ ServerEvents.recipes(event => {
                     amount: 1 
                 }
             ]
-        }).id('kubejs:compacting/molten_desh');
+        }).id('forge_frontier:compacting/molten_desh');
 
         // Create Ostrum Block Compacting Recipe
         event.custom({
             type: "create:compacting",
             ingredients: [
                 {
-                    fluid: 'kubejs:molten_ostrum',
+                    fluid: 'forge_frontier:molten_ostrum',
                     nbt: {},
                     amount: 900 
                 }
@@ -471,14 +471,14 @@ ServerEvents.recipes(event => {
                     amount: 1 
                 }
             ]
-        }).id('kubejs:compacting/molten_ostrum');
+        }).id('forge_frontier:compacting/molten_ostrum');
 
         // Create Calorite Block Compacting Recipe
         event.custom({
             type: "create:compacting",
             ingredients: [
                 {
-                    fluid: 'kubejs:molten_calorite',
+                    fluid: 'forge_frontier:molten_calorite',
                     nbt: {},
                     amount: 900 
                 }
@@ -489,6 +489,6 @@ ServerEvents.recipes(event => {
                     amount: 1 
                 }
             ]
-        }).id('kubejs:compacting/molten_calorite');
+        }).id('forge_frontier:compacting/molten_calorite');
 
 })

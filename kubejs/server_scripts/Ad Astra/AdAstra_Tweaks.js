@@ -38,7 +38,7 @@ ServerEvents.recipes(event => {
             },
             result: Ingredient.of('ad_astra:etrionic_blast_furnace').toJson(),
             acceptMirrored: false
-        }).id('kubejs:ad_astra/etrionic_blast_furnace');
+        }).id('forge_frontier:ad_astra/etrionic_blast_furnace');
 
                 //Creates Alternate Faster Oil Mixing Recipe by Voidmaster01
         
@@ -122,7 +122,7 @@ ServerEvents.recipes(event => {
                 }
             ],
             heatRequirement: "superheated"
-        }).id('kubejs:mixing/oil');
+        }).id('forge_frontier:mixing/oil');
 
         // Creates Missing Iron Plate Pressing Recipe
         event.custom({
@@ -141,7 +141,7 @@ ServerEvents.recipes(event => {
                     amount: 1
                 }
             ]
-        }).id('kubejs:compacting/iron_plate')
+        }).id('forge_frontier:compacting/iron_plate')
 
         // Create New Coal Generator Recipe
         event.custom({
@@ -158,7 +158,7 @@ ServerEvents.recipes(event => {
             },
             result: Ingredient.of('ad_astra:coal_generator').toJson(),
             acceptMirrored: false
-        }).id('kubejs:ad_astra/coal_generator');
+        }).id('forge_frontier:ad_astra/coal_generator');
 
         // Creates New Compressor Recipe
         event.custom({
@@ -174,7 +174,7 @@ ServerEvents.recipes(event => {
             },
             result: Ingredient.of('ad_astra:compressor').toJson(),
             acceptMirrored: false
-        }).id('kubejs:ad_astra/compressor');
+        }).id('forge_frontier:ad_astra/compressor');
         
         // Creates New Nasa Workbench Recipe
         event.custom({
@@ -194,7 +194,7 @@ ServerEvents.recipes(event => {
             },
             result: Ingredient.of('ad_astra:nasa_workbench').toJson(),
             acceptMirrored: false
-        }).id('kubejs:ad_astra/workbench');
+        }).id('forge_frontier:ad_astra/workbench');
 
         // Creates New Fuel Refinery Recipe
         event.custom({
@@ -211,7 +211,7 @@ ServerEvents.recipes(event => {
             },
             result: Ingredient.of('ad_astra:fuel_refinery').toJson(),
             acceptMirrored: false
-        }).id('kubejs:ad_astra/fuel_refinery');
+        }).id('forge_frontier:ad_astra/fuel_refinery');
 
         // Creates New Water Pump Recipe
         event.custom({
@@ -228,7 +228,7 @@ ServerEvents.recipes(event => {
             },
             result: Ingredient.of('ad_astra:water_pump').toJson(),
             acceptMirrored: false
-        }).id('kubejs:ad_astra/water_pump');
+        }).id('forge_frontier:ad_astra/water_pump');
 
         // Creates New Oxygen Sensor
         event.custom({
@@ -247,7 +247,7 @@ ServerEvents.recipes(event => {
             },
             result: Ingredient.of('ad_astra:oxygen_sensor').toJson(),
             acceptMirrored: false
-        }).id('kubejs:ad_astra/oxygen_sensor');
+        }).id('forge_frontier:ad_astra/oxygen_sensor');
 
         // Creates New Oxygen Loader Recipe
         event.custom({
@@ -266,7 +266,7 @@ ServerEvents.recipes(event => {
             },
             result: Ingredient.of('ad_astra:oxygen_loader').toJson(),
             acceptMirrored: false
-        }).id('kubejs:ad_astra/oxygen_loader');
+        }).id('forge_frontier:ad_astra/oxygen_loader');
 
         // Creates New Energizer Recipe
         event.custom({
@@ -284,7 +284,7 @@ ServerEvents.recipes(event => {
             },
             result: Ingredient.of('ad_astra:energizer').toJson(),
             acceptMirrored: false
-        }).id('kubejs:ad_astra/energizer');
+        }).id('forge_frontier:ad_astra/energizer');
 
         // Creates New Rocket Sensor Recipe
         event.custom({
@@ -301,7 +301,7 @@ ServerEvents.recipes(event => {
             },
             result: Ingredient.of('ad_astra_giselle_addon:rocket_sensor').toJson(),
             acceptMirrored: false
-        }).id('kubejs:ad_astra/rocket_sensor');
+        }).id('forge_frontier:ad_astra/rocket_sensor');
 
         // Creates New Automation NASA Workbench Recipe
         event.custom({
@@ -319,7 +319,7 @@ ServerEvents.recipes(event => {
             },
             result: Ingredient.of('ad_astra_giselle_addon:automation_nasa_workbench').toJson(),
             acceptMirrored: false
-        }).id('kubejs:ad_astra/automation_nasa_workbench');
+        }).id('forge_frontier:ad_astra/automation_nasa_workbench');
 
         // Creates New Fuel Loader Recipe
         event.custom({
@@ -336,7 +336,7 @@ ServerEvents.recipes(event => {
             },
             result: Ingredient.of('ad_astra_giselle_addon:fuel_loader').toJson(),
             acceptMirrored: false
-        }).id('kubejs:ad_astra/fuel_loader');
+        }).id('forge_frontier:ad_astra/fuel_loader');
 
         // Changes Old Recipes to use mechanical crafter
 
@@ -355,7 +355,7 @@ ServerEvents.recipes(event => {
             },
             result: Ingredient.of('ad_astra_giselle_addon:gravity_normalizer').toJson(),
             acceptMirrored: false
-        }).id('kubejs:ad_astra/gravity_normalizer');
+        }).id('forge_frontier:ad_astra/gravity_normalizer');
 
         // Creates New Solar Panel Recipe
         event.custom({
@@ -372,7 +372,7 @@ ServerEvents.recipes(event => {
             },
             result: Ingredient.of('ad_astra:solar_panel').toJson(),
             acceptMirrored: false
-        }).id('kubejs:ad_astra/solar_panel');
+        }).id('forge_frontier:ad_astra/solar_panel');
 
         // Creates New Oxygen Distributor Recipe
         event.custom({
@@ -391,7 +391,7 @@ ServerEvents.recipes(event => {
             },
             result: Ingredient.of('ad_astra:oxygen_distributor').toJson(),
             acceptMirrored: false
-        }).id('kubejs:ad_astra/oxygen_distributor');
+        }).id('forge_frontier:ad_astra/oxygen_distributor');
 
         // Creates New Cryo Freezer Recipe
         event.custom({
@@ -409,7 +409,7 @@ ServerEvents.recipes(event => {
             },
             result: Ingredient.of('ad_astra:cryo_freezer').toJson(),
             acceptMirrored: false
-        }).id('kubejs:ad_astra/cryo_freezer');
+        }).id('forge_frontier:ad_astra/cryo_freezer');
 
         // Creates New Tier 1 Rover Recipe
         event.custom({
@@ -429,7 +429,7 @@ ServerEvents.recipes(event => {
             },
             result: Ingredient.of('ad_astra:tier_1_rover').toJson(),
             acceptMirrored: false
-        }).id('kubejs:ad_astra/tier_1_rover');
+        }).id('forge_frontier:ad_astra/tier_1_rover');
 
         // Creates New Launch Pad Recipe
         event.custom({
@@ -445,6 +445,6 @@ ServerEvents.recipes(event => {
             },
             result: Ingredient.of('ad_astra:launch_pad').toJson(),
             acceptMirrored: false
-        }).id('kubejs:ad_astra/launch_pad');
+        }).id('forge_frontier:ad_astra/launch_pad');
         
 })

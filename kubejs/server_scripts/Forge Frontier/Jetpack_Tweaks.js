@@ -23,7 +23,7 @@ ServerEvents.recipes(event => {
 		},
 		result: Ingredient.of('create_sa:copper_jetpack_chestplate').toJson(),
 		acceptMirrored: false
-	}).id('kubejs:create/copper_jetpack_chestplate');
+	}).id('forge_frontier:create/copper_jetpack_chestplate');
 
     // Vanadium Jetpack Recipe
     event.custom({
@@ -43,7 +43,7 @@ ServerEvents.recipes(event => {
 		},
 		result: Ingredient.of('create_sa:andesite_jetpack_chestplate').toJson(),
 		acceptMirrored: false
-	}).id('kubejs:create/andesite_jetpack_chestplate');
+	}).id('forge_frontier:create/andesite_jetpack_chestplate');
 
     // Chorium Jetpack Recipe
     event.custom({
@@ -63,7 +63,7 @@ ServerEvents.recipes(event => {
 		},
 		result: Ingredient.of('create_sa:brass_jetpack_chestplate').toJson(),
 		acceptMirrored: false
-	}).id('kubejs:create/brass_jetpack_chestplate');
+	}).id('forge_frontier:create/brass_jetpack_chestplate');
 
 
 })

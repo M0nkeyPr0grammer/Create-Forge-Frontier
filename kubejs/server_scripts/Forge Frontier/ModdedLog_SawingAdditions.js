@@ -47,7 +47,7 @@ ServerEvents.recipes(event => {
                 }
             ],
             sound: "minecraft:item.axe.strip"
-        }).id("kubejs:sawing/" + log.replace(":", "_bark"));
+        }).id("forge_frontier:sawing/" + log.replace(":", "_bark"));
     });
 
 })

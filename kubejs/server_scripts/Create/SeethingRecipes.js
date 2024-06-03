@@ -5,7 +5,7 @@ event.custom({
     type: "create_dd:superheating",
     ingredients: [
         {
-            item: 'kubejs:crushed_bismuth_pile'
+            item: 'forge_frontier:crushed_bismuth_pile'
         }
     ],
     results: [
@@ -24,7 +24,7 @@ event.custom({
     type: "create_dd:superheating",
     ingredients: [
         {
-            item: 'kubejs:crushed_calorite_pile'
+            item: 'forge_frontier:crushed_calorite_pile'
         }
     ],
     results: [
@@ -43,7 +43,7 @@ event.custom({
     type: "create_dd:superheating",
     ingredients: [
         {
-            item: 'kubejs:crushed_desh_pile'
+            item: 'forge_frontier:crushed_desh_pile'
         }
     ],
     results: [
@@ -62,7 +62,7 @@ event.custom({
     type: "create_dd:superheating",
     ingredients: [
         {
-            item: 'kubejs:crushed_irradium_pile'
+            item: 'forge_frontier:crushed_irradium_pile'
         }
     ],
     results: [
@@ -81,7 +81,7 @@ event.custom({
     type: "create_dd:superheating",
     ingredients: [
         {
-            item: 'kubejs:crushed_malachite_pile'
+            item: 'forge_frontier:crushed_malachite_pile'
         }
     ],
     results: [
@@ -100,7 +100,7 @@ event.custom({
     type: "create_dd:superheating",
     ingredients: [
         {
-            item: 'kubejs:crushed_ostrum_pile'
+            item: 'forge_frontier:crushed_ostrum_pile'
         }
     ],
     results: [
@@ -119,7 +119,7 @@ event.custom({
     type: "create_dd:superheating",
     ingredients: [
         {
-            item: 'kubejs:crushed_tin_pile'
+            item: 'forge_frontier:crushed_tin_pile'
         }
     ],
     results: [
@@ -138,7 +138,7 @@ event.custom({
     type: "create_dd:superheating",
     ingredients: [
         {
-            item: 'kubejs:crushed_uranium_pile'
+            item: 'forge_frontier:crushed_uranium_pile'
         }
     ],
     results: [

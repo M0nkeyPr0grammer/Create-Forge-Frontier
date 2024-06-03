@@ -30,7 +30,7 @@ ServerEvents.recipes(event => {
             { item: 'vintageimprovements:sulfur_chunk', chance: 0.05 },
             { item: 'create:cinder_flour', chance: 0.04 },
         ],
-    }).id('kubejs:crushing/scorchia');
+    }).id('forge_frontier:crushing/scorchia');
 
     // Scoria Crushing
     event.custom({
@@ -45,7 +45,7 @@ ServerEvents.recipes(event => {
             { item: 'vintageimprovements:sulfur_chunk', chance: 0.10 },
             { item: 'vintageimprovements:sulfur_chunk', chance: 0.05 },
         ],
-    }).id('kubejs:crushing/scoria'); 
+    }).id('forge_frontier:crushing/scoria'); 
 
     // Enlightened End Ores
 
@@ -59,12 +59,12 @@ ServerEvents.recipes(event => {
             ],
             processingTime: 400,
             results: [
-                { item: 'kubejs:crushed_bismuth' },
-                { item: 'kubejs:crushed_bismuth', chance: 0.75 },
+                { item: 'forge_frontier:crushed_bismuth' },
+                { item: 'forge_frontier:crushed_bismuth', chance: 0.75 },
                 { item: 'create:experience_nugget', chance: 0.75 },
                 { item: 'minecraft:endstone', chance: 0.12 },
             ],
-        }).id('kubejs:crushing/bismuth_ore');
+        }).id('forge_frontier:crushing/bismuth_ore');
 
         // Smelting/Blasting Recipe
         event.custom({
@@ -72,12 +72,12 @@ ServerEvents.recipes(event => {
             cookingtime: 100, 
             experience: 0.1, 
             ingredient: {
-                item: 'kubejs:crushed_bismuth' 
+                item: 'forge_frontier:crushed_bismuth' 
             },
             result: {
                 item: 'enlightened_end:bismuth_ingot' 
             }
-        }).id('kubejs:blasting/bismuth_ore');
+        }).id('forge_frontier:blasting/bismuth_ore');
         
 
     // Malachite Ore
@@ -90,12 +90,12 @@ ServerEvents.recipes(event => {
             ],
             processingTime: 400,
             results: [
-                { item: 'kubejs:crushed_malachite' },
-                { item: 'kubejs:crushed_malachite', chance: 0.75 },
+                { item: 'forge_frontier:crushed_malachite' },
+                { item: 'forge_frontier:crushed_malachite', chance: 0.75 },
                 { item: 'create:experience_nugget', chance: 0.75 },
                 { item: 'minecraft:endstone', chance: 0.12 },
             ],
-        }).id('kubejs:crushing/malachite_ore');
+        }).id('forge_frontier:crushing/malachite_ore');
 
         // Smelting/Blasting Recipe
         event.custom({
@@ -103,10 +103,10 @@ ServerEvents.recipes(event => {
             cookingtime: 100,
             experience: 0.1,
             ingredient: 
-                { item: 'kubejs:crushed_malachite' },
+                { item: 'forge_frontier:crushed_malachite' },
             result: 
                 { item: 'enlightened_end:malachite' }
-        }).id('kubejs:blasting/malachite_ore');
+        }).id('forge_frontier:blasting/malachite_ore');
         
 
     // Irradium Ore
@@ -119,12 +119,12 @@ ServerEvents.recipes(event => {
             ],
             processingTime: 400,
             results: [
-                { item: 'kubejs:crushed_irradium' },
-                { item: 'kubejs:crushed_irradium', chance: 0.75 },
+                { item: 'forge_frontier:crushed_irradium' },
+                { item: 'forge_frontier:crushed_irradium', chance: 0.75 },
                 { item: 'create:experience_nugget', chance: 0.75 },
                 { item: 'minecraft:endstone', chance: 0.12 },
             ],
-        }).id('kubejs:crushing/irradium_ore');
+        }).id('forge_frontier:crushing/irradium_ore');
 
         // Smelting/Blasting Recipe
         event.custom({
@@ -132,10 +132,10 @@ ServerEvents.recipes(event => {
             cookingtime: 100,
             experience: 0.1,
             ingredient: 
-                { item: 'kubejs:crushed_irradium' },
+                { item: 'forge_frontier:crushed_irradium' },
             result: 
                 { item: 'enlightened_end:irradium_bar' }
-        }).id('kubejs:blasting/irradium_ore');
+        }).id('forge_frontier:blasting/irradium_ore');
         
 
 
@@ -154,7 +154,7 @@ ServerEvents.recipes(event => {
             { item: 'create:experience_nugget', chance: 0.75 },
             { item: 'minecraft:cobblestone', chance: 0.12 },
         ],
-    }).id('kubejs:crushing/coal_ore');
+    }).id('forge_frontier:crushing/coal_ore');
 
 
     // Alex Caves
@@ -170,7 +170,7 @@ ServerEvents.recipes(event => {
 			{ item: 'create:experience_nugget', chance: 0.75 },
 			{ item: 'alexscaves:coprolith', chance: 0.12 }
 		]
-	}).id('kubejs:crushing/a_coal_ore');
+	}).id('forge_frontier:crushing/a_coal_ore');
 
     // Removes Old Iron Ore Recipes
     event.remove({ id: 'create:crushing/iron_ore'})
@@ -196,7 +196,7 @@ ServerEvents.recipes(event => {
             { item: 'create:experience_nugget', chance: 0.75 },
             { item: 'minecraft:cobblestone', chance: 0.12 },
         ],
-    }).id('kubejs:crushing/iron_ore');
+    }).id('forge_frontier:crushing/iron_ore');
 
 
     // Removes Old Copper Ore Recipes
@@ -222,7 +222,7 @@ ServerEvents.recipes(event => {
             { item: 'create:experience_nugget', chance: 0.75 },
             { item: 'minecraft:cobblestone', chance: 0.12 },
         ],
-    }).id('kubejs:crushing/copper_ore');
+    }).id('forge_frontier:crushing/copper_ore');
 
     // Removes Old Gold Ore Recipes
     event.remove({ id: 'create:crushing/gold_ore'})
@@ -248,7 +248,7 @@ ServerEvents.recipes(event => {
             { item: 'create:experience_nugget', chance: 0.75 },
             { item: 'minecraft:cobblestone', chance: 0.12 },
         ],
-    }).id('kubejs:crushing/gold_ore');
+    }).id('forge_frontier:crushing/gold_ore');
 
     // Removes Old Redstone Ore Recipes
     event.remove({ id: 'create:crushing/redstone_ore'})
@@ -273,7 +273,7 @@ ServerEvents.recipes(event => {
             { item: 'create:experience_nugget', chance: 0.75 },
             { item: 'minecraft:cobblestone', chance: 0.12 },
         ],
-    }).id('kubejs:crushing/redstone_ore');
+    }).id('forge_frontier:crushing/redstone_ore');
 
     // Alex Caves Ore
     event.custom({
@@ -288,7 +288,7 @@ ServerEvents.recipes(event => {
 			{ item: 'create:experience_nugget', chance: 0.75 },
 			{ item: 'alexscaves:guanostone', chance: 0.12 }
 		]
-	}).id('kubejs:crushing/a_redstone_ore');
+	}).id('forge_frontier:crushing/a_redstone_ore');
 
     // Removes Old Emerald Ore Recipes
     event.remove({ id: 'create:crushing/emerald_ore'})
@@ -313,7 +313,7 @@ ServerEvents.recipes(event => {
             { item: 'create:experience_nugget', chance: 0.75 },
             { item: 'minecraft:cobblestone', chance: 0.12 },
         ],
-    }).id('kubejs:crushing/emerald_ore');
+    }).id('forge_frontier:crushing/emerald_ore');
 
     // Removes Old Lapis Ore Recipes
     event.remove({ id: 'create:crushing/lapis_ore'})
@@ -339,7 +339,7 @@ ServerEvents.recipes(event => {
             { item: 'create:experience_nugget', chance: 0.75 },
             { item: 'minecraft:cobblestone', chance: 0.12 },
         ],
-    }).id('kubejs:crushing/lapis_ore');
+    }).id('forge_frontier:crushing/lapis_ore');
 
     // Removes Old Diamond Ore Recipes
     event.remove({ id: 'create:crushing/diamond_ore'})
@@ -364,7 +364,7 @@ ServerEvents.recipes(event => {
             { item: 'create:experience_nugget', chance: 0.75 },
             { item: 'minecraft:cobblestone', chance: 0.12 },
         ],
-    }).id('kubejs:crushing/diamond_ore');
+    }).id('forge_frontier:crushing/diamond_ore');
 
     // Removes Old Quartz Ore Recipes
     event.remove({ id: 'create:crushing/nether_quartz_ore'})
@@ -384,6 +384,6 @@ ServerEvents.recipes(event => {
             { item: 'create:experience_nugget', chance: 0.75 },
             { item: 'minecraft:cobblestone', chance: 0.12 },
         ],
-    }).id('kubejs:crushing/quartz_ore');
+    }).id('forge_frontier:crushing/quartz_ore');
     
 })

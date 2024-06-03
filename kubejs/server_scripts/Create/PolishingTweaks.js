@@ -11,6 +11,6 @@ ServerEvents.recipes(event => {
 			{ item: 'createutilities:polished_amethyst', count: 1 },
             { item: 'createutilities:polished_amethyst', chance: .50 }
 		]
-	}).id('kubejs:crushing/amethyst');
+	}).id('forge_frontier:crushing/amethyst');
 
 })

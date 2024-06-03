@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "kubejs:block/overcharged_iron_block"
+    "all": "forge_frontier:block/crushed_irradium_pile"
   },
   "render_type": "solid"
 }

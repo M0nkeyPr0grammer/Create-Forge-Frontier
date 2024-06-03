@@ -11,7 +11,7 @@ ServerEvents.recipes(event => {
         ],
         results: [
             {
-                item: 'kubejs:mold_template',
+                item: 'forge_frontier:mold_template',
                 amount: 1
             },
         ],
@@ -23,7 +23,7 @@ ServerEvents.recipes(event => {
         type:"create:compacting",
         ingredients: [
             {
-                item: 'kubejs:mold_template',
+                item: 'forge_frontier:mold_template',
                 amount: 1
             },
             {
@@ -32,21 +32,21 @@ ServerEvents.recipes(event => {
         ],
         results: [
             {
-                item: 'kubejs:skull_mold',
+                item: 'forge_frontier:skull_mold',
                 amount: 1
             },
             {
                 item: 'minecraft:skeleton_skull'
             }
         ],
-    }).id('kubejs:compacting/skull_mold_1')
+    }).id('forge_frontier:compacting/skull_mold_1')
 
     // Mold Template to Skull Mold Recipe 2
     event.custom({
         type:"create:compacting",
         ingredients: [
             {
-                item: 'kubejs:mold_template',
+                item: 'forge_frontier:mold_template',
                 amount: 1
             },
             {
@@ -55,21 +55,21 @@ ServerEvents.recipes(event => {
         ],
         results: [
             {
-                item: 'kubejs:skull_mold',
+                item: 'forge_frontier:skull_mold',
                 amount: 1
             },
             {
                 item: 'minecraft:wither_skeleton_skull'
             }
         ],
-    }).id('kubejs:compacting/skull_mold_2')
+    }).id('forge_frontier:compacting/skull_mold_2')
 
     // Mold Template to Skull Mold Recipe 3
     event.custom({
         type:"create:compacting",
         ingredients: [
             {
-                item: 'kubejs:mold_template',
+                item: 'forge_frontier:mold_template',
                 amount: 1
             },
             {
@@ -78,21 +78,21 @@ ServerEvents.recipes(event => {
         ],
         results: [
             {
-                item: 'kubejs:skull_mold',
+                item: 'forge_frontier:skull_mold',
                 amount: 1
             },
             {
                 item: 'minecraft:player_head'
             }
         ],
-    }).id('kubejs:compacting/skull_mold_3')
+    }).id('forge_frontier:compacting/skull_mold_3')
 
     // Mold Template to Skull Mold Recipe 4
     event.custom({
         type:"create:compacting",
         ingredients: [
             {
-                item: 'kubejs:mold_template',
+                item: 'forge_frontier:mold_template',
                 amount: 1
             },
             {
@@ -101,21 +101,21 @@ ServerEvents.recipes(event => {
         ],
         results: [
             {
-                item: 'kubejs:skull_mold',
+                item: 'forge_frontier:skull_mold',
                 amount: 1
             },
             {
                 item: 'minecraft:zombie_head'
             }
         ],
-    }).id('kubejs:compacting/skull_mold_4')
+    }).id('forge_frontier:compacting/skull_mold_4')
 
     // Mold Template to Skull Mold Recipe 5
     event.custom({
         type:"create:compacting",
         ingredients: [
             {
-                item: 'kubejs:mold_template',
+                item: 'forge_frontier:mold_template',
                 amount: 1
             },
             {
@@ -124,21 +124,21 @@ ServerEvents.recipes(event => {
         ],
         results: [
             {
-                item: 'kubejs:skull_mold',
+                item: 'forge_frontier:skull_mold',
                 amount: 1
             },
             {
                 item: 'minecraft:creeper_head'
             }
         ],
-    }).id('kubejs:compacting/skull_mold_5')
+    }).id('forge_frontier:compacting/skull_mold_5')
 
     // Mold Template to Head Mold
     event.custom({
         type:"create:compacting",
         ingredients: [
             {
-                item: 'kubejs:mold_template',
+                item: 'forge_frontier:mold_template',
                 amount: 1
             },
             {
@@ -147,25 +147,25 @@ ServerEvents.recipes(event => {
         ],
         results: [
             {
-                item: 'kubejs:head_mold',
+                item: 'forge_frontier:head_mold',
                 amount: 1
             },
             {
                 item: 'minecraft:dragon_head'
             }
         ],
-    }).id('kubejs:compacting/head_mold')
+    }).id('forge_frontier:compacting/head_mold')
 
     // Skeleton Skull Recipe
 	event.custom({
 		type: 'create:mixing',
 		ingredients: [
 			{
-				fluid: 'kubejs:molten_bone_marrow',
+				fluid: 'forge_frontier:molten_bone_marrow',
 				amount: 1000
 			},
 			{
-				item: 'kubejs:skull_mold',
+				item: 'forge_frontier:skull_mold',
 				count: 1
 			}
 		],
@@ -175,18 +175,18 @@ ServerEvents.recipes(event => {
 				count: 1
 			},
             {
-                item: 'kubejs:skull_mold'
+                item: 'forge_frontier:skull_mold'
             }
 		],
         heatRequirement: 'superheated'
-	}).id('kubejs:mixing/skeleton_skull')
+	}).id('forge_frontier:mixing/skeleton_skull')
 
     // Wither Skeleton Skull Recipe
 	event.custom({
 		type: 'create:mixing',
 		ingredients: [
 			{
-				fluid: 'kubejs:molten_bone_marrow',
+				fluid: 'forge_frontier:molten_bone_marrow',
 				amount: 1000
 			},
             {
@@ -198,7 +198,7 @@ ServerEvents.recipes(event => {
                 amount: 1
             },
 			{
-				item: 'kubejs:skull_mold',
+				item: 'forge_frontier:skull_mold',
 				count: 1
 			}
 		],
@@ -208,18 +208,18 @@ ServerEvents.recipes(event => {
 				count: 1
 			},
             {
-                item: 'kubejs:skull_mold'
+                item: 'forge_frontier:skull_mold'
             }
 		],
         heatRequirement: 'superheated'
-	}).id('kubejs:mixing/wither_skeleton_skull')
+	}).id('forge_frontier:mixing/wither_skeleton_skull')
 
     // Dragon Head Recipe
 	event.custom({
 		type: 'create:mixing',
 		ingredients: [
 			{
-				fluid: 'kubejs:liquid_dragons_breath',
+				fluid: 'forge_frontier:liquid_dragons_breath',
 				amount: 1000
 			},
             {
@@ -227,7 +227,7 @@ ServerEvents.recipes(event => {
                 amount: 1
             },
 			{
-				item: 'kubejs:head_mold',
+				item: 'forge_frontier:head_mold',
 				count: 1
 			}
 		],
@@ -237,9 +237,9 @@ ServerEvents.recipes(event => {
 				count: 1
 			},
             {
-                item: 'kubejs:head_mold'
+                item: 'forge_frontier:head_mold'
             }
 		],
         heatRequirement: 'superheated'
-	}).id('kubejs:mixing/dragon_head')
+	}).id('forge_frontier:mixing/dragon_head')
 })

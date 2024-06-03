@@ -37,7 +37,7 @@ event.custom({
     },
     result: Ingredient.of('bhc:blade_of_vitality').toJson(),
     acceptMirrored: false
-}).id('kubejs:create/blade_of_vitality');
+}).id('forge_frontier:create/blade_of_vitality');
 
 // Creates New Heart Amulet Recipe
 event.custom({
@@ -54,6 +54,6 @@ event.custom({
     },
     result: Ingredient.of('bhc:heart_amulet').toJson(),
     acceptMirrored: false
-}).id('kubejs:create/heart_amulet');
+}).id('forge_frontier:create/heart_amulet');
 
 })

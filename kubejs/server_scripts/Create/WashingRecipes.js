@@ -57,7 +57,7 @@ ServerEvents.recipes(event => {
         type: 'create:splashing',
         ingredients: [
           {
-            item: 'kubejs:crushed_bismuth_pile'
+            item: 'forge_frontier:crushed_bismuth_pile'
           }
         ],
         results: [
@@ -78,7 +78,7 @@ ServerEvents.recipes(event => {
             type: 'create:splashing',
             ingredients: [
               {
-                item: 'kubejs:crushed_bismuth'
+                item: 'forge_frontier:crushed_bismuth'
               }
             ],
             results: [
@@ -99,7 +99,7 @@ ServerEvents.recipes(event => {
         type: 'create:splashing',
         ingredients: [
           {
-            item: 'kubejs:crushed_calorite_pile'
+            item: 'forge_frontier:crushed_calorite_pile'
           }
         ],
         results: [
@@ -120,7 +120,7 @@ ServerEvents.recipes(event => {
             type: 'create:splashing',
             ingredients: [
               {
-                item: 'kubejs:crushed_calorite_ore'
+                item: 'forge_frontier:crushed_calorite_ore'
               }
             ],
             results: [
@@ -141,7 +141,7 @@ ServerEvents.recipes(event => {
         type: 'create:splashing',
         ingredients: [
           {
-            item: 'kubejs:crushed_ostrum_pile'
+            item: 'forge_frontier:crushed_ostrum_pile'
           }
         ],
         results: [
@@ -162,7 +162,7 @@ ServerEvents.recipes(event => {
             type: 'create:splashing',
             ingredients: [
               {
-                item: 'kubejs:crushed_ostrum_ore'
+                item: 'forge_frontier:crushed_ostrum_ore'
               }
             ],
             results: [
@@ -183,7 +183,7 @@ ServerEvents.recipes(event => {
         type: 'create:splashing',
         ingredients: [
           {
-            item: 'kubejs:crushed_desh_pile'
+            item: 'forge_frontier:crushed_desh_pile'
           }
         ],
         results: [
@@ -204,7 +204,7 @@ ServerEvents.recipes(event => {
             type: 'create:splashing',
             ingredients: [
               {
-                item: 'kubejs:crushed_desh_ore'
+                item: 'forge_frontier:crushed_desh_ore'
               }
             ],
             results: [
@@ -225,7 +225,7 @@ ServerEvents.recipes(event => {
         type: 'create:splashing',
         ingredients: [
           {
-            item: 'kubejs:crushed_irradium_pile'
+            item: 'forge_frontier:crushed_irradium_pile'
           }
         ],
         results: [
@@ -246,7 +246,7 @@ ServerEvents.recipes(event => {
             type: 'create:splashing',
             ingredients: [
               {
-                item: 'kubejs:crushed_irradium'
+                item: 'forge_frontier:crushed_irradium'
               }
             ],
             results: [
@@ -267,7 +267,7 @@ ServerEvents.recipes(event => {
         type: 'create:splashing',
         ingredients: [
           {
-            item: 'kubejs:crushed_malachite_pile'
+            item: 'forge_frontier:crushed_malachite_pile'
           }
         ],
         results: [
@@ -288,7 +288,7 @@ ServerEvents.recipes(event => {
             type: 'create:splashing',
             ingredients: [
               {
-                item: 'kubejs:crushed_malachite'
+                item: 'forge_frontier:crushed_malachite'
               }
             ],
             results: [
@@ -309,7 +309,7 @@ ServerEvents.recipes(event => {
         type: 'create:splashing',
         ingredients: [
           {
-            item: 'kubejs:crushed_uranium_pile'
+            item: 'forge_frontier:crushed_uranium_pile'
           }
         ],
         results: [
@@ -330,7 +330,7 @@ ServerEvents.recipes(event => {
             type: 'create:splashing',
             ingredients: [
               {
-                item: 'kubejs:crushed_raw_uranium'
+                item: 'forge_frontier:crushed_raw_uranium'
               }
             ],
             results: [
@@ -351,7 +351,7 @@ ServerEvents.recipes(event => {
         type: 'create:splashing',
         ingredients: [
           {
-            item: 'kubejs:crushed_tin_pile'
+            item: 'forge_frontier:crushed_tin_pile'
           }
         ],
         results: [

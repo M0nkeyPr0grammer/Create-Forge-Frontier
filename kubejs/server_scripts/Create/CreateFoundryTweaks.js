@@ -26,7 +26,7 @@ ServerEvents.recipes(event => {
             },
         ],
         heatRequirement: "superheated"
-    }).id('kubejs:compacting/carbon_molten_diamond')
+    }).id('forge_frontier:compacting/carbon_molten_diamond')
 
     // Ingot/Block to Molten Recipes
         // Creates Molten Netherite Iron Mixing from Ingot
@@ -40,12 +40,12 @@ ServerEvents.recipes(event => {
             ],
             results: [
                 {
-                    fluid: 'kubejs:molten_netherite_iron',
+                    fluid: 'forge_frontier:molten_netherite_iron',
                     amount: 100
                 }
             ],
             heatRequirement: "superheated"
-        }).id('kubejs:mixing/molten_netherite_iron_from_ingot');
+        }).id('forge_frontier:mixing/molten_netherite_iron_from_ingot');
 
         // Creates Molten Netherite Iron Mixing from Block
         event.custom({
@@ -58,12 +58,12 @@ ServerEvents.recipes(event => {
             ],
             results: [
                 {
-                    fluid: 'kubejs:molten_netherite_iron',
+                    fluid: 'forge_frontier:molten_netherite_iron',
                     amount: 900
                 }
             ],
             heatRequirement: "superheated"
-        }).id('kubejs:mixing/molten_netherite_iron_from_block');
+        }).id('forge_frontier:mixing/molten_netherite_iron_from_block');
 
         // Creates Molten Netherite Gold Mixing from Ingot
         event.custom({
@@ -76,12 +76,12 @@ ServerEvents.recipes(event => {
             ],
             results: [
                 {
-                    fluid: 'kubejs:molten_netherite_gold',
+                    fluid: 'forge_frontier:molten_netherite_gold',
                     amount: 100
                 }
             ],
             heatRequirement: "superheated"
-        }).id('kubejs:mixing/molten_netherite_gold_from_ingot');
+        }).id('forge_frontier:mixing/molten_netherite_gold_from_ingot');
 
         // Creates Molten Netherite Gold Mixing from Block
         event.custom({
@@ -94,12 +94,12 @@ ServerEvents.recipes(event => {
             ],
             results: [
                 {
-                    fluid: 'kubejs:molten_netherite_gold',
+                    fluid: 'forge_frontier:molten_netherite_gold',
                     amount: 900
                 }
             ],
             heatRequirement: "superheated"
-        }).id('kubejs:mixing/molten_netherite_gold_from_block');
+        }).id('forge_frontier:mixing/molten_netherite_gold_from_block');
 
         // Creates Molten Netherite Emerald Mixing from Ingot
         event.custom({
@@ -112,12 +112,12 @@ ServerEvents.recipes(event => {
             ],
             results: [
                 {
-                    fluid: 'kubejs:molten_netherite_emerald',
+                    fluid: 'forge_frontier:molten_netherite_emerald',
                     amount: 100
                 }
             ],
             heatRequirement: "superheated"
-        }).id('kubejs:mixing/molten_netherite_emerald_from_ingot');
+        }).id('forge_frontier:mixing/molten_netherite_emerald_from_ingot');
 
         // Creates Molten Netherite Emerald Mixing from Block
         event.custom({
@@ -130,12 +130,12 @@ ServerEvents.recipes(event => {
             ],
             results: [
                 {
-                    fluid: 'kubejs:molten_netherite_emerald',
+                    fluid: 'forge_frontier:molten_netherite_emerald',
                     amount: 900
                 }
             ],
             heatRequirement: "superheated"
-        }).id('kubejs:mixing/molten_netherite_emerald_from_block');
+        }).id('forge_frontier:mixing/molten_netherite_emerald_from_block');
 
         // Creates Molten Netherite Diamond Mixing from Ingot
         event.custom({
@@ -148,12 +148,12 @@ ServerEvents.recipes(event => {
             ],
             results: [
                 {
-                    fluid: 'kubejs:molten_netherite_diamond',
+                    fluid: 'forge_frontier:molten_netherite_diamond',
                     amount: 100
                 }
             ],
             heatRequirement: "superheated"
-        }).id('kubejs:mixing/molten_netherite_diamond_from_ingot');
+        }).id('forge_frontier:mixing/molten_netherite_diamond_from_ingot');
 
         // Creates Molten Netherite Diamond Mixing from Block
         event.custom({
@@ -166,12 +166,12 @@ ServerEvents.recipes(event => {
             ],
             results: [
                 {
-                    fluid: 'kubejs:molten_netherite_diamond',
+                    fluid: 'forge_frontier:molten_netherite_diamond',
                     amount: 900
                 }
             ],
             heatRequirement: "superheated"
-        }).id('kubejs:mixing/molten_netherite_diamond_from_block');
+        }).id('forge_frontier:mixing/molten_netherite_diamond_from_block');
 
 
     // Creates Molten Netherite Iron Mixing Recipe
@@ -189,12 +189,12 @@ ServerEvents.recipes(event => {
         ],
         results: [
             {
-                fluid: 'kubejs:molten_netherite_iron',
+                fluid: 'forge_frontier:molten_netherite_iron',
                 amount: 100
             }
         ],
         heatRequirement: "superheated"
-    }).id('kubejs:mixing/molten_netherite_iron');
+    }).id('forge_frontier:mixing/molten_netherite_iron');
 
     // Creates Molten Netherite Gold Mixing Recipe
     event.custom({
@@ -211,12 +211,12 @@ ServerEvents.recipes(event => {
         ],
         results: [
             {
-                fluid: 'kubejs:molten_netherite_gold',
+                fluid: 'forge_frontier:molten_netherite_gold',
                 amount: 100
             }
         ],
         heatRequirement: "superheated"
-    }).id('kubejs:mixing/molten_netherite_gold');
+    }).id('forge_frontier:mixing/molten_netherite_gold');
 
     // Creates Molten Netherite Emerald Mixing Recipe
     event.custom({
@@ -233,12 +233,12 @@ ServerEvents.recipes(event => {
         ],
         results: [
             {
-                fluid: 'kubejs:molten_netherite_emerald',
+                fluid: 'forge_frontier:molten_netherite_emerald',
                 amount: 100
             }
         ],
         heatRequirement: "superheated"
-    }).id('kubejs:mixing/molten_netherite_emerald');
+    }).id('forge_frontier:mixing/molten_netherite_emerald');
 
     // Creates Molten Netherite Diamond Mixing Recipe
     event.custom({
@@ -255,12 +255,12 @@ ServerEvents.recipes(event => {
         ],
         results: [
             {
-                fluid: 'kubejs:molten_netherite_diamond',
+                fluid: 'forge_frontier:molten_netherite_diamond',
                 amount: 100
             }
         ],
         heatRequirement: "superheated"
-    }).id('kubejs:mixing/molten_netherite_diamond');
+    }).id('forge_frontier:mixing/molten_netherite_diamond');
 
     
     // Creates Polished Zinc to Molten Zinc Recipe
@@ -280,7 +280,7 @@ ServerEvents.recipes(event => {
             }
         ],
         heatRequirement: "superheated"
-    }).id('kubejs:mixing/tiled_zinc');
+    }).id('forge_frontier:mixing/tiled_zinc');
 
     // Creates Polished Zinc to Molten Zinc Recipe
     event.custom({
@@ -299,14 +299,14 @@ ServerEvents.recipes(event => {
             }
         ],
         heatRequirement: "superheated"
-    }).id('kubejs:mixing/polished_zinc');
+    }).id('forge_frontier:mixing/polished_zinc');
 
 // Molten Steel Compacting Recipe
     event.custom({
         type:"create:compacting",
         ingredients: [
             {
-                fluid: 'kubejs:molten_steel',
+                fluid: 'forge_frontier:molten_steel',
                 nbt: {},
                 amount: 900
             },
@@ -318,7 +318,7 @@ ServerEvents.recipes(event => {
                 amount: 1
             },
         ]
-    }).id('kubejs:compacting/steel_block')
+    }).id('forge_frontier:compacting/steel_block')
 
 // Molten Steel Mixing Recipe
     event.custom({
@@ -337,19 +337,19 @@ ServerEvents.recipes(event => {
         ],
         results: [
             {
-            fluid: 'kubejs:molten_steel',
+            fluid: 'forge_frontier:molten_steel',
             amount: 300
             },
         ],
         heatRequirement: "superheated"
-    }).id('kubejs:mixing/molten_steel');   
+    }).id('forge_frontier:mixing/molten_steel');   
 
  // Bronze Compacting Recipe
     event.custom({
         type:"create:compacting",
         ingredients: [
             {
-                fluid: 'kubejs:molten_bronze',
+                fluid: 'forge_frontier:molten_bronze',
                 nbt: {},
                 amount: 900
             },
@@ -361,7 +361,7 @@ ServerEvents.recipes(event => {
                 amount: 1
             },
         ]
-    }).id('kubejs:compacting/bronze_block')
+    }).id('forge_frontier:compacting/bronze_block')
 
 // Realistic Bronze Mixing Recipe
     event.custom({
@@ -373,7 +373,7 @@ ServerEvents.recipes(event => {
                 amount: 300
             },
             {
-                fluid: 'kubejs:molten_tin',
+                fluid: 'forge_frontier:molten_tin',
                 nbt: {},
                 amount: 100
             },
@@ -385,12 +385,12 @@ ServerEvents.recipes(event => {
         ],
         results: [
             {
-            fluid: 'kubejs:molten_bronze',
+            fluid: 'forge_frontier:molten_bronze',
             amount: 500
             },
         ],
         heatRequirement: "superheated"
-    }).id('kubejs:mixing/molten_bronze');
+    }).id('forge_frontier:mixing/molten_bronze');
 
 
     // Crushed Copper Pile
@@ -410,7 +410,7 @@ ServerEvents.recipes(event => {
             }
         ],
         heatRequirement: "superheated"
-    }).id('kubejs:mixing/crushed_copper_pile');
+    }).id('forge_frontier:mixing/crushed_copper_pile');
 
     // Crushed Zinc Pile
     event.custom({
@@ -429,7 +429,7 @@ ServerEvents.recipes(event => {
             }
         ],
         heatRequirement: "superheated"
-    }).id('kubejs:mixing/crushed_zinc_pile');
+    }).id('forge_frontier:mixing/crushed_zinc_pile');
 
     // Crushed Iron Pile
     event.custom({
@@ -448,7 +448,7 @@ ServerEvents.recipes(event => {
             }
         ],
         heatRequirement: "superheated"
-    }).id('kubejs:mixing/crushed_iron_pile');
+    }).id('forge_frontier:mixing/crushed_iron_pile');
 
     // Crushed Gold Pile
     event.custom({
@@ -467,7 +467,7 @@ ServerEvents.recipes(event => {
             }
         ],
         heatRequirement: "superheated"
-    }).id('kubejs:mixing/crushed_gold_pile');
+    }).id('forge_frontier:mixing/crushed_gold_pile');
 
     // Creates Lapis to Molten Mixing Recipe
     event.custom({
@@ -490,7 +490,7 @@ ServerEvents.recipes(event => {
             },
         ],
         heatRequirement: "superheated"
-    }).id('kubejs:mixing/lapis_ore');
+    }).id('forge_frontier:mixing/lapis_ore');
 
     // Creates Redstone to Molten Mixing Recipe
     event.custom({
@@ -513,7 +513,7 @@ ServerEvents.recipes(event => {
             },
         ],
         heatRequirement: "superheated"
-    }).id('kubejs:mixing/redstone_ore');
+    }).id('forge_frontier:mixing/redstone_ore');
 
     // Creates Zinc to Molten Mixing Recipe
     event.custom({
@@ -536,14 +536,14 @@ ServerEvents.recipes(event => {
             },
         ],
         heatRequirement: "superheated"
-    }).id('kubejs:mixing/zinc_ore');
+    }).id('forge_frontier:mixing/zinc_ore');
 
     // Molten Tin to Tin Compacting Recipe
     event.custom({
         type: "create:compacting",
         ingredients: [
             {
-                fluid: 'kubejs:molten_tin',
+                fluid: 'forge_frontier:molten_tin',
                 nbt: {},
                 amount: 900
             }
@@ -554,14 +554,14 @@ ServerEvents.recipes(event => {
                 amount: 1
             }
         ]
-    }).id('kubejs:compacting/molten_tin');
+    }).id('forge_frontier:compacting/molten_tin');
 
     // Molten Quartz to Quartz Compacting Recipe
     event.custom({
         type: "create:compacting",
         ingredients: [
             {
-                fluid: 'kubejs:molten_quartz',
+                fluid: 'forge_frontier:molten_quartz',
                 nbt: {},
                 amount: 800
             }
@@ -572,14 +572,14 @@ ServerEvents.recipes(event => {
                 amount: 1
             }
         ]
-    }).id('kubejs:compacting/molten_quartz');
+    }).id('forge_frontier:compacting/molten_quartz');
 
     // Molten Ice Shard to Ice Compacting Recipe
     event.custom({
         type: "create:compacting",
         ingredients: [
             {
-                fluid: 'kubejs:molten_ice_shard',
+                fluid: 'forge_frontier:molten_ice_shard',
                 nbt: {},
                 amount: 900
             }
@@ -590,14 +590,14 @@ ServerEvents.recipes(event => {
                 amount: 1
             }
         ]
-    }).id('kubejs:compacting/molten_ice');
+    }).id('forge_frontier:compacting/molten_ice');
 
     // Molten Uranium to Uranium Compacting Recipe
     event.custom({
         type: "create:compacting",
         ingredients: [
             {
-                fluid: 'kubejs:molten_uranium',
+                fluid: 'forge_frontier:molten_uranium',
                 nbt: {},
                 amount: 900
             }
@@ -608,14 +608,14 @@ ServerEvents.recipes(event => {
                 amount: 1
             }
         ]
-    }).id('kubejs:compacting/molten_uranium');
+    }).id('forge_frontier:compacting/molten_uranium');
 
     // Molten Bismuth to Bismuth Compacting Recipe
     event.custom({
         type: "create:compacting",
         ingredients: [
             {
-                fluid: 'kubejs:molten_bismuth',
+                fluid: 'forge_frontier:molten_bismuth',
                 nbt: {},
                 amount: 900
             }
@@ -626,14 +626,14 @@ ServerEvents.recipes(event => {
                 amount: 1
             }
         ]
-    }).id('kubejs:compacting/molten_bismuth');
+    }).id('forge_frontier:compacting/molten_bismuth');
 
     // Molten Irradium to Irradium Compacting Recipe
     event.custom({
         type: "create:compacting",
         ingredients: [
             {
-                fluid: 'kubejs:molten_irradium',
+                fluid: 'forge_frontier:molten_irradium',
                 nbt: {},
                 amount: 900
             }
@@ -644,14 +644,14 @@ ServerEvents.recipes(event => {
                 amount: 1
             }
         ]
-    }).id('kubejs:compacting/molten_irradium');
+    }).id('forge_frontier:compacting/molten_irradium');
 
     // Molten Malachite to Malachite Compacting Recipe
     event.custom({
         type: "create:compacting",
         ingredients: [
             {
-                fluid: 'kubejs:molten_malachite',
+                fluid: 'forge_frontier:molten_malachite',
                 nbt: {},
                 amount: 900
             }
@@ -662,7 +662,7 @@ ServerEvents.recipes(event => {
                 amount: 1
             }
         ]
-    }).id('kubejs:compacting/molten_malachite');
+    }).id('forge_frontier:compacting/molten_malachite');
 
     // Create Copper Block Compacting Recipe
     event.custom({
@@ -680,7 +680,7 @@ ServerEvents.recipes(event => {
                 amount: 1
             }
         ]
-    }).id('kubejs:compacting/molten_copper');
+    }).id('forge_frontier:compacting/molten_copper');
 
     // Create Iron Block Compacting Recipe
     event.custom({
@@ -698,7 +698,7 @@ ServerEvents.recipes(event => {
                 amount: 1 
             }
         ]
-    }).id('kubejs:compacting/molten_iron');
+    }).id('forge_frontier:compacting/molten_iron');
 
     // Create Gold Block Compacting Recipe
     event.custom({
@@ -716,7 +716,7 @@ ServerEvents.recipes(event => {
                 amount: 1
             }
         ]
-    }).id('kubejs:compacting/molten_gold');
+    }).id('forge_frontier:compacting/molten_gold');
 
     // Create Coal Block Compacting Recipe
     event.custom({
@@ -734,7 +734,7 @@ ServerEvents.recipes(event => {
                 amount: 1
             }
         ]
-    }).id('kubejs:compacting/molten_carbon');
+    }).id('forge_frontier:compacting/molten_carbon');
 
     // Create Diamond Block Compacting Recipe
     event.custom({
@@ -752,7 +752,7 @@ ServerEvents.recipes(event => {
                 amount: 1
             }
         ]
-    }).id('kubejs:compacting/molten_diamond');
+    }).id('forge_frontier:compacting/molten_diamond');
 
     // Create Zinc Block Compacting Recipe
     event.custom({
@@ -770,7 +770,7 @@ ServerEvents.recipes(event => {
                 amount: 1
             }
         ]
-    }).id('kubejs:compacting/molten_zinc');
+    }).id('forge_frontier:compacting/molten_zinc');
 
     // Create Brass Block Compacting Recipe
     event.custom({
@@ -788,7 +788,7 @@ ServerEvents.recipes(event => {
                 amount: 1
             }
         ]
-    }).id('kubejs:compacting/molten_brass');
+    }).id('forge_frontier:compacting/molten_brass');
 
     // Create Emerald Block Compacting Recipe
     event.custom({
@@ -806,7 +806,7 @@ ServerEvents.recipes(event => {
                 amount: 1
             }
         ]
-    }).id('kubejs:compacting/molten_emerald');
+    }).id('forge_frontier:compacting/molten_emerald');
 
     // Create Redstone Block Compacting Recipe
     event.custom({
@@ -824,7 +824,7 @@ ServerEvents.recipes(event => {
                 amount: 1
             }
         ]
-    }).id('kubejs:compacting/molten_redstone');
+    }).id('forge_frontier:compacting/molten_redstone');
 
     // Create Lapis Block Compacting Recipe
     event.custom({
@@ -842,7 +842,7 @@ ServerEvents.recipes(event => {
                 amount: 1
             }
         ]
-    }).id('kubejs:compacting/molten_lapis');
+    }).id('forge_frontier:compacting/molten_lapis');
 
     // Create Netherite Block Compacting Recipe
     event.custom({
@@ -860,7 +860,7 @@ ServerEvents.recipes(event => {
                 amount: 1
             }
         ]
-    }).id('kubejs:compacting/molten_netherite');
+    }).id('forge_frontier:compacting/molten_netherite');
 
     // Modded Ore Mixing Recipes
     // Alex Caves Ores
@@ -886,7 +886,7 @@ ServerEvents.recipes(event => {
             },
         ],
         heatRequirement: "superheated"
-    }).id('kubejs:mixing/ac_redstone_ore');
+    }).id('forge_frontier:mixing/ac_redstone_ore');
 
     // Coal Ore to Molten Mixing Recipe
     event.custom({
@@ -909,7 +909,7 @@ ServerEvents.recipes(event => {
             },
         ],
         heatRequirement: "superheated"
-    }).id('kubejs:mixing/ac_coal_ore');
+    }).id('forge_frontier:mixing/ac_coal_ore');
 
     // Create Dreams and Desires
         // Crushed Tin to Molten Mixing Recipe
@@ -924,12 +924,12 @@ ServerEvents.recipes(event => {
             ],
             results: [
                 {
-                    fluid: 'kubejs:molten_tin',
+                    fluid: 'forge_frontier:molten_tin',
                     amount: 200
                 }
             ],
             heatRequirement: "superheated"
-        }).id('kubejs:mixing/dd_crushed_tin');
+        }).id('forge_frontier:mixing/dd_crushed_tin');
 
         // Tin Ingot to Molten Mixing Recipe
         event.custom({
@@ -943,12 +943,12 @@ ServerEvents.recipes(event => {
             ],
             results: [
                 {
-                    fluid: 'kubejs:molten_tin',
+                    fluid: 'forge_frontier:molten_tin',
                     amount: 100
                 }
             ],
             heatRequirement: "superheated"
-        }).id('kubejs:mixing/dd_tin_ingot');
+        }).id('forge_frontier:mixing/dd_tin_ingot');
 
         // Raw Tin to Molten Mixing Recipe
         event.custom({
@@ -962,12 +962,12 @@ ServerEvents.recipes(event => {
             ],
             results: [
                 {
-                    fluid: 'kubejs:molten_tin',
+                    fluid: 'forge_frontier:molten_tin',
                     amount: 200
                 }
             ],
             heatRequirement: "superheated"
-        }).id('kubejs:mixing/dd_raw_tin');
+        }).id('forge_frontier:mixing/dd_raw_tin');
 
         // Tin Ore to Molten Mixing Recipe
         event.custom({
@@ -981,7 +981,7 @@ ServerEvents.recipes(event => {
             ],
             results: [
                 {
-                    fluid: 'kubejs:molten_tin',
+                    fluid: 'forge_frontier:molten_tin',
                     amount: 500
                 },
                 {
@@ -990,7 +990,7 @@ ServerEvents.recipes(event => {
                 }
             ],
             heatRequirement: "superheated"
-        }).id('kubejs:mixing/dd_tin_ore');
+        }).id('forge_frontier:mixing/dd_tin_ore');
 
         // Raw Tin Block to Molten Mixing Recipe
         event.custom({
@@ -1004,12 +1004,12 @@ ServerEvents.recipes(event => {
             ],
             results: [
                 {
-                    fluid: 'kubejs:molten_tin',
+                    fluid: 'forge_frontier:molten_tin',
                     amount: 1800
                 }
             ],
             heatRequirement: "superheated"
-        }).id('kubejs:mixing/dd_raw_tin_block');
+        }).id('forge_frontier:mixing/dd_raw_tin_block');
 
         // Tin Block to Molten Mixing Recipe
         event.custom({
@@ -1023,12 +1023,12 @@ ServerEvents.recipes(event => {
             ],
             results: [
                 {
-                    fluid: 'kubejs:molten_tin',
+                    fluid: 'forge_frontier:molten_tin',
                     amount: 900
                 }
             ],
             heatRequirement: "superheated"
-        }).id('kubejs:mixing/dd_tin_block');
+        }).id('forge_frontier:mixing/dd_tin_block');
 
         // Enlightened End
 
@@ -1037,19 +1037,19 @@ ServerEvents.recipes(event => {
             type: "create:mixing",
             ingredients: [
                 {
-                    item: 'kubejs:crushed_bismuth',
+                    item: 'forge_frontier:crushed_bismuth',
                     nbt: {},
                     amount: 1
                 }
             ],
             results: [
                 {
-                    fluid: 'kubejs:molten_bismuth',
+                    fluid: 'forge_frontier:molten_bismuth',
                     amount: 200
                 }
             ],
             heatRequirement: "superheated"
-        }).id('kubejs:mixing/crushed_bismuth');
+        }).id('forge_frontier:mixing/crushed_bismuth');
 
         // Bismuth Ingot to Molten Mixing Recipe
         event.custom({
@@ -1063,12 +1063,12 @@ ServerEvents.recipes(event => {
             ],
             results: [
                 {
-                    fluid: 'kubejs:molten_bismuth',
+                    fluid: 'forge_frontier:molten_bismuth',
                     amount: 100
                 }
             ],
             heatRequirement: "superheated"
-        }).id('kubejs:mixing/bismuth_ingot');
+        }).id('forge_frontier:mixing/bismuth_ingot');
 
         // Raw Bismuth to Molten Mixing Recipe
         event.custom({
@@ -1082,12 +1082,12 @@ ServerEvents.recipes(event => {
             ],
             results: [
                 {
-                    fluid: 'kubejs:molten_bismuth',
+                    fluid: 'forge_frontier:molten_bismuth',
                     amount: 200
                 }
             ],
             heatRequirement: "superheated"
-        }).id('kubejs:mixing/raw_bismuth');
+        }).id('forge_frontier:mixing/raw_bismuth');
 
         // Bismuth Ore to Molten Mixing Recipe
         event.custom({
@@ -1101,7 +1101,7 @@ ServerEvents.recipes(event => {
             ],
             results: [
                 {
-                    fluid: 'kubejs:molten_bismuth',
+                    fluid: 'forge_frontier:molten_bismuth',
                     amount: 500
                 },
                 {
@@ -1110,7 +1110,7 @@ ServerEvents.recipes(event => {
                 }
             ],
             heatRequirement: "superheated"
-        }).id('kubejs:mixing/bismuth_ore');
+        }).id('forge_frontier:mixing/bismuth_ore');
 
         // Raw Bismuth Block to Molten Mixing Recipe
         event.custom({
@@ -1124,12 +1124,12 @@ ServerEvents.recipes(event => {
             ],
             results: [
                 {
-                    fluid: 'kubejs:molten_bismuth',
+                    fluid: 'forge_frontier:molten_bismuth',
                     amount: 1800
                 }
             ],
             heatRequirement: "superheated"
-        }).id('kubejs:mixing/raw_bismuth_block');
+        }).id('forge_frontier:mixing/raw_bismuth_block');
 
         // Bismuth Block to Molten Mixing Recipe
         event.custom({
@@ -1143,31 +1143,31 @@ ServerEvents.recipes(event => {
             ],
             results: [
                 {
-                    fluid: 'kubejs:molten_bismuth',
+                    fluid: 'forge_frontier:molten_bismuth',
                     amount: 900
                 }
             ],
             heatRequirement: "superheated"
-        }).id('kubejs:mixing/bismuth_block');
+        }).id('forge_frontier:mixing/bismuth_block');
 
         // Crushed Malachite to Molten Mixing Recipe
         event.custom({
             type: "create:mixing",
             ingredients: [
                 {
-                    item: 'kubejs:crushed_malachite',
+                    item: 'forge_frontier:crushed_malachite',
                     nbt: {},
                     amount: 1
                 }
             ],
             results: [
                 {
-                    fluid: 'kubejs:molten_malachite',
+                    fluid: 'forge_frontier:molten_malachite',
                     amount: 200
                 }
             ],
             heatRequirement: "superheated"
-        }).id('kubejs:mixing/crushed_malachite');
+        }).id('forge_frontier:mixing/crushed_malachite');
 
         // Malachite to Molten Mixing Recipe
         event.custom({
@@ -1181,12 +1181,12 @@ ServerEvents.recipes(event => {
             ],
             results: [
                 {
-                    fluid: 'kubejs:molten_malachite',
+                    fluid: 'forge_frontier:molten_malachite',
                     amount: 100
                 }
             ],
             heatRequirement: "superheated"
-        }).id('kubejs:mixing/malachite_ingot');
+        }).id('forge_frontier:mixing/malachite_ingot');
 
         // Malachite Ore to Molten Mixing Recipe
         event.custom({
@@ -1200,7 +1200,7 @@ ServerEvents.recipes(event => {
             ],
             results: [
                 {
-                    fluid: 'kubejs:molten_malachite',
+                    fluid: 'forge_frontier:molten_malachite',
                     amount: 500
                 },
                 {
@@ -1209,7 +1209,7 @@ ServerEvents.recipes(event => {
                 }
             ],
             heatRequirement: "superheated"
-        }).id('kubejs:mixing/malachite_ore');
+        }).id('forge_frontier:mixing/malachite_ore');
 
         // Malachite Block to Molten Mixing Recipe
         event.custom({
@@ -1223,31 +1223,31 @@ ServerEvents.recipes(event => {
             ],
             results: [
                 {
-                    fluid: 'kubejs:molten_malachite',
+                    fluid: 'forge_frontier:molten_malachite',
                     amount: 900
                 }
             ],
             heatRequirement: "superheated"
-        }).id('kubejs:mixing/malachite_block');
+        }).id('forge_frontier:mixing/malachite_block');
 
     // Crushed Irradium to Molten Mixing Recipe
     event.custom({
         type: "create:mixing",
         ingredients: [
             {
-                item: 'kubejs:crushed_irradium',
+                item: 'forge_frontier:crushed_irradium',
                 nbt: {},
                 amount: 1
             }
         ],
         results: [
             {
-                fluid: 'kubejs:molten_irradium',
+                fluid: 'forge_frontier:molten_irradium',
                 amount: 200
             }
         ],
         heatRequirement: "superheated"
-    }).id('kubejs:mixing/crushed_irradium');
+    }).id('forge_frontier:mixing/crushed_irradium');
 
     // Irradium Bar to Molten Mixing Recipe
     event.custom({
@@ -1261,12 +1261,12 @@ ServerEvents.recipes(event => {
         ],
         results: [
             {
-                fluid: 'kubejs:molten_irradium',
+                fluid: 'forge_frontier:molten_irradium',
                 amount: 100
             }
         ],
         heatRequirement: "superheated"
-    }).id('kubejs:mixing/irradium_ingot');
+    }).id('forge_frontier:mixing/irradium_ingot');
 
     // Raw Irradium to Molten Mixing Recipe
     event.custom({
@@ -1280,12 +1280,12 @@ ServerEvents.recipes(event => {
         ],
         results: [
             {
-                fluid: 'kubejs:molten_irradium',
+                fluid: 'forge_frontier:molten_irradium',
                 amount: 200
             }
         ],
         heatRequirement: "superheated"
-    }).id('kubejs:mixing/raw_irradium');
+    }).id('forge_frontier:mixing/raw_irradium');
 
     // Irradium Ore to Molten Mixing Recipe
     event.custom({
@@ -1299,7 +1299,7 @@ ServerEvents.recipes(event => {
         ],
         results: [
             {
-                fluid: 'kubejs:molten_irradium',
+                fluid: 'forge_frontier:molten_irradium',
                 amount: 500
             },
             {
@@ -1308,7 +1308,7 @@ ServerEvents.recipes(event => {
             }
         ],
         heatRequirement: "superheated"
-    }).id('kubejs:mixing/irradium_ore');
+    }).id('forge_frontier:mixing/irradium_ore');
 
     // Raw Irradium Block to Molten Mixing Recipe
     event.custom({
@@ -1322,12 +1322,12 @@ ServerEvents.recipes(event => {
         ],
         results: [
             {
-                fluid: 'kubejs:molten_irradium',
+                fluid: 'forge_frontier:molten_irradium',
                 amount: 1800
             }
         ],
         heatRequirement: "superheated"
-    }).id('kubejs:mixing/raw_irradium_block');
+    }).id('forge_frontier:mixing/raw_irradium_block');
 
     // Irradium Block to Molten Mixing Recipe
     event.custom({
@@ -1341,12 +1341,12 @@ ServerEvents.recipes(event => {
         ],
         results: [
             {
-                fluid: 'kubejs:molten_irradium',
+                fluid: 'forge_frontier:molten_irradium',
                 amount: 900
             }
         ],
         heatRequirement: "superheated"
-    }).id('kubejs:mixing/irradium_block'); 
+    }).id('forge_frontier:mixing/irradium_block'); 
     
     // Alex Caves
 
@@ -1362,12 +1362,12 @@ ServerEvents.recipes(event => {
         ],
         results: [
             {
-                fluid: 'kubejs:molten_uranium',
+                fluid: 'forge_frontier:molten_uranium',
                 amount: 200
             }
         ],
         heatRequirement: "superheated"
-    }).id('kubejs:mixing/crushed_uranium');
+    }).id('forge_frontier:mixing/crushed_uranium');
 
     // Uranium to Molten Mixing Recipe
     event.custom({
@@ -1381,12 +1381,12 @@ ServerEvents.recipes(event => {
         ],
         results: [
             {
-                fluid: 'kubejs:molten_uranium',
+                fluid: 'forge_frontier:molten_uranium',
                 amount: 100
             }
         ],
         heatRequirement: "superheated"
-    }).id('kubejs:mixing/uranium_ingot');
+    }).id('forge_frontier:mixing/uranium_ingot');
 
     // Uranium Ore to Molten Mixing Recipe
     event.custom({
@@ -1400,7 +1400,7 @@ ServerEvents.recipes(event => {
         ],
         results: [
             {
-                fluid: 'kubejs:molten_uranium',
+                fluid: 'forge_frontier:molten_uranium',
                 amount: 500
             },
             {
@@ -1409,7 +1409,7 @@ ServerEvents.recipes(event => {
             }
         ],
         heatRequirement: "superheated"
-    }).id('kubejs:mixing/uranium_ore');
+    }).id('forge_frontier:mixing/uranium_ore');
 
     // Uranium Block to Molten Mixing Recipe
     event.custom({
@@ -1423,12 +1423,12 @@ ServerEvents.recipes(event => {
         ],
         results: [
             {
-                fluid: 'kubejs:molten_uranium',
+                fluid: 'forge_frontier:molten_uranium',
                 amount: 900
             }
         ],
         heatRequirement: "superheated"
-    }).id('kubejs:mixing/uranium_block');
+    }).id('forge_frontier:mixing/uranium_block');
 
     // Quartz to Molten Mixing Recipe
     event.custom({
@@ -1442,12 +1442,12 @@ ServerEvents.recipes(event => {
         ],
         results: [
             {
-                fluid: 'kubejs:molten_quartz',
+                fluid: 'forge_frontier:molten_quartz',
                 amount: 200
             }
         ],
         heatRequirement: "superheated"
-    }).id('kubejs:mixing/quartz');
+    }).id('forge_frontier:mixing/quartz');
 
     // Quartz Ore to Molten Mixing Recipe
     event.custom({
@@ -1461,7 +1461,7 @@ ServerEvents.recipes(event => {
         ],
         results: [
             {
-                fluid: 'kubejs:molten_quartz',
+                fluid: 'forge_frontier:molten_quartz',
                 amount: 600
             },
             {
@@ -1470,7 +1470,7 @@ ServerEvents.recipes(event => {
             }
         ],
         heatRequirement: "superheated"
-    }).id('kubejs:mixing/quartz_ore');
+    }).id('forge_frontier:mixing/quartz_ore');
 
     // Quartz Block to Molten Mixing Recipe
     event.custom({
@@ -1484,12 +1484,12 @@ ServerEvents.recipes(event => {
         ],
         results: [
             {
-                fluid: 'kubejs:molten_quartz',
+                fluid: 'forge_frontier:molten_quartz',
                 amount: 800
             }
         ],
         heatRequirement: "superheated"
-    }).id('kubejs:mixing/quartz_block');
+    }).id('forge_frontier:mixing/quartz_block');
 
     
         // Ice Shard to Molten Mixing Recipe
@@ -1504,12 +1504,12 @@ ServerEvents.recipes(event => {
             ],
             results: [
                 {
-                    fluid: 'kubejs:molten_ice_shard',
+                    fluid: 'forge_frontier:molten_ice_shard',
                     amount: 200
                 }
             ],
             heatRequirement: "superheated"
-        }).id('kubejs:mixing/ice_shard');
+        }).id('forge_frontier:mixing/ice_shard');
 
         // Ice Shard Ore to Molten Mixing Recipe
         event.custom({
@@ -1523,7 +1523,7 @@ ServerEvents.recipes(event => {
             ],
             results: [
                 {
-                    fluid: 'kubejs:molten_ice_shard',
+                    fluid: 'forge_frontier:molten_ice_shard',
                     amount: 500
                 },
                 {
@@ -1532,7 +1532,7 @@ ServerEvents.recipes(event => {
                 }
             ],
             heatRequirement: "superheated"
-        }).id('kubejs:mixing/ice_shard_ore');
+        }).id('forge_frontier:mixing/ice_shard_ore');
 
 
     // Cut Copper Mixing Recipe
@@ -1552,7 +1552,7 @@ ServerEvents.recipes(event => {
             }
         ],
         heatRequirement: "superheated"
-    }).id('kubejs:mixing/cut_copper');
+    }).id('forge_frontier:mixing/cut_copper');
 
 
     // Creates Mixing Recipe for Molten Netherite
@@ -1566,7 +1566,7 @@ ServerEvents.recipes(event => {
             { fluid: 'createfoundry:molten_netherite', amount: 100 }
         ],
         heatRequirement: 'superheated'
-    }).id('kubejs:mixing/molten_netherite');
+    }).id('forge_frontier:mixing/molten_netherite');
 
     // Molten Brass
     event.custom({
@@ -1579,7 +1579,7 @@ ServerEvents.recipes(event => {
             { fluid: 'createfoundry:molten_brass', amount: 1000 }
         ],
         heatRequirement: 'superheated'
-    }).id('kubejs:mixing/molten_brass');
+    }).id('forge_frontier:mixing/molten_brass');
 
     // Crushed Ore to Moltem Ore
         // Crushed Iron Ore
@@ -1599,7 +1599,7 @@ ServerEvents.recipes(event => {
                 }
             ],
             heatRequirement: "superheated"
-        }).id('kubejs:mixing/crushed_iron');
+        }).id('forge_frontier:mixing/crushed_iron');
 
 
         // Crushed Gold Ore
@@ -1619,7 +1619,7 @@ ServerEvents.recipes(event => {
             }
         ],
         heatRequirement: "superheated"
-    }).id('kubejs:mixing/crushed_gold');
+    }).id('forge_frontier:mixing/crushed_gold');
 
 
         // Crushed Copper Ore
@@ -1639,7 +1639,7 @@ ServerEvents.recipes(event => {
             }
         ],
         heatRequirement: "superheated"
-    }).id('kubejs:mixing/crushed_copper');
+    }).id('forge_frontier:mixing/crushed_copper');
 
         // Crushed Zinc Ore
     event.custom({
@@ -1658,7 +1658,7 @@ ServerEvents.recipes(event => {
             }
         ],
         heatRequirement: "superheated"
-    }).id('kubejs:mixing/crushed_zinc');
+    }).id('forge_frontier:mixing/crushed_zinc');
 
     // Raw Emerald Ore
     event.custom({
@@ -1677,7 +1677,7 @@ ServerEvents.recipes(event => {
             }
         ],
         heatRequirement: "superheated"
-    }).id('kubejs:mixing/raw_emerald');
+    }).id('forge_frontier:mixing/raw_emerald');
     
     // Raw Diamond Ore
     event.custom({
@@ -1696,7 +1696,7 @@ ServerEvents.recipes(event => {
             }
         ],
         heatRequirement: "superheated"
-    }).id('kubejs:mixing/raw_diamond');
+    }).id('forge_frontier:mixing/raw_diamond');
     
     // Raw Redstone Ore
     event.custom({
@@ -1715,6 +1715,6 @@ ServerEvents.recipes(event => {
             }
         ],
         heatRequirement: "superheated"
-    }).id('kubejs:mixing/raw_redstone');
+    }).id('forge_frontier:mixing/raw_redstone');
 
 })

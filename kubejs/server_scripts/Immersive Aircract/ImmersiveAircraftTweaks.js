@@ -265,7 +265,7 @@ ServerEvents.recipes(event => {
         },
         result: Ingredient.of('immersive_aircraft:biplane').toJson(),
         acceptMirrored: false
-    }).id('kubejs:immersive_aircraft/biplane');
+    }).id('forge_frontier:immersive_aircraft/biplane');
 
     // Airship
     event.custom({
@@ -286,7 +286,7 @@ ServerEvents.recipes(event => {
         },
         result: Ingredient.of('immersive_aircraft:airship').toJson(),
         acceptMirrored: false
-    }).id('kubejs:immersive_aircraft/airship');
+    }).id('forge_frontier:immersive_aircraft/airship');
 
 
 })

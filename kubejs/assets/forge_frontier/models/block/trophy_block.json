@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"1": "kubejs:block/trophy",
-		"particle": "kubejs:block/particle_trophy"
+		"1": "forge_frontier:block/trophy",
+		"particle": "forge_frontier:block/particle_trophy"
 	},
 	"elements": [
 		{

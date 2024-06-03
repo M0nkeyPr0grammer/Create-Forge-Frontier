@@ -6,7 +6,7 @@ ServerEvents.recipes(event => {
         cookingtime: 200,
         experience: 0.1,
         ingredient: {
-            item: 'kubejs:crushed_bismuth_pile'
+            item: 'forge_frontier:crushed_bismuth_pile'
         },
         result: 'enlightened_end:bismuth_block'
     })
@@ -17,7 +17,7 @@ ServerEvents.recipes(event => {
         cookingtime: 200,
         experience: 0.1,
         ingredient: {
-            item: 'kubejs:crushed_calorite_pile'
+            item: 'forge_frontier:crushed_calorite_pile'
         },
         result: 'ad_astra:calorite_block'
     })
@@ -28,7 +28,7 @@ ServerEvents.recipes(event => {
         cookingtime: 200,
         experience: 0.1,
         ingredient: {
-            item: 'kubejs:crushed_desh_pile'
+            item: 'forge_frontier:crushed_desh_pile'
         },
         result: 'ad_astra:desh_block'
     })
@@ -39,7 +39,7 @@ ServerEvents.recipes(event => {
         cookingtime: 200,
         experience: 0.1,
         ingredient: {
-            item: 'kubejs:crushed_irradium_pile'
+            item: 'forge_frontier:crushed_irradium_pile'
         },
         result: 'enlightened_end:irradium_block'
     })
@@ -50,7 +50,7 @@ ServerEvents.recipes(event => {
         cookingtime: 200,
         experience: 0.1,
         ingredient: {
-            item: 'kubejs:crushed_malachite_pile'
+            item: 'forge_frontier:crushed_malachite_pile'
         },
         result: 'enlightened_end:malachite_block'
     })
@@ -61,7 +61,7 @@ ServerEvents.recipes(event => {
         cookingtime: 200,
         experience: 0.1,
         ingredient: {
-            item: 'kubejs:crushed_ostrum_pile'
+            item: 'forge_frontier:crushed_ostrum_pile'
         },
         result: 'ad_astra:ostrum_block'
     })
@@ -72,7 +72,7 @@ ServerEvents.recipes(event => {
         cookingtime: 200,
         experience: 0.1,
         ingredient: {
-            item: 'kubejs:crushed_tin_pile'
+            item: 'forge_frontier:crushed_tin_pile'
         },
         result: 'create_dd:tin_block'
     })
@@ -83,7 +83,7 @@ ServerEvents.recipes(event => {
         cookingtime: 200,
         experience: 0.1,
         ingredient: {
-            item: 'kubejs:crushed_uranium_pile'
+            item: 'forge_frontier:crushed_uranium_pile'
         },
         result: 'alexscaves:block_of_uranium'
     })

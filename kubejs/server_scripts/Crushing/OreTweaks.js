@@ -14,6 +14,6 @@ ServerEvents.recipes(event => {
 			{ item: 'minecraft:redstone', count: 4 },
 			{ item: 'minecraft:redstone', chance: 0.10 }
 		]
-	}).id('kubejs:crushing/raw_redstone');
+	}).id('forge_frontier:crushing/raw_redstone');
 
 })

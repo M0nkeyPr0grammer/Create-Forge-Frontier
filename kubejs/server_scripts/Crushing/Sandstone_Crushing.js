@@ -22,7 +22,7 @@ ServerEvents.recipes(event => {
             chance: 0.80 // 80% Chance for this
         },
     ] // The reason I have chosen this is due to having some sand come off in the process of making this type
-    }).id('kubejs:crushing/chss');
+    }).id('forge_frontier:crushing/chss');
 
 
     // Smooth Sandstone
@@ -43,7 +43,7 @@ ServerEvents.recipes(event => {
             chance: 0.80 // 80% Chance for this
         },
     ] 
-    }).id('kubejs:crushing/sss');   
+    }).id('forge_frontier:crushing/sss');   
 
     // Cut Sandstone
 
@@ -63,7 +63,7 @@ ServerEvents.recipes(event => {
             chance: 0.80 // 80% Chance for this
         },
     ]
-    }).id('kubejs:crushing/css');
+    }).id('forge_frontier:crushing/css');
     
     // Sandstone Bricks
 
@@ -83,7 +83,7 @@ ServerEvents.recipes(event => {
             chance: 0.70 // 70% Chance for this
         },
     ]
-    }).id('kubejs:crushing/sbs');
+    }).id('forge_frontier:crushing/sbs');
 
     // This Recipe adds in a recipe for any Chipped sandstone variant for a crushing recipe
 
@@ -103,7 +103,7 @@ ServerEvents.recipes(event => {
             chance: 0.80 // 70% Chance for this
         },
     ]
-    }).id('kubejs:crushing/chippedsandstones');
+    }).id('forge_frontier:crushing/chippedsandstones');
 
     //from here on it will be red sandstone variants
 
@@ -125,7 +125,7 @@ ServerEvents.recipes(event => {
                 chance: 0.80 // 80% Chance for this
             },
         ] // The reason I have chosen this is due to having some sand come off in the process of making this type
-        }).id('kubejs:crushing/chrss');
+        }).id('forge_frontier:crushing/chrss');
     
     
         // Smooth Red Sandstone
@@ -146,7 +146,7 @@ ServerEvents.recipes(event => {
                 chance: 0.80 // 80% Chance for this
             },
         ] 
-        }).id('kubejs:crushing/srss');   
+        }).id('forge_frontier:crushing/srss');   
     
         // Cut Red Sandstone
     
@@ -166,7 +166,7 @@ ServerEvents.recipes(event => {
                 chance: 0.80 // 80% Chance for this
             },
         ]
-        }).id('kubejs:crushing/crss');
+        }).id('forge_frontier:crushing/crss');
         
         // Red Sandstone Bricks
     
@@ -186,7 +186,7 @@ ServerEvents.recipes(event => {
                 chance: 0.70 // 70% Chance for this
             },
         ]
-        }).id('kubejs:crushing/srbs');
+        }).id('forge_frontier:crushing/srbs');
     
         // This Recipe adds in a recipe for any Chipped red_sandstone variant for a crushing recipe
     
@@ -206,7 +206,7 @@ ServerEvents.recipes(event => {
                 chance: 0.80 // 70% Chance for this
             },
         ]
-        }).id('kubejs:crushing/chippedredsandstones');
+        }).id('forge_frontier:crushing/chippedredsandstones');
 
 
 

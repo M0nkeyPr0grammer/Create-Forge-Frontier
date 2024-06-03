@@ -1,59 +1,59 @@
 
 StartupEvents.registry('block', event => {
-    event.create('overcharged_iron_block')
+    event.create('forge_frontier:overcharged_iron_block')
         .displayName('Overcharged Iron Block')
         .soundType('metal') 
         .mapColor('Stone') 
         .hardness(2.0)
-        .model('kubejs:block/overcharged_iron_block')
+        .model('forge_frontier:block/overcharged_iron_block')
         .requiresTool(true)
         .renderType('solid')
         .tagItem('tooltiprareness:common_item')
         .tagBlock("mineable/pickaxe")
         .fullBlock(true);     
     
-    event.create('overcharged_gold_block')
+    event.create('forge_frontier:overcharged_gold_block')
         .displayName('Overcharged Gold Block')
         .soundType('metal') 
         .mapColor('Stone') 
         .hardness(2.0)
-        .model('kubejs:block/overcharged_gold_block')
+        .model('forge_frontier:block/overcharged_gold_block')
         .requiresTool(true)
         .renderType('solid')
         .tagItem('tooltiprareness:common_item')
         .tagBlock("mineable/pickaxe")
         .fullBlock(true);     
 
-    event.create('overcharged_diamond_block')
+    event.create('forge_frontier:overcharged_diamond_block')
         .displayName('Overcharged Diamond Block')
         .soundType('metal') 
         .mapColor('Stone') 
         .hardness(2.0)
-        .model('kubejs:block/overcharged_diamond_block')
+        .model('forge_frontier:block/overcharged_diamond_block')
         .requiresTool(true)
         .renderType('solid')
         .tagItem('tooltiprareness:common_item')
         .tagBlock("mineable/pickaxe")
         .fullBlock(true);
     
-    event.create('overcharged_netherite_block')
+    event.create('forge_frontier:overcharged_netherite_block')
         .displayName('Overcharged Netherite Block')
         .soundType('metal') 
         .mapColor('Stone') 
         .hardness(2.0)
-        .model('kubejs:block/overcharged_netherite_block')
+        .model('forge_frontier:block/overcharged_netherite_block')
         .requiresTool(true)
         .renderType('solid')
         .tagItem('tooltiprareness:common_item')
         .tagBlock("mineable/pickaxe")
         .fullBlock(true);     
 
-    event.create('trophy_block')
+    event.create('forge_frontier:trophy_block')
         .displayName('Landscapes Reimagined Trophy')
         .soundType('metal') // Example, replace 'wood' with the appropriate sound type
         .mapColor('DIAMOND') // Example, replace 'color' with the appropriate map color
         .hardness(2.0)
-        .model('kubejs:block/trophy_block')
+        .model('forge_frontier:block/trophy_block')
         .requiresTool(true)
         .resistance(1200)
         .waterlogged()
@@ -63,96 +63,96 @@ StartupEvents.registry('block', event => {
         .tagBlock("mineable/pickaxe")
         .fullBlock(true);
         
-        event.create('crushed_bismuth_pile')
+        event.create('forge_frontier:crushed_bismuth_pile')
         .displayName('Crushed Bismuth Pile')
         .soundType('metal') 
         .mapColor('Stone') 
         .hardness(2.0)
-        .model('kubejs:block/crushed_bismuth_pile')
+        .model('forge_frontier:block/crushed_bismuth_pile')
         .requiresTool(true)
         .renderType('solid')
         .tagItem('tooltiprareness:common_item')
         .tagBlock("mineable/pickaxe")
         .fullBlock(true);
         
-        event.create('crushed_calorite_pile')
+        event.create('forge_frontier:crushed_calorite_pile')
         .displayName('Crushed Calorite Pile')
         .soundType('metal') 
         .mapColor('Stone') 
         .hardness(2.0)
-        .model('kubejs:block/crushed_calorite_pile')
+        .model('forge_frontier:block/crushed_calorite_pile')
         .requiresTool(true)
         .renderType('solid')
         .tagItem('tooltiprareness:common_item')
         .tagBlock("mineable/pickaxe")
         .fullBlock(true);     
 
-        event.create('crushed_desh_pile')
+        event.create('forge_frontier:crushed_desh_pile')
         .displayName('Crushed Desh Pile')
         .soundType('metal') 
         .mapColor('Stone') 
         .hardness(2.0)
-        .model('kubejs:block/crushed_desh_pile')
+        .model('forge_frontier:block/crushed_desh_pile')
         .requiresTool(true)
         .renderType('solid')
         .tagItem('tooltiprareness:common_item')
         .tagBlock("mineable/pickaxe")
         .fullBlock(true);     
 
-        event.create('crushed_irradium_pile')
+        event.create('forge_frontier:crushed_irradium_pile')
         .displayName('Crushed Irradium Pile')
         .soundType('metal') 
         .mapColor('Stone') 
         .hardness(2.0)
-        .model('kubejs:block/crushed_irradium_pile')
+        .model('forge_frontier:block/crushed_irradium_pile')
         .requiresTool(true)
         .renderType('solid')
         .tagItem('tooltiprareness:common_item')
         .tagBlock("mineable/pickaxe")
         .fullBlock(true);     
 
-        event.create('crushed_malachite_pile')
+        event.create('forge_frontier:crushed_malachite_pile')
         .displayName('Crushed Malachite Pile')
         .soundType('metal') 
         .mapColor('Stone') 
         .hardness(2.0)
-        .model('kubejs:block/crushed_malachite_pile')
+        .model('forge_frontier:block/crushed_malachite_pile')
         .requiresTool(true)
         .renderType('solid')
         .tagItem('tooltiprareness:common_item')
         .tagBlock("mineable/pickaxe")
         .fullBlock(true);     
 
-        event.create('crushed_ostrum_pile')
+        event.create('forge_frontier:crushed_ostrum_pile')
         .displayName('Crushed Ostrum Pile')
         .soundType('metal') 
         .mapColor('Stone') 
         .hardness(2.0)
-        .model('kubejs:block/crushed_ostrum_pile')
+        .model('forge_frontier:block/crushed_ostrum_pile')
         .requiresTool(true)
         .renderType('solid')
         .tagItem('tooltiprareness:common_item')
         .tagBlock("mineable/pickaxe")
         .fullBlock(true);     
 
-        event.create('crushed_tin_pile')
+        event.create('forge_frontier:crushed_tin_pile')
         .displayName('Crushed Tin Pile')
         .soundType('metal') 
         .mapColor('Stone') 
         .hardness(2.0)
-        .model('kubejs:block/crushed_tin_pile')
+        .model('forge_frontier:block/crushed_tin_pile')
         .requiresTool(true)
         .renderType('solid')
         .tagItem('tooltiprareness:common_item')
         .tagBlock("mineable/pickaxe")
         .fullBlock(true);     
 
-        event.create('crushed_uranium_pile')
+        event.create('forge_frontier:crushed_uranium_pile')
         .displayName('Crushed Uranium Pile')
         .soundType('metal') 
         .mapColor('Stone') 
         .hardness(2.0)
-        .model('kubejs:block/crushed_uranium_pile')
+        .model('forge_frontier:block/crushed_uranium_pile')
         .requiresTool(true)
         .renderType('solid')
         .tagItem('tooltiprareness:common_item')
@@ -165,121 +165,121 @@ StartupEvents.registry('block', event => {
 StartupEvents.registry('item', event => {
 
     // Overcharged Items
-        event.create('kubejs:overcharged_netherite_ingot')
+        event.create('forge_frontier:overcharged_netherite_ingot')
             .displayName('Overcharged Netherite Ingot')
-            .texture('kubejs:item/overcharged_netherite_ingot');
+            .texture('forge_frontier:item/overcharged_netherite_ingot');
 
     // New Molds
-        event.create('kubejs:axe_mold')
+        event.create('forge_frontier:axe_mold')
             .displayName('Axe Mold')
-            .texture('kubejs:item/molds/axe_mold');
+            .texture('forge_frontier:item/molds/axe_mold');
 
-        event.create('kubejs:boots_mold')
+        event.create('forge_frontier:boots_mold')
             .displayName('Boots Mold')
-            .texture('kubejs:item/molds/boots_mold');
+            .texture('forge_frontier:item/molds/boots_mold');
 
-        event.create('kubejs:block_mold')
+        event.create('forge_frontier:block_mold')
             .displayName('Block Mold')
-            .texture('kubejs:item/molds/block_mold');
+            .texture('forge_frontier:item/molds/block_mold');
 
-        event.create('kubejs:chestplate_mold')
+        event.create('forge_frontier:chestplate_mold')
             .displayName('Chestplate Mold')
-            .texture('kubejs:item/molds/chestplate_mold');
+            .texture('forge_frontier:item/molds/chestplate_mold');
 
-        event.create('kubejs:coal_mold')
+        event.create('forge_frontier:coal_mold')
             .displayName('Coal Mold')
-            .texture('kubejs:item/molds/coal_mold');
+            .texture('forge_frontier:item/molds/coal_mold');
 
-        event.create('kubejs:gem_mold')
+        event.create('forge_frontier:gem_mold')
             .displayName('Gem Mold')
-            .texture('kubejs:item/molds/gem_mold');
+            .texture('forge_frontier:item/molds/gem_mold');
 
-        event.create('kubejs:head_mold')
+        event.create('forge_frontier:head_mold')
             .displayName('Head Mold')
-            .texture('kubejs:item/molds/head_mold');
+            .texture('forge_frontier:item/molds/head_mold');
 
-        event.create('kubejs:helmet_mold')
+        event.create('forge_frontier:helmet_mold')
             .displayName('Helmet Mold')
-            .texture('kubejs:item/molds/helmet_mold');
+            .texture('forge_frontier:item/molds/helmet_mold');
 
-        event.create('kubejs:hoe_mold')
+        event.create('forge_frontier:hoe_mold')
             .displayName('Hoe Mold')
-            .texture('kubejs:item/molds/hoe_mold');
+            .texture('forge_frontier:item/molds/hoe_mold');
 
-        event.create('kubejs:ingot_mold')
+        event.create('forge_frontier:ingot_mold')
             .displayName('Ingot Mold')
-            .texture('kubejs:item/molds/ingot_mold');
+            .texture('forge_frontier:item/molds/ingot_mold');
 
-        event.create('kubejs:leggings_mold')
+        event.create('forge_frontier:leggings_mold')
             .displayName('Leggings Mold')
-            .texture('kubejs:item/molds/leggings_mold');
+            .texture('forge_frontier:item/molds/leggings_mold');
 
-        event.create('kubejs:mold_template')
+        event.create('forge_frontier:mold_template')
             .displayName('Mold Template')
-            .texture('kubejs:item/molds/mold_template');
+            .texture('forge_frontier:item/molds/mold_template');
 
-        event.create('kubejs:pickaxe_mold')
+        event.create('forge_frontier:pickaxe_mold')
             .displayName('Pickaxe Mold')
-            .texture('kubejs:item/molds/pickaxe_mold');
+            .texture('forge_frontier:item/molds/pickaxe_mold');
 
-        event.create('kubejs:shovel_mold')
+        event.create('forge_frontier:shovel_mold')
             .displayName('Shovel Mold')
-            .texture('kubejs:item/molds/shovel_mold');
+            .texture('forge_frontier:item/molds/shovel_mold');
 
-        event.create('kubejs:skull_mold')
+        event.create('forge_frontier:skull_mold')
             .displayName('Skull Mold')
-            .texture('kubejs:item/molds/skull_mold');
+            .texture('forge_frontier:item/molds/skull_mold');
 
-        event.create('kubejs:sword_mold')
+        event.create('forge_frontier:sword_mold')
             .displayName('Sword Mold')
-            .texture('kubejs:item/molds/sword_mold');
+            .texture('forge_frontier:item/molds/sword_mold');
 
     // Netherite Automation Parts
-        event.create('kubejs:netherite_specks')
+        event.create('forge_frontier:netherite_specks')
             .displayName('Netherite Specks')
-            .texture('kubejs:item/netherite_specks');
+            .texture('forge_frontier:item/netherite_specks');
 
-        event.create('kubejs:incomplete_netherite_dust')
+        event.create('forge_frontier:incomplete_netherite_dust')
             .displayName('Incomplete Netherite Dust')
             .texture('tfmg:item/coal_coke_dust');
         
-        event.create('kubejs:netherite_dust')
+        event.create('forge_frontier:netherite_dust')
             .displayName('Netherite Dust')
-            .texture('kubejs:item/netherite_dust')
+            .texture('forge_frontier:item/netherite_dust')
 
     // Crushed Ores
-        event.create('crushed_bismuth')
+        event.create('forge_frontier:crushed_bismuth')
             .displayName('Crushed Bismuth')
-            .texture('kubejs:item/crushed_ore/crushed_bismuth');
+            .texture('forge_frontier:item/crushed_ore/crushed_bismuth');
 
-        event.create('crushed_irradium')
+        event.create('forge_frontier:crushed_irradium')
             .displayName('Crushed Irradium')
-            .texture('kubejs:item/crushed_ore/crushed_irradium');
+            .texture('forge_frontier:item/crushed_ore/crushed_irradium');
 
-        event.create('crushed_malachite')
+        event.create('forge_frontier:crushed_malachite')
             .displayName('Crushed Malachite')
-            .texture('kubejs:item/crushed_ore/crushed_malachite');
+            .texture('forge_frontier:item/crushed_ore/crushed_malachite');
 
     // Logo
-        event.create('modpack_logo')
+        event.create('forge_frontier:modpack_logo')
             .displayName('Forge Frontier Logo')
-            .texture('kubejs:item/forgefrontier')
+            .texture('forge_frontier:item/forgefrontier')
 
     // Upgrades
-        event.create('netherite_iron_upgrade')
+        event.create('forge_frontier:netherite_iron_upgrade')
             .displayName('Netherite Iron Smithing Template')
-            .texture('kubejs:item/upgrades/netherite_iron_upgrade_smithing_template')
+            .texture('forge_frontier:item/upgrades/netherite_iron_upgrade_smithing_template')
 
-        event.create('netherite_gold_upgrade')
+        event.create('forge_frontier:netherite_gold_upgrade')
             .displayName('Netherite Gold Smithing Template')
-            .texture('kubejs:item/upgrades/netherite_gold_upgrade_smithing_template')
+            .texture('forge_frontier:item/upgrades/netherite_gold_upgrade_smithing_template')
 
-        event.create('netherite_emerald_upgrade')
+        event.create('forge_frontier:netherite_emerald_upgrade')
             .displayName('Netherite Emerald Smithing Template')
-            .texture('kubejs:item/upgrades/netherite_emerald_upgrade_smithing_template')
+            .texture('forge_frontier:item/upgrades/netherite_emerald_upgrade_smithing_template')
 
-        event.create('netherite_diamond_upgrade')
+        event.create('forge_frontier:netherite_diamond_upgrade')
             .displayName('Netherite Diamond Smithing Template')
-            .texture('kubejs:item/upgrades/netherite_diamond_upgrade_smithing_template')
+            .texture('forge_frontier:item/upgrades/netherite_diamond_upgrade_smithing_template')
 });
 

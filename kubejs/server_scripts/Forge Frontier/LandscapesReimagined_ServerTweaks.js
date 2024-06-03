@@ -113,7 +113,7 @@ ServerEvents.recipes(event => {
 				chance: 0.140625  
 			}
 		]
-	}).id('kubejs:crushing/iron_plating');
+	}).id('forge_frontier:crushing/iron_plating');
 
 
 	// Malachite Block to Malchite Shapeless Recipe
@@ -157,7 +157,7 @@ ServerEvents.recipes(event => {
             { item: 'cagedmobs:nether_star_fragment', count: 4 },
 			{ item: 'cagedmobs:nether_star_fragment', chance: 0.10}
         ],
-    }).id('kubejs:crushing/netherstar');
+    }).id('forge_frontier:crushing/netherstar');
 
 	// Netherite Crushing Recipe
 	event.custom({
@@ -170,7 +170,7 @@ ServerEvents.recipes(event => {
             { item: 'minecraft:netherite_scrap', count: 4 },
 			{ item: 'minecraft:netherite_scrap', chance: 0.10}
         ],
-    }).id('kubejs:crushing/netherite');
+    }).id('forge_frontier:crushing/netherite');
 
 	// Adjust Coal Recipe
 	event.custom({
@@ -241,7 +241,7 @@ ServerEvents.recipes(event => {
 		},
 		result: Ingredient.of('create_power_loader:empty_andesite_chunk_loader').toJson(),
 		acceptMirrored: false
-	}).id('kubejs:powerloaders/andesitechunkloader');
+	}).id('forge_frontier:powerloaders/andesitechunkloader');
 
 	// Creates Brass Chunk Loader
 	event.custom({
@@ -263,7 +263,7 @@ ServerEvents.recipes(event => {
 		},
 		result: Ingredient.of('create_power_loader:empty_brass_chunk_loader').toJson(),
 		acceptMirrored: false
-	}).id('kubejs:powerloaders/brasschunkloader');
+	}).id('forge_frontier:powerloaders/brasschunkloader');
 
 
 	// Creates Undead Soul Recipe
@@ -350,7 +350,7 @@ ServerEvents.recipes(event => {
 				amount: 1
 			},
 			{
-				fluid: 'kubejs:liquid_dragons_breath',
+				fluid: 'forge_frontier:liquid_dragons_breath',
 				amount: 1000
 			}
 		],
@@ -361,7 +361,7 @@ ServerEvents.recipes(event => {
 			}
 		],
 		heatRequirement: 'superheated'
-	}).id('kubejs:mixing/dragon_egg');
+	}).id('forge_frontier:mixing/dragon_egg');
 
 
 	// Creates New Mob Cage Recipe
@@ -451,7 +451,7 @@ ServerEvents.recipes(event => {
 		results: [
 			{ item: 'minecraft:nether_wart', count: 2 },
 			{ item: 'minecraft:nether_wart', chance: 0.10 }]
-	}).id('kubejs:crushing/nether_wart_block');
+	}).id('forge_frontier:crushing/nether_wart_block');
 
 	// Create Chromatic Compound
 	event.custom({
@@ -465,7 +465,7 @@ ServerEvents.recipes(event => {
 			Ingredient.of('create:chromatic_compound').toJson()
 		],
 		conditions: ['superheated']
-	}).id('kubejs:create/chromatic_compound');
+	}).id('forge_frontier:create/chromatic_compound');
 
 	// Fixes Chipped Tinkering Table Recipe
 	event.shaped(
@@ -498,18 +498,18 @@ ServerEvents.recipes(event => {
 				item: 'minecraft:glass_bottle'
 			},
 			{
-				fluid: 'kubejs:liquid_dragons_breath',
+				fluid: 'forge_frontier:liquid_dragons_breath',
 				amount: 100
 			}
 		],
-	}).id('kubejs:emptying/dragons_breath')
+	}).id('forge_frontier:emptying/dragons_breath')
 
 	// Liquid to Bottle Recipe
 	event.custom({
 		type: 'create:filling',
 		ingredients: [
 			{
-				fluid: 'kubejs:liquid_dragons_breath',
+				fluid: 'forge_frontier:liquid_dragons_breath',
 				amount: 100
 			},
 			{
@@ -523,7 +523,7 @@ ServerEvents.recipes(event => {
 				count: 1
 			}
 		]
-	}).id('kubejs:filling/dragons_breath')
+	}).id('forge_frontier:filling/dragons_breath')
 
 })
 

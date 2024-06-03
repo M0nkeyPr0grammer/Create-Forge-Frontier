@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "kubejs:block/crushed_calorite_pile"
+    "all": "forge_frontier:block/crushed_ostrum_pile"
   },
   "render_type": "solid"
 }

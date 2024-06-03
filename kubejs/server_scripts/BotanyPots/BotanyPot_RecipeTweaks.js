@@ -230,7 +230,7 @@ ServerEvents.recipes(event => {
     botanyPotsElite.forEach(potType => {
         event.replaceInput({
             id: `botanypotstiers:crafting/elite_${potType}_botany_pot_2`,
-        }, 'minecraft:iron_block', 'kubejs:overcharged_iron_block');
+        }, 'minecraft:iron_block', 'forge_frontier:overcharged_iron_block');
     });
 
         // List of all hopper botany pots
@@ -306,7 +306,7 @@ ServerEvents.recipes(event => {
         hopperBotanyPotsElite.forEach(potType => {
             event.replaceInput({
                 id: `botanypotstiers:crafting/elite_${potType}_compact_hopper_botany_pot_3`,
-            }, 'minecraft:iron_block', 'kubejs:overcharged_iron_block');
+            }, 'minecraft:iron_block', 'forge_frontier:overcharged_iron_block');
         });
 
     // Ultra Pots
@@ -459,7 +459,7 @@ ServerEvents.recipes(event => {
         botanyPotsUltra.forEach(potType => {
             event.replaceInput({
                 id: `botanypotstiers:crafting/ultra_${potType}_botany_pot_2`,
-            }, 'minecraft:diamond_block', 'kubejs:overcharged_diamond_block');
+            }, 'minecraft:diamond_block', 'forge_frontier:overcharged_diamond_block');
         });
 
         // List of all hopper botany pots
@@ -535,7 +535,7 @@ ServerEvents.recipes(event => {
         hopperBotanyPotsUltra.forEach(potType => {
             event.replaceInput({
                 id: `botanypotstiers:crafting/ultra_${potType}_compact_hopper_botany_pot_3`,
-            }, 'minecraft:diamond_block', 'kubejs:overcharged_diamond_block');
+            }, 'minecraft:diamond_block', 'forge_frontier:overcharged_diamond_block');
         });
     
     
@@ -689,7 +689,7 @@ ServerEvents.recipes(event => {
     botanyPotsCreative.forEach(potType => {
         event.replaceInput({
             id: `botanypotstiers:crafting/creative_${potType}_botany_pot_2`,
-        }, 'minecraft:netherite_block', 'kubejs:overcharged_netherite_block');
+        }, 'minecraft:netherite_block', 'forge_frontier:overcharged_netherite_block');
     });
     
             // List of all hopper botany pots
@@ -765,7 +765,7 @@ ServerEvents.recipes(event => {
             hopperBotanyPotsCreative.forEach(potType => {
                 event.replaceInput({
                     id: `botanypotstiers:crafting/creative_${potType}_compact_hopper_botany_pot_3`,
-                }, 'minecraft:netherite_block', 'kubejs:overcharged_netherite_block');
+                }, 'minecraft:netherite_block', 'forge_frontier:overcharged_netherite_block');
             });
 
 });

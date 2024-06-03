@@ -1,5 +1,5 @@
 {
-  "parent": "kubejs:block/crushed_bismuth_pile",
+  "parent": "forge_frontier:block/crushed_ostrum_pile",
   "display": {
     "thirdperson": {
       "rotation": [

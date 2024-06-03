@@ -84,7 +84,7 @@ ServerEvents.recipes(event => {
         };
     
         // Register the custom recipe with KubeJS
-        event.custom(customRecipe).id('kubejs:cutting/' + log.replace(":", "_bark"));
+        event.custom(customRecipe).id('forge_frontier:cutting/' + log.replace(":", "_bark"));
     });
 
     

@@ -24,7 +24,7 @@ ServerEvents.recipes(event => {
 				chance: 0.1
 			}
 		]
-	}).id('kubejs:crushing/netherite_shovel');
+	}).id('forge_frontier:crushing/netherite_shovel');
 
 	// Netherite Pickaxe
 	event.custom({
@@ -49,7 +49,7 @@ ServerEvents.recipes(event => {
 				chance: 0.1
 			}
 		]
-	}).id('kubejs:crushing/netherite_pickaxe');
+	}).id('forge_frontier:crushing/netherite_pickaxe');
 
 	// Netherite Axe
 	event.custom({
@@ -74,7 +74,7 @@ ServerEvents.recipes(event => {
 				chance: 0.1
 			}
 		]
-	}).id('kubejs:crushing/netherite_axe');
+	}).id('forge_frontier:crushing/netherite_axe');
 
 	// Netherite Hoe
 	event.custom({
@@ -99,7 +99,7 @@ ServerEvents.recipes(event => {
 				chance: 0.1
 			}
 		]
-	}).id('kubejs:crushing/netherite_hoe');
+	}).id('forge_frontier:crushing/netherite_hoe');
 
 	// Netherite Sword
 	event.custom({
@@ -124,7 +124,7 @@ ServerEvents.recipes(event => {
 				chance: 0.1
 			}
 		]
-	}).id('kubejs:crushing/netherite_sword');
+	}).id('forge_frontier:crushing/netherite_sword');
 
 
 	// Golden Shovel
@@ -140,7 +140,7 @@ ServerEvents.recipes(event => {
 				count: 6
 			}
 		]
-	}).id('kubejs:crushing/golden_shovel');
+	}).id('forge_frontier:crushing/golden_shovel');
 
 	// Golden Pickaxe
 	event.custom({
@@ -155,7 +155,7 @@ ServerEvents.recipes(event => {
 				count: 2
 			}
 		]
-	}).id('kubejs:crushing/golden_pickaxe');
+	}).id('forge_frontier:crushing/golden_pickaxe');
 
 	// Golden Axe
 	event.custom({
@@ -170,7 +170,7 @@ ServerEvents.recipes(event => {
 				count: 2
 			}
 		]
-	}).id('kubejs:crushing/golden_axe');
+	}).id('forge_frontier:crushing/golden_axe');
 
 	// Golden Hoe
 	event.custom({
@@ -185,7 +185,7 @@ ServerEvents.recipes(event => {
 				count: 1
 			}
 		]
-	}).id('kubejs:crushing/golden_hoe');
+	}).id('forge_frontier:crushing/golden_hoe');
 
 	// Golden Sword
 	event.custom({
@@ -200,7 +200,7 @@ ServerEvents.recipes(event => {
 				count: 1
 			}
 		]
-	}).id('kubejs:crushing/golden_sword');
+	}).id('forge_frontier:crushing/golden_sword');
 
 
 	// Diamond Shovel
@@ -216,7 +216,7 @@ ServerEvents.recipes(event => {
 				count: 1
 			}
 		]
-	}).id('kubejs:crushing/diamond_shovel');
+	}).id('forge_frontier:crushing/diamond_shovel');
 
 	// Diamond Pickaxe
 	event.custom({
@@ -231,7 +231,7 @@ ServerEvents.recipes(event => {
 				count: 2
 			}
 		]
-	}).id('kubejs:crushing/diamond_pickaxe');
+	}).id('forge_frontier:crushing/diamond_pickaxe');
 
 	// Diamond Axe
 	event.custom({
@@ -246,7 +246,7 @@ ServerEvents.recipes(event => {
 				count: 2
 			}
 		]
-	}).id('kubejs:crushing/diamond_axe');
+	}).id('forge_frontier:crushing/diamond_axe');
 
 	// Diamond Hoe
 	event.custom({
@@ -261,7 +261,7 @@ ServerEvents.recipes(event => {
 				count: 1
 			}
 		]
-	}).id('kubejs:crushing/diamond_hoe');
+	}).id('forge_frontier:crushing/diamond_hoe');
 
 	// Diamond Sword
 	event.custom({
@@ -276,7 +276,7 @@ ServerEvents.recipes(event => {
 				count: 1
 			}
 		]
-	}).id('kubejs:crushing/diamond_sword');
+	}).id('forge_frontier:crushing/diamond_sword');
 
 
 	// Iron Shovel
@@ -292,7 +292,7 @@ ServerEvents.recipes(event => {
 				count: 6
 			}
 		]
-	}).id('kubejs:crushing/iron_shovel');
+	}).id('forge_frontier:crushing/iron_shovel');
 
 	// Iron Pickaxe
 	event.custom({
@@ -307,7 +307,7 @@ ServerEvents.recipes(event => {
 				count: 2
 			}
 		]
-	}).id('kubejs:crushing/iron_pickaxe');
+	}).id('forge_frontier:crushing/iron_pickaxe');
 
 	// Iron Axe
 	event.custom({
@@ -322,7 +322,7 @@ ServerEvents.recipes(event => {
 				count: 2
 			}
 		]
-	}).id('kubejs:crushing/iron_axe');
+	}).id('forge_frontier:crushing/iron_axe');
 
 	// Iron Hoe
 	event.custom({
@@ -337,7 +337,7 @@ ServerEvents.recipes(event => {
 				count: 1
 			}
 		]
-	}).id('kubejs:crushing/iron_hoe');
+	}).id('forge_frontier:crushing/iron_hoe');
 
 	// Iron Sword
 	event.custom({
@@ -352,7 +352,7 @@ ServerEvents.recipes(event => {
 				count: 1
 			}
 		]
-	}).id('kubejs:crushing/iron_sword');
+	}).id('forge_frontier:crushing/iron_sword');
 
 
 	// Stone Shovel
@@ -368,7 +368,7 @@ ServerEvents.recipes(event => {
 				count: 1
 			}
 		]
-	}).id('kubejs:crushing/stone_shovel');
+	}).id('forge_frontier:crushing/stone_shovel');
 
 	// Stone Pickaxe
 	event.custom({
@@ -383,7 +383,7 @@ ServerEvents.recipes(event => {
 				count: 2
 			}
 		]
-	}).id('kubejs:crushing/stone_pickaxe');
+	}).id('forge_frontier:crushing/stone_pickaxe');
 
 	// Stone Axe
 	event.custom({
@@ -398,7 +398,7 @@ ServerEvents.recipes(event => {
 				count: 2
 			}
 		]
-	}).id('kubejs:crushing/stone_axe');
+	}).id('forge_frontier:crushing/stone_axe');
 
 	// Stone Hoe
 	event.custom({
@@ -413,7 +413,7 @@ ServerEvents.recipes(event => {
 				count: 1
 			}
 		]
-	}).id('kubejs:crushing/stone_hoe');
+	}).id('forge_frontier:crushing/stone_hoe');
 
 	// Stone Sword
 	event.custom({
@@ -428,7 +428,7 @@ ServerEvents.recipes(event => {
 				count: 1
 			}
 		]
-	}).id('kubejs:crushing/stone_sword');
+	}).id('forge_frontier:crushing/stone_sword');
 
 
 	// Wooden Shovel
@@ -444,7 +444,7 @@ ServerEvents.recipes(event => {
 				count: 1
 			}
 		]
-	}).id('kubejs:crushing/wooden_shovel');
+	}).id('forge_frontier:crushing/wooden_shovel');
 
 	// Wooden Pickaxe
 	event.custom({
@@ -459,7 +459,7 @@ ServerEvents.recipes(event => {
 				count: 2
 			}
 		]
-	}).id('kubejs:crushing/wooden_pickaxe');
+	}).id('forge_frontier:crushing/wooden_pickaxe');
 
 	// Wooden Axe
 	event.custom({
@@ -474,7 +474,7 @@ ServerEvents.recipes(event => {
 				count: 2
 			}
 		]
-	}).id('kubejs:crushing/wooden_axe');
+	}).id('forge_frontier:crushing/wooden_axe');
 
 	// Wooden Hoe
 	event.custom({
@@ -489,7 +489,7 @@ ServerEvents.recipes(event => {
 				count: 1
 			}
 		]
-	}).id('kubejs:crushing/wooden_hoe');
+	}).id('forge_frontier:crushing/wooden_hoe');
 
 	// Wooden Sword
 	event.custom({
@@ -504,7 +504,7 @@ ServerEvents.recipes(event => {
 				count: 1
 			}
 		]
-	}).id('kubejs:crushing/wooden_sword');
+	}).id('forge_frontier:crushing/wooden_sword');
 
 	// Nether Ruby Shovel
 	event.custom({
@@ -519,7 +519,7 @@ ServerEvents.recipes(event => {
 				count: 1
 			}
 		]
-	}).id('kubejs:crushing/nether_ruby_shovel');
+	}).id('forge_frontier:crushing/nether_ruby_shovel');
 
 	// Nether Ruby Pickaxe
 	event.custom({
@@ -534,7 +534,7 @@ ServerEvents.recipes(event => {
 				count: 2
 			}
 		]
-	}).id('kubejs:crushing/nether_ruby_pickaxe');
+	}).id('forge_frontier:crushing/nether_ruby_pickaxe');
 
 	// Nether Ruby Axe
 	event.custom({
@@ -549,7 +549,7 @@ ServerEvents.recipes(event => {
 				count: 2
 			}
 		]
-	}).id('kubejs:crushing/nether_ruby_axe');
+	}).id('forge_frontier:crushing/nether_ruby_axe');
 
 	// Nether Ruby Hoe
 	event.custom({
@@ -564,7 +564,7 @@ ServerEvents.recipes(event => {
 				count: 1
 			}
 		]
-	}).id('kubejs:crushing/nether_ruby_hoe');
+	}).id('forge_frontier:crushing/nether_ruby_hoe');
 
 	// Nether Ruby Sword
 	event.custom({
@@ -579,7 +579,7 @@ ServerEvents.recipes(event => {
 				count: 1
 			}
 		]
-	}).id('kubejs:crushing/nether_ruby_sword');
+	}).id('forge_frontier:crushing/nether_ruby_sword');
 
 	// Cincinnasite Shovel
 	event.custom({
@@ -594,7 +594,7 @@ ServerEvents.recipes(event => {
 				count: 1
 			}
 		]
-	}).id('kubejs:crushing/cincinnasite_shovel');
+	}).id('forge_frontier:crushing/cincinnasite_shovel');
 
 	// Cincinnasite Pickaxe
 	event.custom({
@@ -609,7 +609,7 @@ ServerEvents.recipes(event => {
 				count: 2
 			}
 		]
-	}).id('kubejs:crushing/cincinnasite_pickaxe');
+	}).id('forge_frontier:crushing/cincinnasite_pickaxe');
 
 	// Cincinnasite Axe
 	event.custom({
@@ -624,7 +624,7 @@ ServerEvents.recipes(event => {
 				count: 2
 			}
 		]
-	}).id('kubejs:crushing/cincinnasite_axe');
+	}).id('forge_frontier:crushing/cincinnasite_axe');
 
 	// Cincinnasite Hoe
 	event.custom({
@@ -639,7 +639,7 @@ ServerEvents.recipes(event => {
 				count: 1
 			}
 		]
-	}).id('kubejs:crushing/cincinnasite_hoe');
+	}).id('forge_frontier:crushing/cincinnasite_hoe');
 
 	// Cincinnasite Sword
 	event.custom({
@@ -654,7 +654,7 @@ ServerEvents.recipes(event => {
 				count: 1
 			}
 		]
-	}).id('kubejs:crushing/cincinnasite_sword');
+	}).id('forge_frontier:crushing/cincinnasite_sword');
 
 	// Iron Smith Hammer
 	event.custom({
@@ -669,7 +669,7 @@ ServerEvents.recipes(event => {
 				count: 2
 			}
 		]
-	}).id('kubejs:crushing/iron_hammer');
+	}).id('forge_frontier:crushing/iron_hammer');
 
 	// Golden Smith Hammer
 	event.custom({
@@ -684,7 +684,7 @@ ServerEvents.recipes(event => {
 				count: 2
 			}
 		]
-	}).id('kubejs:crushing/golden_hammer');
+	}).id('forge_frontier:crushing/golden_hammer');
 
 	// Diamond Smith Hammer
 	event.custom({
@@ -699,7 +699,7 @@ ServerEvents.recipes(event => {
 				count: 2
 			}
 		]
-	}).id('kubejs:crushing/diamond_hammer');
+	}).id('forge_frontier:crushing/diamond_hammer');
 
 	// Netherite Smith Hammer
 	event.custom({
@@ -719,7 +719,7 @@ ServerEvents.recipes(event => {
 				count: 2
 			}
 		]
-	}).id('kubejs:crushing/netherite_hammer');
+	}).id('forge_frontier:crushing/netherite_hammer');
 
 	// Netherite Iron Shovel
 	event.custom({
@@ -743,7 +743,7 @@ ServerEvents.recipes(event => {
 				chance: 0.1
 			}
 		]
-	}).id('kubejs:crushing/netherite_iron_shovel');
+	}).id('forge_frontier:crushing/netherite_iron_shovel');
 
 	// Netherite Iron Pickaxe
 	event.custom({
@@ -767,7 +767,7 @@ ServerEvents.recipes(event => {
 				chance: 0.1
 			}
 		]
-	}).id('kubejs:crushing/netherite_iron_pickaxe');
+	}).id('forge_frontier:crushing/netherite_iron_pickaxe');
 
 	// Netherite Iron Axe
 	event.custom({
@@ -791,7 +791,7 @@ ServerEvents.recipes(event => {
 				chance: 0.1
 			}
 		]
-	}).id('kubejs:crushing/netherite_iron_axe');
+	}).id('forge_frontier:crushing/netherite_iron_axe');
 
 	// Netherite Iron Hoe
 	event.custom({
@@ -815,7 +815,7 @@ ServerEvents.recipes(event => {
 				chance: 0.1
 			}
 		]
-	}).id('kubejs:crushing/netherite_iron_hoe');
+	}).id('forge_frontier:crushing/netherite_iron_hoe');
 
 	// Netherite Iron Sword
 	event.custom({
@@ -839,7 +839,7 @@ ServerEvents.recipes(event => {
 				chance: 0.1
 			}
 		]
-	}).id('kubejs:crushing/netherite_iron_sword');
+	}).id('forge_frontier:crushing/netherite_iron_sword');
 
 	// Netherite Gold Shovel
 	event.custom({
@@ -863,7 +863,7 @@ ServerEvents.recipes(event => {
 				chance: 0.1
 			}
 		]
-	}).id('kubejs:crushing/netherite_gold_shovel');
+	}).id('forge_frontier:crushing/netherite_gold_shovel');
 
 	// Netherite Gold Pickaxe
 	event.custom({
@@ -887,7 +887,7 @@ ServerEvents.recipes(event => {
 				chance: 0.1
 			}
 		]
-	}).id('kubejs:crushing/netherite_gold_pickaxe');
+	}).id('forge_frontier:crushing/netherite_gold_pickaxe');
 
 	// Netherite Gold Axe
 	event.custom({
@@ -911,7 +911,7 @@ ServerEvents.recipes(event => {
 				chance: 0.1
 			}
 		]
-	}).id('kubejs:crushing/netherite_gold_axe');
+	}).id('forge_frontier:crushing/netherite_gold_axe');
 
 	// Netherite Gold Hoe
 	event.custom({
@@ -935,7 +935,7 @@ ServerEvents.recipes(event => {
 				chance: 0.1
 			}
 		]
-	}).id('kubejs:crushing/netherite_gold_hoe');
+	}).id('forge_frontier:crushing/netherite_gold_hoe');
 
 	// Netherite Gold Sword
 	event.custom({
@@ -959,7 +959,7 @@ ServerEvents.recipes(event => {
 				chance: 0.1
 			}
 		]
-	}).id('kubejs:crushing/netherite_gold_sword');
+	}).id('forge_frontier:crushing/netherite_gold_sword');
 
 	// Netherite Emerald Shovel
 	event.custom({
@@ -983,7 +983,7 @@ ServerEvents.recipes(event => {
 				chance: 0.1
 			}
 		]
-	}).id('kubejs:crushing/netherite_emerald_shovel');
+	}).id('forge_frontier:crushing/netherite_emerald_shovel');
 
 	// Netherite Emerald Pickaxe
 	event.custom({
@@ -1007,7 +1007,7 @@ ServerEvents.recipes(event => {
 				chance: 0.1
 			}
 		]
-	}).id('kubejs:crushing/netherite_emerald_pickaxe');
+	}).id('forge_frontier:crushing/netherite_emerald_pickaxe');
 
 	// Netherite Emerald Axe
 	event.custom({
@@ -1031,7 +1031,7 @@ ServerEvents.recipes(event => {
 				chance: 0.1
 			}
 		]
-	}).id('kubejs:crushing/netherite_emerald_axe');
+	}).id('forge_frontier:crushing/netherite_emerald_axe');
 
 	// Netherite Emerald Hoe
 	event.custom({
@@ -1055,7 +1055,7 @@ ServerEvents.recipes(event => {
 				chance: 0.1
 			}
 		]
-	}).id('kubejs:crushing/netherite_emerald_hoe');
+	}).id('forge_frontier:crushing/netherite_emerald_hoe');
 
 	// Netherite Emerald Sword
 	event.custom({
@@ -1079,7 +1079,7 @@ ServerEvents.recipes(event => {
 				chance: 0.1
 			}
 		]
-	}).id('kubejs:crushing/netherite_emerald_sword');
+	}).id('forge_frontier:crushing/netherite_emerald_sword');
 
 	// Netherite Diamond Shovel
 	event.custom({
@@ -1103,7 +1103,7 @@ ServerEvents.recipes(event => {
 				chance: 0.1
 			}
 		]
-	}).id('kubejs:crushing/netherite_diamond_shovel');
+	}).id('forge_frontier:crushing/netherite_diamond_shovel');
 
 	// Netherite Diamond Pickaxe
 	event.custom({
@@ -1127,7 +1127,7 @@ ServerEvents.recipes(event => {
 				chance: 0.1
 			}
 		]
-	}).id('kubejs:crushing/netherite_diamond_pickaxe');
+	}).id('forge_frontier:crushing/netherite_diamond_pickaxe');
 
 	// Netherite Diamond Axe
 	event.custom({
@@ -1151,7 +1151,7 @@ ServerEvents.recipes(event => {
 				chance: 0.1
 			}
 		]
-	}).id('kubejs:crushing/netherite_diamond_axe');
+	}).id('forge_frontier:crushing/netherite_diamond_axe');
 
 	// Netherite Diamond Hoe
 	event.custom({
@@ -1175,7 +1175,7 @@ ServerEvents.recipes(event => {
 				chance: 0.1
 			}
 		]
-	}).id('kubejs:crushing/netherite_diamond_hoe');
+	}).id('forge_frontier:crushing/netherite_diamond_hoe');
 
 	// Netherite Diamond Sword
 	event.custom({
@@ -1199,6 +1199,6 @@ ServerEvents.recipes(event => {
 				chance: 0.1
 			}
 		]
-	}).id('kubejs:crushing/netherite_diamond_sword');
+	}).id('forge_frontier:crushing/netherite_diamond_sword');
 
 })
