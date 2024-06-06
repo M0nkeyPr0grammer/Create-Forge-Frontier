@@ -318,7 +318,7 @@ ServerEvents.recipes(event => {
                 amount: 1
             },
         ]
-    }).id('forge_frontier:compacting/steel_block')
+    }).id('forge_frontier:compacting/steel_block_old')
 
 // Molten Steel Mixing Recipe
     event.custom({
@@ -361,7 +361,7 @@ ServerEvents.recipes(event => {
                 amount: 1
             },
         ]
-    }).id('forge_frontier:compacting/bronze_block')
+    }).id('forge_frontier:compacting/bronze_block_old')
 
 // Realistic Bronze Mixing Recipe
     event.custom({
