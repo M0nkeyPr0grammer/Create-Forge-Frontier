@@ -1447,7 +1447,7 @@ ServerEvents.recipes(event => {
             }
         ],
         heatRequirement: "superheated"
-    }).id('forge_frontier:mixing/quartz');
+    }).id('forge_frontier:mixing/quartz_molten');
 
     // Quartz Ore to Molten Mixing Recipe
     event.custom({
