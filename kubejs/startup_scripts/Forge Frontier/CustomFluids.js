@@ -271,4 +271,34 @@ StartupEvents.registry('fluid',event => {
         .temperature(1300)
         .bucketItem;
 
+    // Molten Desh
+    event.create('forge_frontier:molten_desh')
+        .color(0xb05a3c)
+        .displayName('Molten Desh')
+        .bucketColor(0xb05a3c)
+        .thickTexture(0xb05a3c)
+        .viscosity(6000)
+        .temperature(1300)
+        .bucketItem;
+
+    // Molten Calorite
+    event.create('forge_frontier:molten_calorite')
+        .color(0xb63044)
+        .displayName('Molten Calorite')
+        .bucketColor(0xb63044)
+        .thickTexture(0xb63044)
+        .viscosity(6000)
+        .temperature(1300)
+        .bucketItem;
+
+    // Molten Ostrum
+    event.create('forge_frontier:molten_ostrum')
+        .color(0x76525f)
+        .displayName('Molten Ostrum')
+        .bucketColor(0x76525f)
+        .thickTexture(0x76525f)
+        .viscosity(6000)
+        .temperature(1300)
+        .bucketItem;
+
 });
