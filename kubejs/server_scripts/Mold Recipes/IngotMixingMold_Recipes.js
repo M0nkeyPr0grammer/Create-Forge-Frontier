@@ -451,9 +451,78 @@ ServerEvents.recipes(event => {
     }).id('forge_frontier:mixing/malachite')
 
     // Desh Ingot Mold Recipe
+    event.custom({
+        type: 'create:mixing',
+        ingredients: [
+            {
+                fluid: 'forge_frontier:molten_desh',
+                amount: 100
+            },
+            {
+                item: 'forge_frontier:ingot_mold',
+                count: 1
+            }
+        ],
+        results: [
+            {
+                item: 'ad_astra:desh_ingot',
+                count: 1
+            },
+            {
+                item: 'forge_frontier:ingot_mold'
+            }
+        ],
+        heatRequirement: 'superheated'
+    }).id('forge_frontier:mixing/desh_ingot')
 
     // Ostrum Ingot Mold Recipe
+    event.custom({
+        type: 'create:mixing',
+        ingredients: [
+            {
+                fluid: 'forge_frontier:molten_ostrum',
+                amount: 100
+            },
+            {
+                item: 'forge_frontier:ingot_mold',
+                count: 1
+            }
+        ],
+        results: [
+            {
+                item: 'ad_astra:ostrum_ingot',
+                count: 1
+            },
+            {
+                item: 'forge_frontier:ingot_mold'
+            }
+        ],
+        heatRequirement: 'superheated'
+    }).id('forge_frontier:mixing/ostrum_ingot')
 
     // Calorite Ingot Mold Recipe
+    event.custom({
+        type: 'create:mixing',
+        ingredients: [
+            {
+                fluid: 'forge_frontier:molten_calorite',
+                amount: 100
+            },
+            {
+                item: 'forge_frontier:ingot_mold',
+                count: 1
+            }
+        ],
+        results: [
+            {
+                item: 'ad_astra:calorite_ingot',
+                count: 1
+            },
+            {
+                item: 'forge_frontier:ingot_mold'
+            }
+        ],
+        heatRequirement: 'superheated'
+    }).id('forge_frontier:mixing/calorite_ingot')
 
 })
