@@ -339,7 +339,7 @@ ServerEvents.recipes(event => {
                 }
             ],
             heatRequirement: "superheated"
-        }).id('forge_frontier:mixing/desh_ingot');
+        }).id('forge_frontier:mixing/desh_ingot_molten');
 
         // Ostrum Ingot
         event.custom({
@@ -358,7 +358,7 @@ ServerEvents.recipes(event => {
                 }
             ],
             heatRequirement: "superheated"
-        }).id('forge_frontier:mixing/ostrum_ingot');
+        }).id('forge_frontier:mixing/ostrum_ingot_molten');
 
         // Calorite Ingot
         event.custom({
@@ -377,7 +377,7 @@ ServerEvents.recipes(event => {
                 }
             ],
             heatRequirement: "superheated"
-        }).id('forge_frontier:mixing/calorite_ingot');
+        }).id('forge_frontier:mixing/calorite_ingot_molten');
 
         // Desh Block
         event.custom({
