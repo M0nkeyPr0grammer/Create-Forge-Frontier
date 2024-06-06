@@ -4,7 +4,7 @@ ServerEvents.recipes(event => {
 
         // Iron
         event.custom({
-            type: 'create:mixing',
+            type: 'create:compacting',
             ingredients: [
                 {
                     fluid: 'forge_frontier:molten_iron',
@@ -25,11 +25,11 @@ ServerEvents.recipes(event => {
                 }
             ],
             heatRequirement: 'superheated'
-        }).id('forge_frontier:mixing/iron_helmet')
+        }).id('forge_frontier:compacting/iron_helmet')
 
         // Gold
         event.custom({
-            type: 'create:mixing',
+            type: 'create:compacting',
             ingredients: [
                 {
                     fluid: 'forge_frontier:molten_gold',
@@ -50,11 +50,11 @@ ServerEvents.recipes(event => {
                 }
             ],
             heatRequirement: 'superheated'
-        }).id('forge_frontier:mixing/golden_helmet')
+        }).id('forge_frontier:compacting/golden_helmet')
 
         // Diamond
         event.custom({
-            type: 'create:mixing',
+            type: 'create:compacting',
             ingredients: [
                 {
                     fluid: 'forge_frontier:molten_diamond',
@@ -75,11 +75,11 @@ ServerEvents.recipes(event => {
                 }
             ],
             heatRequirement: 'superheated'
-        }).id('forge_frontier:mixing/diamond_helmet')
+        }).id('forge_frontier:compacting/diamond_helmet')
 
         // Netherite
         event.custom({
-            type: 'create:mixing',
+            type: 'create:compacting',
             ingredients: [
                 {
                     fluid: 'forge_frontier:molten_netherite',
@@ -100,11 +100,11 @@ ServerEvents.recipes(event => {
                 }
             ],
             heatRequirement: 'superheated'
-        }).id('forge_frontier:mixing/netherite_helmet')
+        }).id('forge_frontier:compacting/netherite_helmet')
 
         // Netherite-Iron
         event.custom({
-            type: 'create:mixing',
+            type: 'create:compacting',
             ingredients: [
                 {
                     fluid: 'forge_frontier:molten_netherite_iron',
@@ -125,11 +125,11 @@ ServerEvents.recipes(event => {
                 }
             ],
             heatRequirement: 'superheated'
-        }).id('forge_frontier:mixing/netherite_iron_helmet')
+        }).id('forge_frontier:compacting/netherite_iron_helmet')
 
         // Netherite-Gold
         event.custom({
-            type: 'create:mixing',
+            type: 'create:compacting',
             ingredients: [
                 {
                     fluid: 'forge_frontier:molten_netherite_gold',
@@ -150,11 +150,11 @@ ServerEvents.recipes(event => {
                 }
             ],
             heatRequirement: 'superheated'
-        }).id('forge_frontier:mixing/netherite_gold_helmet')
+        }).id('forge_frontier:compacting/netherite_gold_helmet')
 
         // Netherite-Emerald
         event.custom({
-            type: 'create:mixing',
+            type: 'create:compacting',
             ingredients: [
                 {
                     fluid: 'forge_frontier:molten_netherite_emerald',
@@ -175,11 +175,11 @@ ServerEvents.recipes(event => {
                 }
             ],
             heatRequirement: 'superheated'
-        }).id('forge_frontier:mixing/netherite_emerald_helmet')
+        }).id('forge_frontier:compacting/netherite_emerald_helmet')
 
         // Netherite-Diamond
         event.custom({
-            type: 'create:mixing',
+            type: 'create:compacting',
             ingredients: [
                 {
                     fluid: 'forge_frontier:molten_netherite_diamond',
@@ -200,14 +200,14 @@ ServerEvents.recipes(event => {
                 }
             ],
             heatRequirement: 'superheated'
-        }).id('forge_frontier:mixing/netherite_diamond_helmet')
+        }).id('forge_frontier:compacting/netherite_diamond_helmet')
 
 
     // Chestplates
 
         // Iron
         event.custom({
-            type: 'create:mixing',
+            type: 'create:compacting',
             ingredients: [
                 {
                     fluid: 'forge_frontier:molten_iron',
@@ -228,11 +228,11 @@ ServerEvents.recipes(event => {
                 }
             ],
             heatRequirement: 'superheated'
-        }).id('forge_frontier:mixing/iron_chestplate')
+        }).id('forge_frontier:compacting/iron_chestplate')
 
         // Gold
         event.custom({
-            type: 'create:mixing',
+            type: 'create:compacting',
             ingredients: [
                 {
                     fluid: 'forge_frontier:molten_gold',
@@ -253,11 +253,11 @@ ServerEvents.recipes(event => {
                 }
             ],
             heatRequirement: 'superheated'
-        }).id('forge_frontier:mixing/golden_chestplate')
+        }).id('forge_frontier:compacting/golden_chestplate')
 
         // Diamond
         event.custom({
-            type: 'create:mixing',
+            type: 'create:compacting',
             ingredients: [
                 {
                     fluid: 'forge_frontier:molten_diamond',
@@ -278,11 +278,11 @@ ServerEvents.recipes(event => {
                 }
             ],
             heatRequirement: 'superheated'
-        }).id('forge_frontier:mixing/diamond_chestplate')
+        }).id('forge_frontier:compacting/diamond_chestplate')
 
         // Netherite
         event.custom({
-            type: 'create:mixing',
+            type: 'create:compacting',
             ingredients: [
                 {
                     fluid: 'forge_frontier:molten_netherite',
@@ -303,11 +303,11 @@ ServerEvents.recipes(event => {
                 }
             ],
             heatRequirement: 'superheated'
-        }).id('forge_frontier:mixing/netherite_chestplate')
+        }).id('forge_frontier:compacting/netherite_chestplate')
 
         // Netherite-Iron
         event.custom({
-            type: 'create:mixing',
+            type: 'create:compacting',
             ingredients: [
                 {
                     fluid: 'forge_frontier:molten_netherite_iron',
@@ -328,11 +328,11 @@ ServerEvents.recipes(event => {
                 }
             ],
             heatRequirement: 'superheated'
-        }).id('forge_frontier:mixing/netherite_iron_chestplate')
+        }).id('forge_frontier:compacting/netherite_iron_chestplate')
 
         // Netherite-Gold
         event.custom({
-            type: 'create:mixing',
+            type: 'create:compacting',
             ingredients: [
                 {
                     fluid: 'forge_frontier:molten_netherite_gold',
@@ -353,11 +353,11 @@ ServerEvents.recipes(event => {
                 }
             ],
             heatRequirement: 'superheated'
-        }).id('forge_frontier:mixing/netherite_gold_chestplate')
+        }).id('forge_frontier:compacting/netherite_gold_chestplate')
 
         // Netherite-Emerald
         event.custom({
-            type: 'create:mixing',
+            type: 'create:compacting',
             ingredients: [
                 {
                     fluid: 'forge_frontier:molten_netherite_emerald',
@@ -378,11 +378,11 @@ ServerEvents.recipes(event => {
                 }
             ],
             heatRequirement: 'superheated'
-        }).id('forge_frontier:mixing/netherite_emerald_chestplate')
+        }).id('forge_frontier:compacting/netherite_emerald_chestplate')
 
         // Netherite-Diamond
         event.custom({
-            type: 'create:mixing',
+            type: 'create:compacting',
             ingredients: [
                 {
                     fluid: 'forge_frontier:molten_netherite_diamond',
@@ -403,13 +403,13 @@ ServerEvents.recipes(event => {
                 }
             ],
             heatRequirement: 'superheated'
-        }).id('forge_frontier:mixing/netherite_diamond_chestplate')
+        }).id('forge_frontier:compacting/netherite_diamond_chestplate')
 
     // Leggings
 
         // Iron
         event.custom({
-            type: 'create:mixing',
+            type: 'create:compacting',
             ingredients: [
                 {
                     fluid: 'forge_frontier:molten_iron',
@@ -430,11 +430,11 @@ ServerEvents.recipes(event => {
                 }
             ],
             heatRequirement: 'superheated'
-        }).id('forge_frontier:mixing/iron_leggings')
+        }).id('forge_frontier:compacting/iron_leggings')
 
         // Gold
         event.custom({
-            type: 'create:mixing',
+            type: 'create:compacting',
             ingredients: [
                 {
                     fluid: 'forge_frontier:molten_gold',
@@ -455,11 +455,11 @@ ServerEvents.recipes(event => {
                 }
             ],
             heatRequirement: 'superheated'
-        }).id('forge_frontier:mixing/golden_leggings')
+        }).id('forge_frontier:compacting/golden_leggings')
 
         // Diamond
         event.custom({
-            type: 'create:mixing',
+            type: 'create:compacting',
             ingredients: [
                 {
                     fluid: 'forge_frontier:molten_diamond',
@@ -480,11 +480,11 @@ ServerEvents.recipes(event => {
                 }
             ],
             heatRequirement: 'superheated'
-        }).id('forge_frontier:mixing/diamond_leggings')
+        }).id('forge_frontier:compacting/diamond_leggings')
 
         // Netherite
         event.custom({
-            type: 'create:mixing',
+            type: 'create:compacting',
             ingredients: [
                 {
                     fluid: 'forge_frontier:molten_netherite',
@@ -505,11 +505,11 @@ ServerEvents.recipes(event => {
                 }
             ],
             heatRequirement: 'superheated'
-        }).id('forge_frontier:mixing/netherite_leggings')
+        }).id('forge_frontier:compacting/netherite_leggings')
 
         // Netherite-Iron
         event.custom({
-            type: 'create:mixing',
+            type: 'create:compacting',
             ingredients: [
                 {
                     fluid: 'forge_frontier:molten_netherite_iron',
@@ -530,11 +530,11 @@ ServerEvents.recipes(event => {
                 }
             ],
             heatRequirement: 'superheated'
-        }).id('forge_frontier:mixing/netherite_iron_leggings')
+        }).id('forge_frontier:compacting/netherite_iron_leggings')
 
         // Netherite-Gold
         event.custom({
-            type: 'create:mixing',
+            type: 'create:compacting',
             ingredients: [
                 {
                     fluid: 'forge_frontier:molten_netherite_gold',
@@ -555,11 +555,11 @@ ServerEvents.recipes(event => {
                 }
             ],
             heatRequirement: 'superheated'
-        }).id('forge_frontier:mixing/netherite_gold_leggings')
+        }).id('forge_frontier:compacting/netherite_gold_leggings')
 
         // Netherite-Emerald
         event.custom({
-            type: 'create:mixing',
+            type: 'create:compacting',
             ingredients: [
                 {
                     fluid: 'forge_frontier:molten_netherite_emerald',
@@ -580,11 +580,11 @@ ServerEvents.recipes(event => {
                 }
             ],
             heatRequirement: 'superheated'
-        }).id('forge_frontier:mixing/netherite_emerald_leggings')
+        }).id('forge_frontier:compacting/netherite_emerald_leggings')
 
         // Netherite-Diamond
         event.custom({
-            type: 'create:mixing',
+            type: 'create:compacting',
             ingredients: [
                 {
                     fluid: 'forge_frontier:molten_netherite_diamond',
@@ -605,13 +605,13 @@ ServerEvents.recipes(event => {
                 }
             ],
             heatRequirement: 'superheated'
-        }).id('forge_frontier:mixing/netherite_diamond_leggings')
+        }).id('forge_frontier:compacting/netherite_diamond_leggings')
 
     // Boots
 
         // Iron
         event.custom({
-            type: 'create:mixing',
+            type: 'create:compacting',
             ingredients: [
                 {
                     fluid: 'forge_frontier:molten_iron',
@@ -632,11 +632,11 @@ ServerEvents.recipes(event => {
                 }
             ],
             heatRequirement: 'superheated'
-        }).id('forge_frontier:mixing/iron_boots')
+        }).id('forge_frontier:compacting/iron_boots')
 
         // Gold
         event.custom({
-            type: 'create:mixing',
+            type: 'create:compacting',
             ingredients: [
                 {
                     fluid: 'forge_frontier:molten_gold',
@@ -657,11 +657,11 @@ ServerEvents.recipes(event => {
                 }
             ],
             heatRequirement: 'superheated'
-        }).id('forge_frontier:mixing/golden_boots')
+        }).id('forge_frontier:compacting/golden_boots')
 
         // Diamond
         event.custom({
-            type: 'create:mixing',
+            type: 'create:compacting',
             ingredients: [
                 {
                     fluid: 'forge_frontier:molten_diamond',
@@ -682,11 +682,11 @@ ServerEvents.recipes(event => {
                 }
             ],
             heatRequirement: 'superheated'
-        }).id('forge_frontier:mixing/diamond_boots')
+        }).id('forge_frontier:compacting/diamond_boots')
 
         // Netherite
         event.custom({
-            type: 'create:mixing',
+            type: 'create:compacting',
             ingredients: [
                 {
                     fluid: 'forge_frontier:molten_netherite',
@@ -707,11 +707,11 @@ ServerEvents.recipes(event => {
                 }
             ],
             heatRequirement: 'superheated'
-        }).id('forge_frontier:mixing/netherite_boots')
+        }).id('forge_frontier:compacting/netherite_boots')
 
         // Netherite-Iron
         event.custom({
-            type: 'create:mixing',
+            type: 'create:compacting',
             ingredients: [
                 {
                     fluid: 'forge_frontier:molten_netherite_iron',
@@ -732,11 +732,11 @@ ServerEvents.recipes(event => {
                 }
             ],
             heatRequirement: 'superheated'
-        }).id('forge_frontier:mixing/netherite_iron_boots')
+        }).id('forge_frontier:compacting/netherite_iron_boots')
 
         // Netherite-Gold
         event.custom({
-            type: 'create:mixing',
+            type: 'create:compacting',
             ingredients: [
                 {
                     fluid: 'forge_frontier:molten_netherite_gold',
@@ -757,11 +757,11 @@ ServerEvents.recipes(event => {
                 }
             ],
             heatRequirement: 'superheated'
-        }).id('forge_frontier:mixing/netherite_gold_boots')
+        }).id('forge_frontier:compacting/netherite_gold_boots')
 
         // Netherite-Emerald
         event.custom({
-            type: 'create:mixing',
+            type: 'create:compacting',
             ingredients: [
                 {
                     fluid: 'forge_frontier:molten_netherite_emerald',
@@ -782,11 +782,11 @@ ServerEvents.recipes(event => {
                 }
             ],
             heatRequirement: 'superheated'
-        }).id('forge_frontier:mixing/netherite_emerald_boots')
+        }).id('forge_frontier:compacting/netherite_emerald_boots')
 
         // Netherite-Diamond
         event.custom({
-            type: 'create:mixing',
+            type: 'create:compacting',
             ingredients: [
                 {
                     fluid: 'forge_frontier:molten_netherite_diamond',
@@ -807,6 +807,6 @@ ServerEvents.recipes(event => {
                 }
             ],
             heatRequirement: 'superheated'
-        }).id('forge_frontier:mixing/netherite_diamond_boots')
+        }).id('forge_frontier:compacting/netherite_diamond_boots')
 
 })

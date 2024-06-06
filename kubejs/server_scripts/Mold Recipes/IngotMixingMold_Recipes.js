@@ -2,7 +2,7 @@ ServerEvents.recipes(event => {
 
     // Iron Ingot Mold Recipe
     event.custom({
-        type: 'create:mixing',
+        type: 'create:compacting',
         ingredients: [
             {
                 fluid: 'forge_frontier:molten_iron',
@@ -23,11 +23,11 @@ ServerEvents.recipes(event => {
             }
         ],
         heatRequirement: 'superheated'
-    }).id('forge_frontier:mixing/iron_ingot')
+    }).id('forge_frontier:compacting/iron_ingot')
 
     // Copper Ingot Mold Recipe
     event.custom({
-        type: 'create:mixing',
+        type: 'create:compacting',
         ingredients: [
             {
                 fluid: 'forge_frontier:molten_copper',
@@ -48,11 +48,11 @@ ServerEvents.recipes(event => {
             }
         ],
         heatRequirement: 'superheated'
-    }).id('forge_frontier:mixing/copper_ingot')
+    }).id('forge_frontier:compacting/copper_ingot')
 
     // Gold Ingot Mold Recipe
     event.custom({
-        type: 'create:mixing',
+        type: 'create:compacting',
         ingredients: [
             {
                 fluid: 'forge_frontier:molten_gold',
@@ -73,11 +73,11 @@ ServerEvents.recipes(event => {
             }
         ],
         heatRequirement: 'superheated'
-    }).id('forge_frontier:mixing/gold_ingot')
+    }).id('forge_frontier:compacting/gold_ingot')
 
     // Netherite Ingot Mold Recipe
     event.custom({
-        type: 'create:mixing',
+        type: 'create:compacting',
         ingredients: [
             {
                 fluid: 'forge_frontier:molten_netherite',
@@ -98,11 +98,11 @@ ServerEvents.recipes(event => {
             }
         ],
         heatRequirement: 'superheated'
-    }).id('forge_frontier:mixing/netherite_ingot')
+    }).id('forge_frontier:compacting/netherite_ingot')
 
     // Netherite-Iron Ingot Mold Recipe
     event.custom({
-        type: 'create:mixing',
+        type: 'create:compacting',
         ingredients: [
             {
                 fluid: 'forge_frontier:molten_netherite_iron',
@@ -123,11 +123,11 @@ ServerEvents.recipes(event => {
             }
         ],
         heatRequirement: 'superheated'
-    }).id('forge_frontier:mixing/netherite_iron_ingot')
+    }).id('forge_frontier:compacting/netherite_iron_ingot')
 
     // Netherite-Gold Ingot Mold Recipe
     event.custom({
-        type: 'create:mixing',
+        type: 'create:compacting',
         ingredients: [
             {
                 fluid: 'forge_frontier:molten_netherite_gold',
@@ -148,11 +148,11 @@ ServerEvents.recipes(event => {
             }
         ],
         heatRequirement: 'superheated'
-    }).id('forge_frontier:mixing/netherite_gold_ingot')
+    }).id('forge_frontier:compacting/netherite_gold_ingot')
 
     // Netherite-Emerald Ingot Mold Recipe
     event.custom({
-        type: 'create:mixing',
+        type: 'create:compacting',
         ingredients: [
             {
                 fluid: 'forge_frontier:molten_netherite_emerald',
@@ -173,11 +173,11 @@ ServerEvents.recipes(event => {
             }
         ],
         heatRequirement: 'superheated'
-    }).id('forge_frontier:mixing/netherite_emerald_ingot')
+    }).id('forge_frontier:compacting/netherite_emerald_ingot')
 
     // Netherite-Diamond Ingot Mold Recipe
     event.custom({
-        type: 'create:mixing',
+        type: 'create:compacting',
         ingredients: [
             {
                 fluid: 'forge_frontier:molten_netherite_diamond',
@@ -198,11 +198,11 @@ ServerEvents.recipes(event => {
             }
         ],
         heatRequirement: 'superheated'
-    }).id('forge_frontier:mixing/netherite_diamond_ingot')
+    }).id('forge_frontier:compacting/netherite_diamond_ingot')
 
     // Steel Ingot Mold Recipe
     event.custom({
-        type: 'create:mixing',
+        type: 'create:compacting',
         ingredients: [
             {
                 fluid: 'forge_frontier:molten_steel',
@@ -223,11 +223,11 @@ ServerEvents.recipes(event => {
             }
         ],
         heatRequirement: 'superheated'
-    }).id('forge_frontier:mixing/steel_ingot')
+    }).id('forge_frontier:compacting/steel_ingot')
 
     // Bronze Ingot Mold Recipe
     event.custom({
-        type: 'create:mixing',
+        type: 'create:compacting',
         ingredients: [
             {
                 fluid: 'forge_frontier:molten_bronze',
@@ -248,11 +248,11 @@ ServerEvents.recipes(event => {
             }
         ],
         heatRequirement: 'superheated'
-    }).id('forge_frontier:mixing/bronze_ingot')
+    }).id('forge_frontier:compacting/bronze_ingot')
 
     // Tin Ingot Mold Recipe
     event.custom({
-        type: 'create:mixing',
+        type: 'create:compacting',
         ingredients: [
             {
                 fluid: 'forge_frontier:molten_tin',
@@ -273,11 +273,11 @@ ServerEvents.recipes(event => {
             }
         ],
         heatRequirement: 'superheated'
-    }).id('forge_frontier:mixing/tin_ingot')
+    }).id('forge_frontier:compacting/tin_ingot')
 
     // Zinc Ingot Mold Recipe
     event.custom({
-        type: 'create:mixing',
+        type: 'create:compacting',
         ingredients: [
             {
                 fluid: 'forge_frontier:molten_zinc',
@@ -298,11 +298,11 @@ ServerEvents.recipes(event => {
             }
         ],
         heatRequirement: 'superheated'
-    }).id('forge_frontier:mixing/zinc_ingot')
+    }).id('forge_frontier:compacting/zinc_ingot')
 
     // Brass Ingot Mold Recipe
     event.custom({
-        type: 'create:mixing',
+        type: 'create:compacting',
         ingredients: [
             {
                 fluid: 'forge_frontier:molten_brass',
@@ -323,11 +323,11 @@ ServerEvents.recipes(event => {
             }
         ],
         heatRequirement: 'superheated'
-    }).id('forge_frontier:mixing/brass_ingot')
+    }).id('forge_frontier:compacting/brass_ingot')
 
     // Ice Shard Mold Recipe
     event.custom({
-        type: 'create:mixing',
+        type: 'create:compacting',
         ingredients: [
             {
                 fluid: 'forge_frontier:molten_ice_shard',
@@ -348,11 +348,11 @@ ServerEvents.recipes(event => {
             }
         ],
         heatRequirement: 'superheated'
-    }).id('forge_frontier:mixing/ice_shard')
+    }).id('forge_frontier:compacting/ice_shard')
 
     // Uranium Mold Recipe
     event.custom({
-        type: 'create:mixing',
+        type: 'create:compacting',
         ingredients: [
             {
                 fluid: 'forge_frontier:molten_uranium',
@@ -373,11 +373,11 @@ ServerEvents.recipes(event => {
             }
         ],
         heatRequirement: 'superheated'
-    }).id('forge_frontier:mixing/uranium')
+    }).id('forge_frontier:compacting/uranium')
 
     // Bismuth Ingot Mold Recipe
     event.custom({
-        type: 'create:mixing',
+        type: 'create:compacting',
         ingredients: [
             {
                 fluid: 'forge_frontier:molten_bismuth',
@@ -398,11 +398,11 @@ ServerEvents.recipes(event => {
             }
         ],
         heatRequirement: 'superheated'
-    }).id('forge_frontier:mixing/bismuth_ingot')
+    }).id('forge_frontier:compacting/bismuth_ingot')
 
     // Irradium Bar Mold Recipe
     event.custom({
-        type: 'create:mixing',
+        type: 'create:compacting',
         ingredients: [
             {
                 fluid: 'forge_frontier:molten_irradium',
@@ -423,11 +423,11 @@ ServerEvents.recipes(event => {
             }
         ],
         heatRequirement: 'superheated'
-    }).id('forge_frontier:mixing/irradium_bar')
+    }).id('forge_frontier:compacting/irradium_bar')
 
     // Malachite Mold Recipe
     event.custom({
-        type: 'create:mixing',
+        type: 'create:compacting',
         ingredients: [
             {
                 fluid: 'forge_frontier:molten_malachite',
@@ -448,11 +448,11 @@ ServerEvents.recipes(event => {
             }
         ],
         heatRequirement: 'superheated'
-    }).id('forge_frontier:mixing/malachite')
+    }).id('forge_frontier:compacting/malachite')
 
     // Desh Ingot Mold Recipe
     event.custom({
-        type: 'create:mixing',
+        type: 'create:compacting',
         ingredients: [
             {
                 fluid: 'forge_frontier:molten_desh',
@@ -473,11 +473,11 @@ ServerEvents.recipes(event => {
             }
         ],
         heatRequirement: 'superheated'
-    }).id('forge_frontier:mixing/desh_ingot')
+    }).id('forge_frontier:compacting/desh_ingot')
 
     // Ostrum Ingot Mold Recipe
     event.custom({
-        type: 'create:mixing',
+        type: 'create:compacting',
         ingredients: [
             {
                 fluid: 'forge_frontier:molten_ostrum',
@@ -498,11 +498,11 @@ ServerEvents.recipes(event => {
             }
         ],
         heatRequirement: 'superheated'
-    }).id('forge_frontier:mixing/ostrum_ingot')
+    }).id('forge_frontier:compacting/ostrum_ingot')
 
     // Calorite Ingot Mold Recipe
     event.custom({
-        type: 'create:mixing',
+        type: 'create:compacting',
         ingredients: [
             {
                 fluid: 'forge_frontier:molten_calorite',
@@ -523,6 +523,6 @@ ServerEvents.recipes(event => {
             }
         ],
         heatRequirement: 'superheated'
-    }).id('forge_frontier:mixing/calorite_ingot')
+    }).id('forge_frontier:compacting/calorite_ingot')
 
 })

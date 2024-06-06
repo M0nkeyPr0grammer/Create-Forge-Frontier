@@ -158,7 +158,7 @@ ServerEvents.recipes(event => {
 
     // Skeleton Skull Recipe
 	event.custom({
-		type: 'create:mixing',
+		type: 'create:compacting',
 		ingredients: [
 			{
 				fluid: 'forge_frontier:molten_bone_marrow',
@@ -179,11 +179,11 @@ ServerEvents.recipes(event => {
             }
 		],
         heatRequirement: 'superheated'
-	}).id('forge_frontier:mixing/skeleton_skull')
+	}).id('forge_frontier:compacting/skeleton_skull')
 
     // Wither Skeleton Skull Recipe
 	event.custom({
-		type: 'create:mixing',
+		type: 'create:compacting',
 		ingredients: [
 			{
 				fluid: 'forge_frontier:molten_bone_marrow',
@@ -212,11 +212,11 @@ ServerEvents.recipes(event => {
             }
 		],
         heatRequirement: 'superheated'
-	}).id('forge_frontier:mixing/wither_skeleton_skull')
+	}).id('forge_frontier:compacting/wither_skeleton_skull')
 
     // Dragon Head Recipe
 	event.custom({
-		type: 'create:mixing',
+		type: 'create:compacting',
 		ingredients: [
 			{
 				fluid: 'forge_frontier:liquid_dragons_breath',
@@ -241,5 +241,5 @@ ServerEvents.recipes(event => {
             }
 		],
         heatRequirement: 'superheated'
-	}).id('forge_frontier:mixing/dragon_head')
+	}).id('forge_frontier:compacting/dragon_head')
 })

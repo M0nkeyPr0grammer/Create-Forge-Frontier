@@ -2,7 +2,7 @@ ServerEvents.recipes(event => {
 
 // Charcoal Mold Recipe
 event.custom({
-    type: 'create:mixing',
+    type: 'create:compacting',
     ingredients: [
         {
             fluid: 'forge_frontier:molten_carbon',
@@ -27,11 +27,11 @@ event.custom({
         }
     ],
     heatRequirement: 'superheated'
-}).id('forge_frontier:mixing/charcoal')
+}).id('forge_frontier:compacting/charcoal')
 
 // Coal Mold Recipe
 event.custom({
-    type: 'create:mixing',
+    type: 'create:compacting',
     ingredients: [
         {
             fluid: 'forge_frontier:molten_carbon',
@@ -52,6 +52,6 @@ event.custom({
         }
     ],
     heatRequirement: 'superheated'
-}).id('forge_frontier:mixing/coal')
+}).id('forge_frontier:compacting/coal')
 
 })

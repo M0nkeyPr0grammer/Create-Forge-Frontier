@@ -2,7 +2,7 @@ ServerEvents.recipes(event => {
 
 // Emerald Mold Recipe
 event.custom({
-    type: 'create:mixing',
+    type: 'create:compacting',
     ingredients: [
         {
             fluid: 'forge_frontier:molten_emerald',
@@ -23,11 +23,11 @@ event.custom({
         }
     ],
     heatRequirement: 'superheated'
-}).id('forge_frontier:mixing/emerald')
+}).id('forge_frontier:compacting/emerald')
 
 // Lapis Mold Recipe
 event.custom({
-    type: 'create:mixing',
+    type: 'create:compacting',
     ingredients: [
         {
             fluid: 'forge_frontier:molten_lapis',
@@ -48,11 +48,11 @@ event.custom({
         }
     ],
     heatRequirement: 'superheated'
-}).id('forge_frontier:mixing/lapis')
+}).id('forge_frontier:compacting/lapis')
 
 // Diamond Mold Recipe
 event.custom({
-    type: 'create:mixing',
+    type: 'create:compacting',
     ingredients: [
         {
             fluid: 'forge_frontier:molten_diamond',
@@ -73,11 +73,11 @@ event.custom({
         }
     ],
     heatRequirement: 'superheated'
-}).id('forge_frontier:mixing/diamond')
+}).id('forge_frontier:compacting/diamond')
 
 // Quartz Mold Recipe
 event.custom({
-    type: 'create:mixing',
+    type: 'create:compacting',
     ingredients: [
         {
             fluid: 'forge_frontier:molten_quartz',
@@ -98,11 +98,11 @@ event.custom({
         }
     ],
     heatRequirement: 'superheated'
-}).id('forge_frontier:mixing/quartz')
+}).id('forge_frontier:compacting/quartz')
 
 // Redstone Mold Recipe
 event.custom({
-    type: 'create:mixing',
+    type: 'create:compacting',
     ingredients: [
         {
             fluid: 'forge_frontier:molten_redstone',
@@ -123,11 +123,11 @@ event.custom({
         }
     ],
     heatRequirement: 'superheated'
-}).id('forge_frontier:mixing/redstone')
+}).id('forge_frontier:compacting/redstone')
 
 // Netherite Scrap Mold Recipe
 event.custom({
-    type: 'create:mixing',
+    type: 'create:compacting',
     ingredients: [
         {
             fluid: 'forge_frontier:molten_ancient_debris',
@@ -148,6 +148,6 @@ event.custom({
         }
     ],
     heatRequirement: 'superheated'
-}).id('forge_frontier:mixing/netherite_scrap')
+}).id('forge_frontier:compacting/netherite_scrap')
 
 })
