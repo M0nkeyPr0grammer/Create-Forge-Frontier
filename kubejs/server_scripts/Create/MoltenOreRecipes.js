@@ -1068,7 +1068,7 @@ ServerEvents.recipes(event => {
                 }
             ],
             heatRequirement: "superheated"
-        }).id('forge_frontier:mixing/bismuth_ingot');
+        }).id('forge_frontier:mixing/bismuth_ingot_molten');
 
         // Raw Bismuth to Molten Mixing Recipe
         event.custom({
@@ -1509,7 +1509,7 @@ ServerEvents.recipes(event => {
                 }
             ],
             heatRequirement: "superheated"
-        }).id('forge_frontier:mixing/ice_shard');
+        }).id('forge_frontier:mixing/ice_shard_molten');
 
         // Ice Shard Ore to Molten Mixing Recipe
         event.custom({
