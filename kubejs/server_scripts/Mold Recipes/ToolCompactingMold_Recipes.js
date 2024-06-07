@@ -88,6 +88,93 @@ ServerEvents.recipes(event => {
             heatRequirement: 'superheated'
         }).id('forge_frontier:compacting/diamond_sword')
 
+        // Copper
+        event.custom({
+            type: 'create:compacting',
+            ingredients: [
+                {
+                    fluid: 'forge_frontier:molten_copper',
+                    amount: 100
+                },
+                {
+                    item: 'forge_frontier:sword_mold',
+                    count: 1
+                },
+                {
+                    item: 'minecraft:stick',
+                    count: 1
+                }
+            ],
+            results: [
+                {
+                    item: 'create_sa:copper_sword',
+                    count: 1
+                },
+                {
+                    item: 'forge_frontier:sword_mold'
+                }
+            ],
+            heatRequirement: 'superheated'
+        }).id('forge_frontier:compacting/copper_sword')
+
+        // Zinc
+        event.custom({
+            type: 'create:compacting',
+            ingredients: [
+                {
+                    fluid: 'forge_frontier:molten_zinc',
+                    amount: 100
+                },
+                {
+                    item: 'forge_frontier:sword_mold',
+                    count: 1
+                },
+                {
+                    item: 'minecraft:stick',
+                    count: 1
+                }
+            ],
+            results: [
+                {
+                    item: 'create_sa:zinc_sword',
+                    count: 1
+                },
+                {
+                    item: 'forge_frontier:sword_mold'
+                }
+            ],
+            heatRequirement: 'superheated'
+        }).id('forge_frontier:compacting/zinc_sword')
+
+        // Brass
+        event.custom({
+            type: 'create:compacting',
+            ingredients: [
+                {
+                    fluid: 'forge_frontier:molten_brass',
+                    amount: 100
+                },
+                {
+                    item: 'forge_frontier:sword_mold',
+                    count: 1
+                },
+                {
+                    item: 'minecraft:stick',
+                    count: 1
+                }
+            ],
+            results: [
+                {
+                    item: 'create_sa:brass_sword',
+                    count: 1
+                },
+                {
+                    item: 'forge_frontier:sword_mold'
+                }
+            ],
+            heatRequirement: 'superheated'
+        }).id('forge_frontier:compacting/brass_sword')
+
         // Netherite
         event.custom({
             type: 'create:compacting',
@@ -320,6 +407,93 @@ ServerEvents.recipes(event => {
             ],
             heatRequirement: 'superheated'
         }).id('forge_frontier:compacting/diamond_axe')
+
+        // Copper
+        event.custom({
+            type: 'create:compacting',
+            ingredients: [
+                {
+                    fluid: 'forge_frontier:molten_copper',
+                    amount: 150
+                },
+                {
+                    item: 'forge_frontier:axe_mold',
+                    count: 1
+                },
+                {
+                    item: 'minecraft:stick',
+                    count: 1
+                }
+            ],
+            results: [
+                {
+                    item: 'create_sa:copper_axe',
+                    count: 1
+                },
+                {
+                    item: 'forge_frontier:axe_mold'
+                }
+            ],
+            heatRequirement: 'superheated'
+        }).id('forge_frontier:compacting/copper_axe')
+
+        // Zinc
+        event.custom({
+            type: 'create:compacting',
+            ingredients: [
+                {
+                    fluid: 'forge_frontier:molten_zinc',
+                    amount: 150
+                },
+                {
+                    item: 'forge_frontier:axe_mold',
+                    count: 1
+                },
+                {
+                    item: 'minecraft:stick',
+                    count: 1
+                }
+            ],
+            results: [
+                {
+                    item: 'create_sa:zinc_axe',
+                    count: 1
+                },
+                {
+                    item: 'forge_frontier:axe_mold'
+                }
+            ],
+            heatRequirement: 'superheated'
+        }).id('forge_frontier:compacting/zinc_axe')
+
+        // Brass
+        event.custom({
+            type: 'create:compacting',
+            ingredients: [
+                {
+                    fluid: 'forge_frontier:molten_brass',
+                    amount: 150
+                },
+                {
+                    item: 'forge_frontier:axe_mold',
+                    count: 1
+                },
+                {
+                    item: 'minecraft:stick',
+                    count: 1
+                }
+            ],
+            results: [
+                {
+                    item: 'create_sa:brass_axe',
+                    count: 1
+                },
+                {
+                    item: 'forge_frontier:axe_mold'
+                }
+            ],
+            heatRequirement: 'superheated'
+        }).id('forge_frontier:compacting/brass_axe')
 
         // Netherite
         event.custom({
@@ -554,6 +728,93 @@ ServerEvents.recipes(event => {
             heatRequirement: 'superheated'
         }).id('forge_frontier:compacting/diamond_pickaxe')
 
+        // Copper
+        event.custom({
+            type: 'create:compacting',
+            ingredients: [
+                {
+                    fluid: 'forge_frontier:molten_copper',
+                    amount: 150
+                },
+                {
+                    item: 'forge_frontier:pickaxe_mold',
+                    count: 1
+                },
+                {
+                    item: 'minecraft:stick',
+                    count: 1
+                }
+            ],
+            results: [
+                {
+                    item: 'create_sa:copper_pickaxe',
+                    count: 1
+                },
+                {
+                    item: 'forge_frontier:pickaxe_mold'
+                }
+            ],
+            heatRequirement: 'superheated'
+        }).id('forge_frontier:compacting/copper_pickaxe')
+
+        // Zinc
+        event.custom({
+            type: 'create:compacting',
+            ingredients: [
+                {
+                    fluid: 'forge_frontier:molten_zinc',
+                    amount: 150
+                },
+                {
+                    item: 'forge_frontier:pickaxe_mold',
+                    count: 1
+                },
+                {
+                    item: 'minecraft:stick',
+                    count: 1
+                }
+            ],
+            results: [
+                {
+                    item: 'create_sa:zinc_pickaxe',
+                    count: 1
+                },
+                {
+                    item: 'forge_frontier:pickaxe_mold'
+                }
+            ],
+            heatRequirement: 'superheated'
+        }).id('forge_frontier:compacting/zinc_pickaxe')
+
+        // Brass
+        event.custom({
+            type: 'create:compacting',
+            ingredients: [
+                {
+                    fluid: 'forge_frontier:molten_brass',
+                    amount: 150
+                },
+                {
+                    item: 'forge_frontier:pickaxe_mold',
+                    count: 1
+                },
+                {
+                    item: 'minecraft:stick',
+                    count: 1
+                }
+            ],
+            results: [
+                {
+                    item: 'create_sa:brass_pickaxe',
+                    count: 1
+                },
+                {
+                    item: 'forge_frontier:pickaxe_mold'
+                }
+            ],
+            heatRequirement: 'superheated'
+        }).id('forge_frontier:compacting/brass_pickaxe')
+
         // Netherite
         event.custom({
             type: 'create:compacting',
@@ -787,6 +1048,93 @@ ServerEvents.recipes(event => {
             heatRequirement: 'superheated'
         }).id('forge_frontier:compacting/diamond_shovel')
 
+        // Copper
+        event.custom({
+            type: 'create:compacting',
+            ingredients: [
+                {
+                    fluid: 'forge_frontier:molten_copper',
+                    amount: 50
+                },
+                {
+                    item: 'forge_frontier:shovel_mold',
+                    count: 1
+                },
+                {
+                    item: 'minecraft:stick',
+                    count: 1
+                }
+            ],
+            results: [
+                {
+                    item: 'create_sa:copper_shovel',
+                    count: 1
+                },
+                {
+                    item: 'forge_frontier:shovel_mold'
+                }
+            ],
+            heatRequirement: 'superheated'
+        }).id('forge_frontier:compacting/copper_shovel')
+
+        // Zinc
+        event.custom({
+            type: 'create:compacting',
+            ingredients: [
+                {
+                    fluid: 'forge_frontier:molten_zinc',
+                    amount: 50
+                },
+                {
+                    item: 'forge_frontier:shovel_mold',
+                    count: 1
+                },
+                {
+                    item: 'minecraft:stick',
+                    count: 1
+                }
+            ],
+            results: [
+                {
+                    item: 'create_sa:zinc_shovel',
+                    count: 1
+                },
+                {
+                    item: 'forge_frontier:shovel_mold'
+                }
+            ],
+            heatRequirement: 'superheated'
+        }).id('forge_frontier:compacting/zinc_shovel')
+
+        // Brass
+        event.custom({
+            type: 'create:compacting',
+            ingredients: [
+                {
+                    fluid: 'forge_frontier:molten_brass',
+                    amount: 50
+                },
+                {
+                    item: 'forge_frontier:shovel_mold',
+                    count: 1
+                },
+                {
+                    item: 'minecraft:stick',
+                    count: 1
+                }
+            ],
+            results: [
+                {
+                    item: 'create_sa:brass_shovel',
+                    count: 1
+                },
+                {
+                    item: 'forge_frontier:shovel_mold'
+                }
+            ],
+            heatRequirement: 'superheated'
+        }).id('forge_frontier:compacting/brass_shovel')
+
         // Netherite
         event.custom({
             type: 'create:compacting',
@@ -1019,6 +1367,93 @@ ServerEvents.recipes(event => {
             ],
             heatRequirement: 'superheated'
         }).id('forge_frontier:compacting/diamond_hoe')
+
+        // Copper
+        event.custom({
+            type: 'create:compacting',
+            ingredients: [
+                {
+                    fluid: 'forge_frontier:molten_copper',
+                    amount: 100
+                },
+                {
+                    item: 'forge_frontier:hoe_mold',
+                    count: 1
+                },
+                {
+                    item: 'minecraft:stick',
+                    count: 1
+                }
+            ],
+            results: [
+                {
+                    item: 'create_sa:copper_hoe',
+                    count: 1
+                },
+                {
+                    item: 'forge_frontier:hoe_mold'
+                }
+            ],
+            heatRequirement: 'superheated'
+        }).id('forge_frontier:compacting/copper_hoe')
+
+        // Zinc
+        event.custom({
+            type: 'create:compacting',
+            ingredients: [
+                {
+                    fluid: 'forge_frontier:molten_zinc',
+                    amount: 100
+                },
+                {
+                    item: 'forge_frontier:hoe_mold',
+                    count: 1
+                },
+                {
+                    item: 'minecraft:stick',
+                    count: 1
+                }
+            ],
+            results: [
+                {
+                    item: 'create_sa:zinc_hoe',
+                    count: 1
+                },
+                {
+                    item: 'forge_frontier:hoe_mold'
+                }
+            ],
+            heatRequirement: 'superheated'
+        }).id('forge_frontier:compacting/zinc_hoe')
+
+        // Brass
+        event.custom({
+            type: 'create:compacting',
+            ingredients: [
+                {
+                    fluid: 'forge_frontier:molten_brass',
+                    amount: 100
+                },
+                {
+                    item: 'forge_frontier:hoe_mold',
+                    count: 1
+                },
+                {
+                    item: 'minecraft:stick',
+                    count: 1
+                }
+            ],
+            results: [
+                {
+                    item: 'create_sa:brass_hoe',
+                    count: 1
+                },
+                {
+                    item: 'forge_frontier:hoe_mold'
+                }
+            ],
+            heatRequirement: 'superheated'
+        }).id('forge_frontier:compacting/brass_hoe')
 
         // Netherite
         event.custom({
