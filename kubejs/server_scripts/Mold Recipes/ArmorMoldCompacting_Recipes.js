@@ -77,6 +77,81 @@ ServerEvents.recipes(event => {
             heatRequirement: 'superheated'
         }).id('forge_frontier:compacting/diamond_helmet')
 
+        // Copper
+        event.custom({
+            type: 'create:compacting',
+            ingredients: [
+                {
+                    fluid: 'forge_frontier:molten_copper',
+                    amount: 250
+                },
+                {
+                    item: 'forge_frontier:helmet_mold',
+                    count: 1
+                }
+            ],
+            results: [
+                {
+                    item: 'create_sa:copper_helmet',
+                    count: 1
+                },
+                {
+                    item: 'forge_frontier:helmet_mold'
+                }
+            ],
+            heatRequirement: 'superheated'
+        }).id('forge_frontier:compacting/copper_helmet')
+
+        // Zinc
+        event.custom({
+            type: 'create:compacting',
+            ingredients: [
+                {
+                    fluid: 'forge_frontier:molten_zinc',
+                    amount: 250
+                },
+                {
+                    item: 'forge_frontier:helmet_mold',
+                    count: 1
+                }
+            ],
+            results: [
+                {
+                    item: 'create_sa:zinc_helmet',
+                    count: 1
+                },
+                {
+                    item: 'forge_frontier:helmet_mold'
+                }
+            ],
+            heatRequirement: 'superheated'
+        }).id('forge_frontier:compacting/zinc_helmet')
+
+        // Brass
+        event.custom({
+            type: 'create:compacting',
+            ingredients: [
+                {
+                    fluid: 'forge_frontier:molten_brass',
+                    amount: 250
+                },
+                {
+                    item: 'forge_frontier:helmet_mold',
+                    count: 1
+                }
+            ],
+            results: [
+                {
+                    item: 'create_sa:brass_helmet',
+                    count: 1
+                },
+                {
+                    item: 'forge_frontier:helmet_mold'
+                }
+            ],
+            heatRequirement: 'superheated'
+        }).id('forge_frontier:compacting/brass_helmet')
+
         // Netherite
         event.custom({
             type: 'create:compacting',
@@ -280,6 +355,81 @@ ServerEvents.recipes(event => {
             heatRequirement: 'superheated'
         }).id('forge_frontier:compacting/diamond_chestplate')
 
+        // Copper
+        event.custom({
+            type: 'create:compacting',
+            ingredients: [
+                {
+                    fluid: 'forge_frontier:molten_copper',
+                    amount: 400
+                },
+                {
+                    item: 'forge_frontier:chestplate_mold',
+                    count: 1
+                }
+            ],
+            results: [
+                {
+                    item: 'create_sa:copper_chestplate',
+                    count: 1
+                },
+                {
+                    item: 'forge_frontier:chestplate_mold'
+                }
+            ],
+            heatRequirement: 'superheated'
+        }).id('forge_frontier:compacting/copper_chestplate')
+
+        // Zinc
+        event.custom({
+            type: 'create:compacting',
+            ingredients: [
+                {
+                    fluid: 'forge_frontier:molten_zinc',
+                    amount: 400
+                },
+                {
+                    item: 'forge_frontier:chestplate_mold',
+                    count: 1
+                }
+            ],
+            results: [
+                {
+                    item: 'create_sa:zinc_chestplate',
+                    count: 1
+                },
+                {
+                    item: 'forge_frontier:chestplate_mold'
+                }
+            ],
+            heatRequirement: 'superheated'
+        }).id('forge_frontier:compacting/zinc_chestplate')
+
+        // Brass
+        event.custom({
+            type: 'create:compacting',
+            ingredients: [
+                {
+                    fluid: 'forge_frontier:molten_brass',
+                    amount: 400
+                },
+                {
+                    item: 'forge_frontier:chestplate_mold',
+                    count: 1
+                }
+            ],
+            results: [
+                {
+                    item: 'create_sa:brass_chestplate',
+                    count: 1
+                },
+                {
+                    item: 'forge_frontier:chestplate_mold'
+                }
+            ],
+            heatRequirement: 'superheated'
+        }).id('forge_frontier:compacting/brass_chestplate')
+
         // Netherite
         event.custom({
             type: 'create:compacting',
@@ -482,6 +632,81 @@ ServerEvents.recipes(event => {
             heatRequirement: 'superheated'
         }).id('forge_frontier:compacting/diamond_leggings')
 
+        // Copper
+        event.custom({
+            type: 'create:compacting',
+            ingredients: [
+                {
+                    fluid: 'forge_frontier:molten_copper',
+                    amount: 350
+                },
+                {
+                    item: 'forge_frontier:leggings_mold',
+                    count: 1
+                }
+            ],
+            results: [
+                {
+                    item: 'create_sa:copper_leggings',
+                    count: 1
+                },
+                {
+                    item: 'forge_frontier:leggings_mold'
+                }
+            ],
+            heatRequirement: 'superheated'
+        }).id('forge_frontier:compacting/copper_leggings')
+
+        // Zinc
+        event.custom({
+            type: 'create:compacting',
+            ingredients: [
+                {
+                    fluid: 'forge_frontier:molten_zinc',
+                    amount: 350
+                },
+                {
+                    item: 'forge_frontier:leggings_mold',
+                    count: 1
+                }
+            ],
+            results: [
+                {
+                    item: 'create_sa:zinc_leggings',
+                    count: 1
+                },
+                {
+                    item: 'forge_frontier:leggings_mold'
+                }
+            ],
+            heatRequirement: 'superheated'
+        }).id('forge_frontier:compacting/zinc_leggings')
+
+        // Brass
+        event.custom({
+            type: 'create:compacting',
+            ingredients: [
+                {
+                    fluid: 'forge_frontier:molten_brass',
+                    amount: 350
+                },
+                {
+                    item: 'forge_frontier:leggings_mold',
+                    count: 1
+                }
+            ],
+            results: [
+                {
+                    item: 'create_sa:brass_leggings',
+                    count: 1
+                },
+                {
+                    item: 'forge_frontier:leggings_mold'
+                }
+            ],
+            heatRequirement: 'superheated'
+        }).id('forge_frontier:compacting/brass_leggings')
+
         // Netherite
         event.custom({
             type: 'create:compacting',
@@ -683,6 +908,81 @@ ServerEvents.recipes(event => {
             ],
             heatRequirement: 'superheated'
         }).id('forge_frontier:compacting/diamond_boots')
+
+        // Copper
+        event.custom({
+            type: 'create:compacting',
+            ingredients: [
+                {
+                    fluid: 'forge_frontier:molten_copper',
+                    amount: 200
+                },
+                {
+                    item: 'forge_frontier:boots_mold',
+                    count: 1
+                }
+            ],
+            results: [
+                {
+                    item: 'create_sa:copper_boots',
+                    count: 1
+                },
+                {
+                    item: 'forge_frontier:boots_mold'
+                }
+            ],
+            heatRequirement: 'superheated'
+        }).id('forge_frontier:compacting/copper_boots')
+
+        // Zinc
+        event.custom({
+            type: 'create:compacting',
+            ingredients: [
+                {
+                    fluid: 'forge_frontier:molten_zinc',
+                    amount: 200
+                },
+                {
+                    item: 'forge_frontier:boots_mold',
+                    count: 1
+                }
+            ],
+            results: [
+                {
+                    item: 'create_sa:zinc_boots',
+                    count: 1
+                },
+                {
+                    item: 'forge_frontier:boots_mold'
+                }
+            ],
+            heatRequirement: 'superheated'
+        }).id('forge_frontier:compacting/zinc_boots')
+
+        // Brass
+        event.custom({
+            type: 'create:compacting',
+            ingredients: [
+                {
+                    fluid: 'forge_frontier:molten_brass',
+                    amount: 200
+                },
+                {
+                    item: 'forge_frontier:boots_mold',
+                    count: 1
+                }
+            ],
+            results: [
+                {
+                    item: 'create_sa:brass_boots',
+                    count: 1
+                },
+                {
+                    item: 'forge_frontier:boots_mold'
+                }
+            ],
+            heatRequirement: 'superheated'
+        }).id('forge_frontier:compacting/brass_boots')
 
         // Netherite
         event.custom({
