@@ -216,11 +216,11 @@ ServerEvents.recipes(event => {
             results: [
                 {
                     fluid: 'forge_frontier:molten_iron',
-                    amount: 1000
+                    amount: 600
                 },
                 {
                     fluid: 'minecraft:lava',
-                    amount: 100
+                    amount: 60
                 }
             ],
             heatRequirement: "superheated"
@@ -264,65 +264,533 @@ ServerEvents.recipes(event => {
 
     // Molten Gold
         // Crushed Raw to Molten
+        event.custom({
+            type: "create:mixing",
+            ingredients: [
+                {
+                    item: 'create:crushed_raw_gold',
+                    amount: 1
+                }
+            ],
+            results: [
+                {
+                    fluid: 'forge_frontier:molten_gold',
+                    amount: 200
+                }
+            ],
+            heatRequirement: "superheated"
+        }).id('forge_frontier:mixing/crushed_raw_gold_molten');
 
         // Block Raw to Molten
+        event.custom({
+            type: "create:mixing",
+            ingredients: [
+                {
+                    item: 'minecraft:raw_gold_block',
+                    amount: 1
+                }
+            ],
+            results: [
+                {
+                    fluid: 'forge_frontier:molten_gold',
+                    amount: 1800
+                }
+            ],
+            heatRequirement: "superheated"
+        }).id('forge_frontier:mixing/block_raw_gold_molten');
 
         // Crushed Pile to Molten
+        event.custom({
+            type: "create:mixing",
+            ingredients: [
+                {
+                    item: 'create_compressed:crushed_gold_pile',
+                    amount: 1
+                }
+            ],
+            results: [
+                {
+                    fluid: 'forge_frontier:molten_gold',
+                    amount: 1800
+                }
+            ],
+            heatRequirement: "superheated"
+        }).id('forge_frontier:mixing/crushed_gold_pile_molten');
 
         // Raw to Molten
+        event.custom({
+            type: "create:mixing",
+            ingredients: [
+                {
+                    item: 'minecraft:raw_gold',
+                    amount: 1
+                }
+            ],
+            results: [
+                {
+                    fluid: 'forge_frontier:molten_gold',
+                    amount: 200
+                }
+            ],
+            heatRequirement: "superheated"
+        }).id('forge_frontier:mixing/raw_gold_molten');
 
         // Ore to Molten
+        event.custom({
+            type: "create:mixing",
+            ingredients: [
+                {
+                    tag: 'forge:ores/gold',
+                    amount: 1
+                }
+            ],
+            results: [
+                {
+                    fluid: 'forge_frontier:molten_gold',
+                    amount: 600
+                },
+                {
+                    fluid: 'minecraft:lava',
+                    amount: 60
+                }
+            ],
+            heatRequirement: "superheated"
+        }).id('forge_frontier:mixing/gold_ore_molten');
 
         // Ingot to Molten
+        event.custom({
+            type: "create:mixing",
+            ingredients: [
+                {
+                    item: 'minecraft:gold_ingot',
+                    amount: 1
+                }
+            ],
+            results: [
+                {
+                    fluid: 'forge_frontier:molten_gold',
+                    amount: 100
+                }
+            ],
+            heatRequirement: "superheated"
+        }).id('forge_frontier:mixing/gold_ingot_molten');
  
         // Block to Molten
+        event.custom({
+            type: "create:mixing",
+            ingredients: [
+                {
+                    item: 'minecraft:gold_block',
+                    amount: 1
+                }
+            ],
+            results: [
+                {
+                    fluid: 'forge_frontier:molten_gold',
+                    amount: 900
+                }
+            ],
+            heatRequirement: "superheated"
+        }).id('forge_frontier:mixing/gold_block_molten');
 
     // Molten Carbon
         // Charcoal to Molten
+        event.custom({
+            type: "create:mixing",
+            ingredients: [
+                {
+                    item: 'minecraft:charcoal',
+                    amount: 1
+                }
+            ],
+            results: [
+                {
+                    fluid: 'forge_frontier:molten_carbon',
+                    amount: 100
+                }
+            ],
+            heatRequirement: "superheated"
+        }).id('forge_frontier:mixing/charcoal_molten');
 
         // Charcoal Block to Molten
+        event.custom({
+            type: "create:mixing",
+            ingredients: [
+                {
+                    item: 'quark:charcoal_block',
+                    amount: 1
+                }
+            ],
+            results: [
+                {
+                    fluid: 'forge_frontier:molten_carbon',
+                    amount: 900
+                }
+            ],
+            heatRequirement: "superheated"
+        }).id('forge_frontier:mixing/charcoal_block_molten');
 
         // Ore to Molten
+        event.custom({
+            type: "create:mixing",
+            ingredients: [
+                {
+                    tag: 'forge:ores/coal',
+                    amount: 1
+                }
+            ],
+            results: [
+                {
+                    fluid: 'forge_frontier:molten_carbon',
+                    amount: 300
+                },
+                {
+                    fluid: 'minecraft:lava',
+                    amount: 30
+                }
+            ],
+            heatRequirement: "superheated"
+        }).id('forge_frontier:mixing/coal_ore_molten');
  
         // Block to Molten
+        event.custom({
+            type: "create:mixing",
+            ingredients: [
+                {
+                    item: 'minecraft:coal_block',
+                    amount: 1
+                }
+            ],
+            results: [
+                {
+                    fluid: 'forge_frontier:molten_carbon',
+                    amount: 900
+                }
+            ],
+            heatRequirement: "superheated"
+        }).id('forge_frontier:mixing/coal_block_molten');
 
         // Coal to Molten
+        event.custom({
+            type: "create:mixing",
+            ingredients: [
+                {
+                    item: 'minecraft:coal',
+                    amount: 1
+                }
+            ],
+            results: [
+                {
+                    fluid: 'forge_frontier:molten_carbon',
+                    amount: 100
+                }
+            ],
+            heatRequirement: "superheated"
+        }).id('forge_frontier:mixing/coal_molten');
 
     // Molten Diamond
         // Ingot to Molten
+        event.custom({
+            type: "create:mixing",
+            ingredients: [
+                {
+                    item: 'minecraft:diamond',
+                    amount: 1
+                }
+            ],
+            results: [
+                {
+                    fluid: 'forge_frontier:molten_diamond',
+                    amount: 100
+                }
+            ],
+            heatRequirement: "superheated"
+        }).id('forge_frontier:mixing/diamond_molten');
  
         // Block to Molten
+        event.custom({
+            type: "create:mixing",
+            ingredients: [
+                {
+                    item: 'minecraft:diamond',
+                    amount: 1
+                }
+            ],
+            results: [
+                {
+                    fluid: 'forge_frontier:molten_diamond',
+                    amount: 900
+                }
+            ],
+            heatRequirement: "superheated"
+        }).id('forge_frontier:mixing/diamond_block_molten');
 
         // Ore to Molten
+        event.custom({
+            type: "create:mixing",
+            ingredients: [
+                {
+                    tag: 'forge:ores/diamond',
+                    amount: 1
+                }
+            ],
+            results: [
+                {
+                    fluid: 'forge_frontier:molten_diamond',
+                    amount: 600
+                },
+                {
+                    fluid: 'minecraft:lava',
+                    amount: 60
+                }
+            ],
+            heatRequirement: "superheated"
+        }).id('forge_frontier:mixing/diamond_ore_molten');
 
         // Raw to Molten
+        event.custom({
+            type: "create:mixing",
+            ingredients: [
+                {
+                    item: 'createoreexcavation:raw_diamond',
+                    amount: 1
+                }
+            ],
+            results: [
+                {
+                    fluid: 'forge_frontier:molten_diamond',
+                    amount: 200
+                }
+            ],
+            heatRequirement: "superheated"
+        }).id('forge_frontier:mixing/raw_diamond_molten');
 
         // Grit to Molten
+        event.custom({
+            type: "create:mixing",
+            ingredients: [
+                {
+                    item: 'createaddition:diamond_grit',
+                    amount: 1
+                }
+            ],
+            results: [
+                {
+                    fluid: 'forge_frontier:molten_diamond',
+                    amount: 100
+                }
+            ],
+            heatRequirement: "superheated"
+        }).id('forge_frontier:mixing/diamond_grit_molten');
 
         // Carbon Compacting
+        event.custom({
+            type:"create:compacting",
+            ingredients: [
+                {
+                    fluid: 'forge_frontier:molten_carbon',
+                    amount: 1000
+                }
+            ],
+            results: [
+                {
+                    fluid: 'forge_frontier:molten_diamond',
+                    amount: 100
+                }
+            ],
+            heatRequirement: "superheated"
+        }).id('forge_frontier:compacting/carbon_diamond_molten');
 
     // Molten Zinc
         // Ingot to Molten
+        event.custom({
+            type: "create:mixing",
+            ingredients: [
+                {
+                    item: 'create:zinc_ingot',
+                    amount: 1
+                }
+            ],
+            results: [
+                {
+                    fluid: 'forge_frontier:molten_zinc',
+                    amount: 100
+                }
+            ],
+            heatRequirement: "superheated"
+        }).id('forge_frontier:mixing/zinc_ingot_molten');
 
-        // Crushed to Molten
+        // Crushed Raw to Molten
+        event.custom({
+            type: "create:mixing",
+            ingredients: [
+                {
+                    item: 'create:crushed_raw_zinc',
+                    amount: 1
+                }
+            ],
+            results: [
+                {
+                    fluid: 'forge_frontier:molten_zinc',
+                    amount: 200
+                }
+            ],
+            heatRequirement: "superheated"
+        }).id('forge_frontier:mixing/crushed_raw_zinc_molten');
 
         // Raw to Molten
+        event.custom({
+            type: "create:mixing",
+            ingredients: [
+                {
+                    item: 'create:raw_zinc',
+                    amount: 1
+                }
+            ],
+            results: [
+                {
+                    fluid: 'forge_frontier:molten_zinc',
+                    amount: 200
+                }
+            ],
+            heatRequirement: "superheated"
+        }).id('forge_frontier:mixing/raw_zinc_molten');
 
         // Crushed Pile to Molten
+        event.custom({
+            type: "create:mixing",
+            ingredients: [
+                {
+                    item: 'create_compressed:crushed_zinc_pile',
+                    amount: 1
+                }
+            ],
+            results: [
+                {
+                    fluid: 'forge_frontier:molten_zinc',
+                    amount: 1800
+                }
+            ],
+            heatRequirement: "superheated"
+        }).id('forge_frontier:mixing/crushed_zinc_pile_molten');
 
         // Ore to Molten
+        event.custom({
+            type: "create:mixing",
+            ingredients: [
+                {
+                    tag: 'forge:ores/zinc',
+                    amount: 1
+                }
+            ],
+            results: [
+                {
+                    fluid: 'forge_frontier:molten_zinc',
+                    amount: 800
+                },
+                {
+                    fluid: 'minecraft:lava',
+                    amount: 80
+                }
+            ],
+            heatRequirement: "superheated"
+        }).id('forge_frontier:mixing/zinc_ore_molten');
 
         // Raw Block to Molten
+        event.custom({
+            type: "create:mixing",
+            ingredients: [
+                {
+                    item: 'create:raw_zinc_block',
+                    amount: 1
+                }
+            ],
+            results: [
+                {
+                    fluid: 'forge_frontier:molten_zinc',
+                    amount: 1800
+                }
+            ],
+            heatRequirement: "superheated"
+        }).id('forge_frontier:mixing/block_raw_zinc_molten');
 
         // Block to Molten
+        event.custom({
+            type: "create:mixing",
+            ingredients: [
+                {
+                    item: 'create:zinc_block',
+                    amount: 1
+                }
+            ],
+            results: [
+                {
+                    fluid: 'forge_frontier:molten_zinc',
+                    amount: 900
+                }
+            ],
+            heatRequirement: "superheated"
+        }).id('forge_frontier:mixing/zinc_block_molten');
 
     // Molten Brass
 
         // Ingot to Molten
+        event.custom({
+            type: "create:mixing",
+            ingredients: [
+                {
+                    item: 'create:brass_ingot',
+                    amount: 1
+                }
+            ],
+            results: [
+                {
+                    fluid: 'forge_frontier:molten_brass',
+                    amount: 100
+                }
+            ],
+            heatRequirement: "superheated"
+        }).id('forge_frontier:mixing/brass_ingot_molten');
  
         // Block to Molten
+        event.custom({
+            type: "create:mixing",
+            ingredients: [
+                {
+                    item: 'create:brass_block',
+                    amount: 1
+                }
+            ],
+            results: [
+                {
+                    fluid: 'forge_frontier:molten_brass',
+                    amount: 900
+                }
+            ],
+            heatRequirement: "superheated"
+        }).id('forge_frontier:mixing/brass_block_molten');
 
-        // Zinc, Copper Mixing
+        // Copper, Zinc Mixing
+        event.custom({
+            type: "create:mixing",
+            ingredients: [
+                {
+                    fluid: 'forge_frontier:molten_copper',
+                    amount: 100
+                },
+                {
+                    fluid: 'forge_frontier:molten_zinc',
+                    amount: 100
+                }
+            ],
+            results: [
+                {
+                    fluid: 'forge_frontier:molten_brass',
+                    amount: 400
+                }
+            ],
+            heatRequirement: "superheated"
+        }).id('forge_frontier:mixing/copper_zinc_brass_molten');
 
     // Molten Emerald
 
