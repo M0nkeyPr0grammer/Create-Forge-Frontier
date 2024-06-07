@@ -360,7 +360,7 @@ ServerEvents.recipes(event => {
         ingredients: [
             {
                 fluid: 'forge_frontier:molten_ancient_debris',
-                amount: 100
+                amount: 150
             },
             {
                 item: 'forge_frontier:block_mold',
