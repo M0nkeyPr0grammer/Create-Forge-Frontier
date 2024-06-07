@@ -133,7 +133,7 @@ StartupEvents.registry('fluid',event => {
     // Creates Molten Netherite Iron
     event.create('forge_frontier:molten_netherite_iron')
         .color(0xa6a6a6)
-        .displayName('Molten Netherite Iron')
+        .displayName('Molten Netherite-Iron')
         .bucketColor(0xa6a6a6)
         .thickTexture(0xa6a6a6)
         .viscosity(6000)  
@@ -143,7 +143,7 @@ StartupEvents.registry('fluid',event => {
     // Creates Molten Netherite Gold
     event.create('forge_frontier:molten_netherite_gold')
         .color(0xf9ee3e)
-        .displayName('Netherite Gold')
+        .displayName('Molten Netherite-Gold')
         .bucketColor(0xf9ee3e)
         .thickTexture(0xf9ee3e)
         .viscosity(6000)  
@@ -153,7 +153,7 @@ StartupEvents.registry('fluid',event => {
     // Creates Molten Netherite Emerald
     event.create('forge_frontier:molten_netherite_emerald')
         .color(0x007a18)
-        .displayName('Molten Netherite Emerald')
+        .displayName('Molten Netherite-Emerald')
         .bucketColor(0x007a18)
         .thickTexture(0x007a18)
         .viscosity(6000)  
@@ -163,7 +163,7 @@ StartupEvents.registry('fluid',event => {
     // Creates Molten Netherite Diamond
     event.create('forge_frontier:molten_netherite_diamond')
         .color(0x327b81)
-        .displayName('Molten Netherite Diamond')
+        .displayName('Molten Netherite-Diamond')
         .bucketColor(0x327b81)
         .thickTexture(0x327b81)
         .viscosity(6000)  
