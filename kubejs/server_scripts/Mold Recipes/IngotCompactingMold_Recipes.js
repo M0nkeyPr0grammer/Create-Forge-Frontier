@@ -365,7 +365,7 @@ ServerEvents.recipes(event => {
         ],
         results: [
             {
-                item: 'alexcaves:uranium',
+                item: 'alexscaves:uranium',
                 count: 1
             },
             {

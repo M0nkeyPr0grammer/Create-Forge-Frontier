@@ -619,7 +619,7 @@ ServerEvents.recipes(event => {
         ],
         results: [
             {
-                item: 'alexcaves:block_of_uranium',
+                item: 'alexscaves:block_of_uranium',
                 count: 1
             },
             {
