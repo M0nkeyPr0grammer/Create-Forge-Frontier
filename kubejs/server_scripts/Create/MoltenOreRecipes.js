@@ -1447,7 +1447,7 @@ ServerEvents.recipes(event => {
             }
         ],
         heatRequirement: "superheated"
-    }).id('forge_frontier:mixing/quartz_molten');
+    }).id('forge_frontier:mixing/old_quartz_molten');
 
     // Quartz Ore to Molten Mixing Recipe
     event.custom({
@@ -1509,7 +1509,7 @@ ServerEvents.recipes(event => {
                 }
             ],
             heatRequirement: "superheated"
-        }).id('forge_frontier:mixing/ice_shard_molten');
+        }).id('forge_frontier:mixing/old_ice_shard_molten');
 
         // Ice Shard Ore to Molten Mixing Recipe
         event.custom({
