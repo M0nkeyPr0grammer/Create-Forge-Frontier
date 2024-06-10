@@ -170,6 +170,10 @@ StartupEvents.registry('item', event => {
             .texture('forge_frontier:item/overcharged_netherite_ingot');
 
     // New Molds
+        event.create('forge_frontier:upgrade_mold')
+            .displayName('Upgrade Template Mold')
+            .texture('forge_frontier:item/molds/upgrade_mold');
+            
         event.create('forge_frontier:axe_mold')
             .displayName('Axe Mold')
             .texture('forge_frontier:item/molds/axe_mold');

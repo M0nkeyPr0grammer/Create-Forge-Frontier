@@ -18,6 +18,29 @@ ServerEvents.recipes(event => {
         heatRequirement: "superheated"
     }).id('forge_frontier:compacting/mold_template')
 
+    // Upgrade Mold
+    event.custom({
+        type:"create:compacting",
+        ingredients: [
+            {
+                item: 'forge_frontier:mold_template',
+                amount: 1
+            },
+            {
+                item: 'minecraft:netherite_upgrade_smithing_template'
+            }
+        ],
+        results: [
+            {
+                item: 'forge_frontier:upgrade_mold',
+                amount: 1
+            },
+            {
+                item: 'minecraft:netherite_upgrade_smithing_template'
+            }
+        ],
+    }).id('forge_frontier:compacting/upgrade_mold')
+
     // Mold Template to Skull Mold Recipe 1
     event.custom({
         type:"create:compacting",
