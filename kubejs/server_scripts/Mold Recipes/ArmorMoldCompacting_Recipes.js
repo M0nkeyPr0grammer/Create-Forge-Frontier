@@ -163,6 +163,9 @@ ServerEvents.recipes(event => {
                 {
                     item: 'forge_frontier:helmet_mold',
                     count: 1
+                },
+                {
+                    item: 'minecraft:netherite_upgrade_smithing_template'
                 }
             ],
             results: [
@@ -187,6 +190,10 @@ ServerEvents.recipes(event => {
                 },
                 {
                     item: 'forge_frontier:helmet_mold',
+                    count: 1
+                },
+                {
+                    item: 'forge_frontier:netherite_iron_upgrade',
                     count: 1
                 }
             ],
@@ -213,6 +220,10 @@ ServerEvents.recipes(event => {
                 {
                     item: 'forge_frontier:helmet_mold',
                     count: 1
+                },
+                {
+                    item: 'forge_frontier:netherite_gold_upgrade',
+                    count: 1
                 }
             ],
             results: [
@@ -238,6 +249,10 @@ ServerEvents.recipes(event => {
                 {
                     item: 'forge_frontier:helmet_mold',
                     count: 1
+                },
+                {
+                    item: 'forge_frontier:netherite_emerald_upgrade',
+                    count: 1
                 }
             ],
             results: [
@@ -262,6 +277,10 @@ ServerEvents.recipes(event => {
                 },
                 {
                     item: 'forge_frontier:helmet_mold',
+                    count: 1
+                },
+                {
+                    item: 'forge_frontier:netherite_diamond_upgrade',
                     count: 1
                 }
             ],
@@ -441,6 +460,9 @@ ServerEvents.recipes(event => {
                 {
                     item: 'forge_frontier:chestplate_mold',
                     count: 1
+                },
+                {
+                    item: 'minecraft:netherite_upgrade_smithing_template'
                 }
             ],
             results: [
@@ -465,6 +487,10 @@ ServerEvents.recipes(event => {
                 },
                 {
                     item: 'forge_frontier:chestplate_mold',
+                    count: 1
+                },
+                {
+                    item: 'forge_frontier:netherite_iron_upgrade',
                     count: 1
                 }
             ],
@@ -491,6 +517,10 @@ ServerEvents.recipes(event => {
                 {
                     item: 'forge_frontier:chestplate_mold',
                     count: 1
+                },
+                {
+                    item: 'forge_frontier:netherite_gold_upgrade',
+                    count: 1
                 }
             ],
             results: [
@@ -516,6 +546,10 @@ ServerEvents.recipes(event => {
                 {
                     item: 'forge_frontier:chestplate_mold',
                     count: 1
+                },
+                {
+                    item: 'forge_frontier:netherite_emerald_upgrade',
+                    count: 1
                 }
             ],
             results: [
@@ -540,6 +574,10 @@ ServerEvents.recipes(event => {
                 },
                 {
                     item: 'forge_frontier:chestplate_mold',
+                    count: 1
+                },
+                {
+                    item: 'forge_frontier:netherite_diamond_upgrade',
                     count: 1
                 }
             ],
@@ -718,6 +756,9 @@ ServerEvents.recipes(event => {
                 {
                     item: 'forge_frontier:leggings_mold',
                     count: 1
+                },
+                {
+                    item: 'minecraft:netherite_upgrade_smithing_template'
                 }
             ],
             results: [
@@ -742,6 +783,10 @@ ServerEvents.recipes(event => {
                 },
                 {
                     item: 'forge_frontier:leggings_mold',
+                    count: 1
+                },
+                {
+                    item: 'forge_frontier:netherite_iron_upgrade',
                     count: 1
                 }
             ],
@@ -768,6 +813,10 @@ ServerEvents.recipes(event => {
                 {
                     item: 'forge_frontier:leggings_mold',
                     count: 1
+                },
+                {
+                    item: 'forge_frontier:netherite_gold_upgrade',
+                    count: 1
                 }
             ],
             results: [
@@ -793,6 +842,10 @@ ServerEvents.recipes(event => {
                 {
                     item: 'forge_frontier:leggings_mold',
                     count: 1
+                },
+                {
+                    item: 'forge_frontier:netherite_emerald_upgrade',
+                    count: 1
                 }
             ],
             results: [
@@ -817,6 +870,10 @@ ServerEvents.recipes(event => {
                 },
                 {
                     item: 'forge_frontier:leggings_mold',
+                    count: 1
+                },
+                {
+                    item: 'forge_frontier:netherite_diamond_upgrade',
                     count: 1
                 }
             ],
@@ -995,6 +1052,9 @@ ServerEvents.recipes(event => {
                 {
                     item: 'forge_frontier:boots_mold',
                     count: 1
+                },
+                {
+                    item: 'minecraft:netherite_upgrade_smithing_template'
                 }
             ],
             results: [
@@ -1019,6 +1079,10 @@ ServerEvents.recipes(event => {
                 },
                 {
                     item: 'forge_frontier:boots_mold',
+                    count: 1
+                },
+                {
+                    item: 'forge_frontier:netherite_iron_upgrade',
                     count: 1
                 }
             ],
@@ -1045,6 +1109,10 @@ ServerEvents.recipes(event => {
                 {
                     item: 'forge_frontier:boots_mold',
                     count: 1
+                },
+                {
+                    item: 'forge_frontier:netherite_gold_upgrade',
+                    count: 1
                 }
             ],
             results: [
@@ -1070,6 +1138,10 @@ ServerEvents.recipes(event => {
                 {
                     item: 'forge_frontier:boots_mold',
                     count: 1
+                },
+                {
+                    item: 'forge_frontier:netherite_emerald_upgrade',
+                    count: 1
                 }
             ],
             results: [
@@ -1094,6 +1166,10 @@ ServerEvents.recipes(event => {
                 },
                 {
                     item: 'forge_frontier:boots_mold',
+                    count: 1
+                },
+                {
+                    item: 'forge_frontier:netherite_diamond_upgrade',
                     count: 1
                 }
             ],

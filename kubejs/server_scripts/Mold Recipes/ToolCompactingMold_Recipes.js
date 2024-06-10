@@ -190,6 +190,9 @@ ServerEvents.recipes(event => {
                 {
                     item: 'minecraft:stick',
                     count: 1
+                },
+                {
+                    item: 'minecraft:netherite_upgrade_smithing_template'
                 }
             ],
             results: [
@@ -218,6 +221,10 @@ ServerEvents.recipes(event => {
                 },
                 {
                     item: 'minecraft:stick',
+                    count: 1
+                },
+                {
+                    item: 'forge_frontier:netherite_iron_upgrade',
                     count: 1
                 }
             ],
@@ -248,6 +255,10 @@ ServerEvents.recipes(event => {
                 {
                     item: 'minecraft:stick',
                     count: 1
+                },
+                {
+                    item: 'forge_frontier:netherite_gold_upgrade',
+                    count: 1
                 }
             ],
             results: [
@@ -277,6 +288,10 @@ ServerEvents.recipes(event => {
                 {
                     item: 'minecraft:stick',
                     count: 1
+                },
+                {
+                    item: 'forge_frontier:netherite_emerald_upgrade',
+                    count: 1
                 }
             ],
             results: [
@@ -305,6 +320,10 @@ ServerEvents.recipes(event => {
                 },
                 {
                     item: 'minecraft:stick',
+                    count: 1
+                },
+                {
+                    item: 'forge_frontier:netherite_diamond_upgrade',
                     count: 1
                 }
             ],
@@ -510,6 +529,9 @@ ServerEvents.recipes(event => {
                 {
                     item: 'minecraft:stick',
                     count: 2
+                },
+                {
+                    item: 'minecraft:netherite_upgrade_smithing_template'
                 }
             ],
             results: [
@@ -539,6 +561,10 @@ ServerEvents.recipes(event => {
                 {
                     item: 'minecraft:stick',
                     count: 2
+                },
+                {
+                    item: 'forge_frontier:netherite_iron_upgrade',
+                    count: 1
                 }
             ],
             results: [
@@ -568,6 +594,10 @@ ServerEvents.recipes(event => {
                 {
                     item: 'minecraft:stick',
                     count: 2
+                },
+                {
+                    item: 'forge_frontier:netherite_gold_upgrade',
+                    count: 1
                 }
             ],
             results: [
@@ -597,6 +627,10 @@ ServerEvents.recipes(event => {
                 {
                     item: 'minecraft:stick',
                     count: 2
+                },
+                {
+                    item: 'forge_frontier:netherite_emerald_upgrade',
+                    count: 1
                 }
             ],
             results: [
@@ -626,6 +660,10 @@ ServerEvents.recipes(event => {
                 {
                     item: 'minecraft:stick',
                     count: 2
+                },
+                {
+                    item: 'forge_frontier:netherite_diamond_upgrade',
+                    count: 1
                 }
             ],
             results: [
@@ -830,6 +868,9 @@ ServerEvents.recipes(event => {
                 {
                     item: 'minecraft:stick',
                     count: 2
+                },
+                {
+                    item: 'minecraft:netherite_upgrade_smithing_template'
                 }
             ],
             results: [
@@ -859,6 +900,10 @@ ServerEvents.recipes(event => {
                 {
                     item: 'minecraft:stick',
                     count: 2
+                },
+                {
+                    item: 'forge_frontier:netherite_iron_upgrade',
+                    count: 1
                 }
             ],
             results: [
@@ -888,6 +933,10 @@ ServerEvents.recipes(event => {
                 {
                     item: 'minecraft:stick',
                     count: 2
+                },
+                {
+                    item: 'forge_frontier:netherite_gold_upgrade',
+                    count: 1
                 }
             ],
             results: [
@@ -917,6 +966,10 @@ ServerEvents.recipes(event => {
                 {
                     item: 'minecraft:stick',
                     count: 2
+                },
+                {
+                    item: 'forge_frontier:netherite_emerald_upgrade',
+                    count: 1
                 }
             ],
             results: [
@@ -946,6 +999,10 @@ ServerEvents.recipes(event => {
                 {
                     item: 'minecraft:stick',
                     count: 2
+                },
+                {
+                    item: 'forge_frontier:netherite_diamond_upgrade',
+                    count: 1
                 }
             ],
             results: [
@@ -1150,6 +1207,9 @@ ServerEvents.recipes(event => {
                 {
                     item: 'minecraft:stick',
                     count: 2
+                },
+                {
+                    item: 'minecraft:netherite_upgrade_smithing_template'
                 }
             ],
             results: [
@@ -1179,6 +1239,10 @@ ServerEvents.recipes(event => {
                 {
                     item: 'minecraft:stick',
                     count: 2
+                },
+                {
+                    item: 'forge_frontier:netherite_iron_upgrade',
+                    count: 1
                 }
             ],
             results: [
@@ -1208,6 +1272,10 @@ ServerEvents.recipes(event => {
                 {
                     item: 'minecraft:stick',
                     count: 2
+                },
+                {
+                    item: 'forge_frontier:netherite_gold_upgrade',
+                    count: 1
                 }
             ],
             results: [
@@ -1237,6 +1305,10 @@ ServerEvents.recipes(event => {
                 {
                     item: 'minecraft:stick',
                     count: 2
+                },
+                {
+                    item: 'forge_frontier:netherite_emerald_upgrade',
+                    count: 1
                 }
             ],
             results: [
@@ -1266,6 +1338,10 @@ ServerEvents.recipes(event => {
                 {
                     item: 'minecraft:stick',
                     count: 2
+                },
+                {
+                    item: 'forge_frontier:netherite_diamond_upgrade',
+                    count: 1
                 }
             ],
             results: [
@@ -1470,6 +1546,9 @@ ServerEvents.recipes(event => {
                 {
                     item: 'minecraft:stick',
                     count: 2
+                },
+                {
+                    item: 'minecraft:netherite_upgrade_smithing_template'
                 }
             ],
             results: [
@@ -1499,6 +1578,10 @@ ServerEvents.recipes(event => {
                 {
                     item: 'minecraft:stick',
                     count: 2
+                },
+                {
+                    item: 'forge_frontier:netherite_iron_upgrade',
+                    count: 1
                 }
             ],
             results: [
@@ -1528,6 +1611,10 @@ ServerEvents.recipes(event => {
                 {
                     item: 'minecraft:stick',
                     count: 2
+                },
+                {
+                    item: 'forge_frontier:netherite_gold_upgrade',
+                    count: 1
                 }
             ],
             results: [
@@ -1557,6 +1644,10 @@ ServerEvents.recipes(event => {
                 {
                     item: 'minecraft:stick',
                     count: 2
+                },
+                {
+                    item: 'forge_frontier:netherite_emerald_upgrade',
+                    count: 1
                 }
             ],
             results: [
@@ -1586,6 +1677,10 @@ ServerEvents.recipes(event => {
                 {
                     item: 'minecraft:stick',
                     count: 2
+                },
+                {
+                    item: 'forge_frontier:netherite_diamond_upgrade',
+                    count: 1
                 }
             ],
             results: [
