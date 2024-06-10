@@ -62,7 +62,7 @@ ServerEvents.recipes(event => {
                 { item: 'forge_frontier:crushed_bismuth' },
                 { item: 'forge_frontier:crushed_bismuth', chance: 0.75 },
                 { item: 'create:experience_nugget', chance: 0.75 },
-                { item: 'minecraft:endstone', chance: 0.12 },
+                { item: 'minecraft:end_stone', chance: 0.12 },
             ],
         }).id('forge_frontier:crushing/bismuth_ore');
 
@@ -93,7 +93,7 @@ ServerEvents.recipes(event => {
                 { item: 'forge_frontier:crushed_malachite' },
                 { item: 'forge_frontier:crushed_malachite', chance: 0.75 },
                 { item: 'create:experience_nugget', chance: 0.75 },
-                { item: 'minecraft:endstone', chance: 0.12 },
+                { item: 'minecraft:end_stone', chance: 0.12 },
             ],
         }).id('forge_frontier:crushing/malachite_ore');
 
@@ -122,7 +122,7 @@ ServerEvents.recipes(event => {
                 { item: 'forge_frontier:crushed_irradium' },
                 { item: 'forge_frontier:crushed_irradium', chance: 0.75 },
                 { item: 'create:experience_nugget', chance: 0.75 },
-                { item: 'minecraft:endstone', chance: 0.12 },
+                { item: 'minecraft:end_stone', chance: 0.12 },
             ],
         }).id('forge_frontier:crushing/irradium_ore');
 
