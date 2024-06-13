@@ -42,7 +42,7 @@ ServerEvents.recipes(event => {
 			item: 'hyperbox:hyperbox'
 		  }
 		]
-	  }).id('create:item_application/forge_frontier');
+	  }).id('forge_frontier:item_application/hyperbox');
 
 
 	// Create Teleporters Telejuice Tweak
