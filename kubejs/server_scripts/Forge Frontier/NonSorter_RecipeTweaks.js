@@ -403,11 +403,11 @@ ServerEvents.recipes(event => {
 			'ACA'
 		],
 		{
-			A: 'advancednetherite:netherite_iron_ingot',
+			A: 'apotheosis:prismatic_web',
 			B: 'naturescompass:naturescompass',
-			C: 'create_dd:blaze_gold_block'
+			C: 'createcompression:compressed_andesite_2x'
 		}
-	)
+	).id('forge_frontier:shaped/explorers_compass')
 
 	// Creates Nether Eye Crafting Recipe
 	event.shaped(
