@@ -902,11 +902,15 @@ ServerEvents.recipes(event => {
             results: [
                 {
                     fluid: 'forge_frontier:molten_redstone',
-                    amount: 1200
+                    amount: 1000
                 },
                 {
                     fluid: 'minecraft:lava',
                     amount: 120
+                },
+                {
+                    item: 'minecraft:redstone',
+                    count: 2
                 }
             ],
             heatRequirement: "superheated"
@@ -962,11 +966,15 @@ ServerEvents.recipes(event => {
             results: [
                 {
                     fluid: 'forge_frontier:molten_lapis',
-                    amount: 2000
+                    amount: 1000
                 },
                 {
                     fluid: 'minecraft:lava',
                     amount: 200
+                },
+                {
+                    item: 'minecraft:lapis_lazuli',
+                    count: 10
                 }
             ],
             heatRequirement: "superheated"
