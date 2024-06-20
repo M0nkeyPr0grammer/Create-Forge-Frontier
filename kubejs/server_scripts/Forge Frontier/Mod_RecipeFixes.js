@@ -1,146 +1,6 @@
 // Mod Recipe Fixes
 ServerEvents.recipes(event => {
 
-    // Caged Mobs Twilight Forest Compat Recipe Fixes
-
-    // Recipe Removal
-    event.remove({ id: 'twilightforest:environments/maze'})
-
-    // Naga Cage Recipe Fix
-    event.custom({
-        type: "cagedmobs:environment_data",
-        conditions: [
-            {
-                type: "forge:mod_loaded",
-                modid: "twilightforest"
-            }
-        ],
-        input: {
-            item: "twilightforest:mazestone_brick"
-        },
-        render: "twilightforest:mazestone_brick",
-        growModifier: 1.0,
-        categories: ["maze"]
-    })
-
-    // Recipe Removal
-    event.remove({ id: 'twilightforest:bosses/lich'})
-
-    // Lich Boss Cage Recipe Fix
-    event.custom({
-        type: "cagedmobs:entity_data",
-        conditions: [
-            {
-                type: "forge:mod_loaded",
-                modid: "twilightforest"
-            }
-        ],
-        entity: "twilightforest:lich",
-        samplerTier: 3,
-        environments: ["forest"],
-        growTicks: 2400,
-        results: [
-            {
-                chance: 0.4,
-                    output: {
-                        item: "minecraft:ender_pearl"
-                    },
-                    minAmount: 1,
-                    maxAmount: 1
-            },
-            {
-                chance: 0.5,
-                    output: {
-                        item: "minecraft:bone"
-                    },
-                    minAmount: 1,
-                    maxAmount: 3
-            },
-            {
-                chance: 0.01,
-                output: {
-                    item: "twilightforest:zombie_scepter"
-                },
-                randomDurability: true,
-                minAmount: 1,
-                maxAmount: 1
-            },
-            {
-                chance: 0.01,
-                output: {
-                    item: "twilightforest:lifedrain_scepter"
-                },
-                randomDurability: true,
-                minAmount: 1,
-                maxAmount: 1
-            },
-            {
-                chance: 0.01,
-                output: {
-                    item: "twilightforest:twilight_scepter"
-                },
-                randomDurability: true,
-                minAmount: 1,
-                maxAmount: 1
-            },
-            {
-                chance: 0.01,
-                output: {
-                    item: "twilightforest:fortification_scepter"
-                },
-                randomDurability: true,
-                minAmount: 1,
-                maxAmount: 1
-            },
-            {
-                chance: 0.05,
-                output: {
-                    item: "minecraft:golden_sword"
-                },
-                randomDurability: true,
-                minAmount: 1,
-                maxAmount: 1
-            },
-            {
-                chance: 0.05,
-                output: {
-                    item: "minecraft:golden_helmet"
-                },
-                randomDurability: true,
-                minAmount: 1,
-                maxAmount: 1
-            },
-            {
-                chance: 0.05,
-                output: {
-                    item: "minecraft:golden_chestplate"
-                },
-                randomDurability: true,
-                minAmount: 1,
-                maxAmount: 1
-            },
-            {
-                chance: 0.05,
-                output: {
-                    item: "minecraft:golden_leggings"
-                },
-                randomDurability: true,
-                minAmount: 1,
-                maxAmount: 1
-            },
-            {
-                chance: 0.05,
-                output: {
-                    item: "minecraft:golden_boots"
-                },
-                randomDurability: true,
-                minAmount: 1,
-                maxAmount: 1
-            }
-        ]
-        
-    })
-
     // Create Things and Misc
     // Broken Recipe Removals
     event.remove({ id:'create_things_and_misc:netheriteportablewithlecraft'})
@@ -158,6 +18,41 @@ ServerEvents.recipes(event => {
     // Design & Decor Recipe Removals
     event.remove({ id:'design_decor:stonecutting/metals/iron/screw'})
     event.remove({ id: 'design_decor:stonecutting/metals/iron/bolt'})
+
+    // Fixes Aluminum Boiler Recipe
+    event.remove({ id: 'design_decor:stonecutting/cyllinder/aluminum_cyllinder' })
+    event.custom({
+        type:'minecraft:stonecutting',
+        ingredient: 
+        {
+            tag: 'forge:storage_blocks/aluminum'
+        },
+        result: 'design_decor:aluminium_boiler',
+        count: 4
+    }).id( 'forge_frontier:stonecutting/aluminium_boiler' )
+
+    // Fixes Large Aluminium Boiler
+    event.remove({ id: 'design_decor:stonecutting/cyllinder/aluminium_boiler_large' })
+    event.custom({
+        type:'minecraft:stonecutting',
+        ingredient: 
+        {
+            tag: 'forge:storage_blocks/aluminum'
+        },
+        result: 'design_decor:aluminium_boiler_large',
+        count: 1
+    }).id( 'forge_frontier:stonecutting/aluminium_boiler_large' )
+
+    // Fixes Large Aluminium Chain
+    event.remove({ id: 'design_decor:stonecutting/chain/aluminium_large_chain' })
+    event.custom({
+        type: 'minecraft:stonecutting',
+        ingredient: {
+          tag: 'forge:ingots/aluminum'
+        },
+        result: 'design_decor:aluminium_large_chain',
+        count: 4
+      }).id( 'forge_frontier:stonecutting/aluminium_large_chain' )
 
     // Removes Duplicate Recipes
     event.remove({ id: 'extrastorage:storage_block/block_256k'});
@@ -201,22 +96,6 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'create_confectionery:chocolate_recipe_6' });
     event.remove({ id: 'create_confectionery:black_chocolate_recipe_6' });
     event.remove({ id: 'enlightened_end:cerulean_planks'});
-
-    // Removes Broken/Missing MCTB Recipes
-    event.remove({ id: 'mctb:blossom_crafting_table' });
-    event.remove({ id: 'mctb:mining_crafting_table' });
-    event.remove({ id: 'mctb:wigglewood_crafting_table' });
-    event.remove({ id: 'mctb:archwood_planks_crafting_table' });
-    event.remove({ id: 'mctb:demonic_planks_crafting_table' });
-    event.remove({ id: 'mctb:grongle_crafting_table' });
-    event.remove({ id: 'mctb:menril_planks_crafting_table' });
-    event.remove({ id: 'mctb:bop_cherry_crafting_table' });
-    event.remove({ id: 'mctb:walnut_planks_crafting_table' });
-    event.remove({ id: 'mctb:soul_planks_crafting_table' });
-    event.remove({ id: 'mctb:rubber_planks_crafting_table' });
-    event.remove({ id: 'mctb:ancient_planks_crafting_table' });
-    event.remove({ id: 'mctb:smogstem_crafting_table' });
-    event.remove({ id: 'mctb:ad_ancient_crafting_table' });
 
     // Removes Missing Item Related Recipes
     event.remove({ id: 'createaddition:compat/ae2/charged_certus_quartz' });

@@ -1226,7 +1226,7 @@ ServerEvents.recipes(event => {
             type: "create:mixing",
             ingredients: [
                 {
-                    item: 'create_dd:crushed_raw_tin',
+                    item: 'create:crushed_raw_tin',
                     amount: 1
                 }
             ],
@@ -1417,7 +1417,7 @@ ServerEvents.recipes(event => {
             type: "create:mixing",
             ingredients: [
                 {
-                    item: 'alexcaves:uranium',
+                    item: 'alexscaves:uranium',
                     amount: 1
                 }
             ],
@@ -1457,7 +1457,7 @@ ServerEvents.recipes(event => {
             type: "create:mixing",
             ingredients: [
                 {
-                    item: 'alexcaves:block_of_uranium',
+                    item: 'alexscaves:block_of_uranium',
                     amount: 1
                 }
             ],

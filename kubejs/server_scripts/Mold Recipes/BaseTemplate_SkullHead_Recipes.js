@@ -213,7 +213,7 @@ ServerEvents.recipes(event => {
 				amount: 1000
 			},
             {
-                fluid: 'createfoundry:molten_carbon',
+                fluid: 'forge_frontier:molten_carbon',
                 amount: 1000
             },
             {

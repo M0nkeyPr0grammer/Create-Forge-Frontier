@@ -107,7 +107,7 @@ ServerEvents.recipes(event => {
             type: "create:mixing",
             ingredients: [
                 {
-                    fluid: 'createfoundry:molten_carbon',
+                    fluid: 'forge_frontier:molten_carbon',
                     amount: 100
                 },
                 {

@@ -330,7 +330,7 @@ ServerEvents.recipes(event => {
             type: 'create:splashing',
             ingredients: [
               {
-                item: 'forge_frontier:crushed_raw_uranium'
+                item: 'create:crushed_raw_uranium'
               }
             ],
             results: [
