@@ -13,6 +13,19 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'create_dd:crushing/scorchia_recycling'})
     event.remove({ id: 'create:crushing/scoria'})
 
+    // Amethyst Crushing Recipe
+    event.custom({
+		type: "create:crushing",
+		ingredients: [
+			{ item: 'minecraft:amethyst_shard' }
+		],
+		processingTime: 200,
+		results: [
+			{ item: 'createutilities:polished_amethyst', count: 1 },
+            { item: 'createutilities:polished_amethyst', chance: .50 }
+		]
+	}).id('forge_frontier:crushing/amethyst');
+
     // Scorchia Crushing
     event.custom({
         type: 'create:crushing',
