@@ -67,7 +67,7 @@ event.remove({ id: 'create_mechanical_extruder:mechanical_extruder'})
       transitionalItem: {
         item: 'create_dd:steel_casing'
       }
-    });
+    }).id('forge_frontier:sequenced_assembly/mechanical_extruder');
 
     // Extruding Recipes
 
