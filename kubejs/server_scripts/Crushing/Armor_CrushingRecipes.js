@@ -30,7 +30,6 @@ ServerEvents.recipes(event => {
 				count: 4
 			}
 		]
-
 	}).id('forge_frontier:crushing/diamond_chestplate');
 
 	// Diamond Leggings
@@ -419,7 +418,7 @@ ServerEvents.recipes(event => {
 		{
 			A: 'minecraft:chain'
 		}
-	)
+	).id('forge_frontier:shaped/chainmail_helmet')
 
 	// Chainmail Chestplate
 	event.shaped(
@@ -432,7 +431,7 @@ ServerEvents.recipes(event => {
 		{
 			A: 'minecraft:chain'
 		}
-	)
+	).id('forge_frontier:shaped/chainmail_chestplate')
 
 	// Chainmail Leggings
 	event.shaped(
@@ -445,7 +444,7 @@ ServerEvents.recipes(event => {
 		{
 			A: 'minecraft:chain'
 		}
-	)
+	).id('forge_frontier:shaped/chainmail_leggings')
 
 	// Chainmail Boots
 	event.shaped(
@@ -457,257 +456,9 @@ ServerEvents.recipes(event => {
 		{
 			A: 'minecraft:chain'
 		}
-	)
+	).id('forge_frontier:shaped/chainmail_boots')
 
-	// Better Nether Armor
-
-		// Nether Ruby Helmet
-		event.custom({
-			type: "create:crushing",
-			ingredients: [
-				Ingredient.of('betternether:nether_ruby_helmet').toJson()
-			],
-			processingTime: 200,
-			results: [
-				{
-					item: 'betternether:nether_ruby',
-					count: 2
-				}
-			]
-		}).id('forge_frontier:crushing/ruby_helmet');
-
-		// Nether Ruby Chestplate
-		event.custom({
-			type: "create:crushing",
-			ingredients: [
-				Ingredient.of('betternether:nether_ruby_chestplate').toJson()
-			],
-			processingTime: 200,
-			results: [
-				{
-					item: 'betternether:nether_ruby',
-					count: 4
-				}
-			]
-
-		}).id('forge_frontier:crushing/ruby_chestplate');
-
-		// Nether Ruby Leggings
-		event.custom({
-			type: "create:crushing",
-			ingredients: [
-				Ingredient.of('betternether:nether_ruby_leggings').toJson()
-			],
-			processingTime: 200,
-			results: [
-				{
-					item: 'betternether:nether_ruby',
-					count: 3
-				}
-			]
-		}).id('forge_frontier:crushing/ruby_leggings');
-
-		// Nether Ruby Boots
-		event.custom({
-			type: "create:crushing",
-			ingredients: [
-				Ingredient.of('betternether:nether_ruby_boots').toJson()
-			],
-			processingTime: 200,
-			results: [
-				{
-					item: 'betternether:nether_ruby',
-					count: 2
-				}
-			]
-		}).id('forge_frontier:crushing/ruby_boots');
-
-		// Cincinnasite Helmet
-		event.custom({
-			type: "create:crushing",
-			ingredients: [
-				Ingredient.of('betternether:cincinnasite_helmet').toJson()
-			],
-			processingTime: 200,
-			results: [
-				{
-					item: 'betternether:cincinnasite_ingot',
-					count: 2
-				}
-			]
-		}).id('forge_frontier:crushing/cincinnasite_helmet');
-
-		// Cincinnasite Chestplate
-		event.custom({
-			type: "create:crushing",
-			ingredients: [
-				Ingredient.of('betternether:cincinnasite_chestplate').toJson()
-			],
-			processingTime: 200,
-			results: [
-				{
-					item: 'betternether:cincinnasite_ingot',
-					count: 4
-				}
-			]
-
-		}).id('forge_frontier:crushing/cincinnasite_chestplate');
-
-		// Cincinnasite Leggings
-		event.custom({
-			type: "create:crushing",
-			ingredients: [
-				Ingredient.of('betternether:cincinnasite_leggings').toJson()
-			],
-			processingTime: 200,
-			results: [
-				{
-					item: 'betternether:cincinnasite_ingot',
-					count: 3
-				}
-			]
-		}).id('forge_frontier:crushing/cincinnasite_leggings');
-
-		// Cincinnasite Boots
-		event.custom({
-			type: "create:crushing",
-			ingredients: [
-				Ingredient.of('betternether:cincinnasite_boots').toJson()
-			],
-			processingTime: 200,
-			results: [
-				{
-					item: 'betternether:cincinnasite_ingot',
-					count: 2
-				}
-			]
-		}).id('forge_frontier:crushing/cincinnasite_boots');
-
-	// Better End Tools and Armor
-
-		// Thallasium Helmet
-		event.custom({
-			type: "create:crushing",
-			ingredients: [
-				Ingredient.of('betterend:thallasium_helmet').toJson()
-			],
-			processingTime: 200,
-			results: [
-				{
-					item: 'betterend:thallasium_ingot',
-					count: 2
-				}
-			]
-		}).id('forge_frontier:crushing/thallasium_helmet');
-
-		// Thallasium Chestplate
-		event.custom({
-			type: "create:crushing",
-			ingredients: [
-				Ingredient.of('betterend:thallasium_chestplate').toJson()
-			],
-			processingTime: 200,
-			results: [
-				{
-					item: 'betterend:thallasium_ingot',
-					count: 4
-				}
-			]
-
-		}).id('forge_frontier:crushing/thallasium_chestplate');
-
-		// Thallasium Leggings
-		event.custom({
-			type: "create:crushing",
-			ingredients: [
-				Ingredient.of('betterend:thallasium_leggings').toJson()
-			],
-			processingTime: 200,
-			results: [
-				{
-					item: 'betterend:thallasium_ingot',
-					count: 3
-				}
-			]
-		}).id('forge_frontier:crushing/thallasium_leggings');
-
-		// Thallasium Boots
-		event.custom({
-			type: "create:crushing",
-			ingredients: [
-				Ingredient.of('betterend:thallasium_boots').toJson()
-			],
-			processingTime: 200,
-			results: [
-				{
-					item: 'betterend:thallasium_ingot',
-					count: 2
-				}
-			]
-		}).id('forge_frontier:crushing/thallasium_boots');
-
-
-		// Terminite Helmet
-		event.custom({
-			type: "create:crushing",
-			ingredients: [
-				Ingredient.of('betterend:terminite_helmet').toJson()
-			],
-			processingTime: 200,
-			results: [
-				{
-					item: 'betterend:terminite_ingot',
-					count: 2
-				}
-			]
-		}).id('forge_frontier:crushing/terminite_helmet');
-
-		// Terminite Chestplate
-		event.custom({
-			type: "create:crushing",
-			ingredients: [
-				Ingredient.of('betterend:terminite_chestplate').toJson()
-			],
-			processingTime: 200,
-			results: [
-				{
-					item: 'betterend:terminite_ingot',
-					count: 4
-				}
-			]
-
-		}).id('forge_frontier:crushing/terminite_chestplate');
-
-		// Terminite Leggings
-		event.custom({
-			type: "create:crushing",
-			ingredients: [
-				Ingredient.of('betterend:terminite_leggings').toJson()
-			],
-			processingTime: 200,
-			results: [
-				{
-					item: 'betterend:terminite_ingot',
-					count: 3
-				}
-			]
-		}).id('forge_frontier:crushing/terminite_leggings');
-
-		// Terminite Boots
-		event.custom({
-			type: "create:crushing",
-			ingredients: [
-				Ingredient.of('betterend:terminite_boots').toJson()
-			],
-			processingTime: 200,
-			results: [
-				{
-					item: 'betterend:terminite_ingot',
-					count: 2
-				}
-			]
-		}).id('forge_frontier:crushing/terminite_boots');
-
+	// Advanced Netherite
 		// Netherite Iron Helmet
 		event.custom({
 			type: "create:crushing",
@@ -725,7 +476,7 @@ ServerEvents.recipes(event => {
 					count: 1
 				},
 				{
-					item: 'minecraft:netherite_upgrade_smithing_template',
+					item: 'forge_frontier:netherite_iron_upgrade',
 					count: 1,
 					chance: 0.1
 				}
@@ -749,12 +500,11 @@ ServerEvents.recipes(event => {
 					count: 1
 				},
 				{
-					item: 'minecraft:netherite_upgrade_smithing_template',
+					item: 'forge_frontier:netherite_iron_upgrade',
 					count: 1,
 					chance: 0.1
 				}
 			]
-
 		}).id('forge_frontier:crushing/netherite_iron_chestplate');
 
 		// Netherite Iron Leggings
@@ -774,7 +524,7 @@ ServerEvents.recipes(event => {
 					count: 1
 				},
 				{
-					item: 'minecraft:netherite_upgrade_smithing_template',
+					item: 'forge_frontier:netherite_iron_upgrade',
 					count: 1,
 					chance: 0.1
 				}
@@ -798,7 +548,7 @@ ServerEvents.recipes(event => {
 					count: 1
 				},
 				{
-					item: 'minecraft:netherite_upgrade_smithing_template',
+					item: 'forge_frontier:netherite_iron_upgrade',
 					count: 1,
 					chance: 0.1
 				}
@@ -822,7 +572,7 @@ ServerEvents.recipes(event => {
 					count: 1
 				},
 				{
-					item: 'minecraft:netherite_upgrade_smithing_template',
+					item: 'forge_frontier:netherite_gold_upgrade',
 					count: 1,
 					chance: 0.1
 				}
@@ -846,12 +596,11 @@ ServerEvents.recipes(event => {
 					count: 1
 				},
 				{
-					item: 'minecraft:netherite_upgrade_smithing_template',
+					item: 'forge_frontier:netherite_gold_upgrade',
 					count: 1,
 					chance: 0.1
 				}
 			]
-
 		}).id('forge_frontier:crushing/netherite_gold_chestplate');
 
 		// Netherite Gold Leggings
@@ -871,7 +620,7 @@ ServerEvents.recipes(event => {
 					count: 1
 				},
 				{
-					item: 'minecraft:netherite_upgrade_smithing_template',
+					item: 'forge_frontier:netherite_gold_upgrade',
 					count: 1,
 					chance: 0.1
 				}
@@ -895,7 +644,7 @@ ServerEvents.recipes(event => {
 					count: 1
 				},
 				{
-					item: 'minecraft:netherite_upgrade_smithing_template',
+					item: 'forge_frontier:netherite_gold_upgrade',
 					count: 1,
 					chance: 0.1
 				}
@@ -919,7 +668,7 @@ ServerEvents.recipes(event => {
 					count: 1
 				},
 				{
-					item: 'minecraft:netherite_upgrade_smithing_template',
+					item: 'forge_frontier:netherite_emerald_upgrade',
 					count: 1,
 					chance: 0.1
 				}
@@ -943,12 +692,11 @@ ServerEvents.recipes(event => {
 					count: 1
 				},
 				{
-					item: 'minecraft:netherite_upgrade_smithing_template',
+					item: 'forge_frontier:netherite_emerald_upgrade',
 					count: 1,
 					chance: 0.1
 				}
 			]
-
 		}).id('forge_frontier:crushing/netherite_emerald_chestplate');
 
 		// Netherite Emerald Leggings
@@ -968,7 +716,7 @@ ServerEvents.recipes(event => {
 					count: 1
 				},
 				{
-					item: 'minecraft:netherite_upgrade_smithing_template',
+					item: 'forge_frontier:netherite_emerald_upgrade',
 					count: 1,
 					chance: 0.1
 				}
@@ -992,7 +740,7 @@ ServerEvents.recipes(event => {
 					count: 1
 				},
 				{
-					item: 'minecraft:netherite_upgrade_smithing_template',
+					item: 'forge_frontier:netherite_emerald_upgrade',
 					count: 1,
 					chance: 0.1
 				}
@@ -1016,7 +764,7 @@ ServerEvents.recipes(event => {
 					count: 1
 				},
 				{
-					item: 'minecraft:netherite_upgrade_smithing_template',
+					item: 'forge_frontier:netherite_diamond_upgrade',
 					count: 1,
 					chance: 0.1
 				}
@@ -1040,12 +788,11 @@ ServerEvents.recipes(event => {
 					count: 1
 				},
 				{
-					item: 'minecraft:netherite_upgrade_smithing_template',
+					item: 'forge_frontier:netherite_diamond_upgrade',
 					count: 1,
 					chance: 0.1
 				}
 			]
-
 		}).id('forge_frontier:crushing/netherite_diamond_chestplate');
 
 		// Netherite Diamond Leggings
@@ -1065,7 +812,7 @@ ServerEvents.recipes(event => {
 					count: 1
 				},
 				{
-					item: 'minecraft:netherite_upgrade_smithing_template',
+					item: 'forge_frontier:netherite_diamond_upgrade',
 					count: 1,
 					chance: 0.1
 				}
@@ -1089,7 +836,7 @@ ServerEvents.recipes(event => {
 					count: 1
 				},
 				{
-					item: 'minecraft:netherite_upgrade_smithing_template',
+					item: 'forge_frontier:netherite_diamond_upgrade',
 					count: 1,
 					chance: 0.1
 				}

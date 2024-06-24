@@ -1,213 +1,196 @@
 ServerEvents.recipes(event => {
 
-    // This file creates Crushing Recipes for all labeled blocks
-    // The recipe will be labeles with a // before the event label
-
-
     // Chisled Sandstone
-
     event.custom({
         type: "create:crushing",
         ingredients: [
            { item: 'minecraft:chiseled_sandstone' }
     ],
-    processingTime: 9, // Takes ~3 Seconds
+    processingTime: 9,
     results: [
         {
             item: 'minecraft:sand',
-            count: 3 // 100% Chance for this
+            count: 3
         },
         {
             item: 'minecraft:sand',
-            chance: 0.80 // 80% Chance for this
+            chance: 0.80
         },
-    ] // The reason I have chosen this is due to having some sand come off in the process of making this type
-    }).id('forge_frontier:crushing/chss');
+    ]
+    }).id('forge_frontier:crushing/chisled_sandstone');
 
 
     // Smooth Sandstone
-
     event.custom({
         type: "create:crushing",
         ingredients: [
            { item: 'minecraft:smooth_sandstone' }
         ],
-    processingTime: 9, // Takes ~3 Seconds
+    processingTime: 9,
     results: [
         {
             item: 'minecraft:sand',
-            count: 3 // 100% Chance for this
+            count: 3
         },
         {
             item: 'minecraft:sand',
-            chance: 0.80 // 80% Chance for this
+            chance: 0.80
         },
     ] 
-    }).id('forge_frontier:crushing/sss');   
+    }).id('forge_frontier:crushing/smooth_sandstone');   
 
     // Cut Sandstone
-
     event.custom({
         type: "create:crushing",
         ingredients: [
            { item: 'minecraft:cut_sandstone' }
         ],
-    processingTime: 9, // Takes ~3 Seconds
+    processingTime: 9,
     results: [
         {
             item: 'minecraft:sand',
-            count: 3 // 100% Chance for this
+            count: 3
         },
         {
             item: 'minecraft:sand',
-            chance: 0.80 // 80% Chance for this
+            chance: 0.80
         },
     ]
-    }).id('forge_frontier:crushing/css');
+    }).id('forge_frontier:crushing/cut_sandstone');
     
     // Sandstone Bricks
-
     event.custom({
         type: "create:crushing",
         ingredients: [
            { item: 'quark:sandstone_bricks' }
         ],
-    processingTime: 9, // Takes ~3 Seconds
+    processingTime: 9,
     results: [
         {
             item: 'minecraft:sand',
-            count: 3 // 100% Chance for this
+            count: 3
         },
         {
             item: 'minecraft:sand',
-            chance: 0.70 // 70% Chance for this
+            chance: 0.70
         },
     ]
-    }).id('forge_frontier:crushing/sbs');
+    }).id('forge_frontier:crushing/sandstone_bricks');
 
-    // This Recipe adds in a recipe for any Chipped sandstone variant for a crushing recipe
-
+    // Chipped Sandstone Crushing
         event.custom({
         type: "create:crushing",
         ingredients: [
            { tag: 'chipped:sandstone' }
         ],
-    processingTime: 9, // Takes ~3 Seconds
+    processingTime: 9,
     results: [
         {
             item: 'minecraft:sand',
-            count: 3 // 100% Chance for this
+            count: 3
         },
         {
             item: 'minecraft:sand',
-            chance: 0.80 // 70% Chance for this
+            chance: 0.80
         },
     ]
-    }).id('forge_frontier:crushing/chippedsandstones');
+    }).id('forge_frontier:crushing/chipped_sandstone');
 
-    //from here on it will be red sandstone variants
-
+    // Red Sandstone
         // Red Chisled Sandstone
-
         event.custom({
             type: "create:crushing",
             ingredients: [
                { item: 'minecraft:chiseled_red_sandstone' }
         ],
-        processingTime: 9, // Takes ~3 Seconds
+        processingTime: 9, 
         results: [
             {
                 item: 'minecraft:red_sand',
-                count: 3 // 100% Chance for this
+                count: 3
             },
             {
                 item: 'minecraft:red_sand',
-                chance: 0.80 // 80% Chance for this
+                chance: 0.80
             },
-        ] // The reason I have chosen this is due to having some sand come off in the process of making this type
-        }).id('forge_frontier:crushing/chrss');
+        ]
+        }).id('forge_frontier:crushing/red_chisled_sandstone');
     
     
         // Smooth Red Sandstone
-    
         event.custom({
             type: "create:crushing",
             ingredients: [
                { item: 'minecraft:smooth_red_sandstone' }
             ],
-        processingTime: 9, // Takes ~3 Seconds
+        processingTime: 9, 
         results: [
             {
                 item: 'minecraft:red_sand',
-                count: 3 // 100% Chance for this
+                count: 3
             },
             {
                 item: 'minecraft:red_sand',
-                chance: 0.80 // 80% Chance for this
+                chance: 0.80
             },
         ] 
-        }).id('forge_frontier:crushing/srss');   
+        }).id('forge_frontier:crushing/smooth_red_sandstone');   
     
         // Cut Red Sandstone
-    
         event.custom({
             type: "create:crushing",
             ingredients: [
                { item: 'minecraft:cut_red_sandstone' }
             ],
-        processingTime: 9, // Takes ~3 Seconds
+        processingTime: 9, 
         results: [
             {
                 item: 'minecraft:red_sand',
-                count: 3 // 100% Chance for this
+                count: 3
             },
             {
                 item: 'minecraft:red_sand',
-                chance: 0.80 // 80% Chance for this
+                chance: 0.80
             },
         ]
-        }).id('forge_frontier:crushing/crss');
+        }).id('forge_frontier:crushing/cut_red_sandstone');
         
         // Red Sandstone Bricks
-    
         event.custom({
             type: "create:crushing",
             ingredients: [
                { item: 'quark:red_sandstone_bricks' }
             ],
-        processingTime: 9, // Takes ~3 Seconds
+        processingTime: 9, 
         results: [
             {
                 item: 'minecraft:red_sand',
-                count: 3 // 100% Chance for this
+                count: 3
             },
             {
                 item: 'minecraft:red_sand',
-                chance: 0.70 // 70% Chance for this
+                chance: 0.70
             },
         ]
-        }).id('forge_frontier:crushing/srbs');
+        }).id('forge_frontier:crushing/red_sandstone_bricks');
     
-        // This Recipe adds in a recipe for any Chipped red_sandstone variant for a crushing recipe
-    
+        // Chipped Red Sandstone
             event.custom({
             type: "create:crushing",
             ingredients: [
                { tag: 'chipped:red_sandstone' }
             ],
-        processingTime: 9, // Takes ~3 Seconds
+        processingTime: 9, 
         results: [
             {
                 item: 'minecraft:red_sand',
-                count: 3 // 100% Chance for this
+                count: 3
             },
             {
                 item: 'minecraft:red_sand',
-                chance: 0.80 // 70% Chance for this
+                chance: 0.80
             },
         ]
-        }).id('forge_frontier:crushing/chippedredsandstones');
-
-
+        }).id('forge_frontier:crushing/chipped_red_sandstone');
 
 })

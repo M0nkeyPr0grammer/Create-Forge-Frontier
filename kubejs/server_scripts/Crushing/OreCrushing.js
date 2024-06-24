@@ -1,6 +1,6 @@
 ServerEvents.recipes(event => {
 
-    // Removes Old Coal Ore Recipes
+    // Removes Old Recipes
     event.remove({ id: 'create:crushing/coal_ore'})
     event.remove({ id: 'create:crushing/deepslate_coal_ore'})
     event.remove({ id: 'create:crushing/gloomslate_coal_ore'})
@@ -12,6 +12,9 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'create_dd:crushing/scorchia'})
     event.remove({ id: 'create_dd:crushing/scorchia_recycling'})
     event.remove({ id: 'create:crushing/scoria'})
+    event.remove({ id: 'create_oppenheimered:crushing/guanostone_redstone_ore' })
+    event.remove({ id: 'create_oppenheimered:crushing/uranium_ore' })
+    event.remove({ id: 'tfmg:milling/charcoal_dust'})
 
     // Creates Raw Redstone Crushing Recipe
 	event.custom({
@@ -74,7 +77,6 @@ ServerEvents.recipes(event => {
     }).id('forge_frontier:crushing/scoria'); 
 
     // Enlightened End Ores
-
     // Bismuth Ore
 
         // Crushing Recipe
@@ -107,7 +109,6 @@ ServerEvents.recipes(event => {
         
 
     // Malachite Ore
-
         // Crushing Recipe
         event.custom({
             type: 'create:crushing',
@@ -136,7 +137,6 @@ ServerEvents.recipes(event => {
         
 
     // Irradium Ore
-
         // Crushing Recipe
         event.custom({
             type: 'create:crushing',
@@ -166,7 +166,6 @@ ServerEvents.recipes(event => {
 
 
     // Coal Ore
-
     // Forge:Ores/Coal 
     event.custom({
         type: 'create:crushing',
@@ -182,22 +181,6 @@ ServerEvents.recipes(event => {
         ],
     }).id('forge_frontier:crushing/coal_ore');
 
-
-    // Alex Caves
-    event.custom({
-		type: "create:crushing",
-		ingredients: [
-			{ item: 'alexscaves:coprolith_coal_ore' }
-		],
-		processingTime: 400,
-		results: [
-			{ item: 'minecraft:coal' },
-			{ item: 'minecraft:coal', chance: 0.75 },
-			{ item: 'create:experience_nugget', chance: 0.75 },
-			{ item: 'alexscaves:coprolith', chance: 0.12 }
-		]
-	}).id('forge_frontier:crushing/a_coal_ore');
-
     // Removes Old Iron Ore Recipes
     event.remove({ id: 'create:crushing/iron_ore'})
     event.remove({ id: 'create:crushing/deepslate_iron_ore'})
@@ -208,7 +191,6 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'create:crushing/mars_iron_ore'})
 
     // Iron Ore
-
     // Forge:Ores/Iron 
     event.custom({
         type: 'create:crushing',
@@ -234,7 +216,6 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'create:crushing/venus_copper_ore'})
 
     // Copper Ore
-
     // Forge:Ores/Copper 
     event.custom({
         type: 'create:crushing',
@@ -260,7 +241,6 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'create:crushing/nether_gold_ore'})
 
     // Gold Ore
-
     // Forge:Ores/Gold 
     event.custom({
         type: 'create:crushing',
@@ -285,7 +265,6 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'create:crushing/venus_redstone_ore'})
 
     // Redstone Ore
-
     // Forge:Ores/Redstone 
     event.custom({
         type: 'create:crushing',
@@ -301,21 +280,6 @@ ServerEvents.recipes(event => {
         ],
     }).id('forge_frontier:crushing/redstone_ore');
 
-    // Alex Caves Ore
-    event.custom({
-		type: "create:crushing",
-		ingredients: [
-			{ item: 'alexscaves:guanostone_redstone_ore' }
-		],
-		processingTime: 400,
-		results: [
-			{ item: 'minecraft:redstone', count: 6 },
-			{ item: 'minecraft:redstone', chance: 0.75 },
-			{ item: 'create:experience_nugget', chance: 0.75 },
-			{ item: 'alexscaves:guanostone', chance: 0.12 }
-		]
-	}).id('forge_frontier:crushing/a_redstone_ore');
-
     // Removes Old Emerald Ore Recipes
     event.remove({ id: 'create:crushing/emerald_ore'})
     event.remove({ id: 'create:crushing/deepslate_emerald_ore'})
@@ -325,7 +289,6 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'create:crushing/venus_emerald_ore'})
 
     // Emerald Ore
-
     // Forge:Ores/Emerald 
     event.custom({
         type: 'create:crushing',
@@ -351,7 +314,6 @@ ServerEvents.recipes(event => {
 
 
     // Lapis Ore
-
     // Forge:Ores/Lapis 
     event.custom({
         type: 'create:crushing',
@@ -376,7 +338,6 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'create:crushing/mars_diamond_ore'})
 
     // Diamond Ore
-
     // Forge:Ores/Diamond 
     event.custom({
         type: 'create:crushing',
@@ -396,7 +357,6 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'create:crushing/nether_quartz_ore'})
 
     // Quartz Ore
-
     // Forge:Ores/Quartz 
     event.custom({
         type: 'create:crushing',

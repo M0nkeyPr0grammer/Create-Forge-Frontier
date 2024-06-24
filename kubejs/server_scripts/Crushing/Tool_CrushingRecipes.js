@@ -506,6 +506,7 @@ ServerEvents.recipes(event => {
 		]
 	}).id('forge_frontier:crushing/wooden_sword');
 
+// Advanced Netherite
 	// Netherite Iron Shovel
 	event.custom({
 		type: "create:crushing",
@@ -523,7 +524,7 @@ ServerEvents.recipes(event => {
 				count: 1
 			},
 			{
-				item: 'minecraft:netherite_upgrade_smithing_template',
+				item: 'forge_frontier:netherite_iron_upgrade',
 				count: 1,
 				chance: 0.1
 			}
@@ -547,7 +548,7 @@ ServerEvents.recipes(event => {
 				count: 1
 			},
 			{
-				item: 'minecraft:netherite_upgrade_smithing_template',
+				item: 'forge_frontier:netherite_iron_upgrade',
 				count: 1,
 				chance: 0.1
 			}
@@ -571,7 +572,7 @@ ServerEvents.recipes(event => {
 				count: 1
 			},
 			{
-				item: 'minecraft:netherite_upgrade_smithing_template',
+				item: 'forge_frontier:netherite_iron_upgrade',
 				count: 1,
 				chance: 0.1
 			}
@@ -595,7 +596,7 @@ ServerEvents.recipes(event => {
 				count: 1
 			},
 			{
-				item: 'minecraft:netherite_upgrade_smithing_template',
+				item: 'forge_frontier:netherite_iron_upgrade',
 				count: 1,
 				chance: 0.1
 			}
@@ -619,7 +620,7 @@ ServerEvents.recipes(event => {
 				count: 1
 			},
 			{
-				item: 'minecraft:netherite_upgrade_smithing_template',
+				item: 'forge_frontier:netherite_iron_upgrade',
 				count: 1,
 				chance: 0.1
 			}
@@ -643,7 +644,7 @@ ServerEvents.recipes(event => {
 				count: 1
 			},
 			{
-				item: 'minecraft:netherite_upgrade_smithing_template',
+				item: 'forge_frontier:netherite_gold_upgrade',
 				count: 1,
 				chance: 0.1
 			}
@@ -667,7 +668,7 @@ ServerEvents.recipes(event => {
 				count: 1
 			},
 			{
-				item: 'minecraft:netherite_upgrade_smithing_template',
+				item: 'forge_frontier:netherite_gold_upgrade',
 				count: 1,
 				chance: 0.1
 			}
@@ -691,7 +692,7 @@ ServerEvents.recipes(event => {
 				count: 1
 			},
 			{
-				item: 'minecraft:netherite_upgrade_smithing_template',
+				item: 'forge_frontier:netherite_gold_upgrade',
 				count: 1,
 				chance: 0.1
 			}
@@ -715,7 +716,7 @@ ServerEvents.recipes(event => {
 				count: 1
 			},
 			{
-				item: 'minecraft:netherite_upgrade_smithing_template',
+				item: 'forge_frontier:netherite_gold_upgrade',
 				count: 1,
 				chance: 0.1
 			}
@@ -739,7 +740,7 @@ ServerEvents.recipes(event => {
 				count: 1
 			},
 			{
-				item: 'minecraft:netherite_upgrade_smithing_template',
+				item: 'forge_frontier:netherite_gold_upgrade',
 				count: 1,
 				chance: 0.1
 			}
@@ -763,7 +764,7 @@ ServerEvents.recipes(event => {
 				count: 1
 			},
 			{
-				item: 'minecraft:netherite_upgrade_smithing_template',
+				item: 'forge_frontier:netherite_emerald_upgrade',
 				count: 1,
 				chance: 0.1
 			}
@@ -787,7 +788,7 @@ ServerEvents.recipes(event => {
 				count: 1
 			},
 			{
-				item: 'minecraft:netherite_upgrade_smithing_template',
+				item: 'forge_frontier:netherite_emerald_upgrade',
 				count: 1,
 				chance: 0.1
 			}
@@ -811,7 +812,7 @@ ServerEvents.recipes(event => {
 				count: 1
 			},
 			{
-				item: 'minecraft:netherite_upgrade_smithing_template',
+				item: 'forge_frontier:netherite_emerald_upgrade',
 				count: 1,
 				chance: 0.1
 			}
@@ -835,7 +836,7 @@ ServerEvents.recipes(event => {
 				count: 1
 			},
 			{
-				item: 'minecraft:netherite_upgrade_smithing_template',
+				item: 'forge_frontier:netherite_emerald_upgrade',
 				count: 1,
 				chance: 0.1
 			}
@@ -859,7 +860,7 @@ ServerEvents.recipes(event => {
 				count: 1
 			},
 			{
-				item: 'minecraft:netherite_upgrade_smithing_template',
+				item: 'forge_frontier:netherite_emerald_upgrade',
 				count: 1,
 				chance: 0.1
 			}
@@ -883,7 +884,7 @@ ServerEvents.recipes(event => {
 				count: 1
 			},
 			{
-				item: 'minecraft:netherite_upgrade_smithing_template',
+				item: 'forge_frontier:netherite_diamond_upgrade',
 				count: 1,
 				chance: 0.1
 			}
@@ -907,7 +908,7 @@ ServerEvents.recipes(event => {
 				count: 1
 			},
 			{
-				item: 'minecraft:netherite_upgrade_smithing_template',
+				item: 'forge_frontier:netherite_diamond_upgrade',
 				count: 1,
 				chance: 0.1
 			}
@@ -931,7 +932,7 @@ ServerEvents.recipes(event => {
 				count: 1
 			},
 			{
-				item: 'minecraft:netherite_upgrade_smithing_template',
+				item: 'forge_frontier:netherite_diamond_upgrade',
 				count: 1,
 				chance: 0.1
 			}
@@ -955,7 +956,7 @@ ServerEvents.recipes(event => {
 				count: 1
 			},
 			{
-				item: 'minecraft:netherite_upgrade_smithing_template',
+				item: 'forge_frontier:netherite_diamond_upgrade',
 				count: 1,
 				chance: 0.1
 			}
@@ -979,7 +980,7 @@ ServerEvents.recipes(event => {
 				count: 1
 			},
 			{
-				item: 'minecraft:netherite_upgrade_smithing_template',
+				item: 'forge_frontier:netherite_diamond_upgrade',
 				count: 1,
 				chance: 0.1
 			}
