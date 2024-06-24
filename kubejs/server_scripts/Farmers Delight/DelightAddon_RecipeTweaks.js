@@ -37,7 +37,7 @@ ServerEvents.recipes(event => {
         },
         cookingtime: 200,
         experience: 10
-      }).id('forge_frontier:beef_noodles')
+      }).id('forge_frontier:cooking/beef_noodles')
 
       // Bobo Chicken Recipe Fix
       event.custom({
@@ -70,7 +70,7 @@ ServerEvents.recipes(event => {
         },
         cookingtime: 200,
         experience: 10
-      }).id('forge_frontier:bobo_chicken')
+      }).id('forge_frontier:cooking/bobo_chicken')
 
       // Fish and Chips Recipe Fix
       event.custom({
@@ -98,7 +98,7 @@ ServerEvents.recipes(event => {
         },
         cookingtime: 200,
         experience: 10
-      }).id('forge_frontier:fish_and_chips')
+      }).id('forge_frontier:cooking/fish_and_chips')
 
       // Raw Cheese Wheel Recipe Fix
       event.custom({
@@ -129,6 +129,6 @@ ServerEvents.recipes(event => {
         },
         cookingtime: 400,
         experience: 10
-      }).id('forge_frontier:raw_cheese_wheel')
+      }).id('forge_frontier:cooking/raw_cheese_wheel')
             
 })

@@ -1,10 +1,7 @@
 // Farmer's Delight Cutting, Modded Tree Compatibility
-
-import { ShapelessRecipeBuilder } from 'forge';
-
 ServerEvents.recipes(event => {
 
-    // Vanilla, Terrestria, Deeper and Darker, Promenade, and Regions Unexplored Compatibility
+    // Vanilla, Deeper and Darker, and Regions Unexplored Compatibility
     var modded_logs = [
         // Vanilla Logs
         'minecraft:cherry_log', 
@@ -61,7 +58,6 @@ ServerEvents.recipes(event => {
         'regions_unexplored:yellow_bioshroom_hyphae',
         'regions_unexplored:yellow_bioshroom_stem'
     ];
-
     modded_logs.forEach(log => {
         const strippedLog = log.replace(":", ":stripped_");
         const bark = 'farmersdelight:tree_bark';
