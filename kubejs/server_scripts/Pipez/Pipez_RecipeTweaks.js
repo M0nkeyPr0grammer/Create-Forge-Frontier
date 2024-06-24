@@ -17,7 +17,7 @@ ServerEvents.recipes(event => {
 			A: '#forge:rods/steel',
 			B: 'create:chute'
 		}
-	)
+	).id('forge_frontier:shaped/item_pipe')
 
     // Creates New Fluid Pipe Recipe
     event.shaped(
@@ -31,7 +31,7 @@ ServerEvents.recipes(event => {
 			A: '#forge:rods/brass',
 			B: 'create:fluid_pipe'
 		}
-	)
+	).id('forge_frontier:shaped/fluid_pipe')
 
     // Creates New Energry Pipe Recipe
     event.shaped(
@@ -45,7 +45,7 @@ ServerEvents.recipes(event => {
 			A: '#forge:rods/desh',
 			B: 'create:electron_tube'
 		}
-	)
+	).id('forge_frontier:shaped/energy_pipe')
 
 	// Creates Universal Pipe Recipe
 	event.shaped(
@@ -61,6 +61,6 @@ ServerEvents.recipes(event => {
 			C: 'pipez:energy_pipe',
 			D: 'create_new_age:overcharged_iron'
 		}
-	)
+	).id('forge_frontier:shaped/universal_pipe')
 
 })
