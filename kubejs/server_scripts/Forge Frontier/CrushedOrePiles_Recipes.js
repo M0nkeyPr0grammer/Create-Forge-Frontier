@@ -1,6 +1,8 @@
+// Custom Crushed Ore Piles Shaped and Shapeless Recipes
 ServerEvents.recipes(event => {
 
-    // Bismuth Pile to Crushed Bismuth
+// Shapeless Recipes
+	// Bismuth Pile to Crushed Bismuth
 	event.custom({
 		type: "minecraft:crafting_shapeless",
 		ingredients: [
@@ -12,7 +14,7 @@ ServerEvents.recipes(event => {
 			item: 'forge_frontier:crushed_bismuth',
 			count: 9
 		  }
-	})
+	}).id( 'forge_frontier:shapeless/crushed_bismuth_pile' )
 
     // Desh Pile to Crushed Desh
 	event.custom({
@@ -26,7 +28,7 @@ ServerEvents.recipes(event => {
 			item: 'forge_frontier:crushed_desh_ore',
 			count: 9
 		  }
-	})
+	}).id( 'forge_frontier:shapeless/crushed_desh_pile' )
 
     // Irradium Pile to Crushed Irradium
 	event.custom({
@@ -40,7 +42,7 @@ ServerEvents.recipes(event => {
 			item: 'forge_frontier:crushed_irradium',
 			count: 9
 		  }
-	})
+	}).id( 'forge_frontier:shapeless/crushed_irradium_pile' )
 
     // Malachite Pile to Crushed Malachite
 	event.custom({
@@ -54,7 +56,7 @@ ServerEvents.recipes(event => {
 			item: 'forge_frontier:crushed_malachite',
 			count: 9
 		  }
-	})
+	}).id( 'forge_frontier:shapeless/crushed_malachite_pile' )
 
     // Ostrum Pile to Crushed Ostrum
 	event.custom({
@@ -68,7 +70,7 @@ ServerEvents.recipes(event => {
 			item: 'forge_frontier:crushed_ostrum_ore',
 			count: 9
 		  }
-	})
+	}).id( 'forge_frontier:shapeless/crushed_ostrum_pile' )
 
     // Tin Pile to Crushed Tin
 	event.custom({
@@ -82,7 +84,7 @@ ServerEvents.recipes(event => {
 			item: 'create:crushed_raw_tin',
 			count: 9
 		  }
-	})
+	}).id( 'forge_frontier:shapeless/crushed_tin_pile' )
 
     // Uranium Pile to Crushed Uranium
 	event.custom({
@@ -96,7 +98,7 @@ ServerEvents.recipes(event => {
 			item: 'create:crushed_raw_uranium',
 			count: 9
 		  }
-	})
+	}).id( 'forge_frontier:shapeless/crushed_uranium_pile' )
 
     // Calorite Pile to Crushed Calorite
 	event.custom({
@@ -110,8 +112,9 @@ ServerEvents.recipes(event => {
 			item: 'forge_frontier:crushed_calorite_ore',
 			count: 9
 		  }
-	})
+	}).id( 'forge_frontier:shapeless/crushed_calorite_pile' )
 
+// Shaped Recipes
     // Crushed Bismuth Pile Recipe
     event.shaped(
 		Item.of('forge_frontier:crushed_bismuth_pile'),
@@ -123,7 +126,7 @@ ServerEvents.recipes(event => {
 		{
 			A: 'forge_frontier:crushed_bismuth'
 		}
-	)
+	).id( 'forge_frontier:shaped/crushed_bismuth_pile' )
 
     // Crushed Calorite Pile Recipe
     event.shaped(
@@ -136,7 +139,7 @@ ServerEvents.recipes(event => {
 		{
 			A: 'forge_frontier:crushed_calorite_ore'
 		}
-	)
+	).id( 'forge_frontier:shaped/crushed_calorite_pile' )
 
     // Crushed Desh Pile Recipe
     event.shaped(
@@ -149,7 +152,7 @@ ServerEvents.recipes(event => {
 		{
 			A: 'forge_frontier:crushed_desh_ore'
 		}
-	)
+	).id( 'forge_frontier:shaped/crushed_desh_pile' )
 
     // Crushed Irradium Pile Recipe
     event.shaped(
@@ -162,7 +165,7 @@ ServerEvents.recipes(event => {
 		{
 			A: 'forge_frontier:crushed_irradium'
 		}
-	)
+	).id( 'forge_frontier:shaped/crushed_irradium_pile' )
 
     // Crushed Malachite Pile Recipe
     event.shaped(
@@ -175,7 +178,7 @@ ServerEvents.recipes(event => {
         {
             A: 'forge_frontier:crushed_malachite'
         }
-    )
+    ).id( 'forge_frontier:shaped/crushed_malachite_pile' )
 
     // Crushed Ostrum Pile Recipe
     event.shaped(
@@ -188,7 +191,7 @@ ServerEvents.recipes(event => {
         {
             A: 'forge_frontier:crushed_ostrum_ore'
         }
-    )
+    ).id( 'forge_frontier:shaped/crushed_ostrum_pile' )
 
     // Crushed Tin Pile Recipe
     event.shaped(
@@ -201,7 +204,7 @@ ServerEvents.recipes(event => {
         {
             A: 'create:crushed_raw_tin'
         }
-    )
+    ).id( 'forge_frontier:shaped/crushed_tin_pile' )
 
     // Crushed Tin Pile Recipe
     event.shaped(
@@ -214,5 +217,5 @@ ServerEvents.recipes(event => {
         {
             A: 'create:crushed_raw_uranium'
         }
-    )
+    ).id( 'forge_frontier:shaped/crushed_uranium_pile' )
 })

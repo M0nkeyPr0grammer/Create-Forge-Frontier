@@ -13,7 +13,7 @@ ServerEvents.recipes(event => {
         'minecraft:netherite_upgrade_smithing_template',
         'create_things_and_misc:portable_whistle',
         'minecraft:netherite_ingot'
-    )
+    ).id( 'forge_frontier:smithing/portable_whistle' )
 
     // Design & Decor Recipe Removals
     event.remove({ id:'design_decor:stonecutting/metals/iron/screw'})
@@ -95,7 +95,6 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'create_confectionery:white_chocolate_recipe_6' });
     event.remove({ id: 'create_confectionery:chocolate_recipe_6' });
     event.remove({ id: 'create_confectionery:black_chocolate_recipe_6' });
-    event.remove({ id: 'enlightened_end:cerulean_planks'});
 
     // Removes Missing Item Related Recipes
     event.remove({ id: 'createaddition:compat/ae2/charged_certus_quartz' });
@@ -130,7 +129,7 @@ ServerEvents.recipes(event => {
     // Broken Recipe Removals
     event.remove({ id:'create:crushing/sandstone/2x_to_2x_sand' });
     event.remove({ id:'cp_tweaks:rockets/tier_6_rocket' });
-    event.remove({ id: 'create:milling/sandstone/7x_to_7x_sand' });
+    event.remove({ id:'create:milling/sandstone/7x_to_7x_sand' });
     event.remove({ id:'tfmg:mechanical_crafting/pumpjack_hammer_holder' });
     event.remove({ id:'create:milling/sandstone/2x_to_2x_sand' });
     event.remove({ id:'create:milling/sandstone/8x_to_8x_sand' });
@@ -153,6 +152,7 @@ ServerEvents.recipes(event => {
     event.remove({ id:'create:milling/sandstone/3x_to_3x_sand' });
     event.remove({ id:'create:crushing/sandstone/7x_to_7x_sand' });
     event.remove({ id:'create:milling/sandstone/9x_to_9x_sand'});
+    
 
     // Removes Failed Compatibility Related Recipes
     event.remove({ id: 'railways:sequenced_assembly/track_tieless_narrow'});
@@ -221,7 +221,7 @@ ServerEvents.recipes(event => {
             transitionalItem: {
                 item: 'railways:track_incomplete_tieless_narrow'
             }
-        });
+        }).id( 'forge_frontier:sequenced_assembly/tieless_narrow_track' );
   
 
     })

@@ -9,10 +9,6 @@ ServerEvents.recipes(event => {
 	event.remove({ id: 'createfoundry:mixing/melting/ore/lapis_from_ore' })
 	event.remove({ id: 'create:crushing/nether_wart_block' })
 	event.remove({ id: 'explorerscompass:explorers_compass' })
-	event.remove({ id: 'shrink:shrinking_device' })
-	event.remove({ id: 'waystones:warp_stone' })
-	event.remove({ id: 'waystones:warp_dust' })
-	event.remove({ id: 'angelblockrenewed:angel_block'})
 	event.remove({ id: 'cagedmobs:crafting/hopping_mob_cage'})
 	event.remove({ id: 'cagedmobs:crafting/mob_cage'})
 	event.remove({ id: 'endrem:undead_eye'})
@@ -45,7 +41,7 @@ ServerEvents.recipes(event => {
 	  }).id('forge_frontier:item_application/hyperbox');
 
 
-	// Create Teleporters Telejuice Tweak
+	// Strophar Mushroom to Quantum Fluid Mixing Recipe
 	event.custom({
 		type: 'create:mixing',
 		heatRequirement: 'heated',
@@ -65,8 +61,9 @@ ServerEvents.recipes(event => {
 			fluid: 'createteleporters:quantum_fluid'
 		  }
 		]
-	  })
+	  }).id( 'forge_frontier:mixing/quantum_fluid' )
 
+	// Strophar Mushroom to Quantum Fluid Emptying Recipe
 	event.custom({
 		type: 'create:emptying',
 		ingredients: [
@@ -80,8 +77,9 @@ ServerEvents.recipes(event => {
 			fluid: 'createteleporters:quantum_fluid'
 		  }
 		]
-	  })
+	  }).id( 'forge_frontier:emptying/strophar_mushroom' )
 
+	  // Quantum Fluid Bucket to Fluid Emptying Recipe
 	  event.custom({
 		type: 'create:emptying',
 		ingredients: [
@@ -98,7 +96,7 @@ ServerEvents.recipes(event => {
 			fluid: 'createteleporters:quantum_fluid'
 		  }
 		]
-	  })
+	  }).id( 'forge_frontier:emptying/quantum_fluid_bucket' )
 
 	// Iron Plating Crushing Recipe
 	event.custom({
@@ -115,7 +113,6 @@ ServerEvents.recipes(event => {
 		]
 	}).id('forge_frontier:crushing/iron_plating');
 
-
 	// Malachite Block to Malchite Shapeless Recipe
 	event.custom({
 		type: 'minecraft:crafting_shapeless',
@@ -128,7 +125,7 @@ ServerEvents.recipes(event => {
 			item: 'enlightened_end:malachite',
 			count: 4
 		  }
-	})
+	}).id( 'forge_frontier:shapeless/malachite_block' )
 
 
 	// Bookstack to Shapeless Recipe
@@ -144,7 +141,7 @@ ServerEvents.recipes(event => {
 			count: 3
 		  }
 
-	})
+	}).id( 'forge_frontier:shapeless/bookstack' )
 
 	// Nether Star Crushing Recipe
 	event.custom({
@@ -208,7 +205,7 @@ ServerEvents.recipes(event => {
 		  item: 'minecraft:coal',
 		  count: 1
 		}
-	  })
+	  }).id( 'forge_frontier:shapeless/nugget_coal' )
 
 	// Adjust Coal Piece Recipe
 	event.custom({
@@ -223,7 +220,7 @@ ServerEvents.recipes(event => {
 			count: 9
 		  }
 
-	})
+	}).id( 'forge_frontier:shapeless/coal_piece_coal' )
 
 	// Creates Andesite Chunk Loader
 	event.custom({
@@ -241,7 +238,7 @@ ServerEvents.recipes(event => {
 		},
 		result: Ingredient.of('create_power_loader:empty_andesite_chunk_loader').toJson(),
 		acceptMirrored: false
-	}).id('forge_frontier:powerloaders/andesitechunkloader');
+	}).id('forge_frontier:mechancial_crafting/andesitechunkloader');
 
 	// Creates Brass Chunk Loader
 	event.custom({
@@ -263,7 +260,7 @@ ServerEvents.recipes(event => {
 		},
 		result: Ingredient.of('create_power_loader:empty_brass_chunk_loader').toJson(),
 		acceptMirrored: false
-	}).id('forge_frontier:powerloaders/brasschunkloader');
+	}).id('forge_frontier:mechancial_crafting/brasschunkloader');
 
 
 	// Creates Undead Soul Recipe
@@ -281,7 +278,7 @@ ServerEvents.recipes(event => {
 			D: 'minecraft:ghast_tear',
 			E: 'minecraft:cobweb' 
 		}
-	)
+	).id( 'forge_frontier:shaped/undead_soul' )
 
 	// Creates Warden Eye Recipe
 	event.shaped(
@@ -298,7 +295,7 @@ ServerEvents.recipes(event => {
 			D: 'minecraft:ender_eye',
 			
 		}
-	)
+	).id( 'forge_frontier:shaped/undead_eye' )
 
 	// Creates Ash Recipe
 	event.custom({
@@ -308,7 +305,7 @@ ServerEvents.recipes(event => {
 		  item: 'minecraft:charcoal'
 		},
 		result: 'supplementaries:ash'
-	  })
+	  }).id( 'forge_frontier:smoking/ash' )
 
 	// Creates Modded Crafting Table Recipe
 	event.shapeless(
@@ -319,7 +316,7 @@ ServerEvents.recipes(event => {
 			'#minecraft:planks',
 			'#minecraft:planks'
 		]
-	)
+	).id( 'forge_frontier:shapeless/crafting_table' )
 
 	// Create Magnetite Recipe
 	event.custom({
@@ -335,7 +332,7 @@ ServerEvents.recipes(event => {
 			item: 'create_new_age:magnetite_block'
 		  }
 		]
-	  })
+	  }).id( 'forge_frontier:energising/magnetite_block' )
 
 	// Creates Dragon Egg Recipe
 	event.custom({
@@ -363,7 +360,6 @@ ServerEvents.recipes(event => {
 		heatRequirement: 'superheated'
 	}).id('forge_frontier:mixing/dragon_egg');
 
-
 	// Creates New Mob Cage Recipe
 	event.shaped(
 		Item.of('cagedmobs:mob_cage'),
@@ -377,7 +373,7 @@ ServerEvents.recipes(event => {
 			B: 'createaddition:iron_rod',
 			C: 'minecraft:iron_block'
 		}
-	)
+	).id( 'forge_frontier:shaped/mob_cage' )
 
 	// Creates New Hopping Mob Cage Recipe
 	event.shaped(
@@ -392,7 +388,7 @@ ServerEvents.recipes(event => {
 			B: 'cagedmobs:mob_cage',
 			C: 'create:chute'
 		}
-	)
+	).id( 'forge_frontier:shaped/hopping_mob_cage' )
 
 	// Creates Structure Compass Recipe
 	event.shaped(
@@ -422,7 +418,7 @@ ServerEvents.recipes(event => {
 			B: 'minecraft:blaze_rod',
 			C: 'minecraft:ender_eye'
 		}
-	)
+	).id( 'forge_frontier:shaped/nether_eye' )
 
 	// Any Dirt to Vanilla Dirt
 	event.shapeless(
@@ -430,7 +426,7 @@ ServerEvents.recipes(event => {
 		[
 			'#minecraft:dirt'
 		]
-	)
+	).id( 'forge_frontier:shapeless/dirt' )
 
 	// Diamond Grit Sandpaper
 	event.shapeless(
@@ -439,7 +435,7 @@ ServerEvents.recipes(event => {
 			'minecraft:paper',
 			'createaddition:diamond_grit'
 		]
-	)
+	).id( 'forge_frontier:shapeless/diamond_grit_sandpaper' )
 
 	// New Nether Wart Block Crushing Recipe
 	event.custom({
@@ -465,7 +461,7 @@ ServerEvents.recipes(event => {
 			Ingredient.of('create:chromatic_compound').toJson()
 		],
 		conditions: ['superheated']
-	}).id('forge_frontier:create/chromatic_compound');
+	}).id('forge_frontier:mixing/chromatic_compound');
 
 	// Fixes Chipped Tinkering Table Recipe
 	event.shaped(
@@ -482,7 +478,7 @@ ServerEvents.recipes(event => {
 			D: '#forge:stripped_logs',
 			E: 'minecraft:tnt'
 		}
-	)
+	).id( 'forge_frontier:shaped/tinkering_table' )
 
 	// New Dragon's Breath Recipe
 	event.custom({

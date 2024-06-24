@@ -4,8 +4,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'create_sa:andesite_jetpack_recipe'})
     event.remove({ id: 'create_sa:brass_jetpack_recipe'})
 
-
-    // Bronze Jetpack Recipe, aka Copper Jetpack
+    // Bronze Jetpack Recipe
     event.custom({
 		type: "create:mechanical_crafting",
 		pattern: [
@@ -23,7 +22,7 @@ ServerEvents.recipes(event => {
 		},
 		result: Ingredient.of('create_sa:copper_jetpack_chestplate').toJson(),
 		acceptMirrored: false
-	}).id('forge_frontier:create/copper_jetpack_chestplate');
+	}).id('forge_frontier:mechanical_crafting/bronze_jetpack');
 
     // Vanadium Jetpack Recipe
     event.custom({
@@ -43,7 +42,7 @@ ServerEvents.recipes(event => {
 		},
 		result: Ingredient.of('create_sa:andesite_jetpack_chestplate').toJson(),
 		acceptMirrored: false
-	}).id('forge_frontier:create/andesite_jetpack_chestplate');
+	}).id('forge_frontier:mechanical_crafting/vanadium_jetpack');
 
     // Chorium Jetpack Recipe
     event.custom({
@@ -63,7 +62,6 @@ ServerEvents.recipes(event => {
 		},
 		result: Ingredient.of('create_sa:brass_jetpack_chestplate').toJson(),
 		acceptMirrored: false
-	}).id('forge_frontier:create/brass_jetpack_chestplate');
-
+	}).id('forge_frontier:mechanical_crafting/chorium_jetpack');
 
 })
