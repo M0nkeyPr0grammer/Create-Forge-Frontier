@@ -1,6 +1,22 @@
 ServerEvents.recipes(event => {
+// New Drill Heads
+    // Brass Drill Head
+    event.shaped(
+		Item.of('createoreexcavation:brass_drill'),
+		[
+			'AB ',
+			'BCB',
+			' BB'
+		],
+		{
+			A: 'create:brass_block',
+			B: 'create:brass_ingot',
+			C: 'createoreexcavation:diamond_drill'
+		}
+	).id( 'forge_frontier:shaped/brass_drill' )
+
 // Drill Settings
-      // Gem Ores: Lapis, Redstone, Emerald, and Diamond
+    // Gem Ores: Lapis, Redstone, Emerald, and Diamond
         // Lapis Ore
         event.custom({
             type: 'createoreexcavation:drilling',
@@ -148,4 +164,32 @@ ServerEvents.recipes(event => {
             ticks: 200,
             vein_id: 'createoreexcavation:ore_vein_type/gem_ore'
         }).id('forge_frontier:drilling/raw_diamond')
+
+    // Create Ore Vein
+        // Copper using Plain Drill
+
+        // Zinc using Brass Drill
+
+        // Tin using Brass Drill
+
+    // Vanilla Ore Vein
+        // Coal using Plain drill
+
+        // Iron using Plain drill
+
+        // Gold using Plain drill
+
+    // Non Precious Nether Ore Vein
+        // Glowstone using Diamond Drill
+
+        // Quartz using Diamond Drill
+
+        // Netherack using Plain Drill
+
+    // Precious Nether Ore Vein
+        // Nether Gold using Plain drill
+
+        // Ancient Debris using Netherite Drill
+    
+    
       })
