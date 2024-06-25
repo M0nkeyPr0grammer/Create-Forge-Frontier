@@ -276,6 +276,11 @@ StartupEvents.registry('item', event => {
             .displayName('Crushed Raw Diamond')
             .texture('forge_frontier:item/crushed_ore/crushed_raw_diamond');
 
+    // Drills
+        event.create("createoreexcavation:brass_drill")
+            .displayName("Brass Drill")
+            .texture('createoreexcavation:item/brass_drill');
+
     // Logo
         event.create('forge_frontier:modpack_logo')
             .displayName('Forge Frontier Logo')

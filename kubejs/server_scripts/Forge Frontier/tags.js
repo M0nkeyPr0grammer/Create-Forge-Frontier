@@ -1,5 +1,8 @@
 ServerEvents.tags('item', event => {
 
+// Drill Heads
+event.add('createoreexcavation:drills','createoreexcavation:brass_drill')
+
 // Ad Astra Ores
 event.add('forge:ores/ice_shard', 'ad_astra:moon_ice_shard_ore' )
 event.add('forge:ores/ice_shard', 'ad_astra:deepslate_ice_shard_ore' )
