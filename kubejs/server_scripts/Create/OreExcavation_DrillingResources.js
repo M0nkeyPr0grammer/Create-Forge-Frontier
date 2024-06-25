@@ -120,6 +120,11 @@ ServerEvents.recipes(event => {
                     item: 'minecraft:cobblestone',
                     count: 1,
                     chance: .10
+                },
+                {
+                    item: 'totemfactory:inactive_totem',
+                    count: 1,
+                    chance: .01
                 }
             ],
             priority: 0,
