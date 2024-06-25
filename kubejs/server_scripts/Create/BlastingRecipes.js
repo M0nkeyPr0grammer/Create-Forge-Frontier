@@ -1,6 +1,72 @@
 ServerEvents.recipes(event => {
 
     // Ore Blasting Recipes
+        // Raw Redstone
+        event.custom({
+            type: "minecraft:smelting",
+            cookingtime: 200,
+            experience: 0.1,
+            ingredient: {
+                item: 'createoreexcavation:raw_redstone'
+            },
+            result: 'minecraft:redstone'
+        }).id('forge_frontier:blasting/raw_redstone')
+
+        // Crushed Raw Redstone
+        event.custom({
+            type: "minecraft:smelting",
+            cookingtime: 200,
+            experience: 0.1,
+            ingredient: {
+                item: 'forge_frontier:crushed_raw_redstone'
+            },
+            result: 'minecraft:redstone'
+        }).id('forge_frontier:blasting/crushed_raw_redstone')
+
+        // Raw Diamond
+        event.custom({
+            type: "minecraft:smelting",
+            cookingtime: 200,
+            experience: 0.1,
+            ingredient: {
+                item: 'createoreexcavation:raw_diamond'
+            },
+            result: 'minecraft:diamond'
+        }).id('forge_frontier:blasting/raw_diamond')
+
+        // Crushed Raw Diamond
+        event.custom({
+            type: "minecraft:smelting",
+            cookingtime: 200,
+            experience: 0.1,
+            ingredient: {
+                item: 'forge_frontier:crushed_raw_diamond'
+            },
+            result: 'minecraft:diamond'
+        }).id('forge_frontier:blasting/crushed_raw_diamond')
+
+        // Raw Emerald
+        event.custom({
+            type: "minecraft:smelting",
+            cookingtime: 200,
+            experience: 0.1,
+            ingredient: {
+                item: 'createoreexcavation:raw_emerald'
+            },
+            result: 'minecraft:emerald'
+        }).id('forge_frontier:blasting/raw_emerald')
+
+        // Crushed Raw Emerald
+        event.custom({
+            type: "minecraft:smelting",
+            cookingtime: 200,
+            experience: 0.1,
+            ingredient: {
+                item: 'forge_frontier:crushed_raw_emerald'
+            },
+            result: 'minecraft:emerald'
+        }).id('forge_frontier:blasting/crushed_raw_emerald')
+
         // Crushed Bismuth Pile
         event.custom({
             type: "minecraft:smelting",

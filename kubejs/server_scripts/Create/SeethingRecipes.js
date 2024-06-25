@@ -1,5 +1,62 @@
 ServerEvents.recipes(event => {
 // Ore Seething Recipes
+    // Crushed Raw Redstone
+    event.custom({
+        type: "create_dd:superheating",
+        ingredients: [
+            {
+                item: 'forge_frontier:crushed_raw_redstone'
+            }
+        ],
+        results: [
+            {
+                item: 'minecraft:redstone'
+            },
+            {
+                chance: 0.75,
+                item: 'minecraft:redstone'
+            }
+        ]
+    }).id('forge_frontier:seething/crushed_raw_redstone')
+
+    // Crushed Raw Diamond
+    event.custom({
+        type: "create_dd:superheating",
+        ingredients: [
+            {
+                item: 'forge_frontier:crushed_raw_diamond'
+            }
+        ],
+        results: [
+            {
+                item: 'minecraft:diamond'
+            },
+            {
+                chance: 0.75,
+                item: 'minecraft:diamond'
+            }
+        ]
+    }).id('forge_frontier:seething/crushed_raw_diamond')
+
+    // Crushed Raw Emerald
+    event.custom({
+        type: "create_dd:superheating",
+        ingredients: [
+            {
+                item: 'forge_frontier:crushed_raw_emerald'
+            }
+        ],
+        results: [
+            {
+                item: 'minecraft:emerald'
+            },
+            {
+                chance: 0.75,
+                item: 'minecraft:emerald'
+            }
+        ]
+    }).id('forge_frontier:seething/crushed_raw_emerald')
+
     // Crushed Bismuth Pile
     event.custom({
         type: "create_dd:superheating",

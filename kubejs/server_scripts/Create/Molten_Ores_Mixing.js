@@ -489,6 +489,24 @@ ServerEvents.recipes(event => {
         }).id('forge_frontier:mixing/coal_molten');
 
     // Molten Diamond
+        // Crushed Raw to Molten
+        event.custom({
+            type: "create:mixing",
+            ingredients: [
+                {
+                    item: 'forge_frontier:crushed_raw_diamond',
+                    amount: 1
+                }
+            ],
+            results: [
+                {
+                    fluid: 'forge_frontier:molten_diamond',
+                    amount: 200
+                }
+            ],
+            heatRequirement: "superheated"
+        }).id('forge_frontier:mixing/crushed_raw_diamond_molten');
+
         // Ingot to Molten
         event.custom({
             type: "create:mixing",
@@ -794,6 +812,24 @@ ServerEvents.recipes(event => {
 
     // Molten Emerald
 
+        // Crushed Raw to Molten
+        event.custom({
+            type: "create:mixing",
+            ingredients: [
+                {
+                    item: 'forge_frontier:crushed_raw_emerald',
+                    amount: 1
+                }
+            ],
+            results: [
+                {
+                    fluid: 'forge_frontier:molten_emerald',
+                    amount: 200
+                }
+            ],
+            heatRequirement: "superheated"
+        }).id('forge_frontier:mixing/crushed_raw_emerald_molten');
+
         // Ore to Molten
         event.custom({
             type: "create:mixing",
@@ -871,6 +907,23 @@ ServerEvents.recipes(event => {
         }).id('forge_frontier:mixing/raw_emerald_molten');
 
     // Molten Redstone
+        // Crushed Raw to Molten
+        event.custom({
+            type: "create:mixing",
+            ingredients: [
+                {
+                    item: 'forge_frontier:crushed_raw_redstone',
+                    amount: 1
+                }
+            ],
+            results: [
+                {
+                    fluid: 'forge_frontier:molten_redstone',
+                    amount: 200
+                }
+            ],
+            heatRequirement: "superheated"
+        }).id('forge_frontier:mixing/crushed_raw_redstone_molten');
 
         // Raw to Molten
         event.custom({

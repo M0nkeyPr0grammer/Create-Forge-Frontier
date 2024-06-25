@@ -16,7 +16,51 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'create_oppenheimered:crushing/uranium_ore' })
     event.remove({ id: 'tfmg:milling/charcoal_dust'})
 
-    // Creates Raw Redstone Crushing Recipe
+    // Create Ore Excavation Crushing Recipes
+        // Raw Redstone
+        event.remove({ id: 'createoreexcavation:crushing/redstone_crushing'})
+        event.remove({ id: 'createoreexcavation:milling/redstone_milling' })
+        event.custom({
+            type: "create:crushing",
+            ingredients: [
+                { item: 'createoreexcavation:raw_redstone' }
+            ],
+            processingTime: 400,
+            results: [
+                { item: 'forge_frontier:crushed_raw_redstone', count: 1 },
+                { item: 'create:experience_nugget', chance: 0.75 }
+            ]
+        }).id('forge_frontier:crushing/raw_redstone');
+
+        // Raw Diamond
+        event.remove({ id: 'createoreexcavation:cutting/diamond_cutting'})
+        event.custom({
+            type: "create:crushing",
+            ingredients: [
+                { item: 'createoreexcavation:raw_diamond' }
+            ],
+            processingTime: 400,
+            results: [
+                { item: 'forge_frontier:crushed_raw_diamond', count: 1 },
+                { item: 'create:experience_nugget', chance: 0.75 }
+            ]
+        }).id('forge_frontier:crushing/raw_diamond');
+
+        // Raw Emerald
+        event.remove({ id: 'createoreexcavation:cutting/emerald_cutting'})
+        event.custom({
+            type: "create:crushing",
+            ingredients: [
+                { item: 'createoreexcavation:raw_emerald' }
+            ],
+            processingTime: 400,
+            results: [
+                { item: 'forge_frontier:crushed_raw_emerald', count: 1 },
+                { item: 'create:experience_nugget', chance: 0.75 }
+            ]
+        }).id('forge_frontier:crushing/raw_emerald');
+
+    // Creates Raw Redstone Block Crushing Recipe
 	event.custom({
 		type: "create:crushing",
 		ingredients: [
@@ -27,7 +71,7 @@ ServerEvents.recipes(event => {
 			{ item: 'minecraft:redstone', count: 4 },
 			{ item: 'minecraft:redstone', chance: 0.10 }
 		]
-	}).id('forge_frontier:crushing/raw_redstone');
+	}).id('forge_frontier:crushing/raw_redstone_block');
 
     // Amethyst Crushing Recipe
     event.custom({

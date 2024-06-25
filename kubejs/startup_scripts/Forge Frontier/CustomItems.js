@@ -264,6 +264,18 @@ StartupEvents.registry('item', event => {
             .displayName('Crushed Malachite')
             .texture('forge_frontier:item/crushed_ore/crushed_malachite');
 
+        event.create('forge_frontier:crushed_raw_redstone')
+            .displayName('Crushed Raw Redstone')
+            .texture('forge_frontier:item/crushed_ore/crushed_raw_redstone');
+        
+        event.create('forge_frontier:crushed_raw_emerald')
+            .displayName('Crushed Raw Emerald')
+            .texture('forge_frontier:item/crushed_ore/crushed_raw_emerald');
+            
+        event.create('forge_frontier:crushed_raw_diamond')
+            .displayName('Crushed Raw Diamond')
+            .texture('forge_frontier:item/crushed_ore/crushed_raw_diamond');
+
     // Logo
         event.create('forge_frontier:modpack_logo')
             .displayName('Forge Frontier Logo')
