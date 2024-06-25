@@ -55,7 +55,7 @@ ServerEvents.recipes(event => {
                 },
                 {
                     item: 'createoreexcavation:raw_redstone',
-                    count: 2, 
+                    count: 1, 
                     chance: .20
                 },
                 {
@@ -92,7 +92,7 @@ ServerEvents.recipes(event => {
                 },
                 {
                     item: 'createoreexcavation:raw_emerald',
-                    count: 2, 
+                    count: 1, 
                     chance: .20
                 },
                 {
@@ -129,7 +129,7 @@ ServerEvents.recipes(event => {
                 },
                 {
                     item: 'createoreexcavation:raw_diamond',
-                    count: 2, 
+                    count: 1, 
                     chance: .20
                 },
                 {
