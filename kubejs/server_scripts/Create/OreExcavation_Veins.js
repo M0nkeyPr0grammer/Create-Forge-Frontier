@@ -18,14 +18,14 @@ ServerEvents.recipes(event => {
 
         // Vanilla Ore
         event.custom({
-            type: "createoreexcavation:vein",
+            type: 'createoreexcavation:vein',
             amountMax: 40.0,
             amountMin: 15.0,
-            biomeWhitelist: "minecraft:is_overworld",
+            biomeWhitelist: 'minecraft:is_overworld',
             icon: {
-            item: "minecraft:stone"
+            item: 'minecraft:stone'
             },
-            name: "Vanilla Ore Vein",
+            name: 'Vanilla Ore Vein',
             placement: {
             salt: 1,
             separation: 1,
@@ -36,14 +36,14 @@ ServerEvents.recipes(event => {
 
         // Create Ore
         event.custom({
-            type: "createoreexcavation:vein",
+            type: 'createoreexcavation:vein',
             amountMax: 40.0,
             amountMin: 15.0,
-            biomeWhitelist: "minecraft:is_overworld",
+            biomeWhitelist: 'minecraft:is_overworld',
             icon: {
-            item: "create:cogwheel"
+            item: 'create:cogwheel'
             },
-            name: "Create Ore Vein",
+            name: 'Create Ore Vein',
             placement: {
             salt: 1,
             separation: 1,
@@ -54,14 +54,14 @@ ServerEvents.recipes(event => {
 
         // Gem Vein
         event.custom({
-            type: "createoreexcavation:vein",
+            type: 'createoreexcavation:vein',
             amountMax: 40.0,
             amountMin: 15.0,
-            biomeWhitelist: "minecraft:is_overworld",
+            biomeWhitelist: 'minecraft:is_overworld',
             icon: {
-            item: "enlightened_end:stardust"
+            item: 'enlightened_end:stardust'
             },
-            name: "Gem Ore Vein",
+            name: 'Gem Ore Vein',
             placement: {
             salt: 1,
             separation: 1,
@@ -72,14 +72,14 @@ ServerEvents.recipes(event => {
 
         // Non Precious Nether Ores Vein
         event.custom({
-            type: "createoreexcavation:vein",
+            type: 'createoreexcavation:vein',
             amountMax: 40.0,
             amountMin: 15.0,
-            biomeWhitelist: "minecraft:is_nether",
+            biomeWhitelist: 'minecraft:is_nether',
             icon: {
-            item: "minecraft:netherrack"
+            item: 'minecraft:netherrack'
             },
-            name: "Non Precious Nether Ore Vein",
+            name: 'Non Precious Nether Ore Vein',
             placement: {
             salt: 1,
             separation: 1,
@@ -90,14 +90,14 @@ ServerEvents.recipes(event => {
         
         // Precious Nether Ores Vein
         event.custom({
-            type: "createoreexcavation:vein",
+            type: 'createoreexcavation:vein',
             amountMax: 40.0,
             amountMin: 15.0,
-            biomeWhitelist: "minecraft:is_nether",
+            biomeWhitelist: 'minecraft:is_nether',
             icon: {
-            item: "minecraft:ancient_debris"
+            item: 'minecraft:ancient_debris'
             },
-            name: "Precious Nether Ore Vein",
+            name: 'Precious Nether Ore Vein',
             placement: {
             salt: 1,
             separation: 1,
