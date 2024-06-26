@@ -46,8 +46,8 @@ ServerEvents.recipes(event => {
             name: 'Create Ore Vein',
             placement: {
             salt: 1,
-            separation: 1,
-            spacing: 1
+            separation: 2,
+            spacing: 3
             },
             priority: 0
         }).id('createoreexcavation:ore_vein_type/create_ore')
@@ -64,8 +64,8 @@ ServerEvents.recipes(event => {
             name: 'Gem Ore Vein',
             placement: {
             salt: 1,
-            separation: 1,
-            spacing: 1
+            separation: 3,
+            spacing: 4
             },
             priority: 0
         }).id('createoreexcavation:ore_vein_type/gem_ore')
@@ -100,22 +100,20 @@ ServerEvents.recipes(event => {
             name: 'Precious Nether Ore Vein',
             placement: {
             salt: 1,
-            separation: 1,
-            spacing: 1
+            separation: 2,
+            spacing: 3
             },
             priority: 0
         }).id('createoreexcavation:ore_vein_type/precious_nether_ore')
 
-        // End Ores: Malachite, Irradium, Bismuth, and Tungsten
+        // End Ores: Malachite, Irradium, and Bismuth Ore
 
-        // Moon Ores: Cheese, Desh, Ice Shard
+        // Moon Ores: Cheese and Desh Ore
 
-        // Mercury Ores:
+        // Mars Ores: Ostrum Ore
         
-        // Mars Ores
+        // Venus Ores: Calorite Ore
 
-        // Venus Ores:
-
-        // Glacio Ores:
+        // Glacio Ores: Ice Shard Ore
 
 })
