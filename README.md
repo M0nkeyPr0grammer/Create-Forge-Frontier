@@ -1,9 +1,9 @@
-# Landscapes Reimagined Forge Frontier
+# Create: Forge Frontier
 ![Forge Frontier Logo with CTOV Village in the background](https://raw.githubusercontent.com/M0nkeyPr0grammer/Create-Forge-Frontier/2.0.0/ForgeFrontier_BannerImage.png)
 ## Description
-Discover the pinnacle of Minecraft modding with **Landscapes Reimagined Forge Frontier**, 
+Discover the pinnacle of Minecraft modding with **Create: Forge Frontier**, 
 a masterful sequel to the acclaimed [**Landscapes Reimagined Genesis**](https://modrinth.com/modpack/landscapes-reimagined-genesis). This edition, powered
-by the NeoForged mod loader, delivers an unparalleled gaming experience, featuring sprawling
+by the Forge mod loader, delivers an unparalleled gaming experience, featuring sprawling
 landscapes and intricate structures, courtesy of top-tier mods from YUNG and other notable
 creators. Encounter a rich array of new mobs, delve into numerous quests, and explore custom
 recipes. With cutting-edge additions like Framed Blocks, Sophisticated Backpacks, and 
@@ -12,11 +12,11 @@ generation across all dimensions, immersing you in a world that honors the essen
 Minecraft, all while centering around the innovative Create mod and its many addons. Prepare for an adventure that 
 captivates and elevates your Minecraft journey.
 
-Download **Landscapes Reimagined Forge Frontier** today and dive into an elevated Minecraft adventure, striking a perfect balance between originality and innovation. The adventure awaits!
+Download **Create: Forge Frontier** today and dive into an elevated Minecraft adventure, striking a perfect balance between originality and innovation. The adventure awaits!
 #### **Interested in joining our Patreon. Check out our benefits [here](https://discord.com/servers/landscapes-reimagined-1097668922737696919), then join our [Discord](https://discord.gg/quenZthXgy)**
 
 ### Want to setup a server using our official server host, click the banner below!
-[![BisectHosting Code](https://raw.githubusercontent.com/M0nkeyPr0grammer/Landscapes-Reimagined/main/BH_Landscape_Reimagined.png)](https://bisecthosting.com/M0nkeyPr0grammer?r=modrinth)
+[![BisectHosting Code](https://raw.githubusercontent.com/M0nkeyPr0grammer/Landscapes-Reimagined/main/BH_Landscape_Reimagined.png)](https://bisecthosting.com/M0nkeyPr0grammer?r=curseforge)
 
 # Included Content
   <details>
