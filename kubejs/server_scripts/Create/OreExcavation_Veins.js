@@ -186,7 +186,7 @@ ServerEvents.recipes(event => {
             type: 'createoreexcavation:vein',
             amountMax: 40.0,
             amountMin: 15.0,
-            biomeWhitelist: 'ad_astra:mars_ore_veins',
+            biomeWhitelist: 'ad_astra:has_structure/mars_temple',
             icon: {
             item: 'ad_astra:mars_globe'
             },
