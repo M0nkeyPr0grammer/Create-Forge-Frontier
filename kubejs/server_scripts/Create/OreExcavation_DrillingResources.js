@@ -543,6 +543,267 @@ ServerEvents.recipes(event => {
             ticks: 800,
             vein_id: 'createoreexcavation:ore_vein_type/precious_nether_ore'
         }).id('forge_frontier:drilling/ancient_debris')
-        
+
+        // End Ores: Malachite, Irradium, and Bismuth Ore
+            // Malachite
+            event.custom({
+                type: 'createoreexcavation:drilling',
+                drill: {
+                item: 'createoreexcavation:netherite_drill' // Temp Drill, will change tomorrow
+                },
+                /*fluid: {
+                    fluid: 'createaddition:bioethanol',
+                    amount: 1000
+                },*/
+                output: [
+                    {
+                        item: 'enlightened_end:malachite_ore',
+                        count: 1
+                    },
+                    {
+                        item: 'enlightened_end:malachite_ore',
+                        count: 1, 
+                        chance: .20
+                    },
+                    {
+                        item: 'create:experience_nugget',
+                        count: 1,
+                        chance: .50
+                    },
+                    {
+                        item: 'minecraft:end_stone',
+                        count: 1,
+                        chance: .10
+                    },
+                    {
+                        item:'cagedmobs:nether_star_fragment',
+                        count: 1,
+                        chance: .01
+                    }
+                ],
+                priority: 0,
+                stress: 256,
+                ticks: 1000,
+                vein_id: 'createoreexcavation:ore_vein_type/malachite_ore'
+            }).id('forge_frontier:drilling/malachite')
+
+            // Irradium
+            event.custom({
+                type: 'createoreexcavation:drilling',
+                drill: {
+                item: 'createoreexcavation:netherite_drill' // Temp Drill, will change tomorrow
+                },
+                /*fluid: {
+                    fluid: 'createaddition:bioethanol',
+                    amount: 1000
+                },*/
+                output: [
+                    {
+                        item: 'enlightened_end:irradium_ore',
+                        count: 1
+                    },
+                    {
+                        item: 'enlightened_end:irradium_ore',
+                        count: 1, 
+                        chance: .20
+                    },
+                    {
+                        item: 'create:experience_nugget',
+                        count: 1,
+                        chance: .50
+                    },
+                    {
+                        item: 'minecraft:end_stone',
+                        count: 1,
+                        chance: .10
+                    },
+                    {
+                        item:'cagedmobs:nether_star_fragment',
+                        count: 1,
+                        chance: .01
+                    }
+                ],
+                priority: 0,
+                stress: 256,
+                ticks: 1000,
+                vein_id: 'createoreexcavation:ore_vein_type/irradium_ore'
+            }).id('forge_frontier:drilling/irradium')
+
+            // Bismuth Ore
+            event.custom({
+                type: 'createoreexcavation:drilling',
+                drill: {
+                item: 'createoreexcavation:netherite_drill' // Temp Drill, will change tomorrow
+                },
+                /*fluid: {
+                    fluid: 'createaddition:bioethanol',
+                    amount: 1000
+                },*/
+                output: [
+                    {
+                        item: 'enlightened_end:bismuth_ore',
+                        count: 1
+                    },
+                    {
+                        item: 'enlightened_end:bismuth_ore',
+                        count: 1, 
+                        chance: .20
+                    },
+                    {
+                        item: 'create:experience_nugget',
+                        count: 1,
+                        chance: .50
+                    },
+                    {
+                        item: 'minecraft:end_stone',
+                        count: 1,
+                        chance: .10
+                    },
+                    {
+                        item:'cagedmobs:nether_star_fragment',
+                        count: 1,
+                        chance: .01
+                    }
+                ],
+                priority: 0,
+                stress: 256,
+                ticks: 1000,
+                vein_id: 'createoreexcavation:ore_vein_type/bismuth_ore'
+            }).id('forge_frontier:drilling/bismuth')
+
+        // Moon Ores: Cheese and Desh Ore
+        event.custom({
+            type: 'createoreexcavation:drilling',
+            drill: {
+            item: 'createoreexcavation:netherite_drill' // Temp Drill, will change tomorrow
+            },
+            /*fluid: {
+                fluid: 'createaddition:bioethanol',
+                amount: 1000
+            },*/
+            output: [
+                {
+                    item: 'ad_astra:moon_cheese_ore',
+                    count: 3
+                },
+                {
+                    item: 'ad_astra:raw_desh',
+                    count: 2,
+                    chance: .75
+                },
+                {
+                    item: 'create:experience_nugget',
+                    count: 1,
+                    chance: .50
+                },
+                {
+                    item: 'ad_astra:moon_stone',
+                    count: 1,
+                    chance: .10
+                }
+            ],
+            priority: 0,
+            stress: 256,
+            ticks: 700,
+            vein_id: 'createoreexcavation:ore_vein_type/moon_ore'
+        }).id('forge_frontier:drilling/moon')
+
+        // Mars Ores: Ostrum Ore
+        event.custom({
+            type: 'createoreexcavation:drilling',
+            drill: {
+            item: 'createoreexcavation:netherite_drill' // Temp Drill, will change tomorrow
+            },
+            /*fluid: {
+                fluid: 'createaddition:bioethanol',
+                amount: 1000
+            },*/
+            output: [
+                {
+                    item: 'ad_astra:raw_ostrum',
+                    count: 2, 
+                    chance: .75
+                },
+                {
+                    item: 'create:experience_nugget',
+                    count: 1,
+                    chance: .50
+                },
+                {
+                    item: 'ad_astra:mars_stone',
+                    count: 1,
+                    chance: .10
+                }
+            ],
+            priority: 0,
+            stress: 256,
+            ticks: 700,
+            vein_id: 'createoreexcavation:ore_vein_type/mars_ore'
+        }).id('forge_frontier:drilling/ostrum')
+
+        // Venus Ores: Calorite Ore
+        event.custom({
+            type: 'createoreexcavation:drilling',
+            drill: {
+            item: 'createoreexcavation:netherite_drill' // Temp Drill, will change tomorrow
+            },
+            /*fluid: {
+                fluid: 'createaddition:bioethanol',
+                amount: 1000
+            },*/
+            output: [
+                {
+                    item: 'ad_astra:raw_calorite',
+                    count: 2, 
+                    chance: .75
+                },
+                {
+                    item: 'create:experience_nugget',
+                    count: 1,
+                    chance: .50
+                },
+                {
+                    item: 'ad_astra:venus_stone',
+                    count: 1,
+                    chance: .10
+                }
+            ],
+            priority: 0,
+            stress: 256,
+            ticks: 800,
+            vein_id: 'createoreexcavation:ore_vein_type/venus_ore'
+        }).id('forge_frontier:drilling/calorite')
+
+        // Glacio Ores: Ice Shard Ore
+        event.custom({
+            type: 'createoreexcavation:drilling',
+            drill: {
+            item: 'createoreexcavation:netherite_drill' // Temp Drill, will change tomorrow
+            },
+            /*fluid: {
+                fluid: 'createaddition:bioethanol',
+                amount: 1000
+            },*/
+            output: [
+                {
+                    item: 'ad_astra:glacio_ice_shard_ore',
+                    count: 1,
+                },
+                {
+                    item: 'create:experience_nugget',
+                    count: 1,
+                    chance: .50
+                },
+                {
+                    item: 'ad_astra:glacio_stone',
+                    count: 1,
+                    chance: .10
+                }
+            ],
+            priority: 0,
+            stress: 256,
+            ticks: 500,
+            vein_id: 'createoreexcavation:ore_vein_type/glacio_ore'
+        }).id('forge_frontier:drilling/ice_shard')
     
       })
