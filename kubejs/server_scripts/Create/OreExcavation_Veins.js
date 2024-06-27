@@ -107,13 +107,130 @@ ServerEvents.recipes(event => {
         }).id('createoreexcavation:ore_vein_type/precious_nether_ore')
 
         // End Ores: Malachite, Irradium, and Bismuth Ore
+            // Malachite Ore
+            event.custom({
+                type: 'createoreexcavation:vein',
+                amountMax: 40.0,
+                amountMin: 15.0,
+                biomeWhitelist: 'minecraft:is_end',
+                icon: {
+                item: 'enlightened_end:malachite_ore'
+                },
+                name: 'Malachite Ore',
+                placement: {
+                salt: 1,
+                separation: 2,
+                spacing: 2
+                },
+                priority: 0
+            }).id('createoreexcavation:ore_vein_type/malachite_ore')
+
+            // Irradium Ore
+            event.custom({
+                type: 'createoreexcavation:vein',
+                amountMax: 40.0,
+                amountMin: 15.0,
+                biomeWhitelist: 'minecraft:is_end',
+                icon: {
+                item: 'enlightened_end:irradium_ore'
+                },
+                name: 'Irradium Ore',
+                placement: {
+                salt: 1,
+                separation: 2,
+                spacing: 2
+                },
+                priority: 0
+            }).id('createoreexcavation:ore_vein_type/irradium_ore')
+
+            // Bismuth Ore
+            event.custom({
+                type: 'createoreexcavation:vein',
+                amountMax: 40.0,
+                amountMin: 15.0,
+                biomeWhitelist: 'minecraft:is_end',
+                icon: {
+                item: 'enlightened_end:bismuth_ore'
+                },
+                name: 'Bismuth Ore',
+                placement: {
+                salt: 1,
+                separation: 2,
+                spacing: 2
+                },
+                priority: 0
+            }).id('createoreexcavation:ore_vein_type/bismuth_ore')
 
         // Moon Ores: Cheese and Desh Ore
+        event.custom({
+            type: 'createoreexcavation:vein',
+            amountMax: 40.0,
+            amountMin: 15.0,
+            biomeWhitelist: 'ad_astra:moon_ore_veins',
+            icon: {
+            item: 'ad_astra:moon_globe'
+            },
+            name: 'Moon Ore',
+            placement: {
+            salt: 1,
+            separation: 2,
+            spacing: 2
+            },
+            priority: 0
+        }).id('createoreexcavation:ore_vein_type/moon_ore')
 
         // Mars Ores: Ostrum Ore
+        event.custom({
+            type: 'createoreexcavation:vein',
+            amountMax: 40.0,
+            amountMin: 15.0,
+            biomeWhitelist: 'ad_astra:mars_ore_veins',
+            icon: {
+            item: 'ad_astra:mars_globe'
+            },
+            name: 'Mars Ore',
+            placement: {
+            salt: 1,
+            separation: 2,
+            spacing: 2
+            },
+            priority: 0
+        }).id('createoreexcavation:ore_vein_type/mars_ore')
         
         // Venus Ores: Calorite Ore
+        event.custom({
+            type: 'createoreexcavation:vein',
+            amountMax: 40.0,
+            amountMin: 15.0,
+            biomeWhitelist: 'ad_astra:venus_ore_veins',
+            icon: {
+            item: 'ad_astra:venus_globe'
+            },
+            name: 'Venus Ore',
+            placement: {
+            salt: 1,
+            separation: 2,
+            spacing: 2
+            },
+            priority: 0
+        }).id('createoreexcavation:ore_vein_type/venus_ore')
 
         // Glacio Ores: Ice Shard Ore
+        event.custom({
+            type: 'createoreexcavation:vein',
+            amountMax: 40.0,
+            amountMin: 15.0,
+            biomeWhitelist: 'ad_astra:glacio_ore_veins',
+            icon: {
+            item: 'ad_astra:glacio_globe'
+            },
+            name: 'Glacio Ore',
+            placement: {
+            salt: 1,
+            separation: 2,
+            spacing: 2
+            },
+            priority: 0
+        }).id('createoreexcavation:ore_vein_type/glacio_ore')
 
 })
