@@ -276,10 +276,26 @@ StartupEvents.registry('item', event => {
             .displayName('Crushed Raw Diamond')
             .texture('forge_frontier:item/crushed_ore/crushed_raw_diamond');
 
-    // Drills
+    // Drills Heads
         event.create("createoreexcavation:brass_drill")
             .displayName("Brass Drill")
             .texture('createoreexcavation:item/brass_drill');
+        
+        event.create("createoreexcavation:desh_drill")
+            .displayName("Desh Drill")
+            .texture('createoreexcavation:item/desh_drill');
+
+        event.create("createoreexcavation:ostrum_drill")
+            .displayName("Ostrum Drill")
+            .texture('createoreexcavation:item/ostrum_drill');
+
+        event.create("createoreexcavation:calorite_drill")
+            .displayName("Calorite Drill")
+            .texture('createoreexcavation:item/calorite_drill');
+
+        event.create("createoreexcavation:dragon_drill")
+            .displayName("Dragon Drill")
+            .texture('createoreexcavation:item/dragon_drill');
 
     // Logo
         event.create('forge_frontier:modpack_logo')
