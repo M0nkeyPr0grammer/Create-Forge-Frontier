@@ -21,7 +21,8 @@ ServerEvents.recipes(event => {
             type: 'createoreexcavation:vein',
             amountMax: 40.0,
             amountMin: 15.0,
-            biomeWhitelist: 'minecraft:is_forest',
+            biomeWhitelist: 'minecraft:is_overworld',
+            biomeBlacklist: 'minecraft:is_forest',
             icon: {
             item: 'minecraft:stone'
             },
@@ -39,16 +40,15 @@ ServerEvents.recipes(event => {
             type: 'createoreexcavation:vein',
             amountMax: 40.0,
             amountMin: 15.0,
-            biomeWhitelist: 'minecraft:is_overworld',
-            biomeBlacklist: 'minecraft:is_forest',
+            biomeWhitelist: 'minecraft:is_forest',
             icon: {
             item: 'create:cogwheel'
             },
             name: 'Create Ore Vein',
             placement: {
             salt: 1,
-            separation: 2,
-            spacing: 3
+            separation: 1,
+            spacing: 1
             },
             priority: 0
         }).id('createoreexcavation:ore_vein_type/create_ore')
@@ -65,8 +65,8 @@ ServerEvents.recipes(event => {
             name: 'Gem Ore Vein',
             placement: {
             salt: 1,
-            separation: 3,
-            spacing: 4
+            separation: 1,
+            spacing: 1
             },
             priority: 0
         }).id('createoreexcavation:ore_vein_type/gem_ore')
