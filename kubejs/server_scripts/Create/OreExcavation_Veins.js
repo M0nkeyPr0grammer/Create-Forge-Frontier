@@ -21,7 +21,7 @@ ServerEvents.recipes(event => {
             type: 'createoreexcavation:vein',
             amountMax: 40.0,
             amountMin: 15.0,
-            biomeWhitelist: 'minecraft:is_overworld',
+            biomeWhitelist: 'minecraft:is_forest',
             icon: {
             item: 'minecraft:stone'
             },
@@ -57,7 +57,7 @@ ServerEvents.recipes(event => {
             type: 'createoreexcavation:vein',
             amountMax: 40.0,
             amountMin: 15.0,
-            biomeWhitelist: 'minecraft:is_overworld',
+            biomeWhitelist: 'minecraft:is_mountain',
             icon: {
             item: 'enlightened_end:stardust'
             },
