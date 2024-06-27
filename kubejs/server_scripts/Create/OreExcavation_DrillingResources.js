@@ -15,6 +15,14 @@ ServerEvents.recipes(event => {
 		}
 	).id( 'forge_frontier:shaped/brass_drill' )
 
+    // Desh Drill Head
+
+    // Ostrum Drill Head
+
+    // Calorite Drill Head
+
+    // Dragon Drill Head
+
 // Drill Settings
     // Gem Ores: Lapis, Redstone, Emerald, and Diamond
         // Lapis Ore
@@ -551,10 +559,10 @@ ServerEvents.recipes(event => {
                 drill: {
                 item: 'createoreexcavation:netherite_drill' // Temp Drill, will change tomorrow
                 },
-                /*fluid: {
-                    fluid: 'createaddition:bioethanol',
-                    amount: 1000
-                },*/
+                fluid: {
+                    fluid: 'createconfectionery:ruby_chocolate',
+                    amount: 500
+                },
                 output: [
                     {
                         item: 'enlightened_end:malachite_ore',
@@ -593,10 +601,10 @@ ServerEvents.recipes(event => {
                 drill: {
                 item: 'createoreexcavation:netherite_drill' // Temp Drill, will change tomorrow
                 },
-                /*fluid: {
-                    fluid: 'createaddition:bioethanol',
-                    amount: 1000
-                },*/
+                fluid: {
+                    fluid: 'createconfectionery:ruby_chocolate',
+                    amount: 500
+                },
                 output: [
                     {
                         item: 'enlightened_end:irradium_ore',
@@ -635,10 +643,10 @@ ServerEvents.recipes(event => {
                 drill: {
                 item: 'createoreexcavation:netherite_drill' // Temp Drill, will change tomorrow
                 },
-                /*fluid: {
-                    fluid: 'createaddition:bioethanol',
-                    amount: 1000
-                },*/
+                fluid: {
+                    fluid: 'createconfectionery:ruby_chocolate',
+                    amount: 500
+                },
                 output: [
                     {
                         item: 'enlightened_end:bismuth_ore',
@@ -677,10 +685,10 @@ ServerEvents.recipes(event => {
             drill: {
             item: 'createoreexcavation:netherite_drill' // Temp Drill, will change tomorrow
             },
-            /*fluid: {
-                fluid: 'createaddition:bioethanol',
+            fluid: {
+                fluid: 'createdieselgenerators:plant_oil',
                 amount: 1000
-            },*/
+            },
             output: [
                 {
                     item: 'ad_astra:moon_cheese_ore',
@@ -714,10 +722,10 @@ ServerEvents.recipes(event => {
             drill: {
             item: 'createoreexcavation:netherite_drill' // Temp Drill, will change tomorrow
             },
-            /*fluid: {
-                fluid: 'createaddition:bioethanol',
+            fluid: {
+                fluid: 'createdieselgenerators:ethanol',
                 amount: 1000
-            },*/
+            },
             output: [
                 {
                     item: 'ad_astra:raw_ostrum',
@@ -747,10 +755,10 @@ ServerEvents.recipes(event => {
             drill: {
             item: 'createoreexcavation:netherite_drill' // Temp Drill, will change tomorrow
             },
-            /*fluid: {
-                fluid: 'createaddition:bioethanol',
+            fluid: {
+                fluid: 'createdieselgenerators:biodiesel',
                 amount: 1000
-            },*/
+            },
             output: [
                 {
                     item: 'ad_astra:raw_calorite',
@@ -778,12 +786,12 @@ ServerEvents.recipes(event => {
         event.custom({
             type: 'createoreexcavation:drilling',
             drill: {
-            item: 'createoreexcavation:netherite_drill' // Temp Drill, will change tomorrow
+            item: 'createoreexcavation:diamond_drill'
             },
-            /*fluid: {
-                fluid: 'createaddition:bioethanol',
+            fluid: {
+                fluid: 'minecraft:water',
                 amount: 1000
-            },*/
+            },
             output: [
                 {
                     item: 'ad_astra:glacio_ice_shard_ore',
