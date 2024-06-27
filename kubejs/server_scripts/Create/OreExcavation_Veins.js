@@ -77,6 +77,7 @@ ServerEvents.recipes(event => {
             amountMax: 40.0,
             amountMin: 15.0,
             biomeWhitelist: 'minecraft:is_nether',
+            biomeBlacklist: 'incendium:all_incendium_biomes',
             icon: {
             item: 'minecraft:netherrack'
             },
@@ -94,7 +95,7 @@ ServerEvents.recipes(event => {
             type: 'createoreexcavation:vein',
             amountMax: 40.0,
             amountMin: 15.0,
-            biomeWhitelist: 'minecraft:is_nether',
+            biomeWhitelist: 'incendium:all_incendium_biomes',
             icon: {
             item: 'minecraft:ancient_debris'
             },
@@ -102,7 +103,7 @@ ServerEvents.recipes(event => {
             placement: {
             salt: 1,
             separation: 2,
-            spacing: 3
+            spacing: 1
             },
             priority: 0
         }).id('createoreexcavation:ore_vein_type/precious_nether_ore')
