@@ -40,7 +40,7 @@ ServerEvents.recipes(event => {
             amountMax: 40.0,
             amountMin: 15.0,
             biomeWhitelist: 'minecraft:is_overworld',
-            biomeBlacklist: ('minecraft:is_forest', 'minecraft:is_mountain'),
+            biomeBlacklist: 'minecraft:is_forest',
             icon: {
             item: 'create:cogwheel'
             },
