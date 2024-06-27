@@ -16,12 +16,65 @@ ServerEvents.recipes(event => {
 	).id( 'forge_frontier:shaped/brass_drill' )
 
     // Desh Drill Head
+    event.shaped(
+		Item.of('createoreexcavation:desh_drill'),
+		[
+			'AB ',
+			'BCB',
+			' BB'
+		],
+		{
+			A: 'ad_astra:desh_block',
+			B: 'ad_astra:desh_ingot',
+			C: 'createoreexcavation:brass_drill'
+		}
+	).id( 'forge_frontier:shaped/desh_drill' )
 
     // Ostrum Drill Head
+    event.shaped(
+		Item.of('createoreexcavation:ostrum_drill'),
+		[
+			'AB ',
+			'BCB',
+			' BB'
+		],
+		{
+			A: 'ad_astra:ostrum_block',
+			B: 'ad_astra:ostrum_ingot',
+			C: 'createoreexcavation:desh_drill'
+		}
+	).id( 'forge_frontier:shaped/ostrum_drill' )
 
     // Calorite Drill Head
+    event.shaped(
+		Item.of('createoreexcavation:calorite_drill'),
+		[
+			'AB ',
+			'BCB',
+			' BB'
+		],
+		{
+			A: 'ad_astra:calorite_block',
+			B: 'ad_astra:calorite_ingot',
+			C: 'createoreexcavation:ostrum_drill'
+		}
+	).id( 'forge_frontier:shaped/calorite_drill' )
 
     // Dragon Drill Head
+    event.shaped(
+		Item.of('createoreexcavation:dragon_drill'),
+		[
+			'AD ',
+			'BCB',
+			' DD'
+		],
+		{
+			A: 'minecraft:dragon_head',
+			B: 'minecraft:dragon_breath',
+			C: 'createoreexcavation:calorite_drill',
+            D: 'quark:dragon_scale'
+		}
+	).id( 'forge_frontier:shaped/dragon_drill' )
 
 // Drill Settings
     // Gem Ores: Lapis, Redstone, Emerald, and Diamond
@@ -170,6 +223,11 @@ ServerEvents.recipes(event => {
                     item: 'minecraft:cobblestone',
                     count: 1,
                     chance: .10
+                },
+                {
+                    item: 'aquaculture:neptunium_nugget',
+                    count: 1,
+                    chance: .02
                 }
             ],
             priority: 0,
@@ -208,6 +266,11 @@ ServerEvents.recipes(event => {
                     item: 'minecraft:andesite',
                     count: 1,
                     chance: .10
+                },
+                {
+                    item: 'create:andesite_alloy',
+                    count: 1,
+                    chance: .05
                 }
             ],
             priority: 0,
@@ -243,6 +306,11 @@ ServerEvents.recipes(event => {
                 },
                 {
                     item: 'minecraft:andesite',
+                    count: 1,
+                    chance: .10
+                },
+                {
+                    item: 'create:andesite_alloy',
                     count: 1,
                     chance: .10
                 }
@@ -282,6 +350,11 @@ ServerEvents.recipes(event => {
                     item: 'minecraft:andesite',
                     count: 1,
                     chance: .10
+                },
+                {
+                    item: 'create:andesite_alloy',
+                    count: 1,
+                    chance: .15
                 }
             ],
             priority: 0,
@@ -557,10 +630,10 @@ ServerEvents.recipes(event => {
             event.custom({
                 type: 'createoreexcavation:drilling',
                 drill: {
-                item: 'createoreexcavation:netherite_drill' // Temp Drill, will change tomorrow
+                item: 'createoreexcavation:dragon_drill' 
                 },
                 fluid: {
-                    fluid: 'createconfectionery:ruby_chocolate',
+                    fluid: 'create_confectionery:ruby_chocolate',
                     amount: 500
                 },
                 output: [
@@ -584,9 +657,9 @@ ServerEvents.recipes(event => {
                         chance: .10
                     },
                     {
-                        item:'cagedmobs:nether_star_fragment',
-                        count: 1,
-                        chance: .01
+                        item:'create_dd:mithril_nugget',
+                        count: 2,
+                        chance: .15
                     }
                 ],
                 priority: 0,
@@ -599,10 +672,10 @@ ServerEvents.recipes(event => {
             event.custom({
                 type: 'createoreexcavation:drilling',
                 drill: {
-                item: 'createoreexcavation:netherite_drill' // Temp Drill, will change tomorrow
+                item: 'createoreexcavation:dragon_drill'
                 },
                 fluid: {
-                    fluid: 'createconfectionery:ruby_chocolate',
+                    fluid: 'create_confectionery:ruby_chocolate',
                     amount: 500
                 },
                 output: [
@@ -626,9 +699,9 @@ ServerEvents.recipes(event => {
                         chance: .10
                     },
                     {
-                        item:'cagedmobs:nether_star_fragment',
-                        count: 1,
-                        chance: .01
+                        item:'create_dd:mithril_nugget',
+                        count: 2,
+                        chance: .15
                     }
                 ],
                 priority: 0,
@@ -641,10 +714,10 @@ ServerEvents.recipes(event => {
             event.custom({
                 type: 'createoreexcavation:drilling',
                 drill: {
-                item: 'createoreexcavation:netherite_drill' // Temp Drill, will change tomorrow
+                item: 'createoreexcavation:dragon_drill'
                 },
                 fluid: {
-                    fluid: 'createconfectionery:ruby_chocolate',
+                    fluid: 'create_confectionery:ruby_chocolate',
                     amount: 500
                 },
                 output: [
@@ -668,9 +741,9 @@ ServerEvents.recipes(event => {
                         chance: .10
                     },
                     {
-                        item:'cagedmobs:nether_star_fragment',
-                        count: 1,
-                        chance: .01
+                        item:'create_dd:mithril_nugget',
+                        count: 2,
+                        chance: .15
                     }
                 ],
                 priority: 0,
@@ -683,7 +756,7 @@ ServerEvents.recipes(event => {
         event.custom({
             type: 'createoreexcavation:drilling',
             drill: {
-            item: 'createoreexcavation:netherite_drill' // Temp Drill, will change tomorrow
+            item: 'createoreexcavation:desh_drill' 
             },
             fluid: {
                 fluid: 'createdieselgenerators:plant_oil',
@@ -708,6 +781,11 @@ ServerEvents.recipes(event => {
                     item: 'ad_astra:moon_stone',
                     count: 1,
                     chance: .10
+                },
+                {
+                    item:'create_dd:industrial_iron_nugget',
+                    count: 4,
+                    chance: .15
                 }
             ],
             priority: 0,
@@ -720,7 +798,7 @@ ServerEvents.recipes(event => {
         event.custom({
             type: 'createoreexcavation:drilling',
             drill: {
-            item: 'createoreexcavation:netherite_drill' // Temp Drill, will change tomorrow
+            item: 'createoreexcavation:ostrum_drill'
             },
             fluid: {
                 fluid: 'createdieselgenerators:ethanol',
@@ -741,6 +819,11 @@ ServerEvents.recipes(event => {
                     item: 'ad_astra:mars_stone',
                     count: 1,
                     chance: .10
+                },
+                {
+                    item:'create_dd:steel_nugget',
+                    count: 4,
+                    chance: .15
                 }
             ],
             priority: 0,
@@ -753,7 +836,7 @@ ServerEvents.recipes(event => {
         event.custom({
             type: 'createoreexcavation:drilling',
             drill: {
-            item: 'createoreexcavation:netherite_drill' // Temp Drill, will change tomorrow
+            item: 'createoreexcavation:calorite_drill'
             },
             fluid: {
                 fluid: 'createdieselgenerators:biodiesel',
@@ -774,6 +857,11 @@ ServerEvents.recipes(event => {
                     item: 'ad_astra:venus_stone',
                     count: 1,
                     chance: .10
+                },
+                {
+                    item:'create_dd:bronze_nugget',
+                    count: 4,
+                    chance: .15
                 }
             ],
             priority: 0,
