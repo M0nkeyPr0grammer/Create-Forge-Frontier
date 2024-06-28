@@ -14,7 +14,6 @@ ServerEvents.tags('worldgen/biome', event => {
     event.add('incendium:structure/has_sanctum', 'ad_astra:glacio_snowy_barrens');
     event.add('incendium:structure/has_reactor', 'ad_astra:venus_wastelands');
 
-  
     // Removes Old Structure Gen
     event.remove('cataclysm:has_structure/burning_arena_biomes', 'minecraft:nether_wastes');
     event.remove('cataclysm:has_structure/soul_black_smith_biomes', [
