@@ -1,0 +1,16 @@
+{
+    "values": [
+      "minecraft:grove",
+      "minecraft:old_growth_pine_taiga",
+      "minecraft:old_growth_spruce_taiga",
+      "terralith:alpha_islands",
+      "terralith:alpine_highlands",
+      "#c:badlands",
+      "#c:savanna",
+      "#c:plains",
+      "#forge:is_coniferous",
+      "#forge:is_plains",
+      "#minecraft:is_forest",
+      "#minecraft:is_jungle"
+    ]
+  }

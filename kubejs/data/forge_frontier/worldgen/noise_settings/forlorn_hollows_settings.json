@@ -1,0 +1,216 @@
+{
+  "sea_level": -256,
+  "disable_mob_generation": false,
+  "aquifers_enabled": false,
+  "ore_veins_enabled": false,
+  "legacy_random_source": true,
+  "default_block": {
+    "Name": "minecraft:stone"
+  },
+  "default_fluid": {
+    "Name": "minecraft:water",
+    "Properties": {
+      "level": "0"
+    }
+  },
+  "noise": {
+    "min_y": -64,
+    "height": 128,
+    "size_horizontal": 1,
+    "size_vertical": 2
+  },
+  "noise_router": {
+    "barrier": 0,
+    "fluid_level_floodedness": 0,
+    "fluid_level_spread": 0,
+    "lava": 0,
+    "temperature": 0,
+    "vegetation": 0,
+    "continents": 0,
+    "erosion": 0,
+    "depth": 0,
+    "ridges": 0,
+    "initial_density_without_jaggedness": 0,
+    "final_density": {
+      "type": "minecraft:mul",
+      "argument1": {
+        "type": "minecraft:y_clamped_gradient",
+        "from_y": 62,
+        "to_y": 63,
+        "from_value": 1,
+        "to_value": 0
+      },
+      "argument2": {
+        "type": "minecraft:squeeze",
+        "argument": {
+          "type": "minecraft:mul",
+          "argument1": 0.64,
+          "argument2": {
+            "type": "minecraft:interpolated",
+            "argument": {
+              "type": "minecraft:blend_density",
+              "argument": {
+                "type": "minecraft:add",
+                "argument1": 2.5,
+                "argument2": {
+                  "type": "minecraft:mul",
+                  "argument1": {
+                    "type": "minecraft:y_clamped_gradient",
+                    "from_y": -72,
+                    "to_y": -40,
+                    "from_value": 0,
+                    "to_value": 1
+                  },
+                  "argument2": {
+                    "type": "minecraft:add",
+                    "argument1": -2.5,
+                    "argument2": {
+                      "type": "minecraft:add",
+                      "argument1": 0.9375,
+                      "argument2": {
+                        "type": "minecraft:mul",
+                        "argument1": {
+                          "type": "minecraft:y_clamped_gradient",
+                          "from_y": 40,
+                          "to_y": 64,
+                          "from_value": 1,
+                          "to_value": 0
+                        },
+                        "argument2": {
+                          "type": "minecraft:add",
+                          "argument1": -0.9375,
+                          "argument2": "minecraft:nether/base_3d_noise"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "vein_toggle": {
+      "type": "minecraft:interpolated",
+      "argument": {
+        "type": "minecraft:range_choice",
+        "input": "minecraft:y",
+        "min_inclusive": -60,
+        "max_exclusive": 51,
+        "when_in_range": {
+          "type": "minecraft:noise",
+          "noise": "minecraft:ore_veininess",
+          "xz_scale": 1.5,
+          "y_scale": 1.5
+        },
+        "when_out_of_range": 0
+      }
+    },
+    "vein_ridged": {
+      "type": "minecraft:add",
+      "argument1": -0.07999999821186066,
+      "argument2": {
+        "type": "minecraft:max",
+        "argument1": {
+          "type": "minecraft:abs",
+          "argument": {
+            "type": "minecraft:interpolated",
+            "argument": {
+              "type": "minecraft:range_choice",
+              "input": "minecraft:y",
+              "min_inclusive": -60,
+              "max_exclusive": 51,
+              "when_in_range": {
+                "type": "minecraft:noise",
+                "noise": "minecraft:ore_vein_a",
+                "xz_scale": 4,
+                "y_scale": 4
+              },
+              "when_out_of_range": 0
+            }
+          }
+        },
+        "argument2": {
+          "type": "minecraft:abs",
+          "argument": {
+            "type": "minecraft:interpolated",
+            "argument": {
+              "type": "minecraft:range_choice",
+              "input": "minecraft:y",
+              "min_inclusive": -60,
+              "max_exclusive": 51,
+              "when_in_range": {
+                "type": "minecraft:noise",
+                "noise": "minecraft:ore_vein_b",
+                "xz_scale": 4,
+                "y_scale": 4
+              },
+              "when_out_of_range": 0
+            }
+          }
+        }
+      }
+    },
+    "vein_gap": {
+      "type": "minecraft:noise",
+      "noise": "minecraft:ore_gap",
+      "xz_scale": 1,
+      "y_scale": 1
+    }
+  },
+  "spawn_target": [
+    {
+      "temperature": [
+        -1,
+        1
+      ],
+      "humidity": [
+        -1,
+        1
+      ],
+      "continentalness": [
+        -0.11,
+        1
+      ],
+      "erosion": [
+        -1,
+        1
+      ],
+      "weirdness": [
+        -1,
+        -0.16
+      ],
+      "depth": 0,
+      "offset": 0
+    },
+    {
+      "temperature": [
+        -1,
+        1
+      ],
+      "humidity": [
+        -1,
+        1
+      ],
+      "continentalness": [
+        -0.11,
+        1
+      ],
+      "erosion": [
+        -1,
+        1
+      ],
+      "weirdness": [
+        0.16,
+        1
+      ],
+      "depth": 0,
+      "offset": 0
+    }
+  ],
+  "surface_rule": {
+    "type": "minecraft:sequence",
+    "sequence": []
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "feature": {
+    "type": "minecraft:fill_layer",
+    "config": {
+      "state": {
+        "Name": "minecraft:bedrock"
+      },
+      "height": 127
+    }
+  },
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 1
+    },
+    {
+      "type": "biome"
+    }
+  ]
+}

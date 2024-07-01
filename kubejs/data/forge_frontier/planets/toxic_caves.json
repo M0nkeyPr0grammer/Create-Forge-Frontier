@@ -1,0 +1,10 @@
+{
+  "dimension": "forge_frontier:toxic_caves",
+  "gravity": 6.9,
+  "orbit": "forge_frontier:toxic_caves_orbit",
+  "oxygen": true,
+  "solar_power": 420,
+  "solar_system": "forge_frontier:alexcaves",
+  "temperature": 34,
+  "tier": 3
+}
