@@ -1,11 +1,72 @@
 {
-  "type": "forge_frontier:cave_dimension_type",
+  "type": "forge_frontier:magnetic_caves_type",
   "generator": {
     "type": "minecraft:noise",
     "settings": "forge_frontier:magnetic_caves_settings",
     "biome_source": {
-      "type": "minecraft:fixed",
-      "biome": "alexscaves:magnetic_caves"
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "incendium:withered_forest",
+          "parameters": {
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -1.2,
+              1
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              -1,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              0,
+              0.2
+            ],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "alexscaves:magnetic_caves",
+          "parameters": {
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -1.2,
+              1
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              -1,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              0.2,
+              1.1
+            ],
+            "offset": 0
+          }
+        }
+      ]
     }
   }
 }

@@ -4,8 +4,69 @@
     "type": "minecraft:noise",
     "settings": "forge_frontier:forlorn_hollows_settings",
     "biome_source": {
-      "type": "minecraft:fixed",
-      "biome": "alexscaves:forlorn_hollows"
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "regions_unexplored:rainforest",
+          "parameters": {
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -1.2,
+              1
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              -1,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              0,
+              0.1
+            ],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "alexscaves:forlorn_hollows",
+          "parameters": {
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -1.2,
+              1
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              -1,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              0.1,
+              1.1
+            ],
+            "offset": 0
+          }
+        }
+      ]
     }
   }
 }
