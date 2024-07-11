@@ -18,6 +18,15 @@ ServerEvents.tags('worldgen/biome', event => {
 
     // Removals
 
+      // Remove Alex's Caves from Overworld Biomes
+      event.remove("forge:is_sparse/overworld", [
+        "alexscaves:magnetic_caves",
+        "alexscaves:toxic_caves",
+        "alexscaves:forlorn_hollows",
+      ]);
+      event.remove("forge:is_wasteland", "alexscaves:toxic_caves");
+      event.remove("forge:is_spooky", "alexscaves:forlorn_hollows");
+
       // Removes Old Structure Gen
       event.remove('cataclysm:has_structure/burning_arena_biomes', 'minecraft:nether_wastes');
       event.remove('cataclysm:has_structure/soul_black_smith_biomes', [
