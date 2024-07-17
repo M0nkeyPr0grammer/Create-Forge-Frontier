@@ -1,6 +1,6 @@
 {
   "type": "minecraft:ae2mtrt",
-  "biomes": "ad_astra:glacio_snowy_barrens",
+  "biomes": ["ad_astra:glacio_snowy_barrens","ad_astra:glacio_ice_peaks"],
   "spawn_overrides": {},
   "step": "top_layer_modification"
 }
