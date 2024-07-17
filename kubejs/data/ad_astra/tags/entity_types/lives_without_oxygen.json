@@ -1,0 +1,26 @@
+{
+  "values": [
+    "minecraft:zombie",
+    "minecraft:husk",
+    "#minecraft:skeletons",
+    "minecraft:snow_golem",
+    "minecraft:stray",
+    "ad_astra:corrupted_lunarian",
+    "ad_astra:star_crawler",
+    "ad_astra:martian_raptor",
+    "ad_astra:lunarian",
+    "minecraft:blaze",
+    "minecraft:magma_cube",
+    "minecraft:zombified_piglin",
+    "minecraft:zoglin",
+    "cataclysm:ignited_revenant",
+    "cataclysm:ignited_berserker",
+    "cataclysm:ignis",
+    "cataclysm:netherite_monstrosity",
+    "cataclysm:kobolediator",
+    "cataclysm:koboleton",
+    "cataclysm:wadjet",
+    "cataclysm:ancient_remnant",
+    "minecraft:ghast"
+  ]
+}
