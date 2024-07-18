@@ -4,7 +4,7 @@
 	#ONE_TIER_ONLY [WIP]: There will be one tier for the Mining Skill Card. If you complete all the challenges, it will turn the card to the Mastered tier immediately.
 	#LEGACY: It will revert the mod mechanics as it was on the original release. ("v0.1.0") There will be only the miner certificate with one challenge to complete.
 	#Allowed Values: MODERN, ONE_TIER_ONLY, LEGACY
-	playstyle_mode = "MODERN"
+	playstyle_mode = "ONE_TIER_ONLY"
 	#You can change the rate of paper consumption in the Skills Record.
 	#Range: 0.0 ~ 1.0
 	paper_consummation_rate = 0.35

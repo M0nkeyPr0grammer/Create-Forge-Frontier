@@ -31,9 +31,9 @@ enable_fake_player_break = false
 #when true, comparators on Lootr containers will give an output of 1; when false, they will give an output of 0
 power_comparators = true
 #lootr chests cannot be destroyed by creeper or TNT explosions
-blast_resistant = false
+blast_resistant = true
 #lootr chests cannot be destroyed by any explosion
-blast_immune = false
+blast_immune = true
 #prevent notifications of decaying or refreshed chests
 disable_notifications = false
 #maximum time (in ticks) remaining on a chest before a notification for refreshing or decaying is sent to a player (default 30 seconds, -1 for no delay)

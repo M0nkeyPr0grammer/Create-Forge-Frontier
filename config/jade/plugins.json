@@ -7,7 +7,6 @@
     "furnace": true,
     "harvest_tool.show_unbreakable": true,
     "animal_owner": true,
-    "animal_owner.fetch_names": true,
     "harvest_tool.effective_tool": true,
     "item_storage.normal_amount": 9,
     "item_storage": true,
@@ -57,10 +56,6 @@
   "cagedmobs": {
     "cagedmobs_jade": true
   },
-  "extrastorage": {
-    "crafter": true,
-    "advanced_crafter": true
-  },
   "jade": {
     "coordinates.rel": false,
     "distance": false,
@@ -69,13 +64,27 @@
     "registry_name": "OFF",
     "mod_name": true
   },
+  "expatternprovider": {
+    "jade_chamber": true,
+    "jade_wireless": true
+  },
   "apotheosis": {
-    "adventure": true,
-    "ench": true,
-    "spawner": true
+    "ench": true
   },
   "lootr": {
     "info": true
+  },
+  "ae2": {
+    "part_icon": true,
+    "charger": true,
+    "debug": true,
+    "part_tooltip": true,
+    "grid_node_state": true,
+    "pattern_provider": true,
+    "part_mod_name": true,
+    "power_storage": true,
+    "crafting_monitor": true,
+    "part_name": true
   },
   "jadeaddons": {
     "equipment_requirement": ""
@@ -107,12 +116,5 @@
   },
   "corpse": {
     "corpse": true
-  },
-  "cookingforblockheads": {
-    "fridge": true,
-    "oven": true,
-    "sink": true,
-    "milk_jar": true,
-    "toaster": true
   }
 }

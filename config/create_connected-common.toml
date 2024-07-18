@@ -27,7 +27,6 @@ migrateCopycatsOnInitialize = true
 	copycat_beam = true
 	brass_gearbox = true
 	linked_transmitter = true
-	#.
 	bamboo_window = true
 	cherry_window = true
 	copycat_fence_gate = true
@@ -35,4 +34,9 @@ migrateCopycatsOnInitialize = true
 	copycat_wall = true
 	copycat_board = true
 	copycat_fence = true
+	#.
+	fluid_vessel = true
+	large_crank_wheel = true
+	crank_wheel = true
+	fan_freezing_catalyst = true
 

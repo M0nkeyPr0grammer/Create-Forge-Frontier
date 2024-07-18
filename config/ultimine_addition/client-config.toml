@@ -17,4 +17,7 @@
 	#Here you can enable or disable the Mining Skill Card Renderer
 	#It's not recommended for now! [WIP]
 	msc_renderer = false
+	#You can choose when will the challenges panel appears on the screen.
+	#Allowed Values: DISABLED, TOP_LEFT, TOP_RIGHT, LEFT, RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT
+	challenges_panel_pos = "LEFT"
 
