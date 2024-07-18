@@ -17,15 +17,29 @@ ServerEvents.tags('worldgen/biome', event => {
   event.add('incendium:structure/has_reactor', 'ad_astra:venus_wastelands');
 
   // Removals
-
-  // Remove Alex's Caves from Overworld Biomes
-  event.remove('forge:is_sparse/overworld', [
+  
+  // Alex's Caves Removals
+  event.remove('minecraft:is_overworld', [
     'alexscaves:magnetic_caves',
+    'alexscaves:primordial_caves',
     'alexscaves:toxic_caves',
-    'alexscaves:forlorn_hollows'
+    'alexscaves:abyssal_chasm'
   ]);
-  event.remove('forge:is_wasteland', 'alexscaves:toxic_caves');
-  event.remove('forge:is_spooky', 'alexscaves:forlorn_hollows');
+
+  event.remove("forge:is_sparse/overworld", [
+    "alexscaves:magnetic_caves",
+    "alexscaves:toxic_caves",
+  ]);
+
+  event.remove("forge:is_wasteland", "alexscaves:toxic_caves");
+
+  event.remove("forge:is_cave",[
+    'alexscaves:magnetic_caves',
+    'alexscaves:primordial_caves',
+    'alexscaves:toxic_caves'
+  ])
+  
+  event.remove('forge:is_lush','alexscaves:primordial_caves')
 
   // Removes Old Structure Gen
   event.remove('cataclysm:has_structure/burning_arena_biomes', 'minecraft:nether_wastes');

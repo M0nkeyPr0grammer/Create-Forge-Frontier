@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    "repurposed_structures:mineshaft_crimson",
+    "repurposed_structures:mineshaft_end",
+    "repurposed_structures:mineshaft_nether",
+    "repurposed_structures:mineshaft_warped"
+  ]
+}
