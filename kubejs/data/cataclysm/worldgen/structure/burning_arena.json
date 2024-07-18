@@ -1,6 +1,8 @@
 {
   "type": "cataclysm:burning_arena",
   "biomes": "#cataclysm:has_structure/burning_arena_biomes",
+  "size": 6,
+  "max_distance_from_center": 72,
   "step": "surface_structures",
   "terrain_adaptation": "beard_thin",
   "start_height": {

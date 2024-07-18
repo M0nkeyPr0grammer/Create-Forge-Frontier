@@ -1,6 +1,7 @@
 {
-  "type": "cataclysm:soul_black_smith",
-  "biomes": "#cataclysm:has_structure/soul_black_smith_biomes",
+  "biomes": "#incendium:structure/has_sanctum",
+  "type": "minecraft:jigsaw",
+  "start_pool": "incendium:sanctum/top",
   "size": 6,
   "max_distance_from_center": 72,
   "step": "surface_structures",
