@@ -3,6 +3,18 @@ ServerEvents.recipes(event => {
 
 // Crushing Recipes
 
+    // Sky Stone Crushing Recipe
+    event.custom({
+        type: "create:crushing",
+        ingredients: [
+            { item: 'ad_astra:sky_stone' }
+        ],
+        processingTime: 400,
+        results: [
+            { item: 'ae2:sky_dust' }
+        ]
+    }).id('forge_frontier:crushing/sky_stone');
+
     // Calorite Ore
         // Deepslate Calorite Ore
         event.remove({ id: 'create:crushing/deepslate_calorite_ore'})
