@@ -1,6 +1,87 @@
 ServerEvents.recipes(event => {
 
-    // Energy Processor Create Energistics Recipe
+    // Removes Not Needed Recipes
+    event.remove({ id: 'ad_astra_giselle_addon:compat/ae2/inscriber/sky_stone_dust' })
+
+    // Redstone Crystal Create Compat Recipe
+    event.custom({
+        type: "create:mixing",
+        ingredients: [
+          {
+            item: "minecraft:redstone_block"
+          },
+          {
+            fluid: "minecraft:water",
+            nbt: {},
+            amount: 250
+          },
+          {
+            item: "ae2:fluix_dust"
+          },
+          {
+            item: "ae2:sky_dust"
+          }
+        ],
+        results: [
+          {
+            item: "appflux:redstone_crystal",
+            count: 1
+          }
+        ],
+        heatRequirement: "none"
+      }).id('forge_frontier:mixing/redstone_crystal')
+
+    // Inscriber Energy Press Duplication Create Energistics Compat Recipe
+    event.remove({ id: 'appflux:inscriber/energy_press' })
+    event.custom({
+        type: "create:sequenced_assembly",
+        ingredient: {
+          item: "minecraft:iron_block"
+        },
+        transitionalItem: {
+          item: "createappliedkinetics:incomplete_calculation_processor_press"
+        },
+        sequence: [
+          {
+            keepHeldItem: true,
+            type: "create:deploying",
+            ingredients: [
+              {
+                item: "createappliedkinetics:incomplete_calculation_processor_press"
+              },
+              {
+                item: "appflux:energy_processor_press"
+              }
+            ],
+            results: [
+              {
+                item: "createappliedkinetics:incomplete_calculation_processor_press"
+              }
+            ]
+          },
+          {
+            type: "create:pressing",
+            ingredients: [
+              {
+                item: "createappliedkinetics:incomplete_calculation_processor_press"
+              }
+            ],
+            results: [
+              {
+                item: "createappliedkinetics:incomplete_calculation_processor_press"
+              }
+            ]
+          }
+        ],
+        results: [
+          {
+            item: "appflux:energy_processor_press"
+          }
+        ],
+        loops: 1
+      }).id('forge_frontier:sequenced_assembly/energy_processor_press')
+
+    // Energy Processor Create Energistics Compat Recipe
     event.remove({ id:'appflux:inscriber/energy' })
     event.custom({
         type: 'create:sequenced_assembly',
@@ -66,7 +147,7 @@ ServerEvents.recipes(event => {
 
     }).id('forge_frontier:sequenced_assembly/energy_processor')
 
-    // Printed Energy Circuit Create Energistics Recipe
+    // Printed Energy Circuit Create Energistics Compat Recipe
     event.remove({ id:'appflux:inscriber/energy_print' })
     event.custom({
         type: 'create:sequenced_assembly',
