@@ -113,21 +113,6 @@ ServerEvents.recipes(event => {
 		]
 	}).id('forge_frontier:crushing/iron_plating');
 
-	// Malachite Block to Malchite Shapeless Recipe
-	event.custom({
-		type: 'minecraft:crafting_shapeless',
-		ingredients: [
-			{
-				item: 'enlightened_end:malachite_block'
-			}
-		],
-		result: {
-			item: 'enlightened_end:malachite',
-			count: 4
-		  }
-	}).id( 'forge_frontier:shapeless/malachite_block' )
-
-
 	// Bookstack to Shapeless Recipe
 	event.custom({
 		type: 'minecraft:crafting_shapeless',

@@ -1835,7 +1835,7 @@ ServerEvents.recipes(event => {
             results: [
                 {
                     fluid: 'forge_frontier:molten_malachite',
-                    amount: 400
+                    amount: 900
                 }
             ],
             heatRequirement: "superheated"
