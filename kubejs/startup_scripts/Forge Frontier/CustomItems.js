@@ -1,5 +1,26 @@
 
 StartupEvents.registry('block', event => {
+    // Compressed Blocks
+    // Malachite
+    function createCompressedMalachite(event, level) {
+        event.create(`forge_frontier:compressed_malachite_${level}x`)
+            .displayName(`Compressed Malachite ${level}x`)
+            .soundType('metal')
+            .mapColor('stone')
+            .hardness(2.0)
+            .model(`forge_frontier:block/compressed_blocks/compressed_malachite_${level}x`)
+            .requiresTool(true)
+            .renderType('solid')
+            .tagItem('tooltiprareness:common_item')
+            .tagBlock('mineable/pickaxe')
+            .fullBlock(true);
+    }
+    
+    for (let i = 1; i <= 9; i++) {
+        createCompressedMalachite(event, i);
+    }
+
+    // Overcharged Blocks
     event.create('forge_frontier:overcharged_iron_block')
         .displayName('Overcharged Iron Block')
         .soundType('metal') 
