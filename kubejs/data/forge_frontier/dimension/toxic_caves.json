@@ -7,7 +7,7 @@
       "type": "minecraft:multi_noise",
       "biomes": [
         {
-          "biome": "incendium:toxic_heap",
+          "biome": "terralith:hot_shrubland",
           "parameters": {
             "weirdness": [
               -1,

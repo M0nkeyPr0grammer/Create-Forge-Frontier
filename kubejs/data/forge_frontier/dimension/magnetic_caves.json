@@ -7,7 +7,7 @@
       "type": "minecraft:multi_noise",
       "biomes": [
         {
-          "biome": "incendium:withered_forest",
+          "biome": "terralith:scarlet_mountains",
           "parameters": {
             "weirdness": [
               -1,
