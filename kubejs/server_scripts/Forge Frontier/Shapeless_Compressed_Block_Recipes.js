@@ -170,6 +170,39 @@ ServerEvents.recipes(event => {
         }    
 
     // Ostrum
+        // Ostrum Compressed 1x to Ostrum Block Recipe
+        event.custom({
+            type: 'minecraft:crafting_shapeless',
+            ingredients: [
+                {
+                    item: 'forge_frontier:compressed_ostrum_1x'
+                }
+            ],
+            result: {
+                item: 'ad_astra:ostrum_block',
+                count: 9
+            }
+        }).id( 'forge_frontier:shapeless/compressed_ostrum_block_1x' )
+    
+        // Ostrum Compressed Block to Lower Tier Compressed Shapeless Recipes
+        function createOstrumBlockShapelessRecipe(event, level) {
+            event.custom({
+                type: 'minecraft:crafting_shapeless',
+                ingredients: [
+                    {
+                        item: `forge_frontier:compressed_ostrum_${level}x`
+                    }
+                ],
+                result: {
+                    item: `forge_frontier:compressed_ostrum_${level-1}x`,
+                    count: 9
+                }
+            }).id(`forge_frontier:shapeless/compressed_ostrum_${level}x`);
+        }
+        
+        for (let i = 2; i <= 9; i++) {
+            createOstrumBlockShapelessRecipe(event, i);
+        }        
 
     // Calorite
 

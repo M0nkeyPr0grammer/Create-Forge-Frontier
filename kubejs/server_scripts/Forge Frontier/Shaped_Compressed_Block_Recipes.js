@@ -161,6 +161,37 @@ ServerEvents.recipes(event => {
         }       
 
     // Ostrum
+         // Creates New Compressed Recipes for Ostrum Compressed Blocks 1x
+         event.shaped(
+            Item.of('forge_frontier:compressed_ostrum_1x'),
+            [
+                'AAA',
+                'AAA',
+                'AAA'
+            ],
+            {
+                A: 'ad_astra:ostrum_block', 
+            }
+        ).id( 'forge_frontier:shaped/ostrum_block_1x' )
+
+        // Creates New Compressed Recipes for Ostrum Compressed Blocks 2x through 9x
+        function createOstrumBlockRecipe(event, level) {
+            event.shaped(
+                Item.of(`forge_frontier:compressed_ostrum_${level}x`),
+                [
+                    'AAA',
+                    'AAA',
+                    'AAA'
+                ],
+                {
+                    A: `forge_frontier:compressed_ostrum_${level-1}x`
+                }
+            ).id(`forge_frontier:shaped/compressed_ostrum_${level}x`);
+        }
+
+        for (let i = 2; i <= 9; i++) {
+            createOstrumBlockRecipe(event, i);
+        }     
 
     // Calorite
 
