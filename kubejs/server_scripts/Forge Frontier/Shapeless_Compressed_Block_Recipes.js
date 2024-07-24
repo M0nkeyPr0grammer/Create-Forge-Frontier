@@ -50,7 +50,7 @@ ServerEvents.recipes(event => {
         }
     
     // Irradium
-     // Irradium Block to Malchite Shapeless Recipe
+     // Irradium Block to Irradium Shapeless Recipe
      event.remove({ id: 'enlightened_end:irradium_block_convert' })
      event.custom({
         type: 'minecraft:crafting_shapeless',
@@ -100,6 +100,39 @@ ServerEvents.recipes(event => {
     }
 
     // Bismuth
+        // Bismuth Compressed 1x to Bismuth Block Recipe
+        event.custom({
+            type: 'minecraft:crafting_shapeless',
+            ingredients: [
+                {
+                    item: 'forge_frontier:compressed_bismuth_1x'
+                }
+            ],
+            result: {
+                item: 'enlightened_end:bismuth_block',
+                count: 9
+            }
+        }).id( 'forge_frontier:shapeless/compressed_bismuth_block_1x' )
+    
+        // Bismuth Compressed Block to Lower Tier Compressed Shapeless Recipes
+        function createBismuthBlockShapelessRecipe(event, level) {
+            event.custom({
+                type: 'minecraft:crafting_shapeless',
+                ingredients: [
+                    {
+                        item: `forge_frontier:compressed_bismuth_${level}x`
+                    }
+                ],
+                result: {
+                    item: `forge_frontier:compressed_bismuth_${level-1}x`,
+                    count: 9
+                }
+            }).id(`forge_frontier:shapeless/compressed_bismuth_${level}x`);
+        }
+        
+        for (let i = 2; i <= 9; i++) {
+            createBismuthBlockShapelessRecipe(event, i);
+        }
 
     // Desh
 

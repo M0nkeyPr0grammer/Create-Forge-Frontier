@@ -39,6 +39,23 @@ StartupEvents.registry('block', event => {
         }
 
         // Bismuth
+        function createCompressedBismuth(event, level) {
+            event.create(`forge_frontier:compressed_bismuth_${level}x`)
+                .displayName(`Compressed Bismuth ${level}x`)
+                .soundType('metal')
+                .mapColor('stone')
+                .hardness(2.0)
+                .model(`forge_frontier:block/compressed_blocks/compressed_bismuth_${level}x`)
+                .requiresTool(true)
+                .renderType('solid')
+                .tagItem('tooltiprareness:common_item')
+                .tagBlock('mineable/pickaxe')
+                .fullBlock(true);
+        }
+        
+        for (let i = 1; i <= 9; i++) {
+            createCompressedBismuth(event, i);
+        }
 
         // Desh
 

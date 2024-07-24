@@ -95,6 +95,37 @@ ServerEvents.recipes(event => {
         }
 
     // Bismuth
+         // Creates New Compressed Recipes for Bismuth Compressed Blocks 1x
+         event.shaped(
+            Item.of('forge_frontier:compressed_bismuth_1x'),
+            [
+                'AAA',
+                'AAA',
+                'AAA'
+            ],
+            {
+                A: 'enlightened_end:bismuth_block', 
+            }
+        ).id( 'forge_frontier:shaped/bismuth_block_1x' )
+
+        // Creates New Compressed Recipes for Bismuth Compressed Blocks 2x through 9x
+        function createBismuthBlockRecipe(event, level) {
+            event.shaped(
+                Item.of(`forge_frontier:compressed_bismuth_${level}x`),
+                [
+                    'AAA',
+                    'AAA',
+                    'AAA'
+                ],
+                {
+                    A: `forge_frontier:compressed_bismuth_${level-1}x`
+                }
+            ).id(`forge_frontier:shaped/compressed_bismuth_${level}x`);
+        }
+
+        for (let i = 2; i <= 9; i++) {
+            createBismuthBlockRecipe(event, i);
+        }    
 
     // Desh
 
