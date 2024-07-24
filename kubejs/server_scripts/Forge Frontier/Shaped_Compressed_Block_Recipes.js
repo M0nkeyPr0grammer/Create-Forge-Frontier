@@ -227,6 +227,37 @@ ServerEvents.recipes(event => {
         }    
 
     // Scarlet Neodymium
+         // Creates New Compressed Recipes for Scarlet Neodymium Compressed Blocks 1x
+         event.shaped(
+            Item.of('forge_frontier:compressed_scarlet_neodymium_1x'),
+            [
+                'AAA',
+                'AAA',
+                'AAA'
+            ],
+            {
+                A: 'alexscaves:block_of_scarlet_neodymium', 
+            }
+        ).id( 'forge_frontier:shaped/scarlet_neodymium_block_1x' )
+
+        // Creates New Compressed Recipes for Scarlet Neodymium Compressed Blocks 2x through 9x
+        function createScarletNeodymiumBlockRecipe(event, level) {
+            event.shaped(
+                Item.of(`forge_frontier:compressed_scarlet_neodymium_${level}x`),
+                [
+                    'AAA',
+                    'AAA',
+                    'AAA'
+                ],
+                {
+                    A: `forge_frontier:compressed_scarlet_neodymium_${level-1}x`
+                }
+            ).id(`forge_frontier:shaped/compressed_scarlet_neodymium_${level}x`);
+        }
+
+        for (let i = 2; i <= 9; i++) {
+            createScarletNeodymiumBlockRecipe(event, i);
+        }   
 
     // Azure Neodymium
 
