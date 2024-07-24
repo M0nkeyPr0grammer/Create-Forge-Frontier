@@ -310,6 +310,39 @@ ServerEvents.recipes(event => {
         }        
 
     // Uranium
+        // Uranium Compressed 1x to Uranium Block Recipe
+        event.custom({
+            type: 'minecraft:crafting_shapeless',
+            ingredients: [
+                {
+                    item: 'forge_frontier:compressed_uranium_1x'
+                }
+            ],
+            result: {
+                item: 'alexscaves:block_of_uranium',
+                count: 9
+            }
+        }).id( 'forge_frontier:shapeless/compressed_uranium_block_1x' )
+    
+        // Uranium Compressed Block to Lower Tier Compressed Shapeless Recipes
+        function createUraniumBlockShapelessRecipe(event, level) {
+            event.custom({
+                type: 'minecraft:crafting_shapeless',
+                ingredients: [
+                    {
+                        item: `forge_frontier:compressed_uranium_${level}x`
+                    }
+                ],
+                result: {
+                    item: `forge_frontier:compressed_uranium_${level-1}x`,
+                    count: 9
+                }
+            }).id(`forge_frontier:shapeless/compressed_uranium_${level}x`);
+        }
+        
+        for (let i = 2; i <= 9; i++) {
+            createUraniumBlockShapelessRecipe(event, i);
+        }     
 
     // Amber
 

@@ -293,6 +293,37 @@ ServerEvents.recipes(event => {
         }       
 
     // Uranium
+         // Creates New Compressed Recipes for Uranium Compressed Blocks 1x
+         event.shaped(
+            Item.of('forge_frontier:compressed_uranium_1x'),
+            [
+                'AAA',
+                'AAA',
+                'AAA'
+            ],
+            {
+                A: 'alexscaves:block_of_uranium', 
+            }
+        ).id( 'forge_frontier:shaped/uranium_block_1x' )
+
+        // Creates New Compressed Recipes for Uranium Compressed Blocks 2x through 9x
+        function createUraniumBlockRecipe(event, level) {
+            event.shaped(
+                Item.of(`forge_frontier:compressed_uranium_${level}x`),
+                [
+                    'AAA',
+                    'AAA',
+                    'AAA'
+                ],
+                {
+                    A: `forge_frontier:compressed_uranium_${level-1}x`
+                }
+            ).id(`forge_frontier:shaped/compressed_uranium_${level}x`);
+        }
+
+        for (let i = 2; i <= 9; i++) {
+            createUraniumBlockRecipe(event, i);
+        }     
 
     // Amber
 
