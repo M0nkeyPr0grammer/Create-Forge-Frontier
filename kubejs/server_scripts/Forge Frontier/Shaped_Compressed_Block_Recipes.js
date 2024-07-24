@@ -270,5 +270,25 @@ ServerEvents.recipes(event => {
     // Pearls
 
     // Guano
+
+    // Methril
+
+    // Bronze
+
+    // Industrial Iron
+
+    // Void Steel
+
+    // Ethium
+
+    // Netherite-Iron
+
+    // Netherite-Gold
+
+    // Netherite-Emerald
+
+    // Netherite-Diamond
+
+    // Star Infused Netherite Block    
     
 })
