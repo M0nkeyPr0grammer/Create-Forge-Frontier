@@ -27,7 +27,7 @@ ServerEvents.recipes(event => {
         'amber',
         'sulfur',
         'pearl',
-        // 'guano',
+        'guano',
         // 'mithril',
         // 'bronze',
         // 'industrial_iron',
@@ -243,6 +243,18 @@ ServerEvents.recipes(event => {
         ).id( 'forge_frontier:shaped/pearl_block_1x' )      
 
     // Guano
+         // Creates New Compressed Recipes for Guano Compressed Blocks 1x
+         event.shaped(
+            Item.of('forge_frontier:compressed_guano_1x'),
+            [
+                'AAA',
+                'AAA',
+                'AAA'
+            ],
+            {
+                A: 'alexscaves:guano_block', 
+            }
+        ).id( 'forge_frontier:shaped/guano_block_1x' )      
 
     // Methril
 
