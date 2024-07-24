@@ -48,6 +48,51 @@ ServerEvents.recipes(event => {
         }
 
     // Irradium
+        // Creates New Shaped Recipe for Irradium
+        event.remove({ id: 'enlightened_end:irradium_block'})
+        event.shaped(
+            Item.of('enlightened_end:irradium_block'),
+            [
+                'AAA',
+                'AAA',
+                'AAA'
+            ],
+            {
+                A: 'enlightened_end:irradium_bar', 
+            }
+        ).id( 'forge_frontier:shaped/irradium_block' )
+
+        // Creates New Compressed Recipes for Irradium Compressed Blocks 1x
+        event.shaped(
+            Item.of('forge_frontier:compressed_irradium_1x'),
+            [
+                'AAA',
+                'AAA',
+                'AAA'
+            ],
+            {
+                A: 'enlightened_end:irradium_block', 
+            }
+        ).id( 'forge_frontier:shaped/irradium_block_1x' )
+
+        // Creates New Compressed Recipes for Irradium Compressed Blocks 2x through 9x
+        function createIrradiumBlockRecipe(event, level) {
+            event.shaped(
+                Item.of(`forge_frontier:compressed_irradium_${level}x`),
+                [
+                    'AAA',
+                    'AAA',
+                    'AAA'
+                ],
+                {
+                    A: `forge_frontier:compressed_irradium_${level-1}x`
+                }
+            ).id(`forge_frontier:shaped/compressed_irradium_${level}x`);
+        }
+
+        for (let i = 2; i <= 9; i++) {
+            createIrradiumBlockRecipe(event, i);
+        }
 
     // Bismuth
 

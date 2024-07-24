@@ -1,49 +1,5 @@
 
 StartupEvents.registry('block', event => {
-    // Compressed Blocks
-        // Malachite
-        function createCompressedMalachite(event, level) {
-            event.create(`forge_frontier:compressed_malachite_${level}x`)
-                .displayName(`Compressed Malachite ${level}x`)
-                .soundType('metal')
-                .mapColor('stone')
-                .hardness(2.0)
-                .model(`forge_frontier:block/compressed_blocks/compressed_malachite_${level}x`)
-                .requiresTool(true)
-                .renderType('solid')
-                .tagItem('tooltiprareness:common_item')
-                .tagBlock('mineable/pickaxe')
-                .fullBlock(true);
-        }
-        
-        for (let i = 1; i <= 9; i++) {
-            createCompressedMalachite(event, i);
-        }
-
-        // Irradium
-
-        // Bismuth
-
-        // Desh
-
-        // Ostrum
-
-        // Calorite
-
-        // Scarlet Neodymium
-
-        // Azure Neodymium
-
-        // Uranium
-
-        // Amber
-
-        // Sulfur
-
-        // Pearls
-
-        // Guano
-
 
     // Overcharged Blocks
     event.create('forge_frontier:overcharged_iron_block')
@@ -94,10 +50,11 @@ StartupEvents.registry('block', event => {
         .tagBlock("mineable/pickaxe")
         .fullBlock(true);     
 
+    // Trophy Block
     event.create('forge_frontier:trophy_block')
         .displayName('Landscapes Reimagined Trophy')
-        .soundType('metal') // Example, replace 'wood' with the appropriate sound type
-        .mapColor('DIAMOND') // Example, replace 'color' with the appropriate map color
+        .soundType('metal')
+        .mapColor('DIAMOND')
         .hardness(2.0)
         .model('forge_frontier:block/trophy_block')
         .requiresTool(true)
@@ -108,7 +65,8 @@ StartupEvents.registry('block', event => {
         .tagItem('tooltiprareness:epic_item')
         .tagBlock("mineable/pickaxe")
         .fullBlock(true);
-        
+    
+    // Crushed Piles
         event.create('forge_frontier:crushed_bismuth_pile')
         .displayName('Crushed Bismuth Pile')
         .soundType('metal') 
