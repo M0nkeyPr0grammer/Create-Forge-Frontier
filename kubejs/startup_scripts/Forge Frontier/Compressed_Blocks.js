@@ -26,7 +26,7 @@ const materials = [
     'Azure_Neodymium',
     'Uranium',
     'Amber',
-    // 'Sulfur',
+    'Sulfur',
     // 'Pearl',
     // 'Guano',
     // 'Mithril',

@@ -26,7 +26,7 @@ ServerEvents.recipes(event => {
         'azure_neodymium',
         'uranium',
         'amber',
-        // 'sulfur',
+        'sulfur',
         // 'pearl',
         // 'guano',
         // 'mithril',
@@ -227,6 +227,19 @@ ServerEvents.recipes(event => {
         }).id( 'forge_frontier:shapeless/compressed_amber_block_1x' )
    
     // Sulfur
+        // Sulfur Compressed 1x to Sulfur Block Recipe
+        event.custom({
+            type: 'minecraft:crafting_shapeless',
+            ingredients: [
+                {
+                    item: 'forge_frontier:compressed_sulfur_1x'
+                }
+            ],
+            result: {
+                item: 'alexscaves:sulfur',
+                count: 9
+            }
+        }).id( 'forge_frontier:shapeless/compressed_sulfur_block_1x' )    
 
     // Pearls
 
