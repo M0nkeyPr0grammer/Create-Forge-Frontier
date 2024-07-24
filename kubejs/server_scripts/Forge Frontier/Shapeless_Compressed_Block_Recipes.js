@@ -135,6 +135,39 @@ ServerEvents.recipes(event => {
         }
 
     // Desh
+        // Desh Compressed 1x to Desh Block Recipe
+        event.custom({
+            type: 'minecraft:crafting_shapeless',
+            ingredients: [
+                {
+                    item: 'forge_frontier:compressed_desh_1x'
+                }
+            ],
+            result: {
+                item: 'ad_astra:desh_block',
+                count: 9
+            }
+        }).id( 'forge_frontier:shapeless/compressed_desh_block_1x' )
+    
+        // Desh Compressed Block to Lower Tier Compressed Shapeless Recipes
+        function createDeshBlockShapelessRecipe(event, level) {
+            event.custom({
+                type: 'minecraft:crafting_shapeless',
+                ingredients: [
+                    {
+                        item: `forge_frontier:compressed_desh_${level}x`
+                    }
+                ],
+                result: {
+                    item: `forge_frontier:compressed_desh_${level-1}x`,
+                    count: 9
+                }
+            }).id(`forge_frontier:shapeless/compressed_desh_${level}x`);
+        }
+        
+        for (let i = 2; i <= 9; i++) {
+            createDeshBlockShapelessRecipe(event, i);
+        }    
 
     // Ostrum
 

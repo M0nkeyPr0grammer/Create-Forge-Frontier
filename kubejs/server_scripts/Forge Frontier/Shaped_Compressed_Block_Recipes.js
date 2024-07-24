@@ -128,6 +128,37 @@ ServerEvents.recipes(event => {
         }    
 
     // Desh
+         // Creates New Compressed Recipes for Desh Compressed Blocks 1x
+         event.shaped(
+            Item.of('forge_frontier:compressed_desh_1x'),
+            [
+                'AAA',
+                'AAA',
+                'AAA'
+            ],
+            {
+                A: 'ad_astra:desh_block', 
+            }
+        ).id( 'forge_frontier:shaped/desh_block_1x' )
+
+        // Creates New Compressed Recipes for Desh Compressed Blocks 2x through 9x
+        function createDeshBlockRecipe(event, level) {
+            event.shaped(
+                Item.of(`forge_frontier:compressed_desh_${level}x`),
+                [
+                    'AAA',
+                    'AAA',
+                    'AAA'
+                ],
+                {
+                    A: `forge_frontier:compressed_desh_${level-1}x`
+                }
+            ).id(`forge_frontier:shaped/compressed_desh_${level}x`);
+        }
+
+        for (let i = 2; i <= 9; i++) {
+            createDeshBlockRecipe(event, i);
+        }       
 
     // Ostrum
 
