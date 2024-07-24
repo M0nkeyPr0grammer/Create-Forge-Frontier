@@ -205,6 +205,39 @@ ServerEvents.recipes(event => {
         }        
 
     // Calorite
+        // Calorite Compressed 1x to Calorite Block Recipe
+        event.custom({
+            type: 'minecraft:crafting_shapeless',
+            ingredients: [
+                {
+                    item: 'forge_frontier:compressed_calorite_1x'
+                }
+            ],
+            result: {
+                item: 'ad_astra:calorite_block',
+                count: 9
+            }
+        }).id( 'forge_frontier:shapeless/compressed_calorite_block_1x' )
+    
+        // Calorite Compressed Block to Lower Tier Compressed Shapeless Recipes
+        function createCaloriteBlockShapelessRecipe(event, level) {
+            event.custom({
+                type: 'minecraft:crafting_shapeless',
+                ingredients: [
+                    {
+                        item: `forge_frontier:compressed_calorite_${level}x`
+                    }
+                ],
+                result: {
+                    item: `forge_frontier:compressed_calorite_${level-1}x`,
+                    count: 9
+                }
+            }).id(`forge_frontier:shapeless/compressed_calorite_${level}x`);
+        }
+        
+        for (let i = 2; i <= 9; i++) {
+            createCaloriteBlockShapelessRecipe(event, i);
+        }            
 
     // Scarlet Neodymium
 

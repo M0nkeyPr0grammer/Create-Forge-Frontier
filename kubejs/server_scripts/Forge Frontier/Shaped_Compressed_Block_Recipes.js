@@ -194,6 +194,37 @@ ServerEvents.recipes(event => {
         }     
 
     // Calorite
+         // Creates New Compressed Recipes for Calorite Compressed Blocks 1x
+         event.shaped(
+            Item.of('forge_frontier:compressed_calorite_1x'),
+            [
+                'AAA',
+                'AAA',
+                'AAA'
+            ],
+            {
+                A: 'ad_astra:calorite_block', 
+            }
+        ).id( 'forge_frontier:shaped/calorite_block_1x' )
+
+        // Creates New Compressed Recipes for Calorite Compressed Blocks 2x through 9x
+        function createCaloriteBlockRecipe(event, level) {
+            event.shaped(
+                Item.of(`forge_frontier:compressed_calorite_${level}x`),
+                [
+                    'AAA',
+                    'AAA',
+                    'AAA'
+                ],
+                {
+                    A: `forge_frontier:compressed_calorite_${level-1}x`
+                }
+            ).id(`forge_frontier:shaped/compressed_calorite_${level}x`);
+        }
+
+        for (let i = 2; i <= 9; i++) {
+            createCaloriteBlockRecipe(event, i);
+        }    
 
     // Scarlet Neodymium
 
