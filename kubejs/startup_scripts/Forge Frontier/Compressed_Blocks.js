@@ -24,7 +24,21 @@ const materials = [
     'Calorite',
     'Scarlet_Neodymium',
     'Azure_Neodymium',
-    'Uranium'
+    'Uranium',
+    'Amber',
+    // 'Sulfur',
+    // 'Pearl',
+    // 'Guano',
+    // 'Mithril',
+    // 'Bronze',
+    // 'Industrial_Iron',
+    // 'Void_Steel',
+    // 'Ethium',
+    // 'Netherite-Iron',
+    // 'Netherite-Gold',
+    // 'Netherite-Emerald',
+    // 'Netherite-Diamond',
+    // 'Star_Infused_Netherite',
 ];
 
 // Register blocks

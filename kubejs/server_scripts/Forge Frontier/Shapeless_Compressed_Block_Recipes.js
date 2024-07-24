@@ -1,4 +1,51 @@
 ServerEvents.recipes(event => {
+    // Creates Compressed Blocks to Lower Tier Compressed Blocks Shapeless Recipes
+    function createCompressedBlockShapelessRecipe(event, material, level) {
+        event.custom({
+            type: 'minecraft:crafting_shapeless',
+            ingredients: [
+                {
+                    item: `forge_frontier:compressed_${material}_${level}x`
+                }
+            ],
+            result: {
+                item: `forge_frontier:compressed_${material}_${level-1}x`,
+                count: 9
+            }
+        }).id(`forge_frontier:shapeless/compressed_${material}_${level}x`);
+    }
+    
+    const materials = [
+        'malachite',
+        'irradium',
+        'bismuth',
+        'desh',
+        'ostrum',
+        'calorite',
+        'scarlet_neodymium',
+        'azure_neodymium',
+        'uranium',
+        'amber',
+        // 'sulfur',
+        // 'pearl',
+        // 'guano',
+        // 'mithril',
+        // 'bronze',
+        // 'industrial_iron',
+        // 'void_steel',
+        // 'ethium',
+        // 'netherite-iron',
+        // 'netherite-gold',
+        // 'netherite-emerald',
+        // 'netherite-diamond',
+        // 'star_infused_netherite'
+    ];
+    
+    materials.forEach(material => {
+        for (let i = 2; i <= 9; i++) {
+            createCompressedBlockShapelessRecipe(event, material, i);
+        }
+    });
     
     // Malachite
         // Malachite Block to Malchite Shapeless Recipe
@@ -28,26 +75,6 @@ ServerEvents.recipes(event => {
                 count: 9
             }
         }).id( 'forge_frontier:shapeless/compressed_malachite_block_1x' )
-
-        // Malachite Compressed Block to Lower Tier Compressed Shapeless Recipes
-        function createMalachiteBlockShapelessRecipe(event, level) {
-            event.custom({
-                type: 'minecraft:crafting_shapeless',
-                ingredients: [
-                    {
-                        item: `forge_frontier:compressed_malachite_${level}x`
-                    }
-                ],
-                result: {
-                    item: `forge_frontier:compressed_malachite_${level-1}x`,
-                    count: 9
-                }
-            }).id(`forge_frontier:shapeless/compressed_malachite_${level}x`);
-        }
-        
-        for (let i = 2; i <= 9; i++) {
-            createMalachiteBlockShapelessRecipe(event, i);
-        }
     
     // Irradium
      // Irradium Block to Irradium Shapeless Recipe
@@ -79,26 +106,6 @@ ServerEvents.recipes(event => {
         }
     }).id( 'forge_frontier:shapeless/compressed_irradium_block_1x' )
 
-    // Irradium Compressed Block to Lower Tier Compressed Shapeless Recipes
-    function createIrradiumBlockShapelessRecipe(event, level) {
-        event.custom({
-            type: 'minecraft:crafting_shapeless',
-            ingredients: [
-                {
-                    item: `forge_frontier:compressed_irradium_${level}x`
-                }
-            ],
-            result: {
-                item: `forge_frontier:compressed_irradium_${level-1}x`,
-                count: 9
-            }
-        }).id(`forge_frontier:shapeless/compressed_irradium_${level}x`);
-    }
-    
-    for (let i = 2; i <= 9; i++) {
-        createIrradiumBlockShapelessRecipe(event, i);
-    }
-
     // Bismuth
         // Bismuth Compressed 1x to Bismuth Block Recipe
         event.custom({
@@ -113,26 +120,6 @@ ServerEvents.recipes(event => {
                 count: 9
             }
         }).id( 'forge_frontier:shapeless/compressed_bismuth_block_1x' )
-    
-        // Bismuth Compressed Block to Lower Tier Compressed Shapeless Recipes
-        function createBismuthBlockShapelessRecipe(event, level) {
-            event.custom({
-                type: 'minecraft:crafting_shapeless',
-                ingredients: [
-                    {
-                        item: `forge_frontier:compressed_bismuth_${level}x`
-                    }
-                ],
-                result: {
-                    item: `forge_frontier:compressed_bismuth_${level-1}x`,
-                    count: 9
-                }
-            }).id(`forge_frontier:shapeless/compressed_bismuth_${level}x`);
-        }
-        
-        for (let i = 2; i <= 9; i++) {
-            createBismuthBlockShapelessRecipe(event, i);
-        }
 
     // Desh
         // Desh Compressed 1x to Desh Block Recipe
@@ -148,27 +135,7 @@ ServerEvents.recipes(event => {
                 count: 9
             }
         }).id( 'forge_frontier:shapeless/compressed_desh_block_1x' )
-    
-        // Desh Compressed Block to Lower Tier Compressed Shapeless Recipes
-        function createDeshBlockShapelessRecipe(event, level) {
-            event.custom({
-                type: 'minecraft:crafting_shapeless',
-                ingredients: [
-                    {
-                        item: `forge_frontier:compressed_desh_${level}x`
-                    }
-                ],
-                result: {
-                    item: `forge_frontier:compressed_desh_${level-1}x`,
-                    count: 9
-                }
-            }).id(`forge_frontier:shapeless/compressed_desh_${level}x`);
-        }
-        
-        for (let i = 2; i <= 9; i++) {
-            createDeshBlockShapelessRecipe(event, i);
-        }    
-
+ 
     // Ostrum
         // Ostrum Compressed 1x to Ostrum Block Recipe
         event.custom({
@@ -183,27 +150,7 @@ ServerEvents.recipes(event => {
                 count: 9
             }
         }).id( 'forge_frontier:shapeless/compressed_ostrum_block_1x' )
-    
-        // Ostrum Compressed Block to Lower Tier Compressed Shapeless Recipes
-        function createOstrumBlockShapelessRecipe(event, level) {
-            event.custom({
-                type: 'minecraft:crafting_shapeless',
-                ingredients: [
-                    {
-                        item: `forge_frontier:compressed_ostrum_${level}x`
-                    }
-                ],
-                result: {
-                    item: `forge_frontier:compressed_ostrum_${level-1}x`,
-                    count: 9
-                }
-            }).id(`forge_frontier:shapeless/compressed_ostrum_${level}x`);
-        }
-        
-        for (let i = 2; i <= 9; i++) {
-            createOstrumBlockShapelessRecipe(event, i);
-        }        
-
+       
     // Calorite
         // Calorite Compressed 1x to Calorite Block Recipe
         event.custom({
@@ -218,27 +165,7 @@ ServerEvents.recipes(event => {
                 count: 9
             }
         }).id( 'forge_frontier:shapeless/compressed_calorite_block_1x' )
-    
-        // Calorite Compressed Block to Lower Tier Compressed Shapeless Recipes
-        function createCaloriteBlockShapelessRecipe(event, level) {
-            event.custom({
-                type: 'minecraft:crafting_shapeless',
-                ingredients: [
-                    {
-                        item: `forge_frontier:compressed_calorite_${level}x`
-                    }
-                ],
-                result: {
-                    item: `forge_frontier:compressed_calorite_${level-1}x`,
-                    count: 9
-                }
-            }).id(`forge_frontier:shapeless/compressed_calorite_${level}x`);
-        }
-        
-        for (let i = 2; i <= 9; i++) {
-            createCaloriteBlockShapelessRecipe(event, i);
-        }            
-
+          
     // Scarlet Neodymium
         // Scarlet Neodymium Compressed 1x to Scarlet Neodymium Block Recipe
         event.custom({
@@ -253,26 +180,6 @@ ServerEvents.recipes(event => {
                 count: 9
             }
         }).id( 'forge_frontier:shapeless/compressed_scarlet_neodymium_block_1x' )
-    
-        // Scarlet Neodymium Compressed Block to Lower Tier Compressed Shapeless Recipes
-        function createScarletNeodymiumBlockShapelessRecipe(event, level) {
-            event.custom({
-                type: 'minecraft:crafting_shapeless',
-                ingredients: [
-                    {
-                        item: `forge_frontier:compressed_scarlet_neodymium_${level}x`
-                    }
-                ],
-                result: {
-                    item: `forge_frontier:compressed_scarlet_neodymium_${level-1}x`,
-                    count: 9
-                }
-            }).id(`forge_frontier:shapeless/compressed_scarlet_neodymium_${level}x`);
-        }
-        
-        for (let i = 2; i <= 9; i++) {
-            createScarletNeodymiumBlockShapelessRecipe(event, i);
-        }         
 
     // Azure Neodymium
         // Azure Neodymium Compressed 1x to Azure Neodymium Block Recipe
@@ -289,26 +196,6 @@ ServerEvents.recipes(event => {
             }
         }).id( 'forge_frontier:shapeless/compressed_azure_neodymium_block_1x' )
     
-        // Azure Neodymium Compressed Block to Lower Tier Compressed Shapeless Recipes
-        function createAzureNeodymiumBlockShapelessRecipe(event, level) {
-            event.custom({
-                type: 'minecraft:crafting_shapeless',
-                ingredients: [
-                    {
-                        item: `forge_frontier:compressed_azure_neodymium_${level}x`
-                    }
-                ],
-                result: {
-                    item: `forge_frontier:compressed_azure_neodymium_${level-1}x`,
-                    count: 9
-                }
-            }).id(`forge_frontier:shapeless/compressed_azure_neodymium_${level}x`);
-        }
-        
-        for (let i = 2; i <= 9; i++) {
-            createAzureNeodymiumBlockShapelessRecipe(event, i);
-        }        
-
     // Uranium
         // Uranium Compressed 1x to Uranium Block Recipe
         event.custom({
@@ -324,28 +211,21 @@ ServerEvents.recipes(event => {
             }
         }).id( 'forge_frontier:shapeless/compressed_uranium_block_1x' )
     
-        // Uranium Compressed Block to Lower Tier Compressed Shapeless Recipes
-        function createUraniumBlockShapelessRecipe(event, level) {
-            event.custom({
-                type: 'minecraft:crafting_shapeless',
-                ingredients: [
-                    {
-                        item: `forge_frontier:compressed_uranium_${level}x`
-                    }
-                ],
-                result: {
-                    item: `forge_frontier:compressed_uranium_${level-1}x`,
-                    count: 9
-                }
-            }).id(`forge_frontier:shapeless/compressed_uranium_${level}x`);
-        }
-        
-        for (let i = 2; i <= 9; i++) {
-            createUraniumBlockShapelessRecipe(event, i);
-        }     
-
     // Amber
-
+        // Amber Compressed 1x to Amber Block Recipe
+        event.custom({
+            type: 'minecraft:crafting_shapeless',
+            ingredients: [
+                {
+                    item: 'forge_frontier:compressed_amber_1x'
+                }
+            ],
+            result: {
+                item: 'alexscaves:amber',
+                count: 9
+            }
+        }).id( 'forge_frontier:shapeless/compressed_amber_block_1x' )
+   
     // Sulfur
 
     // Pearls
