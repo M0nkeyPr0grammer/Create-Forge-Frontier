@@ -27,7 +27,7 @@ const materials = [
     'Uranium',
     'Amber',
     'Sulfur',
-    // 'Pearl',
+    'Pearl',
     // 'Guano',
     // 'Mithril',
     // 'Bronze',

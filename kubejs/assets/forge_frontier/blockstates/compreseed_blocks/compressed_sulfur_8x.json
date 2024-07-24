@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "forge_frontier:block/compressed_blocks/compressed_azure_neodymium_8x"
+      "model": "forge_frontier:block/compressed_blocks/compressed_sulfur_8x"
     }
   }
 }

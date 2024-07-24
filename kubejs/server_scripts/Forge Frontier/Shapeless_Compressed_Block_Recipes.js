@@ -27,7 +27,7 @@ ServerEvents.recipes(event => {
         'uranium',
         'amber',
         'sulfur',
-        // 'pearl',
+        'pearl',
         // 'guano',
         // 'mithril',
         // 'bronze',
@@ -242,6 +242,19 @@ ServerEvents.recipes(event => {
         }).id( 'forge_frontier:shapeless/compressed_sulfur_block_1x' )    
 
     // Pearls
+        // Pearl Compressed 1x to Pearl Block Recipe
+        event.custom({
+            type: 'minecraft:crafting_shapeless',
+            ingredients: [
+                {
+                    item: 'forge_frontier:compressed_pearl_1x'
+                }
+            ],
+            result: {
+                item: 'alexscaves:block_of_pearl',
+                count: 9
+            }
+        }).id( 'forge_frontier:shapeless/compressed_pearl_block_1x' )     
 
     // Guano
 
