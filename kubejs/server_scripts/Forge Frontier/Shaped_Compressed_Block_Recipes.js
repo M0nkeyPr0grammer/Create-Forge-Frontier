@@ -260,6 +260,37 @@ ServerEvents.recipes(event => {
         }   
 
     // Azure Neodymium
+         // Creates New Compressed Recipes for Azure Neodymium Compressed Blocks 1x
+         event.shaped(
+            Item.of('forge_frontier:compressed_azure_neodymium_1x'),
+            [
+                'AAA',
+                'AAA',
+                'AAA'
+            ],
+            {
+                A: 'alexscaves:block_of_azure_neodymium', 
+            }
+        ).id( 'forge_frontier:shaped/azure_neodymium_block_1x' )
+
+        // Creates New Compressed Recipes for Azure Neodymium Compressed Blocks 2x through 9x
+        function createAzureNeodymiumBlockRecipe(event, level) {
+            event.shaped(
+                Item.of(`forge_frontier:compressed_azure_neodymium_${level}x`),
+                [
+                    'AAA',
+                    'AAA',
+                    'AAA'
+                ],
+                {
+                    A: `forge_frontier:compressed_azure_neodymium_${level-1}x`
+                }
+            ).id(`forge_frontier:shaped/compressed_azure_neodymium_${level}x`);
+        }
+
+        for (let i = 2; i <= 9; i++) {
+            createAzureNeodymiumBlockRecipe(event, i);
+        }       
 
     // Uranium
 

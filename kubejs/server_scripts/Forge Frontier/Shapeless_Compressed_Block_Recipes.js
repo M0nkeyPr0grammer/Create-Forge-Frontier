@@ -275,6 +275,39 @@ ServerEvents.recipes(event => {
         }         
 
     // Azure Neodymium
+        // Azure Neodymium Compressed 1x to Azure Neodymium Block Recipe
+        event.custom({
+            type: 'minecraft:crafting_shapeless',
+            ingredients: [
+                {
+                    item: 'forge_frontier:compressed_azure_neodymium_1x'
+                }
+            ],
+            result: {
+                item: 'alexscaves:block_of_azure_neodymium',
+                count: 9
+            }
+        }).id( 'forge_frontier:shapeless/compressed_azure_neodymium_block_1x' )
+    
+        // Azure Neodymium Compressed Block to Lower Tier Compressed Shapeless Recipes
+        function createAzureNeodymiumBlockShapelessRecipe(event, level) {
+            event.custom({
+                type: 'minecraft:crafting_shapeless',
+                ingredients: [
+                    {
+                        item: `forge_frontier:compressed_azure_neodymium_${level}x`
+                    }
+                ],
+                result: {
+                    item: `forge_frontier:compressed_azure_neodymium_${level-1}x`,
+                    count: 9
+                }
+            }).id(`forge_frontier:shapeless/compressed_azure_neodymium_${level}x`);
+        }
+        
+        for (let i = 2; i <= 9; i++) {
+            createAzureNeodymiumBlockShapelessRecipe(event, i);
+        }        
 
     // Uranium
 
