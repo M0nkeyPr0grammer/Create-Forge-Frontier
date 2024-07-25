@@ -28,7 +28,7 @@ ServerEvents.recipes(event => {
         'sulfur',
         'pearl',
         'guano',
-        // 'mithril',
+        'mithril',
         // 'bronze',
         // 'industrial_iron',
         // 'void_steel',
@@ -257,6 +257,18 @@ ServerEvents.recipes(event => {
         ).id( 'forge_frontier:shaped/guano_block_1x' )      
 
     // Methril
+         // Creates New Compressed Recipes for Mithril Compressed Blocks 1x
+         event.shaped(
+            Item.of('forge_frontier:compressed_mithril_1x'),
+            [
+                'AAA',
+                'AAA',
+                'AAA'
+            ],
+            {
+                A: 'create_dd:mithril_block', 
+            }
+        ).id( 'forge_frontier:shaped/mithril_block_1x' )       
 
     // Bronze
 

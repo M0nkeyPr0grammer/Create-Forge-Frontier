@@ -29,7 +29,7 @@ ServerEvents.recipes(event => {
         'sulfur',
         'pearl',
         'guano',
-        // 'mithril',
+        'mithril',
         // 'bronze',
         // 'industrial_iron',
         // 'void_steel',
@@ -272,6 +272,19 @@ ServerEvents.recipes(event => {
         }).id( 'forge_frontier:shapeless/compressed_guano_block_1x' )       
 
     // Methril
+        // Mithril Compressed 1x to Mithril Block Recipe
+        event.custom({
+            type: 'minecraft:crafting_shapeless',
+            ingredients: [
+                {
+                    item: 'forge_frontier:compressed_mithril_1x'
+                }
+            ],
+            result: {
+                item: 'create_dd:mithril_block',
+                count: 9
+            }
+        }).id( 'forge_frontier:shapeless/compressed_mithril_block_1x' )     
 
     // Bronze
 

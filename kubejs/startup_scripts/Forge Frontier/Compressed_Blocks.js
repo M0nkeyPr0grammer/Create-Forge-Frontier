@@ -29,7 +29,7 @@ const materials = [
     'Sulfur',
     'Pearl',
     'Guano',
-    // 'Mithril',
+    'Mithril',
     // 'Bronze',
     // 'Industrial_Iron',
     // 'Void_Steel',
