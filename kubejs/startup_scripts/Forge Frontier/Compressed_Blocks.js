@@ -30,7 +30,7 @@ const materials = [
     'Pearl',
     'Guano',
     'Mithril',
-    // 'Bronze',
+    'Bronze',
     // 'Industrial_Iron',
     // 'Void_Steel',
     // 'Ethium',

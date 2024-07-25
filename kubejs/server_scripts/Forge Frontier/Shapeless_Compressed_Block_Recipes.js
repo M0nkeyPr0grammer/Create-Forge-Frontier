@@ -30,7 +30,7 @@ ServerEvents.recipes(event => {
         'pearl',
         'guano',
         'mithril',
-        // 'bronze',
+        'bronze',
         // 'industrial_iron',
         // 'void_steel',
         // 'ethium',
@@ -287,6 +287,19 @@ ServerEvents.recipes(event => {
         }).id( 'forge_frontier:shapeless/compressed_mithril_block_1x' )     
 
     // Bronze
+        // Bronze Compressed 1x to Bronze Block Recipe
+        event.custom({
+            type: 'minecraft:crafting_shapeless',
+            ingredients: [
+                {
+                    item: 'forge_frontier:compressed_bronze_1x'
+                }
+            ],
+            result: {
+                item: 'create_dd:bronze_block',
+                count: 9
+            }
+        }).id( 'forge_frontier:shapeless/compressed_bronze_block_1x' )       
 
     // Industrial Iron
 

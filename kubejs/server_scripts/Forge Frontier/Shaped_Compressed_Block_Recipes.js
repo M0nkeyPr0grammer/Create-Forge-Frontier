@@ -29,7 +29,7 @@ ServerEvents.recipes(event => {
         'pearl',
         'guano',
         'mithril',
-        // 'bronze',
+        'bronze',
         // 'industrial_iron',
         // 'void_steel',
         // 'ethium',
@@ -271,6 +271,18 @@ ServerEvents.recipes(event => {
         ).id( 'forge_frontier:shaped/mithril_block_1x' )       
 
     // Bronze
+         // Creates New Compressed Recipes for Bronze Compressed Blocks 1x
+         event.shaped(
+            Item.of('forge_frontier:compressed_bronze_1x'),
+            [
+                'AAA',
+                'AAA',
+                'AAA'
+            ],
+            {
+                A: 'create_dd:bronze_block', 
+            }
+        ).id( 'forge_frontier:shaped/bronze_block_1x' )       
 
     // Industrial Iron
 
