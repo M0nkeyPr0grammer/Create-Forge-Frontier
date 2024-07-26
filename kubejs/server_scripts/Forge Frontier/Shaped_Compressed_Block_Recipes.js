@@ -37,7 +37,7 @@ ServerEvents.recipes(event => {
         'netherite-gold',
         'netherite-emerald',
         'netherite-diamond',
-        // 'star_infused_netherite'
+        'star_infused_netherite'
         ];
     
     materials.forEach(material => {
@@ -382,6 +382,18 @@ ServerEvents.recipes(event => {
             }
         ).id( 'forge_frontier:shaped/netherite-diamond_block_1x' )      
 
-    // Star Infused Netherite Block    
+    // Star Infused Netherite Block
+        // Creates New Compressed Recipes for Star Infused Netherite Compressed Blocks 1x
+        event.shaped(
+            Item.of('forge_frontier:compressed_star_infused_netherite_1x'),
+            [
+                'AAA',
+                'AAA',
+                'AAA'
+            ],
+            {
+                A: 'cagedmobs:star_infused_netherite_block', 
+            }
+        ).id( 'forge_frontier:shaped/star_infused_netherite_block_1x' )          
     
 })

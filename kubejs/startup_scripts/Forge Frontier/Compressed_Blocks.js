@@ -38,7 +38,7 @@ const materials = [
     'Netherite-Gold',
     'Netherite-Emerald',
     'Netherite-Diamond',
-    // 'Star_Infused_Netherite',
+    'Star_Infused_Netherite',
 ];
 
 // Register blocks
