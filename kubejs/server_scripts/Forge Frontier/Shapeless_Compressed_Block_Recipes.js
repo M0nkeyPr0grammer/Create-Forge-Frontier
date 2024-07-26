@@ -36,7 +36,7 @@ ServerEvents.recipes(event => {
         'ethium',
         'netherite-iron',
         'netherite-gold',
-        // 'netherite-emerald',
+        'netherite-emerald',
         // 'netherite-diamond',
         // 'star_infused_netherite'
     ];
@@ -377,6 +377,19 @@ ServerEvents.recipes(event => {
         }).id( 'forge_frontier:shapeless/compressed_netherite-gold_block_1x' )      
 
     // Netherite-Emerald
+        // Netherite Emerald Compressed 1x to Netherite Emerald Block Recipe
+        event.custom({
+            type: 'minecraft:crafting_shapeless',
+            ingredients: [
+                {
+                    item: 'forge_frontier:compressed_netherite-emerald_1x'
+                }
+            ],
+            result: {
+                item: 'advancednetherite:netherite_emerald_block',
+                count: 9
+            }
+        }).id( 'forge_frontier:shapeless/compressed_netherite-emerald_block_1x' )    
 
     // Netherite-Diamond
 
