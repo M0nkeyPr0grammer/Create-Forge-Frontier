@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "forge_frontier:block/compressed_blocks/compressed_bronze_4x"
+      "model": "forge_frontier:block/compressed_blocks/compressed_industrial_iron_4x"
     }
   }
 }

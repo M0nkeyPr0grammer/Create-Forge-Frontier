@@ -32,7 +32,7 @@ ServerEvents.recipes(event => {
         'mithril',
         'bronze',
         'industrial_iron',
-        // 'void_steel',
+        'void_steel',
         // 'ethium',
         // 'netherite-iron',
         // 'netherite-gold',
@@ -317,6 +317,19 @@ ServerEvents.recipes(event => {
         }).id( 'forge_frontier:shapeless/compressed_industrial_iron_block_1x' )     
 
     // Void Steel
+        // Void Steel Compressed 1x to Void Steel Block Recipe
+        event.custom({
+            type: 'minecraft:crafting_shapeless',
+            ingredients: [
+                {
+                    item: 'forge_frontier:compressed_void_steel_1x'
+                }
+            ],
+            result: {
+                item: 'createutilities:void_steel_block',
+                count: 9
+            }
+        }).id( 'forge_frontier:shapeless/compressed_void_steel_block_1x' )      
 
     // Ethium
 
