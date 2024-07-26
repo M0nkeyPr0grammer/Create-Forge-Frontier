@@ -33,7 +33,7 @@ ServerEvents.recipes(event => {
         'industrial_iron',
         'void_steel',
         'ethium',
-        // 'netherite-iron',
+        'netherite-iron',
         // 'netherite-gold',
         // 'netherite-emerald',
         // 'netherite-diamond',
@@ -327,6 +327,18 @@ ServerEvents.recipes(event => {
         ).id( 'forge_frontier:shaped/ethium_block_1x' )     
 
     // Netherite-Iron
+        // Creates New Compressed Recipes for Netherite Iron Compressed Blocks 1x
+        event.shaped(
+            Item.of('forge_frontier:compressed_netherite-iron_1x'),
+            [
+                'AAA',
+                'AAA',
+                'AAA'
+            ],
+            {
+                A: 'advancednetherite:netherite_iron_block', 
+            }
+        ).id( 'forge_frontier:shaped/netherite-iron_block_1x' )       
 
     // Netherite-Gold
 
