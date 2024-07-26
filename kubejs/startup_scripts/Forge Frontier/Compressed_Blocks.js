@@ -37,7 +37,7 @@ const materials = [
     'Netherite-Iron',
     'Netherite-Gold',
     'Netherite-Emerald',
-    // 'Netherite-Diamond',
+    'Netherite-Diamond',
     // 'Star_Infused_Netherite',
 ];
 

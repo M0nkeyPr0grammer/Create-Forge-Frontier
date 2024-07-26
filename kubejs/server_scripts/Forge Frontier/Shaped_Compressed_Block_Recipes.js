@@ -36,7 +36,7 @@ ServerEvents.recipes(event => {
         'netherite-iron',
         'netherite-gold',
         'netherite-emerald',
-        // 'netherite-diamond',
+        'netherite-diamond',
         // 'star_infused_netherite'
         ];
     
@@ -369,6 +369,18 @@ ServerEvents.recipes(event => {
         ).id( 'forge_frontier:shaped/netherite-emerald_block_1x' )        
 
     // Netherite-Diamond
+        // Creates New Compressed Recipes for Netherite Diamond Compressed Blocks 1x
+        event.shaped(
+            Item.of('forge_frontier:compressed_netherite-diamond_1x'),
+            [
+                'AAA',
+                'AAA',
+                'AAA'
+            ],
+            {
+                A: 'advancednetherite:netherite_diamond_block', 
+            }
+        ).id( 'forge_frontier:shaped/netherite-diamond_block_1x' )      
 
     // Star Infused Netherite Block    
     
