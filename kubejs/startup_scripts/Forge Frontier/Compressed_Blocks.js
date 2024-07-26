@@ -33,7 +33,7 @@ const materials = [
     'Bronze',
     'Industrial_Iron',
     'Void_Steel',
-    // 'Ethium',
+    'Ethium',
     // 'Netherite-Iron',
     // 'Netherite-Gold',
     // 'Netherite-Emerald',

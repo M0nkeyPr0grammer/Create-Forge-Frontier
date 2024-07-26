@@ -32,7 +32,7 @@ ServerEvents.recipes(event => {
         'bronze',
         'industrial_iron',
         'void_steel',
-        // 'ethium',
+        'ethium',
         // 'netherite-iron',
         // 'netherite-gold',
         // 'netherite-emerald',
@@ -313,6 +313,18 @@ ServerEvents.recipes(event => {
         ).id( 'forge_frontier:shaped/void_steel_block_1x' )     
 
     // Ethium
+        // Creates New Compressed Recipes for Ethium Compressed Blocks 1x
+        event.shaped(
+            Item.of('forge_frontier:compressed_ethium_1x'),
+            [
+                'AAA',
+                'AAA',
+                'AAA'
+            ],
+            {
+                A: 'ethuim:ethium_block', 
+            }
+        ).id( 'forge_frontier:shaped/ethium_block_1x' )     
 
     // Netherite-Iron
 

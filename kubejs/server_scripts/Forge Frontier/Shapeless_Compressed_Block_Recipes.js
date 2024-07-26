@@ -33,7 +33,7 @@ ServerEvents.recipes(event => {
         'bronze',
         'industrial_iron',
         'void_steel',
-        // 'ethium',
+        'ethium',
         // 'netherite-iron',
         // 'netherite-gold',
         // 'netherite-emerald',
@@ -332,6 +332,19 @@ ServerEvents.recipes(event => {
         }).id( 'forge_frontier:shapeless/compressed_void_steel_block_1x' )      
 
     // Ethium
+        // Ethium Compressed 1x to Ethium Block Recipe
+        event.custom({
+            type: 'minecraft:crafting_shapeless',
+            ingredients: [
+                {
+                    item: 'forge_frontier:compressed_ethium_1x'
+                }
+            ],
+            result: {
+                item: 'ethuim:ethium_block',
+                count: 9
+            }
+        }).id( 'forge_frontier:shapeless/compressed_ethium_block_1x' )        
 
     // Netherite-Iron
 
