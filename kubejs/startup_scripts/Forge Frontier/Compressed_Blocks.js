@@ -35,7 +35,7 @@ const materials = [
     'Void_Steel',
     'Ethium',
     'Netherite-Iron',
-    // 'Netherite-Gold',
+    'Netherite-Gold',
     // 'Netherite-Emerald',
     // 'Netherite-Diamond',
     // 'Star_Infused_Netherite',
