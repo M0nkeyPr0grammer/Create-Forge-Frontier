@@ -30,7 +30,7 @@ ServerEvents.recipes(event => {
         'guano',
         'mithril',
         'bronze',
-        // 'industrial_iron',
+        'industrial_iron',
         // 'void_steel',
         // 'ethium',
         // 'netherite-iron',
@@ -285,6 +285,18 @@ ServerEvents.recipes(event => {
         ).id( 'forge_frontier:shaped/bronze_block_1x' )       
 
     // Industrial Iron
+        // Creates New Compressed Recipes for Industrial Iron Compressed Blocks 1x
+        event.shaped(
+            Item.of('forge_frontier:compressed_industrial_iron_1x'),
+            [
+                'AAA',
+                'AAA',
+                'AAA'
+            ],
+            {
+                A: 'create_dd:industrial_iron_block', 
+            }
+        ).id( 'forge_frontier:shaped/industrial_iron_block_1x' )     
 
     // Void Steel
 

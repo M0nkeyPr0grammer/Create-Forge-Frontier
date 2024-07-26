@@ -31,7 +31,7 @@ const materials = [
     'Guano',
     'Mithril',
     'Bronze',
-    // 'Industrial_Iron',
+    'Industrial_Iron',
     // 'Void_Steel',
     // 'Ethium',
     // 'Netherite-Iron',
