@@ -13,6 +13,7 @@ event.add('createoreexcavation:drills','createoreexcavation:pearl_drill')
 event.add('createoreexcavation:drills','createoreexcavation:scarlet_drill')
 event.add('createoreexcavation:drills','createoreexcavation:sulfur_drill')
 event.add('createoreexcavation:drills','createoreexcavation:uranium_drill')
+event.add('createoreexcavation:drills','createoreexcavation:echo_drill')
 
 // Ad Astra Ores
 event.add('forge:ores/ice_shard', 'ad_astra:moon_ice_shard_ore' )

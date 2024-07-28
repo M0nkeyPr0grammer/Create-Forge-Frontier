@@ -327,7 +327,11 @@ StartupEvents.registry('item', event => {
             
         event.create("createoreexcavation:uranium_drill")
             .displayName("Uranium Drill")
-            .texture('createoreexcavation:item/uranium_drill');     
+            .texture('createoreexcavation:item/uranium_drill');
+            
+        event.create("createoreexcavation:echo_drill")
+            .displayName("Echo Drill")
+            .texture('createoreexcavation:item/echo_drill');
 
     // Logo
         event.create('forge_frontier:modpack_logo')
