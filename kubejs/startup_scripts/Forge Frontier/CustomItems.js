@@ -300,6 +300,34 @@ StartupEvents.registry('item', event => {
         event.create("createoreexcavation:dragon_drill")
             .displayName("Dragon Drill")
             .texture('createoreexcavation:item/dragon_drill');
+        
+        event.create("createoreexcavation:amber_drill")
+            .displayName("Amber Drill")
+            .texture('createoreexcavation:item/amber_drill');
+            
+        event.create("createoreexcavation:azure_drill")
+            .displayName("Azure Drill")
+            .texture('createoreexcavation:item/azure_drill');
+            
+        event.create("createoreexcavation:guano_drill")
+            .displayName("Guano Drill")
+            .texture('createoreexcavation:item/guano_drill');
+            
+        event.create("createoreexcavation:pearl_drill")
+            .displayName("Pearl Drill")
+            .texture('createoreexcavation:item/pearl_drill');
+            
+        event.create("createoreexcavation:scarlet_drill")
+            .displayName("Scarlet Drill")
+            .texture('createoreexcavation:item/scarlet_drill');
+            
+        event.create("createoreexcavation:sulfur_drill")
+            .displayName("Sulfur Drill")
+            .texture('createoreexcavation:item/sulfur_drill');
+            
+        event.create("createoreexcavation:uranium_drill")
+            .displayName("Uranium Drill")
+            .texture('createoreexcavation:item/uranium_drill');     
 
     // Logo
         event.create('forge_frontier:modpack_logo')

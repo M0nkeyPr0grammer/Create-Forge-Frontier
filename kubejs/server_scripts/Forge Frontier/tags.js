@@ -2,6 +2,17 @@ ServerEvents.tags('item', event => {
 
 // Drill Heads
 event.add('createoreexcavation:drills','createoreexcavation:brass_drill')
+event.add('createoreexcavation:drills','createoreexcavation:desh_drill')
+event.add('createoreexcavation:drills','createoreexcavation:ostrum_drill')
+event.add('createoreexcavation:drills','createoreexcavation:calorite_drill')
+event.add('createoreexcavation:drills','createoreexcavation:dragon_drill')
+event.add('createoreexcavation:drills','createoreexcavation:amber_drill')
+event.add('createoreexcavation:drills','createoreexcavation:azure_drill')
+event.add('createoreexcavation:drills','createoreexcavation:guano_drill')
+event.add('createoreexcavation:drills','createoreexcavation:pearl_drill')
+event.add('createoreexcavation:drills','createoreexcavation:scarlet_drill')
+event.add('createoreexcavation:drills','createoreexcavation:sulfur_drill')
+event.add('createoreexcavation:drills','createoreexcavation:uranium_drill')
 
 // Ad Astra Ores
 event.add('forge:ores/ice_shard', 'ad_astra:moon_ice_shard_ore' )
