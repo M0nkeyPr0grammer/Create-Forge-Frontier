@@ -1,80 +1,4 @@
 ServerEvents.recipes(event => {
-// New Drill Heads
-    // Brass Drill Head
-    event.shaped(
-		Item.of('createoreexcavation:brass_drill'),
-		[
-			'AB ',
-			'BCB',
-			' BB'
-		],
-		{
-			A: 'create:brass_block',
-			B: 'create:brass_ingot',
-			C: 'createoreexcavation:diamond_drill'
-		}
-	).id( 'forge_frontier:shaped/brass_drill' )
-
-    // Desh Drill Head
-    event.shaped(
-		Item.of('createoreexcavation:desh_drill'),
-		[
-			'AB ',
-			'BCB',
-			' BB'
-		],
-		{
-			A: 'ad_astra:desh_block',
-			B: 'ad_astra:desh_ingot',
-			C: 'createoreexcavation:brass_drill'
-		}
-	).id( 'forge_frontier:shaped/desh_drill' )
-
-    // Ostrum Drill Head
-    event.shaped(
-		Item.of('createoreexcavation:ostrum_drill'),
-		[
-			'AB ',
-			'BCB',
-			' BB'
-		],
-		{
-			A: 'ad_astra:ostrum_block',
-			B: 'ad_astra:ostrum_ingot',
-			C: 'createoreexcavation:desh_drill'
-		}
-	).id( 'forge_frontier:shaped/ostrum_drill' )
-
-    // Calorite Drill Head
-    event.shaped(
-		Item.of('createoreexcavation:calorite_drill'),
-		[
-			'AB ',
-			'BCB',
-			' BB'
-		],
-		{
-			A: 'ad_astra:calorite_block',
-			B: 'ad_astra:calorite_ingot',
-			C: 'createoreexcavation:ostrum_drill'
-		}
-	).id( 'forge_frontier:shaped/calorite_drill' )
-
-    // Dragon Drill Head
-    event.shaped(
-		Item.of('createoreexcavation:dragon_drill'),
-		[
-			'AD ',
-			'BCB',
-			' DD'
-		],
-		{
-			A: 'minecraft:dragon_head',
-			B: 'minecraft:dragon_breath',
-			C: 'createoreexcavation:calorite_drill',
-            D: 'quark:dragon_scale'
-		}
-	).id( 'forge_frontier:shaped/dragon_drill' )
 
 // Drill Settings
     // Gem Ores: Lapis, Redstone, Emerald, and Diamond
@@ -665,7 +589,7 @@ ServerEvents.recipes(event => {
                 priority: 0,
                 stress: 256,
                 ticks: 1000,
-                vein_id: 'createoreexcavation:ore_vein_type/malachite_ore'
+                vein_id: 'createoreexcavation:ore_vein_type/enlightend_vein'
             }).id('forge_frontier:drilling/malachite')
 
             // Irradium
@@ -707,7 +631,7 @@ ServerEvents.recipes(event => {
                 priority: 0,
                 stress: 256,
                 ticks: 1000,
-                vein_id: 'createoreexcavation:ore_vein_type/irradium_ore'
+                vein_id: 'createoreexcavation:ore_vein_type/enlightend_vein'
             }).id('forge_frontier:drilling/irradium')
 
             // Bismuth Ore
@@ -749,7 +673,7 @@ ServerEvents.recipes(event => {
                 priority: 0,
                 stress: 256,
                 ticks: 1000,
-                vein_id: 'createoreexcavation:ore_vein_type/bismuth_ore'
+                vein_id: 'createoreexcavation:ore_vein_type/enlightend_vein'
             }).id('forge_frontier:drilling/bismuth')
 
         // Moon Ores: Cheese and Desh Ore
@@ -791,7 +715,7 @@ ServerEvents.recipes(event => {
             priority: 0,
             stress: 256,
             ticks: 700,
-            vein_id: 'createoreexcavation:ore_vein_type/moon_ore'
+            vein_id: 'createoreexcavation:ore_vein_type/moon_vein'
         }).id('forge_frontier:drilling/moon')
 
         // Mars Ores: Ostrum Ore
@@ -829,7 +753,7 @@ ServerEvents.recipes(event => {
             priority: 0,
             stress: 256,
             ticks: 700,
-            vein_id: 'createoreexcavation:ore_vein_type/mars_ore'
+            vein_id: 'createoreexcavation:ore_vein_type/mars_vein'
         }).id('forge_frontier:drilling/ostrum')
 
         // Venus Ores: Calorite Ore
@@ -867,7 +791,7 @@ ServerEvents.recipes(event => {
             priority: 0,
             stress: 256,
             ticks: 800,
-            vein_id: 'createoreexcavation:ore_vein_type/venus_ore'
+            vein_id: 'createoreexcavation:ore_vein_type/venus_vein'
         }).id('forge_frontier:drilling/calorite')
 
         // Glacio Ores: Ice Shard Ore
@@ -899,7 +823,275 @@ ServerEvents.recipes(event => {
             priority: 0,
             stress: 256,
             ticks: 500,
-            vein_id: 'createoreexcavation:ore_vein_type/glacio_ore'
+            vein_id: 'createoreexcavation:ore_vein_type/glacio_vein'
         }).id('forge_frontier:drilling/ice_shard')
+
+        // Otherside Vein: Echo Shards
+        event.custom({
+            type: 'createoreexcavation:drilling',
+            drill: {
+            item: 'createoreexcavation:echo_drill'
+            },
+            fluid: {
+                fluid: 'forge_frontier:molten_carbon',
+                amount: 1000
+            },
+            output: [
+                {
+                    item: 'minecraft:echo_shard',
+                    count: 1,
+                },
+                {
+                    item: 'create:experience_nugget',
+                    count: 1,
+                    chance: .50
+                },
+                {
+                    item: 'deeperdarker:warden_carapace',
+                    count: 1,
+                    chance: .02
+                },
+                {
+                    item: 'deeperdarker:sculk_stone',
+                    count: 1,
+                    chance: .10
+                }
+            ],
+            priority: 0,
+            stress: 256,
+            ticks: 2000,
+            vein_id: 'createoreexcavation:ore_vein_type/deeper_darker_vein'
+        }).id('forge_frontier:drilling/echo_shard')        
+
+        // Toxic Vein: Uranium and Sulfur
+
+            // Uranium
+            event.custom({
+                type: 'createoreexcavation:drilling',
+                drill: {
+                item: 'createoreexcavation:uranium_drill'
+                },
+                fluid: {
+                    fluid: 'alexscaves:acid',
+                    amount: 1000
+                },
+                output: [
+                    {
+                        item: 'alexscaves:radrock_uranium_ore',
+                        count: 1,
+                    },
+                    {
+                        item: 'create:experience_nugget',
+                        count: 1,
+                        chance: .50
+                    },
+                    {
+                        item: 'alexscaves:radrock',
+                        count: 1,
+                        chance: .10
+                    }
+                ],
+                priority: 0,
+                stress: 256,
+                ticks: 2000,
+                vein_id: 'createoreexcavation:ore_vein_type/toxic_vein'
+            }).id('forge_frontier:drilling/uranium')
+
+            // Sulfur
+            event.custom({
+                type: 'createoreexcavation:drilling',
+                drill: {
+                item: 'createoreexcavation:sulfur_drill'
+                },
+                fluid: {
+                    fluid: 'alexscaves:acid',
+                    amount: 1000
+                },
+                output: [
+                    {
+                        item: 'alexscaves:sulfur_cluster',
+                        count: 1,
+                    },
+                    {
+                        item: 'create:experience_nugget',
+                        count: 1,
+                        chance: .50
+                    },
+                    {
+                        item: 'alexscaves:radrock',
+                        count: 1,
+                        chance: .10
+                    }
+                ],
+                priority: 0,
+                stress: 256,
+                ticks: 2000,
+                vein_id: 'createoreexcavation:ore_vein_type/toxic_vein'
+            }).id('forge_frontier:drilling/sulfur')             
+
+        // Primordial Vein: Amber
+        event.custom({
+            type: 'createoreexcavation:drilling',
+            drill: {
+            item: 'createoreexcavation:amber_drill'
+            },
+            fluid: {
+                fluid: 'create:honey',
+                amount: 1000
+            },
+            output: [
+                {
+                    item: 'alexscaves:amber',
+                    count: 1,
+                },
+                {
+                    item: 'create:experience_nugget',
+                    count: 1,
+                    chance: .50
+                },
+                {
+                    item: 'alexscaves:limestone',
+                    count: 1,
+                    chance: .10
+                }
+            ],
+            priority: 0,
+            stress: 256,
+            ticks: 2000,
+            vein_id: 'createoreexcavation:ore_vein_type/primordial_vein'
+        }).id('forge_frontier:drilling/amber')          
+
+        // Abysal Vein: Pearls
+        event.custom({
+            type: 'createoreexcavation:drilling',
+            drill: {
+            item: 'createoreexcavation:pearl_drill'
+            },
+            fluid: {
+                fluid: 'minecraft:water',
+                amount: 1000
+            },
+            output: [
+                {
+                    item: 'alexscaves:pearl',
+                    count: 1,
+                },
+                {
+                    item: 'create:experience_nugget',
+                    count: 1,
+                    chance: .50
+                },
+                {
+                    item: 'alexscaves:muck',
+                    count: 1,
+                    chance: .10
+                }
+            ],
+            priority: 0,
+            stress: 256,
+            ticks: 2000,
+            vein_id: 'createoreexcavation:ore_vein_type/abyssal_vein'
+        }).id('forge_frontier:drilling/pearl')         
+
+        // Forlorn Vein: Guano
+        event.custom({
+            type: 'createoreexcavation:drilling',
+            drill: {
+            item: 'createoreexcavation:guano_drill'
+            },
+            fluid: {
+                fluid: 'sliceanddice:fertilizer',
+                amount: 1000
+            },
+            output: [
+                {
+                    item: 'alexscaves:guano',
+                    count: 1,
+                },
+                {
+                    item: 'create:experience_nugget',
+                    count: 1,
+                    chance: .50
+                },
+                {
+                    item: 'alexscaves:guanostone',
+                    count: 1,
+                    chance: .10
+                }
+            ],
+            priority: 0,
+            stress: 256,
+            ticks: 2000,
+            vein_id: 'createoreexcavation:ore_vein_type/forlorn_vein'
+        }).id('forge_frontier:drilling/guano')          
+
+        // Magnetic Vein: Scarlet and Azure Neodymium
+            // Scarlet Neodymium
+            event.custom({
+                type: 'createoreexcavation:drilling',
+                drill: {
+                item: 'createoreexcavation:scarlet_drill'
+                },
+                fluid: {
+                    fluid: 'forge_frontier:molten_iron',
+                    amount: 1000
+                },
+                output: [
+                    {
+                        item: 'alexscaves:scarlet_neodymium_ingot',
+                        count: 1,
+                    },
+                    {
+                        item: 'create:experience_nugget',
+                        count: 1,
+                        chance: .50
+                    },
+                    {
+                        item: 'alexscaves:galena',
+                        count: 1,
+                        chance: .10
+                    }
+                ],
+                priority: 0,
+                stress: 256,
+                ticks: 2000,
+                vein_id: 'createoreexcavation:ore_vein_type/magnetic_vein'
+            }).id('forge_frontier:drilling/scarlet')  
+
+            // Azure Neodymium
+            event.custom({
+                type: 'createoreexcavation:drilling',
+                drill: {
+                item: 'createoreexcavation:azure_drill'
+                },
+                fluid: {
+                    fluid: 'forge_frontier:molten_iron',
+                    amount: 1000
+                },
+                output: [
+                    {
+                        item: 'alexscaves:azure_neodymium_ingot',
+                        count: 1,
+                    },
+                    {
+                        item: 'create:experience_nugget',
+                        count: 1,
+                        chance: .50
+                    },
+                    {
+                        item: 'alexscaves:galena',
+                        count: 1,
+                        chance: .10
+                    }
+                ],
+                priority: 0,
+                stress: 256,
+                ticks: 2000,
+                vein_id: 'createoreexcavation:ore_vein_type/magnetic_vein'
+            }).id('forge_frontier:drilling/azure')  
+
+        // The Forge Vein: Creative Flour; Will Create later, as it requires The Forge's Space Station
+
+
     
       })

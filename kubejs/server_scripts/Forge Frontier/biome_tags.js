@@ -3,9 +3,19 @@ ServerEvents.tags('worldgen/biome', event => {
   // New Additions
 
   // Ad Astra Ore Vein Biome Linkage
-  event.add('ad_astra:moon_ore_veins', 'ad_astra:lunar_wastelands');
-  event.add('ad_astra:venus_ore_veins', 'ad_astra:venus_wastelands');
-  event.add('ad_astra:glacio_ore_veins', 'ad_astra:glacio_ice_peaks');
+  event.add('forge_frontier:moon_ore_veins', 'ad_astra:lunar_wastelands');
+  event.add('forge_frontier:venus_ore_veins', 'ad_astra:venus_wastelands');
+  event.add('forge_frontier:glacio_ore_veins', 'ad_astra:glacio_ice_peaks');
+
+  // Otherside Vein Biome Linkage
+  event.add('forge_frontier:deeper_darker_vein', 'deeperdarker:deeplands')
+
+  // Alex's Caves Vein to Biome Linkage
+  event.add('forge_frontier:toxic_vein', 'alexscaves:toxic_caves');
+  event.add('forge_frontier:abyssal_vein', 'alexscaves:abyssal_chasm');
+  event.add('forge_frontier:magnetic_vein', 'alexscaves:magnetic_caves');
+  event.add('forge_frontier:primordial_vein', 'alexscaves:primordial_caves');
+  event.add('forge_frontier:forlorn_vein', 'alexscaves:forlorn_hollows')
 
   // Adds New Structure Gen
   event.add('cataclysm:has_structure/burning_arena_biomes', 'ad_astra:mercury_deltas');
