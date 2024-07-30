@@ -447,6 +447,25 @@ ServerEvents.recipes(event => {
                     ]
                 }).id('forge_frontier:compacting/iron_plate')
 
+            // Shaped Recipes
+
+                // Changes Steel Engine Recipe to Use Blaze Burner
+                event.remove({ id: "ad_astra:steel_engine"})
+                event.shaped(
+                    Item.of('ad_astra:steel_engine'),
+                    [
+                        'SSS',
+                        'SBS',
+                        ' F '
+                    ],
+                    {
+                        S: '#ad_astra:steel_plates',
+                        B: 'create:blaze_burner',
+                        F: 'ad_astra:fan'
+                        
+                    }
+                ).id( 'forge_frontier:shaped/steel_engine' )
+
         
         
 })
