@@ -333,6 +333,24 @@ StartupEvents.registry('item', event => {
             .displayName("Echo Drill")
             .texture('createoreexcavation:item/echo_drill');
 
+    // Custom Engines
+        event.create("forge_frontier:tier_5_engine")
+            .displayName("Tier 5 Engine")
+            .texture('forge_frontier:item/rocket_additions/tier_5_engine');
+
+        event.create("forge_frontier:tier_6_engine")
+            .displayName("Tier 6 Engine")
+            .texture('forge_frontier:item/rocket_additions/tier_6_engine');    
+
+    // Custom Tanks
+        event.create("forge_frontier:tier_5_tank")
+            .displayName("Tier 5 Tank")
+            .texture('forge_frontier:item/rocket_additions/tier_5_tank');
+
+        event.create("forge_frontier:tier_6_tank")
+            .displayName("Tier 6 Tank")
+            .texture('forge_frontier:item/rocket_additions/tier_6_tank');   
+
     // Logo
         event.create('forge_frontier:modpack_logo')
             .displayName('Forge Frontier Logo')
