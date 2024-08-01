@@ -126,22 +126,22 @@ ServerEvents.recipes(event => {
         pattern: [
             "  N  ",
             " MMM ",
-            " MbM ",
+            " MMM ",
             " MdM ",
             " MRM ",
-            " MbM ",
-            "FTTTF",
-            "F B F"
+            " MMM ",
+            "FtTtF",
+            "F E F"
         ],
         key: {
             N: Ingredient.of("ad_astra:rocket_nose_cone"),
             M: Ingredient.of("enlightened_end:malachite_block"),
-            b: Ingredient.of("enlightened_end:bismuth_block"),
             d: Ingredient.of("ad_astra:steel_door"),
             R: Ingredient.of("ad_astra:tier_4_rocket"),
             F: Ingredient.of("ad_astra:rocket_fin"),
+            t: Ingredient.of("forge_frontier:tier_5_tank"),
             T: Ingredient.of("tfmg:steel_fluid_tank"),
-            B: Ingredient.of("enlightened_end:nuclear_bomb")
+            E: Ingredient.of("forge_frontier:tier_5_engine")
         },
         result: Ingredient.of("ad_astra_rocketed:tier_5_rocket"),
         acceptMirrored: false
@@ -158,20 +158,19 @@ ServerEvents.recipes(event => {
             " MMM ",
             " MdM ",
             " MRM ",
-            " McM ",
-            "FTETF",
-            "F D F"
+            " MMM ",
+            "FtTtF",
+            "F E F"
         ],
         key: {
             N: Ingredient.of("ad_astra:rocket_nose_cone"),
             M: Ingredient.of("alexscaves:primal_magma"),
             d: Ingredient.of("ad_astra:steel_door"),
             R: Ingredient.of("ad_astra_rocketed:tier_5_rocket"),
-            c: Ingredient.of("alexscaves:ominous_catalyst"),
             F: Ingredient.of("ad_astra:rocket_fin"),
+            t: Ingredient.of("forge_frontier:tier_6_tank"),
             T: Ingredient.of("tfmg:steel_fluid_tank"),
-            E: Ingredient.of("alexscaves:enigmatic_engine"),
-            D: Ingredient.of("alexscaves:pure_darkness")
+            E: Ingredient.of("forge_frontier:tier_6_engine"),
         },
         result: Ingredient.of("ad_astra_rocketed:tier_6_rocket"),
         acceptMirrored: false
@@ -181,5 +180,73 @@ ServerEvents.recipes(event => {
     
     event.remove({ id: "ad_astra_rocketed:nasa_workbench/default/tier_7_rocket_from_nasa_workbench"})
     // Will Make Rocket Later
+
+    // New Rocket Parts
+        // Engines
+            // Tier 5
+            event.shaped(
+                Item.of("forge_frontier:tier_5_engine"),
+                [
+                    "MMM",
+                    "BEB",
+                    " I "
+                ],
+                {
+                    M: "enlightened_end:malachite_block",
+                    B: "enlightened_end:bismuth_ingot",
+                    E: "ad_astra:calorite_engine",
+                    I: "enlightened_end:irradium_bar"
+                    
+                }
+            ).id( "forge_frontier:shaped/tier_5_engine" )
+
+            // Tier 6
+            event.shaped(
+                Item.of("forge_frontier:tier_6_engine"),
+                [
+                    "MMM",
+                    "eEe",
+                    " D "
+                ],
+                {
+                    M: "alexscaves:primal_magma",
+                    e: "alexscaves:enigmatic_engine",
+                    E: "forge_frontier:tier_5_engine",
+                    D: "alexscaves:pure_darkness"
+                }
+            ).id( "forge_frontier:shaped/tier_6_engine" )            
+
+        // Tanks
+            // Tier 5
+            event.shaped(
+                Item.of("forge_frontier:tier_5_tank"),
+                [
+                    "MM ",
+                    "MTB",
+                    "MM "
+                ],
+                {
+                    M: "enlightened_end:malachite_block",
+                    B: "enlightened_end:bismuth_ingot",
+                    T: "ad_astra:calorite_tank",
+                    
+                }
+            ).id( "forge_frontier:shaped/tier_5_tank" )
+
+            // Tier 6
+            event.shaped(
+                Item.of("forge_frontier:tier_6_tank"),
+                [
+                    "MM ",
+                    "MTC",
+                    "MM "
+                ],
+                {
+                    M: "alexscaves:primal_magma",
+                    T: "forge_frontier:tier_5_tank",
+                    C: "alexscaves:ominous_catalyst"
+                }
+            ).id( "forge_frontier:shaped/tier_6_tank" )  
+
 
 })
