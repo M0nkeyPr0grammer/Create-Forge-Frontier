@@ -1,0 +1,255 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "nether"
+	group: "3750F90D875B3398"
+	icon: "minecraft:netherrack"
+	id: "4939BBE1CB170C9D"
+	images: [
+		{
+			height: 2.5d
+			image: "fancymenu:textures/contextmenu/icons/arrow_down.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 4.5d
+			y: 7.0d
+		}
+		{
+			height: 1.0d
+			hover: ["You will need to combine these items from above to create the item below!"]
+			image: "minecraft:block/crafting_table_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			height: 2.5d
+			image: "fancymenu:textures/contextmenu/icons/arrow_down.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 4.5d
+			y: 3.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7CE7BBA16C2E61E1"
+			tasks: [{
+				id: "4668E116A3A3198C"
+				structure: "idas:ancient_portal/ancient_portal"
+				title: "Ancient Portal"
+				type: "structure"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			id: "5619CB9F89C25C87"
+			tasks: [{
+				id: "5365D7558DF2FCE7"
+				structure: "idas:tinkers_workshop"
+				title: "Tinkers Workshop"
+				type: "structure"
+			}]
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			id: "10E12D942E6F9B1B"
+			tasks: [{
+				id: "0FBE52135DB18C50"
+				structure: "idas:ancient_mines"
+				title: "Ancient Mines"
+				type: "structure"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			id: "2C7C1C96546AD211"
+			tasks: [{
+				id: "1F862107BD50E3FE"
+				structure: "idas:witches_treestump"
+				title: "Witch's Tree Stump"
+				type: "structure"
+			}]
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7CE7BBA16C2E61E1"]
+			id: "4022C1C30F94967C"
+			tasks: [{
+				id: "664D542ADAFAE4EA"
+				item: "nether_remastered:seal_piece_1"
+				match_nbt: false
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5619CB9F89C25C87"]
+			id: "0F3805049AE28F9F"
+			tasks: [{
+				id: "5F41087530C12B64"
+				item: "nether_remastered:seal_piece_2"
+				match_nbt: false
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["10E12D942E6F9B1B"]
+			id: "2904FAB7D1EEF9DA"
+			tasks: [{
+				id: "09CF563870F3E88A"
+				item: "nether_remastered:seal_piece_3"
+				match_nbt: false
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2C7C1C96546AD211"]
+			id: "34CAFB5E21900020"
+			tasks: [{
+				id: "7AD9905782A48872"
+				item: "nether_remastered:seal_piece_4"
+				match_nbt: false
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"541250A87BFC169D"
+				"767465A8B1032AB3"
+			]
+			hide_dependency_lines: true
+			id: "425E9DAFBC3666BD"
+			subtitle: "Bottle 2/4"
+			tasks: [{
+				count: 2L
+				id: "09D74AF14E861835"
+				item: "nether_remastered:bottled_nether_essence"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["767465A8B1032AB3"]
+			id: "541250A87BFC169D"
+			subtitle: "Bottle 1/4"
+			tasks: [{
+				id: "77F8FFD4713F2151"
+				item: "nether_remastered:bottled_nether_essence"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"425E9DAFBC3666BD"
+				"767465A8B1032AB3"
+			]
+			hide_dependency_lines: true
+			id: "2E63B61B39D2A0B6"
+			subtitle: "Bottle 3/4"
+			tasks: [{
+				count: 3L
+				id: "00617FA68CBA4E09"
+				item: "nether_remastered:bottled_nether_essence"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"2E63B61B39D2A0B6"
+				"767465A8B1032AB3"
+			]
+			hide_dependency_lines: true
+			id: "764CD6B79DF80F96"
+			subtitle: "Bottle 4/4"
+			tasks: [{
+				count: 4L
+				id: "514135D89AA84C1C"
+				item: "nether_remastered:bottled_nether_essence"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"541250A87BFC169D"
+				"425E9DAFBC3666BD"
+				"2E63B61B39D2A0B6"
+				"764CD6B79DF80F96"
+				"786B2E479D58EC68"
+			]
+			hide_dependency_lines: true
+			id: "486542BF23253839"
+			tasks: [{
+				id: "06F42DEDCFD6E7F9"
+				item: "nether_remastered:seal_of_the_underworld_item"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 9.0d
+		}
+		{
+			id: "767465A8B1032AB3"
+			tasks: [{
+				id: "0C9566FCC4B60DB4"
+				item: "nether_remastered:obisidian_infused_bottle"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"541250A87BFC169D"
+				"425E9DAFBC3666BD"
+				"2E63B61B39D2A0B6"
+				"764CD6B79DF80F96"
+				"34CAFB5E21900020"
+				"4022C1C30F94967C"
+				"0F3805049AE28F9F"
+				"2904FAB7D1EEF9DA"
+			]
+			description: [
+				"Congrats on obtaining all the pieces to the seal of the underworld, you can now craft the seal, consume it, then you will be able to freely travel into the nether. Feel free to use this portal as a means of entering into the Nether."
+				"{image:supplementaries:textures/map_marker/nether_portal.png width:100 height:100 align:center}"
+			]
+			id: "786B2E479D58EC68"
+			tasks: [
+				{
+					id: "01FBDA6D9EDE67C5"
+					structure: "hopo:portal"
+					title: "Nether Portal"
+					type: "structure"
+				}
+				{
+					id: "018C04963381B47E"
+					item: "nether_remastered:seal_crystal"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 0.5d
+		}
+	]
+	title: "Nether"
+}
