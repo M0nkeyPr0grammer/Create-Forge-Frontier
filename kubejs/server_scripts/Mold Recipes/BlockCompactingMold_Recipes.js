@@ -1,4 +1,53 @@
 ServerEvents.recipes(event => {
+    // Molten Lead to Lead Block
+    event.custom({
+        type: 'create:compacting',
+        ingredients: [
+            {
+                fluid: 'forge_frontier:molten_lead',
+                amount: 900
+            },
+            {
+                item: 'forge_frontier:block_mold',
+                count: 1
+            }
+        ],
+        results: [
+            {
+                item: 'tfmg:lead_block',
+                count: 1
+            },
+            {
+                item: 'forge_frontier:block_mold'
+            }
+        ],
+        heatRequirement: 'superheated'
+    }).id('forge_frontier:compacting/lead_block')    
+
+    // Molten Aluminum to Aluminum Block
+    event.custom({
+        type: 'create:compacting',
+        ingredients: [
+            {
+                fluid: 'forge_frontier:molten_aluminum',
+                amount: 900
+            },
+            {
+                item: 'forge_frontier:block_mold',
+                count: 1
+            }
+        ],
+        results: [
+            {
+                item: 'tfmg:aluminum_block',
+                count: 1
+            },
+            {
+                item: 'forge_frontier:block_mold'
+            }
+        ],
+        heatRequirement: 'superheated'
+    }).id('forge_frontier:compacting/aluminum_block')      
 
     // Molten Desh to Desh Block
     event.custom({

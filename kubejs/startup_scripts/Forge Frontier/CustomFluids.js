@@ -1,5 +1,25 @@
 StartupEvents.registry('fluid',event => {
 
+    // Creates Molten Lead
+    event.create('forge_frontier:molten_lead')
+        .color(0x5c7376)
+        .displayName('Molten Lead')
+        .bucketColor(0x5c7376)
+        .thickTexture(0x5c7376)
+        .viscosity(6000)  
+        .temperature(1300)  
+        .bucketItem;  
+
+    // Creates Molten Aluminum
+    event.create('forge_frontier:molten_aluminum')
+        .color(0xffffff)
+        .displayName('Molten Aluminum')
+        .bucketColor(0xffffff)
+        .thickTexture(0xffffff)
+        .viscosity(6000)  
+        .temperature(1300)  
+        .bucketItem;  
+
     // Creates Molten Copper
     event.create('forge_frontier:molten_copper')
         .color(0xc75d34)

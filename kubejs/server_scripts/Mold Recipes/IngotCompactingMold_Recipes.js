@@ -1,5 +1,54 @@
 ServerEvents.recipes(event => {
+    // Lead Ingot Mold Recipe
+    event.custom({
+        type: 'create:compacting',
+        ingredients: [
+            {
+                fluid: 'forge_frontier:molten_lead',
+                amount: 100
+            },
+            {
+                item: 'forge_frontier:ingot_mold',
+                count: 1
+            }
+        ],
+        results: [
+            {
+                item: 'tfmg:lead_ingot',
+                count: 1
+            },
+            {
+                item: 'forge_frontier:ingot_mold'
+            }
+        ],
+        heatRequirement: 'superheated'
+    }).id('forge_frontier:compacting/lead_ingot')
 
+    // Aluminum Ingot Mold Recipe
+    event.custom({
+        type: 'create:compacting',
+        ingredients: [
+            {
+                fluid: 'forge_frontier:molten_aluminum',
+                amount: 100
+            },
+            {
+                item: 'forge_frontier:ingot_mold',
+                count: 1
+            }
+        ],
+        results: [
+            {
+                item: 'tfmg:aluminum_ingot',
+                count: 1
+            },
+            {
+                item: 'forge_frontier:ingot_mold'
+            }
+        ],
+        heatRequirement: 'superheated'
+    }).id('forge_frontier:compacting/aluminum_ingot')
+ 
     // Iron Ingot Mold Recipe
     event.custom({
         type: 'create:compacting',
