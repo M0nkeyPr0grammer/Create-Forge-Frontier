@@ -15,6 +15,8 @@ ServerEvents.recipes(event => {
     }
     
     const materials = [
+        'lead',
+        'aluminum',
         'malachite',
         'irradium',
         'bismuth',
@@ -45,6 +47,32 @@ ServerEvents.recipes(event => {
             createCompressedBlockRecipe(event, material, i);
         }
     });
+
+    // Lead
+    event.shaped(
+        Item.of('forge_frontier:compressed_lead_1x'),
+        [
+            'AAA',
+            'AAA',
+            'AAA'
+        ],
+        {
+            A: 'tfmg:lead_block', 
+        }
+    ).id( 'forge_frontier:shaped/lead_block_1x' )
+
+    // Aluminum
+    event.shaped(
+        Item.of('forge_frontier:compressed_aluminum_1x'),
+        [
+            'AAA',
+            'AAA',
+            'AAA'
+        ],
+        {
+            A: 'tfmg:aluminum_block', 
+        }
+    ).id( 'forge_frontier:shaped/aluminum_block_1x' )
 	
     // Malachite
         // Creates New Shaped Recipe for Malachite

@@ -16,6 +16,8 @@ function createCompressedBlock(event, material, level) {
 
 // List of materials
 const materials = [
+    'Lead',
+    'Aluminum',
     'Malachite',
     'Irradium',
     'Bismuth',
