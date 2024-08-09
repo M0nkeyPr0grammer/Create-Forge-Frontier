@@ -153,6 +153,21 @@ ServerEvents.recipes(event => {
 		]
 	}).id('forge_frontier:crushing/iron_plating');
 
+	// Stackable Book to Shapeless Recipe
+	event.custom({
+		type: 'minecraft:crafting_shapeless',
+		ingredients: [
+			{
+				item: 'handcrafted:stackable_book'
+			}
+		],
+		result: {
+			item: 'minecraft:book',
+			count: 4
+		  }
+
+	}).id( 'forge_frontier:shapeless/stackable_book' )
+
 	// Bookstack to Shapeless Recipe
 	event.custom({
 		type: 'minecraft:crafting_shapeless',
