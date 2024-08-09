@@ -3,6 +3,78 @@ ServerEvents.recipes(event => {
 // Removed OP Item in Relation to Create
 event.remove({ id: 'expatternprovider:cobblestone_cell'})
 
+
+// New ME Import Bus Recipe
+event.remove({ id: 'ae2:network/parts/import_bus'})
+event.shaped(
+  Item.of('ae2:import_bus'),
+  [
+    ' A ',
+    'IPI',
+    ' H '
+  ],
+  {
+    A: 'ae2:annihilation_core',
+    I: 'minecraft:iron_ingot',
+    P: 'minecraft:sticky_piston',
+    H: 'toms_storage:ts.inventory_hopper_basic'
+  }
+).id( 'forge_frontier:shaped/import_bus' )
+
+// New ME Export Bus Recipe
+event.remove({ id: 'ae2:network/parts/export_bus'})
+event.shaped(
+  Item.of('ae2:export_bus'),
+  [
+    'IFI',
+    ' P ',
+    ' H '
+  ],
+  {
+    I: 'minecraft:iron_ingot',
+    F: 'ae2:formation_core',
+    P: 'minecraft:piston',
+    H: 'toms_storage:ts.inventory_hopper_basic'
+  }
+).id( 'forge_frontier:shaped/export_bus' )
+
+// New ME Terminal Recipe
+event.remove({ id: 'ae2:network/parts/terminals'})
+event.custom({
+  type: 'create:mechanical_crafting',
+  pattern: [
+    'FLA',
+    'PTP'
+  ],
+  key: {
+    F: Ingredient.of('ae2:formation_core'),
+    L: Ingredient.of('ae2:logic_processor'),
+    A: Ingredient.of('ae2:annihilation_core'),
+    P: Ingredient.of('#ae2:illuminated_panel'),
+    T: Ingredient.of('toms_storage:ts.storage_terminal')
+  },
+  result: Ingredient.of('ae2:terminal'),
+  acceptMirrored: false
+}).id('forge_frontier:mechancial_crafting/terminal');
+
+// New ME Storage Terminal Recipe
+event.remove({ id: 'ae2:network/parts/terminals_crafting'})
+event.custom({
+  type: 'create:mechanical_crafting',
+  pattern: [
+    'CCC',
+    'PTP',
+    'CCC'
+  ],
+  key: {
+    C: Ingredient.of('create:mechanical_crafter'),
+    P: Ingredient.of('ae2:calculation_processor'),
+    T: Ingredient.of('ae2:terminal')
+  },
+  result: Ingredient.of('ae2:crafting_terminal'),
+  acceptMirrored: false
+}).id('forge_frontier:mechancial_crafting/crafting_terminal');
+
 // Flawed Budding Cerus Quartz Create Compat Recipe
 event.custom({
     type: "create:mixing",
