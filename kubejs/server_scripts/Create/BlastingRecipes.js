@@ -1,6 +1,28 @@
 ServerEvents.recipes(event => {
 
     // Ore Blasting Recipes
+        // Crushed Lead Pile
+        event.custom({
+            type: "minecraft:smelting",
+            cookingtime: 200,
+            experience: 0.1,
+            ingredient: {
+                item: 'forge_frontier:crushed_lead_pile'
+            },
+            result: 'tfmg:lead_block'
+        }).id('forge_frontier:blasting/crushed_lead_pile')        
+
+        // Crushed Aluminum Pile
+        event.custom({
+            type: "minecraft:smelting",
+            cookingtime: 200,
+            experience: 0.1,
+            ingredient: {
+                item: 'forge_frontier:crushed_aluminum_pile'
+            },
+            result: 'tfmg:aluminum_block'
+        }).id('forge_frontier:blasting/crushed_aluminum_pile')           
+
         // Raw Redstone
         event.custom({
             type: "minecraft:smelting",
