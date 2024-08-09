@@ -3,6 +3,8 @@
 ServerEvents.recipes(event => {
 	
 	// Remove recipes here
+	event.remove({ id: 'create_dd:copycat_block_from_ingots_zinc_stonecutting'})
+	event.remove({ id: 'create_dd:copycat_slab_from_ingots_zinc_stonecutting'})
 	event.remove({ id: 'chipped:benches/mechanist_workbench' }) // Removes Recipe, fixed below
 	event.remove({ id: 'createaddition:crafting/diamond_grit_sandpaper' }) // Removes Broken Recipe
 	event.remove({ id: 'createfoundry:mixing/melting/ore/redstone_from_ore' })
