@@ -67,30 +67,6 @@ StartupEvents.registry('block', event => {
         .fullBlock(true);
     
     // Crushed Piles
-        event.create('forge_frontier:crushed_lead_pile')
-        .displayName('Crushed Lead Pile')
-        .soundType('metal') 
-        .mapColor('Stone') 
-        .hardness(2.0)
-        .model('forge_frontier:block/crushed_lead_pile')
-        .requiresTool(true)
-        .renderType('solid')
-        .tagItem('tooltiprareness:common_item')
-        .tagBlock("mineable/pickaxe")
-        .fullBlock(true);
-
-        event.create('forge_frontier:crushed_aluminum_pile')
-        .displayName('Crushed Aluminum Pile')
-        .soundType('metal') 
-        .mapColor('Stone') 
-        .hardness(2.0)
-        .model('forge_frontier:block/crushed_aluminum_pile')
-        .requiresTool(true)
-        .renderType('solid')
-        .tagItem('tooltiprareness:common_item')
-        .tagBlock("mineable/pickaxe")
-        .fullBlock(true);        
-
         event.create('forge_frontier:crushed_bismuth_pile')
         .displayName('Crushed Bismuth Pile')
         .soundType('metal') 

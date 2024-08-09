@@ -1,43 +1,5 @@
 ServerEvents.recipes(event => {
 // Ore Seething Recipes
-    // Crushed Lead Pile
-    event.custom({
-        type: "create_dd:superheating",
-        ingredients: [
-            {
-                item: 'forge_frontier:crushed_lead_pile'
-            }
-        ],
-        results: [
-            {
-                item: 'tfmg:lead_block'
-            },
-            {
-                chance: 0.60,
-                item: 'tfmg:lead_block'
-            }
-        ]
-    }).id('forge_frontier:seething/crushed_lead_pile')    
-
-    // Crushed Aluminum Pile
-    event.custom({
-        type: "create_dd:superheating",
-        ingredients: [
-            {
-                item: 'forge_frontier:crushed_aluminum_pile'
-            }
-        ],
-        results: [
-            {
-                item: 'tfmg:aluminum_block'
-            },
-            {
-                chance: 0.60,
-                item: 'tfmg:aluminum_block'
-            }
-        ]
-    }).id('forge_frontier:seething/crushed_aluminum_pile')       
-
     // Crushed Raw Redstone
     event.custom({
         type: "create_dd:superheating",
