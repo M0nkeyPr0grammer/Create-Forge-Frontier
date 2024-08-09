@@ -16,6 +16,38 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'create_oppenheimered:crushing/uranium_ore' })
     event.remove({ id: 'tfmg:milling/charcoal_dust'})
 
+    // Adjusts Creates Ochrum Crushing Recipe to add Electrum to it
+    event.remove({ id: 'create:crushing/ochrum'})
+    event.remove({ id: 'create:crushing/ochrum_recycling'})
+
+    // Ochrum Crushing Recipe
+    event.custom({
+        type: "create:crushing",
+        ingredients: [
+          { item: "create:ochrum" }
+        ],
+        processingTime: 250,
+        results: [
+          { chance: 0.2, item: "create:crushed_raw_gold" },
+          { chance: 0.2, item: "minecraft:gold_nugget" },
+          { chance: 0.05, item: "createaddition:electrum_nugget" }
+        ]
+      }).id('forge_frontier:crushing/ochrum')
+
+      // Ochrum Recycling Recipe
+      event.custom({
+        type: "create:crushing",
+        ingredients: [
+          { tag: "create:stone_types/ochrum" }
+        ],
+        processingTime: 250,
+        results: [
+          { chance: 0.2, item: "create:crushed_raw_gold" },
+          { chance: 0.2, item: "minecraft:gold_nugget" },
+          { chance: 0.05, item: "createaddition:electrum_nugget" }
+        ]
+      }).id('forge_frontier:crushing/ochrum_recycling')
+
     // Create Ore Excavation Crushing Recipes
         // Raw Redstone
         event.remove({ id: 'createoreexcavation:crushing/redstone_crushing'})
