@@ -1,0 +1,22 @@
+{
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "ad_astra:strophar_mushroom"
+  },
+  "categories": [
+    "mushroom",
+    "mulch"
+  ],
+  "growthTicks": 2400,
+  "display": {
+    "block": "ad_astra:strophar_mushroom"
+  },
+  "drops": [
+    {
+      "chance": 1,
+      "output": {
+        "item": "ad_astra:strophar_mushroom"
+      }
+    }
+  ]
+}
