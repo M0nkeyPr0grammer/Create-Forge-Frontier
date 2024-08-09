@@ -2,6 +2,35 @@
 ServerEvents.recipes(event => {
 
 // Shapeless Recipes
+
+	// Lead Pile to Crushed Lead
+	event.custom({
+		type: "minecraft:crafting_shapeless",
+		ingredients: [
+			{
+				item: 'forge_frontier:crushed_lead_pile'
+			}
+		],
+		result: {
+			item: 'create:crushed_raw_lead',
+			count: 9
+		  }
+	}).id( 'forge_frontier:shapeless/crushed_lead_pile' )	
+
+	// Aluminum Pile to Crushed Lead
+	event.custom({
+		type: "minecraft:crafting_shapeless",
+		ingredients: [
+			{
+				item: 'forge_frontier:crushed_aluminum_pile'
+			}
+		],
+		result: {
+			item: 'create:crushed_raw_aluminum',
+			count: 9
+		  }
+	}).id( 'forge_frontier:shapeless/crushed_aluminum_pile' )	
+
 	// Bismuth Pile to Crushed Bismuth
 	event.custom({
 		type: "minecraft:crafting_shapeless",
@@ -115,6 +144,33 @@ ServerEvents.recipes(event => {
 	}).id( 'forge_frontier:shapeless/crushed_calorite_pile' )
 
 // Shaped Recipes
+
+	// Crushed Lead Pile Recipe
+    event.shaped(
+		Item.of('forge_frontier:crushed_lead_pile'),
+		[
+			'AAA',
+			'AAA',
+			'AAA'
+		],
+		{
+			A: 'create:crushed_raw_lead'
+		}
+	).id( 'forge_frontier:shaped/crushed_lead_pile' )	
+
+	// Crushed Aluminum Pile Recipe
+    event.shaped(
+		Item.of('forge_frontier:crushed_aluminum_pile'),
+		[
+			'AAA',
+			'AAA',
+			'AAA'
+		],
+		{
+			A: 'create:crushed_raw_aluminum'
+		}
+	).id( 'forge_frontier:shaped/crushed_aluminum_pile' )		
+
     // Crushed Bismuth Pile Recipe
     event.shaped(
 		Item.of('forge_frontier:crushed_bismuth_pile'),
