@@ -371,7 +371,7 @@ ServerEvents.recipes(event => {
                 }
             ],
             result: {
-                item: 'ethuim:ethium_block',
+                item: 'create_ethium:ethium_block',
                 count: 9
             }
         }).id( 'forge_frontier:shapeless/compressed_ethium_block_1x' )        

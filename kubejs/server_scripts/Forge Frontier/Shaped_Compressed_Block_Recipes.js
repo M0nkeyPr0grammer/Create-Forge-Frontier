@@ -350,7 +350,7 @@ ServerEvents.recipes(event => {
                 'AAA'
             ],
             {
-                A: 'ethuim:ethium_block', 
+                A: 'create_ethium:ethium_block', 
             }
         ).id( 'forge_frontier:shaped/ethium_block_1x' )     
 

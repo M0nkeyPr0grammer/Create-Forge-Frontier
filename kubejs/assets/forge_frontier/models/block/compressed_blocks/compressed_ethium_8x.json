@@ -6,7 +6,7 @@
       "parent": "block/cube_all",
       "render_type": "minecraft:solid",
       "textures": {
-        "all": "ethuim:block/ethium_block"
+        "all": "create_ethium:block/ethium_block_with_brass"
       },
       "transform": {
         "origin": "center",
@@ -22,6 +22,6 @@
     }
   },
   "textures": {
-    "particle": "ethuim:block/ethium_block"
+    "particle": "create_ethium:block/ethium_block_with_brass"
   }
 }
