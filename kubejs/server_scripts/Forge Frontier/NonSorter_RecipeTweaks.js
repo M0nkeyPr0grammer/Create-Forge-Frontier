@@ -13,7 +13,6 @@ ServerEvents.recipes(event => {
 	event.remove({ id: 'explorerscompass:explorers_compass' })
 	event.remove({ id: 'cagedmobs:crafting/hopping_mob_cage'})
 	event.remove({ id: 'cagedmobs:crafting/mob_cage'})
-	event.remove({ id: 'endrem:undead_eye'})
 	event.remove({ id: 'create_power_loader:crafting/empty_andesite_chunk_loader'})
 	event.remove({ id: 'create_power_loader:crafting/empty_brass_chunk_loader'})
 	event.remove({ id: 'create_dd:crafting/coal_piece_from_decompacting'})
@@ -302,41 +301,6 @@ ServerEvents.recipes(event => {
 		acceptMirrored: false
 	}).id('forge_frontier:mechancial_crafting/brasschunkloader');
 
-
-	// Creates Undead Soul Recipe
-	event.shaped(
-		Item.of('endrem:undead_soul'),
-		[
-			' A ',
-			'BEC',
-			' D '
-		],
-		{
-			A: 'minecraft:phantom_membrane',
-			B: 'minecraft:bone',
-			C: 'minecraft:rotten_flesh',
-			D: 'minecraft:ghast_tear',
-			E: 'minecraft:cobweb' 
-		}
-	).id( 'forge_frontier:shaped/undead_soul' )
-
-	// Creates Warden Eye Recipe
-	event.shaped(
-		Item.of('endrem:undead_eye'),
-		[
-			' A ',
-			'BCB',
-			' D '
-		],
-		{
-			A: 'deeperdarker:heart_of_the_deep',
-			B: 'deeperdarker:sculk_tendrils',
-			C: 'endrem:undead_soul',
-			D: 'minecraft:ender_eye',
-			
-		}
-	).id( 'forge_frontier:shaped/undead_eye' )
-
 	// Creates Ash Recipe
 	event.custom({
 		type: 'minecraft:smoking',
@@ -444,21 +408,6 @@ ServerEvents.recipes(event => {
 			C: 'createcompression:compressed_andesite_2x'
 		}
 	).id('forge_frontier:shaped/explorers_compass')
-
-	// Creates Nether Eye Crafting Recipe
-	event.shaped(
-		Item.of('endrem:nether_eye', 1),
-		[
-			'AAA',
-			'BCB',
-			'AAA'
-		],
-		{
-			A: 'minecraft:fire_charge',
-			B: 'minecraft:blaze_rod',
-			C: 'minecraft:ender_eye'
-		}
-	).id( 'forge_frontier:shaped/nether_eye' )
 
 	// Any Dirt to Vanilla Dirt
 	event.shapeless(
