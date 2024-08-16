@@ -101,6 +101,24 @@ ServerEvents.recipes(event => {
     }).id('forge_frontier:mechancial_crafting/corrupted_eye');
 
     // Lost Eye: Cataclysm Soul Blacksmith Loot Combination
+    event.custom({
+      type: 'create:mechanical_crafting',
+      pattern: [
+        'ADA',
+        'FUH',
+        'AEA'
+      ],
+      key: {
+        A: Ingredient.of('minecraft:ancient_debris'),
+        D: Ingredient.of('cataclysm:music_disc_netherite_monstrosity'),
+        F: Ingredient.of('cataclysm:infernal_forge'),
+        U: Ingredient.of('endrem:undead_soul'),
+        H: Ingredient.of('cataclysm:monstrous_horn'),
+        E: Ingredient.of('cataclysm:monstrous_eye')
+      },
+      result: Ingredient.of('endrem:lost_eye'),
+      acceptMirrored: false
+    }).id('forge_frontier:mechancial_crafting/lost_eye');
 
     // Nether Eye: Nether Loot Combination
 
