@@ -189,6 +189,23 @@ ServerEvents.recipes(event => {
     }).id('forge_frontier:enchanting/magical_eye')    
 
     // Wither Eye: Nether Star Loot Combination
+    event.custom({
+      type: 'create:mechanical_crafting',
+      pattern: [
+        'NUN',
+        'WWW',
+        'SSS',
+        ' S '
+      ],
+      key: {
+        N: Ingredient.of('cagedmobs:star_infused_netherite_nugget'),
+        U: Ingredient.of('endrem:undead_soul'),
+        W: Ingredient.of('minecraft:wither_skeleton_skull'),
+        S: Ingredient.of('createcompression:compressed_soul_sand_4x'),
+      },
+      result: Ingredient.of('endrem:wither_eye'),
+      acceptMirrored: false
+    }).id('forge_frontier:mechancial_crafting/wither_eye');  
 
     // Witch Eye: Potion Related Craft
     event.remove({ id: 'endrem:witch_eye'})
