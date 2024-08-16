@@ -67,13 +67,13 @@ ServerEvents.recipes(event => {
     event.custom({
         type: 'create:mechanical_crafting',
         pattern: [
-          'PDP',
+          'PCP',
           'WUW',
           'PEP'
         ],
         key: {
           P: Ingredient.of('ad_astra:permafrost'),
-          D: Ingredient.of('cataclysm:music_disc_the_harbinger'),
+          C: Ingredient.of('ae2:quartz_cluster'),
           W: Ingredient.of('cataclysm:witherite_ingot'),
           U: Ingredient.of('endrem:undead_soul'),
           E: Ingredient.of('cataclysm:mech_eye')
