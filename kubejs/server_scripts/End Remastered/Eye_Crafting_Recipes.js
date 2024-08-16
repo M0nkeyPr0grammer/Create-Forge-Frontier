@@ -147,6 +147,22 @@ ServerEvents.recipes(event => {
     // Evil Eye: Villager Trade Related Combination
 
     // Guardian Eye: Elder and Guardian Mob Drop Loot Combination
+    event.custom({
+      type: 'create:mechanical_crafting',
+      pattern: [
+        'SES',
+        'GUG',
+        'SES'
+      ],
+      key: {
+        S: Ingredient.of('minecraft:sponge'),
+        E: Ingredient.of('oceansdelight:cabbage_wrapped_elder_guardian'),
+        G: Ingredient.of('oceansdelight:guardian_soup'),
+        U: Ingredient.of('endrem:undead_soul'),
+      },
+      result: Ingredient.of('endrem:guardian_eye'),
+      acceptMirrored: false
+    }).id('forge_frontier:mechancial_crafting/guardian_eye');     
 
     // Magical Eye: Nether and Soul Infused Totem Craft Related, via Apotheosis
 
