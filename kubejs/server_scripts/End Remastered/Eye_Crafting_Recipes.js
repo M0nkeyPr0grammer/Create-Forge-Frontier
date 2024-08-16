@@ -125,6 +125,22 @@ ServerEvents.recipes(event => {
     // Old Eye: Desert Pyramid/ Cataclysm Pyramid Loot Combination
 
     // Rogue Eye: Create Progression Combination
+    event.custom({
+      type: 'create:mechanical_crafting',
+      pattern: [
+        'MEM',
+        'mUm',
+        'MEM'
+      ],
+      key: {
+        M: Ingredient.of('create_compressed:mechanism_block'),
+        E: Ingredient.of('forge_frontier:compressed_ethium_2x'),
+        m: Ingredient.of('forge_frontier:compressed_mithril_2x'),
+        U: Ingredient.of('endrem:undead_soul'),
+      },
+      result: Ingredient.of('endrem:rogue_eye'),
+      acceptMirrored: false
+    }).id('forge_frontier:mechancial_crafting/rogue_eye');    
 
     // Cursed Eye: Bastion Loot/ Nether Castle Loot Combination
 
