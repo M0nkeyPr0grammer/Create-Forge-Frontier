@@ -3,24 +3,44 @@ ServerEvents.recipes(event => {
 // Undead Soul, which is the Centerpiece of all recipes below
     // Creates Undead Soul Recipe
     event.remove({ id: 'endrem:undead_eye'})
-
-    // Will Tweak Recipe soon
-	/*event.shaped(
-		Item.of('endrem:undead_soul'),
-		[
-			' A ',
-			'BEC',
-			' D '
-		],
-		{
-			A: 'minecraft:phantom_membrane',
-			B: 'minecraft:bone',
-			C: 'minecraft:rotten_flesh',
-			D: 'minecraft:ghast_tear',
-			E: 'minecraft:cobweb' 
-		}
-	).id( 'forge_frontier:shaped/undead_soul' )*/
-    
+    event.custom({
+        type: "create:mixing",
+        ingredients: [
+          {
+            fluid: "create_enchantment_industry:hyper_experience",
+            amount: 50
+          },
+          {
+            item: "minecraft:phantom_membrane"
+          },
+          {
+            item: "minecraft:bone"
+          },
+          {
+            item: "minecraft:rotten_flesh"
+          },
+          {
+            item: "minecraft:ghast_tear"
+          },
+          {
+            item: "wstweaks:fragment"
+          },
+          {
+            item: "minecraft:cobweb"
+          },
+          {
+            item: "quark:soul_bead"
+          }
+        ],
+        results: [
+          {
+            item: "endrem:undead_soul",
+            count: 1
+          }
+        ],  
+        heatRequirement: "superheated"
+      }).id('forge_frontier:mixing/undead_soul')
+ 
 // New End Remastered Eye Crafting Recipes
 
     // Black Eye: Seven Seas Loot Combination
