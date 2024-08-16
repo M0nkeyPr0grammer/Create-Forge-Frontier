@@ -266,6 +266,23 @@ ServerEvents.recipes(event => {
 
     // Aetheric Eye: Ocean Boss Structure Loot Combination
     event.remove({ id: 'endrem:exotic_eye'})
+    event.custom({
+      type: 'create:mechanical_crafting',
+      pattern: [
+        'AEA',
+        'SUS',
+        'AeA'
+      ],
+      key: {
+        A: Ingredient.of('cataclysm:abyssal_sacrifice'),
+        E: Ingredient.of('cataclysm:abyss_eye'),
+        S: Ingredient.of('minecraft:sea_lantern'),
+        U: Ingredient.of('endrem:undead_soul'),
+        e: Ingredient.of('cataclysm:abyssal_egg'),
+      },
+      result: Ingredient.of('endrem:exotic_eye'),
+      acceptMirrored: false
+    }).id('forge_frontier:mechancial_crafting/exotic_eye');     
 
     // Cryptic Eye: Mix of Nether and Soul Infused Items, via Apotheosis
     event.custom({
