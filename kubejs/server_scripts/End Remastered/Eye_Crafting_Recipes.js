@@ -64,8 +64,26 @@ ServerEvents.recipes(event => {
       }).id('forge_frontier:mechancial_crafting/black_eye');
 
     // Cold Eye: Glacio Loot Combination
+    event.custom({
+        type: 'create:mechanical_crafting',
+        pattern: [
+          'SDS',
+          'WUW',
+          'SES'
+        ],
+        key: {
+          S: Ingredient.of('ad_astra:glacio_stone'),
+          D: Ingredient.of('cataclysm:music_disc_the_harbinger'),
+          W: Ingredient.of('cataclysm:witherite_ingot'),
+          U: Ingredient.of('endrem:undead_soul'),
+          E: Ingredient.of('cataclysm:mech_eye')
+        },
+        result: Ingredient.of('endrem:cold_eye'),
+        acceptMirrored: false
+      }).id('forge_frontier:mechancial_crafting/cold_eye');
 
     // Corrupted Eye: Diamond, Emerald, and Gold Automation Craft
+    
 
     // Lost Eye: Cataclysm Soul Blacksmith Loot Combination
 
