@@ -145,6 +145,24 @@ ServerEvents.recipes(event => {
     // Cursed Eye: Bastion Loot/ Nether Castle Loot Combination
 
     // Evil Eye: Villager Trade Related Combination
+    event.custom({
+      type: 'create:mechanical_crafting',
+      pattern: [
+        'EHE',
+        'VFv',
+        'EUE'
+      ],
+      key: {
+        E: Ingredient.of('createcompression:compressed_emerald_2x'),
+        H: Ingredient.of('artifacts:villager_hat'),
+        V: Ingredient.of('betterarcheology:vase_green'),
+        F: Ingredient.of('betterarcheology:villager_fossil_head'),
+        v: Ingredient.of('betterarcheology:vase'),
+        U: Ingredient.of('endrem:undead_soul'),
+      },
+      result: Ingredient.of('endrem:evil_eye'),
+      acceptMirrored: false
+    }).id('forge_frontier:mechancial_crafting/evil_eye');      
 
     // Guardian Eye: Elder and Guardian Mob Drop Loot Combination
     event.custom({
