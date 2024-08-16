@@ -170,6 +170,55 @@ ServerEvents.recipes(event => {
 
     // Witch Eye: Potion Related Craft
     event.remove({ id: 'endrem:witch_eye'})
+    event.custom({
+      type: "create:mixing",
+      ingredients: [
+        {
+          fluid: "create:potion",
+          nbt: {
+            Potion: "alexsmobs:long_lava_vision"
+          },
+          amount: 1000
+        },
+        {
+          item: "minecraft:blaze_rod"
+        },
+        {
+          fluid: "create:potion",
+          nbt: {
+            Potion: "alexsmobs:strong_soulsteal"
+          },
+          amount: 1000
+        },
+        {
+          item: "minecraft:nether_wart_block"
+        },
+        {
+          fluid: "create:potion",
+          nbt: {
+            Potion: "miners_delight:strong_mining_fatigue"
+          },
+          amount: 1000
+        },
+        {
+          fluid: "create:potion",
+          nbt: {
+            Potion: "alexsmobs:strong_knockback_resistance"
+          },
+          amount: 1000
+        },
+        {
+          item: "endrem:undead_soul"
+        }
+      ],
+      results: [
+        {
+          item: "endrem:witch_eye",
+          count: 1
+        }
+      ],  
+      heatRequirement: "superheated"
+    }).id('forge_frontier:mixing/witch_eye')
 
     // Warden Eye: Warden/Deeper Darker Loot Combination
 
