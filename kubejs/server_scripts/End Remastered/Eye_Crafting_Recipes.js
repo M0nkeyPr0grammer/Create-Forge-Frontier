@@ -83,7 +83,22 @@ ServerEvents.recipes(event => {
       }).id('forge_frontier:mechancial_crafting/cold_eye');
 
     // Corrupted Eye: Diamond, Emerald, and Gold Automation Craft
-
+    event.custom({
+      type: 'create:mechanical_crafting',
+      pattern: [
+        'GDG',
+        'EUE',
+        'GDG'
+      ],
+      key: {
+        G: Ingredient.of('createcompression:compressed_gold_3x'),
+        D: Ingredient.of('createcompression:compressed_diamond_3x'),
+        E: Ingredient.of('createcompression:compressed_emerald_3x'),
+        U: Ingredient.of('endrem:undead_soul')
+      },
+      result: Ingredient.of('endrem:corrupted_eye'),
+      acceptMirrored: false
+    }).id('forge_frontier:mechancial_crafting/corrupted_eye');
 
     // Lost Eye: Cataclysm Soul Blacksmith Loot Combination
 
