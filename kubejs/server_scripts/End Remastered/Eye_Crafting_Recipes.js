@@ -181,29 +181,12 @@ ServerEvents.recipes(event => {
           amount: 1000
         },
         {
-          item: "minecraft:blaze_rod"
+          item: "create_dd:blaze_gold_block"
         },
         {
           fluid: "create:potion",
           nbt: {
             Potion: "alexsmobs:strong_soulsteal"
-          },
-          amount: 1000
-        },
-        {
-          item: "minecraft:nether_wart_block"
-        },
-        {
-          fluid: "create:potion",
-          nbt: {
-            Potion: "miners_delight:strong_mining_fatigue"
-          },
-          amount: 1000
-        },
-        {
-          fluid: "create:potion",
-          nbt: {
-            Potion: "alexsmobs:strong_knockback_resistance"
           },
           amount: 1000
         },
