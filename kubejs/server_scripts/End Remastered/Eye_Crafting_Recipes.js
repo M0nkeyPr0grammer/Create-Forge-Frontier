@@ -204,6 +204,26 @@ ServerEvents.recipes(event => {
     }).id('forge_frontier:mixing/witch_eye')
 
     // Warden Eye: Warden/Deeper Darker Loot Combination
+    event.custom({
+      type: 'create:mechanical_crafting',
+      pattern: [
+        'CHE',
+        'SUS',
+        'hTc'
+      ],
+      key: {
+        C: Ingredient.of('deeperdarker:warden_carapace'),
+        H: Ingredient.of('deeperdarker:heart_of_the_deep'),
+        E: Ingredient.of('silentsdelight:warden_ear'),
+        S: Ingredient.of('minecraft:echo_shard'),
+        h: Ingredient.of('silentsdelight:warden_heart'),
+        T: Ingredient.of('apotheosis:warden_tendril'),
+        c: Ingredient.of('minecraft:sculk_catalyst'),
+        U: Ingredient.of('endrem:undead_soul'),
+      },
+      result: Ingredient.of('endrem:undead_eye'),
+      acceptMirrored: false
+    }).id('forge_frontier:mechancial_crafting/undead_eye'); 
 
     // Aetheric Eye: Ocean Boss Structure Loot Combination
     event.remove({ id: 'endrem:exotic_eye'})
