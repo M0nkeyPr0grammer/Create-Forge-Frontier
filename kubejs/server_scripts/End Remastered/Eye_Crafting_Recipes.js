@@ -44,6 +44,24 @@ ServerEvents.recipes(event => {
 // New End Remastered Eye Crafting Recipes
 
     // Black Eye: Seven Seas Loot Combination
+    event.custom({
+        type: 'create:mechanical_crafting',
+        pattern: [
+          'DAD',
+          'BUB',
+          'GCG'
+        ],
+        key: {
+          D: Ingredient.of('minecraft:diamond'),
+          A: Ingredient.of('forge_frontier:pirate_arrow'),
+          B: Ingredient.of('forge_frontier:cannon_ball'),
+          U: Ingredient.of('endrem:undead_soul'),
+          G: Ingredient.of('minecraft:gunpowder'),
+          C: Ingredient.of('forge_frontier:pirate_crossbow')
+        },
+        result: Ingredient.of('endrem:black_eye'),
+        acceptMirrored: false
+      }).id('forge_frontier:mechancial_crafting/black_eye');
 
     // Cold Eye: Glacio Loot Combination
 

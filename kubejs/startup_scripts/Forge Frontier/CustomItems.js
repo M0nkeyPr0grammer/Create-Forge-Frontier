@@ -192,6 +192,20 @@ StartupEvents.registry('block', event => {
 // New Items
 StartupEvents.registry('item', event => {
 
+    // Pirate Items
+        event.create('forge_frontier:pirate_arrow')
+            .tooltip('This arrow is a highly prized possesion of the Seven Seas Pirates and it not used in combat')
+            .displayName('Pirate Arrow')
+            .texture('forge_frontier:item/pirate_arrow');
+        event.create('forge_frontier:pirate_crossbow')
+            .tooltip('This crossbow is a highly prized possesion of the Seven Seas Pirates and it not used in combat')
+            .displayName('Pirate Crossbow')
+            .texture('forge_frontier:item/pirate_crossbow');
+        event.create('forge_frontier:cannon_ball')
+            .tooltip('This cannon ball is a highly prized possesion of the Seven Seas Pirates and it not used in combat')
+            .displayName('Cannon Ball')
+            .texture('forge_frontier:item/cannon_ball');
+
     // Overcharged Items
         event.create('forge_frontier:overcharged_netherite_ingot')
             .displayName('Overcharged Netherite Ingot')
