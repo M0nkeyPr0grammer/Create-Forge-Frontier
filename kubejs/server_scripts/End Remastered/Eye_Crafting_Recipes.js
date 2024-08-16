@@ -165,6 +165,28 @@ ServerEvents.recipes(event => {
     }).id('forge_frontier:mechancial_crafting/guardian_eye');     
 
     // Magical Eye: Nether and Soul Infused Totem Craft Related, via Apotheosis
+    event.custom({
+      type: "apotheosis:enchanting",
+      input: {
+        item: "minecraft:totem_of_undying"
+      },
+      requirements: {
+        eterna: 40,
+        quanta: 80,
+        arcana: 84,
+        rectifaction: 40
+      },
+      "max_requirements": {
+        eterna: -1,
+        quanta: 100,
+        arcana: -1,
+        rectifaction: 60
+      },
+      result: {
+        item: "endrem:magical_eye",
+        count: 1
+      }
+    }).id('forge_frontier:enchanting/magical_eye')    
 
     // Wither Eye: Nether Star Loot Combination
 
@@ -229,5 +251,27 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'endrem:exotic_eye'})
 
     // Cryptic Eye: Mix of Nether and Soul Infused Items, via Apotheosis
+    event.custom({
+      type: "apotheosis:enchanting",
+      input: {
+        item: "minecraft:ender_eye"
+      },
+      requirements: {
+        eterna: 40,
+        quanta: 90,
+        arcana: 78,
+        rectifaction: 30
+      },
+      "max_requirements": {
+        eterna: -1,
+        quanta: 100,
+        arcana: 78,
+        rectifaction: 50
+      },
+      result: {
+        item: "endrem:cryptic_eye",
+        count: 1
+      }
+    }).id('forge_frontier:enchanting/cryptic_eye')
 
 })
