@@ -67,12 +67,12 @@ ServerEvents.recipes(event => {
     event.custom({
         type: 'create:mechanical_crafting',
         pattern: [
-          'SDS',
+          'PDP',
           'WUW',
-          'SES'
+          'PEP'
         ],
         key: {
-          S: Ingredient.of('ad_astra:glacio_stone'),
+          P: Ingredient.of('ad_astra:permafrost'),
           D: Ingredient.of('cataclysm:music_disc_the_harbinger'),
           W: Ingredient.of('cataclysm:witherite_ingot'),
           U: Ingredient.of('endrem:undead_soul'),
@@ -83,7 +83,7 @@ ServerEvents.recipes(event => {
       }).id('forge_frontier:mechancial_crafting/cold_eye');
 
     // Corrupted Eye: Diamond, Emerald, and Gold Automation Craft
-    
+
 
     // Lost Eye: Cataclysm Soul Blacksmith Loot Combination
 
