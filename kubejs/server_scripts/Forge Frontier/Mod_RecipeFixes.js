@@ -1,23 +1,27 @@
 // Mod Recipe Fixes
 ServerEvents.recipes(event => {
+    
+    // Removed Pocket Dimension Remote Recipe
+    event.remove({ id: 'createteleporters:pocket_dimension_recipe'})
 
-    // Create Things and Misc
-    // Broken Recipe Removals
-    event.remove({ id:'create_things_and_misc:netheriteportablewithlecraft'})
-    event.remove({ id: 'create_things_and_misc:schematic_chair'})
-    event.remove({ id: 'create_things_and_misc:copper_scaffolding_craft'})
-
-    // Netherite Portable Whistle Smithing Fix
-    event.smithing(
-        'create_things_and_misc:netherite_portable_whistle',
-        'minecraft:netherite_upgrade_smithing_template',
-        'create_things_and_misc:portable_whistle',
-        'minecraft:netherite_ingot'
-    ).id( 'forge_frontier:smithing/portable_whistle' )
-
-    // Design & Decor Recipe Removals
-    event.remove({ id:'design_decor:stonecutting/metals/iron/screw'})
-    event.remove({ id: 'design_decor:stonecutting/metals/iron/bolt'})
+    // Botany Pots
+    event.remove({ id: "botanypots:enlightend/soil/chorloam" })
+    event.custom({
+        type:"botanypots:soil",
+        input:
+        {
+            item: "enlightened_end:chorloam"
+        },
+        display:
+        {
+            block: "enlightened_end:chorloam"
+        },
+        categories:
+        [
+            "chorloam"
+        ],
+        growthModifier:1
+    }).id('botanypots:enlightend/soil/chorloam')
 
     // Fixes Aluminum Boiler Recipe
     event.remove({ id: 'design_decor:stonecutting/cyllinder/aluminum_cyllinder' })
@@ -54,49 +58,47 @@ ServerEvents.recipes(event => {
         count: 4
       }).id( 'forge_frontier:stonecutting/aluminium_large_chain' )
 
-    // Removes Duplicate Recipes
-    event.remove({ id: 'extrastorage:storage_block/block_256k'});
-    event.remove({ id: 'extrastorage:storage_block/block_1024k'});
-    event.remove({ id: 'extrastorage:storage_block/block_4096k'});
-    event.remove({ id: 'extrastorage:storage_block/block_16384k'});
-    event.remove({ id: 'extrastorage:storage_block/block_16384k_fluid'});
-    event.remove({ id: 'extrastorage:storage_block/block_65536k_fluid'});
-    event.remove({ id: 'extrastorage:storage_block/block_262144k_fluid'});
-    event.remove({ id: 'extrastorage:storage_block/block_1048576k_fluid'});
-    event.remove({ id: 'extrastorage:part/storagepart_256k'});
-    event.remove({ id: 'extrastorage:part/storagepart_1024k'});
-    event.remove({ id: 'extrastorage:part/storagepart_4096k'});
-    event.remove({ id: 'extrastorage:part/storagepart_16384k'});
-    event.remove({ id: 'extrastorage:part/storagepart_16384k_fluid'});
-    event.remove({ id: 'extrastorage:part/storagepart_65536k_fluid'});
-    event.remove({ id: 'extrastorage:part/storagepart_262144k_fluid'});
-    event.remove({ id: 'extrastorage:part/storagepart_1048576k_fluid'});
-    event.remove({ id: 'extrastorage:disk/shapeless/disk_256k'});
-    event.remove({ id: 'extrastorage:disk/shapeless/disk_1024k'});
-    event.remove({ id: 'extrastorage:disk/shapeless/disk_4096k'});
-    event.remove({ id: 'extrastorage:disk/shapeless/disk_16384k'});
-    event.remove({ id: 'extrastorage:disk/shapeless/disk_16384k_fluid'});
-    event.remove({ id: 'extrastorage:disk/shapeless/disk_65536k_fluid'});
-    event.remove({ id: 'extrastorage:disk/shapeless/disk_262144k_fluid'});
-    event.remove({ id: 'extrastorage:disk/shapeless/disk_1048576k_fluid'});
-    event.remove({ id: 'extrastorage:disk/shaped/disk_256k'});
-    event.remove({ id: 'extrastorage:disk/shaped/disk_1024k'});
-    event.remove({ id: 'extrastorage:disk/shaped/disk_4096k'});
-    event.remove({ id: 'extrastorage:disk/shaped/disk_16384k'});
-    event.remove({ id: 'extrastorage:disk/shaped/disk_16384k_fluid'});
-    event.remove({ id: 'extrastorage:disk/shaped/disk_65536k_fluid'});
-    event.remove({ id: 'extrastorage:disk/shaped/disk_262144k_fluid'});
-    event.remove({ id: 'extrastorage:disk/shaped/disk_1048576k_fluid'});
-    event.remove({ id: 'extrastorage:advanced_importer'});
-    event.remove({ id: 'extrastorage:advanced_exporter'});
+    // Removes Conflicting Recipes
+    event.remove({ id: 'quark:building/crafting/compressed/cocoa_beans_sack'})
+    event.remove({ id: 'quark:building/crafting/compressed/gunpowder_sack'})
+    event.remove({ id: 'quark:building/crafting/compressed/berry_sack'})
+    event.remove({ id: 'quark:building/crafting/compressed/glowberry_sack'})
+    event.remove({ id: 'cratedelight:minecraft/crafting/wheat_flour_bag'})
+    event.remove({ id: 'cratedelight:minecraft/crafting/cinder_flour_bag'})
+    event.remove({ id: 'cratedelight:minecraft/crafting/powdered_obsidian_bag'})
 
     // Removes Broken Recipes
     event.remove({ id: 'create_confectionery:ruby_chocolate_recipe_6' });
     event.remove({ id: 'create_confectionery:white_chocolate_recipe_6' });
     event.remove({ id: 'create_confectionery:chocolate_recipe_6' });
     event.remove({ id: 'create_confectionery:black_chocolate_recipe_6' });
+    event.remove({ id: 'tfmg:crafting/glass_cable_connector'})
 
     // Removes Missing Item Related Recipes
+    event.remove({ id: 'createappliedkinetics:throw_in_water/fluix_seed/normal'})
+    event.remove({ id: 'createappliedkinetics:throw_in_water/certus_seed/catalyzed'})
+    event.remove({ id: 'createappliedkinetics:throw_in_water/certus_seed/normal'})
+    event.remove({ id: 'ae2:inscriber/calculation_processor_press'})
+    event.remove({ id: 'ae2:inscriber/logic_processor_press'})
+    event.remove({ id: 'ae2:inscriber/logic_processor_print'})
+    event.remove({ id: 'ae2:inscriber/engineering_processor_print'})
+    event.remove({ id: 'ae2:inscriber/calculation_processor'})
+    event.remove({ id: 'ae2:inscriber/silicon_print'})
+    event.remove({ id: 'ae2:inscriber/certus_quartz_dust'})
+    event.remove({ id: 'ae2:inscriber/calculation_processor_print'})
+    event.remove({ id: 'ae2:inscriber/logic_processor'})
+    event.remove({ id: 'ae2:inscriber/fluix_dust'})
+    event.remove({ id: 'ae2:inscriber/engineering_processor_press'})
+    event.remove({ id: 'ae2:inscriber/silicon_press'})
+    event.remove({ id: 'ae2:network/blocks/inscribers'})
+    event.remove({ id: 'ae2:inscriber/sky_stone_dust'})
+    event.remove({ id: 'ae2:inscriber/engineering_processor'})
+    event.remove({ id: 'ae2:inscriber/ender_dust'})
+    event.remove({ id: 'alexsdelight:barbecue_on_a_stick'})
+    event.remove({ id: 'collectorsreap:food/lime_green_tea'})
+    event.remove({ id: 'collectorsreap:food/pomegranate_black_tea'})
+    event.remove({ id: 'tfmg:mechanical_crafting/cast_iron_distillation_controller'})
+
     event.remove({ id: 'createaddition:compat/ae2/charged_certus_quartz' });
     event.remove({ id: 'create:cutting/compat/biomesoplenty/cherry_log' });
     event.remove({ id: 'tfmg:colored_concrete/full_block/yellow_concrete_q' });

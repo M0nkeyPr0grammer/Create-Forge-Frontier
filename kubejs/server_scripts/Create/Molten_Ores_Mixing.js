@@ -36,46 +36,6 @@ ServerEvents.recipes(event => {
             heatRequirement: "superheated"
         }).id('forge_frontier:mixing/crushed_aluminum_pile_molten');
 
-        // Raw to Molten
-        event.custom({
-            type: "create:mixing",
-            ingredients: [
-                {
-                    item: 'tfmg:raw_aluminum',
-                    amount: 1
-                }
-            ],
-            results: [
-                {
-                    fluid: 'forge_frontier:molten_aluminum',
-                    amount: 200
-                }
-            ],
-            heatRequirement: "superheated"
-        }).id('forge_frontier:mixing/raw_aluminum_molten');
-
-        // Ore to Molten
-        event.custom({
-            type: "create:mixing",
-            ingredients: [
-                {
-                    tag: 'forge:ores/aluminum',
-                    amount: 1
-                }
-            ],
-            results: [
-                {
-                    fluid: 'forge_frontier:molten_aluminum',
-                    amount: 1000
-                },
-                {
-                    fluid: 'minecraft:lava',
-                    amount: 100
-                }
-            ],
-            heatRequirement: "superheated"
-        }).id('forge_frontier:mixing/aluminum_ore_molten');
-
         // Ingot to Molten
         event.custom({
             type: "create:mixing",

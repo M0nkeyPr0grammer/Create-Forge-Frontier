@@ -24,7 +24,7 @@ ServerEvents.recipes(event => {
 		acceptMirrored: false
 	}).id('forge_frontier:mechanical_crafting/bronze_jetpack');
 
-    // Vanadium Jetpack Recipe
+    // Mithril Jetpack Recipe
     event.custom({
 		type: "create:mechanical_crafting",
 		pattern: [
@@ -33,7 +33,7 @@ ServerEvents.recipes(event => {
             'CEFEC'
 		],
 		key: {
-			A: Ingredient.of('vintageimprovements:vanadium_ingot').toJson(),
+			A: Ingredient.of('create_dd:mithril_ingot').toJson(),
 			B: Ingredient.of('create:cogwheel').toJson(),
 			C: Ingredient.of('create:encased_fan').toJson(),
 			D: Ingredient.of('create_sa:heat_engine').toJson(),
@@ -42,9 +42,9 @@ ServerEvents.recipes(event => {
 		},
 		result: Ingredient.of('create_sa:andesite_jetpack_chestplate').toJson(),
 		acceptMirrored: false
-	}).id('forge_frontier:mechanical_crafting/vanadium_jetpack');
+	}).id('forge_frontier:mechanical_crafting/mithril_jetpack');
 
-    // Chorium Jetpack Recipe
+    // Bismuth Jetpack Recipe
     event.custom({
 		type: "create:mechanical_crafting",
 		pattern: [
@@ -53,7 +53,7 @@ ServerEvents.recipes(event => {
             'CEFEC'
 		],
 		key: {
-			A: Ingredient.of('createcasing:chorium_ingot').toJson(),
+			A: Ingredient.of('enlightened_end:bismuth_ingot').toJson(),
 			B: Ingredient.of('create:cogwheel').toJson(),
 			C: Ingredient.of('create:encased_fan').toJson(),
 			D: Ingredient.of('create_sa:steam_engine').toJson(),
@@ -62,6 +62,6 @@ ServerEvents.recipes(event => {
 		},
 		result: Ingredient.of('create_sa:brass_jetpack_chestplate').toJson(),
 		acceptMirrored: false
-	}).id('forge_frontier:mechanical_crafting/chorium_jetpack');
+	}).id('forge_frontier:mechanical_crafting/bismuth_jetpack');
 
 })

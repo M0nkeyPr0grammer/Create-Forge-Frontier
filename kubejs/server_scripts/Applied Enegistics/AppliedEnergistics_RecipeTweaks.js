@@ -2,6 +2,7 @@ ServerEvents.recipes(event => {
 
 // Removed OP Item in Relation to Create
 event.remove({ id: 'expatternprovider:cobblestone_cell'})
+event.remove({ id: 'expattenprovider:ex_inscriber'})
 
 
 // New ME Import Bus Recipe
