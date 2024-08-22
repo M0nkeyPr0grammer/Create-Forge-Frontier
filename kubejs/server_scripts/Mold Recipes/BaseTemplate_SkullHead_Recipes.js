@@ -242,7 +242,7 @@ ServerEvents.recipes(event => {
 		type: 'create:compacting',
 		ingredients: [
 			{
-				fluid: 'forge_frontier:liquid_dragons_breath',
+				fluid: 'create_central_kitchen:dragon_breath',
 				amount: 1000
 			},
             {

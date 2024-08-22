@@ -201,16 +201,6 @@ StartupEvents.registry('fluid',event => {
         .temperature(1300)  
         .bucketItem;  
 
-    // Creates Liquid Dragons Breath
-    event.create('forge_frontier:liquid_dragons_breath')
-        .color(0xc34781)
-        .displayName('Liquid Dragons Breath')
-        .bucketColor(0xc34781)
-        .thickTexture(0xc34781)
-        .viscosity(6000)  
-        .temperature(1300)  
-        .bucketItem;  
-
     // Creates Molten Tin    
     event.create('forge_frontier:molten_tin')
         .color(0xe7e8ed)

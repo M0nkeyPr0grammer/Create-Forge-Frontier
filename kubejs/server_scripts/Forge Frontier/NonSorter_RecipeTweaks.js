@@ -351,7 +351,7 @@ ServerEvents.recipes(event => {
 				amount: 1
 			},
 			{
-				fluid: 'forge_frontier:liquid_dragons_breath',
+				fluid: 'create_central_kitchen:dragon_breath',
 				amount: 1000
 			}
 		],
@@ -469,32 +469,12 @@ ServerEvents.recipes(event => {
 		}
 	).id( 'forge_frontier:shaped/tinkering_table' )
 
-	// New Dragon's Breath Recipe
-	event.custom({
-		type: 'create:emptying',
-		ingredients: [
-			{
-				item: 'minecraft:dragon_breath',
-				count: 1
-			}
-		],
-		results: [
-			{
-				item: 'minecraft:glass_bottle'
-			},
-			{
-				fluid: 'forge_frontier:liquid_dragons_breath',
-				amount: 100
-			}
-		],
-	}).id('forge_frontier:emptying/dragons_breath')
-
 	// Liquid to Bottle Recipe
 	event.custom({
 		type: 'create:filling',
 		ingredients: [
 			{
-				fluid: 'forge_frontier:liquid_dragons_breath',
+				fluid: 'create_central_kitchen:dragon_breath',
 				amount: 100
 			},
 			{
