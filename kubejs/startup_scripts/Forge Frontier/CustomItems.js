@@ -48,8 +48,8 @@ StartupEvents.registry('block', event => {
         .renderType('solid')
         .tagItem('tooltiprareness:common_item')
         .tagBlock("mineable/pickaxe")
-        .fullBlock(true);     
-
+        .fullBlock(true);
+    
     // Trophy Block
     event.create('forge_frontier:trophy_block')
         .displayName('Landscapes Reimagined Trophy')
@@ -192,19 +192,67 @@ StartupEvents.registry('block', event => {
 // New Items
 StartupEvents.registry('item', event => {
 
-    // Pirate Items
+    // Custom Eye - Items
         event.create('forge_frontier:pirate_arrow')
-            .tooltip('This arrow is a highly prized possesion of the Seven Seas Pirates and it not used in combat')
+            .tooltip('A legendary arrow coveted by the Pirates of the Seven Seas, steeped in tales of adventure. Though not meant for battle, its value is beyond measure.')
             .displayName('Pirate Arrow')
             .texture('forge_frontier:item/pirate_arrow');
+
         event.create('forge_frontier:pirate_crossbow')
-            .tooltip('This crossbow is a highly prized possesion of the Seven Seas Pirates and it not used in combat')
+            .tooltip('An exquisite crossbow that once belonged to the most feared pirate captains. A symbol of command, not a weapon of war.')
             .displayName('Pirate Crossbow')
             .texture('forge_frontier:item/pirate_crossbow');
+
         event.create('forge_frontier:cannon_ball')
-            .tooltip('This cannon ball is a highly prized possesion of the Seven Seas Pirates and it not used in combat')
+            .tooltip('A relic from the mighty cannons of the Seven Seas Pirates, revered for its historical significance rather than its destructive power.')
             .displayName('Cannon Ball')
             .texture('forge_frontier:item/cannon_ball');
+
+        event.create('forge_frontier:soul_flame_staff')
+            .tooltip('An ancient staff imbued with soul fire, once guiding the lost through the fiery depths of the Nether.')
+            .displayName('Soul Flame Staff')
+            .texture('forge_frontier:item/soul_flame_staff');
+
+        event.create('forge_frontier:infernal_ingot')
+            .tooltip('Forged in the heart of a blazing inferno, this ingot once crafted legendary weapons. Now, it holds the secrets of the ancients.')
+            .displayName('Infernal Ingot')
+            .texture('forge_frontier:item/infernal_ingot');
+
+        event.create('forge_frontier:ras_solar_sword')
+            .tooltip('Forged by Ra himself, this radiant sword was wielded by the Pharaohs in battles long forgotten. It shines with the light of the sun.')
+            .displayName("Ra's Solar Sword")
+            .texture('forge_frontier:item/ras_solar_sword');
+
+        event.create('forge_frontier:sun_disc')
+            .tooltip('Harnessing the power of the sun, this disc was once a divine artifact of Ra, the sun god. It radiates with untold energy.')
+            .displayName('Sun Disc')
+            .texture('forge_frontier:item/sun_disc');
+
+        event.create('forge_frontier:piglin_kings_crown')
+            .tooltip('This regal crown was worn by the ancient Piglin King, a symbol of his dominion over the Nether. It glimmers with lost power.')
+            .displayName("Piglin King's Crown")
+            .texture('forge_frontier:item/piglin_kings_crown');
+
+        event.create('forge_frontier:piglin_war_axe')
+            .tooltip('Once swung in the great war between Piglins and Villagers, this war axe bears the scars of countless battles.')
+            .displayName("Piglin War Axe")
+            .texture('forge_frontier:item/piglin_war_axe');
+
+        event.create('forge_frontier:piglin_totem')
+            .tooltip('A sacred totem of the Piglins, believed to ward off the curse of zombification. It holds the essence of Piglin ancestors.')
+            .displayName("Piglin Totem")
+            .texture('forge_frontier:item/piglin_totem');
+
+        event.create('forge_frontier:infernal_chisel')
+            .tooltip('Once wielded by the ancient blacksmiths of Martian colonies, this infernal chisel was instrumental in crafting formidable weapons and tools.')
+            .displayName("Infernal Chisel")
+            .texture('forge_frontier:item/infernal_chisel');
+        
+        event.create('forge_frontier:hellhounds_fang')
+            .tooltip("This fang, lost by Hades' hellhounds in their pursuit of lost souls, was later repurposed by the ancient Nether fortress dwellers as a precise cutting tool.")
+            .displayName("Hellhound's Fang")
+            .texture('forge_frontier:item/hellhounds_fang');
+         
 
     // Overcharged Items
         event.create('forge_frontier:overcharged_netherite_ingot')
