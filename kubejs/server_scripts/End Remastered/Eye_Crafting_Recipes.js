@@ -104,13 +104,13 @@ ServerEvents.recipes(event => {
     event.custom({
       type: 'create:mechanical_crafting',
       pattern: [
-        'ADA',
+        'ACA',
         'FUH',
         'AEA'
       ],
       key: {
         A: Ingredient.of('minecraft:ancient_debris'),
-        D: Ingredient.of('cataclysm:music_disc_netherite_monstrosity'),
+        C: Ingredient.of('forge_frontier:infernal_chisel'),
         F: Ingredient.of('cataclysm:infernal_forge'),
         U: Ingredient.of('endrem:undead_soul'),
         H: Ingredient.of('cataclysm:monstrous_horn'),
@@ -121,8 +121,43 @@ ServerEvents.recipes(event => {
     }).id('forge_frontier:mechancial_crafting/lost_eye');
 
     // Nether Eye: Nether Loot Combination
+    event.custom({
+      type: 'create:mechanical_crafting',
+      pattern: [
+        'BSB',
+        'IUI',
+        'BFB'
+      ],
+      key: {
+        B: Ingredient.of('minecraft:red_nether_bricks'),
+        S: Ingredient.of('forge_frontier:soul_flame_staff'),
+        I: Ingredient.of('forge_frontier:infernal_ingot'),
+        F: Ingredient.of('forge_frontier:hellhounds_fang'),
+        U: Ingredient.of('endrem:undead_soul'),
+      },
+      result: Ingredient.of('endrem:nether_eye'),
+      acceptMirrored: false
+    }).id('forge_frontier:mechancial_crafting/nether_eye');
 
     // Old Eye: Desert Pyramid/ Cataclysm Pyramid Loot Combination
+    event.custom({
+      type: 'create:mechanical_crafting',
+      pattern: [
+        'SsS',
+        'DUR',
+        'SES'
+      ],
+      key: {
+        S: Ingredient.of('minecraft:sandstone'),
+        s: Ingredient.of('cataclysm:remnant_skull'),
+        D: Ingredient.of('forge_frontier:sun_disc'),
+        R: Ingredient.of('forge_frontier:ras_solar_sword'),    
+        E: Ingredient.of('cataclysm:desert_eye'),
+        U: Ingredient.of('endrem:undead_soul')
+      },
+      result: Ingredient.of('endrem:old_eye'),
+      acceptMirrored: false
+    }).id('forge_frontier:mechancial_crafting/old_eye');
 
     // Rogue Eye: Create Progression Combination
     event.custom({
@@ -143,6 +178,24 @@ ServerEvents.recipes(event => {
     }).id('forge_frontier:mechancial_crafting/rogue_eye');    
 
     // Cursed Eye: Bastion Loot/ Nether Castle Loot Combination
+    event.custom({
+      type: 'create:mechanical_crafting',
+      pattern: [
+        'BCB',
+        'AUT',
+        'BNB'
+      ],
+      key: {
+        B: Ingredient.of('minecraft:gilded_blackstone'),
+        C: Ingredient.of('forge_frontier:piglin_kings_crown'),
+        A: Ingredient.of('forge_frontier:piglin_war_axe'),
+        U: Ingredient.of('endrem:undead_soul'),
+        T: Ingredient.of('forge_frontier:piglin_totem'),
+        N: Ingredient.of('minecraft:netherite_ingot'),
+      },
+      result: Ingredient.of('endrem:cursed_eye'),
+      acceptMirrored: false
+    }).id('forge_frontier:mechancial_crafting/cursed_eye');       
 
     // Evil Eye: Villager Trade Related Combination
     event.custom({
