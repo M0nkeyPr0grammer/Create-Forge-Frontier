@@ -1,14 +1,10 @@
 The Following Assets were provided by external authors
-
-1.) End Remastered Ideal
-	- chosti
-	- https://discord.com/invite/D9cxayDNSP
 	
-2.) Sparkles: Stardust Labs Resourcepack
+1.) Sparkles: Stardust Labs Resourcepack
 	- Stardust Labs
 	- https://modrinth.com/resourcepack/sparkles
 
-3.) Sparkles ADDON: Alpha Islands
+2.) Sparkles ADDON: Alpha Islands
 	- Stardust Labs
 	- https://modrinth.com/resourcepack/sparkles-addon-alpha-islands
 
