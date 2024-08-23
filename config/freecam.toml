@@ -14,7 +14,7 @@
 	#Allows travelling through doors/trapdoors/gates in freecam.
 	"Ignore Openable Blocks" = true
 	#Allows travelling through all blocks in freecam.
-	"Ignore All Collision" = true
+	"Ignore All Collision" = false
 	#Whether 'Initial Perspective' should check for collision, even when using 'Ignore All Collision'.
 	"Always Check Initial Collision" = false
 	#The initial perspective of the camera.

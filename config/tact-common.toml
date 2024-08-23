@@ -64,6 +64,11 @@ subterranodonFlightMeterRechargeSpeed = 1.0
 #
 #Range: 0.0 ~ 1000.0
 subterranodonFlightMeterUsageSpeed = 1.0
+#----------------------------------
+#
+# Whether to make Guano, Guano Block, and Guano Layer be able to be used as fuel in Furnaces.
+#
+guanoBurnFuel = true
 
 ["Cloak of Darkness Options"]
 	#----------------------------------

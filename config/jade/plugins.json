@@ -1,7 +1,4 @@
 {
-  "framedblocks": {
-    "framed_item_frame": true
-  },
   "minecraft": {
     "item_storage.show_name_amount": 5,
     "furnace": true,
@@ -56,6 +53,9 @@
   "cagedmobs": {
     "cagedmobs_jade": true
   },
+  "collectorsreap": {
+    "crop_progress": true
+  },
   "jade": {
     "coordinates.rel": false,
     "distance": false,
@@ -89,9 +89,6 @@
   "jadeaddons": {
     "equipment_requirement": ""
   },
-  "create_mechanical_spawner": {
-    "spawner_data": true
-  },
   "easy_villagers": {
     "villager": true,
     "converter": true,
@@ -99,6 +96,11 @@
   },
   "pipez": {
     "pipe": true
+  },
+  "delightful": {
+    "crop_progress": true,
+    "pie_icons": true,
+    "mushroom_colony": true
   },
   "supplementaries": {
     "hat_stand": true

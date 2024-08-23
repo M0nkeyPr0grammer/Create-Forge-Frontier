@@ -17,5 +17,9 @@
   "retainDetailOnLargerMobs": true,
   "animationFrameSkipDuringIrisShadowPass": true,
   "preventFirstPersonHandAnimating": false,
-  "onlyClientPlayerModel": false
+  "onlyClientPlayerModel": false,
+  "doubleChestAnimFix": true,
+  "variationRequiresDefaultModel": true,
+  "resetPlayerModelEachRender": true,
+  "onlyDebugRenderOnHover": false
 }

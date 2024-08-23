@@ -3,7 +3,7 @@
 skipLandingPhase = true
 #Specifies if the crash phase should cause blocks to be flung.
 #Default: true
-crashPhaseDestroysBlocks = true
+crashPhaseDestroysBlocks = false
 #Specifies the max amount of baby ender dragons the Ender Dragon can spawn during its hatching (dive bomb) phase.
 #Default: 4
 #Range: 1 ~ 16

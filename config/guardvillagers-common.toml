@@ -64,4 +64,6 @@
 	"Have guards only follow the player if they have hero of the village?" = true
 	#Range: -9999 ~ 9999
 	"How low of a reputation of a player should have to be instantly aggroed upon by guards and golems?" = -100
+	"Allow the player to right click on bells to mass order guards to follow them?" = true
+	"Allow guards to teleport if following the player" = true
 

@@ -13,7 +13,9 @@
     "rain_splash": true,
     "block_break": true,
     "block_breaking": true,
-    "other": {}
+    "other": {
+      "minecraft:ambient_entity_effect": true
+    }
   },
   "detail_settings": {
     "sky": true,
@@ -24,7 +26,7 @@
     "sky_colors": true
   },
   "render_settings": {
-    "fog_type": "DEFAULT",
+    "fog_type": "MOD_COMPAT",
     "fog_distance": 0,
     "fog_start": 100,
     "multi_dimension_fog_control": false,

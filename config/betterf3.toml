@@ -134,3 +134,22 @@
 		opengl_version = true
 		gpu_driver = true
 
+[[modules_right]]
+	name = "target"
+	name_color = 43775
+	value_color = 16777045
+	enabled = true
+
+	[modules_right.lines]
+		targeted_block = true
+		id_block = true
+		block_states = true
+		block_tags = true
+		nothing = true
+		targeted_fluid = true
+		id_fluid = true
+		fluid_states = true
+		fluid_tags = true
+		nothing2 = true
+		targeted_entity = true
+
