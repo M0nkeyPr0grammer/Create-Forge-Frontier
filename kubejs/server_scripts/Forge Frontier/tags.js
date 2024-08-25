@@ -1,5 +1,30 @@
 ServerEvents.tags('item', event => {
 
+// Crafting Tables
+event.add('mctb:revertable_workbench','mctb:alpha_crafting_table')
+event.add('mctb:revertable_workbench','mctb:baobab_crafting_table')
+event.add('mctb:revertable_workbench','mctb:blackwood_crafting_table')
+event.add('mctb:revertable_workbench','mctb:blue_bioshroom_crafting_table')
+event.add('mctb:revertable_workbench','mctb:brimwood_crafting_table')
+event.add('mctb:revertable_workbench','mctb:cobalt_crafting_table')
+event.add('mctb:revertable_workbench','mctb:cypress_crafting_table')
+event.add('mctb:revertable_workbench','mctb:ru_dead_crafting_table')
+event.add('mctb:revertable_workbench','mctb:eucalyptus_crafting_table')
+event.add('mctb:revertable_workbench','mctb:green_bioshroom_crafting_table')
+event.add('mctb:revertable_workbench','mctb:joshua_crafting_table')
+event.add('mctb:revertable_workbench','mctb:kapok_crafting_table')
+event.add('mctb:revertable_workbench','mctb:larch_crafting_table')
+event.add('mctb:revertable_workbench','mctb:magnolia_crafting_table')
+event.add('mctb:revertable_workbench','mctb:maple_crafting_table')
+event.add('mctb:revertable_workbench','mctb:mauve_crafting_table')
+event.add('mctb:revertable_workbench','mctb:ru_palm_crafting_table')
+event.add('mctb:revertable_workbench','mctb:pine_crafting_table')
+event.add('mctb:revertable_workbench','mctb:pink_bioshroom_crafting_table')
+event.add('mctb:revertable_workbench','mctb:ru_redwood_crafting_table')
+event.add('mctb:revertable_workbench','mctb:ru_willow_crafting_table')
+event.add('mctb:revertable_workbench','mctb:yellow_bioshroom_crafting_table')
+event.add('mctb:revertable_workbench','mctb:socotra_crafting_table')
+
 // Drill Heads
 event.add('createoreexcavation:drills','createoreexcavation:brass_drill')
 event.add('createoreexcavation:drills','createoreexcavation:desh_drill')

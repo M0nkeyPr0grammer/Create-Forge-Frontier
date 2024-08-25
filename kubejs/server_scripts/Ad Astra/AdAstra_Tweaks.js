@@ -337,7 +337,7 @@ ServerEvents.recipes(event => {
                     'ABA'
                 ],
                 key: {
-                    A: Ingredient.of('ad_astra:steel_plate').toJson(),
+                    A: Ingredient.of('#ad_astra:steel_plates').toJson(),
                     B: Ingredient.of('#forge:plates/iron').toJson()
                 },
                 result: Ingredient.of('ad_astra:launch_pad').toJson(),
@@ -345,6 +345,25 @@ ServerEvents.recipes(event => {
             }).id('forge_frontier:mechanical_crafting/launch_pad');
 
             // Mixing Recipes
+
+                // Oil to Fuel Mixing Recipe
+                event.custom({
+                    type: "create:mixing",
+                    ingredients: [
+                        {
+                            fluid: 'ad_astra:oil',
+                            amount: 1000
+                        }
+                    ],
+                    results: [
+                        {
+                            fluid: 'ad_astra:fuel',
+                            amount: 1000
+                        }
+                    ],
+                    processingTime: 100, 
+                    heatRequirement: "heated"
+                }).id('forge_frontier:mixing/oil_fuel')                 
 
                 // Tree Bark to Oil Superheated Recipe - Voidmaster
                 event.custom({
