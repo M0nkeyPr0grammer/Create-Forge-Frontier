@@ -9,45 +9,9 @@ convert_trapped_chests = true
 #lootr will automatically log all unresolved tables (i.e., for containers that have a loot table associated with them but, for whatever reason, the lookup for this table returns empty). setting this option to true additionally informs players when they open containers.
 report_unresolved_tables = false
 #a list of additional chests that should be converted (in the format of ["modid:name", "modid:other_name"], must be a tile entity instance of RandomizableContainerBlockEntity)
-additional_chests = [
-    "quark:ancient_chest",
-    "quark:azalea_chest",
-    "quark:blossom_chest",
-    "quark:oak_chest",
-    "quark:spruce_chest",
-    "quark:birch_chest",
-    "quark:jungle_chest",
-    "quark:acacia_chest",
-    "quark:dark_oak_chest",
-    "quark:crimson_chest",
-    "quark:warped_chest",
-    "quark:mangrove_chest",
-    "quark:bamboo_chest",
-    "quark:cherry_chest",
-    "quark:nether_brick_chest",
-    "quark:purpur_chest",
-    "quark:prismarine_chest"
-    ]
+additional_chests = ["quark:ancient_chest", "quark:azalea_chest", "quark:blossom_chest", "quark:oak_chest", "quark:spruce_chest", "quark:birch_chest", "quark:jungle_chest", "quark:acacia_chest", "quark:dark_oak_chest", "quark:crimson_chest", "quark:warped_chest", "quark:mangrove_chest", "quark:bamboo_chest", "quark:cherry_chest", "quark:nether_brick_chest", "quark:purpur_chest", "quark:prismarine_chest"]
 #a list of additional trapped chests that should be converted (in the format of ["modid:name", "modid:other_name"], must be a tile entity instance of RandomizableContainerBlockEntity)
-additional_trapped_chests = [
-    "quark:ancient_trapped_chest",
-    "quark:azalea_trapped_chest",
-    "quark:blossom_trapped_chest",
-    "quark:oak_trapped_chest",
-    "quark:spruce_trapped_chest",
-    "quark:birch_trapped_chest",
-    "quark:jungle_trapped_chest",
-    "quark:acacia_trapped_chest",
-    "quark:dark_oak_trapped_chest",
-    "quark:crimson_trapped_chest",
-    "quark:warped_trapped_chest",
-    "quark:mangrove_trapped_chest",
-    "quark:bamboo_trapped_chest",
-    "quark:cherry_trapped_chest",
-    "quark:nether_brick_trapped_chest",
-    "quark:purpur_trapped_chest",
-    "quark:prismarine_trapped_chest"
-]
+additional_trapped_chests = ["quark:ancient_trapped_chest", "quark:azalea_trapped_chest", "quark:blossom_trapped_chest", "quark:oak_trapped_chest", "quark:spruce_trapped_chest", "quark:birch_trapped_chest", "quark:jungle_trapped_chest", "quark:acacia_trapped_chest", "quark:dark_oak_trapped_chest", "quark:crimson_trapped_chest", "quark:warped_trapped_chest", "quark:mangrove_trapped_chest", "quark:bamboo_trapped_chest", "quark:cherry_trapped_chest", "quark:nether_brick_trapped_chest", "quark:purpur_trapped_chest", "quark:prismarine_trapped_chest"]
 #list of dimensions (to the exclusion of all others) that loot chest should be replaced in (default: blank, allowing all dimensions, e.g., ["minecraft:overworld", "minecraft:the_end"])
 dimension_whitelist = []
 #list of dimensions that loot chests should not be replaced in (default: blank, allowing all dimensions, format e.g., ["minecraft:overworld", "minecraft:the_end"])
