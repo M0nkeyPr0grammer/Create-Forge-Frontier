@@ -48,6 +48,25 @@
     "idas:dig_site/dig_site",
     "betterarcheology:archeologist_camp_grassy",
     "betterarcheology:villager_grave",
-    "hopo:piglin_ruin"
+    "hopo:piglin_ruin",
+    "repurposed_structures:mineshaft_dark_forest",
+    "structory_towers:foraging_outpost",
+    "idas:redhorn_guild",
+    "hopo:mineshaft/spruce_mineshaft",
+    "alexscaves:underground_cabin",
+    "betterdungeons:skeleton_dungeon",
+    "repurposed_structures:temple_taiga",
+    "idas:winter_wagon",
+    "betteroceanmonuments:ocean_monument",
+    "idas:sunken_ship/sunken_ship",
+    "cataclysm:burning_arena",
+    "incendium:nether_reactor",
+    "alexscaves:ocean_trench",
+    "alexscaves:forlorn_canyon",
+    "alexscaves:dino_bowl",
+    "alexscaves:ferrocave",
+    "alexscaves:acid_pit",
+    "integrated_villages:pirate_village",
+    "repurposed_structures:village_birch"
   ]
 }

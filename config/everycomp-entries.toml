@@ -37,9 +37,6 @@
 			willow = true
 			ashen = true
 
-		[types.leaves_type.phantasm]
-			pream = true
-
 		[types.leaves_type.ad_astra]
 			glacian = true
 
@@ -125,12 +122,12 @@
 			yellow_blossom = true
 			red_blossom = true
 
-		[types.leaves_type.create_dd]
-			rubber = true
-
 		[types.leaves_type.endlessbiomes]
 			penumbral = true
 			glowing_penumbral = true
+
+		[types.leaves_type.phantasm]
+			pream = true
 
 	[types.wood_type]
 
@@ -141,9 +138,6 @@
 			azalea = true
 			ancient = true
 			blossom = true
-
-		[types.wood_type.phantasm]
-			pream = true
 
 		[types.wood_type.ad_astra]
 			aeronos = true
@@ -192,15 +186,12 @@
 			willow = true
 			yellow_bioshroom = true
 
-		[types.wood_type.create_dd]
-			rose = true
-			smoked = true
-			spirit = true
-			rubber = true
-
 		[types.wood_type.endlessbiomes]
 			penumbra = true
 			twisted = true
+
+		[types.wood_type.phantasm]
+			pream = true
 
 	[types.cake]
 
