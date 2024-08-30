@@ -1,7 +1,7 @@
 ServerEvents.tags('worldgen/biome', event => {
 
   // New Additions
-
+  
   // Ad Astra Ore Vein Biome Linkage
   event.add('forge_frontier:moon_ore_veins', 'ad_astra:lunar_wastelands');
   event.add('forge_frontier:venus_ore_veins', 'ad_astra:venus_wastelands');
@@ -50,3 +50,12 @@ ServerEvents.tags('worldgen/biome', event => {
     'incendium:toxic_heap'
   ]);
 });
+
+ServerEvents.tags('worldgen/structure', event => {
+
+  event.add('minecraft:ruined_portal', 'hopo:portal');
+  event.add('minecraft:ruined_portal', 'hopo:portal_deepslate');
+  event.add('minecraft:ruined_portal', 'hopo:portal_dripstone');
+  event.add('minecraft:ruined_portal', 'hopo:portal_lush');
+
+})
