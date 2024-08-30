@@ -67,6 +67,15 @@
     "alexscaves:ferrocave",
     "alexscaves:acid_pit",
     "integrated_villages:pirate_village",
-    "repurposed_structures:village_birch"
+    "repurposed_structures:village_birch",
+    "minecraft:ruined_portal_swamp",
+    "hopo:portal_dripstone",
+    "ad_astra:oil_well",
+    "repurposed_structures:pyramid_giant_tree_taiga",
+    "idas:brickhouse",
+    "terralith:underground/old_refinery",
+    "integrated_villages:mediterranean_village",
+    "betterdungeons:zombie_dungeon",
+    "idas:witches_treestump"
   ]
 }

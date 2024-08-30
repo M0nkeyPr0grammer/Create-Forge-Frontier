@@ -129,6 +129,9 @@
 		[types.leaves_type.phantasm]
 			pream = true
 
+		[types.leaves_type.create_dd]
+			rubber = true
+
 	[types.wood_type]
 
 		[types.wood_type.createdieselgenerators]
@@ -192,6 +195,12 @@
 
 		[types.wood_type.phantasm]
 			pream = true
+
+		[types.wood_type.create_dd]
+			rose = true
+			smoked = true
+			spirit = true
+			rubber = true
 
 	[types.cake]
 
