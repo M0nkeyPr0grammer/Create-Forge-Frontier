@@ -1,0 +1,33 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cursed_eye"
+	group: "56FECAF3F592F5B2"
+	icon: {
+		Count: 1
+		id: "endrem:cursed_eye"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "6C26C5731413C6D7"
+	order_index: 7
+	quest_links: [ ]
+	quests: [{
+		id: "2575E9C7F4C52FA1"
+		tasks: [{
+			id: "5B1EF03123AD4FC3"
+			item: {
+				Count: 1
+				id: "endrem:cursed_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Cursed Eye"
+}

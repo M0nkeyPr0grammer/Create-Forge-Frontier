@@ -1,0 +1,33 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "evil_eye"
+	group: "56FECAF3F592F5B2"
+	icon: {
+		Count: 1
+		id: "endrem:evil_eye"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "1F2431AE913E7F21"
+	order_index: 8
+	quest_links: [ ]
+	quests: [{
+		id: "1EDDECA49014856D"
+		tasks: [{
+			id: "7764ACC3B550FF17"
+			item: {
+				Count: 1
+				id: "endrem:evil_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Evil Eye"
+}

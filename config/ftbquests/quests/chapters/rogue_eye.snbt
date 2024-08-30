@@ -1,0 +1,33 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "rogue_eye"
+	group: "56FECAF3F592F5B2"
+	icon: {
+		Count: 1
+		id: "endrem:rogue_eye"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "3745D5ADCE412F0F"
+	order_index: 6
+	quest_links: [ ]
+	quests: [{
+		id: "5C659D0836CA815B"
+		tasks: [{
+			id: "55B9EE85F5B551CE"
+			item: {
+				Count: 1
+				id: "endrem:rogue_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Rogue Eye"
+}

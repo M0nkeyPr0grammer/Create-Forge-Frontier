@@ -1,0 +1,33 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "corrupted_eye"
+	group: "56FECAF3F592F5B2"
+	icon: {
+		Count: 1
+		id: "endrem:corrupted_eye"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "2BC90B3059FD2519"
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		id: "116E3F170671542D"
+		tasks: [{
+			id: "40439573963FD4EC"
+			item: {
+				Count: 1
+				id: "endrem:corrupted_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Corrupted Eye"
+}

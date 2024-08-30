@@ -1,0 +1,33 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cryptic_eye"
+	group: "56FECAF3F592F5B2"
+	icon: {
+		Count: 1
+		id: "endrem:cryptic_eye"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "1A1D6C91422477FE"
+	order_index: 14
+	quest_links: [ ]
+	quests: [{
+		id: "73CBB1994EFB12FD"
+		tasks: [{
+			id: "397860F5506A9964"
+			item: {
+				Count: 1
+				id: "endrem:cryptic_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Cryptic Eye"
+}

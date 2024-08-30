@@ -1,0 +1,33 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "wither_eye"
+	group: "56FECAF3F592F5B2"
+	icon: {
+		Count: 1
+		id: "endrem:wither_eye"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "7D76D5FEC61F19C2"
+	order_index: 11
+	quest_links: [ ]
+	quests: [{
+		id: "4605F358C391E792"
+		tasks: [{
+			id: "239220D7DBEEB013"
+			item: {
+				Count: 1
+				id: "endrem:wither_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Wither Eye"
+}

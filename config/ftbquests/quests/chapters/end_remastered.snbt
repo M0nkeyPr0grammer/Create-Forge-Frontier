@@ -1,0 +1,308 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "end_remastered"
+	group: "3750F90D875B3398"
+	icon: "minecraft:end_portal_frame"
+	id: "01DD8338C9E8DE75"
+	images: [{
+		height: 7.0d
+		image: "forge_frontier:textures/ftb/endportalframe.png"
+		rotation: 0.0d
+		width: 12.6d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"7EE0A1125DFCB5AF"
+				"10232D5D9959E8A5"
+				"6B63999D63EA981F"
+				"3B18C690B23D4C39"
+				"72DBFC6476091A3A"
+				"7B7C6A4F2D966F69"
+				"01E99C2EF36E6886"
+				"56C98E29485174A1"
+				"6D1F1DB7B6A3DA79"
+				"5094745CE014E74E"
+				"73B3517C59793125"
+				"0D9A77A2F4BA4951"
+				"0A4D8CFE603872F8"
+				"2037E72162F48338"
+				"7BAB96552BE32CC7"
+				"7F2348D995E5FE43"
+			]
+			id: "0135EFA96E7A28A2"
+			shape: "pentagon"
+			subtitle: "Locate by using any of the surrounding eyes"
+			tasks: [{
+				id: "28B2F94CC84D96D2"
+				structure: "integrated_stronghold:stronghold"
+				type: "structure"
+			}]
+			title: "Integrated Stronghold"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "56C98E29485174A1"
+			tasks: [{
+				id: "05EAF50F486AD514"
+				item: {
+					Count: 1
+					id: "endrem:black_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			id: "01E99C2EF36E6886"
+			tasks: [{
+				id: "759A1D7767CAE2AA"
+				item: {
+					Count: 1
+					id: "endrem:cold_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.2d
+			y: -7.0d
+		}
+		{
+			id: "7F2348D995E5FE43"
+			tasks: [{
+				id: "10B8112AE2BC8036"
+				item: {
+					Count: 1
+					id: "endrem:corrupted_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -7.5d
+		}
+		{
+			id: "7EE0A1125DFCB5AF"
+			tasks: [{
+				id: "31CC571FDF21EB2D"
+				item: {
+					Count: 1
+					id: "endrem:lost_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -7.5d
+		}
+		{
+			id: "2037E72162F48338"
+			tasks: [{
+				id: "5321BD53A805FC5D"
+				item: {
+					Count: 1
+					id: "endrem:nether_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.2d
+			y: -7.0d
+		}
+		{
+			id: "73B3517C59793125"
+			tasks: [{
+				id: "5CF5E3F334A58ADC"
+				item: {
+					Count: 1
+					id: "endrem:old_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			id: "5094745CE014E74E"
+			tasks: [{
+				id: "6810DE2B505491B4"
+				item: {
+					Count: 1
+					id: "endrem:rogue_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			id: "0A4D8CFE603872F8"
+			tasks: [{
+				id: "27A77B3148BF7BB5"
+				item: {
+					Count: 1
+					id: "endrem:cursed_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			id: "3B18C690B23D4C39"
+			tasks: [{
+				id: "7CEF29522CC4026C"
+				item: {
+					Count: 1
+					id: "endrem:evil_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			id: "7BAB96552BE32CC7"
+			tasks: [{
+				id: "70B482B16AD6B5F8"
+				item: {
+					Count: 1
+					id: "endrem:guardian_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			id: "10232D5D9959E8A5"
+			tasks: [{
+				id: "0C81C90E090FD2F2"
+				item: {
+					Count: 1
+					id: "endrem:exotic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			id: "0D9A77A2F4BA4951"
+			tasks: [{
+				id: "25480B72E68B2FB3"
+				item: {
+					Count: 1
+					id: "endrem:cryptic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.2d
+			y: 7.0d
+		}
+		{
+			id: "7B7C6A4F2D966F69"
+			tasks: [{
+				id: "27CE3F01272CE09F"
+				item: {
+					Count: 1
+					id: "endrem:undead_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.5d
+		}
+		{
+			id: "72DBFC6476091A3A"
+			tasks: [{
+				id: "27998848E13893FE"
+				item: {
+					Count: 1
+					id: "endrem:magical_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			id: "6D1F1DB7B6A3DA79"
+			tasks: [{
+				id: "64455F7BE700212D"
+				item: {
+					Count: 1
+					id: "endrem:witch_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.2d
+			y: 7.0d
+		}
+		{
+			id: "6B63999D63EA981F"
+			tasks: [{
+				id: "0B50E9CF0323D434"
+				item: {
+					Count: 1
+					id: "endrem:wither_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+	]
+	title: "End Remastered"
+}

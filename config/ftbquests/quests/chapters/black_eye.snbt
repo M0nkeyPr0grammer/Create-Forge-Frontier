@@ -1,0 +1,33 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "black_eye"
+	group: "56FECAF3F592F5B2"
+	icon: {
+		Count: 1
+		id: "endrem:black_eye"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "1A233423E83B4DA6"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "1F79264655FD327E"
+		tasks: [{
+			id: "505CB00E0F1509CA"
+			item: {
+				Count: 1
+				id: "endrem:black_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Black Eye"
+}

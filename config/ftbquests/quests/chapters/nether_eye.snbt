@@ -1,0 +1,33 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "nether_eye"
+	group: "56FECAF3F592F5B2"
+	icon: {
+		Count: 1
+		id: "endrem:nether_eye"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "4BE7CE84F66F64C3"
+	order_index: 4
+	quest_links: [ ]
+	quests: [{
+		id: "3052DCEA1C676846"
+		tasks: [{
+			id: "2527A5E2E5B3009A"
+			item: {
+				Count: 1
+				id: "endrem:nether_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Nether Eye"
+}

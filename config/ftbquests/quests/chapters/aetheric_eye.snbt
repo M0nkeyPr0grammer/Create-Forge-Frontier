@@ -1,0 +1,33 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "aetheric_eye"
+	group: "56FECAF3F592F5B2"
+	icon: {
+		Count: 1
+		id: "endrem:exotic_eye"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "2062CF9DB690ADF6"
+	order_index: 13
+	quest_links: [ ]
+	quests: [{
+		id: "06CEED1DBA25D312"
+		tasks: [{
+			id: "233DA4698435C2CB"
+			item: {
+				Count: 1
+				id: "endrem:exotic_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Aetheric Eye"
+}

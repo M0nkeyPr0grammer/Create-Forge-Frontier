@@ -1,0 +1,33 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "old_eye"
+	group: "56FECAF3F592F5B2"
+	icon: {
+		Count: 1
+		id: "endrem:old_eye"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "1C93BC78E9B70643"
+	order_index: 5
+	quest_links: [ ]
+	quests: [{
+		id: "11351D359F8A3CCB"
+		tasks: [{
+			id: "6DC27F5B142957B4"
+			item: {
+				Count: 1
+				id: "endrem:old_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Old Eye"
+}

@@ -1,0 +1,33 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "wardens_eye"
+	group: "56FECAF3F592F5B2"
+	icon: {
+		Count: 1
+		id: "endrem:undead_eye"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "1B72DCE9FCDAA982"
+	order_index: 12
+	quest_links: [ ]
+	quests: [{
+		id: "4EC3592C15DE2599"
+		tasks: [{
+			id: "1A41B2123DF89C68"
+			item: {
+				Count: 1
+				id: "endrem:undead_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Warden's Eye"
+}

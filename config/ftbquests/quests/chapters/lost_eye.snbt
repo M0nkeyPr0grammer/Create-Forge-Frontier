@@ -1,0 +1,33 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "lost_eye"
+	group: "56FECAF3F592F5B2"
+	icon: {
+		Count: 1
+		id: "endrem:lost_eye"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "3C4682595178F127"
+	order_index: 3
+	quest_links: [ ]
+	quests: [{
+		id: "53D3EEC1993AF3D6"
+		tasks: [{
+			id: "4C44E96AE52088D8"
+			item: {
+				Count: 1
+				id: "endrem:lost_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Lost Eye"
+}

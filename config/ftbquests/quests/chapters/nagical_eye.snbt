@@ -1,0 +1,33 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "nagical_eye"
+	group: "56FECAF3F592F5B2"
+	icon: {
+		Count: 1
+		id: "endrem:magical_eye"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "772EB4D9A98F8BC8"
+	order_index: 10
+	quest_links: [ ]
+	quests: [{
+		id: "73E9EC9FED2830A0"
+		tasks: [{
+			id: "308FEF3A699D5676"
+			item: {
+				Count: 1
+				id: "endrem:magical_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Magical Eye"
+}

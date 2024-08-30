@@ -1,3 +1,6 @@
 {
-	chapter_groups: [{ id: "3750F90D875B3398", title: "Overworld" }]
+	chapter_groups: [
+		{ id: "3750F90D875B3398", title: "Overworld" }
+		{ id: "56FECAF3F592F5B2", title: " End Remastered Eye Collection" }
+	]
 }
