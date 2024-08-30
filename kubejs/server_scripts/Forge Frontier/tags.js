@@ -113,3 +113,10 @@ event.add('create:crushed_raw_materials','forge_frontier:crushed_irradium')
 event.add('create:crushed_raw_materials','forge_frontier:crushed_malachite')
 
 })
+
+ServerEvents.tags('fluid', event => {
+
+    // Fluids
+    event.add('forge:crude_oil','ad_astra:oil')
+    
+})
