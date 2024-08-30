@@ -2,24 +2,8 @@
 	"type": "minecraft:chest",
 	"pools": [
 		{
-			"rolls": 2,
+			"rolls": 6,
 			"entries": [
-				{
-					"type": "minecraft:item",
-					"functions": [
-					  {
-						"add": false,
-						"count": {
-						  "type": "minecraft:uniform",
-						  "max": 1.0,
-						  "min": 1.0
-						},
-						"function": "minecraft:set_count"
-					  }
-					],
-					"name": "nether_remastered:seal_crystal",
-					"weight": 100
-				  },
 				{
 					"type": "minecraft:loot_table",
 					"name": "hopo:chests/portal/better_ruined_portal"
