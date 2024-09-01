@@ -7,10 +7,6 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'create:crushing/sculk_stone_coal_ore'})
     event.remove({ id: 'create:crushing/glacio_coal_ore'})
     event.remove({ id: 'create:crushing/venus_coal_ore'})
-    event.remove({ id: 'vintageimprovements:crushing/scoria'})
-    event.remove({ id: 'vintageimprovements:crushing/scoria_recycling'})
-    event.remove({ id: 'create_dd:crushing/scorchia'})
-    event.remove({ id: 'create_dd:crushing/scorchia_recycling'})
     event.remove({ id: 'create:crushing/scoria'})
     event.remove({ id: 'create_oppenheimered:crushing/guanostone_redstone_ore' })
     event.remove({ id: 'create_oppenheimered:crushing/uranium_ore' })
@@ -118,25 +114,6 @@ ServerEvents.recipes(event => {
 		]
 	}).id('forge_frontier:crushing/amethyst');
 
-    // Scorchia Crushing
-    event.custom({
-        type: 'create:crushing',
-        ingredients: [
-            { tag: 'create:stone_types/scorchia' },
-        ],
-        processingTime: 400,
-        results: [
-            { item: 'create_dd:coal_piece' },
-            { item: 'create_dd:coal_piece', chance: 0.50 },
-            { item: 'vintageimprovements:sulfur_chunk', chance: 0.30 },
-            { item: 'create_dd:coal_piece', chance: 0.25 },
-            { item: 'create_dd:coal_piece', chance: 0.15 },
-            { item: 'vintageimprovements:sulfur_chunk', chance: 0.10 },
-            { item: 'vintageimprovements:sulfur_chunk', chance: 0.05 },
-            { item: 'create:cinder_flour', chance: 0.04 },
-        ],
-    }).id('forge_frontier:crushing/scorchia');
-
     // Scoria Crushing
     event.custom({
         type: 'create:crushing',
@@ -145,10 +122,7 @@ ServerEvents.recipes(event => {
         ],
         processingTime: 400,
         results: [
-            { item: 'minecraft:lapis_lazuli' },
-            { item: 'vintageimprovements:sulfur_chunk', chance: 0.30 },
-            { item: 'vintageimprovements:sulfur_chunk', chance: 0.10 },
-            { item: 'vintageimprovements:sulfur_chunk', chance: 0.05 },
+            { item: 'minecraft:lapis_lazuli' }
         ],
     }).id('forge_frontier:crushing/scoria'); 
 
