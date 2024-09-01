@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "forge_frontier:block/active_molten_blocks/active_molten_pyroclast"
+    }
+  }
+}

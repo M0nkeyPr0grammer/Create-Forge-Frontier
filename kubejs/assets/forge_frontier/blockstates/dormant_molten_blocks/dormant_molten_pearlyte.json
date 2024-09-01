@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "forge_frontier:block/dormant_molten_blocks/dormant_molten_pearlyte"
+    }
+  }
+}
