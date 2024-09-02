@@ -38,8 +38,8 @@
     "depth": {
       "type": "minecraft:uniform",
       "value": {
-        "min_inclusive": 80,
-        "max_inclusive": 100
+        "min_inclusive": 10,
+        "max_inclusive": 20
       }
     },
     "underwater": false
