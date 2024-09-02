@@ -44,7 +44,7 @@
     "liquidBlock": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:lava"
+        "Name": "create_dd:cream"
       }
     },
     "depth": {

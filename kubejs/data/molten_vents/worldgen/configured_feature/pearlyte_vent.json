@@ -5,15 +5,9 @@
       "type": "minecraft:weighted_state_provider",
       "entries": [
         {
-          "weight": 3,
-          "data": {
-            "Name": "create:cut_crimsite_wall"
-          }
-        },
-        {
           "weight": 7,
           "data": {
-            "Name": "create:cut_crimsite_slab"
+            "Name": "forge_frontier:pearlyte"
           }
         }
       ]
@@ -22,15 +16,9 @@
       "type": "minecraft:weighted_state_provider",
       "entries": [
         {
-          "weight": 2,
-          "data": {
-            "Name": "create:cut_crimsite"
-          }
-        },
-        {
           "weight": 8,
           "data": {
-            "Name": "create:crimsite"
+            "Name": "forge_frontier:pearlyte"
           }
         }
       ]
@@ -38,13 +26,13 @@
     "innerBlock": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "molten_vents:dormant_molten_crimsite"
+        "Name": "molten_vents:dormant_molten_pearlyte"
       }
     },
     "liquidBlock": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "create_dd:strawberry_milkshake"
+        "Name": "minecraft:water"
       }
     },
     "depth": {
