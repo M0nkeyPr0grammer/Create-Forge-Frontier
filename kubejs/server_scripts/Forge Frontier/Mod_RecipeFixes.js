@@ -1,5 +1,51 @@
 // Mod Recipe Fixes
 ServerEvents.recipes(event => {
+
+    // Compressed Ore Block Shapeless Recipe Fixes
+        // Raw Copper
+        event.remove({ id: 'createcompression:block/minecraft/raw_copper/decompress/1x'})
+        event.custom({
+            type: 'minecraft:crafting_shapeless',
+            ingredients: [
+                {
+                    item: 'createcompression:compressed_raw_copper_1x'
+                }
+            ],
+            result: {
+                item: 'minecraft:raw_copper_block',
+                count: 9
+            }
+        }).id( 'createcompression:block/minecraft/raw_copper/decompress/1x' )
+
+        // Raw Gold
+        event.remove({ id: 'createcompression:block/minecraft/raw_gold/decompress/1x'})
+        event.custom({
+            type: 'minecraft:crafting_shapeless',
+            ingredients: [
+                {
+                    item: 'createcompression:compressed_raw_gold_1x'
+                }
+            ],
+            result: {
+                item: 'minecraft:raw_gold_block',
+                count: 9
+            }
+        }).id( 'createcompression:block/minecraft/raw_gold/decompress/1x' )
+
+        // Raw Iron
+        event.remove({ id: 'createcompression:block/minecraft/raw_iron/decompress/1x'})
+        event.custom({
+            type: 'minecraft:crafting_shapeless',
+            ingredients: [
+                {
+                    item: 'createcompression:compressed_raw_iron_1x'
+                }
+            ],
+            result: {
+                item: 'minecraft:raw_iron_block',
+                count: 9
+            }
+        }).id( 'createcompression:block/minecraft/raw_iron/decompress/1x' )
     
     // Removed Pocket Dimension Remote Recipe
     event.remove({ id: 'createteleporters:pocket_dimension_recipe'})
