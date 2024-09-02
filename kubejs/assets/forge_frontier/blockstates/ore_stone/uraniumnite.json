@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "forge_frontier:block/ore_stones/uraniumnite"
+      }
+    ]
+  }
+}

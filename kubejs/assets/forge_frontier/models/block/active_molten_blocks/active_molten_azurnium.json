@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "forge_frontier:block/active_molten_blocks/active_molten_azurnium"
-    }
-  }
-

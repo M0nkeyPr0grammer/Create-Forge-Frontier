@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "forge_frontier:block/dormant_molten_blocks/dormant_molten_stellaris"
-    }
-  }
-
