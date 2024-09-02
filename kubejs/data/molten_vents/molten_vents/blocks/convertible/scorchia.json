@@ -1,6 +1,6 @@
 {
   "replace": false,
   "values": [
-    "minecraft:lava"
+    "create_dd:hot_chocolate"
   ]
 }
