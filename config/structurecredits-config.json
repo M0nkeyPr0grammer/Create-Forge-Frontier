@@ -76,6 +76,24 @@
     "terralith:underground/old_refinery",
     "integrated_villages:mediterranean_village",
     "betterdungeons:zombie_dungeon",
-    "idas:witches_treestump"
+    "idas:witches_treestump",
+    "create_easy_structures:big_2",
+    "structory:boat",
+    "hopo:underwater/underwater_warm_small_ruins",
+    "idas:tinkers_citadel",
+    "structory_towers:ocean_pillar",
+    "idas:washing_camp",
+    "terralith:spire",
+    "create_easy_structures:house_2",
+    "create_easy_structures:camp_4",
+    "idas:ancient_statue/ancient_statue_desert",
+    "minecraft:nether_fossil",
+    "repurposed_structures:temple_ocean",
+    "alexscaves:forlorn_bridge",
+    "integrated_villages:oasis_village",
+    "ad_astra:moon_dungeon",
+    "betterarcheology:desert_obelisk",
+    "repurposed_structures:outpost_desert",
+    "betterdungeons:spider_dungeon"
   ]
 }

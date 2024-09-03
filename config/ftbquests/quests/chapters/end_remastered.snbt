@@ -5,14 +5,6 @@
 	group: "3750F90D875B3398"
 	icon: "minecraft:end_portal_frame"
 	id: "01DD8338C9E8DE75"
-	images: [{
-		height: 7.0d
-		image: "forge_frontier:textures/ftb/endportalframe.png"
-		rotation: 0.0d
-		width: 12.6d
-		x: 0.0d
-		y: 0.0d
-	}]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -35,8 +27,14 @@
 				"7BAB96552BE32CC7"
 				"7F2348D995E5FE43"
 			]
+			description: [
+				""
+				"{image:forge_frontier:textures/ftb/endportalframe.png width:226 height:100 align:center}"
+			]
+			icon: "minecraft:end_portal_frame"
 			id: "0135EFA96E7A28A2"
 			shape: "pentagon"
+			size: 2.0d
 			subtitle: "Locate by using any of the surrounding eyes"
 			tasks: [{
 				id: "28B2F94CC84D96D2"
