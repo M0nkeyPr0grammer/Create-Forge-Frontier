@@ -7,7 +7,7 @@
         {
           "weight": 7,
           "data": {
-            "Name": "enlightened_end:palerock"
+            "Name": "create_dd:potassic"
           }
         }
       ]
@@ -18,7 +18,7 @@
         {
           "weight": 8,
           "data": {
-            "Name": "enlightened_end:palerock"
+            "Name": "create_dd:potassic"
           }
         }
       ]
@@ -26,13 +26,13 @@
     "innerBlock": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "molten_vents:dormant_molten_palerock"
+        "Name": "molten_vents:dormant_molten_potassic"
       }
     },
     "liquidBlock": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "create_confectionery:ruby_chocolate"
+        "Name": "create_dd:vanilla_milkshake"
       }
     },
     "depth": {

@@ -5,7 +5,7 @@ ServerEvents.tags('worldgen/biome', event => {
   // Ad Astra Ore Vein Biome Linkage
   event.add('forge_frontier:moon_ore_veins', 'ad_astra:lunar_wastelands');
   event.add('forge_frontier:venus_ore_veins', 'ad_astra:venus_wastelands');
-  event.add('forge_frontier:glacio_ore_veins', 'ad_astra:glacio_ice_peaks');
+  event.add('forge_frontier:glacio_ore_veins', 'ad_astra:glacio_snowy_barrens');
 
   // Otherside Vein Biome Linkage
   event.add('forge_frontier:deeper_darker_vein', 'deeperdarker:deeplands')

@@ -1,57 +1,19 @@
 {
   "type": "forge:add_features",
   "biomes": "#minecraft:is_overworld",
-  "features": 
-  [
-    "molten_vents:amberlite_vent",
-    "molten_vents:ancient_debris_vent",
-    "molten_vents:asurine_vent", 
-    "molten_vents:aubrum_vent",
-    "molten_vents:azurnium_vent",
+  "biome_blacklist": [
+    "#minecraft:is_forest",
+    "terralith:scarlet_mountains",
+    "regions_unexplored:tropics",
+    "regions_unexplored:joshua_desert",
+    "regions_unexplored:ashen_woodland"
+  ],
+
+  "features": [
     "molten_vents:crimsite_vent", 
-    "molten_vents:frostite_vent",
-    "molten_vents:glacium_vent",
-    "molten_vents:guanite_vent",
-    "molten_vents:neodymrium_vent",
+    "molten_vents:aquatic_crimsite_vent",
     "molten_vents:ochrum_vent", 
-    "molten_vents:palerock_vent",
-    "molten_vents:pearlyte_vent",
-    "molten_vents:pyroclast_vent",
-    "molten_vents:radiantite_vent",
-    "molten_vents:scorchia_vent", 
-    "molten_vents:scoria_vent",
-    "molten_vents:sculk_grime_vent",
-    "molten_vents:stellaris_vent",
-    "molten_vents:sulphite_vent",
-    "molten_vents:uraniumnite_vent",
-    "molten_vents:veridium_vent", 
-    "molten_vents:verdantine_vent",
-    "molten_vents:void_shale_vent",
-    
-    "molten_vents:aquatic_amberlite_vent",
-    "molten_vents:aquatic_ancient_debris_vent",
-    "molten_vents:aquatic_asurine_vent", 
-    "molten_vents:aquatic_aubrum_vent",
-    "molten_vents:aquatic_azurnium_vent",
-    "molten_vents:aquatic_crimsite_vent", 
-    "molten_vents:aquatic_frostite_vent",
-    "molten_vents:aquatic_glacium_vent",
-    "molten_vents:aquatic_guanite_vent",
-    "molten_vents:aquatic_neodymrium_vent",
-    "molten_vents:aquatic_ochrum_vent", 
-    "molten_vents:aquatic_palerock_vent",
-    "molten_vents:aquatic_pearlyte_vent",
-    "molten_vents:aquatic_pyroclast_vent",
-    "molten_vents:aquatic_radiantite_vent",
-    "molten_vents:aquatic_scorchia_vent", 
-    "molten_vents:aquatic_scoria_vent",
-    "molten_vents:aquatic_sculk_grime_vent",
-    "molten_vents:aquatic_stellaris_vent",
-    "molten_vents:aquatic_sulphite_vent",
-    "molten_vents:aquatic_uraniumnite_vent",
-    "molten_vents:aquatic_veridium_vent", 
-    "molten_vents:aquatic_verdantine_vent",
-    "molten_vents:aquatic_void_shale_vent"
+    "molten_vents:aquatic_ochrum_vent"
   ],
   "step": "vegetal_decoration"
 }
