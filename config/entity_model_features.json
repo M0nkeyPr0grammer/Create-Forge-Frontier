@@ -22,5 +22,7 @@
   "variationRequiresDefaultModel": true,
   "resetPlayerModelEachRender": true,
   "onlyDebugRenderOnHover": false,
-  "enforceOptifineSubFoldersVariantOnly": true
+  "enforceOptifineSubFoldersVariantOnly": true,
+  "enforceOptiFineAnimSyntaxLimits": true,
+  "enforceOptiFineFloorUVs": true
 }

@@ -5,5 +5,5 @@
 	"Resummoned Dragon Drops Egg" = false
 	# Whether the vanilla obsidian platform should spawn in the End instead of the revamped platform.
 	# Default: false
-	"Spawn Vanilla Obsidian Platform" = true
+	"Spawn Vanilla Obsidian Platform" = false
 

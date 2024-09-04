@@ -301,3 +301,12 @@ guanoBurnFuel = true
 	#Range: 0.0 ~ 1000000.0
 	watcherArmor = 0.0
 
+["Nuclear Furnace Options"]
+	#----------------------------------
+	#
+	# Multiplies the calculated item smelting time in Nuclear Furnace by this number.
+	# Lower number means faster smelting. Higher number means slower.
+	#
+	#Range: 0.0 ~ 1000000.0
+	nuclearFurnaceSmeltingSpeedModifier = 1.0
+
