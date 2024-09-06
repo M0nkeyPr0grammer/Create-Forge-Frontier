@@ -674,23 +674,6 @@ ServerEvents.recipes(event => {
         }).id('forge_frontier:mixing/coal_molten');
 
     // Molten Diamond
-        // Crushed Raw to Molten
-        event.custom({
-            type: "create:mixing",
-            ingredients: [
-                {
-                    item: 'forge_frontier:crushed_diamond',
-                    amount: 1
-                }
-            ],
-            results: [
-                {
-                    fluid: 'forge_frontier:molten_diamond',
-                    amount: 200
-                }
-            ],
-            heatRequirement: "superheated"
-        }).id('forge_frontier:mixing/crushed_diamond_molten');
 
         // Ingot to Molten
         event.custom({
@@ -996,25 +979,6 @@ ServerEvents.recipes(event => {
         }).id('forge_frontier:mixing/copper_zinc_brass_molten');
 
     // Molten Emerald
-
-        // Crushed Raw to Molten
-        event.custom({
-            type: "create:mixing",
-            ingredients: [
-                {
-                    item: 'forge_frontier:crushed_emerald',
-                    amount: 1
-                }
-            ],
-            results: [
-                {
-                    fluid: 'forge_frontier:molten_emerald',
-                    amount: 200
-                }
-            ],
-            heatRequirement: "superheated"
-        }).id('forge_frontier:mixing/crushed_emerald_molten');
-
         // Ore to Molten
         event.custom({
             type: "create:mixing",

@@ -56,17 +56,6 @@ ServerEvents.recipes(event => {
             result: 'minecraft:diamond'
         }).id('forge_frontier:blasting/raw_diamond')
 
-        // Crushed Raw Diamond
-        event.custom({
-            type: "minecraft:smelting",
-            cookingtime: 200,
-            experience: 0.1,
-            ingredient: {
-                item: 'forge_frontier:crushed_diamond'
-            },
-            result: 'minecraft:diamond'
-        }).id('forge_frontier:blasting/crushed_raw_diamond')
-
         // Raw Emerald
         event.custom({
             type: "minecraft:smelting",
@@ -77,17 +66,6 @@ ServerEvents.recipes(event => {
             },
             result: 'minecraft:emerald'
         }).id('forge_frontier:blasting/raw_emerald')
-
-        // Crushed Raw Emerald
-        event.custom({
-            type: "minecraft:smelting",
-            cookingtime: 200,
-            experience: 0.1,
-            ingredient: {
-                item: 'forge_frontier:crushed_emerald'
-            },
-            result: 'minecraft:emerald'
-        }).id('forge_frontier:blasting/crushed_raw_emerald')
 
         // Crushed Bismuth Pile
         event.custom({
