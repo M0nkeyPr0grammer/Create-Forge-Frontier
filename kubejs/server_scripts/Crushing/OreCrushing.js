@@ -44,50 +44,6 @@ ServerEvents.recipes(event => {
         ]
       }).id('forge_frontier:crushing/ochrum_recycling')
 
-    // Create Ore Excavation Crushing Recipes
-        // Raw Redstone
-        event.remove({ id: 'createoreexcavation:crushing/redstone_crushing'})
-        event.remove({ id: 'createoreexcavation:milling/redstone_milling' })
-        event.custom({
-            type: "create:crushing",
-            ingredients: [
-                { item: 'createoreexcavation:raw_redstone' }
-            ],
-            processingTime: 400,
-            results: [
-                { item: 'forge_frontier:crushed_redstone', count: 1 },
-                { item: 'create:experience_nugget', chance: 0.75 }
-            ]
-        }).id('forge_frontier:crushing/raw_redstone');
-
-        // Raw Diamond
-        event.remove({ id: 'createoreexcavation:cutting/diamond_cutting'})
-        event.custom({
-            type: "create:crushing",
-            ingredients: [
-                { item: 'createoreexcavation:raw_diamond' }
-            ],
-            processingTime: 400,
-            results: [
-                { item: 'forge_frontier:crushed_diamond', count: 1 },
-                { item: 'create:experience_nugget', chance: 0.75 }
-            ]
-        }).id('forge_frontier:crushing/raw_diamond');
-
-        // Raw Emerald
-        event.remove({ id: 'createoreexcavation:cutting/emerald_cutting'})
-        event.custom({
-            type: "create:crushing",
-            ingredients: [
-                { item: 'createoreexcavation:raw_emerald' }
-            ],
-            processingTime: 400,
-            results: [
-                { item: 'forge_frontier:crushed_emerald', count: 1 },
-                { item: 'create:experience_nugget', chance: 0.75 }
-            ]
-        }).id('forge_frontier:crushing/raw_emerald');
-
     // Creates Raw Redstone Block Crushing Recipe
 	event.custom({
 		type: "create:crushing",

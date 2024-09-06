@@ -733,24 +733,6 @@ ServerEvents.recipes(event => {
             heatRequirement: "superheated"
         }).id('forge_frontier:mixing/diamond_ore_molten');
 
-        // Raw to Molten
-        event.custom({
-            type: "create:mixing",
-            ingredients: [
-                {
-                    item: 'createoreexcavation:raw_diamond',
-                    amount: 1
-                }
-            ],
-            results: [
-                {
-                    fluid: 'forge_frontier:molten_diamond',
-                    amount: 200
-                }
-            ],
-            heatRequirement: "superheated"
-        }).id('forge_frontier:mixing/raw_diamond_molten');
-
         // Grit to Molten
         event.custom({
             type: "create:mixing",
@@ -1037,24 +1019,6 @@ ServerEvents.recipes(event => {
             heatRequirement: "superheated"
         }).id('forge_frontier:mixing/emerald_block_molten');
 
-        // Raw to Molten
-        event.custom({
-            type: "create:mixing",
-            ingredients: [
-                {
-                    item: 'createoreexcavation:raw_emerald',
-                    amount: 1
-                }
-            ],
-            results: [
-                {
-                    fluid: 'forge_frontier:molten_emerald',
-                    amount: 200
-                }
-            ],
-            heatRequirement: "superheated"
-        }).id('forge_frontier:mixing/raw_emerald_molten');
-
     // Molten Redstone
         // Crushed Raw to Molten
         event.custom({
@@ -1073,24 +1037,6 @@ ServerEvents.recipes(event => {
             ],
             heatRequirement: "superheated"
         }).id('forge_frontier:mixing/crushed_raw_redstone_molten');
-
-        // Raw to Molten
-        event.custom({
-            type: "create:mixing",
-            ingredients: [
-                {
-                    item: 'createoreexcavation:raw_redstone',
-                    amount: 1
-                }
-            ],
-            results: [
-                {
-                    fluid: 'forge_frontier:molten_redstone',
-                    amount: 200
-                }
-            ],
-            heatRequirement: "superheated"
-        }).id('forge_frontier:mixing/raw_redstone_molten');
 
         // Ore to Molten
         event.custom({

@@ -23,17 +23,6 @@ ServerEvents.recipes(event => {
             result: 'tfmg:aluminum_block'
         }).id('forge_frontier:blasting/crushed_aluminum_pile')           
 
-        // Raw Redstone
-        event.custom({
-            type: "minecraft:smelting",
-            cookingtime: 200,
-            experience: 0.1,
-            ingredient: {
-                item: 'createoreexcavation:raw_redstone'
-            },
-            result: 'minecraft:redstone'
-        }).id('forge_frontier:blasting/raw_redstone')
-
         // Crushed Raw Redstone
         event.custom({
             type: "minecraft:smelting",
@@ -44,28 +33,6 @@ ServerEvents.recipes(event => {
             },
             result: 'minecraft:redstone'
         }).id('forge_frontier:blasting/crushed_raw_redstone')
-
-        // Raw Diamond
-        event.custom({
-            type: "minecraft:smelting",
-            cookingtime: 200,
-            experience: 0.1,
-            ingredient: {
-                item: 'createoreexcavation:raw_diamond'
-            },
-            result: 'minecraft:diamond'
-        }).id('forge_frontier:blasting/raw_diamond')
-
-        // Raw Emerald
-        event.custom({
-            type: "minecraft:smelting",
-            cookingtime: 200,
-            experience: 0.1,
-            ingredient: {
-                item: 'createoreexcavation:raw_emerald'
-            },
-            result: 'minecraft:emerald'
-        }).id('forge_frontier:blasting/raw_emerald')
 
         // Crushed Bismuth Pile
         event.custom({
