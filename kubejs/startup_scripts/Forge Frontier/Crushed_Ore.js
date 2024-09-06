@@ -8,9 +8,25 @@ StartupEvents.registry('item', event => {
         'Irradium',
         'Malachite',
         'Ostrum',
-        'Diamond',
-        'Emerald',
-        'Redstone'
+        'Redstone',
+        'Verdantine',
+        'Glacium',
+        'Debris',
+        'Grime',
+        'Aubrum',
+        'Pyroclast',
+        'Frostite',
+        'Stellaris',
+        'Radiantite',
+        'Shale',
+        'Palerock',
+        'Guanite',
+        'Pearlyte',
+        'Amberlite',
+        'Azurnium',
+        'Neodymrium',
+        'Uraniumnite',
+        'Sulphite'
     ];
 
     // Crushed Ores
