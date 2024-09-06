@@ -22,6 +22,7 @@ ServerEvents.recipes(event => {
 	event.remove({ id: 'createteleporters:telefluid_drain'})
 	event.remove({ id: 'hyperbox:hyperbox'})
 	event.remove({ id: 'vintageimprovements:pressing/andesite_alloy'})
+	event.remove({ id: 'create_oppenheimered/compacting/amber_from_honey'})
 
 	// Basic Item Collector Recipe
 	event.remove({ id: 'itemcollectors:basic_collector' })
