@@ -1,5 +1,5 @@
 {
-  "parent": "forge_frontier:block/crushed_aluminum_pile",
+  "parent": "forge_frontier:block/crushed_piles/crushed_malachite_pile",
   "display": {
     "thirdperson": {
       "rotation": [

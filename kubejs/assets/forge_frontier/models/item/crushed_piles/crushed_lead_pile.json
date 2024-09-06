@@ -1,5 +1,5 @@
 {
-  "parent": "forge_frontier:block/crushed_ostrum_pile",
+  "parent": "forge_frontier:block/crushed_piles/crushed_lead_pile",
   "display": {
     "thirdperson": {
       "rotation": [

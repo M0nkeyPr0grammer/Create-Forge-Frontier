@@ -1,5 +1,5 @@
 {
-  "parent": "forge_frontier:block/crushed_irradium_pile",
+  "parent": "forge_frontier:block/crushed_piles/crushed_aluminum_pile",
   "display": {
     "thirdperson": {
       "rotation": [

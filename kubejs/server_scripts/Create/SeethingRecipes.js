@@ -43,7 +43,7 @@ ServerEvents.recipes(event => {
         type: "create_dd:superheating",
         ingredients: [
             {
-                item: 'forge_frontier:crushed_raw_redstone'
+                item: 'forge_frontier:crushed_redstone'
             }
         ],
         results: [
@@ -55,14 +55,14 @@ ServerEvents.recipes(event => {
                 item: 'minecraft:redstone'
             }
         ]
-    }).id('forge_frontier:seething/crushed_raw_redstone')
+    }).id('forge_frontier:seething/crushed_redstone')
 
     // Crushed Raw Diamond
     event.custom({
         type: "create_dd:superheating",
         ingredients: [
             {
-                item: 'forge_frontier:crushed_raw_diamond'
+                item: 'forge_frontier:crushed_diamond'
             }
         ],
         results: [
@@ -74,14 +74,14 @@ ServerEvents.recipes(event => {
                 item: 'minecraft:diamond'
             }
         ]
-    }).id('forge_frontier:seething/crushed_raw_diamond')
+    }).id('forge_frontier:seething/crushed_diamond')
 
     // Crushed Raw Emerald
     event.custom({
         type: "create_dd:superheating",
         ingredients: [
             {
-                item: 'forge_frontier:crushed_raw_emerald'
+                item: 'forge_frontier:crushed_emerald'
             }
         ],
         results: [
@@ -93,7 +93,7 @@ ServerEvents.recipes(event => {
                 item: 'minecraft:emerald'
             }
         ]
-    }).id('forge_frontier:seething/crushed_raw_emerald')
+    }).id('forge_frontier:seething/crushed_emerald')
 
     // Crushed Bismuth Pile
     event.custom({

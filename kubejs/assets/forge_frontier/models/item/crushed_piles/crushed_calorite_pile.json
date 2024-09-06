@@ -1,5 +1,5 @@
 {
-  "parent": "forge_frontier:block/crushed_bismuth_pile",
+  "parent": "forge_frontier:block/crushed_piles/crushed_calorite_pile",
   "display": {
     "thirdperson": {
       "rotation": [

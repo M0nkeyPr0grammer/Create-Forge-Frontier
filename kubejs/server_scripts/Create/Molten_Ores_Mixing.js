@@ -679,7 +679,7 @@ ServerEvents.recipes(event => {
             type: "create:mixing",
             ingredients: [
                 {
-                    item: 'forge_frontier:crushed_raw_diamond',
+                    item: 'forge_frontier:crushed_diamond',
                     amount: 1
                 }
             ],
@@ -690,7 +690,7 @@ ServerEvents.recipes(event => {
                 }
             ],
             heatRequirement: "superheated"
-        }).id('forge_frontier:mixing/crushed_raw_diamond_molten');
+        }).id('forge_frontier:mixing/crushed_diamond_molten');
 
         // Ingot to Molten
         event.custom({
@@ -1002,7 +1002,7 @@ ServerEvents.recipes(event => {
             type: "create:mixing",
             ingredients: [
                 {
-                    item: 'forge_frontier:crushed_raw_emerald',
+                    item: 'forge_frontier:crushed_emerald',
                     amount: 1
                 }
             ],
@@ -1013,7 +1013,7 @@ ServerEvents.recipes(event => {
                 }
             ],
             heatRequirement: "superheated"
-        }).id('forge_frontier:mixing/crushed_raw_emerald_molten');
+        }).id('forge_frontier:mixing/crushed_emerald_molten');
 
         // Ore to Molten
         event.custom({
@@ -1097,7 +1097,7 @@ ServerEvents.recipes(event => {
             type: "create:mixing",
             ingredients: [
                 {
-                    item: 'forge_frontier:crushed_raw_redstone',
+                    item: 'forge_frontier:crushed_redstone',
                     amount: 1
                 }
             ],
@@ -2497,7 +2497,7 @@ ServerEvents.recipes(event => {
             type: "create:mixing",
             ingredients: [
                 {
-                    item: 'forge_frontier:crushed_desh_ore',
+                    item: 'forge_frontier:crushed_desh',
                     amount: 1
                 }
             ],
@@ -2628,7 +2628,7 @@ ServerEvents.recipes(event => {
             type: "create:mixing",
             ingredients: [
                 {
-                    item: 'forge_frontier:crushed_calorite_ore',
+                    item: 'forge_frontier:crushed_calorite',
                     amount: 1
                 }
             ],
@@ -2759,7 +2759,7 @@ ServerEvents.recipes(event => {
             type: "create:mixing",
             ingredients: [
                 {
-                    item: 'forge_frontier:crushed_ostrum_ore',
+                    item: 'forge_frontier:crushed_ostrum',
                     amount: 1
                 }
             ],

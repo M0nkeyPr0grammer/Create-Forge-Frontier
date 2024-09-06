@@ -25,8 +25,8 @@ ServerEvents.recipes(event => {
             ],
             processingTime: 400,
             results: [
-                { item: 'forge_frontier:crushed_calorite_ore' },
-                { item: 'forge_frontier:crushed_calorite_ore', chance: 0.75 },
+                { item: 'forge_frontier:crushed_calorite' },
+                { item: 'forge_frontier:crushed_calorite', chance: 0.75 },
                 { item: 'create:experience_nugget', chance: 0.75 },
                 { item: 'minecraft:cobbled_deepslate', chance: 0.12 }
             ]
@@ -41,8 +41,8 @@ ServerEvents.recipes(event => {
             ],
             processingTime: 400,
             results: [
-                { item: 'forge_frontier:crushed_calorite_ore'},
-                { item: 'forge_frontier:crushed_calorite_ore', chance: 0.75 },
+                { item: 'forge_frontier:crushed_calorite'},
+                { item: 'forge_frontier:crushed_calorite', chance: 0.75 },
                 { item: 'create:experience_nugget', chance: 0.75 },
                 { item: 'ad_astra:venus_cobblestone', chance: 0.12 }
             ]
@@ -58,8 +58,8 @@ ServerEvents.recipes(event => {
             ],
             processingTime: 400,
             results: [
-                { item: 'forge_frontier:crushed_ostrum_ore'},
-                { item: 'forge_frontier:crushed_ostrum_ore', chance: 0.75 },
+                { item: 'forge_frontier:crushed_ostrum'},
+                { item: 'forge_frontier:crushed_ostrum', chance: 0.75 },
                 { item: 'create:experience_nugget', chance: 0.75 },
                 { item: 'ad_astra:mars_cobblestone', chance: 0.12 }
             ]
@@ -74,8 +74,8 @@ ServerEvents.recipes(event => {
             ],
             processingTime: 400,
             results: [
-                { item: 'forge_frontier:crushed_ostrum_ore' },
-                { item: 'forge_frontier:crushed_ostrum_ore', chance: 0.75 },
+                { item: 'forge_frontier:crushed_ostrum' },
+                { item: 'forge_frontier:crushed_ostrum', chance: 0.75 },
                 { item: 'create:experience_nugget', chance: 0.75 },
                 { item: 'minecraft:cobbled_deepslate', chance: 0.12 }
             ]
@@ -91,8 +91,8 @@ ServerEvents.recipes(event => {
             ],
             processingTime: 400,
             results: [
-                { item: 'forge_frontier:crushed_desh_ore' },
-                { item: 'forge_frontier:crushed_desh_ore', chance: 0.75 },
+                { item: 'forge_frontier:crushed_desh' },
+                { item: 'forge_frontier:crushed_desh', chance: 0.75 },
                 { item: 'create:experience_nugget', chance: 0.75 },
                 { item: 'ad_astra:moon_cobblestone', chance: 0.12 }
             ]
@@ -107,8 +107,8 @@ ServerEvents.recipes(event => {
             ],
             processingTime: 400,
             results: [
-                { item: 'forge_frontier:crushed_desh_ore' },
-                { item: 'forge_frontier:crushed_desh_ore', chance: 0.75 },
+                { item: 'forge_frontier:crushed_desh' },
+                { item: 'forge_frontier:crushed_desh', chance: 0.75 },
                 { item: 'create:experience_nugget', chance: 0.75 },
                 { item: 'minecraft:cobbled_deepslate', chance: 0.12 }
             ]
@@ -120,39 +120,39 @@ ServerEvents.recipes(event => {
     event.custom({
         type: "minecraft:blasting",
         ingredient: [ // Changed 'ingredients' to 'ingredient'
-                { item: 'forge_frontier:crushed_desh_ore' }
+                { item: 'forge_frontier:crushed_desh' }
         ],
         cookingTime: 100,
         experience: 0.1,
         result: { // Ensure 'result' is a single object, not an array
             item: 'ad_astra:desh_ingot'
         }
-    }).id('forge_frontier:blasting/crushed_desh_ore')
+    }).id('forge_frontier:blasting/crushed_desh')
 
     // Ostrum Ore
     event.custom({
         type: "minecraft:blasting",
         ingredient: [ // Changed 'ingredients' to 'ingredient'
-            { item: 'forge_frontier:crushed_ostrum_ore' }
+            { item: 'forge_frontier:crushed_ostrum' }
         ],
         cookingTime: 100,
         experience: 0.1,
         result: { // Ensure 'result' is a single object, not an array
             item: 'ad_astra:ostrum_ingot'
         }
-    }).id('forge_frontier:blasting/crushed_ostrum_ore')
+    }).id('forge_frontier:blasting/crushed_ostrum')
             
     // Calorite Ore
     event.custom({
         type: "minecraft:blasting",
         ingredient: [ // Changed 'ingredients' to 'ingredient'
-            { item: 'forge_frontier:crushed_calorite_ore' }
+            { item: 'forge_frontier:crushed_calorite' }
         ],
         cookingTime: 100,
         experience: 0.1,
         result: { // Ensure 'result' is a single object, not an array
             item: 'ad_astra:calorite_ingot'
         }
-    }).id('forge_frontier:blasting/crushed_calorite_ore')
+    }).id('forge_frontier:blasting/crushed_calorite')
 
 })

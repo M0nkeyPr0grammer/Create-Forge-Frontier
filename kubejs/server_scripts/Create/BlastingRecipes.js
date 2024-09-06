@@ -40,7 +40,7 @@ ServerEvents.recipes(event => {
             cookingtime: 200,
             experience: 0.1,
             ingredient: {
-                item: 'forge_frontier:crushed_raw_redstone'
+                item: 'forge_frontier:crushed_redstone'
             },
             result: 'minecraft:redstone'
         }).id('forge_frontier:blasting/crushed_raw_redstone')
@@ -62,7 +62,7 @@ ServerEvents.recipes(event => {
             cookingtime: 200,
             experience: 0.1,
             ingredient: {
-                item: 'forge_frontier:crushed_raw_diamond'
+                item: 'forge_frontier:crushed_diamond'
             },
             result: 'minecraft:diamond'
         }).id('forge_frontier:blasting/crushed_raw_diamond')
@@ -84,7 +84,7 @@ ServerEvents.recipes(event => {
             cookingtime: 200,
             experience: 0.1,
             ingredient: {
-                item: 'forge_frontier:crushed_raw_emerald'
+                item: 'forge_frontier:crushed_emerald'
             },
             result: 'minecraft:emerald'
         }).id('forge_frontier:blasting/crushed_raw_emerald')

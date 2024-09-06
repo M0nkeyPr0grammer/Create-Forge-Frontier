@@ -54,7 +54,7 @@ ServerEvents.recipes(event => {
 			}
 		],
 		result: {
-			item: 'forge_frontier:crushed_desh_ore',
+			item: 'forge_frontier:crushed_desh',
 			count: 9
 		  }
 	}).id( 'forge_frontier:shapeless/crushed_desh_pile' )
@@ -96,7 +96,7 @@ ServerEvents.recipes(event => {
 			}
 		],
 		result: {
-			item: 'forge_frontier:crushed_ostrum_ore',
+			item: 'forge_frontier:crushed_ostrum',
 			count: 9
 		  }
 	}).id( 'forge_frontier:shapeless/crushed_ostrum_pile' )
@@ -138,7 +138,7 @@ ServerEvents.recipes(event => {
 			}
 		],
 		result: {
-			item: 'forge_frontier:crushed_calorite_ore',
+			item: 'forge_frontier:crushed_calorite',
 			count: 9
 		  }
 	}).id( 'forge_frontier:shapeless/crushed_calorite_pile' )
@@ -193,7 +193,7 @@ ServerEvents.recipes(event => {
 			'AAA'
 		],
 		{
-			A: 'forge_frontier:crushed_calorite_ore'
+			A: 'forge_frontier:crushed_calorite'
 		}
 	).id( 'forge_frontier:shaped/crushed_calorite_pile' )
 
@@ -206,7 +206,7 @@ ServerEvents.recipes(event => {
 			'AAA'
 		],
 		{
-			A: 'forge_frontier:crushed_desh_ore'
+			A: 'forge_frontier:crushed_desh'
 		}
 	).id( 'forge_frontier:shaped/crushed_desh_pile' )
 
@@ -245,7 +245,7 @@ ServerEvents.recipes(event => {
             'AAA'
         ],
         {
-            A: 'forge_frontier:crushed_ostrum_ore'
+            A: 'forge_frontier:crushed_ostrum'
         }
     ).id( 'forge_frontier:shaped/crushed_ostrum_pile' )
 

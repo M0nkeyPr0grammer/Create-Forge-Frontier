@@ -1,5 +1,5 @@
 {
-  "parent": "forge_frontier:block/crushed_desh_pile",
+  "parent": "forge_frontier:block/crushed_piles/crushed_tin_pile",
   "display": {
     "thirdperson": {
       "rotation": [

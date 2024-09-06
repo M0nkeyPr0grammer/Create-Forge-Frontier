@@ -120,7 +120,7 @@ ServerEvents.recipes(event => {
             type: 'create:splashing',
             ingredients: [
               {
-                item: 'forge_frontier:crushed_calorite_ore'
+                item: 'forge_frontier:crushed_calorite'
               }
             ],
             results: [
@@ -162,7 +162,7 @@ ServerEvents.recipes(event => {
             type: 'create:splashing',
             ingredients: [
               {
-                item: 'forge_frontier:crushed_ostrum_ore'
+                item: 'forge_frontier:crushed_ostrum'
               }
             ],
             results: [
@@ -204,7 +204,7 @@ ServerEvents.recipes(event => {
             type: 'create:splashing',
             ingredients: [
               {
-                item: 'forge_frontier:crushed_desh_ore'
+                item: 'forge_frontier:crushed_desh'
               }
             ],
             results: [
