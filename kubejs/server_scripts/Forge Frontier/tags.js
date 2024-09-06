@@ -121,10 +121,3 @@ ServerEvents.tags('fluid', event => {
     
 })
 
-ServerEvents.tags('block', event => {
-
-    // Create Wrenchable
-    event.add('create:wrench_pickup','create:schematicannon')
-    event.add('create:wrench_pickup','create:schematic_table')
-    
-})
