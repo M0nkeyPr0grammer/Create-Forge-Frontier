@@ -7,4 +7,7 @@
 	#Minimum required speed
 	#Range: 0.0 ~ 254.0
 	minimumSpeed = 0.0
+	#Duration of the extrudding cycle. In ticks
+	#Range: 0 ~ 1000
+	cycle = 200
 

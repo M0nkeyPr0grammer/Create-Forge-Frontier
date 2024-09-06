@@ -50,6 +50,9 @@
 	#.
 	#Show item descriptions on Shift and controls on Ctrl.
 	enableTooltips = true
+	#.
+	#Disable to prevent being rotated while seated on a Moving Contraption
+	rotateWhenSeated = true
 
 	#.
 	#Configure your vision range when submerged in Create's custom fluids
