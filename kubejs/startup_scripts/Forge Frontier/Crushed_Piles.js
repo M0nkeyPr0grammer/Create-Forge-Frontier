@@ -11,7 +11,25 @@ const materials = [
     'Malachite',
     'Ostrum',
     'Tin',
-    'Uranium'
+    'Uranium',
+    'Verdantine', 
+    'Glacium',
+    'Debris', 
+    'Grime',
+    'Aubrum',
+    'Pyroclast', 
+    'Frostite',
+    'Stellaris', 
+    'Radiantite',
+    'Shale', 
+    'Palerock', 
+    'Guanite', 
+    'Pearlyte', 
+    'Amberlite', 
+    'Azurnium', 
+    'Neodymrium', 
+    'Uraniumnite',
+    'Sulphite' 
 ];
 
 // Crushed Piles
