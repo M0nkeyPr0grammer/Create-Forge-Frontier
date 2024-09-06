@@ -11,9 +11,7 @@
 
   "features": [
     "molten_vents:crimsite_vent", 
-    "molten_vents:aquatic_crimsite_vent",
-    "molten_vents:ochrum_vent", 
-    "molten_vents:aquatic_ochrum_vent"
+    "molten_vents:ochrum_vent"
   ],
   "step": "vegetal_decoration"
 }
