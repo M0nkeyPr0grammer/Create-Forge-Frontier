@@ -32,14 +32,21 @@ StartupEvents.registry('fluid', event => {
         { name: 'steel', color: 0x757276 },
         { name: 'desh', color: 0xb05a3c },
         { name: 'calorite', color: 0xb63044 },
-        { name: 'ostrum', color: 0x76525f }
+        { name: 'ostrum', color: 0x76525f },
+        { name: 'guano', color: 0x45271f },
+        { name: 'scarlet_neodymium', color: 0xb91919 },
+        { name: 'azure_neodymium', color: 0x005fec },
+        { name: 'pearl', color: 0xf2bbd6 },
+        { name: 'amber', color: 0xc67513 },
+        { name: 'sulfur', color: 0xfcf689 },
+        { name: 'echo_shard', color: 0x03404f }
     ];
 
     // Function to create molten fluids
     function createMoltenFluid(event, name, color) {
         event.create(`forge_frontier:molten_${name}`)
             .color(color)
-            .displayName(`Molten ${capitalize(name)}`)
+            .displayName(`Molten ${formatName(name)}`)
             .bucketColor(color)
             .thickTexture(color)
             .viscosity(6000)
@@ -47,9 +54,11 @@ StartupEvents.registry('fluid', event => {
             .bucketItem;
     }
 
-    // Helper function to capitalize names
-    function capitalize(str) {
-        return str.charAt(0).toUpperCase() + str.slice(1);
+    // Helper function to format names
+    function formatName(str) {
+        return str.split('_')
+            .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+            .join(' ');
     }
 
     // Create all molten fluids
