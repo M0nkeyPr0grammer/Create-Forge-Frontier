@@ -5,7 +5,7 @@ event.remove({ id: 'create_mechanical_extruder:mechanical_extruder'})
     event.custom({
       type: 'create:sequenced_assembly',
       ingredient: {
-        item: 'create_dd:steel_casing'
+        item: 'create_dd:mithril_casing'
       },
       loops: 1,
       results: [
@@ -19,7 +19,7 @@ event.remove({ id: 'create_mechanical_extruder:mechanical_extruder'})
           type: 'create:deploying',
           ingredients: [
             {
-              item: 'create_dd:steel_casing'
+              item: 'create_dd:mithril_casing'
             },
             {
               item: 'create:deployer'
@@ -27,7 +27,7 @@ event.remove({ id: 'create_mechanical_extruder:mechanical_extruder'})
           ],
           results: [
             {
-              item: 'create_dd:steel_casing'
+              item: 'create_dd:mithril_casing'
             }
           ]
         },
@@ -35,15 +35,15 @@ event.remove({ id: 'create_mechanical_extruder:mechanical_extruder'})
           type: 'create:deploying',
           ingredients: [
             {
-              item: 'create_dd:steel_casing'
+              item: 'create_dd:mithril_casing'
             },
             {
-              item: 'create:mechanical_drill'
+              item: 'create_dd:bronze_drill'
             }
           ],
           results: [
             {
-              item: 'create_dd:steel_casing'
+              item: 'create_dd:mithril_casing'
             }
           ]
         },
@@ -51,7 +51,7 @@ event.remove({ id: 'create_mechanical_extruder:mechanical_extruder'})
             type: 'create:deploying',
             ingredients: [
               {
-                item: 'create_dd:steel_casing'
+                item: 'create_dd:mithril_casing'
               },
               {
                 item: 'minecraft:glass'
@@ -59,13 +59,13 @@ event.remove({ id: 'create_mechanical_extruder:mechanical_extruder'})
             ],
             results: [
               {
-                item: 'create_dd:steel_casing'
+                item: 'create_dd:mithril_casing'
               }
             ]
           }
       ],
       transitionalItem: {
-        item: 'create_dd:steel_casing'
+        item: 'create_dd:mithril_casing'
       }
     }).id('forge_frontier:sequenced_assembly/mechanical_extruder');
 
