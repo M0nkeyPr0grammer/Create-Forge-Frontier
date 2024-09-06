@@ -5,7 +5,7 @@ event.remove({ id: 'create_mechanical_extruder:mechanical_extruder'})
     event.custom({
       type: 'create:sequenced_assembly',
       ingredient: {
-        item: 'create_dd:mithril_casing'
+        item: 'create_dd:stargaze_singularity_casing'
       },
       loops: 1,
       results: [
@@ -19,7 +19,7 @@ event.remove({ id: 'create_mechanical_extruder:mechanical_extruder'})
           type: 'create:deploying',
           ingredients: [
             {
-              item: 'create_dd:mithril_casing'
+              item: 'create_dd:stargaze_singularity_casing'
             },
             {
               item: 'create:deployer'
@@ -27,7 +27,7 @@ event.remove({ id: 'create_mechanical_extruder:mechanical_extruder'})
           ],
           results: [
             {
-              item: 'create_dd:mithril_casing'
+              item: 'create_dd:stargaze_singularity_casing'
             }
           ]
         },
@@ -35,7 +35,7 @@ event.remove({ id: 'create_mechanical_extruder:mechanical_extruder'})
           type: 'create:deploying',
           ingredients: [
             {
-              item: 'create_dd:mithril_casing'
+              item: 'create_dd:stargaze_singularity_casing'
             },
             {
               item: 'create_dd:bronze_drill'
@@ -43,7 +43,7 @@ event.remove({ id: 'create_mechanical_extruder:mechanical_extruder'})
           ],
           results: [
             {
-              item: 'create_dd:mithril_casing'
+              item: 'create_dd:stargaze_singularity_casing'
             }
           ]
         },
@@ -51,7 +51,7 @@ event.remove({ id: 'create_mechanical_extruder:mechanical_extruder'})
             type: 'create:deploying',
             ingredients: [
               {
-                item: 'create_dd:mithril_casing'
+                item: 'create_dd:stargaze_singularity_casing'
               },
               {
                 item: 'minecraft:glass'
@@ -59,13 +59,13 @@ event.remove({ id: 'create_mechanical_extruder:mechanical_extruder'})
             ],
             results: [
               {
-                item: 'create_dd:mithril_casing'
+                item: 'create_dd:stargaze_singularity_casing'
               }
             ]
           }
       ],
       transitionalItem: {
-        item: 'create_dd:mithril_casing'
+        item: 'create_dd:stargaze_singularity_casing'
       }
     }).id('forge_frontier:sequenced_assembly/mechanical_extruder');
 
@@ -90,7 +90,7 @@ event.remove({ id: 'create_mechanical_extruder:mechanical_extruder'})
         result: {
           item: 'tfmg:galena'
         },
-        requiredBonks: 2
+        
       }).id('forge_frontier:extruding/gelena')
 
       // Bauxite
@@ -112,7 +112,7 @@ event.remove({ id: 'create_mechanical_extruder:mechanical_extruder'})
         result: {
           item: 'tfmg:bauxite'
         },
-        requiredBonks: 2
+        
       }).id('forge_frontier:extruding/bauxite')
 
       // Sky Stone
@@ -159,7 +159,7 @@ event.remove({ id: 'create_mechanical_extruder:mechanical_extruder'})
         }
       }).id('forge_frontier:extruding/gabbro')
 
-      // Cobbled Crimsite
+      // Crimsite
       event.remove({ id: 'create_dd:acompat/create_mechanical_extruder/extruding/crimsite_cobble' })
 
       event.custom({
@@ -175,13 +175,13 @@ event.remove({ id: 'create_mechanical_extruder:mechanical_extruder'})
           }
         ],
         catalyst: {
-          item: 'create:crimsite'
+          item: 'minecraft:iron_block'
         },
         result: {
-          item: 'create_dd:crimsite_cobble'
+          item: 'create:crimsite'
         },
-        requiredBonks: 2
-      }).id('forge_frontier:extruding/crimsite_cobble')
+        
+      }).id('forge_frontier:extruding/crimsite')
 
       // Deepslate
       event.remove({ id: 'create_dd:acompat/create_mechanical_extruder/extruding/deepslate' })
@@ -249,12 +249,12 @@ event.remove({ id: 'create_mechanical_extruder:mechanical_extruder'})
         },
         result: {
           item: 'minecraft:calcite'
-        }
+        },
+        requiredBonks: 2
       }).id('forge_frontier:extruding/calcite')
 
       // Scoria
       event.remove({ id: 'create_dd:acompat/create_mechanical_extruder/extruding/scoria_milkshake' })
-
       event.remove({ id: 'create_dd:acompat/create_mechanical_extruder/extruding/scoria' })
 
       event.custom({
@@ -270,17 +270,16 @@ event.remove({ id: 'create_mechanical_extruder:mechanical_extruder'})
           }
         ],
         catalyst: {
-          item: 'create:scoria'
+          item: 'minecraft:lapis_block'
         },
         result: {
           item: 'create:scoria'
         },
-        requiredBonks: 2
+        
       }).id('forge_frontier:extruding/scoria')
 
       // Scorchia
       event.remove({ id: 'create_dd:acompat/create_mechanical_extruder/extruding/scorchia' })
-
       event.custom({
         type: 'create_mechanical_extruder:extruding',
         ingredients: [
@@ -294,17 +293,16 @@ event.remove({ id: 'create_mechanical_extruder:mechanical_extruder'})
           }
         ],
         catalyst: {
-          item: 'create:scorchia'
+          item: 'minecraft:coal_block'
         },
         result: {
           item: 'create:scorchia'
         },
-        requiredBonks: 2
+        
       }).id('forge_frontier:extruding/scorchia')
 
       // Cobblestone
       event.remove({ id: 'create_mechanical_extruder:extruding/cobblestone' })
-
       event.custom({
         type: 'create_mechanical_extruder:extruding',
         ingredients: [
@@ -325,9 +323,8 @@ event.remove({ id: 'create_mechanical_extruder:mechanical_extruder'})
         }
       }).id('forge_frontier:extruding/cobblestone')
 
-      // Cobbled Potassic
+      // Potassic
       event.remove({ id: 'create_dd:acompat/create_mechanical_extruder/extruding/potassic_cobble' })
-
       event.custom({
         type: 'create_mechanical_extruder:extruding',
         ingredients: [
@@ -341,17 +338,16 @@ event.remove({ id: 'create_mechanical_extruder:mechanical_extruder'})
           }
         ],
         catalyst: {
-          item: 'create_dd:potassic'
+          item: 'create_dd:tin_block'
         },
         result: {
-          item: 'create_dd:potassic_cobble'
+          item: 'create_dd:potassic'
         },
-        requiredBonks: 2
-      }).id('forge_frontier:extruding/potassic_cobble')
+        
+      }).id('forge_frontier:extruding/potassic')
 
-      // Cobbled Asurine
+      // Asurine
       event.remove({ id: 'create_dd:acompat/create_mechanical_extruder/extruding/asurine_cobble' })
-
       event.custom({
         type: 'create_mechanical_extruder:extruding',
         ingredients: [
@@ -365,17 +361,16 @@ event.remove({ id: 'create_mechanical_extruder:mechanical_extruder'})
           }
         ],
         catalyst: {
-          item: 'create:asurine'
+          item: 'create:zinc_block'
         },
         result: {
-          item: 'create_dd:asurine_cobble'
+          item: 'create:asurine'
         },
-        requiredBonks: 2
-      }).id('forge_frontier:extruding/asurine_cobble')
+        
+      }).id('forge_frontier:extruding/asurine')
 
-      // Cobbled Ochrum
+      // Ochrum
       event.remove({ id: 'create_dd:acompat/create_mechanical_extruder/extruding/ochrum_cobble' })
-
       event.custom({
         type: 'create_mechanical_extruder:extruding',
         ingredients: [
@@ -389,17 +384,16 @@ event.remove({ id: 'create_mechanical_extruder:mechanical_extruder'})
           }
         ],
         catalyst: {
-          item: 'create:ochrum'
+          item: 'minecraft:gold_block'
         },
         result: {
-          item: 'create_dd:ochrum_cobble'
+          item: 'create:ochrum'
         },
-        requiredBonks: 2
-      }).id('forge_frontier:extruding/ochrum_cobble')
+        
+      }).id('forge_frontier:extruding/ochrum')
 
       // Blackstone
       event.remove({ id: 'create_dd:acompat/create_mechanical_extruder/extruding/blackstone' })
-
       event.custom({
         type: 'create_mechanical_extruder:extruding',
         ingredients: [
@@ -420,9 +414,8 @@ event.remove({ id: 'create_mechanical_extruder:mechanical_extruder'})
         }
       }).id('forge_frontier:extruding/blackstone')
 
-      // Cobbled Verdium
+      // Verdium
       event.remove({ id: 'create_dd:acompat/create_mechanical_extruder/extruding/veridium_cobble' })
-
       event.custom({
         type: 'create_mechanical_extruder:extruding',
         ingredients: [
@@ -436,17 +429,16 @@ event.remove({ id: 'create_mechanical_extruder:mechanical_extruder'})
           }
         ],
         catalyst: {
-          item: 'create:veridium'
+          item: 'minecraft:copper_block'
         },
         result: {
-          item: 'create_dd:veridium_cobble'
+          item: 'create:veridium'
         },
-        requiredBonks: 2
-      }).id('forge_frontier:extruding/veridium_cobble')
+        
+      }).id('forge_frontier:extruding/veridium')
 
       // Limestone
       event.remove({ id: 'create_dd:acompat/create_mechanical_extruder/extruding/limestone' })
-
       event.custom({
         type: 'create_mechanical_extruder:extruding',
         ingredients: [
@@ -469,7 +461,6 @@ event.remove({ id: 'create_mechanical_extruder:mechanical_extruder'})
 
       // Stone
       event.remove({ id: 'create_mechanical_extruder:extruding/stone' })
-
       event.custom({
         type: 'create_mechanical_extruder:extruding',
         ingredients: [
@@ -529,7 +520,8 @@ event.remove({ id: 'create_mechanical_extruder:mechanical_extruder'})
         },
         result: {
           item: 'minecraft:crying_obsidian'
-        }
+        },
+        
       }).id('forge_frontier:extruding/crying_obsidian')
 
       // Obsidian
@@ -551,6 +543,403 @@ event.remove({ id: 'create_mechanical_extruder:mechanical_extruder'})
         result: {
           item: 'minecraft:obsidian'
         },
+        
       }).id('forge_frontier:extruding/obsidian')
+
+      // Verdantine
+      event.custom({
+        type: 'create_mechanical_extruder:extruding',
+        ingredients: [
+          {
+            fluid: 'create_things_and_misc:slime',
+            amount: 1000
+          },
+          {
+            fluid: 'minecraft:water',
+            amount: 1000
+          }
+        ],
+        catalyst: {
+          item: 'minecraft:emerald_block'
+        },
+        result: {
+          item: 'forge_frontier:verdantine'
+        },
+        
+      }).id('forge_frontier:extruding/verdantine')
+
+      // Glacium
+      event.custom({
+        type: 'create_mechanical_extruder:extruding',
+        ingredients: [
+          {
+            fluid: 'minecraft:lava',
+            amount: 1000
+          },
+          {
+            fluid: 'minecraft:water',
+            amount: 1000
+          }
+        ],
+        catalyst: {
+          item: 'minecraft:diamond_block'
+        },
+        result: {
+          item: 'forge_frontier:glacium'
+        },
+        
+      }).id('forge_frontier:extruding/glacium')
+
+      // Ancient Debris
+      event.custom({
+        type: 'create_mechanical_extruder:extruding',
+        ingredients: [
+          {
+            fluid: 'createaddition:bioethanol',
+            amount: 1000
+          },
+          {
+            fluid: 'minecraft:water',
+            amount: 1000
+          }
+        ],
+        catalyst: {
+          item: 'minecraft:netherite_block'
+        },
+        result: {
+          item: 'minecraft:ancient_debris'
+        },
+        
+      }).id('forge_frontier:extruding/ancient_debris')
+
+      // Sculk Grime
+      event.custom({
+        type: 'create_mechanical_extruder:extruding',
+        ingredients: [
+          {
+            fluid: 'forge_frontier:molten_carbon',
+            amount: 1000
+          },
+          {
+            fluid: 'minecraft:water',
+            amount: 1000
+          }
+        ],
+        catalyst: {
+          item: 'deeperdarker:sculk_grime'
+        },
+        result: {
+          item: 'deeperdarker:sculk_grime'
+        },
+        
+      }).id('forge_frontier:extruding/sculk_grime')
+      
+      // Aubrum
+      event.custom({
+        type: 'create_mechanical_extruder:extruding',
+        ingredients: [
+          {
+            fluid: 'createdieselgenerators:plant_oil',
+            amount: 1000
+          },
+          {
+            fluid: 'minecraft:water',
+            amount: 1000
+          }
+        ],
+        catalyst: {
+          item: 'ad_astra:desh_block'
+        },
+        result: {
+          item: 'forge_frontier:aubrum'
+        },
+        
+      }).id('forge_frontier:extruding/aubrum')
+      
+      // Pyroclast
+      event.custom({
+        type: 'create_mechanical_extruder:extruding',
+        ingredients: [
+          {
+            fluid: 'createdieselgenerators:biodiesel',
+            amount: 1000
+          },
+          {
+            fluid: 'minecraft:water',
+            amount: 1000
+          }
+        ],
+        catalyst: {
+          item: 'ad_astra:calorite_block'
+        },
+        result: {
+          item: 'forge_frontier:pyroclast'
+        },
+        
+      }).id('forge_frontier:extruding/pyroclast')
+      
+      // Frostite
+      event.custom({
+        type: 'create_mechanical_extruder:extruding',
+        ingredients: [
+          {
+            fluid: 'minecraft:water',
+            amount: 1000
+          },
+          {
+            fluid: 'minecraft:water',
+            amount: 1000
+          }
+        ],
+        catalyst: {
+          item: 'ad_astra:permafrost'
+        },
+        result: {
+          item: 'forge_frontier:frostite'
+        },
+        
+      }).id('forge_frontier:extruding/frostite')
+
+      // Stellaris
+      event.custom({
+        type: 'create_mechanical_extruder:extruding',
+        ingredients: [
+          {
+            fluid: 'createdieselgenerators:ethanol',
+            amount: 1000
+          },
+          {
+            fluid: 'minecraft:water',
+            amount: 1000
+          }
+        ],
+        catalyst: {
+          item: 'ad_astra:ostrum_block'
+        },
+        result: {
+          item: 'forge_frontier:stellaris'
+        },
+        
+      }).id('forge_frontier:extruding/stellaris')
+      
+      // Radiantite
+      event.custom({
+        type: 'create_mechanical_extruder:extruding',
+        ingredients: [
+          {
+            fluid: 'create_confectionery:ruby_chocolate',
+            amount: 1000
+          },
+          {
+            fluid: 'minecraft:water',
+            amount: 1000
+          }
+        ],
+        catalyst: {
+          item: 'enlightened_end:irradium_block'
+        },
+        result: {
+          item: 'forge_frontier:radiantite'
+        },
+        
+      }).id('forge_frontier:extruding/radiantite')
+      
+      // Void Shale
+      event.custom({
+        type: 'create_mechanical_extruder:extruding',
+        ingredients: [
+          {
+            fluid: 'create_confectionery:ruby_chocolate',
+            amount: 1000
+          },
+          {
+            fluid: 'minecraft:water',
+            amount: 1000
+          }
+        ],
+        catalyst: {
+          item: 'enlightened_end:malachite_block'
+        },
+        result: {
+          item: 'enlightened_end:void_shale'
+        },
+        
+      }).id('forge_frontier:extruding/void_shale')
+      
+      // Palerock
+      event.custom({
+        type: 'create_mechanical_extruder:extruding',
+        ingredients: [
+          {
+            fluid: 'create_confectionery:ruby_chocolate',
+            amount: 1000
+          },
+          {
+            fluid: 'minecraft:water',
+            amount: 1000
+          }
+        ],
+        catalyst: {
+          item: 'enlightened_end:bismuth_block'
+        },
+        result: {
+          item: 'enlightened_end:palerock'
+        },
+        
+      }).id('forge_frontier:extruding/palerock')
+      
+      // Guanite
+      event.custom({
+        type: 'create_mechanical_extruder:extruding',
+        ingredients: [
+          {
+            fluid: 'sliceanddice:fertilizer',
+            amount: 1000
+          },
+          {
+            fluid: 'minecraft:water',
+            amount: 1000
+          }
+        ],
+        catalyst: {
+          item: 'alexscaves:guano_block'
+        },
+        result: {
+          item: 'forge_frontier:guanite'
+        },
+        
+      }).id('forge_frontier:extruding/guanite')
+      
+      // Pearlyte
+      event.custom({
+        type: 'create_mechanical_extruder:extruding',
+        ingredients: [
+          {
+            fluid: 'minecraft:water',
+            amount: 1000
+          },
+          {
+            fluid: 'minecraft:water',
+            amount: 1000
+          }
+        ],
+        catalyst: {
+          item: 'alexscaves:block_of_pearl'
+        },
+        result: {
+          item: 'forge_frontier:pearlyte'
+        },
+        
+      }).id('forge_frontier:extruding/pearlyte')
+      
+      // Amberlite
+      event.custom({
+        type: 'create_mechanical_extruder:extruding',
+        ingredients: [
+          {
+            fluid: 'create:honey',
+            amount: 1000
+          },
+          {
+            fluid: 'minecraft:water',
+            amount: 1000
+          }
+        ],
+        catalyst: {
+          item: 'alexscaves:amber'
+        },
+        result: {
+          item: 'forge_frontier:amberlite'
+        },
+        
+      }).id('forge_frontier:extruding/amberlite')
+      
+      // Azurnium
+      event.custom({
+        type: 'create_mechanical_extruder:extruding',
+        ingredients: [
+          {
+            fluid: 'forge_frontier:molten_iron',
+            amount: 1000
+          },
+          {
+            fluid: 'minecraft:water',
+            amount: 1000
+          }
+        ],
+        catalyst: {
+          item: 'alexscaves:block_of_azure_neodymium'
+        },
+        result: {
+          item: 'forge_frontier:azurnium'
+        },
+        
+      }).id('forge_frontier:extruding/azurnium')
+
+      // Neodymrium
+      event.custom({
+        type: 'create_mechanical_extruder:extruding',
+        ingredients: [
+          {
+            fluid: 'forge_frontier:molten_iron',
+            amount: 1000
+          },
+          {
+            fluid: 'minecraft:water',
+            amount: 1000
+          }
+        ],
+        catalyst: {
+          item: 'alexscaves:block_of_scarlet_neodymium'
+        },
+        result: {
+          item: 'forge_frontier:neodymrium'
+        },
+        
+      }).id('forge_frontier:extruding/neodymrium')      
+
+      // Uraniumnite
+      event.custom({
+        type: 'create_mechanical_extruder:extruding',
+        ingredients: [
+          {
+            fluid: 'alexscaves:acid',
+            amount: 1000
+          },
+          {
+            fluid: 'minecraft:water',
+            amount: 1000
+          }
+        ],
+        catalyst: {
+          item: 'alexscaves:block_of_uranium'
+        },
+        result: {
+          item: 'forge_frontier:uraniumnite'
+        },
+        
+      }).id('forge_frontier:extruding/uraniumnite')  
+
+      // Sulphite
+      event.custom({
+        type: 'create_mechanical_extruder:extruding',
+        ingredients: [
+          {
+            fluid: 'alexscaves:acid',
+            amount: 1000
+          },
+          {
+            fluid: 'minecraft:water',
+            amount: 1000
+          }
+        ],
+        catalyst: {
+          item: 'alexscaves:sulfur'
+        },
+        result: {
+          item: 'forge_frontier:sulphite'
+        },
+        
+      }).id('forge_frontier:extruding/sulphite')  
 
   })
