@@ -4,7 +4,7 @@ const rewardUsernames = [
 ];
 
 // Custom item to give to the players
-const customItem = 'minecraft:nether_star'; // Replace with your custom item
+const customItem = 'minecraft:stick'; // Replace with your custom item
 
 // Tag to mark that a player has received the reward
 const rewardTag = 'has_received_reward';
