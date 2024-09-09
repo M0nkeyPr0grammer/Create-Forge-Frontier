@@ -405,4 +405,330 @@
         }).id(`forge_frontier:mixing/${mixing.name}`);
     });
 
-})
+    // Crushed Ore Piles
+        // Blasting Recipes
+        const blastingPileRecipes = [
+            { name: 'crushed_verdantine', input: 'forge_frontier:crushed_verdantine_pile', result: 'minecraft:emerald_block' },
+            { name: 'crushed_glacium', input: 'forge_frontier:crushed_glacium_pile', result: 'minecraft:diamond_block' },
+            { name: 'crushed_aubrum', input: 'forge_frontier:crushed_aubrum_pile', result: 'ad_astra:desh_block' },
+            { name: 'crushed_pyroclast', input: 'forge_frontier:crushed_pyroclast_pile', result: 'ad_astra:calorite_block' },
+            { name: 'crushed_stellaris', input: 'forge_frontier:crushed_stellaris_pile', result: 'ad_astra:ostrum_block' },
+            { name: 'crushed_radiantite', input: 'forge_frontier:crushed_radiantite_pile', result: 'enlightened_end:irradium_block' },
+            { name: 'crushed_shale', input: 'forge_frontier:crushed_shale_pile', result: 'enlightened_end:malachite_block' },
+            { name: 'crushed_palerock', input: 'forge_frontier:crushed_palerock_pile', result: 'enlightened_end:bismuth_block' },
+            { name: 'crushed_guanite', input: 'forge_frontier:crushed_guanite_pile', result: 'alexscaves:guano_block' },
+            { name: 'crushed_pearlyte', input: 'forge_frontier:crushed_pearlyte_pile', result: 'alexscaves:block_of_pearl' },
+            { name: 'crushed_azurnium', input: 'forge_frontier:crushed_azurnium_pile', result: 'alexscaves:block_of_azure_neodymium' },
+            { name: 'crushed_neodymrium', input: 'forge_frontier:crushed_neodymrium_pile', result: 'alexscaves:block_of_scarlet_neodymium' },
+            { name: 'crushed_uraniumnite', input: 'forge_frontier:crushed_uraniumnite_pile', result: 'alexscaves:block_of_uranium' },
+            { name: 'crushed_sulphite', input: 'forge_frontier:crushed_sulphite_pile', result: 'alexscaves:sulfur_cluster' }
+        ];
+    
+        // Loop to create the blasting recipes
+        blastingPileRecipes.forEach(recipe => {
+            event.custom({
+                type: "minecraft:smelting",
+                cookingtime: 200,
+                experience: 0.1,
+                ingredient: {
+                    item: recipe.input
+                },
+                result: {
+                    item: recipe.result,
+                    count: 1
+                }
+            }).id(`forge_frontier:blasting/${recipe.name}_pile`);
+        });
+    
+        // Washing Recipes
+        const washingPileRecipes = [
+            {
+                name: 'crushed_verdantine',
+                input: 'forge_frontier:crushed_verdantine_pile',
+                results: [
+                    { chance: 0.25, item: 'minecraft:emerald_block', count: 1 },
+                    { chance: 0.09, item: 'totemfactory:inactive_totem', count: 1 }
+                ]
+            },
+            {
+                name: 'crushed_glacium',
+                input: 'forge_frontier:crushed_glacium_pile',
+                results: [
+                    { count: 36, item: 'create_dd:diamond_shard' }, // 4 * 9
+                    { chance: 0.50, item: 'aquaculture:neptunium_nugget', count: 9 }
+                ]
+            },
+            {
+                name: 'crushed_aubrum',
+                input: 'forge_frontier:crushed_aubrum_pile',
+                results: [
+                    { count: 81, item: 'ad_astra:desh_nugget' }, // 9 * 9
+                    { chance: 0.50, item: 'ad_astra:cheese', count: 9 },
+                    { chance: 0.20, item: 'create_dd:industrial_iron_nugget', count: 9 }
+                ]
+            },
+            {
+                name: 'crushed_pyroclast',
+                input: 'forge_frontier:crushed_pyroclast_pile',
+                results: [
+                    { count: 81, item: 'ad_astra:calorite_nugget' }, // 9 * 9
+                    { chance: 0.20, item: 'create_dd:bronze_nugget', count: 9 }
+                ]
+            },
+            {
+                name: 'crushed_frostite',
+                input: 'forge_frontier:crushed_frostite_pile',
+                results: [
+                    { chance: 0.25, item: 'ad_astra:ice_shard', count: 9 },
+                    { chance: 0.50, item: 'minecraft:blue_ice', count: 9 }
+                ]
+            },
+            {
+                name: 'crushed_stellaris',
+                input: 'forge_frontier:crushed_stellaris_pile',
+                results: [
+                    { count: 81, item: 'ad_astra:ostrum_nugget' }, // 9 * 9
+                    { chance: 0.20, item: 'create_dd:steel_nugget', count: 9 }
+                ]
+            },
+            {
+                name: 'crushed_radiantite',
+                input: 'forge_frontier:crushed_radiantite_pile',
+                results: [
+                    { chance: 0.20, item: 'enlightened_end:irradium_bar', count: 9 },
+                    { chance: 0.25, item: 'create_dd:mithril_nugget', count: 9 }
+                ]
+            },
+            {
+                name: 'crushed_shale',
+                input: 'forge_frontier:crushed_shale_pile',
+                results: [
+                    { chance: 0.25, item: 'enlightened_end:malachite', count: 9 },
+                    { chance: 0.25, item: 'create_dd:mithril_nugget', count: 9 }
+                ]
+            },
+            {
+                name: 'crushed_palerock',
+                input: 'forge_frontier:crushed_palerock_pile',
+                results: [
+                    { count: 36, item: 'enlightened_end:bismuth_nugget' }, // 4 * 9
+                    { chance: 0.25, item: 'create_dd:mithril_nugget', count: 9 }
+                ]
+            },
+            {
+                name: 'crushed_guanite',
+                input: 'forge_frontier:crushed_guanite_pile',
+                results: [
+                    { chance: 0.25, item: 'alexscaves:guano', count: 9 },
+                    { chance: 0.30, item: 'minecraft:bone_meal', count: 9 }
+                ]
+            },
+            {
+                name: 'crushed_urnaniumite',
+                input: 'forge_frontier:crushed_uraniumnite_pile',
+                results: [
+                    { count: 81, item: 'alexscaves:uranium_shard' }, // 9 * 9
+                    { chance: 0.20, item: 'create_new_age:radioactive_thorium', count: 9 }
+                ]
+            },
+            {
+                name: 'crushed_sulphite',
+                input: 'forge_frontier:crushed_sulphite_pile',
+                results: [
+                    { chance: 0.20, item: 'alexscaves:sulfur_cluster', count: 9 },
+                    { chance: 0.20, item: 'tfmg:sulfur_dust', count: 9 }
+                ]
+            }
+        ];
+    
+        washingPileRecipes.forEach(recipe => {
+            event.custom({
+                type: "create:splashing",
+                ingredients: [
+                    { item: recipe.input }
+                ],
+                results: recipe.results
+            }).id(`forge_frontier:washing/${recipe.name}_pile`);
+        });
+    
+        // Seething Recipes
+        const seethingPileRecipes = [
+            {
+                name: 'crushed_verdantine',
+                input: 'forge_frontier:crushed_verdantine_pile',
+                results: [
+                    { item: 'minecraft:emerald_block', count: 1 },
+                    { chance: 0.5, item: 'minecraft:emerald_block', count: 1 }
+                ]
+            },
+            {
+                name: 'crushed_glacium',
+                input: 'forge_frontier:crushed_glacium_pile',
+                results: [
+                    { item: 'minecraft:diamond_block', count: 1 },
+                    { chance: 0.5, item: 'minecraft:diamond_block', count: 1 }
+                ]
+            },
+            {
+                name: 'crushed_aubrum',
+                input: 'forge_frontier:crushed_aubrum_pile',
+                results: [
+                    { item: 'ad_astra:desh_block', count: 1 },
+                    { chance: 0.50, item: 'ad_astra:desh_block', count: 1 }
+                ]
+            },
+            {
+                name: 'crushed_pyroclast',
+                input: 'forge_frontier:crushed_pyroclast_pile',
+                results: [
+                    { item: 'ad_astra:calorite_block', count: 1 },
+                    { chance: 0.50, item: 'ad_astra:calorite_block', count: 1 }
+                ]
+            },
+            {
+                name: 'crushed_frostite',
+                input: 'forge_frontier:crushed_frostite_pile',
+                results: [
+                    { item: 'ad_astra:ice_shard', count: 9 },
+                    { chance: 0.50, item: 'ad_astra:ice_shard', count: 9 }
+                ]
+            },
+            {
+                name: 'crushed_stellaris',
+                input: 'forge_frontier:crushed_stellaris_pile',
+                results: [
+                    { item: 'ad_astra:ostrum_block', count: 1 },
+                    { chance: 0.50, item: 'ad_astra:ostrum_block', count: 1 }
+                ]
+            },
+            {
+                name: 'crushed_radiantite',
+                input: 'forge_frontier:crushed_radiantite_pile',
+                results: [
+                    { item: 'enlightened_end:irradium_block', count: 1 },
+                    { chance: 0.50, item: 'enlightened_end:irradium_block', count: 1 }
+                ]
+            },
+            {
+                name: 'crushed_shale',
+                input: 'forge_frontier:crushed_shale_pile',
+                results: [
+                    { item: 'enlightened_end:malachite_block', count: 1 },
+                    { chance: 0.50, item: 'enlightened_end:malachite_block', count: 1 }
+                ]
+            },
+            {
+                name: 'crushed_palerock',
+                input: 'forge_frontier:crushed_palerock_pile',
+                results: [
+                    { item: 'enlightened_end:bismuth_block', count: 1 },
+                    { chance: 0.50, item: 'enlightened_end:bismuth_block', count: 1 }
+                ]
+            },
+            {
+                name: 'crushed_guanite',
+                input: 'forge_frontier:crushed_guanite_pile',
+                results: [
+                    { item: 'alexscaves:guano_block', count: 1 },
+                    { chance: 0.50, item: 'alexscaves:guano_block', count: 1 }
+                ]
+            },
+            {
+                name: 'crushed_pearlyte',
+                input: 'forge_frontier:crushed_pearlyte_pile',
+                results: [
+                    { item: 'alexscaves:pearl_block', count: 1 },
+                    { chance: 0.50, item: 'alexscaves:pearl_block', count: 1 }
+                ]
+            },
+            {
+                name: 'crushed_amberlite',
+                input: 'forge_frontier:crushed_amberlite_pile',
+                results: [
+                    { item: 'alexscaves:amber', count: 9 },
+                    { chance: 0.50, item: 'alexscaves:amber', count: 9 }
+                ]
+            },
+            {
+                name: 'crushed_azurnium',
+                input: 'forge_frontier:crushed_azurnium_pile',
+                results: [
+                    { item: 'alexscaves:block_of_azure_neodymium', count: 1 },
+                    { chance: 0.50, item: 'alexscaves:block_of_azure_neodymium', count: 1 }
+                ]
+            },
+            {
+                name: 'crushed_neodymrium',
+                input: 'forge_frontier:crushed_neodymrium_pile',
+                results: [
+                    { item: 'alexscaves:block_of_scarlet_neodymium', count: 1 },
+                    { chance: 0.50, item: 'alexscaves:block_of_scarlet_neodymium', count: 1 }
+                ]
+            },
+            {
+                name: 'crushed_uraniumnite',
+                input: 'forge_frontier:crushed_uraniumnite_pile',
+                results: [
+                    { item: 'alexscaves:block_of_uranium', count: 1 },
+                    { chance: 0.50, item: 'alexscaves:block_of_uranium', count: 1 }
+                ]
+            },
+            {
+                name: 'crushed_sulphite',
+                input: 'forge_frontier:crushed_sulphite_pile',
+                results: [
+                    { chance: 1.0, item: 'alexscaves:sulfur_cluster', count: 9 },
+                    { chance: 1.0, item: 'alexscaves:sulfur_cluster', count: 9 }
+                ]
+            }
+        ];
+    
+        seethingPileRecipes.forEach(recipe => {
+            event.custom({
+                type: "create_dd:superheating",
+                ingredients: [
+                    { item: recipe.input }
+                ],
+                results: recipe.results
+            }).id(`forge_frontier:seething/${recipe.name}_pile`);
+        });
+    
+        // Mixing Recipes
+        const mixingPileRecipes = [
+            { name: 'crushed_verdantine', input: 'forge_frontier:crushed_verdantine_pile', fluid: 'forge_frontier:molten_emerald' },
+            { name: 'crushed_glacium', input: 'forge_frontier:crushed_glacium_pile', fluid: 'forge_frontier:molten_diamond' },
+            { name: 'crushed_debris', input: 'forge_frontier:crushed_debris_pile', fluid: 'forge_frontier:molten_ancient_debris', additional: { fluid: 'minecraft:lava', amount: 90 } }, // 10 * 9
+            { name: 'crushed_grime', input: 'forge_frontier:crushed_grime_pile', fluid: 'forge_frontier:molten_echo_shard' },
+            { name: 'crushed_aubrum', input: 'forge_frontier:crushed_aubrum_pile', fluid: 'forge_frontier:molten_desh' },
+            { name: 'crushed_pyroclast', input: 'forge_frontier:crushed_pyroclast_pile', fluid: 'forge_frontier:molten_calorite' },
+            { name: 'crushed_frostite', input: 'forge_frontier:crushed_frostite_pile', fluid: 'forge_frontier:molten_ice_shard'},
+            { name: 'crushed_stellaris', input: 'forge_frontier:crushed_stellaris_pile', fluid: 'forge_frontier:molten_ostrum' },
+            { name: 'crushed_radiantite', input: 'forge_frontier:crushed_radiantite_pile', fluid: 'forge_frontier:molten_irradium' },
+            { name: 'crushed_shale', input: 'forge_frontier:crushed_shale_pile', fluid: 'forge_frontier:molten_malachite' },
+            { name: 'crushed_palerock', input: 'forge_frontier:crushed_palerock_pile', fluid: 'forge_frontier:molten_bismuth' },
+            { name: 'crushed_guanite', input: 'forge_frontier:crushed_guanite_pile', fluid: 'forge_frontier:molten_guano' },
+            { name: 'crushed_pearlyte', input: 'forge_frontier:crushed_pearlyte_pile', fluid: 'forge_frontier:molten_pearl' },
+            { name: 'crushed_amberlite', input: 'forge_frontier:crushed_amberlite_pile', fluid: 'forge_frontier:molten_amber' },
+            { name: 'crushed_azurnium', input: 'forge_frontier:crushed_azurnium_pile', fluid: 'forge_frontier:molten_azure_neodymium' },
+            { name: 'crushed_neodymrium', input: 'forge_frontier:crushed_neodymrium_pile', fluid: 'forge_frontier:molten_scarlet_neodymium' },
+            { name: 'crushed_urnaniumite', input: 'forge_frontier:crushed_uraniumnite_pile', fluid: 'forge_frontier:molten_uranium' },
+            { name: 'crushed_sulphite', input: 'forge_frontier:crushed_sulphite_pile', fluid: 'forge_frontier:molten_sulfur' }
+        ];
+    
+        mixingPileRecipes.forEach(mixing => {
+            const results = [{ fluid: mixing.fluid, amount: 1800 }];  // 200 * 9 for the fluid output
+            
+            if (mixing.additional) {
+                results.push(mixing.additional);
+            }
+    
+            event.custom({
+                type: "create:mixing",
+                ingredients: [
+                    { item: mixing.input, count: 9 }
+                ],
+                results: results,
+                heatRequirement: "superheated"
+            }).id(`forge_frontier:mixing/${mixing.name}_pile`);
+        });
+    });
