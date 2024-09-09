@@ -10,7 +10,7 @@ StartupEvents.registry('block', event => {
         .model('forge_frontier:block/overcharged_iron_block')
         .requiresTool(true)
         .renderType('solid')
-        .tagItem('tooltiprareness:common_item')
+        .tagItem('forge:energized/blocks')
         .tagBlock("mineable/pickaxe")
         .fullBlock(true);     
     
@@ -22,7 +22,7 @@ StartupEvents.registry('block', event => {
         .model('forge_frontier:block/overcharged_gold_block')
         .requiresTool(true)
         .renderType('solid')
-        .tagItem('tooltiprareness:common_item')
+        .tagItem('forge:energized/blocks')
         .tagBlock("mineable/pickaxe")
         .fullBlock(true);     
 
@@ -34,7 +34,7 @@ StartupEvents.registry('block', event => {
         .model('forge_frontier:block/overcharged_diamond_block')
         .requiresTool(true)
         .renderType('solid')
-        .tagItem('tooltiprareness:common_item')
+        .tagItem('forge:energized/blocks')
         .tagBlock("mineable/pickaxe")
         .fullBlock(true);
     
@@ -46,7 +46,7 @@ StartupEvents.registry('block', event => {
         .model('forge_frontier:block/overcharged_netherite_block')
         .requiresTool(true)
         .renderType('solid')
-        .tagItem('tooltiprareness:common_item')
+        .tagItem('forge:energized/blocks')
         .tagBlock("mineable/pickaxe")
         .fullBlock(true);
     
@@ -108,7 +108,7 @@ StartupEvents.registry('item', event => {
             .texture('forge_frontier:item/sun_disc');
 
         event.create('forge_frontier:piglin_kings_crown')
-            .tooltip('This regal crown was worn by the ancient Piglin King, a symbol of his dominion over the Nether. It glimmers with lost power.')
+            .tooltip('This regal crown was worn by the ancient Piglin King, a symbol of his dominion over the Nether, now worn by the new King of the Nether the Wildfire. It glimmers with lost power.')
             .displayName("Piglin King's Crown")
             .texture('forge_frontier:item/piglin_kings_crown');
 
@@ -128,7 +128,7 @@ StartupEvents.registry('item', event => {
             .texture('forge_frontier:item/infernal_chisel');
         
         event.create('forge_frontier:hellhounds_fang')
-            .tooltip("This fang, lost by Hades' hellhounds in their pursuit of lost souls, was later repurposed by the ancient Nether fortress dwellers as a precise cutting tool.")
+            .tooltip("This fang, lost by Hades' hellhounds in their pursuit of lost souls, was later repurposed by the ancient Nether  dwellers as a precise cutting tool.")
             .displayName("Hellhound's Fang")
             .texture('forge_frontier:item/hellhounds_fang');
          

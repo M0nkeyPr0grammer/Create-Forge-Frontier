@@ -43,7 +43,7 @@ function createCrushedPiles(event, material) {
         .model(`forge_frontier:block/crushed_piles/${id}`)
         .requiresTool(true)
         .renderType('solid')
-        .tagItem('tooltiprareness:common_item')
+        .tagItem('create:crushed_raw_materials/piles')
         .tagBlock('mineable/pickaxe')
         .fullBlock(true);
 }

@@ -27,7 +27,7 @@ StartupEvents.registry('block', event => {
                 .model(`forge_frontier:block/ore_stones/${ore.id}`)
                 .requiresTool(true)
                 .renderType('solid')
-                .tagItem('tooltiprareness:common_item')
+                .tagItem('forge_frontier:resource_stones')
                 .tagBlock("mineable/pickaxe")
                 .fullBlock(true);
         });

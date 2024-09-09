@@ -9,7 +9,7 @@ function createCompressedBlock(event, material, level) {
         .model(`forge_frontier:block/compressed_blocks/${id}`)
         .requiresTool(true)
         .renderType('solid')
-        .tagItem('tooltiprareness:common_item')
+        .tagItem('forge:storage_blocks')
         .tagBlock('mineable/pickaxe')
         .fullBlock(true);
 }
