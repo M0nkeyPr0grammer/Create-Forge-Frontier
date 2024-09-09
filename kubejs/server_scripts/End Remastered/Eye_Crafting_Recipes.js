@@ -163,13 +163,13 @@ ServerEvents.recipes(event => {
     event.custom({
       type: 'create:mechanical_crafting',
       pattern: [
-        'MEM',
+        'MBM',
         'mUm',
-        'MEM'
+        'MBM'
       ],
       key: {
         M: Ingredient.of('create_compressed:mechanism_block'),
-        E: Ingredient.of('forge_frontier:compressed_ethium_2x'),
+        B: Ingredient.of('createcompression:compressed_brass_3x'),
         m: Ingredient.of('forge_frontier:compressed_mithril_2x'),
         U: Ingredient.of('endrem:undead_soul'),
       },
