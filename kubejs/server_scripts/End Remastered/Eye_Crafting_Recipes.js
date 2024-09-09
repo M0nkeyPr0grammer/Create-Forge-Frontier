@@ -91,9 +91,9 @@ ServerEvents.recipes(event => {
         'GDG'
       ],
       key: {
-        G: Ingredient.of('createcompression:compressed_gold_3x'),
-        D: Ingredient.of('createcompression:compressed_diamond_3x'),
-        E: Ingredient.of('createcompression:compressed_emerald_3x'),
+        G: Ingredient.of('createcompression:compressed_gold_2x'),
+        D: Ingredient.of('createcompression:compressed_diamond_2x'),
+        E: Ingredient.of('createcompression:compressed_emerald_2x'),
         U: Ingredient.of('endrem:undead_soul')
       },
       result: Ingredient.of('endrem:corrupted_eye'),
@@ -169,7 +169,7 @@ ServerEvents.recipes(event => {
       ],
       key: {
         M: Ingredient.of('create_compressed:mechanism_block'),
-        B: Ingredient.of('createcompression:compressed_brass_3x'),
+        B: Ingredient.of('createcompression:compressed_brass_2x'),
         m: Ingredient.of('forge_frontier:compressed_mithril_2x'),
         U: Ingredient.of('endrem:undead_soul'),
       },
@@ -272,7 +272,7 @@ ServerEvents.recipes(event => {
         N: Ingredient.of('cagedmobs:star_infused_netherite_nugget'),
         U: Ingredient.of('endrem:undead_soul'),
         W: Ingredient.of('minecraft:wither_skeleton_skull'),
-        S: Ingredient.of('createcompression:compressed_soul_sand_4x'),
+        S: Ingredient.of('createcompression:compressed_soul_sand_3x'),
       },
       result: Ingredient.of('endrem:wither_eye'),
       acceptMirrored: false
