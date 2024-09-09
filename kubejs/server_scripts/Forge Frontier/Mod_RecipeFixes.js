@@ -118,9 +118,10 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'create_confectionery:white_chocolate_recipe_6' });
     event.remove({ id: 'create_confectionery:chocolate_recipe_6' });
     event.remove({ id: 'create_confectionery:black_chocolate_recipe_6' });
-    event.remove({ id: 'tfmg:crafting/glass_cable_connector'})
 
     // Removes Missing Item Related Recipes
+    event.remove({ id: 'tfmg:mechanical_crafting/cast_iron_distillation_controller'})
+    event.remove({ id: 'tfmg:crafting/glass_cable_connector'})
     event.remove({ id: 'createappliedkinetics:throw_in_water/fluix_seed/normal'})
     event.remove({ id: 'createappliedkinetics:throw_in_water/certus_seed/catalyzed'})
     event.remove({ id: 'createappliedkinetics:throw_in_water/certus_seed/normal'})
@@ -143,7 +144,6 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'alexsdelight:barbecue_on_a_stick'})
     event.remove({ id: 'collectorsreap:food/lime_green_tea'})
     event.remove({ id: 'collectorsreap:food/pomegranate_black_tea'})
-    event.remove({ id: 'tfmg:mechanical_crafting/cast_iron_distillation_controller'})
 
     event.remove({ id: 'createaddition:compat/ae2/charged_certus_quartz' });
     event.remove({ id: 'create:cutting/compat/biomesoplenty/cherry_log' });
