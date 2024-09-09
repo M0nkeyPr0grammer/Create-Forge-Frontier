@@ -1,33 +1,33 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "aetheric_eye"
+	filename: "witch_eye"
 	group: "56FECAF3F592F5B2"
 	icon: {
 		Count: 1
-		id: "endrem:exotic_eye"
+		id: "endrem:witch_eye"
 		tag: {
 			Damage: 0
 		}
 	}
-	id: "2062CF9DB690ADF6"
-	order_index: 14
+	id: "62E367249000BF84"
+	order_index: 12
 	quest_links: [ ]
 	quests: [{
-		id: "06CEED1DBA25D312"
+		id: "0B593797B7CC868F"
 		tasks: [{
-			id: "233DA4698435C2CB"
+			id: "0CDDE144754A4279"
 			item: {
 				Count: 1
-				id: "endrem:exotic_eye"
+				id: "endrem:witch_eye"
 				tag: {
 					Damage: 0
 				}
 			}
 			type: "item"
 		}]
-		x: 0.0d
-		y: 0.0d
+		x: 1.5d
+		y: 1.5d
 	}]
-	title: "Aetheric Eye"
+	title: "Witch Eye"
 }

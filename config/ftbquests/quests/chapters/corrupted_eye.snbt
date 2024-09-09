@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "corrupted_eye"
 	group: "56FECAF3F592F5B2"
+	hide_quest_until_deps_visible: true
 	icon: {
 		Count: 1
 		id: "endrem:corrupted_eye"
@@ -11,23 +12,175 @@
 		}
 	}
 	id: "2BC90B3059FD2519"
+	images: [
+		{
+			dependency: "7F2348D995E5FE43"
+			height: 5.0d
+			hover: ["Verdantine Vent: Found in Mountain Biomes"]
+			image: "forge_frontier:textures/ftb/verdantine.png"
+			rotation: 0.0d
+			width: 5.75d
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			dependency: "7F2348D995E5FE43"
+			height: 5.0d
+			hover: ["Ochrum Vent: Found in the Overworld"]
+			image: "forge_frontier:textures/ftb/ochrum.png"
+			rotation: 0.0d
+			width: 5.6d
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			dependency: "7F2348D995E5FE43"
+			height: 5.0d
+			hover: ["Glacium Vent: Found in Mountain Biomes"]
+			image: "forge_frontier:textures/ftb/glacium.png"
+			rotation: 0.0d
+			width: 5.35d
+			x: 0.0d
+			y: -3.0d
+		}
+	]
 	order_index: 2
 	quest_links: [ ]
-	quests: [{
-		id: "116E3F170671542D"
-		tasks: [{
-			id: "40439573963FD4EC"
-			item: {
-				Count: 1
-				id: "endrem:corrupted_eye"
-				tag: {
-					Damage: 0
+	quests: [
+		{
+			dependencies: [
+				"28A5986EC340E0B9"
+				"67F1DA8051FA8379"
+				"421B3CC685F30DBD"
+				"4EB8BB9D0F284D79"
+				"375E9C457CCCFED3"
+				"5F40C46F61B5EEDF"
+				"133957C4DA697C71"
+				"79B273E920F463B9"
+				"42CCD4BAC548B2D7"
+			]
+			id: "116E3F170671542D"
+			tasks: [{
+				id: "40439573963FD4EC"
+				item: {
+					Count: 1
+					id: "endrem:corrupted_eye"
+					tag: {
+						Damage: 0
+					}
 				}
-			}
-			type: "item"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7F2348D995E5FE43"]
+			id: "28A5986EC340E0B9"
+			subtitle: "Automated via Ochrum Vents"
+			tasks: [{
+				id: "6A0A918B01B4F9AD"
+				item: "createcompression:compressed_gold_2x"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7F2348D995E5FE43"]
+			id: "5F40C46F61B5EEDF"
+			subtitle: "Automated via Ochrum Vents"
+			tasks: [{
+				id: "3E8AE8B5C46EB234"
+				item: "createcompression:compressed_gold_2x"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7F2348D995E5FE43"]
+			id: "4EB8BB9D0F284D79"
+			subtitle: "Automated via Ochrum Vents"
+			tasks: [{
+				id: "5A9E684C80E41BE5"
+				item: "createcompression:compressed_gold_2x"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7F2348D995E5FE43"]
+			id: "375E9C457CCCFED3"
+			subtitle: "Automated via Ochrum Vents"
+			tasks: [{
+				id: "6F05545FBA5F4CA5"
+				item: "createcompression:compressed_gold_2x"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7F2348D995E5FE43"]
+			id: "67F1DA8051FA8379"
+			subtitle: "Automated via Glacium Vents"
+			tasks: [{
+				id: "2C4AC2EAD90FD539"
+				item: "createcompression:compressed_diamond_2x"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7F2348D995E5FE43"]
+			id: "42CCD4BAC548B2D7"
+			subtitle: "Automated via Glacium Vents"
+			tasks: [{
+				id: "1C5DFA3B85C7D335"
+				item: "createcompression:compressed_diamond_2x"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7F2348D995E5FE43"]
+			id: "79B273E920F463B9"
+			subtitle: "Automated via Verdantine Vents"
+			tasks: [{
+				id: "4A847FD20C5C25E5"
+				item: "createcompression:compressed_emerald_2x"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7F2348D995E5FE43"]
+			id: "133957C4DA697C71"
+			subtitle: "Automated via Verdantine Vents"
+			tasks: [{
+				id: "7EA528CA401EEDC8"
+				item: "createcompression:compressed_emerald_2x"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7F2348D995E5FE43"]
+			id: "421B3CC685F30DBD"
+			tasks: [{
+				id: "2C22178EBBA57B1F"
+				item: "endrem:undead_soul"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+	]
 	title: "Corrupted Eye"
 }

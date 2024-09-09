@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "cold_eye"
 	group: "56FECAF3F592F5B2"
+	hide_quest_until_deps_visible: true
 	icon: {
 		Count: 1
 		id: "endrem:cold_eye"
@@ -11,23 +12,219 @@
 		}
 	}
 	id: "57D4223CAAB0484E"
+	images: [
+		{
+			dependency: "01E99C2EF36E6886"
+			height: 5.0d
+			hover: ["AE2: Meteor"]
+			image: "forge_frontier:textures/ftb/meteor.png"
+			rotation: 0.0d
+			width: 11.2d
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependency: "01E99C2EF36E6886"
+			height: 5.0d
+			hover: ["Cataclysm: Ancient Factory"]
+			image: "forge_frontier:textures/ftb/factory.png"
+			rotation: 0.0d
+			width: 9.15d
+			x: -8.5d
+			y: 3.5d
+		}
+		{
+			dependency: "01E99C2EF36E6886"
+			height: 5.0d
+			hover: ["Cataclysm: The Harbinger"]
+			image: "forge_frontier:textures/ftb/harbinger.png"
+			rotation: 0.0d
+			width: 6.5d
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependency: "01E99C2EF36E6886"
+			height: 5.0d
+			hover: ["Cataclysm: Ancient Factory"]
+			image: "forge_frontier:textures/ftb/factory.png"
+			rotation: 0.0d
+			width: 9.15d
+			x: 8.5d
+			y: 3.5d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
-	quests: [{
-		id: "13FE50BC5ED7CC02"
-		tasks: [{
-			id: "13DC5B50F38C2683"
-			item: {
-				Count: 1
-				id: "endrem:cold_eye"
-				tag: {
-					Damage: 0
+	quests: [
+		{
+			dependencies: [
+				"049157C3D9C35903"
+				"04D360BF34358FAA"
+				"5872119A37E4349F"
+				"1C78565D1FA74056"
+				"626C536B34D23C6D"
+				"6ACCC703A7B9B3EC"
+				"2039E16A9DB68829"
+				"3B3BBF4DF36E94F5"
+				"1F7976ADA8F4F14F"
+			]
+			id: "13FE50BC5ED7CC02"
+			tasks: [{
+				id: "13DC5B50F38C2683"
+				item: {
+					Count: 1
+					id: "endrem:cold_eye"
+					tag: {
+						Damage: 0
+					}
 				}
-			}
-			type: "item"
-		}]
-		x: 0.5d
-		y: -0.5d
-	}]
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["01E99C2EF36E6886"]
+			id: "6ACCC703A7B9B3EC"
+			subtitle: "Found on Glacio"
+			tasks: [{
+				id: "5A3E4E232FD3645B"
+				item: "ad_astra:permafrost"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["01E99C2EF36E6886"]
+			id: "04D360BF34358FAA"
+			subtitle: "Found on Glacio"
+			tasks: [{
+				id: "1E4DF9B829DC8871"
+				item: "ad_astra:permafrost"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["01E99C2EF36E6886"]
+			id: "626C536B34D23C6D"
+			subtitle: "Found on Glacio"
+			tasks: [{
+				id: "255CA3148569CCAC"
+				item: "ad_astra:permafrost"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["01E99C2EF36E6886"]
+			id: "049157C3D9C35903"
+			subtitle: "Found on Glacio"
+			tasks: [{
+				id: "0E29B1B3D60467DB"
+				item: "ad_astra:permafrost"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["01E99C2EF36E6886"]
+			id: "1F7976ADA8F4F14F"
+			subtitle: "Crafted and used to Locate Ancient Factory"
+			tasks: [{
+				id: "7BEEDEDB537023C6"
+				item: "cataclysm:mech_eye"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["23901C965E8AEEB2"]
+			id: "1C78565D1FA74056"
+			tasks: [{
+				id: "16EC7F0BC11FCE8E"
+				item: "cataclysm:witherite_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["178EC92463C73D5E"]
+			id: "5872119A37E4349F"
+			tasks: [{
+				id: "0C6828E8198C5DFF"
+				item: "cataclysm:witherite_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7940F56649B9CA06"]
+			id: "3B3BBF4DF36E94F5"
+			subtitle: "Found inside Meteor"
+			tasks: [{
+				id: "56A2E8E3C4B38B0C"
+				item: "ae2:quartz_cluster"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["01E99C2EF36E6886"]
+			id: "2039E16A9DB68829"
+			tasks: [{
+				id: "13D23790BEDE0B92"
+				item: "endrem:undead_soul"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["01E99C2EF36E6886"]
+			id: "178EC92463C73D5E"
+			subtitle: "Found on Glacio"
+			tasks: [{
+				id: "22B6B309B2D79F4F"
+				structure: "cataclysm:ancient_factory"
+				type: "structure"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["01E99C2EF36E6886"]
+			id: "23901C965E8AEEB2"
+			subtitle: "Found on Glacio"
+			tasks: [{
+				id: "0B47C133663E4941"
+				structure: "cataclysm:ancient_factory"
+				type: "structure"
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["01E99C2EF36E6886"]
+			id: "7940F56649B9CA06"
+			subtitle: "Found on Glacio"
+			tasks: [{
+				id: "3FE3C7166BA83099"
+				structure: "ae2:meteorite"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+	]
 	title: "Cold Eye"
 }
