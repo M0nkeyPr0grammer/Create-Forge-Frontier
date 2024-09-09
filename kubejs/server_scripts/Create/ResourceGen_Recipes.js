@@ -14,7 +14,7 @@
         { name: 'frostite', input: 'forge_frontier:frostite', output: 'forge_frontier:crushed_frostite', additional: null },
         { name: 'guanite', input: 'forge_frontier:guanite', output: 'forge_frontier:crushed_guanite', additional: null },
         { name: 'amberlite', input: 'forge_frontier:amberlite', output: 'forge_frontier:crushed_amberlite', additional: null },
-        { name: 'sulphite', input: 'forge_frontier:sulphite', output: 'forge_frontier:crushed_sulphite', additional: 'alexscaves:sulfur_dust' },
+        { name: 'sulphite', input: 'forge_frontier:sulphite', output: 'forge_frontier:crushed_sulphite', additional: 'tfmg:sulfur_dust' },
         { name: 'neodymrium', input: 'forge_frontier:neodymrium', output: 'forge_frontier:crushed_neodymrium', additional: 'alexscaves:raw_scarlet_neodymium' },
         { name: 'azurnium', input: 'forge_frontier:azurnium', output: 'forge_frontier:crushed_azurnium', additional: 'alexscaves:raw_azure_neodymium' },
         { name: 'urnaniumite', input: 'forge_frontier:uraniumnite', output: 'forge_frontier:crushed_uraniumnite', additional: 'alexscaves:uranium_shard' },
@@ -60,7 +60,7 @@
             { name: 'crushed_azurnium', input: 'forge_frontier:crushed_azurnium', result: 'alexscaves:azure_neodymium_ingot' },
             { name: 'crushed_neodymrium', input: 'forge_frontier:crushed_neodymrium', result: 'alexscaves:scarlet_neodymium_ingot' },
             { name: 'crushed_uraniumnite', input: 'forge_frontier:crushed_uraniumnite', result: 'alexscaves:uranium' },
-            { name: 'crushed_sulphite', input: 'forge_frontier:crushed_sulphite', result: 'alexscaves:sulfur_cluster' }
+            { name: 'crushed_sulphite', input: 'forge_frontier:crushed_sulphite', result: 'alexscaves:sulfur_dust' }
         ];
     
         // Loop to create the blasting recipes
@@ -187,7 +187,7 @@
             name: 'crushed_sulphite',
             input: 'forge_frontier:crushed_sulphite',
             results: [
-                { chance: 0.20, item: 'alexscaves:sulfur_cluster' },
+                { chance: 0.20, item: 'alexscaves:sulfur_dust' },
                 { chance: 0.20, item: 'tfmg:sulfur_dust' }
             ]
         }
@@ -347,8 +347,8 @@
                 name: 'crushed_sulphite',
                 input: 'forge_frontier:crushed_sulphite',
                 results: [
-                    { chance: 0.25, item: 'alexscaves:sulfur_cluster' },
-                    { chance: 0.15, item: 'alexscaves:sulfur_cluster' }
+                    { chance: 0.25, item: 'alexscaves:sulfur_dust' },
+                    { chance: 0.15, item: 'alexscaves:sulfur_dust' }
                 ]
             }
         ];
@@ -421,7 +421,7 @@
             { name: 'crushed_azurnium', input: 'forge_frontier:crushed_azurnium_pile', result: 'alexscaves:block_of_azure_neodymium' },
             { name: 'crushed_neodymrium', input: 'forge_frontier:crushed_neodymrium_pile', result: 'alexscaves:block_of_scarlet_neodymium' },
             { name: 'crushed_uraniumnite', input: 'forge_frontier:crushed_uraniumnite_pile', result: 'alexscaves:block_of_uranium' },
-            { name: 'crushed_sulphite', input: 'forge_frontier:crushed_sulphite_pile', result: 'alexscaves:sulfur_cluster' }
+            { name: 'crushed_sulphite', input: 'forge_frontier:crushed_sulphite_pile', result: 'alexscaves:sulfur' }
         ];
     
         // Loop to create the blasting recipes
@@ -535,7 +535,7 @@
                 name: 'crushed_sulphite',
                 input: 'forge_frontier:crushed_sulphite_pile',
                 results: [
-                    { chance: 0.20, item: 'alexscaves:sulfur_cluster', count: 9 },
+                    { chance: 0.20, item: 'alexscaves:sulfur', count: 1 },
                     { chance: 0.20, item: 'tfmg:sulfur_dust', count: 9 }
                 ]
             }
@@ -677,8 +677,8 @@
                 name: 'crushed_sulphite',
                 input: 'forge_frontier:crushed_sulphite_pile',
                 results: [
-                    { chance: 1.0, item: 'alexscaves:sulfur_cluster', count: 9 },
-                    { chance: 1.0, item: 'alexscaves:sulfur_cluster', count: 9 }
+                    { chance: 1.0, item: 'alexscaves:sulfur', count: 1 },
+                    { chance: 1.0, item: 'alexscaves:sulfur', count: 1 }
                 ]
             }
         ];
