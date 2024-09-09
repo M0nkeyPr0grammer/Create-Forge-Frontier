@@ -58,7 +58,12 @@ ServerEvents.recipes(event => {
         { fluid: 'forge_frontier:molten_bismuth', result: 'enlightened_end:bismuth_block', name: 'bismuth_block' },
         { fluid: 'forge_frontier:molten_irradium', result: 'enlightened_end:irradium_block', name: 'irradium_block' },
         { fluid: 'forge_frontier:molten_malachite', result: 'enlightened_end:malachite_block', name: 'malachite_block', fluidAmount: 400 },
-        { fluid: 'forge_frontier:molten_steel', result: 'ad_astra:steel_block', name: 'steel_block' }
+        { fluid: 'forge_frontier:molten_steel', result: 'ad_astra:steel_block', name: 'steel_block' },
+        { fluid: 'forge_frontier:molten_guano', result: 'alexscaves:guano_block', name: 'guano_block'},
+        { fluid: 'forge_frontier:molten_scarlet_neodymium', result: 'alexscaves:block_of_scarlet_neodymium', name: 'scarlet_neodymium_block'},
+        { fluid: 'forge_frontier:molten_azure_neodymium', result: 'alexscaves:block_of_azure_neodymium', name: 'azure_neodymium_block'},
+        { fluid: 'forge_frontier:molten_pearl', result: 'alexscaves:block_of_pearl', name: 'pearl_block'},
+        { fluid: 'forge_frontier:molten_sulfur', result: 'alexscaves:sulfur', name: 'sulfur'}
     ];
 
     // Loop through the block recipes and create compacting recipes

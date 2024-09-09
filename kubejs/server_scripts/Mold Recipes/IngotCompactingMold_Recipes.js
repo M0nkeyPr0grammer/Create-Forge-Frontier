@@ -51,5 +51,12 @@ ServerEvents.recipes(event => {
     createIngotMoldRecipe('forge_frontier:molten_desh', 'ad_astra:desh_ingot', 1, 'desh_ingot');
     createIngotMoldRecipe('forge_frontier:molten_ostrum', 'ad_astra:ostrum_ingot', 1, 'ostrum_ingot');
     createIngotMoldRecipe('forge_frontier:molten_calorite', 'ad_astra:calorite_ingot', 1, 'calorite_ingot');
+    createIngotMoldRecipe('forge_frontier:molten_guano','alexscaves:guano', 1, 'guano');
+    createIngotMoldRecipe('forge_frontier:molten_scarlet_neodymium','alexscaves:scarlet_neodymium_ingot', 1, 'scarlet_neodymium');
+    createIngotMoldRecipe('forge_frontier:molten_azure_neodymium','alexscaves:azure_neodymium_ingot', 1, 'azure_neodymium');
+    createIngotMoldRecipe('forge_frontier:molten_pearl','alexscaves:pearl', 1, 'pearl');
+    createIngotMoldRecipe('forge_frontier:molten_amber','alexscaves:amber', 1, 'amber');
+    createIngotMoldRecipe('forge_frontier:molten_sulfur','alexscaves:sulfur_dust', 1, 'sulfur_dust');
+    createIngotMoldRecipe('forge_frontier:molten_echo_shard','minecraft:echo_shard', 1, 'echo_shard');
 
 });
