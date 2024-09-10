@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "evil_eye"
 	group: "56FECAF3F592F5B2"
+	hide_quest_until_deps_visible: true
 	icon: {
 		Count: 1
 		id: "endrem:evil_eye"
@@ -13,6 +14,7 @@
 	id: "1F2431AE913E7F21"
 	images: [
 		{
+			dependency: "3B18C690B23D4C39"
 			height: 5.0d
 			hover: ["Better Archeology: Villager Grave"]
 			image: "forge_frontier:textures/ftb/grave.png"
@@ -22,6 +24,7 @@
 			y: -0.5d
 		}
 		{
+			dependency: "3B18C690B23D4C39"
 			height: 5.0d
 			hover: ["Integrated Villages: Village"]
 			image: "forge_frontier:textures/ftb/village.png"
@@ -31,6 +34,7 @@
 			y: -0.5d
 		}
 		{
+			dependency: "3B18C690B23D4C39"
 			height: 5.0d
 			hover: ["Trail Ruins Overhaul: Trail Ruins"]
 			image: "forge_frontier:textures/ftb/trail_ruins.png"
@@ -44,6 +48,17 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: [
+				"2804714D81DBC612"
+				"70687C80EFC73E9C"
+				"284BDEF93AEBD2EC"
+				"0C981CFA9324ECB0"
+				"315A34615A9806C9"
+				"7076B312288F4317"
+				"3150E068A10C13C9"
+				"654001C24867F118"
+				"7B459C52CF0E2A27"
+			]
 			id: "1EDDECA49014856D"
 			tasks: [{
 				id: "7764ACC3B550FF17"
