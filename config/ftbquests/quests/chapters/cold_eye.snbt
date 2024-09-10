@@ -26,22 +26,12 @@
 		{
 			dependency: "01E99C2EF36E6886"
 			height: 5.0d
-			hover: ["Cataclysm: Ancient Factory"]
-			image: "forge_frontier:textures/ftb/factory.png"
-			rotation: 0.0d
-			width: 9.15d
-			x: -8.5d
-			y: 3.5d
-		}
-		{
-			dependency: "01E99C2EF36E6886"
-			height: 5.0d
 			hover: ["Cataclysm: The Harbinger"]
 			image: "forge_frontier:textures/ftb/harbinger.png"
 			rotation: 0.0d
 			width: 6.5d
-			x: 0.0d
-			y: 9.0d
+			x: -7.5d
+			y: 3.5d
 		}
 		{
 			dependency: "01E99C2EF36E6886"
@@ -135,7 +125,7 @@
 		{
 			dependencies: ["01E99C2EF36E6886"]
 			id: "1F7976ADA8F4F14F"
-			subtitle: "Crafted and used to Locate Ancient Factory"
+			subtitle: "Crafted and used to locate The Ancient Factory"
 			tasks: [{
 				id: "7BEEDEDB537023C6"
 				item: "cataclysm:mech_eye"
@@ -147,6 +137,7 @@
 		{
 			dependencies: ["23901C965E8AEEB2"]
 			id: "1C78565D1FA74056"
+			subtitle: "Obtained by Killing The Harbinger"
 			tasks: [{
 				id: "16EC7F0BC11FCE8E"
 				item: "cataclysm:witherite_ingot"
@@ -158,6 +149,7 @@
 		{
 			dependencies: ["178EC92463C73D5E"]
 			id: "5872119A37E4349F"
+			subtitle: "Obtained by Killing The Harbinger"
 			tasks: [{
 				id: "0C6828E8198C5DFF"
 				item: "cataclysm:witherite_ingot"

@@ -11,23 +11,183 @@
 		}
 	}
 	id: "1C93BC78E9B70643"
+	images: [
+		{
+			height: 5.0d
+			hover: ["IDAS: Desert Pyramid"]
+			image: "forge_frontier:textures/ftb/idas_pyramid.png"
+			rotation: 0.0d
+			width: 10.15d
+			x: -9.5d
+			y: 3.5d
+		}
+		{
+			height: 5.0d
+			hover: ["YUNG's Better Desert Pyramid"]
+			image: "forge_frontier:textures/ftb/better_pyramid.png"
+			rotation: 0.0d
+			width: 6.85d
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			height: 5.0d
+			hover: ["Cataclysm: Cursed Pyramid"]
+			image: "forge_frontier:textures/ftb/cursed_pyramid.png"
+			rotation: 0.0d
+			width: 9.2d
+			x: 0.0d
+			y: -5.0d
+		}
+	]
 	order_index: 5
 	quest_links: [ ]
-	quests: [{
-		id: "11351D359F8A3CCB"
-		tasks: [{
-			id: "6DC27F5B142957B4"
-			item: {
-				Count: 1
-				id: "endrem:old_eye"
-				tag: {
-					Damage: 0
+	quests: [
+		{
+			id: "11351D359F8A3CCB"
+			tasks: [{
+				id: "6DC27F5B142957B4"
+				item: {
+					Count: 1
+					id: "endrem:old_eye"
+					tag: {
+						Damage: 0
+					}
 				}
-			}
-			type: "item"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			id: "08895B783E241712"
+			tasks: [{
+				id: "4AB3F504C7CD2B60"
+				item: "minecraft:sandstone"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			id: "3A5DC8A7FF7ED869"
+			tasks: [{
+				id: "76E03C54F86DCBC1"
+				item: "minecraft:sandstone"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			id: "1CC8DF3277A651D3"
+			tasks: [{
+				id: "36B9F8F80CDE935C"
+				item: "minecraft:sandstone"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			id: "41ADD04D09F5888F"
+			tasks: [{
+				id: "0476EF1313112523"
+				item: "minecraft:sandstone"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			id: "2ECE7415FE16955D"
+			subtitle: "Obtained by Killing the Ancient Remnant"
+			tasks: [{
+				id: "0699DCCB7D8B42DB"
+				item: "cataclysm:remnant_skull"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "70F8E8B7351BD326"
+			subtitle: "Found in Treasure Room"
+			tasks: [{
+				id: "09169E6B8F9A6F8A"
+				item: "forge_frontier:sun_disc"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			id: "3AA6A2F0B7B6E6FA"
+			subtitle: "Found in Pharaoh's Tomb behind his throne"
+			tasks: [{
+				id: "2DBA8E37C085B130"
+				item: "forge_frontier:ras_solar_sword"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			id: "4C5B0C59CE8572DF"
+			subtitle: "Crafted and used to locate The Cursed Pyramid"
+			tasks: [{
+				id: "6368E9A77C179A6B"
+				item: "cataclysm:desert_eye"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			id: "73BDA4BCAB789172"
+			subtitle: "Found in the Overworld"
+			tasks: [{
+				id: "45D9897F7DD447B5"
+				structure: "idas:desert_pyramid"
+				type: "structure"
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			id: "539E68FE82BD18BC"
+			subtitle: "Found in the Overworld"
+			tasks: [{
+				id: "6114FA9CED62BFEF"
+				structure: "betterdeserttemples:desert_temple"
+				type: "structure"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			id: "56A66B08875656D0"
+			subtitle: "Found on Venus"
+			tasks: [{
+				id: "01F2DFF4C0BDCC38"
+				structure: "cataclysm:cursed_pyramid"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["56A66B08875656D0"]
+			id: "57A992F3FCAED45E"
+			subtitle: "Found in Suspicious Sand in the Cursed Pyramid, used to awaken the Ancient Remnant"
+			tasks: [{
+				id: "12B198B018791E51"
+				item: "cataclysm:necklace_of_the_desert"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+	]
 	title: "Old Eye"
 }

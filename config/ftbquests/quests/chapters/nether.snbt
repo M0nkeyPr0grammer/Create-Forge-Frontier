@@ -244,6 +244,7 @@
 			hide_dependency_lines: true
 			id: "486542BF23253839"
 			tasks: [{
+				consume_items: false
 				id: "06F42DEDCFD6E7F9"
 				item: "nether_remastered:seal_of_the_underworld_item"
 				type: "item"

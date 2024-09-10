@@ -101,221 +101,234 @@
 		}
 		{
 			dependencies: ["00AABBBA631B3828"]
+			icon: {
+				Count: 1
+				id: "endrem:lost_eye"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "7EE0A1125DFCB5AF"
 			tasks: [{
-				id: "31CC571FDF21EB2D"
-				item: {
-					Count: 1
-					id: "endrem:lost_eye"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
+				id: "0495A59D74C600DC"
+				title: "Lost Eye Check"
+				type: "checkmark"
 			}]
 			x: 2.0d
 			y: -7.5d
 		}
 		{
 			dependencies: ["00AABBBA631B3828"]
+			icon: {
+				Count: 1
+				id: "endrem:nether_eye"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "2037E72162F48338"
 			tasks: [{
-				id: "5321BD53A805FC5D"
-				item: {
-					Count: 1
-					id: "endrem:nether_eye"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
+				id: "287D96B0415A3473"
+				title: "Nether Eye Check"
+				type: "checkmark"
 			}]
 			x: 4.2d
 			y: -7.0d
 		}
 		{
 			dependencies: ["00AABBBA631B3828"]
+			icon: {
+				Count: 1
+				id: "endrem:old_eye"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "73B3517C59793125"
 			tasks: [{
-				id: "5CF5E3F334A58ADC"
-				item: {
-					Count: 1
-					id: "endrem:old_eye"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
+				id: "2B0208FFE93F70D6"
+				title: "Old Eye Check"
+				type: "checkmark"
 			}]
 			x: 6.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["00AABBBA631B3828"]
+			icon: {
+				Count: 1
+				id: "endrem:rogue_eye"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "5094745CE014E74E"
 			tasks: [{
-				id: "6810DE2B505491B4"
-				item: {
-					Count: 1
-					id: "endrem:rogue_eye"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
+				id: "7F6BF1A757E25786"
+				title: "Rogue Eye Check"
+				type: "checkmark"
 			}]
 			x: -7.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["00AABBBA631B3828"]
+			icon: {
+				Count: 1
+				id: "endrem:cursed_eye"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "0A4D8CFE603872F8"
 			tasks: [{
-				id: "27A77B3148BF7BB5"
-				item: {
-					Count: 1
-					id: "endrem:cursed_eye"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
+				id: "20FD7763D4649E12"
+				title: "Cursed Eye Check"
+				type: "checkmark"
 			}]
 			x: -7.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["00AABBBA631B3828"]
+			icon: {
+				Count: 1
+				id: "endrem:evil_eye"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "3B18C690B23D4C39"
 			tasks: [{
-				id: "7CEF29522CC4026C"
-				item: {
-					Count: 1
-					id: "endrem:evil_eye"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
+				id: "023851720D5899EE"
+				title: "Evil Eye Check"
+				type: "checkmark"
 			}]
 			x: 7.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["00AABBBA631B3828"]
+			icon: {
+				Count: 1
+				id: "endrem:guardian_eye"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "7BAB96552BE32CC7"
 			tasks: [{
-				id: "70B482B16AD6B5F8"
-				item: {
-					Count: 1
-					id: "endrem:guardian_eye"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
+				id: "77ABD99DC7F39C32"
+				title: "Guardian Eye Check"
+				type: "checkmark"
 			}]
 			x: 7.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["00AABBBA631B3828"]
+			icon: {
+				Count: 1
+				id: "endrem:exotic_eye"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "10232D5D9959E8A5"
 			tasks: [{
-				id: "0C81C90E090FD2F2"
-				item: {
-					Count: 1
-					id: "endrem:exotic_eye"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
+				id: "2FDE2949403A2EAE"
+				title: "Aetheric Eye Check"
+				type: "checkmark"
 			}]
 			x: -6.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["00AABBBA631B3828"]
+			icon: {
+				Count: 1
+				id: "endrem:cryptic_eye"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "0D9A77A2F4BA4951"
 			tasks: [{
-				id: "25480B72E68B2FB3"
-				item: {
-					Count: 1
-					id: "endrem:cryptic_eye"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
+				id: "12E7DB9780FCBBA3"
+				title: "Cryptic Eye Check"
+				type: "checkmark"
 			}]
 			x: -4.2d
 			y: 7.0d
 		}
 		{
 			dependencies: ["00AABBBA631B3828"]
+			icon: {
+				Count: 1
+				id: "endrem:undead_eye"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "7B7C6A4F2D966F69"
 			tasks: [{
-				id: "27CE3F01272CE09F"
-				item: {
-					Count: 1
-					id: "endrem:undead_eye"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
+				id: "264B676A508140D5"
+				title: "Warden Eye Check"
+				type: "checkmark"
 			}]
 			x: -2.0d
 			y: 7.5d
 		}
 		{
 			dependencies: ["00AABBBA631B3828"]
+			icon: {
+				Count: 1
+				id: "endrem:magical_eye"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "72DBFC6476091A3A"
 			tasks: [{
-				id: "27998848E13893FE"
-				item: {
-					Count: 1
-					id: "endrem:magical_eye"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
+				id: "299E9DE0678F77C6"
+				title: "Magic Eye Check"
+				type: "checkmark"
 			}]
 			x: 2.0d
 			y: 7.5d
 		}
 		{
 			dependencies: ["00AABBBA631B3828"]
+			icon: {
+				Count: 1
+				id: "endrem:witch_eye"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "6D1F1DB7B6A3DA79"
 			tasks: [{
-				id: "64455F7BE700212D"
-				item: {
-					Count: 1
-					id: "endrem:witch_eye"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
+				id: "1E4ED15D4453FB56"
+				title: "Witch Eye Check"
+				type: "checkmark"
 			}]
 			x: 4.2d
 			y: 7.0d
 		}
 		{
 			dependencies: ["00AABBBA631B3828"]
+			icon: {
+				Count: 1
+				id: "endrem:wither_eye"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "6B63999D63EA981F"
 			tasks: [{
-				id: "0B50E9CF0323D434"
-				item: {
-					Count: 1
-					id: "endrem:wither_eye"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
+				id: "3081D2E582E3E3FB"
+				title: "Wither Eye Check"
+				type: "checkmark"
 			}]
 			x: 6.0d
 			y: 6.0d
