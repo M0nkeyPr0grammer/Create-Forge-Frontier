@@ -2,6 +2,7 @@
   "type": "forge:add_features",
   "biomes": "#minecraft:is_overworld",
   "biome_blacklist": [
+    "#minecraft:is_mountain",
     "#minecraft:is_forest",
     "terralith:scarlet_mountains",
     "regions_unexplored:tropics",
