@@ -90,10 +90,12 @@
 			dependencies: ["56C98E29485174A1"]
 			id: "241A742CA12AE2E3"
 			tasks: [{
+				count: 2L
 				id: "4913C558D6FA5F92"
 				item: "minecraft:diamond"
 				type: "item"
 			}]
+			title: "2/2 Diamonds"
 			x: 1.5d
 			y: 2.0d
 		}
@@ -105,6 +107,7 @@
 				item: "minecraft:diamond"
 				type: "item"
 			}]
+			title: "1/2 Diamonds"
 			x: -1.5d
 			y: 2.0d
 		}
@@ -117,6 +120,7 @@
 				item: "forge_frontier:cannon_ball"
 				type: "item"
 			}]
+			title: "1/2 Cannon Ball"
 			x: -1.5d
 			y: 3.5d
 		}
@@ -125,10 +129,12 @@
 			id: "7CD2E77673329A42"
 			subtitle: "Found in Treasure Room"
 			tasks: [{
+				count: 2L
 				id: "7FEF8C51BFD9EA6F"
 				item: "forge_frontier:cannon_ball"
 				type: "item"
 			}]
+			title: "2/2 Canon Ball"
 			x: 1.5d
 			y: 3.5d
 		}
@@ -171,10 +177,12 @@
 			dependencies: ["56C98E29485174A1"]
 			id: "55464159978E0722"
 			tasks: [{
+				count: 2L
 				id: "3747B5A478A857E9"
 				item: "minecraft:gunpowder"
 				type: "item"
 			}]
+			title: "2/2 Gunpowder"
 			x: 1.5d
 			y: 5.0d
 		}
@@ -186,6 +194,7 @@
 				item: "minecraft:gunpowder"
 				type: "item"
 			}]
+			title: "1/2 Gunpowder"
 			x: -1.5d
 			y: 5.0d
 		}

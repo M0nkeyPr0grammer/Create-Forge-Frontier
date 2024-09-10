@@ -78,10 +78,12 @@
 			dependencies: ["7EE0A1125DFCB5AF"]
 			id: "59257860C8B23F83"
 			tasks: [{
+				count: 4L
 				id: "54E0E73DD52A8ECA"
 				item: "minecraft:ancient_debris"
 				type: "item"
 			}]
+			title: "4/4 Ancient Debris"
 			x: 1.5d
 			y: 5.0d
 		}
@@ -93,6 +95,7 @@
 				item: "minecraft:ancient_debris"
 				type: "item"
 			}]
+			title: "1/4 Ancient Debris"
 			x: -1.5d
 			y: 2.0d
 		}
@@ -100,10 +103,12 @@
 			dependencies: ["7EE0A1125DFCB5AF"]
 			id: "47F2883F0BBABEE8"
 			tasks: [{
+				count: 2L
 				id: "47EE5EDE4E819DF7"
 				item: "minecraft:ancient_debris"
 				type: "item"
 			}]
+			title: "2/4 Ancient Debris"
 			x: 1.5d
 			y: 2.0d
 		}
@@ -201,10 +206,12 @@
 			dependencies: ["7EE0A1125DFCB5AF"]
 			id: "64AAE8BF36CC976D"
 			tasks: [{
+				count: 3L
 				id: "3E0C6555F3152E32"
 				item: "minecraft:ancient_debris"
 				type: "item"
 			}]
+			title: "3/4 Ancient Debris"
 			x: -1.5d
 			y: 5.0d
 		}

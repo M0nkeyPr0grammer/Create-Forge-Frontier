@@ -82,6 +82,7 @@
 				item: "minecraft:red_nether_bricks"
 				type: "item"
 			}]
+			title: "1/4 Red Nether Brick"
 			x: -1.5d
 			y: 2.0d
 		}
@@ -89,10 +90,12 @@
 			dependencies: ["2037E72162F48338"]
 			id: "76DE2AE9F5E1397D"
 			tasks: [{
+				count: 2L
 				id: "267DA21CBF8DA37E"
 				item: "minecraft:red_nether_bricks"
 				type: "item"
 			}]
+			title: "2/4 Red Nether Brick"
 			x: 1.5d
 			y: 2.0d
 		}
@@ -100,10 +103,12 @@
 			dependencies: ["2037E72162F48338"]
 			id: "21B5E0657D938340"
 			tasks: [{
+				count: 3L
 				id: "4DABD7E66C609A9E"
 				item: "minecraft:red_nether_bricks"
 				type: "item"
 			}]
+			title: "3/4 Red Nether Brick"
 			x: -1.5d
 			y: 5.0d
 		}
@@ -111,10 +116,12 @@
 			dependencies: ["2037E72162F48338"]
 			id: "2A689088035DC834"
 			tasks: [{
+				count: 4L
 				id: "2500E1A46B543398"
 				item: "minecraft:red_nether_bricks"
 				type: "item"
 			}]
+			title: "4/4 Red Nether Brick"
 			x: 1.5d
 			y: 5.0d
 		}
@@ -126,6 +133,7 @@
 				item: "forge_frontier:infernal_ingot"
 				type: "item"
 			}]
+			title: "1/2 Infernal Ingot"
 			x: -1.5d
 			y: 3.5d
 		}
@@ -133,10 +141,12 @@
 			dependencies: ["57C6DE38782FB7F4"]
 			id: "3E7F8F12A1F87209"
 			tasks: [{
+				count: 2L
 				id: "776C3E4A992F06D3"
 				item: "forge_frontier:infernal_ingot"
 				type: "item"
 			}]
+			title: "2/2 Infernal Ingot"
 			x: 1.5d
 			y: 3.5d
 		}

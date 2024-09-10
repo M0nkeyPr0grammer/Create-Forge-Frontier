@@ -79,10 +79,12 @@
 			id: "6ACCC703A7B9B3EC"
 			subtitle: "Found on Glacio"
 			tasks: [{
+				count: 3L
 				id: "5A3E4E232FD3645B"
 				item: "ad_astra:permafrost"
 				type: "item"
 			}]
+			title: "3/4 Permafrost"
 			x: -1.5d
 			y: 5.0d
 		}
@@ -91,10 +93,12 @@
 			id: "04D360BF34358FAA"
 			subtitle: "Found on Glacio"
 			tasks: [{
+				count: 2L
 				id: "1E4DF9B829DC8871"
 				item: "ad_astra:permafrost"
 				type: "item"
 			}]
+			title: "2/4 Permafrost"
 			x: 1.5d
 			y: 2.0d
 		}
@@ -107,6 +111,7 @@
 				item: "ad_astra:permafrost"
 				type: "item"
 			}]
+			title: "1/4 Permafrost"
 			x: -1.5d
 			y: 2.0d
 		}
@@ -115,10 +120,12 @@
 			id: "049157C3D9C35903"
 			subtitle: "Found on Glacio"
 			tasks: [{
+				count: 4L
 				id: "0E29B1B3D60467DB"
 				item: "ad_astra:permafrost"
 				type: "item"
 			}]
+			title: "4/4 Permafrost"
 			x: 1.5d
 			y: 5.0d
 		}
@@ -143,6 +150,7 @@
 				item: "cataclysm:witherite_ingot"
 				type: "item"
 			}]
+			title: "1/2 Witherite Ingot"
 			x: -1.5d
 			y: 3.5d
 		}
@@ -151,10 +159,12 @@
 			id: "5872119A37E4349F"
 			subtitle: "Obtained by Killing The Harbinger"
 			tasks: [{
+				count: 2L
 				id: "0C6828E8198C5DFF"
 				item: "cataclysm:witherite_ingot"
 				type: "item"
 			}]
+			title: "2/2 Witherite Ingot"
 			x: 1.5d
 			y: 3.5d
 		}
