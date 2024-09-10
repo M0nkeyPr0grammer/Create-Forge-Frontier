@@ -112,7 +112,7 @@
 		# Allows users to change their display name, as well as admins to change nicknames for other users
 		nick: {
 			# Default: true
-			enabled: false
+			enabled: true
 		}
 		
 		# Allows users to announce their recording or streaming status to the server by using commands
@@ -148,7 +148,7 @@
 			# You can override this with FTB Ranks using ftbessentials.back.cooldown
 			# Default: 30
 			# Range: 0 ~ 604800
-			cooldown: 30
+			cooldown: 15
 			
 			# Default: true
 			enabled: true
@@ -185,7 +185,7 @@
 			# You can override this with FTB Ranks using ftbessentials.home.max
 			# Default: 1
 			# Range: 0 ~ 2147483647
-			max: 1
+			max: 2
 			
 			# Warm-up time before /home command executes (in seconds)
 			# You can override this with FTB Ranks using ftbessentials.home.warmup
@@ -207,7 +207,7 @@
 			# You can override this with FTB Ranks using ftbessentials.rtp.cooldown
 			# Default: 600
 			# Range: 0 ~ 604800
-			cooldown: 300
+			cooldown: 600
 			
 			# Blacklisted dimension ID's for /rtp (player *must not* be in any of these dimensions)
 			# Wildcarded dimensions (e.g. 'somemod:*') are supported
