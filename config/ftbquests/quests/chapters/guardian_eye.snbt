@@ -62,7 +62,7 @@
 			}]
 			title: "1/4 Sponge"
 			x: -1.5d
-			y: -2.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["36C86494B2189E04"]
@@ -106,6 +106,7 @@
 		{
 			dependencies: ["36C86494B2189E04"]
 			id: "7CCF6AF5BBDA2CF9"
+			subtitle: "Crafted using Elder Guardian Slice, which is obtained by killing Elder Guardiuan with a knife"
 			tasks: [{
 				id: "630B25C4B97F6F13"
 				item: "oceansdelight:cabbage_wrapped_elder_guardian"
@@ -118,6 +119,7 @@
 		{
 			dependencies: ["36C86494B2189E04"]
 			id: "3393CF8F7D69D7EE"
+			subtitle: "Crafted using Elder Guardian Slice, which is obtained by killing Elder Guardiuan with a knife"
 			tasks: [{
 				count: 2L
 				id: "5733925E5719E856"
@@ -131,6 +133,7 @@
 		{
 			dependencies: ["36C86494B2189E04"]
 			id: "472BD7E3898BA311"
+			subtitle: "Crafted by using Guardians"
 			tasks: [{
 				id: "4A004D1D576F6881"
 				item: "oceansdelight:guardian_soup"
@@ -138,11 +141,12 @@
 			}]
 			title: "1/2 Guardian Soup"
 			x: -1.5d
-			y: -3.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["36C86494B2189E04"]
 			id: "575BC18B9B405B25"
+			subtitle: "Crafted by using Guardians"
 			tasks: [{
 				id: "41E848F4C6701792"
 				item: "oceansdelight:guardian_soup"
@@ -155,6 +159,7 @@
 		{
 			dependencies: ["7BAB96552BE32CC7"]
 			id: "36C86494B2189E04"
+			subtitle: "Found in the Overworld"
 			tasks: [{
 				id: "7520346528781D93"
 				structure: "betteroceanmonuments:ocean_monument"

@@ -21,7 +21,7 @@
 			rotation: 0.0d
 			width: 6.5d
 			x: -7.5d
-			y: -0.5d
+			y: 3.0d
 		}
 		{
 			dependency: "3B18C690B23D4C39"
@@ -31,7 +31,7 @@
 			rotation: 0.0d
 			width: 8.3d
 			x: 8.0d
-			y: -0.5d
+			y: 3.5d
 		}
 		{
 			dependency: "3B18C690B23D4C39"
@@ -41,7 +41,7 @@
 			rotation: 0.0d
 			width: 5.85d
 			x: 0.0d
-			y: -7.5d
+			y: -3.0d
 		}
 	]
 	order_index: 8
@@ -72,7 +72,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 2.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["3B18C690B23D4C39"]
@@ -85,7 +85,7 @@
 			}]
 			title: "1/4 Compressed 2x Emerald"
 			x: -1.5d
-			y: -2.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3B18C690B23D4C39"]
@@ -99,7 +99,7 @@
 			}]
 			title: "2/4 Compressed 2x Emerald"
 			x: 1.5d
-			y: -2.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3B18C690B23D4C39"]
@@ -113,7 +113,7 @@
 			}]
 			title: "3/4 Compressed 2x Emerald"
 			x: -1.5d
-			y: 1.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["3B18C690B23D4C39"]
@@ -127,7 +127,7 @@
 			}]
 			title: "4/4 Compressed 2x Emerald"
 			x: 1.5d
-			y: 1.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["3AB2001DB652755E"]
@@ -139,7 +139,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -2.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["122D0CCD0CE8861D"]
@@ -151,7 +151,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -0.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["3B18C690B23D4C39"]
@@ -162,7 +162,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 1.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["7229213D46724F8E"]
@@ -174,7 +174,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -0.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["7229213D46724F8E"]
@@ -186,7 +186,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: -0.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["3B18C690B23D4C39"]
@@ -198,7 +198,7 @@
 				type: "structure"
 			}]
 			x: 0.0d
-			y: -4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3B18C690B23D4C39"]
@@ -210,7 +210,7 @@
 				type: "structure"
 			}]
 			x: 3.5d
-			y: -0.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["3B18C690B23D4C39"]
@@ -222,7 +222,7 @@
 				type: "structure"
 			}]
 			x: -3.5d
-			y: -0.5d
+			y: 3.5d
 		}
 	]
 	title: "Evil Eye"

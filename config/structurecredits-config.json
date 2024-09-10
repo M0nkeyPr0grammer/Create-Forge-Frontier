@@ -97,6 +97,15 @@
     "betterdungeons:spider_dungeon",
     "repurposed_structures:pyramid_mushroom",
     "repurposed_structures:mineshaft_end",
-    "dungeons_arise_seven_seas:small_yacht"
+    "dungeons_arise_seven_seas:small_yacht",
+    "repurposed_structures:temple_nether_wasteland",
+    "incendium:piglin_village",
+    "incendium:quartz_kitchen",
+    "incendium:forbidden_castle",
+    "incendium:abandoned_tower",
+    "friendsandfoes:citadel",
+    "structory_towers:ancient_temple",
+    "cataclysm:cursed_pyramid",
+    "minecraft:trail_ruins"
   ]
 }
