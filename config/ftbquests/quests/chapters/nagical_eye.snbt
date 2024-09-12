@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "nagical_eye"
 	group: "56FECAF3F592F5B2"
+	hide_quest_until_deps_visible: true
 	icon: {
 		Count: 1
 		id: "endrem:magical_eye"
@@ -11,23 +12,71 @@
 		}
 	}
 	id: "772EB4D9A98F8BC8"
+	images: [
+		{
+			dependency: "72DBFC6476091A3A"
+			height: 5.0d
+			hover: ["Magical Eye Enchantment Setup Example"]
+			image: "forge_frontier:textures/ftb/magical.png"
+			rotation: 0.0d
+			width: 11.65d
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependency: "72DBFC6476091A3A"
+			height: 2.0d
+			image: "ftbchunks:textures/faces/minecraft/evoker.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.5d
+			y: 1.5d
+		}
+	]
 	order_index: 10
 	quest_links: [ ]
-	quests: [{
-		id: "73E9EC9FED2830A0"
-		tasks: [{
-			id: "308FEF3A699D5676"
-			item: {
-				Count: 1
-				id: "endrem:magical_eye"
-				tag: {
-					Damage: 0
+	quests: [
+		{
+			dependencies: ["73DF623736B936E9"]
+			id: "73E9EC9FED2830A0"
+			tasks: [{
+				id: "308FEF3A699D5676"
+				item: {
+					Count: 1
+					id: "endrem:magical_eye"
+					tag: {
+						Damage: 0
+					}
 				}
-			}
-			type: "item"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2A0FEBB91E8B582F"]
+			id: "73DF623736B936E9"
+			subtitle: "Using the Enchantment Levels mentioned in EMI enchant this Totem of Undying. Obtained from Killing an Evoker"
+			tasks: [{
+				id: "1AE32401F17F6CBB"
+				item: "minecraft:totem_of_undying"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["72DBFC6476091A3A"]
+			id: "2A0FEBB91E8B582F"
+			subtitle: "For this eye you need a similar enchantment table setup as above using shelves from Apotheosis."
+			tasks: [{
+				id: "36A02374CEDD0E0B"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+	]
 	title: "Magical Eye"
 }

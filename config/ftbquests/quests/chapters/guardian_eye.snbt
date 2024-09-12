@@ -12,16 +12,36 @@
 		}
 	}
 	id: "0DB3D1E310EA4C93"
-	images: [{
-		dependency: "7BAB96552BE32CC7"
-		height: 5.0d
-		hover: ["YUNG's Better Ocean Monument"]
-		image: "forge_frontier:textures/ftb/guardian.png"
-		rotation: 0.0d
-		width: 8.65d
-		x: 0.0d
-		y: -5.0d
-	}]
+	images: [
+		{
+			dependency: "7BAB96552BE32CC7"
+			height: 5.0d
+			hover: ["YUNG's Better Ocean Monument"]
+			image: "forge_frontier:textures/ftb/guardian.png"
+			rotation: 0.0d
+			width: 8.65d
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependency: "7BAB96552BE32CC7"
+			height: 2.0d
+			image: "ftbchunks:textures/faces/minecraft/elder_guardian.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependency: "7BAB96552BE32CC7"
+			height: 2.0d
+			image: "ftbchunks:textures/faces/minecraft/guardian.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -4.0d
+			y: 3.5d
+		}
+	]
 	order_index: 9
 	quest_links: [ ]
 	quests: [
