@@ -35,7 +35,7 @@
 			id: "0135EFA96E7A28A2"
 			shape: "pentagon"
 			size: 2.0d
-			subtitle: "Locate by using any of the surrounding eyes"
+			subtitle: "Located by using any of the surrounding eyes"
 			tasks: [{
 				id: "28B2F94CC84D96D2"
 				structure: "integrated_stronghold:stronghold"
@@ -55,6 +55,7 @@
 				}
 			}
 			id: "56C98E29485174A1"
+			subtitle: "Complete Dependencies, and Check Task to unlock Eye Chapter"
 			tasks: [{
 				id: "6E363F062CDF9048"
 				title: "Black Eye Check"
@@ -73,6 +74,7 @@
 				}
 			}
 			id: "01E99C2EF36E6886"
+			subtitle: "Complete Dependencies, and Check Task to unlock Eye Chapter"
 			tasks: [{
 				id: "47C2DF0C39BA3DD5"
 				title: "Cold Eye Check"
@@ -91,6 +93,7 @@
 				}
 			}
 			id: "7F2348D995E5FE43"
+			subtitle: "Complete Dependencies, and Check Task to unlock Eye Chapter"
 			tasks: [{
 				id: "6DAB7F7BB6B5699B"
 				title: "Corrupted Eye Check"
@@ -109,6 +112,7 @@
 				}
 			}
 			id: "7EE0A1125DFCB5AF"
+			subtitle: "Complete Dependencies, and Check Task to unlock Eye Chapter"
 			tasks: [{
 				id: "0495A59D74C600DC"
 				title: "Lost Eye Check"
@@ -127,6 +131,7 @@
 				}
 			}
 			id: "2037E72162F48338"
+			subtitle: "Complete Dependencies, and Check Task to unlock Eye Chapter"
 			tasks: [{
 				id: "287D96B0415A3473"
 				title: "Nether Eye Check"
@@ -145,6 +150,7 @@
 				}
 			}
 			id: "73B3517C59793125"
+			subtitle: "Complete Dependencies, and Check Task to unlock Eye Chapter"
 			tasks: [{
 				id: "2B0208FFE93F70D6"
 				title: "Old Eye Check"
@@ -163,6 +169,7 @@
 				}
 			}
 			id: "5094745CE014E74E"
+			subtitle: "Complete Dependencies, and Check Task to unlock Eye Chapter"
 			tasks: [{
 				id: "7F6BF1A757E25786"
 				title: "Rogue Eye Check"
@@ -181,6 +188,7 @@
 				}
 			}
 			id: "0A4D8CFE603872F8"
+			subtitle: "Complete Dependencies, and Check Task to unlock Eye Chapter"
 			tasks: [{
 				id: "20FD7763D4649E12"
 				title: "Cursed Eye Check"
@@ -199,6 +207,7 @@
 				}
 			}
 			id: "3B18C690B23D4C39"
+			subtitle: "Complete Dependencies, and Check Task to unlock Eye Chapter"
 			tasks: [{
 				id: "023851720D5899EE"
 				title: "Evil Eye Check"
@@ -217,6 +226,7 @@
 				}
 			}
 			id: "7BAB96552BE32CC7"
+			subtitle: "Complete Dependencies, and Check Task to unlock Eye Chapter"
 			tasks: [{
 				id: "77ABD99DC7F39C32"
 				title: "Guardian Eye Check"
@@ -235,6 +245,7 @@
 				}
 			}
 			id: "10232D5D9959E8A5"
+			subtitle: "Complete Dependencies, and Check Task to unlock Eye Chapter"
 			tasks: [{
 				id: "2FDE2949403A2EAE"
 				title: "Aetheric Eye Check"
@@ -253,6 +264,7 @@
 				}
 			}
 			id: "0D9A77A2F4BA4951"
+			subtitle: "Complete Dependencies, and Check Task to unlock Eye Chapter"
 			tasks: [{
 				id: "12E7DB9780FCBBA3"
 				title: "Cryptic Eye Check"
@@ -271,6 +283,7 @@
 				}
 			}
 			id: "7B7C6A4F2D966F69"
+			subtitle: "Complete Dependencies, and Check Task to unlock Eye Chapter"
 			tasks: [{
 				id: "264B676A508140D5"
 				title: "Warden Eye Check"
@@ -289,6 +302,7 @@
 				}
 			}
 			id: "72DBFC6476091A3A"
+			subtitle: "Complete Dependencies, and Check Task to unlock Eye Chapter"
 			tasks: [{
 				id: "299E9DE0678F77C6"
 				title: "Magical Eye Check"
@@ -308,6 +322,7 @@
 				}
 			}
 			id: "6D1F1DB7B6A3DA79"
+			subtitle: "Complete Dependencies, and Check Task to unlock Eye Chapter"
 			tasks: [{
 				id: "1E4ED15D4453FB56"
 				title: "Witch Eye Check"
@@ -326,6 +341,7 @@
 				}
 			}
 			id: "6B63999D63EA981F"
+			subtitle: "Complete Dependencies, and Check Task to unlock Eye Chapter"
 			tasks: [{
 				id: "3081D2E582E3E3FB"
 				title: "Wither Eye Check"

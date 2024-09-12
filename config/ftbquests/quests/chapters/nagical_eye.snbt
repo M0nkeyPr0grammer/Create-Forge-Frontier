@@ -26,6 +26,7 @@
 		{
 			dependency: "72DBFC6476091A3A"
 			height: 2.0d
+			hover: ["Evoker Head"]
 			image: "ftbchunks:textures/faces/minecraft/evoker.png"
 			rotation: 0.0d
 			width: 2.0d

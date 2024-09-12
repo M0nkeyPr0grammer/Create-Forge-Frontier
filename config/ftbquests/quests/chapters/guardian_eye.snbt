@@ -26,6 +26,7 @@
 		{
 			dependency: "7BAB96552BE32CC7"
 			height: 2.0d
+			hover: ["Elder Guardian Head"]
 			image: "ftbchunks:textures/faces/minecraft/elder_guardian.png"
 			rotation: 0.0d
 			width: 2.0d
@@ -35,6 +36,7 @@
 		{
 			dependency: "7BAB96552BE32CC7"
 			height: 2.0d
+			hover: ["Guardian Head"]
 			image: "ftbchunks:textures/faces/minecraft/guardian.png"
 			rotation: 0.0d
 			width: 2.0d

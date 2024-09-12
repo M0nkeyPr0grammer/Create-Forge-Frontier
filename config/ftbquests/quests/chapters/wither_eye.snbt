@@ -26,6 +26,7 @@
 		{
 			dependency: "6B63999D63EA981F"
 			height: 2.0d
+			hover: ["Wither Head"]
 			image: "emi_loot:textures/gui/wither.png"
 			rotation: 0.0d
 			width: 2.0d

@@ -254,6 +254,7 @@
 		}
 		{
 			id: "767465A8B1032AB3"
+			subtitle: "Obtained by Crafting Crying Obsidian with Glass"
 			tasks: [{
 				id: "0C9566FCC4B60DB4"
 				item: "nether_remastered:obisidian_infused_bottle"

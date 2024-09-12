@@ -16,6 +16,7 @@
 		{
 			dependency: "6D1F1DB7B6A3DA79"
 			height: 3.0d
+			hover: ["Brewing Stand"]
 			image: "minecraft:item/brewing_stand"
 			rotation: 0.0d
 			width: 3.0d
@@ -25,6 +26,7 @@
 		{
 			dependency: "6D1F1DB7B6A3DA79"
 			height: 2.0d
+			hover: ["Blaze Head"]
 			image: "ftbchunks:textures/faces/minecraft/blaze.png"
 			rotation: 0.0d
 			width: 2.0d
