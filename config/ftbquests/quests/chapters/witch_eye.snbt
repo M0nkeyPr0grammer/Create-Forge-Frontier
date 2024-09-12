@@ -63,6 +63,7 @@
 				"05A40B9D2E65D2D2"
 			]
 			id: "75090B1B4485CAFF"
+			subtitle: "Crafted in a Brewing Stand or Mixer with the above ingredients * Note if you use a mixer you'll use 1000mb of the specific liquid"
 			tasks: [{
 				count: 4L
 				id: "20666548F197E3D4"
@@ -84,6 +85,7 @@
 				"0A8B1E7EF0150E98"
 			]
 			id: "2FF10C6BB20CE60C"
+			subtitle: "Crafted in a Brewing Stand or Mixer with the above ingredients * Note if you use a mixer you'll use 1000mb of the specific liquid"
 			tasks: [{
 				count: 4L
 				id: "2A62D49E89A45B0E"
@@ -114,7 +116,7 @@
 		{
 			dependencies: ["6D1F1DB7B6A3DA79"]
 			id: "0A8B1E7EF0150E98"
-			subtitle: "Obtained by Capturing the DNA of a Soul Vulture with a DNA Sampler, then Putting the DNA in a Mob Cage"
+			subtitle: "Obtained by Capturing the DNA of a Soul Vulture with a DNA Sampler, then Putting the DNA in a Mob Cage, which is Found in Soul Sand Valleys"
 			tasks: [{
 				count: 2L
 				id: "00AC5688E65B377D"
@@ -130,6 +132,7 @@
 				"6AAA15EFCC05612E"
 			]
 			id: "78D3D157F8B0906C"
+			subtitle: "Crafted in a Brewing Stand or Mixer with the above ingredients * Note if you use a mixer you'll use 1000mb of the specific liquid"
 			tasks: [{
 				count: 4L
 				id: "3BDA8D8C52A28FC0"
@@ -181,6 +184,7 @@
 				"55065BB79FD38689"
 			]
 			id: "220E088B8BB3C8C6"
+			subtitle: "Crafted in a Brewing Stand or Mixer with the above ingredients * Note if you use a mixer you'll use 1000mb of the specific liquid"
 			tasks: [{
 				count: 4L
 				id: "31FAA4A0AB211534"
@@ -214,6 +218,7 @@
 				"0CDD17EC697859B6"
 			]
 			id: "61AAD7857BC9EC5F"
+			subtitle: "Crafted in a Brewing Stand or Mixer with the above ingredients * Note if you use a mixer you'll use 1000mb of the specific liquid"
 			tasks: [{
 				count: 4L
 				id: "10B204790FF6858D"
@@ -232,6 +237,7 @@
 		{
 			dependencies: ["6D1F1DB7B6A3DA79"]
 			id: "507645F56D305C3E"
+			subtitle: "Obtained from Killing a Bone Serpent, which is found in Nether Lava Lakes"
 			tasks: [{
 				count: 2L
 				id: "11648D20ABD163DC"
@@ -244,6 +250,7 @@
 		{
 			dependencies: ["6D1F1DB7B6A3DA79"]
 			id: "0CDD17EC697859B6"
+			subtitle: "Obtained by Spouting Lava into a Bottle"
 			tasks: [{
 				count: 4L
 				id: "5A5EDDB61182C4A1"
@@ -278,6 +285,7 @@
 		{
 			dependencies: ["11C11918822286ED"]
 			id: "191399B59F8D5660"
+			subtitle: "Obtained by Right Clicking a Blaze with Chromatic Compound from Dreams and Desires"
 			tasks: [{
 				count: 9L
 				id: "06F7B8F8DD899601"
@@ -290,6 +298,7 @@
 		{
 			dependencies: ["6D1F1DB7B6A3DA79"]
 			id: "11C11918822286ED"
+			subtitle: "Crafted by Mixing Powdered Obsidian, Polished Rose Quartz, and Polished Spectral Ruby"
 			tasks: [{
 				count: 9L
 				id: "27DF95D900BEEFC8"
