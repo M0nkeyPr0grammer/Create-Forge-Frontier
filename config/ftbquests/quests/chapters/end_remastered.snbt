@@ -291,9 +291,10 @@
 			id: "72DBFC6476091A3A"
 			tasks: [{
 				id: "299E9DE0678F77C6"
-				title: "Magic Eye Check"
+				title: "Magical Eye Check"
 				type: "checkmark"
 			}]
+			title: "Magical Eye Check"
 			x: 2.0d
 			y: 7.5d
 		}
