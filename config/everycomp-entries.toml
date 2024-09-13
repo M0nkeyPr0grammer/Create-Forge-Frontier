@@ -401,3 +401,8 @@
 			pillar_trim = true
 			nightstand = true
 
+		[entries.wood_type.beautify]
+			blinds = true
+			picture_frame = true
+			trellis = true
+

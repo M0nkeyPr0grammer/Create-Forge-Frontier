@@ -3,7 +3,6 @@
 	default_quest_shape: ""
 	filename: "cold_eye"
 	group: "56FECAF3F592F5B2"
-	hide_quest_until_deps_visible: true
 	icon: {
 		Count: 1
 		id: "endrem:cold_eye"

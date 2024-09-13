@@ -3,7 +3,6 @@
 	default_quest_shape: ""
 	filename: "black_eye"
 	group: "56FECAF3F592F5B2"
-	hide_quest_until_deps_visible: true
 	icon: {
 		Count: 1
 		id: "endrem:black_eye"
@@ -62,8 +61,8 @@
 				"11E7679CB4A35869"
 				"1B34FD44D62CD92E"
 				"55464159978E0722"
-				"7CD2E77673329A42"
 				"67BAD586EAB1E509"
+				"7CD2E77673329A42"
 				"30AC0A9F090D0F98"
 				"18D46D47C0F0ED6A"
 				"3DB24512C2084DB6"
@@ -140,6 +139,7 @@
 		}
 		{
 			dependencies: ["29899FC09B1256A5"]
+			hide_text_until_complete: false
 			id: "3DB24512C2084DB6"
 			subtitle: "Found in Treasure Room"
 			tasks: [{

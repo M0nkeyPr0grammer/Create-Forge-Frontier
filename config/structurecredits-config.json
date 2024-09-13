@@ -106,6 +106,8 @@
     "friendsandfoes:citadel",
     "structory_towers:ancient_temple",
     "cataclysm:cursed_pyramid",
-    "minecraft:trail_ruins"
+    "minecraft:trail_ruins",
+    "minecraft:ancient_city",
+    "cataclysm:sunken_city"
   ]
 }
