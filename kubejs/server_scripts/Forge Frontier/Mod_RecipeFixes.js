@@ -125,27 +125,9 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'createappliedkinetics:throw_in_water/fluix_seed/normal'})
     event.remove({ id: 'createappliedkinetics:throw_in_water/certus_seed/catalyzed'})
     event.remove({ id: 'createappliedkinetics:throw_in_water/certus_seed/normal'})
-    event.remove({ id: 'ae2:inscriber/calculation_processor_press'})
-    event.remove({ id: 'ae2:inscriber/logic_processor_press'})
-    event.remove({ id: 'ae2:inscriber/logic_processor_print'})
-    event.remove({ id: 'ae2:inscriber/engineering_processor_print'})
-    event.remove({ id: 'ae2:inscriber/calculation_processor'})
-    event.remove({ id: 'ae2:inscriber/silicon_print'})
-    event.remove({ id: 'ae2:inscriber/certus_quartz_dust'})
-    event.remove({ id: 'ae2:inscriber/calculation_processor_print'})
-    event.remove({ id: 'ae2:inscriber/logic_processor'})
-    event.remove({ id: 'ae2:inscriber/fluix_dust'})
-    event.remove({ id: 'ae2:inscriber/engineering_processor_press'})
-    event.remove({ id: 'ae2:inscriber/silicon_press'})
-    event.remove({ id: 'ae2:network/blocks/inscribers'})
-    event.remove({ id: 'ae2:inscriber/sky_stone_dust'})
-    event.remove({ id: 'ae2:inscriber/engineering_processor'})
-    event.remove({ id: 'ae2:inscriber/ender_dust'})
     event.remove({ id: 'alexsdelight:barbecue_on_a_stick'})
     event.remove({ id: 'collectorsreap:food/lime_green_tea'})
     event.remove({ id: 'collectorsreap:food/pomegranate_black_tea'})
-
-    event.remove({ id: 'createaddition:compat/ae2/charged_certus_quartz' });
     event.remove({ id: 'create:cutting/compat/biomesoplenty/cherry_log' });
     event.remove({ id: 'tfmg:colored_concrete/full_block/yellow_concrete_q' });
     event.remove({ id: 'tfmg:colored_concrete/full_block/red_concrete_q' });
