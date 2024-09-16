@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = drippy_loading_overlay
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1724301749787
+  last_edited_time = 1726515194636
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:92db822d-18d3-4601-9401-e2ca312ac44e-1724301696061] = [groups:][instances:]
+  [loading_requirement_container_meta:e4fd8894-9e97-478f-9889-5a221b99f153-1726515174822] = [groups:][instances:]
 }
 
 customization {
@@ -71,7 +71,7 @@ element {
 }
 
 element {
-  source = [source:local]/config/fancymenu/assets/forgefrontierlogo.png
+  source = [source:local]/config/fancymenu/assets/createforgefrontierlogo.png
   repeat_texture = false
   nine_slice_texture = false
   nine_slice_texture_border_x = 5
