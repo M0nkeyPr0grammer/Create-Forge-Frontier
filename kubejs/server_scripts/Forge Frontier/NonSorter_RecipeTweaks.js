@@ -25,6 +25,36 @@ ServerEvents.recipes(event => {
 	event.remove({ id: 'create_oppenheimered/compacting/amber_from_honey'})
 	event.remove({ id: 'create_dd:superheating/netherite_scrap'})
 
+	// Rose Quartz Adjustments
+	event.remove({ id: 'create:rose_quartz_block_from_rose_quartz_stonecutting'})
+	
+	// Rose Quartz to Block Recipe
+	event.shaped(
+		Item.of('create:rose_quartz_block'),
+		[
+			'RRR',
+			'RRR',
+			'RRR'
+		],
+		{
+			R: 'create:rose_quartz'
+		}
+	).id( 'forge_frontier:shaped/rose_quartz' )
+
+	// Rose Quartz Block to Non Block Shapeless
+	event.custom({
+		type: 'minecraft:crafting_shapeless',
+		ingredients: [
+			{
+				item: 'create:rose_quartz_block'
+			}
+		],
+		result: {
+			item: 'create:rose_quartz',
+			count: 9
+		  }
+	}).id( 'forge_frontier:shapeless/rose_quartz' )
+
 	// Basic Item Collector Recipe
 	event.remove({ id: 'itemcollectors:basic_collector' })
 	event.custom({
