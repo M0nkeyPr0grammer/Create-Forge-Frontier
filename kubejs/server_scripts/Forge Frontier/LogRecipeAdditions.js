@@ -338,6 +338,5 @@ ServerEvents.recipes(event => {
 			}
 		)
 	});
-
 	
 });
