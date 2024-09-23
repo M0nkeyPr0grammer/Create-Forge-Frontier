@@ -1,0 +1,46 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ochrum"
+	group: "3A742C0C73D55180"
+	icon: "molten_vents:active_molten_ochrum"
+	id: "4B7385A38E34A679"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["12FD2F63233E47AE"]
+			id: "49F50D879DE157D5"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "4B55AF4D3C740FEA"
+				type: "dimension"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3BB1E86E70FFC2D2"]
+			id: "12FD2F63233E47AE"
+			tasks: [{
+				id: "7C15E896C8D32E4B"
+				title: "Molten Ore Vent Understanding"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			id: "3BB1E86E70FFC2D2"
+			tasks: [{
+				amount: 1000L
+				fluid: "create_dd:glowberry_milkshake"
+				id: "48DD2A471192A41A"
+				type: "fluid"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+	]
+	title: "Ochrum"
+}

@@ -1,0 +1,57 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "potassic"
+	group: "3A742C0C73D55180"
+	icon: "molten_vents:active_molten_potassic"
+	id: "09A9D02A2B2D3321"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["31D13D8CCD2BF7B0"]
+			id: "5212079DF3154ED8"
+			tasks: [{
+				biome: "#minecraft:is_forest"
+				id: "5B05BAA63A9749CB"
+				type: "biome"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["504456DD7B9531D1"]
+			id: "31D13D8CCD2BF7B0"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "7D2B48747F8DAC3E"
+				type: "dimension"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["58F9D7E103BE74A6"]
+			id: "504456DD7B9531D1"
+			tasks: [{
+				id: "7EB9317CD0627FF4"
+				title: "Molten Ore Vent Understanding"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			id: "58F9D7E103BE74A6"
+			tasks: [{
+				amount: 1000L
+				fluid: "create_dd:vanilla_milkshake"
+				id: "5CB22E0CDD1E410E"
+				type: "fluid"
+			}]
+			x: 0.5d
+			y: -4.5d
+		}
+	]
+	title: "Potassic"
+}

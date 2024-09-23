@@ -1,0 +1,49 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "void_shale"
+	group: "3A742C0C73D55180"
+	icon: "molten_vents:active_molten_void_shale"
+	id: "6B5F7F7214C7997E"
+	order_index: 16
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2FB98AEC5A5EC828"]
+			id: "4DF07C13FA0AAA20"
+			tasks: [{
+				id: "5852CC63748EFFCA"
+				title: "Molten Ore Vent Understanding"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"111089EE21B3E55A"
+				"4DF07C13FA0AAA20"
+			]
+			id: "163D6C1DB2A87EB7"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "54CCE0E63180C951"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "2FB98AEC5A5EC828"
+			tasks: [{
+				amount: 1000L
+				fluid: "create_confectionery:ruby_chocolate"
+				id: "23272F0FEC06E150"
+				type: "fluid"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+	]
+	title: "Void Shale"
+}

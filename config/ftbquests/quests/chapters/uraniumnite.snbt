@@ -1,0 +1,46 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "uraniumnite"
+	group: "3A742C0C73D55180"
+	icon: "molten_vents:active_molten_uraniumnite"
+	id: "0452AA2D5DE38283"
+	order_index: 21
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["209A52BD27956D56"]
+			id: "66F5AA442E33505D"
+			tasks: [{
+				id: "19651D14522E6059"
+				title: "Molten Ore Vent Understanding"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["66F5AA442E33505D"]
+			id: "4DF6D85D5CA080A4"
+			tasks: [{
+				dimension: "forge_frontier:toxic_caves"
+				id: "6E5628A5CE095190"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "209A52BD27956D56"
+			tasks: [{
+				amount: 1000L
+				fluid: "alexscaves:acid"
+				id: "60016C01749F9092"
+				type: "fluid"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+	]
+	title: "Uraniumnite"
+}

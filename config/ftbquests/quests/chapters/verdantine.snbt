@@ -1,0 +1,57 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "verdantine"
+	group: "3A742C0C73D55180"
+	icon: "molten_vents:active_molten_verdantine"
+	id: "02770EB99C4830DC"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7EC25AB55A482E2E"]
+			id: "3BBEFEE675F39759"
+			tasks: [{
+				biome: "#minecraft:is_mountain"
+				id: "63C340C493779E3E"
+				type: "biome"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["657E755310F572DC"]
+			id: "7EC25AB55A482E2E"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "155F0210ACDB8F83"
+				type: "dimension"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3BE5F5CDEA4D0E74"]
+			id: "657E755310F572DC"
+			tasks: [{
+				id: "1A04BD8006B6F04C"
+				title: "Molten Ore Vent Understanding"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			id: "3BE5F5CDEA4D0E74"
+			tasks: [{
+				amount: 1000L
+				fluid: "create_things_and_misc:slime"
+				id: "2ED7940D2302C829"
+				type: "fluid"
+			}]
+			x: 0.5d
+			y: -5.0d
+		}
+	]
+	title: "Verdantine"
+}

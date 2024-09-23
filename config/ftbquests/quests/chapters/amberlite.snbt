@@ -1,0 +1,46 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "amberlite"
+	group: "3A742C0C73D55180"
+	icon: "molten_vents:active_molten_amberlite"
+	id: "69DD4D96993E773D"
+	order_index: 19
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["10D4229FB45F3605"]
+			id: "494B5367F48DE955"
+			tasks: [{
+				id: "6C4B23EB9273E6AB"
+				title: "Molten Ore Vent Understanding"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["494B5367F48DE955"]
+			id: "2079237FB3EBE3C5"
+			tasks: [{
+				dimension: "forge_frontier:primordial_caves"
+				id: "6685284420851AA3"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "10D4229FB45F3605"
+			tasks: [{
+				amount: 1000L
+				fluid: "create:honey"
+				id: "54700B6C428D6DF4"
+				type: "fluid"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+	]
+	title: "Amberlite"
+}

@@ -1,0 +1,49 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "sulphite"
+	group: "3A742C0C73D55180"
+	icon: "molten_vents:active_molten_sulphite"
+	id: "3FAB984440FED5CC"
+	order_index: 22
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["37A747340E985D07"]
+			id: "19AC056A2D89BC99"
+			tasks: [{
+				id: "10F4FC18ED12758B"
+				title: "Molten Ore Vent Understanding"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"66F5AA442E33505D"
+				"19AC056A2D89BC99"
+			]
+			id: "2D89BFE765DFEC19"
+			tasks: [{
+				dimension: "forge_frontier:toxic_caves"
+				id: "6AA5F0F2B2968236"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "37A747340E985D07"
+			tasks: [{
+				amount: 1000L
+				fluid: "alexscaves:acid"
+				id: "635418E3E2EAD752"
+				type: "fluid"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+	]
+	title: "Sulphite"
+}

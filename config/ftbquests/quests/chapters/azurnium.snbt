@@ -1,0 +1,49 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "azurnium"
+	group: "3A742C0C73D55180"
+	icon: "molten_vents:active_molten_azurnium"
+	id: "09102A7646DED8F6"
+	order_index: 24
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5BD5CB85A815A886"]
+			id: "141364387FD72057"
+			tasks: [{
+				id: "1A6BA2C4F1CCD77B"
+				title: "Molten Ore Vent Understanding"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"22EDF41DF1C3A815"
+				"141364387FD72057"
+			]
+			id: "1601FB9137C5437F"
+			tasks: [{
+				dimension: "forge_frontier:magnetic_caves"
+				id: "6660DDD8AA7BCB96"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "5BD5CB85A815A886"
+			tasks: [{
+				amount: 1000L
+				fluid: "forge_frontier:molten_iron"
+				id: "1AE047A8D64760EF"
+				type: "fluid"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+	]
+	title: "Azurnium"
+}
