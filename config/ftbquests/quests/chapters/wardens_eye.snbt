@@ -13,7 +13,7 @@
 	id: "1B72DCE9FCDAA982"
 	images: [
 		{
-			dependency: "7B7C6A4F2D966F69"
+			click: "#03D474E827D8A86E"
 			height: 3.0d
 			hover: ["Warden Head"]
 			image: "ftbchunks:textures/faces/minecraft/warden.png"
@@ -23,7 +23,7 @@
 			y: -1.0d
 		}
 		{
-			dependency: "7B7C6A4F2D966F69"
+			click: "#47E6547A4F973D98"
 			height: 5.0d
 			hover: ["Ancient City Center"]
 			image: "forge_frontier:textures/ftb/ancientcity.png"
@@ -187,6 +187,7 @@
 		{
 			dependencies: ["514317E5ABE29832"]
 			id: "47E6547A4F973D98"
+			subtitle: "The Ancient City is found in the Deep Dark biome"
 			tasks: [{
 				id: "797AC877FA859B77"
 				structure: "minecraft:ancient_city"

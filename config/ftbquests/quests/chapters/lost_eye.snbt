@@ -13,7 +13,7 @@
 	id: "3C4682595178F127"
 	images: [
 		{
-			dependency: "7EE0A1125DFCB5AF"
+			click: "#7D7FE0BFB3F8DCE9"
 			height: 5.0d
 			hover: ["Cataclysm: Soul Black Smith"]
 			image: "forge_frontier:textures/ftb/smith.png"
@@ -23,7 +23,7 @@
 			y: 3.5d
 		}
 		{
-			dependency: "7EE0A1125DFCB5AF"
+			click: "#69904E35F0712829"
 			height: 5.0d
 			hover: ["Cataclysm: Netherite Monstrosity"]
 			image: "forge_frontier:textures/ftb/monstrosity.png"
@@ -33,7 +33,7 @@
 			y: 3.5d
 		}
 		{
-			dependency: "7EE0A1125DFCB5AF"
+			click: "#258A650E322ABBCB"
 			height: 5.0d
 			hover: ["Ad Astra: Mars Temple"]
 			image: "forge_frontier:textures/ftb/mars_temple.png"

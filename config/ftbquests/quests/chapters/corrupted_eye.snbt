@@ -13,7 +13,7 @@
 	id: "2BC90B3059FD2519"
 	images: [
 		{
-			dependency: "7F2348D995E5FE43"
+			click: "#79B273E920F463B9"
 			height: 5.0d
 			hover: ["Verdantine Vent: Found in Mountain Biomes"]
 			image: "forge_frontier:textures/ftb/verdantine.png"
@@ -23,7 +23,7 @@
 			y: 3.5d
 		}
 		{
-			dependency: "7F2348D995E5FE43"
+			click: "#28A5986EC340E0B9"
 			height: 5.0d
 			hover: ["Ochrum Vent: Found in the Overworld"]
 			image: "forge_frontier:textures/ftb/ochrum.png"
@@ -33,7 +33,7 @@
 			y: 3.5d
 		}
 		{
-			dependency: "7F2348D995E5FE43"
+			click: "#67F1DA8051FA8379"
 			height: 5.0d
 			hover: ["Glacium Vent: Found in Mountain Biomes"]
 			image: "forge_frontier:textures/ftb/glacium.png"

@@ -13,7 +13,7 @@
 	id: "1A233423E83B4DA6"
 	images: [
 		{
-			dependency: "56C98E29485174A1"
+			click: "#41A2D7B1261D3612"
 			height: 5.0d
 			hover: ["Seven Seas: Unicorn Galleon"]
 			image: "forge_frontier:textures/ftb/unicorn.png"
@@ -23,7 +23,7 @@
 			y: 3.5d
 		}
 		{
-			dependency: "56C98E29485174A1"
+			click: "#55124A4BC3522728"
 			height: 5.0d
 			hover: ["Seven Seas: Corsair Corvette"]
 			image: "forge_frontier:textures/ftb/corvette.png"
@@ -33,7 +33,7 @@
 			y: 3.5d
 		}
 		{
-			dependency: "56C98E29485174A1"
+			click: "#0D1524E8570194AA"
 			height: 5.0d
 			hover: ["Seven Seas: Victory Frigate"]
 			image: "forge_frontier:textures/ftb/frigate.png"
@@ -43,7 +43,7 @@
 			y: 10.0d
 		}
 		{
-			dependency: "56C98E29485174A1"
+			click: "#29899FC09B1256A5"
 			height: 5.0d
 			hover: ["Seven Seas: Pirate Junk"]
 			image: "forge_frontier:textures/ftb/junk_ship.png"
@@ -67,6 +67,7 @@
 				"18D46D47C0F0ED6A"
 				"3DB24512C2084DB6"
 				"241A742CA12AE2E3"
+				"56C98E29485174A1"
 			]
 			id: "1F79264655FD327E"
 			shape: "pentagon"
@@ -111,7 +112,10 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["55124A4BC3522728"]
+			dependencies: [
+				"55124A4BC3522728"
+				"56C98E29485174A1"
+			]
 			id: "30AC0A9F090D0F98"
 			subtitle: "Found in Treasure Room"
 			tasks: [{
@@ -124,7 +128,10 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["41A2D7B1261D3612"]
+			dependencies: [
+				"41A2D7B1261D3612"
+				"56C98E29485174A1"
+			]
 			id: "7CD2E77673329A42"
 			subtitle: "Found in Treasure Room"
 			tasks: [{
@@ -138,7 +145,10 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["29899FC09B1256A5"]
+			dependencies: [
+				"29899FC09B1256A5"
+				"56C98E29485174A1"
+			]
 			hide_text_until_complete: false
 			id: "3DB24512C2084DB6"
 			subtitle: "Found in Treasure Room"
@@ -151,7 +161,10 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["0D1524E8570194AA"]
+			dependencies: [
+				"0D1524E8570194AA"
+				"56C98E29485174A1"
+			]
 			id: "67BAD586EAB1E509"
 			subtitle: "Found in Treasure Room"
 			tasks: [{
@@ -201,6 +214,7 @@
 		{
 			dependencies: ["56C98E29485174A1"]
 			id: "41A2D7B1261D3612"
+			subtitle: "Locate the Seven Seas Unicorn Galleon"
 			tasks: [{
 				id: "1D010D59E7F44C16"
 				structure: "dungeons_arise_seven_seas:unicorn_galleon"
@@ -212,6 +226,7 @@
 		{
 			dependencies: ["56C98E29485174A1"]
 			id: "55124A4BC3522728"
+			subtitle: "Locate the Seven Seas Corsair Corvette"
 			tasks: [{
 				id: "1877321BBC2C7D5B"
 				structure: "dungeons_arise_seven_seas:corsair_corvette"
@@ -223,6 +238,7 @@
 		{
 			dependencies: ["56C98E29485174A1"]
 			id: "29899FC09B1256A5"
+			subtitle: "Locate the Seven Seas Pirate Junk Ship"
 			tasks: [{
 				id: "11EA9D3688F94C59"
 				structure: "dungeons_arise_seven_seas:pirate_junk"
@@ -234,6 +250,7 @@
 		{
 			dependencies: ["56C98E29485174A1"]
 			id: "0D1524E8570194AA"
+			subtitle: "Locate the Seven Seas Victory Frigate"
 			tasks: [{
 				id: "3D681D9F71F07477"
 				structure: "dungeons_arise_seven_seas:victory_frigate"

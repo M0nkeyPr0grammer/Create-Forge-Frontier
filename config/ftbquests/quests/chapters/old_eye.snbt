@@ -13,7 +13,7 @@
 	id: "1C93BC78E9B70643"
 	images: [
 		{
-			dependency: "73B3517C59793125"
+			click: "#73BDA4BCAB789172"
 			height: 5.0d
 			hover: ["IDAS: Desert Pyramid"]
 			image: "forge_frontier:textures/ftb/idas_pyramid.png"
@@ -23,7 +23,7 @@
 			y: 3.5d
 		}
 		{
-			dependency: "73B3517C59793125"
+			click: "#539E68FE82BD18BC"
 			height: 5.0d
 			hover: ["YUNG's Better Desert Pyramid"]
 			image: "forge_frontier:textures/ftb/better_pyramid.png"
@@ -33,7 +33,7 @@
 			y: 3.5d
 		}
 		{
-			dependency: "73B3517C59793125"
+			click: "#56A66B08875656D0"
 			height: 5.0d
 			hover: ["Cataclysm: Cursed Pyramid"]
 			image: "forge_frontier:textures/ftb/cursed_pyramid.png"

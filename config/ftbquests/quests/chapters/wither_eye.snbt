@@ -13,7 +13,7 @@
 	id: "7D76D5FEC61F19C2"
 	images: [
 		{
-			dependency: "6B63999D63EA981F"
+			click: "#4605F358C391E792"
 			height: 5.0d
 			hover: ["Wither Eye Crafting Setup"]
 			image: "forge_frontier:textures/ftb/wither.png"
@@ -23,7 +23,7 @@
 			y: 6.5d
 		}
 		{
-			dependency: "6B63999D63EA981F"
+			click: "#7E4B0D8CDD9F80E8"
 			height: 2.0d
 			hover: ["Wither Head"]
 			image: "emi_loot:textures/gui/wither.png"
@@ -50,6 +50,7 @@
 				"000455214D51BB2A"
 			]
 			id: "4605F358C391E792"
+			subtitle: "Crafted using the below setup"
 			tasks: [{
 				id: "239220D7DBEEB013"
 				item: {

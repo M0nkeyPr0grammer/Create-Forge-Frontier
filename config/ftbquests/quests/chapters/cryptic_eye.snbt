@@ -12,7 +12,7 @@
 	}
 	id: "1A1D6C91422477FE"
 	images: [{
-		dependency: "0D9A77A2F4BA4951"
+		click: "#53D48FEA9672C6AE"
 		height: 5.0d
 		hover: ["Cryptic Eye Enchanting Example"]
 		image: "forge_frontier:textures/ftb/cryptic.png"

@@ -13,7 +13,7 @@
 	id: "57D4223CAAB0484E"
 	images: [
 		{
-			dependency: "01E99C2EF36E6886"
+			click: "#7940F56649B9CA06"
 			height: 5.0d
 			hover: ["AE2: Meteor"]
 			image: "forge_frontier:textures/ftb/meteor.png"
@@ -23,7 +23,7 @@
 			y: -4.5d
 		}
 		{
-			dependency: "01E99C2EF36E6886"
+			click: "#23901C965E8AEEB2"
 			height: 5.0d
 			hover: ["Cataclysm: The Harbinger"]
 			image: "forge_frontier:textures/ftb/harbinger.png"
@@ -33,7 +33,7 @@
 			y: 3.5d
 		}
 		{
-			dependency: "01E99C2EF36E6886"
+			click: "#178EC92463C73D5E"
 			height: 5.0d
 			hover: ["Cataclysm: Ancient Factory"]
 			image: "forge_frontier:textures/ftb/factory.png"

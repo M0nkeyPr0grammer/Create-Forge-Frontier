@@ -12,7 +12,7 @@
 	}
 	id: "2062CF9DB690ADF6"
 	images: [{
-		dependency: "10232D5D9959E8A5"
+		click: "#2F977BD6D03D487E"
 		height: 5.0d
 		hover: ["Sunken City"]
 		image: "forge_frontier:textures/ftb/sunkencity.png"
@@ -172,6 +172,7 @@
 		{
 			dependencies: ["10232D5D9959E8A5"]
 			id: "2F977BD6D03D487E"
+			subtitle: "The Sunken City is found in ocean biomes"
 			tasks: [{
 				id: "52F11CDE3CE3B63E"
 				structure: "cataclysm:sunken_city"

@@ -13,7 +13,7 @@
 	id: "62E367249000BF84"
 	images: [
 		{
-			dependency: "6D1F1DB7B6A3DA79"
+			click: "#78D3D157F8B0906C"
 			height: 3.0d
 			hover: ["Brewing Stand"]
 			image: "minecraft:item/brewing_stand"
@@ -23,7 +23,7 @@
 			y: -2.0d
 		}
 		{
-			dependency: "6D1F1DB7B6A3DA79"
+			click: "#191399B59F8D5660"
 			height: 2.0d
 			hover: ["Blaze Head"]
 			image: "ftbchunks:textures/faces/minecraft/blaze.png"

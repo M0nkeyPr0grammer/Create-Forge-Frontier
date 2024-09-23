@@ -13,7 +13,7 @@
 	id: "0DB3D1E310EA4C93"
 	images: [
 		{
-			dependency: "7BAB96552BE32CC7"
+			click: "#36C86494B2189E04"
 			height: 5.0d
 			hover: ["YUNG's Better Ocean Monument"]
 			image: "forge_frontier:textures/ftb/guardian.png"
@@ -23,7 +23,7 @@
 			y: -5.0d
 		}
 		{
-			dependency: "7BAB96552BE32CC7"
+			click: "#7CCF6AF5BBDA2CF9"
 			height: 2.0d
 			hover: ["Elder Guardian Head"]
 			image: "ftbchunks:textures/faces/minecraft/elder_guardian.png"
@@ -33,7 +33,7 @@
 			y: 3.5d
 		}
 		{
-			dependency: "7BAB96552BE32CC7"
+			click: "#472BD7E3898BA311"
 			height: 2.0d
 			hover: ["Guardian Head"]
 			image: "ftbchunks:textures/faces/minecraft/guardian.png"

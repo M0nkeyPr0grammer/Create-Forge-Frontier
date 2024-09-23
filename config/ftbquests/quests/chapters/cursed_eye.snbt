@@ -13,7 +13,7 @@
 	id: "6C26C5731413C6D7"
 	images: [
 		{
-			dependency: "0A4D8CFE603872F8"
+			click: "#54B07B408C8DBABC"
 			height: 5.0d
 			hover: ["The Bastion Overhaul: Bastion"]
 			image: "forge_frontier:textures/ftb/bastion.png"
@@ -23,7 +23,7 @@
 			y: 4.0d
 		}
 		{
-			dependency: "0A4D8CFE603872F8"
+			click: "#7596270BC98D12FA"
 			height: 5.0d
 			hover: ["Incendium: Abandoned Tower"]
 			image: "forge_frontier:textures/ftb/tower.png"
@@ -33,7 +33,7 @@
 			y: 4.0d
 		}
 		{
-			dependency: "0A4D8CFE603872F8"
+			click: "#5AC4E8037B2C4D3C"
 			height: 5.0d
 			hover: ["Friends & Foes: Citadel"]
 			image: "forge_frontier:textures/ftb/citadel.png"

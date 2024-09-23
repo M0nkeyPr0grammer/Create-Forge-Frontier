@@ -15,6 +15,7 @@
 			y: 3.5d
 		}
 		{
+			click: "#10E12D942E6F9B1B"
 			height: 5.0d
 			hover: ["IDAS: Ancient Mines"]
 			image: "forge_frontier:textures/ftb/ancientmines.png"
@@ -24,6 +25,7 @@
 			y: 3.5d
 		}
 		{
+			click: "#5619CB9F89C25C87"
 			height: 5.0d
 			hover: ["IDAS: Tinker's Workshop"]
 			image: "forge_frontier:textures/ftb/tinkersworkshop.png"
@@ -33,6 +35,7 @@
 			y: -2.5d
 		}
 		{
+			click: "#2C7C1C96546AD211"
 			height: 5.0d
 			hover: ["IDAS: Witch's Tree Stump"]
 			image: "forge_frontier:textures/ftb/witchestreestump.png"
@@ -42,6 +45,7 @@
 			y: 3.5d
 		}
 		{
+			click: "#7CE7BBA16C2E61E1"
 			height: 5.0d
 			hover: ["IDAS: Ancient Portal"]
 			image: "forge_frontier:textures/ftb/ancientportal.png"
