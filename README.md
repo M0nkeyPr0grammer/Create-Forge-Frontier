@@ -1,9 +1,9 @@
 # Create: Forge Frontier
-![Create - Forge Frontier logo with Beautiful Cliff side in the Background](https://github.com/M0nkeyPr0grammer/Create-Forge-Frontier/blob/b87aecd23d10d322fde7a4074d08c58d5eeda4f6/CreateForgeFrontier_BannerImage.png)
+![Create - Forge Frontier logo with Beautiful Cliff side in the Background](https://github.com/M0nkeyPr0grammer/Create-Forge-Frontier/blob/ec70b91aeee3136ffbaf56eaea782794d7da371a/CreateForgeFrontier_BannerImage.png)
 ## Description
-Discover the pinnacle of Minecraft modding with **Create: Forge Frontier**, 
+Discover the pinnacle of Minecraft modding with **Landscapes Reimagined Forge Frontier**, 
 a masterful sequel to the acclaimed [**Landscapes Reimagined Genesis**](https://modrinth.com/modpack/landscapes-reimagined-genesis). This edition, powered
-by the Forge mod loader, delivers an unparalleled gaming experience, featuring sprawling
+by the NeoForged mod loader, delivers an unparalleled gaming experience, featuring sprawling
 landscapes and intricate structures, courtesy of top-tier mods from YUNG and other notable
 creators. Encounter a rich array of new mobs, delve into numerous quests, and explore custom
 recipes. With cutting-edge additions like Framed Blocks, Sophisticated Backpacks, and 
@@ -16,7 +16,7 @@ Download **Create: Forge Frontier** today and dive into an elevated Minecraft ad
 #### **Interested in joining our Patreon. Check out our benefits [here](https://discord.com/servers/landscapes-reimagined-1097668922737696919), then join our [Discord](https://discord.gg/quenZthXgy)**
 
 ### Want to setup a server using our official server host, click the banner below!
-[![BisectHosting Code](https://raw.githubusercontent.com/M0nkeyPr0grammer/Landscapes-Reimagined/main/BH_Landscape_Reimagined.png)](https://bisecthosting.com/M0nkeyPr0grammer?r=curseforge)
+[![BisectHosting Code](https://raw.githubusercontent.com/M0nkeyPr0grammer/Landscapes-Reimagined/main/BH_Landscape_Reimagined.png)](https://bisecthosting.com/M0nkeyPr0grammer?r=modrinth)
 
 # Included Content
   <details>
