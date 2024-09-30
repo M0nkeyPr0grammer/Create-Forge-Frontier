@@ -1,0 +1,46 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "crimsite"
+	group: "3A742C0C73D55180"
+	icon: "molten_vents:active_molten_crimsite"
+	id: "41C2D96C7BF8DAB1"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["63CC88D0DB9FD63D"]
+			id: "25F5521F7602C90F"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "1176300498D23D38"
+				type: "dimension"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6A4FBBCD0AB5AF66"]
+			id: "63CC88D0DB9FD63D"
+			tasks: [{
+				id: "7AFEA7A297C016DA"
+				title: "Molten Ore Vent Understanding"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			id: "6A4FBBCD0AB5AF66"
+			tasks: [{
+				amount: 1000L
+				fluid: "create_dd:strawberry_milkshake"
+				id: "77759C3839B66382"
+				type: "fluid"
+			}]
+			x: 1.5d
+			y: -4.5d
+		}
+	]
+	title: "Crimsite"
+}

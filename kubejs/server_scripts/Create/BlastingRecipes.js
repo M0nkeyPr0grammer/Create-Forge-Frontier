@@ -1,139 +1,180 @@
 ServerEvents.recipes(event => {
 
-    // Crushed Bismuth Pile
-    event.custom({
-        type: "minecraft:smelting",
-        cookingtime: 200,
-        experience: 0.1,
-        ingredient: {
-            item: 'kubejs:crushed_bismuth_pile'
-        },
-        result: 'enlightened_end:bismuth_block'
-    })
+    // Ore Blasting Recipes
+        // Crushed Lead Pile
+        event.custom({
+            type: "minecraft:smelting",
+            cookingtime: 200,
+            experience: 0.1,
+            ingredient: {
+                item: 'forge_frontier:crushed_lead_pile'
+            },
+            result: 'tfmg:lead_block'
+        }).id('forge_frontier:blasting/crushed_lead_pile')        
 
-    // Crushed Calorite Pile
-    event.custom({
-        type: "minecraft:smelting",
-        cookingtime: 200,
-        experience: 0.1,
-        ingredient: {
-            item: 'kubejs:crushed_calorite_pile'
-        },
-        result: 'ad_astra:calorite_block'
-    })
+        // Crushed Aluminum Pile
+        event.custom({
+            type: "minecraft:smelting",
+            cookingtime: 200,
+            experience: 0.1,
+            ingredient: {
+                item: 'forge_frontier:crushed_aluminum_pile'
+            },
+            result: 'tfmg:aluminum_block'
+        }).id('forge_frontier:blasting/crushed_aluminum_pile')           
 
-    // Crushed Desh Pile
-    event.custom({
-        type: "minecraft:smelting",
-        cookingtime: 200,
-        experience: 0.1,
-        ingredient: {
-            item: 'kubejs:crushed_desh_pile'
-        },
-        result: 'ad_astra:desh_block'
-    })
+        // Crushed Raw Redstone
+        event.custom({
+            type: "minecraft:smelting",
+            cookingtime: 200,
+            experience: 0.1,
+            ingredient: {
+                item: 'forge_frontier:crushed_redstone'
+            },
+            result: 'minecraft:redstone'
+        }).id('forge_frontier:blasting/crushed_raw_redstone')
 
-    // Crushed Irradium Pile
-    event.custom({
-        type: "minecraft:smelting",
-        cookingtime: 200,
-        experience: 0.1,
-        ingredient: {
-            item: 'kubejs:crushed_irradium_pile'
-        },
-        result: 'enlightened_end:irradium_block'
-    })
+        // Crushed Bismuth Pile
+        event.custom({
+            type: "minecraft:smelting",
+            cookingtime: 200,
+            experience: 0.1,
+            ingredient: {
+                item: 'forge_frontier:crushed_bismuth_pile'
+            },
+            result: 'enlightened_end:bismuth_block'
+        }).id('forge_frontier:blasting/crushed_bismuth_pile')
 
-    // Crushed Malachite Pile
-    event.custom({
-        type: "minecraft:smelting",
-        cookingtime: 200,
-        experience: 0.1,
-        ingredient: {
-            item: 'kubejs:crushed_malachite_pile'
-        },
-        result: 'enlightened_end:malachite_block'
-    })
+        // Crushed Calorite Pile
+        event.custom({
+            type: "minecraft:smelting",
+            cookingtime: 200,
+            experience: 0.1,
+            ingredient: {
+                item: 'forge_frontier:crushed_calorite_pile'
+            },
+            result: 'ad_astra:calorite_block'
+        }).id('forge_frontier:blasting/crushed_calorite_pile')
 
-    // Crushed Ostrum Pile
-    event.custom({
-        type: "minecraft:smelting",
-        cookingtime: 200,
-        experience: 0.1,
-        ingredient: {
-            item: 'kubejs:crushed_ostrum_pile'
-        },
-        result: 'ad_astra:ostrum_block'
-    })
+        // Crushed Desh Pile
+        event.custom({
+            type: "minecraft:smelting",
+            cookingtime: 200,
+            experience: 0.1,
+            ingredient: {
+                item: 'forge_frontier:crushed_desh_pile'
+            },
+            result: 'ad_astra:desh_block'
+        }).id('forge_frontier:blasting/crushed_desh_pile')
 
-    // Crushed Tin Pile
-    event.custom({
-        type: "minecraft:smelting",
-        cookingtime: 200,
-        experience: 0.1,
-        ingredient: {
-            item: 'kubejs:crushed_tin_pile'
-        },
-        result: 'create_dd:tin_block'
-    })
+        // Crushed Irradium Pile
+        event.custom({
+            type: "minecraft:smelting",
+            cookingtime: 200,
+            experience: 0.1,
+            ingredient: {
+                item: 'forge_frontier:crushed_irradium_pile'
+            },
+            result: 'enlightened_end:irradium_block'
+        }).id('forge_frontier:blasting/crushed_irradium_pile')
 
-    // Crushed Uranium Pile
-    event.custom({
-        type: "minecraft:smelting",
-        cookingtime: 200,
-        experience: 0.1,
-        ingredient: {
-            item: 'kubejs:crushed_uranium_pile'
-        },
-        result: 'alexscaves:block_of_uranium'
-    })
+        // Crushed Malachite Pile
+        event.custom({
+            type: "minecraft:smelting",
+            cookingtime: 200,
+            experience: 0.1,
+            ingredient: {
+                item: 'forge_frontier:crushed_malachite_pile'
+            },
+            result: 'enlightened_end:malachite_block'
+        }).id('forge_frontier:blasting/crushed_malachite_pile')
 
-    // Crushed Iron Pile
-    event.custom({
-        type: "minecraft:smelting",
-        cookingtime: 200,
-        experience: 0.1,
-        ingredient: {
-            item: 'create_compressed:crushed_iron_pile'
-        },
-        result: 'minecraft:iron_block'
+        // Crushed Ostrum Pile
+        event.custom({
+            type: "minecraft:smelting",
+            cookingtime: 200,
+            experience: 0.1,
+            ingredient: {
+                item: 'forge_frontier:crushed_ostrum_pile'
+            },
+            result: 'ad_astra:ostrum_block'
+        }).id('forge_frontier:blasting/crushed_ostrum_pile')
 
-    })
+        // Crushed Tin Pile
+        event.custom({
+            type: "minecraft:smelting",
+            cookingtime: 200,
+            experience: 0.1,
+            ingredient: {
+                item: 'forge_frontier:crushed_tin_pile'
+            },
+            result: 'create_dd:tin_block'
+        }).id('forge_frontier:blasting/crushed_tin_pile')
 
-    // Crushed Gold Pile
-    event.custom({
-        type: "minecraft:smelting",
-        cookingtime: 200,
-        experience: 0.1,
-        ingredient: {
-            item: 'create_compressed:crushed_gold_pile'
-        },
-        result: 'minecraft:gold_block'
+        // Crushed Uranium Pile
+        event.custom({
+            type: "minecraft:smelting",
+            cookingtime: 200,
+            experience: 0.1,
+            ingredient: {
+                item: 'forge_frontier:crushed_uranium_pile'
+            },
+            result: 'alexscaves:block_of_uranium'
+        }).id('forge_frontier:blasting/crushed_uranium_pile')
 
-    })
+        // Crushed Uranium Pile
+        event.custom({
+            type: "minecraft:smelting",
+            cookingtime: 200,
+            experience: 0.1,
+            ingredient: {
+                item: 'create:crushed_raw_uranium'
+            },
+            result: 'alexscaves:uranium'
+        }).id('forge_frontier:blasting/crushed_raw_uranium')
 
-    // Crushed Copper Pile
-    event.custom({
-        type: "minecraft:smelting",
-        cookingtime: 200,
-        experience: 0.1,
-        ingredient: {
-            item: 'create_compressed:crushed_copper_pile'
-        },
-        result: 'minecraft:copper_block'
+        // Crushed Iron Pile
+        event.custom({
+            type: "minecraft:smelting",
+            cookingtime: 200,
+            experience: 0.1,
+            ingredient: {
+                item: 'create_compressed:crushed_iron_pile'
+            },
+            result: 'minecraft:iron_block'
+        }).id('forge_frontier:blasting/crushed_iron_pile')
 
-    })
+        // Crushed Gold Pile
+        event.custom({
+            type: "minecraft:smelting",
+            cookingtime: 200,
+            experience: 0.1,
+            ingredient: {
+                item: 'create_compressed:crushed_gold_pile'
+            },
+            result: 'minecraft:gold_block'
+        }).id('forge_frontier:blasting/crushed_gold_pile')
 
-    // Crushed Zinc Pile
-    event.custom({
-        type: "minecraft:smelting",
-        cookingtime: 200,
-        experience: 0.1,
-        ingredient: {
-            item: 'create_compressed:crushed_zinc_pile'
-        },
-        result: 'create:zinc_block'
+        // Crushed Copper Pile
+        event.custom({
+            type: "minecraft:smelting",
+            cookingtime: 200,
+            experience: 0.1,
+            ingredient: {
+                item: 'create_compressed:crushed_copper_pile'
+            },
+            result: 'minecraft:copper_block'
+        }).id('forge_frontier:blasting/crushed_copper_pile')
 
-    })
+        // Crushed Zinc Pile
+        event.custom({
+            type: "minecraft:smelting",
+            cookingtime: 200,
+            experience: 0.1,
+            ingredient: {
+                item: 'create_compressed:crushed_zinc_pile'
+            },
+            result: 'create:zinc_block'
+        }).id('forge_frontier:blasting/crushed_zinc_pile')
 
 })

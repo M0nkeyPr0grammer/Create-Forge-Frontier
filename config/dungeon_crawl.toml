@@ -36,7 +36,7 @@
 	#----------------------------------------------------------------------------------------------------+
 	# Whether the hell stage should be built with blocks from the overworld instead from the nether.
 	#
-	no_nether_blocks = false
+	no_nether_blocks = true
 	#----------------------------------------------------------------------------------------------------+
 	# The activation range for the spawners in the dungeons.
 	#

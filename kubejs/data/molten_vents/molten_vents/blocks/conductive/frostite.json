@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "forge_frontier:frostite",
+    "molten_vents:dormant_molten_frostite",
+    "molten_vents:active_molten_frostite"
+  ]
+}

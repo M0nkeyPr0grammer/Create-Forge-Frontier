@@ -1,0 +1,106 @@
+{
+  "block.molten_vents.dormant_molten_potassic": "Dormant Molten Potassic",
+  "block.molten_vents.active_molten_potassic": "Active Molten Potassic",
+  "item.molten_vents.dormant_molten_potassic.tooltip": "Textures Created by Co-Dev Ella from Forge Frontier Team",
+  "item.molten_vents.active_molten_potassic.tooltip": "Textures Created by Co-Dev Ella from Forge Frontier Team",
+
+  "block.molten_vents.dormant_molten_verdantine": "Dormant Molten Verdantine",
+  "block.molten_vents.active_molten_verdantine": "Active Molten Verdantine",
+  "item.molten_vents.dormant_molten_verdantine.tooltip": "Textures Created by Co-Dev Ella from Forge Frontier Team",
+  "item.molten_vents.active_molten_verdantine.tooltip": "Textures Created by Co-Dev Ella from Forge Frontier Team",
+
+  "block.molten_vents.dormant_molten_glacium": "Dormant Molten Glacium",
+  "block.molten_vents.active_molten_glacium": "Active Molten Glacium",
+  "item.molten_vents.dormant_molten_glacium.tooltip": "Textures Created by Co-Dev Ella from Forge Frontier Team",
+  "item.molten_vents.active_molten_glacium.tooltip": "Textures Created by Co-Dev Ella from Forge Frontier Team",
+
+  "block.molten_vents.dormant_molten_scoria": "Dormant Molten Scoria",
+  "block.molten_vents.active_molten_scoria": "Active Molten Scoria",
+  "item.molten_vents.dormant_molten_scoria.tooltip": "Textures Created by Co-Dev Ella from Forge Frontier Team",
+  "item.molten_vents.active_molten_scoria.tooltip": "Textures Created by Co-Dev Ella from Forge Frontier Team",
+
+  "block.molten_vents.dormant_molten_scorchia": "Dormant Molten Scorchia",
+  "block.molten_vents.active_molten_scorchia": "Active Molten Scorchia",
+  "item.molten_vents.dormant_molten_scorchia.tooltip": "Textures Created by Co-Dev Ella from Forge Frontier Team",
+  "item.molten_vents.active_molten_scorchia.tooltip": "Textures Created by Co-Dev Ella from Forge Frontier Team",
+
+  "block.molten_vents.dormant_molten_ancient_debris": "Dormant Molten Ancient Debris",
+  "block.molten_vents.active_molten_ancient_debris": "Active Molten Ancient Debris",
+  "item.molten_vents.dormant_molten_ancient_debris.tooltip": "Textures Created by Co-Dev Ella from Forge Frontier Team",
+  "item.molten_vents.active_molten_ancient_debris.tooltip": "Textures Created by Co-Dev Ella from Forge Frontier Team",
+
+  "block.molten_vents.dormant_molten_sculk_grime": "Dormant Molten Sculk Grime",
+  "block.molten_vents.active_molten_sculk_grime": "Active Molten Sculk Grime",
+  "item.molten_vents.dormant_molten_sculk_grime.tooltip": "Textures Created by Co-Dev Ella from Forge Frontier Team",
+  "item.molten_vents.active_molten_sculk_grime.tooltip": "Textures Created by Co-Dev Ella from Forge Frontier Team",
+
+  "block.molten_vents.dormant_molten_aubrum": "Dormant Molten Aubrum",
+  "block.molten_vents.active_molten_aubrum": "Active Molten Aubrum",
+  "item.molten_vents.dormant_molten_aubrum.tooltip": "Textures Created by Co-Dev Ella from Forge Frontier Team",
+  "item.molten_vents.active_molten_aubrum.tooltip": "Textures Created by Co-Dev Ella from Forge Frontier Team",
+
+  "block.molten_vents.dormant_molten_pyroclast": "Dormant Molten Pyroclast",
+  "block.molten_vents.active_molten_pyroclast": "Active Molten Pyroclast",
+  "item.molten_vents.dormant_molten_pyroclast.tooltip": "Textures Created by Co-Dev Ella from Forge Frontier Team",
+  "item.molten_vents.active_molten_pyroclast.tooltip": "Textures Created by Co-Dev Ella from Forge Frontier Team",
+
+  "block.molten_vents.dormant_molten_frostite": "Dormant Molten Frostite",
+  "block.molten_vents.active_molten_frostite": "Active Molten Frostite",
+  "item.molten_vents.dormant_molten_frostite.tooltip": "Textures Created by Co-Dev Ella from Forge Frontier Team",
+  "item.molten_vents.active_molten_frostite.tooltip": "Textures Created by Co-Dev Ella from Forge Frontier Team",
+
+  "block.molten_vents.dormant_molten_stellaris": "Dormant Molten Stellaris",
+  "block.molten_vents.active_molten_stellaris": "Active Molten Stellaris",
+  "item.molten_vents.dormant_molten_stellaris.tooltip": "Textures Created by Co-Dev Ella from Forge Frontier Team",
+  "item.molten_vents.active_molten_stellaris.tooltip": "Textures Created by Co-Dev Ella from Forge Frontier Team",
+
+  "block.molten_vents.dormant_molten_radiantite": "Dormant Molten Radiantite",
+  "block.molten_vents.active_molten_radiantite": "Active Molten Radiantite",
+  "item.molten_vents.dormant_molten_radiantite.tooltip": "Textures Created by Co-Dev Ella from Forge Frontier Team",
+  "item.molten_vents.active_molten_radiantite.tooltip": "Textures Created by Co-Dev Ella from Forge Frontier Team",
+
+  "block.molten_vents.dormant_molten_void_shale": "Dormant Molten Void Shale",
+  "block.molten_vents.active_molten_void_shale": "Active Molten Void Shale",
+  "item.molten_vents.dormant_molten_void_shale.tooltip": "Textures Created by Co-Dev Ella from Forge Frontier Team",
+  "item.molten_vents.active_molten_void_shale.tooltip": "Textures Created by Co-Dev Ella from Forge Frontier Team",
+
+  "block.molten_vents.dormant_molten_palerock": "Dormant Molten Palerock",
+  "block.molten_vents.active_molten_palerock": "Active Molten Palerock",
+  "item.molten_vents.dormant_molten_palerock.tooltip": "Textures Created by Co-Dev Ella from Forge Frontier Team",
+  "item.molten_vents.active_molten_palerock.tooltip": "Textures Created by Co-Dev Ella from Forge Frontier Team",
+
+  "block.molten_vents.dormant_molten_guanite": "Dormant Molten Guanite",
+  "block.molten_vents.active_molten_guanite": "Active Molten Guanite",
+  "item.molten_vents.dormant_molten_guanite.tooltip": "Textures Created by Co-Dev Ella from Forge Frontier Team",
+  "item.molten_vents.active_molten_guanite.tooltip": "Textures Created by Co-Dev Ella from Forge Frontier Team",
+
+  "block.molten_vents.dormant_molten_pearlyte": "Dormant Molten Pearlyte",
+  "block.molten_vents.active_molten_pearlyte": "Active Molten Pearlyte",
+  "item.molten_vents.dormant_molten_pearlyte.tooltip": "Textures Created by Co-Dev Ella from Forge Frontier Team",
+  "item.molten_vents.active_molten_pearlyte.tooltip": "Textures Created by Co-Dev Ella from Forge Frontier Team",
+
+  "block.molten_vents.dormant_molten_amberlite": "Dormant Molten Amberlite",
+  "block.molten_vents.active_molten_amberlite": "Active Molten Amberlite",
+  "item.molten_vents.dormant_molten_amberlite.tooltip": "Textures Created by Co-Dev Ella from Forge Frontier Team",
+  "item.molten_vents.active_molten_amberlite.tooltip": "Textures Created by Co-Dev Ella from Forge Frontier Team",
+
+  "block.molten_vents.dormant_molten_azurnium": "Dormant Molten Azurnium",
+  "block.molten_vents.active_molten_azurnium": "Active Molten Azurnium",
+  "item.molten_vents.dormant_molten_azurnium.tooltip": "Textures Created by Co-Dev Ella from Forge Frontier Team",
+  "item.molten_vents.active_molten_azurnium.tooltip": "Textures Created by Co-Dev Ella from Forge Frontier Team",
+
+  "block.molten_vents.dormant_molten_neodymrium": "Dormant Molten Neodymrium",
+  "block.molten_vents.active_molten_neodymrium": "Active Molten Neodymrium",
+  "item.molten_vents.dormant_molten_neodymrium.tooltip": "Textures Created by Co-Dev Ella from Forge Frontier Team",
+  "item.molten_vents.active_molten_neodymrium.tooltip": "Textures Created by Co-Dev Ella from Forge Frontier Team",
+
+  "block.molten_vents.dormant_molten_uraniumnite": "Dormant Molten Uraniumnite",
+  "block.molten_vents.active_molten_uraniumnite": "Active Molten Uraniumnite",
+  "item.molten_vents.dormant_molten_uraniumnite.tooltip": "Textures Created by Co-Dev Ella from Forge Frontier Team",
+  "item.molten_vents.active_molten_uraniumnite.tooltip": "Textures Created by Co-Dev Ella from Forge Frontier Team",
+  
+  "block.molten_vents.dormant_molten_sulphite": "Dormant Molten Sulphite",
+  "block.molten_vents.active_molten_sulphite": "Active Molten Sulphite",
+  "item.molten_vents.dormant_molten_sulphite.tooltip": "Textures Created by Co-Dev Ella from Forge Frontier Team",
+  "item.molten_vents.active_molten_sulphite.tooltip": "Textures Created by Co-Dev Ella from Forge Frontier Team"
+}

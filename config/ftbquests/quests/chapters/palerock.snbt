@@ -1,0 +1,49 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "palerock"
+	group: "3A742C0C73D55180"
+	icon: "molten_vents:active_molten_palerock"
+	id: "02A2EE2489A60874"
+	order_index: 17
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["181A2BDCD153747C"]
+			id: "6AE4FD5B93B93D58"
+			tasks: [{
+				id: "2FD61610A1E3B43D"
+				title: "Molten Ore Vent Understanding"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"111089EE21B3E55A"
+				"6AE4FD5B93B93D58"
+			]
+			id: "23716F30398CD953"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "4E9C4AB06C8C32F6"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "181A2BDCD153747C"
+			tasks: [{
+				amount: 1000L
+				fluid: "create_confectionery:ruby_chocolate"
+				id: "3E316FA7CC97A047"
+				type: "fluid"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+	]
+	title: "Palerock"
+}

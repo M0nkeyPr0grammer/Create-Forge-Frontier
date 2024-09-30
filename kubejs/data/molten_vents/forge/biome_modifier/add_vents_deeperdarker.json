@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": "deeperdarker:deeplands",
+  "features": [
+    "molten_vents:sculk_grime_vent"
+  ],
+  "step": "vegetal_decoration"
+}

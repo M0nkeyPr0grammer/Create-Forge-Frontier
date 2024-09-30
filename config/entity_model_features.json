@@ -7,7 +7,22 @@
   "modelExportMode": "NONE",
   "attemptPhysicsModPatch_2": "CUSTOM",
   "modelUpdateFrequency": "Average",
+  "entityRenderModeOverrides": {},
+  "entityPhysicsModPatchOverrides": {},
+  "entityVanillaHologramOverrides": {},
+  "modelsNamesDisabled": [],
   "allowEBEModConfigModify": true,
   "animationLODDistance": 20,
-  "retainDetailOnLowFps": true
+  "retainDetailOnLowFps": true,
+  "retainDetailOnLargerMobs": true,
+  "animationFrameSkipDuringIrisShadowPass": true,
+  "preventFirstPersonHandAnimating": false,
+  "onlyClientPlayerModel": false,
+  "doubleChestAnimFix": true,
+  "variationRequiresDefaultModel": true,
+  "resetPlayerModelEachRender": true,
+  "onlyDebugRenderOnHover": false,
+  "enforceOptifineSubFoldersVariantOnly": true,
+  "enforceOptiFineAnimSyntaxLimits": true,
+  "enforceOptiFineFloorUVs": true
 }

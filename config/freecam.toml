@@ -2,7 +2,7 @@
 [Freecam]
 	#The type of flight used by freecam.
 	#Allowed Values: CREATIVE, DEFAULT
-	"Flight Mode" = "CREATIVE"
+	"Flight Mode" = "DEFAULT"
 	#The horizontal speed of freecam.
 	#Range: 0.0 ~ 10.0
 	"Horizontal Speed" = 1.0
@@ -25,9 +25,9 @@
 	#Whether you can see your hand in freecam.
 	"Show Hand" = false
 	#Increases brightness while in freecam.
-	"Full Brightness" = true
+	"Full Brightness" = false
 	#Whether you see a fog overlay underwater, in lava, or powdered snow.
-	"Show Submersion Fog" = true
+	"Show Submersion Fog" = false
 	#Disables freecam when damage is received.
 	"Disable on Damage" = true
 	#Prevents player movement while freecam is active.

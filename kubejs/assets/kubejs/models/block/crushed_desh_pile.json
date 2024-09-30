@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "kubejs:block/crushed_desh_pile"
-  },
-  "render_type": "solid"
-}

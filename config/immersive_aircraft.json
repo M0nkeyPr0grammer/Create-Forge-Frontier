@@ -6,7 +6,7 @@
   "crashExplosionRadius": 2.0,
   "crashDamage": 2.0,
   "preventKillThroughCrash": true,
-  "healthBarRow": 0,
+  "healthBarRow": 3,
   "damagePerHealthPoint": 30,
   "separateCamera": true,
   "useThirdPersonByDefault": true,

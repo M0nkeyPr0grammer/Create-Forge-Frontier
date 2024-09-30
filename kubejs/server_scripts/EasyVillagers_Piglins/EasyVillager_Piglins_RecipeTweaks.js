@@ -47,7 +47,7 @@ ServerEvents.recipes(event => {
 				item: 'easy_villagers:trader'
 			}
 		]
-	})
+	}).id( 'forge_frontier:compacting/trader' )
 
     // Creates New Auto Trader Recipe
 	event.custom({
@@ -86,7 +86,7 @@ ServerEvents.recipes(event => {
 				item: 'easy_villagers:auto_trader'
 			}
 		]
-	})
+	}).id( 'forge_frontier:compacting/auto_trader' )
 
     // Creates New Farmer Recipe
 	event.custom({
@@ -125,7 +125,7 @@ ServerEvents.recipes(event => {
 				item: 'easy_villagers:farmer'
 			}
 		]
-	})
+	}).id( 'forge_frontier:compacting/farmer' )
 
     // Creates New Breeder Recipe
 	event.custom({
@@ -164,7 +164,7 @@ ServerEvents.recipes(event => {
 				item: 'easy_villagers:breeder'
 			}
 		]
-	})
+	}).id( 'forge_frontier:compacting/breeder' )
 
     // Creates New Converter Recipe
     event.custom({
@@ -203,46 +203,7 @@ ServerEvents.recipes(event => {
 				item: 'easy_villagers:converter'
 			}
 		]
-	})
-
-    // Creates New Iron Farm Recipe
-    event.custom({
-		type: 'create:compacting',
-		ingredients: [
-			{
-				item: 'minecraft:glass_pane'
-			},
-            {
-				item: 'minecraft:glass_pane'
-			},
-            {
-				item: 'minecraft:glass_pane'
-			},
-            {
-				item: 'minecraft:glass_pane'
-			},
-            {
-				item: 'minecraft:glass_pane'
-			},
-            {
-				item: 'minecraft:lava_bucket'
-			},
-			{
-				item: 'allthecompressed:iron_block_1x'
-			},
-            {
-				item: 'minecraft:stone'
-			},
-            {
-				item: 'allthecompressed:iron_block_1x'
-			}
-		],
-		results: [
-			{
-				item: 'easy_villagers:iron_farm'
-			}
-		]
-	})
+	}).id( 'forge_frontier:compacting/converter' )
 
     // Creates New Incubator Recipe
     event.custom({
@@ -278,7 +239,7 @@ ServerEvents.recipes(event => {
 				item: 'easy_villagers:incubator'
 			}
 		]
-	})
+	}).id( 'forge_frontier:compacting/incubator' )
 
     // New Easy Piglin Barterer Recipe
     event.custom({
@@ -317,6 +278,6 @@ ServerEvents.recipes(event => {
 				item: 'easy_piglins:barterer'
 			}
 		]
-	})
+	}).id( 'forge_frontier:compacting/barterer' )
     
 })

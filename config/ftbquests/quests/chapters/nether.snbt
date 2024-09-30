@@ -1,0 +1,306 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "nether"
+	group: "3750F90D875B3398"
+	icon: "nether_remastered:seal_of_the_underworld_item"
+	id: "4939BBE1CB170C9D"
+	images: [
+		{
+			height: 2.0d
+			image: "fancymenu:textures/contextmenu/icons/arrow_down.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			click: "#10E12D942E6F9B1B"
+			height: 5.0d
+			hover: ["IDAS: Ancient Mines"]
+			image: "forge_frontier:textures/ftb/ancientmines.png"
+			rotation: 0.0d
+			width: 9.0d
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			click: "#5619CB9F89C25C87"
+			height: 5.0d
+			hover: ["IDAS: Tinker's Workshop"]
+			image: "forge_frontier:textures/ftb/tinkersworkshop.png"
+			rotation: 0.0d
+			width: 9.0d
+			x: 12.5d
+			y: -2.5d
+		}
+		{
+			click: "#2C7C1C96546AD211"
+			height: 5.0d
+			hover: ["IDAS: Witch's Tree Stump"]
+			image: "forge_frontier:textures/ftb/witchestreestump.png"
+			rotation: 0.0d
+			width: 9.0d
+			x: 12.5d
+			y: 3.5d
+		}
+		{
+			click: "#7CE7BBA16C2E61E1"
+			height: 5.0d
+			hover: ["IDAS: Ancient Portal"]
+			image: "forge_frontier:textures/ftb/ancientportal.png"
+			rotation: 0.0d
+			width: 9.0d
+			x: -3.5d
+			y: -2.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["This ancient portal, once a gateway to distant dimensions, lies buried deep underground, its magic long dormant. Ages ago, in a fateful mishap, its core was transformed into shimmering glass, leaving it a forgotten relic of adventure, now waiting to be rediscovered by those daring enough to uncover its secrets."]
+			id: "7CE7BBA16C2E61E1"
+			shape: "pentagon"
+			subtitle: "Hidden Underground"
+			tasks: [{
+				id: "4668E116A3A3198C"
+				structure: "idas:ancient_portal/ancient_portal"
+				title: "Ancient Portal"
+				type: "structure"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			description: ["The Tinkers Workshop, once a bustling hub of creativity where new tools and armor were forged, now lies silent on the surface. But beneath this abandoned structure, secrets and treasures await, holding the true importance for those bold enough to explore its depths."]
+			id: "5619CB9F89C25C87"
+			shape: "pentagon"
+			subtitle: "Entrance on the surface, treasures lie beneath"
+			tasks: [{
+				id: "5365D7558DF2FCE7"
+				structure: "idas:tinkers_workshop"
+				title: "Tinkers Workshop"
+				type: "structure"
+			}]
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"The Ancient Mines, once renowned for yielding the most precious materials, were sealed after a"
+				"mysterious event to protect the surface dwellers. If you possess the courage to break through the barrier, untold secrets and treasures await those brave enough to venture into the depths below."
+			]
+			id: "10E12D942E6F9B1B"
+			shape: "pentagon"
+			subtitle: "Entrance Sealed, mine far below"
+			tasks: [{
+				id: "0FBE52135DB18C50"
+				structure: "idas:ancient_mines"
+				title: "Ancient Mines"
+				type: "structure"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			description: ["The Witch's Tree Stump, concealed deep within the wilderness, serves as the lair of the dangerous witch sisters. Those bold enough to enter this unassuming abode will face their wrath, but the reward is a trove of valuable loot, perfect for brewing and other arcane pursuits."]
+			id: "2C7C1C96546AD211"
+			shape: "pentagon"
+			subtitle: "Found out in the Wilderness"
+			tasks: [{
+				id: "1F862107BD50E3FE"
+				structure: "idas:witches_treestump"
+				title: "Witch's Tree Stump"
+				type: "structure"
+			}]
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7CE7BBA16C2E61E1"]
+			id: "4022C1C30F94967C"
+			subtitle: "Found in Loot Chest"
+			tasks: [{
+				id: "664D542ADAFAE4EA"
+				item: "nether_remastered:seal_piece_1"
+				match_nbt: false
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5619CB9F89C25C87"]
+			id: "0F3805049AE28F9F"
+			subtitle: "Found in Loot Chest in the Vault"
+			tasks: [{
+				id: "5F41087530C12B64"
+				item: "nether_remastered:seal_piece_2"
+				match_nbt: false
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["10E12D942E6F9B1B"]
+			id: "2904FAB7D1EEF9DA"
+			subtitle: "Found in Minecart Loot Chest"
+			tasks: [{
+				id: "09CF563870F3E88A"
+				item: "nether_remastered:seal_piece_3"
+				match_nbt: false
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2C7C1C96546AD211"]
+			id: "34CAFB5E21900020"
+			subtitle: "Found in Loot Chest"
+			tasks: [{
+				id: "7AD9905782A48872"
+				item: "nether_remastered:seal_piece_4"
+				match_nbt: false
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"541250A87BFC169D"
+				"767465A8B1032AB3"
+			]
+			description: ["The second of four mystical bottles, obtained by vanquishing an undead mob while wielding an Obsidian Bottle in your off hand, begins your journey into the unknown"]
+			hide_dependency_lines: true
+			id: "425E9DAFBC3666BD"
+			subtitle: "Bottle 2/4"
+			tasks: [{
+				count: 2L
+				id: "09D74AF14E861835"
+				item: "nether_remastered:bottled_nether_essence"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["767465A8B1032AB3"]
+			description: ["The first of four mystical bottles, obtained by vanquishing an undead mob while wielding an Obsidian Bottle in your off hand, begins your journey into the unknown"]
+			id: "541250A87BFC169D"
+			subtitle: "Bottle 1/4"
+			tasks: [{
+				id: "77F8FFD4713F2151"
+				item: "nether_remastered:bottled_nether_essence"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"425E9DAFBC3666BD"
+				"767465A8B1032AB3"
+			]
+			description: ["The third of four mystical bottles, obtained by vanquishing an undead mob while wielding an Obsidian Bottle in your off hand, begins your journey into the unknown"]
+			hide_dependency_lines: true
+			id: "2E63B61B39D2A0B6"
+			subtitle: "Bottle 3/4"
+			tasks: [{
+				count: 3L
+				id: "00617FA68CBA4E09"
+				item: "nether_remastered:bottled_nether_essence"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"2E63B61B39D2A0B6"
+				"767465A8B1032AB3"
+			]
+			description: ["The final of four mystical bottles, obtained by vanquishing an undead mob while wielding an Obsidian Bottle in your off hand, begins your journey into the unknown"]
+			hide_dependency_lines: true
+			id: "764CD6B79DF80F96"
+			subtitle: "Bottle 4/4"
+			tasks: [{
+				count: 4L
+				id: "514135D89AA84C1C"
+				item: "nether_remastered:bottled_nether_essence"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"541250A87BFC169D"
+				"425E9DAFBC3666BD"
+				"2E63B61B39D2A0B6"
+				"764CD6B79DF80F96"
+				"786B2E479D58EC68"
+			]
+			description: ["Consume this Seal of the Underworld to unlock the gateway to the Nether and embark on your infernal journey."]
+			hide_dependency_lines: true
+			id: "486542BF23253839"
+			tasks: [{
+				consume_items: false
+				id: "06F42DEDCFD6E7F9"
+				item: "nether_remastered:seal_of_the_underworld_item"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			id: "767465A8B1032AB3"
+			subtitle: "Obtained by Crafting Crying Obsidian with Glass"
+			tasks: [{
+				id: "0C9566FCC4B60DB4"
+				item: "nether_remastered:obisidian_infused_bottle"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"541250A87BFC169D"
+				"425E9DAFBC3666BD"
+				"2E63B61B39D2A0B6"
+				"764CD6B79DF80F96"
+				"34CAFB5E21900020"
+				"4022C1C30F94967C"
+				"0F3805049AE28F9F"
+				"2904FAB7D1EEF9DA"
+			]
+			description: [
+				""
+				"{image:forge_frontier:textures/ftb/hopoportal.png width:226 height:100 align:center}"
+				"Congrats on obtaining all the pieces to the seal of the underworld, you can now craft the seal, consume it, then you will be able to freely travel into the nether. Feel free to use this portal as a means of entering into the Nether."
+			]
+			id: "786B2E479D58EC68"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "01FBDA6D9EDE67C5"
+					structure: "#minecraft:ruined_portal"
+					title: "Nether Portal"
+					type: "structure"
+				}
+				{
+					id: "018C04963381B47E"
+					item: "nether_remastered:seal_crystal"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 0.5d
+		}
+	]
+	title: "Nether Remastered"
+}

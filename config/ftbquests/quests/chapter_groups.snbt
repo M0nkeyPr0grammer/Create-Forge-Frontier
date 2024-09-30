@@ -1,0 +1,7 @@
+{
+	chapter_groups: [
+		{ id: "3750F90D875B3398", title: "Overworld" }
+		{ id: "56FECAF3F592F5B2", title: " End Remastered Eye Collection" }
+		{ id: "3A742C0C73D55180", title: "Molten Ore Vents" }
+	]
+}

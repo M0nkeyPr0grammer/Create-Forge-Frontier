@@ -1,0 +1,17 @@
+{
+  "values": [
+    "#minecraft:freeze_immune_entity_types",
+    "minecraft:snow_golem",
+    "minecraft:stray",
+    "ad_astra:corrupted_lunarian",
+    "ad_astra:star_crawler",
+    "ad_astra:martian_raptor",
+    "ad_astra:lunarian",
+    "cataclysm:the_watcher",
+    "cataclysm:the_prowler",
+    "cataclysm:the_harbinger",
+    "minecraft:blaze",
+    "minecraft:magma_cube",
+    "cataclysm:netherite_monstrosity"
+  ]
+}

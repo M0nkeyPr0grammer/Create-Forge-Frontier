@@ -1,0 +1,46 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "guanite"
+	group: "3A742C0C73D55180"
+	icon: "molten_vents:active_molten_guanite"
+	id: "24EC1CE529BAAAED"
+	order_index: 20
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5391B967669FB81E"]
+			id: "0617766AA1EABF83"
+			tasks: [{
+				id: "3AFEB18F23302692"
+				title: "Molten Ore Vent Understanding"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0617766AA1EABF83"]
+			id: "59F2A4B51E216975"
+			tasks: [{
+				dimension: "forge_frontier:forlorn_hollows"
+				id: "5BFF16388726DBE3"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "5391B967669FB81E"
+			tasks: [{
+				amount: 1000L
+				fluid: "sliceanddice:fertilizer"
+				id: "730EE2958FCC9A60"
+				type: "fluid"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+	]
+	title: "Guanite"
+}

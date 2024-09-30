@@ -1,0 +1,57 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "pyroclast"
+	group: "3A742C0C73D55180"
+	icon: "molten_vents:active_molten_pyroclast"
+	id: "1CE26FF9F305C233"
+	order_index: 12
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["482875F28D3EDDE4"]
+			id: "7899E2834F97D968"
+			tasks: [{
+				dimension: "ad_astra:venus"
+				id: "31BF21054330E68F"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7899E2834F97D968"]
+			id: "144708074CDF64FA"
+			tasks: [{
+				biome: "ad_astra:venus_wastelands"
+				id: "618F9F45D2A0C840"
+				type: "biome"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["541AA04935B1BE70"]
+			id: "482875F28D3EDDE4"
+			tasks: [{
+				id: "1775D476B5FECEC2"
+				title: "Molten Ore Vent Understanding"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			id: "541AA04935B1BE70"
+			tasks: [{
+				amount: 1000L
+				fluid: "createdieselgenerators:biodiesel"
+				id: "54243E9EBD77A22C"
+				type: "fluid"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+	]
+	title: "Pyroclast"
+}

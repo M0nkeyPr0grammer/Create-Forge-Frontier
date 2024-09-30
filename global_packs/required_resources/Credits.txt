@@ -1,34 +1,10 @@
 The Following Assets were provided by external authors
-1.) Create Immersive Aircrafts
-	- Created by nicky__21
-	- https://www.curseforge.com/minecraft/texture-packs/create-immersive-aircrafts-resource-pack
 	
-2.) LootrChestRetexture for Create
-	- Created by soldrk
-	- https://www.curseforge.com/minecraft/texture-packs/lootrchestretexture-for-create
-	
-3.) Copycat Framed Blocks
-	- Created by ULSTICK
-	- https://www.curseforge.com/minecraft/texture-packs/copycat-framed-blocks
-
-4.) End Remastered Ideal
-	- chosti
-	- https://discord.com/invite/D9cxayDNSP
-	
-5.) Sparkles: Stardust Labs Resourcepack
+1.) Sparkles: Stardust Labs Resourcepack
 	- Stardust Labs
 	- https://modrinth.com/resourcepack/sparkles
 
-6.) Sparkles ADDON: Alpha Islands
+2.) Sparkles ADDON: Alpha Islands
 	- Stardust Labs
 	- https://modrinth.com/resourcepack/sparkles-addon-alpha-islands
 
-7.) Fresh Animations
-	- FreshLX
-	- https://modrinth.com/resourcepack/fresh-animations
-	- https://www.curseforge.com/minecraft/texture-packs/fresh-animations
-
-8.) More Mob Variants x Fresh Animations
-	- nyuppo
-	- https://modrinth.com/resourcepack/more-mob-variants-fresh-animations-addon
-	- https://www.curseforge.com/minecraft/texture-packs/more-mob-variants-fresh-animations-addon

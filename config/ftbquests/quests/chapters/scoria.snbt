@@ -1,0 +1,57 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "scoria"
+	group: "3A742C0C73D55180"
+	icon: "molten_vents:active_molten_scoria"
+	id: "72EFECEE939179D0"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["24C16B7F351CBFB4"]
+			id: "38AC6C9C9F7AB916"
+			tasks: [{
+				biome: "#minecraft:is_mountain"
+				id: "52129A9E2EBE63EF"
+				type: "biome"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6BFEFEE956357FAF"]
+			id: "24C16B7F351CBFB4"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "26094EE440137048"
+				type: "dimension"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["07FE2AB677601C3B"]
+			id: "6BFEFEE956357FAF"
+			tasks: [{
+				id: "206307E42ECA9781"
+				title: "Molten Ore Vent Understanding"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			id: "07FE2AB677601C3B"
+			tasks: [{
+				amount: 1000L
+				fluid: "create_dd:chocolate_milkshake"
+				id: "04243F180EA6753F"
+				type: "fluid"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+	]
+	title: "Scoria"
+}

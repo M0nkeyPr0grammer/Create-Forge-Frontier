@@ -6,12 +6,12 @@
 	#Choose the menu row that the Create config button appears on in the main menu
 	#Set to 0 to disable the button altogether
 	#Range: 0 ~ 4
-	mainMenuConfigButtonRow = 2
+	mainMenuConfigButtonRow = 0
 	#.
 	#Choose the menu row that the Create config button appears on in the in-game menu
 	#Set to 0 to disable the button altogether
 	#Range: 0 ~ 5
-	ingameMenuConfigButtonRow = 3
+	ingameMenuConfigButtonRow = 0
 	#.
 	#Higher density means more spawned particles.
 	#Range: 0.0 ~ 1.0
@@ -50,6 +50,9 @@
 	#.
 	#Show item descriptions on Shift and controls on Ctrl.
 	enableTooltips = true
+	#.
+	#Disable to prevent being rotated while seated on a Moving Contraption
+	rotateWhenSeated = true
 
 	#.
 	#Configure your vision range when submerged in Create's custom fluids

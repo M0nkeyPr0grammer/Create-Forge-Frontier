@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "forge_frontier:block/overcharged_netherite_block"
+  },
+  "render_type": "solid"
+}

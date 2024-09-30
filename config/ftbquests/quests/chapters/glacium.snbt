@@ -1,0 +1,57 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "glacium"
+	group: "3A742C0C73D55180"
+	icon: "molten_vents:active_molten_glacium"
+	id: "44401340A0BD3AF6"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["18B47D4797B921B9"]
+			id: "2662947D6BF82BC3"
+			tasks: [{
+				biome: "#minecraft:is_mountain"
+				id: "1CF7E39E16572372"
+				type: "biome"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5FCA73FC564118C9"]
+			id: "18B47D4797B921B9"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "630A6FF2B4269967"
+				type: "dimension"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4426B01778ED9C13"]
+			id: "5FCA73FC564118C9"
+			tasks: [{
+				id: "17B3C247F2F92579"
+				title: "Molten Ore Vent Understanding"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			id: "4426B01778ED9C13"
+			tasks: [{
+				amount: 1000L
+				fluid: "minecraft:lava"
+				id: "005E1A71C6BE932A"
+				type: "fluid"
+			}]
+			x: 0.5d
+			y: -5.0d
+		}
+	]
+	title: "Glacium"
+}

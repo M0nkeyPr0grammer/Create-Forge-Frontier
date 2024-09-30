@@ -1,6 +1,6 @@
 ServerEvents.recipes(event => {
 
-   // Alternate Trapdoor Recipes
+   // Sap Recipes
 	var wood_types = [
         // Minecraft Trees
 		['minecraft:stripped_bamboo_block'],
@@ -21,27 +21,6 @@ ServerEvents.recipes(event => {
         ['quark:stripped_blossom_log'],
         ['quark:stripped_blossom_wood'],
         
-        // Biomes O' Plenty
-        ['biomesoplenty:stripped_fir_log'],
-        ['biomesoplenty:stripped_fir_wood'],
-        ['biomesoplenty:stripped_redwood_log'],
-        ['biomesoplenty:stripped_redwood_wood'],
-        ['biomesoplenty:stripped_mahogany_log'],
-        ['biomesoplenty:stripped_mahogany_wood'],
-        ['biomesoplenty:stripped_jacaranda_log'],
-        ['biomesoplenty:stripped_jacaranda_wood'],
-        ['biomesoplenty:stripped_palm_log'],
-        ['biomesoplenty:stripped_palm_wood'],
-        ['biomesoplenty:stripped_willow_log'],
-        ['biomesoplenty:stripped_willow_wood'],
-        ['biomesoplenty:stripped_dead_log'],
-        ['biomesoplenty:stripped_dead_wood'],
-        ['biomesoplenty:stripped_magic_log'],
-        ['biomesoplenty:stripped_magic_wood'],
-        ['biomesoplenty:stripped_umbran_log'],
-        ['biomesoplenty:stripped_umbran_wood'],
-        ['biomesoplenty:stripped_hellbark_log'],
-        ['biomesoplenty:stripped_hellbark_wood'],
 
         // Dreams and Desires
         ['create_dd:stripped_rose_log'],

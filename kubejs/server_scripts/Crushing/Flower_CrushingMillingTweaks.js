@@ -13,7 +13,7 @@ ServerEvents.recipes(event => {
 			{ item: "minecraft:orange_dye", count: 2 },
 			{ item: "minecraft:red_dye", chance: 0.05 }
 		]
-	}).id('kubejs:milling/hibiscus');
+	}).id('forge_frontier:milling/hibiscus');
 
 	// Mallow
 	event.custom({
@@ -25,7 +25,7 @@ ServerEvents.recipes(event => {
 		results: [
 			{ item: "minecraft:orange_dye", count: 2 }
 		]
-	}).id('kubejs:milling/mallow');
+	}).id('forge_frontier:milling/mallow');
 
 	// Salmon Poppy Bush
 	event.custom({
@@ -37,7 +37,7 @@ ServerEvents.recipes(event => {
 		results: [
 			{ item: "minecraft:pink_dye", count: 2 }
 		]
-	}).id('kubejs:milling/salmon_poppy_bush');
+	}).id('forge_frontier:milling/salmon_poppy_bush');
 
 	// White Trillium
 	event.custom({
@@ -50,7 +50,7 @@ ServerEvents.recipes(event => {
 			{ item: "minecraft:white_dye", count: 2 },
 			{ item: "minecraft:yellow_dye", chance: 0.05 }
 		]
-	}).id('kubejs:milling/white_trillium');
+	}).id('forge_frontier:milling/white_trillium');
 
 	// Wilting Trillium
 	event.custom({
@@ -62,7 +62,7 @@ ServerEvents.recipes(event => {
 		results: [
 			{ item: "minecraft:brown_dye", count: 2 }
 		]
-	}).id('kubejs:milling/wilting_trillium');
+	}).id('forge_frontier:milling/wilting_trillium');
 
 	// Orange Coneflower
 	event.custom({
@@ -75,7 +75,7 @@ ServerEvents.recipes(event => {
 			{ item: "minecraft:orange_dye", count: 2 },
 			{ item: "minecraft:yellow_dye", chance: 0.05 }
 		]
-	}).id('kubejs:milling/orange_coneflower');
+	}).id('forge_frontier:milling/orange_coneflower');
 
 	// Puruple Coneflower
 	event.custom({
@@ -88,7 +88,7 @@ ServerEvents.recipes(event => {
 			{ item: "minecraft:purple_dye", count: 2 },
 			{ item: "minecraft:light_blue_dye", chance: 0.05 }
 		]
-	}).id('kubejs:milling/purple_coneflower');
+	}).id('forge_frontier:milling/purple_coneflower');
 
 	// Blue Magnolia Flowers
 	event.custom({
@@ -100,7 +100,7 @@ ServerEvents.recipes(event => {
 		results: [
 			{ item: "minecraft:light_blue_dye", count: 2 }
 		]
-	}).id('kubejs:milling/blue_magnolia_flowers');
+	}).id('forge_frontier:milling/blue_magnolia_flowers');
 
 	// Pink Magnolia Flowers
 	event.custom({
@@ -112,7 +112,7 @@ ServerEvents.recipes(event => {
 		results: [
 			{ item: "minecraft:pink_dye", count: 2 }
 		]
-	}).id('kubejs:milling/pink_magnolia_flowers');
+	}).id('forge_frontier:milling/pink_magnolia_flowers');
 
 	// White Magnolia Flowers
 	event.custom({
@@ -124,7 +124,7 @@ ServerEvents.recipes(event => {
 		results: [
 			{ item: "minecraft:white_dye", count: 2 }
 		]
-	}).id('kubejs:milling/white_magnolia_flowers');
+	}).id('forge_frontier:milling/white_magnolia_flowers');
 
 	// Day Lily
 	event.custom({
@@ -137,7 +137,7 @@ ServerEvents.recipes(event => {
 			{ item: "minecraft:orange_dye", count: 2 },
 			{ item: "minecraft:red_dye", chance: 0.05 }
 		]
-	}).id('kubejs:milling/day_lily');
+	}).id('forge_frontier:milling/day_lily');
 
 	// Hyancinth
 	event.custom({
@@ -150,7 +150,7 @@ ServerEvents.recipes(event => {
 			{ item: "minecraft:light_blue_dye", count: 2 },
 			{ item: "minecraft:white_dye", chance: 0.05 }
 		]
-	}).id('kubejs:milling/hyacinth_flowers');
+	}).id('forge_frontier:milling/hyacinth_flowers');
 
 	// Glistering Bloom
 	event.custom({
@@ -164,7 +164,7 @@ ServerEvents.recipes(event => {
 			{ item: "minecraft:light_blue_dye", chance: 0.1 },
 			{ item: "minecraft:magenta_dye", chance: 0.05}
 		]
-	}).id('kubejs:milling/glistering_bloom');
+	}).id('forge_frontier:milling/glistering_bloom');
 
 	// Meadow Sage
 	event.custom({
@@ -177,7 +177,7 @@ ServerEvents.recipes(event => {
 			{ item: "minecraft:cyan_dye", count: 2 },
 			{ item: "minecraft:green_dye", chance: 0.05 }
 		]
-	}).id('kubejs:milling/meadow_sage');
+	}).id('forge_frontier:milling/meadow_sage');
 
 	// Pink Petals
 	event.custom({
@@ -189,7 +189,7 @@ ServerEvents.recipes(event => {
 		results: [
 			{ item: "minecraft:pink_dye", count: 2 }
 		]
-	}).id('kubejs:milling/pink_petals');
+	}).id('forge_frontier:milling/pink_petals');
 
 	// Torchflower
 	event.custom({
@@ -201,7 +201,7 @@ ServerEvents.recipes(event => {
 		results: [
 			{ item: "minecraft:orange_dye", count: 2 }
 		]
-	}).id('kubejs:milling/torchflower');
+	}).id('forge_frontier:milling/torchflower');
 
 	// Pitcher Plant
 	event.custom({
@@ -214,7 +214,7 @@ ServerEvents.recipes(event => {
 			{ item: "minecraft:cyan_dye", count: 3 },
 			{ item: "minecraft:purple_dye", chance: 0.05 }
 		]
-	}).id('kubejs:milling/pitcher_plant');
+	}).id('forge_frontier:milling/pitcher_plant');
 
 	// Red Snowbelle
 	event.custom({
@@ -226,7 +226,7 @@ ServerEvents.recipes(event => {
 		results: [
 			{ item: "minecraft:red_dye", count: 3 }
 		]
-	}).id('kubejs:milling/red_snowbelle');
+	}).id('forge_frontier:milling/red_snowbelle');
 
 	// Orange Snowbelle
 	event.custom({
@@ -238,7 +238,7 @@ ServerEvents.recipes(event => {
 		results: [
 			{ item: "minecraft:orange_dye", count: 3 }
 		]
-	}).id('kubejs:milling/orange_snowbelle');
+	}).id('forge_frontier:milling/orange_snowbelle');
 
 	// Yellow Snowbelle
 	event.custom({
@@ -250,7 +250,7 @@ ServerEvents.recipes(event => {
 		results: [
 			{ item: "minecraft:yellow_dye", count: 3 }
 		]
-	}).id('kubejs:milling/yellow_snowbelle');
+	}).id('forge_frontier:milling/yellow_snowbelle');
 
 
 	// Lime Snowbelle
@@ -263,7 +263,7 @@ ServerEvents.recipes(event => {
 		results: [
 			{ item: "minecraft:lime_dye", count: 3 }
 		]
-	}).id('kubejs:milling/lime_snowbelle');
+	}).id('forge_frontier:milling/lime_snowbelle');
 
 	// Green Snowbelle
 	event.custom({
@@ -275,7 +275,7 @@ ServerEvents.recipes(event => {
 		results: [
 			{ item: "minecraft:green_dye", count: 3 }
 		]
-	}).id('kubejs:milling/green_snowbelle');
+	}).id('forge_frontier:milling/green_snowbelle');
 
 	// Cyan Snowbelle
 	event.custom({
@@ -287,7 +287,7 @@ ServerEvents.recipes(event => {
 		results: [
 			{ item: "minecraft:cyan_dye", count: 3 }
 		]
-	}).id('kubejs:milling/cyan_snowbelle');
+	}).id('forge_frontier:milling/cyan_snowbelle');
 
 	// Light Blue Snowbelle
 	event.custom({
@@ -299,7 +299,7 @@ ServerEvents.recipes(event => {
 		results: [
 			{ item: "minecraft:light_blue_dye", count: 3 }
 		]
-	}).id('kubejs:milling/light_blue_snowbelle');
+	}).id('forge_frontier:milling/light_blue_snowbelle');
 
 	// Blue Snowbelle
 	event.custom({
@@ -311,7 +311,7 @@ ServerEvents.recipes(event => {
 		results: [
 			{ item: "minecraft:blue_dye", count: 3 }
 		]
-	}).id('kubejs:milling/blue_snowbelle');
+	}).id('forge_frontier:milling/blue_snowbelle');
 
 	// Purple Snowbelle
 	event.custom({
@@ -323,7 +323,7 @@ ServerEvents.recipes(event => {
 		results: [
 			{ item: "minecraft:purple_dye", count: 3 }
 		]
-	}).id('kubejs:milling/purple_snowbelle');
+	}).id('forge_frontier:milling/purple_snowbelle');
 
 	// Magenta Snowbelle
 	event.custom({
@@ -335,7 +335,7 @@ ServerEvents.recipes(event => {
 		results: [
 			{ item: "minecraft:magenta_dye", count: 3 }
 		]
-	}).id('kubejs:milling/magenta_snowbelle');
+	}).id('forge_frontier:milling/magenta_snowbelle');
 
 	// Pink Snowbelle
 	event.custom({
@@ -347,7 +347,7 @@ ServerEvents.recipes(event => {
 		results: [
 			{ item: "minecraft:pink_dye", count: 3 }
 		]
-	}).id('kubejs:milling/pink_snowbelle');
+	}).id('forge_frontier:milling/pink_snowbelle');
 
 	// Brown Snowbelle
 	event.custom({
@@ -359,7 +359,7 @@ ServerEvents.recipes(event => {
 		results: [
 			{ item: "minecraft:brown_dye", count: 3 }
 		]
-	}).id('kubejs:milling/brown_snowbelle');
+	}).id('forge_frontier:milling/brown_snowbelle');
 
 	// White Snowbelle
 	event.custom({
@@ -371,7 +371,7 @@ ServerEvents.recipes(event => {
 		results: [
 			{ item: "minecraft:white_dye", count: 3 }
 		]
-	}).id('kubejs:milling/white_snowbelle');
+	}).id('forge_frontier:milling/white_snowbelle');
 
 	// Light Gray Snowbelle
 	event.custom({
@@ -383,7 +383,7 @@ ServerEvents.recipes(event => {
 		results: [
 			{ item: "minecraft:light_gray_dye", count: 3 }
 		]
-	}).id('kubejs:milling/light_gray_snowbelle');
+	}).id('forge_frontier:milling/light_gray_snowbelle');
 
 	// Gray Snowbelle
 	event.custom({
@@ -395,7 +395,7 @@ ServerEvents.recipes(event => {
 		results: [
 			{ item: "minecraft:gray_dye", count: 3 }
 		]
-	}).id('kubejs:milling/gray_snowbelle');
+	}).id('forge_frontier:milling/gray_snowbelle');
 
 	// Black Snowbelle
 	event.custom({
@@ -407,6 +407,6 @@ ServerEvents.recipes(event => {
 		results: [
 			{ item: "minecraft:black_dye", count: 3 }
 		]
-	}).id('kubejs:milling/black_snowbelle');
+	}).id('forge_frontier:milling/black_snowbelle');
 
 })

@@ -1,0 +1,47 @@
+{
+  "type": "molten_vents:molten_vent",
+  "config": {
+    "decorativeBlock": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 7,
+          "data": {
+            "Name": "forge_frontier:pyroclast"
+          }
+        }
+      ]
+    },
+    "outerBlock": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 8,
+          "data": {
+            "Name": "forge_frontier:pyroclast"
+          }
+        }
+      ]
+    },
+    "innerBlock": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "molten_vents:dormant_molten_pyroclast"
+      }
+    },
+    "liquidBlock": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "createdieselgenerators:biodiesel"
+      }
+    },
+    "depth": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 10,
+        "max_inclusive": 20
+      }
+    },
+    "underwater": false
+  }
+}

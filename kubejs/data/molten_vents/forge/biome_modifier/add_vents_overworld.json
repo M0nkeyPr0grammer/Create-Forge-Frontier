@@ -1,0 +1,18 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "biome_blacklist": [
+    "#minecraft:is_mountain",
+    "#minecraft:is_forest",
+    "terralith:scarlet_mountains",
+    "regions_unexplored:tropics",
+    "regions_unexplored:joshua_desert",
+    "regions_unexplored:ashen_woodland"
+  ],
+
+  "features": [
+    "molten_vents:crimsite_vent", 
+    "molten_vents:ochrum_vent"
+  ],
+  "step": "vegetal_decoration"
+}

@@ -1,0 +1,461 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "end_remastered"
+	group: "3750F90D875B3398"
+	icon: "minecraft:end_portal_frame"
+	id: "01DD8338C9E8DE75"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"7EE0A1125DFCB5AF"
+				"10232D5D9959E8A5"
+				"6B63999D63EA981F"
+				"3B18C690B23D4C39"
+				"72DBFC6476091A3A"
+				"7B7C6A4F2D966F69"
+				"01E99C2EF36E6886"
+				"56C98E29485174A1"
+				"6D1F1DB7B6A3DA79"
+				"5094745CE014E74E"
+				"73B3517C59793125"
+				"0D9A77A2F4BA4951"
+				"0A4D8CFE603872F8"
+				"2037E72162F48338"
+				"7BAB96552BE32CC7"
+				"7F2348D995E5FE43"
+			]
+			description: [
+				""
+				"{image:forge_frontier:textures/ftb/endportalframe.png width:226 height:100 align:center}"
+			]
+			icon: "minecraft:end_portal_frame"
+			id: "0135EFA96E7A28A2"
+			shape: "pentagon"
+			size: 2.0d
+			subtitle: "Located by using any of the surrounding eyes"
+			tasks: [{
+				id: "28B2F94CC84D96D2"
+				structure: "integrated_stronghold:stronghold"
+				type: "structure"
+			}]
+			title: "Integrated Stronghold"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "endrem:black_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "56C98E29485174A1"
+			subtitle: "Complete Dependencies, and Check Task to unlock Eye Chapter"
+			tasks: [{
+				id: "6E363F062CDF9048"
+				title: "Black Eye Check"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "endrem:cold_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "01E99C2EF36E6886"
+			subtitle: "Complete Dependencies, and Check Task to unlock Eye Chapter"
+			tasks: [{
+				id: "47C2DF0C39BA3DD5"
+				title: "Cold Eye Check"
+				type: "checkmark"
+			}]
+			x: -4.2d
+			y: -7.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "endrem:corrupted_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7F2348D995E5FE43"
+			subtitle: "Complete Dependencies, and Check Task to unlock Eye Chapter"
+			tasks: [{
+				id: "6DAB7F7BB6B5699B"
+				title: "Corrupted Eye Check"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -7.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "endrem:lost_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7EE0A1125DFCB5AF"
+			subtitle: "Complete Dependencies, and Check Task to unlock Eye Chapter"
+			tasks: [{
+				id: "0495A59D74C600DC"
+				title: "Lost Eye Check"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -7.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "endrem:nether_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2037E72162F48338"
+			subtitle: "Complete Dependencies, and Check Task to unlock Eye Chapter"
+			tasks: [{
+				id: "287D96B0415A3473"
+				title: "Nether Eye Check"
+				type: "checkmark"
+			}]
+			x: 4.2d
+			y: -7.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "endrem:old_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "73B3517C59793125"
+			subtitle: "Complete Dependencies, and Check Task to unlock Eye Chapter"
+			tasks: [{
+				id: "2B0208FFE93F70D6"
+				title: "Old Eye Check"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "endrem:rogue_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5094745CE014E74E"
+			subtitle: "Complete Dependencies, and Check Task to unlock Eye Chapter"
+			tasks: [{
+				id: "7F6BF1A757E25786"
+				title: "Rogue Eye Check"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "endrem:cursed_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0A4D8CFE603872F8"
+			subtitle: "Complete Dependencies, and Check Task to unlock Eye Chapter"
+			tasks: [{
+				id: "20FD7763D4649E12"
+				title: "Cursed Eye Check"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "endrem:evil_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3B18C690B23D4C39"
+			subtitle: "Complete Dependencies, and Check Task to unlock Eye Chapter"
+			tasks: [{
+				id: "023851720D5899EE"
+				title: "Evil Eye Check"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "endrem:guardian_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7BAB96552BE32CC7"
+			subtitle: "Complete Dependencies, and Check Task to unlock Eye Chapter"
+			tasks: [{
+				id: "77ABD99DC7F39C32"
+				title: "Guardian Eye Check"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "endrem:exotic_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "10232D5D9959E8A5"
+			subtitle: "Complete Dependencies, and Check Task to unlock Eye Chapter"
+			tasks: [{
+				id: "2FDE2949403A2EAE"
+				title: "Aetheric Eye Check"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "endrem:cryptic_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0D9A77A2F4BA4951"
+			subtitle: "Complete Dependencies, and Check Task to unlock Eye Chapter"
+			tasks: [{
+				id: "12E7DB9780FCBBA3"
+				title: "Cryptic Eye Check"
+				type: "checkmark"
+			}]
+			x: -4.2d
+			y: 7.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "endrem:undead_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7B7C6A4F2D966F69"
+			subtitle: "Complete Dependencies, and Check Task to unlock Eye Chapter"
+			tasks: [{
+				id: "264B676A508140D5"
+				title: "Warden Eye Check"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 7.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "endrem:magical_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "72DBFC6476091A3A"
+			subtitle: "Complete Dependencies, and Check Task to unlock Eye Chapter"
+			tasks: [{
+				id: "299E9DE0678F77C6"
+				title: "Magical Eye Check"
+				type: "checkmark"
+			}]
+			title: "Magical Eye Check"
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "endrem:witch_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6D1F1DB7B6A3DA79"
+			subtitle: "Complete Dependencies, and Check Task to unlock Eye Chapter"
+			tasks: [{
+				id: "1E4ED15D4453FB56"
+				title: "Witch Eye Check"
+				type: "checkmark"
+			}]
+			x: 4.2d
+			y: 7.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "endrem:wither_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6B63999D63EA981F"
+			subtitle: "Complete Dependencies, and Check Task to unlock Eye Chapter"
+			tasks: [{
+				id: "3081D2E582E3E3FB"
+				title: "Wither Eye Check"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"0390E2B2715EA9DF"
+				"4D50BDAAD960E36C"
+				"0557250CCAF265EE"
+				"2122CA96D9BF2063"
+				"649FA6424F729C56"
+				"516CF2A060F13946"
+				"29A5A4E4568E10F4"
+				"43EFD816AF373F71"
+			]
+			description: [""]
+			hide_dependent_lines: true
+			id: "00AABBBA631B3828"
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "Used as a Crafting Ingredient for all the Eyes"
+			tasks: [{
+				count: 14L
+				id: "172E780ABB86EFC8"
+				item: "endrem:undead_soul"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			id: "4D50BDAAD960E36C"
+			subtitle: "Obtained by Killing a Wraith"
+			tasks: [{
+				count: 14L
+				id: "234D20DFCD30C8AD"
+				item: "quark:soul_bead"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -10.5d
+		}
+		{
+			id: "0390E2B2715EA9DF"
+			subtitle: "Obtained by Mixing Lapis, Glow Ink Sack and Liquid XP"
+			tasks: [{
+				count: 70L
+				id: "26F3F4C4C716EAB8"
+				item: "create_enchantment_industry:hyper_experience_bottle"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -12.5d
+		}
+		{
+			id: "0557250CCAF265EE"
+			subtitle: "Obtained by Killing a Ghast"
+			tasks: [{
+				count: 14L
+				id: "65DEA6496AA0FFB3"
+				item: "minecraft:ghast_tear"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -13.0d
+		}
+		{
+			id: "2122CA96D9BF2063"
+			subtitle: "Obtained by Killing a Wither Skeleton"
+			tasks: [{
+				count: 14L
+				id: "73C4572FCFE8A7BD"
+				item: "wstweaks:fragment"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -13.0d
+		}
+		{
+			id: "516CF2A060F13946"
+			subtitle: "Obtained by Using Shears on Cobweb"
+			tasks: [{
+				count: 14L
+				id: "518C11E0998DC16A"
+				item: "minecraft:cobweb"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -12.5d
+		}
+		{
+			id: "649FA6424F729C56"
+			subtitle: "Obtained by Killing a Phantom"
+			tasks: [{
+				count: 14L
+				id: "18A8B5BB6AD14C2F"
+				item: "minecraft:phantom_membrane"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -11.5d
+		}
+		{
+			id: "43EFD816AF373F71"
+			subtitle: "Obtained by Killing a Skeleton"
+			tasks: [{
+				count: 14L
+				id: "5D7F51CF5A2DAF39"
+				item: "minecraft:bone"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -11.5d
+		}
+		{
+			id: "29A5A4E4568E10F4"
+			subtitle: "Obtained by Killing a Zombie"
+			tasks: [{
+				count: 14L
+				id: "378479A947862846"
+				item: "minecraft:rotten_flesh"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -10.5d
+		}
+	]
+	title: "End Remastered"
+}

@@ -1,0 +1,11 @@
+{
+  "type": "forge_frontier:abyssal_chasm_type",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "forge_frontier:abyssal_chasm_settings",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "alexscaves:abyssal_chasm"
+    }
+  }
+}

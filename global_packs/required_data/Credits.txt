@@ -1,84 +1,17 @@
 The Following Assets were provided by external authors
-1.) Better End Cities Vanilla: 
-	- The-Architects727
-	- https://modrinth.com/datapack/better-end-cities-(vanilla)
 
-2.) Create Renewable Ores
-	- F53
-	- https://modrinth.com/datapack/create-renewable-ores
-
-3.) Ender Dragon Fight Remastered
-	- MrGenie151
-	- https://modrinth.com/datapack/edf-remastered
-
-4.) End Remastered Yungs
-	- RoboSoup
-	- https://discord.com/invite/D9cxayDNSP
-	
-5.) Remove Terralith Intro Message
+1.) Remove Terralith Intro Message
 	- Stardust Labs
 	- https://modrinth.com/datapack/remove-terralith-intro-message
 
-6.) Remove Oil Well
-	- Casmin7
-	- https://modrinth.com/datapack/disable-ad-astra-oil-wells
-
-7.) Repurposed Structures - Better Desert Temples
-	- TelepathicGrunt
-	- https://modrinth.com/datapack/repurposed-structures-better-desert-temples-compat
-
-8.) Repurposed Structures - Better Dungeons
-	- TelepathicGrunt
-	- https://modrinth.com/datapack/repurposed-structures-better-dungeons-compat
-
-9.) Repurposed Structures - Better Jungle Temples
-	- TelepathicGrunt
-	- https://modrinth.com/datapack/repurposed-structures-better-jungle-temples
-
-10.) Repurposed Structures - Better Monuments
-	- TelepathicGrunt
-	- https://modrinth.com/datapack/repurposed-structures-better-ocean-monuments-compat
-
-11.) Repurposed Structures - Better Nether Fortress
-	- TelepathicGrunt
-	- https://modrinth.com/datapack/repurposed-structures-better-nether-fortress-compat
-
-12.) Repurposed Structures - Better Strongholds
-	- TelepathicGrunt
-	- https://modrinth.com/datapack/repurposed-structures-better-strongholds-compat
-
-13.) Repurposed Structures - Better Witch Huts
-	- TelepathicGrunt
-	- https://modrinth.com/datapack/repurposed-structures-better-witch-huts-compat
-
-14.) Repurposed Structures - Bountiful
-	- TelepathicGrunt
-	- https://modrinth.com/datapack/repurposed-structures-bountiful-compat
-
-15.) Repurposed Structures - Farmers Delight
-	- TelepathicGrunt
-	- https://modrinth.com/datapack/repurposed-structures-farmers-delight-compat
-
-16.) Repurposed Structures - Friends and Foes 
-	- TelepathicGrunt
-	- https://modrinth.com/datapack/repurposed-structures-friends-and-foes-compat
-
-17.) Repurposed Structures - Villagers Plus
-	- TelepathicGrunt
-	- https://modrinth.com/datapack/repurposed-structures-villagerplus-compat
-
-18.) Shapeless Portals
-	- Gamemode 4
-	- https://modrinth.com/datapack/gm4-shapeless-portals
-
-19.) The Ancient City Overhaul
+2.) The Ancient City Overhaul
 	- nikeyso
 	- https://modrinth.com/datapack/the-ancient-city-overhaul
 
-20.) The Bastion Overhaul
+3.) The Bastion Overhaul
 	- nikeyso
 	- https://modrinth.com/datapack/the-bastion-overhaul
 
-21.) Trail Ruins Overhaul
+4.) Trail Ruins Overhaul
 	- nikeyso
 	- https://modrinth.com/datapack/the-trail-ruins-overhaul

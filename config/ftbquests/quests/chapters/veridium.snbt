@@ -1,0 +1,57 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "veridium"
+	group: "3A742C0C73D55180"
+	icon: "molten_vents:active_molten_veridium"
+	id: "4AC866F058096F75"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["75DB1153DB297607"]
+			id: "34C67EAD5B2A4691"
+			tasks: [{
+				biome: "#minecraft:is_forest"
+				id: "6F72227D442DCB3F"
+				type: "biome"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3CF337426A24485A"]
+			id: "75DB1153DB297607"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "1D5C52FB2910087E"
+				type: "dimension"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0A436C62B2B305E1"]
+			id: "3CF337426A24485A"
+			tasks: [{
+				id: "23BD3AB7DF746D96"
+				title: "Molten Ore Vent Understanding"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			id: "0A436C62B2B305E1"
+			tasks: [{
+				amount: 1000L
+				fluid: "create_dd:caramel_milkshake"
+				id: "5487AE94730D6479"
+				type: "fluid"
+			}]
+			x: 0.5d
+			y: -4.5d
+		}
+	]
+	title: "Veridium"
+}

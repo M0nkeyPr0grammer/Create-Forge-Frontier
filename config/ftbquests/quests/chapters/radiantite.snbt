@@ -1,0 +1,46 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "radiantite"
+	group: "3A742C0C73D55180"
+	icon: "molten_vents:active_molten_radiantite"
+	id: "657CAF714D98DF6F"
+	order_index: 15
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6062D220BACB0D9C"]
+			id: "111089EE21B3E55A"
+			tasks: [{
+				id: "7E1FDD62FB1D8D5F"
+				title: "Molten Ore Vent Understanding"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["111089EE21B3E55A"]
+			id: "375D384E654B80E5"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "02082A18D8D74971"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "6062D220BACB0D9C"
+			tasks: [{
+				amount: 1000L
+				fluid: "create_confectionery:ruby_chocolate"
+				id: "31D48D36ACFDE2A9"
+				type: "fluid"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+	]
+	title: "Radiantite"
+}

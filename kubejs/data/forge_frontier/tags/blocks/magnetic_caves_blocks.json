@@ -1,0 +1,19 @@
+{
+  "values": [
+    "alexscaves:azure_neodymium_pillar",
+    "alexscaves:scarlet_neodymium_pillar",
+    "alexscaves:azure_neodymium_node",
+    "alexscaves:scarlet_neodymium_node",
+    "alexscaves:galena",
+    "alexscaves:galena_iron_ore",
+    "alexscaves:energized_galena_azure",
+    "alexscaves:energized_galena_scarlet",
+    "alexscaves:energized_galena_neutral",
+    "alexscaves:metal_swarf",
+    "alexscaves:galena_spire",
+    "alexscaves:tesla_bulb",
+    "create_new_age:magnetite_block",
+    "minecraft:bedrock",
+    "minecraft:lava"
+  ]
+}
