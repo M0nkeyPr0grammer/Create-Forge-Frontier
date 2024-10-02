@@ -20,7 +20,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["3BB1E86E70FFC2D2"]
 			id: "12FD2F63233E47AE"
 			tasks: [{
 				id: "7C15E896C8D32E4B"
@@ -31,6 +30,11 @@
 			y: -1.5d
 		}
 		{
+			dependencies: [
+				"5571BBC703151732"
+				"07FEFBD13CEC6E1A"
+				"2ED7440C31F68FC7"
+			]
 			id: "3BB1E86E70FFC2D2"
 			tasks: [{
 				amount: 1000L
@@ -39,7 +43,177 @@
 				type: "fluid"
 			}]
 			x: 0.5d
-			y: -3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5E615D7FF01E3BFA"]
+			id: "07FEFBD13CEC6E1A"
+			tasks: [{
+				count: 4L
+				id: "5C69BAEA29632277"
+				item: { Count: 4, id: "minecraft:sugar" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"5FD0DFDEC805ED7E"
+				"31222A56D7ED2D22"
+			]
+			id: "2ED7440C31F68FC7"
+			tasks: [{
+				amount: 1000L
+				fluid: "create_dd:cream"
+				id: "03B78BDE7C781B9F"
+				type: "fluid"
+			}]
+			x: 0.5d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"3419E256DD9D7A06"
+				"651C8738BAC5E8DD"
+				"340506FCB4F31885"
+			]
+			id: "5571BBC703151732"
+			tasks: [{
+				amount: 1000L
+				fluid: "create_dd:glowberry"
+				id: "13EFB255552C0DBE"
+				type: "fluid"
+			}]
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["070BAAF36335CB39"]
+			id: "31222A56D7ED2D22"
+			tasks: [{
+				count: 16L
+				id: "2D3ED0CCF578B1BE"
+				item: { Count: 16, id: "minecraft:snowball" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"4883B3DC0D6C57C0"
+				"40FE7DCB61F3B1CE"
+				"15A49F0E45E65203"
+			]
+			id: "5FD0DFDEC805ED7E"
+			tasks: [{
+				amount: 1000L
+				fluid: "create_dd:condense_milk"
+				id: "38003623189C1BF5"
+				type: "fluid"
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5E615D7FF01E3BFA"]
+			id: "40FE7DCB61F3B1CE"
+			tasks: [{
+				count: 8L
+				id: "10D91ADF4F5B33DA"
+				item: { Count: 8, id: "minecraft:sugar" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["070BAAF36335CB39"]
+			id: "4883B3DC0D6C57C0"
+			tasks: [{
+				amount: 1000L
+				fluid: "minecraft:water"
+				id: "13E5DBC0C3E57888"
+				type: "fluid"
+			}]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["070BAAF36335CB39"]
+			id: "15A49F0E45E65203"
+			tasks: [{
+				amount: 1000L
+				fluid: "minecraft:milk"
+				id: "2DD76C616246A45A"
+				type: "fluid"
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5E615D7FF01E3BFA"]
+			id: "651C8738BAC5E8DD"
+			tasks: [{
+				count: 2L
+				id: "131775EB2010DF39"
+				item: { Count: 2, id: "minecraft:sugar" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["070BAAF36335CB39"]
+			id: "3419E256DD9D7A06"
+			tasks: [{
+				count: 4L
+				id: "0F067A36394B25B1"
+				item: { Count: 4, id: "minecraft:glow_berries" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["070BAAF36335CB39"]
+			id: "340506FCB4F31885"
+			tasks: [{
+				amount: 1000L
+				fluid: "minecraft:milk"
+				id: "2FBD36AB56463715"
+				type: "fluid"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["070BAAF36335CB39"]
+			id: "5E615D7FF01E3BFA"
+			tasks: [{
+				count: 14L
+				id: "25707B2F96CF1D82"
+				item: { Count: 14, id: "minecraft:sugar_cane" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["49F50D879DE157D5"]
+			hide_dependent_lines: true
+			icon: "molten_vents:dormant_molten_ochrum"
+			id: "070BAAF36335CB39"
+			tasks: [{
+				id: "7E9F73B48C50234A"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:dormant_molten_ochrum"
+				type: "observation"
+			}]
+			x: 0.5d
+			y: 1.5d
 		}
 	]
 	title: "Ochrum"
