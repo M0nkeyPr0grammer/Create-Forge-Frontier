@@ -5,6 +5,16 @@
 	group: "3A742C0C73D55180"
 	icon: "molten_vents:active_molten_ochrum"
 	id: "4B7385A38E34A679"
+	images: [{
+		click: "#070BAAF36335CB39"
+		height: 5.0d
+		hover: ["Ochrum Vent"]
+		image: "ftb:textures/ochrum_vent.png"
+		rotation: 0.0d
+		width: 8.0d
+		x: 0.0d
+		y: -6.5d
+	}]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -16,80 +26,35 @@
 				id: "4B55AF4D3C740FEA"
 				type: "dimension"
 			}]
-			x: 0.5d
-			y: 0.0d
+			x: 0.0d
+			y: -1.5d
 		}
 		{
 			id: "12FD2F63233E47AE"
+			subtitle: "Molten Vents is a mod which adds a renewable source of the orestones found in the Create mod, and by extension the many resources that can be processed from them."
 			tasks: [{
 				id: "7C15E896C8D32E4B"
 				title: "Molten Ore Vent Understanding"
 				type: "checkmark"
 			}]
-			x: 0.5d
-			y: -1.5d
-		}
-		{
-			dependencies: [
-				"5571BBC703151732"
-				"07FEFBD13CEC6E1A"
-				"2ED7440C31F68FC7"
-			]
-			id: "3BB1E86E70FFC2D2"
-			tasks: [{
-				amount: 1000L
-				fluid: "create_dd:glowberry_milkshake"
-				id: "48DD2A471192A41A"
-				type: "fluid"
-			}]
-			x: 0.5d
-			y: 9.0d
+			x: 0.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["5E615D7FF01E3BFA"]
 			id: "07FEFBD13CEC6E1A"
+			subtitle: "Sugar is craftable from Sugar Cane"
 			tasks: [{
 				count: 4L
 				id: "5C69BAEA29632277"
 				item: { Count: 4, id: "minecraft:sugar" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 6.0d
-		}
-		{
-			dependencies: [
-				"5FD0DFDEC805ED7E"
-				"31222A56D7ED2D22"
-			]
-			id: "2ED7440C31F68FC7"
-			tasks: [{
-				amount: 1000L
-				fluid: "create_dd:cream"
-				id: "03B78BDE7C781B9F"
-				type: "fluid"
-			}]
-			x: 0.5d
+			x: -1.0d
 			y: 7.5d
 		}
 		{
-			dependencies: [
-				"3419E256DD9D7A06"
-				"651C8738BAC5E8DD"
-				"340506FCB4F31885"
-			]
-			id: "5571BBC703151732"
-			tasks: [{
-				amount: 1000L
-				fluid: "create_dd:glowberry"
-				id: "13EFB255552C0DBE"
-				type: "fluid"
-			}]
-			x: 1.5d
-			y: 7.5d
-		}
-		{
-			dependencies: ["070BAAF36335CB39"]
+			dependencies: ["1107E04D2BA51211"]
 			id: "31222A56D7ED2D22"
 			tasks: [{
 				count: 16L
@@ -97,75 +62,37 @@
 				item: { Count: 16, id: "minecraft:snowball" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 6.0d
-		}
-		{
-			dependencies: [
-				"4883B3DC0D6C57C0"
-				"40FE7DCB61F3B1CE"
-				"15A49F0E45E65203"
-			]
-			id: "5FD0DFDEC805ED7E"
-			tasks: [{
-				amount: 1000L
-				fluid: "create_dd:condense_milk"
-				id: "38003623189C1BF5"
-				type: "fluid"
-			}]
-			x: 0.5d
-			y: 6.0d
+			x: -1.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["5E615D7FF01E3BFA"]
 			id: "40FE7DCB61F3B1CE"
+			subtitle: "Sugar is craftable from Sugar Cane"
 			tasks: [{
 				count: 8L
 				id: "10D91ADF4F5B33DA"
 				item: { Count: 8, id: "minecraft:sugar" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 4.5d
-		}
-		{
-			dependencies: ["070BAAF36335CB39"]
-			id: "4883B3DC0D6C57C0"
-			tasks: [{
-				amount: 1000L
-				fluid: "minecraft:water"
-				id: "13E5DBC0C3E57888"
-				type: "fluid"
-			}]
-			x: 0.5d
-			y: 4.5d
-		}
-		{
-			dependencies: ["070BAAF36335CB39"]
-			id: "15A49F0E45E65203"
-			tasks: [{
-				amount: 1000L
-				fluid: "minecraft:milk"
-				id: "2DD76C616246A45A"
-				type: "fluid"
-			}]
-			x: -0.5d
-			y: 4.5d
+			x: 1.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["5E615D7FF01E3BFA"]
 			id: "651C8738BAC5E8DD"
+			subtitle: "Sugar is craftable from Sugar Cane"
 			tasks: [{
 				count: 2L
 				id: "131775EB2010DF39"
 				item: { Count: 2, id: "minecraft:sugar" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: 6.0d
+			x: 3.0d
+			y: 9.0d
 		}
 		{
-			dependencies: ["070BAAF36335CB39"]
+			dependencies: ["1107E04D2BA51211"]
 			id: "3419E256DD9D7A06"
 			tasks: [{
 				count: 4L
@@ -173,23 +100,12 @@
 				item: { Count: 4, id: "minecraft:glow_berries" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 6.0d
+			x: 2.0d
+			y: 9.0d
 		}
 		{
-			dependencies: ["070BAAF36335CB39"]
-			id: "340506FCB4F31885"
-			tasks: [{
-				amount: 1000L
-				fluid: "minecraft:milk"
-				id: "2FBD36AB56463715"
-				type: "fluid"
-			}]
-			x: 1.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["070BAAF36335CB39"]
+			dependencies: ["1107E04D2BA51211"]
+			hide_dependent_lines: true
 			id: "5E615D7FF01E3BFA"
 			tasks: [{
 				count: 14L
@@ -197,14 +113,15 @@
 				item: { Count: 14, id: "minecraft:sugar_cane" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 3.0d
+			x: 0.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["49F50D879DE157D5"]
 			hide_dependent_lines: true
 			icon: "molten_vents:dormant_molten_ochrum"
 			id: "070BAAF36335CB39"
+			subtitle: "Ochrum Vents are found anywhere in the overworld"
 			tasks: [{
 				id: "7E9F73B48C50234A"
 				observe_type: 0
@@ -212,8 +129,138 @@
 				to_observe: "molten_vents:dormant_molten_ochrum"
 				type: "observation"
 			}]
-			x: 0.5d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["070BAAF36335CB39"]
+			disable_toast: true
+			id: "0D0C5772B3B4CCC1"
+			subtitle: "Upon finding a Dormant Vent you will need to activate it by blowing TNT up on its surface"
+			tasks: [{
+				id: "5D268049BF629FB3"
+				item: "minecraft:tnt"
+				type: "item"
+			}]
+			x: 0.0d
 			y: 1.5d
+		}
+		{
+			dependencies: ["0D0C5772B3B4CCC1"]
+			hide_dependent_lines: true
+			icon: "molten_vents:active_molten_ochrum"
+			id: "1107E04D2BA51211"
+			subtitle: "In Order to generate Ochrum you will need a source block of Glowberry Milkshake, below is how you craft it."
+			tasks: [{
+				id: "2614EEE65F6B8560"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:active_molten_ochrum"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "4A8DBEF17C064273"
+			subtitle: "Ochrum can be later crushed down to produce gold"
+			tasks: [{
+				id: "7542AF4EB6337F4E"
+				item: "create:ochrum"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			id: "52C5EA6892CC3CDC"
+			tasks: [{
+				id: "55237D575FAC7313"
+				item: "minecraft:milk_bucket"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 10.5d
+		}
+		{
+			id: "5A3D1272AD335212"
+			tasks: [{
+				count: 2L
+				id: "735DD4C5DC3C7EC5"
+				item: "minecraft:milk_bucket"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"40FE7DCB61F3B1CE"
+				"6DE47B93D2C1902F"
+				"52C5EA6892CC3CDC"
+			]
+			id: "1C46078C9F487DC2"
+			tasks: [{
+				id: "1BCC4259CF21D421"
+				item: "create_dd:condense_milk_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"1C46078C9F487DC2"
+				"31222A56D7ED2D22"
+			]
+			id: "43B1D56870B2D497"
+			tasks: [{
+				id: "04BA7D40481E0006"
+				item: "create_dd:cream_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"3419E256DD9D7A06"
+				"651C8738BAC5E8DD"
+				"5A3D1272AD335212"
+			]
+			id: "74049B8FD16B1606"
+			tasks: [{
+				id: "508A48C689A9224E"
+				item: "create_dd:glowberry_bucket"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"74049B8FD16B1606"
+				"07FEFBD13CEC6E1A"
+				"43B1D56870B2D497"
+			]
+			id: "1F22F9F9B3D393E1"
+			tasks: [{
+				id: "70148D254B508BFE"
+				item: "create_dd:glowberry_milkshake_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			id: "6DE47B93D2C1902F"
+			tasks: [{
+				id: "1D11449E1E4E5B11"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.5d
 		}
 	]
 	title: "Ochrum"

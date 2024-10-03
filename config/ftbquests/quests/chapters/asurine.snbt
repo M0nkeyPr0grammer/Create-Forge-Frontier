@@ -52,6 +52,19 @@
 			x: 0.5d
 			y: -5.0d
 		}
+		{
+			icon: "molten_vents:dormant_molten_asurine"
+			id: "1B9BED1C00DB2BDE"
+			tasks: [{
+				id: "00072EB8A7CBE1C1"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:dormant_molten_asurine"
+				type: "observation"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
 	]
 	title: "Asurine"
 }
