@@ -118,7 +118,6 @@
 		}
 		{
 			dependencies: ["49F50D879DE157D5"]
-			hide_dependent_lines: true
 			icon: "molten_vents:dormant_molten_ochrum"
 			id: "070BAAF36335CB39"
 			subtitle: "Ochrum Vents are found anywhere in the overworld"
@@ -162,6 +161,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["1F22F9F9B3D393E1"]
 			id: "4A8DBEF17C064273"
 			subtitle: "Ochrum can be later crushed down to produce gold"
 			tasks: [{
@@ -173,23 +173,29 @@
 			y: 4.5d
 		}
 		{
+			dependencies: ["1107E04D2BA51211"]
 			id: "52C5EA6892CC3CDC"
+			subtitle: "Obtained by milking a cow"
 			tasks: [{
 				id: "55237D575FAC7313"
 				item: "minecraft:milk_bucket"
 				type: "item"
 			}]
+			title: "1st Bucket of Milk"
 			x: -1.0d
 			y: 10.5d
 		}
 		{
+			dependencies: ["1107E04D2BA51211"]
 			id: "5A3D1272AD335212"
+			subtitle: "Obtained by milking a cow"
 			tasks: [{
 				count: 2L
 				id: "735DD4C5DC3C7EC5"
 				item: "minecraft:milk_bucket"
 				type: "item"
 			}]
+			title: "2nd Bucket of Milk"
 			x: 1.0d
 			y: 9.0d
 		}
@@ -200,6 +206,7 @@
 				"52C5EA6892CC3CDC"
 			]
 			id: "1C46078C9F487DC2"
+			subtitle: "Obtained by mixing the below ingredients"
 			tasks: [{
 				id: "1BCC4259CF21D421"
 				item: "create_dd:condense_milk_bucket"
@@ -214,6 +221,7 @@
 				"31222A56D7ED2D22"
 			]
 			id: "43B1D56870B2D497"
+			subtitle: "Obtained by mixing the below ingredients"
 			tasks: [{
 				id: "04BA7D40481E0006"
 				item: "create_dd:cream_bucket"
@@ -229,6 +237,7 @@
 				"5A3D1272AD335212"
 			]
 			id: "74049B8FD16B1606"
+			subtitle: "Obtained by mixing the below ingredients"
 			tasks: [{
 				id: "508A48C689A9224E"
 				item: "create_dd:glowberry_bucket"
@@ -242,8 +251,10 @@
 				"74049B8FD16B1606"
 				"07FEFBD13CEC6E1A"
 				"43B1D56870B2D497"
+				"1107E04D2BA51211"
 			]
 			id: "1F22F9F9B3D393E1"
+			subtitle: "Obtained by mixing the below ingredients"
 			tasks: [{
 				id: "70148D254B508BFE"
 				item: "create_dd:glowberry_milkshake_bucket"
@@ -253,6 +264,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["1107E04D2BA51211"]
 			id: "6DE47B93D2C1902F"
 			tasks: [{
 				id: "1D11449E1E4E5B11"
