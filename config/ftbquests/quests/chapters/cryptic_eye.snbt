@@ -15,7 +15,7 @@
 		click: "#53D48FEA9672C6AE"
 		height: 5.0d
 		hover: ["Cryptic Eye Enchanting Example"]
-		image: "forge_frontier:textures/ftb/cryptic.png"
+		image: "ftb:textures/cryptic.png"
 		rotation: 0.0d
 		width: 12.25d
 		x: 0.0d

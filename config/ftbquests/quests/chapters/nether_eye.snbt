@@ -16,7 +16,7 @@
 			click: "#26C4BCADAC280135"
 			height: 5.0d
 			hover: ["Incendium: Quartz Kitchen"]
-			image: "forge_frontier:textures/ftb/kitchen.png"
+			image: "ftb:textures/kitchen.png"
 			rotation: 0.0d
 			width: 8.2d
 			x: 8.5d
@@ -26,7 +26,7 @@
 			click: "#3D8E67A7B5476EF9"
 			height: 5.0d
 			hover: ["Hopo: Piglin Ruin"]
-			image: "forge_frontier:textures/ftb/piglin_ruin.png"
+			image: "ftb:textures/piglin_ruin.png"
 			rotation: 0.0d
 			width: 4.55d
 			x: -6.5d
@@ -36,7 +36,7 @@
 			click: "#2A7EF1439F0CAA9C"
 			height: 5.0d
 			hover: ["IDAS: Nether Ancient Portal"]
-			image: "forge_frontier:textures/ftb/nether_portal.png"
+			image: "ftb:textures/nether_portal.png"
 			rotation: 0.0d
 			width: 7.2d
 			x: 0.0d

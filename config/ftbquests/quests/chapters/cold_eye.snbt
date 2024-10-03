@@ -16,7 +16,7 @@
 			click: "#7940F56649B9CA06"
 			height: 5.0d
 			hover: ["AE2: Meteor"]
-			image: "forge_frontier:textures/ftb/meteor.png"
+			image: "ftb:textures/meteor.png"
 			rotation: 0.0d
 			width: 11.2d
 			x: 0.0d
@@ -26,7 +26,7 @@
 			click: "#23901C965E8AEEB2"
 			height: 5.0d
 			hover: ["Cataclysm: The Harbinger"]
-			image: "forge_frontier:textures/ftb/harbinger.png"
+			image: "ftb:textures/harbinger.png"
 			rotation: 0.0d
 			width: 6.5d
 			x: -7.5d
@@ -36,7 +36,7 @@
 			click: "#178EC92463C73D5E"
 			height: 5.0d
 			hover: ["Cataclysm: Ancient Factory"]
-			image: "forge_frontier:textures/ftb/factory.png"
+			image: "ftb:textures/factory.png"
 			rotation: 0.0d
 			width: 9.15d
 			x: 8.5d

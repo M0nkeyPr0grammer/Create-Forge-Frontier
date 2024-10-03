@@ -16,7 +16,7 @@
 			click: "#122D0CCD0CE8861D"
 			height: 5.0d
 			hover: ["Better Archeology: Villager Grave"]
-			image: "forge_frontier:textures/ftb/grave.png"
+			image: "ftb:textures/grave.png"
 			rotation: 0.0d
 			width: 6.5d
 			x: -7.5d
@@ -26,7 +26,7 @@
 			click: "#7229213D46724F8E"
 			height: 5.0d
 			hover: ["Integrated Villages: Village"]
-			image: "forge_frontier:textures/ftb/village.png"
+			image: "ftb:textures/village.png"
 			rotation: 0.0d
 			width: 8.3d
 			x: 8.0d
@@ -36,7 +36,7 @@
 			click: "#3AB2001DB652755E"
 			height: 5.0d
 			hover: ["Trail Ruins Overhaul: Trail Ruins"]
-			image: "forge_frontier:textures/ftb/trail_ruins.png"
+			image: "ftb:textures/trail_ruins.png"
 			rotation: 0.0d
 			width: 5.85d
 			x: 0.0d

@@ -16,7 +16,7 @@
 			click: "#7D7FE0BFB3F8DCE9"
 			height: 5.0d
 			hover: ["Cataclysm: Soul Black Smith"]
-			image: "forge_frontier:textures/ftb/smith.png"
+			image: "ftb:textures/smith.png"
 			rotation: 0.0d
 			width: 4.95d
 			x: -7.0d
@@ -26,7 +26,7 @@
 			click: "#69904E35F0712829"
 			height: 5.0d
 			hover: ["Cataclysm: Netherite Monstrosity"]
-			image: "forge_frontier:textures/ftb/monstrosity.png"
+			image: "ftb:textures/monstrosity.png"
 			rotation: 0.0d
 			width: 8.4d
 			x: 8.5d
@@ -36,7 +36,7 @@
 			click: "#258A650E322ABBCB"
 			height: 5.0d
 			hover: ["Ad Astra: Mars Temple"]
-			image: "forge_frontier:textures/ftb/mars_temple.png"
+			image: "ftb:textures/mars_temple.png"
 			rotation: 0.0d
 			width: 9.05d
 			x: 0.5d

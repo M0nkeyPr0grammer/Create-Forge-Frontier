@@ -16,7 +16,7 @@
 			click: "#07E7F94F03D9F0EF"
 			height: 5.0d
 			hover: ["Mithril Automation Setup"]
-			image: "forge_frontier:textures/ftb/mithril.png"
+			image: "ftb:textures/mithril.png"
 			rotation: 0.0d
 			width: 11.7d
 			x: -8.0d
@@ -26,7 +26,7 @@
 			click: "#1FAE86CE07337020"
 			height: 5.0d
 			hover: ["Brass Automation"]
-			image: "forge_frontier:textures/ftb/brass.png"
+			image: "ftb:textures/brass.png"
 			rotation: 0.0d
 			width: 2.25d
 			x: 0.0d
@@ -36,7 +36,7 @@
 			click: "#66B9CA0C2E6D49A0"
 			height: 5.0d
 			hover: ["Precision Mechanism Automation"]
-			image: "forge_frontier:textures/ftb/mechanism.png"
+			image: "ftb:textures/mechanism.png"
 			rotation: 0.0d
 			width: 9.2d
 			x: 7.0d

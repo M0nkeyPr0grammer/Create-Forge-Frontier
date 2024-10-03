@@ -15,7 +15,7 @@
 		click: "#2F977BD6D03D487E"
 		height: 5.0d
 		hover: ["Sunken City"]
-		image: "forge_frontier:textures/ftb/sunkencity.png"
+		image: "ftb:textures/sunkencity.png"
 		rotation: 0.0d
 		width: 6.6d
 		x: 0.0d

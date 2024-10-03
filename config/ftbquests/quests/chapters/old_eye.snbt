@@ -16,7 +16,7 @@
 			click: "#73BDA4BCAB789172"
 			height: 5.0d
 			hover: ["IDAS: Desert Pyramid"]
-			image: "forge_frontier:textures/ftb/idas_pyramid.png"
+			image: "ftb:textures/idas_pyramid.png"
 			rotation: 0.0d
 			width: 10.15d
 			x: -9.5d
@@ -26,7 +26,7 @@
 			click: "#539E68FE82BD18BC"
 			height: 5.0d
 			hover: ["YUNG's Better Desert Pyramid"]
-			image: "forge_frontier:textures/ftb/better_pyramid.png"
+			image: "ftb:textures/better_pyramid.png"
 			rotation: 0.0d
 			width: 6.85d
 			x: 8.0d
@@ -36,7 +36,7 @@
 			click: "#56A66B08875656D0"
 			height: 5.0d
 			hover: ["Cataclysm: Cursed Pyramid"]
-			image: "forge_frontier:textures/ftb/cursed_pyramid.png"
+			image: "ftb:textures/cursed_pyramid.png"
 			rotation: 0.0d
 			width: 9.2d
 			x: 0.0d
