@@ -1,5 +1,5 @@
 ServerEvents.recipes(event => {
-event.remove({ id: 'create_mechanical_extruder:mechanical_extruder'})
+event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
 
 // Creates Sequenced Assembly Recipe for Mechanical Extruder
     event.custom({
