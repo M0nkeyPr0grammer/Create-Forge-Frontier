@@ -5,6 +5,14 @@
 	group: "3A742C0C73D55180"
 	icon: "molten_vents:active_molten_pyroclast"
 	id: "1CE26FF9F305C233"
+	images: [{
+		height: 5.0d
+		image: "ftb:textures/pyroclast_vent.png"
+		rotation: 0.0d
+		width: 6.3d
+		x: 0.0d
+		y: -7.0d
+	}]
 	order_index: 12
 	quest_links: [ ]
 	quests: [
@@ -33,6 +41,7 @@
 		{
 			dependencies: ["541AA04935B1BE70"]
 			id: "482875F28D3EDDE4"
+			subtitle: "Molten Vents is a mod which adds a renewable source of the orestones found in the Create mod, and by extension the many resources that can be processed from them."
 			tasks: [{
 				id: "1775D476B5FECEC2"
 				title: "Molten Ore Vent Understanding"

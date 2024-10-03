@@ -5,12 +5,21 @@
 	group: "3A742C0C73D55180"
 	icon: "molten_vents:active_molten_sulphite"
 	id: "3FAB984440FED5CC"
+	images: [{
+		height: 5.0d
+		image: "ftb:textures/sulphite_vent.png"
+		rotation: 0.0d
+		width: 7.75d
+		x: 0.0d
+		y: -4.5d
+	}]
 	order_index: 22
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["37A747340E985D07"]
 			id: "19AC056A2D89BC99"
+			subtitle: "Molten Vents is a mod which adds a renewable source of the orestones found in the Create mod, and by extension the many resources that can be processed from them."
 			tasks: [{
 				id: "10F4FC18ED12758B"
 				title: "Molten Ore Vent Understanding"

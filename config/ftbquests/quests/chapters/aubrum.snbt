@@ -5,6 +5,14 @@
 	group: "3A742C0C73D55180"
 	icon: "molten_vents:active_molten_aubrum"
 	id: "542674AE2D30D604"
+	images: [{
+		height: 5.0d
+		image: "ftb:textures/aubrum_vent.png"
+		rotation: 0.0d
+		width: 7.35d
+		x: 0.0d
+		y: -7.0d
+	}]
 	order_index: 11
 	quest_links: [ ]
 	quests: [
@@ -33,6 +41,7 @@
 		{
 			dependencies: ["3CD113BC466C890F"]
 			id: "1F7B7FB0FC7662E5"
+			subtitle: "Molten Vents is a mod which adds a renewable source of the orestones found in the Create mod, and by extension the many resources that can be processed from them."
 			tasks: [{
 				id: "579168289E0E7C9D"
 				title: "Molten Ore Vent Understanding"

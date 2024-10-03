@@ -5,6 +5,14 @@
 	group: "3A742C0C73D55180"
 	icon: "molten_vents:active_molten_potassic"
 	id: "09A9D02A2B2D3321"
+	images: [{
+		height: 5.0d
+		image: "ftb:textures/potassic_vent.png"
+		rotation: 0.0d
+		width: 8.1d
+		x: 0.5d
+		y: -7.5d
+	}]
 	order_index: 4
 	quest_links: [ ]
 	quests: [
@@ -33,6 +41,7 @@
 		{
 			dependencies: ["58F9D7E103BE74A6"]
 			id: "504456DD7B9531D1"
+			subtitle: "Molten Vents is a mod which adds a renewable source of the orestones found in the Create mod, and by extension the many resources that can be processed from them."
 			tasks: [{
 				id: "7EB9317CD0627FF4"
 				title: "Molten Ore Vent Understanding"

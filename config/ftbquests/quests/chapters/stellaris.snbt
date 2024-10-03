@@ -5,12 +5,21 @@
 	group: "3A742C0C73D55180"
 	icon: "molten_vents:active_molten_stellaris"
 	id: "2460EB1E6FC581F1"
+	images: [{
+		height: 5.0d
+		image: "ftb:textures/stellaris_vent.png"
+		rotation: 0.0d
+		width: 6.1d
+		x: 0.0d
+		y: -6.5d
+	}]
 	order_index: 13
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["4EDAA78BA0537C40"]
 			id: "41562C427629ACB2"
+			subtitle: "Molten Vents is a mod which adds a renewable source of the orestones found in the Create mod, and by extension the many resources that can be processed from them."
 			tasks: [{
 				id: "454E15A4223FB5A8"
 				title: "Molten Ore Vent Understanding"

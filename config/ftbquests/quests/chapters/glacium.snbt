@@ -5,6 +5,14 @@
 	group: "3A742C0C73D55180"
 	icon: "molten_vents:active_molten_glacium"
 	id: "44401340A0BD3AF6"
+	images: [{
+		height: 5.0d
+		image: "ftb:textures/glacium_vent.png"
+		rotation: 0.0d
+		width: 6.95d
+		x: 0.5d
+		y: -8.5d
+	}]
 	order_index: 6
 	quest_links: [ ]
 	quests: [
@@ -33,6 +41,7 @@
 		{
 			dependencies: ["4426B01778ED9C13"]
 			id: "5FCA73FC564118C9"
+			subtitle: "Molten Vents is a mod which adds a renewable source of the orestones found in the Create mod, and by extension the many resources that can be processed from them."
 			tasks: [{
 				id: "17B3C247F2F92579"
 				title: "Molten Ore Vent Understanding"

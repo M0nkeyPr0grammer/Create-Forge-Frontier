@@ -5,16 +5,38 @@
 	group: "3A742C0C73D55180"
 	icon: "molten_vents:active_molten_crimsite"
 	id: "41C2D96C7BF8DAB1"
-	images: [{
-		click: "#4408A399D517CDB6"
-		height: 5.0d
-		hover: ["Crimsite Vent"]
-		image: "ftb:textures/crimsite_vent.png"
-		rotation: 0.0d
-		width: 9.35d
-		x: 0.0d
-		y: -6.5d
-	}]
+	images: [
+		{
+			click: "#4408A399D517CDB6"
+			height: 5.0d
+			hover: ["Crimsite Vent"]
+			image: "ftb:textures/crimsite_vent.png"
+			rotation: 0.0d
+			width: 9.35d
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			click: "#34B2B208BB1E9C09"
+			height: 2.0d
+			hover: ["Cow"]
+			image: "ftbchunks:textures/faces/minecraft/cow.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -5.0d
+			y: 9.0d
+		}
+		{
+			click: "#4B2802937F3FFC29"
+			height: 2.0d
+			hover: ["Sweet Berry Bush"]
+			image: "minecraft:block/sweet_berry_bush_stage3"
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.5d
+			y: 9.0d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [

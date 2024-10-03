@@ -5,16 +5,34 @@
 	group: "3A742C0C73D55180"
 	icon: "molten_vents:active_molten_ochrum"
 	id: "4B7385A38E34A679"
-	images: [{
-		click: "#070BAAF36335CB39"
-		height: 5.0d
-		hover: ["Ochrum Vent"]
-		image: "ftb:textures/ochrum_vent.png"
-		rotation: 0.0d
-		width: 8.0d
-		x: 0.0d
-		y: -6.5d
-	}]
+	images: [
+		{
+			click: "#070BAAF36335CB39"
+			height: 5.0d
+			hover: ["Ochrum Vent"]
+			image: "ftb:textures/ochrum_vent.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			height: 2.0d
+			image: "ftbchunks:textures/faces/minecraft/cow.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -5.0d
+			y: 9.0d
+		}
+		{
+			height: 2.0d
+			image: "cratedelight:block/glowberry_crate_side"
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.5d
+			y: 9.0d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [

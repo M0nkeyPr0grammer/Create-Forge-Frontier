@@ -5,12 +5,21 @@
 	group: "3A742C0C73D55180"
 	icon: "molten_vents:active_molten_neodymrium"
 	id: "0B3AE238F794831E"
+	images: [{
+		height: 5.0d
+		image: "ftb:textures/neodyrium_vent.png"
+		rotation: 0.0d
+		width: 7.75d
+		x: 0.0d
+		y: -4.5d
+	}]
 	order_index: 23
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["68A910E0D77CDC59"]
 			id: "22EDF41DF1C3A815"
+			subtitle: "Molten Vents is a mod which adds a renewable source of the orestones found in the Create mod, and by extension the many resources that can be processed from them."
 			tasks: [{
 				id: "5904BB92856605F4"
 				title: "Molten Ore Vent Understanding"

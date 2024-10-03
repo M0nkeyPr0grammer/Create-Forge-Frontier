@@ -5,6 +5,14 @@
 	group: "3A742C0C73D55180"
 	icon: "molten_vents:active_molten_scoria"
 	id: "72EFECEE939179D0"
+	images: [{
+		height: 5.0d
+		image: "ftb:textures/scoria_vent.png"
+		rotation: 0.0d
+		width: 7.8d
+		x: 1.0d
+		y: -8.0d
+	}]
 	order_index: 7
 	quest_links: [ ]
 	quests: [
@@ -33,6 +41,7 @@
 		{
 			dependencies: ["07FE2AB677601C3B"]
 			id: "6BFEFEE956357FAF"
+			subtitle: "Molten Vents is a mod which adds a renewable source of the orestones found in the Create mod, and by extension the many resources that can be processed from them."
 			tasks: [{
 				id: "206307E42ECA9781"
 				title: "Molten Ore Vent Understanding"
