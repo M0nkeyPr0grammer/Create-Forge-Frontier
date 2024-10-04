@@ -93,6 +93,7 @@
 		{
 			dependencies: ["23571F7376E873B4"]
 			id: "2E4E4AB07AC948B5"
+			subtitle: "Glacium can be later crushed down to produce diamonds"
 			tasks: [{
 				id: "04427A9CD36F757E"
 				item: "forge_frontier:glacium"

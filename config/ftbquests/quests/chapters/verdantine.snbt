@@ -121,6 +121,7 @@
 		{
 			dependencies: ["658B30436C50211B"]
 			id: "0EAAF23F4EC7FE92"
+			subtitle: "Obtained by mixing the below ingredients"
 			tasks: [{
 				id: "44A496865FBCF9D8"
 				item: "create_things_and_misc:slime_bucket"
