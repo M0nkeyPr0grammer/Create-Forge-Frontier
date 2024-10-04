@@ -5,14 +5,36 @@
 	group: "3A742C0C73D55180"
 	icon: "molten_vents:active_molten_sculk_grime"
 	id: "3E230D0267D66D5C"
-	images: [{
-		height: 5.0d
-		image: "ftb:textures/grime_vent.png"
-		rotation: 0.0d
-		width: 7.05d
-		x: 0.5d
-		y: -8.0d
-	}]
+	images: [
+		{
+			height: 5.0d
+			image: "ftb:textures/grime_vent.png"
+			rotation: 0.0d
+			width: 7.05d
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			click: "#745AC5DF698AFC15"
+			height: 2.0d
+			hover: ["Superheating"]
+			image: "create:item/blaze_cake"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			click: "#0344A82EBC325333"
+			height: 2.0d
+			hover: ["Smelting"]
+			image: "minecraft:block/furnace_front_on"
+			rotation: 0.0d
+			width: 2.0d
+			x: -2.0d
+			y: 9.0d
+		}
+	]
 	order_index: 10
 	quest_links: [ ]
 	quests: [
@@ -24,8 +46,8 @@
 				id: "3B6F11AD40F92705"
 				type: "dimension"
 			}]
-			x: 0.5d
-			y: -0.5d
+			x: 0.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["52D7E3296E38A8BB"]
@@ -35,11 +57,10 @@
 				id: "6A40E9C1B431A726"
 				type: "biome"
 			}]
-			x: 0.5d
-			y: 1.0d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["1D777C55F9269662"]
 			id: "6A4C6CF78DBC2E0E"
 			subtitle: "Molten Vents is a mod which adds a renewable source of the orestones found in the Create mod, and by extension the many resources that can be processed from them."
 			tasks: [{
@@ -47,19 +68,100 @@
 				title: "Molten Ore Vent Understanding"
 				type: "checkmark"
 			}]
-			x: 0.5d
-			y: -2.5d
+			x: 0.0d
+			y: -3.0d
 		}
 		{
-			id: "1D777C55F9269662"
+			dependencies: ["3F3C7C3F33BB9E64"]
+			icon: "molten_vents:dormant_molten_sculk_grime"
+			id: "66C50363340B22B0"
+			subtitle: "Sculk Grime Vents are found anywhere in the Deeper Darker Otherside, specically in the Deeplands"
 			tasks: [{
-				amount: 1000L
-				fluid: "forge_frontier:molten_carbon"
-				id: "761DB3710676A65B"
-				type: "fluid"
+				id: "68F38195DCD117B9"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:dormant_molten_sculk_grime"
+				type: "observation"
 			}]
-			x: 0.5d
-			y: -4.5d
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7FC6C823E24A5700"]
+			hide_dependent_lines: true
+			icon: "molten_vents:active_molten_sculk_grime"
+			id: "509AE3462D404452"
+			subtitle: "In Order to generate Sculk Grime you will need a source block of Molten Carbon, below is how you craft it."
+			tasks: [{
+				id: "63414EBC008D64C8"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:active_molten_sculk_grime"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["66C50363340B22B0"]
+			id: "7FC6C823E24A5700"
+			subtitle: "Upon finding a Dormant Vent you will need to activate it by blowing TNT up on its surface"
+			tasks: [{
+				id: "3700647CBDA0262D"
+				item: "minecraft:tnt"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["745AC5DF698AFC15"]
+			id: "2243EE61FE9DF289"
+			subtitle: "Sculk Grime can be later crushed down to produce Echo Shards"
+			tasks: [{
+				id: "7CEBD33F0B786F3F"
+				item: "deeperdarker:sculk_grime"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0344A82EBC325333"]
+			id: "745AC5DF698AFC15"
+			subtitle: "Obtained by super heated mixing the below ingredients"
+			tasks: [{
+				id: "4FF01724B43C789F"
+				item: "forge_frontier:molten_carbon_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1BDAAE5CA939D74A"]
+			id: "0344A82EBC325333"
+			subtitle: "Obtained by smelting the below ingredients"
+			tasks: [{
+				count: 10L
+				id: "12E0788C44142AE5"
+				item: { Count: 10, id: "minecraft:charcoal" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["509AE3462D404452"]
+			id: "1BDAAE5CA939D74A"
+			tasks: [{
+				count: 10L
+				id: "72966606C1926842"
+				item: { Count: 10, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.5d
 		}
 	]
 	title: "Sculk Grime"
