@@ -5,14 +5,28 @@
 	group: "3A742C0C73D55180"
 	icon: "molten_vents:active_molten_verdantine"
 	id: "02770EB99C4830DC"
-	images: [{
-		height: 5.0d
-		image: "ftb:textures/verdantine_vent.png"
-		rotation: 0.0d
-		width: 7.35d
-		x: 0.5d
-		y: -8.5d
-	}]
+	images: [
+		{
+			click: "#12C001857356FF60"
+			height: 5.0d
+			hover: ["Verdantine Vent"]
+			image: "ftb:textures/verdantine_vent.png"
+			rotation: 0.0d
+			width: 7.35d
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			click: "#658B30436C50211B"
+			height: 2.0d
+			hover: ["Slime"]
+			image: "ftbchunks:textures/faces/minecraft/slime.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 10.5d
+		}
+	]
 	order_index: 5
 	quest_links: [ ]
 	quests: [
@@ -24,8 +38,8 @@
 				id: "63C340C493779E3E"
 				type: "biome"
 			}]
-			x: 0.5d
-			y: -0.5d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["657E755310F572DC"]
@@ -35,11 +49,10 @@
 				id: "155F0210ACDB8F83"
 				type: "dimension"
 			}]
-			x: 0.5d
-			y: -2.0d
+			x: 0.0d
+			y: -1.5d
 		}
 		{
-			dependencies: ["3BE5F5CDEA4D0E74"]
 			id: "657E755310F572DC"
 			subtitle: "Molten Vents is a mod which adds a renewable source of the orestones found in the Create mod, and by extension the many resources that can be processed from them."
 			tasks: [{
@@ -47,19 +60,86 @@
 				title: "Molten Ore Vent Understanding"
 				type: "checkmark"
 			}]
-			x: 0.5d
-			y: -3.5d
+			x: 0.0d
+			y: -3.0d
 		}
 		{
-			id: "3BE5F5CDEA4D0E74"
+			dependencies: ["3BBEFEE675F39759"]
+			icon: "molten_vents:dormant_molten_verdantine"
+			id: "12C001857356FF60"
+			subtitle: "Verdantine Vents are found anywhere in the overworld, specically in Mountain Biomes"
 			tasks: [{
-				amount: 1000L
-				fluid: "create_things_and_misc:slime"
-				id: "2ED7940D2302C829"
-				type: "fluid"
+				id: "4B3EE39DAE300EF8"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:dormant_molten_verdantine"
+				type: "observation"
 			}]
-			x: 0.5d
-			y: -5.0d
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["676BE75754F4F726"]
+			hide_dependent_lines: true
+			icon: "molten_vents:active_molten_verdantine"
+			id: "3B0C428AB2EDDA57"
+			subtitle: "In Order to generate Verdantine you will need a source block of Liquid Slime, below is how you craft it."
+			tasks: [{
+				id: "1A8A39D7B29AB4B5"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:active_molten_verdantine"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["12C001857356FF60"]
+			id: "676BE75754F4F726"
+			subtitle: "Upon finding a Dormant Vent you will need to activate it by blowing TNT up on its surface"
+			tasks: [{
+				id: "26FF0ED74E5475D1"
+				item: "minecraft:tnt"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0EAAF23F4EC7FE92"]
+			id: "02FEFDD7F4DD0C1B"
+			subtitle: "Verdantine can be later crushed down to produce emeralds"
+			tasks: [{
+				id: "1B57C475E6C1DBC0"
+				item: "forge_frontier:verdantine"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["658B30436C50211B"]
+			id: "0EAAF23F4EC7FE92"
+			tasks: [{
+				id: "44A496865FBCF9D8"
+				item: "create_things_and_misc:slime_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3B0C428AB2EDDA57"]
+			id: "658B30436C50211B"
+			tasks: [{
+				count: 10L
+				id: "54543A08D806AD42"
+				item: { Count: 10, id: "minecraft:slime_ball" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.0d
 		}
 	]
 	title: "Verdantine"

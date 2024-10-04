@@ -5,14 +5,28 @@
 	group: "3A742C0C73D55180"
 	icon: "molten_vents:active_molten_glacium"
 	id: "44401340A0BD3AF6"
-	images: [{
-		height: 5.0d
-		image: "ftb:textures/glacium_vent.png"
-		rotation: 0.0d
-		width: 6.95d
-		x: 0.5d
-		y: -8.5d
-	}]
+	images: [
+		{
+			click: "#27FF3D6559D4DE58"
+			height: 5.0d
+			hover: ["Glacium Vent"]
+			image: "ftb:textures/glacium_vent.png"
+			rotation: 0.0d
+			width: 6.95d
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			click: "#23571F7376E873B4"
+			height: 3.0d
+			hover: ["Lava"]
+			image: "handcrafted:textures/painting/lava_puddles.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.0d
+			y: 9.5d
+		}
+	]
 	order_index: 6
 	quest_links: [ ]
 	quests: [
@@ -24,7 +38,7 @@
 				id: "1CF7E39E16572372"
 				type: "biome"
 			}]
-			x: 0.5d
+			x: 0.0d
 			y: 0.0d
 		}
 		{
@@ -35,11 +49,10 @@
 				id: "630A6FF2B4269967"
 				type: "dimension"
 			}]
-			x: 0.5d
+			x: 0.0d
 			y: -1.5d
 		}
 		{
-			dependencies: ["4426B01778ED9C13"]
 			id: "5FCA73FC564118C9"
 			subtitle: "Molten Vents is a mod which adds a renewable source of the orestones found in the Create mod, and by extension the many resources that can be processed from them."
 			tasks: [{
@@ -47,19 +60,73 @@
 				title: "Molten Ore Vent Understanding"
 				type: "checkmark"
 			}]
-			x: 0.5d
+			x: 0.0d
 			y: -3.0d
 		}
 		{
-			id: "4426B01778ED9C13"
+			dependencies: ["2662947D6BF82BC3"]
+			icon: "molten_vents:dormant_molten_glacium"
+			id: "27FF3D6559D4DE58"
+			subtitle: "Glacium Vents are found anywhere in the overworld, specically in Mountain Biomes"
 			tasks: [{
-				amount: 1000L
-				fluid: "minecraft:lava"
-				id: "005E1A71C6BE932A"
-				type: "fluid"
+				id: "784DE64FB1C40DB6"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:dormant_molten_glacium"
+				type: "observation"
 			}]
-			x: 0.5d
-			y: -5.0d
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["27FF3D6559D4DE58"]
+			id: "34BE19C93F73080D"
+			subtitle: "Upon finding a Dormant Vent you will need to activate it by blowing TNT up on its surface"
+			tasks: [{
+				id: "49DB62D349831310"
+				item: "minecraft:tnt"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["23571F7376E873B4"]
+			id: "2E4E4AB07AC948B5"
+			tasks: [{
+				id: "04427A9CD36F757E"
+				item: "forge_frontier:glacium"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["34BE19C93F73080D"]
+			hide_dependent_lines: true
+			icon: "molten_vents:active_molten_glacium"
+			id: "7EB3EB70EF62C537"
+			subtitle: "In Order to generate Glacium you will need a source block of Lava, below is how you craft it."
+			tasks: [{
+				id: "459BCFD24CB7B398"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:active_molten_glacium"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7EB3EB70EF62C537"]
+			id: "23571F7376E873B4"
+			tasks: [{
+				id: "6D634BB7F326BF88"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.5d
 		}
 	]
 	title: "Glacium"
