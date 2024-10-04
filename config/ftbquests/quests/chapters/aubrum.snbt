@@ -5,14 +5,60 @@
 	group: "3A742C0C73D55180"
 	icon: "molten_vents:active_molten_aubrum"
 	id: "542674AE2D30D604"
-	images: [{
-		height: 5.0d
-		image: "ftb:textures/aubrum_vent.png"
-		rotation: 0.0d
-		width: 7.35d
-		x: 0.0d
-		y: -7.0d
-	}]
+	images: [
+		{
+			click: "#3B098E6474D498C5"
+			height: 5.0d
+			hover: ["Aubrum Vent"]
+			image: "ftb:textures/aubrum_vent.png"
+			rotation: 0.0d
+			width: 7.35d
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			height: 1.0d
+			image: "createdieselgenerators:block/plant_oil_flow"
+			rotation: 0.0d
+			width: 0.03125d
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			height: 1.0d
+			image: "createdieselgenerators:block/plant_oil_flow"
+			rotation: 0.0d
+			width: 0.03125d
+			x: 0.0d
+			y: 11.0d
+		}
+		{
+			height: 1.0d
+			image: "createdieselgenerators:fluid/plant_oil_flow"
+			rotation: 0.0d
+			width: 0.03125d
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			height: 1.0d
+			image: "createdieselgenerators:fluid/plant_oil_still"
+			rotation: 0.0d
+			width: 0.03125d
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			click: "#559E75D14F0F2197"
+			height: 2.0d
+			hover: ["Seeds"]
+			image: "minecraft:item/wheat_seeds"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 11.0d
+		}
+	]
 	order_index: 11
 	quest_links: [ ]
 	quests: [
@@ -25,7 +71,7 @@
 				type: "dimension"
 			}]
 			x: 0.0d
-			y: 0.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["68227A73145090FA"]
@@ -36,10 +82,9 @@
 				type: "biome"
 			}]
 			x: 0.0d
-			y: 1.5d
+			y: 0.0d
 		}
 		{
-			dependencies: ["3CD113BC466C890F"]
 			id: "1F7B7FB0FC7662E5"
 			subtitle: "Molten Vents is a mod which adds a renewable source of the orestones found in the Create mod, and by extension the many resources that can be processed from them."
 			tasks: [{
@@ -48,18 +93,86 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: -1.5d
+			y: -3.0d
 		}
 		{
-			id: "3CD113BC466C890F"
+			dependencies: ["2A29B35EF0255511"]
+			icon: "molten_vents:dormant_molten_aubrum"
+			id: "3B098E6474D498C5"
+			subtitle: "Aubrum Vents are found anywhere on the Moon, specically in the Lunar Wastelands"
 			tasks: [{
-				amount: 1000L
-				fluid: "createdieselgenerators:plant_oil"
-				id: "29FAA11AFCB2FF3B"
-				type: "fluid"
+				id: "09A5221C836DE7A9"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:dormant_molten_aubrum"
+				type: "observation"
 			}]
 			x: 0.0d
-			y: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3B098E6474D498C5"]
+			id: "3D8894F0979DA1F7"
+			subtitle: "Upon finding a Dormant Vent you will need to activate it by blowing TNT up on its surface"
+			tasks: [{
+				id: "1154BFCE00D7D798"
+				item: "minecraft:tnt"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3D8894F0979DA1F7"]
+			hide_dependent_lines: true
+			icon: "molten_vents:active_molten_aubrum"
+			id: "710F662B8F484D14"
+			subtitle: "In Order to generate Aubrum you will need a source block of Plant Oil, below is how you craft it."
+			tasks: [{
+				id: "4BECB0258B1555FA"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:active_molten_aubrum"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4C58A67636653D37"]
+			id: "50EDB37D923CB22A"
+			subtitle: "Aubrum can be later crushed down to produce Desh"
+			tasks: [{
+				id: "40C38BDD10105E01"
+				item: "forge_frontier:aubrum"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["559E75D14F0F2197"]
+			id: "4C58A67636653D37"
+			subtitle: "Obtained by compacting the below ingredients"
+			tasks: [{
+				id: "45A61B57251AC107"
+				item: "createdieselgenerators:plant_oil_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["710F662B8F484D14"]
+			id: "559E75D14F0F2197"
+			tasks: [{
+				count: 10L
+				id: "6571E7E52BEE502C"
+				item: { Count: 10, id: "minecraft:wheat_seeds" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.0d
 		}
 	]
 	title: "Aubrum"
