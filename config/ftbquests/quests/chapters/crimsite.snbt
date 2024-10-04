@@ -93,9 +93,9 @@
 			id: "4F23C7217300D817"
 			subtitle: "Sugar is craftable from Sugar Cane"
 			tasks: [{
-				count: 8L
+				count: 16L
 				id: "1033A3B7FF137595"
-				item: { Count: 8, id: "minecraft:sugar" }
+				item: "minecraft:sugar"
 				type: "item"
 			}]
 			x: 1.0d
@@ -106,9 +106,9 @@
 			id: "631974F23E99BB8F"
 			subtitle: "Sugar is craftable from Sugar Cane"
 			tasks: [{
-				count: 2L
+				count: 4L
 				id: "1B24545698D3745C"
-				item: { Count: 2, id: "minecraft:sugar" }
+				item: "minecraft:sugar"
 				type: "item"
 			}]
 			x: 3.0d
@@ -118,9 +118,9 @@
 			dependencies: ["0EA0C2CDE7F62ECA"]
 			id: "4B2802937F3FFC29"
 			tasks: [{
-				count: 4L
+				count: 8L
 				id: "6AEE88C8132B72B6"
-				item: { Count: 4, id: "minecraft:sweet_berries" }
+				item: "minecraft:sweet_berries"
 				type: "item"
 			}]
 			x: 2.0d
@@ -132,9 +132,9 @@
 			hide_dependent_lines: true
 			id: "291E377777F227E2"
 			tasks: [{
-				count: 14L
+				count: 24L
 				id: "37715CD565D90B6E"
-				item: { Count: 14, id: "minecraft:sugar_cane" }
+				item: "minecraft:sugar_cane"
 				type: "item"
 			}]
 			x: 0.0d
@@ -202,11 +202,11 @@
 			id: "34B2B208BB1E9C09"
 			subtitle: "Obtained by milking a cow"
 			tasks: [{
+				count: 2L
 				id: "3E08035D982E2CC5"
 				item: "minecraft:milk_bucket"
 				type: "item"
 			}]
-			title: "1st Bucket of Milk"
 			x: -1.0d
 			y: 10.5d
 		}
@@ -215,12 +215,10 @@
 			id: "45559F8BD3B26EC9"
 			subtitle: "Obtained by milking a cow"
 			tasks: [{
-				count: 2L
 				id: "6761608115EC6B20"
-				item: { Count: 2, id: "minecraft:milk_bucket" }
+				item: "minecraft:milk_bucket"
 				type: "item"
 			}]
-			title: "2nd Bucket of Milk"
 			x: 1.0d
 			y: 9.0d
 		}
