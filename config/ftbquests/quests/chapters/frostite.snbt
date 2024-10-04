@@ -88,7 +88,7 @@
 				id: "64F5E23C37C7A30E"
 				observe_type: 0
 				timer: 0L
-				to_observe: "molten_vents:dormant_molten_frostite"
+				to_observe: "molten_vents:active_molten_frostite"
 				type: "observation"
 			}]
 			x: 0.0d

@@ -76,7 +76,7 @@
 				id: "69EDE13D94B7F100"
 				observe_type: 0
 				timer: 0L
-				to_observe: "molten_vents:dormant_molten_pearlyte"
+				to_observe: "molten_vents:active_molten_pearlyte"
 				type: "observation"
 			}]
 			x: 0.0d
