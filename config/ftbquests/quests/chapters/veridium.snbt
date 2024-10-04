@@ -181,7 +181,7 @@
 			dependencies: ["2D5E52CE4653E96C"]
 			id: "7285BA4C49C32997"
 			tasks: [{
-				count: 16L
+				count: 32L
 				id: "7023AA84FA5D2593"
 				item: { Count: 16, id: "minecraft:snowball" }
 				type: "item"
@@ -232,6 +232,7 @@
 		{
 			dependencies: ["2D5E52CE4653E96C"]
 			id: "2D0E477113498560"
+			subtitle: "Obtained by milking a cow"
 			tasks: [{
 				id: "6B5624735E857F1D"
 				item: "minecraft:milk_bucket"
@@ -243,6 +244,7 @@
 		{
 			dependencies: ["2D5E52CE4653E96C"]
 			id: "6CFBD55EAA41FBE9"
+			subtitle: "Obtained by milking a cow"
 			tasks: [{
 				id: "7A1A892C200D95F6"
 				item: "minecraft:milk_bucket"

@@ -188,7 +188,7 @@
 		{
 			dependencies: ["0AFE52653EE975A8"]
 			id: "3921AFAC261FD1E5"
-			subtitle: "Obtained by milking a cow, twice"
+			subtitle: "Obtained by milking a cow"
 			tasks: [{
 				count: 2L
 				id: "41C645CEAC23D5FA"

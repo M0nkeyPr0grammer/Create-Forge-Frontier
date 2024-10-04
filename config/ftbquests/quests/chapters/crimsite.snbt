@@ -80,9 +80,9 @@
 			dependencies: ["0EA0C2CDE7F62ECA"]
 			id: "579BDCAD518C6F77"
 			tasks: [{
-				count: 16L
+				count: 32L
 				id: "698A0F6D8CA9B0C6"
-				item: { Count: 16, id: "minecraft:snowball" }
+				item: "minecraft:snowball"
 				type: "item"
 			}]
 			x: -1.0d

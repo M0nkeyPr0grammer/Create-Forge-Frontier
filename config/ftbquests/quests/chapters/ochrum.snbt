@@ -75,9 +75,9 @@
 			dependencies: ["1107E04D2BA51211"]
 			id: "31222A56D7ED2D22"
 			tasks: [{
-				count: 16L
+				count: 32L
 				id: "2D3ED0CCF578B1BE"
-				item: { Count: 16, id: "minecraft:snowball" }
+				item: "minecraft:snowball"
 				type: "item"
 			}]
 			x: -1.0d
