@@ -145,6 +145,10 @@ event.add('forge_frontier:mold_templates','forge_frontier:skull_mold')
 event.add('forge_frontier:mold_templates','forge_frontier:sword_mold')
 event.add('forge_frontier:mold_templates','forge_frontier:mold_template')
 
+// Vanilla Tag
+event.add('forge_frontier:vanilla','minecraft:dandelion')
+event.add('forge_frontier:vanilla','minecraft:blue_orchid')
+
 })
 
 ServerEvents.tags('fluid', event => {
