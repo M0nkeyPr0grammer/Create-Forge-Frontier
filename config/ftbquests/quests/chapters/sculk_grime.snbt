@@ -7,7 +7,9 @@
 	id: "3E230D0267D66D5C"
 	images: [
 		{
+			click: "#66C50363340B22B0"
 			height: 5.0d
+			hover: ["Sculk Grime Vent"]
 			image: "ftb:textures/grime_vent.png"
 			rotation: 0.0d
 			width: 7.05d
