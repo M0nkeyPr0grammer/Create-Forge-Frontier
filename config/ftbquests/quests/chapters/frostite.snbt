@@ -7,7 +7,9 @@
 	id: "0E40832C2AB69F29"
 	images: [
 		{
+			click: "#0080D7D3D9BE5BE3"
 			height: 5.0d
+			hover: ["Frostite Vent"]
 			image: "ftb:textures/frostite_vent.png"
 			rotation: 0.0d
 			width: 8.5d
@@ -15,7 +17,9 @@
 			y: -7.0d
 		}
 		{
+			click: "#003891695EFCF33D"
 			height: 2.0d
+			hover: ["Water"]
 			image: "minecraft:textures/misc/underwater.png"
 			rotation: 0.0d
 			width: 2.0d
@@ -60,9 +64,10 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["2E540A2523D0F2B6"]
 			icon: "molten_vents:dormant_molten_frostite"
 			id: "0080D7D3D9BE5BE3"
-			subtitle: "Aubrum Vents are found anywhere on the Moon, specically in the Lunar Wastelands"
+			subtitle: "Frostite Vents are found anywhere on Glacio, specically in the Snowy Barrens"
 			tasks: [{
 				id: "65411C9E2ADC7D2D"
 				observe_type: 0
@@ -74,9 +79,11 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["0873461BF204006C"]
+			hide_dependent_lines: true
 			icon: "molten_vents:active_molten_frostite"
 			id: "44226064B27B70F4"
-			subtitle: "In Order to generate Aubrum you will need a source block of Plant Oil, below is how you craft it."
+			subtitle: "In Order to generate Frostite you will need a source block of Water, below is how you craft it."
 			tasks: [{
 				id: "64F5E23C37C7A30E"
 				observe_type: 0
@@ -88,6 +95,7 @@
 			y: 4.5d
 		}
 		{
+			dependencies: ["0080D7D3D9BE5BE3"]
 			id: "0873461BF204006C"
 			subtitle: "Upon finding a Dormant Vent you will need to activate it by blowing TNT up on its surface"
 			tasks: [{
@@ -99,8 +107,9 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["003891695EFCF33D"]
 			id: "762F0613A935037B"
-			subtitle: "Aubrum can be later crushed down to produce Desh"
+			subtitle: "Frostite can be later crushed down to produce Ice shards and processed down to Blue Ice"
 			tasks: [{
 				id: "34CCCBD15211D00A"
 				item: "forge_frontier:frostite"
@@ -110,6 +119,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["44226064B27B70F4"]
 			id: "003891695EFCF33D"
 			tasks: [{
 				id: "37EE424FE57441A8"
