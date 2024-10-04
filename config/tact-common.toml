@@ -300,6 +300,22 @@ guanoBurnFuel = true
 	watcherAttackDamage = 4.0
 	#Range: 0.0 ~ 1000000.0
 	watcherArmor = 0.0
+	#Range: 0.0 ~ 1000000.0
+	tremorzillaHighHealthRecoveryAmount = 2.0
+	#Range: 0 ~ 1000000
+	tremorzillaHighHealthRecoveryRateInTicks = 100
+	#Range: 0.0 ~ 1000000.0
+	tremorzillaMediumHealthRecoveryAmount = 3.0
+	#Range: 0 ~ 1000000
+	tremorzillaMediumHealthRecoveryRateInTicks = 20
+	#Range: 0.0 ~ 1000000.0
+	tremorzillaLowHealthRecoveryAmount = 5.0
+	#Range: 0 ~ 1000000
+	tremorzillaLowHealthRecoveryRateInTicks = 10
+	#Range: 0.0 ~ 1000000.0
+	tremorzillaStepHeight = 1.6
+	#NOTE: Turning this off could lead to Tremorzilla getting stuck with pathfinding!!! Do not report to Alex's Caves if you turned this off and the mob gets stuck.
+	tremorzillaWalkingBlockGriefing = true
 
 ["Nuclear Furnace Options"]
 	#----------------------------------
@@ -309,4 +325,18 @@ guanoBurnFuel = true
 	#
 	#Range: 0.0 ~ 1000000.0
 	nuclearFurnaceSmeltingSpeedModifier = 1.0
+
+["Extinction Spear Options"]
+	#----------------------------------
+	#
+	# Damage amount for melee attack with Extinction Spear.
+	#
+	#Range: 0.0 ~ 10000.0
+	extinctionSpearMeleeDamage = 8.0
+	#----------------------------------
+	#
+	# Damage amount for ranged attack with Extinction Spear.
+	#
+	#Range: 0.0 ~ 10000.0
+	extinctionSpearRangedDamage = 10.0
 

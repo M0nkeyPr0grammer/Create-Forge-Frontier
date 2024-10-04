@@ -108,6 +108,7 @@
     "cataclysm:cursed_pyramid",
     "minecraft:trail_ruins",
     "minecraft:ancient_city",
-    "cataclysm:sunken_city"
+    "cataclysm:sunken_city",
+    "alexscaves:volcano"
   ]
 }
