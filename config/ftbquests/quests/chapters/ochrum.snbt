@@ -17,7 +17,9 @@
 			y: -6.5d
 		}
 		{
+			click: "#52C5EA6892CC3CDC"
 			height: 2.0d
+			hover: ["Cow"]
 			image: "ftbchunks:textures/faces/minecraft/cow.png"
 			rotation: 0.0d
 			width: 2.0d
@@ -25,7 +27,9 @@
 			y: 9.0d
 		}
 		{
+			click: "#3419E256DD9D7A06"
 			height: 2.0d
+			hover: ["Sweet Berries"]
 			image: "cratedelight:block/glowberry_crate_side"
 			rotation: 0.0d
 			width: 2.0d

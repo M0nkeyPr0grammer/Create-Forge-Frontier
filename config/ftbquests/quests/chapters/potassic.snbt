@@ -17,7 +17,9 @@
 			y: -7.0d
 		}
 		{
+			click: "#63B77606865821D2"
 			height: 2.0d
+			hover: ["Cow"]
 			image: "ftbchunks:textures/faces/minecraft/cow.png"
 			rotation: 0.0d
 			width: 2.0d
@@ -25,7 +27,9 @@
 			y: 10.0d
 		}
 		{
+			click: "#2ECB8AD4B72DF7DE"
 			height: 2.0d
+			hover: ["Dandelion"]
 			image: "minecraft:block/dandelion"
 			rotation: 0.0d
 			width: 2.0d
@@ -33,7 +37,9 @@
 			y: 10.0d
 		}
 		{
+			click: "#2ECB8AD4B72DF7DE"
 			height: 2.0d
+			hover: ["Blue Orchid"]
 			image: "minecraft:block/blue_orchid"
 			rotation: 0.0d
 			width: 2.0d

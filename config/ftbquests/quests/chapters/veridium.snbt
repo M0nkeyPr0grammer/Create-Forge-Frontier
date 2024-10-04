@@ -17,7 +17,7 @@
 			y: -7.0d
 		}
 		{
-			click: "#3921AFAC261FD1E5"
+			click: "#2D0E477113498560"
 			height: 2.0d
 			hover: ["Cow"]
 			image: "ftbchunks:textures/faces/minecraft/cow.png"
