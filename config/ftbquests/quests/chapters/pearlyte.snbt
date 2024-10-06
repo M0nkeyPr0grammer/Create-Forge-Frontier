@@ -69,6 +69,7 @@
 		}
 		{
 			dependencies: ["08706B2825ACEBF2"]
+			hide_dependent_lines: true
 			icon: "molten_vents:active_molten_pearlyte"
 			id: "7A93C8B2FBEAE376"
 			subtitle: "In Order to generate Pearlyte you will need a source block of Water, below is how you craft it."
@@ -107,6 +108,7 @@
 			y: 4.5d
 		}
 		{
+			dependencies: ["7A93C8B2FBEAE376"]
 			id: "4726465280A523C7"
 			tasks: [{
 				id: "55DD2DFA3ECDFCBC"
