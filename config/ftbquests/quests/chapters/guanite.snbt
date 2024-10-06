@@ -5,19 +5,32 @@
 	group: "3A742C0C73D55180"
 	icon: "molten_vents:active_molten_guanite"
 	id: "24EC1CE529BAAAED"
-	images: [{
-		height: 5.0d
-		image: "ftb:textures/guanite_vent.png"
-		rotation: 0.0d
-		width: 6.9d
-		x: 0.0d
-		y: -4.5d
-	}]
+	images: [
+		{
+			click: "#07CB0B903E62B853"
+			height: 5.0d
+			hover: ["Guanite Vent"]
+			image: "ftb:textures/guanite_vent.png"
+			rotation: 0.0d
+			width: 6.9d
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			click: "#010AA1455A1895A5"
+			height: 2.0d
+			hover: ["Create Tree Fertilizer"]
+			image: "create:item/tree_fertilizer"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 9.0d
+		}
+	]
 	order_index: 20
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["5391B967669FB81E"]
 			id: "0617766AA1EABF83"
 			subtitle: "Molten Vents is a mod which adds a renewable source of the orestones found in the Create mod, and by extension the many resources that can be processed from them."
 			tasks: [{
@@ -26,7 +39,7 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: 0.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["0617766AA1EABF83"]
@@ -37,18 +50,100 @@
 				type: "dimension"
 			}]
 			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["59F2A4B51E216975"]
+			icon: "molten_vents:dormant_molten_guanite"
+			id: "07CB0B903E62B853"
+			subtitle: "Guanite Vents are found anywhere on the Forlorn Hollows Planet"
+			tasks: [{
+				id: "0F3FD41581A064A6"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:dormant_molten_guanite"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["53A0492FE6007184"]
+			hide_dependent_lines: true
+			icon: "molten_vents:active_molten_guanite"
+			id: "7FE6F26BE90E2F27"
+			subtitle: "In Order to generate Guanite you will need a source block of Liquid Fertilizer, below is how you craft it."
+			tasks: [{
+				id: "54C9309A3B60C03E"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:active_molten_guanite"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["07CB0B903E62B853"]
+			id: "53A0492FE6007184"
+			subtitle: "Upon finding a Dormant Vent you will need to activate it by blowing TNT up on its surface"
+			tasks: [{
+				id: "3D0CDA0E6380E687"
+				item: "minecraft:tnt"
+				type: "item"
+			}]
+			x: 0.0d
 			y: 1.5d
 		}
 		{
-			id: "5391B967669FB81E"
+			dependencies: ["436491C29F42D04C"]
+			id: "1E562262A93B8241"
+			subtitle: "Guanite can be later crushed down to produce Guano"
 			tasks: [{
-				amount: 1000L
-				fluid: "sliceanddice:fertilizer"
-				id: "730EE2958FCC9A60"
-				type: "fluid"
+				id: "5BFB52D63D8C036A"
+				item: "forge_frontier:guanite"
+				type: "item"
 			}]
 			x: 0.0d
-			y: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"4247484D23C906A3"
+				"010AA1455A1895A5"
+			]
+			id: "436491C29F42D04C"
+			subtitle: "Obtained by mixing the below ingredients"
+			tasks: [{
+				id: "4A883F12754F1153"
+				item: "sliceanddice:fertilizer_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7FE6F26BE90E2F27"]
+			id: "010AA1455A1895A5"
+			tasks: [{
+				count: 2L
+				id: "04E186B61FF5DD59"
+				item: { Count: 2, id: "create:tree_fertilizer" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7FE6F26BE90E2F27"]
+			id: "4247484D23C906A3"
+			tasks: [{
+				id: "0140A0FCE2F03FB6"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.5d
 		}
 	]
 	title: "Guanite"
