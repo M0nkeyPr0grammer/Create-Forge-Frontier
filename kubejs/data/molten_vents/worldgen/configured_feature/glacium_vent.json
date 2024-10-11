@@ -32,7 +32,7 @@
     "liquidBlock": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:lava"
+        "Name": "create_confectionery:black_chocolate"
       }
     },
     "depth": {
