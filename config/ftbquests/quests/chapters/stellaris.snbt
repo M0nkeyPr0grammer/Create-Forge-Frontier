@@ -5,19 +5,30 @@
 	group: "3A742C0C73D55180"
 	icon: "molten_vents:active_molten_stellaris"
 	id: "2460EB1E6FC581F1"
-	images: [{
-		height: 5.0d
-		image: "ftb:textures/stellaris_vent.png"
-		rotation: 0.0d
-		width: 6.1d
-		x: 0.0d
-		y: -6.5d
-	}]
+	images: [
+		{
+			height: 5.0d
+			image: "ftb:textures/stellaris_vent.png"
+			rotation: 0.0d
+			width: 6.1d
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			click: "#0E766060648F8B43"
+			height: 2.0d
+			hover: ["Basin Lid used over Basin for basin processing"]
+			image: "createdieselgenerators:block/basin_lid"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 12.5d
+		}
+	]
 	order_index: 12
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["4EDAA78BA0537C40"]
 			id: "41562C427629ACB2"
 			subtitle: "Molten Vents is a mod which adds a renewable source of the orestones found in the Create mod, and by extension the many resources that can be processed from them."
 			tasks: [{
@@ -26,7 +37,7 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: -1.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["41562C427629ACB2"]
@@ -37,7 +48,7 @@
 				type: "dimension"
 			}]
 			x: 0.0d
-			y: 0.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["36A89FC4645E21CA"]
@@ -48,18 +59,114 @@
 				type: "biome"
 			}]
 			x: 0.0d
-			y: 2.0d
+			y: 0.0d
 		}
 		{
-			id: "4EDAA78BA0537C40"
+			dependencies: ["02912A82870B46F7"]
+			icon: "molten_vents:dormant_molten_stellaris"
+			id: "3C81772B0834E434"
+			subtitle: "Stellaris Vents are found anywhere on Mars, specically anywhere a Mars Temple can generate"
 			tasks: [{
-				amount: 1000L
-				fluid: "createdieselgenerators:ethanol"
-				id: "248FD6BCEE8FB8D3"
-				type: "fluid"
+				id: "313920FA593F382C"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:dormant_molten_stellaris"
+				type: "observation"
 			}]
 			x: 0.0d
-			y: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6680CCE473F5AA59"]
+			hide_dependent_lines: true
+			icon: "molten_vents:active_molten_stellaris"
+			id: "663B98AD6EFF295F"
+			subtitle: "In Order to generate Stellaris you will need a source block of Ethanol, below is how you craft it."
+			tasks: [{
+				id: "51ECC68D118AFD5C"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:active_molten_stellaris"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3C81772B0834E434"]
+			id: "6680CCE473F5AA59"
+			subtitle: "Upon finding a Dormant Vent you will need to activate it by blowing TNT up on its surface"
+			tasks: [{
+				id: "6F2AC81BDF561FA7"
+				item: "minecraft:tnt"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"379F66CE74979275"
+				"3BD1CF8C63DA39F8"
+			]
+			id: "0E766060648F8B43"
+			subtitle: "Obtained by basin processing the below ingredients"
+			tasks: [{
+				id: "7F19148A7A1BBB3D"
+				item: "createdieselgenerators:ethanol_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["00961469E0473FA6"]
+			id: "379F66CE74979275"
+			subtitle: "Sugar is craftable from Sugar Cane"
+			tasks: [{
+				count: 5L
+				id: "4648CCBE9096D8A6"
+				item: { Count: 5, id: "minecraft:sugar" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["663B98AD6EFF295F"]
+			id: "3BD1CF8C63DA39F8"
+			tasks: [{
+				count: 5L
+				id: "3B77EEA03BBBA61C"
+				item: { Count: 5, id: "minecraft:bone_meal" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["663B98AD6EFF295F"]
+			id: "00961469E0473FA6"
+			tasks: [{
+				count: 5L
+				id: "7028451128EC008C"
+				item: { Count: 5, id: "minecraft:sugar_cane" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["0E766060648F8B43"]
+			id: "01B665D8F9A316F5"
+			subtitle: "Stellaris can be later crushed down to produce Ostrum"
+			tasks: [{
+				id: "2BCEFEC51E11BDE3"
+				item: "forge_frontier:stellaris"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
 		}
 	]
 	title: "Stellaris"
