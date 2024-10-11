@@ -17,14 +17,24 @@
 			y: -7.0d
 		}
 		{
-			click: "#658B30436C50211B"
+			click: "#01919AA59F357552"
 			height: 2.0d
-			hover: ["Slime"]
-			image: "ftbchunks:textures/faces/minecraft/slime.png"
+			hover: ["Cocoa Beans"]
+			image: "minecraft:block/cocoa_stage2"
 			rotation: 0.0d
 			width: 2.0d
-			x: 0.0d
-			y: 10.5d
+			x: -4.0d
+			y: 9.0d
+		}
+		{
+			click: "#1882C5090A305993"
+			height: 2.0d
+			hover: ["Cow"]
+			image: "ftbchunks:textures/faces/minecraft/cow.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 4.0d
+			y: 9.0d
 		}
 	]
 	order_index: 5
@@ -83,7 +93,7 @@
 			hide_dependent_lines: true
 			icon: "molten_vents:active_molten_verdantine"
 			id: "3B0C428AB2EDDA57"
-			subtitle: "In Order to generate Verdantine you will need a source block of Liquid Slime, below is how you craft it."
+			subtitle: "In Order to generate Verdantine you will need a source block of White Chocolate, below is how you craft it."
 			tasks: [{
 				id: "1A8A39D7B29AB4B5"
 				observe_type: 0
@@ -107,7 +117,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["0EAAF23F4EC7FE92"]
+			dependencies: ["31FBC673B1E527F6"]
 			id: "02FEFDD7F4DD0C1B"
 			subtitle: "Verdantine can be later crushed down to produce emeralds"
 			tasks: [{
@@ -119,28 +129,96 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["658B30436C50211B"]
-			id: "0EAAF23F4EC7FE92"
-			subtitle: "Obtained by mixing the below ingredients"
+			dependencies: [
+				"67829195F3340506"
+				"321D7F5DEE37D59F"
+				"1882C5090A305993"
+			]
+			id: "31FBC673B1E527F6"
+			subtitle: "Obtained by heated mixing the below ingredients"
 			tasks: [{
-				id: "44A496865FBCF9D8"
-				item: "create_things_and_misc:slime_bucket"
+				id: "65741235B128968B"
+				item: "create_confectionery:white_chocolate_bucket"
 				type: "item"
 			}]
 			x: 0.0d
 			y: 7.5d
 		}
 		{
-			dependencies: ["3B0C428AB2EDDA57"]
-			id: "658B30436C50211B"
+			dependencies: ["5F6FEC2217EC3794"]
+			id: "321D7F5DEE37D59F"
+			subtitle: "Sugar is craftable from Sugar Cane"
 			tasks: [{
-				count: 10L
-				id: "54543A08D806AD42"
-				item: { Count: 10, id: "minecraft:slime_ball" }
+				count: 4L
+				id: "43C4B9574C2332E3"
+				item: { Count: 4, id: "minecraft:sugar" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1DB408695E4BAD20"]
+			id: "67829195F3340506"
+			subtitle: "Obtained by crushing the below ingredients"
+			tasks: [{
+				count: 4L
+				id: "4966BB6EA5589B9D"
+				item: { Count: 4, id: "create_confectionery:cocoa_butter" }
 				type: "item"
 			}]
 			x: 0.0d
 			y: 9.0d
+		}
+		{
+			dependencies: ["3B0C428AB2EDDA57"]
+			id: "1882C5090A305993"
+			subtitle: "Obtained by milking a cow"
+			tasks: [{
+				id: "05203AEC105B5D7A"
+				item: "minecraft:milk_bucket"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["01919AA59F357552"]
+			id: "1DB408695E4BAD20"
+			subtitle: "Obtained by pressing the below ingredients"
+			tasks: [{
+				count: 6L
+				id: "1A5F650916AE5C1C"
+				item: { Count: 6, id: "create_confectionery:crushed_cocoa" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["3B0C428AB2EDDA57"]
+			id: "01919AA59F357552"
+			subtitle: "Obtained from Cocoa Plants"
+			tasks: [{
+				count: 6L
+				id: "74255D1737F8B0F0"
+				item: { Count: 6, id: "minecraft:cocoa_beans" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3B0C428AB2EDDA57"]
+			id: "5F6FEC2217EC3794"
+			tasks: [{
+				count: 4L
+				id: "232AF1EC4E26B4C3"
+				item: { Count: 4, id: "minecraft:sugar_cane" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 10.5d
 		}
 	]
 	title: "Verdantine"
