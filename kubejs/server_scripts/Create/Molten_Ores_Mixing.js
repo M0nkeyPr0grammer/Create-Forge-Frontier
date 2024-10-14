@@ -763,7 +763,7 @@ ServerEvents.recipes(event => {
             results: [
                 {
                     fluid: 'forge_frontier:molten_diamond',
-                    amount: 100
+                    amount: 1
                 }
             ],
             heatRequirement: "superheated"
