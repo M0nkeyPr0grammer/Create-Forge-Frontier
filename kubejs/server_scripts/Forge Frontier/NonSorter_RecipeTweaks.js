@@ -25,6 +25,25 @@ ServerEvents.recipes(event => {
 	event.remove({ id: 'create_oppenheimered/compacting/amber_from_honey'})
 	event.remove({ id: 'create_dd:superheating/netherite_scrap'})
 
+	// New Reinforced Hang Glider Recipe
+	event.remove({ id: 'hangglider:reinforced_hang_glider'})
+	event.custom({
+		type: 'minecraft:crafting_shapeless',
+		ingredients: [
+			{
+				item: 'hangglider:hang_glider'
+			},
+			{
+				item: 'minecraft:netherite_ingot'
+			}
+		],
+		result: {
+			item: 'hangglider:reinforced_hang_glider',
+			count: 1
+		  }
+	}).id( 'forge_frontier:shapeless/reinforced_hang_glider' )
+	
+
 	// Rose Quartz Adjustments
 	event.remove({ id: 'create:rose_quartz_block_from_rose_quartz_stonecutting'})
 	
