@@ -1,7 +1,29 @@
-   ServerEvents.recipes(event => {
-// Resource Stone Recipes
-    // Crushing Recipes
+ServerEvents.recipes(event => {
+    // Normal Recipe Removals
+    event.remove({ id: 'create:crushing/asurine' });
+    event.remove({ id: 'create:crushing/crimsite' });
+    event.remove({ id: 'create:crushing/ochrum' });
+    event.remove({ id: 'create_dd:crushing/scorchia' });
+    event.remove({ id: 'create:crushing/veridium' });
+    event.remove({ id: 'create_dd:crushing/potassic' });
+
+    // Recycling Recipe Removals
+    event.remove({ id: 'create:crushing/asurine_recycling' });
+    event.remove({ id: 'create:crushing/crimsite_recycling' });
+    event.remove({ id: 'create:crushing/ochrum_recycling' });
+    event.remove({ id: 'create_dd:crushing/scorchia_recycling' });
+    event.remove({ id: 'create:crushing/veridium_recycling' });
+    event.remove({ id: 'create_dd:crushing/potassic_recycling' });
+
+    // Resource Stone Recipes
     const stones = [
+        { name: 'asurine', input: 'create:asurine', output: 'create:crushed_raw_zinc', additional: 'create:zinc_nugget' },
+        { name: 'crimsite', input: 'create:crimsite', output: 'create:crushed_raw_iron', additional: 'minecraft:iron_nugget' },
+        { name: 'ochrum', input: 'create:ochrum', output: 'create:crushed_raw_gold', additional: 'minecraft:gold_nugget' },
+        { name: 'scoria', input: 'create:scoria', output: 'minecraft:lapis_lazuli', additional: null },
+        { name: 'scorchia', input: 'create:scorchia', output: 'minecraft:coal', additional: 'create:cinder_flour' },
+        { name: 'veridium', input: 'create:veridium', output: 'create:crushed_raw_copper', additional: 'create:copper_nugget' },
+        { name: 'potassic', input: 'create_dd:potassic', output: 'create:crushed_raw_tin', additional: 'create_dd:tin_nugget' },
         { name: 'verdantine', input: 'forge_frontier:verdantine', output: 'forge_frontier:crushed_verdantine', additional: null },
         { name: 'glacium', input: 'forge_frontier:glacium', output: 'forge_frontier:crushed_glacium', additional: 'create_dd:diamond_shard' },
         { name: 'aubrum', input: 'forge_frontier:aubrum', output: 'forge_frontier:crushed_aubrum', additional: 'ad_astra:desh_nugget' },
@@ -29,12 +51,40 @@
             results.push({ chance: 0.35, item: stone.additional });
         }
 
+        // Crushing Recipes
         event.custom({
             type: "create:crushing",
             ingredients: [{ item: stone.input }],
             processingTime: 250,
             results: results
         }).id(`forge_frontier:crushing/${stone.name}`);
-    });
+        
+        // Recycling Recipes
+        const recyclingResults = results.map(result => ({
+            chance: result.chance, // Keep the same chance
+            item: result.item
+        }));
 
+        event.custom({
+            type: "create:crushing",
+            ingredients: [
+                { tag: `create:stone_types/${stone.name}` }
+            ].filter(Boolean), // Filter out null values
+            processingTime: 250,
+            results: recyclingResults // Same results as crushing recipes
+        }).id(`forge_frontier:recycling/${stone.name}`);
+    });
+    
+    // Potassic Recycling Recipe
+    event.custom({
+        type: "create:crushing",
+        ingredients: [
+            { tag: `create_dd:stone_types/potassic` }
+        ],
+        processingTime: 250,
+        results: [
+            { chance: 0.35, item: 'create:crushed_raw_tin' }, // Same output as crushing
+            { chance: 0.35, item: 'create_dd:tin_nugget' } // Additional item if applicable
+        ]
+    }).id(`forge_frontier:recycling/potassic_tag`);
 });
