@@ -1,4 +1,4 @@
-ServerEvents.recipes(event => {
+ServerEvents.recipes(event => { 
     // Normal Recipe Removals
     event.remove({ id: 'create:crushing/asurine' });
     event.remove({ id: 'create:crushing/crimsite' });
@@ -38,7 +38,6 @@ ServerEvents.recipes(event => {
         { name: 'neodymrium', input: 'forge_frontier:neodymrium', output: 'forge_frontier:crushed_neodymrium', additional: 'alexscaves:raw_scarlet_neodymium' },
         { name: 'azurnium', input: 'forge_frontier:azurnium', output: 'forge_frontier:crushed_azurnium', additional: 'alexscaves:raw_azure_neodymium' },
         { name: 'urnaniumite', input: 'forge_frontier:uraniumnite', output: 'forge_frontier:crushed_uraniumnite', additional: 'alexscaves:uranium_shard' },
-        { name: 'ancient_debris', input: 'minecraft:ancient_debris', output: 'forge_frontier:crushed_debris', additional: null },
         { name: 'palerock', input: 'enlightened_end:palerock', output: 'forge_frontier:crushed_palerock', additional: 'enlightened_end:bismuth_nugget' },
         { name: 'sculk_grime', input: 'deeperdarker:sculk_grime', output: 'forge_frontier:crushed_grime', additional: null },
         { name: 'void_shale', input: 'enlightened_end:void_shale', output: 'forge_frontier:crushed_shale', additional: null }
@@ -46,9 +45,10 @@ ServerEvents.recipes(event => {
 
     // Loop through materials and create the crushing recipes
     stones.forEach(stone => {
-        const results = [{ chance: 0.35, item: stone.output }];
+        const results = [{ count: 9, item: stone.output }];
+        // Ensure additional item has a count of 1 if it exists
         if (stone.additional) {
-            results.push({ chance: 0.35, item: stone.additional });
+            results.push({ count: 1, item: stone.additional });
         }
 
         // Crushing Recipes
@@ -61,7 +61,7 @@ ServerEvents.recipes(event => {
         
         // Recycling Recipes
         const recyclingResults = results.map(result => ({
-            chance: result.chance, // Keep the same chance
+            count: result.count, // Keep the same count
             item: result.item
         }));
 
@@ -83,8 +83,19 @@ ServerEvents.recipes(event => {
         ],
         processingTime: 250,
         results: [
-            { chance: 0.35, item: 'create:crushed_raw_tin' }, // Same output as crushing
-            { chance: 0.35, item: 'create_dd:tin_nugget' } // Additional item if applicable
+            { count: 9, item: 'create:crushed_raw_tin' }, // Same output as crushing
+            { count: 1, item: 'create_dd:tin_nugget' } // Ensure a count of 1 for additional
         ]
     }).id(`forge_frontier:recycling/potassic_tag`);
+
+    // Ancient Debris Crushing Recipe
+    event.custom({
+        type: "create:crushing",
+        ingredients: [{ item: 'minecraft:ancient_debris' }],
+        processingTime: 250,
+        results: [
+            { count: 2, item: 'forge_frontier:crushed_debris' }, // Result with count set to 2
+            { chance: .05, item: 'create:crushed_raw_gold' } // Optional additional result
+        ]
+    }).id('forge_frontier:crushing/ancient_debris');
 });
