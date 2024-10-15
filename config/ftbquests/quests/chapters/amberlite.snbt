@@ -5,39 +5,19 @@
 	group: "3A742C0C73D55180"
 	icon: "molten_vents:active_molten_amberlite"
 	id: "69DD4D96993E773D"
-	images: [
-		{
-			height: 5.0d
-			image: "ftb:textures/amberlite_vent.png"
-			rotation: 0.0d
-			width: 7.9d
-			x: 0.0d
-			y: -7.0d
-		}
-		{
-			click: "#3C8BB040F86DB9D8"
-			height: 2.0d
-			hover: ["Honey"]
-			image: "ftbchunks:textures/faces/minecraft/bee.png"
-			rotation: 0.0d
-			width: 2.0d
-			x: 0.0d
-			y: 9.0d
-		}
-	]
 	order_index: 19
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["10D4229FB45F3605"]
 			id: "494B5367F48DE955"
-			subtitle: "Molten Vents is a mod which adds a renewable source of the orestones found in the Create mod, and by extension the many resources that can be processed from them."
 			tasks: [{
 				id: "6C4B23EB9273E6AB"
 				title: "Molten Ore Vent Understanding"
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: -3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["494B5367F48DE955"]
@@ -48,85 +28,18 @@
 				type: "dimension"
 			}]
 			x: 0.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["2079237FB3EBE3C5"]
-			icon: "molten_vents:dormant_molten_amberlite"
-			id: "2401FE22DF6AF5B1"
-			subtitle: "Amberlite Vents are found anywhere on the Primordial Caves Planet"
-			tasks: [{
-				id: "2A1835053C55F59E"
-				observe_type: 0
-				timer: 0L
-				to_observe: "molten_vents:dormant_molten_amberlite"
-				type: "observation"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["664FA38C96787407"]
-			hide_dependent_lines: true
-			icon: "molten_vents:active_molten_aubrum"
-			id: "08863212E09FCDC5"
-			subtitle: "In Order to generate Amberlite you will need a source block of Honey, below is how you craft it."
-			tasks: [{
-				id: "63DD635DB619CC91"
-				observe_type: 0
-				timer: 0L
-				to_observe: "molten_vents:active_molten_amberlite"
-				type: "observation"
-			}]
-			x: 0.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["2401FE22DF6AF5B1"]
-			id: "664FA38C96787407"
-			subtitle: "Upon finding a Dormant Vent you will need to activate it by blowing TNT up on its surface"
-			tasks: [{
-				id: "45758823205BC3E8"
-				item: "minecraft:tnt"
-				type: "item"
-			}]
-			x: 0.0d
 			y: 1.5d
 		}
 		{
-			dependencies: ["3C457E11B373D336"]
-			id: "0CDC55F79B076819"
-			subtitle: "Amberlite can be later crushed down to produce Amber"
+			id: "10D4229FB45F3605"
 			tasks: [{
-				id: "00F7B8D009028373"
-				item: "forge_frontier:amberlite"
-				type: "item"
+				amount: 1000L
+				fluid: "create:honey"
+				id: "54700B6C428D6DF4"
+				type: "fluid"
 			}]
 			x: 0.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["3C8BB040F86DB9D8"]
-			id: "3C457E11B373D336"
-			subtitle: "Obtained by heated mixing the below ingredients"
-			tasks: [{
-				id: "0B426B779B6B3585"
-				item: "create:honey_bucket"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["08863212E09FCDC5"]
-			id: "3C8BB040F86DB9D8"
-			tasks: [{
-				id: "4BE4E4A65AFDD6BC"
-				item: "minecraft:honey_block"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 7.5d
+			y: -1.5d
 		}
 	]
 	title: "Amberlite"

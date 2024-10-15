@@ -26,7 +26,7 @@
 			click: "#47E6547A4F973D98"
 			height: 5.0d
 			hover: ["Ancient City Center"]
-			image: "ftb:textures/ancientcity.png"
+			image: "forge_frontier:textures/ftb/ancientcity.png"
 			rotation: 0.0d
 			width: 4.8d
 			x: 0.0d

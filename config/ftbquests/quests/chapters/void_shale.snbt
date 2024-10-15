@@ -5,41 +5,19 @@
 	group: "3A742C0C73D55180"
 	icon: "molten_vents:active_molten_void_shale"
 	id: "6B5F7F7214C7997E"
-	images: [
-		{
-			click: "#177FD83E945AE2BE"
-			height: 5.0d
-			hover: ["Void Shale Vent"]
-			image: "ftb:textures/voidshale_vent.png"
-			rotation: 0.0d
-			width: 6.35d
-			x: 0.0d
-			y: -7.0d
-		}
-		{
-			click: "#66FF5B580382B70F"
-			height: 2.0d
-			hover: ["Cow"]
-			image: "ftbchunks:textures/faces/minecraft/cow.png"
-			rotation: 0.0d
-			width: 2.0d
-			x: 0.0d
-			y: 10.5d
-		}
-	]
 	order_index: 16
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["2FB98AEC5A5EC828"]
 			id: "4DF07C13FA0AAA20"
-			subtitle: "Molten Vents is a mod which adds a renewable source of the orestones found in the Create mod, and by extension the many resources that can be processed from them."
 			tasks: [{
 				id: "5852CC63748EFFCA"
 				title: "Molten Ore Vent Understanding"
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: -3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -53,141 +31,18 @@
 				type: "dimension"
 			}]
 			x: 0.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["163D6C1DB2A87EB7"]
-			icon: "molten_vents:dormant_molten_void_shale"
-			id: "177FD83E945AE2BE"
-			subtitle: "Void Shale Vents are found anywhere in the End"
-			tasks: [{
-				id: "5993EC5234DA3722"
-				observe_type: 0
-				timer: 0L
-				to_observe: "molten_vents:dormant_molten_void_shale"
-				type: "observation"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["1530538613ABE618"]
-			hide_dependent_lines: true
-			icon: "molten_vents:active_molten_void_shale"
-			id: "01C54F69AC1A05BF"
-			subtitle: "In Order to generate Void Shale you will need a source block of Ruby Chocolate, below is how you craft it."
-			tasks: [{
-				id: "476609A8F8D6DE07"
-				observe_type: 0
-				timer: 0L
-				to_observe: "molten_vents:active_molten_void_shale"
-				type: "observation"
-			}]
-			x: 0.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["177FD83E945AE2BE"]
-			id: "1530538613ABE618"
-			subtitle: "Upon finding a Dormant Vent you will need to activate it by blowing TNT up on its surface"
-			tasks: [{
-				id: "053DFE4842E51C6F"
-				item: "minecraft:tnt"
-				type: "item"
-			}]
-			x: 0.0d
 			y: 1.5d
 		}
 		{
-			dependencies: ["479237D38057834E"]
-			id: "4BA4F5D20D29BDF5"
-			subtitle: "Void Shale can be later crushed down to produce Malachite"
+			id: "2FB98AEC5A5EC828"
 			tasks: [{
-				id: "160262B2B5444B98"
-				item: "enlightened_end:void_shale"
-				type: "item"
+				amount: 1000L
+				fluid: "create_confectionery:ruby_chocolate"
+				id: "23272F0FEC06E150"
+				type: "fluid"
 			}]
 			x: 0.0d
-			y: 4.5d
-		}
-		{
-			dependencies: [
-				"2DDA435F93E71572"
-				"4DDCB7E27A15F543"
-				"66FF5B580382B70F"
-				"22DCD7708D7E709E"
-			]
-			id: "479237D38057834E"
-			subtitle: "Obtained by heated mixing the below ingredients"
-			tasks: [{
-				id: "75B425BD9C92BCA5"
-				item: "create_confectionery:ruby_chocolate_bucket"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["5903BE1E5064EBE7"]
-			id: "2DDA435F93E71572"
-			subtitle: "Sugar is craftable from Sugar Cane"
-			tasks: [{
-				count: 4L
-				id: "4883C79D3D8092BC"
-				item: { Count: 4, id: "minecraft:sugar" }
-				type: "item"
-			}]
-			x: -1.5d
-			y: 7.5d
-		}
-		{
-			dependencies: ["01C54F69AC1A05BF"]
-			id: "4DDCB7E27A15F543"
-			tasks: [{
-				count: 4L
-				id: "3FDC439BCEF2D9AF"
-				item: { Count: 4, id: "minecraft:dragon_breath" }
-				type: "item"
-			}]
-			x: -0.5d
-			y: 7.5d
-		}
-		{
-			dependencies: ["01C54F69AC1A05BF"]
-			id: "22DCD7708D7E709E"
-			subtitle: "Obtained from Cocoa Plants"
-			tasks: [{
-				count: 4L
-				id: "6AFFE92530B31289"
-				item: { Count: 4, id: "minecraft:cocoa_beans" }
-				type: "item"
-			}]
-			x: 0.5d
-			y: 7.5d
-		}
-		{
-			dependencies: ["01C54F69AC1A05BF"]
-			id: "66FF5B580382B70F"
-			subtitle: "Obtained by milking a cow"
-			tasks: [{
-				id: "0A53E0B558938CA3"
-				item: "minecraft:milk_bucket"
-				type: "item"
-			}]
-			x: 1.5d
-			y: 7.5d
-		}
-		{
-			dependencies: ["01C54F69AC1A05BF"]
-			id: "5903BE1E5064EBE7"
-			tasks: [{
-				count: 4L
-				id: "2F20ED6122B1B0F7"
-				item: { Count: 4, id: "minecraft:sugar_cane" }
-				type: "item"
-			}]
-			x: -1.5d
-			y: 9.0d
+			y: -1.5d
 		}
 	]
 	title: "Void Shale"

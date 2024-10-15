@@ -5,41 +5,19 @@
 	group: "3A742C0C73D55180"
 	icon: "molten_vents:active_molten_uraniumnite"
 	id: "0452AA2D5DE38283"
-	images: [
-		{
-			click: "#70DF75B6AEEF8D39"
-			height: 5.0d
-			hover: ["Uraniumnite Vent"]
-			image: "ftb:textures/uraniumnite_vent.png"
-			rotation: 0.0d
-			width: 8.7d
-			x: 0.0d
-			y: -7.0d
-		}
-		{
-			click: "#7F4C6C2ADA11E9D1"
-			height: 2.0d
-			hover: ["Sulfur Cluster, when Mined gives sulfur dust"]
-			image: "alexscaves:block/sulfur_cluster"
-			rotation: 0.0d
-			width: 2.0d
-			x: 0.0d
-			y: 9.5d
-		}
-	]
 	order_index: 21
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["209A52BD27956D56"]
 			id: "66F5AA442E33505D"
-			subtitle: "Molten Vents is a mod which adds a renewable source of the orestones found in the Create mod, and by extension the many resources that can be processed from them."
 			tasks: [{
 				id: "19651D14522E6059"
 				title: "Molten Ore Vent Understanding"
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: -3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["66F5AA442E33505D"]
@@ -50,100 +28,18 @@
 				type: "dimension"
 			}]
 			x: 0.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["4DF6D85D5CA080A4"]
-			icon: "molten_vents:dormant_molten_uraniumnite"
-			id: "70DF75B6AEEF8D39"
-			subtitle: "Uraniumnite Vents are found anywhere on the Toxic Caves Planet"
-			tasks: [{
-				id: "6000D0FCF2A4250B"
-				observe_type: 0
-				timer: 0L
-				to_observe: "molten_vents:dormant_molten_uraniumnite"
-				type: "observation"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["0188E5A0D2659711"]
-			hide_dependent_lines: true
-			icon: "molten_vents:active_molten_uraniumnite"
-			id: "29FE8FE2DE79D7EB"
-			subtitle: "In Order to generate Uraniumnite you will need a source block of Acid, below is how you craft it."
-			tasks: [{
-				id: "75E642E557765EEC"
-				observe_type: 0
-				timer: 0L
-				to_observe: "molten_vents:active_molten_uraniumnite"
-				type: "observation"
-			}]
-			x: 0.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["70DF75B6AEEF8D39"]
-			id: "0188E5A0D2659711"
-			subtitle: "Upon finding a Dormant Vent you will need to activate it by blowing TNT up on its surface"
-			tasks: [{
-				id: "7C8F7720B31CA808"
-				item: "minecraft:tnt"
-				type: "item"
-			}]
-			x: 0.0d
 			y: 1.5d
 		}
 		{
-			dependencies: ["79182D6BE9E5DE0D"]
-			id: "2C5F9A3210357A54"
-			subtitle: "Uraniumnite can be later crushed down to produce Uranium"
+			id: "209A52BD27956D56"
 			tasks: [{
-				id: "72630F03834B4204"
-				item: "forge_frontier:uraniumnite"
-				type: "item"
+				amount: 1000L
+				fluid: "alexscaves:acid"
+				id: "60016C01749F9092"
+				type: "fluid"
 			}]
 			x: 0.0d
-			y: 4.5d
-		}
-		{
-			dependencies: [
-				"7F4C6C2ADA11E9D1"
-				"1BC412474419C300"
-			]
-			id: "79182D6BE9E5DE0D"
-			subtitle: "Obtained by heated mixing the below ingredients"
-			tasks: [{
-				id: "30E38259D8FDB777"
-				item: "alexscaves:acid_bucket"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["29FE8FE2DE79D7EB"]
-			id: "1BC412474419C300"
-			tasks: [{
-				id: "35D9AF08BDCA9FC0"
-				item: "minecraft:water_bucket"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 7.5d
-		}
-		{
-			dependencies: ["29FE8FE2DE79D7EB"]
-			id: "7F4C6C2ADA11E9D1"
-			tasks: [{
-				count: 6L
-				id: "7A743D40BC8AB615"
-				item: { Count: 6, id: "alexscaves:sulfur_dust" }
-				type: "item"
-			}]
-			x: -1.0d
-			y: 7.5d
+			y: -1.5d
 		}
 	]
 	title: "Uraniumnite"

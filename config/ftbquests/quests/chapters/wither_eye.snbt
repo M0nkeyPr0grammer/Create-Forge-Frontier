@@ -16,7 +16,7 @@
 			click: "#4605F358C391E792"
 			height: 5.0d
 			hover: ["Wither Eye Crafting Setup"]
-			image: "ftb:textures/wither.png"
+			image: "forge_frontier:textures/ftb/wither.png"
 			rotation: 0.0d
 			width: 4.5d
 			x: 0.0d

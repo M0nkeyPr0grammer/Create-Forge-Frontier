@@ -16,7 +16,7 @@
 			click: "#36C86494B2189E04"
 			height: 5.0d
 			hover: ["YUNG's Better Ocean Monument"]
-			image: "ftb:textures/guardian.png"
+			image: "forge_frontier:textures/ftb/guardian.png"
 			rotation: 0.0d
 			width: 8.65d
 			x: 0.0d
