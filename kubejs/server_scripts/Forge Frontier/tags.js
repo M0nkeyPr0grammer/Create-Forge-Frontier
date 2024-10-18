@@ -155,6 +155,7 @@ ServerEvents.tags('fluid', event => {
 
     // Fluids
     event.add('forge:crude_oil','ad_astra:oil')
+    event.remove('minecraft:water', 'createaddition:bioethanol')
     
 })
 
