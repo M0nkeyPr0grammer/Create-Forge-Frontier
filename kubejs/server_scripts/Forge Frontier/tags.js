@@ -25,21 +25,6 @@ event.add('mctb:revertable_workbench','mctb:ru_willow_crafting_table')
 event.add('mctb:revertable_workbench','mctb:yellow_bioshroom_crafting_table')
 event.add('mctb:revertable_workbench','mctb:socotra_crafting_table')
 
-// Drill Heads
-event.add('createoreexcavation:drills','createoreexcavation:brass_drill')
-event.add('createoreexcavation:drills','createoreexcavation:desh_drill')
-event.add('createoreexcavation:drills','createoreexcavation:ostrum_drill')
-event.add('createoreexcavation:drills','createoreexcavation:calorite_drill')
-event.add('createoreexcavation:drills','createoreexcavation:dragon_drill')
-event.add('createoreexcavation:drills','createoreexcavation:amber_drill')
-event.add('createoreexcavation:drills','createoreexcavation:azure_drill')
-event.add('createoreexcavation:drills','createoreexcavation:guano_drill')
-event.add('createoreexcavation:drills','createoreexcavation:pearl_drill')
-event.add('createoreexcavation:drills','createoreexcavation:scarlet_drill')
-event.add('createoreexcavation:drills','createoreexcavation:sulfur_drill')
-event.add('createoreexcavation:drills','createoreexcavation:uranium_drill')
-event.add('createoreexcavation:drills','createoreexcavation:echo_drill')
-
 // Ad Astra Ores
 event.add('forge:ores/ice_shard', 'ad_astra:moon_ice_shard_ore' )
 event.add('forge:ores/ice_shard', 'ad_astra:deepslate_ice_shard_ore' )
@@ -148,6 +133,12 @@ event.add('forge_frontier:mold_templates','forge_frontier:mold_template')
 // Vanilla Tag
 event.add('forge_frontier:vanilla','minecraft:dandelion')
 event.add('forge_frontier:vanilla','minecraft:blue_orchid')
+
+// Connector Tag
+event.add('forge_frontier:connector','create_new_age:electrical_connector')
+event.add('forge_frontier:connector','createaddition:connector')
+event.add('forge_frontier:connector','createaddition:large_connector')
+event.add('forge_frontier:connector','tfgm:cable_connector')
 
 })
 
