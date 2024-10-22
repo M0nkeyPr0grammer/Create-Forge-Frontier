@@ -109,6 +109,12 @@
     "minecraft:trail_ruins",
     "minecraft:ancient_city",
     "cataclysm:sunken_city",
-    "alexscaves:volcano"
+    "alexscaves:volcano",
+    "endlessbiomes:resitive_bulwark",
+    "nullscape:dragon_skeleton",
+    "ad_astra:lunar_tower",
+    "idas:ruins_of_the_deep",
+    "terralith:mage_tower",
+    "alexscaves:cake_cave"
   ]
 }

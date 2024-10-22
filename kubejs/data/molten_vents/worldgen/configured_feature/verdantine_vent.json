@@ -32,7 +32,7 @@
     "liquidBlock": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "create_things_and_misc:slime"
+        "Name": "create_confectionery:white_chocolate"
       }
     },
     "depth": {

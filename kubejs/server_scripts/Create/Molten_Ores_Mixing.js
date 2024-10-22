@@ -751,24 +751,6 @@ ServerEvents.recipes(event => {
             heatRequirement: "superheated"
         }).id('forge_frontier:mixing/diamond_grit_molten');
 
-        // Carbon Compacting
-        event.custom({
-            type:"create:compacting",
-            ingredients: [
-                {
-                    fluid: 'forge_frontier:molten_carbon',
-                    amount: 1000
-                }
-            ],
-            results: [
-                {
-                    fluid: 'forge_frontier:molten_diamond',
-                    amount: 100
-                }
-            ],
-            heatRequirement: "superheated"
-        }).id('forge_frontier:compacting/carbon_diamond_molten');
-
     // Molten Zinc
         // Ingot to Molten
         event.custom({

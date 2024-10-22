@@ -1,5 +1,5 @@
 {
-  "feature": "create:zinc_ore",
+  "feature": "enlightened_end:palerock",
   "placement": [
     {
       "type": "minecraft:count",
@@ -12,16 +12,16 @@
       "type": "minecraft:height_range",
       "height": {
         "type": "minecraft:uniform",
-        "max_inclusive": {
-          "absolute": 70
-        },
         "min_inclusive": {
-          "absolute": -63
+          "absolute": 30
+        },
+        "max_inclusive": {
+          "absolute": 65
         }
       }
     },
     {
-      "type": "create:config_filter"
+      "type": "minecraft:biome"
     }
   ]
 }

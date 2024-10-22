@@ -33,7 +33,7 @@
 			image: "minecraft:block/sweet_berry_bush_stage3"
 			rotation: 0.0d
 			width: 2.0d
-			x: 5.5d
+			x: 6.0d
 			y: 9.0d
 		}
 	]

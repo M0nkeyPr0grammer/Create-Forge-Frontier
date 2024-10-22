@@ -1,66 +1,97 @@
 ServerEvents.recipes(event => {
 
-    event.remove({ id: 'pipez:item_pipe' }) // Removes Recipe
-    event.remove({ id: 'pipez:fluid_pipe' }) // Removes Recipe
-    event.remove({ id: 'pipez:energy_pipe' }) // Removes Recipe
-	event.remove({ id: 'pipez:universal_pipe'})
-
     // Creates New Item Pipe Recipe
-	event.shaped(
-		Item.of('pipez:item_pipe', 2),
-		[
-			'ABA',
-			'A A',
-			'ABA'
+	event.remove({ id: 'pipez:item_pipe' })
+	event.custom({
+		type: 'create:item_application',
+		ingredients: [
+		  {
+			item: 'create:chute'
+		  },
+		  {
+			item: 'create_dd:overburden_casing'
+		  }
 		],
-		{
-			A: '#forge:rods/steel',
-			B: 'create:chute'
-		}
-	).id('forge_frontier:shaped/item_pipe')
+		results: [
+		  {
+			item: 'pipez:item_pipe'
+		  }
+		]
+	  }).id('forge_frontier:item_application/item_pipe');
 
     // Creates New Fluid Pipe Recipe
-    event.shaped(
-		Item.of('pipez:fluid_pipe', 2),
-		[
-			'ABA',
-			'A A',
-			'ABA'
+	event.remove({ id: 'pipez:fluid_pipe' }) 
+	event.custom({
+		type: 'create:item_application',
+		ingredients: [
+		  {
+			item: 'create:fluid_pipe'
+		  },
+		  {
+			item: 'create_dd:hydraulic_casing'
+		  }
 		],
-		{
-			A: '#forge:rods/brass',
-			B: 'create:fluid_pipe'
-		}
-	).id('forge_frontier:shaped/fluid_pipe')
+		results: [
+		  {
+			item: 'pipez:fluid_pipe'
+		  }
+		]
+	  }).id('forge_frontier:item_application/fluid_pipe');
 
     // Creates New Energry Pipe Recipe
-    event.shaped(
-		Item.of('pipez:energy_pipe', 2),
-		[
-			'ABA',
-			'A A',
-			'ABA'
+	event.remove({ id: 'pipez:energy_pipe' }) 
+	event.custom({
+		type: 'create:item_application',
+		ingredients: [
+		  {
+			tag: 'forge_frontier:connector'
+		  },
+		  {
+			item: 'create_dd:overcharged_casing'
+		  }
 		],
-		{
-			A: '#forge:rods/desh',
-			B: 'create:electron_tube'
-		}
-	).id('forge_frontier:shaped/energy_pipe')
+		results: [
+		  {
+			item: 'pipez:energy_pipe'
+		  }
+		]
+	  }).id('forge_frontier:item_application/energy_pipe');
 
 	// Creates Universal Pipe Recipe
-	event.shaped(
-		Item.of('pipez:universal_pipe', 6),
-		[
-			'ABC',
-			'D D',
-			'ABC'
+	event.remove({ id: 'pipez:universal_pipe'})
+	event.custom({
+		type: 'create:item_application',
+		ingredients: [
+		  {
+			item: 'tfmg:brass_pipe'
+		  },
+		  {
+			item: 'create_dd:blaze_gold_casing'
+		  }
 		],
-		{
-			A: 'pipez:item_pipe',
-			B: 'pipez:fluid_pipe',
-			C: 'pipez:energy_pipe',
-			D: 'create_new_age:overcharged_iron'
-		}
-	).id('forge_frontier:shaped/universal_pipe')
+		results: [
+		  {
+			item: 'pipez:universal_pipe'
+		  }
+		]
+	  }).id('forge_frontier:item_application/universal_pipe');
+
+	  // Creates Gas Pipe Recipe
+	  event.custom({
+		type: 'create:item_application',
+		ingredients: [
+		  {
+			item: 'tfmg:steel_pipe'
+		  },
+		  {
+			item: 'create_dd:steel_casing'
+		  }
+		],
+		results: [
+		  {
+			item: 'pipez:gas_pipe'
+		  }
+		]
+	  }).id('forge_frontier:item_application/gas_pipe');	  
 
 })

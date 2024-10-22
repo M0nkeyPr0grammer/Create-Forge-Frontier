@@ -316,6 +316,44 @@ guanoBurnFuel = true
 	tremorzillaStepHeight = 1.6
 	#NOTE: Turning this off could lead to Tremorzilla getting stuck with pathfinding!!! Do not report to Alex's Caves if you turned this off and the mob gets stuck.
 	tremorzillaWalkingBlockGriefing = true
+	#Range: 1.0 ~ 1000000.0
+	candicornMaxHealth = 30.0
+	#Range: 1.0 ~ 1000000.0
+	candicornAttackDamage = 6.0
+	#Range: 1.0 ~ 1000000.0
+	caniacMaxHealth = 38.0
+	#Range: 1.0 ~ 1000000.0
+	caniacAttackDamage = 2.0
+	#Range: 1.0 ~ 1000000.0
+	caramelCubeMaxHealth = 4.0
+	#Range: 1.0 ~ 1000000.0
+	caramelCubeAttackDamage = 2.0
+	#Range: 1.0 ~ 1000000.0
+	gingerbreadManMaxHealth = 10.0
+	#Range: 1.0 ~ 1000000.0
+	gingerbreadManAttackDamage = 2.0
+	#Range: 1.0 ~ 1000000.0
+	gumbeeperMaxHealth = 14.0
+	#Range: 1.0 ~ 1000000.0
+	gumbeeperAttackDamage = 4.0
+	#Range: 0.0 ~ 1000000.0
+	gumbeeperArmor = 4.0
+	#Range: 1.0 ~ 1000000.0
+	gummyBearMaxHealth = 36.0
+	#Range: 1.0 ~ 1000000.0
+	gummyBearAttackDamage = 4.0
+	#Range: 1.0 ~ 1000000.0
+	gumWormMaxHealth = 150.0
+	#Range: 1.0 ~ 1000000.0
+	gumWormAttackDamage = 10.0
+	#Range: 0.0 ~ 1000000.0
+	gumWormArmor = 9.0
+	#Range: 1.0 ~ 1000000.0
+	licowitchMaxHealth = 40.0
+	#Range: 1.0 ~ 1000000.0
+	licowitchAttackDamage = 3.0
+	#Range: 1.0 ~ 1000000.0
+	sweetishFishMaxHealth = 4.0
 
 ["Nuclear Furnace Options"]
 	#----------------------------------
@@ -339,4 +377,8 @@ guanoBurnFuel = true
 	#
 	#Range: 0.0 ~ 10000.0
 	extinctionSpearRangedDamage = 10.0
+
+["INTERNAL MARKERS (DO NOT EDIT)"]
+	#Range: 1 ~ 1000000
+	configVersion = 1
 

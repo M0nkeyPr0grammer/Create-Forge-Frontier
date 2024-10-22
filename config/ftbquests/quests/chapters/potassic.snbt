@@ -23,7 +23,7 @@
 			image: "ftbchunks:textures/faces/minecraft/cow.png"
 			rotation: 0.0d
 			width: 2.0d
-			x: -3.0d
+			x: -4.0d
 			y: 10.0d
 		}
 		{
@@ -33,7 +33,7 @@
 			image: "minecraft:block/dandelion"
 			rotation: 0.0d
 			width: 2.0d
-			x: 4.5d
+			x: 5.5d
 			y: 10.0d
 		}
 		{
@@ -43,7 +43,7 @@
 			image: "minecraft:block/blue_orchid"
 			rotation: 0.0d
 			width: 2.0d
-			x: 5.5d
+			x: 6.5d
 			y: 10.0d
 		}
 	]

@@ -83,7 +83,23 @@ ServerEvents.tags('block', event => {
         '#chipped:soul_lantern',
         '#ad_astra:globes',
         '#ad_astra:sliding_doors'
-
     ]);
+
+// Remove Non_Movable Tag Items
+event.remove('create:non_movable', [
+    'molten_vents:active_molten_asurine',
+    'molten_vents:active_molten_veridium',
+    'molten_vents:active_molten_crimsite',
+    'molten_vents:active_molten_ochrum',
+    'molten_vents:active_molten_scorchia',
+    'molten_vents:active_molten_scoria',
+    'molten_vents:dormant_molten_asurine',
+    'molten_vents:dormant_molten_veridium',
+    'molten_vents:dormant_molten_crimsite',
+    'molten_vents:dormant_molten_ochrum',
+    'molten_vents:dormant_molten_scorchia',
+    'molten_vents:dormant_molten_scoria'
+]);
+
 
 });

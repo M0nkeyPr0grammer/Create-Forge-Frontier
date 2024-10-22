@@ -551,7 +551,7 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
         type: 'create_mechanical_extruder:extruding',
         ingredients: [
           {
-            fluid: 'create_things_and_misc:slime',
+            fluid: 'create_confectionery:white_chocolate',
             amount: 1000
           },
           {
@@ -573,7 +573,7 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
         type: 'create_mechanical_extruder:extruding',
         ingredients: [
           {
-            fluid: 'minecraft:lava',
+            fluid: 'create_confectionery:black_chocolate',
             amount: 1000
           },
           {
@@ -617,7 +617,7 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
         type: 'create_mechanical_extruder:extruding',
         ingredients: [
           {
-            fluid: 'forge_frontier:molten_carbon',
+            fluid: 'ad_astra:cryo_fuel',
             amount: 1000
           },
           {

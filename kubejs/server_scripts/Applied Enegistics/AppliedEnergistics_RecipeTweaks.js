@@ -5,6 +5,23 @@ event.remove({ id: 'expatternprovider:cobblestone_cell'})
 event.remove({ id: 'expattenprovider:ex_inscriber'})
 
 
+// New Charger Recipe
+event.remove({ id: 'ae2:network/blocks/crystal_processing_charger'})
+event.shaped(
+  Item.of('ae2:charger'),
+  [
+    'IOI',
+    'S  ',
+    'IOI'
+  ],
+  {
+    I: 'create_new_age:overcharged_iron',
+    S: 'ae2:printed_silicon',
+    O: 'create_dd:overcharge_alloy'
+  }
+).id( 'forge_frontier:shaped/charger')
+
+
 // New ME Import Bus Recipe
 event.remove({ id: 'ae2:network/parts/import_bus'})
 event.shaped(
