@@ -54,6 +54,24 @@ ServerEvents.recipes(event => {
                 { tag: '#forge:workbench' }
             ],
             recipeId: 'forge_frontier:shapeless/hunting_post'
+        },
+        {
+            id: 'morevillagers:blueprint_table',
+            output: 'morevillagers:blueprint_table',
+            ingredients: [
+                { item: 'create:crafting_blueprint' },
+                { tag: '#forge:workbench' }
+            ],
+            recipeId: 'forge_frontier:shapeless/blueprint_table'
+        },
+        {
+            id: 'morevillagers:mining_bench',
+            output: 'morevillagers:mining_bench',
+            ingredients: [
+                { item: 'create:mechanical_drill' },
+                { tag: '#forge:workbench' }
+            ],
+            recipeId: 'forge_frontier:shapeless/mining_bench'
         }
     ];
 
