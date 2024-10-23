@@ -7,6 +7,7 @@ StartupEvents.registry('item', event => {
         { id: "forge_frontier:forge_rocket_fin_left", name: "Forge Rocket Fin Left", texture: 'forge_frontier:item/forge_rocket/forge_rocket_fin_left' },
         { id: "forge_frontier:forge_rocket_fin_right", name: "Forge Rocket Fin Right", texture: 'forge_frontier:item/forge_rocket/forge_rocket_fin_right' },
         { id: "forge_frontier:forge_rocket_nose_cone", name: "Forge Rocket Nose Cone", texture: 'forge_frontier:item/forge_rocket/forge_rocket_nose_cone' },
+        { id: "forge_frontier:forge_alloy", name: "Forge Alloy", texture: 'forge_frontier:item/forge_rocket/forge_alloy'}
     ];
 
     // Create each rocket item
