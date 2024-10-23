@@ -82,8 +82,27 @@ ServerEvents.tags('block', event => {
         '#chipped:lantern',
         '#chipped:soul_lantern',
         '#ad_astra:globes',
-        '#ad_astra:sliding_doors'
-
+        '#ad_astra:sliding_doors',
+        'forge_frontier:forge_rocket_casing'
     ]);
+
+// Remove Non_Movable Tag Items
+event.remove('create:non_movable', [
+    'molten_vents:active_molten_asurine',
+    'molten_vents:active_molten_veridium',
+    'molten_vents:active_molten_crimsite',
+    'molten_vents:active_molten_ochrum',
+    'molten_vents:active_molten_scorchia',
+    'molten_vents:active_molten_scoria',
+    'molten_vents:dormant_molten_asurine',
+    'molten_vents:dormant_molten_veridium',
+    'molten_vents:dormant_molten_crimsite',
+    'molten_vents:dormant_molten_ochrum',
+    'molten_vents:dormant_molten_scorchia',
+    'molten_vents:dormant_molten_scoria'
+]);
+
+// Create Casing Tag
+event.add('create:casing','forge_frontier:forge_rocket_casing')
 
 });

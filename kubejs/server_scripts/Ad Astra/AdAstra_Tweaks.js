@@ -4,6 +4,26 @@ ServerEvents.recipes(event => {
     // Recipe Removal
     event.remove({ id: 'ad_astra:recipes/steel_ingot_from_blasting_iron_ingot'})
 
+    // New Jetsuit Recipe
+    event.remove({ id: 'ad_astra:jet_suit'})
+    event.custom({
+        type: "create:mechanical_crafting",
+        pattern: [
+            'C C',
+            'TST',
+            'EJE'
+        ],
+        key: {
+            C: Ingredient.of('#ad_astra:calorite_plates').toJson(),
+            T: Ingredient.of('ad_astra:calorite_tank').toJson(),
+            S: Ingredient.of('ad_astra:netherite_space_suit').toJson(),
+            E: Ingredient.of('ad_astra:etrionic_capacitor').toJson(),
+            J: Ingredient.of('create_sa:andesite_jetpack_chestplate').toJson()
+        },
+        result: Ingredient.of('ad_astra:jet_suit').toJson(),
+        acceptMirrored: false
+    }).id('forge_frontier:mechanical_crafting/jet_suit');    
+
     // Creates Brand New Recipes for Ad Astra Machines
         // Mechanical Crafting Recipes
 
