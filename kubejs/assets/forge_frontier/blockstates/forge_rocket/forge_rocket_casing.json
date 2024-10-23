@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "forge_frontier:block/forge_rocket/forge_rocket_casing"
+    }
+  }
+}

@@ -89,7 +89,7 @@ ServerEvents.recipes(event => {
         acceptMirrored: false
     }).id("forge_frontier:mechanical_crafting/tier_3_rocket")
 
-    // Tierr 4 Rocket
+    // Tier 4 Rocket
 
     event.remove({ id: "ad_astra:nasa_workbench/tier_4_rocket_from_nasa_workbench"})
     event.custom({
@@ -176,10 +176,35 @@ ServerEvents.recipes(event => {
         acceptMirrored: false
     }).id("forge_frontier:mechanical_crafting/tier_6_rocket")
 
-    // Tier 7 Rocket
+    // Forge Rocket, aka Tier 7 Rocket
     
     event.remove({ id: "ad_astra_rocketed:nasa_workbench/default/tier_7_rocket_from_nasa_workbench"})
-    // Will Make Rocket Later
+    event.custom({
+        type: "create:mechanical_crafting",
+        pattern: [
+            "  N  ",
+            " CCC ",
+            " CCC ",
+            " CDC ",
+            " CRC ",
+            " CCC ",
+            "FTcTf",
+            "F E f"
+        ],
+        key: {
+            F: Ingredient.of("forge_frontier:forge_rocket_fin_left"),
+            f: Ingredient.of("forge_frontier:forge_rocket_fin_right"),
+            E: Ingredient.of("forge_frontier:forge_rocket_engine"),
+            T: Ingredient.of("forge_frontier:forge_rocket_tank"),
+            D: Ingredient.of("forge_frontier:forge_rocket_door"),
+            N: Ingredient.of("forge_frontier:forge_rocket_nose_cone"),
+            C: Ingredient.of("forge_frontier:forge_rocket_casing"),
+            R: Ingredient.of('ad_astra_rocketed:tier_6_rocket'),
+            c: Ingredient.of("forge_frontier:forge_rocket_core")
+        },
+        result: Ingredient.of("ad_astra_rocketed:tier_7_rocket"),
+        acceptMirrored: false
+    }).id("forge_frontier:mechanical_crafting/forge_rocket")
 
     // New Rocket Parts
         // Engines
