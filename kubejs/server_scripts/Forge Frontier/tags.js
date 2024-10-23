@@ -140,6 +140,9 @@ event.add('forge_frontier:connector','createaddition:connector')
 event.add('forge_frontier:connector','createaddition:large_connector')
 event.add('forge_frontier:connector','tfgm:cable_connector')
 
+// Create Casing
+event.add('create:casing','forge_frontier:forge_rocket_casing')
+
 })
 
 ServerEvents.tags('fluid', event => {

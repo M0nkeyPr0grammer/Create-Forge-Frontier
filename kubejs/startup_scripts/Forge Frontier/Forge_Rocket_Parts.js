@@ -21,4 +21,15 @@ StartupEvents.registry('item', event => {
 
 StartupEvents.registry('block', event => {
 
+    event.create('forge_frontier:forge_rocket_casing')
+    .displayName('Forge Rocket Casing')
+    .soundType('metal') 
+    .mapColor('Stone') 
+    .hardness(2.0)
+    .model('forge_frontier:block/forge_rocket/forge_rocket_casing')
+    .requiresTool(true)
+    .renderType('solid')
+    .tagBlock("mineable/pickaxe")
+    .tagBlock("mineable/axe")
+    .fullBlock(true);
 })
