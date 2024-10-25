@@ -16,7 +16,7 @@
 			click: "#41A2D7B1261D3612"
 			height: 5.0d
 			hover: ["Seven Seas: Unicorn Galleon"]
-			image: "ftb:textures/unicorn.png"
+			image: "forge_frontier:textures/ftb/unicorn.png"
 			rotation: 0.0d
 			width: 6.75d
 			x: 8.0d
@@ -26,7 +26,7 @@
 			click: "#55124A4BC3522728"
 			height: 5.0d
 			hover: ["Seven Seas: Corsair Corvette"]
-			image: "ftb:textures/corvette.png"
+			image: "forge_frontier:textures/ftb/corvette.png"
 			rotation: 0.0d
 			width: 6.1d
 			x: -7.5d
@@ -36,7 +36,7 @@
 			click: "#0D1524E8570194AA"
 			height: 5.0d
 			hover: ["Seven Seas: Victory Frigate"]
-			image: "ftb:textures/frigate.png"
+			image: "forge_frontier:textures/ftb/frigate.png"
 			rotation: 0.0d
 			width: 5.75d
 			x: 0.0d
@@ -46,7 +46,7 @@
 			click: "#29899FC09B1256A5"
 			height: 5.0d
 			hover: ["Seven Seas: Pirate Junk"]
-			image: "ftb:textures/junk_ship.png"
+			image: "forge_frontier:textures/ftb/junk_ship.png"
 			rotation: 0.0d
 			width: 6.65d
 			x: 0.0d

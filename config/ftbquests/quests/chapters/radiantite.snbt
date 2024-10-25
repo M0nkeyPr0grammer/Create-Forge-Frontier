@@ -5,41 +5,19 @@
 	group: "3A742C0C73D55180"
 	icon: "molten_vents:active_molten_radiantite"
 	id: "657CAF714D98DF6F"
-	images: [
-		{
-			click: "#0886729EE4407B1B"
-			height: 5.0d
-			hover: ["Radiantite Vent"]
-			image: "ftb:textures/radiantite_vent.png"
-			rotation: 0.0d
-			width: 7.5d
-			x: 0.0d
-			y: -7.0d
-		}
-		{
-			click: "#4FC803845778C5AF"
-			height: 2.0d
-			hover: ["Cow"]
-			image: "ftbchunks:textures/faces/minecraft/cow.png"
-			rotation: 0.0d
-			width: 2.0d
-			x: 0.0d
-			y: 10.5d
-		}
-	]
 	order_index: 15
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["6062D220BACB0D9C"]
 			id: "111089EE21B3E55A"
-			subtitle: "Molten Vents is a mod which adds a renewable source of the orestones found in the Create mod, and by extension the many resources that can be processed from them."
 			tasks: [{
 				id: "7E1FDD62FB1D8D5F"
 				title: "Molten Ore Vent Understanding"
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: -3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["111089EE21B3E55A"]
@@ -50,141 +28,18 @@
 				type: "dimension"
 			}]
 			x: 0.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["375D384E654B80E5"]
-			icon: "molten_vents:dormant_molten_radiantite"
-			id: "0886729EE4407B1B"
-			subtitle: "Radiantite Vents are found anywhere in the End"
-			tasks: [{
-				id: "3E922327B6F978BA"
-				observe_type: 0
-				timer: 0L
-				to_observe: "molten_vents:dormant_molten_radiantite"
-				type: "observation"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["0886729EE4407B1B"]
-			id: "72C79AA3B31ACD8B"
-			subtitle: "Upon finding a Dormant Vent you will need to activate it by blowing TNT up on its surface"
-			tasks: [{
-				id: "3C618881151638AD"
-				item: "minecraft:tnt"
-				type: "item"
-			}]
-			x: 0.0d
 			y: 1.5d
 		}
 		{
-			dependencies: ["72C79AA3B31ACD8B"]
-			hide_dependent_lines: true
-			icon: "molten_vents:active_molten_radiantite"
-			id: "3E23818C313CE507"
-			subtitle: "In Order to generate Radiantite you will need a source block of Ruby Chocolate, below is how you craft it."
+			id: "6062D220BACB0D9C"
 			tasks: [{
-				id: "4AB892918C4AEFC8"
-				observe_type: 0
-				timer: 0L
-				to_observe: "molten_vents:active_molten_radiantite"
-				type: "observation"
+				amount: 1000L
+				fluid: "create_confectionery:ruby_chocolate"
+				id: "31D48D36ACFDE2A9"
+				type: "fluid"
 			}]
 			x: 0.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["17559ED0B5B300D9"]
-			id: "1831C70E0A4B9875"
-			subtitle: "Radiantite can be later crushed down to produce Irradium"
-			tasks: [{
-				id: "222F9CAD91D40C60"
-				item: "forge_frontier:radiantite"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 4.5d
-		}
-		{
-			dependencies: [
-				"52CCEFD4ED1E5AA5"
-				"76865FC22AF94ED4"
-				"4FC803845778C5AF"
-				"72D92B8CE8FCB7C7"
-			]
-			id: "17559ED0B5B300D9"
-			subtitle: "Obtained by heated mixing the below ingredients"
-			tasks: [{
-				id: "2D4599EE7E6BF3E8"
-				item: "create_confectionery:ruby_chocolate_bucket"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["0A15AC902D61B3E9"]
-			id: "76865FC22AF94ED4"
-			subtitle: "Sugar is craftable from Sugar Cane"
-			tasks: [{
-				count: 4L
-				id: "7BDFF86E3A7D5579"
-				item: { Count: 4, id: "minecraft:sugar" }
-				type: "item"
-			}]
-			x: -1.5d
-			y: 7.5d
-		}
-		{
-			dependencies: ["3E23818C313CE507"]
-			id: "52CCEFD4ED1E5AA5"
-			tasks: [{
-				count: 4L
-				id: "4AFDB6A3127E8787"
-				item: { Count: 4, id: "minecraft:dragon_breath" }
-				type: "item"
-			}]
-			x: -0.5d
-			y: 7.5d
-		}
-		{
-			dependencies: ["3E23818C313CE507"]
-			id: "72D92B8CE8FCB7C7"
-			subtitle: "Obtained from Cocoa Plants"
-			tasks: [{
-				count: 4L
-				id: "378534F2E8DC35F4"
-				item: { Count: 4, id: "minecraft:cocoa_beans" }
-				type: "item"
-			}]
-			x: 0.5d
-			y: 7.5d
-		}
-		{
-			dependencies: ["3E23818C313CE507"]
-			id: "4FC803845778C5AF"
-			subtitle: "Obtained by milking a cow"
-			tasks: [{
-				id: "68E1894E1E7AF448"
-				item: "minecraft:milk_bucket"
-				type: "item"
-			}]
-			x: 1.5d
-			y: 7.5d
-		}
-		{
-			dependencies: ["3E23818C313CE507"]
-			id: "0A15AC902D61B3E9"
-			tasks: [{
-				count: 4L
-				id: "1CFFDB0D36583194"
-				item: { Count: 4, id: "minecraft:sugar_cane" }
-				type: "item"
-			}]
-			x: -1.5d
-			y: 9.0d
+			y: -1.5d
 		}
 	]
 	title: "Radiantite"

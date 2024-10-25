@@ -5,41 +5,19 @@
 	group: "3A742C0C73D55180"
 	icon: "molten_vents:active_molten_frostite"
 	id: "0E40832C2AB69F29"
-	images: [
-		{
-			click: "#0080D7D3D9BE5BE3"
-			height: 5.0d
-			hover: ["Frostite Vent"]
-			image: "ftb:textures/frostite_vent.png"
-			rotation: 0.0d
-			width: 8.5d
-			x: 0.0d
-			y: -7.0d
-		}
-		{
-			click: "#003891695EFCF33D"
-			height: 2.0d
-			hover: ["Water"]
-			image: "minecraft:textures/misc/underwater.png"
-			rotation: 0.0d
-			width: 2.0d
-			x: 0.0d
-			y: 9.5d
-		}
-	]
 	order_index: 14
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["517ECEBDE7C1B2AF"]
 			id: "5D0E85D235CFC76C"
-			subtitle: "Molten Vents is a mod which adds a renewable source of the orestones found in the Create mod, and by extension the many resources that can be processed from them."
 			tasks: [{
 				id: "5752D9CAD313586B"
 				title: "Molten Ore Vent Understanding"
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: -3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5D0E85D235CFC76C"]
@@ -50,7 +28,7 @@
 				type: "dimension"
 			}]
 			x: 0.0d
-			y: -1.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["4B7A7E792EE232FF"]
@@ -61,73 +39,18 @@
 				type: "biome"
 			}]
 			x: 0.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["2E540A2523D0F2B6"]
-			icon: "molten_vents:dormant_molten_frostite"
-			id: "0080D7D3D9BE5BE3"
-			subtitle: "Frostite Vents are found anywhere on Glacio, specically in the Snowy Barrens"
-			tasks: [{
-				id: "65411C9E2ADC7D2D"
-				observe_type: 0
-				timer: 0L
-				to_observe: "molten_vents:dormant_molten_frostite"
-				type: "observation"
-			}]
-			x: 0.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["0873461BF204006C"]
-			hide_dependent_lines: true
-			icon: "molten_vents:active_molten_frostite"
-			id: "44226064B27B70F4"
-			subtitle: "In Order to generate Frostite you will need a source block of Water, below is how you craft it."
-			tasks: [{
-				id: "64F5E23C37C7A30E"
-				observe_type: 0
-				timer: 0L
-				to_observe: "molten_vents:active_molten_frostite"
-				type: "observation"
-			}]
-			x: 0.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["0080D7D3D9BE5BE3"]
-			id: "0873461BF204006C"
-			subtitle: "Upon finding a Dormant Vent you will need to activate it by blowing TNT up on its surface"
-			tasks: [{
-				id: "5714DFB5233AA790"
-				item: "minecraft:tnt"
-				type: "item"
-			}]
-			x: 0.0d
 			y: 3.0d
 		}
 		{
-			dependencies: ["003891695EFCF33D"]
-			id: "762F0613A935037B"
-			subtitle: "Frostite can be later crushed down to produce Ice shards and processed down to Blue Ice"
+			id: "517ECEBDE7C1B2AF"
 			tasks: [{
-				id: "34CCCBD15211D00A"
-				item: "forge_frontier:frostite"
-				type: "item"
+				amount: 1000L
+				fluid: "minecraft:water"
+				id: "4C9EDA83B5A426D4"
+				type: "fluid"
 			}]
 			x: 0.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["44226064B27B70F4"]
-			id: "003891695EFCF33D"
-			tasks: [{
-				id: "37EE424FE57441A8"
-				item: "minecraft:water_bucket"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 7.5d
+			y: -2.0d
 		}
 	]
 	title: "Frostite"

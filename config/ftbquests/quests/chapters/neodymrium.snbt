@@ -5,41 +5,19 @@
 	group: "3A742C0C73D55180"
 	icon: "molten_vents:active_molten_neodymrium"
 	id: "0B3AE238F794831E"
-	images: [
-		{
-			click: "#08A5AEA1CB0268D8"
-			height: 5.0d
-			hover: ["Neodyrium Vent"]
-			image: "ftb:textures/neodyrium_vent.png"
-			rotation: 0.0d
-			width: 7.75d
-			x: 0.0d
-			y: -7.0d
-		}
-		{
-			click: "#05F146E831A64370"
-			height: 2.0d
-			hover: ["Superheating"]
-			image: "create:item/blaze_cake"
-			rotation: 0.0d
-			width: 2.0d
-			x: 0.0d
-			y: 9.0d
-		}
-	]
 	order_index: 23
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["68A910E0D77CDC59"]
 			id: "22EDF41DF1C3A815"
-			subtitle: "Molten Vents is a mod which adds a renewable source of the orestones found in the Create mod, and by extension the many resources that can be processed from them."
 			tasks: [{
 				id: "5904BB92856605F4"
 				title: "Molten Ore Vent Understanding"
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: -3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["22EDF41DF1C3A815"]
@@ -50,86 +28,18 @@
 				type: "dimension"
 			}]
 			x: 0.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["5F9E0B2FBFF38591"]
-			icon: "molten_vents:dormant_molten_neodymrium"
-			id: "08A5AEA1CB0268D8"
-			subtitle: "Neodyrium Vents are found anywhere on the Magnetic Caves Planet"
-			tasks: [{
-				id: "1461FFEDE382BC3A"
-				observe_type: 0
-				timer: 0L
-				to_observe: "molten_vents:dormant_molten_neodymrium"
-				type: "observation"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["33D677664F487ED0"]
-			hide_dependent_lines: true
-			icon: "molten_vents:active_molten_neodymrium"
-			id: "0A4C2780B6C139D7"
-			subtitle: "In Order to generate Neodyrium you will need a source block of Molten Iron, below is how you craft it."
-			tasks: [{
-				id: "01E049AC29960F26"
-				observe_type: 0
-				timer: 0L
-				to_observe: "molten_vents:active_molten_neodymrium"
-				type: "observation"
-			}]
-			x: 0.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["08A5AEA1CB0268D8"]
-			id: "33D677664F487ED0"
-			subtitle: "Upon finding a Dormant Vent you will need to activate it by blowing TNT up on its surface"
-			tasks: [{
-				id: "4ECCFE78457E7C0F"
-				item: "minecraft:tnt"
-				type: "item"
-			}]
-			x: 0.0d
 			y: 1.5d
 		}
 		{
-			dependencies: ["05F146E831A64370"]
-			id: "5125C4BB0C5CD5F2"
-			subtitle: "Neodyrium can be later crushed down to produce Scarlet Neodyrium"
+			id: "68A910E0D77CDC59"
 			tasks: [{
-				id: "230520DA2C86FDB3"
-				item: "forge_frontier:neodymrium"
-				type: "item"
+				amount: 1000L
+				fluid: "forge_frontier:molten_iron"
+				id: "769125FD17FC64CA"
+				type: "fluid"
 			}]
 			x: 0.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["753B9FEC027088ED"]
-			id: "05F146E831A64370"
-			subtitle: "Obtained by superheated mixing the below ingredients"
-			tasks: [{
-				id: "27A21E99CF25980D"
-				item: "forge_frontier:molten_iron_bucket"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["0A4C2780B6C139D7"]
-			id: "753B9FEC027088ED"
-			tasks: [{
-				count: 5L
-				id: "3908429083EC3AC6"
-				item: { Count: 5, id: "minecraft:raw_iron" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 7.5d
+			y: -1.5d
 		}
 	]
 	title: "Neodymrium"

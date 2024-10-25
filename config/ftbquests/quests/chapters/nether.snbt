@@ -18,7 +18,7 @@
 			click: "#10E12D942E6F9B1B"
 			height: 5.0d
 			hover: ["IDAS: Ancient Mines"]
-			image: "ftb:textures/ancientmines.png"
+			image: "forge_frontier:textures/ftb/ancientmines.png"
 			rotation: 0.0d
 			width: 9.0d
 			x: -3.5d
@@ -28,48 +28,47 @@
 			click: "#5619CB9F89C25C87"
 			height: 5.0d
 			hover: ["IDAS: Tinker's Workshop"]
-			image: "ftb:textures/tinkersworkshop.png"
+			image: "forge_frontier:textures/ftb/tinkersworkshop.png"
 			rotation: 0.0d
 			width: 9.0d
 			x: 12.5d
-			y: -5.5d
+			y: -2.5d
 		}
 		{
 			click: "#2C7C1C96546AD211"
 			height: 5.0d
-			hover: ["IDAS: Tinker's Citadel"]
-			image: "ftb:textures/tinkers_citadel.png"
+			hover: ["IDAS: Witch's Tree Stump"]
+			image: "forge_frontier:textures/ftb/witchestreestump.png"
 			rotation: 0.0d
-			width: 4.3d
-			x: 11.0d
-			y: 3.0d
+			width: 9.0d
+			x: 12.5d
+			y: 3.5d
 		}
 		{
 			click: "#7CE7BBA16C2E61E1"
 			height: 5.0d
-			hover: ["IDAS: Ruins of the Deep"]
-			image: "ftb:textures/ruins_of_the_deep.png"
+			hover: ["IDAS: Ancient Portal"]
+			image: "forge_frontier:textures/ftb/ancientportal.png"
 			rotation: 0.0d
-			width: 7.45d
-			x: -3.0d
-			y: -5.5d
+			width: 9.0d
+			x: -3.5d
+			y: -2.5d
 		}
 	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Coming Later..."]
+			description: ["This ancient portal, once a gateway to distant dimensions, lies buried deep underground, its magic long dormant. Ages ago, in a fateful mishap, its core was transformed into shimmering glass, leaving it a forgotten relic of adventure, now waiting to be rediscovered by those daring enough to uncover its secrets."]
 			id: "7CE7BBA16C2E61E1"
 			shape: "pentagon"
-			subtitle: "Entrance on the surface, treasures lie beneath"
+			subtitle: "Hidden Underground"
 			tasks: [{
 				id: "4668E116A3A3198C"
-				structure: "idas:ruins_of_the_deep"
-				title: "Ruins of the Deep"
+				structure: "idas:ancient_portal/ancient_portal"
+				title: "Ancient Portal"
 				type: "structure"
 			}]
-			title: "Ruins of the Deep"
 			x: 1.5d
 			y: -2.5d
 		}
@@ -105,24 +104,23 @@
 			y: 3.5d
 		}
 		{
-			description: ["Coming Later..."]
+			description: ["The Witch's Tree Stump, concealed deep within the wilderness, serves as the lair of the dangerous witch sisters. Those bold enough to enter this unassuming abode will face their wrath, but the reward is a trove of valuable loot, perfect for brewing and other arcane pursuits."]
 			id: "2C7C1C96546AD211"
 			shape: "pentagon"
-			subtitle: "Found on the Surface"
+			subtitle: "Found out in the Wilderness"
 			tasks: [{
 				id: "1F862107BD50E3FE"
-				structure: "idas:tinkers_citadel"
-				title: "Tinker's Citadel"
+				structure: "idas:witches_treestump"
+				title: "Witch's Tree Stump"
 				type: "structure"
 			}]
-			title: "Tinker's Citadel"
 			x: 7.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["7CE7BBA16C2E61E1"]
 			id: "4022C1C30F94967C"
-			subtitle: "Found in Treasure Loot Chest in a hidden chamber"
+			subtitle: "Found in Loot Chest"
 			tasks: [{
 				id: "664D542ADAFAE4EA"
 				item: "nether_remastered:seal_piece_1"
@@ -148,7 +146,7 @@
 		{
 			dependencies: ["10E12D942E6F9B1B"]
 			id: "2904FAB7D1EEF9DA"
-			subtitle: "Found in Minecart Loot Chest in the Hall"
+			subtitle: "Found in Minecart Loot Chest"
 			tasks: [{
 				id: "09CF563870F3E88A"
 				item: "nether_remastered:seal_piece_3"
@@ -161,7 +159,7 @@
 		{
 			dependencies: ["2C7C1C96546AD211"]
 			id: "34CAFB5E21900020"
-			subtitle: "Found in Loot Chest in the Vault"
+			subtitle: "Found in Loot Chest"
 			tasks: [{
 				id: "7AD9905782A48872"
 				item: "nether_remastered:seal_piece_4"
@@ -282,7 +280,7 @@
 			]
 			description: [
 				""
-				"{image:ftb:textures/hopoportal.png width:226 height:100 align:center}"
+				"{image:forge_frontier:textures/ftb/hopoportal.png width:226 height:100 align:center}"
 				"Congrats on obtaining all the pieces to the seal of the underworld, you can now craft the seal, consume it, then you will be able to freely travel into the nether. Feel free to use this portal as a means of entering into the Nether."
 			]
 			id: "786B2E479D58EC68"
