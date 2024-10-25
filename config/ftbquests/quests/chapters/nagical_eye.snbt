@@ -16,7 +16,7 @@
 			click: "#2A0FEBB91E8B582F"
 			height: 5.0d
 			hover: ["Magical Eye Enchantment Setup Example"]
-			image: "forge_frontier:textures/ftb/magical.png"
+			image: "ftb:textures/magical.png"
 			rotation: 0.0d
 			width: 11.65d
 			x: 0.0d

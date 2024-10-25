@@ -5,6 +5,38 @@
 	group: "3A742C0C73D55180"
 	icon: "molten_vents:active_molten_scoria"
 	id: "72EFECEE939179D0"
+	images: [
+		{
+			click: "#20EDD6DD2BDC5F24"
+			height: 5.0d
+			hover: ["Scoria Vent"]
+			image: "ftb:textures/scoria_vent.png"
+			rotation: 0.0d
+			width: 7.8d
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			click: "#457A6926E42F1FB8"
+			height: 2.0d
+			hover: ["Cocoa Beans"]
+			image: "minecraft:block/cocoa_stage2"
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.5d
+			y: 10.5d
+		}
+		{
+			click: "#66EA8F4F4F7B547A"
+			height: 2.0d
+			hover: ["Cow"]
+			image: "ftbchunks:textures/faces/minecraft/cow.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -4.0d
+			y: 10.5d
+		}
+	]
 	order_index: 7
 	quest_links: [ ]
 	quests: [
@@ -16,7 +48,7 @@
 				id: "52129A9E2EBE63EF"
 				type: "biome"
 			}]
-			x: 1.0d
+			x: 0.0d
 			y: 0.0d
 		}
 		{
@@ -27,30 +59,250 @@
 				id: "26094EE440137048"
 				type: "dimension"
 			}]
-			x: 1.0d
+			x: 0.0d
 			y: -1.5d
 		}
 		{
-			dependencies: ["07FE2AB677601C3B"]
 			id: "6BFEFEE956357FAF"
+			subtitle: "Molten Vents is a mod which adds a renewable source of the orestones found in the Create mod, and by extension the many resources that can be processed from them."
 			tasks: [{
 				id: "206307E42ECA9781"
 				title: "Molten Ore Vent Understanding"
 				type: "checkmark"
 			}]
-			x: 1.0d
+			x: 0.0d
 			y: -3.0d
 		}
 		{
-			id: "07FE2AB677601C3B"
+			dependencies: ["38AC6C9C9F7AB916"]
+			icon: "molten_vents:dormant_molten_scoria"
+			id: "20EDD6DD2BDC5F24"
+			subtitle: "Scoria Vents are found anywhere in the overworld, specically in Mountain Biomes"
 			tasks: [{
-				amount: 1000L
-				fluid: "create_dd:chocolate_milkshake"
-				id: "04243F180EA6753F"
-				type: "fluid"
+				id: "6652F4098EB5E691"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:dormant_molten_scoria"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2F3933BF40850EFC"]
+			hide_dependent_lines: true
+			icon: "molten_vents:active_molten_scoria"
+			id: "209E1E05BC1E3B6C"
+			subtitle: "In Order to generate Scoria you will need a source block of Chocolate Milkshake, below is how you craft it."
+			tasks: [{
+				id: "6045436CC30698AD"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:active_molten_scoria"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["20EDD6DD2BDC5F24"]
+			id: "2F3933BF40850EFC"
+			subtitle: "Upon finding a Dormant Vent you will need to activate it by blowing TNT up on its surface"
+			tasks: [{
+				id: "54BF54B15EE748FD"
+				item: "minecraft:tnt"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2BE12AF20FA6DC0D"]
+			id: "258ED4CCAF8A61A6"
+			subtitle: "Scoria can be later crushed down to produce lapis"
+			tasks: [{
+				id: "3F9EEA72CCBE6A5A"
+				item: "create:scoria"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"09A7C69C29F08F89"
+				"288DB4BA1704B76F"
+				"24F200B227D320FC"
+			]
+			id: "2BE12AF20FA6DC0D"
+			subtitle: "Obtained by mixing the below ingredients"
+			tasks: [{
+				id: "1A68432CDF382D89"
+				item: "create_dd:chocolate_milkshake_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"66EA8F4F4F7B547A"
+				"5CC2FEA09DC8F9DC"
+				"00A06309EFA9693F"
+			]
+			id: "36CB00481DCA6E5C"
+			subtitle: "Obtained by mixing the below ingredients"
+			tasks: [{
+				id: "2429E62BED8D517B"
+				item: "create_dd:condense_milk_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"02EE5396765FA1D3"
+				"6BC11BEF6F3B8580"
+				"457A6926E42F1FB8"
+			]
+			id: "24F200B227D320FC"
+			subtitle: "Obtained by mixing the below ingredients"
+			tasks: [{
+				id: "670809FF7E44E109"
+				item: "create:chocolate_bucket"
+				type: "item"
 			}]
 			x: 1.0d
-			y: -4.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1BDB8D8FB8A3EA4C"]
+			id: "09A7C69C29F08F89"
+			subtitle: "Sugar is craftable from Sugar Cane"
+			tasks: [{
+				count: 8L
+				id: "76476CD4A507A31D"
+				item: { Count: 8, id: "minecraft:sugar" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["209E1E05BC1E3B6C"]
+			id: "3709CF82B59D9D0C"
+			tasks: [{
+				count: 32L
+				id: "18A55DF210A135C7"
+				item: { Count: 32, id: "minecraft:snowball" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"36CB00481DCA6E5C"
+				"3709CF82B59D9D0C"
+			]
+			id: "288DB4BA1704B76F"
+			subtitle: "Obtained by mixing the below ingredients"
+			tasks: [{
+				id: "37C45D89D2F57FD4"
+				item: "create_dd:cream_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["209E1E05BC1E3B6C"]
+			id: "02EE5396765FA1D3"
+			subtitle: "Obtained by milking a cow"
+			tasks: [{
+				id: "7A8838FF9CCEDFF7"
+				item: "minecraft:milk_bucket"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["209E1E05BC1E3B6C"]
+			id: "457A6926E42F1FB8"
+			subtitle: "Obtained from Cocoa Plants"
+			tasks: [{
+				count: 4L
+				id: "2DF12A326169E3DD"
+				item: "minecraft:cocoa_beans"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["1BDB8D8FB8A3EA4C"]
+			id: "6BC11BEF6F3B8580"
+			subtitle: "Sugar is craftable from Sugar Cane"
+			tasks: [{
+				count: 4L
+				id: "78321757956030D2"
+				item: { Count: 4, id: "minecraft:sugar" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["1BDB8D8FB8A3EA4C"]
+			id: "00A06309EFA9693F"
+			subtitle: "Sugar is craftable from Sugar Cane"
+			tasks: [{
+				count: 16L
+				id: "241652E1D146E917"
+				item: { Count: 16, id: "minecraft:sugar" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["209E1E05BC1E3B6C"]
+			id: "5CC2FEA09DC8F9DC"
+			tasks: [{
+				id: "7D109FF22932AC80"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["209E1E05BC1E3B6C"]
+			id: "66EA8F4F4F7B547A"
+			subtitle: "Obtained by milking a cow"
+			tasks: [{
+				count: 2L
+				id: "68569216C95CF02D"
+				item: "minecraft:milk_bucket"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["209E1E05BC1E3B6C"]
+			hide_dependent_lines: true
+			id: "1BDB8D8FB8A3EA4C"
+			tasks: [{
+				count: 28L
+				id: "5A81BF89AB8D9D67"
+				item: { Count: 28, id: "minecraft:sugar_cane" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 13.5d
 		}
 	]
 	title: "Scoria"

@@ -5,6 +5,48 @@
 	group: "3A742C0C73D55180"
 	icon: "molten_vents:active_molten_potassic"
 	id: "09A9D02A2B2D3321"
+	images: [
+		{
+			click: "#79632EC457A3A88D"
+			height: 5.0d
+			hover: ["Potassic Vent"]
+			image: "ftb:textures/potassic_vent.png"
+			rotation: 0.0d
+			width: 8.1d
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			click: "#63B77606865821D2"
+			height: 2.0d
+			hover: ["Cow"]
+			image: "ftbchunks:textures/faces/minecraft/cow.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -4.0d
+			y: 10.0d
+		}
+		{
+			click: "#2ECB8AD4B72DF7DE"
+			height: 2.0d
+			hover: ["Dandelion"]
+			image: "minecraft:block/dandelion"
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.5d
+			y: 10.0d
+		}
+		{
+			click: "#2ECB8AD4B72DF7DE"
+			height: 2.0d
+			hover: ["Blue Orchid"]
+			image: "minecraft:block/blue_orchid"
+			rotation: 0.0d
+			width: 2.0d
+			x: 6.5d
+			y: 10.0d
+		}
+	]
 	order_index: 4
 	quest_links: [ ]
 	quests: [
@@ -16,7 +58,7 @@
 				id: "5B05BAA63A9749CB"
 				type: "biome"
 			}]
-			x: 0.5d
+			x: 0.0d
 			y: 0.0d
 		}
 		{
@@ -27,30 +69,266 @@
 				id: "7D2B48747F8DAC3E"
 				type: "dimension"
 			}]
-			x: 0.5d
+			x: 0.0d
 			y: -1.5d
 		}
 		{
-			dependencies: ["58F9D7E103BE74A6"]
 			id: "504456DD7B9531D1"
+			subtitle: "Molten Vents is a mod which adds a renewable source of the orestones found in the Create mod, and by extension the many resources that can be processed from them."
 			tasks: [{
 				id: "7EB9317CD0627FF4"
 				title: "Molten Ore Vent Understanding"
 				type: "checkmark"
 			}]
-			x: 0.5d
+			x: 0.0d
 			y: -3.0d
 		}
 		{
-			id: "58F9D7E103BE74A6"
+			dependencies: ["5212079DF3154ED8"]
+			icon: "molten_vents:dormant_molten_potassic"
+			id: "79632EC457A3A88D"
+			subtitle: "Potassic Vents are found anywhere in the overworld, specically in Forest Biomes"
 			tasks: [{
-				amount: 1000L
-				fluid: "create_dd:vanilla_milkshake"
-				id: "5CB22E0CDD1E410E"
-				type: "fluid"
+				id: "297A3F832F65C94D"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:dormant_molten_potassic"
+				type: "observation"
 			}]
-			x: 0.5d
-			y: -4.5d
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["718126F90C9735E8"]
+			hide_dependent_lines: true
+			icon: "molten_vents:active_molten_potassic"
+			id: "0079BEE03A3285FB"
+			subtitle: "In Order to generate Potassic you will need a source block of Vanilla Milkshake, below is how you craft it."
+			tasks: [{
+				id: "2502872F486242F0"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:active_molten_potassic"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["79632EC457A3A88D"]
+			id: "718126F90C9735E8"
+			subtitle: "Upon finding a Dormant Vent you will need to activate it by blowing TNT up on its surface"
+			tasks: [{
+				id: "3B9E16E0163DFF8D"
+				item: "minecraft:tnt"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2E99FE44436A381C"]
+			id: "0CCC86AB0D5DFDF2"
+			subtitle: "Potassic can be later crushed down to produce tin"
+			tasks: [{
+				id: "4085F5955CCD712C"
+				item: "create_dd:potassic"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"4D32A4F8D90196C8"
+				"3386A21B7976C52C"
+				"13961A807C7C6A62"
+			]
+			id: "2E99FE44436A381C"
+			subtitle: "Obtained by mixing the below ingredients"
+			tasks: [{
+				id: "579E35A18E6D68E6"
+				item: "create_dd:vanilla_milkshake_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5ECFE7A3D7701004"]
+			id: "4D32A4F8D90196C8"
+			subtitle: "Sugar is craftable from Sugar Cane"
+			tasks: [{
+				count: 4L
+				id: "73A446802D76DC22"
+				item: { Count: 4, id: "minecraft:sugar" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"63AEB71F464B979B"
+				"43A1964D70C54714"
+			]
+			id: "3386A21B7976C52C"
+			subtitle: "Obtained by mixing the below ingredients"
+			tasks: [{
+				id: "0B88C313BC62A321"
+				item: "create_dd:cream_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"7A4F1D0B90ADD839"
+				"2ECB8AD4B72DF7DE"
+				"1FBEB7D4D0786BEC"
+			]
+			id: "13961A807C7C6A62"
+			subtitle: "Obtained by mixing the below ingredients"
+			tasks: [{
+				id: "187FF66DDAEC5644"
+				item: "create_dd:vanilla_bucket"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0079BEE03A3285FB"]
+			id: "63AEB71F464B979B"
+			tasks: [{
+				count: 32L
+				id: "1CE165805FF58696"
+				item: { Count: 16, id: "minecraft:snowball" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"0079BEE03A3285FB"
+				"3FB290D6B3B57DE5"
+				"63B77606865821D2"
+				"515CE37F355AA5A7"
+			]
+			id: "43A1964D70C54714"
+			subtitle: "Obtained by mixing the below ingredients"
+			tasks: [{
+				id: "7307F88017BE0F26"
+				item: "create_dd:condense_milk_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["0079BEE03A3285FB"]
+			id: "63B77606865821D2"
+			subtitle: "Obtained by milking a cow"
+			tasks: [{
+				count: 2L
+				id: "74C2FFC8A6B97B9A"
+				item: "minecraft:milk_bucket"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["0079BEE03A3285FB"]
+			id: "515CE37F355AA5A7"
+			tasks: [{
+				id: "12126E02527C7D81"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["5ECFE7A3D7701004"]
+			id: "3FB290D6B3B57DE5"
+			subtitle: "Sugar is craftable from Sugar Cane"
+			tasks: [{
+				count: 16L
+				id: "54F04B8B17C4FD1D"
+				item: { Count: 8, id: "minecraft:sugar" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["0079BEE03A3285FB"]
+			id: "1FBEB7D4D0786BEC"
+			subtitle: "Obtained by milking a cow"
+			tasks: [{
+				id: "2D851B2F749F825C"
+				item: "minecraft:milk_bucket"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["0079BEE03A3285FB"]
+			icon: "minecraft:dandelion"
+			id: "2ECB8AD4B72DF7DE"
+			subtitle: "Can use Dandelion or Blue Orchids"
+			tasks: [
+				{
+					count: 4L
+					id: "50ED22F01A27A23B"
+					item: { Count: 2, id: "minecraft:dandelion" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2241C9F830F3E8F4"
+					item: { Count: 2, id: "minecraft:blue_orchid" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1C7555341FED0199"
+					type: "checkmark"
+				}
+			]
+			x: 2.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["5ECFE7A3D7701004"]
+			id: "7A4F1D0B90ADD839"
+			subtitle: "Sugar is craftable from Sugar Cane"
+			tasks: [{
+				count: 4L
+				id: "53465FF3C1860D01"
+				item: { Count: 2, id: "minecraft:sugar" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["0079BEE03A3285FB"]
+			hide_dependent_lines: true
+			id: "5ECFE7A3D7701004"
+			tasks: [{
+				count: 24L
+				id: "7019E3535A8BBC4E"
+				item: "minecraft:sugar_cane"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 13.5d
 		}
 	]
 	title: "Potassic"

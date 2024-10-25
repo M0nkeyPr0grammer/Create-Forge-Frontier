@@ -5,7 +5,29 @@
 	group: "3A742C0C73D55180"
 	icon: "molten_vents:active_molten_pyroclast"
 	id: "1CE26FF9F305C233"
-	order_index: 12
+	images: [
+		{
+			click: "#0526FF8AE3C0EA67"
+			height: 5.0d
+			hover: ["Pyroclast Vent"]
+			image: "ftb:textures/pyroclast_vent.png"
+			rotation: 0.0d
+			width: 6.3d
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			click: "#334A1F6DE76683A1"
+			height: 2.0d
+			hover: ["Basin Lid used over Basin for basin processing"]
+			image: "createdieselgenerators:block/basin_lid"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 14.0d
+		}
+	]
+	order_index: 13
 	quest_links: [ ]
 	quests: [
 		{
@@ -17,7 +39,7 @@
 				type: "dimension"
 			}]
 			x: 0.0d
-			y: 0.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["7899E2834F97D968"]
@@ -28,29 +50,164 @@
 				type: "biome"
 			}]
 			x: 0.0d
-			y: 1.5d
+			y: 0.0d
 		}
 		{
-			dependencies: ["541AA04935B1BE70"]
 			id: "482875F28D3EDDE4"
+			subtitle: "Molten Vents is a mod which adds a renewable source of the orestones found in the Create mod, and by extension the many resources that can be processed from them."
 			tasks: [{
 				id: "1775D476B5FECEC2"
 				title: "Molten Ore Vent Understanding"
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: -1.5d
+			y: -3.0d
 		}
 		{
-			id: "541AA04935B1BE70"
+			dependencies: ["144708074CDF64FA"]
+			icon: "molten_vents:dormant_molten_pyroclast"
+			id: "0526FF8AE3C0EA67"
+			subtitle: "Pyroclast Vents are found anywhere on Venus, specically in the Venus Wastelands"
 			tasks: [{
-				amount: 1000L
-				fluid: "createdieselgenerators:biodiesel"
-				id: "54243E9EBD77A22C"
-				type: "fluid"
+				id: "7EDD1A3E4785C1B9"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:dormant_molten_pyroclast"
+				type: "observation"
 			}]
 			x: 0.0d
-			y: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["31595C6751523E05"]
+			hide_dependent_lines: true
+			icon: "molten_vents:active_molten_pyroclast"
+			id: "5B4BAD7A02DA1E85"
+			subtitle: "In Order to generate Pyroclast you will need a source block of Biodiesel, below is how you craft it."
+			tasks: [{
+				id: "44965B7AFD9A8E11"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:active_molten_pyroclast"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0526FF8AE3C0EA67"]
+			id: "31595C6751523E05"
+			subtitle: "Upon finding a Dormant Vent you will need to activate it by blowing TNT up on its surface"
+			tasks: [{
+				id: "605718A9B0952681"
+				item: "minecraft:tnt"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1480FBF5D5C2DE2C"]
+			id: "5D34AB7D53702E87"
+			subtitle: "Pyroclast can be later crushed down to produce Calorite"
+			tasks: [{
+				id: "3E550032C3635D6A"
+				item: "forge_frontier:pyroclast"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"334A1F6DE76683A1"
+				"24C0F1FAF52DBEEE"
+			]
+			id: "1480FBF5D5C2DE2C"
+			subtitle: "Obtained by mixing the below ingredients"
+			tasks: [{
+				id: "233A3C479F695C62"
+				item: "createdieselgenerators:biodiesel_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["49BFAF4E3252C9F2"]
+			id: "24C0F1FAF52DBEEE"
+			subtitle: "Obtained by compacting the below ingredients"
+			tasks: [{
+				id: "2C374A03CA1841E9"
+				item: "createdieselgenerators:plant_oil_bucket"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"3A73B4E96B739579"
+				"0C9B701F082040AA"
+			]
+			id: "334A1F6DE76683A1"
+			subtitle: "Obtained by basin processing the below ingredients"
+			tasks: [{
+				id: "6C27E6F7D580E5EA"
+				item: "createdieselgenerators:ethanol_bucket"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5B4BAD7A02DA1E85"]
+			id: "49BFAF4E3252C9F2"
+			tasks: [{
+				count: 10L
+				id: "5B969A4121AD8514"
+				item: { Count: 10, id: "minecraft:wheat_seeds" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["26C93862707F6261"]
+			id: "3A73B4E96B739579"
+			subtitle: "Sugar is craftable from Sugar Cane"
+			tasks: [{
+				count: 5L
+				id: "7BCABBEE3E6F4ADF"
+				item: { Count: 5, id: "minecraft:sugar" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["5B4BAD7A02DA1E85"]
+			id: "0C9B701F082040AA"
+			tasks: [{
+				count: 5L
+				id: "5BBD483CC88C7F18"
+				item: { Count: 5, id: "minecraft:bone_meal" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["5B4BAD7A02DA1E85"]
+			id: "26C93862707F6261"
+			tasks: [{
+				count: 5L
+				id: "4BB78A3581C78E18"
+				item: { Count: 5, id: "minecraft:sugar_cane" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 12.0d
 		}
 	]
 	title: "Pyroclast"

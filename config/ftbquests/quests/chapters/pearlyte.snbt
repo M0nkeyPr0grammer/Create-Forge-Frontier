@@ -5,19 +5,41 @@
 	group: "3A742C0C73D55180"
 	icon: "molten_vents:active_molten_pearlyte"
 	id: "573B4600172A381B"
+	images: [
+		{
+			click: "#6AE156D8DE1D619A"
+			height: 5.0d
+			hover: ["Pearlyte Vent"]
+			image: "ftb:textures/pearlyte_vent.png"
+			rotation: 0.0d
+			width: 6.3d
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			click: "#4726465280A523C7"
+			height: 2.0d
+			hover: ["Water"]
+			image: "minecraft:textures/misc/underwater.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 7.5d
+		}
+	]
 	order_index: 18
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["6F0C439BB845F65C"]
 			id: "238304ED8A22FA6D"
+			subtitle: "Molten Vents is a mod which adds a renewable source of the orestones found in the Create mod, and by extension the many resources that can be processed from them."
 			tasks: [{
 				id: "54BDBF790AAA6553"
 				title: "Molten Ore Vent Understanding"
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: 0.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["238304ED8A22FA6D"]
@@ -28,18 +50,73 @@
 				type: "dimension"
 			}]
 			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["29670994ADA0176C"]
+			icon: "molten_vents:dormant_molten_pearlyte"
+			id: "6AE156D8DE1D619A"
+			subtitle: "Pearlyte Vents are found anywhere on the Abyssal Chasm Planet, on the ocean floor"
+			tasks: [{
+				id: "01D19050FCD28992"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:dormant_molten_pearlyte"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["08706B2825ACEBF2"]
+			hide_dependent_lines: true
+			icon: "molten_vents:active_molten_pearlyte"
+			id: "7A93C8B2FBEAE376"
+			subtitle: "In Order to generate Pearlyte you will need a source block of Water, below is how you craft it."
+			tasks: [{
+				id: "69EDE13D94B7F100"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:active_molten_pearlyte"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6AE156D8DE1D619A"]
+			id: "08706B2825ACEBF2"
+			subtitle: "Upon finding a Dormant Vent you will need to activate it by blowing TNT up on its surface"
+			tasks: [{
+				id: "713FBA7F9674ACF4"
+				item: "minecraft:tnt"
+				type: "item"
+			}]
+			x: 0.0d
 			y: 1.5d
 		}
 		{
-			id: "6F0C439BB845F65C"
+			dependencies: ["4726465280A523C7"]
+			id: "0FA3746C38F794B8"
+			subtitle: "Pearlyte can be later crushed down to produce Pearls"
 			tasks: [{
-				amount: 1000L
-				fluid: "minecraft:water"
-				id: "22AC76674776F9CE"
-				type: "fluid"
+				id: "0716325B542D9477"
+				item: "forge_frontier:pearlyte"
+				type: "item"
 			}]
 			x: 0.0d
-			y: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7A93C8B2FBEAE376"]
+			id: "4726465280A523C7"
+			tasks: [{
+				id: "55DD2DFA3ECDFCBC"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
 		}
 	]
 	title: "Pearlyte"

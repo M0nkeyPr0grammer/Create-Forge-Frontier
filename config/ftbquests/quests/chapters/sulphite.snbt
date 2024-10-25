@@ -5,19 +5,41 @@
 	group: "3A742C0C73D55180"
 	icon: "molten_vents:active_molten_sulphite"
 	id: "3FAB984440FED5CC"
+	images: [
+		{
+			click: "#19D60673B8DCB77D"
+			height: 5.0d
+			hover: ["Sulphite Vent"]
+			image: "ftb:textures/sulphite_vent.png"
+			rotation: 0.0d
+			width: 7.75d
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			click: "#1ADB3023A6070FBF"
+			height: 2.0d
+			hover: ["Sulfur Cluster, when Mined gives sulfur dust"]
+			image: "alexscaves:block/sulfur_cluster"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 9.0d
+		}
+	]
 	order_index: 22
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["37A747340E985D07"]
 			id: "19AC056A2D89BC99"
+			subtitle: "Molten Vents is a mod which adds a renewable source of the orestones found in the Create mod, and by extension the many resources that can be processed from them."
 			tasks: [{
 				id: "10F4FC18ED12758B"
 				title: "Molten Ore Vent Understanding"
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: 0.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -31,18 +53,100 @@
 				type: "dimension"
 			}]
 			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2D89BFE765DFEC19"]
+			icon: "molten_vents:dormant_molten_sulphite"
+			id: "19D60673B8DCB77D"
+			subtitle: "Sulphite Vents are found anywhere on the Toxic Caves Planet"
+			tasks: [{
+				id: "6D4C4B54FEA5675A"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:dormant_molten_sulphite"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["19D60673B8DCB77D"]
+			id: "21439F4E1B9D63C6"
+			subtitle: "Upon finding a Dormant Vent you will need to activate it by blowing TNT up on its surface"
+			tasks: [{
+				id: "4F99CF1E4A2929FF"
+				item: "minecraft:tnt"
+				type: "item"
+			}]
+			x: 0.0d
 			y: 1.5d
 		}
 		{
-			id: "37A747340E985D07"
+			dependencies: ["21439F4E1B9D63C6"]
+			hide_dependent_lines: true
+			icon: "molten_vents:active_molten_sulphite"
+			id: "5D438DEA0BB292B8"
+			subtitle: "In Order to generate Sulphite you will need a source block of Acid, below is how you craft it."
 			tasks: [{
-				amount: 1000L
-				fluid: "alexscaves:acid"
-				id: "635418E3E2EAD752"
-				type: "fluid"
+				id: "2DC569213340ECB8"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:active_molten_sulphite"
+				type: "observation"
 			}]
 			x: 0.0d
-			y: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7A47C20F4E31E89C"]
+			id: "5A5234A74B3FCB66"
+			subtitle: "Sulphite can be later crushed down to produce Sulfur"
+			tasks: [{
+				id: "65C0FF3E3E022140"
+				item: "forge_frontier:sulphite"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5D438DEA0BB292B8"]
+			id: "1ADB3023A6070FBF"
+			tasks: [{
+				count: 6L
+				id: "5DD5B628BA14B1E4"
+				item: { Count: 6, id: "alexscaves:sulfur_dust" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5D438DEA0BB292B8"]
+			id: "5C497CF89C96F9C8"
+			tasks: [{
+				id: "19960DC9DADF1239"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"1ADB3023A6070FBF"
+				"5C497CF89C96F9C8"
+			]
+			id: "7A47C20F4E31E89C"
+			subtitle: "Obtained by heated mixing the below ingredients"
+			tasks: [{
+				id: "5B1BDAEA0886019C"
+				item: "alexscaves:acid_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
 		}
 	]
 	title: "Sulphite"
