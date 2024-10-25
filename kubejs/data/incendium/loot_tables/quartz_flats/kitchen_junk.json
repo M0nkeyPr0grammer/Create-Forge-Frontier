@@ -2,11 +2,12 @@
   "type": "minecraft:chest",
   "pools": [
     {
-      "rolls": 3,
+      "rolls": 1,
+      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 50,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -15,7 +16,12 @@
             }
           ],
           "name": "forge_frontier:piglin_totem"
-      },
+        }
+      ]
+    },
+    {
+      "rolls": 3,
+      "entries": [
         {
           "type": "minecraft:item",
           "name": "minecraft:bone",

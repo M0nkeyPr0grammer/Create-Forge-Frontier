@@ -3,16 +3,19 @@
   "pools": [
     {
       "rolls": 1,
+      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:book",
+          "weight": 1,
           "functions": [
             {
-              "function": "minecraft:enchant_with_levels",
-              "levels": 30
+              "function": "minecraft:set_count",
+              "count": 1,
+              "add": false
             }
-          ]
+          ],
+          "name": "forge_frontier:pirate_crossbow"
         }
       ]
     },
@@ -21,15 +24,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 50,
-          "name": "forge_frontier:pirate_crossbow",
+          "name": "minecraft:book",
           "functions": [
             {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 2
-              }
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30
             }
           ]
         }

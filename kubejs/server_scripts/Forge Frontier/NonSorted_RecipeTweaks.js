@@ -25,6 +25,86 @@ ServerEvents.recipes(event => {
 	event.remove({ id: 'create_oppenheimered/compacting/amber_from_honey'})
 	event.remove({ id: 'create_dd:superheating/netherite_scrap'})
 
+	// Forge Chest to Vanilla Chest Recipe
+	event.custom({
+		type: 'minecraft:crafting_shapeless',
+		ingredients: [
+			{
+				tag: 'forge:chests/wooden'
+			}
+		],
+		result: {
+			item: 'minecraft:chest',
+			count: 1
+		  }
+	}).id( 'forge_frontier:shapeless/forge_vanilla_chest' )
+
+
+	// Chipped Barrel to Vanilla Barrel Recipe
+	event.custom({
+		type: 'minecraft:crafting_shapeless',
+		ingredients: [
+			{
+				tag: 'chipped:barrel'
+			}
+		],
+		result: {
+			item: 'minecraft:barrel',
+			count: 1
+		  }
+	}).id( 'forge_frontier:shapeless/chipped_vanilla_barrel' )
+
+
+	// Sophisticated Spruce Barrel to Limited Barrel Recipes
+
+		const createBarrelRecipe = (ingredients, resultItem, idSuffix) => {
+			event.custom({
+				type: 'minecraft:crafting_shapeless',
+				ingredients: ingredients.map(ingredient =>
+					ingredient.item
+						? { item: ingredient.item, nbt: ingredient.nbt || undefined }
+						: { tag: ingredient.tag }
+				),
+				result: {
+					item: resultItem.item,
+					count: 1,
+					nbt: resultItem.nbt
+				}
+			}).id(`forge_frontier:shapeless/${idSuffix}`);
+		};
+
+	// Limited Barrel Recipes
+		createBarrelRecipe([
+			{ item: 'sophisticatedstorage:barrel', nbt: { woodType: "spruce" } },
+			{ tag: 'minecraft:wooden_slabs' }
+		], 
+		{ item: 'sophisticatedstorage:limited_barrel_1', nbt: { woodType: "spruce" } }, 
+		'spruce_limited_barrel_1');
+
+		createBarrelRecipe([
+			{ item: 'sophisticatedstorage:barrel', nbt: { woodType: "spruce" } },
+			{ tag: 'minecraft:planks' }
+		], 
+		{ item: 'sophisticatedstorage:limited_barrel_2', nbt: { woodType: "spruce" } }, 
+		'spruce_limited_barrel_2');
+
+		createBarrelRecipe([
+			{ item: 'sophisticatedstorage:barrel', nbt: { woodType: "spruce" } },
+			{ tag: 'minecraft:wooden_slabs' },
+			{ tag: 'minecraft:wooden_slabs' }
+		], 
+		{ item: 'sophisticatedstorage:limited_barrel_3', nbt: { woodType: "spruce" } }, 
+		'spruce_limited_barrel_3');
+
+		createBarrelRecipe([
+			{ item: 'sophisticatedstorage:barrel', nbt: { woodType: "spruce" } },
+			{ tag: 'minecraft:planks' },
+			{ tag: 'minecraft:planks' }
+		], 
+		{ item: 'sophisticatedstorage:limited_barrel_4', nbt: { woodType: "spruce" } }, 
+		'spruce_limited_barrel_4');
+
+		
 	// New Reinforced Hang Glider Recipe
 	event.remove({ id: 'hangglider:reinforced_hang_glider'})
 	event.custom({

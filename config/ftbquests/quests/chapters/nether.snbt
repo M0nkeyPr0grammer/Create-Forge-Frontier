@@ -32,43 +32,44 @@
 			rotation: 0.0d
 			width: 9.0d
 			x: 12.5d
-			y: -2.5d
+			y: -5.5d
 		}
 		{
 			click: "#2C7C1C96546AD211"
 			height: 5.0d
-			hover: ["IDAS: Witch's Tree Stump"]
-			image: "ftb:textures/witchestreestump.png"
+			hover: ["IDAS: Tinker's Citadel"]
+			image: "ftb:textures/tinkers_citadel.png"
 			rotation: 0.0d
-			width: 9.0d
-			x: 12.5d
-			y: 3.5d
+			width: 4.3d
+			x: 11.0d
+			y: 3.0d
 		}
 		{
 			click: "#7CE7BBA16C2E61E1"
 			height: 5.0d
-			hover: ["IDAS: Ancient Portal"]
-			image: "ftb:textures/ancientportal.png"
+			hover: ["IDAS: Ruins of the Deep"]
+			image: "ftb:textures/ruins_of_the_deep.png"
 			rotation: 0.0d
-			width: 9.0d
-			x: -3.5d
-			y: -2.5d
+			width: 7.45d
+			x: -3.0d
+			y: -5.5d
 		}
 	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["This ancient portal, once a gateway to distant dimensions, lies buried deep underground, its magic long dormant. Ages ago, in a fateful mishap, its core was transformed into shimmering glass, leaving it a forgotten relic of adventure, now waiting to be rediscovered by those daring enough to uncover its secrets."]
+			description: ["Coming Later..."]
 			id: "7CE7BBA16C2E61E1"
 			shape: "pentagon"
-			subtitle: "Hidden Underground"
+			subtitle: "Entrance on the surface, treasures lie beneath"
 			tasks: [{
 				id: "4668E116A3A3198C"
-				structure: "idas:ancient_portal/ancient_portal"
-				title: "Ancient Portal"
+				structure: "idas:ruins_of_the_deep"
+				title: "Ruins of the Deep"
 				type: "structure"
 			}]
+			title: "Ruins of the Deep"
 			x: 1.5d
 			y: -2.5d
 		}
@@ -104,23 +105,24 @@
 			y: 3.5d
 		}
 		{
-			description: ["The Witch's Tree Stump, concealed deep within the wilderness, serves as the lair of the dangerous witch sisters. Those bold enough to enter this unassuming abode will face their wrath, but the reward is a trove of valuable loot, perfect for brewing and other arcane pursuits."]
+			description: ["Coming Later..."]
 			id: "2C7C1C96546AD211"
 			shape: "pentagon"
-			subtitle: "Found out in the Wilderness"
+			subtitle: "Found on the Surface"
 			tasks: [{
 				id: "1F862107BD50E3FE"
-				structure: "idas:witches_treestump"
-				title: "Witch's Tree Stump"
+				structure: "idas:tinkers_citadel"
+				title: "Tinker's Citadel"
 				type: "structure"
 			}]
+			title: "Tinker's Citadel"
 			x: 7.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["7CE7BBA16C2E61E1"]
 			id: "4022C1C30F94967C"
-			subtitle: "Found in Loot Chest"
+			subtitle: "Found in Treasure Loot Chest in a hidden chamber"
 			tasks: [{
 				id: "664D542ADAFAE4EA"
 				item: "nether_remastered:seal_piece_1"
@@ -146,7 +148,7 @@
 		{
 			dependencies: ["10E12D942E6F9B1B"]
 			id: "2904FAB7D1EEF9DA"
-			subtitle: "Found in Minecart Loot Chest"
+			subtitle: "Found in Minecart Loot Chest in the Hall"
 			tasks: [{
 				id: "09CF563870F3E88A"
 				item: "nether_remastered:seal_piece_3"
@@ -159,7 +161,7 @@
 		{
 			dependencies: ["2C7C1C96546AD211"]
 			id: "34CAFB5E21900020"
-			subtitle: "Found in Loot Chest"
+			subtitle: "Found in Loot Chest in the Vault"
 			tasks: [{
 				id: "7AD9905782A48872"
 				item: "nether_remastered:seal_piece_4"
@@ -280,7 +282,7 @@
 			]
 			description: [
 				""
-				"{image:forge_frontier:textures/ftb/hopoportal.png width:226 height:100 align:center}"
+				"{image:ftb:textures/hopoportal.png width:226 height:100 align:center}"
 				"Congrats on obtaining all the pieces to the seal of the underworld, you can now craft the seal, consume it, then you will be able to freely travel into the nether. Feel free to use this portal as a means of entering into the Nether."
 			]
 			id: "786B2E479D58EC68"

@@ -2,20 +2,26 @@
   "type": "minecraft:chest",
   "pools": [
     {
+      "rolls": 1,
       "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
+          "weight": 1,
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": 1,
-              "function": "minecraft:set_count"
+              "add": false
             }
           ],
-          "name": "forge_frontier:infernal_chisel",
-          "weight": 45
-        },
+          "name": "forge_frontier:infernal_chisel"
+        }
+      ]
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
         {
           "type": "minecraft:item",
           "functions": [
