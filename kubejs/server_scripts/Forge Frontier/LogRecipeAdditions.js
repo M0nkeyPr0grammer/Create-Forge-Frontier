@@ -1,35 +1,38 @@
  // Log Recipe Additions
 ServerEvents.recipes(event => {
 
-	// Log to Sophicated Chest Recipes
-	var chest_types = [
-		['minecraft:chest', 'minecraft:oak_log'],
-		// Regions Unexplore Log to Chest Recipes
-		[Item.of('sophisticatedstorage:chest', '{woodType:"oak"}'), 'minecraft:oak_log'],
-		[Item.of('sophisticatedstorage:chest', '{woodType:"dark_oak"}'), 'minecraft:dark_oak_log'],
-		[Item.of('sophisticatedstorage:chest', '{woodType:"birch"}'), 'minecraft:birch_log'],
-		[Item.of('sophisticatedstorage:chest', '{woodType:"spruce"}'), 'minecraft:spruce_log'],
-		[Item.of('sophisticatedstorage:chest', '{woodType:"jungle"}'), 'minecraft:jungle_log'],
-		[Item.of('sophisticatedstorage:chest', '{woodType:"crimson"}'), 'minecraft:crimson_stem'],
-		[Item.of('sophisticatedstorage:chest', '{woodType:"mangrove"}'), 'minecraft:mangrove_log'],
-		[Item.of('sophisticatedstorage:chest', '{woodType:"warped"}'), 'minecraft:warped_stem'],
-		[Item.of('sophisticatedstorage:chest', '{woodType:"acacia"}'), 'minecraft:acacia_log'],
-	]
+// Log to Sophisticated Chest Recipes
+const chestTypes = [
+    [{ item: 'sophisticatedstorage:chest', nbt: { woodType: "oak" } }, 'minecraft:oak_log'],
+    [{ item: 'sophisticatedstorage:chest', nbt: { woodType: "dark_oak" } }, 'minecraft:dark_oak_log'],
+    [{ item: 'sophisticatedstorage:chest', nbt: { woodType: "birch" } }, 'minecraft:birch_log'],
+    [{ item: 'sophisticatedstorage:chest', nbt: { woodType: "spruce" } }, 'minecraft:spruce_log'],
+    [{ item: 'sophisticatedstorage:chest', nbt: { woodType: "jungle" } }, 'minecraft:jungle_log'],
+    [{ item: 'sophisticatedstorage:chest', nbt: { woodType: "crimson" } }, 'minecraft:crimson_stem'],
+    [{ item: 'sophisticatedstorage:chest', nbt: { woodType: "mangrove" } }, 'minecraft:mangrove_log'],
+    [{ item: 'sophisticatedstorage:chest', nbt: { woodType: "warped" } }, 'minecraft:warped_stem'],
+    [{ item: 'sophisticatedstorage:chest', nbt: { woodType: "acacia" } }, 'minecraft:acacia_log'],
+];
 
-	chest_types.forEach(chest_type => {
-		event.shaped(
-			Item.of(chest_type[0], 4),
-			[
-				'AAA',
-				'ABA',
-				'AAA'
-			],
-			{
-				A: chest_type[1],
-				B: 'minecraft:redstone_torch'
-			}
-		)
-	}); 
+chestTypes.forEach(chestType => {
+    event.shaped(
+        {
+            item: chestType[0].item || chestType[0], // Handle both plain items and items with NBT
+            count: 4,
+            nbt: chestType[0].nbt || undefined
+        },
+        [
+            'AAA',
+            'ABA',
+            'AAA'
+        ],
+        {
+            A: chestType[1],
+            B: 'minecraft:redstone_torch'
+        }
+    );
+});
+
 	
 	// Log to Chest Recipe
 	event.shaped(
@@ -44,36 +47,39 @@ ServerEvents.recipes(event => {
 		}
 	)
 
-	// Log to Sophicated Barrel Recipes
-	var barrel_types = [
-		['minecraft:barrel', 'minecraft:oak_log'],
-		// Regions Unexplore Log to Barrel Recipes
-		[Item.of('sophisticatedstorage:barrel', '{woodType:"oak"}'), 'minecraft:oak_log'],
-		[Item.of('sophisticatedstorage:barrel', '{woodType:"dark_oak"}'), 'minecraft:dark_oak_log'],
-		[Item.of('sophisticatedstorage:barrel', '{woodType:"birch"}'), 'minecraft:birch_log'],
-		[Item.of('sophisticatedstorage:barrel', '{woodType:"spruce"}'), 'minecraft:spruce_log'],
-		[Item.of('sophisticatedstorage:barrel', '{woodType:"jungle"}'), 'minecraft:jungle_log'],
-		[Item.of('sophisticatedstorage:barrel', '{woodType:"crimson"}'), 'minecraft:crimson_stem'],
-		[Item.of('sophisticatedstorage:barrel', '{woodType:"mangrove"}'), 'minecraft:mangrove_log'],
-		[Item.of('sophisticatedstorage:barrel', '{woodType:"warped"}'), 'minecraft:warped_stem'],
-		[Item.of('sophisticatedstorage:barrel', '{woodType:"acacia"}'), 'minecraft:acacia_log'],
-	]
+// Log to Sophisticated Barrel Recipes
+const barrelTypes = [
+    [{ item: 'sophisticatedstorage:barrel', nbt: { woodType: "oak" } }, 'minecraft:oak_log'],
+    [{ item: 'sophisticatedstorage:barrel', nbt: { woodType: "dark_oak" } }, 'minecraft:dark_oak_log'],
+    [{ item: 'sophisticatedstorage:barrel', nbt: { woodType: "birch" } }, 'minecraft:birch_log'],
+    [{ item: 'sophisticatedstorage:barrel', nbt: { woodType: "spruce" } }, 'minecraft:spruce_log'],
+    [{ item: 'sophisticatedstorage:barrel', nbt: { woodType: "jungle" } }, 'minecraft:jungle_log'],
+    [{ item: 'sophisticatedstorage:barrel', nbt: { woodType: "crimson" } }, 'minecraft:crimson_stem'],
+    [{ item: 'sophisticatedstorage:barrel', nbt: { woodType: "mangrove" } }, 'minecraft:mangrove_log'],
+    [{ item: 'sophisticatedstorage:barrel', nbt: { woodType: "warped" } }, 'minecraft:warped_stem'],
+    [{ item: 'sophisticatedstorage:barrel', nbt: { woodType: "acacia" } }, 'minecraft:acacia_log'],
+];
 
-	barrel_types.forEach(barrel_type => {
-		event.shaped(
-			Item.of(barrel_type[0], 4),
-			[
-				'ABA',
-				'ACA',
-				'ABA'
-			],
-			{
-				A: barrel_type[1],
-				B: '#minecraft:wooden_slabs',
-				C: 'minecraft:redstone_torch'
-			}
-		)
-	}); 
+barrelTypes.forEach(barrelType => {
+    const output = typeof barrelType[0] === 'string'
+        ? { item: barrelType[0], count: 4 } // Plain item without NBT
+        : { item: barrelType[0].item, count: 4, nbt: barrelType[0].nbt }; // Item with NBT
+
+    event.shaped(
+        output,
+        [
+            'ABA',
+            'ACA',
+            'ABA'
+        ],
+        {
+            A: barrelType[1],
+            B: '#minecraft:wooden_slabs',
+            C: 'minecraft:redstone_torch'
+        }
+    );
+});
+
 
 	event.shaped(
 		Item.of('minecraft:barrel', 4),
