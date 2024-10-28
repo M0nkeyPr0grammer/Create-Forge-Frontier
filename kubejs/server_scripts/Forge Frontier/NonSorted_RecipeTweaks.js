@@ -24,6 +24,7 @@ ServerEvents.recipes(event => {
 	event.remove({ id: 'vintageimprovements:pressing/andesite_alloy'})
 	event.remove({ id: 'create_oppenheimered/compacting/amber_from_honey'})
 	event.remove({ id: 'create_dd:superheating/netherite_scrap'})
+	event.remove({ id: 'create_additions_synthetics:tank_conversion' })
 
 	// Forge Chest to Vanilla Chest Recipe
 	event.custom({
