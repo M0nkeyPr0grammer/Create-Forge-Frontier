@@ -74,9 +74,9 @@ ServerEvents.recipes(event => {
         key: {
           P: Ingredient.of('ad_astra:permafrost'),
           C: Ingredient.of('ae2:quartz_cluster'),
-          W: Ingredient.of('cataclysm:witherite_ingot'),
+          W: Ingredient.of('cataclysm:cursium_ingot'),
           U: Ingredient.of('endrem:undead_soul'),
-          E: Ingredient.of('cataclysm:mech_eye')
+          E: Ingredient.of('cataclysm:cursed_eye')
         },
         result: Ingredient.of('endrem:cold_eye'),
         acceptMirrored: false
