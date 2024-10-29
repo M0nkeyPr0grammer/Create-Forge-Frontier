@@ -77,7 +77,7 @@
 		}
 		{
 			dependencies: ["5AB4DB0EBE11D60C"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "3195ECE88AC44817"
 			require_sequential_tasks: true
 			tasks: [{
@@ -97,7 +97,7 @@
 		}
 		{
 			dependencies: ["3195ECE88AC44817"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "4D9FE7D088910A67"
 			tasks: [{
 				id: "56B9CCDD6C33130E"
@@ -870,8 +870,8 @@
 				"7BDB5330272D4CCD"
 				"21986AAD76B0E560"
 			]
-			hide: false
 			hide_dependency_lines: true
+			hide_until_deps_visible: false
 			id: "3CE72BF099174999"
 			invisible: true
 			rewards: [

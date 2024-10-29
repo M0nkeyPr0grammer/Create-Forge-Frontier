@@ -23,23 +23,23 @@
 			y: -4.5d
 		}
 		{
-			click: "#23901C965E8AEEB2"
+			click: "#1C78565D1FA74056"
 			height: 5.0d
-			hover: ["Cataclysm: The Harbinger"]
-			image: "ftb:textures/harbinger.png"
+			hover: ["Cataclysm: Maledictus"]
+			image: "ftb:textures/male.png"
 			rotation: 0.0d
-			width: 6.5d
-			x: -7.5d
+			width: 10.25d
+			x: -9.0d
 			y: 3.5d
 		}
 		{
 			click: "#178EC92463C73D5E"
 			height: 5.0d
-			hover: ["Cataclysm: Ancient Factory"]
-			image: "ftb:textures/factory.png"
+			hover: ["Cataclysm: Frozen Prison"]
+			image: "ftb:textures/prison.png"
 			rotation: 0.0d
-			width: 9.15d
-			x: 8.5d
+			width: 5.6d
+			x: 7.0d
 			y: 3.5d
 		}
 	]
@@ -131,10 +131,10 @@
 		{
 			dependencies: ["01E99C2EF36E6886"]
 			id: "1F7976ADA8F4F14F"
-			subtitle: "Crafted and used to locate The Ancient Factory"
+			subtitle: "Crafted and used to locate the Frosted Prison"
 			tasks: [{
 				id: "7BEEDEDB537023C6"
-				item: "cataclysm:mech_eye"
+				item: "cataclysm:cursed_eye"
 				type: "item"
 			}]
 			x: 0.0d
@@ -143,27 +143,27 @@
 		{
 			dependencies: ["23901C965E8AEEB2"]
 			id: "1C78565D1FA74056"
-			subtitle: "Obtained by Killing The Harbinger"
+			subtitle: "Obtained by Killing Maledictus"
 			tasks: [{
 				id: "16EC7F0BC11FCE8E"
-				item: "cataclysm:witherite_ingot"
+				item: "cataclysm:cursium_ingot"
 				type: "item"
 			}]
-			title: "1/2 Witherite Ingot"
+			title: "1/2 Cursium Ingot"
 			x: -1.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["178EC92463C73D5E"]
 			id: "5872119A37E4349F"
-			subtitle: "Obtained by Killing The Harbinger"
+			subtitle: "Obtained by Killing Maledictus"
 			tasks: [{
 				count: 2L
 				id: "0C6828E8198C5DFF"
-				item: "cataclysm:witherite_ingot"
+				item: "cataclysm:cursium_ingot"
 				type: "item"
 			}]
-			title: "2/2 Witherite Ingot"
+			title: "2/2 Cursium Ingot"
 			x: 1.5d
 			y: 3.5d
 		}
@@ -196,7 +196,7 @@
 			subtitle: "Found on Glacio"
 			tasks: [{
 				id: "22B6B309B2D79F4F"
-				structure: "cataclysm:ancient_factory"
+				structure: "cataclysm:frosted_prison"
 				type: "structure"
 			}]
 			x: 3.5d
