@@ -873,19 +873,11 @@
 			hide_dependency_lines: true
 			hide_until_deps_visible: false
 			id: "3CE72BF099174999"
-			invisible: true
-			rewards: [
-				{
-					id: "1DF066939E9C0BD1"
-					type: "xp_levels"
-					xp_levels: 50
-				}
-				{
-					id: "43E44B2A2B9FE9D3"
-					item: "createcompression:compressed_netherite_3x"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "1DF066939E9C0BD1"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
 			shape: "rsquare"
 			tasks: [{
 				icon: "artifacts:mimic_spawn_egg"
