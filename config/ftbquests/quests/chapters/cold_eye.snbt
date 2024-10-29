@@ -35,7 +35,7 @@
 		{
 			click: "#178EC92463C73D5E"
 			height: 5.0d
-			hover: ["Cataclysm: Frozen Prison"]
+			hover: ["Cataclysm: Frosted Prison"]
 			image: "ftb:textures/prison.png"
 			rotation: 0.0d
 			width: 5.6d
