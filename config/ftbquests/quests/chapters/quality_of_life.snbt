@@ -5,7 +5,7 @@
 	group: "3750F90D875B3398"
 	icon: "quark:abacus"
 	id: "73BC896A8FA5A2C6"
-	order_index: 2
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
