@@ -100,7 +100,7 @@
 		{
 			dependencies: ["4F05B719FF46DED2"]
 			id: "5B267C7A116BDB9D"
-			subtitle: "Crafted using 5 Ostrum Plates, 1 Steel Tank, and 1 Steel Rod"
+			subtitle: "Crafted using 5 Ostrum Plates, 1 Desh Tank, and 1 Steel Rod"
 			tasks: [{
 				id: "04211E3B62B832E1"
 				item: "ad_astra:ostrum_tank"
@@ -112,7 +112,7 @@
 		{
 			dependencies: ["4F05B719FF46DED2"]
 			id: "59B29954847AB65B"
-			subtitle: "Crafted using 5 Ostrum Plates, 1 Steel Tank, and 1 Steel Rod"
+			subtitle: "Crafted using 5 Ostrum Plates, 1 Desh Tank, and 1 Steel Rod"
 			tasks: [{
 				count: 2L
 				id: "2E3C54BC638C6390"
