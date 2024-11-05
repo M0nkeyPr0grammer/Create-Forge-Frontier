@@ -1,0 +1,24 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tier_6_rocket"
+	group: "00CD5BACB95A479B"
+	icon: {
+		Count: 1
+		id: "ad_astra_rocketed:tier_6_rocket"
+		tag: { }
+	}
+	id: "3A6CBA1C0AA08E91"
+	images: [{
+		height: 15.0d
+		image: "ftb:textures/tier_6.png"
+		rotation: 0.0d
+		width: 7.5d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 5
+	quest_links: [ ]
+	quests: [ ]
+	title: "Tier 6 Rocket"
+}
