@@ -27,6 +27,7 @@
 			id: "5EDF9FFE81121D30"
 			subtitle: "Crafted Using 6 Steel Plates"
 			tasks: [{
+				count: 3L
 				id: "68DA76530F19E2C2"
 				item: "ad_astra:rocket_fin"
 				type: "item"
@@ -39,6 +40,7 @@
 			id: "7F3A51F0F5059CB1"
 			subtitle: "Crafted Using 6 Steel Plates"
 			tasks: [{
+				count: 4L
 				id: "0459EAEB487F8FF5"
 				item: "ad_astra:rocket_fin"
 				type: "item"
@@ -63,6 +65,7 @@
 			id: "78C3CBEB6B29FA22"
 			subtitle: "Crafted Using 6 Steel Plates"
 			tasks: [{
+				count: 2L
 				id: "46E561A06C8F621F"
 				item: "ad_astra:rocket_fin"
 				type: "item"
@@ -111,6 +114,7 @@
 			id: "59B29954847AB65B"
 			subtitle: "Crafted using 5 Ostrum Plates, 1 Steel Tank, and 1 Steel Rod"
 			tasks: [{
+				count: 2L
 				id: "2E3C54BC638C6390"
 				item: "ad_astra:ostrum_tank"
 				type: "item"
@@ -123,6 +127,7 @@
 			id: "2341B4348D065CB5"
 			subtitle: "Crafted using 9 Ostrum Ingots"
 			tasks: [{
+				count: 11L
 				id: "6C5B94D6067E7F6B"
 				item: "ad_astra:ostrum_block"
 				type: "item"
@@ -135,6 +140,7 @@
 			id: "59623C914B8A22BA"
 			subtitle: "Crafted using 9 Ostrum Ingots"
 			tasks: [{
+				count: 12L
 				id: "735FA03BB28AC8E4"
 				item: "ad_astra:ostrum_block"
 				type: "item"
@@ -147,6 +153,7 @@
 			id: "40D60656984960DE"
 			subtitle: "Crafted using 9 Ostrum Ingots"
 			tasks: [{
+				count: 13L
 				id: "3B7D55A2C43F6C03"
 				item: "ad_astra:ostrum_block"
 				type: "item"
@@ -159,6 +166,7 @@
 			id: "2CBB1DC7039C585F"
 			subtitle: "Crafted using 9 Ostrum Ingots"
 			tasks: [{
+				count: 9L
 				id: "5D705946DB290E0A"
 				item: "ad_astra:ostrum_block"
 				type: "item"
@@ -171,6 +179,7 @@
 			id: "0150EE600ACACF96"
 			subtitle: "Crafted using 9 Ostrum Ingots"
 			tasks: [{
+				count: 10L
 				id: "743DF57E6333A6D6"
 				item: "ad_astra:ostrum_block"
 				type: "item"
@@ -183,6 +192,7 @@
 			id: "3AFCA5EAF13E883B"
 			subtitle: "Crafted using 9 Ostrum Ingots"
 			tasks: [{
+				count: 8L
 				id: "2C1573815C3680F9"
 				item: "ad_astra:ostrum_block"
 				type: "item"
@@ -195,6 +205,7 @@
 			id: "28473EAA9352DE55"
 			subtitle: "Crafted using 9 Ostrum Ingots"
 			tasks: [{
+				count: 7L
 				id: "6485578AD58CFE79"
 				item: "ad_astra:ostrum_block"
 				type: "item"
@@ -207,6 +218,7 @@
 			id: "168B1106541B7827"
 			subtitle: "Crafted using 9 Ostrum Ingots"
 			tasks: [{
+				count: 4L
 				id: "5FE6C28B37C55695"
 				item: "ad_astra:ostrum_block"
 				type: "item"
@@ -219,6 +231,7 @@
 			id: "631B5125257ADD86"
 			subtitle: "Crafted using 9 Ostrum Ingots"
 			tasks: [{
+				count: 5L
 				id: "7671B6A1AEC0B118"
 				item: "ad_astra:ostrum_block"
 				type: "item"
@@ -231,6 +244,7 @@
 			id: "7448E4D7065655B0"
 			subtitle: "Crafted using 9 Ostrum Ingots"
 			tasks: [{
+				count: 6L
 				id: "027CA97530968C8C"
 				item: "ad_astra:ostrum_block"
 				type: "item"
@@ -255,6 +269,7 @@
 			id: "4C8F5F56665EB1DA"
 			subtitle: "Crafted using 9 Ostrum Ingots"
 			tasks: [{
+				count: 2L
 				id: "7B3D9710F595DC3F"
 				item: "ad_astra:ostrum_block"
 				type: "item"
@@ -267,6 +282,7 @@
 			id: "76ECB0B43AC41040"
 			subtitle: "Crafted using 9 Ostrum Ingots"
 			tasks: [{
+				count: 3L
 				id: "7B286DF6D0408363"
 				item: "ad_astra:ostrum_block"
 				type: "item"
