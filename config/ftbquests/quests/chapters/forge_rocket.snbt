@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "forge_rocket"
-	group: "00CD5BACB95A479B"
+	group: "154A5E2FF6C25F19"
 	icon: {
 		Count: 1
 		id: "ad_astra_rocketed:tier_7_rocket"
@@ -17,7 +17,7 @@
 		x: 0.0d
 		y: 0.0d
 	}]
-	order_index: 6
+	order_index: 0
 	quest_links: [ ]
 	quests: [ ]
 	title: "Forge Rocket"
