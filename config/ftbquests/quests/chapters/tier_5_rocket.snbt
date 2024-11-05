@@ -293,6 +293,7 @@
 		{
 			dependencies: ["7FEE2D38BA934C28"]
 			id: "7240D736D4D4DB82"
+			subtitle: "Crafted using 4 Steel Plates and a Lightning Rod"
 			tasks: [{
 				id: "43770535A5DE021D"
 				item: "ad_astra:rocket_nose_cone"
@@ -351,6 +352,11 @@
 					id: "1C539C9137DFD2CB"
 					item: "alexscaves:amber"
 					type: "item"
+				}
+				{
+					id: "2F1F086895C5107C"
+					type: "xp"
+					xp: 100
 				}
 			]
 			shape: "hexagon"
