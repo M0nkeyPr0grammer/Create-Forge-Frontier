@@ -25,6 +25,7 @@
 		{
 			dependencies: ["088C2263FA4E3A27"]
 			id: "6C7158E98669E0B7"
+			subtitle: "Crafted Using 6 Steel Plates"
 			tasks: [{
 				count: 3L
 				id: "5557F1AA2040FD14"
@@ -37,6 +38,7 @@
 		{
 			dependencies: ["088C2263FA4E3A27"]
 			id: "2D252141B2EDE80E"
+			subtitle: "Crafted Using 6 Steel Plates"
 			tasks: [{
 				count: 4L
 				id: "6CCA1AC2EC7C0B0F"
@@ -49,6 +51,7 @@
 		{
 			dependencies: ["088C2263FA4E3A27"]
 			id: "1D856526AE7005D5"
+			subtitle: "Crafted Using 6 Steel Plates"
 			tasks: [{
 				id: "13C85A2EB5B4DAA3"
 				item: "ad_astra:rocket_fin"
@@ -60,6 +63,7 @@
 		{
 			dependencies: ["088C2263FA4E3A27"]
 			id: "0FBC0782EC837F0A"
+			subtitle: "Crafted Using 6 Steel Plates"
 			tasks: [{
 				count: 2L
 				id: "79650BE349A9FA69"
@@ -72,6 +76,7 @@
 		{
 			dependencies: ["088C2263FA4E3A27"]
 			id: "7BF025D77EAEB609"
+			subtitle: "Crafted using 5 Calorite Plates, 1 Ostrum Engine, and 1 Steel Fan"
 			tasks: [{
 				id: "3868DAA99268FB08"
 				item: "ad_astra:calorite_engine"
@@ -83,6 +88,7 @@
 		{
 			dependencies: ["088C2263FA4E3A27"]
 			id: "4D8BC31C27E6392D"
+			subtitle: "Crafted using 2 Steel Ingots and 1 Barrel"
 			tasks: [{
 				id: "13A8DA3EEAD14608"
 				item: "tfmg:steel_fluid_tank"
@@ -94,6 +100,7 @@
 		{
 			dependencies: ["088C2263FA4E3A27"]
 			id: "0D4F092EAE512F77"
+			subtitle: "Crafted using 5 Calorite Plates, 1 Ostrum Tank, and 1 Steel Rod"
 			tasks: [{
 				count: 2L
 				id: "1C96C368DFBC8C3A"
@@ -106,6 +113,7 @@
 		{
 			dependencies: ["088C2263FA4E3A27"]
 			id: "68D9FFA879B94A69"
+			subtitle: "Crafted using 5 Calorite Plates, 1 Ostrum Tank, and 1 Steel Rod"
 			tasks: [{
 				id: "11931B18EF8F8CD3"
 				item: "ad_astra:calorite_tank"
@@ -117,6 +125,7 @@
 		{
 			dependencies: ["088C2263FA4E3A27"]
 			id: "06F29BB41872D89B"
+			subtitle: "Crafted using 9 Calorite Ingots"
 			tasks: [{
 				count: 11L
 				id: "466148B264B32748"
@@ -129,6 +138,7 @@
 		{
 			dependencies: ["088C2263FA4E3A27"]
 			id: "0820016566428C09"
+			subtitle: "Crafted using 9 Calorite Ingots"
 			tasks: [{
 				count: 12L
 				id: "40A80E15D52F1009"
@@ -141,6 +151,7 @@
 		{
 			dependencies: ["088C2263FA4E3A27"]
 			id: "4F87CA93B18A71EB"
+			subtitle: "Crafted using 9 Calorite Ingots"
 			tasks: [{
 				count: 13L
 				id: "064E9AFCDEACC771"
@@ -153,6 +164,7 @@
 		{
 			dependencies: ["088C2263FA4E3A27"]
 			id: "6679964510C3C5D8"
+			subtitle: "Crafted using 9 Calorite Ingots"
 			tasks: [{
 				count: 9L
 				id: "7AB8D97AA0810CAD"
@@ -165,6 +177,7 @@
 		{
 			dependencies: ["088C2263FA4E3A27"]
 			id: "35D20D04D7251392"
+			subtitle: "Crafted using 9 Calorite Ingots"
 			tasks: [{
 				count: 10L
 				id: "6544C47B20813139"
@@ -177,6 +190,7 @@
 		{
 			dependencies: ["088C2263FA4E3A27"]
 			id: "3EF4CB029173DA22"
+			subtitle: "Crafted using 9 Calorite Ingots"
 			tasks: [{
 				count: 7L
 				id: "0397D292249191CB"
@@ -189,6 +203,7 @@
 		{
 			dependencies: ["088C2263FA4E3A27"]
 			id: "17460389DDB00577"
+			subtitle: "Crafted using 9 Calorite Ingots"
 			tasks: [{
 				count: 8L
 				id: "4D09521D56A3F49C"
@@ -201,6 +216,7 @@
 		{
 			dependencies: ["088C2263FA4E3A27"]
 			id: "12460FEA4843F343"
+			subtitle: "Crafted using 9 Calorite Ingots"
 			tasks: [{
 				count: 4L
 				id: "030F326443E25651"
@@ -213,6 +229,7 @@
 		{
 			dependencies: ["088C2263FA4E3A27"]
 			id: "1F4095035614D1BD"
+			subtitle: "Crafted using 9 Calorite Ingots"
 			tasks: [{
 				count: 5L
 				id: "6B1805AFFFDCF3ED"
@@ -225,6 +242,7 @@
 		{
 			dependencies: ["088C2263FA4E3A27"]
 			id: "526072E5CD4532E5"
+			subtitle: "Crafted using 9 Calorite Ingots"
 			tasks: [{
 				count: 6L
 				id: "1A800C39286CFB4B"
@@ -237,6 +255,7 @@
 		{
 			dependencies: ["088C2263FA4E3A27"]
 			id: "75857FAAC4959D7D"
+			subtitle: "Crafted using 9 Calorite Ingots"
 			tasks: [{
 				id: "79CAB800567A42D0"
 				item: "ad_astra:calorite_block"
@@ -248,6 +267,7 @@
 		{
 			dependencies: ["088C2263FA4E3A27"]
 			id: "75FD8483F8BF0E57"
+			subtitle: "Crafted using 9 Calorite Ingots"
 			tasks: [{
 				count: 2L
 				id: "2B23E986E4E30D7B"
@@ -260,6 +280,7 @@
 		{
 			dependencies: ["088C2263FA4E3A27"]
 			id: "3B625707B71310BC"
+			subtitle: "Crafted using 9 Calorite Ingots"
 			tasks: [{
 				count: 3L
 				id: "5D3143AC924F7C50"
@@ -272,6 +293,7 @@
 		{
 			dependencies: ["088C2263FA4E3A27"]
 			id: "58CBE2FA59C39B93"
+			subtitle: "Crafted using 4 Steel Plates and a Lightning Rod"
 			tasks: [{
 				id: "2DB31F232A766CC3"
 				item: "ad_astra:rocket_nose_cone"
@@ -357,6 +379,7 @@
 		{
 			dependencies: ["088C2263FA4E3A27"]
 			id: "7280165676311368"
+			subtitle: "Crafted using 6 Steel Plates"
 			tasks: [{
 				id: "2885339D5F200E15"
 				item: "ad_astra:steel_door"
