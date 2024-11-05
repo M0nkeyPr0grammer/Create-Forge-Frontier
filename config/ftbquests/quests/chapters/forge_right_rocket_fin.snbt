@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "forge_right_rocket_fin"
+	group: "154A5E2FF6C25F19"
+	icon: "forge_frontier:forge_rocket_fin_right"
+	id: "7176BFA5A953D945"
+	order_index: 8
+	quest_links: [ ]
+	quests: [ ]
+	title: "Forge Right Rocket Fin"
+}

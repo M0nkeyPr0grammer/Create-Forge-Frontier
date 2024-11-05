@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "forge_rocket_engine"
+	group: "154A5E2FF6C25F19"
+	icon: "forge_frontier:forge_rocket_engine"
+	id: "345B7D1BE3EDD4F5"
+	order_index: 5
+	quest_links: [ ]
+	quests: [ ]
+	title: "Forge Rocket Engine"
+}

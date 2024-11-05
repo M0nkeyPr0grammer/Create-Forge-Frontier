@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "forge_rocket_casing"
+	group: "154A5E2FF6C25F19"
+	icon: "forge_frontier:forge_rocket_casing"
+	id: "2612BC8D96CC3DDA"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "Forge Rocket Casing"
+}

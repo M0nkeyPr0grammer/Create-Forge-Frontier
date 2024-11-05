@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "forge_rocket_core"
+	group: "154A5E2FF6C25F19"
+	icon: "forge_frontier:forge_rocket_core"
+	id: "2DBA3C74F57464A6"
+	order_index: 6
+	quest_links: [ ]
+	quests: [ ]
+	title: "Forge Rocket Core"
+}
