@@ -10,7 +10,9 @@
 	}
 	id: "2BA27D88FBDD3B8A"
 	images: [{
+		click: "#67026EE366909C22"
 		height: 15.0d
+		hover: ["Tier 2 Rocket"]
 		image: "ftb:textures/tier_2.png"
 		rotation: 0.0d
 		width: 10.35d
