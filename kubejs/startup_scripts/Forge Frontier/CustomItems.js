@@ -52,9 +52,9 @@ StartupEvents.registry('block', event => {
     
     // Trophy Block
     event.create('forge_frontier:trophy_block')
-        .displayName('Landscapes Reimagined Trophy')
+        .displayName("Create - Forge Frontier Trophy")
         .soundType('metal')
-        .mapColor('DIAMOND')
+        .mapColor('Stone')
         .hardness(2.0)
         .model('forge_frontier:block/trophy_block')
         .requiresTool(true)
