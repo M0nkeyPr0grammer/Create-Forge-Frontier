@@ -46,7 +46,7 @@
 			shape: "square"
 			tasks: [{
 				id: "6F107883EE2B4386"
-				item: "create_unbreakable:irromolding"
+				item: "create_power_loader:brass_chunk_loader"
 				type: "item"
 			}]
 			x: 0.0d

@@ -433,7 +433,7 @@ ServerEvents.recipes(event => {
                 "QSC",
                 "Ici",
                 "sPT",
-                "VUE",
+                "VLE",
                 "AHY"
             ],
             key: {
@@ -447,7 +447,7 @@ ServerEvents.recipes(event => {
                 P: Ingredient.of("create:precision_mechanism"),
                 T: Ingredient.of("create_dd:integrated_mechanism"),
                 V: Ingredient.of("create_things_and_misc:vibration_mechanism"),
-                U: Ingredient.of("create_unbreakable:irromolding"),
+                L: Ingredient.of("create_power_loader:brass_chunk_loader"),
                 E: Ingredient.of("tfmg:steel_mechanism"),
                 A: Ingredient.of("create_sa:steam_engine"),
                 H: Ingredient.of("create_sa:heat_engine"),
