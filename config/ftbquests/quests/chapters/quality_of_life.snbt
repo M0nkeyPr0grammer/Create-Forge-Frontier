@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "quality_of_life"
-	group: "3750F90D875B3398"
+	group: "37A1080736831E36"
 	icon: "quark:abacus"
 	id: "73BC896A8FA5A2C6"
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{

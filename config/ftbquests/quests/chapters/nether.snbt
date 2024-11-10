@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "nether"
-	group: "3750F90D875B3398"
+	group: "1CB9F27D7DE0AEE8"
 	icon: "nether_remastered:seal_of_the_underworld_item"
 	id: "4939BBE1CB170C9D"
 	images: [
