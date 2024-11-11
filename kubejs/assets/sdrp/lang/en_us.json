@@ -36,5 +36,12 @@
   "sdrp.moon.in": "On the Moon",
   "sdrp.moon": "Moon",
   "sdrp.venus.in": "On Venus",
-  "sdrp.venus": "Venus"
+  "sdrp.venus": "Venus",
+  "sdrp.abyssal_chasm.in": "On the Abyssal Chasm Planet",
+  "sdrp.candy_cavity.in": "On the Candy Cavity Planet",
+  "sdrp.forlorn_hollows.in": "On the Forlorn Hollows Planet",
+  "sdrp.magnetic_caves.in": "On the Magnetic Caves Planet",
+  "sdrp.primordial_caves.in": "On the Primordial Caves Planet",
+  "sdrp.toxic_caves.in": "On the Toxic Caves Planet",
+  "sdrp.pocket_dimension.in": "In a Pocket Dimension"
 }

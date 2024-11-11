@@ -21,10 +21,11 @@ ServerEvents.tags('worldgen/biome', event => {
   event.add('cataclysm:has_structure/burning_arena_biomes', 'ad_astra:mercury_deltas');
   event.add('cataclysm:has_structure/soul_black_smith_biomes', 'ad_astra:martian_polar_caps');
   event.add('cataclysm:has_structure/cursed_pyramid_biomes', 'ad_astra:venus_wastelands');
-  event.add('cataclysm:has_structure/ancient_factory_biomes', 'ad_astra:glacio_ice_peaks');
+  event.add('cataclysm:has_structure/ancient_factory_biomes', 'ad_astra:lunar_wastelands');
   event.add('incendium:structure/has_pipeline', 'ad_astra:lunar_wastelands');
   event.add('incendium:structure/has_sanctum', 'ad_astra:glacio_snowy_barrens');
   event.add('incendium:structure/has_reactor', 'ad_astra:venus_wastelands');
+  event.add('cataclysm:has_structure/frosted_prison_biomes', 'ad_astra:glacio_ice_peaks')
 
   // Removals
 
@@ -49,7 +50,9 @@ ServerEvents.tags('worldgen/biome', event => {
     'minecraft:basalt_deltas',
     'incendium:toxic_heap'
   ]);
+  event.remove('cataclysm:has_structure/frosted_prison_biomes', 'minecraft:snowy_plains')
 });
+
 
 ServerEvents.tags('worldgen/structure', event => {
 
