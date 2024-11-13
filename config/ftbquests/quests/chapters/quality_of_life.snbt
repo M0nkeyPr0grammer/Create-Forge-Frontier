@@ -347,16 +347,6 @@
 			y: 6.5d
 		}
 		{
-			id: "6C8A2C5469B85FA3"
-			tasks: [{
-				id: "0C830CCE26FA193B"
-				item: "morphtool:tool"
-				type: "item"
-			}]
-			x: -2.0d
-			y: 0.5d
-		}
-		{
 			id: "3AF7842ADEBDA814"
 			tasks: [{
 				id: "4714EA8A3406FB6F"
@@ -371,16 +361,6 @@
 			}]
 			x: -2.0d
 			y: -1.5d
-		}
-		{
-			id: "78906282F2B508BB"
-			tasks: [{
-				id: "28DEBB261497DD1C"
-				item: "akashictome:tome"
-				type: "item"
-			}]
-			x: -3.5d
-			y: 3.0d
 		}
 		{
 			id: "40B320030AB715B7"
