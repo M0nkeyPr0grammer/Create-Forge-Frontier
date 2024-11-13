@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "forge_frontier:item/coin_texture"
+  },
+  "elements": [
+    {
+      "from": [6, 0, 6],
+      "to": [10, 1, 10],
+      "faces": {
+        "north": { "uv": [0, 0, 16, 16], "texture": "#layer0" },
+        "south": { "uv": [0, 0, 16, 16], "texture": "#layer0" },
+        "east": { "uv": [0, 0, 16, 16], "texture": "#layer0" },
+        "west": { "uv": [0, 0, 16, 16], "texture": "#layer0" },
+        "up": { "uv": [0, 0, 16, 16], "texture": "#layer0" },
+        "down": { "uv": [0, 0, 16, 16], "texture": "#layer0" }
+      }
+    },
+    {
+      "from": [6, 0.75, 6],
+      "to": [10, 1, 10],
+      "faces": {
+        "north": { "uv": [0, 0, 16, 16], "texture": "#layer0" },
+        "south": { "uv": [0, 0, 16, 16], "texture": "#layer0" },
+        "east": { "uv": [0, 0, 16, 16], "texture": "#layer0" },
+        "west": { "uv": [0, 0, 16, 16], "texture": "#layer0" },
+        "up": { "uv": [0, 0, 16, 16], "texture": "#layer0" }
+      }
+    },
+    {
+      "from": [6, 0, 6],
+      "to": [10, 0.25, 10],
+      "faces": {
+        "down": { "uv": [0, 0, 16, 16], "texture": "#layer0" }
+      }
+    }
+  ]
+}

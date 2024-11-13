@@ -1,155 +1,127 @@
 ServerEvents.tags('item', event => {
 
-// Crafting Tables
-event.add('mctb:revertable_workbench','mctb:alpha_crafting_table')
-event.add('mctb:revertable_workbench','mctb:baobab_crafting_table')
-event.add('mctb:revertable_workbench','mctb:blackwood_crafting_table')
-event.add('mctb:revertable_workbench','mctb:blue_bioshroom_crafting_table')
-event.add('mctb:revertable_workbench','mctb:brimwood_crafting_table')
-event.add('mctb:revertable_workbench','mctb:cobalt_crafting_table')
-event.add('mctb:revertable_workbench','mctb:cypress_crafting_table')
-event.add('mctb:revertable_workbench','mctb:ru_dead_crafting_table')
-event.add('mctb:revertable_workbench','mctb:eucalyptus_crafting_table')
-event.add('mctb:revertable_workbench','mctb:green_bioshroom_crafting_table')
-event.add('mctb:revertable_workbench','mctb:joshua_crafting_table')
-event.add('mctb:revertable_workbench','mctb:kapok_crafting_table')
-event.add('mctb:revertable_workbench','mctb:larch_crafting_table')
-event.add('mctb:revertable_workbench','mctb:magnolia_crafting_table')
-event.add('mctb:revertable_workbench','mctb:maple_crafting_table')
-event.add('mctb:revertable_workbench','mctb:mauve_crafting_table')
-event.add('mctb:revertable_workbench','mctb:ru_palm_crafting_table')
-event.add('mctb:revertable_workbench','mctb:pine_crafting_table')
-event.add('mctb:revertable_workbench','mctb:pink_bioshroom_crafting_table')
-event.add('mctb:revertable_workbench','mctb:ru_redwood_crafting_table')
-event.add('mctb:revertable_workbench','mctb:ru_willow_crafting_table')
-event.add('mctb:revertable_workbench','mctb:yellow_bioshroom_crafting_table')
-event.add('mctb:revertable_workbench','mctb:socotra_crafting_table')
+    // Create Stone Types
+    const createStones = [
+        'forge_frontier:amberlite', 'forge_frontier:aubrum', 'forge_frontier:azurnium', 'forge_frontier:frostite',
+        'forge_frontier:glacium', 'forge_frontier:guanite', 'forge_frontier:neodymrium', 'forge_frontier:pearlyte',
+        'forge_frontier:pyroclast', 'forge_frontier:radiantite', 'forge_frontier:stellaris',
+        'forge_frontier:sulphite', 'forge_frontier:verdantine', 'forge_frontier:uraniumnite',
+        'enlightened_end:palerock', 'create_dd:potassic', 'deeperdarker:sculk_grime',
+        'enlightened_end:void_shale'
+    ];
+    createStones.forEach(stone => {
+        const stoneName = stone.split(':')[1]; // Extract the name part after the colon
+        event.add(`create:stone_types/${stoneName}`, stone);
+    });
 
-// Ad Astra Ores
-event.add('forge:ores/ice_shard', 'ad_astra:moon_ice_shard_ore' )
-event.add('forge:ores/ice_shard', 'ad_astra:deepslate_ice_shard_ore' )
-event.add('forge:ores/ice_shard', 'ad_astra:mars_ice_shard_ore' )
-event.add('forge:ores/ice_shard', 'ad_astra:glacio_ice_shard_ore' )
-event.add('forge:ores/cheese','ad_astra:moon_cheese_ore')
-event.add('forge:ores/desh','ad_astra:moon_desh_ore')
-event.add('forge:ores/desh','ad_astra:deepslate_desh_ore')
-event.add('forge:ores/ostrum','ad_astra:mars_ostrum_ore')
-event.add('forge:ores/ostrum','ad_astra:deepslate_ostrum_ore')
-event.add('forge:ores/calorite','ad_astra:venus_calorite_ore')
-event.add('forge:ores/calorite','ad_astra:deepslate_calorite_ore')
+    // Crafting Tables
+    const craftingTables = [
+        'alpha_crafting_table', 'baobab_crafting_table', 'blackwood_crafting_table', 'blue_bioshroom_crafting_table',
+        'brimwood_crafting_table', 'cobalt_crafting_table', 'cypress_crafting_table', 'ru_dead_crafting_table',
+        'eucalyptus_crafting_table', 'green_bioshroom_crafting_table', 'joshua_crafting_table', 'kapok_crafting_table',
+        'larch_crafting_table', 'magnolia_crafting_table', 'maple_crafting_table', 'mauve_crafting_table',
+        'ru_palm_crafting_table', 'pine_crafting_table', 'pink_bioshroom_crafting_table', 'ru_redwood_crafting_table',
+        'ru_willow_crafting_table', 'yellow_bioshroom_crafting_table', 'socotra_crafting_table'
+    ];
+    craftingTables.forEach(table => event.add('mctb:revertable_workbench', `mctb:${table}`));
 
-// Alex Caves Ores
-event.add('forge:ores/redstone', 'alexscaves:guanostone_redstone_ore')
-event.add('forge:ores/coal', 'alexscaves:coprolith_coal_ore')
-event.add('forge:ores/uranium', 'alexscaves:radrock_uranium_ore')
+    // Small Cactus
+    event.add('forge:small_cacti',[
+        'creeperoverhaul:tiny_cactus','regions_unexplored:barrel_cactus'
+    ]);
 
-// Enlightened End Ores
-event.add('forge:ores/bismuth','enlightened_end:bismuth_ore')
-event.add('forge:ores/irradium','enlightened_end:irradium_ore')
-event.add('forge:ores/malachite','enlightened_end:malachite_ore')
+    // Cassette Tape
+    event.add('iammusicplayer:cassette_tape',[
+        'iammusicplayer:cassette_tape','iammusicplayer:cassette_tape_glass'
+    ]);
 
-// forge:templates/smithing
-event.add('forge:templates/smithing','minecraft:netherite_upgrade_smithing_template')
-event.add('forge:templates/smithing','forge_frontier:netherite_iron_upgrade')
-event.add('forge:templates/smithing','forge_frontier:netherite_gold_upgrade')
-event.add('forge:templates/smithing','forge_frontier:netherite_emerald_upgrade')
-event.add('forge:templates/smithing','forge_frontier:netherite_diamond_upgrade')
-event.add('forge:templates/smithing','cataclysm:ignitium_upgrade_smithing_template')
-event.add('forge:templates/smithing','enlightened_end:adamantite_smithing_template')
-event.add('forge:templates/smithing','ethuim:ethium_upgrade_smithing_template')
-event.add('forge:templates/smithing','endreborn:mysterious_upgrade_template')
-event.add('forge:templates/smithing','endreborn:curious_upgrade_template')
-event.add('forge:templates/smithing','deeperdarker:warden_upgrade_smithing_template')
-event.add('forge:templates/smithing','create_additions_synthetics:gilded_upgrade')
+    // Cerulean Stalk Block
+    event.add('enlightened_end:cerulean_stalk_blocks',[
+        'enlightened_end:cerulean_log','enlightened_end:stripped_cerulean_log'
+    ]);
 
-// forge:enegergized/items
-event.add('forge:energized/items','create_new_age:overcharged_iron')
-event.add('forge:energized/items','create_new_age:overcharged_golden_sheet')
-event.add('forge:energized/items','create_new_age:overcharged_diamond')
-event.add('forge:energized/items','create_new_age:overcharged_gold')
-event.add('forge:energized/items','create_new_age:overcharged_iron_sheet')
-event.add('forge:energized/items','forge_frontier:overcharged_netherite_ingot')
+    // Magnolia Logs
+    event.add('regions_unexplored:magnolia_logs',[
+        'regions_unexplored:magnolia_log','regions_unexplored:stripped_magnolia_log','regions_unexplored:magnolia_wood','regions_unexplored:stripped_magnolia_wood'
+    ]);
 
-// create:crushed_raw_materials
-event.add('create:crushed_raw_materials','forge_frontier:crushed_desh')
-event.add('create:crushed_raw_materials','forge_frontier:crushed_ostrum')
-event.add('create:crushed_raw_materials','forge_frontier:crushed_calorite')
-event.add('create:crushed_raw_materials','forge_frontier:crushed_bismuth')
-event.add('create:crushed_raw_materials','forge_frontier:crushed_irradium')
-event.add('create:crushed_raw_materials','forge_frontier:crushed_malachite')
-event.add('create:crushed_raw_materials','forge_frontier:crushed_redstone')
-event.add('create:crushed_raw_materials','forge_frontier:crushed_verdantine')
-event.add('create:crushed_raw_materials','forge_frontier:crushed_glacium')
-event.add('create:crushed_raw_materials','forge_frontier:crushed_debris')
-event.add('create:crushed_raw_materials','forge_frontier:crushed_grime')
-event.add('create:crushed_raw_materials','forge_frontier:crushed_aubrum')
-event.add('create:crushed_raw_materials','forge_frontier:crushed_pyroclast')
-event.add('create:crushed_raw_materials','forge_frontier:crushed_frostite')
-event.add('create:crushed_raw_materials','forge_frontier:crushed_stellaris')
-event.add('create:crushed_raw_materials','forge_frontier:crushed_radiantite')
-event.add('create:crushed_raw_materials','forge_frontier:crushed_shale')
-event.add('create:crushed_raw_materials','forge_frontier:crushed_palerock')
-event.add('create:crushed_raw_materials','forge_frontier:crushed_guanite')
-event.add('create:crushed_raw_materials','forge_frontier:crushed_pearlyte')
-event.add('create:crushed_raw_materials','forge_frontier:crushed_amberlite')
-event.add('create:crushed_raw_materials','forge_frontier:crushed_azurnium')
-event.add('create:crushed_raw_materials','forge_frontier:crushed_neodymrium')
-event.add('create:crushed_raw_materials','forge_frontier:crushed_uraniumnite')
-event.add('create:crushed_raw_materials','forge_frontier:crushed_sulphite')
+    // Ad Astra Ores
+    event.add('forge:ores/ice_shard', [
+        'ad_astra:moon_ice_shard_ore', 'ad_astra:deepslate_ice_shard_ore', 'ad_astra:mars_ice_shard_ore', 'ad_astra:glacio_ice_shard_ore'
+    ]);
+    event.add('forge:ores/cheese', 'ad_astra:moon_cheese_ore');
+    event.add('forge:ores/desh', ['ad_astra:moon_desh_ore', 'ad_astra:deepslate_desh_ore']);
+    event.add('forge:ores/ostrum', ['ad_astra:mars_ostrum_ore', 'ad_astra:deepslate_ostrum_ore']);
+    event.add('forge:ores/calorite', ['ad_astra:venus_calorite_ore', 'ad_astra:deepslate_calorite_ore']);
 
-// forge_frontier:end_remastered_eye_pieces
-event.add('forge_frontier:end_remastered_eye_pieces','forge_frontier:pirate_arrow')
-event.add('forge_frontier:end_remastered_eye_pieces','forge_frontier:pirate_crossbow')
-event.add('forge_frontier:end_remastered_eye_pieces','forge_frontier:cannon_ball')
-event.add('forge_frontier:end_remastered_eye_pieces','forge_frontier:soul_flame_staff')
-event.add('forge_frontier:end_remastered_eye_pieces','forge_frontier:infernal_ingot')
-event.add('forge_frontier:end_remastered_eye_pieces','forge_frontier:ras_solar_sword')
-event.add('forge_frontier:end_remastered_eye_pieces','forge_frontier:sun_disc')
-event.add('forge_frontier:end_remastered_eye_pieces','forge_frontier:piglin_kings_crown')
-event.add('forge_frontier:end_remastered_eye_pieces','forge_frontier:piglin_war_axe')
-event.add('forge_frontier:end_remastered_eye_pieces','forge_frontier:piglin_totem')
-event.add('forge_frontier:end_remastered_eye_pieces','forge_frontier:infernal_chisel')
-event.add('forge_frontier:end_remastered_eye_pieces','forge_frontier:hellhounds_fang')
+    // Alex Caves Ores
+    event.add('forge:ores/redstone', 'alexscaves:guanostone_redstone_ore');
+    event.add('forge:ores/coal', 'alexscaves:coprolith_coal_ore');
+    event.add('forge:ores/uranium', 'alexscaves:radrock_uranium_ore');
 
-// forge_frontier:molds
-event.add('forge_frontier:mold_templates','forge_frontier:upgrade_mold')
-event.add('forge_frontier:mold_templates','forge_frontier:axe_mold')
-event.add('forge_frontier:mold_templates','forge_frontier:boots_mold')
-event.add('forge_frontier:mold_templates','forge_frontier:block_mold')
-event.add('forge_frontier:mold_templates','forge_frontier:chestplate_mold')
-event.add('forge_frontier:mold_templates','forge_frontier:coal_mold')
-event.add('forge_frontier:mold_templates','forge_frontier:gem_mold')
-event.add('forge_frontier:mold_templates','forge_frontier:head_mold')
-event.add('forge_frontier:mold_templates','forge_frontier:helmet_mold')
-event.add('forge_frontier:mold_templates','forge_frontier:hoe_mold')
-event.add('forge_frontier:mold_templates','forge_frontier:ingot_mold')
-event.add('forge_frontier:mold_templates','forge_frontier:legginings_mold')
-event.add('forge_frontier:mold_templates','forge_frontier:pickaxe_mold')
-event.add('forge_frontier:mold_templates','forge_frontier:shovel_mold')
-event.add('forge_frontier:mold_templates','forge_frontier:skull_mold')
-event.add('forge_frontier:mold_templates','forge_frontier:sword_mold')
-event.add('forge_frontier:mold_templates','forge_frontier:mold_template')
+    // Enlightened End Ores
+    event.add('forge:ores/bismuth', 'enlightened_end:bismuth_ore');
+    event.add('forge:ores/irradium', 'enlightened_end:irradium_ore');
+    event.add('forge:ores/malachite', 'enlightened_end:malachite_ore');
 
-// Vanilla Tag
-event.add('forge_frontier:vanilla','minecraft:dandelion')
-event.add('forge_frontier:vanilla','minecraft:blue_orchid')
+    // Forge Templates/Smithing
+    event.add('forge:templates/smithing', [
+        'minecraft:netherite_upgrade_smithing_template', 'forge_frontier:netherite_iron_upgrade',
+        'forge_frontier:netherite_gold_upgrade', 'forge_frontier:netherite_emerald_upgrade',
+        'forge_frontier:netherite_diamond_upgrade', 'cataclysm:ignitium_upgrade_smithing_template',
+        'enlightened_end:adamantite_smithing_template', 'ethuim:ethium_upgrade_smithing_template',
+        'endreborn:mysterious_upgrade_template', 'endreborn:curious_upgrade_template',
+        'deeperdarker:warden_upgrade_smithing_template', 'create_additions_synthetics:gilded_upgrade'
+    ]);
 
-// Connector Tag
-event.add('forge_frontier:connector','create_new_age:electrical_connector')
-event.add('forge_frontier:connector','createaddition:connector')
-event.add('forge_frontier:connector','createaddition:large_connector')
-event.add('forge_frontier:connector','tfgm:cable_connector')
+    // Forge Energized Items
+    event.add('forge:energized/items', [
+        'create_new_age:overcharged_iron', 'create_new_age:overcharged_golden_sheet', 'create_new_age:overcharged_diamond',
+        'create_new_age:overcharged_gold', 'create_new_age:overcharged_iron_sheet', 'forge_frontier:overcharged_netherite_ingot'
+    ]);
 
-// Create Casing
-event.add('create:casing','forge_frontier:forge_rocket_casing')
+    // Create Crushed Raw Materials
+    const crushedMaterials = [
+        'crushed_desh', 'crushed_ostrum', 'crushed_calorite', 'crushed_bismuth', 'crushed_irradium', 'crushed_malachite',
+        'crushed_redstone', 'crushed_verdantine', 'crushed_glacium', 'crushed_debris', 'crushed_grime', 'crushed_aubrum',
+        'crushed_pyroclast', 'crushed_frostite', 'crushed_stellaris', 'crushed_radiantite', 'crushed_shale',
+        'crushed_palerock', 'crushed_guanite', 'crushed_pearlyte', 'crushed_amberlite', 'crushed_azurnium', 'crushed_neodymrium',
+        'crushed_uraniumnite', 'crushed_sulphite'
+    ];
+    crushedMaterials.forEach(material => event.add('create:crushed_raw_materials', `forge_frontier:${material}`));
 
-})
+    // Forge Frontier End Remastered Eye Pieces
+    const eyePieces = [
+        'pirate_arrow', 'pirate_crossbow', 'cannon_ball', 'soul_flame_staff', 'infernal_ingot', 'ras_solar_sword',
+        'sun_disc', 'piglin_kings_crown', 'piglin_war_axe', 'piglin_totem', 'infernal_chisel', 'hellhounds_fang'
+    ];
+    eyePieces.forEach(piece => event.add('forge_frontier:end_remastered_eye_pieces', `forge_frontier:${piece}`));
+
+    // Forge Frontier Molds
+    const molds = [
+        'upgrade_mold', 'axe_mold', 'boots_mold', 'block_mold', 'chestplate_mold', 'coal_mold', 'gem_mold',
+        'head_mold', 'helmet_mold', 'hoe_mold', 'ingot_mold', 'leggings_mold', 'pickaxe_mold', 'shovel_mold',
+        'skull_mold', 'sword_mold', 'mold_template'
+    ];
+    molds.forEach(mold => event.add('forge_frontier:mold_templates', `forge_frontier:${mold}`));
+
+    // Vanilla Tag
+    event.add('forge_frontier:vanilla', ['minecraft:dandelion', 'minecraft:blue_orchid']);
+
+    // Connector Tag
+    event.add('forge_frontier:connector', [
+        'create_new_age:electrical_connector', 'createaddition:connector', 'createaddition:large_connector', 'tfgm:cable_connector'
+    ]);
+
+    // Create Casing
+    event.add('create:casing', 'forge_frontier:forge_rocket_casing');
+
+});
 
 ServerEvents.tags('fluid', event => {
 
     // Fluids
-    event.add('forge:crude_oil','ad_astra:oil')
-    event.remove('minecraft:water', 'createaddition:bioethanol')
-    
-})
+    event.add('forge:crude_oil', 'ad_astra:oil');
+    event.remove('minecraft:water', 'createaddition:bioethanol');
 
+});

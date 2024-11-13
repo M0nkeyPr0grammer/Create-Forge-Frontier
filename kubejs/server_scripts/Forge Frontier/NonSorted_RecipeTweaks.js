@@ -322,8 +322,7 @@ ServerEvents.recipes(event => {
         ],
         processingTime: 400,
         results: [
-            { item: 'cagedmobs:nether_star_fragment', count: 4 },
-			{ item: 'cagedmobs:nether_star_fragment', chance: 0.10}
+            { item: 'cagedmobs:nether_star_fragment', count: 4 }
         ],
     }).id('forge_frontier:crushing/netherstar');
 
