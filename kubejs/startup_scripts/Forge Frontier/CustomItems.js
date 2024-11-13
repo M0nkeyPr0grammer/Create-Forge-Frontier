@@ -71,6 +71,12 @@ StartupEvents.registry('block', event => {
 // New Items
 StartupEvents.registry('item', event => {
 
+    // Custom Coin
+        event.create('forge_frontier:closed_beta_coin')
+            .displayName('Closed Beta Coin')
+            .maxStackSize(64)
+            .texture("forge_frontier:item/coin_texture"); 
+
     // Custom Eye - Items
         event.create('forge_frontier:pirate_arrow')
             .tooltip('A legendary arrow coveted by the Pirates of the Seven Seas, steeped in tales of adventure. Though not meant for battle, its value is beyond measure.')
