@@ -1,6 +1,11 @@
 // Mod Recipe Fixes
 ServerEvents.recipes(event => {
 
+    // Compatibility Issues Recipe Removals
+    event.remove({ id: 'tfmg:sequenced_assembly/heavy_plate'});
+    event.remove({ id: 'forge_frontier:compacting/iron_plate'});
+    event.remove({ id: 'create:pressing/steel_ingot'})
+
     // Compressed Ore Block Shapeless Recipe Fixes
         // Raw Copper
         event.remove({ id: 'createcompression:block/minecraft/raw_copper/decompress/1x'})
