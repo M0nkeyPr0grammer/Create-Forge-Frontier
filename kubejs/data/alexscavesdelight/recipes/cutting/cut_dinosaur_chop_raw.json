@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "alexscaves:dinosaur_chop"
+    }
+  ],
+  "result": [
+    {
+      "count": 2,
+      "item": "alexscavesdelight:cut_dinosaur_chop_raw"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

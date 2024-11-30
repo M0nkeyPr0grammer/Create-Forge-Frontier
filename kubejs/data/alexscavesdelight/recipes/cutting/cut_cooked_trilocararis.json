@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "alexscaves:cooked_trilocaris_tail"
+    }
+  ],
+  "result": [
+    {
+      "count": 2,
+      "item": "alexscavesdelight:cut_cooked_trilocararis"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}
