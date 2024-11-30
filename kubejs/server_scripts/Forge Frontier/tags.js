@@ -1,5 +1,74 @@
 ServerEvents.tags('item', event => {
 
+    // AE Terminal Tags
+    event.add('ae2:terminals', [
+        'ae2:wireless_crafting_terminal',
+        'ae2wtlib:wireless_pattern_encoding_terminal',
+        'ae2wtlib:wireless_pattern_access_terminal',
+        'ae2wtlib:wireless_universal_terminal',
+        'expatternprovider:wireless_ex_pat'
+    ])
+
+    // Tom's Simple Storage Terminal Tags
+    event.add('toms_storage:terminals', [
+        'toms_storage:ts.wireless_terminal',
+        'toms_storage:ts.adv_wireless_terminal'
+    ])
+
+    // Filling Tank Tags
+    event.add('create_sa:filling_tanks',[
+        'create_sa:small_filling_tank',
+        'create_sa:medium_filling_tank',
+        'create_sa:large_filling_tank'
+    ])
+
+    // Fueling Tank Tags
+    event.add('create_sa:fueling_tanks',[
+        'create_sa:small_fueling_tank',
+        'create_sa:medium_fueling_tank',
+        'create_sa:large_fueling_tank'
+    ])
+
+    // Oxygen Cans
+    event.add('ad_astra_gisselle_addon:oxygen_cans',[
+        'ad_astra_giselle_addon:oxygen_can',
+        'ad_astra_giselle_addon:netherite_oxygen_can'
+    ])
+
+    // New  Curious Back Slots tags
+    event.add('curios:back',[
+        '#create:pressurized_air_sources',
+        '#create_sa:jetpack'
+    ])
+
+    // New Curious Terminals Tags
+    event.add('curios:terminals',[
+        '#ae2:terminals',
+        '#toms_storage:terminals'
+    ])
+
+    // New Curios Oxgyen Cans Tags
+    event.add('curios:oxygen_cans', '#ad_astra_gisselle_addon:oxygen_cans')
+
+    // New Curios Tank Tags
+    event.add('curios:tanks',[
+        '#create_sa:filling_tanks',
+        '#create_sa:fueling_tanks',
+        'create_sa:creative_filling_tank'
+    ])
+    
+    // New Ring Tag
+    event.add('curios:flight_ring', 'balancedflight:ascended_flight_ring')
+
+    // Remove Flight Ring from Charm Slot
+    event.remove('curios:charm', 'balancedflight:ascended_flight_ring')
+
+    // Remove Cans and Terminals from Curio Slot
+    event.remove('curios:curio', [
+        '#ae2:terminals',
+        '#ad_astra_gisselle_addon:oxygen_cans'
+    ])
+
     // Create Stone Types
     const createStones = [
         'forge_frontier:amberlite', 'forge_frontier:aubrum', 'forge_frontier:azurnium', 'forge_frontier:frostite',
