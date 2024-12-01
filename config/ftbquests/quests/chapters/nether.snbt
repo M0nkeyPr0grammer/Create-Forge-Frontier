@@ -36,12 +36,12 @@
 		}
 		{
 			click: "#2C7C1C96546AD211"
-			height: 5.0d
+			height: 7.0d
 			hover: ["IDAS: Tinker's Citadel"]
 			image: "ftb:textures/tinkers_citadel.png"
 			rotation: 0.0d
-			width: 4.3d
-			x: 11.0d
+			width: 6.02d
+			x: 11.5d
 			y: 3.0d
 		}
 		{
@@ -94,7 +94,7 @@
 			]
 			id: "10E12D942E6F9B1B"
 			shape: "pentagon"
-			subtitle: "Entrance Sealed, mine far below,  more info inside quest"
+			subtitle: "Entrance Sealed, mine far below, more info inside quest"
 			tasks: [{
 				id: "0FBE52135DB18C50"
 				structure: "idas:ancient_mines"
@@ -108,7 +108,7 @@
 			description: ["Once a grand fortress of ingenuity, the Tinker’s Citadel stood as a beacon of craftsmanship, where engineers and artisans pushed the boundaries of invention. Now, its towering spires are crumbling, and its workshops lie dormant, overtaken by time. Yet, deep within the heart of this forsaken stronghold, ancient mechanisms stir, guarding relics of immense power and knowledge. Only the daring and determined adventurers who venture into its depths will unlock the true legacy left behind within the Citadel’s hidden vaults and secret chambers."]
 			id: "2C7C1C96546AD211"
 			shape: "pentagon"
-			subtitle: "Found on the Surface,  more info inside quest"
+			subtitle: "Found on the Surface, more info inside quest"
 			tasks: [{
 				id: "1F862107BD50E3FE"
 				structure: "idas:tinkers_citadel"
@@ -179,7 +179,7 @@
 			description: ["The second of four mystical bottles, obtained by vanquishing an undead mob while wielding an Obsidian Bottle in your off hand, begins your journey into the unknown"]
 			hide_dependency_lines: true
 			id: "425E9DAFBC3666BD"
-			subtitle: "Bottle 2/4"
+			subtitle: "Bottle 2/4, click me to read more"
 			tasks: [{
 				count: 2L
 				id: "09D74AF14E861835"
@@ -193,7 +193,7 @@
 			dependencies: ["767465A8B1032AB3"]
 			description: ["The first of four mystical bottles, obtained by vanquishing an undead mob while wielding an Obsidian Bottle in your off hand, begins your journey into the unknown"]
 			id: "541250A87BFC169D"
-			subtitle: "Bottle 1/4"
+			subtitle: "Bottle 1/4, click me to read more"
 			tasks: [{
 				id: "77F8FFD4713F2151"
 				item: "nether_remastered:bottled_nether_essence"
@@ -210,7 +210,7 @@
 			description: ["The third of four mystical bottles, obtained by vanquishing an undead mob while wielding an Obsidian Bottle in your off hand, begins your journey into the unknown"]
 			hide_dependency_lines: true
 			id: "2E63B61B39D2A0B6"
-			subtitle: "Bottle 3/4"
+			subtitle: "Bottle 3/4, click me to read more"
 			tasks: [{
 				count: 3L
 				id: "00617FA68CBA4E09"
@@ -228,7 +228,7 @@
 			description: ["The final of four mystical bottles, obtained by vanquishing an undead mob while wielding an Obsidian Bottle in your off hand, begins your journey into the unknown"]
 			hide_dependency_lines: true
 			id: "764CD6B79DF80F96"
-			subtitle: "Bottle 4/4"
+			subtitle: "Bottle 4/4, click me to read more"
 			tasks: [{
 				count: 4L
 				id: "514135D89AA84C1C"
@@ -249,6 +249,7 @@
 			description: ["Consume this Seal of the Underworld to unlock the gateway to the Nether and embark on your infernal journey."]
 			hide_dependency_lines: true
 			id: "486542BF23253839"
+			subtitle: "Click me to read more"
 			tasks: [{
 				consume_items: false
 				id: "06F42DEDCFD6E7F9"
@@ -281,12 +282,13 @@
 				"2904FAB7D1EEF9DA"
 			]
 			description: [
-				""
+				"You can find the final part to the Seal of the Underworld in the loot chests of Hopo Nether Portals."
 				"{image:ftb:textures/hopoportal.png width:226 height:100 align:center}"
 				"Congrats on obtaining all the pieces to the seal of the underworld, you can now craft the seal, consume it, then you will be able to freely travel into the nether. Feel free to use this portal as a means of entering into the Nether."
 			]
 			id: "786B2E479D58EC68"
 			shape: "hexagon"
+			subtitle: "Click me to read more"
 			tasks: [
 				{
 					id: "01FBDA6D9EDE67C5"
