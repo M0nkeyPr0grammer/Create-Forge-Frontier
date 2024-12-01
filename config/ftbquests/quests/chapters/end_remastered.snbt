@@ -29,7 +29,7 @@
 			]
 			description: [
 				""
-				"{image:forge_frontier:textures/ftb/endportalframe.png width:226 height:100 align:center}"
+				"{image:ftb:textures/endportalframe.png width:226 height:100 align:center}"
 			]
 			icon: "minecraft:end_portal_frame"
 			id: "0135EFA96E7A28A2"
@@ -46,6 +46,10 @@
 			y: 0.0d
 		}
 		{
+			description: [
+				"Read how to obtain the Black Eye in its dedicated chapter:"
+				"{ \"text\": \"Black Eye Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1F79264655FD327E\" } }"
+			]
 			icon: {
 				Count: 1
 				id: "endrem:black_eye"
@@ -54,16 +58,20 @@
 				}
 			}
 			id: "56C98E29485174A1"
-			subtitle: "Complete Dependencies, and Check Task to unlock Eye Chapter"
+			subtitle: "Plundered from the depths of legend, this eye granted the Black Pearl its ghostly sight, guiding it through storms and shadows. "
 			tasks: [{
 				id: "6E363F062CDF9048"
 				title: "Black Eye Check"
 				type: "checkmark"
 			}]
-			x: -6.0d
-			y: -6.0d
+			x: -6.5d
+			y: -5.5d
 		}
 		{
+			description: [
+				"Read how to obtain the Cold Eye in its dedicated chapter:"
+				"{ \"text\": \"Cold Eye Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"13FE50BC5ED7CC02\" } }"
+			]
 			icon: {
 				Count: 1
 				id: "endrem:cold_eye"
@@ -72,16 +80,20 @@
 				}
 			}
 			id: "01E99C2EF36E6886"
-			subtitle: "Complete Dependencies, and Check Task to unlock Eye Chapter"
+			subtitle: "Left behind by the elusive Iceologers, this eye holds the last whispers of their frozen magic. It radiates the chill of their vanished realm."
 			tasks: [{
 				id: "47C2DF0C39BA3DD5"
 				title: "Cold Eye Check"
 				type: "checkmark"
 			}]
-			x: -4.2d
+			x: -4.5d
 			y: -7.0d
 		}
 		{
+			description: [
+				"Read how to obtain the Corrupted Eye in its dedicated chapter:"
+				"{ \"text\": \"Corrupted Eye Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"116E3F170671542D\" } }"
+			]
 			icon: {
 				Count: 1
 				id: "endrem:corrupted_eye"
@@ -90,16 +102,20 @@
 				}
 			}
 			id: "7F2348D995E5FE43"
-			subtitle: "Complete Dependencies, and Check Task to unlock Eye Chapter"
+			subtitle: "This eye, once belonging to a king consumed by greed, radiates a dark allure. Its curse promises wealth, but its shadow lingers eternally."
 			tasks: [{
 				id: "6DAB7F7BB6B5699B"
 				title: "Corrupted Eye Check"
 				type: "checkmark"
 			}]
 			x: -2.0d
-			y: -7.5d
+			y: -8.0d
 		}
 		{
+			description: [
+				"Read how to obtain the Lost Eye in its dedicated chapter:"
+				"{ \"text\": \"Lost Eye Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"53D3EEC1993AF3D6\" } }"
+			]
 			icon: {
 				Count: 1
 				id: "endrem:lost_eye"
@@ -108,16 +124,20 @@
 				}
 			}
 			id: "7EE0A1125DFCB5AF"
-			subtitle: "Complete Dependencies, and Check Task to unlock Eye Chapter"
+			subtitle: "Forged by the first blacksmiths of creation, this eye is a relic of their divine craftsmanship. It glows with the fire of creation itself."
 			tasks: [{
 				id: "0495A59D74C600DC"
 				title: "Lost Eye Check"
 				type: "checkmark"
 			}]
 			x: 2.0d
-			y: -7.5d
+			y: -8.0d
 		}
 		{
+			description: [
+				"Read how to obtain the Nether Eye in its dedicated chapter:"
+				"{ \"text\": \"Nether Eye Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3052DCEA1C676846\" } }"
+			]
 			icon: {
 				Count: 1
 				id: "endrem:nether_eye"
@@ -126,16 +146,20 @@
 				}
 			}
 			id: "2037E72162F48338"
-			subtitle: "Complete Dependencies, and Check Task to unlock Eye Chapter"
+			subtitle: "Cast aside in the fiery battle between the Aether and the Nether, this eye pulses with the wrath of a demon. It smolders with unrelenting power."
 			tasks: [{
 				id: "287D96B0415A3473"
 				title: "Nether Eye Check"
 				type: "checkmark"
 			}]
-			x: 4.2d
+			x: 4.5d
 			y: -7.0d
 		}
 		{
+			description: [
+				"Read how to obtain the Old Eye in its dedicated chapter:"
+				"{ \"text\": \"Old Eye Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"11351D359F8A3CCB\" } }"
+			]
 			icon: {
 				Count: 1
 				id: "endrem:old_eye"
@@ -144,16 +168,20 @@
 				}
 			}
 			id: "73B3517C59793125"
-			subtitle: "Complete Dependencies, and Check Task to unlock Eye Chapter"
+			subtitle: "Torn from the grasp of a mighty Sandworm, this ancient eye carries the essence of deserts long buried by time. It glimmers faintly with the sands of legend."
 			tasks: [{
 				id: "2B0208FFE93F70D6"
 				title: "Old Eye Check"
 				type: "checkmark"
 			}]
-			x: 6.0d
-			y: -6.0d
+			x: 6.5d
+			y: -5.5d
 		}
 		{
+			description: [
+				"Read how to obtain the Rogue Eye in its dedicated chapter:"
+				"{ \"text\": \"Rogue Eye Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5C659D0836CA815B\" } }"
+			]
 			icon: {
 				Count: 1
 				id: "endrem:rogue_eye"
@@ -162,16 +190,20 @@
 				}
 			}
 			id: "5094745CE014E74E"
-			subtitle: "Complete Dependencies, and Check Task to unlock Eye Chapter"
+			subtitle: "Imbued with the brilliance of our ancestors, this eye once illuminated the birth of Redstone. It hums with the ingenuity of a bygone age."
 			tasks: [{
 				id: "7F6BF1A757E25786"
 				title: "Rogue Eye Check"
 				type: "checkmark"
 			}]
-			x: -7.5d
-			y: -2.0d
+			x: 7.5d
+			y: -2.5d
 		}
 		{
+			description: [
+				"Read how to obtain the Cursed Eye in its dedicated chapter:"
+				"{ \"text\": \"Cursed Eye Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2575E9C7F4C52FA1\" } }"
+			]
 			icon: {
 				Count: 1
 				id: "endrem:cursed_eye"
@@ -180,16 +212,20 @@
 				}
 			}
 			id: "0A4D8CFE603872F8"
-			subtitle: "Complete Dependencies, and Check Task to unlock Eye Chapter"
+			subtitle: "Guarded fiercely by the Piglins, this artifact is said to wield destructive power. It radiates with a promise of both ruin and might."
 			tasks: [{
 				id: "20FD7763D4649E12"
 				title: "Cursed Eye Check"
 				type: "checkmark"
 			}]
-			x: -7.5d
-			y: 2.0d
+			x: 7.5d
+			y: 2.5d
 		}
 		{
+			description: [
+				"Read how to obtain the Evil Eye in its dedicated chapter:"
+				"{ \"text\": \"Evil Eye Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1EDDECA49014856D\" } }"
+			]
 			icon: {
 				Count: 1
 				id: "endrem:evil_eye"
@@ -198,16 +234,20 @@
 				}
 			}
 			id: "3B18C690B23D4C39"
-			subtitle: "Complete Dependencies, and Check Task to unlock Eye Chapter"
+			subtitle: "Revered as a holy artifact, this talisman protects its bearer from misfortune. Its aura wards off curses and dark intentions."
 			tasks: [{
 				id: "023851720D5899EE"
 				title: "Evil Eye Check"
 				type: "checkmark"
 			}]
-			x: 7.5d
-			y: -2.0d
+			x: 6.5d
+			y: 5.5d
 		}
 		{
+			description: [
+				"Read how to obtain the Guardian Eye in its dedicated chapter:"
+				"{ \"text\": \"Guardian Eye Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2B60299370E1A854\" } }"
+			]
 			icon: {
 				Count: 1
 				id: "endrem:guardian_eye"
@@ -216,16 +256,20 @@
 				}
 			}
 			id: "7BAB96552BE32CC7"
-			subtitle: "Complete Dependencies, and Check Task to unlock Eye Chapter"
+			subtitle: "Torn from the depths of the sea, this eye has watched countless warriors drown. It gleams with the sorrow of the ocean’s grasp."
 			tasks: [{
 				id: "77ABD99DC7F39C32"
 				title: "Guardian Eye Check"
 				type: "checkmark"
 			}]
-			x: 7.5d
-			y: 2.0d
+			x: 4.5d
+			y: 7.0d
 		}
 		{
+			description: [
+				"Read how to obtain the Aetheric Eye in its dedicated chapter:"
+				"{ \"text\": \"Aetheric Eye Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"06CEED1DBA25D312\" } }"
+			]
 			icon: {
 				Count: 1
 				id: "endrem:exotic_eye"
@@ -234,16 +278,20 @@
 				}
 			}
 			id: "10232D5D9959E8A5"
-			subtitle: "Complete Dependencies, and Check Task to unlock Eye Chapter"
+			subtitle: "This eye has guided explorers to their fates, some finding Atlantis, others vanishing forever. Its glimmer hints at the mysteries of the deep."
 			tasks: [{
 				id: "2FDE2949403A2EAE"
 				title: "Aetheric Eye Check"
 				type: "checkmark"
 			}]
-			x: -6.0d
-			y: 6.0d
+			x: -7.5d
+			y: 2.5d
 		}
 		{
+			description: [
+				"Read how to obtain the Cryptic Eye in its dedicated chapter:"
+				"{ \"text\": \"Cryptic Eye Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"73CBB1994EFB12FD\" } }"
+			]
 			icon: {
 				Count: 1
 				id: "endrem:cryptic_eye"
@@ -252,16 +300,20 @@
 				}
 			}
 			id: "0D9A77A2F4BA4951"
-			subtitle: "Complete Dependencies, and Check Task to unlock Eye Chapter"
+			subtitle: "Shrouded in enigmatic energy, this eye whispers secrets of a forgotten age. Its gaze sees beyond the veil, unraveling truths that were never meant to be known."
 			tasks: [{
 				id: "12E7DB9780FCBBA3"
 				title: "Cryptic Eye Check"
 				type: "checkmark"
 			}]
-			x: -4.2d
-			y: 7.0d
+			x: -7.5d
+			y: -2.5d
 		}
 		{
+			description: [
+				"Read how to obtain the Warden Eye in its dedicated chapter:"
+				"{ \"text\": \"Warden Eye Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4EC3592C15DE2599\" } }"
+			]
 			icon: {
 				Count: 1
 				id: "endrem:undead_eye"
@@ -270,16 +322,20 @@
 				}
 			}
 			id: "7B7C6A4F2D966F69"
-			subtitle: "Complete Dependencies, and Check Task to unlock Eye Chapter"
+			subtitle: "Taken from the Warden centuries ago, this eye burns with sorrow. Its absence leaves the creature wandering blindly through eternal darkness."
 			tasks: [{
 				id: "264B676A508140D5"
 				title: "Warden Eye Check"
 				type: "checkmark"
 			}]
-			x: -2.0d
-			y: 7.5d
+			x: -6.5d
+			y: 5.5d
 		}
 		{
+			description: [
+				"Read how to obtain the Magical Eye in its dedicated chapter:"
+				"{ \"text\": \"Magical Eye Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"73E9EC9FED2830A0\" } }"
+			]
 			icon: {
 				Count: 1
 				id: "endrem:magical_eye"
@@ -288,7 +344,7 @@
 				}
 			}
 			id: "72DBFC6476091A3A"
-			subtitle: "Complete Dependencies, and Check Task to unlock Eye Chapter"
+			subtitle: "The heart of the Evoker’s dark arts, this enchanted eye brims with raw power. Without it, the sorcerer’s magic lies dormant."
 			tasks: [{
 				id: "299E9DE0678F77C6"
 				title: "Magical Eye Check"
@@ -296,9 +352,13 @@
 			}]
 			title: "Magical Eye Check"
 			x: 2.0d
-			y: 7.5d
+			y: 8.0d
 		}
 		{
+			description: [
+				"Read how to obtain the Witch Eye in its dedicated chapter:"
+				"{ \"text\": \"Witch Eye Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0B593797B7CC868F\" } }"
+			]
 			icon: {
 				Count: 1
 				id: "endrem:witch_eye"
@@ -307,16 +367,20 @@
 				}
 			}
 			id: "6D1F1DB7B6A3DA79"
-			subtitle: "Complete Dependencies, and Check Task to unlock Eye Chapter"
+			subtitle: "A remnant of ancient alchemy, this eye gleamed as it uncovered forbidden brewing arts. Its spark holds the knowledge of lost times."
 			tasks: [{
 				id: "1E4ED15D4453FB56"
 				title: "Witch Eye Check"
 				type: "checkmark"
 			}]
-			x: 4.2d
+			x: -4.5d
 			y: 7.0d
 		}
 		{
+			description: [
+				"Read how to obtain the Wither Eye in its dedicated chapter:"
+				"{ \"text\": \"Wither Eye Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4605F358C391E792\" } }"
+			]
 			icon: {
 				Count: 1
 				id: "endrem:wither_eye"
@@ -325,14 +389,14 @@
 				}
 			}
 			id: "6B63999D63EA981F"
-			subtitle: "Complete Dependencies, and Check Task to unlock Eye Chapter"
+			subtitle: "A witness to the destruction of empires, this eye bears the scars of ruin. Its empty gaze holds the echoes of a thousand fallen worlds."
 			tasks: [{
 				id: "3081D2E582E3E3FB"
 				title: "Wither Eye Check"
 				type: "checkmark"
 			}]
-			x: 6.0d
-			y: 6.0d
+			x: -2.0d
+			y: 8.0d
 		}
 		{
 			dependencies: [
@@ -345,12 +409,12 @@
 				"29A5A4E4568E10F4"
 				"43EFD816AF373F71"
 			]
-			description: [""]
+			description: ["Used as a Crafting Ingredient for all the Eyes, crafted by superheated mixing all the required ingredients"]
 			hide_dependent_lines: true
 			id: "00AABBBA631B3828"
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "Used as a Crafting Ingredient for all the Eyes"
+			subtitle: "Bound by the restless energy of those who refuse to pass on, this haunting essence pulses with a power both eerie and unrelenting. It is said to be the key to forging the legendary Eyes, each imbued with its spectral might."
 			tasks: [{
 				count: 14L
 				id: "172E780ABB86EFC8"
@@ -374,7 +438,7 @@
 		}
 		{
 			id: "0390E2B2715EA9DF"
-			subtitle: "Obtained by Mixing Lapis, Glow Ink Sack and Liquid XP"
+			subtitle: "Obtained by Superheated Mixing Lapis, Glow Ink Sack and Liquid XP, then spouting the liquid into bottles"
 			tasks: [{
 				count: 70L
 				id: "26F3F4C4C716EAB8"
@@ -410,7 +474,7 @@
 		}
 		{
 			id: "516CF2A060F13946"
-			subtitle: "Obtained by Using Shears on Cobweb"
+			subtitle: "Obtained by Using Shears on Cobweb, or sequenced assembly string on string"
 			tasks: [{
 				count: 14L
 				id: "518C11E0998DC16A"
