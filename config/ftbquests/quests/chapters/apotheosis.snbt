@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "apotheosis"
+	group: "4CF6B0D92A681E0C"
+	icon: "apotheosis:ender_library"
+	id: "0E35B788CDF14CAA"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "6965F4ABCAB88875"
+		tasks: [{
+			id: "2899DCCA2E66743F"
+			item: "minecraft:enchanting_table"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Apotheosis"
+}
