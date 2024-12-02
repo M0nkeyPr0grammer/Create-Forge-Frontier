@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "moon"
+	group: "522267C8B93A6C20"
+	icon: "ad_astra:moon_globe"
+	id: "7187AADA58DBAAC6"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		icon: "ad_astra:moon_globe"
+		id: "1523A7C10CEF69AA"
+		tasks: [{
+			dimension: "ad_astra:moon"
+			id: "77290E09FAB88833"
+			type: "dimension"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Moon"
+}
