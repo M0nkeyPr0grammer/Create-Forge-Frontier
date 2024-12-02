@@ -55,14 +55,14 @@
 			y: -5.5d
 		}
 	]
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
 			description: ["Shrouded in darkness and buried beneath layers of stone and sediment, the Ruins of the Deep whisper of an ancient civilization lost to time. Once thriving with enigmatic rituals and powerful artifacts, these submerged halls are now silent, reclaimed by the earth and water. But the true mystery lies within the labyrinthine passages and submerged vaults that guard long-forgotten secrets. Those who brave the descent into these depths will find untold treasures—but only if they can survive the lurking dangers hidden within the shadows of the deep."]
 			id: "7CE7BBA16C2E61E1"
 			shape: "pentagon"
-			subtitle: "Entrance on the surface, treasures lie beneath, more info inside quest"
+			subtitle: "Entrance on the surface, treasures lie beneath, read me for more info"
 			tasks: [{
 				id: "4668E116A3A3198C"
 				structure: "idas:ruins_of_the_deep"
@@ -77,7 +77,7 @@
 			description: ["The Tinkers Workshop, once a bustling hub of creativity where new tools and armor were forged, now lies silent on the surface. But beneath this abandoned structure, secrets and treasures await, holding the true importance for those bold enough to explore its depths."]
 			id: "5619CB9F89C25C87"
 			shape: "pentagon"
-			subtitle: "Entrance on the surface, treasures lie beneath, more info inside quest"
+			subtitle: "Entrance on the surface, treasures lie beneath, read me for more info"
 			tasks: [{
 				id: "5365D7558DF2FCE7"
 				structure: "idas:tinkers_workshop"
@@ -94,7 +94,7 @@
 			]
 			id: "10E12D942E6F9B1B"
 			shape: "pentagon"
-			subtitle: "Entrance Sealed, mine far below, more info inside quest"
+			subtitle: "Entrance Sealed, mine far below, read me for more info"
 			tasks: [{
 				id: "0FBE52135DB18C50"
 				structure: "idas:ancient_mines"
@@ -108,7 +108,7 @@
 			description: ["Once a grand fortress of ingenuity, the Tinker’s Citadel stood as a beacon of craftsmanship, where engineers and artisans pushed the boundaries of invention. Now, its towering spires are crumbling, and its workshops lie dormant, overtaken by time. Yet, deep within the heart of this forsaken stronghold, ancient mechanisms stir, guarding relics of immense power and knowledge. Only the daring and determined adventurers who venture into its depths will unlock the true legacy left behind within the Citadel’s hidden vaults and secret chambers."]
 			id: "2C7C1C96546AD211"
 			shape: "pentagon"
-			subtitle: "Found on the Surface, more info inside quest"
+			subtitle: "Found on the Surface, read me for more info"
 			tasks: [{
 				id: "1F862107BD50E3FE"
 				structure: "idas:tinkers_citadel"
