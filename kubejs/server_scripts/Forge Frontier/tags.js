@@ -1,4 +1,11 @@
 ServerEvents.tags('item', event => {
+    // Held Over Head Tags
+    event.add('ad_astra:held_over_head',[
+        'ad_astra_rocketed:tier_5_rocket',
+        'ad_astra_rocketed:tier_6_rocket',
+        'ad_astra_rocketed:tier_7_rocket',
+        'ad_astra_giselle_addon:lander_icon'
+    ])
 
     // AE Terminal Tags
     event.add('ae2:terminals', [
