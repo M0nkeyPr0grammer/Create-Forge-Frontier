@@ -1,0 +1,115 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tool_sets"
+	group: "644FFCB546187AB9"
+	icon: {
+		Count: 1
+		id: "minecraft:iron_pickaxe"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "0D8C559800E87271"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7F705285958AA6F6"
+			shape: "hexagon"
+			tasks: [{
+				id: "78D0FE8FE410D3A8"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7F705285958AA6F6"]
+			id: "707FB31257D5EE0E"
+			tasks: [{
+				id: "12E2DFC713137929"
+				item: {
+					Count: 1
+					id: "minecraft:iron_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7F705285958AA6F6"]
+			id: "5C4902D57DD164BD"
+			tasks: [{
+				id: "5599FE62B4A606EB"
+				item: {
+					Count: 1
+					id: "minecraft:iron_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7F705285958AA6F6"]
+			id: "3F1B6D6EE6BB6363"
+			tasks: [{
+				id: "7410FA48C770B53A"
+				item: {
+					Count: 1
+					id: "minecraft:iron_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7F705285958AA6F6"]
+			id: "11B1E6E21DDB9726"
+			tasks: [{
+				id: "0F60FC5844A099FF"
+				item: {
+					Count: 1
+					id: "minecraft:iron_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7F705285958AA6F6"]
+			id: "333FBD394450ABF3"
+			tasks: [{
+				id: "1EFC170AF1708E14"
+				item: {
+					Count: 1
+					id: "minecraft:iron_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+	]
+	title: "Tool Sets"
+}
