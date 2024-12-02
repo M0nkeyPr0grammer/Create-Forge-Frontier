@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "sunken_city"
+	group: "658CB7FD6582B3E9"
+	icon: "cataclysm:altar_of_abyss"
+	id: "6D5E16B0B53B4FD7"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		icon: "cataclysm:altar_of_abyss"
+		id: "449BC30FBCC42249"
+		tasks: [{
+			id: "70161E4FD138A3FC"
+			structure: "cataclysm:sunken_city"
+			type: "structure"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Sunken City"
+}
