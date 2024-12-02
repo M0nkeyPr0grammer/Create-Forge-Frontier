@@ -1,0 +1,27 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "better_archeology"
+	group: "4FAD6EACDA300DDE"
+	icon: {
+		Count: 1
+		id: "betterarcheology:iron_brush"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "59D4894CD3E8DEB5"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "69838A6C4306E75E"
+		tasks: [{
+			id: "4AD5E5DA9EBEBC2F"
+			structure: "betterarcheology:archeologist_camp_grassy"
+			type: "structure"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Better Archeology"
+}
