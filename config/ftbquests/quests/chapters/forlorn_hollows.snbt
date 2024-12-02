@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "forlorn_hollows"
+	group: "4BDF92F640B2C9B4"
+	icon: "alexscaves:pure_darkness"
+	id: "0C6B4FA932C9A608"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		id: "172EE8617C59F90A"
+		tasks: [{
+			dimension: "forge_frontier:forlorn_hollows"
+			icon: "alexscaves:pure_darkness"
+			id: "5D4BF04E9603C38E"
+			type: "dimension"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Forlorn Hollows"
+}
