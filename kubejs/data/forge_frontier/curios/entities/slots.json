@@ -1,0 +1,10 @@
+{
+  "entities": ["player"],
+  "slots": [
+    "tanks",
+    "oxygen_cans",
+    "terminals",
+    "flight_ring",
+    "elytras"
+  ]
+}

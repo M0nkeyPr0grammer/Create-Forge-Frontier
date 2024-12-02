@@ -1,0 +1,20 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "integrated_dungeons_and_structures"
+	group: "4FAD6EACDA300DDE"
+	id: "3DD28C0A059FAE3E"
+	order_index: 4
+	quest_links: [ ]
+	quests: [{
+		id: "4C3A778B5ECB1EE1"
+		tasks: [{
+			id: "56ECDEA5FEB983BC"
+			structure: "idas:abandonedhouse"
+			type: "structure"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Integrated Dungeons and Structures"
+}

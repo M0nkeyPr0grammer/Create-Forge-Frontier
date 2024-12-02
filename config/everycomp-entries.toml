@@ -223,6 +223,9 @@
 			lime_cake = true
 			pomegranate_cake = true
 
+		[types.cake.deeperdarkerdelight]
+			bloom_berries_cake = true
+
 	[types.stone_type]
 
 		[types.stone_type.phantasm]

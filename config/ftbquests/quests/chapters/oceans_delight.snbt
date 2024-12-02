@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "oceans_delight"
+	group: "47881FC157552E6E"
+	icon: "oceansdelight:guardian"
+	id: "177F5CCEFDE9BBCE"
+	order_index: 15
+	quest_links: [ ]
+	quests: [{
+		id: "0C365470873B558E"
+		tasks: [{
+			id: "4ADA602BAE2FD844"
+			item: "oceansdelight:guardian"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Ocean's Delight"
+}

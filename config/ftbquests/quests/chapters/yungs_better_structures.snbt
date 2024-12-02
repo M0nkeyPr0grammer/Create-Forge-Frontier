@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "yungs_better_structures"
+	group: "4FAD6EACDA300DDE"
+	icon: "minecraft:map"
+	id: "1A74677C706502CB"
+	order_index: 6
+	quest_links: [ ]
+	quests: [ ]
+	title: "YUNG's Better Structures"
+}

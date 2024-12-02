@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "sophisticated_backpacks"
+	group: "0988E75337218F69"
+	icon: "sophisticatedbackpacks:backpack"
+	id: "01F2F4CDF9D05659"
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		id: "5293F43761080FC7"
+		tasks: [{
+			id: "75FF1A32F2B6CE84"
+			item: "sophisticatedbackpacks:backpack"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Sophisticated Backpacks"
+}

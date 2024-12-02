@@ -1,0 +1,98 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "armor_sets"
+	group: "644FFCB546187AB9"
+	icon: {
+		Count: 1
+		id: "minecraft:iron_helmet"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "435599036D2B19D4"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7734042A9B46C0E8"]
+			id: "218F3EAA3BE5BC44"
+			tasks: [{
+				id: "2DE2AC7699B3F49D"
+				item: {
+					Count: 1
+					id: "minecraft:iron_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7734042A9B46C0E8"]
+			id: "2FC8DFD863329876"
+			tasks: [{
+				id: "43F1559FE9C79AB6"
+				item: {
+					Count: 1
+					id: "minecraft:iron_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7734042A9B46C0E8"]
+			id: "442C87D8F140A885"
+			tasks: [{
+				id: "4B4925D445EF79FD"
+				item: {
+					Count: 1
+					id: "minecraft:iron_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7734042A9B46C0E8"]
+			id: "119A31D7BF67B96B"
+			tasks: [{
+				id: "4A75D6D814E122F3"
+				item: {
+					Count: 1
+					id: "minecraft:iron_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			id: "7734042A9B46C0E8"
+			shape: "hexagon"
+			tasks: [{
+				id: "13C53DCFF3BB51E0"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	title: "Armor Sets"
+}

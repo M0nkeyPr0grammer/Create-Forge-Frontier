@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "quark_delight"
+	group: "47881FC157552E6E"
+	icon: "quarkdelight:cavern_explorer_stew"
+	id: "0B64E3FAF4853A34"
+	order_index: 16
+	quest_links: [ ]
+	quests: [{
+		id: "3BD6D36470089C09"
+		tasks: [{
+			id: "6166E7AC3B52BA3E"
+			item: "quarkdelight:cavern_explorer_stew"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Quark Delight"
+}

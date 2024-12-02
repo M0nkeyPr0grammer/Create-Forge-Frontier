@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ancienty_factory"
+	group: "658CB7FD6582B3E9"
+	icon: "cataclysm:emp"
+	id: "1A22581D94743985"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		icon: "cataclysm:emp"
+		id: "2644A94A73CA75EE"
+		tasks: [{
+			id: "79521B3C5A3D9F31"
+			structure: "cataclysm:cursed_pyramid"
+			type: "structure"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Ancienty Factory"
+}

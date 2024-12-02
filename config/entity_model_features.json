@@ -20,7 +20,7 @@
   "onlyClientPlayerModel": false,
   "doubleChestAnimFix": true,
   "variationRequiresDefaultModel": true,
-  "resetPlayerModelEachRender": true,
+  "resetPlayerModelEachRender": false,
   "onlyDebugRenderOnHover": false,
   "enforceOptifineSubFoldersVariantOnly": true,
   "enforceOptiFineAnimSyntaxLimits": true,

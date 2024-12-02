@@ -1,54 +1,55 @@
 {
   "item.endrem.old_eye": "Old Eye",
-  "item.endrem.old_eye.description": "§7§oLegends say this eye once belonged to one of the great Sandworms",
+  "item.endrem.old_eye.description": "§7§oTorn from the grasp of a mighty Sandworm, this ancient eye carries the essence of deserts long buried by time. It glimmers faintly with the sands of legend.",
 
   "item.endrem.rogue_eye": "Rogue Eye",
-  "item.endrem.rogue_eye.description": "§7§oThis eye is believed to have given our ancestors the knowledge of Redstone",
+  "item.endrem.rogue_eye.description": "§7§oImbued with the brilliance of our ancestors, this eye once illuminated the birth of Redstone. It hums with the ingenuity of a bygone age.",
 
   "item.endrem.nether_eye": "Nether Eye",
-  "item.endrem.nether_eye.description": "§7§oIt was lost by a demon in the battle between the Aether and the Nether",
+  "item.endrem.nether_eye.description": "§7§oCast aside in the fiery battle between the Aether and the Nether, this eye pulses with the wrath of a demon. It smolders with unrelenting power.",
 
   "item.endrem.cold_eye": "Cold Eye",
-  "item.endrem.cold_eye.description": "§7§oOne of the last artifacts left behind by the Iceologers before they all suddenly vanished from the world",
+  "item.endrem.cold_eye.description": "§7§oLeft behind by the elusive Iceologers, this eye holds the last whispers of their frozen magic. It radiates the chill of their vanished realm.",
 
   "item.endrem.magical_eye": "Magical Eye",
-  "item.endrem.magical_eye.description": "§7§oWithout this eye, the Evoker has no power",
+  "item.endrem.magical_eye.description": "§7§oThe heart of the Evoker’s dark arts, this enchanted eye brims with raw power. Without it, the sorcerer’s magic lies dormant.",
 
   "item.endrem.black_eye": "Black Eye",
-  "item.endrem.black_eye.description": "§7§oPirates say it gave sight to the legendary Black pearl",
+  "item.endrem.black_eye.description": "§7§oPlundered from the depths of legend, this eye granted the Black Pearl its ghostly sight, guiding it through storms and shadows.",
 
   "item.endrem.lost_eye": "Lost Eye",
-  "item.endrem.lost_eye.description": "§7§oIt is told that it was forged by the first blacksmiths of time",
+  "item.endrem.lost_eye.description": "§7§oForged by the first blacksmiths of creation, this eye is a relic of their divine craftsmanship. It glows with the fire of creation itself.",
 
   "item.endrem.wither_eye": "Wither Eye",
-  "item.endrem.wither_eye.description": "§7§oHas witnessed destruction. Maybe it also witnessed your stuff disappear",
+  "item.endrem.wither_eye.description": "§7§oA witness to the destruction of empires, this eye bears the scars of ruin. Its empty gaze holds the echoes of a thousand fallen worlds.",
 
   "item.endrem.guardian_eye": "Guardian Eye",
-  "item.endrem.guardian_eye.description": "§7§oIt has seen many warriors drown into the depths of the sea",
+  "item.endrem.guardian_eye.description": "§7§oTorn from the depths of the sea, this eye has watched countless warriors drown. It gleams with the sorrow of the ocean’s grasp.",
 
   "item.endrem.cursed_eye": "Cursed Eye",
-  "item.endrem.cursed_eye.description": "§7§oA powerful yet destructive artifact; the Piglins swore to protect it at the cost of their lives",
+  "item.endrem.cursed_eye.description": "§7§oGuarded fiercely by the Piglins, this artifact is said to wield destructive power. It radiates with a promise of both ruin and might.",
 
   "item.endrem.exotic_eye": "Aetheric Eye",
-  "item.endrem.exotic_eye.description": "§7§oThe burning gaze of the Sun is held in this miniature star",
+  "item.endrem.exotic_eye.description": "§7§oThis eye has guided explorers to their fates, some finding Atlantis, others vanishing forever. Its glimmer hints at the mysteries of the deep.",
 
   "item.endrem.evil_eye": "Evil Eye",
-  "item.endrem.evil_eye.description": "§7§oA holy talisman said to protect its owner from bad luck",
+  "item.endrem.evil_eye.description": "§7§oRevered as a holy artifact, this talisman protects its bearer from misfortune. Its aura wards off curses and dark intentions.",
 
   "item.endrem.undead_eye": "Warden's Eye",
-  "item.endrem.undead_eye.description": "§7§oThe poor bastard lost its eyes centuries ago, and has blindly searched for them ever since",
+  "item.endrem.undead_eye.description": "§7§oTaken from the Warden centuries ago, this eye burns with sorrow. Its absence leaves the creature wandering blindly through eternal darkness.",
 
   "item.endrem.cryptic_eye": "Cryptic Eye",
-  "item.endrem.cryptic_eye.description": "§7§o§khttps://www.youtube.com/watch?v=dQw4w9WgXcQ",
+  "item.endrem.cryptic_eye.description": "§7§oShrouded in enigmatic energy, this eye whispers secrets of a forgotten age. Its gaze sees beyond the veil, unraveling truths that were never meant to be known.",
 
   "item.endrem.corrupted_eye": "Corrupted Eye",
-  "item.endrem.corrupted_eye.description": "§7§oThe eye of a greedy king that faded in solitude; legend says it will bring infinite fortune to its owner",
+  "item.endrem.corrupted_eye.description": "§7§oThis eye, once belonging to a king consumed by greed, radiates a dark allure. Its curse promises wealth, but its shadow lingers eternally.",
 
   "item.endrem.witch_eye": "Witch Eye",
-  "item.endrem.witch_eye.description": "§7§oThis pupil is believed to have seen the ancient brewing recipes that were lost in time.",
+  "item.endrem.witch_eye.description": "§7§oA remnant of ancient alchemy, this eye gleamed as it uncovered forbidden brewing arts. Its spark holds the knowledge of lost times.",
   "item.endrem.witch_pupil": "Witch Pupil",
 
   "item.endrem.undead_soul": "Undead Soul",
+  "item.endrem.undead_soul.description": "§7§oBound by the restless energy of those who refuse to pass on, this haunting essence pulses with a power both eerie and unrelenting. It is said to be the key to forging the legendary Eyes, each imbued with its spectral might.",
 
   "block.endrem.ancient_portal_frame": "Ancient Portal Frame",
 
@@ -64,54 +65,54 @@
   "block.portal_open_sound": "Portal Opening",
   "block.portal_open_sound.sub": "Portal Opening",
 
-  "advancements.main.root.title": "The Beginning of An Adventure",
-  "advancements.main.root.description": "Get Your First Eye",
+  "advancements.main.root.title": "The Start of a Legend",
+  "advancements.main.root.description": "Obtain your first legendary Eye and begin your journey.",
 
-  "advancements.main.old_eye.title": "Fortune Seeker",
-  "advancements.main.old_eye.description": "Get Your First Old Eye",
+  "advancements.main.old_eye.title": "Whispers of the Sands",
+  "advancements.main.old_eye.description": "Claim the Old Eye, torn from the grasp of a mighty Sandworm.",
 
-  "advancements.main.rogue_eye.title": "Welcome To The Jungle",
-  "advancements.main.rogue_eye.description": "Get Your First Rogue Eye",
+  "advancements.main.rogue_eye.title": "The Spark of Innovation",
+  "advancements.main.rogue_eye.description": "Obtain the Rogue Eye, said to hold the secrets of Redstone.",
 
-  "advancements.main.nether_eye.title": "Stare Into Despair",
-  "advancements.main.nether_eye.description": "Get Your First Nether Eye",
+  "advancements.main.nether_eye.title": "The Demon’s Gaze",
+  "advancements.main.nether_eye.description": "Retrieve the Nether Eye, lost in the fiery clash of the Aether and Nether.",
 
-  "advancements.main.cold_eye.title": "A Nice-y Look",
-  "advancements.main.cold_eye.description": "Get Your First Cold Eye",
+  "advancements.main.cold_eye.title": "Frozen Legacy",
+  "advancements.main.cold_eye.description": "Discover the Cold Eye, an artifact of the vanished Iceologers.",
 
-  "advancements.main.corrupted_eye.title": "Cover Me In Emeralds", "%%%%%%Comment%%%%%%": "Golden Shower fits better but whatever...",
-  "advancements.main.corrupted_eye.description": "Get Your First Corrupted Eye",
+  "advancements.main.corrupted_eye.title": "Crown of Greed",
+  "advancements.main.corrupted_eye.description": "Take the Corrupted Eye, cursed with the greed of a lonely king.",
 
-  "advancements.main.magical_eye.title": "Fallen Sorcerer",
-  "advancements.main.magical_eye.description": "Get Your First Magical Eye",
+  "advancements.main.magical_eye.title": "The Evoker’s Heart",
+  "advancements.main.magical_eye.description": "Acquire the Magical Eye, brimming with the Evoker’s lost power.",
 
-  "advancements.main.black_eye.title": "Arghh, Where be Me Ship?",
-  "advancements.main.black_eye.description": "Get Your First Black Eye",
+  "advancements.main.black_eye.title": "Sailor’s Sight",
+  "advancements.main.black_eye.description": "Seize the Black Eye, which once guided the legendary Black Pearl.",
 
-  "advancements.main.lost_eye.title": "Need A Map?",
-  "advancements.main.lost_eye.description": "Get Your First Lost Eye",
+  "advancements.main.lost_eye.title": "Forged by Time",
+  "advancements.main.lost_eye.description": "Claim the Lost Eye, crafted by the first blacksmiths of creation.",
 
-  "advancements.main.wither_eye.title": "Wither You Want It Or Not",
-  "advancements.main.wither_eye.description": "Get Your First Wither Eye",
+  "advancements.main.wither_eye.title": "Witness of Ruin",
+  "advancements.main.wither_eye.description": "Find the Wither Eye, an artifact of destruction and decay.",
 
-  "advancements.main.guardian_eye.title": "Who's Guarding The Temple Now?",
-  "advancements.main.guardian_eye.description": "Get Your First Guardian Eye",
+  "advancements.main.guardian_eye.title": "Drowned Memories",
+  "advancements.main.guardian_eye.description": "Obtain the Guardian Eye, witness to the ocean’s countless victims.",
 
-  "advancements.main.cursed_eye.title": "A New Protector...",
-  "advancements.main.cursed_eye.description": "Get Your First Cursed Eye",
+  "advancements.main.cursed_eye.title": "The Piglin’s Oath",
+  "advancements.main.cursed_eye.description": "Uncover the Cursed Eye, fiercely protected by the Piglins.",
 
-  "advancements.main.witch_eye.title": "Trick-or-Treat?",
-  "advancements.main.witch_eye.description": "Get Your First Witch Eye",
+  "advancements.main.witch_eye.title": "The Alchemist’s Secret",
+  "advancements.main.witch_eye.description": "Retrieve the Witch Eye, a relic of ancient brewing magic.",
 
-  "advancements.main.evil_eye.title": "A Real Blessing",
-  "advancements.main.evil_eye.description": "Get Your First Evil Eye",
+  "advancements.main.evil_eye.title": "A Shield Against Darkness",
+  "advancements.main.evil_eye.description": "Claim the Evil Eye, a holy talisman of protection and blessing.",
 
-  "advancements.main.exotic_eye.title": "Don't look directly at it!'",
-  "advancements.main.exotic_eye.description": "Get Your First Aetheric Eye",
+  "advancements.main.exotic_eye.title": "Trail of the Unknown",
+  "advancements.main.exotic_eye.description": "Find the Exotic Eye, rumored to lead to Atlantis—or to ruin.",
 
-  "advancements.main.undead_eye.title": "Warden't do that if I were you",
-  "advancements.main.undead_eye.description": "Get Your First Warden's Eye",
+  "advancements.main.undead_eye.title": "The Warden’s Sorrow",
+  "advancements.main.undead_eye.description": "Recover the Warden’s Eye, sought for centuries by its blind owner.",
 
-  "advancements.main.cryptic_eye.title": "Patience Is The Road To Wisdom",
-  "advancements.main.cryptic_eye.description": "Get Your First Cryptic Eye"
+  "advancements.main.cryptic_eye.title": "Veil of Secrets",
+  "advancements.main.cryptic_eye.description": "Obtain the Cryptic Eye, a gaze that pierces the unseen truths."
 }

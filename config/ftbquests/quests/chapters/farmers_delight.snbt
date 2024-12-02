@@ -1,0 +1,33 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "farmers_delight"
+	group: "47881FC157552E6E"
+	icon: {
+		Count: 1
+		id: "farmersdelight:skillet"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "2580F8F059EAEED8"
+	order_index: 10
+	quest_links: [ ]
+	quests: [{
+		id: "00A18F900297108B"
+		tasks: [{
+			id: "53A2FF0F9DB74737"
+			item: {
+				Count: 1
+				id: "farmersdelight:skillet"
+				tag: {
+					Damage: 0
+				}
+			}
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Farmer's Delight"
+}

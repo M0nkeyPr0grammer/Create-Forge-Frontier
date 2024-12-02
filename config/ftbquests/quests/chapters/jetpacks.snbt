@@ -1,0 +1,29 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "jetpacks"
+	group: "7DFCA375E9018DB1"
+	icon: {
+		Count: 1
+		id: "create_sa:copper_jetpack_chestplate"
+		tag: { }
+	}
+	id: "791E7ECDAA733210"
+	order_index: 4
+	quest_links: [ ]
+	quests: [{
+		id: "095AC2921FF21A9E"
+		tasks: [{
+			id: "4252393AE3462BAD"
+			item: {
+				Count: 1
+				id: "create_sa:copper_jetpack_chestplate"
+				tag: { }
+			}
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Jetpacks"
+}

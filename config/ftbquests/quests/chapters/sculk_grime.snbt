@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "sculk_grime"
-	group: "3A742C0C73D55180"
+	group: "72C8A595982548D5"
 	icon: "molten_vents:active_molten_sculk_grime"
 	id: "3E230D0267D66D5C"
 	images: [

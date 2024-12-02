@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_easy_structures"
+	group: "4FAD6EACDA300DDE"
+	icon: "create:cogwheel"
+	id: "4987F30DFAF2A99F"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		id: "7A0AA0B019DD2B6C"
+		tasks: [{
+			id: "1C5083EE7D61952B"
+			structure: "create_easy_structures:big_1"
+			type: "structure"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Create Easy Structures"
+}

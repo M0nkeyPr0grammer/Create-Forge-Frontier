@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hopo"
+	group: "4FAD6EACDA300DDE"
+	icon: "minecraft:map"
+	id: "4D3CB9F232F16A7B"
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		id: "40F1633DE443AF0E"
+		tasks: [{
+			id: "28B7AE98BC6CA91D"
+			structure: "hopo:mineshaft/acacia_mineshaft"
+			type: "structure"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Hopo Better Structures"
+}

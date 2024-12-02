@@ -50,7 +50,7 @@ ServerEvents.recipes(event => {
     // Loop through materials and create the crushing recipes
     stones.forEach(stone => {
         const results = [
-            { count: 6, item: stone.output },
+            { count: 3, item: stone.output },
             { count: 1, item: stone.output, chance: 0.25 }
         ];
         if (stone.additional) results.push({ count: 1, item: stone.additional });
@@ -78,9 +78,8 @@ ServerEvents.recipes(event => {
         ingredients: [{ tag: `create_dd:stone_types/potassic` }],
         processingTime: 250,
         results: [
-            { count: 6, item: 'create:crushed_raw_tin' },
-            { count: 1, item: 'create:crushed_raw_tin', chance: 0.25 },
-            { count: 1, item: 'create_dd:tin_nugget' }
+            { count: 3, item: 'create:crushed_raw_tin' },
+            { count: 1, item: 'create:crushed_raw_tin', chance: 0.25 }
         ]
     }).id(`forge_frontier:recycling/potassic_tag`);
 

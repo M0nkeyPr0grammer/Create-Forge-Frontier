@@ -465,27 +465,6 @@ ServerEvents.recipes(event => {
                     heatRequirement: "superheated"
                 }).id('forge_frontier:mixing/oil');
 
-            // Compacting Recipe
-            
-                // Creates Missing Iron Plate Compacting Recipe
-                event.custom({
-                    type: "create:compacting",
-                    ingredients: [
-                        {
-                            item: 'minecraft:iron_ingot',
-                            nbt: {},
-                            amount: 1
-                        }
-                    ],
-                    results: [
-                        {
-                            item: 'ad_astra:iron_plate',
-                            nbt: {},
-                            amount: 1
-                        }
-                    ]
-                }).id('forge_frontier:compacting/iron_plate')
-
             // Shaped Recipes
 
                 // Changes Steel Engine Recipe to Use Blaze Burner

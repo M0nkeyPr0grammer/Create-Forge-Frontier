@@ -1,4 +1,93 @@
 ServerEvents.tags('item', event => {
+    // Held Over Head Tags
+    event.add('ad_astra:held_over_head',[
+        'ad_astra_rocketed:tier_5_rocket',
+        'ad_astra_rocketed:tier_6_rocket',
+        'ad_astra_rocketed:tier_7_rocket',
+        'ad_astra_giselle_addon:lander_icon'
+    ])
+
+    // AE Terminal Tags
+    event.add('ae2:terminals', [
+        'ae2:wireless_crafting_terminal',
+        'ae2wtlib:wireless_pattern_encoding_terminal',
+        'ae2wtlib:wireless_pattern_access_terminal',
+        'ae2wtlib:wireless_universal_terminal',
+        'expatternprovider:wireless_ex_pat'
+    ])
+
+    // Tom's Simple Storage Terminal Tags
+    event.add('toms_storage:terminals', [
+        'toms_storage:ts.wireless_terminal',
+        'toms_storage:ts.adv_wireless_terminal'
+    ])
+
+    // Filling Tank Tags
+    event.add('create_sa:filling_tanks',[
+        'create_sa:small_filling_tank',
+        'create_sa:medium_filling_tank',
+        'create_sa:large_filling_tank'
+    ])
+
+    // Fueling Tank Tags
+    event.add('create_sa:fueling_tanks',[
+        'create_sa:small_fueling_tank',
+        'create_sa:medium_fueling_tank',
+        'create_sa:large_fueling_tank'
+    ])
+
+    // Oxygen Cans
+    event.add('ad_astra_gisselle_addon:oxygen_cans',[
+        'ad_astra_giselle_addon:oxygen_can',
+        'ad_astra_giselle_addon:netherite_oxygen_can'
+    ])
+
+    // New Elytra Curios Tag
+    event.add('curios:elytras',
+        '#elytraslot:elytra')
+
+    // New Curious Back Slot tag
+    event.add('curios:back', '#create:pressurized_air_sources')
+
+    // New Curious Terminals Tags
+    event.add('curios:terminals',[
+        '#ae2:terminals',
+        '#toms_storage:terminals'
+    ])
+
+    // New Curios Oxgyen Cans Tags
+    event.add('curios:oxygen_cans', '#ad_astra_gisselle_addon:oxygen_cans')
+
+    // New Curios Tank Tags
+    event.add('curios:tanks',[
+        '#create_sa:filling_tanks',
+        '#create_sa:fueling_tanks',
+        'create_sa:creative_filling_tank'
+    ])
+    
+    // New Ring Tag
+    event.add('curios:flight_ring', 'balancedflight:ascended_flight_ring')
+
+    // Remove Flight Ring from Charm Slot
+    event.remove('curios:charm', 'balancedflight:ascended_flight_ring')
+
+    // Remove Old Curios Curio Tags
+    event.remove('curios:curio', [
+        'ae2:wireless_crafting_terminal',
+        'ae2wtlib:wireless_pattern_encoding_terminal',
+        'ae2wtlib:wireless_pattern_access_terminal',
+        'ae2wtlib:wireless_universal_terminal',
+        'expatternprovider:wireless_ex_pat',
+        'ad_astra_giselle_addon:oxygen_can',
+        'ad_astra_giselle_addon:netherite_oxygen_can',
+    ])
+
+    // Remove Old Curios Back Tags
+    event.remove('curios:back', [
+        'minecraft:elytra',
+        'alexsmobs:tarantula_hawk_elytra',
+        'deeperdarker:soul_elytra'
+    ])
 
     // Create Stone Types
     const createStones = [

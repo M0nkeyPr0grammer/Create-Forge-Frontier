@@ -118,6 +118,11 @@
     "alexscaves:cake_cave",
     "idas:lumber_camp/lumber_camp_spruce",
     "cataclysm:frosted_prison",
-    "betterarcheology:light_temple"
+    "betterarcheology:light_temple",
+    "betterarcheology:tumulus_grassy",
+    "idas:beekeepers_house",
+    "integrated_villages:marketstead_village",
+    "idas:ancient_statue/ancient_statue_plains",
+    "integrated_villages:quark/minka_village"
   ]
 }

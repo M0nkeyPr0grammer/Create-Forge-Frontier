@@ -379,6 +379,7 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
+			subtitle: "Click me to read more"
 			tasks: [
 				{
 					id: "447EA71C3E876E28"

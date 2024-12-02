@@ -21,7 +21,6 @@ ServerEvents.recipes(event => {
 	event.remove({ id: 'createteleporters:tele_fluid_chorus'})
 	event.remove({ id: 'createteleporters:telefluid_drain'})
 	event.remove({ id: 'hyperbox:hyperbox'})
-	event.remove({ id: 'vintageimprovements:pressing/andesite_alloy'})
 	event.remove({ id: 'create_oppenheimered/compacting/amber_from_honey'})
 	event.remove({ id: 'create_dd:superheating/netherite_scrap'})
 	event.remove({ id: 'create_additions_synthetics:tank_conversion' })

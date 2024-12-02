@@ -113,11 +113,9 @@
 	ender_nectar = true
 	field_salad = true
 	frostaya_crate = true
-	glow_jelly_bottle = true
 	green_apple_crate = true
 	green_tea_leaf = true
 	honey_glazed_walnut = true
-	jelly_bottle = true
 	lavender_tea = true
 	marshmallow_stick = true
 	matcha = true
@@ -128,7 +126,6 @@
 	matcha_milkshake = true
 	mendosteen_crate = true
 	mini_melon = true
-	nut_butter_and_jelly_sandwich = true
 	nut_butter_bottle = true
 	nut_dough = true
 	prickly_pear_juice = true
@@ -160,4 +157,12 @@
 	#Allow sliced melons to be juiced in-world (right click)
 	melon_juicing = true
 	yucca_fruit_crate = true
+	glow_jam_jar = true
+	jam_jar = true
+	nut_butter_and_jam_sandwich = true
+	source_berry_cookie = true
+	source_berry_gummy = true
+	source_berry_ice_cream = true
+	source_berry_ice_cream_block = true
+	source_berry_milkshake = true
 

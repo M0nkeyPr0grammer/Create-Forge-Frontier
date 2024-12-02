@@ -175,7 +175,7 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
           }
         ],
         catalyst: {
-          item: 'minecraft:iron_block'
+          item: 'molten_vents:active_molten_crimsite'
         },
         result: {
           item: 'create:crimsite'
@@ -256,6 +256,7 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
       // Scoria
       event.remove({ id: 'create_dd:acompat/create_mechanical_extruder/extruding/scoria_milkshake' })
       event.remove({ id: 'create_dd:acompat/create_mechanical_extruder/extruding/scoria' })
+      event.remove({ id: 'create_mechanical_extruder:extruding/scoria'})
 
       event.custom({
         type: 'create_mechanical_extruder:extruding',
@@ -270,7 +271,7 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
           }
         ],
         catalyst: {
-          item: 'minecraft:lapis_block'
+          item: 'molten_vents:active_molten_scoria'
         },
         result: {
           item: 'create:scoria'
@@ -293,7 +294,7 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
           }
         ],
         catalyst: {
-          item: 'minecraft:coal_block'
+          item: 'molten_vents:active_molten_scorchia'
         },
         result: {
           item: 'create:scorchia'
@@ -338,7 +339,7 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
           }
         ],
         catalyst: {
-          item: 'create_dd:tin_block'
+          item: 'molten_vents:active_molten_potassic'
         },
         result: {
           item: 'create_dd:potassic'
@@ -361,7 +362,7 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
           }
         ],
         catalyst: {
-          item: 'create:zinc_block'
+          item: 'molten_vents:active_molten_asurine'
         },
         result: {
           item: 'create:asurine'
@@ -384,7 +385,7 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
           }
         ],
         catalyst: {
-          item: 'minecraft:gold_block'
+          item: 'molten_vents:active_molten_ochrum'
         },
         result: {
           item: 'create:ochrum'
@@ -414,7 +415,7 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
         }
       }).id('forge_frontier:extruding/blackstone')
 
-      // Verdium
+      // Veridium
       event.remove({ id: 'create_dd:acompat/create_mechanical_extruder/extruding/veridium_cobble' })
       event.custom({
         type: 'create_mechanical_extruder:extruding',
@@ -429,7 +430,7 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
           }
         ],
         catalyst: {
-          item: 'minecraft:copper_block'
+          item: 'molten_vents:active_molten_veridium'
         },
         result: {
           item: 'create:veridium'
@@ -439,6 +440,7 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
 
       // Limestone
       event.remove({ id: 'create_dd:acompat/create_mechanical_extruder/extruding/limestone' })
+      event.remove({ id: 'create_mechanical_extruder:extruding/limestone' })
       event.custom({
         type: 'create_mechanical_extruder:extruding',
         ingredients: [
@@ -560,7 +562,7 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
           }
         ],
         catalyst: {
-          item: 'minecraft:emerald_block'
+          item: 'molten_vents:active_molten_verdantine'
         },
         result: {
           item: 'forge_frontier:verdantine'
@@ -582,7 +584,7 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
           }
         ],
         catalyst: {
-          item: 'minecraft:diamond_block'
+          item: 'molten_vents:active_molten_glacium'
         },
         result: {
           item: 'forge_frontier:glacium'
@@ -604,7 +606,7 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
           }
         ],
         catalyst: {
-          item: 'minecraft:netherite_block'
+          item: 'molten_vents:active_molten_ancient_debris'
         },
         result: {
           item: 'minecraft:ancient_debris'
@@ -626,7 +628,7 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
           }
         ],
         catalyst: {
-          item: 'deeperdarker:sculk_grime'
+          item: 'molten_vents:active_molten_sculk_grime'
         },
         result: {
           item: 'deeperdarker:sculk_grime'
@@ -648,7 +650,7 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
           }
         ],
         catalyst: {
-          item: 'ad_astra:desh_block'
+          item: 'molten_vents:active_molten_aubrum'
         },
         result: {
           item: 'forge_frontier:aubrum'
@@ -670,7 +672,7 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
           }
         ],
         catalyst: {
-          item: 'ad_astra:calorite_block'
+          item: 'molten_vents:active_molten_pyroclast'
         },
         result: {
           item: 'forge_frontier:pyroclast'
@@ -692,7 +694,7 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
           }
         ],
         catalyst: {
-          item: 'ad_astra:permafrost'
+          item: 'molten_vents:active_molten_frostite'
         },
         result: {
           item: 'forge_frontier:frostite'
@@ -714,7 +716,7 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
           }
         ],
         catalyst: {
-          item: 'ad_astra:ostrum_block'
+          item: 'molten_vents:active_molten_stellaris'
         },
         result: {
           item: 'forge_frontier:stellaris'
@@ -736,7 +738,7 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
           }
         ],
         catalyst: {
-          item: 'enlightened_end:irradium_block'
+          item: 'molten_vents:active_molten_radiantite'
         },
         result: {
           item: 'forge_frontier:radiantite'
@@ -758,7 +760,7 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
           }
         ],
         catalyst: {
-          item: 'enlightened_end:malachite_block'
+          item: 'molten_vents:active_molten_void_shale'
         },
         result: {
           item: 'enlightened_end:void_shale'
@@ -780,7 +782,7 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
           }
         ],
         catalyst: {
-          item: 'enlightened_end:bismuth_block'
+          item: 'molten_vents:active_molten_palerock'
         },
         result: {
           item: 'enlightened_end:palerock'
@@ -802,7 +804,7 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
           }
         ],
         catalyst: {
-          item: 'alexscaves:guano_block'
+          item: 'molten_vents:active_molten_guanite'
         },
         result: {
           item: 'forge_frontier:guanite'
@@ -824,7 +826,7 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
           }
         ],
         catalyst: {
-          item: 'alexscaves:block_of_pearl'
+          item: 'molten_vents:active_molten_pearlyte'
         },
         result: {
           item: 'forge_frontier:pearlyte'
@@ -846,7 +848,7 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
           }
         ],
         catalyst: {
-          item: 'alexscaves:amber'
+          item: 'molten_vents:active_molten_amberlite'
         },
         result: {
           item: 'forge_frontier:amberlite'
@@ -868,7 +870,7 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
           }
         ],
         catalyst: {
-          item: 'alexscaves:block_of_azure_neodymium'
+          item: 'molten_vents:active_molten_azurnium'
         },
         result: {
           item: 'forge_frontier:azurnium'
@@ -890,7 +892,7 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
           }
         ],
         catalyst: {
-          item: 'alexscaves:block_of_scarlet_neodymium'
+          item: 'molten_vents:active_molten_neodymrium'
         },
         result: {
           item: 'forge_frontier:neodymrium'
@@ -912,7 +914,7 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
           }
         ],
         catalyst: {
-          item: 'alexscaves:block_of_uranium'
+          item: 'molten_vents:active_molten_uraniumnite'
         },
         result: {
           item: 'forge_frontier:uraniumnite'
@@ -934,7 +936,7 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
           }
         ],
         catalyst: {
-          item: 'alexscaves:sulfur'
+          item: 'molten_vents:active_molten_sulphite'
         },
         result: {
           item: 'forge_frontier:sulphite'

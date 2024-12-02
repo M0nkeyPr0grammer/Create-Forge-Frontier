@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cursed_pyramid"
+	group: "658CB7FD6582B3E9"
+	icon: "cataclysm:remnant_skull"
+	id: "76D8D359D7871828"
+	order_index: 4
+	quest_links: [ ]
+	quests: [{
+		id: "34DBC02826AEE37E"
+		tasks: [{
+			icon: "cataclysm:remnant_skull"
+			id: "729AB1421DFCA39C"
+			structure: "cataclysm:cursed_pyramid"
+			type: "structure"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Cursed Pyramid"
+}

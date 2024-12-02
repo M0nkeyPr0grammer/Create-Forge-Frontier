@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "integrated_villages"
+	group: "4FAD6EACDA300DDE"
+	icon: "easy_villagers:villager"
+	id: "5771E5AFA1888BEB"
+	order_index: 5
+	quest_links: [ ]
+	quests: [{
+		id: "34C6D04687F001A3"
+		tasks: [{
+			id: "192539E0D83B047A"
+			structure: "integrated_villages:airship_village"
+			type: "structure"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Integrated Villages"
+}

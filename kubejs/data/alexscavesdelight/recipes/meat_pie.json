@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "alexscaves:cooked_dinosaur_chop"
+    },
+    {
+      "item": "alexscaves:cooked_dinosaur_chop"
+    },
+    {
+      "item": "farmersdelight:pie_crust"
+    }
+  ],
+  "result": {
+    "item": "alexscavesdelight:meat_pie"
+  }
+}
