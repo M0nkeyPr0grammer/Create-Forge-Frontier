@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "immersive_aircrafts"
+	group: "7DFCA375E9018DB1"
+	icon: "immersive_aircraft:biplane"
+	id: "06E33930118AED8C"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		id: "61933EDA53E50197"
+		tasks: [{
+			id: "06532266F2569D92"
+			item: "immersive_aircraft:sail"
+			type: "item"
+		}]
+		x: 0.5d
+		y: 0.0d
+	}]
+	title: "Immersive Aircrafts"
+}

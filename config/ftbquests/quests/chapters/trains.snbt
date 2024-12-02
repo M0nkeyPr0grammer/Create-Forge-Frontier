@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "trains"
+	group: "7DFCA375E9018DB1"
+	icon: "create:track_station"
+	id: "6BCFC1F0F163B7E7"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "494374F4DD7CB345"
+		tasks: [{
+			id: "12E8A7E9BA46D488"
+			item: "create:track_station"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Trains"
+}
