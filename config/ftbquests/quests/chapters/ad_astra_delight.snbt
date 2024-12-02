@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ad_astra_delight"
+	group: "47881FC157552E6E"
+	icon: "ad_astra:cheese"
+	id: "1BE1158B88CED7CA"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "052F57ABF2827532"
+		tasks: [{
+			id: "72E4F9466B51EC65"
+			item: "ad_astra:cheese"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Ad Astra Delight"
+}

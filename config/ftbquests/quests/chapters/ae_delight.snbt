@@ -1,0 +1,33 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ae_delight"
+	group: "47881FC157552E6E"
+	icon: {
+		Count: 1
+		id: "appliedenergisticsdelight:certus_quartz_crystal_knife"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "0EE966C5DC3A2200"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		id: "39E9BF7F9294308A"
+		tasks: [{
+			id: "23A8BD328299B00E"
+			item: {
+				Count: 1
+				id: "appliedenergisticsdelight:certus_quartz_crystal_knife"
+				tag: {
+					Damage: 0
+				}
+			}
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "AE Delight"
+}
