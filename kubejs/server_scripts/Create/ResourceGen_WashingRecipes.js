@@ -15,7 +15,7 @@ ServerEvents.recipes(event => {
             input: 'forge_frontier:crushed_glacium',
             results: [
                 { count: 4, item: 'create_dd:diamond_shard' },
-                { chance: 0.50, item: 'aquaculture:neptunium_nugget' }
+                { chance: 0.05, item: 'aquaculture:neptunium_nugget' }
             ]
         },
         {
@@ -143,7 +143,7 @@ ServerEvents.recipes(event => {
             input: 'forge_frontier:crushed_glacium_pile',
             results: [
                 { count: 36, item: 'create_dd:diamond_shard' }, // 4 * 9
-                { chance: 0.50, item: 'aquaculture:neptunium_nugget', count: 9 }
+                { chance: 0.05, item: 'aquaculture:neptunium_nugget', count: 9 }
             ]
         },
         {
