@@ -54,6 +54,14 @@
 			x: -3.0d
 			y: -5.5d
 		}
+		{
+			height: 7.0d
+			image: "nether_remastered:textures/nether_remastered.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: 4.5d
+			y: 7.5d
+		}
 	]
 	order_index: 1
 	quest_links: [ ]
@@ -257,7 +265,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 5.0d
+			y: 7.5d
 		}
 		{
 			id: "767465A8B1032AB3"
