@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "milkshakes"
+	group: "72C8A595982548D5"
+	icon: "create_dd:vanilla_milkshake_bucket"
+	id: "59D9D76A793E22BD"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "3A90B7F50DAF1B84"
+		tasks: [{
+			id: "391452F28EA502A1"
+			item: "create_dd:vanilla_milkshake_bucket"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Milkshakes"
+}

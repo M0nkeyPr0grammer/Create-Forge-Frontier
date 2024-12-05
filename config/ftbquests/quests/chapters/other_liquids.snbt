@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "other_liquids"
+	group: "72C8A595982548D5"
+	icon: "alexscaves:acid_bucket"
+	id: "1F1435C2E3326CC3"
+	order_index: 4
+	quest_links: [ ]
+	quests: [{
+		id: "4E3A3607610EA399"
+		tasks: [{
+			id: "11791E8567780FF3"
+			item: "alexscaves:acid_bucket"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Other Liquids"
+}

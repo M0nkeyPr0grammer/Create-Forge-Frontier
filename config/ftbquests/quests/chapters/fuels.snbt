@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "fuels"
+	group: "72C8A595982548D5"
+	icon: "ad_astra:fuel_bucket"
+	id: "3AFEBC186FD80BF5"
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		id: "7C722015B6B93CB7"
+		tasks: [{
+			id: "53FBDEAC3FE556C0"
+			item: "ad_astra:fuel_bucket"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Fuels"
+}

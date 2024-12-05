@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chocolate"
+	group: "72C8A595982548D5"
+	icon: "create:chocolate_bucket"
+	id: "67ACAE7C60BDFF29"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		id: "38225B75D972BB4C"
+		tasks: [{
+			id: "4B57B199AFF779EC"
+			item: "create:chocolate_bucket"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Chocolates"
+}

@@ -1,0 +1,179 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "molten_vents"
+	group: "72C8A595982548D5"
+	icon: "molten_vents:dormant_molten_asurine"
+	id: "4E4AA685A681F1B0"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7AC47553B491EE76"]
+			id: "69CE3113324ED800"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "32D2B9D5FBAE7A12"
+				type: "dimension"
+			}]
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7AC47553B491EE76"]
+			id: "0B070C4D8A55E5A8"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "5D645E7B057EDD96"
+				type: "dimension"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7AC47553B491EE76"]
+			id: "4D23ABB810220050"
+			tasks: [{
+				dimension: "deeperdarker:otherside"
+				id: "7DBA6B0F06569E5F"
+				type: "dimension"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7AC47553B491EE76"]
+			id: "470D358D9308FA68"
+			tasks: [{
+				dimension: "ad_astra:moon"
+				id: "56EE4C23722F5397"
+				type: "dimension"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7AC47553B491EE76"]
+			id: "7339FE49A994B794"
+			tasks: [{
+				dimension: "ad_astra:mars"
+				id: "1EEB22ACE1F951D6"
+				type: "dimension"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7AC47553B491EE76"]
+			id: "6B619A2EB40D34C9"
+			tasks: [{
+				dimension: "ad_astra:venus"
+				id: "323ADE366797631D"
+				type: "dimension"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7AC47553B491EE76"]
+			id: "744904CCFAFB6BB0"
+			tasks: [{
+				dimension: "ad_astra:glacio"
+				id: "7616F73D69F93929"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7AC47553B491EE76"]
+			id: "15DD51BFD4480F8D"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "05A4F792DF06B32F"
+				type: "dimension"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7AC47553B491EE76"]
+			id: "6CDC2B37D835F804"
+			tasks: [{
+				dimension: "forge_frontier:abyssal_chasm"
+				id: "1A839FCD59353FDF"
+				type: "dimension"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7AC47553B491EE76"]
+			id: "40DB7FDC0CC426FF"
+			tasks: [{
+				dimension: "forge_frontier:primordial_caves"
+				id: "54AF1FBD3322EBAC"
+				type: "dimension"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7AC47553B491EE76"]
+			id: "0988690A536B7D19"
+			tasks: [{
+				dimension: "forge_frontier:forlorn_hollows"
+				id: "4A03EBCDD5110DBB"
+				type: "dimension"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7AC47553B491EE76"]
+			id: "434A80C989CFB176"
+			tasks: [{
+				dimension: "forge_frontier:toxic_caves"
+				id: "001E6A2B41C27264"
+				type: "dimension"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7AC47553B491EE76"]
+			id: "42CE6455938E37CF"
+			tasks: [{
+				dimension: "forge_frontier:magnetic_caves"
+				id: "43CBDB5891078EB5"
+				type: "dimension"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Molten Vents is an innovative mod that introduces a renewable source of the orestones found in the Create mod, unlocking endless potential for resource processing. While the base mod focuses on Basic Create Ore Stones, I’ve expanded its capabilities to include molten vents for many high-value resources, offering new opportunities for advanced gameplay."
+				""
+				"Each molten vent is biome and dimension-specific, meaning you’ll need to explore and uncover their hidden locations. Use the guide below to find the molten vent that suits your needs. Once located, activation is simple: ignite TNT on a dormant ore vent to transform it into an active state. Once activated, supply the vent with a steady flow of its designated liquid to begin producing the desired orestone—seamlessly converting liquid into valuable materials."
+				""
+				"Helpful Features:"
+				""
+				"- Portable Molten Vents: Organize your molten vent factories effortlessly by moving vents with Cart Assemblers."
+				"- Mechanical Extruders: Late-game automation becomes a breeze with Mechanical Extruders, which simplify stone generation by requiring only a single fluid source block."
+				""
+				"Dive into the world of Molten Vents and elevate your resource management to new heights!"
+			]
+			id: "7AC47553B491EE76"
+			subtitle: "Molten Vents: A New Era of Resource Generation"
+			tasks: [{
+				id: "154B315CBAA5F5F9"
+				title: "Molten Vents"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+	]
+	title: "Molten Vents"
+}
