@@ -16,7 +16,7 @@
 				id: "32D2B9D5FBAE7A12"
 				type: "dimension"
 			}]
-			x: -9.0d
+			x: -15.5d
 			y: 0.0d
 		}
 		{
@@ -27,7 +27,7 @@
 				id: "5D645E7B057EDD96"
 				type: "dimension"
 			}]
-			x: -7.5d
+			x: -8.5d
 			y: 0.0d
 		}
 		{
@@ -93,7 +93,7 @@
 				id: "05A4F792DF06B32F"
 				type: "dimension"
 			}]
-			x: 1.5d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
@@ -104,7 +104,7 @@
 				id: "1A839FCD59353FDF"
 				type: "dimension"
 			}]
-			x: 3.0d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
@@ -115,7 +115,7 @@
 				id: "54AF1FBD3322EBAC"
 				type: "dimension"
 			}]
-			x: 4.5d
+			x: 7.5d
 			y: 0.0d
 		}
 		{
@@ -126,7 +126,7 @@
 				id: "4A03EBCDD5110DBB"
 				type: "dimension"
 			}]
-			x: 6.0d
+			x: 9.0d
 			y: 0.0d
 		}
 		{
@@ -137,7 +137,7 @@
 				id: "001E6A2B41C27264"
 				type: "dimension"
 			}]
-			x: 7.5d
+			x: 11.5d
 			y: 0.0d
 		}
 		{
@@ -148,7 +148,7 @@
 				id: "43CBDB5891078EB5"
 				type: "dimension"
 			}]
-			x: 9.0d
+			x: 14.5d
 			y: 0.0d
 		}
 		{
@@ -173,6 +173,1500 @@
 			}]
 			x: 0.0d
 			y: -4.0d
+		}
+		{
+			dependencies: ["2AE42496027E453C"]
+			icon: "molten_vents:dormant_molten_crimsite"
+			id: "4408A399D517CDB6"
+			subtitle: "Crimsite Vents are found anywhere in the overworld"
+			tasks: [{
+				id: "71FF4ACEB85B0303"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:dormant_molten_crimsite"
+				type: "observation"
+			}]
+			title: "Find a Crimsite Vent"
+			x: -21.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4408A399D517CDB6"]
+			disable_toast: true
+			id: "3C3EBA92F0BCC172"
+			subtitle: "Upon finding a Dormant Vent you will need to activate it by blowing TNT up on its surface"
+			tasks: [{
+				id: "05A57C8DAFDFEA33"
+				item: "minecraft:tnt"
+				type: "item"
+			}]
+			x: -21.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3C3EBA92F0BCC172"]
+			hide_dependent_lines: true
+			icon: "molten_vents:active_molten_crimsite"
+			id: "0EA0C2CDE7F62ECA"
+			subtitle: "In Order to generate Crimsite you will need a source block of Strawberry Milkshake, below is how you craft it."
+			tasks: [{
+				id: "5E9971B440D7785E"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:active_molten_crimsite"
+				type: "observation"
+			}]
+			x: -21.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0998CA8B44BA0EB7"]
+			id: "2C730FE3611CDF1F"
+			subtitle: "Crimsite can be later crushed down to produce iron"
+			tasks: [{
+				id: "704B80AED616D22A"
+				item: "create:crimsite"
+				type: "item"
+			}]
+			x: -21.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2AE42496027E453C"]
+			icon: "molten_vents:dormant_molten_ochrum"
+			id: "070BAAF36335CB39"
+			subtitle: "Ochrum Vents are found anywhere in the overworld"
+			tasks: [{
+				id: "7E9F73B48C50234A"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:dormant_molten_ochrum"
+				type: "observation"
+			}]
+			x: -19.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["070BAAF36335CB39"]
+			disable_toast: true
+			id: "0D0C5772B3B4CCC1"
+			subtitle: "Upon finding a Dormant Vent you will need to activate it by blowing TNT up on its surface"
+			tasks: [{
+				id: "5D268049BF629FB3"
+				item: "minecraft:tnt"
+				type: "item"
+			}]
+			x: -19.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0D0C5772B3B4CCC1"]
+			hide_dependent_lines: true
+			icon: "molten_vents:active_molten_ochrum"
+			id: "1107E04D2BA51211"
+			subtitle: "In Order to generate Ochrum you will need a source block of Glowberry Milkshake, below is how you craft it."
+			tasks: [{
+				id: "2614EEE65F6B8560"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:active_molten_ochrum"
+				type: "observation"
+			}]
+			x: -19.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1F22F9F9B3D393E1"]
+			id: "4A8DBEF17C064273"
+			subtitle: "Ochrum can be later crushed down to produce gold"
+			tasks: [{
+				id: "7542AF4EB6337F4E"
+				item: "create:ochrum"
+				type: "item"
+			}]
+			x: -19.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["69CE3113324ED800"]
+			id: "746AA64118A7407D"
+			tasks: [{
+				biome: "#minecraft:is_forest"
+				id: "514E7513262EE521"
+				type: "biome"
+			}]
+			x: -16.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["746AA64118A7407D"]
+			icon: "molten_vents:dormant_molten_asurine"
+			id: "1B9BED1C00DB2BDE"
+			subtitle: "Asurine Vents are found anywhere in the overworld, specically in Forest Biomes"
+			tasks: [{
+				id: "00072EB8A7CBE1C1"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:dormant_molten_asurine"
+				type: "observation"
+			}]
+			x: -18.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1B9BED1C00DB2BDE"]
+			id: "49E5D02CA3202BBD"
+			subtitle: "Upon finding a Dormant Vent you will need to activate it by blowing TNT up on its surface"
+			tasks: [{
+				id: "5C1C930AC6EA9C54"
+				item: "minecraft:tnt"
+				type: "item"
+			}]
+			x: -18.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["49E5D02CA3202BBD"]
+			hide_dependent_lines: true
+			icon: "molten_vents:active_molten_asurine"
+			id: "0AFE52653EE975A8"
+			subtitle: "In Order to generate Asurine you will need a source block of Cream, below is how you craft it."
+			tasks: [{
+				id: "427B7DE7F0D3149F"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:active_molten_asurine"
+				type: "observation"
+			}]
+			x: -18.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5FFE2F9EA4FCFE3D"]
+			id: "59A1A362D64276D9"
+			subtitle: "Asurine can be later crushed down to produce zinc"
+			tasks: [{
+				id: "400DDD904E6B87AD"
+				item: "create:asurine"
+				type: "item"
+			}]
+			x: -18.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["746AA64118A7407D"]
+			icon: "molten_vents:dormant_molten_veridium"
+			id: "6BF481A48C136085"
+			subtitle: "Veridium Vents are found anywhere in the overworld, specically in Forest Biomes"
+			tasks: [{
+				id: "7F552CF0B2FEDCDC"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:dormant_molten_veridum"
+				type: "observation"
+			}]
+			x: -16.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6BF481A48C136085"]
+			id: "5112572EBF4DED6F"
+			subtitle: "Upon finding a Dormant Vent you will need to activate it by blowing TNT up on its surface"
+			tasks: [{
+				id: "5E7B0CF01833D61A"
+				item: "minecraft:tnt"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5112572EBF4DED6F"]
+			hide_dependent_lines: true
+			icon: "molten_vents:active_molten_veridium"
+			id: "2D5E52CE4653E96C"
+			subtitle: "In Order to generate Veridium you will need a source block of Caramel Milkshake, below is how you craft it."
+			tasks: [{
+				id: "693945CF2684C424"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:active_molten_veridium"
+				type: "observation"
+			}]
+			x: -16.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["571CE6F8667DA48F"]
+			id: "09E03BBF9953EF63"
+			subtitle: "Veridium can be later crushed down to produce copper"
+			tasks: [{
+				id: "61E1090D23692473"
+				item: "create:veridium"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["746AA64118A7407D"]
+			icon: "molten_vents:dormant_molten_potassic"
+			id: "79632EC457A3A88D"
+			subtitle: "Potassic Vents are found anywhere in the overworld, specically in Forest Biomes"
+			tasks: [{
+				id: "297A3F832F65C94D"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:dormant_molten_potassic"
+				type: "observation"
+			}]
+			x: -15.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["79632EC457A3A88D"]
+			id: "718126F90C9735E8"
+			subtitle: "Upon finding a Dormant Vent you will need to activate it by blowing TNT up on its surface"
+			tasks: [{
+				id: "3B9E16E0163DFF8D"
+				item: "minecraft:tnt"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["718126F90C9735E8"]
+			hide_dependent_lines: true
+			icon: "molten_vents:active_molten_potassic"
+			id: "0079BEE03A3285FB"
+			subtitle: "In Order to generate Potassic you will need a source block of Vanilla Milkshake, below is how you craft it."
+			tasks: [{
+				id: "2502872F486242F0"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:active_molten_potassic"
+				type: "observation"
+			}]
+			x: -15.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2E99FE44436A381C"]
+			id: "0CCC86AB0D5DFDF2"
+			subtitle: "Potassic can be later crushed down to produce tin"
+			tasks: [{
+				id: "4085F5955CCD712C"
+				item: "create_dd:potassic"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["69CE3113324ED800"]
+			id: "3BBEFEE675F39759"
+			tasks: [{
+				biome: "#minecraft:is_mountain"
+				id: "63C340C493779E3E"
+				type: "biome"
+			}]
+			x: -12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3BBEFEE675F39759"]
+			icon: "molten_vents:dormant_molten_verdantine"
+			id: "12C001857356FF60"
+			subtitle: "Verdantine Vents are found anywhere in the overworld, specically in Mountain Biomes"
+			tasks: [{
+				id: "4B3EE39DAE300EF8"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:dormant_molten_verdantine"
+				type: "observation"
+			}]
+			x: -12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["12C001857356FF60"]
+			id: "676BE75754F4F726"
+			subtitle: "Upon finding a Dormant Vent you will need to activate it by blowing TNT up on its surface"
+			tasks: [{
+				id: "26FF0ED74E5475D1"
+				item: "minecraft:tnt"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["676BE75754F4F726"]
+			hide_dependent_lines: true
+			icon: "molten_vents:active_molten_verdantine"
+			id: "3B0C428AB2EDDA57"
+			subtitle: "In Order to generate Verdantine you will need a source block of White Chocolate, below is how you craft it."
+			tasks: [{
+				id: "1A8A39D7B29AB4B5"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:active_molten_verdantine"
+				type: "observation"
+			}]
+			x: -12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["31FBC673B1E527F6"]
+			id: "02FEFDD7F4DD0C1B"
+			subtitle: "Verdantine can be later crushed down to produce emeralds"
+			tasks: [{
+				id: "1B57C475E6C1DBC0"
+				item: "forge_frontier:verdantine"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3BBEFEE675F39759"]
+			icon: "molten_vents:dormant_molten_glacium"
+			id: "27FF3D6559D4DE58"
+			subtitle: "Glacium Vents are found anywhere in the overworld, specically in Mountain Biomes"
+			tasks: [{
+				id: "784DE64FB1C40DB6"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:dormant_molten_glacium"
+				type: "observation"
+			}]
+			x: -10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["27FF3D6559D4DE58"]
+			id: "34BE19C93F73080D"
+			subtitle: "Upon finding a Dormant Vent you will need to activate it by blowing TNT up on its surface"
+			tasks: [{
+				id: "49DB62D349831310"
+				item: "minecraft:tnt"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["34BE19C93F73080D"]
+			hide_dependent_lines: true
+			icon: "molten_vents:active_molten_glacium"
+			id: "7EB3EB70EF62C537"
+			subtitle: "In Order to generate Glacium you will need a source block of Dark Chocolate, below is how you craft it."
+			tasks: [{
+				id: "459BCFD24CB7B398"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:active_molten_glacium"
+				type: "observation"
+			}]
+			x: -10.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["13576F3698C89AE7"]
+			id: "2E4E4AB07AC948B5"
+			subtitle: "Glacium can be later crushed down to produce diamonds"
+			tasks: [{
+				id: "04427A9CD36F757E"
+				item: "forge_frontier:glacium"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3BBEFEE675F39759"]
+			icon: "molten_vents:dormant_molten_scoria"
+			id: "20EDD6DD2BDC5F24"
+			subtitle: "Scoria Vents are found anywhere in the overworld, specically in Mountain Biomes"
+			tasks: [{
+				id: "6652F4098EB5E691"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:dormant_molten_scoria"
+				type: "observation"
+			}]
+			x: -13.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["20EDD6DD2BDC5F24"]
+			id: "2F3933BF40850EFC"
+			subtitle: "Upon finding a Dormant Vent you will need to activate it by blowing TNT up on its surface"
+			tasks: [{
+				id: "54BF54B15EE748FD"
+				item: "minecraft:tnt"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2F3933BF40850EFC"]
+			hide_dependent_lines: true
+			icon: "molten_vents:active_molten_scoria"
+			id: "209E1E05BC1E3B6C"
+			subtitle: "In Order to generate Scoria you will need a source block of Chocolate Milkshake, below is how you craft it."
+			tasks: [{
+				id: "6045436CC30698AD"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:active_molten_scoria"
+				type: "observation"
+			}]
+			x: -13.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2BE12AF20FA6DC0D"]
+			id: "258ED4CCAF8A61A6"
+			subtitle: "Scoria can be later crushed down to produce lapis"
+			tasks: [{
+				id: "3F9EEA72CCBE6A5A"
+				item: "create:scoria"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0B070C4D8A55E5A8"]
+			id: "0BE45E37D29D38DC"
+			tasks: [{
+				biome: "#incendium:all_incendium_biomes"
+				id: "6FD8F60FF72264DF"
+				type: "biome"
+			}]
+			x: -8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0BE45E37D29D38DC"]
+			icon: "molten_vents:dormant_molten_scorchia"
+			id: "10D2ED18910A5579"
+			subtitle: "Scoria Vents are found anywhere on the Nether Roof, specically in Incendium Biomes"
+			tasks: [{
+				id: "4C600B94BF8D1FF4"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:dormant_molten_scorchia"
+				type: "observation"
+			}]
+			x: -9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["10D2ED18910A5579"]
+			id: "41D2FE05E6C53BF2"
+			subtitle: "Upon finding a Dormant Vent you will need to activate it by blowing TNT up on its surface"
+			tasks: [{
+				id: "22FF90D656AA8E8B"
+				item: "minecraft:tnt"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["41D2FE05E6C53BF2"]
+			hide_dependent_lines: true
+			icon: "molten_vents:active_molten_scorchia"
+			id: "2F2166D0D6AE208F"
+			subtitle: "In Order to generate Scorchia you will need a source block of Hot Chocolate, below is how you craft it."
+			tasks: [{
+				id: "0CA5CC3437F7D216"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:active_molten_scorchia"
+				type: "observation"
+			}]
+			x: -9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1D40BCB5E0BF8836"]
+			id: "1C6456024AC2DC69"
+			subtitle: "Scorchia can be later crushed down to produce coal"
+			tasks: [{
+				id: "3068D4E29B9B76CB"
+				item: "create:scorchia"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["69CE3113324ED800"]
+			id: "2AE42496027E453C"
+			tasks: [{
+				biome: "#minecraft:is_overworld"
+				id: "2990B9CAC5A94F73"
+				type: "biome"
+			}]
+			x: -19.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0BE45E37D29D38DC"]
+			icon: "molten_vents:dormant_molten_ancient_debris"
+			id: "647082E6390A647A"
+			subtitle: "Ancient Debris Vents are found anywhere on the Nether Roof, specically in Incendium Biomes"
+			tasks: [{
+				id: "3D9B9B3A05B8FEF5"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:dormant_molten_ancient_debris"
+				type: "observation"
+			}]
+			x: -8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["647082E6390A647A"]
+			id: "1E04EE5073950352"
+			subtitle: "Upon finding a Dormant Vent you will need to activate it by blowing TNT up on its surface"
+			tasks: [{
+				id: "5687A334662DAB19"
+				item: "minecraft:tnt"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1E04EE5073950352"]
+			hide_dependent_lines: true
+			icon: "molten_vents:active_molten_ancient_debris"
+			id: "294621D005CFAB64"
+			subtitle: "In Order to generate Ancient you will need a source block of Biofuel, below is how you craft it."
+			tasks: [{
+				id: "37C05661290FC4CC"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:active_molten_ancient_debris"
+				type: "observation"
+			}]
+			x: -8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4D2B83D1609FFC9C"]
+			id: "2CC72BCA4AD0F914"
+			subtitle: "Ancient Debris can be later crushed down to produce netherite scraps"
+			tasks: [{
+				id: "40E1C536D91A1345"
+				item: "minecraft:ancient_debris"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4D23ABB810220050"]
+			id: "3F3C7C3F33BB9E64"
+			tasks: [{
+				biome: "deeperdarker:deeplands"
+				id: "6A40E9C1B431A726"
+				type: "biome"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3F3C7C3F33BB9E64"]
+			icon: "molten_vents:dormant_molten_sculk_grime"
+			id: "66C50363340B22B0"
+			subtitle: "Sculk Grime Vents are found anywhere in the Deeper Darker Otherside, specically in the Deeplands"
+			tasks: [{
+				id: "68F38195DCD117B9"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:dormant_molten_sculk_grime"
+				type: "observation"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["66C50363340B22B0"]
+			id: "7FC6C823E24A5700"
+			subtitle: "Upon finding a Dormant Vent you will need to activate it by blowing TNT up on its surface"
+			tasks: [{
+				id: "3700647CBDA0262D"
+				item: "minecraft:tnt"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7FC6C823E24A5700"]
+			hide_dependent_lines: true
+			icon: "molten_vents:active_molten_sculk_grime"
+			id: "509AE3462D404452"
+			subtitle: "In Order to generate Sculk Grime you will need a source block of Cryofuel, below is how you craft it."
+			tasks: [{
+				id: "63414EBC008D64C8"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:active_molten_sculk_grime"
+				type: "observation"
+			}]
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["51E1682DBF0062D2"]
+			id: "2243EE61FE9DF289"
+			subtitle: "Sculk Grime can be later crushed down to produce Echo Shards"
+			tasks: [{
+				id: "7CEBD33F0B786F3F"
+				item: "deeperdarker:sculk_grime"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2A29B35EF0255511"]
+			icon: "molten_vents:dormant_molten_aubrum"
+			id: "3B098E6474D498C5"
+			subtitle: "Aubrum Vents are found anywhere on the Moon, specically in the Lunar Wastelands"
+			tasks: [{
+				id: "09A5221C836DE7A9"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:dormant_molten_aubrum"
+				type: "observation"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["470D358D9308FA68"]
+			id: "2A29B35EF0255511"
+			tasks: [{
+				biome: "ad_astra:lunar_wastelands"
+				id: "0719CE8787C786B6"
+				type: "biome"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3B098E6474D498C5"]
+			id: "3D8894F0979DA1F7"
+			subtitle: "Upon finding a Dormant Vent you will need to activate it by blowing TNT up on its surface"
+			tasks: [{
+				id: "1154BFCE00D7D798"
+				item: "minecraft:tnt"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3D8894F0979DA1F7"]
+			hide_dependent_lines: true
+			icon: "molten_vents:active_molten_aubrum"
+			id: "710F662B8F484D14"
+			subtitle: "In Order to generate Aubrum you will need a source block of Plant Oil, below is how you craft it."
+			tasks: [{
+				id: "4BECB0258B1555FA"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:active_molten_aubrum"
+				type: "observation"
+			}]
+			x: -4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4C58A67636653D37"]
+			id: "50EDB37D923CB22A"
+			subtitle: "Aubrum can be later crushed down to produce Desh"
+			tasks: [{
+				id: "40C38BDD10105E01"
+				item: "forge_frontier:aubrum"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7339FE49A994B794"]
+			id: "02912A82870B46F7"
+			tasks: [{
+				biome: "#ad_astra:has_structure/mars_temple"
+				id: "2847E25810905D45"
+				type: "biome"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["02912A82870B46F7"]
+			icon: "molten_vents:dormant_molten_stellaris"
+			id: "3C81772B0834E434"
+			subtitle: "Stellaris Vents are found anywhere on Mars, specically anywhere a Mars Temple can generate"
+			tasks: [{
+				id: "313920FA593F382C"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:dormant_molten_stellaris"
+				type: "observation"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3C81772B0834E434"]
+			id: "6680CCE473F5AA59"
+			subtitle: "Upon finding a Dormant Vent you will need to activate it by blowing TNT up on its surface"
+			tasks: [{
+				id: "6F2AC81BDF561FA7"
+				item: "minecraft:tnt"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6680CCE473F5AA59"]
+			hide_dependent_lines: true
+			icon: "molten_vents:active_molten_stellaris"
+			id: "663B98AD6EFF295F"
+			subtitle: "In Order to generate Stellaris you will need a source block of Ethanol, below is how you craft it."
+			tasks: [{
+				id: "51ECC68D118AFD5C"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:active_molten_stellaris"
+				type: "observation"
+			}]
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0E766060648F8B43"]
+			id: "01B665D8F9A316F5"
+			subtitle: "Stellaris can be later crushed down to produce Ostrum"
+			tasks: [{
+				id: "2BCEFEC51E11BDE3"
+				item: "forge_frontier:stellaris"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6B619A2EB40D34C9"]
+			id: "144708074CDF64FA"
+			tasks: [{
+				biome: "ad_astra:venus_wastelands"
+				id: "618F9F45D2A0C840"
+				type: "biome"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["144708074CDF64FA"]
+			icon: "molten_vents:dormant_molten_pyroclast"
+			id: "0526FF8AE3C0EA67"
+			subtitle: "Pyroclast Vents are found anywhere on Venus, specically in the Venus Wastelands"
+			tasks: [{
+				id: "7EDD1A3E4785C1B9"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:dormant_molten_pyroclast"
+				type: "observation"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0526FF8AE3C0EA67"]
+			id: "31595C6751523E05"
+			subtitle: "Upon finding a Dormant Vent you will need to activate it by blowing TNT up on its surface"
+			tasks: [{
+				id: "605718A9B0952681"
+				item: "minecraft:tnt"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["31595C6751523E05"]
+			hide_dependent_lines: true
+			icon: "molten_vents:active_molten_pyroclast"
+			id: "5B4BAD7A02DA1E85"
+			subtitle: "In Order to generate Pyroclast you will need a source block of Biodiesel, below is how you craft it."
+			tasks: [{
+				id: "44965B7AFD9A8E11"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:active_molten_pyroclast"
+				type: "observation"
+			}]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1480FBF5D5C2DE2C"]
+			id: "5D34AB7D53702E87"
+			subtitle: "Pyroclast can be later crushed down to produce Calorite"
+			tasks: [{
+				id: "3E550032C3635D6A"
+				item: "forge_frontier:pyroclast"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["744904CCFAFB6BB0"]
+			id: "2E540A2523D0F2B6"
+			tasks: [{
+				biome: "ad_astra:glacio_snowy_barrens"
+				id: "2802084F4EA409F1"
+				type: "biome"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2E540A2523D0F2B6"]
+			icon: "molten_vents:dormant_molten_frostite"
+			id: "0080D7D3D9BE5BE3"
+			subtitle: "Frostite Vents are found anywhere on Glacio, specically in the Snowy Barrens"
+			tasks: [{
+				id: "65411C9E2ADC7D2D"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:dormant_molten_frostite"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0080D7D3D9BE5BE3"]
+			id: "0873461BF204006C"
+			subtitle: "Upon finding a Dormant Vent you will need to activate it by blowing TNT up on its surface"
+			tasks: [{
+				id: "5714DFB5233AA790"
+				item: "minecraft:tnt"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0873461BF204006C"]
+			hide_dependent_lines: true
+			icon: "molten_vents:active_molten_frostite"
+			id: "44226064B27B70F4"
+			subtitle: "In Order to generate Frostite you will need a source block of Water, below is how you craft it."
+			tasks: [{
+				id: "64F5E23C37C7A30E"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:active_molten_frostite"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["003891695EFCF33D"]
+			id: "762F0613A935037B"
+			subtitle: "Frostite can be later crushed down to produce Ice shards and processed down to Blue Ice"
+			tasks: [{
+				id: "34CCCBD15211D00A"
+				item: "forge_frontier:frostite"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4770A2BCE4F356A2"]
+			icon: "molten_vents:dormant_molten_radiantite"
+			id: "0886729EE4407B1B"
+			subtitle: "Radiantite Vents are found anywhere in the End"
+			tasks: [{
+				id: "3E922327B6F978BA"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:dormant_molten_radiantite"
+				type: "observation"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0886729EE4407B1B"]
+			id: "72C79AA3B31ACD8B"
+			subtitle: "Upon finding a Dormant Vent you will need to activate it by blowing TNT up on its surface"
+			tasks: [{
+				id: "3C618881151638AD"
+				item: "minecraft:tnt"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["72C79AA3B31ACD8B"]
+			hide_dependent_lines: true
+			icon: "molten_vents:active_molten_radiantite"
+			id: "3E23818C313CE507"
+			subtitle: "In Order to generate Radiantite you will need a source block of Ruby Chocolate, below is how you craft it."
+			tasks: [{
+				id: "4AB892918C4AEFC8"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:active_molten_radiantite"
+				type: "observation"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["17559ED0B5B300D9"]
+			id: "1831C70E0A4B9875"
+			subtitle: "Radiantite can be later crushed down to produce Irradium"
+			tasks: [{
+				id: "222F9CAD91D40C60"
+				item: "forge_frontier:radiantite"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["15DD51BFD4480F8D"]
+			id: "4770A2BCE4F356A2"
+			tasks: [{
+				biome: "#minecraft:is_end"
+				id: "5B5490AB23F60826"
+				type: "biome"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4770A2BCE4F356A2"]
+			icon: "molten_vents:dormant_molten_void_shale"
+			id: "177FD83E945AE2BE"
+			subtitle: "Void Shale Vents are found anywhere in the End"
+			tasks: [{
+				id: "5993EC5234DA3722"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:dormant_molten_void_shale"
+				type: "observation"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["177FD83E945AE2BE"]
+			id: "1530538613ABE618"
+			subtitle: "Upon finding a Dormant Vent you will need to activate it by blowing TNT up on its surface"
+			tasks: [{
+				id: "053DFE4842E51C6F"
+				item: "minecraft:tnt"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1530538613ABE618"]
+			hide_dependent_lines: true
+			icon: "molten_vents:active_molten_void_shale"
+			id: "01C54F69AC1A05BF"
+			subtitle: "In Order to generate Void Shale you will need a source block of Ruby Chocolate, below is how you craft it."
+			tasks: [{
+				id: "476609A8F8D6DE07"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:active_molten_void_shale"
+				type: "observation"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			id: "4BA4F5D20D29BDF5"
+			subtitle: "Void Shale can be later crushed down to produce Malachite"
+			tasks: [{
+				id: "160262B2B5444B98"
+				item: "enlightened_end:void_shale"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4770A2BCE4F356A2"]
+			icon: "molten_vents:dormant_molten_palerock"
+			id: "0F87A00F314DD547"
+			subtitle: "Palerock Vents are found anywhere in the End"
+			tasks: [{
+				id: "37B1D1C7B27E941B"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:dormant_molten_palerock"
+				type: "observation"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0F87A00F314DD547"]
+			id: "595B4F52A59B1D7D"
+			subtitle: "Upon finding a Dormant Vent you will need to activate it by blowing TNT up on its surface"
+			tasks: [{
+				id: "1AA56F96EBDD23D9"
+				item: "minecraft:tnt"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["595B4F52A59B1D7D"]
+			hide_dependent_lines: true
+			icon: "molten_vents:active_molten_palerock"
+			id: "1A9E7670491FAD6C"
+			subtitle: "In Order to generate Palerock you will need a source block of Ruby Chocolate, below is how you craft it."
+			tasks: [{
+				id: "02DF6927766FD305"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:active_molten_palerock"
+				type: "observation"
+			}]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			id: "726D2E537567B30E"
+			subtitle: "Palerock can be later crushed down to produce Bismuth"
+			tasks: [{
+				id: "7DE8BB40F1EF9459"
+				item: "enlightened_end:palerock"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6CA23EC46D870FBD"]
+			icon: "molten_vents:dormant_molten_pearlyte"
+			id: "6AE156D8DE1D619A"
+			subtitle: "Pearlyte Vents are found anywhere on the Abyssal Chasm Planet, on the ocean floor"
+			tasks: [{
+				id: "01D19050FCD28992"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:dormant_molten_pearlyte"
+				type: "observation"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6AE156D8DE1D619A"]
+			id: "08706B2825ACEBF2"
+			subtitle: "Upon finding a Dormant Vent you will need to activate it by blowing TNT up on its surface"
+			tasks: [{
+				id: "713FBA7F9674ACF4"
+				item: "minecraft:tnt"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["08706B2825ACEBF2"]
+			hide_dependent_lines: true
+			icon: "molten_vents:active_molten_pearlyte"
+			id: "7A93C8B2FBEAE376"
+			subtitle: "In Order to generate Pearlyte you will need a source block of Water, below is how you craft it."
+			tasks: [{
+				id: "69EDE13D94B7F100"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:active_molten_pearlyte"
+				type: "observation"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			id: "0FA3746C38F794B8"
+			subtitle: "Pearlyte can be later crushed down to produce Pearls"
+			tasks: [{
+				id: "0716325B542D9477"
+				item: "forge_frontier:pearlyte"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6CDC2B37D835F804"]
+			id: "6CA23EC46D870FBD"
+			tasks: [{
+				biome: "alexscaves:abyssal_chasm"
+				id: "25042AD01AB92C8B"
+				type: "biome"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["40DB7FDC0CC426FF"]
+			icon: "molten_vents:dormant_molten_amberlite"
+			id: "2401FE22DF6AF5B1"
+			subtitle: "Amberlite Vents are found anywhere on the Primordial Caves Planet"
+			tasks: [{
+				id: "2A1835053C55F59E"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:dormant_molten_amberlite"
+				type: "observation"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2401FE22DF6AF5B1"]
+			id: "664FA38C96787407"
+			subtitle: "Upon finding a Dormant Vent you will need to activate it by blowing TNT up on its surface"
+			tasks: [{
+				id: "45758823205BC3E8"
+				item: "minecraft:tnt"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["664FA38C96787407"]
+			hide_dependent_lines: true
+			icon: "molten_vents:active_molten_aubrum"
+			id: "08863212E09FCDC5"
+			subtitle: "In Order to generate Amberlite you will need a source block of Honey, below is how you craft it."
+			tasks: [{
+				id: "63DD635DB619CC91"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:active_molten_amberlite"
+				type: "observation"
+			}]
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3C457E11B373D336"]
+			id: "0CDC55F79B076819"
+			subtitle: "Amberlite can be later crushed down to produce Amber"
+			tasks: [{
+				id: "00F7B8D009028373"
+				item: "forge_frontier:amberlite"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0988690A536B7D19"]
+			icon: "molten_vents:dormant_molten_guanite"
+			id: "07CB0B903E62B853"
+			subtitle: "Guanite Vents are found anywhere on the Forlorn Hollows Planet"
+			tasks: [{
+				id: "0F3FD41581A064A6"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:dormant_molten_guanite"
+				type: "observation"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["07CB0B903E62B853"]
+			id: "53A0492FE6007184"
+			subtitle: "Upon finding a Dormant Vent you will need to activate it by blowing TNT up on its surface"
+			tasks: [{
+				id: "3D0CDA0E6380E687"
+				item: "minecraft:tnt"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["53A0492FE6007184"]
+			hide_dependent_lines: true
+			icon: "molten_vents:active_molten_guanite"
+			id: "7FE6F26BE90E2F27"
+			subtitle: "In Order to generate Guanite you will need a source block of Liquid Fertilizer, below is how you craft it."
+			tasks: [{
+				id: "54C9309A3B60C03E"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:active_molten_guanite"
+				type: "observation"
+			}]
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["436491C29F42D04C"]
+			id: "1E562262A93B8241"
+			subtitle: "Guanite can be later crushed down to produce Guano"
+			tasks: [{
+				id: "5BFB52D63D8C036A"
+				item: "forge_frontier:guanite"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["434A80C989CFB176"]
+			icon: "molten_vents:dormant_molten_uraniumnite"
+			id: "70DF75B6AEEF8D39"
+			subtitle: "Uraniumnite Vents are found anywhere on the Toxic Caves Planet"
+			tasks: [{
+				id: "6000D0FCF2A4250B"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:dormant_molten_uraniumnite"
+				type: "observation"
+			}]
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["70DF75B6AEEF8D39"]
+			id: "0188E5A0D2659711"
+			subtitle: "Upon finding a Dormant Vent you will need to activate it by blowing TNT up on its surface"
+			tasks: [{
+				id: "7C8F7720B31CA808"
+				item: "minecraft:tnt"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0188E5A0D2659711"]
+			hide_dependent_lines: true
+			icon: "molten_vents:active_molten_uraniumnite"
+			id: "29FE8FE2DE79D7EB"
+			subtitle: "In Order to generate Uraniumnite you will need a source block of Acid, below is how you craft it."
+			tasks: [{
+				id: "75E642E557765EEC"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:active_molten_uraniumnite"
+				type: "observation"
+			}]
+			x: 10.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["79182D6BE9E5DE0D"]
+			id: "2C5F9A3210357A54"
+			subtitle: "Uraniumnite can be later crushed down to produce Uranium"
+			tasks: [{
+				id: "72630F03834B4204"
+				item: "forge_frontier:uraniumnite"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["434A80C989CFB176"]
+			icon: "molten_vents:dormant_molten_sulphite"
+			id: "19D60673B8DCB77D"
+			subtitle: "Sulphite Vents are found anywhere on the Toxic Caves Planet"
+			tasks: [{
+				id: "6D4C4B54FEA5675A"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:dormant_molten_sulphite"
+				type: "observation"
+			}]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["19D60673B8DCB77D"]
+			id: "21439F4E1B9D63C6"
+			subtitle: "Upon finding a Dormant Vent you will need to activate it by blowing TNT up on its surface"
+			tasks: [{
+				id: "4F99CF1E4A2929FF"
+				item: "minecraft:tnt"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["21439F4E1B9D63C6"]
+			hide_dependent_lines: true
+			icon: "molten_vents:active_molten_sulphite"
+			id: "5D438DEA0BB292B8"
+			subtitle: "In Order to generate Sulphite you will need a source block of Acid, below is how you craft it."
+			tasks: [{
+				id: "2DC569213340ECB8"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:active_molten_sulphite"
+				type: "observation"
+			}]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			id: "5A5234A74B3FCB66"
+			subtitle: "Sulphite can be later crushed down to produce Sulfur"
+			tasks: [{
+				id: "65C0FF3E3E022140"
+				item: "forge_frontier:sulphite"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["42CE6455938E37CF"]
+			icon: "molten_vents:dormant_molten_neodymrium"
+			id: "08A5AEA1CB0268D8"
+			subtitle: "Neodyrium Vents are found anywhere on the Magnetic Caves Planet"
+			tasks: [{
+				id: "1461FFEDE382BC3A"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:dormant_molten_neodymrium"
+				type: "observation"
+			}]
+			x: 13.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["08A5AEA1CB0268D8"]
+			id: "33D677664F487ED0"
+			subtitle: "Upon finding a Dormant Vent you will need to activate it by blowing TNT up on its surface"
+			tasks: [{
+				id: "4ECCFE78457E7C0F"
+				item: "minecraft:tnt"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["33D677664F487ED0"]
+			hide_dependent_lines: true
+			icon: "molten_vents:active_molten_neodymrium"
+			id: "0A4C2780B6C139D7"
+			subtitle: "In Order to generate Neodyrium you will need a source block of Molten Iron, below is how you craft it."
+			tasks: [{
+				id: "01E049AC29960F26"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:active_molten_neodymrium"
+				type: "observation"
+			}]
+			x: 13.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["05F146E831A64370"]
+			id: "5125C4BB0C5CD5F2"
+			subtitle: "Neodyrium can be later crushed down to produce Scarlet Neodyrium"
+			tasks: [{
+				id: "230520DA2C86FDB3"
+				item: "forge_frontier:neodymrium"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["42CE6455938E37CF"]
+			icon: "molten_vents:dormant_molten_azurnium"
+			id: "2F41CAD739040E8A"
+			subtitle: "Azurnium Vents are found anywhere on the Magnetic Caves Planet"
+			tasks: [{
+				id: "5F3404309D2D26C8"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:dormant_molten_azurnium"
+				type: "observation"
+			}]
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2F41CAD739040E8A"]
+			id: "3A383786F8AEC0B6"
+			subtitle: "Upon finding a Dormant Vent you will need to activate it by blowing TNT up on its surface"
+			tasks: [{
+				id: "1BD40B0579BADC63"
+				item: "minecraft:tnt"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3A383786F8AEC0B6"]
+			hide_dependent_lines: true
+			icon: "molten_vents:active_molten_azurnium"
+			id: "190032AF768B4BC2"
+			subtitle: "In Order to generate Azurnium you will need a source block of Molten Iron, below is how you craft it."
+			tasks: [{
+				id: "290F7423FE023314"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:active_molten_azurnium"
+				type: "observation"
+			}]
+			x: 15.0d
+			y: 6.0d
+		}
+		{
+			id: "445414776DDE9819"
+			subtitle: "Azurnium can be later crushed down to produce Azure Neodyrium"
+			tasks: [{
+				id: "66592629A008F23D"
+				item: "forge_frontier:azurnium"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 7.5d
 		}
 	]
 	title: "Molten Vents"
