@@ -7,15 +7,359 @@
 	id: "67ACAE7C60BDFF29"
 	order_index: 1
 	quest_links: [ ]
-	quests: [{
-		id: "38225B75D972BB4C"
-		tasks: [{
-			id: "4B57B199AFF779EC"
-			item: "create:chocolate_bucket"
-			type: "item"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			id: "38225B75D972BB4C"
+			tasks: [{
+				id: "4B57B199AFF779EC"
+				item: "create:chocolate_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"67829195F3340506"
+				"321D7F5DEE37D59F"
+				"1882C5090A305993"
+			]
+			id: "31FBC673B1E527F6"
+			subtitle: "Obtained by heated mixing the below ingredients"
+			tasks: [{
+				id: "65741235B128968B"
+				item: "create_confectionery:white_chocolate_bucket"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5F6FEC2217EC3794"]
+			id: "321D7F5DEE37D59F"
+			subtitle: "Sugar is craftable from Sugar Cane"
+			tasks: [{
+				count: 4L
+				id: "43C4B9574C2332E3"
+				item: { Count: 4, id: "minecraft:sugar" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1DB408695E4BAD20"]
+			id: "67829195F3340506"
+			subtitle: "Obtained by crushing the below ingredients"
+			tasks: [{
+				count: 4L
+				id: "4966BB6EA5589B9D"
+				item: { Count: 4, id: "create_confectionery:cocoa_butter" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3B0C428AB2EDDA57"]
+			id: "1882C5090A305993"
+			subtitle: "Obtained by milking a cow"
+			tasks: [{
+				id: "05203AEC105B5D7A"
+				item: "minecraft:milk_bucket"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3B0C428AB2EDDA57"]
+			id: "5F6FEC2217EC3794"
+			tasks: [{
+				count: 4L
+				id: "232AF1EC4E26B4C3"
+				item: { Count: 4, id: "minecraft:sugar_cane" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["01919AA59F357552"]
+			id: "1DB408695E4BAD20"
+			subtitle: "Obtained by pressing the below ingredients"
+			tasks: [{
+				count: 6L
+				id: "1A5F650916AE5C1C"
+				item: { Count: 6, id: "create_confectionery:crushed_cocoa" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3B0C428AB2EDDA57"]
+			id: "01919AA59F357552"
+			subtitle: "Obtained from Cocoa Plants"
+			tasks: [{
+				count: 6L
+				id: "74255D1737F8B0F0"
+				item: { Count: 6, id: "minecraft:cocoa_beans" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"05FC14F6359165C8"
+				"7CB3891A82CE160F"
+				"3482F5B63380ADCE"
+				"411D95873BF6DD66"
+			]
+			id: "13576F3698C89AE7"
+			subtitle: "Obtained by heated mixing the below ingredients"
+			tasks: [{
+				id: "6186A451E1089054"
+				item: "create_confectionery:black_chocolate_bucket"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7FDFA8724588229E"]
+			id: "3482F5B63380ADCE"
+			subtitle: "Sugar is craftable from Sugar Cane"
+			tasks: [{
+				count: 4L
+				id: "02422FA230F0C223"
+				item: { Count: 4, id: "minecraft:sugar" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["29CF70D132686FF1"]
+			id: "411D95873BF6DD66"
+			subtitle: "Obtained by crushing the below ingredients"
+			tasks: [{
+				count: 4L
+				id: "102D78AB4B54AD8F"
+				item: { Count: 4, id: "create_confectionery:cocoa_butter" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7EB3EB70EF62C537"]
+			id: "05FC14F6359165C8"
+			subtitle: "Obtained by milking a cow"
+			tasks: [{
+				id: "568F9470397ECDE1"
+				item: "minecraft:milk_bucket"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7EB3EB70EF62C537"]
+			id: "7FDFA8724588229E"
+			tasks: [{
+				count: 4L
+				id: "111E7FAA6DFB626A"
+				item: { Count: 4, id: "minecraft:sugar_cane" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7CB3891A82CE160F"]
+			id: "29CF70D132686FF1"
+			subtitle: "Obtained by pressing the below ingredients"
+			tasks: [{
+				count: 6L
+				id: "7C673BDEFD93E36E"
+				item: { Count: 6, id: "create_confectionery:crushed_cocoa" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7EB3EB70EF62C537"]
+			id: "7CB3891A82CE160F"
+			subtitle: "Obtained from Cocoa Plants"
+			tasks: [{
+				count: 14L
+				id: "5448F9291E0178E1"
+				item: { Count: 14, id: "minecraft:cocoa_beans" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0E013AB8D0047A3B"]
+			id: "1D40BCB5E0BF8836"
+			subtitle: "Obtained by heated mixing the below ingredients"
+			tasks: [{
+				id: "3FDD02F8681243AF"
+				item: "create_dd:hot_chocolate_bucket"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"268E27C059E316AD"
+				"21BB70EE0088233C"
+				"3FD724B30D992A0A"
+			]
+			id: "0E013AB8D0047A3B"
+			subtitle: "Obtained by mixing the below ingredients"
+			tasks: [{
+				id: "7904177A768E8618"
+				item: "create:chocolate_bucket"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["36FEEB9ADC09104A"]
+			id: "3FD724B30D992A0A"
+			subtitle: "Sugar is craftable from Sugar Cane"
+			tasks: [{
+				count: 4L
+				id: "009660E45EBB9EEC"
+				item: { Count: 4, id: "minecraft:sugar" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2F2166D0D6AE208F"]
+			id: "21BB70EE0088233C"
+			subtitle: "Obtained by milking a cow"
+			tasks: [{
+				id: "66D59F625CC17E90"
+				item: "minecraft:milk_bucket"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2F2166D0D6AE208F"]
+			id: "268E27C059E316AD"
+			subtitle: "Obtained from Cocoa Plants"
+			tasks: [{
+				count: 4L
+				id: "2B2C06E2642753F6"
+				item: "minecraft:cocoa_beans"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2F2166D0D6AE208F"]
+			id: "36FEEB9ADC09104A"
+			tasks: [{
+				count: 4L
+				id: "384482D45023AB39"
+				item: { Count: 4, id: "minecraft:sugar_cane" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"52CCEFD4ED1E5AA5"
+				"76865FC22AF94ED4"
+				"4FC803845778C5AF"
+				"72D92B8CE8FCB7C7"
+			]
+			id: "17559ED0B5B300D9"
+			subtitle: "Obtained by heated mixing the below ingredients"
+			tasks: [{
+				id: "2D4599EE7E6BF3E8"
+				item: "create_confectionery:ruby_chocolate_bucket"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0A15AC902D61B3E9"]
+			id: "76865FC22AF94ED4"
+			subtitle: "Sugar is craftable from Sugar Cane"
+			tasks: [{
+				count: 4L
+				id: "7BDFF86E3A7D5579"
+				item: { Count: 4, id: "minecraft:sugar" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3E23818C313CE507"]
+			id: "52CCEFD4ED1E5AA5"
+			tasks: [{
+				count: 4L
+				id: "4AFDB6A3127E8787"
+				item: { Count: 4, id: "minecraft:dragon_breath" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3E23818C313CE507"]
+			id: "72D92B8CE8FCB7C7"
+			subtitle: "Obtained from Cocoa Plants"
+			tasks: [{
+				count: 4L
+				id: "378534F2E8DC35F4"
+				item: { Count: 4, id: "minecraft:cocoa_beans" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3E23818C313CE507"]
+			id: "4FC803845778C5AF"
+			subtitle: "Obtained by milking a cow"
+			tasks: [{
+				id: "68E1894E1E7AF448"
+				item: "minecraft:milk_bucket"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3E23818C313CE507"]
+			id: "0A15AC902D61B3E9"
+			tasks: [{
+				count: 4L
+				id: "1CFFDB0D36583194"
+				item: { Count: 4, id: "minecraft:sugar_cane" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 5.0d
+		}
+	]
 	title: "Chocolates"
 }

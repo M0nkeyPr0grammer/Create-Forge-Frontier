@@ -7,15 +7,127 @@
 	id: "1F1435C2E3326CC3"
 	order_index: 4
 	quest_links: [ ]
-	quests: [{
-		id: "4E3A3607610EA399"
-		tasks: [{
-			id: "11791E8567780FF3"
-			item: "alexscaves:acid_bucket"
-			type: "item"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			id: "4E3A3607610EA399"
+			tasks: [{
+				id: "11791E8567780FF3"
+				item: "alexscaves:acid_bucket"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["44226064B27B70F4"]
+			id: "003891695EFCF33D"
+			tasks: [{
+				id: "37EE424FE57441A8"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3C8BB040F86DB9D8"]
+			id: "3C457E11B373D336"
+			subtitle: "Obtained by heated mixing the below ingredients"
+			tasks: [{
+				id: "0B426B779B6B3585"
+				item: "create:honey_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["08863212E09FCDC5"]
+			id: "3C8BB040F86DB9D8"
+			tasks: [{
+				id: "4BE4E4A65AFDD6BC"
+				item: "minecraft:honey_block"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"4247484D23C906A3"
+				"010AA1455A1895A5"
+			]
+			id: "436491C29F42D04C"
+			subtitle: "Obtained by mixing the below ingredients"
+			tasks: [{
+				id: "4A883F12754F1153"
+				item: "sliceanddice:fertilizer_bucket"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7FE6F26BE90E2F27"]
+			id: "010AA1455A1895A5"
+			tasks: [{
+				count: 2L
+				id: "04E186B61FF5DD59"
+				item: { Count: 2, id: "create:tree_fertilizer" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7FE6F26BE90E2F27"]
+			id: "4247484D23C906A3"
+			tasks: [{
+				id: "0140A0FCE2F03FB6"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"7F4C6C2ADA11E9D1"
+				"1BC412474419C300"
+			]
+			id: "79182D6BE9E5DE0D"
+			subtitle: "Obtained by heated mixing the below ingredients"
+			tasks: [{
+				id: "30E38259D8FDB777"
+				item: "alexscaves:acid_bucket"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["29FE8FE2DE79D7EB"]
+			id: "7F4C6C2ADA11E9D1"
+			tasks: [{
+				count: 6L
+				id: "7A743D40BC8AB615"
+				item: { Count: 6, id: "alexscaves:sulfur_dust" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["29FE8FE2DE79D7EB"]
+			id: "1BC412474419C300"
+			tasks: [{
+				id: "35D9AF08BDCA9FC0"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+	]
 	title: "Other Liquids"
 }

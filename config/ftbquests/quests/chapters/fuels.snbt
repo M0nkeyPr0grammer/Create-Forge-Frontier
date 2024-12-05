@@ -7,15 +7,341 @@
 	id: "3AFEBC186FD80BF5"
 	order_index: 2
 	quest_links: [ ]
-	quests: [{
-		id: "7C722015B6B93CB7"
-		tasks: [{
-			id: "53FBDEAC3FE556C0"
-			item: "ad_astra:fuel_bucket"
-			type: "item"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			id: "7C722015B6B93CB7"
+			tasks: [{
+				id: "53FBDEAC3FE556C0"
+				item: "ad_astra:fuel_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"712B1E824C62E25F"
+				"293C7B211D431307"
+				"59BF49536E143FF3"
+			]
+			id: "4D2B83D1609FFC9C"
+			subtitle: "Obtained by mixing the below ingredients"
+			tasks: [{
+				id: "5E25A7726A84FAB2"
+				item: "createaddition:bioethanol_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3CB29F96159205FC"]
+			id: "59BF49536E143FF3"
+			subtitle: "Sugar is craftable from Sugar Cane"
+			tasks: [{
+				count: 10L
+				id: "69B9CD65604794B0"
+				item: { Count: 10, id: "minecraft:sugar" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["152E2791CE03D5B0"]
+			id: "712B1E824C62E25F"
+			subtitle: "Obtained by crushing the below ingredients"
+			tasks: [{
+				count: 10L
+				id: "7FC218FDCCEFA7D0"
+				item: { Count: 10, id: "create:cinder_flour" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"08DA6860F8F270F0"
+				"5001AD7460C5230D"
+			]
+			id: "293C7B211D431307"
+			subtitle: "Obtained by heated mixing the below ingredients"
+			tasks: [{
+				count: 20L
+				id: "76EF4AA744DD1542"
+				item: { Count: 20, id: "createaddition:biomass" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["294621D005CFAB64"]
+			id: "3CB29F96159205FC"
+			tasks: [{
+				count: 10L
+				id: "577D21F783E98AC9"
+				item: { Count: 10, id: "minecraft:sugar_cane" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["294621D005CFAB64"]
+			id: "152E2791CE03D5B0"
+			tasks: [{
+				count: 10L
+				id: "6AC3740669E782D5"
+				item: { Count: 10, id: "minecraft:netherrack" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["294621D005CFAB64"]
+			id: "5001AD7460C5230D"
+			tasks: [{
+				count: 160L
+				id: "100DD5A0FBBB1F72"
+				item: { Count: 160, id: "minecraft:stick" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["248E35DE578087F3"]
+			id: "08DA6860F8F270F0"
+			subtitle: "Obtained by compacting the below ingredients"
+			tasks: [{
+				count: 2L
+				id: "04F4FFA2ABAB9706"
+				item: { Count: 2, id: "createdieselgenerators:plant_oil_bucket" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["294621D005CFAB64"]
+			id: "248E35DE578087F3"
+			tasks: [{
+				count: 20L
+				id: "6384D081888B21D1"
+				item: { Count: 20, id: "minecraft:wheat_seeds" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1BD68DAF7D3BC7EC"]
+			id: "51E1682DBF0062D2"
+			subtitle: "Obtained by processing the below ingredients in a cryofreezer"
+			tasks: [{
+				id: "746940CFCDB225E3"
+				item: "ad_astra:cryo_fuel_bucket"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["45957F08D604E59F"]
+			icon: "ad_astra:cryo_freezer"
+			id: "1BD68DAF7D3BC7EC"
+			tasks: [{
+				id: "3F6D04B657CCF41A"
+				observe_type: 0
+				timer: 0L
+				to_observe: "ad_astra:cryo_freezer"
+				type: "observation"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["509AE3462D404452"]
+			id: "45957F08D604E59F"
+			tasks: [{
+				count: 40L
+				id: "2A538DE3305C280A"
+				item: { Count: 40, id: "ad_astra:ice_shard" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["559E75D14F0F2197"]
+			id: "4C58A67636653D37"
+			subtitle: "Obtained by compacting the below ingredients"
+			tasks: [{
+				id: "45A61B57251AC107"
+				item: "createdieselgenerators:plant_oil_bucket"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["710F662B8F484D14"]
+			id: "559E75D14F0F2197"
+			tasks: [{
+				count: 10L
+				id: "6571E7E52BEE502C"
+				item: { Count: 10, id: "minecraft:wheat_seeds" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"379F66CE74979275"
+				"3BD1CF8C63DA39F8"
+			]
+			id: "0E766060648F8B43"
+			subtitle: "Obtained by basin processing the below ingredients"
+			tasks: [{
+				id: "7F19148A7A1BBB3D"
+				item: "createdieselgenerators:ethanol_bucket"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["00961469E0473FA6"]
+			id: "379F66CE74979275"
+			subtitle: "Sugar is craftable from Sugar Cane"
+			tasks: [{
+				count: 5L
+				id: "4648CCBE9096D8A6"
+				item: { Count: 5, id: "minecraft:sugar" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["663B98AD6EFF295F"]
+			id: "3BD1CF8C63DA39F8"
+			tasks: [{
+				count: 5L
+				id: "3B77EEA03BBBA61C"
+				item: { Count: 5, id: "minecraft:bone_meal" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["663B98AD6EFF295F"]
+			id: "00961469E0473FA6"
+			tasks: [{
+				count: 5L
+				id: "7028451128EC008C"
+				item: { Count: 5, id: "minecraft:sugar_cane" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"334A1F6DE76683A1"
+				"24C0F1FAF52DBEEE"
+			]
+			id: "1480FBF5D5C2DE2C"
+			subtitle: "Obtained by mixing the below ingredients"
+			tasks: [{
+				id: "233A3C479F695C62"
+				item: "createdieselgenerators:biodiesel_bucket"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["49BFAF4E3252C9F2"]
+			id: "24C0F1FAF52DBEEE"
+			subtitle: "Obtained by compacting the below ingredients"
+			tasks: [{
+				id: "2C374A03CA1841E9"
+				item: "createdieselgenerators:plant_oil_bucket"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"3A73B4E96B739579"
+				"0C9B701F082040AA"
+			]
+			id: "334A1F6DE76683A1"
+			subtitle: "Obtained by basin processing the below ingredients"
+			tasks: [{
+				id: "6C27E6F7D580E5EA"
+				item: "createdieselgenerators:ethanol_bucket"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5B4BAD7A02DA1E85"]
+			id: "49BFAF4E3252C9F2"
+			tasks: [{
+				count: 10L
+				id: "5B969A4121AD8514"
+				item: { Count: 10, id: "minecraft:wheat_seeds" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["26C93862707F6261"]
+			id: "3A73B4E96B739579"
+			subtitle: "Sugar is craftable from Sugar Cane"
+			tasks: [{
+				count: 5L
+				id: "7BCABBEE3E6F4ADF"
+				item: { Count: 5, id: "minecraft:sugar" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5B4BAD7A02DA1E85"]
+			id: "0C9B701F082040AA"
+			tasks: [{
+				count: 5L
+				id: "5BBD483CC88C7F18"
+				item: { Count: 5, id: "minecraft:bone_meal" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5B4BAD7A02DA1E85"]
+			id: "26C93862707F6261"
+			tasks: [{
+				count: 5L
+				id: "4BB78A3581C78E18"
+				item: { Count: 5, id: "minecraft:sugar_cane" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 6.0d
+		}
+	]
 	title: "Fuels"
 }

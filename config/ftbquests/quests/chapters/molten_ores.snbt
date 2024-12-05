@@ -7,15 +7,41 @@
 	id: "2AEDC0BA93199311"
 	order_index: 3
 	quest_links: [ ]
-	quests: [{
-		id: "5FCCD7AEB8263F92"
-		tasks: [{
-			id: "08B5BE42BDD1660D"
-			item: "forge_frontier:molten_iron_bucket"
-			type: "item"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			id: "5FCCD7AEB8263F92"
+			tasks: [{
+				id: "08B5BE42BDD1660D"
+				item: "forge_frontier:molten_iron_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["753B9FEC027088ED"]
+			id: "05F146E831A64370"
+			subtitle: "Obtained by superheated mixing the below ingredients"
+			tasks: [{
+				id: "27A21E99CF25980D"
+				item: "forge_frontier:molten_iron_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0A4C2780B6C139D7"]
+			id: "753B9FEC027088ED"
+			tasks: [{
+				count: 5L
+				id: "3908429083EC3AC6"
+				item: { Count: 5, id: "minecraft:raw_iron" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+	]
 	title: "Molten Ores"
 }
