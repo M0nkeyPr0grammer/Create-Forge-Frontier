@@ -6,59 +6,66 @@
 	group: "72C8A595982548D5"
 	icon: "molten_vents:dormant_molten_asurine"
 	id: "4E4AA685A681F1B0"
+	images: [
+		{
+			height: 10.0d
+			image: "ftb:textures/molten_vents_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			height: 3.5d
+			image: "ftb:textures/asurine_vent.png"
+			rotation: 0.0d
+			width: 5.6d
+			x: -9.0d
+			y: -3.0d
+		}
+		{
+			height: 3.5d
+			image: "ftb:textures/debris_vent.png"
+			rotation: 0.0d
+			width: 5.6d
+			x: 8.0d
+			y: -3.0d
+		}
+	]
 	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["7AC47553B491EE76"]
 			id: "69CE3113324ED800"
+			shape: "hexagon"
 			tasks: [{
 				dimension: "minecraft:overworld"
 				id: "32D2B9D5FBAE7A12"
 				type: "dimension"
 			}]
-			x: -15.5d
+			x: -13.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["7AC47553B491EE76"]
 			id: "0B070C4D8A55E5A8"
+			shape: "hexagon"
 			tasks: [{
 				dimension: "minecraft:the_nether"
 				id: "5D645E7B057EDD96"
 				type: "dimension"
 			}]
-			x: -8.0d
+			x: -5.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["7AC47553B491EE76"]
 			id: "4D23ABB810220050"
+			shape: "hexagon"
 			tasks: [{
 				dimension: "deeperdarker:otherside"
 				id: "7DBA6B0F06569E5F"
-				type: "dimension"
-			}]
-			x: -6.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["7AC47553B491EE76"]
-			id: "470D358D9308FA68"
-			tasks: [{
-				dimension: "ad_astra:moon"
-				id: "56EE4C23722F5397"
-				type: "dimension"
-			}]
-			x: -4.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["7AC47553B491EE76"]
-			id: "7339FE49A994B794"
-			tasks: [{
-				dimension: "ad_astra:mars"
-				id: "1EEB22ACE1F951D6"
 				type: "dimension"
 			}]
 			x: -3.0d
@@ -66,10 +73,11 @@
 		}
 		{
 			dependencies: ["7AC47553B491EE76"]
-			id: "6B619A2EB40D34C9"
+			id: "470D358D9308FA68"
+			shape: "hexagon"
 			tasks: [{
-				dimension: "ad_astra:venus"
-				id: "323ADE366797631D"
+				dimension: "ad_astra:moon"
+				id: "56EE4C23722F5397"
 				type: "dimension"
 			}]
 			x: -1.5d
@@ -77,10 +85,11 @@
 		}
 		{
 			dependencies: ["7AC47553B491EE76"]
-			id: "744904CCFAFB6BB0"
+			id: "7339FE49A994B794"
+			shape: "hexagon"
 			tasks: [{
-				dimension: "ad_astra:glacio"
-				id: "7616F73D69F93929"
+				dimension: "ad_astra:mars"
+				id: "1EEB22ACE1F951D6"
 				type: "dimension"
 			}]
 			x: 0.0d
@@ -88,10 +97,23 @@
 		}
 		{
 			dependencies: ["7AC47553B491EE76"]
-			id: "15DD51BFD4480F8D"
+			id: "6B619A2EB40D34C9"
+			shape: "hexagon"
 			tasks: [{
-				dimension: "minecraft:the_end"
-				id: "05A4F792DF06B32F"
+				dimension: "ad_astra:venus"
+				id: "323ADE366797631D"
+				type: "dimension"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7AC47553B491EE76"]
+			id: "744904CCFAFB6BB0"
+			shape: "hexagon"
+			tasks: [{
+				dimension: "ad_astra:glacio"
+				id: "7616F73D69F93929"
 				type: "dimension"
 			}]
 			x: 3.0d
@@ -99,10 +121,11 @@
 		}
 		{
 			dependencies: ["7AC47553B491EE76"]
-			id: "6CDC2B37D835F804"
+			id: "15DD51BFD4480F8D"
+			shape: "hexagon"
 			tasks: [{
-				dimension: "forge_frontier:abyssal_chasm"
-				id: "1A839FCD59353FDF"
+				dimension: "minecraft:the_end"
+				id: "05A4F792DF06B32F"
 				type: "dimension"
 			}]
 			x: 6.0d
@@ -110,21 +133,11 @@
 		}
 		{
 			dependencies: ["7AC47553B491EE76"]
-			id: "40DB7FDC0CC426FF"
+			id: "6CDC2B37D835F804"
+			shape: "hexagon"
 			tasks: [{
-				dimension: "forge_frontier:primordial_caves"
-				id: "54AF1FBD3322EBAC"
-				type: "dimension"
-			}]
-			x: 7.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["7AC47553B491EE76"]
-			id: "0988690A536B7D19"
-			tasks: [{
-				dimension: "forge_frontier:forlorn_hollows"
-				id: "4A03EBCDD5110DBB"
+				dimension: "forge_frontier:abyssal_chasm"
+				id: "1A839FCD59353FDF"
 				type: "dimension"
 			}]
 			x: 9.0d
@@ -132,24 +145,50 @@
 		}
 		{
 			dependencies: ["7AC47553B491EE76"]
+			id: "40DB7FDC0CC426FF"
+			shape: "hexagon"
+			tasks: [{
+				dimension: "forge_frontier:primordial_caves"
+				id: "54AF1FBD3322EBAC"
+				type: "dimension"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7AC47553B491EE76"]
+			id: "0988690A536B7D19"
+			shape: "hexagon"
+			tasks: [{
+				dimension: "forge_frontier:forlorn_hollows"
+				id: "4A03EBCDD5110DBB"
+				type: "dimension"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7AC47553B491EE76"]
 			id: "434A80C989CFB176"
+			shape: "hexagon"
 			tasks: [{
 				dimension: "forge_frontier:toxic_caves"
 				id: "001E6A2B41C27264"
 				type: "dimension"
 			}]
-			x: 11.5d
+			x: 14.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["7AC47553B491EE76"]
 			id: "42CE6455938E37CF"
+			shape: "hexagon"
 			tasks: [{
 				dimension: "forge_frontier:magnetic_caves"
 				id: "43CBDB5891078EB5"
 				type: "dimension"
 			}]
-			x: 14.5d
+			x: 17.5d
 			y: 0.0d
 		}
 		{
@@ -165,20 +204,43 @@
 				""
 				"Dive into the world of Molten Vents and elevate your resource management to new heights!"
 			]
+			hide_dependent_lines: true
+			icon: "molten_vents:active_molten_asurine"
+			icon_scale: 2.0d
 			id: "7AC47553B491EE76"
-			subtitle: "Molten Vents: A New Era of Resource Generation"
-			tasks: [{
-				id: "154B315CBAA5F5F9"
-				title: "Molten Vents"
-				type: "checkmark"
+			rewards: [{
+				id: "044F3A7E366EB2DB"
+				type: "xp"
+				xp: 50
 			}]
+			size: 1.0d
+			subtitle: "Molten Vents: A New Era of Resource Generation, Click me for more info!"
+			tasks: [
+				{
+					id: "5849A86B6B0820DF"
+					item: "create:zinc_ingot"
+					type: "item"
+				}
+				{
+					id: "77168E2D646C1F11"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+			]
+			title: "Molten Vents"
 			x: 0.0d
-			y: -4.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["2AE42496027E453C"]
+			description: [""]
 			icon: "molten_vents:dormant_molten_crimsite"
 			id: "4408A399D517CDB6"
+			rewards: [{
+				id: "0C1B7E02D08E4326"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "Crimsite Vents are found anywhere in the overworld"
 			tasks: [{
 				id: "71FF4ACEB85B0303"
@@ -188,7 +250,7 @@
 				type: "observation"
 			}]
 			title: "Find a Crimsite Vent"
-			x: -21.0d
+			x: -18.0d
 			y: 3.0d
 		}
 		{
@@ -196,7 +258,19 @@
 			description: ["In Order to generate Crimsite you will need a source block of Strawberry Milkshake"]
 			icon: "molten_vents:active_molten_crimsite"
 			id: "0EA0C2CDE7F62ECA"
-			subtitle: "Observe a Crimsite Vent"
+			rewards: [
+				{
+					id: "3AD4D4B148424A96"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 9
+					id: "00A20357D7D4133D"
+					item: "create:crimsite"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "5E9971B440D7785E"
@@ -211,12 +285,18 @@
 					type: "checkmark"
 				}
 			]
-			x: -21.0d
+			title: "Observe an Active Crimsite Vent"
+			x: -18.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["0EA0C2CDE7F62ECA"]
 			id: "2C730FE3611CDF1F"
+			rewards: [{
+				id: "7A6F551CA1685074"
+				item: "minecraft:iron_block"
+				type: "item"
+			}]
 			subtitle: "Crimsite can be later crushed down to produce iron"
 			tasks: [
 				{
@@ -235,22 +315,29 @@
 					type: "item"
 				}
 			]
-			x: -21.0d
+			x: -18.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["2AE42496027E453C"]
+			description: [""]
 			icon: "molten_vents:dormant_molten_ochrum"
 			id: "070BAAF36335CB39"
+			rewards: [{
+				id: "4D365C9E07926BE5"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "Ochrum Vents are found anywhere in the overworld"
 			tasks: [{
 				id: "7E9F73B48C50234A"
 				observe_type: 0
 				timer: 0L
+				title: "Find a Ochrum Vent"
 				to_observe: "molten_vents:dormant_molten_ochrum"
 				type: "observation"
 			}]
-			x: -19.5d
+			x: -16.5d
 			y: 3.0d
 		}
 		{
@@ -258,7 +345,19 @@
 			description: ["In Order to generate Ochrum you will need a source block of Glowberry Milkshake"]
 			icon: "molten_vents:active_molten_ochrum"
 			id: "1107E04D2BA51211"
-			subtitle: "Observe an Ochrum Vent"
+			rewards: [
+				{
+					id: "39D9A9D99E731E38"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 9
+					id: "75E4CC5B6941E1CB"
+					item: "create:ochrum"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "2614EEE65F6B8560"
@@ -273,12 +372,18 @@
 					type: "checkmark"
 				}
 			]
-			x: -19.5d
+			title: "Observe an Active Ochrum Vent"
+			x: -16.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["1107E04D2BA51211"]
 			id: "4A8DBEF17C064273"
+			rewards: [{
+				id: "7536E3269ED3BBF3"
+				item: "minecraft:gold_block"
+				type: "item"
+			}]
 			subtitle: "Ochrum can be later crushed down to produce gold"
 			tasks: [
 				{
@@ -297,24 +402,34 @@
 					type: "item"
 				}
 			]
-			x: -19.5d
+			x: -16.5d
 			y: 6.0d
 		}
 		{
 			dependencies: ["69CE3113324ED800"]
 			id: "746AA64118A7407D"
+			rewards: [{
+				id: "22A7C04F9260D57E"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				biome: "#minecraft:is_forest"
 				id: "514E7513262EE521"
 				type: "biome"
 			}]
-			x: -16.5d
+			x: -13.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["746AA64118A7407D"]
 			icon: "molten_vents:dormant_molten_asurine"
 			id: "1B9BED1C00DB2BDE"
+			rewards: [{
+				id: "5E5D71F495C66884"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "Asurine Vents are found anywhere in the overworld, specically in Forest Biomes"
 			tasks: [{
 				id: "00072EB8A7CBE1C1"
@@ -323,7 +438,8 @@
 				to_observe: "molten_vents:dormant_molten_asurine"
 				type: "observation"
 			}]
-			x: -18.0d
+			title: "Find a Asurine Vent"
+			x: -15.0d
 			y: 3.0d
 		}
 		{
@@ -331,7 +447,19 @@
 			description: ["In Order to generate Asurine you will need a source block of Cream"]
 			icon: "molten_vents:active_molten_asurine"
 			id: "0AFE52653EE975A8"
-			subtitle: "Observe an Asurine Vent"
+			rewards: [
+				{
+					id: "17F5907CE934102D"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 9
+					id: "2C3930F85B2646CC"
+					item: "create:asurine"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "427B7DE7F0D3149F"
@@ -346,12 +474,18 @@
 					type: "checkmark"
 				}
 			]
-			x: -18.0d
+			title: "Observe an Active Asurine Vent"
+			x: -15.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["0AFE52653EE975A8"]
 			id: "59A1A362D64276D9"
+			rewards: [{
+				id: "15E2706642F6C3D0"
+				item: "create:zinc_block"
+				type: "item"
+			}]
 			subtitle: "Asurine can be later crushed down to produce zinc"
 			tasks: [
 				{
@@ -370,13 +504,18 @@
 					type: "item"
 				}
 			]
-			x: -18.0d
+			x: -15.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["746AA64118A7407D"]
 			icon: "molten_vents:dormant_molten_veridium"
 			id: "6BF481A48C136085"
+			rewards: [{
+				id: "215475D4E10EEC4B"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "Veridium Vents are found anywhere in the overworld, specically in Forest Biomes"
 			tasks: [{
 				id: "7F552CF0B2FEDCDC"
@@ -385,27 +524,54 @@
 				to_observe: "molten_vents:dormant_molten_veridum"
 				type: "observation"
 			}]
-			x: -16.5d
+			title: "Find a Veridium Vent"
+			x: -13.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["6BF481A48C136085"]
+			description: ["In Order to generate Veridium you will need a source block of Caramel Milkshake"]
 			icon: "molten_vents:active_molten_veridium"
 			id: "2D5E52CE4653E96C"
-			subtitle: "In Order to generate Veridium you will need a source block of Caramel Milkshake, below is how you craft it."
-			tasks: [{
-				id: "693945CF2684C424"
-				observe_type: 0
-				timer: 0L
-				to_observe: "molten_vents:active_molten_veridium"
-				type: "observation"
-			}]
-			x: -16.5d
+			rewards: [
+				{
+					id: "206E1C292D2BD532"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 9
+					id: "27C556E340D11AE5"
+					item: "create:veridium"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "693945CF2684C424"
+					observe_type: 0
+					timer: 0L
+					to_observe: "molten_vents:active_molten_veridium"
+					type: "observation"
+				}
+				{
+					id: "4DD8E99AFB478F52"
+					title: "Check"
+					type: "checkmark"
+				}
+			]
+			title: "Observe an Active Veridium Vent"
+			x: -13.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["2D5E52CE4653E96C"]
 			id: "09E03BBF9953EF63"
+			rewards: [{
+				id: "0B7735B8A06CCCD5"
+				item: "minecraft:copper_block"
+				type: "item"
+			}]
 			subtitle: "Veridium can be later crushed down to produce copper"
 			tasks: [
 				{
@@ -424,42 +590,74 @@
 					type: "item"
 				}
 			]
-			x: -16.5d
+			x: -13.5d
 			y: 6.0d
 		}
 		{
 			dependencies: ["746AA64118A7407D"]
 			icon: "molten_vents:dormant_molten_potassic"
 			id: "79632EC457A3A88D"
+			rewards: [{
+				id: "4F54EF71B5821C7B"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "Potassic Vents are found anywhere in the overworld, specically in Forest Biomes"
 			tasks: [{
 				id: "297A3F832F65C94D"
 				observe_type: 0
 				timer: 0L
+				title: "Find a Potassic Vent"
 				to_observe: "molten_vents:dormant_molten_potassic"
 				type: "observation"
 			}]
-			x: -15.0d
+			x: -12.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["79632EC457A3A88D"]
+			description: ["In Order to generate Potassic you will need a source block of Vanilla Milkshake"]
 			icon: "molten_vents:active_molten_potassic"
 			id: "0079BEE03A3285FB"
-			subtitle: "In Order to generate Potassic you will need a source block of Vanilla Milkshake, below is how you craft it."
-			tasks: [{
-				id: "2502872F486242F0"
-				observe_type: 0
-				timer: 0L
-				to_observe: "molten_vents:active_molten_potassic"
-				type: "observation"
-			}]
-			x: -15.0d
+			rewards: [
+				{
+					id: "3A78A90AD3A4D2F5"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 9
+					id: "5372988F369BFDC0"
+					item: "create_dd:potassic"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2502872F486242F0"
+					observe_type: 0
+					timer: 0L
+					to_observe: "molten_vents:active_molten_potassic"
+					type: "observation"
+				}
+				{
+					id: "456D3DED4BD537A6"
+					title: "Check"
+					type: "checkmark"
+				}
+			]
+			title: "Observe an Active Potassic Vent"
+			x: -12.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["0079BEE03A3285FB"]
 			id: "0CCC86AB0D5DFDF2"
+			rewards: [{
+				id: "1DDF93F84E68E952"
+				item: "create_dd:tin_block"
+				type: "item"
+			}]
 			subtitle: "Potassic can be later crushed down to produce tin"
 			tasks: [
 				{
@@ -478,24 +676,34 @@
 					type: "item"
 				}
 			]
-			x: -15.0d
+			x: -12.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["69CE3113324ED800"]
 			id: "3BBEFEE675F39759"
+			rewards: [{
+				id: "6C49BBB9E45FDAE8"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				biome: "#minecraft:is_mountain"
 				id: "63C340C493779E3E"
 				type: "biome"
 			}]
-			x: -12.0d
+			x: -9.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["3BBEFEE675F39759"]
 			icon: "molten_vents:dormant_molten_verdantine"
 			id: "12C001857356FF60"
+			rewards: [{
+				id: "7BDE703F514EB577"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "Verdantine Vents are found anywhere in the overworld, specically in Mountain Biomes"
 			tasks: [{
 				id: "4B3EE39DAE300EF8"
@@ -504,27 +712,54 @@
 				to_observe: "molten_vents:dormant_molten_verdantine"
 				type: "observation"
 			}]
-			x: -12.0d
+			title: "Find a Verdantine Vent"
+			x: -9.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["12C001857356FF60"]
+			description: ["In Order to generate Verdantine you will need a source block of White Chocolate"]
 			icon: "molten_vents:active_molten_verdantine"
 			id: "3B0C428AB2EDDA57"
-			subtitle: "In Order to generate Verdantine you will need a source block of White Chocolate, below is how you craft it."
-			tasks: [{
-				id: "1A8A39D7B29AB4B5"
-				observe_type: 0
-				timer: 0L
-				to_observe: "molten_vents:active_molten_verdantine"
-				type: "observation"
-			}]
-			x: -12.0d
+			rewards: [
+				{
+					id: "568CDF997BD8FCC8"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 9
+					id: "4EC2C4F3640A7EEF"
+					item: "forge_frontier:verdantine"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1A8A39D7B29AB4B5"
+					observe_type: 0
+					timer: 0L
+					to_observe: "molten_vents:active_molten_verdantine"
+					type: "observation"
+				}
+				{
+					id: "147539492796CD78"
+					title: "Check"
+					type: "checkmark"
+				}
+			]
+			title: "Observe an Active Verdantine Vent"
+			x: -9.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["3B0C428AB2EDDA57"]
 			id: "02FEFDD7F4DD0C1B"
+			rewards: [{
+				id: "393373E7C248F7E6"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
 			subtitle: "Verdantine can be later crushed down to produce emeralds"
 			tasks: [
 				{
@@ -543,13 +778,18 @@
 					type: "item"
 				}
 			]
-			x: -12.0d
+			x: -9.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["3BBEFEE675F39759"]
 			icon: "molten_vents:dormant_molten_glacium"
 			id: "27FF3D6559D4DE58"
+			rewards: [{
+				id: "58305C82B71AB248"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "Glacium Vents are found anywhere in the overworld, specically in Mountain Biomes"
 			tasks: [{
 				id: "784DE64FB1C40DB6"
@@ -558,27 +798,54 @@
 				to_observe: "molten_vents:dormant_molten_glacium"
 				type: "observation"
 			}]
-			x: -10.5d
+			title: "Find a Glacium Vent"
+			x: -7.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["27FF3D6559D4DE58"]
+			description: ["In Order to generate Glacium you will need a source block of Dark Chocolate"]
 			icon: "molten_vents:active_molten_glacium"
 			id: "7EB3EB70EF62C537"
-			subtitle: "In Order to generate Glacium you will need a source block of Dark Chocolate, below is how you craft it."
-			tasks: [{
-				id: "459BCFD24CB7B398"
-				observe_type: 0
-				timer: 0L
-				to_observe: "molten_vents:active_molten_glacium"
-				type: "observation"
-			}]
-			x: -10.5d
+			rewards: [
+				{
+					id: "3E78B19748042407"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 9
+					id: "7EAA0692E655BF01"
+					item: "forge_frontier:glacium"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "459BCFD24CB7B398"
+					observe_type: 0
+					timer: 0L
+					to_observe: "molten_vents:active_molten_glacium"
+					type: "observation"
+				}
+				{
+					id: "2E6F177C9A866BE9"
+					title: "Check"
+					type: "checkmark"
+				}
+			]
+			title: "Observe an Active Glacium Vent"
+			x: -7.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["7EB3EB70EF62C537"]
 			id: "2E4E4AB07AC948B5"
+			rewards: [{
+				id: "73C77115E925523A"
+				item: "minecraft:diamond_block"
+				type: "item"
+			}]
 			subtitle: "Glacium can be later crushed down to produce diamonds"
 			tasks: [
 				{
@@ -597,13 +864,18 @@
 					type: "item"
 				}
 			]
-			x: -10.5d
+			x: -7.5d
 			y: 6.0d
 		}
 		{
 			dependencies: ["3BBEFEE675F39759"]
 			icon: "molten_vents:dormant_molten_scoria"
 			id: "20EDD6DD2BDC5F24"
+			rewards: [{
+				id: "2DB2DDD9F33E24F8"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "Scoria Vents are found anywhere in the overworld, specically in Mountain Biomes"
 			tasks: [{
 				id: "6652F4098EB5E691"
@@ -612,27 +884,54 @@
 				to_observe: "molten_vents:dormant_molten_scoria"
 				type: "observation"
 			}]
-			x: -13.5d
+			title: "Find a Scoria Vent"
+			x: -10.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["20EDD6DD2BDC5F24"]
+			description: ["In Order to generate Scoria you will need a source block of Chocolate Milkshake"]
 			icon: "molten_vents:active_molten_scoria"
 			id: "209E1E05BC1E3B6C"
-			subtitle: "In Order to generate Scoria you will need a source block of Chocolate Milkshake, below is how you craft it."
-			tasks: [{
-				id: "6045436CC30698AD"
-				observe_type: 0
-				timer: 0L
-				to_observe: "molten_vents:active_molten_scoria"
-				type: "observation"
-			}]
-			x: -13.5d
+			rewards: [
+				{
+					id: "7CDBC14DDA3ACD84"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 9
+					id: "5CA641AB244C463C"
+					item: "create:scoria"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6045436CC30698AD"
+					observe_type: 0
+					timer: 0L
+					to_observe: "molten_vents:active_molten_scoria"
+					type: "observation"
+				}
+				{
+					id: "1F9286C967EE2FF1"
+					title: "Check"
+					type: "checkmark"
+				}
+			]
+			title: "Observe an Active Scoria Vent"
+			x: -10.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["209E1E05BC1E3B6C"]
 			id: "258ED4CCAF8A61A6"
+			rewards: [{
+				id: "0726456B85A453CF"
+				item: "minecraft:lapis_block"
+				type: "item"
+			}]
 			subtitle: "Scoria can be later crushed down to produce lapis"
 			tasks: [
 				{
@@ -646,24 +945,34 @@
 					type: "item"
 				}
 			]
-			x: -13.5d
+			x: -10.5d
 			y: 6.0d
 		}
 		{
 			dependencies: ["0B070C4D8A55E5A8"]
 			id: "0BE45E37D29D38DC"
+			rewards: [{
+				id: "5D5356304B0F9FB1"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				biome: "#incendium:all_incendium_biomes"
 				id: "6FD8F60FF72264DF"
 				type: "biome"
 			}]
-			x: -8.0d
+			x: -5.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["0BE45E37D29D38DC"]
 			icon: "molten_vents:dormant_molten_scorchia"
 			id: "10D2ED18910A5579"
+			rewards: [{
+				id: "0474B5D283BE8FF0"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "Scoria Vents are found anywhere on the Nether Roof, specically in Incendium Biomes"
 			tasks: [{
 				id: "4C600B94BF8D1FF4"
@@ -672,27 +981,54 @@
 				to_observe: "molten_vents:dormant_molten_scorchia"
 				type: "observation"
 			}]
-			x: -9.0d
+			title: "Find a Scoria Vent"
+			x: -6.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["10D2ED18910A5579"]
+			description: ["In Order to generate Scorchia you will need a source block of Hot Chocolate"]
 			icon: "molten_vents:active_molten_scorchia"
 			id: "2F2166D0D6AE208F"
-			subtitle: "In Order to generate Scorchia you will need a source block of Hot Chocolate, below is how you craft it."
-			tasks: [{
-				id: "0CA5CC3437F7D216"
-				observe_type: 0
-				timer: 0L
-				to_observe: "molten_vents:active_molten_scorchia"
-				type: "observation"
-			}]
-			x: -9.0d
+			rewards: [
+				{
+					id: "032DF0EE19643E8B"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 9
+					id: "74F25E47F449307D"
+					item: "create:scorchia"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0CA5CC3437F7D216"
+					observe_type: 0
+					timer: 0L
+					to_observe: "molten_vents:active_molten_scorchia"
+					type: "observation"
+				}
+				{
+					id: "5798F441CEF6351D"
+					title: "Check"
+					type: "checkmark"
+				}
+			]
+			title: "Observe an Active Scorchia Vent"
+			x: -6.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["2F2166D0D6AE208F"]
 			id: "1C6456024AC2DC69"
+			rewards: [{
+				id: "181C7B180D14E312"
+				item: "minecraft:coal_block"
+				type: "item"
+			}]
 			subtitle: "Scorchia can be later crushed down to produce coal"
 			tasks: [
 				{
@@ -711,24 +1047,34 @@
 					type: "item"
 				}
 			]
-			x: -9.0d
+			x: -6.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["69CE3113324ED800"]
 			id: "2AE42496027E453C"
+			rewards: [{
+				id: "47812B6C26165297"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				biome: "#minecraft:is_overworld"
 				id: "2990B9CAC5A94F73"
 				type: "biome"
 			}]
-			x: -19.5d
+			x: -16.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["0BE45E37D29D38DC"]
 			icon: "molten_vents:dormant_molten_ancient_debris"
 			id: "647082E6390A647A"
+			rewards: [{
+				id: "364943CAAC5D6F6F"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "Ancient Debris Vents are found anywhere on the Nether Roof, specically in Incendium Biomes"
 			tasks: [{
 				id: "3D9B9B3A05B8FEF5"
@@ -737,27 +1083,54 @@
 				to_observe: "molten_vents:dormant_molten_ancient_debris"
 				type: "observation"
 			}]
-			x: -7.5d
+			title: "Find an Ancient Debris Vent"
+			x: -4.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["647082E6390A647A"]
+			description: ["In Order to generate Ancient Debris you will need a source block of Biofuel"]
 			icon: "molten_vents:active_molten_ancient_debris"
 			id: "294621D005CFAB64"
-			subtitle: "In Order to generate Ancient you will need a source block of Biofuel, below is how you craft it."
-			tasks: [{
-				id: "37C05661290FC4CC"
-				observe_type: 0
-				timer: 0L
-				to_observe: "molten_vents:active_molten_ancient_debris"
-				type: "observation"
-			}]
-			x: -7.5d
+			rewards: [
+				{
+					id: "6A8982C5AC423141"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 9
+					id: "6AB2989FAA411B98"
+					item: "minecraft:ancient_debris"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "37C05661290FC4CC"
+					observe_type: 0
+					timer: 0L
+					to_observe: "molten_vents:active_molten_ancient_debris"
+					type: "observation"
+				}
+				{
+					id: "7E0085AB832C0F0D"
+					title: "Check"
+					type: "checkmark"
+				}
+			]
+			title: "Observe an Active Ancient Debris Vent"
+			x: -4.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["294621D005CFAB64"]
 			id: "2CC72BCA4AD0F914"
+			rewards: [{
+				id: "1236940D6D363910"
+				item: "minecraft:netherite_block"
+				type: "item"
+			}]
 			subtitle: "Ancient Debris can be later crushed down to produce netherite scraps"
 			tasks: [
 				{
@@ -786,25 +1159,35 @@
 					type: "item"
 				}
 			]
-			x: -7.5d
+			x: -4.5d
 			y: 6.0d
 		}
 		{
 			dependencies: ["4D23ABB810220050"]
 			id: "3F3C7C3F33BB9E64"
+			rewards: [{
+				id: "33759C0DCE97C9A1"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				biome: "deeperdarker:deeplands"
 				id: "6A40E9C1B431A726"
 				type: "biome"
 			}]
-			x: -6.0d
+			x: -3.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["3F3C7C3F33BB9E64"]
 			icon: "molten_vents:dormant_molten_sculk_grime"
 			id: "66C50363340B22B0"
-			subtitle: "Sculk Grime Vents are found anywhere in the Deeper Darker Otherside, specically in the Deeplands"
+			rewards: [{
+				id: "5B2A072CD74851D2"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Sculk Grime Vents are found anywhere in the Deeper Darker Otherside Bedrock Roof, specically in the Deeplands"
 			tasks: [{
 				id: "68F38195DCD117B9"
 				observe_type: 0
@@ -812,27 +1195,55 @@
 				to_observe: "molten_vents:dormant_molten_sculk_grime"
 				type: "observation"
 			}]
-			x: -6.0d
+			title: "Find a Sculk Grime Vent"
+			x: -3.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["66C50363340B22B0"]
+			description: ["In Order to generate Sculk Grime you will need a source block of Cryofuel"]
 			icon: "molten_vents:active_molten_sculk_grime"
 			id: "509AE3462D404452"
-			subtitle: "In Order to generate Sculk Grime you will need a source block of Cryofuel, below is how you craft it."
-			tasks: [{
-				id: "63414EBC008D64C8"
-				observe_type: 0
-				timer: 0L
-				to_observe: "molten_vents:active_molten_sculk_grime"
-				type: "observation"
-			}]
-			x: -6.0d
+			rewards: [
+				{
+					id: "27D8E8A8B4295E00"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 9
+					id: "3B6BB0F371762D6F"
+					item: "deeperdarker:sculk_grime"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "63414EBC008D64C8"
+					observe_type: 0
+					timer: 0L
+					to_observe: "molten_vents:active_molten_sculk_grime"
+					type: "observation"
+				}
+				{
+					id: "732945088836E83E"
+					title: "Check"
+					type: "checkmark"
+				}
+			]
+			title: "Observe an Active Sculk Grime Vent"
+			x: -3.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["509AE3462D404452"]
 			id: "2243EE61FE9DF289"
+			rewards: [{
+				count: 3
+				id: "1E5AB020BB269EB5"
+				item: "minecraft:echo_shard"
+				type: "item"
+			}]
 			subtitle: "Sculk Grime can be later crushed down to produce Echo Shards"
 			tasks: [
 				{
@@ -851,13 +1262,18 @@
 					type: "item"
 				}
 			]
-			x: -6.0d
+			x: -3.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["2A29B35EF0255511"]
 			icon: "molten_vents:dormant_molten_aubrum"
 			id: "3B098E6474D498C5"
+			rewards: [{
+				id: "15F9FBE33E90E6C1"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "Aubrum Vents are found anywhere on the Moon, specically in the Lunar Wastelands"
 			tasks: [{
 				id: "09A5221C836DE7A9"
@@ -866,38 +1282,70 @@
 				to_observe: "molten_vents:dormant_molten_aubrum"
 				type: "observation"
 			}]
-			x: -4.5d
+			title: "Find a Aubrum Vent"
+			x: -1.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["470D358D9308FA68"]
 			id: "2A29B35EF0255511"
+			rewards: [{
+				id: "31488F0F0C6074DC"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				biome: "ad_astra:lunar_wastelands"
 				id: "0719CE8787C786B6"
 				type: "biome"
 			}]
-			x: -4.5d
+			x: -1.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["3B098E6474D498C5"]
+			description: ["In Order to generate Aubrum you will need a source block of Plant Oil"]
 			icon: "molten_vents:active_molten_aubrum"
 			id: "710F662B8F484D14"
-			subtitle: "In Order to generate Aubrum you will need a source block of Plant Oil, below is how you craft it."
-			tasks: [{
-				id: "4BECB0258B1555FA"
-				observe_type: 0
-				timer: 0L
-				to_observe: "molten_vents:active_molten_aubrum"
-				type: "observation"
-			}]
-			x: -4.5d
+			rewards: [
+				{
+					id: "20B7614B8B2AD70B"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 9
+					id: "4C989CAA43543C57"
+					item: "forge_frontier:aubrum"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4BECB0258B1555FA"
+					observe_type: 0
+					timer: 0L
+					to_observe: "molten_vents:active_molten_aubrum"
+					type: "observation"
+				}
+				{
+					id: "5191ED2F9E947B3B"
+					title: "Check"
+					type: "checkmark"
+				}
+			]
+			title: "Observe an Active Aubrum Vent"
+			x: -1.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["710F662B8F484D14"]
 			id: "50EDB37D923CB22A"
+			rewards: [{
+				id: "7CA578E9FD24EB11"
+				item: "ad_astra:desh_block"
+				type: "item"
+			}]
 			subtitle: "Aubrum can be later crushed down to produce Desh"
 			tasks: [
 				{
@@ -916,24 +1364,34 @@
 					type: "item"
 				}
 			]
-			x: -4.5d
+			x: -1.5d
 			y: 6.0d
 		}
 		{
 			dependencies: ["7339FE49A994B794"]
 			id: "02912A82870B46F7"
+			rewards: [{
+				id: "15F7BC52B44DC35E"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				biome: "#ad_astra:has_structure/mars_temple"
 				id: "2847E25810905D45"
 				type: "biome"
 			}]
-			x: -3.0d
+			x: 0.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["02912A82870B46F7"]
 			icon: "molten_vents:dormant_molten_stellaris"
 			id: "3C81772B0834E434"
+			rewards: [{
+				id: "5FEB1450A30908DF"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "Stellaris Vents are found anywhere on Mars, specically anywhere a Mars Temple can generate"
 			tasks: [{
 				id: "313920FA593F382C"
@@ -942,27 +1400,54 @@
 				to_observe: "molten_vents:dormant_molten_stellaris"
 				type: "observation"
 			}]
-			x: -3.0d
+			title: "Find a Stellaris Vent"
+			x: 0.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["3C81772B0834E434"]
+			description: ["In Order to generate Stellaris you will need a source block of Ethanol"]
 			icon: "molten_vents:active_molten_stellaris"
 			id: "663B98AD6EFF295F"
-			subtitle: "In Order to generate Stellaris you will need a source block of Ethanol, below is how you craft it."
-			tasks: [{
-				id: "51ECC68D118AFD5C"
-				observe_type: 0
-				timer: 0L
-				to_observe: "molten_vents:active_molten_stellaris"
-				type: "observation"
-			}]
-			x: -3.0d
+			rewards: [
+				{
+					id: "66A25E6C3505BB0E"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 9
+					id: "01A1FCCCE6515061"
+					item: "forge_frontier:stellaris"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "51ECC68D118AFD5C"
+					observe_type: 0
+					timer: 0L
+					to_observe: "molten_vents:active_molten_stellaris"
+					type: "observation"
+				}
+				{
+					id: "3663F4179207CE74"
+					title: "Check"
+					type: "checkmark"
+				}
+			]
+			title: "Observe an Active Stellaris Vent"
+			x: 0.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["663B98AD6EFF295F"]
 			id: "01B665D8F9A316F5"
+			rewards: [{
+				id: "303CB47A1C4B7F06"
+				item: "ad_astra:ostrum_block"
+				type: "item"
+			}]
 			subtitle: "Stellaris can be later crushed down to produce Ostrum"
 			tasks: [
 				{
@@ -981,24 +1466,34 @@
 					type: "item"
 				}
 			]
-			x: -3.0d
+			x: 0.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["6B619A2EB40D34C9"]
 			id: "144708074CDF64FA"
+			rewards: [{
+				id: "69C3AAE4ADE85B7B"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				biome: "ad_astra:venus_wastelands"
 				id: "618F9F45D2A0C840"
 				type: "biome"
 			}]
-			x: -1.5d
+			x: 1.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["144708074CDF64FA"]
 			icon: "molten_vents:dormant_molten_pyroclast"
 			id: "0526FF8AE3C0EA67"
+			rewards: [{
+				id: "09F8DC99FADEE584"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "Pyroclast Vents are found anywhere on Venus, specically in the Venus Wastelands"
 			tasks: [{
 				id: "7EDD1A3E4785C1B9"
@@ -1007,27 +1502,54 @@
 				to_observe: "molten_vents:dormant_molten_pyroclast"
 				type: "observation"
 			}]
-			x: -1.5d
+			title: "Find a Pyroclast Vent"
+			x: 1.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["0526FF8AE3C0EA67"]
+			description: ["In Order to generate Pyroclast you will need a source block of Biodiesel"]
 			icon: "molten_vents:active_molten_pyroclast"
 			id: "5B4BAD7A02DA1E85"
-			subtitle: "In Order to generate Pyroclast you will need a source block of Biodiesel, below is how you craft it."
-			tasks: [{
-				id: "44965B7AFD9A8E11"
-				observe_type: 0
-				timer: 0L
-				to_observe: "molten_vents:active_molten_pyroclast"
-				type: "observation"
-			}]
-			x: -1.5d
+			rewards: [
+				{
+					id: "19566B77B4EFEC8D"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 9
+					id: "25C8546B6798A36C"
+					item: "forge_frontier:pyroclast"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "44965B7AFD9A8E11"
+					observe_type: 0
+					timer: 0L
+					to_observe: "molten_vents:active_molten_pyroclast"
+					type: "observation"
+				}
+				{
+					id: "6F72D97B989C92C8"
+					title: "Check"
+					type: "checkmark"
+				}
+			]
+			title: "Observe an Active Pyroclast Vent"
+			x: 1.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["5B4BAD7A02DA1E85"]
 			id: "5D34AB7D53702E87"
+			rewards: [{
+				id: "42C842493E529CE9"
+				item: "ad_astra:calorite_block"
+				type: "item"
+			}]
 			subtitle: "Pyroclast can be later crushed down to produce Calorite"
 			tasks: [
 				{
@@ -1046,24 +1568,34 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
+			x: 1.5d
 			y: 6.0d
 		}
 		{
 			dependencies: ["744904CCFAFB6BB0"]
 			id: "2E540A2523D0F2B6"
+			rewards: [{
+				id: "58DFDB3FDFCD6343"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				biome: "ad_astra:glacio_snowy_barrens"
 				id: "2802084F4EA409F1"
 				type: "biome"
 			}]
-			x: 0.0d
+			x: 3.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["2E540A2523D0F2B6"]
 			icon: "molten_vents:dormant_molten_frostite"
 			id: "0080D7D3D9BE5BE3"
+			rewards: [{
+				id: "057CA8C95048DC5A"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "Frostite Vents are found anywhere on Glacio, specically in the Snowy Barrens"
 			tasks: [{
 				id: "65411C9E2ADC7D2D"
@@ -1072,27 +1604,54 @@
 				to_observe: "molten_vents:dormant_molten_frostite"
 				type: "observation"
 			}]
-			x: 0.0d
+			title: "Find a Frostite Vent"
+			x: 3.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["0080D7D3D9BE5BE3"]
+			description: ["In Order to generate Frostite you will need a source block of Water"]
 			icon: "molten_vents:active_molten_frostite"
 			id: "44226064B27B70F4"
-			subtitle: "In Order to generate Frostite you will need a source block of Water, below is how you craft it."
-			tasks: [{
-				id: "64F5E23C37C7A30E"
-				observe_type: 0
-				timer: 0L
-				to_observe: "molten_vents:active_molten_frostite"
-				type: "observation"
-			}]
-			x: 0.0d
+			rewards: [
+				{
+					id: "6D4F9CB37B025741"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 9
+					id: "1F80FAA18E61A97D"
+					item: "forge_frontier:frostite"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "64F5E23C37C7A30E"
+					observe_type: 0
+					timer: 0L
+					to_observe: "molten_vents:active_molten_frostite"
+					type: "observation"
+				}
+				{
+					id: "432F3D8953442F9C"
+					title: "Check"
+					type: "checkmark"
+				}
+			]
+			title: "Observe an Active Frostite Vent"
+			x: 3.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["44226064B27B70F4"]
 			id: "762F0613A935037B"
+			rewards: [{
+				id: "1B716908B10210C2"
+				item: "minecraft:blue_ice"
+				type: "item"
+			}]
 			subtitle: "Frostite can be later crushed down to produce Ice shards and processed down to Blue Ice"
 			tasks: [
 				{
@@ -1111,13 +1670,18 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
+			x: 3.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["4770A2BCE4F356A2"]
 			icon: "molten_vents:dormant_molten_radiantite"
 			id: "0886729EE4407B1B"
+			rewards: [{
+				id: "6B3D0431A731E119"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "Radiantite Vents are found anywhere in the End"
 			tasks: [{
 				id: "3E922327B6F978BA"
@@ -1126,27 +1690,54 @@
 				to_observe: "molten_vents:dormant_molten_radiantite"
 				type: "observation"
 			}]
-			x: 1.5d
+			title: "Find a Radiantite Vent"
+			x: 4.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["0886729EE4407B1B"]
+			description: ["In Order to generate Radiantite you will need a source block of Ruby Chocolate"]
 			icon: "molten_vents:active_molten_radiantite"
 			id: "3E23818C313CE507"
-			subtitle: "In Order to generate Radiantite you will need a source block of Ruby Chocolate, below is how you craft it."
-			tasks: [{
-				id: "4AB892918C4AEFC8"
-				observe_type: 0
-				timer: 0L
-				to_observe: "molten_vents:active_molten_radiantite"
-				type: "observation"
-			}]
-			x: 1.5d
+			rewards: [
+				{
+					id: "2FE9B7A3D644089F"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 9
+					id: "5D9BFE773457270C"
+					item: "forge_frontier:radiantite"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4AB892918C4AEFC8"
+					observe_type: 0
+					timer: 0L
+					to_observe: "molten_vents:active_molten_radiantite"
+					type: "observation"
+				}
+				{
+					id: "43C5FF43E6FB4129"
+					title: "Check"
+					type: "checkmark"
+				}
+			]
+			title: "Observe an Active Radiantite Vent"
+			x: 4.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["3E23818C313CE507"]
 			id: "1831C70E0A4B9875"
+			rewards: [{
+				id: "5CF687C3FF9D8481"
+				item: "enlightened_end:irradium_block"
+				type: "item"
+			}]
 			subtitle: "Radiantite can be later crushed down to produce Irradium"
 			tasks: [
 				{
@@ -1165,24 +1756,34 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
+			x: 4.5d
 			y: 6.0d
 		}
 		{
 			dependencies: ["15DD51BFD4480F8D"]
 			id: "4770A2BCE4F356A2"
+			rewards: [{
+				id: "4A00BFFCA38BA419"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				biome: "#minecraft:is_end"
 				id: "5B5490AB23F60826"
 				type: "biome"
 			}]
-			x: 3.0d
+			x: 6.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["4770A2BCE4F356A2"]
 			icon: "molten_vents:dormant_molten_void_shale"
 			id: "177FD83E945AE2BE"
+			rewards: [{
+				id: "7285F2D75656FEB1"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "Void Shale Vents are found anywhere in the End"
 			tasks: [{
 				id: "5993EC5234DA3722"
@@ -1191,27 +1792,54 @@
 				to_observe: "molten_vents:dormant_molten_void_shale"
 				type: "observation"
 			}]
-			x: 3.0d
+			title: "Find a Void Shale Vent"
+			x: 6.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["177FD83E945AE2BE"]
+			description: ["In Order to generate Void Shale you will need a source block of Ruby Chocolate"]
 			icon: "molten_vents:active_molten_void_shale"
 			id: "01C54F69AC1A05BF"
-			subtitle: "In Order to generate Void Shale you will need a source block of Ruby Chocolate, below is how you craft it."
-			tasks: [{
-				id: "476609A8F8D6DE07"
-				observe_type: 0
-				timer: 0L
-				to_observe: "molten_vents:active_molten_void_shale"
-				type: "observation"
-			}]
-			x: 3.0d
+			rewards: [
+				{
+					id: "62D39E374B1452A1"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 9
+					id: "5C7E50FB12E061FC"
+					item: "enlightened_end:void_shale"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "476609A8F8D6DE07"
+					observe_type: 0
+					timer: 0L
+					to_observe: "molten_vents:active_molten_void_shale"
+					type: "observation"
+				}
+				{
+					id: "185712DDE2420C7B"
+					title: "Check"
+					type: "checkmark"
+				}
+			]
+			title: "Observe an Active Void Shale Vent"
+			x: 6.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["01C54F69AC1A05BF"]
 			id: "4BA4F5D20D29BDF5"
+			rewards: [{
+				id: "6905F8194EC931D8"
+				item: "enlightened_end:malachite_block"
+				type: "item"
+			}]
 			subtitle: "Void Shale can be later crushed down to produce Malachite"
 			tasks: [
 				{
@@ -1230,13 +1858,18 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
+			x: 6.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["4770A2BCE4F356A2"]
 			icon: "molten_vents:dormant_molten_palerock"
 			id: "0F87A00F314DD547"
+			rewards: [{
+				id: "4D18DF8A625E8A5E"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "Palerock Vents are found anywhere in the End"
 			tasks: [{
 				id: "37B1D1C7B27E941B"
@@ -1245,27 +1878,54 @@
 				to_observe: "molten_vents:dormant_molten_palerock"
 				type: "observation"
 			}]
-			x: 4.5d
+			title: "Find a Palerock Vent"
+			x: 7.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["0F87A00F314DD547"]
+			description: ["In Order to generate Palerock you will need a source block of Ruby Chocolate"]
 			icon: "molten_vents:active_molten_palerock"
 			id: "1A9E7670491FAD6C"
-			subtitle: "In Order to generate Palerock you will need a source block of Ruby Chocolate, below is how you craft it."
-			tasks: [{
-				id: "02DF6927766FD305"
-				observe_type: 0
-				timer: 0L
-				to_observe: "molten_vents:active_molten_palerock"
-				type: "observation"
-			}]
-			x: 4.5d
+			rewards: [
+				{
+					id: "0A812E4558147F41"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 9
+					id: "34AFB1C038D3AF2F"
+					item: "enlightened_end:palerock"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "02DF6927766FD305"
+					observe_type: 0
+					timer: 0L
+					to_observe: "molten_vents:active_molten_palerock"
+					type: "observation"
+				}
+				{
+					id: "33D60D3A44B686EE"
+					title: "Check"
+					type: "checkmark"
+				}
+			]
+			title: "Observe an Active Palerock Vent"
+			x: 7.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["1A9E7670491FAD6C"]
 			id: "726D2E537567B30E"
+			rewards: [{
+				id: "73170DAF75556EC7"
+				item: "enlightened_end:bismuth_block"
+				type: "item"
+			}]
 			subtitle: "Palerock can be later crushed down to produce Bismuth"
 			tasks: [
 				{
@@ -1284,13 +1944,18 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
+			x: 7.5d
 			y: 6.0d
 		}
 		{
 			dependencies: ["6CA23EC46D870FBD"]
 			icon: "molten_vents:dormant_molten_pearlyte"
 			id: "6AE156D8DE1D619A"
+			rewards: [{
+				id: "1F4B2E46FAFCF587"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "Pearlyte Vents are found anywhere on the Abyssal Chasm Planet, on the ocean floor"
 			tasks: [{
 				id: "01D19050FCD28992"
@@ -1299,14 +1964,28 @@
 				to_observe: "molten_vents:dormant_molten_pearlyte"
 				type: "observation"
 			}]
-			x: 6.0d
+			title: "Find a Pearlyte Vent"
+			x: 9.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["6AE156D8DE1D619A"]
+			description: ["In Order to generate Pearlyte you will need a source block of Water"]
 			icon: "molten_vents:active_molten_pearlyte"
 			id: "7A93C8B2FBEAE376"
-			subtitle: "In Order to generate Pearlyte you will need a source block of Water, below is how you craft it."
+			rewards: [
+				{
+					id: "75E087AD48C7231C"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 9
+					id: "473C6DCB8378958B"
+					item: "forge_frontier:pearlyte"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "69EDE13D94B7F100"
 				observe_type: 0
@@ -1314,12 +1993,18 @@
 				to_observe: "molten_vents:active_molten_pearlyte"
 				type: "observation"
 			}]
-			x: 6.0d
+			title: "Observe an Active Pearlyte Vent"
+			x: 9.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["7A93C8B2FBEAE376"]
 			id: "0FA3746C38F794B8"
+			rewards: [{
+				id: "07819F5D3924AD18"
+				item: "alexscaves:block_of_pearl"
+				type: "item"
+			}]
 			subtitle: "Pearlyte can be later crushed down to produce Pearls"
 			tasks: [
 				{
@@ -1338,24 +2023,34 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
+			x: 9.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["6CDC2B37D835F804"]
 			id: "6CA23EC46D870FBD"
+			rewards: [{
+				id: "0768EF58E5D235DE"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				biome: "alexscaves:abyssal_chasm"
 				id: "25042AD01AB92C8B"
 				type: "biome"
 			}]
-			x: 6.0d
+			x: 9.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["40DB7FDC0CC426FF"]
 			icon: "molten_vents:dormant_molten_amberlite"
 			id: "2401FE22DF6AF5B1"
+			rewards: [{
+				id: "1841FEDEBB5CE955"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "Amberlite Vents are found anywhere on the Primordial Caves Planet"
 			tasks: [{
 				id: "2A1835053C55F59E"
@@ -1364,27 +2059,54 @@
 				to_observe: "molten_vents:dormant_molten_amberlite"
 				type: "observation"
 			}]
-			x: 7.5d
+			title: "Find an Amberlite Vent"
+			x: 10.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["2401FE22DF6AF5B1"]
+			description: ["In Order to generate Amberlite you will need a source block of Honey"]
 			icon: "molten_vents:active_molten_aubrum"
 			id: "08863212E09FCDC5"
-			subtitle: "In Order to generate Amberlite you will need a source block of Honey, below is how you craft it."
-			tasks: [{
-				id: "63DD635DB619CC91"
-				observe_type: 0
-				timer: 0L
-				to_observe: "molten_vents:active_molten_amberlite"
-				type: "observation"
-			}]
-			x: 7.5d
+			rewards: [
+				{
+					id: "20F971686E6894EF"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 9
+					id: "53F3E3C1B834A640"
+					item: "forge_frontier:amberlite"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "63DD635DB619CC91"
+					observe_type: 0
+					timer: 0L
+					to_observe: "molten_vents:active_molten_amberlite"
+					type: "observation"
+				}
+				{
+					id: "079BB4830BDCA83A"
+					title: "Check"
+					type: "checkmark"
+				}
+			]
+			title: "Observe an Active Amberlite Vent"
+			x: 10.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["08863212E09FCDC5"]
 			id: "0CDC55F79B076819"
+			rewards: [{
+				id: "24FCA09BC348325D"
+				item: "forge_frontier:compressed_amber_1x"
+				type: "item"
+			}]
 			subtitle: "Amberlite can be later crushed down to produce Amber"
 			tasks: [
 				{
@@ -1403,13 +2125,18 @@
 					type: "item"
 				}
 			]
-			x: 7.5d
+			x: 10.5d
 			y: 6.0d
 		}
 		{
 			dependencies: ["0988690A536B7D19"]
 			icon: "molten_vents:dormant_molten_guanite"
 			id: "07CB0B903E62B853"
+			rewards: [{
+				id: "71A239892B06EA58"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "Guanite Vents are found anywhere on the Forlorn Hollows Planet"
 			tasks: [{
 				id: "0F3FD41581A064A6"
@@ -1418,27 +2145,54 @@
 				to_observe: "molten_vents:dormant_molten_guanite"
 				type: "observation"
 			}]
-			x: 9.0d
+			title: "Find a Guanite Vent"
+			x: 12.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["07CB0B903E62B853"]
+			description: ["In Order to generate Guanite you will need a source block of Liquid Fertilizer"]
 			icon: "molten_vents:active_molten_guanite"
 			id: "7FE6F26BE90E2F27"
-			subtitle: "In Order to generate Guanite you will need a source block of Liquid Fertilizer, below is how you craft it."
-			tasks: [{
-				id: "54C9309A3B60C03E"
-				observe_type: 0
-				timer: 0L
-				to_observe: "molten_vents:active_molten_guanite"
-				type: "observation"
-			}]
-			x: 9.0d
+			rewards: [
+				{
+					id: "75418F1A3D5F8D53"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 9
+					id: "659A61078E772040"
+					item: "forge_frontier:guanite"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "54C9309A3B60C03E"
+					observe_type: 0
+					timer: 0L
+					to_observe: "molten_vents:active_molten_guanite"
+					type: "observation"
+				}
+				{
+					id: "3868E6FCFFEC723A"
+					title: "Check"
+					type: "checkmark"
+				}
+			]
+			title: "Observe an Active Guanite Vent"
+			x: 12.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["7FE6F26BE90E2F27"]
 			id: "1E562262A93B8241"
+			rewards: [{
+				id: "7B659633EFA35D2B"
+				item: "alexscaves:guano_block"
+				type: "item"
+			}]
 			subtitle: "Guanite can be later crushed down to produce Guano"
 			tasks: [
 				{
@@ -1457,13 +2211,18 @@
 					type: "item"
 				}
 			]
-			x: 9.0d
+			x: 12.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["434A80C989CFB176"]
 			icon: "molten_vents:dormant_molten_uraniumnite"
 			id: "70DF75B6AEEF8D39"
+			rewards: [{
+				id: "7F29F47D0A197B90"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "Uraniumnite Vents are found anywhere on the Toxic Caves Planet"
 			tasks: [{
 				id: "6000D0FCF2A4250B"
@@ -1472,27 +2231,54 @@
 				to_observe: "molten_vents:dormant_molten_uraniumnite"
 				type: "observation"
 			}]
-			x: 10.5d
+			title: "Find a Uraniumnite Vent"
+			x: 13.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["70DF75B6AEEF8D39"]
+			description: ["In Order to generate Uraniumnite you will need a source block of Acid"]
 			icon: "molten_vents:active_molten_uraniumnite"
 			id: "29FE8FE2DE79D7EB"
-			subtitle: "In Order to generate Uraniumnite you will need a source block of Acid, below is how you craft it."
-			tasks: [{
-				id: "75E642E557765EEC"
-				observe_type: 0
-				timer: 0L
-				to_observe: "molten_vents:active_molten_uraniumnite"
-				type: "observation"
-			}]
-			x: 10.5d
+			rewards: [
+				{
+					id: "63DBDC738FFCB8FE"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 9
+					id: "0904223323759657"
+					item: "forge_frontier:uraniumnite"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "75E642E557765EEC"
+					observe_type: 0
+					timer: 0L
+					to_observe: "molten_vents:active_molten_uraniumnite"
+					type: "observation"
+				}
+				{
+					id: "53E9D00E7B3A8358"
+					title: "Check"
+					type: "checkmark"
+				}
+			]
+			title: "Observe an Active Uraniumnite Vent"
+			x: 13.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["29FE8FE2DE79D7EB"]
 			id: "2C5F9A3210357A54"
+			rewards: [{
+				id: "175A2F4866238DAD"
+				item: "alexscaves:block_of_uranium"
+				type: "item"
+			}]
 			subtitle: "Uraniumnite can be later crushed down to produce Uranium"
 			tasks: [
 				{
@@ -1511,13 +2297,18 @@
 					type: "item"
 				}
 			]
-			x: 10.5d
+			x: 13.5d
 			y: 6.0d
 		}
 		{
 			dependencies: ["434A80C989CFB176"]
 			icon: "molten_vents:dormant_molten_sulphite"
 			id: "19D60673B8DCB77D"
+			rewards: [{
+				id: "19B9F2CA3B7CEEAD"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "Sulphite Vents are found anywhere on the Toxic Caves Planet"
 			tasks: [{
 				id: "6D4C4B54FEA5675A"
@@ -1526,27 +2317,54 @@
 				to_observe: "molten_vents:dormant_molten_sulphite"
 				type: "observation"
 			}]
-			x: 12.0d
+			title: "Find a Sulphite Vent"
+			x: 15.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["19D60673B8DCB77D"]
+			description: ["In Order to generate Sulphite you will need a source block of Acid"]
 			icon: "molten_vents:active_molten_sulphite"
 			id: "5D438DEA0BB292B8"
-			subtitle: "In Order to generate Sulphite you will need a source block of Acid, below is how you craft it."
-			tasks: [{
-				id: "2DC569213340ECB8"
-				observe_type: 0
-				timer: 0L
-				to_observe: "molten_vents:active_molten_sulphite"
-				type: "observation"
-			}]
-			x: 12.0d
+			rewards: [
+				{
+					id: "086190CC63D53284"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 9
+					id: "22D0E4DE97DD081E"
+					item: "forge_frontier:sulphite"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2DC569213340ECB8"
+					observe_type: 0
+					timer: 0L
+					to_observe: "molten_vents:active_molten_sulphite"
+					type: "observation"
+				}
+				{
+					id: "1DE1BFC9A6770761"
+					title: "Check"
+					type: "checkmark"
+				}
+			]
+			title: "Observe an Active Sulphite Vent"
+			x: 15.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["5D438DEA0BB292B8"]
 			id: "5A5234A74B3FCB66"
+			rewards: [{
+				id: "42316BD26ECFF53D"
+				item: "alexscaves:sulfur"
+				type: "item"
+			}]
 			subtitle: "Sulphite can be later crushed down to produce Sulfur"
 			tasks: [
 				{
@@ -1565,13 +2383,18 @@
 					type: "item"
 				}
 			]
-			x: 12.0d
+			x: 15.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["42CE6455938E37CF"]
 			icon: "molten_vents:dormant_molten_neodymrium"
 			id: "08A5AEA1CB0268D8"
+			rewards: [{
+				id: "61E8BF13EF0E0E63"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "Neodyrium Vents are found anywhere on the Magnetic Caves Planet"
 			tasks: [{
 				id: "1461FFEDE382BC3A"
@@ -1580,27 +2403,54 @@
 				to_observe: "molten_vents:dormant_molten_neodymrium"
 				type: "observation"
 			}]
-			x: 13.5d
+			title: "Find a Neodyrium Vent"
+			x: 16.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["08A5AEA1CB0268D8"]
+			description: ["In Order to generate Neodyrium you will need a source block of Molten Iron"]
 			icon: "molten_vents:active_molten_neodymrium"
 			id: "0A4C2780B6C139D7"
-			subtitle: "In Order to generate Neodyrium you will need a source block of Molten Iron, below is how you craft it."
-			tasks: [{
-				id: "01E049AC29960F26"
-				observe_type: 0
-				timer: 0L
-				to_observe: "molten_vents:active_molten_neodymrium"
-				type: "observation"
-			}]
-			x: 13.5d
+			rewards: [
+				{
+					id: "22674904D1DA9918"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 9
+					id: "0D5122C97D62A4C7"
+					item: "forge_frontier:neodymrium"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "01E049AC29960F26"
+					observe_type: 0
+					timer: 0L
+					to_observe: "molten_vents:active_molten_neodymrium"
+					type: "observation"
+				}
+				{
+					id: "2A0041379BFC6E1F"
+					title: "Check"
+					type: "checkmark"
+				}
+			]
+			title: "Observe an Active Neodyrium Vent"
+			x: 16.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["0A4C2780B6C139D7"]
 			id: "5125C4BB0C5CD5F2"
+			rewards: [{
+				id: "2B3BE1490431ADC0"
+				item: "alexscaves:block_of_scarlet_neodymium"
+				type: "item"
+			}]
 			subtitle: "Neodyrium can be later crushed down to produce Scarlet Neodyrium"
 			tasks: [
 				{
@@ -1619,13 +2469,18 @@
 					type: "item"
 				}
 			]
-			x: 13.5d
+			x: 16.5d
 			y: 6.0d
 		}
 		{
 			dependencies: ["42CE6455938E37CF"]
 			icon: "molten_vents:dormant_molten_azurnium"
 			id: "2F41CAD739040E8A"
+			rewards: [{
+				id: "66DD1C46AB326BD4"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "Azurnium Vents are found anywhere on the Magnetic Caves Planet"
 			tasks: [{
 				id: "5F3404309D2D26C8"
@@ -1634,27 +2489,54 @@
 				to_observe: "molten_vents:dormant_molten_azurnium"
 				type: "observation"
 			}]
-			x: 15.0d
+			title: "Find a Azurnium Vent"
+			x: 18.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["2F41CAD739040E8A"]
+			description: ["In Order to generate Azurnium you will need a source block of Molten Iron"]
 			icon: "molten_vents:active_molten_azurnium"
 			id: "190032AF768B4BC2"
-			subtitle: "In Order to generate Azurnium you will need a source block of Molten Iron, below is how you craft it."
-			tasks: [{
-				id: "290F7423FE023314"
-				observe_type: 0
-				timer: 0L
-				to_observe: "molten_vents:active_molten_azurnium"
-				type: "observation"
-			}]
-			x: 15.0d
+			rewards: [
+				{
+					id: "0A5FE97BA4DCC29C"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 9
+					id: "4C41D247B12C8C98"
+					item: "forge_frontier:azurnium"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "290F7423FE023314"
+					observe_type: 0
+					timer: 0L
+					to_observe: "molten_vents:active_molten_azurnium"
+					type: "observation"
+				}
+				{
+					id: "301914F523F0039E"
+					title: "Check"
+					type: "checkmark"
+				}
+			]
+			title: "Observe an Active Azurnium Vent"
+			x: 18.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["190032AF768B4BC2"]
 			id: "445414776DDE9819"
+			rewards: [{
+				id: "70C9BBCDD3D57A12"
+				item: "alexscaves:block_of_azure_neodymium"
+				type: "item"
+			}]
 			subtitle: "Azurnium can be later crushed down to produce Azure Neodyrium"
 			tasks: [
 				{
@@ -1673,7 +2555,7 @@
 					type: "item"
 				}
 			]
-			x: 15.0d
+			x: 18.0d
 			y: 6.0d
 		}
 	]
