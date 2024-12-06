@@ -459,11 +459,10 @@
 			}]
 			shape: "rsquare"
 			tasks: [{
-				icon: "artifacts:mimic_spawn_egg"
-				id: "39CDDB3AEDC20779"
-				optional_task: true
-				title: "Artifacts"
-				type: "custom"
+				entity: "artifacts:mimic"
+				id: "4A2E530015E86C2B"
+				type: "kill"
+				value: 1L
 			}]
 			x: 2.0d
 			y: 4.5d
