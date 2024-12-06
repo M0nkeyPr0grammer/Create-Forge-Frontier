@@ -13,30 +13,31 @@
 			rotation: 0.0d
 			width: 15.0d
 			x: 0.0d
-			y: -5.5d
+			y: -7.5d
 		}
 		{
-			height: 3.5d
+			height: 4.0d
 			image: "ftb:textures/asurine_vent.png"
 			rotation: 0.0d
-			width: 5.6d
+			width: 6.4d
 			x: -9.0d
 			y: -3.0d
 		}
 		{
-			height: 3.5d
+			height: 4.0d
 			image: "ftb:textures/debris_vent.png"
 			rotation: 0.0d
-			width: 5.6d
-			x: 8.0d
+			width: 6.4d
+			x: 9.0d
 			y: -3.0d
 		}
 	]
-	order_index: 5
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["7AC47553B491EE76"]
+			icon: "minecraft:grass_block"
 			id: "69CE3113324ED800"
 			shape: "hexagon"
 			tasks: [{
@@ -49,6 +50,7 @@
 		}
 		{
 			dependencies: ["7AC47553B491EE76"]
+			icon: "minecraft:netherrack"
 			id: "0B070C4D8A55E5A8"
 			shape: "hexagon"
 			tasks: [{
@@ -61,6 +63,7 @@
 		}
 		{
 			dependencies: ["7AC47553B491EE76"]
+			icon: "deeperdarker:heart_of_the_deep"
 			id: "4D23ABB810220050"
 			shape: "hexagon"
 			tasks: [{
@@ -73,6 +76,7 @@
 		}
 		{
 			dependencies: ["7AC47553B491EE76"]
+			icon: "ad_astra:moon_globe"
 			id: "470D358D9308FA68"
 			shape: "hexagon"
 			tasks: [{
@@ -85,6 +89,7 @@
 		}
 		{
 			dependencies: ["7AC47553B491EE76"]
+			icon: "ad_astra:mars_globe"
 			id: "7339FE49A994B794"
 			shape: "hexagon"
 			tasks: [{
@@ -97,6 +102,7 @@
 		}
 		{
 			dependencies: ["7AC47553B491EE76"]
+			icon: "ad_astra:venus_globe"
 			id: "6B619A2EB40D34C9"
 			shape: "hexagon"
 			tasks: [{
@@ -109,6 +115,7 @@
 		}
 		{
 			dependencies: ["7AC47553B491EE76"]
+			icon: "ad_astra:glacio_globe"
 			id: "744904CCFAFB6BB0"
 			shape: "hexagon"
 			tasks: [{
@@ -121,6 +128,7 @@
 		}
 		{
 			dependencies: ["7AC47553B491EE76"]
+			icon: "minecraft:end_stone"
 			id: "15DD51BFD4480F8D"
 			shape: "hexagon"
 			tasks: [{
@@ -133,6 +141,7 @@
 		}
 		{
 			dependencies: ["7AC47553B491EE76"]
+			icon: "alexscaves:submarine"
 			id: "6CDC2B37D835F804"
 			shape: "hexagon"
 			tasks: [{
@@ -145,6 +154,7 @@
 		}
 		{
 			dependencies: ["7AC47553B491EE76"]
+			icon: "alexscaves:pure_darkness"
 			id: "40DB7FDC0CC426FF"
 			shape: "hexagon"
 			tasks: [{
@@ -157,6 +167,13 @@
 		}
 		{
 			dependencies: ["7AC47553B491EE76"]
+			icon: {
+				Count: 1
+				id: "alexscaves:primordial_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "0988690A536B7D19"
 			shape: "hexagon"
 			tasks: [{
@@ -169,6 +186,13 @@
 		}
 		{
 			dependencies: ["7AC47553B491EE76"]
+			icon: {
+				Count: 1
+				id: "alexscaves:hazmat_mask"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "434A80C989CFB176"
 			shape: "hexagon"
 			tasks: [{
@@ -176,11 +200,12 @@
 				id: "001E6A2B41C27264"
 				type: "dimension"
 			}]
-			x: 14.5d
+			x: 17.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["7AC47553B491EE76"]
+			icon: "alexscaves:telecore"
 			id: "42CE6455938E37CF"
 			shape: "hexagon"
 			tasks: [{
@@ -188,7 +213,7 @@
 				id: "43CBDB5891078EB5"
 				type: "dimension"
 			}]
-			x: 17.5d
+			x: 14.5d
 			y: 0.0d
 		}
 		{
@@ -206,14 +231,14 @@
 			]
 			hide_dependent_lines: true
 			icon: "molten_vents:active_molten_asurine"
-			icon_scale: 2.0d
 			id: "7AC47553B491EE76"
 			rewards: [{
 				id: "044F3A7E366EB2DB"
 				type: "xp"
-				xp: 50
+				xp: 25
 			}]
-			size: 1.0d
+			shape: "gear"
+			size: 3.0d
 			subtitle: "Molten Vents: A New Era of Resource Generation, Click me for more info!"
 			tasks: [
 				{
@@ -229,7 +254,7 @@
 			]
 			title: "Molten Vents"
 			x: 0.0d
-			y: -3.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["2AE42496027E453C"]
@@ -255,7 +280,10 @@
 		}
 		{
 			dependencies: ["4408A399D517CDB6"]
-			description: ["In Order to generate Crimsite you will need a source block of Strawberry Milkshake"]
+			description: [
+				"In Order to generate Crimsite you will need a source block of"
+				"{ \"text\": \"Strawberry Milkshake\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0998CA8B44BA0EB7\" } }"
+			]
 			icon: "molten_vents:active_molten_crimsite"
 			id: "0EA0C2CDE7F62ECA"
 			rewards: [
@@ -283,6 +311,11 @@
 					id: "0C4AB629145BBEFA"
 					title: "Check"
 					type: "checkmark"
+				}
+				{
+					id: "532E28D4A1EEDC46"
+					item: "create_dd:strawberry_milkshake_bucket"
+					type: "item"
 				}
 			]
 			title: "Observe an Active Crimsite Vent"
@@ -342,7 +375,10 @@
 		}
 		{
 			dependencies: ["070BAAF36335CB39"]
-			description: ["In Order to generate Ochrum you will need a source block of Glowberry Milkshake"]
+			description: [
+				"In Order to generate Ochrum you will need a source block of "
+				"{ \"text\": \"Glow Berry Milkshake\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1F22F9F9B3D393E1\" } }"
+			]
 			icon: "molten_vents:active_molten_ochrum"
 			id: "1107E04D2BA51211"
 			rewards: [
@@ -370,6 +406,11 @@
 					id: "041563C8988DBB87"
 					title: "Check"
 					type: "checkmark"
+				}
+				{
+					id: "068E20D9D7EC5C91"
+					item: "create_dd:glowberry_milkshake_bucket"
+					type: "item"
 				}
 			]
 			title: "Observe an Active Ochrum Vent"
@@ -444,7 +485,10 @@
 		}
 		{
 			dependencies: ["1B9BED1C00DB2BDE"]
-			description: ["In Order to generate Asurine you will need a source block of Cream"]
+			description: [
+				"In Order to generate Asurine you will need a source block of "
+				"{ \"text\": \"Cream\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5FFE2F9EA4FCFE3D\" } }"
+			]
 			icon: "molten_vents:active_molten_asurine"
 			id: "0AFE52653EE975A8"
 			rewards: [
@@ -472,6 +516,11 @@
 					id: "44B0DF1ADDE58193"
 					title: "Check"
 					type: "checkmark"
+				}
+				{
+					id: "2E5C0AB045760243"
+					item: "create_dd:cream_bucket"
+					type: "item"
 				}
 			]
 			title: "Observe an Active Asurine Vent"
@@ -530,7 +579,10 @@
 		}
 		{
 			dependencies: ["6BF481A48C136085"]
-			description: ["In Order to generate Veridium you will need a source block of Caramel Milkshake"]
+			description: [
+				"In Order to generate Veridium you will need a source block of "
+				"{ \"text\": \"Caramel Milkshake\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"571CE6F8667DA48F\" } }"
+			]
 			icon: "molten_vents:active_molten_veridium"
 			id: "2D5E52CE4653E96C"
 			rewards: [
@@ -558,6 +610,11 @@
 					id: "4DD8E99AFB478F52"
 					title: "Check"
 					type: "checkmark"
+				}
+				{
+					id: "2B435641613A9242"
+					item: "create_dd:caramel_milkshake_bucket"
+					type: "item"
 				}
 			]
 			title: "Observe an Active Veridium Vent"
@@ -616,7 +673,10 @@
 		}
 		{
 			dependencies: ["79632EC457A3A88D"]
-			description: ["In Order to generate Potassic you will need a source block of Vanilla Milkshake"]
+			description: [
+				"In Order to generate Potassic you will need a source block of "
+				"{ \"text\": \"Vanilla Milkshake\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2E99FE44436A381C\" } }"
+			]
 			icon: "molten_vents:active_molten_potassic"
 			id: "0079BEE03A3285FB"
 			rewards: [
@@ -644,6 +704,11 @@
 					id: "456D3DED4BD537A6"
 					title: "Check"
 					type: "checkmark"
+				}
+				{
+					id: "59B57A0B35F87DC3"
+					item: "create_dd:vanilla_milkshake_bucket"
+					type: "item"
 				}
 			]
 			title: "Observe an Active Potassic Vent"
@@ -890,7 +955,10 @@
 		}
 		{
 			dependencies: ["20EDD6DD2BDC5F24"]
-			description: ["In Order to generate Scoria you will need a source block of Chocolate Milkshake"]
+			description: [
+				"In Order to generate Scoria you will need a source block of "
+				"{ \"text\": \"Chocolate Milkshake\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2BE12AF20FA6DC0D\" } }"
+			]
 			icon: "molten_vents:active_molten_scoria"
 			id: "209E1E05BC1E3B6C"
 			rewards: [
@@ -918,6 +986,11 @@
 					id: "1F9286C967EE2FF1"
 					title: "Check"
 					type: "checkmark"
+				}
+				{
+					id: "77F6FFE5FC67F781"
+					item: "create_dd:chocolate_milkshake_bucket"
+					type: "item"
 				}
 			]
 			title: "Observe an Active Scoria Vent"
@@ -2232,7 +2305,7 @@
 				type: "observation"
 			}]
 			title: "Find a Uraniumnite Vent"
-			x: 13.5d
+			x: 16.5d
 			y: 3.0d
 		}
 		{
@@ -2268,7 +2341,7 @@
 				}
 			]
 			title: "Observe an Active Uraniumnite Vent"
-			x: 13.5d
+			x: 16.5d
 			y: 4.5d
 		}
 		{
@@ -2297,7 +2370,7 @@
 					type: "item"
 				}
 			]
-			x: 13.5d
+			x: 16.5d
 			y: 6.0d
 		}
 		{
@@ -2318,7 +2391,7 @@
 				type: "observation"
 			}]
 			title: "Find a Sulphite Vent"
-			x: 15.0d
+			x: 18.0d
 			y: 3.0d
 		}
 		{
@@ -2354,7 +2427,7 @@
 				}
 			]
 			title: "Observe an Active Sulphite Vent"
-			x: 15.0d
+			x: 18.0d
 			y: 4.5d
 		}
 		{
@@ -2383,7 +2456,7 @@
 					type: "item"
 				}
 			]
-			x: 15.0d
+			x: 18.0d
 			y: 6.0d
 		}
 		{
@@ -2404,7 +2477,7 @@
 				type: "observation"
 			}]
 			title: "Find a Neodyrium Vent"
-			x: 16.5d
+			x: 13.5d
 			y: 3.0d
 		}
 		{
@@ -2440,7 +2513,7 @@
 				}
 			]
 			title: "Observe an Active Neodyrium Vent"
-			x: 16.5d
+			x: 13.5d
 			y: 4.5d
 		}
 		{
@@ -2469,7 +2542,7 @@
 					type: "item"
 				}
 			]
-			x: 16.5d
+			x: 13.5d
 			y: 6.0d
 		}
 		{
@@ -2490,7 +2563,7 @@
 				type: "observation"
 			}]
 			title: "Find a Azurnium Vent"
-			x: 18.0d
+			x: 15.0d
 			y: 3.0d
 		}
 		{
@@ -2526,7 +2599,7 @@
 				}
 			]
 			title: "Observe an Active Azurnium Vent"
-			x: 18.0d
+			x: 15.0d
 			y: 4.5d
 		}
 		{
@@ -2555,7 +2628,7 @@
 					type: "item"
 				}
 			]
-			x: 18.0d
+			x: 15.0d
 			y: 6.0d
 		}
 	]
