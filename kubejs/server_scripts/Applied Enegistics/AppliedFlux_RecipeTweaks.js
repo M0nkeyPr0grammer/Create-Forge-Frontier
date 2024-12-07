@@ -33,6 +33,7 @@ ServerEvents.recipes(event => {
 
     // Inscriber Energy Press Duplication Create Energistics Compat Recipe
     event.remove({ id: 'appflux:inscriber/energy_press' })
+    event.remove({ id: 'appflux:charger/energy_press'})
     event.custom({
         type: "create:sequenced_assembly",
         ingredient: {
@@ -152,7 +153,7 @@ ServerEvents.recipes(event => {
     event.custom({
         type: 'create:sequenced_assembly',
         ingredient: {
-            item: 'appflux:energy_processor_press'
+            item: 'appflux:charged_redstone'
         },
         transitionalItem: {
             item: 'createappliedkinetics:incomplete_silicon_press'
@@ -162,7 +163,7 @@ ServerEvents.recipes(event => {
                 type: 'create:deploying',
                 ingredients: [
                     { item: 'createappliedkinetics:incomplete_silicon_press' },
-                    { item: 'appflux:charged_redstone' }
+                    { item: 'appflux:energy_processor_press'}
                 ],
                 results: [
                     { item: 'createappliedkinetics:incomplete_silicon_press' }

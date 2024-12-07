@@ -7,6 +7,15 @@
 	id: "1A74677C706502CB"
 	order_index: 6
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "008E338B9FA40999"
+		tasks: [{
+			id: "1CC7C835D71D7FBF"
+			structure: "betterwitchhuts:witch_hut"
+			type: "structure"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
 	title: "YUNG's Better Structures"
 }
