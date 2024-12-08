@@ -172,19 +172,19 @@
 		#.
 		#Configure how Spawner blocks can be moved by contraptions.
 		#Allowed Values: MOVABLE, NO_PICKUP, UNMOVABLE
-		movableSpawners = "NO_PICKUP"
+		movableSpawners = "MOVABLE"
 		#.
 		#Configure how Budding Amethyst can be moved by contraptions.
 		#Allowed Values: MOVABLE, NO_PICKUP, UNMOVABLE
-		amethystMovement = "NO_PICKUP"
+		amethystMovement = "MOVABLE"
 		#.
 		#Configure how Obsidian blocks can be moved by contraptions.
 		#Allowed Values: MOVABLE, NO_PICKUP, UNMOVABLE
-		movableObsidian = "NO_PICKUP"
+		movableObsidian = "MOVABLE"
 		#.
 		#Configure how Reinforced Deepslate blocks can be moved by contraptions.
 		#Allowed Values: MOVABLE, NO_PICKUP, UNMOVABLE
-		movableReinforcedDeepslate = "NO_PICKUP"
+		movableReinforcedDeepslate = "MOVABLE"
 		#.
 		#Whether items mined or harvested by contraptions should be placed in their mounted storage.
 		moveItemsToStorage = true
