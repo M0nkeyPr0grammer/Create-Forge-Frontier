@@ -208,7 +208,7 @@
 			subtitle: "Found on Glacio"
 			tasks: [{
 				id: "0B47C133663E4941"
-				structure: "cataclysm:ancient_factory"
+				structure: "cataclysm:frosted_prison"
 				type: "structure"
 			}]
 			x: -3.5d
