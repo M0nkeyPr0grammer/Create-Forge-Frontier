@@ -60,7 +60,7 @@
 			rotation: 0.0d
 			width: 7.0d
 			x: 4.5d
-			y: 7.5d
+			y: -9.0d
 		}
 	]
 	order_index: 1
@@ -265,7 +265,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 7.5d
+			y: 5.5d
 		}
 		{
 			id: "767465A8B1032AB3"

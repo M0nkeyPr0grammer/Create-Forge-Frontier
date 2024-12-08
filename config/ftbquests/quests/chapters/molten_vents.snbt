@@ -13,23 +13,23 @@
 			rotation: 0.0d
 			width: 15.0d
 			x: 0.0d
-			y: -7.5d
+			y: -9.0d
 		}
 		{
 			height: 4.0d
 			image: "ftb:textures/asurine_vent.png"
 			rotation: 0.0d
 			width: 6.4d
-			x: -9.0d
-			y: -3.0d
+			x: -8.5d
+			y: -4.0d
 		}
 		{
 			height: 4.0d
 			image: "ftb:textures/debris_vent.png"
 			rotation: 0.0d
 			width: 6.4d
-			x: 9.0d
-			y: -3.0d
+			x: 8.0d
+			y: -4.5d
 		}
 	]
 	order_index: 0
@@ -254,7 +254,7 @@
 			]
 			title: "Molten Vents"
 			x: 0.0d
-			y: -4.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["2AE42496027E453C"]
