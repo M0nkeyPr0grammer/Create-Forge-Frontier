@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	filename: "chocolate"
 	group: "72C8A595982548D5"
-	icon: "create:chocolate_bucket"
+	icon: "create:bar_of_chocolate"
 	id: "67ACAE7C60BDFF29"
 	images: [
 		{
