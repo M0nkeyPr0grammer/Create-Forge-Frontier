@@ -1,6 +1,19 @@
 // Mod Recipe Fixes
 ServerEvents.recipes(event => {
 
+    // Adds Missing Black Steel Block Recipe
+    event.shaped(
+		Item.of('cataclysm:black_steel_block'),
+		[
+			'BBB',
+			'BBB',
+			'BBB'
+		],
+		{
+			B: 'cataclysm:black_steel_ingot'
+		}
+	).id( 'forge_frontier:shaped/black_steel_block' )
+
     // Compatibility Issues Recipe Removals
     event.remove({ id: 'tfmg:sequenced_assembly/heavy_plate'});
     event.remove({ id: 'forge_frontier:compacting/iron_plate'});
