@@ -9,7 +9,15 @@
 		tag: { }
 	}
 	id: "791E7ECDAA733210"
-	order_index: 4
+	images: [{
+		height: 10.0d
+		image: "ftb:textures/jetpacks_title.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 0.0d
+		y: -9.5d
+	}]
+	order_index: 3
 	quest_links: [ ]
 	quests: [{
 		id: "095AC2921FF21A9E"
@@ -23,7 +31,7 @@
 			type: "item"
 		}]
 		x: 0.0d
-		y: 0.0d
+		y: -5.5d
 	}]
 	title: "Jetpacks"
 }

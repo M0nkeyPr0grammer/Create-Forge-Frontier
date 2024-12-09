@@ -5,6 +5,14 @@
 	group: "4BDF92F640B2C9B4"
 	icon: "alexscaves:telecore"
 	id: "0CB940C75B8C2053"
+	images: [{
+		height: 10.0d
+		image: "ftb:textures/magnetic_caves_title.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 0.0d
+		y: -9.5d
+	}]
 	order_index: 4
 	quest_links: [ ]
 	quests: [{
@@ -16,7 +24,7 @@
 			type: "dimension"
 		}]
 		x: 0.0d
-		y: 0.0d
+		y: -5.0d
 	}]
 	title: "Magnetic Caves"
 }

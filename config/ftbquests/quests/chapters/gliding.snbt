@@ -11,23 +11,43 @@
 		}
 	}
 	id: "43B0989ECB2D8211"
-	order_index: 3
-	quest_links: [ ]
-	quests: [{
-		id: "7F622D9507B3E12E"
-		tasks: [{
-			id: "16E5B237C541C3F4"
-			item: {
-				Count: 1
-				id: "hangglider:hang_glider"
-				tag: {
-					Damage: 0
-				}
-			}
-			type: "item"
-		}]
+	images: [{
+		height: 10.0d
+		image: "ftb:textures/gliding_title.png"
+		rotation: 0.0d
+		width: 15.0d
 		x: 0.0d
-		y: 0.0d
+		y: -9.5d
 	}]
-	title: "Gliding"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7F622D9507B3E12E"
+			tasks: [{
+				id: "16E5B237C541C3F4"
+				item: {
+					Count: 1
+					id: "hangglider:hang_glider"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			id: "325177A367BA4F16"
+			tasks: [{
+				id: "26CF51F4ACA6930E"
+				item: "balancedflight:flight_anchor"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.5d
+		}
+	]
+	title: "Gliding and Flight"
 }

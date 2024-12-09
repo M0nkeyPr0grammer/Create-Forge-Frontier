@@ -5,14 +5,24 @@
 	group: "154A5E2FF6C25F19"
 	icon: "forge_frontier:forge_rocket_engine"
 	id: "345B7D1BE3EDD4F5"
-	images: [{
-		height: 2.0d
-		image: "ftb:textures/_forge_frontier_mechanical_crafting_forge_rocket_engine.png"
-		rotation: 0.0d
-		width: 3.2d
-		x: 4.0d
-		y: -1.0d
-	}]
+	images: [
+		{
+			height: 2.0d
+			image: "ftb:textures/_forge_frontier_mechanical_crafting_forge_rocket_engine.png"
+			rotation: 0.0d
+			width: 3.2d
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/rocket_engine_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: -9.5d
+		}
+	]
 	order_index: 5
 	quest_links: [ ]
 	quests: [
@@ -25,8 +35,8 @@
 				item: "balancedflight:ascended_flight_ring"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -0.5d
+			x: 0.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["3E186F177E7D056E"]
@@ -37,8 +47,8 @@
 				item: "balancedflight:flight_anchor"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -1.5d
+			x: 0.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["3E186F177E7D056E"]
@@ -55,8 +65,8 @@
 				}
 				type: "item"
 			}]
-			x: -0.5d
-			y: 0.5d
+			x: 0.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["3E186F177E7D056E"]
@@ -67,8 +77,8 @@
 				item: "create:controls"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 0.5d
+			x: 1.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["3E186F177E7D056E"]
@@ -79,8 +89,8 @@
 				item: "create:track_station"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 0.5d
+			x: -1.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["3E186F177E7D056E"]
@@ -97,8 +107,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
-			y: -0.5d
+			x: 1.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["3E186F177E7D056E"]
@@ -113,8 +123,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
-			y: -0.5d
+			x: -1.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["3E186F177E7D056E"]
@@ -125,8 +135,8 @@
 				item: "immersive_aircraft:biplane"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -1.5d
+			x: -1.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["3E186F177E7D056E"]
@@ -143,8 +153,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
-			y: -1.5d
+			x: 1.0d
+			y: -8.0d
 		}
 		{
 			dependencies: [
@@ -167,7 +177,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 0.5d
+			y: -7.0d
 		}
 		{
 			hide_dependent_lines: true
@@ -178,8 +188,8 @@
 				title: "Forge Rocket Check"
 				type: "checkmark"
 			}]
-			x: -4.0d
-			y: -0.5d
+			x: -3.5d
+			y: -7.0d
 		}
 	]
 	title: "Forge Rocket Engine"

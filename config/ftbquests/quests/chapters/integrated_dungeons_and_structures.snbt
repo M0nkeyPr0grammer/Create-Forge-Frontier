@@ -4,6 +4,14 @@
 	filename: "integrated_dungeons_and_structures"
 	group: "4FAD6EACDA300DDE"
 	id: "3DD28C0A059FAE3E"
+	images: [{
+		height: 10.0d
+		image: "ftb:textures/idas_title.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 0.0d
+		y: -9.5d
+	}]
 	order_index: 4
 	quest_links: [ ]
 	quests: [{
@@ -14,7 +22,7 @@
 			type: "structure"
 		}]
 		x: 0.0d
-		y: 0.0d
+		y: -5.5d
 	}]
 	title: "Integrated Dungeons and Structures"
 }

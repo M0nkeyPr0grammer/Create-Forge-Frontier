@@ -5,6 +5,14 @@
 	group: "4BDF92F640B2C9B4"
 	icon: "alexscaves:candy_cane"
 	id: "56397BACC10A68A4"
+	images: [{
+		height: 10.0d
+		image: "ftb:textures/alexs_caves_delight_title.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 0.0d
+		y: -9.5d
+	}]
 	order_index: 3
 	quest_links: [ ]
 	quests: [{
@@ -16,7 +24,7 @@
 			type: "dimension"
 		}]
 		x: 0.0d
-		y: 0.0d
+		y: -5.0d
 	}]
 	title: "Candy Cavity"
 }

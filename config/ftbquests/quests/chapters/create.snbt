@@ -5,6 +5,14 @@
 	group: "3D5393E3938A9DF4"
 	icon: "create:wrench"
 	id: "75A130608EB16D0F"
+	images: [{
+		height: 10.0d
+		image: "ftb:textures/create_title.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 0.0d
+		y: -9.5d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [{
@@ -15,7 +23,7 @@
 			type: "item"
 		}]
 		x: 0.0d
-		y: 0.0d
+		y: -7.0d
 	}]
 	title: "Create"
 }

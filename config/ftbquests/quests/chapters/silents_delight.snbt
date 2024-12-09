@@ -5,6 +5,14 @@
 	group: "47881FC157552E6E"
 	icon: "silentsdelight:warden_ear"
 	id: "7B179CC2E5FD191F"
+	images: [{
+		height: 10.0d
+		image: "ftb:textures/silents_title.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 0.0d
+		y: -9.5d
+	}]
 	order_index: 17
 	quest_links: [ ]
 	quests: [{
@@ -15,7 +23,7 @@
 			type: "item"
 		}]
 		x: 0.0d
-		y: 0.0d
+		y: -4.0d
 	}]
 	title: "Silent's Delight"
 }

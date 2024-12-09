@@ -5,6 +5,14 @@
 	group: "4CF6B0D92A681E0C"
 	icon: "create_enchantment_industry:enchanting_guide"
 	id: "6E8ACBA28F1C9D1D"
+	images: [{
+		height: 10.0d
+		image: "ftb:textures/enchantment_industry_title.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 0.0d
+		y: -9.5d
+	}]
 	order_index: 1
 	quest_links: [ ]
 	quests: [{
@@ -14,8 +22,8 @@
 			item: "create_enchantment_industry:disenchanter"
 			type: "item"
 		}]
-		x: 0.0d
-		y: 0.0d
+		x: -0.5d
+		y: -4.0d
 	}]
 	title: "Create Enchantment Industry"
 }

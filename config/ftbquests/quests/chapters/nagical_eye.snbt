@@ -20,7 +20,7 @@
 			rotation: 0.0d
 			width: 11.65d
 			x: 0.0d
-			y: -4.0d
+			y: -5.5d
 		}
 		{
 			click: "#73DF623736B936E9"
@@ -29,8 +29,16 @@
 			image: "ftbchunks:textures/faces/minecraft/evoker.png"
 			rotation: 0.0d
 			width: 2.0d
-			x: 3.5d
-			y: 1.5d
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/magical_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: -9.5d
 		}
 	]
 	order_index: 11
@@ -51,7 +59,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 3.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["2A0FEBB91E8B582F"]
@@ -63,7 +71,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["72DBFC6476091A3A"]
@@ -75,7 +83,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -0.5d
+			y: -2.0d
 		}
 	]
 	title: "Magical Eye"

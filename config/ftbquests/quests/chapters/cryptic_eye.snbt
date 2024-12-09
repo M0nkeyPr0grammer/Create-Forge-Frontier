@@ -11,16 +11,26 @@
 		}
 	}
 	id: "1A1D6C91422477FE"
-	images: [{
-		click: "#53D48FEA9672C6AE"
-		height: 5.0d
-		hover: ["Cryptic Eye Enchanting Example"]
-		image: "ftb:textures/cryptic.png"
-		rotation: 0.0d
-		width: 12.25d
-		x: 0.0d
-		y: -8.0d
-	}]
+	images: [
+		{
+			click: "#53D48FEA9672C6AE"
+			height: 5.0d
+			hover: ["Cryptic Eye Enchanting Example"]
+			image: "ftb:textures/cryptic.png"
+			rotation: 0.0d
+			width: 12.25d
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/cryptic_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: -9.5d
+		}
+	]
 	order_index: 16
 	quest_links: [ ]
 	quests: [
@@ -39,7 +49,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 0.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["0D9A77A2F4BA4951"]
@@ -51,7 +61,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -4.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["53D48FEA9672C6AE"]
@@ -63,7 +73,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -2.5d
+			y: 0.0d
 		}
 	]
 	title: "Cryptic Eye"

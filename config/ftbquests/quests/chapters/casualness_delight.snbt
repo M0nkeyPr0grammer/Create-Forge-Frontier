@@ -5,6 +5,14 @@
 	group: "47881FC157552E6E"
 	icon: "casualness_delight:deep_frying_pan"
 	id: "277C28DF56AC93FF"
+	images: [{
+		height: 10.0d
+		image: "ftb:textures/casualness_delight_title.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 0.0d
+		y: -9.5d
+	}]
 	order_index: 5
 	quest_links: [ ]
 	quests: [{

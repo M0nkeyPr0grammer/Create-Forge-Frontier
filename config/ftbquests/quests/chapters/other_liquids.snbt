@@ -5,6 +5,14 @@
 	group: "72C8A595982548D5"
 	icon: "alexscaves:acid_bucket"
 	id: "1F1435C2E3326CC3"
+	images: [{
+		height: 10.0d
+		image: "ftb:textures/liquids_title.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 0.0d
+		y: -9.5d
+	}]
 	order_index: 5
 	quest_links: [ ]
 	quests: [
@@ -15,8 +23,8 @@
 				item: "alexscaves:acid_bucket"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 0.0d
+			x: -0.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["44226064B27B70F4"]
@@ -26,8 +34,8 @@
 				item: "minecraft:water_bucket"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 1.5d
+			x: -4.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["3C8BB040F86DB9D8"]
@@ -38,8 +46,8 @@
 				item: "create:honey_bucket"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 1.5d
+			x: -3.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["08863212E09FCDC5"]
@@ -49,8 +57,8 @@
 				item: "minecraft:honey_block"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 3.0d
+			x: -3.0d
+			y: -2.5d
 		}
 		{
 			dependencies: [
@@ -64,8 +72,8 @@
 				item: "sliceanddice:fertilizer_bucket"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 1.5d
+			x: -0.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["7FE6F26BE90E2F27"]
@@ -76,8 +84,8 @@
 				item: { Count: 2, id: "create:tree_fertilizer" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 3.0d
+			x: -1.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["7FE6F26BE90E2F27"]
@@ -87,8 +95,8 @@
 				item: "minecraft:water_bucket"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 3.0d
+			x: 0.5d
+			y: -2.5d
 		}
 		{
 			dependencies: [
@@ -102,8 +110,8 @@
 				item: "alexscaves:acid_bucket"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 1.5d
+			x: 3.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["29FE8FE2DE79D7EB"]
@@ -114,8 +122,8 @@
 				item: { Count: 6, id: "alexscaves:sulfur_dust" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 3.0d
+			x: 2.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["29FE8FE2DE79D7EB"]
@@ -125,8 +133,8 @@
 				item: "minecraft:water_bucket"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 3.0d
+			x: 4.0d
+			y: -2.5d
 		}
 	]
 	title: "Other Liquids"

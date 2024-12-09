@@ -5,6 +5,14 @@
 	group: "37A1080736831E36"
 	icon: "artifacts:mimic_spawn_egg"
 	id: "610BFEF0F735DD2C"
+	images: [{
+		height: 10.0d
+		image: "ftb:textures/artifacts_title.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 0.0d
+		y: -9.5d
+	}]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -15,8 +23,8 @@
 				item: "artifacts:rooted_boots"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -3.0d
+			x: -2.5d
+			y: -6.5d
 		}
 		{
 			id: "40B320030AB715B7"
@@ -25,8 +33,8 @@
 				item: "artifacts:umbrella"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 3.0d
+			x: 3.5d
+			y: -0.5d
 		}
 		{
 			id: "395CF4D42079BE3C"
@@ -35,8 +43,8 @@
 				item: "artifacts:whoopee_cushion"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -3.0d
+			x: -1.5d
+			y: -6.5d
 		}
 		{
 			id: "2F7E27E65552C146"
@@ -45,8 +53,8 @@
 				item: "artifacts:flippers"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -2.0d
+			x: -2.5d
+			y: -5.5d
 		}
 		{
 			id: "253EEEA73CB58BB0"
@@ -55,8 +63,8 @@
 				item: "artifacts:pocket_piston"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -2.0d
+			x: -1.5d
+			y: -5.5d
 		}
 		{
 			id: "3D68A923968CA95B"
@@ -65,8 +73,8 @@
 				item: "artifacts:fire_gauntlet"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -2.0d
+			x: -0.5d
+			y: -5.5d
 		}
 		{
 			id: "3784F69457B965F8"
@@ -75,8 +83,8 @@
 				item: "artifacts:power_glove"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -2.0d
+			x: 0.5d
+			y: -5.5d
 		}
 		{
 			id: "7E3FFDAAE739D25C"
@@ -85,8 +93,8 @@
 				item: "artifacts:feral_claws"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -2.0d
+			x: 1.5d
+			y: -5.5d
 		}
 		{
 			id: "5993F0159F361862"
@@ -95,8 +103,8 @@
 				item: "artifacts:digging_claws"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -2.0d
+			x: 2.5d
+			y: -5.5d
 		}
 		{
 			id: "216AA5C7B9044BEE"
@@ -105,8 +113,8 @@
 				item: "artifacts:chorus_totem"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -2.0d
+			x: 3.5d
+			y: -5.5d
 		}
 		{
 			id: "21986AAD76B0E560"
@@ -115,8 +123,8 @@
 				item: "artifacts:helium_flamingo"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -1.0d
+			x: 3.5d
+			y: -4.5d
 		}
 		{
 			id: "439C94CBC28B1C0F"
@@ -125,8 +133,8 @@
 				item: "artifacts:crystal_heart"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -1.0d
+			x: 2.5d
+			y: -4.5d
 		}
 		{
 			id: "1C61E1B82AA99C70"
@@ -135,8 +143,8 @@
 				item: "artifacts:universal_attractor"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -1.0d
+			x: 1.5d
+			y: -4.5d
 		}
 		{
 			id: "022CFB0B83F29D73"
@@ -145,8 +153,8 @@
 				item: "artifacts:antidote_vessel"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -1.0d
+			x: 0.5d
+			y: -4.5d
 		}
 		{
 			id: "26B83AB78138784E"
@@ -155,8 +163,8 @@
 				item: "artifacts:obsidian_skull"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -1.0d
+			x: -0.5d
+			y: -4.5d
 		}
 		{
 			id: "01439144D894E319"
@@ -165,8 +173,8 @@
 				item: "artifacts:vampiric_glove"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -1.0d
+			x: -1.5d
+			y: -4.5d
 		}
 		{
 			id: "1BF33CE57EE9E896"
@@ -175,8 +183,8 @@
 				item: "artifacts:steadfast_spikes"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -1.0d
+			x: -2.5d
+			y: -4.5d
 		}
 		{
 			id: "4F485C90D1E733F4"
@@ -185,8 +193,8 @@
 				item: "artifacts:snowshoes"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 0.0d
+			x: -2.5d
+			y: -3.5d
 		}
 		{
 			id: "42888BBB54921902"
@@ -195,8 +203,8 @@
 				item: "artifacts:golden_hook"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: -1.5d
+			y: -3.5d
 		}
 		{
 			id: "18171CFFD3BC5D3B"
@@ -205,8 +213,8 @@
 				item: "artifacts:cloud_in_a_bottle"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 0.0d
+			x: -0.5d
+			y: -3.5d
 		}
 		{
 			id: "399D8D32A4F3FE3E"
@@ -215,8 +223,8 @@
 				item: "artifacts:scarf_of_invisibility"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 0.0d
+			x: 0.5d
+			y: -3.5d
 		}
 		{
 			id: "38F8673AC0149E70"
@@ -225,8 +233,8 @@
 				item: "artifacts:lucky_scarf"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 0.0d
+			x: 1.5d
+			y: -3.5d
 		}
 		{
 			id: "274CD66836CEA30A"
@@ -235,8 +243,8 @@
 				item: "artifacts:anglers_hat"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 0.0d
+			x: 2.5d
+			y: -3.5d
 		}
 		{
 			id: "453798BA5578D4CA"
@@ -245,8 +253,8 @@
 				item: "artifacts:cowboy_hat"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 0.0d
+			x: 3.5d
+			y: -3.5d
 		}
 		{
 			id: "1E79648725447666"
@@ -255,8 +263,8 @@
 				item: "artifacts:night_vision_goggles"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 1.0d
+			x: 3.5d
+			y: -2.5d
 		}
 		{
 			id: "7BDB5330272D4CCD"
@@ -265,8 +273,8 @@
 				item: "artifacts:villager_hat"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 1.0d
+			x: 2.5d
+			y: -2.5d
 		}
 		{
 			id: "1836C0093ED17A92"
@@ -275,8 +283,8 @@
 				item: "artifacts:superstitious_hat"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 1.0d
+			x: 1.5d
+			y: -2.5d
 		}
 		{
 			id: "76CC915C331B536D"
@@ -285,8 +293,8 @@
 				item: "artifacts:cross_necklace"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 1.0d
+			x: 0.5d
+			y: -2.5d
 		}
 		{
 			id: "13E75B5696049A80"
@@ -295,8 +303,8 @@
 				item: "artifacts:charm_of_sinking"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 1.0d
+			x: -0.5d
+			y: -2.5d
 		}
 		{
 			id: "799F60A6BDAC36D9"
@@ -305,8 +313,8 @@
 				item: "artifacts:onion_ring"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 1.0d
+			x: -1.5d
+			y: -2.5d
 		}
 		{
 			id: "3696B13B0530AE75"
@@ -315,8 +323,8 @@
 				item: "artifacts:running_shoes"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 1.0d
+			x: -2.5d
+			y: -2.5d
 		}
 		{
 			id: "2F131E5BD0C96F7C"
@@ -325,8 +333,8 @@
 				item: "artifacts:kitty_slippers"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 2.0d
+			x: -2.5d
+			y: -1.5d
 		}
 		{
 			id: "25E48414D809F574"
@@ -335,8 +343,8 @@
 				item: "artifacts:pickaxe_heater"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 2.0d
+			x: -1.5d
+			y: -1.5d
 		}
 		{
 			id: "0D3D65856C4A74BF"
@@ -345,8 +353,8 @@
 				item: "artifacts:thorn_pendant"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 2.0d
+			x: -0.5d
+			y: -1.5d
 		}
 		{
 			id: "7E1BCE3FB37CA20B"
@@ -355,8 +363,8 @@
 				item: "artifacts:panic_necklace"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 2.0d
+			x: 0.5d
+			y: -1.5d
 		}
 		{
 			id: "0975A55C538BDEEF"
@@ -365,8 +373,8 @@
 				item: "artifacts:snorkel"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 2.0d
+			x: 1.5d
+			y: -1.5d
 		}
 		{
 			id: "556666730655DF8D"
@@ -375,8 +383,8 @@
 				item: "artifacts:novelty_drinking_hat"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 2.0d
+			x: 2.5d
+			y: -1.5d
 		}
 		{
 			id: "51DE9BEBFAFB50AF"
@@ -385,8 +393,8 @@
 				item: "artifacts:plastic_drinking_hat"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 2.0d
+			x: 3.5d
+			y: -1.5d
 		}
 		{
 			id: "4C3377CBE0298230"
@@ -395,8 +403,8 @@
 				item: "artifacts:everlasting_beef"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 3.0d
+			x: 2.5d
+			y: -0.5d
 		}
 		{
 			id: "48AE82A8A38E4AEC"
@@ -405,8 +413,8 @@
 				item: "artifacts:eternal_steak"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 3.0d
+			x: 1.5d
+			y: -0.5d
 		}
 		{
 			id: "45E07722A66075D3"
@@ -415,8 +423,8 @@
 				item: "artifacts:shock_pendant"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 3.0d
+			x: 0.5d
+			y: -0.5d
 		}
 		{
 			id: "3B8EAB7B279FBB28"
@@ -425,8 +433,8 @@
 				item: "artifacts:flame_pendant"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 3.0d
+			x: -0.5d
+			y: -0.5d
 		}
 		{
 			id: "5B7F4584304B5879"
@@ -435,8 +443,8 @@
 				item: "artifacts:aqua_dashers"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 3.0d
+			x: -1.5d
+			y: -0.5d
 		}
 		{
 			id: "5C1C2620EE0E09C8"
@@ -445,8 +453,8 @@
 				item: "artifacts:bunny_hoppers"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 3.0d
+			x: -2.5d
+			y: -0.5d
 		}
 		{
 			hide_dependency_lines: true
@@ -464,8 +472,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 2.0d
-			y: 4.5d
+			x: 0.5d
+			y: 1.0d
 		}
 	]
 	title: "Artifacts"

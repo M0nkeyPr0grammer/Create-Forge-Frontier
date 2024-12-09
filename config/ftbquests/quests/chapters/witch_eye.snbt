@@ -20,7 +20,7 @@
 			rotation: 0.0d
 			width: 3.0d
 			x: -6.0d
-			y: -2.0d
+			y: -1.5d
 		}
 		{
 			click: "#191399B59F8D5660"
@@ -30,7 +30,15 @@
 			rotation: 0.0d
 			width: 2.0d
 			x: 5.5d
-			y: -0.5d
+			y: 0.0d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/witch_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: -9.5d
 		}
 	]
 	order_index: 13
@@ -56,7 +64,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 0.0d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -78,7 +86,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -100,7 +108,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["6D1F1DB7B6A3DA79"]
@@ -112,7 +120,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["6D1F1DB7B6A3DA79"]
@@ -125,7 +133,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -5.5d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -147,7 +155,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -5.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["6D1F1DB7B6A3DA79"]
@@ -165,7 +173,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: -7.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["6D1F1DB7B6A3DA79"]
@@ -177,7 +185,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -7.5d
+			y: -7.0d
 		}
 		{
 			dependencies: [
@@ -199,7 +207,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["6D1F1DB7B6A3DA79"]
@@ -211,7 +219,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -233,7 +241,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["6D1F1DB7B6A3DA79"]
@@ -246,7 +254,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -5.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["6D1F1DB7B6A3DA79"]
@@ -259,7 +267,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -5.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["6D1F1DB7B6A3DA79"]
@@ -270,7 +278,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["191399B59F8D5660"]
@@ -281,7 +289,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["11C11918822286ED"]
@@ -294,7 +302,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["6D1F1DB7B6A3DA79"]
@@ -307,7 +315,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 2.5d
+			y: 3.0d
 		}
 	]
 	title: "Witch Eye"

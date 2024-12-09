@@ -9,14 +9,24 @@
 		tag: { }
 	}
 	id: "245390955F99D921"
-	images: [{
-		height: 15.0d
-		image: "ftb:textures/forge_rocket.png"
-		rotation: 0.0d
-		width: 7.5d
-		x: 0.0d
-		y: 0.0d
-	}]
+	images: [
+		{
+			height: 15.0d
+			image: "ftb:textures/forge_rocket.png"
+			rotation: 0.0d
+			width: 7.5d
+			x: 0.0d
+			y: -3.25d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/forge_rocket_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: -9.5d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -100,7 +110,7 @@
 				}
 			]
 			x: 0.0d
-			y: -5.25d
+			y: -8.5d
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
@@ -125,7 +135,7 @@
 				}
 			]
 			x: -2.0d
-			y: 4.5d
+			y: 1.25d
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
@@ -149,7 +159,7 @@
 				}
 			]
 			x: -2.0d
-			y: 3.0d
+			y: -0.25d
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
@@ -174,7 +184,7 @@
 				}
 			]
 			x: 2.0d
-			y: 4.5d
+			y: 1.25d
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
@@ -198,7 +208,7 @@
 				}
 			]
 			x: 2.0d
-			y: 3.0d
+			y: -0.25d
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
@@ -222,7 +232,7 @@
 				}
 			]
 			x: -1.0d
-			y: 3.0d
+			y: -0.25d
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
@@ -247,7 +257,7 @@
 				}
 			]
 			x: 1.0d
-			y: 3.0d
+			y: -0.25d
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
@@ -271,7 +281,7 @@
 				}
 			]
 			x: 0.0d
-			y: 3.0d
+			y: -0.25d
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
@@ -295,7 +305,7 @@
 				}
 			]
 			x: 0.0d
-			y: 4.0d
+			y: 0.75d
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
@@ -320,7 +330,7 @@
 				}
 			]
 			x: -1.0d
-			y: 2.0d
+			y: -1.25d
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
@@ -345,7 +355,7 @@
 				}
 			]
 			x: 0.0d
-			y: 2.0d
+			y: -1.25d
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
@@ -370,7 +380,7 @@
 				}
 			]
 			x: 1.0d
-			y: 2.0d
+			y: -1.25d
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
@@ -395,7 +405,7 @@
 				}
 			]
 			x: -1.0d
-			y: 1.0d
+			y: -2.25d
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
@@ -420,7 +430,7 @@
 				}
 			]
 			x: 1.0d
-			y: 1.0d
+			y: -2.25d
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
@@ -445,7 +455,7 @@
 				}
 			]
 			x: -1.0d
-			y: 0.0d
+			y: -3.25d
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
@@ -470,7 +480,7 @@
 				}
 			]
 			x: 1.0d
-			y: 0.0d
+			y: -3.25d
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
@@ -495,7 +505,7 @@
 				}
 			]
 			x: -1.0d
-			y: -1.0d
+			y: -4.25d
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
@@ -520,7 +530,7 @@
 				}
 			]
 			x: 0.0d
-			y: -1.0d
+			y: -4.25d
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
@@ -545,7 +555,7 @@
 				}
 			]
 			x: 1.0d
-			y: -1.0d
+			y: -4.25d
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
@@ -569,7 +579,7 @@
 				}
 			]
 			x: -1.0d
-			y: -2.0d
+			y: -5.25d
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
@@ -594,7 +604,7 @@
 				}
 			]
 			x: 0.0d
-			y: -2.0d
+			y: -5.25d
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
@@ -619,7 +629,7 @@
 				}
 			]
 			x: 1.0d
-			y: -2.0d
+			y: -5.25d
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
@@ -643,7 +653,7 @@
 				}
 			]
 			x: 0.0d
-			y: -3.0d
+			y: -6.25d
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
@@ -664,7 +674,7 @@
 				}
 			]
 			x: 0.0d
-			y: 0.0d
+			y: -3.25d
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
@@ -679,7 +689,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 1.0d
+			y: -2.25d
 		}
 		{
 			dependencies: ["3A6CBA1C0AA08E91"]
@@ -698,7 +708,7 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: 6.0d
+			y: 2.75d
 		}
 	]
 	title: "Forge Rocket"

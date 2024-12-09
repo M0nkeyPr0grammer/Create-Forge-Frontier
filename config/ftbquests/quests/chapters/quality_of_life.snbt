@@ -5,6 +5,14 @@
 	group: "37A1080736831E36"
 	icon: "quark:abacus"
 	id: "73BC896A8FA5A2C6"
+	images: [{
+		height: 10.0d
+		image: "ftb:textures/qol_title.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 0.0d
+		y: -9.5d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -18,8 +26,8 @@
 				type: "item"
 			}]
 			title: "Craft and use a Hyper Box"
-			x: -0.5d
-			y: 3.0d
+			x: 1.0d
+			y: -1.5d
 		}
 		{
 			id: "4996DCCEDB94BB55"
@@ -35,8 +43,8 @@
 				type: "item"
 			}]
 			title: "Some Bits and Bobs"
-			x: -2.0d
-			y: 3.0d
+			x: -0.5d
+			y: -1.5d
 		}
 		{
 			id: "0A9CA3EA06688DAB"
@@ -45,8 +53,8 @@
 				item: "supplementaries:altimeter"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 1.5d
+			x: -0.5d
+			y: -3.0d
 		}
 		{
 			id: "391FA7CEEF55A691"
@@ -55,8 +63,8 @@
 				item: "quark:abacus"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -0.5d
+			x: -0.5d
+			y: -5.0d
 		}
 		{
 			id: "5AB4DB0EBE11D60C"
@@ -72,8 +80,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.5d
-			y: 4.5d
+			x: -2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5AB4DB0EBE11D60C"]
@@ -92,8 +100,8 @@
 				}
 				type: "item"
 			}]
-			x: -4.5d
-			y: 5.5d
+			x: -3.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["3195ECE88AC44817"]
@@ -111,8 +119,8 @@
 				}
 				type: "item"
 			}]
-			x: -5.5d
-			y: 6.5d
+			x: -4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["5AB4DB0EBE11D60C"]
@@ -122,8 +130,8 @@
 				item: "constructionwand:core_angel"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 4.5d
+			x: -3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5AB4DB0EBE11D60C"]
@@ -133,8 +141,8 @@
 				item: "constructionwand:core_destruction"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 5.5d
+			x: -2.0d
+			y: 1.0d
 		}
 		{
 			id: "1146A291C11E8F85"
@@ -143,8 +151,8 @@
 				item: "crafting_on_a_stick:crafting_table"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 4.5d
+			x: 1.0d
+			y: 0.0d
 		}
 		{
 			id: "4DE4A5627D0B9285"
@@ -153,8 +161,8 @@
 				item: "crafting_on_a_stick:loom"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 5.5d
+			x: 2.0d
+			y: 1.0d
 		}
 		{
 			id: "657593B92FEF3352"
@@ -163,8 +171,8 @@
 				item: "crafting_on_a_stick:grindstone"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 5.5d
+			x: 1.0d
+			y: 1.0d
 		}
 		{
 			id: "5FCD556464B9CC8D"
@@ -173,8 +181,8 @@
 				item: "crafting_on_a_stick:cartography_table"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 4.5d
+			x: 2.0d
+			y: 0.0d
 		}
 		{
 			id: "5EEE3207FCD9F00E"
@@ -183,8 +191,8 @@
 				item: "crafting_on_a_stick:stonecutter"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 4.5d
+			x: 3.0d
+			y: 0.0d
 		}
 		{
 			id: "10B254B5C16A6C52"
@@ -193,8 +201,8 @@
 				item: "crafting_on_a_stick:smithing_table"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 5.5d
+			x: 3.0d
+			y: 1.0d
 		}
 		{
 			id: "3D48108CEAD62046"
@@ -203,8 +211,8 @@
 				item: "crafting_on_a_stick:anvil"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 6.5d
+			x: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3D48108CEAD62046"]
@@ -214,8 +222,8 @@
 				item: "crafting_on_a_stick:chipped_anvil"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 6.5d
+			x: 2.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["2F8FF9B3AE229576"]
@@ -225,8 +233,8 @@
 				item: "crafting_on_a_stick:damaged_anvil"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 6.5d
+			x: 3.0d
+			y: 2.0d
 		}
 		{
 			id: "5A72CD7662B737CC"
@@ -239,8 +247,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
-			y: 3.0d
+			x: 2.0d
+			y: -1.5d
 		}
 		{
 			id: "261521534EAA4C74"
@@ -253,8 +261,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
-			y: 3.0d
+			x: 3.0d
+			y: -1.5d
 		}
 		{
 			id: "69F03F91E038B8C4"
@@ -263,8 +271,8 @@
 				item: "torchmaster:megatorch"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 1.5d
+			x: 1.0d
+			y: -3.0d
 		}
 		{
 			id: "4511D78B818E0130"
@@ -273,8 +281,8 @@
 				item: "torchmaster:feral_flare_lantern"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 1.5d
+			x: 2.0d
+			y: -3.0d
 		}
 		{
 			id: "363DF571A75040AD"
@@ -283,8 +291,8 @@
 				item: "torchmaster:dreadlamp"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 0.5d
+			x: 1.0d
+			y: -4.0d
 		}
 		{
 			id: "785AD57B8D0090EF"
@@ -293,8 +301,8 @@
 				item: "torchmaster:frozen_pearl"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 0.5d
+			x: 2.0d
+			y: -4.0d
 		}
 		{
 			id: "63D61CC77B510E93"
@@ -303,8 +311,8 @@
 				item: "sereneseasons:season_sensor"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 0.5d
+			x: 3.0d
+			y: -4.0d
 		}
 		{
 			id: "52ACCAFADD76F91C"
@@ -313,8 +321,8 @@
 				item: "sereneseasons:calendar"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 1.5d
+			x: 3.0d
+			y: -3.0d
 		}
 		{
 			id: "7F722FA4E551478A"
@@ -323,8 +331,8 @@
 				item: "farmingforblockheads:market"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 4.5d
+			x: -0.5d
+			y: 0.0d
 		}
 		{
 			id: "5918A0BE367AE2CA"
@@ -333,8 +341,8 @@
 				item: "farmingforblockheads:feeding_trough"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 5.5d
+			x: -0.5d
+			y: 1.0d
 		}
 		{
 			id: "7C60C6727D0106D5"
@@ -343,8 +351,8 @@
 				item: "farmingforblockheads:chicken_nest"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 6.5d
+			x: -0.5d
+			y: 2.0d
 		}
 		{
 			id: "3AF7842ADEBDA814"
@@ -359,8 +367,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: -1.5d
+			x: -0.5d
+			y: -6.0d
 		}
 	]
 	title: "Quality of Life"

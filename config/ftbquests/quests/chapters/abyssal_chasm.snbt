@@ -5,6 +5,14 @@
 	group: "4BDF92F640B2C9B4"
 	icon: "alexscaves:submarine"
 	id: "44EFA82E2251DE57"
+	images: [{
+		height: 10.0d
+		image: "ftb:textures/chasm_title.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 0.0d
+		y: -9.5d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [{
@@ -16,7 +24,7 @@
 			type: "dimension"
 		}]
 		x: 0.0d
-		y: 0.0d
+		y: -5.0d
 	}]
 	title: "Abyssal Chasm"
 }

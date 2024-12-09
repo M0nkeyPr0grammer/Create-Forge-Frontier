@@ -5,6 +5,14 @@
 	group: "0988E75337218F69"
 	icon: "ae2:certus_quartz_dust"
 	id: "09122EB4ABF3FEBA"
+	images: [{
+		height: 10.0d
+		image: "ftb:textures/ae2_title.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 0.0d
+		y: -9.5d
+	}]
 	order_index: 4
 	quest_links: [ ]
 	quests: [{
@@ -15,7 +23,7 @@
 			type: "item"
 		}]
 		x: 0.0d
-		y: 0.0d
+		y: -6.0d
 	}]
 	title: "Applied Energistics"
 }

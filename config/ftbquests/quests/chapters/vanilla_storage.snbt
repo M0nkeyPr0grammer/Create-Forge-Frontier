@@ -5,6 +5,14 @@
 	group: "0988E75337218F69"
 	icon: "minecraft:chest"
 	id: "0CE6820F547BF2F4"
+	images: [{
+		height: 10.0d
+		image: "ftb:textures/vanilla_storage_title.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 0.0d
+		y: -9.5d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [{
@@ -15,7 +23,7 @@
 			type: "item"
 		}]
 		x: 0.0d
-		y: 0.0d
+		y: -6.0d
 	}]
 	title: "Vanilla Storage"
 }

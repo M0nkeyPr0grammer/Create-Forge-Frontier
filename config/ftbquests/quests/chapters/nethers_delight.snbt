@@ -5,6 +5,14 @@
 	group: "47881FC157552E6E"
 	icon: "nethersdelight:stuffed_hoglin"
 	id: "6A04CF2085BFC6FE"
+	images: [{
+		height: 10.0d
+		image: "ftb:textures/nethers_delight_title.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 0.0d
+		y: -9.5d
+	}]
 	order_index: 14
 	quest_links: [ ]
 	quests: [{
@@ -15,7 +23,7 @@
 			type: "item"
 		}]
 		x: 0.0d
-		y: 0.0d
+		y: -4.5d
 	}]
 	title: "Nether's Delight"
 }

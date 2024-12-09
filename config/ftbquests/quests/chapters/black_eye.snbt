@@ -52,6 +52,14 @@
 			x: 0.0d
 			y: -4.5d
 		}
+		{
+			height: 10.0d
+			image: "ftb:textures/black_eye_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: -9.5d
+		}
 	]
 	order_index: 1
 	quest_links: [ ]

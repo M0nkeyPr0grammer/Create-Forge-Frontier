@@ -20,7 +20,7 @@
 			rotation: 0.0d
 			width: 5.75d
 			x: 5.5d
-			y: 3.5d
+			y: 1.0d
 		}
 		{
 			click: "#28A5986EC340E0B9"
@@ -30,7 +30,7 @@
 			rotation: 0.0d
 			width: 5.6d
 			x: -5.5d
-			y: 3.5d
+			y: 1.0d
 		}
 		{
 			click: "#67F1DA8051FA8379"
@@ -40,7 +40,15 @@
 			rotation: 0.0d
 			width: 5.35d
 			x: 0.0d
-			y: -3.0d
+			y: -5.5d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/corrupted_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: -9.5d
 		}
 	]
 	order_index: 3
@@ -71,7 +79,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 3.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["7F2348D995E5FE43"]
@@ -84,7 +92,7 @@
 			}]
 			title: "1/4 Compressed 2x Gold"
 			x: -1.5d
-			y: 2.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["7F2348D995E5FE43"]
@@ -98,7 +106,7 @@
 			}]
 			title: "2/4 Compressed 2x Gold"
 			x: 1.5d
-			y: 2.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["7F2348D995E5FE43"]
@@ -112,7 +120,7 @@
 			}]
 			title: "3/4 Compressed 2x Gold"
 			x: -1.5d
-			y: 5.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["7F2348D995E5FE43"]
@@ -126,7 +134,7 @@
 			}]
 			title: "4/4 Compressed 2x Gold"
 			x: 1.5d
-			y: 5.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["7F2348D995E5FE43"]
@@ -139,7 +147,7 @@
 			}]
 			title: "1/2 Compressed 2x Diamond"
 			x: 0.0d
-			y: 0.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["7F2348D995E5FE43"]
@@ -153,7 +161,7 @@
 			}]
 			title: "2/2 Compressed 2x Diamond"
 			x: 0.0d
-			y: 5.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["7F2348D995E5FE43"]
@@ -166,7 +174,7 @@
 			}]
 			title: "1/2 Compressed 2x Emerald"
 			x: -1.5d
-			y: 3.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["7F2348D995E5FE43"]
@@ -180,7 +188,7 @@
 			}]
 			title: "2/2 Compressed 2x Emerald"
 			x: 1.5d
-			y: 3.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["7F2348D995E5FE43"]
@@ -191,7 +199,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 2.0d
+			y: -0.5d
 		}
 	]
 	title: "Corrupted Eye"

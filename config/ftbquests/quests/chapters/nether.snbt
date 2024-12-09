@@ -11,8 +11,8 @@
 			image: "fancymenu:textures/contextmenu/icons/arrow_down.png"
 			rotation: 0.0d
 			width: 1.5d
-			x: 4.5d
-			y: 3.5d
+			x: 0.5d
+			y: 8.0d
 		}
 		{
 			click: "#10E12D942E6F9B1B"
@@ -21,8 +21,8 @@
 			image: "ftb:textures/ancientmines.png"
 			rotation: 0.0d
 			width: 9.0d
-			x: -3.5d
-			y: 3.5d
+			x: -7.5d
+			y: 8.0d
 		}
 		{
 			click: "#5619CB9F89C25C87"
@@ -31,8 +31,8 @@
 			image: "ftb:textures/tinkersworkshop.png"
 			rotation: 0.0d
 			width: 9.0d
-			x: 12.5d
-			y: -5.5d
+			x: 8.5d
+			y: -1.0d
 		}
 		{
 			click: "#2C7C1C96546AD211"
@@ -41,8 +41,8 @@
 			image: "ftb:textures/tinkers_citadel.png"
 			rotation: 0.0d
 			width: 6.02d
-			x: 11.5d
-			y: 3.0d
+			x: 7.5d
+			y: 7.5d
 		}
 		{
 			click: "#7CE7BBA16C2E61E1"
@@ -51,16 +51,24 @@
 			image: "ftb:textures/ruins_of_the_deep.png"
 			rotation: 0.0d
 			width: 7.45d
-			x: -3.0d
-			y: -5.5d
+			x: -7.0d
+			y: -1.0d
 		}
 		{
 			height: 7.0d
 			image: "nether_remastered:textures/nether_remastered.png"
 			rotation: 0.0d
 			width: 7.0d
-			x: 4.5d
-			y: -9.0d
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/nether_rem_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: -9.5d
 		}
 	]
 	order_index: 1
@@ -78,8 +86,8 @@
 				type: "structure"
 			}]
 			title: "Ruins of the Deep"
-			x: 1.5d
-			y: -2.5d
+			x: -2.5d
+			y: 2.0d
 		}
 		{
 			description: ["The Tinkers Workshop, once a bustling hub of creativity where new tools and armor were forged, now lies silent on the surface. But beneath this abandoned structure, secrets and treasures await, holding the true importance for those bold enough to explore its depths."]
@@ -92,8 +100,8 @@
 				title: "Tinkers Workshop"
 				type: "structure"
 			}]
-			x: 7.5d
-			y: -2.5d
+			x: 3.5d
+			y: 2.0d
 		}
 		{
 			description: [
@@ -109,8 +117,8 @@
 				title: "Ancient Mines"
 				type: "structure"
 			}]
-			x: 1.5d
-			y: 3.5d
+			x: -2.5d
+			y: 8.0d
 		}
 		{
 			description: ["Once a grand fortress of ingenuity, the Tinker’s Citadel stood as a beacon of craftsmanship, where engineers and artisans pushed the boundaries of invention. Now, its towering spires are crumbling, and its workshops lie dormant, overtaken by time. Yet, deep within the heart of this forsaken stronghold, ancient mechanisms stir, guarding relics of immense power and knowledge. Only the daring and determined adventurers who venture into its depths will unlock the true legacy left behind within the Citadel’s hidden vaults and secret chambers."]
@@ -124,8 +132,8 @@
 				type: "structure"
 			}]
 			title: "Tinker's Citadel"
-			x: 7.5d
-			y: 3.5d
+			x: 3.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["7CE7BBA16C2E61E1"]
@@ -137,8 +145,8 @@
 				match_nbt: false
 				type: "item"
 			}]
-			x: 3.0d
-			y: -1.0d
+			x: -1.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["5619CB9F89C25C87"]
@@ -150,8 +158,8 @@
 				match_nbt: false
 				type: "item"
 			}]
-			x: 6.0d
-			y: -1.0d
+			x: 2.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["10E12D942E6F9B1B"]
@@ -163,8 +171,8 @@
 				match_nbt: false
 				type: "item"
 			}]
-			x: 3.0d
-			y: 2.0d
+			x: -1.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["2C7C1C96546AD211"]
@@ -176,8 +184,8 @@
 				match_nbt: false
 				type: "item"
 			}]
-			x: 6.0d
-			y: 2.0d
+			x: 2.0d
+			y: 6.5d
 		}
 		{
 			dependencies: [
@@ -194,8 +202,8 @@
 				item: "nether_remastered:bottled_nether_essence"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 0.5d
+			x: -1.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["767465A8B1032AB3"]
@@ -207,8 +215,8 @@
 				item: "nether_remastered:bottled_nether_essence"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -1.0d
+			x: 0.5d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -225,8 +233,8 @@
 				item: "nether_remastered:bottled_nether_essence"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 0.5d
+			x: 2.0d
+			y: 5.0d
 		}
 		{
 			dependencies: [
@@ -243,8 +251,8 @@
 				item: "nether_remastered:bottled_nether_essence"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 2.0d
+			x: 0.5d
+			y: 6.5d
 		}
 		{
 			dependencies: [
@@ -264,8 +272,8 @@
 				item: "nether_remastered:seal_of_the_underworld_item"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 5.5d
+			x: 0.5d
+			y: 10.0d
 		}
 		{
 			id: "767465A8B1032AB3"
@@ -275,8 +283,8 @@
 				item: "nether_remastered:obisidian_infused_bottle"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -2.5d
+			x: 0.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -310,8 +318,8 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
-			y: 0.5d
+			x: 0.5d
+			y: 5.0d
 		}
 	]
 	title: "Nether Remastered"

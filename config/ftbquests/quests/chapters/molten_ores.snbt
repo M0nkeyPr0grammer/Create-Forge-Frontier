@@ -5,6 +5,14 @@
 	group: "72C8A595982548D5"
 	icon: "forge_frontier:molten_iron_bucket"
 	id: "2AEDC0BA93199311"
+	images: [{
+		height: 10.0d
+		image: "ftb:textures/molten_ores_title.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 0.0d
+		y: -9.5d
+	}]
 	order_index: 4
 	quest_links: [ ]
 	quests: [
@@ -16,7 +24,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 0.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["753B9FEC027088ED"]
@@ -28,7 +36,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 2.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["0A4C2780B6C139D7"]
@@ -40,7 +48,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 3.5d
+			y: -3.0d
 		}
 	]
 	title: "Molten Ores"

@@ -5,6 +5,14 @@
 	group: "1CB9F27D7DE0AEE8"
 	icon: "minecraft:grass_block"
 	id: "0684E7A732E3B8B1"
+	images: [{
+		height: 10.0d
+		image: "ftb:textures/overworld_title.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 0.0d
+		y: -9.5d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [{
@@ -16,7 +24,7 @@
 			type: "dimension"
 		}]
 		x: 0.0d
-		y: 0.0d
+		y: -3.5d
 	}]
 	title: "Overworld"
 }

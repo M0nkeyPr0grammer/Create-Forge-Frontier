@@ -5,14 +5,24 @@
 	group: "154A5E2FF6C25F19"
 	icon: "forge_frontier:forge_rocket_nose_cone"
 	id: "2EF9FD5719F5D255"
-	images: [{
-		height: 2.0d
-		image: "ftb:textures/_forge_frontier_mechanical_crafting_forge_rocket_nose_cone.png"
-		rotation: 0.0d
-		width: 2.74d
-		x: 5.5d
-		y: -1.5d
-	}]
+	images: [
+		{
+			height: 2.0d
+			image: "ftb:textures/_forge_frontier_mechanical_crafting_forge_rocket_nose_cone.png"
+			rotation: 0.0d
+			width: 2.74d
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/rocket_cone_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: -9.5d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -31,8 +41,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: -2.0d
+			x: -0.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["66D6C6A425AF48A8"]
@@ -49,8 +59,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: -2.0d
+			x: -2.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["66D6C6A425AF48A8"]
@@ -67,8 +77,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
-			y: -2.0d
+			x: -1.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["66D6C6A425AF48A8"]
@@ -85,8 +95,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: -2.0d
+			x: 0.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["66D6C6A425AF48A8"]
@@ -103,8 +113,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: -2.0d
+			x: 1.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["66D6C6A425AF48A8"]
@@ -121,8 +131,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: -1.0d
+			x: -2.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["66D6C6A425AF48A8"]
@@ -139,8 +149,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: -1.0d
+			x: 1.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["66D6C6A425AF48A8"]
@@ -157,8 +167,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: 0.0d
+			x: -2.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["66D6C6A425AF48A8"]
@@ -175,8 +185,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: 0.0d
+			x: 1.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["66D6C6A425AF48A8"]
@@ -193,8 +203,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: 1.0d
+			x: -2.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["66D6C6A425AF48A8"]
@@ -211,8 +221,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: 1.0d
+			x: 1.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["66D6C6A425AF48A8"]
@@ -229,8 +239,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: 2.0d
+			x: -0.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["66D6C6A425AF48A8"]
@@ -247,8 +257,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
-			y: -1.0d
+			x: -1.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["66D6C6A425AF48A8"]
@@ -259,8 +269,8 @@
 				item: "ad_astra:rocket_nose_cone"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: -0.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["66D6C6A425AF48A8"]
@@ -277,8 +287,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: 2.0d
+			x: -2.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["66D6C6A425AF48A8"]
@@ -295,8 +305,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
-			y: 2.0d
+			x: -1.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["66D6C6A425AF48A8"]
@@ -313,8 +323,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: 1.0d
+			x: -0.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["66D6C6A425AF48A8"]
@@ -331,8 +341,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: 1.0d
+			x: 0.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["66D6C6A425AF48A8"]
@@ -349,8 +359,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
-			y: 1.0d
+			x: -1.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["66D6C6A425AF48A8"]
@@ -367,8 +377,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: 0.0d
+			x: 0.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["66D6C6A425AF48A8"]
@@ -385,8 +395,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: 2.0d
+			x: 1.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["66D6C6A425AF48A8"]
@@ -397,8 +407,8 @@
 				item: "cataclysm:soul_render"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -1.0d
+			x: -0.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["66D6C6A425AF48A8"]
@@ -409,8 +419,8 @@
 				item: "cataclysm:gauntlet_of_bulwark"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -1.0d
+			x: 0.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["66D6C6A425AF48A8"]
@@ -427,8 +437,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
-			y: 0.0d
+			x: -1.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["66D6C6A425AF48A8"]
@@ -445,8 +455,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: 2.0d
+			x: 0.5d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -486,8 +496,8 @@
 				item: "forge_frontier:forge_rocket_nose_cone"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 1.0d
+			x: 5.0d
+			y: -6.0d
 		}
 		{
 			hide_dependent_lines: true
@@ -498,8 +508,8 @@
 				title: "Forge Rocket Check"
 				type: "checkmark"
 			}]
-			x: -4.5d
-			y: 0.0d
+			x: -5.0d
+			y: -6.0d
 		}
 	]
 	title: "Forge Rocket Nose Cone"
