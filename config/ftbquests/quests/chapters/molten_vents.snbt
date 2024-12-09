@@ -1,5 +1,4 @@
 {
-	always_invisible: true
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "molten_vents"
@@ -257,7 +256,7 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["2AE42496027E453C"]
+			dependencies: ["3217A6300D17E470"]
 			description: [""]
 			icon: "molten_vents:dormant_molten_crimsite"
 			id: "4408A399D517CDB6"
@@ -361,7 +360,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Ochrum Vents are found anywhere in the overworld"
+			subtitle: "Ochrum Vents are found anywhere in the overworld, specically in Badland Biomes"
 			tasks: [{
 				id: "7E9F73B48C50234A"
 				observe_type: 0
@@ -1132,7 +1131,7 @@
 				xp: 10
 			}]
 			tasks: [{
-				biome: "#minecraft:is_overworld"
+				biome: "#minecraft:is_badlands"
 				id: "2990B9CAC5A94F73"
 				type: "biome"
 			}]
@@ -2630,6 +2629,17 @@
 			]
 			x: 15.0d
 			y: 6.0d
+		}
+		{
+			dependencies: ["69CE3113324ED800"]
+			id: "3217A6300D17E470"
+			tasks: [{
+				biome: "#minecraft:is_overworld"
+				id: "7ED2A335BB4388AD"
+				type: "biome"
+			}]
+			x: -18.0d
+			y: 1.5d
 		}
 	]
 	title: "Molten Vents"
