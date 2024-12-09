@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_badlands",
+  "features": [
+    "molten_vents:ochrum_vent"
+  ],
+  "step": "vegetal_decoration"
+}
