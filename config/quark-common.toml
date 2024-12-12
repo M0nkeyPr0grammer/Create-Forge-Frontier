@@ -115,11 +115,11 @@
 	"Glass Item Frame" = true
 	"Gold Bars" = true
 	Grate = true
-	Hedges = true
+	Hedges = false
 	"Hollow Logs" = true
 	"Industrial Palette" = true
 	"Japanese Palette" = true
-	"Leaf Carpet" = true
+	"Leaf Carpet" = false
 	Midori = true
 	"More Brick Types" = true
 	"More Mud Blocks" = true
@@ -140,7 +140,7 @@
 	"Variant Ladders" = true
 	"Vertical Planks" = true
 	"Vertical Slabs" = false
-	"Wooden Posts" = true
+	"Wooden Posts" = false
 	"More Stone Variants" = true
 
 	[building.celebratory_lamps]
@@ -347,8 +347,8 @@
 	"Endermosh Music Disc" = true
 	"Parrot Eggs" = true
 	"Pathfinder Maps" = true
-	Pickarang = true
-	"Seed Pouch" = true
+	Pickarang = false
+	"Seed Pouch" = false
 	"Skull Pikes" = true
 	"Slime In A Bucket" = true
 	"Torch Arrow" = true
