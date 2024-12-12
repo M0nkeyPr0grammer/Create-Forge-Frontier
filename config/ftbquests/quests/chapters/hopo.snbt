@@ -5,14 +5,24 @@
 	group: "4FAD6EACDA300DDE"
 	icon: "minecraft:map"
 	id: "4D3CB9F232F16A7B"
-	images: [{
-		height: 10.0d
-		image: "ftb:textures/hopo_title.png"
-		rotation: 0.0d
-		width: 15.0d
-		x: 0.0d
-		y: -9.5d
-	}]
+	images: [
+		{
+			height: 10.0d
+			image: "ftb:textures/hopo_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: -9.5d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/coming_soon.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: 0.0d
+		}
+	]
 	order_index: 2
 	quest_links: [ ]
 	quests: [{

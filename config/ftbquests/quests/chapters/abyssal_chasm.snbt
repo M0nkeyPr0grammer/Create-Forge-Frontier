@@ -5,14 +5,24 @@
 	group: "4BDF92F640B2C9B4"
 	icon: "alexscaves:submarine"
 	id: "44EFA82E2251DE57"
-	images: [{
-		height: 10.0d
-		image: "ftb:textures/chasm_title.png"
-		rotation: 0.0d
-		width: 15.0d
-		x: 0.0d
-		y: -9.5d
-	}]
+	images: [
+		{
+			height: 10.0d
+			image: "ftb:textures/chasm_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: -9.5d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/coming_soon.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: 0.0d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [{

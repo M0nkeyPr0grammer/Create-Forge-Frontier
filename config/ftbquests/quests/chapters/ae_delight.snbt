@@ -11,14 +11,24 @@
 		}
 	}
 	id: "0EE966C5DC3A2200"
-	images: [{
-		height: 10.0d
-		image: "ftb:textures/ae_delight_title.png"
-		rotation: 0.0d
-		width: 15.0d
-		x: 0.0d
-		y: -9.5d
-	}]
+	images: [
+		{
+			height: 10.0d
+			image: "ftb:textures/ae_delight_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: -9.5d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/coming_soon.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: 0.0d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [{

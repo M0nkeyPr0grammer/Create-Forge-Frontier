@@ -5,14 +5,24 @@
 	group: "7DFCA375E9018DB1"
 	icon: "create:track_station"
 	id: "6BCFC1F0F163B7E7"
-	images: [{
-		height: 10.0d
-		image: "ftb:textures/trains_title.png"
-		rotation: 0.0d
-		width: 15.0d
-		x: 0.0d
-		y: -9.5d
-	}]
+	images: [
+		{
+			height: 10.0d
+			image: "ftb:textures/trains_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: -9.5d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/coming_soon.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: 0.0d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [{

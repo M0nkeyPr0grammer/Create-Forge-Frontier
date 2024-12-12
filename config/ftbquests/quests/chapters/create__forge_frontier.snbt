@@ -26,6 +26,14 @@
 			x: 0.0d
 			y: -4.5d
 		}
+		{
+			height: 10.0d
+			image: "ftb:textures/coming_soon.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: -1.0d
+		}
 	]
 	order_index: 0
 	quest_links: [ ]

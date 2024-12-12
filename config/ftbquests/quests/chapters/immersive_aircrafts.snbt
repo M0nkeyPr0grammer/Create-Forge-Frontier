@@ -5,14 +5,24 @@
 	group: "7DFCA375E9018DB1"
 	icon: "immersive_aircraft:biplane"
 	id: "06E33930118AED8C"
-	images: [{
-		height: 10.0d
-		image: "ftb:textures/immersive_aircrafts_title.png"
-		rotation: 0.0d
-		width: 15.0d
-		x: 0.0d
-		y: -9.5d
-	}]
+	images: [
+		{
+			height: 10.0d
+			image: "ftb:textures/immersive_aircrafts_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: -9.5d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/coming_soon.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: 0.0d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [{

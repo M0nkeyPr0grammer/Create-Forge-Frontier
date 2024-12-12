@@ -5,14 +5,24 @@
 	group: "37A1080736831E36"
 	icon: "quark:abacus"
 	id: "73BC896A8FA5A2C6"
-	images: [{
-		height: 10.0d
-		image: "ftb:textures/qol_title.png"
-		rotation: 0.0d
-		width: 15.0d
-		x: 0.0d
-		y: -9.5d
-	}]
+	images: [
+		{
+			height: 10.0d
+			image: "ftb:textures/qol_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: -9.5d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/coming_soon.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: 7.0d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [

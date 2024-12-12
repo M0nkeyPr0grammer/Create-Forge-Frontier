@@ -5,14 +5,24 @@
 	group: "0988E75337218F69"
 	icon: "toms_storage:ts.storage_terminal"
 	id: "515B22BB13C2E81D"
-	images: [{
-		height: 10.0d
-		image: "ftb:textures/toms_title.png"
-		rotation: 0.0d
-		width: 15.0d
-		x: 0.0d
-		y: -9.5d
-	}]
+	images: [
+		{
+			height: 10.0d
+			image: "ftb:textures/toms_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: -9.5d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/coming_soon.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: 0.0d
+		}
+	]
 	order_index: 3
 	quest_links: [ ]
 	quests: [{

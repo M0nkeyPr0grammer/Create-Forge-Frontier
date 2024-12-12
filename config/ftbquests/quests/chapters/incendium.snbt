@@ -5,14 +5,24 @@
 	group: "4FAD6EACDA300DDE"
 	icon: "minecraft:map"
 	id: "6D4F73F81FE66E40"
-	images: [{
-		height: 10.0d
-		image: "ftb:textures/incendium_title.png"
-		rotation: 0.0d
-		width: 15.0d
-		x: 0.0d
-		y: -9.5d
-	}]
+	images: [
+		{
+			height: 10.0d
+			image: "ftb:textures/incendium_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: -9.5d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/coming_soon.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: 0.0d
+		}
+	]
 	order_index: 3
 	quest_links: [ ]
 	quests: [{

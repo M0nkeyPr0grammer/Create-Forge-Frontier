@@ -5,14 +5,24 @@
 	group: "1CB9F27D7DE0AEE8"
 	icon: "minecraft:end_stone"
 	id: "1432839292A29F32"
-	images: [{
-		height: 10.0d
-		image: "ftb:textures/end_title.png"
-		rotation: 0.0d
-		width: 15.0d
-		x: 0.0d
-		y: -9.5d
-	}]
+	images: [
+		{
+			height: 10.0d
+			image: "ftb:textures/end_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: -9.5d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/coming_soon.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: 1.0d
+		}
+	]
 	order_index: 4
 	quest_links: [ ]
 	quests: [{

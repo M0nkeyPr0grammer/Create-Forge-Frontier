@@ -5,14 +5,24 @@
 	group: "47881FC157552E6E"
 	icon: "oceansdelight:guardian"
 	id: "177F5CCEFDE9BBCE"
-	images: [{
-		height: 10.0d
-		image: "ftb:textures/oceans_title.png"
-		rotation: 0.0d
-		width: 15.0d
-		x: 0.0d
-		y: -9.5d
-	}]
+	images: [
+		{
+			height: 10.0d
+			image: "ftb:textures/oceans_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: -9.5d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/coming_soon.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: 0.0d
+		}
+	]
 	order_index: 15
 	quest_links: [ ]
 	quests: [{

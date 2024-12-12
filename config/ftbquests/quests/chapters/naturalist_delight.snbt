@@ -5,14 +5,24 @@
 	group: "47881FC157552E6E"
 	icon: "naturalistdelight:duck_soup"
 	id: "70A7B55E621359C4"
-	images: [{
-		height: 10.0d
-		image: "ftb:textures/naturalist_title.png"
-		rotation: 0.0d
-		width: 15.0d
-		x: 0.0d
-		y: -9.5d
-	}]
+	images: [
+		{
+			height: 10.0d
+			image: "ftb:textures/naturalist_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: -9.5d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/coming_soon.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: 0.0d
+		}
+	]
 	order_index: 13
 	quest_links: [ ]
 	quests: [{
