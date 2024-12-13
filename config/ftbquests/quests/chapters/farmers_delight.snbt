@@ -11,6 +11,24 @@
 		}
 	}
 	id: "2580F8F059EAEED8"
+	images: [
+		{
+			height: 10.0d
+			image: "ftb:textures/farmers_delight_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: -9.5d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/coming_soon.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: 0.0d
+		}
+	]
 	order_index: 10
 	quest_links: [ ]
 	quests: [{
@@ -27,7 +45,7 @@
 			type: "item"
 		}]
 		x: 0.0d
-		y: 0.0d
+		y: -5.0d
 	}]
 	title: "Farmer's Delight"
 }

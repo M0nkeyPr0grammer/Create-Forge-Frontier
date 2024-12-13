@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	filename: "chocolate"
 	group: "72C8A595982548D5"
-	icon: "create:chocolate_bucket"
+	icon: "create:bar_of_chocolate"
 	id: "67ACAE7C60BDFF29"
 	images: [
 		{
@@ -45,6 +45,14 @@
 			width: 2.5d
 			x: 3.0d
 			y: -2.0d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/coming_soon.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: 8.0d
 		}
 	]
 	order_index: 2

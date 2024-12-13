@@ -20,7 +20,7 @@
 			rotation: 0.0d
 			width: 11.7d
 			x: -8.0d
-			y: 3.5d
+			y: 1.0d
 		}
 		{
 			click: "#1FAE86CE07337020"
@@ -30,7 +30,7 @@
 			rotation: 0.0d
 			width: 2.25d
 			x: 0.0d
-			y: -3.0d
+			y: -5.5d
 		}
 		{
 			click: "#66B9CA0C2E6D49A0"
@@ -40,7 +40,15 @@
 			rotation: 0.0d
 			width: 9.2d
 			x: 7.0d
-			y: 3.5d
+			y: 1.0d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/rogue_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: -9.5d
 		}
 	]
 	order_index: 7
@@ -71,7 +79,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 3.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["5094745CE014E74E"]
@@ -84,7 +92,7 @@
 			}]
 			title: "1/4 Compressed Sequenced Assembly"
 			x: -1.5d
-			y: 2.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["5094745CE014E74E"]
@@ -98,7 +106,7 @@
 			}]
 			title: "2/4 Compressed Sequenced Assembly"
 			x: 1.5d
-			y: 2.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["5094745CE014E74E"]
@@ -112,7 +120,7 @@
 			}]
 			title: "3/4 Compressed Sequenced Assembly"
 			x: -1.5d
-			y: 5.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["5094745CE014E74E"]
@@ -126,7 +134,7 @@
 			}]
 			title: "4/4 Compressed Sequenced Assembly"
 			x: 1.5d
-			y: 5.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["5094745CE014E74E"]
@@ -140,7 +148,7 @@
 			}]
 			title: "2/2 Compressed 2x Brass"
 			x: 0.0d
-			y: 5.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["5094745CE014E74E"]
@@ -153,7 +161,7 @@
 			}]
 			title: "1/2 Compressed 2x Brass"
 			x: 0.0d
-			y: 0.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["5094745CE014E74E"]
@@ -166,7 +174,7 @@
 			}]
 			title: "1/2 Compressed Mithril 2x"
 			x: -1.5d
-			y: 3.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["5094745CE014E74E"]
@@ -180,7 +188,7 @@
 			}]
 			title: "2/2 Compressed Mithril 2x"
 			x: 1.5d
-			y: 3.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["5094745CE014E74E"]
@@ -191,7 +199,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 2.0d
+			y: -0.5d
 		}
 	]
 	title: "Rogue Eye"

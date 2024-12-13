@@ -11,6 +11,24 @@
 		}
 	}
 	id: "52E058D718DE01D3"
+	images: [
+		{
+			height: 10.0d
+			image: "ftb:textures/alexs_caves_delight_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: -9.5d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/coming_soon.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: 0.0d
+		}
+	]
 	order_index: 2
 	quest_links: [ ]
 	quests: [{
@@ -27,7 +45,7 @@
 			type: "item"
 		}]
 		x: 0.0d
-		y: 0.0d
+		y: -4.5d
 	}]
 	title: "Alex's Caves Delight"
 }

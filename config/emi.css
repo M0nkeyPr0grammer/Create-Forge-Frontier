@@ -14,12 +14,12 @@
 	/**
 	 * How much EMI should use tooltips and popups to show controls and information.
 	 */
-	help-level: normal;
+	help-level: none;
 
 	/**
 	 * Where EMI should pull stacks from to populate the index.
 	 */
-	index-source: creative;
+	index-source: registered;
 
 	/**
 	 * Whether normal search queries should include the tooltip.
@@ -56,12 +56,12 @@
 	/**
 	 * Whether to add mod name to tooltips
 	 */
-	append-mod-id: true;
+	append-mod-id: false;
 
 	/**
 	 * Whether to add mod name to item tooltips, in case another mod provides behavior
 	 */
-	append-item-mod-id: true;
+	append-item-mod-id: false;
 
 	/**
 	 * Prevents recipes being quick crafted from shifting around under the cursor.
@@ -83,7 +83,7 @@
 	 * Whether to have the search bar in the center of the screen, instead of to the
 	 * side.
 	 */
-	center-search-bar: true;
+	center-search-bar: false;
 
 	/**
 	 * Which sidebar type to switch to when searching.
@@ -96,9 +96,20 @@
 	empty-search-sidebar-focus: none;
 
 	/**
-	 * The amount of vertical margin to give in the recipe screen.
+	 * Whether the EMI config button should be visible.
 	 */
-	vertical-margin: 20;
+	emi-config-button-visibility: auto;
+
+	/**
+	 * Whether the recipe tree button should be visible.
+	 */
+	recipe-tree-button-visibility: auto;
+
+	/**
+	 * The maximum height the recipe screen will grow to be if space is available in
+	 * pixels.
+	 */
+	maximum-recipe-screen-height: 256;
 
 	/**
 	 * The minimum width of the recipe screen in pixels. Controls how many tabs there
@@ -106,6 +117,11 @@
 	 * of most screens.
 	 */
 	minimum-recipe-screen-width: 176;
+
+	/**
+	 * The amount of vertical margin to give in the recipe screen.
+	 */
+	vertical-margin: 20;
 
 	/**
 	 * Where to show workstations in the recipe screen
@@ -135,7 +151,7 @@
 	/**
 	 * Whether recipes should have a button to take a screenshot of the recipe.
 	 */
-	recipe-screenshot-button: false;
+	recipe-screenshot-button: true;
 
 	/**
 	 * The GUI scale at which recipe screenshots are saved. Use 0 to use the current
@@ -292,7 +308,7 @@
 	toggle-visibility: "ctrl key.keyboard.o";
 
 	/**
-	 * Focuse the search bar.
+	 * Focuses the search bar.
 	 */
 	focus-search: "ctrl key.keyboard.f";
 
@@ -448,6 +464,13 @@
 	 * Whether hovering the output of a recipe should show the recipe's EMI ID.
 	 */
 	show-recipe-ids: true;
+
+	/**
+	 * Whether to display additional widgets added to recipes from other mods.
+	 * These are typically developer facing and compatibility related, and not useful
+	 * for players.
+	 */
+	show-recipe-decorators: false;
 
 	/**
 	 * Whether stacks in the index should display a highlight if they have a recipe

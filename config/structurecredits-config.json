@@ -123,6 +123,16 @@
     "idas:beekeepers_house",
     "integrated_villages:marketstead_village",
     "idas:ancient_statue/ancient_statue_plains",
-    "integrated_villages:quark/minka_village"
+    "integrated_villages:quark/minka_village",
+    "incendium:pipeline",
+    "repurposed_structures:igloo_grassy",
+    "repurposed_structures:pyramid_dark_forest",
+    "idas:wizard_tower",
+    "betterarcheology:catacombs",
+    "idas:pillager_fortress",
+    "betterarcheology:fossil_creeper",
+    "friendsandfoes:illusioner_shack",
+    "repurposed_structures:outpost_birch",
+    "hopo:mineshaft/jungle_mineshaft"
   ]
 }

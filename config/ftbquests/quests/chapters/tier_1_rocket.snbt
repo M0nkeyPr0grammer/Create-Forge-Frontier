@@ -9,16 +9,26 @@
 		tag: { }
 	}
 	id: "782F000AB5EAD236"
-	images: [{
-		click: "#0A1C7563FC03C5F6"
-		height: 15.0d
-		hover: ["Tier 1 Rocket"]
-		image: "ftb:textures/tier_1.png"
-		rotation: 0.0d
-		width: 10.95d
-		x: 0.0d
-		y: 0.0d
-	}]
+	images: [
+		{
+			click: "#0A1C7563FC03C5F6"
+			height: 15.0d
+			hover: ["Tier 1 Rocket"]
+			image: "ftb:textures/tier_1.png"
+			rotation: 0.0d
+			width: 10.95d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/tier_1_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: -9.5d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [

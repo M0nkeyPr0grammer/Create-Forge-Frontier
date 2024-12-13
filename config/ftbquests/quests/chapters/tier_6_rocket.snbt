@@ -9,14 +9,24 @@
 		tag: { }
 	}
 	id: "3A6CBA1C0AA08E91"
-	images: [{
-		height: 15.0d
-		image: "ftb:textures/tier_6.png"
-		rotation: 0.0d
-		width: 7.5d
-		x: 0.0d
-		y: 0.0d
-	}]
+	images: [
+		{
+			height: 15.0d
+			image: "ftb:textures/tier_6.png"
+			rotation: 0.0d
+			width: 7.5d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/tier_6_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: -9.5d
+		}
+	]
 	order_index: 5
 	quest_links: [ ]
 	quests: [

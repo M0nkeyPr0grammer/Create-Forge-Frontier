@@ -9,16 +9,26 @@
 		tag: { }
 	}
 	id: "3E0090F3AF1CDBBE"
-	images: [{
-		click: "#7FEE2D38BA934C28"
-		height: 15.0d
-		hover: ["Tier 5 Rocket"]
-		image: "ftb:textures/tier_5.png"
-		rotation: 0.0d
-		width: 8.1d
-		x: 0.0d
-		y: 0.0d
-	}]
+	images: [
+		{
+			click: "#7FEE2D38BA934C28"
+			height: 15.0d
+			hover: ["Tier 5 Rocket"]
+			image: "ftb:textures/tier_5.png"
+			rotation: 0.0d
+			width: 8.1d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/tier_5_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: -9.5d
+		}
+	]
 	order_index: 4
 	quest_links: [ ]
 	quests: [

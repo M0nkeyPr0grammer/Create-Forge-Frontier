@@ -5,14 +5,24 @@
 	group: "154A5E2FF6C25F19"
 	icon: "forge_frontier:forge_rocket_core"
 	id: "2DBA3C74F57464A6"
-	images: [{
-		height: 2.0d
-		image: "ftb:textures/_forge_frontier_mechanical_crafting_forge_rocket_core.png"
-		rotation: 0.0d
-		width: 3.2d
-		x: 4.5d
-		y: -1.5d
-	}]
+	images: [
+		{
+			height: 2.0d
+			image: "ftb:textures/_forge_frontier_mechanical_crafting_forge_rocket_core.png"
+			rotation: 0.0d
+			width: 3.2d
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/rocket_core_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: -9.5d
+		}
+	]
 	order_index: 6
 	quest_links: [ ]
 	quests: [
@@ -26,7 +36,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 0.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["31DB4D1C003118C7"]
@@ -38,7 +48,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -1.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["31DB4D1C003118C7"]
@@ -50,7 +60,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 1.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["31DB4D1C003118C7"]
@@ -62,7 +72,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 1.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["31DB4D1C003118C7"]
@@ -74,7 +84,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 1.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["31DB4D1C003118C7"]
@@ -86,7 +96,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 0.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["31DB4D1C003118C7"]
@@ -98,7 +108,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 0.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["31DB4D1C003118C7"]
@@ -110,7 +120,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -1.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["31DB4D1C003118C7"]
@@ -122,7 +132,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -1.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["31DB4D1C003118C7"]
@@ -134,7 +144,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -2.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["31DB4D1C003118C7"]
@@ -146,7 +156,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -2.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["31DB4D1C003118C7"]
@@ -158,7 +168,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -2.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["31DB4D1C003118C7"]
@@ -170,7 +180,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["31DB4D1C003118C7"]
@@ -182,7 +192,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["31DB4D1C003118C7"]
@@ -194,7 +204,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -222,8 +232,8 @@
 				item: "forge_frontier:forge_rocket_core"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 0.5d
+			x: 3.5d
+			y: -6.0d
 		}
 		{
 			hide_dependent_lines: true
@@ -235,7 +245,7 @@
 				type: "checkmark"
 			}]
 			x: -3.5d
-			y: 0.0d
+			y: -6.0d
 		}
 	]
 	title: "Forge Rocket Core"

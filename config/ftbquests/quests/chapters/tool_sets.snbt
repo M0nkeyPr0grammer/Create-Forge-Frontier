@@ -11,6 +11,24 @@
 		}
 	}
 	id: "0D8C559800E87271"
+	images: [
+		{
+			height: 10.0d
+			image: "ftb:textures/tools_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: -9.5d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/coming_soon.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: 2.0d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -23,7 +41,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 0.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["7F705285958AA6F6"]
@@ -40,7 +58,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 1.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["7F705285958AA6F6"]
@@ -57,7 +75,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["7F705285958AA6F6"]
@@ -74,7 +92,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 3.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["7F705285958AA6F6"]
@@ -91,7 +109,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 4.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["7F705285958AA6F6"]
@@ -108,7 +126,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 5.0d
+			y: -1.0d
 		}
 	]
 	title: "Tool Sets"

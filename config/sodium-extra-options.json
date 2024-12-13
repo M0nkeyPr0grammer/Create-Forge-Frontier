@@ -14,7 +14,11 @@
     "block_break": true,
     "block_breaking": true,
     "other": {
-      "minecraft:ambient_entity_effect": true
+      "minecraft:ambient_entity_effect": true,
+      "farmersdelight:steam": true,
+      "create_sa:steam_cloud": true,
+      "create_sa:water_cloud": true,
+      "create:steam_jet": true
     }
   },
   "detail_settings": {
@@ -32,7 +36,8 @@
     "multi_dimension_fog_control": false,
     "dimensionFogDistance": {
       "minecraft:overworld": 0,
-      "ae2:spatial_storage": 0
+      "ae2:spatial_storage": 0,
+      "ad_astra:moon": 0
     },
     "light_updates": true,
     "item_frame": true,

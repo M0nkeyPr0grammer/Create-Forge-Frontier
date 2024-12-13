@@ -42,6 +42,14 @@
 			x: 7.0d
 			y: 3.5d
 		}
+		{
+			height: 10.0d
+			image: "ftb:textures/cold_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: -9.5d
+		}
 	]
 	order_index: 2
 	quest_links: [ ]
@@ -208,7 +216,7 @@
 			subtitle: "Found on Glacio"
 			tasks: [{
 				id: "0B47C133663E4941"
-				structure: "cataclysm:ancient_factory"
+				structure: "cataclysm:frosted_prison"
 				type: "structure"
 			}]
 			x: -3.5d
