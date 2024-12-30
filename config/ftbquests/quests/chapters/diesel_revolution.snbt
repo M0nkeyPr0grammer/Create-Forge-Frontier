@@ -5,14 +5,24 @@
 	group: "3D5393E3938A9DF4"
 	icon: "createdieselgenerators:diesel_engine"
 	id: "2EB37ADC408DC853"
-	images: [{
-		height: 10.0d
-		image: "ftb:textures/coming_soon.png"
-		rotation: 0.0d
-		width: 15.0d
-		x: 0.0d
-		y: 0.0d
-	}]
+	images: [
+		{
+			height: 10.0d
+			image: "ftb:textures/coming_soon.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/diesel_gen_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: -9.5d
+		}
+	]
 	order_index: 2
 	quest_links: [ ]
 	quests: [{
