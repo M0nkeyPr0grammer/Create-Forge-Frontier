@@ -16,7 +16,8 @@ const rewardUsernames = [
     "Nick_Dixon37",
     "Tookiyo",
     "Sabermech",
-    "Dongington"
+    "Dongington",
+    "CodyMC_"
 ];
 
 // Custom item to give to the players
