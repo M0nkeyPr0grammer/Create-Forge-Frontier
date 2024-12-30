@@ -1,0 +1,29 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "crafts__beyond"
+	group: "3D5393E3938A9DF4"
+	icon: "createaddition:tesla_coil"
+	id: "1D6D8AAB15F85097"
+	images: [{
+		height: 10.0d
+		image: "ftb:textures/coming_soon.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 5
+	quest_links: [ ]
+	quests: [{
+		id: "6F8D724244463BFF"
+		tasks: [{
+			id: "7B5616F164622EE9"
+			item: "createaddition:tesla_coil"
+			type: "item"
+		}]
+		x: 0.0d
+		y: -7.0d
+	}]
+	title: "Crafting the Future (Create Crafts and Additions)"
+}
