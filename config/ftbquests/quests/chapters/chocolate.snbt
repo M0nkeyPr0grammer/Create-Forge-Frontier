@@ -32,7 +32,7 @@
 		}
 		{
 			height: 2.5d
-			image: "eatinganimation:item/farmersdelight/hot_cocoa_0"
+			image: "farmersdelight:item/hot_cocoa"
 			rotation: 0.0d
 			width: 2.5d
 			x: 7.5d
