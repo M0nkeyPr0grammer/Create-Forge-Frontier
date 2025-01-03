@@ -26,7 +26,7 @@ Description Here
 
 ## Config Updates
 - EMI: Change Index Source from Registered to Creative to fix not showing all recipes issue
-
+- CarryOn: Blacklisted Villagers from being picked up so it doesn't conflict with Easy Villagers
 ## Drippy Loading Screen Updates
 - Updated version number to 2.0.1
 
