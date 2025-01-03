@@ -25,6 +25,7 @@ Description Here
 ## KubeJS Updates
 
 ## Config Updates
+- EMI: Change Index Source from Registered to Creative to fix not showing all recipes issue
 
 ## Drippy Loading Screen Updates
 - Updated version number to 2.0.1
