@@ -25,15 +25,74 @@
 	]
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		id: "1BADBAE5DC3CCEFC"
-		tasks: [{
-			id: "45EF54B8211AC25B"
-			item: "create:cogwheel"
-			type: "item"
-		}]
-		x: 0.0d
-		y: -7.0d
-	}]
+	quests: [
+		{
+			dependencies: ["0051FC2DA1337C65"]
+			description: ["Similarly to Shafts, Cogwheels and Large Cogwheels move stress and rotation. Unlike shafts, they transport stress sideways and reverse the rotation direction. These will be used both in your factory and as a major crafting component of machines and especially gearboxes. "]
+			id: "1BADBAE5DC3CCEFC"
+			rewards: [
+				{
+					count: 4
+					id: "0CC371B596752467"
+					item: "create_compressed:cogwheel_block"
+					type: "item"
+				}
+				{
+					id: "22D86A274C1AE33D"
+					item: "create_compressed:large_cogwheel_block"
+					type: "item"
+				}
+			]
+			subtitle: "Rotation Transportation Elevation"
+			tasks: [
+				{
+					id: "45EF54B8211AC25B"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "40CE5FA23CD5B1A0"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+			]
+			title: "Stress Progression: Gears"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			description: ["The completion of this quest marks the beginning of your foray into the mod that forms the foundation of this pack: Create. From andesite alloy springs the rest of your progression here, from shafts to mechanical hands it all starts here. You are going to need a lot of it!"]
+			icon: "create:andesite_alloy"
+			id: "66E9DB5E9D5CD5EC"
+			rewards: [{
+				id: "270C970CF9306939"
+				item: "createcompression:compressed_andesite_alloy_2x"
+				type: "item"
+			}]
+			subtitle: "Basic Beginnings of Create"
+			tasks: [{
+				id: "00679C84096B5E5B"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			title: "Stress Progression: Create Beginnings"
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["66E9DB5E9D5CD5EC"]
+			description: ["Shafts are the most basic way you will transport Rotation and Stress, the \"energy\" units of Create. Just like Andesite Alloy, these will form the backbone of your factory."]
+			id: "0051FC2DA1337C65"
+			subtitle: "Rotation Transportation Foundation"
+			tasks: [{
+				id: "78ACCAFEB5C8FAB0"
+				item: "create:shaft"
+				type: "item"
+			}]
+			title: "Stress Progression: Shaft"
+			x: 0.0d
+			y: -5.0d
+		}
+	]
 	title: "Foundations of Ingenuity (Vanilla Create)"
 }

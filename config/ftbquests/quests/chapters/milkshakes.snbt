@@ -80,11 +80,11 @@
 	quests: [
 		{
 			dependencies: ["291E377777F227E2"]
-			id: "326C4A77282506DB"
+			id: "56DCF77857D29A3E"
 			subtitle: "Sugar is craftable from Sugar Cane"
 			tasks: [{
 				count: 4L
-				id: "6B0D1ABED2DB1570"
+				id: "41A21B1EA22D76FD"
 				item: { Count: 4, id: "minecraft:sugar" }
 				type: "item"
 			}]
@@ -96,10 +96,10 @@
 				"5303C68D81319309"
 				"579BDCAD518C6F77"
 			]
-			id: "2374E8C9366B4964"
+			id: "069B7032A025B35C"
 			subtitle: "Obtained by mixing the below ingredients"
 			tasks: [{
-				id: "5321D831862FA4D8"
+				id: "7635C8ED27A0CA57"
 				item: "create_dd:cream_bucket"
 				type: "item"
 			}]
@@ -112,10 +112,10 @@
 				"4B2802937F3FFC29"
 				"631974F23E99BB8F"
 			]
-			id: "553578A0C7DEC266"
+			id: "4C0D98081C100472"
 			subtitle: "Obtained by mixing the below ingredients"
 			tasks: [{
-				id: "7E18139DD9F99F3C"
+				id: "1A700F076F946D4F"
 				item: "create_dd:strawberry_bucket"
 				type: "item"
 			}]
@@ -124,10 +124,10 @@
 		}
 		{
 			dependencies: ["0EA0C2CDE7F62ECA"]
-			id: "579BDCAD518C6F77"
+			id: "4E2D0095C61DA431"
 			tasks: [{
 				count: 32L
-				id: "698A0F6D8CA9B0C6"
+				id: "2E97E87C1F9F5215"
 				item: "minecraft:snowball"
 				type: "item"
 			}]
@@ -140,10 +140,10 @@
 				"34B2B208BB1E9C09"
 				"44699CA2AED75CFB"
 			]
-			id: "5303C68D81319309"
+			id: "18FB013F21F16B56"
 			subtitle: "Obtained by mixing the below ingredients"
 			tasks: [{
-				id: "5053DD7FC38DC057"
+				id: "25F2FA945168A7E2"
 				item: "create_dd:condense_milk_bucket"
 				type: "item"
 			}]
@@ -152,10 +152,10 @@
 		}
 		{
 			dependencies: ["0EA0C2CDE7F62ECA"]
-			id: "45559F8BD3B26EC9"
+			id: "2AE823AE5345A27B"
 			subtitle: "Obtained by milking a cow"
 			tasks: [{
-				id: "6761608115EC6B20"
+				id: "001EF71FC1E424CA"
 				item: "minecraft:milk_bucket"
 				type: "item"
 			}]
@@ -164,10 +164,10 @@
 		}
 		{
 			dependencies: ["0EA0C2CDE7F62ECA"]
-			id: "4B2802937F3FFC29"
+			id: "5AF3DFD75271D00B"
 			tasks: [{
 				count: 8L
-				id: "6AEE88C8132B72B6"
+				id: "164D19DDD3F8201A"
 				item: "minecraft:sweet_berries"
 				type: "item"
 			}]
@@ -176,11 +176,11 @@
 		}
 		{
 			dependencies: ["291E377777F227E2"]
-			id: "631974F23E99BB8F"
+			id: "640DE7AD3ED5EAB1"
 			subtitle: "Sugar is craftable from Sugar Cane"
 			tasks: [{
 				count: 4L
-				id: "1B24545698D3745C"
+				id: "708AF1057B5A836C"
 				item: "minecraft:sugar"
 				type: "item"
 			}]
@@ -189,11 +189,11 @@
 		}
 		{
 			dependencies: ["0EA0C2CDE7F62ECA"]
-			id: "34B2B208BB1E9C09"
+			id: "6B6AD8B87B16A9F7"
 			subtitle: "Obtained by milking a cow"
 			tasks: [{
 				count: 2L
-				id: "3E08035D982E2CC5"
+				id: "4B308CA2243C298D"
 				item: "minecraft:milk_bucket"
 				type: "item"
 			}]
@@ -202,9 +202,9 @@
 		}
 		{
 			dependencies: ["0EA0C2CDE7F62ECA"]
-			id: "44699CA2AED75CFB"
+			id: "6654EF247A63CACB"
 			tasks: [{
-				id: "7B733CBD946D295C"
+				id: "46F3DA8D4199B432"
 				item: "minecraft:water_bucket"
 				type: "item"
 			}]
@@ -213,11 +213,11 @@
 		}
 		{
 			dependencies: ["291E377777F227E2"]
-			id: "4F23C7217300D817"
+			id: "1EA793DF7EEF9DFF"
 			subtitle: "Sugar is craftable from Sugar Cane"
 			tasks: [{
 				count: 16L
-				id: "1033A3B7FF137595"
+				id: "10250C054281209B"
 				item: "minecraft:sugar"
 				type: "item"
 			}]
@@ -227,11 +227,11 @@
 		{
 			dependencies: ["4AADD38DF6D630C8"]
 			hide_dependent_lines: true
-			id: "291E377777F227E2"
+			id: "742533EEA506DAC0"
 			shape: "hexagon"
 			tasks: [{
 				count: 24L
-				id: "37715CD565D90B6E"
+				id: "48BF7FCE2FC99A65"
 				item: "minecraft:sugar_cane"
 				type: "item"
 			}]
@@ -248,7 +248,7 @@
 				"The Strawberry Milkshake is later used in automating Iron via a"
 				"{ \"text\": \"Crimsite Molten Vent\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0EA0C2CDE7F62ECA\" } }"
 			]
-			id: "0998CA8B44BA0EB7"
+			id: "7B9E43BCDB5F3B80"
 			rewards: [{
 				id: "4EFC0A71251BE59E"
 				item: "minecraft:iron_block"
@@ -256,7 +256,7 @@
 			}]
 			subtitle: "Obtained by mixing the below ingredients"
 			tasks: [{
-				id: "01E17255EEC2E93A"
+				id: "49BEA3F6247356AF"
 				item: "create_dd:strawberry_milkshake_bucket"
 				type: "item"
 			}]
@@ -457,7 +457,7 @@
 				"The Cream is later used in automating Zinc via a"
 				"{ \"text\": \"Asurine Molten Vent\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0AFE52653EE975A8\" } }"
 			]
-			id: "5FFE2F9EA4FCFE3D"
+			id: "04B6269C3086E982"
 			rewards: [{
 				id: "5506B62F6ED7487D"
 				item: "create:zinc_block"
@@ -465,7 +465,7 @@
 			}]
 			subtitle: "Obtained by mixing the below ingredients"
 			tasks: [{
-				id: "0B3992A2BB8BBFE9"
+				id: "24573655B3456BA2"
 				item: "create_dd:cream_bucket"
 				type: "item"
 			}]
@@ -474,10 +474,10 @@
 		}
 		{
 			dependencies: ["0AFE52653EE975A8"]
-			id: "140B751E2B2B4E1B"
+			id: "3EBBEF28896DDFDC"
 			tasks: [{
 				count: 32L
-				id: "44B48F48EDFEA58C"
+				id: "53974B0D5B2678E6"
 				item: { Count: 32, id: "minecraft:snowball" }
 				type: "item"
 			}]
@@ -490,10 +490,10 @@
 				"3C91854682AC8FDE"
 				"3921AFAC261FD1E5"
 			]
-			id: "71BD31914B627ED6"
+			id: "0B07B1F96A516091"
 			subtitle: "Obtained by mixing the below ingredients"
 			tasks: [{
-				id: "4A833200CB44D4F8"
+				id: "19D9536607AD33E3"
 				item: "create_dd:condense_milk_bucket"
 				type: "item"
 			}]
@@ -502,11 +502,11 @@
 		}
 		{
 			dependencies: ["323B7BE36A1F441B"]
-			id: "7F2A130797BA31D7"
+			id: "0E246809FAEE1B60"
 			subtitle: "Sugar is craftable from Sugar Cane"
 			tasks: [{
 				count: 16L
-				id: "2AFC27427EF8D0A4"
+				id: "0EAFDEB61B9F30C0"
 				item: { Count: 16, id: "minecraft:sugar" }
 				type: "item"
 			}]
@@ -515,9 +515,9 @@
 		}
 		{
 			dependencies: ["0AFE52653EE975A8"]
-			id: "3C91854682AC8FDE"
+			id: "7D69DB31D370988C"
 			tasks: [{
-				id: "3096E1A419CA4E56"
+				id: "07E39CF58ACD70F4"
 				item: "minecraft:water_bucket"
 				type: "item"
 			}]
@@ -526,11 +526,11 @@
 		}
 		{
 			dependencies: ["0AFE52653EE975A8"]
-			id: "3921AFAC261FD1E5"
+			id: "69E8A3469EE235F6"
 			subtitle: "Obtained by milking a cow"
 			tasks: [{
 				count: 2L
-				id: "41C645CEAC23D5FA"
+				id: "3BE87FAA9A195F91"
 				item: { Count: 2, id: "minecraft:milk_bucket" }
 				type: "item"
 			}]
@@ -539,11 +539,11 @@
 		}
 		{
 			dependencies: ["4AADD38DF6D630C8"]
-			id: "323B7BE36A1F441B"
+			id: "0A0733D56F8BFFF8"
 			shape: "hexagon"
 			tasks: [{
 				count: 16L
-				id: "247291FB8FC41B90"
+				id: "2FB4EC1A3602EB8A"
 				item: { Count: 16, id: "minecraft:sugar_cane" }
 				type: "item"
 			}]
