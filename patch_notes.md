@@ -9,19 +9,18 @@ Description Here
 
 ## Mod Updates
 - **Advanced AE**: v1.0.12 > v1.0.13
-- **Cataclysm**: v2.27 > v2.31
-- **Corspe Curio Compat**: v2.0.0 > v2.0.1
-- **Create Goggles**: v0.5.5.g > v0.5.6
-- **Create - Connected**: v0.9.2 > v0.9.3
-- **CreativeCore**: v2.12.27 > v2.12.28
-- **Dungeon Craw**l: v2.3.14 > v2.3.15
-- **Every Compat**: v2.7.8 > v2.7.10
-- **FTB XMod Compat**: v2.1.1 > v2.1.2
-- **Integrated Dungeons and Structures**: v1.10.2 > v1.10.3
-- **Integrated Villages**: v1.1.4 > v1.1.5
-- **Sophisticated Backpacks**: v3.21.1.1161 > v3.21.2.1163
-- **Sophisticated Core**: v1.0.4.820 > v1.0.6.824
-- **Sophisticated Storage**: v1.0.4.994 > v1.0.7.1000
+- **Corspe Curio Compat**: v2.0.0 > v2.0.1 
+- **Create Goggles**: v0.5.5.g > v0.5.6 
+- **Create - Connected**: v0.9.2 > v0.9.3 
+- **CreativeCore**: v2.12.27 > v2.12.28 
+- **Dungeon Crawl**: v2.3.14 > v2.3.15 
+- **Every Compat**: v2.7.8 > v2.7.10 
+- **FTB XMod Compat**: v2.1.1 > v2.1.2 
+- **Integrated Dungeons and Structures**: v1.10.2 > v1.10.3 
+- **Integrated Villages**: v1.1.4 > v1.1.5 
+- **Sophisticated Backpacks**: v3.21.1.1161 > v3.21.2.1163 
+- **Sophisticated Core**: v1.0.4.820 > v1.0.6.824 
+- **Sophisticated Storage**: v1.0.4.994 > v1.0.7.1000 
 
 ## KubeJS Updates
 
