@@ -23,7 +23,8 @@ Description Here
 - **Sophisticated Storage**: v1.0.4.994 > v1.0.7.1000 
 
 ## KubeJS Updates
-- NonSorted_RecipesTweaks.js: Created a Rotten Flesh to Leather Recipe
+- NonSorted_RecipesTweaks.js: Created a Rotten Flesh to Leather Recipe, Fixed Sophisticated Barrel to Limite Barrel Recipe
+
 
 ## Config Updates
 - EMI: Change Index Source from Registered to Creative to fix not showing all recipes issue

@@ -92,21 +92,21 @@ ServerEvents.recipes(event => {
 
 	// Limited Barrel Recipes
 		createBarrelRecipe([
-			{ item: 'sophisticatedstorage:barrel', nbt: { woodType: "spruce" } },
+			{ tag: 'sophisticatedstorage:barrel'},
 			{ tag: 'minecraft:wooden_slabs' }
 		], 
 		{ item: 'sophisticatedstorage:limited_barrel_1', nbt: { woodType: "spruce" } }, 
 		'spruce_limited_barrel_1');
 
 		createBarrelRecipe([
-			{ item: 'sophisticatedstorage:barrel', nbt: { woodType: "spruce" } },
+			{ tag: 'sophisticatedstorage:barrel' },
 			{ tag: 'minecraft:planks' }
 		], 
 		{ item: 'sophisticatedstorage:limited_barrel_2', nbt: { woodType: "spruce" } }, 
 		'spruce_limited_barrel_2');
 
 		createBarrelRecipe([
-			{ item: 'sophisticatedstorage:barrel', nbt: { woodType: "spruce" } },
+			{ tag: 'sophisticatedstorage:barrel'},
 			{ tag: 'minecraft:wooden_slabs' },
 			{ tag: 'minecraft:wooden_slabs' }
 		], 
@@ -114,7 +114,7 @@ ServerEvents.recipes(event => {
 		'spruce_limited_barrel_3');
 
 		createBarrelRecipe([
-			{ item: 'sophisticatedstorage:barrel', nbt: { woodType: "spruce" } },
+			{ tag: 'sophisticatedstorage:barrel'},
 			{ tag: 'minecraft:planks' },
 			{ tag: 'minecraft:planks' }
 		], 
