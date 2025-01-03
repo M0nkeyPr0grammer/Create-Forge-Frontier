@@ -25,6 +25,23 @@ ServerEvents.recipes(event => {
 	event.remove({ id: 'create_dd:superheating/netherite_scrap'})
 	event.remove({ id: 'create_additions_synthetics:tank_conversion' })
 
+	// Rotten Flesh to Leather
+	event.custom({
+		type: 'minecraft:crafting_shapeless',
+		ingredients: [
+			{
+				item: 'minecraft:rotten_flesh'
+			},
+			{
+				item: 'create_additions_synthetics:calcite_salt'
+			}
+		],
+		result: {
+			item: 'minecraft:leather',
+			count: 1
+		  }
+	}).id( 'forge_frontier:shapeless/flesh_to_leather' )	
+
 	// Forge Chest to Vanilla Chest Recipe
 	event.custom({
 		type: 'minecraft:crafting_shapeless',
