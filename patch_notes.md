@@ -1,9 +1,9 @@
 # Modpack Patch Notes: Version 2.0.1
-**Release Date**: January 5th, 2025
+**Release Date**: January 3th, 2025
 
 # Minor Bug Fixes Patch
 
-Description Here
+This patch introduces a series of minor updates aimed at enhancing your gameplay experience. It addresses several small bugs, refines existing mechanics, and implements key recipe adjustments. Explore the details below to see what's improved!
 
 ### As a standard safety protocol, we advise creating a backup of your saved data prior to updating the modification package to ensure the preservation of your progress.
 
