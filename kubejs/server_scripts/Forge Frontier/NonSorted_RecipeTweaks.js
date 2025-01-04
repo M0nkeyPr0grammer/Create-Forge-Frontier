@@ -25,6 +25,23 @@ ServerEvents.recipes(event => {
 	event.remove({ id: 'create_dd:superheating/netherite_scrap'})
 	event.remove({ id: 'create_additions_synthetics:tank_conversion' })
 
+	// Rotten Flesh to Leather
+	event.custom({
+		type: 'minecraft:crafting_shapeless',
+		ingredients: [
+			{
+				item: 'minecraft:rotten_flesh'
+			},
+			{
+				item: 'create_additions_synthetics:calcite_salt'
+			}
+		],
+		result: {
+			item: 'minecraft:leather',
+			count: 1
+		  }
+	}).id( 'forge_frontier:shapeless/flesh_to_leather' )	
+
 	// Forge Chest to Vanilla Chest Recipe
 	event.custom({
 		type: 'minecraft:crafting_shapeless',
@@ -75,21 +92,21 @@ ServerEvents.recipes(event => {
 
 	// Limited Barrel Recipes
 		createBarrelRecipe([
-			{ item: 'sophisticatedstorage:barrel', nbt: { woodType: "spruce" } },
+			{ tag: 'sophisticatedstorage:barrel'},
 			{ tag: 'minecraft:wooden_slabs' }
 		], 
 		{ item: 'sophisticatedstorage:limited_barrel_1', nbt: { woodType: "spruce" } }, 
 		'spruce_limited_barrel_1');
 
 		createBarrelRecipe([
-			{ item: 'sophisticatedstorage:barrel', nbt: { woodType: "spruce" } },
+			{ tag: 'sophisticatedstorage:barrel' },
 			{ tag: 'minecraft:planks' }
 		], 
 		{ item: 'sophisticatedstorage:limited_barrel_2', nbt: { woodType: "spruce" } }, 
 		'spruce_limited_barrel_2');
 
 		createBarrelRecipe([
-			{ item: 'sophisticatedstorage:barrel', nbt: { woodType: "spruce" } },
+			{ tag: 'sophisticatedstorage:barrel'},
 			{ tag: 'minecraft:wooden_slabs' },
 			{ tag: 'minecraft:wooden_slabs' }
 		], 
@@ -97,7 +114,7 @@ ServerEvents.recipes(event => {
 		'spruce_limited_barrel_3');
 
 		createBarrelRecipe([
-			{ item: 'sophisticatedstorage:barrel', nbt: { woodType: "spruce" } },
+			{ tag: 'sophisticatedstorage:barrel'},
 			{ tag: 'minecraft:planks' },
 			{ tag: 'minecraft:planks' }
 		], 
