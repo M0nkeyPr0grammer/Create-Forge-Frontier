@@ -15,3 +15,31 @@ The Following Assets were provided by external authors
 4.) Trail Ruins Overhaul
 	- nikeyso
 	- https://modrinth.com/datapack/the-trail-ruins-overhaul
+
+5.) Better End Cities
+	- TheArchitects777
+	- https://www.curseforge.com/minecraft/texture-packs/vanilla-better-end-city
+
+6.) Repurposed_Structures-Better_Desert_Temples_v8
+	- telepathicgrunt
+	- https://www.curseforge.com/minecraft/texture-packs/repurposed-structures-better-desert-temples-compat
+
+7.) Repurposed_Structures-Better_Dungeons_v5
+	- telepathicgrunt
+	- https://www.curseforge.com/minecraft/texture-packs/repurposed-structures-better-dungeons-datapack
+
+8.) Repurposed_Structures-Better_Jungle_Temples_v6
+	- telepathicgrunt
+	- https://www.curseforge.com/minecraft/texture-packs/repurposed-structures-better-jungle-temples-compat
+
+9.) Repurposed_Structures-Better_Monuments_v6
+	- telepathicgrunt
+	- https://www.curseforge.com/minecraft/texture-packs/repurposed-structures-better-ocean-monuments
+
+10.) Repurposed_Structures-Better_Nether_Fortress_v6
+	- telepathicgrunt
+	- https://www.curseforge.com/minecraft/texture-packs/repurposed-structures-better-nether-fortress
+
+11.) Repurposed_Structures-Better_Witch_Huts_v4
+	- telepathicgrunt
+	- https://www.curseforge.com/minecraft/texture-packs/repurposed-structures-better-witch-huts-compat
