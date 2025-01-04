@@ -23,11 +23,11 @@ This patch introduces a series of minor updates aimed at enhancing your gameplay
 - **Sophisticated Storage**: v1.0.4.994 > v1.0.7.1000 
 
 ## KubeJS Updates
-- NonSorted_RecipesTweaks.js: Created a Rotten Flesh to Leather Recipe, Fixed Sophisticated Barrel to Limite Barrel Recipe
+- NonSorted_RecipesTweaks.js: Introduced a new Rotten Flesh-to-Leather recipe and resolved issues with the Sophisticated Barrel to Limited Barrel recipe.
 ## Config Updates
-- EMI: Change Index Source from Registered to Creative to fix not showing all recipes issue
-- CarryOn: Blacklisted Villagers from being picked up so it doesn't conflict with Easy Villagers
-- Alexs Mobs: Seagulls are now more friendly and won't steal your food
+- EMI: Adjusted the index source from Registered to Creative to ensure all recipes are displayed correctly, and enabled the append mod-ID feature for better organization.
+- CarryOn: Villagers are now blacklisted from being picked up to avoid conflicts with the Easy Villagers mod.
+- Alexs Mobs: Seagulls have been tamed! These feathered friends are now less mischievous and will no longer steal your food.
 ## Drippy Loading Screen Updates
 - Updated version number to 2.0.1
 ## Fancy Menu Updates
