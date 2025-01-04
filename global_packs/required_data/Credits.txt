@@ -15,3 +15,4 @@ The Following Assets were provided by external authors
 4.) Trail Ruins Overhaul
 	- nikeyso
 	- https://modrinth.com/datapack/the-trail-ruins-overhaul
+
