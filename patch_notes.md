@@ -24,8 +24,6 @@ Description Here
 
 ## KubeJS Updates
 - NonSorted_RecipesTweaks.js: Created a Rotten Flesh to Leather Recipe, Fixed Sophisticated Barrel to Limite Barrel Recipe
-## Global Pack Updates
-- Moved all Datapacks into Global Datapacks
 ## Config Updates
 - EMI: Change Index Source from Registered to Creative to fix not showing all recipes issue
 - CarryOn: Blacklisted Villagers from being picked up so it doesn't conflict with Easy Villagers
