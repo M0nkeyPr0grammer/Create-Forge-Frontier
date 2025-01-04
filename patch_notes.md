@@ -33,7 +33,7 @@ This patch introduces a series of minor updates aimed at enhancing your gameplay
 ## Fancy Menu Updates
 - Updated version number to 2.0.1
 
-### More Details about the changes can be found here: [github repository merge](https://github.com/M0nkeyPr0grammer/Create-Forge-Frontier)
+### More Details about the changes can be found here: [github repository merge](https://github.com/M0nkeyPr0grammer/Create-Forge-Frontier/pull/24)
 
 ### Note: If you encounter any issues, please request support on our [Discord](https://discord.gg/quenZthXgy). Enjoy the update!
 
