@@ -19,8 +19,8 @@
 			image: "ftb:textures/coming_soon.png"
 			rotation: 0.0d
 			width: 15.0d
-			x: 0.0d
-			y: 0.0d
+			x: 2.0d
+			y: 9.5d
 		}
 	]
 	order_index: 0
@@ -38,7 +38,7 @@
 					type: "item"
 				}
 				{
-					id: "22D86A274C1AE33D"
+					id: "19B7A03265D3B613"
 					item: "create_compressed:large_cogwheel_block"
 					type: "item"
 				}
@@ -51,13 +51,13 @@
 					type: "item"
 				}
 				{
-					id: "40CE5FA23CD5B1A0"
+					id: "515824DD3198DC39"
 					item: "create:large_cogwheel"
 					type: "item"
 				}
 			]
 			title: "Stress Progression: Gears"
-			x: 0.0d
+			x: 2.5d
 			y: -3.5d
 		}
 		{
@@ -77,7 +77,7 @@
 			}]
 			title: "Stress Progression: Create Beginnings"
 			x: 0.0d
-			y: -6.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["66E9DB5E9D5CD5EC"]
@@ -89,9 +89,153 @@
 				item: "create:shaft"
 				type: "item"
 			}]
-			title: "Stress Progression: Shaft"
+			title: "Stress Progression: Shafts"
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["66E9DB5E9D5CD5EC"]
+			description: ["Andesite Casings are made by using or deploying andesite alloy onto stripped logs. These casings form the structure of your first Create machines, and you are well on your way to your first factory! "]
+			id: "4BD39CC8E17CA1A9"
+			rewards: [{
+				count: 9
+				id: "6C8DAE26BC06199D"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			subtitle: "Into The Age of Andesite"
+			tasks: [{
+				id: "70567DC2A0CA1731"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			title: "Stress Progression: Andesite Casing"
 			x: 0.0d
-			y: -5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4BD39CC8E17CA1A9"]
+			id: "71D00FF2BEBD3FEA"
+			tasks: [{
+				id: "2C184984573B15B4"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			title: "Stress Progression: Mechanical Press"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["27C859D4923FF663"]
+			description: ["This is a very good first source of stress units and rotation, before windmills and waterwheels. Use to turn, and Crouch+Use to reverse the rotation direction."]
+			id: "3194DBB424ACA257"
+			rewards: [{
+				id: "2DAE60B6EF9FC3C6"
+				item: "create:andesite_alloy_block"
+				type: "item"
+			}]
+			subtitle: "Manual Stress!"
+			tasks: [{
+				id: "40F72CDF76D8262E"
+				item: "create:hand_crank"
+				type: "item"
+			}]
+			title: "Stress Progression: Hand Crank"
+			x: -5.5d
+			y: -3.5d
+		}
+		{
+			description: ["The completion of this quest marks the beginning of your foray into the mod that forms the foundation of this pack: Create. From andesite alloy springs the rest of your progression here, from shafts to mechanical hands it all starts here. You are going to need a lot of it!"]
+			icon: "create:andesite_alloy"
+			id: "27C859D4923FF663"
+			rewards: [{
+				id: "1E0BA8E1893E0053"
+				item: "createcompression:compressed_andesite_alloy_2x"
+				type: "item"
+			}]
+			subtitle: "Basic Beginnings of Create"
+			tasks: [{
+				id: "15A2DE1FFEE5A5C3"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			title: "Stress Progression: Create Beginnings"
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["27C859D4923FF663"]
+			description: ["[\"\",{\"text\":\"These are excellent sources of stress for midgame, and can carry you a long way. To set one up, you need to connect windmill sail blocks, and the windmill will generate varying amounts of stress depending on how many you have connected. The different tiers of windmills can be confusing, the Create wiki page has more information about the stress capacity of the Windmill Bearing: \"},{\"text\":\"Windmills on the Create Wiki\",\"underlined\":true,\"color\":\"blue\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://create.fandom.com/wiki/Windmill\"}},{\"text\":\".\"}]"]
+			id: "0978BA99255B5D65"
+			rewards: [{
+				count: 16
+				id: "52D688973DD92F8A"
+				item: "minecraft:white_wool"
+				type: "item"
+			}]
+			subtitle: "Netherlands Moment"
+			tasks: [{
+				id: "7A4E69CE7A662487"
+				item: "create:windmill_bearing"
+				type: "item"
+			}]
+			title: "Stress Progression: Windmill Bearing"
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["27C859D4923FF663"]
+			id: "77F6C51EB12B6075"
+			rewards: [{
+				count: 3
+				id: "1B20BF3247BEF8D8"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A2EAE545FBBB1CA"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["77F6C51EB12B6075"]
+			id: "159659B4B2855DCB"
+			rewards: [{
+				id: "12CC401DB224D2DB"
+				item: "create:large_water_wheel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2626A3C261BB9FE0"
+				item: "create:large_water_wheel"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0978BA99255B5D65"]
+			description: [""]
+			id: "7E0A66ADA42FE307"
+			rewards: [{
+				count: 32
+				id: "6EEE63BEA3AC2AD0"
+				item: "create:white_sail"
+				type: "item"
+			}]
+			subtitle: "You Turn Me Right Round Baby"
+			tasks: [{
+				count: 32L
+				id: "0F8286A466510DBD"
+				item: "create:white_sail"
+				type: "item"
+			}]
+			title: "Stress Progression: Windmill Sails"
+			x: -4.5d
+			y: -2.5d
 		}
 	]
 	title: "Foundations of Ingenuity (Vanilla Create)"
