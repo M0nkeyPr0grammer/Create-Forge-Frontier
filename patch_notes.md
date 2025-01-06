@@ -7,11 +7,14 @@ Coming Soon
 
 ### As a standard safety protocol, we advise creating a backup of your saved data prior to updating the modification package to ensure the preservation of your progress.
 
+## Mod Additions
+- 
 ## Mod Updates
 - 
 
 ## KubeJS Updates
-- 
+- /serverscripts/Waystones: Changed Waystone Recipes to use create items and mechanics, and removed old waystone recipes including sharestone recipes.
+- /assets/Waystones: Renamed Waystones
 ## Config Updates
 - 
 ## Drippy Loading Screen Updates
