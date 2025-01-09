@@ -8,7 +8,9 @@ Coming Soon
 ### As a standard safety protocol, we advise creating a backup of your saved data prior to updating the modification package to ensure the preservation of your progress.
 
 ## Mod Additions
-- 
+- [Light Overlay](https://www.curseforge.com/minecraft/mc-mods/light-overlay): This mod provides users with a NEI-like light overlay.
+- [Xaeros Minimap & World Map - Waystone Compatibility](https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap-world-map-waystones-compability): This mod is a sucesor of Waystones2Waypoints which creates a Waypoint in the Xaero's World Map and Xaero's Minimap when the player actives a Waystone
+- [Waystones](https://www.curseforge.com/minecraft/mc-mods/waystones): This mod adds waystone blocks that the player can return to once they've been activated, either through a Warp Scroll, a rechargeable Warp Stone, or by using an existing waystone to hop from one to the other.
 ## Mod Updates
 - Advanced AE: v1.0.13> v1.0.14
 - Ad Astra Delight: v1.1.0 > v1.1.1
@@ -28,7 +30,8 @@ Coming Soon
 - Sophisticated Core: v1.0.6.824 > v1.1.1.832
 - Sophisticated v1.0.7.1000 > v1.1.0.1009
 - Structure Credits: v1.7 > v2.2
-
+## Quest Updates/Additions
+- Coming Soon
 ## KubeJS Updates
 - /serverscripts/Waystones: Changed Waystone Recipes to use create items and mechanics, and removed old waystone recipes including sharestone recipes.
 - /assets/Waystones: Renamed Waystones
