@@ -21,7 +21,7 @@ wirelessTermBeaconLvl = 1
 #Value of 0 only requires a single beacon block nearby
 #Value of -1 disables this feature entirely
 #Range: -1 ~ 4
-wirelessTermBeaconLvlDim = 4
+wirelessTermBeaconLvlDim = -1
 #Inventory Cable Connector requied beacon level for inventory linking
 #Value of 0 only requires a single beacon block
 #Value of -1 disables this feature entirely
