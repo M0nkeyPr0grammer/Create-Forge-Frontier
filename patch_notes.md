@@ -33,6 +33,7 @@ Coming Soon
 - /serverscripts/Waystones: Changed Waystone Recipes to use create items and mechanics, and removed old waystone recipes including sharestone recipes.
 - /assets/Waystones: Renamed Waystones
 - /serverscripts/Forge Frontier/Wrencable_Block_Tags: Made Molten Vents Non Movable again, as they can be picked up with Carryon when active
+- /serverscripts/Create/Enchantment_Industry_Compat_Fixes: Added Caged Mobs Crystallized Experience and Blocks compatibility
 ## Config Updates
 - Carryon: Blacklisted Sophisticated Storage, Backpacks, and Sacks
 - Tom's Simple Storage: Removed Cross Dimensional Access to even out AE2 Cross Dimensional Access
