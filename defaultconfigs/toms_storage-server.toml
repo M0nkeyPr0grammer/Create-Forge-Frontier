@@ -16,12 +16,12 @@ advWirelessRange = 64
 #Value of 0 only requires a single beacon block nearby
 #Value of -1 disables this feature entirely
 #Range: -1 ~ 4
-wirelessTermBeaconLvl = 1
+wirelessTermBeaconLvl = 2
 #Adv Wireless terminal requied beacon level for cross dimensional access
 #Value of 0 only requires a single beacon block nearby
 #Value of -1 disables this feature entirely
 #Range: -1 ~ 4
-wirelessTermBeaconLvlDim = -1
+wirelessTermBeaconLvlDim = 4
 #Inventory Cable Connector requied beacon level for inventory linking
 #Value of 0 only requires a single beacon block
 #Value of -1 disables this feature entirely
