@@ -19,21 +19,338 @@
 			image: "ftb:textures/coming_soon.png"
 			rotation: 0.0d
 			width: 15.0d
-			x: 0.0d
-			y: 0.0d
+			x: 2.0d
+			y: 9.5d
 		}
 	]
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		id: "1BADBAE5DC3CCEFC"
-		tasks: [{
-			id: "45EF54B8211AC25B"
-			item: "create:cogwheel"
-			type: "item"
-		}]
-		x: 0.0d
-		y: -7.0d
-	}]
+	quests: [
+		{
+			dependencies: ["0051FC2DA1337C65"]
+			description: ["Similarly to Shafts, Cogwheels and Large Cogwheels move stress and rotation. Unlike shafts, they transport stress sideways and reverse the rotation direction. These will be used both in your factory and as a major crafting component of machines and especially gearboxes. "]
+			id: "1BADBAE5DC3CCEFC"
+			rewards: [
+				{
+					count: 4
+					id: "0CC371B596752467"
+					item: "create_compressed:cogwheel_block"
+					type: "item"
+				}
+				{
+					id: "19B7A03265D3B613"
+					item: "create_compressed:large_cogwheel_block"
+					type: "item"
+				}
+			]
+			subtitle: "Rotation Transportation Elevation"
+			tasks: [
+				{
+					id: "45EF54B8211AC25B"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "515824DD3198DC39"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+			]
+			title: "Stress Progression: Gears"
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			description: ["The completion of this quest marks the beginning of your foray into the mod that forms the foundation of this pack: Create. From andesite alloy springs the rest of your progression here, from shafts to mechanical hands it all starts here. You are going to need a lot of it!"]
+			icon: "create:andesite_alloy"
+			id: "66E9DB5E9D5CD5EC"
+			rewards: [{
+				id: "270C970CF9306939"
+				item: "createcompression:compressed_andesite_alloy_2x"
+				type: "item"
+			}]
+			subtitle: "Basic Beginnings of Create"
+			tasks: [{
+				id: "00679C84096B5E5B"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			title: "Stress Progression: Create Beginnings"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["66E9DB5E9D5CD5EC"]
+			description: ["Shafts are the most basic way you will transport Rotation and Stress, the \"energy\" units of Create. Just like Andesite Alloy, these will form the backbone of your factory."]
+			id: "0051FC2DA1337C65"
+			subtitle: "Rotation Transportation Foundation"
+			tasks: [{
+				id: "78ACCAFEB5C8FAB0"
+				item: "create:shaft"
+				type: "item"
+			}]
+			title: "Stress Progression: Shafts"
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["66E9DB5E9D5CD5EC"]
+			description: ["Andesite Casings are made by using or deploying andesite alloy onto stripped logs. These casings form the structure of your first Create machines, and you are well on your way to your first factory! "]
+			id: "4BD39CC8E17CA1A9"
+			rewards: [{
+				count: 9
+				id: "6C8DAE26BC06199D"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			subtitle: "Into The Age of Andesite"
+			tasks: [{
+				id: "70567DC2A0CA1731"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			title: "Stress Progression: Andesite Casing"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4BD39CC8E17CA1A9"]
+			id: "71D00FF2BEBD3FEA"
+			subtitle: "swa *THUNK*"
+			tasks: [{
+				id: "2C184984573B15B4"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			title: "Stress Progression: Mechanical Press"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0051FC2DA1337C65"]
+			description: ["This is a very good first source of stress units and rotation, before windmills and waterwheels. Use to turn, and Crouch+Use to reverse the rotation direction."]
+			id: "3194DBB424ACA257"
+			rewards: [{
+				id: "2DAE60B6EF9FC3C6"
+				item: "create:andesite_alloy_block"
+				type: "item"
+			}]
+			subtitle: "Manual Stress!"
+			tasks: [{
+				id: "40F72CDF76D8262E"
+				item: "create:hand_crank"
+				type: "item"
+			}]
+			title: "Stress Progression: Hand Crank"
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0051FC2DA1337C65"]
+			description: ["[\"\",{\"text\":\"These are excellent sources of stress for midgame, and can carry you a long way. To set one up, you need to connect windmill sail blocks, and the windmill will generate varying amounts of stress depending on how many you have connected. The different tiers of windmills can be confusing, the Create wiki page has more information about the stress capacity of the Windmill Bearing: \"},{\"text\":\"Windmills on the Create Wiki\",\"underlined\":true,\"color\":\"blue\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://create.fandom.com/wiki/Windmill\"}},{\"text\":\".\"}]"]
+			id: "0978BA99255B5D65"
+			rewards: [{
+				count: 16
+				id: "52D688973DD92F8A"
+				item: "minecraft:white_wool"
+				type: "item"
+			}]
+			subtitle: "Netherlands Moment"
+			tasks: [{
+				id: "7A4E69CE7A662487"
+				item: "create:windmill_bearing"
+				type: "item"
+			}]
+			title: "Stress Progression: Windmill Bearing"
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0051FC2DA1337C65"]
+			id: "77F6C51EB12B6075"
+			rewards: [{
+				count: 3
+				id: "1B20BF3247BEF8D8"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A2EAE545FBBB1CA"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			title: "Stress Progression: Water Wheel"
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["77F6C51EB12B6075"]
+			id: "159659B4B2855DCB"
+			rewards: [{
+				id: "12CC401DB224D2DB"
+				item: "create:large_water_wheel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2626A3C261BB9FE0"
+				item: "create:large_water_wheel"
+				type: "item"
+			}]
+			title: "Stress Progression: Large Water Wheel"
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0978BA99255B5D65"]
+			description: [""]
+			id: "7E0A66ADA42FE307"
+			rewards: [{
+				count: 32
+				id: "6EEE63BEA3AC2AD0"
+				item: "create:white_sail"
+				type: "item"
+			}]
+			subtitle: "You Spin Me Right Round Baby"
+			tasks: [{
+				count: 32L
+				id: "0F8286A466510DBD"
+				item: "create:white_sail"
+				type: "item"
+			}]
+			title: "Stress Progression: Windmill Sails"
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["71D00FF2BEBD3FEA"]
+			icon: "create:iron_sheet"
+			id: "689AB7CC0541BC51"
+			rewards: [{
+				count: 2
+				id: "77C8F58DF74B8F40"
+				item: "create_compressed:iron_sheet_block"
+				type: "item"
+			}]
+			subtitle: "Basic Material Processing"
+			tasks: [
+				{
+					count: 8L
+					id: "265D31B45579D40F"
+					item: "create:iron_sheet"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "0CA177215EA87303"
+					item: { Count: 8, id: "minecraft:iron_ingot" }
+					type: "item"
+				}
+			]
+			title: "Stress Progression: Iron Sheets"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4BD39CC8E17CA1A9"]
+			id: "797B7A3B53705435"
+			subtitle: "Basic Grinding"
+			tasks: [{
+				id: "4863D5A9826C7967"
+				item: "create:millstone"
+				type: "item"
+			}]
+			title: "Stress Progression: Millstone"
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4BD39CC8E17CA1A9"]
+			id: "40AAB2B0E0E41530"
+			subtitle: "Basic Block Breaking"
+			tasks: [{
+				id: "63B6C58D01E18519"
+				item: "create:mechanical_drill"
+				type: "item"
+			}]
+			title: "Stress Progression: Mechanical Drill"
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["66E9DB5E9D5CD5EC"]
+			hide_dependency_lines: true
+			id: "39CF5A761AFB33F5"
+			tasks: [{
+				id: "6B381786878F6202"
+				item: "create:basin"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"689AB7CC0541BC51"
+				"39CF5A761AFB33F5"
+			]
+			icon: "create:mechanical_mixer"
+			id: "7A9D080E21CD57F2"
+			tasks: [
+				{
+					id: "2E675FCFBC43AC5B"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "3F104C0CE233C7C7"
+					item: "create:whisk"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["689AB7CC0541BC51"]
+			id: "162904A6F261A438"
+			tasks: [{
+				id: "1040D5AC21B7102B"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["689AB7CC0541BC51"]
+			id: "0EC1502E36B5A728"
+			rewards: [
+				{
+					id: "28C7125FBF54BB76"
+					item: "create_connected:fan_blasting_catalyst"
+					type: "item"
+				}
+				{
+					id: "72858A0A07108612"
+					item: "create_connected:fan_splashing_catalyst"
+					type: "item"
+				}
+				{
+					id: "15BA51078DA138FA"
+					item: "create_connected:fan_smoking_catalyst"
+					type: "item"
+				}
+			]
+			subtitle: "Bulk Smelting and Iron"
+			tasks: [{
+				id: "39B97F5D24B9936F"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			title: "Stress Progression: Encased Fan"
+			x: -1.0d
+			y: 2.5d
+		}
+	]
 	title: "Foundations of Ingenuity (Vanilla Create)"
 }
