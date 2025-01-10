@@ -20,6 +20,7 @@ Coming Soon
 - Curios: v5.11.0 > v5.11.1
 - Delightful: v3.6.1 > v3.6.2
 - Fast Async: v2.1 > v2.2
+- FTB Library: v2001.2.6 > v2001.2.7
 - Fusion: v1.1.1 > v1.2.2
 - Guard Villagers: v1.6.9 > v1.6.10
 - Immersive Aircraft: v1.1.7 > v1.1.8
