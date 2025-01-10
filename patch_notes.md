@@ -39,7 +39,7 @@ Coming Soon
 - /serverscripts/Create/Enchantment_Industry_Compat_Fixes: Added Caged Mobs Crystallized Experience and Blocks compatibility
 ## Config Updates
 - Carryon: Blacklisted Sophisticated Storage, Backpacks, and Sacks
-- Tom's Simple Storage: Removed Cross Dimensional Access to even out AE2 Cross Dimensional Access
+- Tom's Simple Storage: Increased Single Dimension Requirement to even out mechanics usage
 ## Drippy Loading Screen Updates
 - Updated version number to 2.1.0
 ## Fancy Menu Updates
