@@ -42,6 +42,14 @@ ServerEvents.tags('item', event => {
         'ad_astra_giselle_addon:netherite_oxygen_can'
     ])
 
+    // Removed Goggle Head Tag
+    event.remove('curios:head',
+        'create:goggles')
+
+    // Create Goggles Curios Tag
+    event.add('curios:goggles',
+        'create:goggles')
+
     // New Elytra Curios Tag
     event.add('curios:elytras',
         '#elytraslot:elytra')

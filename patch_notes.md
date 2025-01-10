@@ -41,6 +41,9 @@ Coming Soon
 - /assets/Waystones: Renamed Waystones
 - /serverscripts/Forge Frontier/Wrencable_Block_Tags: Made Molten Vents Non Movable again, as they can be picked up with Carryon when active
 - /serverscripts/Create/Enchantment_Industry_Compat_Fixes: Added Caged Mobs Crystallized Experience and Blocks compatibility
+- /assets/forge_frontier/curios/slots/goggles: Added New Create Goggle Curios Slot
+- /assets/forge_frontier/curios/entites/slots: Added New Create Goggle Curios Slot
+- /serverscripts/Forge Frontier/Tags: Added Curios Goggle Tag to Create Goggles
 ## Config Updates
 - Carryon: Blacklisted Sophisticated Storage, Backpacks, and Sacks
 - Tom's Simple Storage: Increased Single Dimension Requirement to even out mechanics usage
