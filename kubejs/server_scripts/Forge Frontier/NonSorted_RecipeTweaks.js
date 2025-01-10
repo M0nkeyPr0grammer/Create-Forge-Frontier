@@ -25,6 +25,32 @@ ServerEvents.recipes(event => {
 	event.remove({ id: 'create_dd:superheating/netherite_scrap'})
 	event.remove({ id: 'create_additions_synthetics:tank_conversion' })
 
+	// Banana Slime to Slime Recipe
+	event.custom({
+		type:'minecraft:crafting_shapeless',
+		ingredients: [
+			{
+				item: 'alexsmobs:banana_slug_slime'
+			}
+		],
+		result: {
+			item: 'minecraft:slime_ball'
+		}
+	}).id( 'forge_frontier:shapeless/banana_slime')
+
+	// Ferrous Slime to Slime Recipe
+	event.custom({
+		type:'minecraft:crafting_shapeless',
+		ingredients: [
+			{
+				item: 'alexscaves:ferrouslime_ball'
+			}
+		],
+		result: {
+			item: 'minecraft:slime_ball'
+		}
+	}).id( 'forge_frontier:shapeless/ferrous_slime')
+
 	// Rotten Flesh to Leather
 	event.custom({
 		type: 'minecraft:crafting_shapeless',

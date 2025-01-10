@@ -44,9 +44,11 @@ Coming Soon
 - /assets/forge_frontier/curios/slots/goggles: Added New Create Goggle Curios Slot
 - /assets/forge_frontier/curios/entites/slots: Added New Create Goggle Curios Slot
 - /serverscripts/Forge Frontier/Tags: Added Curios Goggle Tag to Create Goggles
+- /serverscripts/Forge Frontier/NonSorted_RecipeTweaks: Added Banana and Ferros Slime to Slime Recipe
 ## Config Updates
 - Carryon: Blacklisted Sophisticated Storage, Backpacks, and Sacks
 - Tom's Simple Storage: Increased Single Dimension Requirement to even out mechanics usage
+- Sophisticated Storage and Backpacks: Increased the Range of Magnet Upgrade from 3 to 6, and Advanced Magnet Upgrade from 5 to 12
 ## Drippy Loading Screen Updates
 - Updated version number to 2.1.0
 ## Fancy Menu Updates
