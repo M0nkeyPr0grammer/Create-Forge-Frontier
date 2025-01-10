@@ -44,7 +44,7 @@ ServerEvents.recipes(event => {
                 "CCCCC"
             ],
             key: {
-                C: Ingredient.of("create:andesite_casing"),
+                C: Ingredient.of("create:railway_casing"),
                 D: Ingredient.of("waystones:warp_dust"),
                 W: Ingredient.of("waystones:warp_stone"),
             },
@@ -66,7 +66,7 @@ ServerEvents.recipes(event => {
                 "CCCCC"
             ],
             key: {
-                C: Ingredient.of("create:copper_casing"),
+                C: Ingredient.of("create_dd:steel_casing"),
                 D: Ingredient.of("waystones:warp_dust"),
                 W: Ingredient.of("waystones:warp_stone"),
             },
@@ -88,7 +88,7 @@ ServerEvents.recipes(event => {
                 "CCCCC"
             ],
             key: {
-                C: Ingredient.of("create:brass_casing"),
+                C: Ingredient.of("create_dd:bronze_casing"),
                 D: Ingredient.of("waystones:warp_dust"),
                 W: Ingredient.of("waystones:warp_stone"),
             },
