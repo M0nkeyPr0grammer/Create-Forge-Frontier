@@ -26,6 +26,8 @@ Coming Soon
 - Immersive Aircraft: v1.1.7 > v1.1.8
 - Lithostitched: v1.3.10 > v1.4
 - Moonlight: v2.13.45 > v2.13.47
+- Oculus: v1.7 > v1.8
+- Oculus Flywheel Compat: v1.1.2 > v1.1.4
 - Pattern Schematics: v1.1.16 > v1.1.18
 - Recipe Essentials: v3.6 > v3.9
 - Respawning Structures: v3.3 > v3.5
