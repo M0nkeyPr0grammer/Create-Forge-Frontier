@@ -38,9 +38,9 @@
 		}
 		{
 			dependencies: ["44226064B27B70F4"]
-			id: "003891695EFCF33D"
+			id: "3BA1BFC437BB5C56"
 			tasks: [{
-				id: "37EE424FE57441A8"
+				id: "0D683AB9537BD85D"
 				item: "minecraft:water_bucket"
 				type: "item"
 			}]
@@ -49,10 +49,10 @@
 		}
 		{
 			dependencies: ["3C8BB040F86DB9D8"]
-			id: "3C457E11B373D336"
+			id: "5DE53E1FE2154194"
 			subtitle: "Obtained by heated mixing the below ingredients"
 			tasks: [{
-				id: "0B426B779B6B3585"
+				id: "5B7EDE7BC728CD3A"
 				item: "create:honey_bucket"
 				type: "item"
 			}]
@@ -61,9 +61,9 @@
 		}
 		{
 			dependencies: ["08863212E09FCDC5"]
-			id: "3C8BB040F86DB9D8"
+			id: "20229A77369CF3EF"
 			tasks: [{
-				id: "4BE4E4A65AFDD6BC"
+				id: "1F6886E9A1F1D08D"
 				item: "minecraft:honey_block"
 				type: "item"
 			}]
@@ -75,10 +75,10 @@
 				"4247484D23C906A3"
 				"010AA1455A1895A5"
 			]
-			id: "436491C29F42D04C"
+			id: "2A36712104221BA5"
 			subtitle: "Obtained by mixing the below ingredients"
 			tasks: [{
-				id: "4A883F12754F1153"
+				id: "6F2CED076889FF33"
 				item: "sliceanddice:fertilizer_bucket"
 				type: "item"
 			}]
@@ -87,10 +87,10 @@
 		}
 		{
 			dependencies: ["7FE6F26BE90E2F27"]
-			id: "010AA1455A1895A5"
+			id: "5B673625B7489082"
 			tasks: [{
 				count: 2L
-				id: "04E186B61FF5DD59"
+				id: "0C410E62B5C533A7"
 				item: { Count: 2, id: "create:tree_fertilizer" }
 				type: "item"
 			}]
@@ -99,9 +99,9 @@
 		}
 		{
 			dependencies: ["7FE6F26BE90E2F27"]
-			id: "4247484D23C906A3"
+			id: "481817FF9C1EFF50"
 			tasks: [{
-				id: "0140A0FCE2F03FB6"
+				id: "0399D1C0233C0F93"
 				item: "minecraft:water_bucket"
 				type: "item"
 			}]

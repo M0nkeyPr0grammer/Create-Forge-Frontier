@@ -29,7 +29,7 @@
 			y: 0.0d
 		}
 	]
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -49,9 +49,9 @@
 			y: -6.5d
 		}
 		{
-			id: "325177A367BA4F16"
+			id: "79AC287A1B47CF36"
 			tasks: [{
-				id: "26CF51F4ACA6930E"
+				id: "55CB6BDCB9C2FD09"
 				item: "balancedflight:flight_anchor"
 				type: "item"
 			}]

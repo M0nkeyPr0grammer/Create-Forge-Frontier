@@ -42,10 +42,10 @@
 				"293C7B211D431307"
 				"59BF49536E143FF3"
 			]
-			id: "4D2B83D1609FFC9C"
+			id: "59BB6125B5A87258"
 			subtitle: "Obtained by mixing the below ingredients"
 			tasks: [{
-				id: "5E25A7726A84FAB2"
+				id: "20B39381599EBBBC"
 				item: "createaddition:bioethanol_bucket"
 				type: "item"
 			}]
@@ -54,11 +54,11 @@
 		}
 		{
 			dependencies: ["3CB29F96159205FC"]
-			id: "59BF49536E143FF3"
+			id: "1905FB973221146A"
 			subtitle: "Sugar is craftable from Sugar Cane"
 			tasks: [{
 				count: 10L
-				id: "69B9CD65604794B0"
+				id: "10021AB795AB2CDB"
 				item: { Count: 10, id: "minecraft:sugar" }
 				type: "item"
 			}]
@@ -67,11 +67,11 @@
 		}
 		{
 			dependencies: ["152E2791CE03D5B0"]
-			id: "712B1E824C62E25F"
+			id: "79CDCEE315D09B3B"
 			subtitle: "Obtained by crushing the below ingredients"
 			tasks: [{
 				count: 10L
-				id: "7FC218FDCCEFA7D0"
+				id: "130C420711CD06C9"
 				item: { Count: 10, id: "create:cinder_flour" }
 				type: "item"
 			}]
@@ -83,11 +83,11 @@
 				"08DA6860F8F270F0"
 				"5001AD7460C5230D"
 			]
-			id: "293C7B211D431307"
+			id: "4FEDAFD2DF8EF39F"
 			subtitle: "Obtained by heated mixing the below ingredients"
 			tasks: [{
 				count: 20L
-				id: "76EF4AA744DD1542"
+				id: "36534118015837F2"
 				item: { Count: 20, id: "createaddition:biomass" }
 				type: "item"
 			}]
@@ -96,10 +96,10 @@
 		}
 		{
 			dependencies: ["294621D005CFAB64"]
-			id: "3CB29F96159205FC"
+			id: "523F7900DCDAA669"
 			tasks: [{
 				count: 10L
-				id: "577D21F783E98AC9"
+				id: "4FC05F592D946E99"
 				item: { Count: 10, id: "minecraft:sugar_cane" }
 				type: "item"
 			}]
@@ -108,10 +108,10 @@
 		}
 		{
 			dependencies: ["294621D005CFAB64"]
-			id: "152E2791CE03D5B0"
+			id: "19B21EB1CEA61C3C"
 			tasks: [{
 				count: 10L
-				id: "6AC3740669E782D5"
+				id: "0BB1219893672308"
 				item: { Count: 10, id: "minecraft:netherrack" }
 				type: "item"
 			}]
@@ -120,10 +120,10 @@
 		}
 		{
 			dependencies: ["294621D005CFAB64"]
-			id: "5001AD7460C5230D"
+			id: "4704645934EFE800"
 			tasks: [{
 				count: 160L
-				id: "100DD5A0FBBB1F72"
+				id: "13C0AB53E1A06DDE"
 				item: { Count: 160, id: "minecraft:stick" }
 				type: "item"
 			}]
@@ -132,11 +132,11 @@
 		}
 		{
 			dependencies: ["248E35DE578087F3"]
-			id: "08DA6860F8F270F0"
+			id: "090C4943355F9EE2"
 			subtitle: "Obtained by compacting the below ingredients"
 			tasks: [{
 				count: 2L
-				id: "04F4FFA2ABAB9706"
+				id: "42E46A23F09E04FC"
 				item: { Count: 2, id: "createdieselgenerators:plant_oil_bucket" }
 				type: "item"
 			}]
@@ -145,10 +145,10 @@
 		}
 		{
 			dependencies: ["294621D005CFAB64"]
-			id: "248E35DE578087F3"
+			id: "63B03DF1EF97DEE6"
 			tasks: [{
 				count: 20L
-				id: "6384D081888B21D1"
+				id: "247325F81EE4282E"
 				item: { Count: 20, id: "minecraft:wheat_seeds" }
 				type: "item"
 			}]
@@ -195,10 +195,10 @@
 		}
 		{
 			dependencies: ["559E75D14F0F2197"]
-			id: "4C58A67636653D37"
+			id: "509FE4926FDB28FA"
 			subtitle: "Obtained by compacting the below ingredients"
 			tasks: [{
-				id: "45A61B57251AC107"
+				id: "1157CD2AA4E5FF68"
 				item: "createdieselgenerators:plant_oil_bucket"
 				type: "item"
 			}]
@@ -207,10 +207,10 @@
 		}
 		{
 			dependencies: ["710F662B8F484D14"]
-			id: "559E75D14F0F2197"
+			id: "54960F4027332765"
 			tasks: [{
 				count: 10L
-				id: "6571E7E52BEE502C"
+				id: "254CD32E6B90E75F"
 				item: { Count: 10, id: "minecraft:wheat_seeds" }
 				type: "item"
 			}]

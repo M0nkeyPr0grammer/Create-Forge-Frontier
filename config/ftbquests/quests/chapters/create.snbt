@@ -1,4 +1,5 @@
 {
+	autofocus_id: "66E9DB5E9D5CD5EC"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "create"
@@ -19,8 +20,8 @@
 			image: "ftb:textures/coming_soon.png"
 			rotation: 0.0d
 			width: 15.0d
-			x: 2.0d
-			y: 9.5d
+			x: 0.0d
+			y: 68.0d
 		}
 	]
 	order_index: 0
@@ -29,6 +30,7 @@
 		{
 			dependencies: ["0051FC2DA1337C65"]
 			description: ["Similarly to Shafts, Cogwheels and Large Cogwheels move stress and rotation. Unlike shafts, they transport stress sideways and reverse the rotation direction. These will be used both in your factory and as a major crafting component of machines and especially gearboxes. "]
+			icon: "create:cogwheel"
 			id: "1BADBAE5DC3CCEFC"
 			rewards: [
 				{
@@ -57,7 +59,7 @@
 				}
 			]
 			title: "Stress Progression: Gears"
-			x: -4.5d
+			x: -6.0d
 			y: -3.5d
 		}
 		{
@@ -83,14 +85,20 @@
 			dependencies: ["66E9DB5E9D5CD5EC"]
 			description: ["Shafts are the most basic way you will transport Rotation and Stress, the \"energy\" units of Create. Just like Andesite Alloy, these will form the backbone of your factory."]
 			id: "0051FC2DA1337C65"
-			subtitle: "Rotation Transportation Foundation"
+			rewards: [{
+				count: 9
+				id: "17909E51395F684B"
+				item: "create_compressed:shaft_bundle"
+				type: "item"
+			}]
+			subtitle: "Foundation of Rotation Transportation "
 			tasks: [{
 				id: "78ACCAFEB5C8FAB0"
 				item: "create:shaft"
 				type: "item"
 			}]
 			title: "Stress Progression: Shafts"
-			x: -3.0d
+			x: -4.5d
 			y: -4.0d
 		}
 		{
@@ -142,7 +150,7 @@
 				type: "item"
 			}]
 			title: "Stress Progression: Hand Crank"
-			x: -4.0d
+			x: -5.5d
 			y: -2.5d
 		}
 		{
@@ -162,7 +170,7 @@
 				type: "item"
 			}]
 			title: "Stress Progression: Windmill Bearing"
-			x: -3.0d
+			x: -4.5d
 			y: -2.5d
 		}
 		{
@@ -180,7 +188,7 @@
 				type: "item"
 			}]
 			title: "Stress Progression: Water Wheel"
-			x: -2.0d
+			x: -3.5d
 			y: -2.5d
 		}
 		{
@@ -197,7 +205,7 @@
 				type: "item"
 			}]
 			title: "Stress Progression: Large Water Wheel"
-			x: -2.0d
+			x: -3.5d
 			y: -1.5d
 		}
 		{
@@ -218,7 +226,7 @@
 				type: "item"
 			}]
 			title: "Stress Progression: Windmill Sails"
-			x: -3.0d
+			x: -4.5d
 			y: -1.5d
 		}
 		{
@@ -248,7 +256,7 @@
 			]
 			title: "Stress Progression: Iron Sheets"
 			x: 0.0d
-			y: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4BD39CC8E17CA1A9"]
@@ -285,13 +293,13 @@
 				item: "create:basin"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 1.5d
+			x: 1.0d
+			y: 4.5d
 		}
 		{
 			dependencies: [
-				"689AB7CC0541BC51"
 				"39CF5A761AFB33F5"
+				"355B6F03D9BC90EB"
 			]
 			icon: "create:mechanical_mixer"
 			id: "7A9D080E21CD57F2"
@@ -307,22 +315,24 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
-			y: 2.5d
+			x: 0.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["689AB7CC0541BC51"]
 			id: "162904A6F261A438"
+			subtitle: "Tree Farms!"
 			tasks: [{
 				id: "1040D5AC21B7102B"
 				item: "create:mechanical_saw"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 3.0d
+			title: "Stress Progression: Mechanical Saw"
+			x: 1.0d
+			y: 3.5d
 		}
 		{
-			dependencies: ["689AB7CC0541BC51"]
+			dependencies: ["0A80CAA47C75F28D"]
 			id: "0EC1502E36B5A728"
 			rewards: [
 				{
@@ -349,7 +359,240 @@
 			}]
 			title: "Stress Progression: Encased Fan"
 			x: -1.0d
-			y: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["689AB7CC0541BC51"]
+			id: "0A80CAA47C75F28D"
+			rewards: [{
+				id: "13E87EC29AD2325E"
+				item: "create:propeller"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0CF0CBB4628034D8"
+				item: "create:propeller"
+				type: "item"
+			}]
+			title: "Stress Progression: Propeller"
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["689AB7CC0541BC51"]
+			id: "355B6F03D9BC90EB"
+			tasks: [{
+				id: "0F02894D3810AFC4"
+				item: "create:whisk"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7A9D080E21CD57F2"]
+			description: ["Using the Mechanical Mixer, you can now mix one Iron Nugget and one Andesite into an Andesite Alloy, enabling much more Alloy for input! Since you are going to need more and more Alloy going forward, it is a very good idea to get a lot now."]
+			id: "063AA39DFE335679"
+			rewards: [{
+				id: "6B99943DCDA7E072"
+				item: "createcompression:compressed_andesite_alloy_2x"
+				type: "item"
+			}]
+			subtitle: "Mixing it up!"
+			tasks: [{
+				count: 64L
+				id: "70EF7F35E0816F0C"
+				item: { Count: 64, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			title: "Stress Progression: More Andesite Alloy"
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["689AB7CC0541BC51"]
+			id: "654DC97ABFA2258C"
+			tasks: [{
+				id: "2B7A2B340626D90D"
+				item: "create:mechanical_plough"
+				type: "item"
+			}]
+			title: "Stress Progression: Mechanical Saw"
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["689AB7CC0541BC51"]
+			id: "110F0A98C9078175"
+			subtitle: "Better (Than) Basic Bottany Bots"
+			tasks: [{
+				id: "536D4B0489693125"
+				item: "create:mechanical_harvester"
+				type: "item"
+			}]
+			title: "Stress Progression: Mechanical Harvester"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["689AB7CC0541BC51"]
+			description: ["Mysteroius Conversion is how you get a blaze burner. After getting to the Nether and finding a Nether Fortress, using an Empty Blaze Burner on a Blaze Spawner will give you your Blaze Burner."]
+			hide_dependency_lines: true
+			icon: "create:blaze_burner"
+			id: "52994525D9DF88FA"
+			rewards: [{
+				count: 4
+				id: "39D2F47DA8687129"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			subtitle: "There's more coming..."
+			tasks: [
+				{
+					id: "33A8627200F927A3"
+					item: "create:empty_blaze_burner"
+					type: "item"
+				}
+				{
+					dimension: "minecraft:the_nether"
+					id: "5C2F12F5D81C0652"
+					type: "dimension"
+				}
+				{
+					id: "432C2384AFEEC69D"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+			]
+			title: "Stress Progression: Mysterious Conversion, Pt. 1"
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"52994525D9DF88FA"
+				"7A9D080E21CD57F2"
+			]
+			description: ["Brass! Your first foray into Heated Mixing. After getting your Blaze Burner, you can place it under your basin. When provided with fuel, that Blaze Burner will heat the basin, allowing you to craft recipies that require that heat, like the Brass required here."]
+			id: "17BABE8F2B2BD008"
+			rewards: [{
+				id: "2BCFDB9558006FBA"
+				item: "createcompression:compressed_brass_1x"
+				type: "item"
+			}]
+			subtitle: "Brass! How brash!"
+			tasks: [{
+				id: "34F124B5B2B1E801"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			title: "Stress Progression: Heated Mixing"
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4BD39CC8E17CA1A9"]
+			icon: "create:wrench"
+			id: "73E05BE7ED1F382B"
+			tasks: [
+				{
+					id: "029A0A10BFA30870"
+					item: "create:goggles"
+					type: "item"
+				}
+				{
+					id: "629B56316E70699C"
+					item: "create:wrench"
+					type: "item"
+				}
+				{
+					id: "76A166F957A8E928"
+					item: "create:stressometer"
+					type: "item"
+				}
+				{
+					id: "71E56AF3C35CDB3D"
+					item: "create:speedometer"
+					type: "item"
+				}
+			]
+			title: "Stress Progression: Tools of the Trade"
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["17BABE8F2B2BD008"]
+			id: "1ED1CE0829BE04A5"
+			subtitle: "Like Andesite, but better"
+			tasks: [{
+				id: "684F85FA2202CA06"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			title: "Stress Progression: Brass Age"
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["4BD39CC8E17CA1A9"]
+			icon: "create:mechanical_bearing"
+			id: "3539BDF9D557BB9E"
+			rewards: [{
+				count: 16
+				id: "1D531D53A9DC8591"
+				item: "create:radial_chassis"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6AEE21575554D4EF"
+					item: "create:mechanical_bearing"
+					type: "item"
+				}
+				{
+					id: "18871404120D2D2D"
+					item: "create:cart_assembler"
+					type: "item"
+				}
+			]
+			title: "Stress Progression: Basic Contraptions"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3539BDF9D557BB9E"]
+			icon: "create:mechanical_piston"
+			id: "7E496DA1FB700F2C"
+			rewards: [
+				{
+					count: 9
+					id: "0CCB665F64FA584D"
+					item: "create_compressed:shaft_bundle"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "48BECEBDD4665B3B"
+					item: "create:piston_extension_pole"
+					type: "item"
+				}
+			]
+			subtitle: "More advanced contraptions"
+			tasks: [
+				{
+					id: "4D15F7F758D0DB1B"
+					item: "create:rope_pulley"
+					type: "item"
+				}
+				{
+					id: "64284623E274E845"
+					item: "create:mechanical_piston"
+					type: "item"
+				}
+			]
+			title: "Stress Progression: Pulley and Piston"
+			x: 2.0d
+			y: 1.0d
 		}
 	]
 	title: "Foundations of Ingenuity (Vanilla Create)"
