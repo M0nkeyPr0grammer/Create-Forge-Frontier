@@ -1,5 +1,5 @@
 # Modpack Patch Notes: Version 2.1.0
-**Release Date**: January ?, 2025
+**Release Date**: February 1st, 2025
 
 # Pathways and Purpose: Waystones and Quests Update!
 
@@ -56,6 +56,7 @@ Coming Soon
 - /serverscripts/Forge Frontier/NonSorted_RecipeTweaks: Added Banana and Ferros Slime to Slime Recipe
 - /data/farmingforblockheads/farmingforblockheads_compat: Added Compatibility for missing plants, plus reorganized the market categories
 - /serverscripts/Forge Frontier/Tags: Removed Access to Helium Flamingo
+- /data/apotheosis/wanderer_trades/treecapitator: Removed Chainsaw enchantment
 ## Config Updates
 - Carryon: Blacklisted Sophisticated Storage, Backpacks, and Sacks
 - Tom's Simple Storage: Increased Single Dimension Requirement to even out mechanics usage
