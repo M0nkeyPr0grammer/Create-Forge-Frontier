@@ -1,0 +1,19 @@
+{
+    "modId": "collectorsreap",
+    "group": {
+      "name": "Collectors Reap Crops",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:emerald"
+      },
+      "defaultCategory": "crops"
+    },
+    "customEntries": [
+    {
+        "output": "collectorsreap:lime"
+    },
+    {
+        "output": "collectorsreap:pomegranate_slice"
+    }
+]
+}

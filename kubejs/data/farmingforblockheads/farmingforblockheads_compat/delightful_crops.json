@@ -1,0 +1,19 @@
+{
+    "modId": "delightful",
+    "group": {
+      "name": "Delightful Crops",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:emerald"
+      },
+      "defaultCategory": "crops"
+    },
+    "customEntries": [
+    {
+        "output": "delightful:cantaloupe_slice"
+    },
+    {
+        "output": "delightful:acorn"
+    }
+]
+}

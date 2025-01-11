@@ -3,7 +3,7 @@
     "plants": {
       "name": "Plants",
       "icon": {
-        "item": "minecraft:apple"
+        "item": "minecraft:grass"
       }
     },
 
@@ -11,6 +11,18 @@
       "name": "Mushrooms",
       "icon": {
         "item": "farmersdelight:red_mushroom_colony"
+      }
+    },
+    "crops": {
+      "name": "Crops",
+      "icon": {
+        "item": "minecraft:potato"
+      }
+    },
+    "fertilizer":{
+      "name": "Fertilizer",
+      "icon": {
+        "item": "minecraft:bone_meal"
       }
     }
   }

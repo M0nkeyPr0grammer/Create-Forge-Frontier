@@ -1,0 +1,16 @@
+{
+    "modId": "neapolitan",
+    "group": {
+      "name": "Neapolitan Seeds",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:emerald"
+      },
+      "defaultCategory": "farmingforblockheads:seeds"
+    },
+    "customEntries": [
+    {
+        "output": "neapolitan:strawberry_pips"
+    }
+    ]
+}

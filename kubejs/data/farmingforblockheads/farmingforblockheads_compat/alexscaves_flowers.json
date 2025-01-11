@@ -1,7 +1,7 @@
 {
-    "modId": "twigs",
+    "modId": "alexscaves",
     "group": {
-      "name": "Twigs Flowers",
+      "name": "Alex's Caves Flowers",
       "enabledByDefault": true,
       "defaultPayment": {
         "item": "minecraft:emerald"
@@ -9,8 +9,11 @@
       "defaultCategory": "farmingforblockheads:flowers"
     },
     "customEntries": [
-      {
-        "output": "twigs:azalea_flowers"
-      }
+        {
+            "output": "alexscaves:cycad"
+        },
+        {
+            "output": "alexscaves:flytrap"
+        }
     ]
-  }
+}

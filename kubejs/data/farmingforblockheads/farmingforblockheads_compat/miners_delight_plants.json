@@ -1,16 +1,16 @@
 {
     "modId": "miners_delight",
     "group": {
-      "name": "Miners Delight Flowers",
+      "name": "Miner's Delight Plants",
       "enabledByDefault": true,
       "defaultPayment": {
         "item": "minecraft:emerald"
       },
-      "defaultCategory": "farmingforblockheads:flowers"
+      "defaultCategory": "plants"
     },
     "customEntries": [
-      {
-        "output": "miners_delight:gossypium"
-      }
+        {
+            "output": "miners_delight:wild_cave_carrots"
+          }
     ]
-  }
+}

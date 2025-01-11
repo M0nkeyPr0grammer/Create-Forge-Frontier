@@ -1,4 +1,11 @@
 ServerEvents.tags('item', event => {
+    // Create Additions Plant Tag
+    event.add('createaddition:plants',[
+        'quark:chorus_weeds',
+        'quark:chorus_twist',
+        'quark:glow_lichen_growth'
+    ])
+
     // Held Over Head Tags
     event.add('ad_astra:held_over_head',[
         'ad_astra_rocketed:tier_5_rocket',

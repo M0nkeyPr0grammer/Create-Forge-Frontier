@@ -1,0 +1,19 @@
+{
+    "modId": "alexscaves",
+    "group": {
+      "name": "Alex's Caves Plants",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:emerald"
+      },
+      "defaultCategory": "plants"
+    },
+    "customEntries": [
+        {
+            "output": "alexscaves:fiddlehead"
+        },
+        {
+            "output": "alexscaves:curly_fern"
+        }
+    ]
+}

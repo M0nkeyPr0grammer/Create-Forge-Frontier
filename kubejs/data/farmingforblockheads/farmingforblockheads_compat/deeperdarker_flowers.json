@@ -1,0 +1,22 @@
+{
+    "modId": "deeperdarker",
+    "group": {
+      "name": "Deeper Darker Flowers",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:emerald"
+      },
+      "defaultCategory": "farmingforblockheads:flowers"
+    },
+    "customEntries": [
+        {
+            "output": "deeperdarker:glowing_flowers"
+        },
+        {
+            "output": "deeperdarker:lily_flower"
+        },
+        {
+            "output": "deeperdarker:ice_lily"
+        }
+    ]
+}

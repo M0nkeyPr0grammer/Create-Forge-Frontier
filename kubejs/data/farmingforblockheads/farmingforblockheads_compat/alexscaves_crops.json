@@ -1,16 +1,16 @@
 {
     "modId": "alexscaves",
     "group": {
-      "name": "Alexs Caves Fertilizer",
+      "name": "Alex's Caves Crops",
       "enabledByDefault": true,
       "defaultPayment": {
         "item": "minecraft:emerald"
       },
-      "defaultCategory": "fertilizer"
+      "defaultCategory": "crops"
     },
     "customEntries": [
-      {
-        "output": "alexscaves:fertilizer"
-      }
-    ]
-  }
+    {
+        "output": "alexscaves:pine_nuts"
+    }
+]
+}

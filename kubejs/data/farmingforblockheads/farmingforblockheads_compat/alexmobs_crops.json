@@ -1,16 +1,16 @@
 {
-    "modId": "alexscaves",
+    "modId": "alexsmobs",
     "group": {
-      "name": "Alexs Caves Fertilizer",
+      "name": "Alex Mobs Crops",
       "enabledByDefault": true,
       "defaultPayment": {
         "item": "minecraft:emerald"
       },
-      "defaultCategory": "fertilizer"
+      "defaultCategory": "crops"
     },
     "customEntries": [
       {
-        "output": "alexscaves:fertilizer"
+        "output": "alexsmobs:banana"
       }
     ]
   }

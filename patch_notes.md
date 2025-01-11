@@ -47,6 +47,7 @@ Coming Soon
 - /assets/forge_frontier/curios/entites/slots: Added New Create Goggle Curios Slot
 - /serverscripts/Forge Frontier/Tags: Added Curios Goggle Tag to Create Goggles
 - /serverscripts/Forge Frontier/NonSorted_RecipeTweaks: Added Banana and Ferros Slime to Slime Recipe
+- /data/farmingforblockheads/farmingforblockheads_compat: Added Compatibility for missing plants, plus reorganized the market categories
 ## Config Updates
 - Carryon: Blacklisted Sophisticated Storage, Backpacks, and Sacks
 - Tom's Simple Storage: Increased Single Dimension Requirement to even out mechanics usage

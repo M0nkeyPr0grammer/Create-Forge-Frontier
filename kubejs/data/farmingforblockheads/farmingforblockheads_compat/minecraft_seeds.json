@@ -29,6 +29,9 @@
           "item": "minecraft:emerald",
           "count": 8
         }
+      },
+      {
+        "output": "minecraft:cocoa_beans"
       }
     ]
   }

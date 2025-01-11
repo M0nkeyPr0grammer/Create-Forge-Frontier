@@ -10,13 +10,28 @@
     },
     "customEntries": [
       {
-        "output": "farmersdelight:pumpkin_slice"
-      },
-      {
-        "output": "farmersdelight:rice_panicle"
-      },
-      {
         "output": "farmersdelight:sandy_shrub"
+      },
+      {
+        "output": "farmersdelight:wild_cabbages"
+      },
+      {
+        "output": "farmersdelight:wild_onions"
+      },
+      {
+        "output": "farmersdelight:wild_tomatoes"
+      },
+      {
+        "output": "farmersdelight:wild_carrots"
+      },
+      {
+        "output": "farmersdelight:wild_potatoes"
+      },
+      {
+        "output": "farmersdelight:wild_beetroots"
+      },
+      {
+        "output": "farmersdelight:wild_rice"
       }
     ]
   }

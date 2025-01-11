@@ -1,0 +1,28 @@
+{
+    "modId": "farmersdelight",
+    "group": {
+        "name": "Farmer's Delight Crops",
+        "enabledByDefault": true,
+        "defaultPayment": {
+            "item": "minecraft:emerald"
+        },
+        "defaultCategory": "crops"
+    },
+    "customEntries": [
+        {
+            "output": "farmersdelight:rice_panicle"
+        },
+        {
+            "output": "farmersdelight:pumpkin_slice"
+        },
+        {
+            "output": "farmersdelight:cabbage"
+        },
+        {
+            "output": "farmersdelight:tomato"
+        },
+        {
+            "output": "farmersdelight:onion"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+  "modId": "create",
+  "silent": true,
+  "group": {
+    "name": "Create Fertilizer",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "minecraft:emerald"
+    },
+    "defaultCategory": "fertilizer"
+  },
+  "customEntries": [
+    {
+      "output": "create:tree_fertilizer"
+    }
+  ]
+}

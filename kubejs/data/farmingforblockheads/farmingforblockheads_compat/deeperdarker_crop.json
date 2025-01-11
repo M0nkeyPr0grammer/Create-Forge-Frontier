@@ -1,0 +1,16 @@
+{
+    "modId": "deeperdarker",
+    "group": {
+      "name": "Deeper Darker Crops",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:emerald"
+      },
+      "defaultCategory": "crops"
+    },
+    "customEntries": [
+    {
+        "output": "deeperdarker:bloom_berries"
+    }
+]
+}
