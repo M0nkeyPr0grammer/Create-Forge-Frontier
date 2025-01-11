@@ -49,6 +49,14 @@ ServerEvents.tags('item', event => {
         'ad_astra_giselle_addon:netherite_oxygen_can'
     ])
 
+    // Remove Flamingo Belt from Curios Slot
+    event.remove('curios:belt',
+      'artifacts:helium_flamingo')
+    
+    // Remove Flamingo Belt from Artifact Belt Slot
+    event.remove('artifacts:slot/belt',
+        'artifacts:helium_flamingo')
+
     // Removed Goggle Head Tag
     event.remove('curios:head',
         'create:goggles')
