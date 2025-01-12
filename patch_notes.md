@@ -45,7 +45,7 @@ Coming Soon
 - Structure Credits: v1.7 > v2.2
 ## Quest Updates/Additions
 - Create - Forge Frontier: Adjust Image Sizes
-
+- Chapters: Adjusted Chapter Order to make more sense
 ## KubeJS Updates
 - /serverscripts/Waystones: Changed Waystone Recipes to use create items and mechanics, and removed old waystone recipes including sharestone recipes.
 - /assets/Waystones: Renamed Waystones
