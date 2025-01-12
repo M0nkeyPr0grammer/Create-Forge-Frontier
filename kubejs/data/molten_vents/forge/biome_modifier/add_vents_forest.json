@@ -4,7 +4,6 @@
   "biome_blacklist": "regions_unexplored:ashen_woodland",
   "features": [
     "molten_vents:asurine_vent",
-    "molten_vents:veridium_vent",
     "molten_vents:potassic_vent"
   ],
   "step": "vegetal_decoration"
