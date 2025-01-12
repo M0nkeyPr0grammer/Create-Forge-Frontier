@@ -1,4 +1,14 @@
 ServerEvents.tags('item', event => {
+    // Excavated Variants Stone Types Tag
+    event.add('excavated_variants:stone_stones',[
+        'forge_frontier:amberlite', 'forge_frontier:aubrum', 'forge_frontier:azurnium', 'forge_frontier:frostite',
+        'forge_frontier:glacium', 'forge_frontier:guanite', 'forge_frontier:neodymrium', 'forge_frontier:pearlyte',
+        'forge_frontier:pyroclast', 'forge_frontier:radiantite', 'forge_frontier:stellaris',
+        'forge_frontier:sulphite', 'forge_frontier:verdantine', 'forge_frontier:uraniumnite',
+        'enlightened_end:palerock', 'create_dd:potassic', 'deeperdarker:sculk_grime',
+        'enlightened_end:void_shale'
+    ])
+    
     // Create Additions Plant Tag
     event.add('createaddition:plants',[
         'quark:chorus_weeds',

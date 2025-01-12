@@ -61,6 +61,7 @@ Coming Soon
 - /serverscripts/Crushing/OreCrushing: Removed Excess Redstone when crushing raw redstone
 - /serverscripts/Forge Frontier/NonSorted_RecipeTweaks: Removed Excess Scrap when crushing netherite ingots
 - /serverscripts/Create/ResourceGen_CrushingRecipes: Lowered Processing Resources for Resource Ore Stones
+- /serverscripts/Forge Frontier/tags: Gave my Resource Ore Stones, Excavated Variant Stone Type Tag
 ## Config Updates
 - Carryon: Blacklisted Sophisticated Storage, Backpacks, and Sacks
 - Tom's Simple Storage: Increased Single Dimension Requirement to even out mechanics usage
