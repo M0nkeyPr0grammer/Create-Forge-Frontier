@@ -79,6 +79,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["61D84ABCF198AD48"]
 			id: "438230088967C8B5"
 			subtitle: "Sugar is craftable from Sugar Cane"
 			tasks: [{
@@ -91,6 +92,10 @@
 			y: 1.5d
 		}
 		{
+			dependencies: [
+				"16F38C5DED3707F3"
+				"0156F7481079E30B"
+			]
 			id: "4994B4DBED0083B8"
 			subtitle: "Obtained by mixing the below ingredients"
 			tasks: [{
@@ -102,6 +107,11 @@
 			y: 1.5d
 		}
 		{
+			dependencies: [
+				"7142ED8259226E20"
+				"7C3BCD60AFC8D467"
+				"63EB0A404A799085"
+			]
 			id: "2B4CBC001ADE839B"
 			subtitle: "Obtained by mixing the below ingredients"
 			tasks: [{
@@ -113,6 +123,7 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["4AADD38DF6D630C8"]
 			id: "16F38C5DED3707F3"
 			tasks: [{
 				count: 32L
@@ -124,6 +135,11 @@
 			y: 3.0d
 		}
 		{
+			dependencies: [
+				"1BDF91A22F4B0256"
+				"149A1AE5B2D813CC"
+				"173B2A9A66D0754A"
+			]
 			id: "0156F7481079E30B"
 			subtitle: "Obtained by mixing the below ingredients"
 			tasks: [{
@@ -135,6 +151,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["4AADD38DF6D630C8"]
 			id: "7C3BCD60AFC8D467"
 			subtitle: "Obtained by milking a cow"
 			tasks: [{
@@ -146,6 +163,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["4AADD38DF6D630C8"]
 			id: "63EB0A404A799085"
 			tasks: [{
 				count: 8L
@@ -157,6 +175,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["61D84ABCF198AD48"]
 			id: "7142ED8259226E20"
 			subtitle: "Sugar is craftable from Sugar Cane"
 			tasks: [{
@@ -169,6 +188,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["4AADD38DF6D630C8"]
 			id: "1BDF91A22F4B0256"
 			subtitle: "Obtained by milking a cow"
 			tasks: [{
@@ -181,6 +201,7 @@
 			y: 4.5d
 		}
 		{
+			dependencies: ["4AADD38DF6D630C8"]
 			id: "149A1AE5B2D813CC"
 			tasks: [{
 				id: "6D390EC614483DC9"
@@ -191,6 +212,7 @@
 			y: 4.5d
 		}
 		{
+			dependencies: ["61D84ABCF198AD48"]
 			id: "173B2A9A66D0754A"
 			subtitle: "Sugar is craftable from Sugar Cane"
 			tasks: [{
@@ -217,6 +239,11 @@
 			y: 6.0d
 		}
 		{
+			dependencies: [
+				"4994B4DBED0083B8"
+				"438230088967C8B5"
+				"2B4CBC001ADE839B"
+			]
 			description: [
 				"The Strawberry Milkshake is later used in automating Iron via a"
 				"{ \"text\": \"Crimsite Molten Vent\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0EA0C2CDE7F62ECA\" } }"
@@ -306,7 +333,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["1107E04D2BA51211"]
+			dependencies: ["4AADD38DF6D630C8"]
 			id: "31222A56D7ED2D22"
 			tasks: [{
 				count: 32L
@@ -334,7 +361,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["1107E04D2BA51211"]
+			dependencies: ["4AADD38DF6D630C8"]
 			id: "5A3D1272AD335212"
 			subtitle: "Obtained by milking a cow"
 			tasks: [{
@@ -346,7 +373,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["1107E04D2BA51211"]
+			dependencies: ["4AADD38DF6D630C8"]
 			id: "3419E256DD9D7A06"
 			tasks: [{
 				count: 8L
@@ -371,7 +398,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["1107E04D2BA51211"]
+			dependencies: ["4AADD38DF6D630C8"]
 			id: "52C5EA6892CC3CDC"
 			subtitle: "Obtained by milking a cow"
 			tasks: [{
@@ -384,7 +411,7 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["1107E04D2BA51211"]
+			dependencies: ["4AADD38DF6D630C8"]
 			id: "6DE47B93D2C1902F"
 			tasks: [{
 				id: "1D11449E1E4E5B11"
@@ -422,6 +449,10 @@
 			y: 6.0d
 		}
 		{
+			dependencies: [
+				"75B75A1A773493B3"
+				"5924F95B1AD9964B"
+			]
 			description: [
 				"The Cream is later used in automating Zinc via a"
 				"{ \"text\": \"Asurine Molten Vent\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0AFE52653EE975A8\" } }"
@@ -442,6 +473,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["4AADD38DF6D630C8"]
 			id: "75B75A1A773493B3"
 			tasks: [{
 				count: 32L
@@ -453,6 +485,11 @@
 			y: 1.5d
 		}
 		{
+			dependencies: [
+				"226EB8BFA8C08992"
+				"419912C2D665ECCB"
+				"638E6903F00D2A26"
+			]
 			id: "5924F95B1AD9964B"
 			subtitle: "Obtained by mixing the below ingredients"
 			tasks: [{
@@ -464,6 +501,8 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["237C5791B0C5F074"]
+			hide_dependency_lines: true
 			id: "638E6903F00D2A26"
 			subtitle: "Sugar is craftable from Sugar Cane"
 			tasks: [{
@@ -476,6 +515,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["4AADD38DF6D630C8"]
 			id: "226EB8BFA8C08992"
 			tasks: [{
 				id: "57D75244CB41C780"
@@ -486,6 +526,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["4AADD38DF6D630C8"]
 			id: "419912C2D665ECCB"
 			subtitle: "Obtained by milking a cow"
 			tasks: [{
@@ -508,7 +549,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 4.5d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -579,7 +620,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["2D5E52CE4653E96C"]
+			dependencies: ["4AADD38DF6D630C8"]
 			id: "7285BA4C49C32997"
 			tasks: [{
 				count: 32L
@@ -607,7 +648,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["2D5E52CE4653E96C"]
+			dependencies: ["4AADD38DF6D630C8"]
 			id: "6CFBD55EAA41FBE9"
 			subtitle: "Obtained by milking a cow"
 			tasks: [{
@@ -645,7 +686,7 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["2D5E52CE4653E96C"]
+			dependencies: ["4AADD38DF6D630C8"]
 			id: "330A3958614A9004"
 			tasks: [{
 				id: "1D0497B8B2EDAE0A"
@@ -656,7 +697,7 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["2D5E52CE4653E96C"]
+			dependencies: ["4AADD38DF6D630C8"]
 			id: "2D0E477113498560"
 			subtitle: "Obtained by milking a cow"
 			tasks: [{
@@ -751,7 +792,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["0079BEE03A3285FB"]
+			dependencies: ["4AADD38DF6D630C8"]
 			id: "63AEB71F464B979B"
 			tasks: [{
 				count: 32L
@@ -780,7 +821,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["0079BEE03A3285FB"]
+			dependencies: ["4AADD38DF6D630C8"]
 			id: "1FBEB7D4D0786BEC"
 			subtitle: "Obtained by milking a cow"
 			tasks: [{
@@ -792,7 +833,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["0079BEE03A3285FB"]
+			dependencies: ["4AADD38DF6D630C8"]
 			icon: "minecraft:dandelion"
 			id: "2ECB8AD4B72DF7DE"
 			subtitle: "Can use Dandelion or Blue Orchids"
@@ -846,7 +887,7 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["0079BEE03A3285FB"]
+			dependencies: ["4AADD38DF6D630C8"]
 			id: "515CE37F355AA5A7"
 			tasks: [{
 				id: "12126E02527C7D81"
@@ -857,7 +898,7 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["0079BEE03A3285FB"]
+			dependencies: ["4AADD38DF6D630C8"]
 			id: "63B77606865821D2"
 			subtitle: "Obtained by milking a cow"
 			tasks: [{
@@ -953,7 +994,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["209E1E05BC1E3B6C"]
+			dependencies: ["4AADD38DF6D630C8"]
 			id: "3709CF82B59D9D0C"
 			tasks: [{
 				count: 32L
@@ -981,7 +1022,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["209E1E05BC1E3B6C"]
+			dependencies: ["4AADD38DF6D630C8"]
 			id: "02EE5396765FA1D3"
 			subtitle: "Obtained by milking a cow"
 			tasks: [{
@@ -993,7 +1034,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["209E1E05BC1E3B6C"]
+			dependencies: ["4AADD38DF6D630C8"]
 			id: "457A6926E42F1FB8"
 			subtitle: "Obtained from Cocoa Plants"
 			tasks: [{
@@ -1032,7 +1073,7 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["209E1E05BC1E3B6C"]
+			dependencies: ["4AADD38DF6D630C8"]
 			id: "5CC2FEA09DC8F9DC"
 			tasks: [{
 				id: "7D109FF22932AC80"
@@ -1043,7 +1084,7 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["209E1E05BC1E3B6C"]
+			dependencies: ["4AADD38DF6D630C8"]
 			id: "66EA8F4F4F7B547A"
 			subtitle: "Obtained by milking a cow"
 			tasks: [{
@@ -1082,18 +1123,13 @@
 			shape: "gear"
 			size: 3.0d
 			subtitle: "Milkshakes, the key to resources, Click me for more info!"
-			tasks: [
-				{
-					id: "0867A84906FB777C"
-					item: "minecraft:milk_bucket"
-					type: "item"
-				}
-				{
-					id: "05849674330B6B05"
-					item: "minecraft:sugar_cane"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "24BF27868A62D0C2"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:cow"
+				type: "observation"
+			}]
 			title: "Dreams and Desires Milkshakes"
 			x: 0.0d
 			y: -6.0d
