@@ -8,23 +8,23 @@
 	images: [
 		{
 			click: "#0DAD6C803C532FAC"
-			height: 25.0d
+			height: 23.3d
 			hover: ["Click me to learn more!"]
 			image: "ftb:textures/title_background.png"
 			rotation: 0.0d
-			width: 47.0d
+			width: 42.0d
 			x: 0.0d
 			y: -9.5d
 		}
 		{
 			click: "https://discord.gg/quenZthXgy"
-			height: 2.0d
+			height: 1.5d
 			hover: ["Clickable Discord Link"]
 			image: "supplementaries:textures/gui/book/icon/discord.png"
 			rotation: 0.0d
-			width: 2.0d
+			width: 1.5d
 			x: 0.0d
-			y: 0.5d
+			y: -0.5d
 		}
 		{
 			click: "#0DAD6C803C532FAC"
@@ -32,8 +32,8 @@
 			image: "ftb:textures/pack_title.png"
 			rotation: 0.0d
 			width: 20.0d
-			x: 0.0d
-			y: -16.5d
+			x: 0.5d
+			y: -16.0d
 		}
 		{
 			click: "#0DAD6C803C532FAC"
@@ -42,7 +42,7 @@
 			rotation: 0.0d
 			width: 15.0d
 			x: 0.0d
-			y: -8.0d
+			y: -7.5d
 		}
 	]
 	order_index: 0
@@ -77,14 +77,14 @@
 			}
 		]
 		shape: "gear"
-		size: 2.0d
+		size: 1.5d
 		tasks: [{
 			id: "4B5EC68E21D1B0E9"
 			title: "Welcome Check"
 			type: "checkmark"
 		}]
 		x: 0.0d
-		y: -2.0d
+		y: -2.25d
 	}]
 	title: "Create - Forge Frontier"
 }

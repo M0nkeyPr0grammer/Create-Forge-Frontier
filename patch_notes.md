@@ -44,7 +44,8 @@ Coming Soon
 - Sophisticated Storage: v1.0.7.1000 > v1.1.0.1013
 - Structure Credits: v1.7 > v2.2
 ## Quest Updates/Additions
-- Coming Soon
+- Create - Forge Frontier: Adjust Image Sizes
+
 ## KubeJS Updates
 - /serverscripts/Waystones: Changed Waystone Recipes to use create items and mechanics, and removed old waystone recipes including sharestone recipes.
 - /assets/Waystones: Renamed Waystones
