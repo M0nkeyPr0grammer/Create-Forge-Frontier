@@ -57,6 +57,7 @@ Coming Soon
 - /data/farmingforblockheads/farmingforblockheads_compat: Added Compatibility for missing plants, plus reorganized the market categories
 - /serverscripts/Forge Frontier/Tags: Removed Access to Helium Flamingo
 - /data/apotheosis/wanderer_trades/treecapitator: Removed Chainsaw enchantment
+- /serverscripts/Mold Recipes/BlockCompactingMold_Recipes: Removed Molten Debris to Ancient Debris Recipe
 ## Config Updates
 - Carryon: Blacklisted Sophisticated Storage, Backpacks, and Sacks
 - Tom's Simple Storage: Increased Single Dimension Requirement to even out mechanics usage

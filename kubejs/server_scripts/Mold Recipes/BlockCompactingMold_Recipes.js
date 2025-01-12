@@ -44,7 +44,6 @@ ServerEvents.recipes(event => {
         { fluid: 'forge_frontier:molten_emerald', result: 'minecraft:emerald_block', name: 'emerald_block' },
         { fluid: 'forge_frontier:molten_redstone', result: 'minecraft:redstone_block', name: 'redstone_block' },
         { fluid: 'forge_frontier:molten_lapis', result: 'minecraft:lapis_block', name: 'lapis_block' },
-        { fluid: 'forge_frontier:molten_ancient_debris', result: 'minecraft:ancient_debris', name: 'ancient_debris', fluidAmount: 150 },
         { fluid: 'forge_frontier:molten_netherite', result: 'minecraft:netherite_block', name: 'netherite_block' },
         { fluid: 'forge_frontier:molten_bone_marrow', result: 'minecraft:bone_block', name: 'bone_block' },
         { fluid: 'forge_frontier:molten_netherite_iron', result: 'advancednetherite:netherite_iron_block', name: 'netherite_iron_block' },
