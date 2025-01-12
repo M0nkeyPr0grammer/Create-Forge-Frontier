@@ -60,6 +60,7 @@ Coming Soon
 - /serverscripts/Mold Recipes/BlockCompactingMold_Recipes: Removed Molten Debris to Ancient Debris Recipe
 - /serverscripts/Crushing/OreCrushing: Removed Excess Redstone when crushing raw redstone
 - /serverscripts/Forge Frontier/NonSorted_RecipeTweaks: Removed Excess Scrap when crushing netherite ingots
+- /serverscripts/Create/ResourceGen_CrushingRecipes: Lowered Processing Resources for Resource Ore Stones
 ## Config Updates
 - Carryon: Blacklisted Sophisticated Storage, Backpacks, and Sacks
 - Tom's Simple Storage: Increased Single Dimension Requirement to even out mechanics usage

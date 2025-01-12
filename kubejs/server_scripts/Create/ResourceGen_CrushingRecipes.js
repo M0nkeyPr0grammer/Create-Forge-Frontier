@@ -50,8 +50,8 @@ ServerEvents.recipes(event => {
     // Loop through materials and create the crushing recipes
     stones.forEach(stone => {
         const results = [
-            { count: 3, item: stone.output },
-            { count: 1, item: stone.output, chance: 0.25 }
+            { count: 1, item: stone.output },
+            { count: 1, item: stone.output, chance: 0.50 }
         ];
         if (stone.additional) results.push({ count: 1, item: stone.additional });
 
@@ -89,8 +89,9 @@ ServerEvents.recipes(event => {
         ingredients: [{ item: 'minecraft:ancient_debris' }],
         processingTime: 250,
         results: [
-            { count: 2, item: 'forge_frontier:crushed_debris' },
-            { chance: 0.05, item: 'create:crushed_raw_gold' }
+            { count: 1, item: 'forge_frontier:crushed_debris' },
+            { count: 1, item: 'forge_frontier:crushed_debris', chance: 0.25},
+            { chance: 0.10, item: 'create:crushed_raw_gold' }
         ]
     }).id('forge_frontier:crushing/ancient_debris');
 });
