@@ -46,6 +46,7 @@ Coming Soon
 ## Quest Updates/Additions
 - Create - Forge Frontier: Adjust Image Sizes
 - Chapters: Adjusted Chapter Order to make more sense
+- Milkshakes: Adjusted Dependencies, 
 ## KubeJS Updates
 - /serverscripts/Waystones: Changed Waystone Recipes to use create items and mechanics, and removed old waystone recipes including sharestone recipes.
 - /assets/Waystones: Renamed Waystones
@@ -69,6 +70,8 @@ Coming Soon
 - /startup_scripts: New Resource Stone Resonite, New Crushed Resonite, New Crushed Resonite Pile
 - /server_scripts/Create: New Resonite Processing Recipes
 - /server_scripts/Forge Frontier: New Crushed Resonite Recipes
+- /server_scripts/Dreams&Desires: Changed Vanill Milk and Strawberry Milk recipes
+- /server_scripts/AE2/AdvancedAE_RecipeTweaks: Replaced Quantum Infused Inscriber Recipe with crushing recipe
 ## Config Updates
 - Carryon: Blacklisted Sophisticated Storage, Backpacks, and Sacks
 - Tom's Simple Storage: Increased Single Dimension Requirement to even out mechanics usage
