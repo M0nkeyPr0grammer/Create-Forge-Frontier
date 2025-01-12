@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "molten_vents:block/dormant_molten_sculk_grime"
+    "all": "molten_vents:block/dormant_molten_resonite"
     }
   }
 

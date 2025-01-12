@@ -628,13 +628,13 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
           }
         ],
         catalyst: {
-          item: 'molten_vents:active_molten_sculk_grime'
+          item: 'molten_vents:active_molten_resonite'
         },
         result: {
-          item: 'deeperdarker:sculk_grime'
+          item: 'forge_frontier:resonite'
         },
         
-      }).id('forge_frontier:extruding/sculk_grime')
+      }).id('forge_frontier:extruding/resonite')
       
       // Aubrum
       event.custom({

@@ -15,7 +15,8 @@ StartupEvents.registry('block', event => {
             { id: 'stellaris', name: 'Stellaris' },
             { id: 'sulphite', name: 'Sulphite' },
             { id: 'verdantine', name: 'Verdantine' },
-            { id: 'uraniumnite', name: 'Uraniumnite'}
+            { id: 'uraniumnite', name: 'Uraniumnite'},
+            { id: 'resonite', name: 'Resonite'}
         ];
     
         ores.forEach(ore => {

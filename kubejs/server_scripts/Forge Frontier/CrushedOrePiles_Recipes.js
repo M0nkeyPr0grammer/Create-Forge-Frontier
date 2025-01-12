@@ -15,7 +15,7 @@ ServerEvents.recipes(event => {
 		{ pile: 'crushed_verdantine_pile', raw: 'forge_frontier:crushed_verdantine'},
 		{ pile: 'crushed_glacium_pile', raw: 'forge_frontier:crushed_glacium'},
 		{ pile: 'crushed_debris_pile', raw: 'forge_frontier:crushed_debris'},
-		{ pile: 'crushed_grime_pile', raw: 'forge_frontier:crushed_grime'},
+		{ pile: 'crushed_resonite_pile', raw: 'forge_frontier:crushed_resonite'},
 		{ pile: 'crushed_aubrum_pile', raw: 'forge_frontier:crushed_aubrum'},
 		{ pile: 'crushed_pyroclast_pile', raw: 'forge_frontier:crushed_pyroclast'},
 		{ pile: 'crushed_frostite_pile', raw: 'forge_frontier:crushed_frostite'},

@@ -43,7 +43,7 @@ ServerEvents.recipes(event => {
         { name: 'azurnium', input: 'forge_frontier:azurnium', output: 'forge_frontier:crushed_azurnium', additional: 'alexscaves:raw_azure_neodymium' },
         { name: 'uraniumnite', input: 'forge_frontier:uraniumnite', output: 'forge_frontier:crushed_uraniumnite', additional: 'alexscaves:uranium_shard' },
         { name: 'palerock', input: 'enlightened_end:palerock', output: 'forge_frontier:crushed_palerock', additional: 'enlightened_end:bismuth_nugget' },
-        { name: 'sculk_grime', input: 'deeperdarker:sculk_grime', output: 'forge_frontier:crushed_grime' },
+        { name: 'resonite', input: 'forge_frontier:resonite', output: 'forge_frontier:crushed_resonite' },
         { name: 'void_shale', input: 'enlightened_end:void_shale', output: 'forge_frontier:crushed_shale' }
     ];
 

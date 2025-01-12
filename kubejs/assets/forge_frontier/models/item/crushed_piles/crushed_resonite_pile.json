@@ -1,5 +1,5 @@
 {
-  "parent": "forge_frontier:block/crushed_piles/crushed_grime_pile",
+  "parent": "forge_frontier:block/crushed_piles/crushed_resonite_pile",
   "display": {
     "thirdperson": {
       "rotation": [

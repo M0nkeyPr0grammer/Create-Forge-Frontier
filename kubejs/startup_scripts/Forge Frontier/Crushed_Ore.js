@@ -12,7 +12,7 @@ StartupEvents.registry('item', event => {
         'Verdantine',
         'Glacium',
         'Debris',
-        'Grime',
+        'Resonite',
         'Aubrum',
         'Pyroclast',
         'Frostite',

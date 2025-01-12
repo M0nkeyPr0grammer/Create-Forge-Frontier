@@ -63,6 +63,11 @@ Coming Soon
 - /serverscripts/Create/ResourceGen_CrushingRecipes: Lowered Processing Resources for Resource Ore Stones
 - /serverscripts/Forge Frontier/tags: Gave my Resource Ore Stones, Excavated Variant Stone Type Tag
 - /data/molten_vents/forge/biome_modifier/: Moved Veridium Vents to Overworld tag, and Crimsite to Plains tag
+- /data/molten_vents: New Resonite Vent replacing Sculk Grime Vent
+- /assets/molten_vents: New Resonite Vent Blocks, replacing Sculk Grime Vents
+- /startup_scripts: New Resource Stone Resonite, New Crushed Resonite, New Crushed Resonite Pile
+- /server_scripts/Create: New Resonite Processing Recipes
+- /server_scripts/Forge Frontier: New Crushed Resonite Recipes
 ## Config Updates
 - Carryon: Blacklisted Sophisticated Storage, Backpacks, and Sacks
 - Tom's Simple Storage: Increased Single Dimension Requirement to even out mechanics usage
