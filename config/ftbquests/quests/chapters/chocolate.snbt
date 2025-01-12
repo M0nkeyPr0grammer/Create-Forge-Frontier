@@ -208,7 +208,6 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["7EB3EB70EF62C537"]
 			id: "05FC14F6359165C8"
 			subtitle: "Obtained by milking a cow"
 			tasks: [{
@@ -220,7 +219,6 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["7EB3EB70EF62C537"]
 			id: "7FDFA8724588229E"
 			tasks: [{
 				count: 4L
@@ -245,7 +243,6 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["7EB3EB70EF62C537"]
 			id: "7CB3891A82CE160F"
 			subtitle: "Obtained from Cocoa Plants"
 			tasks: [{

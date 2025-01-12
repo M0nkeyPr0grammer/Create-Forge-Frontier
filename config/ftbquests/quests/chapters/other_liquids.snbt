@@ -37,7 +37,6 @@
 			y: -5.5d
 		}
 		{
-			dependencies: ["44226064B27B70F4"]
 			id: "3BA1BFC437BB5C56"
 			tasks: [{
 				id: "0D683AB9537BD85D"
@@ -48,7 +47,6 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["3C8BB040F86DB9D8"]
 			id: "5DE53E1FE2154194"
 			subtitle: "Obtained by heated mixing the below ingredients"
 			tasks: [{
@@ -60,7 +58,6 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["08863212E09FCDC5"]
 			id: "20229A77369CF3EF"
 			tasks: [{
 				id: "1F6886E9A1F1D08D"
@@ -71,10 +68,6 @@
 			y: -2.5d
 		}
 		{
-			dependencies: [
-				"4247484D23C906A3"
-				"010AA1455A1895A5"
-			]
 			id: "2A36712104221BA5"
 			subtitle: "Obtained by mixing the below ingredients"
 			tasks: [{
@@ -86,7 +79,6 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["7FE6F26BE90E2F27"]
 			id: "5B673625B7489082"
 			tasks: [{
 				count: 2L
@@ -98,7 +90,6 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["7FE6F26BE90E2F27"]
 			id: "481817FF9C1EFF50"
 			tasks: [{
 				id: "0399D1C0233C0F93"

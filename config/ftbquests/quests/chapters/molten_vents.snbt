@@ -278,7 +278,6 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["4408A399D517CDB6"]
 			description: [
 				"In Order to generate Crimsite you will need a source block of"
 				"{ \"text\": \"Strawberry Milkshake\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0998CA8B44BA0EB7\" } }"
@@ -322,7 +321,6 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["0EA0C2CDE7F62ECA"]
 			id: "4FFBE9F8BC52BAE5"
 			rewards: [{
 				id: "7A6F551CA1685074"
@@ -462,7 +460,6 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["746AA64118A7407D"]
 			icon: "molten_vents:dormant_molten_asurine"
 			id: "58E37D66B86362FD"
 			rewards: [{
@@ -483,7 +480,6 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["1B9BED1C00DB2BDE"]
 			description: [
 				"In Order to generate Asurine you will need a source block of "
 				"{ \"text\": \"Cream\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5FFE2F9EA4FCFE3D\" } }"
@@ -527,7 +523,6 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["0AFE52653EE975A8"]
 			id: "22F1724ED1FA487D"
 			rewards: [{
 				id: "15E2706642F6C3D0"
@@ -556,7 +551,6 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["746AA64118A7407D"]
 			icon: "molten_vents:dormant_molten_veridium"
 			id: "6BF481A48C136085"
 			rewards: [{
@@ -650,7 +644,6 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["746AA64118A7407D"]
 			icon: "molten_vents:dormant_molten_potassic"
 			id: "79632EC457A3A88D"
 			rewards: [{
@@ -867,7 +860,6 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["27FF3D6559D4DE58"]
 			description: ["In Order to generate Glacium you will need a source block of Dark Chocolate"]
 			icon: "molten_vents:active_molten_glacium"
 			id: "648ADE5DD685988B"
@@ -903,7 +895,6 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["7EB3EB70EF62C537"]
 			id: "589FC9F5A6B51B4E"
 			rewards: [{
 				id: "73C77115E925523A"
@@ -1160,7 +1151,6 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["647082E6390A647A"]
 			description: ["In Order to generate Ancient Debris you will need a source block of Biofuel"]
 			icon: "molten_vents:active_molten_ancient_debris"
 			id: "572F7FE82A4367BE"
@@ -1196,7 +1186,6 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["294621D005CFAB64"]
 			id: "5D006DFD57BAE44F"
 			rewards: [{
 				id: "1236940D6D363910"
@@ -1338,7 +1327,6 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["2A29B35EF0255511"]
 			icon: "molten_vents:dormant_molten_aubrum"
 			id: "3B0CEEDC47C9AFAE"
 			rewards: [{
@@ -1375,7 +1363,6 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["3B098E6474D498C5"]
 			description: ["In Order to generate Aubrum you will need a source block of Plant Oil"]
 			icon: "molten_vents:active_molten_aubrum"
 			id: "77D3E082EA1F764F"
@@ -1411,7 +1398,6 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["710F662B8F484D14"]
 			id: "7152ADB146499A96"
 			rewards: [{
 				id: "7CA578E9FD24EB11"
@@ -1660,7 +1646,6 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["2E540A2523D0F2B6"]
 			icon: "molten_vents:dormant_molten_frostite"
 			id: "350F1E84CF8BB524"
 			rewards: [{
@@ -1681,7 +1666,6 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["0080D7D3D9BE5BE3"]
 			description: ["In Order to generate Frostite you will need a source block of Water"]
 			icon: "molten_vents:active_molten_frostite"
 			id: "7C071BD93B73B9E9"
@@ -1717,7 +1701,6 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["44226064B27B70F4"]
 			id: "0C8299F0C1FDF0E5"
 			rewards: [{
 				id: "1B716908B10210C2"
@@ -2136,7 +2119,6 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["2401FE22DF6AF5B1"]
 			description: ["In Order to generate Amberlite you will need a source block of Honey"]
 			icon: "molten_vents:active_molten_aubrum"
 			id: "6950232D17577FEC"
@@ -2172,7 +2154,6 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["08863212E09FCDC5"]
 			id: "76692DFB8834258D"
 			rewards: [{
 				id: "24FCA09BC348325D"
@@ -2222,7 +2203,6 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["07CB0B903E62B853"]
 			description: ["In Order to generate Guanite you will need a source block of Liquid Fertilizer"]
 			icon: "molten_vents:active_molten_guanite"
 			id: "3E22E4007D8C1979"
@@ -2258,7 +2238,6 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["7FE6F26BE90E2F27"]
 			id: "7AB6B28F0171651B"
 			rewards: [{
 				id: "7B659633EFA35D2B"
@@ -2566,7 +2545,6 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["2F41CAD739040E8A"]
 			description: ["In Order to generate Azurnium you will need a source block of Molten Iron"]
 			icon: "molten_vents:active_molten_azurnium"
 			id: "171FB4C4C4584414"
@@ -2602,7 +2580,6 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["190032AF768B4BC2"]
 			id: "01AAA3C731162AB6"
 			rewards: [{
 				id: "70C9BBCDD3D57A12"

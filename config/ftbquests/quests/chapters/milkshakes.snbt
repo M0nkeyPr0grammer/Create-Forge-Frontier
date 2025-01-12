@@ -79,7 +79,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["291E377777F227E2"]
 			id: "438230088967C8B5"
 			subtitle: "Sugar is craftable from Sugar Cane"
 			tasks: [{
@@ -92,10 +91,6 @@
 			y: 1.5d
 		}
 		{
-			dependencies: [
-				"5303C68D81319309"
-				"579BDCAD518C6F77"
-			]
 			id: "4994B4DBED0083B8"
 			subtitle: "Obtained by mixing the below ingredients"
 			tasks: [{
@@ -107,11 +102,6 @@
 			y: 1.5d
 		}
 		{
-			dependencies: [
-				"45559F8BD3B26EC9"
-				"4B2802937F3FFC29"
-				"631974F23E99BB8F"
-			]
 			id: "2B4CBC001ADE839B"
 			subtitle: "Obtained by mixing the below ingredients"
 			tasks: [{
@@ -123,7 +113,6 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["0EA0C2CDE7F62ECA"]
 			id: "16F38C5DED3707F3"
 			tasks: [{
 				count: 32L
@@ -135,11 +124,6 @@
 			y: 3.0d
 		}
 		{
-			dependencies: [
-				"4F23C7217300D817"
-				"34B2B208BB1E9C09"
-				"44699CA2AED75CFB"
-			]
 			id: "0156F7481079E30B"
 			subtitle: "Obtained by mixing the below ingredients"
 			tasks: [{
@@ -151,7 +135,6 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["0EA0C2CDE7F62ECA"]
 			id: "7C3BCD60AFC8D467"
 			subtitle: "Obtained by milking a cow"
 			tasks: [{
@@ -163,7 +146,6 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["0EA0C2CDE7F62ECA"]
 			id: "63EB0A404A799085"
 			tasks: [{
 				count: 8L
@@ -175,7 +157,6 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["291E377777F227E2"]
 			id: "7142ED8259226E20"
 			subtitle: "Sugar is craftable from Sugar Cane"
 			tasks: [{
@@ -188,7 +169,6 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["0EA0C2CDE7F62ECA"]
 			id: "1BDF91A22F4B0256"
 			subtitle: "Obtained by milking a cow"
 			tasks: [{
@@ -201,7 +181,6 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["0EA0C2CDE7F62ECA"]
 			id: "149A1AE5B2D813CC"
 			tasks: [{
 				id: "6D390EC614483DC9"
@@ -212,7 +191,6 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["291E377777F227E2"]
 			id: "173B2A9A66D0754A"
 			subtitle: "Sugar is craftable from Sugar Cane"
 			tasks: [{
@@ -239,11 +217,6 @@
 			y: 6.0d
 		}
 		{
-			dependencies: [
-				"2374E8C9366B4964"
-				"326C4A77282506DB"
-				"553578A0C7DEC266"
-			]
 			description: [
 				"The Strawberry Milkshake is later used in automating Iron via a"
 				"{ \"text\": \"Crimsite Molten Vent\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0EA0C2CDE7F62ECA\" } }"
@@ -449,10 +422,6 @@
 			y: 6.0d
 		}
 		{
-			dependencies: [
-				"140B751E2B2B4E1B"
-				"71BD31914B627ED6"
-			]
 			description: [
 				"The Cream is later used in automating Zinc via a"
 				"{ \"text\": \"Asurine Molten Vent\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0AFE52653EE975A8\" } }"
@@ -473,7 +442,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["0AFE52653EE975A8"]
 			id: "75B75A1A773493B3"
 			tasks: [{
 				count: 32L
@@ -485,11 +453,6 @@
 			y: 1.5d
 		}
 		{
-			dependencies: [
-				"7F2A130797BA31D7"
-				"3C91854682AC8FDE"
-				"3921AFAC261FD1E5"
-			]
 			id: "5924F95B1AD9964B"
 			subtitle: "Obtained by mixing the below ingredients"
 			tasks: [{
@@ -501,7 +464,6 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["323B7BE36A1F441B"]
 			id: "638E6903F00D2A26"
 			subtitle: "Sugar is craftable from Sugar Cane"
 			tasks: [{
@@ -514,7 +476,6 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["0AFE52653EE975A8"]
 			id: "226EB8BFA8C08992"
 			tasks: [{
 				id: "57D75244CB41C780"
@@ -525,7 +486,6 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["0AFE52653EE975A8"]
 			id: "419912C2D665ECCB"
 			subtitle: "Obtained by milking a cow"
 			tasks: [{

@@ -37,11 +37,6 @@
 			y: -7.5d
 		}
 		{
-			dependencies: [
-				"712B1E824C62E25F"
-				"293C7B211D431307"
-				"59BF49536E143FF3"
-			]
 			id: "59BB6125B5A87258"
 			subtitle: "Obtained by mixing the below ingredients"
 			tasks: [{
@@ -53,7 +48,6 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["3CB29F96159205FC"]
 			id: "1905FB973221146A"
 			subtitle: "Sugar is craftable from Sugar Cane"
 			tasks: [{
@@ -66,7 +60,6 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["152E2791CE03D5B0"]
 			id: "79CDCEE315D09B3B"
 			subtitle: "Obtained by crushing the below ingredients"
 			tasks: [{
@@ -79,10 +72,6 @@
 			y: -4.5d
 		}
 		{
-			dependencies: [
-				"08DA6860F8F270F0"
-				"5001AD7460C5230D"
-			]
 			id: "4FEDAFD2DF8EF39F"
 			subtitle: "Obtained by heated mixing the below ingredients"
 			tasks: [{
@@ -95,7 +84,6 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["294621D005CFAB64"]
 			id: "523F7900DCDAA669"
 			tasks: [{
 				count: 10L
@@ -107,7 +95,6 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["294621D005CFAB64"]
 			id: "19B21EB1CEA61C3C"
 			tasks: [{
 				count: 10L
@@ -119,7 +106,6 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["294621D005CFAB64"]
 			id: "4704645934EFE800"
 			tasks: [{
 				count: 160L
@@ -131,7 +117,6 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["248E35DE578087F3"]
 			id: "090C4943355F9EE2"
 			subtitle: "Obtained by compacting the below ingredients"
 			tasks: [{
@@ -144,7 +129,6 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["294621D005CFAB64"]
 			id: "63B03DF1EF97DEE6"
 			tasks: [{
 				count: 20L
@@ -194,7 +178,6 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["559E75D14F0F2197"]
 			id: "509FE4926FDB28FA"
 			subtitle: "Obtained by compacting the below ingredients"
 			tasks: [{
@@ -206,7 +189,6 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["710F662B8F484D14"]
 			id: "54960F4027332765"
 			tasks: [{
 				count: 10L
