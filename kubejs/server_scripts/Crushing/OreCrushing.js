@@ -19,8 +19,7 @@ ServerEvents.recipes(event => {
 		],
 		processingTime: 400,
 		results: [
-			{ item: 'minecraft:redstone', count: 4 },
-			{ item: 'minecraft:redstone', chance: 0.10 }
+			{ item: 'minecraft:redstone', count: 4 }
 		]
 	}).id('forge_frontier:crushing/raw_redstone_block');
 

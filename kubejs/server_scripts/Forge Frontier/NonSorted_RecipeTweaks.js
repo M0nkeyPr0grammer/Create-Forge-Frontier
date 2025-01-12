@@ -376,8 +376,7 @@ ServerEvents.recipes(event => {
         ],
         processingTime: 400,
         results: [
-            { item: 'minecraft:netherite_scrap', count: 4 },
-			{ item: 'minecraft:netherite_scrap', chance: 0.10}
+            { item: 'minecraft:netherite_scrap', count: 4 }
         ],
     }).id('forge_frontier:crushing/netherite');
 

@@ -58,6 +58,8 @@ Coming Soon
 - /serverscripts/Forge Frontier/Tags: Removed Access to Helium Flamingo
 - /data/apotheosis/wanderer_trades/treecapitator: Removed Chainsaw enchantment
 - /serverscripts/Mold Recipes/BlockCompactingMold_Recipes: Removed Molten Debris to Ancient Debris Recipe
+- /serverscripts/Crushing/OreCrushing: Removed Excess Redstone when crushing raw redstone
+- /serverscripts/Forge Frontier/NonSorted_RecipeTweaks: Removed Excess Scrap when crushing netherite ingots
 ## Config Updates
 - Carryon: Blacklisted Sophisticated Storage, Backpacks, and Sacks
 - Tom's Simple Storage: Increased Single Dimension Requirement to even out mechanics usage
