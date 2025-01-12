@@ -128,6 +128,7 @@ ServerEvents.recipes(event => {
         },
         sequence: [
             {
+                "keepHeldItem": true,
                 type: 'create:deploying',
                 ingredients: [
                     { item: 'createappliedkinetics:incomplete_silicon_press' },
@@ -139,6 +140,7 @@ ServerEvents.recipes(event => {
             },
             {
                 type: 'create:deploying',
+                "keepHeldItem": true,
                 ingredients: [
                     { item: 'createappliedkinetics:incomplete_silicon_press' },
                     { item: 'ae2:logic_processor_press' }

@@ -160,6 +160,7 @@ ServerEvents.recipes(event => {
         },
         sequence: [
             {
+                "keepHeldItem": true,
                 type: 'create:deploying',
                 ingredients: [
                     { item: 'createappliedkinetics:incomplete_silicon_press' },

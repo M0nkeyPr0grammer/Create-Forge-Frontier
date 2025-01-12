@@ -72,6 +72,7 @@ Coming Soon
 - /server_scripts/Forge Frontier: New Crushed Resonite Recipes
 - /server_scripts/Dreams&Desires: Changed Vanill Milk and Strawberry Milk recipes
 - /server_scripts/AE2/AdvancedAE_RecipeTweaks: Replaced Quantum Infused Inscriber Recipe with crushing recipe
+- /server_scripts/AE2/: Fixed Sequenced Assembly Recipes related to Presses
 ## Config Updates
 - Carryon: Blacklisted Sophisticated Storage, Backpacks, and Sacks
 - Tom's Simple Storage: Increased Single Dimension Requirement to even out mechanics usage
