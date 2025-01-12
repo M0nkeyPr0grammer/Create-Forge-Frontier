@@ -15,20 +15,24 @@
 			y: -9.0d
 		}
 		{
+			click: "#58E37D66B86362FD"
 			height: 4.0d
+			hover: ["Asurine Vent"]
 			image: "ftb:textures/asurine_vent.png"
 			rotation: 0.0d
 			width: 6.4d
-			x: -8.5d
-			y: -4.0d
+			x: -9.5d
+			y: -6.0d
 		}
 		{
+			click: "#6C99623FD144B074"
 			height: 4.0d
+			hover: ["Ancient Debris Vent"]
 			image: "ftb:textures/debris_vent.png"
 			rotation: 0.0d
 			width: 6.4d
-			x: 8.0d
-			y: -4.5d
+			x: 9.5d
+			y: -6.0d
 		}
 	]
 	order_index: 0
@@ -228,7 +232,6 @@
 				""
 				"Dive into the world of Molten Vents and elevate your resource management to new heights!"
 			]
-			hide_dependent_lines: true
 			icon: "molten_vents:active_molten_asurine"
 			id: "7AC47553B491EE76"
 			rewards: [{
@@ -247,7 +250,7 @@
 				}
 				{
 					id: "77168E2D646C1F11"
-					item: "create:andesite_alloy"
+					item: "minecraft:copper_ingot"
 					type: "item"
 				}
 			]
@@ -278,6 +281,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["1091314A5D575D4B"]
 			description: [
 				"In Order to generate Crimsite you will need a source block of"
 				"{ \"text\": \"Strawberry Milkshake\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0998CA8B44BA0EB7\" } }"
@@ -321,6 +325,7 @@
 			y: 4.5d
 		}
 		{
+			dependencies: ["55E502A5614E6AC7"]
 			id: "4FFBE9F8BC52BAE5"
 			rewards: [{
 				id: "7A6F551CA1685074"
@@ -460,6 +465,7 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["2913B79A0D9AE74E"]
 			icon: "molten_vents:dormant_molten_asurine"
 			id: "58E37D66B86362FD"
 			rewards: [{
@@ -480,6 +486,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["58E37D66B86362FD"]
 			description: [
 				"In Order to generate Asurine you will need a source block of "
 				"{ \"text\": \"Cream\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5FFE2F9EA4FCFE3D\" } }"
@@ -523,6 +530,7 @@
 			y: 4.5d
 		}
 		{
+			dependencies: ["3221CD79AB202BD6"]
 			id: "22F1724ED1FA487D"
 			rewards: [{
 				id: "15E2706642F6C3D0"
@@ -551,6 +559,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["2913B79A0D9AE74E"]
 			icon: "molten_vents:dormant_molten_veridium"
 			id: "6BF481A48C136085"
 			rewards: [{
@@ -644,6 +653,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["2913B79A0D9AE74E"]
 			icon: "molten_vents:dormant_molten_potassic"
 			id: "79632EC457A3A88D"
 			rewards: [{
@@ -860,6 +870,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["0037549384F9FCCF"]
 			description: ["In Order to generate Glacium you will need a source block of Dark Chocolate"]
 			icon: "molten_vents:active_molten_glacium"
 			id: "648ADE5DD685988B"
@@ -895,6 +906,7 @@
 			y: 4.5d
 		}
 		{
+			dependencies: ["648ADE5DD685988B"]
 			id: "589FC9F5A6B51B4E"
 			rewards: [{
 				id: "73C77115E925523A"
@@ -1151,6 +1163,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["6C99623FD144B074"]
 			description: ["In Order to generate Ancient Debris you will need a source block of Biofuel"]
 			icon: "molten_vents:active_molten_ancient_debris"
 			id: "572F7FE82A4367BE"
@@ -1186,6 +1199,7 @@
 			y: 4.5d
 		}
 		{
+			dependencies: ["572F7FE82A4367BE"]
 			id: "5D006DFD57BAE44F"
 			rewards: [{
 				id: "1236940D6D363910"
@@ -1241,29 +1255,29 @@
 		}
 		{
 			dependencies: ["3F3C7C3F33BB9E64"]
-			icon: "molten_vents:dormant_molten_sculk_grime"
+			icon: "molten_vents:dormant_molten_resonite"
 			id: "66C50363340B22B0"
 			rewards: [{
 				id: "5B2A072CD74851D2"
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Sculk Grime Vents are found anywhere in the Deeper Darker Otherside Bedrock Roof, specically in the Deeplands"
+			subtitle: "Resonite Vents are found anywhere in the Deeper Darker Otherside Bedrock Roof, specically in the Deeplands"
 			tasks: [{
 				id: "68F38195DCD117B9"
 				observe_type: 0
 				timer: 0L
-				to_observe: "molten_vents:dormant_molten_sculk_grime"
+				to_observe: "molten_vents:dormant_molten_resonite"
 				type: "observation"
 			}]
-			title: "Find a Sculk Grime Vent"
+			title: "Find a Resonite Vent"
 			x: -3.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["66C50363340B22B0"]
-			description: ["In Order to generate Sculk Grime you will need a source block of Cryofuel"]
-			icon: "molten_vents:active_molten_sculk_grime"
+			description: ["In Order to generate Resonite you will need a source block of Cryofuel"]
+			icon: "molten_vents:active_molten_resonite"
 			id: "509AE3462D404452"
 			rewards: [
 				{
@@ -1283,7 +1297,7 @@
 					id: "63414EBC008D64C8"
 					observe_type: 0
 					timer: 0L
-					to_observe: "molten_vents:active_molten_sculk_grime"
+					to_observe: "molten_vents:active_molten_resonite"
 					type: "observation"
 				}
 				{
@@ -1292,7 +1306,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "Observe an Active Sculk Grime Vent"
+			title: "Observe an Active Resonite Vent"
 			x: -3.0d
 			y: 4.5d
 		}
@@ -1305,16 +1319,16 @@
 				item: "minecraft:echo_shard"
 				type: "item"
 			}]
-			subtitle: "Sculk Grime can be later crushed down to produce Echo Shards"
+			subtitle: "Resonite can be later crushed down to produce Echo Shards"
 			tasks: [
 				{
 					id: "7CEBD33F0B786F3F"
-					item: "deeperdarker:sculk_grime"
+					item: "forge_frontier:resonite"
 					type: "item"
 				}
 				{
 					id: "02F657B3B34E3CEE"
-					item: "forge_frontier:crushed_grime"
+					item: "forge_frontier:crushed_resonite"
 					type: "item"
 				}
 				{
@@ -1327,6 +1341,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["705EE64085E20FA2"]
 			icon: "molten_vents:dormant_molten_aubrum"
 			id: "3B0CEEDC47C9AFAE"
 			rewards: [{
@@ -1363,6 +1378,7 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["3B0CEEDC47C9AFAE"]
 			description: ["In Order to generate Aubrum you will need a source block of Plant Oil"]
 			icon: "molten_vents:active_molten_aubrum"
 			id: "77D3E082EA1F764F"
@@ -1398,6 +1414,7 @@
 			y: 4.5d
 		}
 		{
+			dependencies: ["77D3E082EA1F764F"]
 			id: "7152ADB146499A96"
 			rewards: [{
 				id: "7CA578E9FD24EB11"
@@ -1646,6 +1663,7 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["12C5A144E9E919A0"]
 			icon: "molten_vents:dormant_molten_frostite"
 			id: "350F1E84CF8BB524"
 			rewards: [{
@@ -1666,6 +1684,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["350F1E84CF8BB524"]
 			description: ["In Order to generate Frostite you will need a source block of Water"]
 			icon: "molten_vents:active_molten_frostite"
 			id: "7C071BD93B73B9E9"
@@ -1701,6 +1720,7 @@
 			y: 4.5d
 		}
 		{
+			dependencies: ["7C071BD93B73B9E9"]
 			id: "0C8299F0C1FDF0E5"
 			rewards: [{
 				id: "1B716908B10210C2"
@@ -2119,6 +2139,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["2589CF5251858E63"]
 			description: ["In Order to generate Amberlite you will need a source block of Honey"]
 			icon: "molten_vents:active_molten_aubrum"
 			id: "6950232D17577FEC"
@@ -2154,6 +2175,7 @@
 			y: 4.5d
 		}
 		{
+			dependencies: ["6950232D17577FEC"]
 			id: "76692DFB8834258D"
 			rewards: [{
 				id: "24FCA09BC348325D"
@@ -2203,6 +2225,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["229D3F7596608800"]
 			description: ["In Order to generate Guanite you will need a source block of Liquid Fertilizer"]
 			icon: "molten_vents:active_molten_guanite"
 			id: "3E22E4007D8C1979"
@@ -2238,6 +2261,7 @@
 			y: 4.5d
 		}
 		{
+			dependencies: ["3E22E4007D8C1979"]
 			id: "7AB6B28F0171651B"
 			rewards: [{
 				id: "7B659633EFA35D2B"
@@ -2545,6 +2569,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["1F8D8293900A159B"]
 			description: ["In Order to generate Azurnium you will need a source block of Molten Iron"]
 			icon: "molten_vents:active_molten_azurnium"
 			id: "171FB4C4C4584414"
@@ -2580,6 +2605,7 @@
 			y: 4.5d
 		}
 		{
+			dependencies: ["171FB4C4C4584414"]
 			id: "01AAA3C731162AB6"
 			rewards: [{
 				id: "70C9BBCDD3D57A12"
