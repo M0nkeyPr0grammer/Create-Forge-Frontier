@@ -71,8 +71,14 @@
 			hide_dependent_lines: true
 			icon: "create:bar_of_chocolate"
 			id: "38225B75D972BB4C"
+			rewards: [{
+				id: "6AE3415C1C1EDA89"
+				type: "xp"
+				xp: 25
+			}]
 			shape: "gear"
 			size: 3.0d
+			subtitle: "Chocolate, the key to resources, Click me for more info!"
 			tasks: [{
 				id: "3C9FA69A15C95171"
 				item: "minecraft:cocoa_beans"
@@ -93,6 +99,11 @@
 				"{ \"text\": \"Verdantine Molten Vent\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3B0C428AB2EDDA57\" } }"
 			]
 			id: "31FBC673B1E527F6"
+			rewards: [{
+				id: "24270ACD10326936"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
 			subtitle: "Obtained by heated mixing the below ingredients"
 			tasks: [{
 				id: "65741235B128968B"
@@ -190,6 +201,11 @@
 				"{ \"text\": \"Glacium Molten Vent\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"648ADE5DD685988B\" } }"
 			]
 			id: "13576F3698C89AE7"
+			rewards: [{
+				id: "66780161B73FB2A6"
+				item: "minecraft:diamond_block"
+				type: "item"
+			}]
 			subtitle: "Obtained by heated mixing the below ingredients"
 			tasks: [{
 				id: "6186A451E1089054"
@@ -282,6 +298,11 @@
 				"{ \"text\": \"Scorchia Molten Vent\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2F2166D0D6AE208F\" } }"
 			]
 			id: "1D40BCB5E0BF8836"
+			rewards: [{
+				id: "62BF313BF50E33DD"
+				item: "minecraft:coal_block"
+				type: "item"
+			}]
 			subtitle: "Obtained by heated mixing the below ingredients"
 			tasks: [{
 				id: "3FDD02F8681243AF"
@@ -369,6 +390,11 @@
 				"{ \"text\": \"End Molten Vents\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"15DD51BFD4480F8D\" } }"
 			]
 			id: "17559ED0B5B300D9"
+			rewards: [{
+				id: "3FC8DA31FE49E3B3"
+				item: "endertrigon:baby_dragon_egg"
+				type: "item"
+			}]
 			subtitle: "Obtained by heated mixing the below ingredients"
 			tasks: [{
 				id: "2D4599EE7E6BF3E8"
@@ -448,6 +474,11 @@
 			]
 			description: ["The Chocolate is later used in the making many different foods and blocks"]
 			id: "08B39783F0EC6407"
+			rewards: [{
+				id: "7D31000944A801BB"
+				item: "createaddition:chocolate_cake"
+				type: "item"
+			}]
 			subtitle: "Obtained by heated mixing the below ingredients"
 			tasks: [{
 				id: "549E36F7E5A30AE5"

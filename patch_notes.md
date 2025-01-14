@@ -20,7 +20,7 @@ Coming Soon
 - **Chapters**: Adjusted Chapter Order to make more sense
 - **Molten Vents**: Linked Fluids to Quests, for easier navigation
 - **Milkshakes**: Adjusted Dependencies, and Completed Quests
-- **Chocolates**: Completed Quests
+- **Chocolates**: Completed Quests 
 ## KubeJS Updates
 - **Molten Molding**: Updated recipes for many molten mixing to mold recipes to remove possibility of duping
 - **Waystones**: Updated recipes to use Create items/mechanics; removed old recipes, including Sharestone variants. Renamed Waystone assets.
