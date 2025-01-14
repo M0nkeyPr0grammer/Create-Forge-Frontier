@@ -24,6 +24,7 @@ Coming Soon
 - **Liquid Fuels**: Completed Quests
 - **Rockets**: Linked with Liquid Fuels Chapter
 ## KubeJS Updates
+- **FTB**: Added in new titles and screenshots for quest work
 - **Molten Molding**: Updated recipes for many molten mixing to mold recipes to remove possibility of duping
 - **Waystones**: Updated recipes to use Create items/mechanics; removed old recipes, including Sharestone variants. Renamed Waystone assets.
 - **Molten Vents**: Made non-movable to encourage CarryOn. Replaced Sculk Grime Vent with Resonite Vent (new blocks, resources, and recipes).
