@@ -1,0 +1,28 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ftb_info"
+	group: "37A1080736831E36"
+	id: "28ADD89A922E5DC8"
+	images: [{
+		height: 10.0d
+		image: "ftb:textures/coming_soon.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 0.0d
+		y: 4.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "6F8E433E11AB988B"
+		tasks: [{
+			id: "23D048FBE05265F0"
+			item: "ftbquests:book"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "FTB Info"
+}
