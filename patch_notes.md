@@ -18,8 +18,9 @@ Coming Soon
 ## Quest Updates/Additions
 - **Create - Forge Frontier**: Adjust Image Sizes
 - **Chapters**: Adjusted Chapter Order to make more sense
-- **Milkshakes**: Adjusted Dependencies,
-
+- **Molten Vents**: Linked Fluids to Quests, for easier navigation
+- **Milkshakes**: Adjusted Dependencies, and Completed Quests
+- **Chocolates**: Completed Quests
 ## KubeJS Updates
 - **Molten Molding**: Updated recipes for many molten mixing to mold recipes to remove possibility of duping
 - **Waystones**: Updated recipes to use Create items/mechanics; removed old recipes, including Sharestone variants. Renamed Waystone assets.
