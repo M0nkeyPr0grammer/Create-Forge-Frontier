@@ -23,7 +23,7 @@
 			y: 4.0d
 		}
 	]
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -470,11 +470,6 @@
 			hide_dependency_lines: true
 			hide_until_deps_visible: false
 			id: "3CE72BF099174999"
-			rewards: [{
-				id: "1DF066939E9C0BD1"
-				type: "xp_levels"
-				xp_levels: 50
-			}]
 			shape: "rsquare"
 			tasks: [{
 				entity: "artifacts:mimic"
