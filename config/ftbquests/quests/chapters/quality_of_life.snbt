@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	filename: "quality_of_life"
 	group: "37A1080736831E36"
-	icon: "quark:abacus"
+	icon: "ad_astra:wrench"
 	id: "73BC896A8FA5A2C6"
 	images: [
 		{
@@ -20,10 +20,10 @@
 			rotation: 0.0d
 			width: 15.0d
 			x: 0.0d
-			y: 7.0d
+			y: 5.0d
 		}
 	]
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -381,5 +381,5 @@
 			y: -6.0d
 		}
 	]
-	title: "Quality of Life"
+	title: "Handy Tools"
 }
