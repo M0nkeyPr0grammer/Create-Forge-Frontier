@@ -55,6 +55,7 @@ Coming Soon
 - **Apotheosis**: v7.4.3 > 7.4.4
 - **Balm**: v7.3.10 > v7.3.11
 - **Connectivity**: v6.3 > v6.5
+- **Create Crafts and Additions**: v1.2.4e > v1.2.5
 - **Create Stuff and Additions**: v2.0.5 > v2.0.6
 - **Curios**: v5.11.0 > v5.11.1
 - **Delightful**: v3.6.1 > v3.6.2
