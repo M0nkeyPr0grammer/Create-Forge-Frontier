@@ -23,6 +23,9 @@ Coming Soon
 - **Chocolates**: Completed Quests 
 - **Liquid Fuels**: Completed Quests
 - **Rockets**: Linked with Liquid Fuels Chapter
+- **Molten Ores**: Coming Soon
+- **Other Liquids**: Coming Soon
+- **Molten Mixing**: New Chapter
 ## KubeJS Updates
 - **FTB**: Added in new titles and screenshots for quest work
 - **Molten Molding**: Updated recipes for many molten mixing to mold recipes to remove possibility of duping

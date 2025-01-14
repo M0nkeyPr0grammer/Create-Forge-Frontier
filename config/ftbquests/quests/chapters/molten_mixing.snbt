@@ -1,0 +1,39 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "molten_mixing"
+	group: "72C8A595982548D5"
+	icon: "forge_frontier:mold_template"
+	id: "0DF42C0D0C5D6BB0"
+	images: [
+		{
+			height: 10.0d
+			image: "ftb:textures/coming_soon.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/molten_mixing_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: -9.5d
+		}
+	]
+	order_index: 6
+	quest_links: [ ]
+	quests: [{
+		id: "6916711BCA96011B"
+		tasks: [{
+			id: "00F354514AE5AAF5"
+			item: "forge_frontier:mold_template"
+			type: "item"
+		}]
+		x: 0.0d
+		y: -4.5d
+	}]
+	title: "Molten Mixing"
+}
