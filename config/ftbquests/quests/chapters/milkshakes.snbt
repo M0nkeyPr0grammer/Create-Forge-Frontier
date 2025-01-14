@@ -168,7 +168,7 @@
 			tasks: [{
 				count: 8L
 				id: "0D7A6F168EE98CFA"
-				item: "minecraft:sweet_berries"
+				item: "neapolitan:strawberries"
 				type: "item"
 			}]
 			x: -12.0d
@@ -841,14 +841,7 @@
 				{
 					count: 4L
 					id: "50ED22F01A27A23B"
-					item: { Count: 2, id: "minecraft:dandelion" }
-					optional_task: true
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "2241C9F830F3E8F4"
-					item: { Count: 2, id: "minecraft:blue_orchid" }
+					item: "neapolitan:dried_vanilla_pods"
 					optional_task: true
 					type: "item"
 				}
