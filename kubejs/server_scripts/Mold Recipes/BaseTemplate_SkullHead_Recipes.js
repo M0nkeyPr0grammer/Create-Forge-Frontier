@@ -266,36 +266,4 @@ ServerEvents.recipes(event => {
         heatRequirement: 'superheated'
 	}).id('forge_frontier:compacting/dragon_head')
 
-        // Wither Bone Recipe
-	event.custom({
-		type: 'create:compacting',
-		ingredients: [
-			{
-				fluid: 'forge_frontier:molten_bone_marrow',
-				amount: 100
-			},
-            {
-                fluid: 'forge_frontier:molten_carbon',
-                amount: 100
-            },
-            {
-                item: 'createcompression:compressed_experience_2x',
-                amount: 1
-            },
-			{
-				item: 'forge_frontier:ingot_mold',
-				count: 1
-			}
-		],
-		results: [
-			{
-				item: 'bhc:wither_bone',
-				count: 1
-			},
-            {
-                item: 'forge_frontier:ingot_mold'
-            }
-		],
-        heatRequirement: 'superheated'
-	}).id('forge_frontier:compacting/wither_bone')
 })
