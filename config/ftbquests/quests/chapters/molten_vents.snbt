@@ -1110,6 +1110,11 @@
 					title: "Check"
 					type: "checkmark"
 				}
+				{
+					id: "64CD6F20C416B3AB"
+					item: "create_dd:hot_chocolate_bucket"
+					type: "item"
+				}
 			]
 			title: "Observe an Active Scorchia Vent"
 			x: -6.0d
@@ -1183,7 +1188,10 @@
 		}
 		{
 			dependencies: ["6C99623FD144B074"]
-			description: ["In Order to generate Ancient Debris you will need a source block of Biofuel"]
+			description: [
+				"In Order to generate Ancient Debris you will need a source block of     "
+				"{ \"text\": \"Biofuel\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"59BB6125B5A87258\" } }"
+			]
 			icon: "molten_vents:active_molten_ancient_debris"
 			id: "572F7FE82A4367BE"
 			rewards: [
@@ -1295,7 +1303,10 @@
 		}
 		{
 			dependencies: ["66C50363340B22B0"]
-			description: ["In Order to generate Resonite you will need a source block of Cryofuel"]
+			description: [
+				"In Order to generate Resonite you will need a source block of     "
+				"{ \"text\": \"Cryo Fuel\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"51E1682DBF0062D2\" } }"
+			]
 			icon: "molten_vents:active_molten_resonite"
 			id: "509AE3462D404452"
 			rewards: [
@@ -1398,7 +1409,10 @@
 		}
 		{
 			dependencies: ["3B0CEEDC47C9AFAE"]
-			description: ["In Order to generate Aubrum you will need a source block of Plant Oil"]
+			description: [
+				"In Order to generate Aubrum you will need a source block of     "
+				"{ \"text\": \"Plant Oil\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"509FE4926FDB28FA\" } }"
+			]
 			icon: "molten_vents:active_molten_aubrum"
 			id: "77D3E082EA1F764F"
 			rewards: [
@@ -1500,7 +1514,10 @@
 		}
 		{
 			dependencies: ["3C81772B0834E434"]
-			description: ["In Order to generate Stellaris you will need a source block of Ethanol"]
+			description: [
+				"In Order to generate Stellaris you will need a source block of     "
+				"{ \"text\": \"Ethanol\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0E766060648F8B43\" } }"
+			]
 			icon: "molten_vents:active_molten_stellaris"
 			id: "663B98AD6EFF295F"
 			rewards: [
@@ -1602,7 +1619,10 @@
 		}
 		{
 			dependencies: ["0526FF8AE3C0EA67"]
-			description: ["In Order to generate Pyroclast you will need a source block of Biodiesel"]
+			description: [
+				"In Order to generate Pyroclast you will need a source block of    "
+				"{ \"text\": \"Biodiesel\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1480FBF5D5C2DE2C\" } }"
+			]
 			icon: "molten_vents:active_molten_pyroclast"
 			id: "5B4BAD7A02DA1E85"
 			rewards: [
