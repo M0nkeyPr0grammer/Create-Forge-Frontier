@@ -13,7 +13,7 @@
 			image: "neapolitan:item/strawberries"
 			rotation: 0.0d
 			width: 2.5d
-			x: -14.0d
+			x: -15.5d
 			y: -2.0d
 		}
 		{
@@ -23,7 +23,7 @@
 			image: "minecraft:item/glow_berries"
 			rotation: 0.0d
 			width: 2.5d
-			x: -7.5d
+			x: -9.0d
 			y: -2.0d
 		}
 		{
@@ -33,7 +33,7 @@
 			image: "alexscaves:item/vanilla_ice_cream_scoop"
 			rotation: 0.0d
 			width: 2.5d
-			x: -2.0d
+			x: 15.0d
 			y: -2.0d
 		}
 		{
@@ -43,7 +43,7 @@
 			image: "create_confectionery:item/caramel"
 			rotation: 0.0d
 			width: 2.5d
-			x: 2.0d
+			x: -2.5d
 			y: -2.0d
 		}
 		{
@@ -53,17 +53,17 @@
 			image: "neapolitan:block/vanilla_vine"
 			rotation: 0.0d
 			width: 2.5d
-			x: 7.5d
+			x: 3.0d
 			y: -2.5d
 		}
 		{
 			click: "#2BE12AF20FA6DC0D"
-			height: 2.5d
+			height: 2.0d
 			hover: ["Chocolate"]
 			image: "create_confectionery:block/full_chocolate_bar"
 			rotation: 0.0d
-			width: 2.5d
-			x: 13.5d
+			width: 2.0d
+			x: 9.0d
 			y: -2.0d
 		}
 		{
@@ -88,7 +88,7 @@
 				item: { Count: 4, id: "minecraft:sugar" }
 				type: "item"
 			}]
-			x: -15.0d
+			x: -16.5d
 			y: 1.5d
 		}
 		{
@@ -103,7 +103,7 @@
 				item: "create_dd:cream_bucket"
 				type: "item"
 			}]
-			x: -14.0d
+			x: -15.5d
 			y: 1.5d
 		}
 		{
@@ -119,7 +119,7 @@
 				item: "create_dd:strawberry_bucket"
 				type: "item"
 			}]
-			x: -13.0d
+			x: -14.5d
 			y: 1.5d
 		}
 		{
@@ -131,7 +131,7 @@
 				item: "minecraft:snowball"
 				type: "item"
 			}]
-			x: -15.0d
+			x: -16.5d
 			y: 3.0d
 		}
 		{
@@ -147,7 +147,7 @@
 				item: "create_dd:condense_milk_bucket"
 				type: "item"
 			}]
-			x: -14.0d
+			x: -15.5d
 			y: 3.0d
 		}
 		{
@@ -159,7 +159,7 @@
 				item: "minecraft:milk_bucket"
 				type: "item"
 			}]
-			x: -13.0d
+			x: -14.5d
 			y: 3.0d
 		}
 		{
@@ -171,7 +171,7 @@
 				item: "neapolitan:strawberries"
 				type: "item"
 			}]
-			x: -12.0d
+			x: -13.5d
 			y: 3.0d
 		}
 		{
@@ -184,7 +184,7 @@
 				item: "minecraft:sugar"
 				type: "item"
 			}]
-			x: -11.0d
+			x: -12.5d
 			y: 3.0d
 		}
 		{
@@ -197,7 +197,7 @@
 				item: "minecraft:milk_bucket"
 				type: "item"
 			}]
-			x: -15.0d
+			x: -16.5d
 			y: 4.5d
 		}
 		{
@@ -208,7 +208,7 @@
 				item: "minecraft:water_bucket"
 				type: "item"
 			}]
-			x: -14.0d
+			x: -15.5d
 			y: 4.5d
 		}
 		{
@@ -221,7 +221,7 @@
 				item: "minecraft:sugar"
 				type: "item"
 			}]
-			x: -13.0d
+			x: -14.5d
 			y: 4.5d
 		}
 		{
@@ -235,7 +235,7 @@
 				item: "minecraft:sugar_cane"
 				type: "item"
 			}]
-			x: -14.0d
+			x: -15.5d
 			y: 6.0d
 		}
 		{
@@ -260,7 +260,7 @@
 				item: "create_dd:strawberry_milkshake_bucket"
 				type: "item"
 			}]
-			x: -14.0d
+			x: -15.5d
 			y: 0.0d
 		}
 		{
@@ -285,7 +285,7 @@
 				item: "create_dd:glowberry_milkshake_bucket"
 				type: "item"
 			}]
-			x: -7.5d
+			x: -9.0d
 			y: 0.0d
 		}
 		{
@@ -298,7 +298,7 @@
 				item: { Count: 4, id: "minecraft:sugar" }
 				type: "item"
 			}]
-			x: -8.5d
+			x: -10.0d
 			y: 1.5d
 		}
 		{
@@ -313,7 +313,7 @@
 				item: "create_dd:cream_bucket"
 				type: "item"
 			}]
-			x: -7.5d
+			x: -9.0d
 			y: 1.5d
 		}
 		{
@@ -329,7 +329,7 @@
 				item: "create_dd:glowberry_bucket"
 				type: "item"
 			}]
-			x: -6.5d
+			x: -8.0d
 			y: 1.5d
 		}
 		{
@@ -341,7 +341,7 @@
 				item: "minecraft:snowball"
 				type: "item"
 			}]
-			x: -8.5d
+			x: -10.0d
 			y: 3.0d
 		}
 		{
@@ -357,7 +357,7 @@
 				item: "create_dd:condense_milk_bucket"
 				type: "item"
 			}]
-			x: -7.5d
+			x: -9.0d
 			y: 3.0d
 		}
 		{
@@ -369,7 +369,7 @@
 				item: "minecraft:milk_bucket"
 				type: "item"
 			}]
-			x: -6.5d
+			x: -8.0d
 			y: 3.0d
 		}
 		{
@@ -381,7 +381,7 @@
 				item: "minecraft:glow_berries"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -6.0d
 			y: 3.0d
 		}
 		{
@@ -394,7 +394,7 @@
 				item: "minecraft:sugar"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -7.0d
 			y: 3.0d
 		}
 		{
@@ -407,7 +407,7 @@
 				item: "minecraft:milk_bucket"
 				type: "item"
 			}]
-			x: -8.5d
+			x: -10.0d
 			y: 4.5d
 		}
 		{
@@ -418,7 +418,7 @@
 				item: "minecraft:water_bucket"
 				type: "item"
 			}]
-			x: -7.5d
+			x: -9.0d
 			y: 4.5d
 		}
 		{
@@ -431,7 +431,7 @@
 				item: "minecraft:sugar"
 				type: "item"
 			}]
-			x: -6.5d
+			x: -8.0d
 			y: 4.5d
 		}
 		{
@@ -445,7 +445,7 @@
 				item: "minecraft:sugar_cane"
 				type: "item"
 			}]
-			x: -7.5d
+			x: -9.0d
 			y: 6.0d
 		}
 		{
@@ -469,7 +469,7 @@
 				item: "create_dd:cream_bucket"
 				type: "item"
 			}]
-			x: -2.0d
+			x: 15.0d
 			y: 0.0d
 		}
 		{
@@ -481,7 +481,7 @@
 				item: { Count: 32, id: "minecraft:snowball" }
 				type: "item"
 			}]
-			x: -3.0d
+			x: 14.0d
 			y: 1.5d
 		}
 		{
@@ -497,12 +497,11 @@
 				item: "create_dd:condense_milk_bucket"
 				type: "item"
 			}]
-			x: -2.0d
+			x: 15.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["237C5791B0C5F074"]
-			hide_dependency_lines: true
 			id: "638E6903F00D2A26"
 			subtitle: "Sugar is craftable from Sugar Cane"
 			tasks: [{
@@ -511,7 +510,7 @@
 				item: { Count: 16, id: "minecraft:sugar" }
 				type: "item"
 			}]
-			x: -3.0d
+			x: 14.0d
 			y: 3.0d
 		}
 		{
@@ -522,7 +521,7 @@
 				item: "minecraft:water_bucket"
 				type: "item"
 			}]
-			x: -2.0d
+			x: 15.0d
 			y: 3.0d
 		}
 		{
@@ -535,11 +534,12 @@
 				item: { Count: 2, id: "minecraft:milk_bucket" }
 				type: "item"
 			}]
-			x: -1.0d
+			x: 16.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["4AADD38DF6D630C8"]
+			hide_dependent_lines: true
 			id: "237C5791B0C5F074"
 			shape: "hexagon"
 			tasks: [{
@@ -548,7 +548,7 @@
 				item: { Count: 16, id: "minecraft:sugar_cane" }
 				type: "item"
 			}]
-			x: -3.0d
+			x: 14.0d
 			y: 6.0d
 		}
 		{
@@ -573,7 +573,7 @@
 				item: "create_dd:caramel_milkshake_bucket"
 				type: "item"
 			}]
-			x: 2.0d
+			x: -2.5d
 			y: 0.0d
 		}
 		{
@@ -586,7 +586,7 @@
 				item: { Count: 4, id: "minecraft:sugar" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: -3.5d
 			y: 1.5d
 		}
 		{
@@ -601,7 +601,7 @@
 				item: "create_dd:cream_bucket"
 				type: "item"
 			}]
-			x: 2.0d
+			x: -2.5d
 			y: 1.5d
 		}
 		{
@@ -616,7 +616,7 @@
 				item: "create_dd:caramel_bucket"
 				type: "item"
 			}]
-			x: 3.0d
+			x: -1.5d
 			y: 1.5d
 		}
 		{
@@ -628,7 +628,7 @@
 				item: { Count: 16, id: "minecraft:snowball" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: -3.5d
 			y: 3.0d
 		}
 		{
@@ -644,7 +644,7 @@
 				item: "create_dd:condense_milk_bucket"
 				type: "item"
 			}]
-			x: 2.0d
+			x: -2.5d
 			y: 3.0d
 		}
 		{
@@ -656,7 +656,7 @@
 				item: "minecraft:milk_bucket"
 				type: "item"
 			}]
-			x: 3.0d
+			x: -1.5d
 			y: 3.0d
 		}
 		{
@@ -669,7 +669,7 @@
 				item: { Count: 8, id: "minecraft:sugar" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: -0.5d
 			y: 3.0d
 		}
 		{
@@ -682,7 +682,7 @@
 				item: { Count: 8, id: "minecraft:sugar" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: -1.5d
 			y: 4.5d
 		}
 		{
@@ -693,7 +693,7 @@
 				item: "minecraft:water_bucket"
 				type: "item"
 			}]
-			x: 2.0d
+			x: -2.5d
 			y: 4.5d
 		}
 		{
@@ -705,7 +705,7 @@
 				item: "minecraft:milk_bucket"
 				type: "item"
 			}]
-			x: 1.0d
+			x: -3.5d
 			y: 4.5d
 		}
 		{
@@ -719,7 +719,7 @@
 				item: "minecraft:sugar_cane"
 				type: "item"
 			}]
-			x: 2.0d
+			x: -2.5d
 			y: 6.0d
 		}
 		{
@@ -744,7 +744,7 @@
 				item: "create_dd:vanilla_milkshake_bucket"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
@@ -757,7 +757,7 @@
 				item: { Count: 4, id: "minecraft:sugar" }
 				type: "item"
 			}]
-			x: 6.5d
+			x: 2.0d
 			y: 1.5d
 		}
 		{
@@ -772,7 +772,7 @@
 				item: "create_dd:cream_bucket"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 3.0d
 			y: 1.5d
 		}
 		{
@@ -788,7 +788,7 @@
 				item: "create_dd:vanilla_bucket"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 4.0d
 			y: 1.5d
 		}
 		{
@@ -800,7 +800,7 @@
 				item: { Count: 16, id: "minecraft:snowball" }
 				type: "item"
 			}]
-			x: 6.5d
+			x: 2.0d
 			y: 3.0d
 		}
 		{
@@ -817,7 +817,7 @@
 				item: "create_dd:condense_milk_bucket"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 3.0d
 			y: 3.0d
 		}
 		{
@@ -829,7 +829,7 @@
 				item: "minecraft:milk_bucket"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 4.0d
 			y: 3.0d
 		}
 		{
@@ -850,7 +850,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 9.5d
+			x: 5.0d
 			y: 3.0d
 		}
 		{
@@ -863,7 +863,7 @@
 				item: { Count: 2, id: "minecraft:sugar" }
 				type: "item"
 			}]
-			x: 10.5d
+			x: 6.0d
 			y: 3.0d
 		}
 		{
@@ -876,7 +876,7 @@
 				item: { Count: 8, id: "minecraft:sugar" }
 				type: "item"
 			}]
-			x: 8.5d
+			x: 4.0d
 			y: 4.5d
 		}
 		{
@@ -887,7 +887,7 @@
 				item: "minecraft:water_bucket"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 3.0d
 			y: 4.5d
 		}
 		{
@@ -900,7 +900,7 @@
 				item: "minecraft:milk_bucket"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 2.0d
 			y: 4.5d
 		}
 		{
@@ -914,7 +914,7 @@
 				item: "minecraft:sugar_cane"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 3.0d
 			y: 6.0d
 		}
 		{
@@ -939,7 +939,7 @@
 				item: "create_dd:chocolate_milkshake_bucket"
 				type: "item"
 			}]
-			x: 13.5d
+			x: 9.0d
 			y: 0.0d
 		}
 		{
@@ -952,7 +952,7 @@
 				item: { Count: 8, id: "minecraft:sugar" }
 				type: "item"
 			}]
-			x: 12.5d
+			x: 8.0d
 			y: 1.5d
 		}
 		{
@@ -967,7 +967,7 @@
 				item: "create_dd:cream_bucket"
 				type: "item"
 			}]
-			x: 13.5d
+			x: 9.0d
 			y: 1.5d
 		}
 		{
@@ -983,7 +983,7 @@
 				item: "create:chocolate_bucket"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 10.0d
 			y: 1.5d
 		}
 		{
@@ -995,7 +995,7 @@
 				item: { Count: 32, id: "minecraft:snowball" }
 				type: "item"
 			}]
-			x: 12.5d
+			x: 8.0d
 			y: 3.0d
 		}
 		{
@@ -1011,7 +1011,7 @@
 				item: "create_dd:condense_milk_bucket"
 				type: "item"
 			}]
-			x: 13.5d
+			x: 9.0d
 			y: 3.0d
 		}
 		{
@@ -1023,7 +1023,7 @@
 				item: "minecraft:milk_bucket"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 10.0d
 			y: 3.0d
 		}
 		{
@@ -1036,7 +1036,7 @@
 				item: "minecraft:cocoa_beans"
 				type: "item"
 			}]
-			x: 15.5d
+			x: 11.0d
 			y: 3.0d
 		}
 		{
@@ -1049,7 +1049,7 @@
 				item: { Count: 4, id: "minecraft:sugar" }
 				type: "item"
 			}]
-			x: 16.5d
+			x: 12.0d
 			y: 3.0d
 		}
 		{
@@ -1062,7 +1062,7 @@
 				item: { Count: 16, id: "minecraft:sugar" }
 				type: "item"
 			}]
-			x: 14.5d
+			x: 10.0d
 			y: 4.5d
 		}
 		{
@@ -1073,7 +1073,7 @@
 				item: "minecraft:water_bucket"
 				type: "item"
 			}]
-			x: 13.5d
+			x: 9.0d
 			y: 4.5d
 		}
 		{
@@ -1086,7 +1086,7 @@
 				item: "minecraft:milk_bucket"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 8.0d
 			y: 4.5d
 		}
 		{
@@ -1100,7 +1100,7 @@
 				item: { Count: 28, id: "minecraft:sugar_cane" }
 				type: "item"
 			}]
-			x: 13.5d
+			x: 9.0d
 			y: 6.0d
 		}
 		{
