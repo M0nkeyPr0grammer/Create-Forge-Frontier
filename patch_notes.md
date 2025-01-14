@@ -50,31 +50,26 @@ Coming Soon
 - Chapters: Adjusted Chapter Order to make more sense
 - Milkshakes: Adjusted Dependencies, 
 ## KubeJS Updates
-- /serverscripts/Waystones: Changed Waystone Recipes to use create items and mechanics, and removed old waystone recipes including sharestone recipes.
-- /assets/Waystones: Renamed Waystones
-- /serverscripts/Forge Frontier/Wrencable_Block_Tags: Made Molten Vents Non Movable again, as they can be picked up with Carryon when active
-- /serverscripts/Create/Enchantment_Industry_Compat_Fixes: Added Caged Mobs Crystallized Experience and Blocks compatibility
-- /assets/forge_frontier/curios/slots/goggles: Added New Create Goggle Curios Slot
-- /assets/forge_frontier/curios/entites/slots: Added New Create Goggle Curios Slot
-- /serverscripts/Forge Frontier/Tags: Added Curios Goggle Tag to Create Goggles
-- /serverscripts/Forge Frontier/NonSorted_RecipeTweaks: Added Banana and Ferros Slime to Slime Recipe
-- /data/farmingforblockheads/farmingforblockheads_compat: Added Compatibility for missing plants, plus reorganized the market categories
-- /serverscripts/Forge Frontier/Tags: Removed Access to Helium Flamingo
-- /data/apotheosis/wanderer_trades/treecapitator: Removed Chainsaw enchantment
-- /serverscripts/Mold Recipes/BlockCompactingMold_Recipes: Removed Molten Debris to Ancient Debris Recipe
-- /serverscripts/Crushing/OreCrushing: Removed Excess Redstone when crushing raw redstone
-- /serverscripts/Forge Frontier/NonSorted_RecipeTweaks: Removed Excess Scrap when crushing netherite ingots
-- /serverscripts/Create/ResourceGen_CrushingRecipes: Lowered Processing Resources for Resource Ore Stones
-- /serverscripts/Forge Frontier/tags: Gave my Resource Ore Stones, Excavated Variant Stone Type Tag
-- /data/molten_vents/forge/biome_modifier/: Moved Veridium Vents to Overworld tag, and Crimsite to Plains tag
-- /data/molten_vents: New Resonite Vent replacing Sculk Grime Vent
-- /assets/molten_vents: New Resonite Vent Blocks, replacing Sculk Grime Vents
-- /startup_scripts: New Resource Stone Resonite, New Crushed Resonite, New Crushed Resonite Pile
-- /server_scripts/Create: New Resonite Processing Recipes
-- /server_scripts/Forge Frontier: New Crushed Resonite Recipes
-- /server_scripts/Dreams&Desires: Changed Vanill Milk and Strawberry Milk recipes
-- /server_scripts/AE2/AdvancedAE_RecipeTweaks: Replaced Quantum Infused Inscriber Recipe with crushing recipe
-- /server_scripts/AE2/: Fixed Sequenced Assembly Recipes related to Presses
+- **Molten Molding**: Updated recipes for many molten mixing to mold recipes to remove possibility of duping
+- **Waystones**: Updated recipes to use Create items/mechanics; removed old recipes, including Sharestone variants. Renamed Waystone assets.
+- **Molten Vents**: Made non-movable to encourage CarryOn. Replaced Sculk Grime Vent with Resonite Vent (new blocks, resources, and recipes).
+- **Create Integration**:
+  - Added Create Goggle Curios Slot and Curios Tag for Create Goggles.
+  - Fixed compatibility for Enchantment Industry and Caged Mobs Crystallized Experience.
+  - Adjusted Resource Ore Stones crushing for balanced resource processing.
+- **Forge Frontier**:
+  - Added Banana and Ferros Slime to Slime recipes.
+  - Tagged Resource Ore Stones with Excavated Variant Stone Type.
+  - Removed Helium Flamingo access and excess Netherite scrap from crushing.
+- **Farming for Blockheads**: Added missing plant compatibility and reorganized market categories.
+- **Apotheosis**: Removed Chainsaw enchantment from Wanderer Trades.
+- **Advanced AE2**: Replaced Quantum Inscriber Recipe with crushing; fixed Sequenced Assembly Recipes for Presses.
+- **Recipes Adjustments**:
+  - Removed Molten Debris to Ancient Debris conversion.
+  - Reduced excess Redstone output from raw redstone crushing.
+  - New recipes for Resonite processing and Crushed Resonite variants.
+- **Dreams & Desires**: Updated Vanilla Milk and Strawberry Milk recipes.
+- **Biome Modifiers**: Moved Veridium Vents to Overworld and Crimsite Vents to Plains tags.
 ## Config Updates
 - Carryon: Blacklisted Sophisticated Storage, Backpacks, and Sacks
 - Tom's Simple Storage: Increased Single Dimension Requirement to even out mechanics usage
