@@ -17,8 +17,9 @@ Coming Soon
 - Respawning Structures: Crazy Bug that caused structures to reset while players are inside the structure
 
 ## Quest Updates/Additions
-- **Create - Forge Frontier**: Adjust Image Sizes
 - **Chapters**: Adjusted Chapter Order to make more sense
+- **Create - Forge Frontier**: Adjusted Image Sizes
+- **Informational**: Added New Quest Pages for future quests
 - **Molten Vents**: Linked Fluids to Quests, for easier navigation
 - **Milkshakes**: Adjusted Dependencies, and Completed Quests
 - **Chocolates**: Completed Quests 
