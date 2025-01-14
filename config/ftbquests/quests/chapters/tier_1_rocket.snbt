@@ -350,7 +350,10 @@
 				"399949091218CD75"
 				"4E4C1C5026B92B6E"
 			]
-			description: ["Congratulations, astronaut! You’ve crafted the Tier 1 Rocket, and now it's time to prepare for your first journey into the stars! To fuel your rocket for the ultimate lunar adventure, grab a bucket of fuel and pour it into the tank while your rocket is stationed on the launch pad. Once you're strapped in, hold down the spacebar and feel the power as you blast off, rocketing through the atmosphere and into the boundless depths of space. The moon awaits—let the countdown begin!"]
+			description: [
+				"Congratulations, astronaut! You’ve crafted the Tier 1 Rocket, and now it's time to prepare for your first journey into the stars! To fuel your rocket for the ultimate lunar adventure, grab a bucket of fuel and pour it into the tank while your rocket is stationed on the launch pad. Once you're strapped in, hold down the spacebar and feel the power as you blast off, rocketing through the atmosphere and into the boundless depths of space. The moon awaits—let the countdown begin! Click here to learn how to get "
+				"{ \"text\": \"Fuel\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4A9A03DC67D025B1\" } }"
+			]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
