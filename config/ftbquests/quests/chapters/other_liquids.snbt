@@ -28,11 +28,18 @@
 	quests: [
 		{
 			id: "4E3A3607610EA399"
-			tasks: [{
-				id: "11791E8567780FF3"
-				item: "alexscaves:acid_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "11791E8567780FF3"
+					item: "alexscaves:acid_bucket"
+					type: "item"
+				}
+				{
+					id: "27A78379B3BCB330"
+					title: "Check"
+					type: "checkmark"
+				}
+			]
 			x: -0.5d
 			y: -5.5d
 		}
