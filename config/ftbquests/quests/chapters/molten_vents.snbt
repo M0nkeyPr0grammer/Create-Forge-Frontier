@@ -227,7 +227,7 @@
 				""
 				"Helpful Features:"
 				""
-				"- Portable Molten Vents: Organize your molten vent factories effortlessly by moving vents with Cart Assemblers."
+				"- Portable Molten Vents: Organize your molten vent factories effortlessly by moving vents with Carry One, only when the vent is activated"
 				"- Mechanical Extruders: Late-game automation becomes a breeze with Mechanical Extruders, which simplify stone generation by requiring only a single fluid source block."
 				""
 				"Dive into the world of Molten Vents and elevate your resource management to new heights!"
@@ -785,7 +785,10 @@
 		}
 		{
 			dependencies: ["12C001857356FF60"]
-			description: ["In Order to generate Verdantine you will need a source block of White Chocolate"]
+			description: [
+				"In Order to generate Verdantine you will need a source block of  "
+				"{ \"text\": \"White Chocolate\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"31FBC673B1E527F6\" } }"
+			]
 			icon: "molten_vents:active_molten_verdantine"
 			id: "3B0C428AB2EDDA57"
 			rewards: [
@@ -813,6 +816,11 @@
 					id: "147539492796CD78"
 					title: "Check"
 					type: "checkmark"
+				}
+				{
+					id: "579D3097664441A4"
+					item: "create_confectionery:white_chocolate_bucket"
+					type: "item"
 				}
 			]
 			title: "Observe an Active Verdantine Vent"
@@ -871,7 +879,10 @@
 		}
 		{
 			dependencies: ["0037549384F9FCCF"]
-			description: ["In Order to generate Glacium you will need a source block of Dark Chocolate"]
+			description: [
+				"In Order to generate Glacium you will need a source block of   "
+				"{ \"text\": \"Dark Chocolate\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"13576F3698C89AE7\" } }"
+			]
 			icon: "molten_vents:active_molten_glacium"
 			id: "648ADE5DD685988B"
 			rewards: [
@@ -899,6 +910,11 @@
 					id: "2E6F177C9A866BE9"
 					title: "Check"
 					type: "checkmark"
+				}
+				{
+					id: "44F6CBA3EE71F59A"
+					item: "create_confectionery:black_chocolate_bucket"
+					type: "item"
 				}
 			]
 			title: "Observe an Active Glacium Vent"
@@ -1062,7 +1078,10 @@
 		}
 		{
 			dependencies: ["10D2ED18910A5579"]
-			description: ["In Order to generate Scorchia you will need a source block of Hot Chocolate"]
+			description: [
+				"In Order to generate Scorchia you will need a source block of   "
+				"{ \"text\": \"Hot Chocolate\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1D40BCB5E0BF8836\" } }"
+			]
 			icon: "molten_vents:active_molten_scorchia"
 			id: "2F2166D0D6AE208F"
 			rewards: [
@@ -1771,7 +1790,10 @@
 		}
 		{
 			dependencies: ["0886729EE4407B1B"]
-			description: ["In Order to generate Radiantite you will need a source block of Ruby Chocolate"]
+			description: [
+				"In Order to generate Radiantite you will need a source block of   "
+				"{ \"text\": \"Ruby Chocolate\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"17559ED0B5B300D9\" } }"
+			]
 			icon: "molten_vents:active_molten_radiantite"
 			id: "3E23818C313CE507"
 			rewards: [
@@ -1873,7 +1895,10 @@
 		}
 		{
 			dependencies: ["177FD83E945AE2BE"]
-			description: ["In Order to generate Void Shale you will need a source block of Ruby Chocolate"]
+			description: [
+				"In Order to generate Void Shale you will need a source block of    "
+				"{ \"text\": \"Ruby Chocolate\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"17559ED0B5B300D9\" } }"
+			]
 			icon: "molten_vents:active_molten_void_shale"
 			id: "01C54F69AC1A05BF"
 			rewards: [
@@ -1959,7 +1984,10 @@
 		}
 		{
 			dependencies: ["0F87A00F314DD547"]
-			description: ["In Order to generate Palerock you will need a source block of Ruby Chocolate"]
+			description: [
+				"In Order to generate Palerock you will need a source block of    "
+				"{ \"text\": \"Ruby Chocolate\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"17559ED0B5B300D9\" } }"
+			]
 			icon: "molten_vents:active_molten_palerock"
 			id: "1A9E7670491FAD6C"
 			rewards: [

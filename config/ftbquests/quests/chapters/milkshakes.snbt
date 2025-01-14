@@ -1104,7 +1104,10 @@
 			y: 6.0d
 		}
 		{
-			description: ["In this pack, you'll harness the power of the milkshakes listed below to generate various orestones, either through Molten Ore Vents or Mechanical Extruders. To get started, consult the crafting guide for step-by-step instructions on creating these essential milkshakes and unlocking their full potential!"]
+			description: [
+				"In this pack, you'll harness the power of the milkshakes listed below to generate various orestones, either through Molten Ore Vents or Mechanical Extruders. To get started, consult the crafting guide for step-by-step instructions on creating these essential milkshakes and unlocking their full potential!  Click here to learn more about:"
+				"{ \"text\": \"Molten Vents\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7AC47553B491EE76\" } }        "
+			]
 			hide_dependent_lines: true
 			icon: "create_dd:vanilla_milkshake"
 			id: "4AADD38DF6D630C8"
