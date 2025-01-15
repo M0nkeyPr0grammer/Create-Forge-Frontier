@@ -277,7 +277,7 @@
 				type: "observation"
 			}]
 			title: "Find a Crimsite Vent"
-			x: -18.0d
+			x: -16.5d
 			y: 3.0d
 		}
 		{
@@ -321,7 +321,7 @@
 				}
 			]
 			title: "Observe an Active Crimsite Vent"
-			x: -18.0d
+			x: -16.5d
 			y: 4.5d
 		}
 		{
@@ -350,7 +350,7 @@
 					type: "item"
 				}
 			]
-			x: -18.0d
+			x: -16.5d
 			y: 6.0d
 		}
 		{
@@ -372,7 +372,7 @@
 				to_observe: "molten_vents:dormant_molten_ochrum"
 				type: "observation"
 			}]
-			x: -16.5d
+			x: -15.0d
 			y: 3.0d
 		}
 		{
@@ -416,7 +416,7 @@
 				}
 			]
 			title: "Observe an Active Ochrum Vent"
-			x: -16.5d
+			x: -15.0d
 			y: 4.5d
 		}
 		{
@@ -445,7 +445,7 @@
 					type: "item"
 				}
 			]
-			x: -16.5d
+			x: -15.0d
 			y: 6.0d
 		}
 		{
@@ -482,7 +482,7 @@
 				type: "observation"
 			}]
 			title: "Find a Asurine Vent"
-			x: -15.0d
+			x: -13.5d
 			y: 3.0d
 		}
 		{
@@ -526,7 +526,7 @@
 				}
 			]
 			title: "Observe an Active Asurine Vent"
-			x: -15.0d
+			x: -13.5d
 			y: 4.5d
 		}
 		{
@@ -555,11 +555,11 @@
 					type: "item"
 				}
 			]
-			x: -15.0d
+			x: -13.5d
 			y: 6.0d
 		}
 		{
-			dependencies: ["2913B79A0D9AE74E"]
+			dependencies: ["7AE2B54E9ABE8172"]
 			icon: "molten_vents:dormant_molten_veridium"
 			id: "6BF481A48C136085"
 			rewards: [{
@@ -576,7 +576,7 @@
 				type: "observation"
 			}]
 			title: "Find a Veridium Vent"
-			x: -13.5d
+			x: -18.0d
 			y: 3.0d
 		}
 		{
@@ -620,7 +620,7 @@
 				}
 			]
 			title: "Observe an Active Veridium Vent"
-			x: -13.5d
+			x: -18.0d
 			y: 4.5d
 		}
 		{
@@ -649,7 +649,7 @@
 					type: "item"
 				}
 			]
-			x: -13.5d
+			x: -18.0d
 			y: 6.0d
 		}
 		{
@@ -1162,7 +1162,7 @@
 				id: "2990B9CAC5A94F73"
 				type: "biome"
 			}]
-			x: -16.5d
+			x: -15.0d
 			y: 1.5d
 		}
 		{
@@ -2685,8 +2685,19 @@
 			dependencies: ["69CE3113324ED800"]
 			id: "3217A6300D17E470"
 			tasks: [{
-				biome: "#minecraft:is_overworld"
+				biome: "#forge:is_plains"
 				id: "7ED2A335BB4388AD"
+				type: "biome"
+			}]
+			x: -16.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["69CE3113324ED800"]
+			id: "7AE2B54E9ABE8172"
+			tasks: [{
+				biome: "#minecraft:is_overworld"
+				id: "7618865C4EE22237"
 				type: "biome"
 			}]
 			x: -18.0d
