@@ -268,7 +268,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Crimsite Vents are found anywhere in the overworld"
+			subtitle: "Crimsite Vents are found anywhere in the overworld, especially in plains biomes"
 			tasks: [{
 				id: "4EA85341DAED5477"
 				observe_type: 0
@@ -567,7 +567,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Veridium Vents are found anywhere in the overworld, specically in Forest Biomes"
+			subtitle: "Veridium Vents are found anywhere in the overworld"
 			tasks: [{
 				id: "7F552CF0B2FEDCDC"
 				observe_type: 0
