@@ -33,7 +33,7 @@ ServerEvents.recipes(event => {
 		  item: "minecraft:enchanting_table"
 		},
 		requirements: {
-		  eterna: 20,
+		  eterna: 30,
 		  quanta: 15,
 		  arcana: 20,
 		  rectifaction: 0
