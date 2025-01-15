@@ -9,10 +9,12 @@ Coming Soon
 ## Mod Additions
 - [Create: Halitosis](https://www.curseforge.com/minecraft/mc-mods/create-halitosis-create-halitosis): A small Create addon that permits "enderising" various items by bulk processing them with dragon breath from an encased fan.
 - [Light Overlay](https://www.curseforge.com/minecraft/mc-mods/light-overlay): This mod provides users with a NEI-like light overlay.
-- [Xaeros Minimap & World Map - Waystone Compatibility](https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap-world-map-waystones-compability): This mod is a sucesor of Waystones2Waypoints which creates a Waypoint in the Xaero's World Map and Xaero's Minimap when the player actives a Waystone
-- [Waystones](https://www.curseforge.com/minecraft/mc-mods/waystones): This mod adds waystone blocks that the player can return to once they've been activated, either through a Warp Scroll, a rechargeable Warp Stone, or by using an existing waystone to hop from one to the other.
+- **Might not be added** - [Xaeros Minimap & World Map - Waystone Compatibility](https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap-world-map-waystones-compability): This mod is a sucesor of Waystones2Waypoints which creates a Waypoint in the Xaero's World Map and Xaero's Minimap when the player actives a Waystone
+- **Might not be added** - [Waystones](https://www.curseforge.com/minecraft/mc-mods/waystones): This mod adds waystone blocks that the player can return to once they've been activated, either through a Warp Scroll, a rechargeable Warp Stone, or by using an existing waystone to hop from one to the other.
 - [MonoLib](https://www.curseforge.com/minecraft/mc-mods/monolib): MonoLib is the cornerstone library mod for mods created by Jason13, designed to enhance the development of other mods by offering an array of additional functionalities and streamlined methods for interaction with the Minecraft environment.
 - [Dis-Enchanting Table](https://www.curseforge.com/minecraft/mc-mods/dis-enchanting-table): This mod incorporates a new workbench, through which players will have the possibility of recovering enchantments from enchanted objects or books.
+- [Integrated Cataclysm](https://www.curseforge.com/minecraft/mc-mods/integrated-cataclysm): Integrated Cataclysm is the fourth mod in the Integrated Structures series. Not only does it completely overhaul L_Ender's Cataclysm structures with tons of heavily detailed dungeons to explore, but it integrates Supplementaries/Quark decorations and Create mod doors, puzzles, traps.
+- [Botany Trees](https://www.curseforge.com/minecraft/mc-mods/botany-trees): This mod is an addon for Botany Pots. With this addon you will be able to grow trees from Vanilla and several other mods inside of the Botany Pot. This can be done for decoration or as a mini wood farm.
 ## Mod Removal
 - Respawning Structures: Crazy Bug that caused structures to reset while players are inside the structure
 
