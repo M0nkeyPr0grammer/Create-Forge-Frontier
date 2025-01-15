@@ -31,6 +31,7 @@ Coming Soon
 - **Other Liquids**: Coming Soon
 - **Molten Mixing**: New Chapter
 ## KubeJS Updates
+- **Farmers Delight**: Created Rich Soil Create Compat Mixing Recipe
 - **Botany Pots**: Changed Base Botany Pot Recipe to require Rich Soil
 - **AE2**: Made AE2 Meteorites more rare
 - **Disenchanting Table**: Changed Recipe to use Apotheosis Enchanting

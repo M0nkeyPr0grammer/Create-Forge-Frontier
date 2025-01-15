@@ -15,5 +15,28 @@ ServerEvents.recipes(event => {
         }
     )
 
+// Create Compat Rich Soil Recipe
+event.custom({
+    type: "create:mixing",
+    ingredients: [
+        {
+            item: 'farmersdelight:organic_compost'
+        },
+        {
+            fluid: 'minecraft:water',
+            amount: 1000
+        },
+        {
+            tag: 'forge:mushrooms'
+        }
+    ],
+    results: [
+        {
+            item: 'farmersdelight:rich_soil'
+        }
+    ],
+    heatRequirement: "heated"
+}).id('forge_frontier:mixing/rich_soil');
+
 })
 
