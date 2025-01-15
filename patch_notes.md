@@ -29,6 +29,7 @@ Coming Soon
 - **Other Liquids**: Coming Soon
 - **Molten Mixing**: New Chapter
 ## KubeJS Updates
+- **AE2**: Made AE2 Meteorites more rare
 - **Disenchanting Table**: Changed Recipe to use Apotheosis Enchanting
 - **FTB**: Added in new titles and screenshots for quest work
 - **Molten Molding**: Updated recipes for many molten mixing to mold recipes to remove possibility of duping
