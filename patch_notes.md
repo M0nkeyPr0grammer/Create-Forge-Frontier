@@ -30,6 +30,7 @@ The Create - Forge Frontier 2.1.0 update is here! Packed with enhanced quests, e
 - **Other Liquids**: Coming Soon
 - **Molten Mixing**: New Chapter
 ## KubeJS Updates
+- **Dreams & Desires**: Remove Fluid/Lava Interaction Ponders, to remove confusion
 - **Farmers Delight**: Created Rich Soil Create Compat Mixing Recipe
 - **Botany Pots**: Changed Base Botany Pot Recipe to require Rich Soil
 - **AE2**: Made AE2 Meteorites more rare
