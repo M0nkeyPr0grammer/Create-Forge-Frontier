@@ -1,16 +1,15 @@
 # Modpack Patch Notes: Version 2.1.0
 **Release Date**: February 1st, 2025
 
-# Pathways and Purpose: Waystones and Quests Update!
+# Rising Innovations: Quests, Overhauls, and New Horizons!
 
-Coming Soon
+The Create - Forge Frontier 2.1.0 update is here! Packed with enhanced quests, exciting new mods like Create: Halitosis and Integrated Cataclysm, and major recipe overhauls, this update refines every aspect of your adventure. Explore revamped Molten Vents, unlock new crafting possibilities, and enjoy a smoother, more immersive gameplay experience. With updates spanning from enhanced mods to innovative mechanics, your journey through the Forge Frontier just got even better. Update now and take your gameplay to the next level!
 
 ### As a standard safety protocol, we advise creating a backup of your saved data prior to updating the modification package to ensure the preservation of your progress.
 ## Mod Additions
+- [Create - Forge Frontier Core](https://legacy.curseforge.com/minecraft/mc-mods/forge-frontier-core): This mod is intended to provide add features for the Create: Forge Fronteir modpack that are innaccessable without mods. Currently, this mod only disables lava iteractions with Create: Dreams and Desires milkshakes, but several more features are planned such as remaking the Molten Vents system and eventually replacing KubeJS items and blocks.
 - [Create: Halitosis](https://www.curseforge.com/minecraft/mc-mods/create-halitosis-create-halitosis): A small Create addon that permits "enderising" various items by bulk processing them with dragon breath from an encased fan.
 - [Light Overlay](https://www.curseforge.com/minecraft/mc-mods/light-overlay): This mod provides users with a NEI-like light overlay.
-- **Might not be added** - [Xaeros Minimap & World Map - Waystone Compatibility](https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap-world-map-waystones-compability): This mod is a sucesor of Waystones2Waypoints which creates a Waypoint in the Xaero's World Map and Xaero's Minimap when the player actives a Waystone
-- **Might not be added** - [Waystones](https://www.curseforge.com/minecraft/mc-mods/waystones): This mod adds waystone blocks that the player can return to once they've been activated, either through a Warp Scroll, a rechargeable Warp Stone, or by using an existing waystone to hop from one to the other.
 - [MonoLib](https://www.curseforge.com/minecraft/mc-mods/monolib): MonoLib is the cornerstone library mod for mods created by Jason13, designed to enhance the development of other mods by offering an array of additional functionalities and streamlined methods for interaction with the Minecraft environment.
 - [Dis-Enchanting Table](https://www.curseforge.com/minecraft/mc-mods/dis-enchanting-table): This mod incorporates a new workbench, through which players will have the possibility of recovering enchantments from enchanted objects or books.
 - [Integrated Cataclysm](https://www.curseforge.com/minecraft/mc-mods/integrated-cataclysm): Integrated Cataclysm is the fourth mod in the Integrated Structures series. Not only does it completely overhaul L_Ender's Cataclysm structures with tons of heavily detailed dungeons to explore, but it integrates Supplementaries/Quark decorations and Create mod doors, puzzles, traps.
@@ -37,7 +36,6 @@ Coming Soon
 - **Disenchanting Table**: Changed Recipe to use Apotheosis Enchanting
 - **FTB**: Added in new titles and screenshots for quest work
 - **Molten Molding**: Updated recipes for many molten mixing to mold recipes to remove possibility of duping
-- **Waystones**: Updated recipes to use Create items/mechanics; removed old recipes, including Sharestone variants. Renamed Waystone assets.
 - **Molten Vents**: Made non-movable to encourage CarryOn. Replaced Sculk Grime Vent with Resonite Vent (new blocks, resources, and recipes).
 - **Create Integration**:
   - Added Create Goggle Curios Slot and Curios Tag for Create Goggles.
