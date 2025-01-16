@@ -60,6 +60,7 @@ The Create - Forge Frontier 2.1.0 update is here! Packed with enhanced quests, e
 - **Carryon**: Blacklisted Sophisticated Storage, Backpacks, and Sacks
 - **Tom's Simple Storage**: Increased Single Dimension Requirement to even out mechanics usage
 - **Sophisticated Storage and Backpacks**: Increased the Range of Magnet Upgrade from 3 to 6, and Advanced Magnet Upgrade from 5 to 12
+- **Supplementaries**: Disabled Simple Mode for Flower Boxes, which now allows all flowers not just tall flowers
 
 ## Mod Updates
 - **Advanced AE**: v1.0.13> v1.1.0
