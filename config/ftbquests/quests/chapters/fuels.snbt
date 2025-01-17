@@ -158,7 +158,7 @@
 			dependencies: ["1BD68DAF7D3BC7EC"]
 			description: [
 				"The Cryo Fuel is later used in automating Echo Shards via a"
-				"{ \"text\": \"Resinite Vent\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"509AE3462D404452\" } }"
+				"{ \"text\": \"Resinite Molten Vent\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"509AE3462D404452\" } }"
 			]
 			id: "51E1682DBF0062D2"
 			rewards: [{
