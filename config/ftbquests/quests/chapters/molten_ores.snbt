@@ -5,60 +5,590 @@
 	group: "72C8A595982548D5"
 	icon: "forge_frontier:molten_iron_bucket"
 	id: "2AEDC0BA93199311"
-	images: [
-		{
-			height: 10.0d
-			image: "ftb:textures/molten_ores_title.png"
-			rotation: 0.0d
-			width: 15.0d
-			x: 0.0d
-			y: -9.5d
-		}
-		{
-			height: 10.0d
-			image: "ftb:textures/coming_soon.png"
-			rotation: 0.0d
-			width: 15.0d
-			x: 0.0d
-			y: 1.0d
-		}
-	]
+	images: [{
+		height: 10.0d
+		image: "ftb:textures/molten_ores_title.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 0.0d
+		y: -9.5d
+	}]
 	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
+			icon: "create:basin"
 			id: "5FCCD7AEB8263F92"
+			shape: "gear"
+			size: 2.0d
 			tasks: [{
-				id: "08B5BE42BDD1660D"
-				item: "forge_frontier:molten_iron_bucket"
-				type: "item"
+				id: "62BB8ACE9B8C8C0F"
+				title: "Check"
+				type: "checkmark"
 			}]
+			title: "Molten Ores"
 			x: 0.0d
-			y: -6.5d
+			y: -6.0d
 		}
 		{
-			dependencies: ["753B9FEC027088ED"]
-			id: "05F146E831A64370"
-			subtitle: "Obtained by superheated mixing the below ingredients"
+			id: "2FEDAD0C950BF170"
 			tasks: [{
-				id: "27A21E99CF25980D"
-				item: "forge_frontier:molten_iron_bucket"
+				id: "6D349F43059E2376"
+				item: "forge_frontier:molten_aluminum_bucket"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -4.5d
+			x: -16.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["0A4C2780B6C139D7"]
-			id: "753B9FEC027088ED"
+			id: "7556F3BDB09640DD"
 			tasks: [{
-				count: 5L
-				id: "3908429083EC3AC6"
-				item: { Count: 5, id: "minecraft:raw_iron" }
+				id: "1FA854E88C630D96"
+				item: "forge_frontier:molten_amber_bucket"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 0.0d
+		}
+		{
+			id: "6EF20DC234C2C4D0"
+			tasks: [{
+				id: "6CFBD9F2315AF994"
+				item: "forge_frontier:molten_ancient_debris_bucket"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 0.0d
+		}
+		{
+			id: "6EFF57C4901AE309"
+			tasks: [{
+				id: "602A59C7AC21A56F"
+				item: "forge_frontier:molten_azure_neodymium_bucket"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 0.0d
+		}
+		{
+			id: "095DE86E06FB8BAC"
+			tasks: [{
+				id: "14DDB9DE69C3B7F9"
+				item: "forge_frontier:molten_bismuth_bucket"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 0.0d
+		}
+		{
+			id: "73C12D9D919EF4DC"
+			tasks: [{
+				id: "1C1885B0EB9613CB"
+				item: "forge_frontier:molten_bone_marrow_bucket"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 0.0d
+		}
+		{
+			id: "64A026A11DACC5CC"
+			tasks: [{
+				id: "1AEFD5E9B83E5B97"
+				item: "forge_frontier:molten_brass_bucket"
+				type: "item"
+			}]
+			x: -19.0d
+			y: 0.0d
+		}
+		{
+			id: "5E0683D8DE39361A"
+			tasks: [{
+				id: "0EC1775E48A50825"
+				item: "forge_frontier:molten_bronze_bucket"
+				type: "item"
+			}]
+			x: -17.5d
+			y: 0.0d
+		}
+		{
+			id: "5448E8F69339B7C0"
+			tasks: [{
+				id: "5F9122B5069EA284"
+				item: "forge_frontier:molten_calorite_bucket"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			id: "0FCD653C135B60CF"
+			tasks: [{
+				id: "3B00DA4E6A909E11"
+				item: "forge_frontier:molten_carbon_bucket"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			id: "412AF515E7573976"
+			tasks: [{
+				id: "4EE71E545D0DA11C"
+				item: "forge_frontier:molten_copper_bucket"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			id: "4E51817306F04A08"
+			tasks: [{
+				id: "549468D072A79372"
+				item: "forge_frontier:molten_diamond_bucket"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			id: "57889B6B409C503A"
+			tasks: [{
+				id: "265D30AA35EC630B"
+				item: "forge_frontier:molten_desh_bucket"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			id: "560E55C328715389"
+			tasks: [{
+				id: "45098120B2E8A419"
+				item: "forge_frontier:molten_echo_shard_bucket"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			id: "238F353283919C11"
+			tasks: [{
+				id: "79AD40EC7D58335B"
+				item: "forge_frontier:molten_emerald_bucket"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			id: "7D1470C3FDDE5D36"
+			tasks: [{
+				id: "3264B85CE771D64E"
+				item: "forge_frontier:molten_gold_bucket"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "11DD7B0FD46BC57A"
+			tasks: [{
+				id: "5FA9E55C9AAFF4F4"
+				item: "forge_frontier:molten_guano_bucket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "46C966D094CD4A42"
+			tasks: [{
+				id: "77BA3F66BDB75601"
+				item: "forge_frontier:molten_ice_shard_bucket"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			id: "37D6F3D381609844"
+			tasks: [{
+				id: "5E3A2E6177F6E411"
+				item: "forge_frontier:molten_irradium_bucket"
 				type: "item"
 			}]
 			x: 0.0d
-			y: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "233F17E0D1E4546C"
+			tasks: [{
+				id: "3D1B975420B73AA9"
+				item: "forge_frontier:molten_lapis_bucket"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "781D34119AC7D0AA"
+			tasks: [{
+				id: "07F94702FEFEECC3"
+				item: "forge_frontier:molten_lead_bucket"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "478EE0749544CA98"
+			tasks: [{
+				id: "495B5D6813287522"
+				item: "forge_frontier:molten_malachite_bucket"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "2C47229A1E34AFB6"
+			tasks: [{
+				id: "24F9A5718817516D"
+				item: "forge_frontier:molten_netherite_bucket"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "61D653418DA206DB"
+			tasks: [{
+				id: "5F8D15BBBD4D9A5E"
+				item: "forge_frontier:molten_netherite_diamond_bucket"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			id: "6BBE1989A59A476A"
+			tasks: [{
+				id: "4E72347FD7865EBA"
+				item: "forge_frontier:molten_netherite_emerald_bucket"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			id: "02DA084CA39FF603"
+			tasks: [{
+				id: "3DE15582046023E3"
+				item: "forge_frontier:molten_netherite_iron_bucket"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			id: "77179F3DBE25137A"
+			tasks: [{
+				id: "47C768DE64110126"
+				item: "forge_frontier:molten_netherite_gold_bucket"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "4184B410D8A9DE54"
+			tasks: [{
+				id: "5CB3511B5E5429FB"
+				item: "forge_frontier:molten_ostrum_bucket"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			id: "30A3B9AF34167134"
+			tasks: [{
+				id: "31D8DD0E45984977"
+				item: "forge_frontier:molten_pearl_bucket"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			id: "79C876D1D7669358"
+			tasks: [{
+				id: "3F52990CA68D96CE"
+				item: "forge_frontier:molten_quartz_bucket"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			id: "57265501C0F7789E"
+			tasks: [{
+				id: "3C29C94FF880DAF9"
+				item: "forge_frontier:molten_redstone_bucket"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			id: "614765CD8B35CD0C"
+			tasks: [{
+				id: "2DD9458A42C39138"
+				item: "forge_frontier:molten_scarlet_neodymium_bucket"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			id: "01F704601CCC5DEC"
+			tasks: [{
+				id: "123AB84310DA1226"
+				item: "forge_frontier:molten_steel_bucket"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			id: "567E18B10C471C0C"
+			tasks: [{
+				id: "6E8CC88564120E52"
+				item: "forge_frontier:molten_sulfur_bucket"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			id: "78947682B098CC89"
+			tasks: [{
+				id: "4359099DAFEC81E0"
+				item: "forge_frontier:molten_tin_bucket"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			id: "56CA2E6F559FD30F"
+			tasks: [{
+				id: "74C0F501B9A6F464"
+				item: "forge_frontier:molten_uranium_bucket"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 0.0d
+		}
+		{
+			id: "277C3AEED7AFD7C7"
+			tasks: [{
+				id: "744F8E7EC8A7F5C6"
+				item: "forge_frontier:molten_zinc_bucket"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			id: "1928AA3224BE20CA"
+			tasks: [{
+				id: "009808530394D76F"
+				item: "create:crushed_raw_aluminum"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 1.5d
+		}
+		{
+			id: "31210DAB54989441"
+			tasks: [{
+				id: "5A5D6158FB3A5FD6"
+				item: "forge_frontier:crushed_amberlite"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 1.5d
+		}
+		{
+			id: "1BBAAA07D9A3CE55"
+			tasks: [{
+				id: "471FB61AA50E3A19"
+				item: "forge_frontier:crushed_debris"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 1.5d
+		}
+		{
+			id: "6676D912D3E4B215"
+			tasks: [{
+				id: "69DC2F387FD62E87"
+				item: "forge_frontier:crushed_azurnium"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 1.5d
+		}
+		{
+			id: "259DD6321F27EEC0"
+			tasks: [{
+				id: "6458A521E641AE77"
+				item: "forge_frontier:crushed_bismuth"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 1.5d
+		}
+		{
+			id: "0E00F0E741065613"
+			tasks: [{
+				id: "4D78588C4A99E35C"
+				item: "minecraft:bone"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 1.5d
+		}
+		{
+			id: "1343C467E1EAA0D4"
+			tasks: [{
+				id: "17C9636CA877904F"
+				item: "forge_frontier:crushed_calorite"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 1.5d
+		}
+		{
+			id: "04541D94238E823A"
+			tasks: [{
+				id: "15FA0F725D4C2A74"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 1.5d
+		}
+		{
+			id: "4E5D520ECB31961D"
+			tasks: [{
+				id: "6C0A99EB833DBA73"
+				item: "create:crushed_raw_copper"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.5d
+		}
+		{
+			id: "6AB5A8A412E56EA7"
+			tasks: [{
+				id: "0EB316A28BF7B96A"
+				item: "forge_frontier:crushed_glacium"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			id: "11E973DF37E30E40"
+			tasks: [{
+				id: "061A28E3F707C15E"
+				item: "forge_frontier:crushed_desh"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			id: "747F817A942D5E09"
+			tasks: [{
+				id: "27D97C162B3A59C1"
+				item: "forge_frontier:crushed_resonite"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			id: "00D8865ACAB08C62"
+			tasks: [{
+				id: "546F5B0B23C7F9D6"
+				item: "forge_frontier:crushed_verdantine"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			id: "33B97D97C1263D14"
+			tasks: [{
+				id: "2E3E8F6EEA0831BE"
+				item: "create:crushed_raw_gold"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			id: "150F1EB90D71E450"
+			tasks: [{
+				id: "7BE5D583F43CAAB8"
+				item: "forge_frontier:crushed_guanite"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			id: "63C091E5565C6C2E"
+			tasks: [{
+				id: "432036F9B09DB2E9"
+				item: "forge_frontier:crushed_frostite"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			id: "55E41CB11F5AA5F9"
+			tasks: [{
+				id: "6811A84822D2A07C"
+				item: "forge_frontier:crushed_irradium"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "1DA9CD6D8F15EFBC"
+			tasks: [{
+				id: "2FFE0D5BD78D7336"
+				item: "minecraft:lapis_lazuli"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			id: "664936DD50A00B49"
+			tasks: [{
+				id: "55AE63447C8CAB73"
+				item: "create:crushed_raw_lead"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
 		}
 	]
 	title: "Molten Ores"
