@@ -57,6 +57,7 @@ The Create - Forge Frontier 2.1.0 update is here! Packed with enhanced quests, e
 - **Biome Modifiers**: Moved Veridium Vents to Overworld and Crimsite Vents to Plains tags.
 
 ## Config Updates
+- **Create Crafts & Additions**: Increased Motor Min Consumption, and Lowered Generator Efficiency
 - **Carryon**: Blacklisted Sophisticated Storage, Backpacks, and Sacks
 - **Tom's Simple Storage**: Increased Single Dimension Requirement to even out mechanics usage
 - **Sophisticated Storage and Backpacks**: Increased the Range of Magnet Upgrade from 3 to 6, and Advanced Magnet Upgrade from 5 to 12
