@@ -65,22 +65,26 @@ The Create - Forge Frontier 2.1.0 update is here! Packed with enhanced quests, e
 ## Mod Updates
 - **Advanced AE**: v1.0.13> v1.1.0
 - **Ad Astra Delight**: v1.1.0 > v1.1.1
+- **AE2**: v15.3.2 > v15.3.3
 - **AE Delight**: v1.0.4 > v1.0.4.1
 - **Alex's Caves Delight**: v1.0.23 > v1.0.24
 - **Apotheosis**: v7.4.3 > 7.4.4
 - **Balm**: v7.3.10 > v7.3.11
 - **Connectivity**: v6.3 > v6.5
+- **Create Contraption Terminals**: v1.0.1 > v1.1.0 
 - **Create Crafts and Additions**: v1.2.4e > v1.2.5
 - **Create Stuff and Additions**: v2.0.5 > v2.0.6
 - **Curios**: v5.11.0 > v5.11.1
 - **Delightful**: v3.6.1 > v3.6.2
 - **EMI**: v1.1.18 > v1.1.19
 - **Every Compat**: v2.7.10 > v2.7.11
+- **Extended AE**: v1.3.2 > v1.3.3
 - **Fast Async**: v2.1 > v2.3
 - **FTB Library**: v2001.2.6 > v2001.2.7
 - **Fusion**: v1.1.1 > v1.2.2
 - **Guard Villagers**: v1.6.9 > v1.6.10
 - **Immersive Aircraft**: v1.1.7 > v1.1.8
+- **Integrated Stronghold**: v1.1.1 > v1.1.2
 - **JEI**: v15.20.0.105 > v15.20.0.106
 - **Lithostitched**: v1.3.10 > v1.4
 - **Moonlight**: v2.13.45 > v2.13.49
@@ -90,10 +94,11 @@ The Create - Forge Frontier 2.1.0 update is here! Packed with enhanced quests, e
 - **Recipe Essentials**: v3.6 > v3.9
 - **Respawning Structures**: v3.3 > v3.5
 - **Smoothchunk**: v3.8 > v3.9
-- **Sophisticated Backpacks**: v3.21.2.1163 > v3.22.0.1167
-- **Sophisticated Core**: v1.0.6.824 > v1.1.1.835
-- **Sophisticated Storage**: v1.0.7.1000 > v1.1.0.1021
+- **Sophisticated Backpacks**: v3.21.2.1163 > v3.22.0.1172
+- **Sophisticated Core**: v1.0.6.824 > v1.1.1.837
+- **Sophisticated Storage**: v1.0.7.1000 > v1.1.0.1036
 - **Structure Credits**: v1.7 > v2.2
+- **Toms Simple Storage**: v1.6.9 > v1.7.0
 
 ## Drippy Loading Screen Updates
 - Updated version number to 2.1.0
