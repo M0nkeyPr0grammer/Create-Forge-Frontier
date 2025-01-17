@@ -244,13 +244,18 @@
 			subtitle: "Molten Vents: A New Era of Resource Generation, Click me for more info!"
 			tasks: [
 				{
-					id: "5849A86B6B0820DF"
-					item: "create:zinc_ingot"
+					id: "77168E2D646C1F11"
+					item: "minecraft:copper_ingot"
 					type: "item"
 				}
 				{
-					id: "77168E2D646C1F11"
-					item: "minecraft:copper_ingot"
+					id: "1897B3BF3A210851"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "50CB0982BC4BF504"
+					item: "create:zinc_ingot"
 					type: "item"
 				}
 			]
@@ -308,11 +313,6 @@
 					timer: 0L
 					to_observe: "molten_vents:active_molten_crimsite"
 					type: "observation"
-				}
-				{
-					id: "0C4AB629145BBEFA"
-					title: "Check"
-					type: "checkmark"
 				}
 				{
 					id: "532E28D4A1EEDC46"
@@ -403,11 +403,6 @@
 					timer: 0L
 					to_observe: "molten_vents:active_molten_ochrum"
 					type: "observation"
-				}
-				{
-					id: "041563C8988DBB87"
-					title: "Check"
-					type: "checkmark"
 				}
 				{
 					id: "068E20D9D7EC5C91"
@@ -515,11 +510,6 @@
 					type: "observation"
 				}
 				{
-					id: "44B0DF1ADDE58193"
-					title: "Check"
-					type: "checkmark"
-				}
-				{
 					id: "2E5C0AB045760243"
 					item: "create_dd:cream_bucket"
 					type: "item"
@@ -609,11 +599,6 @@
 					type: "observation"
 				}
 				{
-					id: "4DD8E99AFB478F52"
-					title: "Check"
-					type: "checkmark"
-				}
-				{
 					id: "2B435641613A9242"
 					item: "create_dd:caramel_milkshake_bucket"
 					type: "item"
@@ -701,11 +686,6 @@
 					timer: 0L
 					to_observe: "molten_vents:active_molten_potassic"
 					type: "observation"
-				}
-				{
-					id: "456D3DED4BD537A6"
-					title: "Check"
-					type: "checkmark"
 				}
 				{
 					id: "59B57A0B35F87DC3"
@@ -813,11 +793,6 @@
 					type: "observation"
 				}
 				{
-					id: "147539492796CD78"
-					title: "Check"
-					type: "checkmark"
-				}
-				{
 					id: "579D3097664441A4"
 					item: "create_confectionery:white_chocolate_bucket"
 					type: "item"
@@ -907,11 +882,6 @@
 					type: "observation"
 				}
 				{
-					id: "2E6F177C9A866BE9"
-					title: "Check"
-					type: "checkmark"
-				}
-				{
 					id: "44F6CBA3EE71F59A"
 					item: "create_confectionery:black_chocolate_bucket"
 					type: "item"
@@ -999,11 +969,6 @@
 					timer: 0L
 					to_observe: "molten_vents:active_molten_scoria"
 					type: "observation"
-				}
-				{
-					id: "1F9286C967EE2FF1"
-					title: "Check"
-					type: "checkmark"
 				}
 				{
 					id: "77F6FFE5FC67F781"
@@ -1104,11 +1069,6 @@
 					timer: 0L
 					to_observe: "molten_vents:active_molten_scorchia"
 					type: "observation"
-				}
-				{
-					id: "5798F441CEF6351D"
-					title: "Check"
-					type: "checkmark"
 				}
 				{
 					id: "64CD6F20C416B3AB"
@@ -1216,9 +1176,9 @@
 					type: "observation"
 				}
 				{
-					id: "7E0085AB832C0F0D"
-					title: "Check"
-					type: "checkmark"
+					id: "44A8D7CB83F29513"
+					item: "createaddition:bioethanol_bucket"
+					type: "item"
 				}
 			]
 			title: "Observe an Active Ancient Debris Vent"
@@ -1331,9 +1291,9 @@
 					type: "observation"
 				}
 				{
-					id: "732945088836E83E"
-					title: "Check"
-					type: "checkmark"
+					id: "3F590DC8D91FA10D"
+					item: "ad_astra:cryo_fuel_bucket"
+					type: "item"
 				}
 			]
 			title: "Observe an Active Resonite Vent"
@@ -1437,9 +1397,9 @@
 					type: "observation"
 				}
 				{
-					id: "5191ED2F9E947B3B"
-					title: "Check"
-					type: "checkmark"
+					id: "23DFBE28A817BBC4"
+					item: "createdieselgenerators:plant_oil_bucket"
+					type: "item"
 				}
 			]
 			title: "Observe an Active Aubrum Vent"
@@ -1542,9 +1502,9 @@
 					type: "observation"
 				}
 				{
-					id: "3663F4179207CE74"
-					title: "Check"
-					type: "checkmark"
+					id: "40CC44C3898B9C85"
+					item: "createdieselgenerators:ethanol_bucket"
+					type: "item"
 				}
 			]
 			title: "Observe an Active Stellaris Vent"
@@ -1647,9 +1607,9 @@
 					type: "observation"
 				}
 				{
-					id: "6F72D97B989C92C8"
-					title: "Check"
-					type: "checkmark"
+					id: "7C96E2A93185C1B9"
+					item: "createdieselgenerators:biodiesel_bucket"
+					type: "item"
 				}
 			]
 			title: "Observe an Active Pyroclast Vent"
@@ -1724,7 +1684,10 @@
 		}
 		{
 			dependencies: ["350F1E84CF8BB524"]
-			description: ["In Order to generate Frostite you will need a source block of Water"]
+			description: [
+				"In Order to generate Frostite you will need a source block of   "
+				"{ \"text\": \"Water\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"21F9AC15E29F0D6C\" } }"
+			]
 			icon: "molten_vents:active_molten_frostite"
 			id: "7C071BD93B73B9E9"
 			rewards: [
@@ -1749,9 +1712,9 @@
 					type: "observation"
 				}
 				{
-					id: "432F3D8953442F9C"
-					title: "Check"
-					type: "checkmark"
+					id: "6D4E6CBF0FC9A182"
+					item: "minecraft:water_bucket"
+					type: "item"
 				}
 			]
 			title: "Observe an Active Frostite Vent"
@@ -1838,9 +1801,9 @@
 					type: "observation"
 				}
 				{
-					id: "43C5FF43E6FB4129"
-					title: "Check"
-					type: "checkmark"
+					id: "5A5646CE930A9C29"
+					item: "create_confectionery:ruby_chocolate_bucket"
+					type: "item"
 				}
 			]
 			title: "Observe an Active Radiantite Vent"
@@ -1943,9 +1906,9 @@
 					type: "observation"
 				}
 				{
-					id: "185712DDE2420C7B"
-					title: "Check"
-					type: "checkmark"
+					id: "65D332AF70AF50F3"
+					item: "create_confectionery:ruby_chocolate_bucket"
+					type: "item"
 				}
 			]
 			title: "Observe an Active Void Shale Vent"
@@ -2032,9 +1995,9 @@
 					type: "observation"
 				}
 				{
-					id: "33D60D3A44B686EE"
-					title: "Check"
-					type: "checkmark"
+					id: "39ECAB339982D9C1"
+					item: "create_confectionery:ruby_chocolate_bucket"
+					type: "item"
 				}
 			]
 			title: "Observe an Active Palerock Vent"
@@ -2093,7 +2056,10 @@
 		}
 		{
 			dependencies: ["6AE156D8DE1D619A"]
-			description: ["In Order to generate Pearlyte you will need a source block of Water"]
+			description: [
+				"In Order to generate Pearlyte you will need a source block of    "
+				"{ \"text\": \"Water\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"21F9AC15E29F0D6C\" } }"
+			]
 			icon: "molten_vents:active_molten_pearlyte"
 			id: "7A93C8B2FBEAE376"
 			rewards: [
@@ -2109,13 +2075,20 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "69EDE13D94B7F100"
-				observe_type: 0
-				timer: 0L
-				to_observe: "molten_vents:active_molten_pearlyte"
-				type: "observation"
-			}]
+			tasks: [
+				{
+					id: "69EDE13D94B7F100"
+					observe_type: 0
+					timer: 0L
+					to_observe: "molten_vents:active_molten_pearlyte"
+					type: "observation"
+				}
+				{
+					id: "1F0087FB07FBAB90"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+			]
 			title: "Observe an Active Pearlyte Vent"
 			x: 9.0d
 			y: 4.5d
@@ -2188,7 +2161,10 @@
 		}
 		{
 			dependencies: ["2589CF5251858E63"]
-			description: ["In Order to generate Amberlite you will need a source block of Honey"]
+			description: [
+				"In Order to generate Amberlite you will need a source block of     "
+				"{ \"text\": \"Honey\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5DE53E1FE2154194\" } }"
+			]
 			icon: "molten_vents:active_molten_aubrum"
 			id: "6950232D17577FEC"
 			rewards: [
@@ -2213,9 +2189,9 @@
 					type: "observation"
 				}
 				{
-					id: "079BB4830BDCA83A"
-					title: "Check"
-					type: "checkmark"
+					id: "0918CA695419F522"
+					item: "create:honey_bucket"
+					type: "item"
 				}
 			]
 			title: "Observe an Active Amberlite Vent"
@@ -2274,7 +2250,10 @@
 		}
 		{
 			dependencies: ["229D3F7596608800"]
-			description: ["In Order to generate Guanite you will need a source block of Liquid Fertilizer"]
+			description: [
+				"In Order to generate Guanite you will need a source block of     "
+				"{ \"text\": \"Liquid Fertilizer\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"21F9AC15E29F0D6C\" } }"
+			]
 			icon: "molten_vents:active_molten_guanite"
 			id: "3E22E4007D8C1979"
 			rewards: [
@@ -2299,9 +2278,9 @@
 					type: "observation"
 				}
 				{
-					id: "3868E6FCFFEC723A"
-					title: "Check"
-					type: "checkmark"
+					id: "52287A06A9D6EE0E"
+					item: "sliceanddice:fertilizer_bucket"
+					type: "item"
 				}
 			]
 			title: "Observe an Active Guanite Vent"
@@ -2360,7 +2339,10 @@
 		}
 		{
 			dependencies: ["70DF75B6AEEF8D39"]
-			description: ["In Order to generate Uraniumnite you will need a source block of Acid"]
+			description: [
+				"In Order to generate Uraniumnite you will need a source block of     "
+				"{ \"text\": \"Acid\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"79182D6BE9E5DE0D\" } }"
+			]
 			icon: "molten_vents:active_molten_uraniumnite"
 			id: "29FE8FE2DE79D7EB"
 			rewards: [
@@ -2385,9 +2367,9 @@
 					type: "observation"
 				}
 				{
-					id: "53E9D00E7B3A8358"
-					title: "Check"
-					type: "checkmark"
+					id: "4CB34A0C8DE5F465"
+					item: "alexscaves:acid_bucket"
+					type: "item"
 				}
 			]
 			title: "Observe an Active Uraniumnite Vent"
@@ -2446,7 +2428,10 @@
 		}
 		{
 			dependencies: ["19D60673B8DCB77D"]
-			description: ["In Order to generate Sulphite you will need a source block of Acid"]
+			description: [
+				"In Order to generate Sulphite you will need a source block of     "
+				"{ \"text\": \"Acid\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"79182D6BE9E5DE0D\" } }"
+			]
 			icon: "molten_vents:active_molten_sulphite"
 			id: "5D438DEA0BB292B8"
 			rewards: [
@@ -2471,9 +2456,9 @@
 					type: "observation"
 				}
 				{
-					id: "1DE1BFC9A6770761"
-					title: "Check"
-					type: "checkmark"
+					id: "16AAB8403800A831"
+					item: "alexscaves:acid_bucket"
+					type: "item"
 				}
 			]
 			title: "Observe an Active Sulphite Vent"
@@ -2557,9 +2542,9 @@
 					type: "observation"
 				}
 				{
-					id: "2A0041379BFC6E1F"
-					title: "Check"
-					type: "checkmark"
+					id: "2EFA07CC2494FAF0"
+					item: "forge_frontier:molten_iron_bucket"
+					type: "item"
 				}
 			]
 			title: "Observe an Active Neodyrium Vent"
@@ -2643,9 +2628,9 @@
 					type: "observation"
 				}
 				{
-					id: "301914F523F0039E"
-					title: "Check"
-					type: "checkmark"
+					id: "2A3CF9337502EC11"
+					item: "forge_frontier:molten_iron_bucket"
+					type: "item"
 				}
 			]
 			title: "Observe an Active Azurnium Vent"
