@@ -2518,7 +2518,10 @@
 		}
 		{
 			dependencies: ["08A5AEA1CB0268D8"]
-			description: ["In Order to generate Neodyrium you will need a source block of Molten Iron"]
+			description: [
+				"In Order to generate Neodyrium you will need a source block of      "
+				"{ \"text\": \"Molten Iron\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6D5E294ADE3522C1\" } }"
+			]
 			icon: "molten_vents:active_molten_neodymrium"
 			id: "0A4C2780B6C139D7"
 			rewards: [
@@ -2604,7 +2607,10 @@
 		}
 		{
 			dependencies: ["1F8D8293900A159B"]
-			description: ["In Order to generate Azurnium you will need a source block of Molten Iron"]
+			description: [
+				"In Order to generate Azurnium you will need a source block of       "
+				"{ \"text\": \"Molten Iron\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6D5E294ADE3522C1\" } }"
+			]
 			icon: "molten_vents:active_molten_azurnium"
 			id: "171FB4C4C4584414"
 			rewards: [
