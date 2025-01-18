@@ -6,6 +6,7 @@
 The Create - Forge Frontier 2.1.0 update is here! Packed with enhanced quests, exciting new mods like Create: Halitosis and Integrated Cataclysm, and major recipe overhauls, this update refines every aspect of your adventure. Explore revamped Molten Vents, unlock new crafting possibilities, and enjoy a smoother, more immersive gameplay experience. With updates spanning from enhanced mods to innovative mechanics, your journey through the Forge Frontier just got even better. Update now and take your gameplay to the next level!
 
 ### As a standard safety protocol, we advise creating a backup of your saved data prior to updating the modification package to ensure the preservation of your progress.
+
 ## Mod Additions
 - [Create - Forge Frontier Core](https://www.curseforge.com/minecraft/mc-mods/forge-frontier-core): This mod is intended to provide add features for the Create: Forge Fronteir modpack that are innaccessable without mods. Currently, this mod only disables lava iteractions with Create: Dreams and Desires milkshakes, but several more features are planned such as remaking the Molten Vents system and eventually replacing KubeJS items and blocks.
 - [Create: Halitosis](https://www.curseforge.com/minecraft/mc-mods/create-halitosis-create-halitosis): A small Create addon that permits "enderising" various items by bulk processing them with dragon breath from an encased fan.
@@ -16,6 +17,7 @@ The Create - Forge Frontier 2.1.0 update is here! Packed with enhanced quests, e
 - [Botany Trees](https://www.curseforge.com/minecraft/mc-mods/botany-trees): This mod is an addon for Botany Pots. With this addon you will be able to grow trees from Vanilla and several other mods inside of the Botany Pot. This can be done for decoration or as a mini wood farm.
 - [Acedium](https://github.com/ferriarnus/acedium/tree/1.20.1-neoforge?tab=License-1-ov-file): Acedium is a (neo)forge port of Nvidium. Nvidium is an alternate rendering backing for sodium, it uses cutting edge nvidia features to render huge amounts of terrain geometry at very playable framerates.
 - [FreeCam by Zergatul](https://www.curseforge.com/minecraft/mc-mods/freecam-by-zergatul): This mod allows you to control your camera separately from your player. While it is enabled, you can fly around and travel through blocks within your render distance.
+
 ## Mod Removal
 - Respawning Structures: Crazy Bug that caused structures to reset while players are inside the structure
 - Freecam: Replaced with FreeCam by Zergatul
@@ -32,6 +34,7 @@ The Create - Forge Frontier 2.1.0 update is here! Packed with enhanced quests, e
 - **Molten Ores**: Completed Quests
 - **Other Liquids**: Completed Quests
 - **Molten Mixing**: New Chapter
+
 ## KubeJS Updates
 - **Dreams & Desires**: Remove Fluid/Lava Interaction Ponders, to remove confusion
 - **Farmers Delight**: Created Rich Soil Create Compat Mixing Recipe
@@ -65,6 +68,7 @@ The Create - Forge Frontier 2.1.0 update is here! Packed with enhanced quests, e
 - **Tom's Simple Storage**: Increased Single Dimension Requirement to even out mechanics usage
 - **Sophisticated Storage and Backpacks**: Increased the Range of Magnet Upgrade from 3 to 6, and Advanced Magnet Upgrade from 5 to 12
 - **Supplementaries**: Disabled Simple Mode for Flower Boxes, which now allows all flowers not just tall flowers
+- **Quark**: Disabled Hotbar Swapper, and enabled Adjustable Chat
 
 ## Mod Updates
 - **Advanced AE**: v1.0.13> v1.1.0

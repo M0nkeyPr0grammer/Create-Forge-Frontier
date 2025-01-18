@@ -285,7 +285,7 @@
 	"Automatic Tool Restock" = true
 	"Easy Transfering" = true
 	"Expanded Item Interactions" = true
-	"Hotbar Changer" = true
+	"Hotbar Changer" = false
 	"Inventory Sorting" = true
 	"Item Sharing" = true
 	"Quick Armor Swapping" = true
@@ -1664,7 +1664,7 @@
 		"Shiny Sparkles" = true
 
 [experimental]
-	"Adjustable Chat" = false
+	"Adjustable Chat" = true
 	"Climate Control Remover" = false
 	#This feature generates Resource Pack Item Model predicates on the items defined in 'Items to Change'
 	#for the Enchantments defined in 'Enchantments to Register'.
