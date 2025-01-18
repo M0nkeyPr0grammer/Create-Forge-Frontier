@@ -232,6 +232,7 @@
 				""
 				"Dive into the world of Molten Vents and elevate your resource management to new heights!"
 			]
+			hide_dependent_lines: true
 			icon: "molten_vents:active_molten_asurine"
 			id: "7AC47553B491EE76"
 			rewards: [{
