@@ -59,6 +59,11 @@
 			hide_dependent_lines: true
 			icon: "minecraft:bucket"
 			id: "4E3A3607610EA399"
+			rewards: [{
+				id: "222BA360D8C5442F"
+				type: "xp"
+				xp: 25
+			}]
 			shape: "gear"
 			size: 2.0d
 			subtitle: "Liquids of the other variety, are the key to resources, Click me for more info!"
