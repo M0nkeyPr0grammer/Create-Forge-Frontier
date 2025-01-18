@@ -33,7 +33,7 @@ The Create - Forge Frontier 2.1.0 update is here! Packed with enhanced quests, e
 - **Rockets**: Linked with Liquid Fuels Chapter
 - **Molten Ores**: Completed Quests
 - **Other Liquids**: Completed Quests
-- **Molten Mixing**: New Chapter
+- **Molten Mixing**: Started Quests, will complete later
 
 ## KubeJS Updates
 - **Dreams & Desires**: Remove Fluid/Lava Interaction Ponders, to remove confusion
