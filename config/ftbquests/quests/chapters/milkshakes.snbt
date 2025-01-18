@@ -93,14 +93,6 @@
 			y: 0.5d
 		}
 		{
-			height: 2.5d
-			image: "ftb:textures/blaze_burner_heated.png"
-			rotation: 0.0d
-			width: 2.4d
-			x: 0.0d
-			y: 4.0d
-		}
-		{
 			height: 1.0d
 			image: "ad_astra:textures/gui/sprites/arrow.png"
 			rotation: 180.0d

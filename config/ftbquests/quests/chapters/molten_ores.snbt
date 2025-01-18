@@ -20,8 +20,8 @@
 			order: 2
 			rotation: 0.0d
 			width: 3.0d
-			x: -0.05d
-			y: 0.0d
+			x: 0.0d
+			y: -0.5d
 		}
 		{
 			height: 2.5d
@@ -129,8 +129,8 @@
 			order: 2
 			rotation: 0.0d
 			width: 3.0d
-			x: -0.05000000000000071d
-			y: 11.5d
+			x: 0.0d
+			y: 11.0d
 		}
 	]
 	order_index: 5

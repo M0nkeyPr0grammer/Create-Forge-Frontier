@@ -19,7 +19,7 @@
 			image: "ftbchunks:textures/faces/minecraft/bee.png"
 			rotation: 0.0d
 			width: 2.0d
-			x: -6.5d
+			x: -7.5d
 			y: -2.0d
 		}
 		{
@@ -27,7 +27,7 @@
 			image: "minecraft:item/bone_meal"
 			rotation: 0.0d
 			width: 2.5d
-			x: -2.0d
+			x: 4.0d
 			y: -2.0d
 		}
 		{
@@ -35,7 +35,7 @@
 			image: "alexscavesdelight:item/acid_pasta"
 			rotation: 0.0d
 			width: 2.5d
-			x: 2.0d
+			x: -3.5d
 			y: -2.0d
 		}
 		{
@@ -43,8 +43,67 @@
 			image: "minecraft:textures/mob_effect/water_breathing.png"
 			rotation: 0.0d
 			width: 2.0d
-			x: 5.0d
+			x: 7.0d
 			y: -2.0d
+		}
+		{
+			height: 2.5d
+			image: "ftb:textures/mechanical_mixer.png"
+			order: 1
+			rotation: 0.0d
+			width: 2.5d
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			height: 2.5d
+			image: "ftb:textures/basin.png"
+			rotation: 0.0d
+			width: 2.5d
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "ad_astra:textures/gui/sprites/arrow.png"
+			rotation: 0.0d
+			width: 1.6666666666666667d
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			height: 2.5d
+			image: "ftb:textures/mechanical_mixer.png"
+			order: 1
+			rotation: 0.0d
+			width: 2.5d
+			x: -12.0d
+			y: -1.5d
+		}
+		{
+			height: 2.5d
+			image: "ftb:textures/basin.png"
+			rotation: 0.0d
+			width: 2.5d
+			x: -12.0d
+			y: 0.5d
+		}
+		{
+			height: 2.5d
+			image: "ftb:textures/blaze_burner_heated.png"
+			order: -1
+			rotation: 0.0d
+			width: 2.4d
+			x: -12.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ad_astra:textures/gui/sprites/arrow.png"
+			rotation: 0.0d
+			width: 1.6666666666666667d
+			x: -10.0d
+			y: 0.0d
 		}
 	]
 	order_index: 4
@@ -97,7 +156,7 @@
 				item: "create:honey_bucket"
 				type: "item"
 			}]
-			x: -6.5d
+			x: -7.5d
 			y: 0.0d
 		}
 		{
@@ -121,7 +180,7 @@
 				item: "sliceanddice:fertilizer_bucket"
 				type: "item"
 			}]
-			x: -2.0d
+			x: 4.0d
 			y: 0.0d
 		}
 		{
@@ -133,7 +192,7 @@
 				item: { Count: 2, id: "create:tree_fertilizer" }
 				type: "item"
 			}]
-			x: -3.0d
+			x: 3.0d
 			y: 1.5d
 		}
 		{
@@ -144,7 +203,7 @@
 				item: "minecraft:water_bucket"
 				type: "item"
 			}]
-			x: -1.0d
+			x: 5.0d
 			y: 1.5d
 		}
 		{
@@ -175,7 +234,7 @@
 				item: "alexscaves:acid_bucket"
 				type: "item"
 			}]
-			x: 2.0d
+			x: -3.5d
 			y: 0.0d
 		}
 		{
@@ -187,7 +246,7 @@
 				item: { Count: 6, id: "alexscaves:sulfur_dust" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: -4.5d
 			y: 1.5d
 		}
 		{
@@ -198,7 +257,7 @@
 				item: "minecraft:water_bucket"
 				type: "item"
 			}]
-			x: 3.0d
+			x: -2.5d
 			y: 1.5d
 		}
 		{
@@ -210,7 +269,7 @@
 				item: { Count: 4, id: "minecraft:sugar" }
 				type: "item"
 			}]
-			x: -8.0d
+			x: -9.0d
 			y: 1.5d
 		}
 		{
@@ -222,7 +281,7 @@
 				item: { Count: 4, id: "minecraft:apple" }
 				type: "item"
 			}]
-			x: -6.5d
+			x: -7.5d
 			y: 1.5d
 		}
 		{
@@ -233,7 +292,7 @@
 				item: "minecraft:water_bucket"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -6.0d
 			y: 1.5d
 		}
 		{
@@ -245,7 +304,7 @@
 				item: { Count: 4, id: "minecraft:sugar_cane" }
 				type: "item"
 			}]
-			x: -8.0d
+			x: -9.0d
 			y: 3.5d
 		}
 		{
@@ -274,7 +333,7 @@
 				item: "minecraft:water_bucket"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 7.0d
 			y: 0.0d
 		}
 	]

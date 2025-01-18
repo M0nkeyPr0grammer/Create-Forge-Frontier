@@ -20,7 +20,7 @@
 			image: "create_confectionery:item/bar_of_white_chocolate"
 			rotation: 0.0d
 			width: 2.5d
-			x: -4.5d
+			x: -7.0d
 			y: -2.0d
 		}
 		{
@@ -29,7 +29,7 @@
 			image: "create_confectionery:item/bar_of_black_chocolate"
 			rotation: 0.0d
 			width: 2.5d
-			x: 0.0d
+			x: -2.5d
 			y: -2.0d
 		}
 		{
@@ -38,7 +38,7 @@
 			image: "farmersdelight:item/hot_cocoa"
 			rotation: 0.0d
 			width: 2.5d
-			x: 9.5d
+			x: 12.5d
 			y: -2.0d
 		}
 		{
@@ -47,7 +47,7 @@
 			image: "create_confectionery:item/bar_of_ruby_chocolate"
 			rotation: 0.0d
 			width: 2.5d
-			x: 5.0d
+			x: 2.0d
 			y: -2.0d
 		}
 		{
@@ -56,8 +56,50 @@
 			image: "create:item/bar_of_chocolate"
 			rotation: 0.0d
 			width: 2.5d
-			x: -8.5d
+			x: -11.0d
 			y: -2.0d
+		}
+		{
+			height: 3.0d
+			image: "ftb:textures/mechanical_mixer.png"
+			order: 2
+			rotation: 0.0d
+			width: 3.0d
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			height: 2.5d
+			image: "ftb:textures/basin.png"
+			order: 1
+			rotation: 0.0d
+			width: 2.5d
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "ad_astra:textures/gui/sprites/arrow.png"
+			rotation: 180.0d
+			width: 1.6666666666666667d
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "ad_astra:textures/gui/sprites/arrow.png"
+			rotation: 0.0d
+			width: 1.6666666666666667d
+			x: 10.0d
+			y: 0.5d
+		}
+		{
+			height: 2.5d
+			image: "ftb:textures/blaze_burner_heated.png"
+			rotation: 0.0d
+			width: 2.4d
+			x: 7.5d
+			y: 3.0d
 		}
 	]
 	order_index: 2
@@ -110,7 +152,7 @@
 				item: "create_confectionery:white_chocolate_bucket"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -7.0d
 			y: 0.0d
 		}
 		{
@@ -123,7 +165,7 @@
 				item: { Count: 4, id: "minecraft:sugar" }
 				type: "item"
 			}]
-			x: -5.5d
+			x: -8.0d
 			y: 1.5d
 		}
 		{
@@ -136,7 +178,7 @@
 				item: { Count: 4, id: "create_confectionery:cocoa_butter" }
 				type: "item"
 			}]
-			x: -4.5d
+			x: -7.0d
 			y: 1.5d
 		}
 		{
@@ -148,7 +190,7 @@
 				item: "minecraft:milk_bucket"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -6.0d
 			y: 1.5d
 		}
 		{
@@ -160,7 +202,7 @@
 				item: { Count: 4, id: "minecraft:sugar_cane" }
 				type: "item"
 			}]
-			x: -5.5d
+			x: -8.0d
 			y: 4.5d
 		}
 		{
@@ -173,7 +215,7 @@
 				item: { Count: 6, id: "create_confectionery:crushed_cocoa" }
 				type: "item"
 			}]
-			x: -4.5d
+			x: -7.0d
 			y: 3.0d
 		}
 		{
@@ -186,7 +228,7 @@
 				item: { Count: 6, id: "minecraft:cocoa_beans" }
 				type: "item"
 			}]
-			x: -4.5d
+			x: -7.0d
 			y: 4.5d
 		}
 		{
@@ -212,7 +254,7 @@
 				item: "create_confectionery:black_chocolate_bucket"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -2.5d
 			y: 0.0d
 		}
 		{
@@ -225,7 +267,7 @@
 				item: { Count: 4, id: "minecraft:sugar" }
 				type: "item"
 			}]
-			x: -1.5d
+			x: -4.0d
 			y: 1.5d
 		}
 		{
@@ -238,7 +280,7 @@
 				item: { Count: 4, id: "create_confectionery:cocoa_butter" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: -3.0d
 			y: 1.5d
 		}
 		{
@@ -250,7 +292,7 @@
 				item: "minecraft:milk_bucket"
 				type: "item"
 			}]
-			x: 1.5d
+			x: -1.0d
 			y: 1.5d
 		}
 		{
@@ -262,7 +304,7 @@
 				item: { Count: 4, id: "minecraft:sugar_cane" }
 				type: "item"
 			}]
-			x: -1.5d
+			x: -4.0d
 			y: 4.5d
 		}
 		{
@@ -275,7 +317,7 @@
 				item: { Count: 6, id: "create_confectionery:crushed_cocoa" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: -3.0d
 			y: 3.0d
 		}
 		{
@@ -288,7 +330,7 @@
 				item: { Count: 14, id: "minecraft:cocoa_beans" }
 				type: "item"
 			}]
-			x: 0.5d
+			x: -2.0d
 			y: 4.5d
 		}
 		{
@@ -309,7 +351,7 @@
 				item: "create_dd:hot_chocolate_bucket"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 12.5d
 			y: 0.0d
 		}
 		{
@@ -325,7 +367,7 @@
 				item: "create:chocolate_bucket"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 12.5d
 			y: 1.5d
 		}
 		{
@@ -338,7 +380,7 @@
 				item: { Count: 4, id: "minecraft:sugar" }
 				type: "item"
 			}]
-			x: 8.5d
+			x: 11.5d
 			y: 3.0d
 		}
 		{
@@ -350,7 +392,7 @@
 				item: "minecraft:milk_bucket"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 12.5d
 			y: 3.0d
 		}
 		{
@@ -363,7 +405,7 @@
 				item: "minecraft:cocoa_beans"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 13.5d
 			y: 3.0d
 		}
 		{
@@ -375,7 +417,7 @@
 				item: { Count: 4, id: "minecraft:sugar_cane" }
 				type: "item"
 			}]
-			x: 8.5d
+			x: 11.5d
 			y: 4.5d
 		}
 		{
@@ -401,7 +443,7 @@
 				item: "create_confectionery:ruby_chocolate_bucket"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 2.0d
 			y: 0.0d
 		}
 		{
@@ -414,7 +456,7 @@
 				item: { Count: 4, id: "minecraft:sugar" }
 				type: "item"
 			}]
-			x: 3.5d
+			x: 0.5d
 			y: 1.5d
 		}
 		{
@@ -426,7 +468,7 @@
 				item: { Count: 4, id: "minecraft:dragon_breath" }
 				type: "item"
 			}]
-			x: 4.5d
+			x: 1.5d
 			y: 1.5d
 		}
 		{
@@ -439,7 +481,7 @@
 				item: { Count: 4, id: "minecraft:cocoa_beans" }
 				type: "item"
 			}]
-			x: 5.5d
+			x: 2.5d
 			y: 1.5d
 		}
 		{
@@ -451,7 +493,7 @@
 				item: "minecraft:milk_bucket"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 3.5d
 			y: 1.5d
 		}
 		{
@@ -463,7 +505,7 @@
 				item: { Count: 4, id: "minecraft:sugar_cane" }
 				type: "item"
 			}]
-			x: 3.5d
+			x: 0.5d
 			y: 4.5d
 		}
 		{
@@ -485,7 +527,7 @@
 				item: "create:chocolate_bucket"
 				type: "item"
 			}]
-			x: -8.5d
+			x: -11.0d
 			y: 0.0d
 		}
 		{
@@ -497,7 +539,7 @@
 				item: "minecraft:sugar"
 				type: "item"
 			}]
-			x: -9.5d
+			x: -12.0d
 			y: 1.5d
 		}
 		{
@@ -509,7 +551,7 @@
 				item: "minecraft:cocoa_beans"
 				type: "item"
 			}]
-			x: -8.5d
+			x: -11.0d
 			y: 1.5d
 		}
 		{
@@ -520,7 +562,7 @@
 				item: "minecraft:milk_bucket"
 				type: "item"
 			}]
-			x: -7.5d
+			x: -10.0d
 			y: 1.5d
 		}
 		{
@@ -532,7 +574,7 @@
 				item: { Count: 4, id: "minecraft:sugar_cane" }
 				type: "item"
 			}]
-			x: -9.5d
+			x: -12.0d
 			y: 4.5d
 		}
 	]
