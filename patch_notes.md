@@ -26,7 +26,7 @@ The Create - Forge Frontier 2.1.0 update is here! Packed with enhanced quests, e
 - **Chocolates**: Completed Quests 
 - **Liquid Fuels**: Completed Quests
 - **Rockets**: Linked with Liquid Fuels Chapter
-- **Molten Ores**: Coming Soon
+- **Molten Ores**: Completed Quests
 - **Other Liquids**: Completed Quests
 - **Molten Mixing**: New Chapter
 ## KubeJS Updates
