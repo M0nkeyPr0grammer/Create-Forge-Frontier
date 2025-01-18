@@ -183,7 +183,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Made by Superheating the below ingredient"
+			subtitle: "Obtained by super-heated mixing the below ingredient"
 			tasks: [{
 				id: "6D349F43059E2376"
 				item: "forge_frontier:molten_aluminum_bucket"
@@ -207,7 +207,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Made by Superheating the below ingredient"
+			subtitle: "Obtained by super-heated mixing the below ingredient"
 			tasks: [{
 				id: "1FA854E88C630D96"
 				item: "forge_frontier:molten_amber_bucket"
@@ -232,7 +232,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Made by Superheating the below ingredient"
+			subtitle: "Obtained by super-heated mixing the below ingredient"
 			tasks: [{
 				id: "6CFBD9F2315AF994"
 				item: "forge_frontier:molten_ancient_debris_bucket"
@@ -256,7 +256,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Made by Superheating the below ingredient"
+			subtitle: "Obtained by super-heated mixing the below ingredient"
 			tasks: [{
 				id: "602A59C7AC21A56F"
 				item: "forge_frontier:molten_azure_neodymium_bucket"
@@ -280,7 +280,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Made by Superheating the below ingredient"
+			subtitle: "Obtained by super-heated mixing the below ingredient"
 			tasks: [{
 				id: "14DDB9DE69C3B7F9"
 				item: "forge_frontier:molten_bismuth_bucket"
@@ -304,7 +304,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Made by Superheating the below ingredient"
+			subtitle: "Obtained by super-heated mixing the below ingredient"
 			tasks: [{
 				id: "1C1885B0EB9613CB"
 				item: "forge_frontier:molten_bone_marrow_bucket"
@@ -331,7 +331,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Made by Superheating the below ingredients"
+			subtitle: "Obtained by super-heated mixing the below ingredient"
 			tasks: [{
 				id: "1AEFD5E9B83E5B97"
 				item: "forge_frontier:molten_brass_bucket"
@@ -359,7 +359,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Made by Superheating the below ingredients"
+			subtitle: "Obtained by super-heated mixing the below ingredient"
 			tasks: [{
 				id: "0EC1775E48A50825"
 				item: "forge_frontier:molten_bronze_bucket"
@@ -383,7 +383,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Made by Superheating the below ingredient"
+			subtitle: "Obtained by super-heated mixing the below ingredient"
 			tasks: [{
 				id: "5F9122B5069EA284"
 				item: "forge_frontier:molten_calorite_bucket"
@@ -407,7 +407,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Made by Superheating the below ingredient"
+			subtitle: "Obtained by super-heated mixing the below ingredient"
 			tasks: [{
 				id: "3B00DA4E6A909E11"
 				item: "forge_frontier:molten_carbon_bucket"
@@ -431,7 +431,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Made by Superheating the below ingredient"
+			subtitle: "Obtained by super-heated mixing the below ingredient"
 			tasks: [{
 				id: "4EE71E545D0DA11C"
 				item: "forge_frontier:molten_copper_bucket"
@@ -455,7 +455,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Made by Superheating the below ingredient"
+			subtitle: "Obtained by super-heated mixing the below ingredient"
 			tasks: [{
 				id: "549468D072A79372"
 				item: "forge_frontier:molten_diamond_bucket"
@@ -479,7 +479,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Made by Superheating the below ingredient"
+			subtitle: "Obtained by super-heated mixing the below ingredient"
 			tasks: [{
 				id: "265D30AA35EC630B"
 				item: "forge_frontier:molten_desh_bucket"
@@ -504,7 +504,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Made by Superheating the below ingredient"
+			subtitle: "Obtained by super-heated mixing the below ingredient"
 			tasks: [{
 				id: "45098120B2E8A419"
 				item: "forge_frontier:molten_echo_shard_bucket"
@@ -528,7 +528,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Made by Superheating the below ingredient"
+			subtitle: "Obtained by super-heated mixing the below ingredient"
 			tasks: [{
 				id: "79AD40EC7D58335B"
 				item: "forge_frontier:molten_emerald_bucket"
@@ -552,7 +552,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Made by Superheating the below ingredient"
+			subtitle: "Obtained by super-heated mixing the below ingredient"
 			tasks: [{
 				id: "3264B85CE771D64E"
 				item: "forge_frontier:molten_gold_bucket"
@@ -576,7 +576,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Made by Superheating the below ingredient"
+			subtitle: "Obtained by super-heated mixing the below ingredient"
 			tasks: [{
 				id: "5FA9E55C9AAFF4F4"
 				item: "forge_frontier:molten_guano_bucket"
@@ -601,7 +601,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Made by Superheating the below ingredient"
+			subtitle: "Obtained by super-heated mixing the below ingredient"
 			tasks: [{
 				id: "77BA3F66BDB75601"
 				item: "forge_frontier:molten_ice_shard_bucket"
@@ -625,7 +625,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Made by Superheating the below ingredient"
+			subtitle: "Obtained by super-heated mixing the below ingredient"
 			tasks: [{
 				id: "5E3A2E6177F6E411"
 				item: "forge_frontier:molten_irradium_bucket"
@@ -649,7 +649,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Made by Superheating the below ingredient"
+			subtitle: "Obtained by super-heated mixing the below ingredient"
 			tasks: [{
 				id: "3D1B975420B73AA9"
 				item: "forge_frontier:molten_lapis_bucket"
@@ -673,7 +673,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Made by Superheating the below ingredient"
+			subtitle: "Obtained by super-heated mixing the below ingredient"
 			tasks: [{
 				id: "07F94702FEFEECC3"
 				item: "forge_frontier:molten_lead_bucket"
@@ -697,7 +697,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Made by Superheating the below ingredient"
+			subtitle: "Obtained by super-heated mixing the below ingredient"
 			tasks: [{
 				id: "495B5D6813287522"
 				item: "forge_frontier:molten_malachite_bucket"
@@ -724,7 +724,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Made by Superheating the below ingredients"
+			subtitle: "Obtained by super-heated mixing the below ingredient"
 			tasks: [{
 				id: "24F9A5718817516D"
 				item: "forge_frontier:molten_netherite_bucket"
@@ -751,7 +751,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Made by Superheating the below ingredients"
+			subtitle: "Obtained by super-heated mixing the below ingredient"
 			tasks: [{
 				id: "5F8D15BBBD4D9A5E"
 				item: "forge_frontier:molten_netherite_diamond_bucket"
@@ -778,7 +778,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Made by Superheating the below ingredients"
+			subtitle: "Obtained by super-heated mixing the below ingredient"
 			tasks: [{
 				id: "4E72347FD7865EBA"
 				item: "forge_frontier:molten_netherite_emerald_bucket"
@@ -805,7 +805,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Made by Superheating the below ingredients"
+			subtitle: "Obtained by super-heated mixing the below ingredient"
 			tasks: [{
 				id: "3DE15582046023E3"
 				item: "forge_frontier:molten_netherite_iron_bucket"
@@ -832,7 +832,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Made by Superheating the below ingredients"
+			subtitle: "Obtained by super-heated mixing the below ingredient"
 			tasks: [{
 				id: "47C768DE64110126"
 				item: "forge_frontier:molten_netherite_gold_bucket"
@@ -856,7 +856,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Made by Superheating the below ingredient"
+			subtitle: "Obtained by super-heated mixing the below ingredient"
 			tasks: [{
 				id: "5CB3511B5E5429FB"
 				item: "forge_frontier:molten_ostrum_bucket"
@@ -880,7 +880,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Made by Superheating the below ingredient"
+			subtitle: "Obtained by super-heated mixing the below ingredient"
 			tasks: [{
 				id: "31D8DD0E45984977"
 				item: "forge_frontier:molten_pearl_bucket"
@@ -904,7 +904,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Made by Superheating the below ingredient"
+			subtitle: "Obtained by super-heated mixing the below ingredient"
 			tasks: [{
 				id: "3F52990CA68D96CE"
 				item: "forge_frontier:molten_quartz_bucket"
@@ -928,7 +928,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Made by Superheating the below ingredient"
+			subtitle: "Obtained by super-heated mixing the below ingredient"
 			tasks: [{
 				id: "3C29C94FF880DAF9"
 				item: "forge_frontier:molten_redstone_bucket"
@@ -952,7 +952,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Made by Superheating the below ingredient"
+			subtitle: "Obtained by super-heated mixing the below ingredient"
 			tasks: [{
 				id: "2DD9458A42C39138"
 				item: "forge_frontier:molten_scarlet_neodymium_bucket"
@@ -980,7 +980,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Made by Superheating the below ingredients"
+			subtitle: "Obtained by super-heated mixing the below ingredient"
 			tasks: [{
 				id: "123AB84310DA1226"
 				item: "forge_frontier:molten_steel_bucket"
@@ -1004,7 +1004,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Made by Superheating the below ingredient"
+			subtitle: "Obtained by super-heated mixing the below ingredient"
 			tasks: [{
 				id: "6E8CC88564120E52"
 				item: "forge_frontier:molten_sulfur_bucket"
@@ -1029,7 +1029,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Made by Superheating the below ingredient"
+			subtitle: "Obtained by super-heated mixing the below ingredient"
 			tasks: [{
 				id: "4359099DAFEC81E0"
 				item: "forge_frontier:molten_tin_bucket"
@@ -1053,7 +1053,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Made by Superheating the below ingredient"
+			subtitle: "Obtained by super-heated mixing the below ingredient"
 			tasks: [{
 				id: "74C0F501B9A6F464"
 				item: "forge_frontier:molten_uranium_bucket"
@@ -1077,7 +1077,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Made by Superheating the below ingredient"
+			subtitle: "Obtained by super-heated mixing the below ingredient"
 			tasks: [{
 				id: "744F8E7EC8A7F5C6"
 				item: "forge_frontier:molten_zinc_bucket"
@@ -1089,7 +1089,7 @@
 		{
 			dependencies: ["74FB2FC0506DFB94"]
 			id: "1928AA3224BE20CA"
-			subtitle: "Made by crushing the below ingredient"
+			subtitle: "Obtained by crushing the below ingredient"
 			tasks: [{
 				id: "009808530394D76F"
 				item: "create:crushed_raw_aluminum"
@@ -1101,7 +1101,7 @@
 		{
 			dependencies: ["4C53E43F20B56DA4"]
 			id: "31210DAB54989441"
-			subtitle: "Made by crushing the below ingredient"
+			subtitle: "Obtained by crushing the below ingredient"
 			tasks: [{
 				id: "5A5D6158FB3A5FD6"
 				item: "forge_frontier:crushed_amberlite"
@@ -1113,7 +1113,7 @@
 		{
 			dependencies: ["1404F814912587A1"]
 			id: "1BBAAA07D9A3CE55"
-			subtitle: "Made by crushing the below ingredient"
+			subtitle: "Obtained by crushing the below ingredient"
 			tasks: [{
 				id: "471FB61AA50E3A19"
 				item: "forge_frontier:crushed_debris"
@@ -1125,7 +1125,7 @@
 		{
 			dependencies: ["427C7EC8C05F48FC"]
 			id: "6676D912D3E4B215"
-			subtitle: "Made by crushing the below ingredient"
+			subtitle: "Obtained by crushing the below ingredient"
 			tasks: [{
 				id: "69DC2F387FD62E87"
 				item: "forge_frontier:crushed_azurnium"
@@ -1148,7 +1148,7 @@
 		{
 			dependencies: ["199102DF5399DED6"]
 			id: "04541D94238E823A"
-			subtitle: "Made by crushing the below ingredient"
+			subtitle: "Obtained by crushing the below ingredient"
 			tasks: [{
 				id: "15FA0F725D4C2A74"
 				item: "minecraft:coal"
@@ -1160,7 +1160,7 @@
 		{
 			dependencies: ["3E077267D1A1E603"]
 			id: "4E5D520ECB31961D"
-			subtitle: "Made by crushing the below ingredient"
+			subtitle: "Obtained by crushing the below ingredient"
 			tasks: [{
 				id: "6C0A99EB833DBA73"
 				item: "create:crushed_raw_copper"
@@ -1172,7 +1172,7 @@
 		{
 			dependencies: ["7E5CFEEE37D2D024"]
 			id: "6AB5A8A412E56EA7"
-			subtitle: "Made by crushing the below ingredient"
+			subtitle: "Obtained by crushing the below ingredient"
 			tasks: [{
 				id: "0EB316A28BF7B96A"
 				item: "forge_frontier:crushed_glacium"
@@ -1184,7 +1184,7 @@
 		{
 			dependencies: ["13EF2CE161AFCBEF"]
 			id: "747F817A942D5E09"
-			subtitle: "Made by crushing the below ingredient"
+			subtitle: "Obtained by crushing the below ingredient"
 			tasks: [{
 				id: "27D97C162B3A59C1"
 				item: "forge_frontier:crushed_resonite"
@@ -1196,7 +1196,7 @@
 		{
 			dependencies: ["5DED412847059639"]
 			id: "00D8865ACAB08C62"
-			subtitle: "Made by crushing the below ingredient"
+			subtitle: "Obtained by crushing the below ingredient"
 			tasks: [{
 				id: "546F5B0B23C7F9D6"
 				item: "forge_frontier:crushed_verdantine"
@@ -1208,7 +1208,7 @@
 		{
 			dependencies: ["5A3EA4B0E97C00EC"]
 			id: "33B97D97C1263D14"
-			subtitle: "Made by crushing the below ingredient"
+			subtitle: "Obtained by crushing the below ingredient"
 			tasks: [{
 				id: "2E3E8F6EEA0831BE"
 				item: "create:crushed_raw_gold"
@@ -1220,7 +1220,7 @@
 		{
 			dependencies: ["7EBBFAF6E6728384"]
 			id: "150F1EB90D71E450"
-			subtitle: "Made by crushing the below ingredient"
+			subtitle: "Obtained by crushing the below ingredient"
 			tasks: [{
 				id: "7BE5D583F43CAAB8"
 				item: "forge_frontier:crushed_guanite"
@@ -1232,7 +1232,7 @@
 		{
 			dependencies: ["68904B8DADCDAEE3"]
 			id: "63C091E5565C6C2E"
-			subtitle: "Made by crushing the below ingredient"
+			subtitle: "Obtained by crushing the below ingredient"
 			tasks: [{
 				id: "432036F9B09DB2E9"
 				item: "forge_frontier:crushed_frostite"
@@ -1244,7 +1244,7 @@
 		{
 			dependencies: ["0F15EFEAE67F214C"]
 			id: "1DA9CD6D8F15EFBC"
-			subtitle: "Made by crushing the below ingredient"
+			subtitle: "Obtained by crushing the below ingredient"
 			tasks: [{
 				id: "2FFE0D5BD78D7336"
 				item: "minecraft:lapis_lazuli"
@@ -1256,7 +1256,7 @@
 		{
 			dependencies: ["18A783B15261DA70"]
 			id: "664936DD50A00B49"
-			subtitle: "Made by crushing the below ingredient"
+			subtitle: "Obtained by crushing the below ingredient"
 			tasks: [{
 				id: "55AE63447C8CAB73"
 				item: "create:crushed_raw_lead"
@@ -1268,7 +1268,7 @@
 		{
 			dependencies: ["5B96B4506A83FC46"]
 			id: "225E57DC8D03930F"
-			subtitle: "Made by crushing the below ingredient"
+			subtitle: "Obtained by crushing the below ingredient"
 			tasks: [{
 				id: "148606B8C17AA889"
 				item: "forge_frontier:crushed_pearlyte"
@@ -1280,7 +1280,7 @@
 		{
 			dependencies: ["63B38DFE0D965837"]
 			id: "6902415E808B9468"
-			subtitle: "Made by crushing the below ingredient"
+			subtitle: "Obtained by crushing the below ingredient"
 			tasks: [{
 				id: "2C16A16851544D25"
 				item: "minecraft:quartz"
@@ -1292,7 +1292,7 @@
 		{
 			dependencies: ["58DE94894935C22C"]
 			id: "0F4C31FE935D2EB7"
-			subtitle: "Made by crushing the below ingredient"
+			subtitle: "Obtained by crushing the below ingredient"
 			tasks: [{
 				id: "0F1E327561611E85"
 				item: "minecraft:redstone"
@@ -1304,7 +1304,7 @@
 		{
 			dependencies: ["5E1156C921EF201C"]
 			id: "3174F265A35B1828"
-			subtitle: "Made by crushing the below ingredient"
+			subtitle: "Obtained by crushing the below ingredient"
 			tasks: [{
 				id: "6A63FA6FDD40EE6A"
 				item: "forge_frontier:crushed_neodymrium"
@@ -1316,7 +1316,7 @@
 		{
 			dependencies: ["14474DC70368A6BE"]
 			id: "3FE7B8C4DD9F4416"
-			subtitle: "Made by crushing the below ingredient"
+			subtitle: "Obtained by crushing the below ingredient"
 			tasks: [{
 				id: "13DF73D4ABD69E55"
 				item: "forge_frontier:crushed_sulphite"
@@ -1328,7 +1328,7 @@
 		{
 			dependencies: ["1F620B9E6FB78FE0"]
 			id: "66CFD0D176A5847D"
-			subtitle: "Made by crushing the below ingredient"
+			subtitle: "Obtained by crushing the below ingredient"
 			tasks: [{
 				id: "22953397A7F8117E"
 				item: "create:crushed_raw_tin"
@@ -1340,7 +1340,7 @@
 		{
 			dependencies: ["7459C223DF2187C1"]
 			id: "3FA2677EF0B47DDC"
-			subtitle: "Made by crushing the below ingredient"
+			subtitle: "Obtained by crushing the below ingredient"
 			tasks: [{
 				id: "10A3A910665B69B1"
 				item: "forge_frontier:crushed_uraniumnite"
@@ -1352,7 +1352,7 @@
 		{
 			dependencies: ["0F0AEBBF152C401E"]
 			id: "04DCC17D4CC1AB64"
-			subtitle: "Made by crushing the below ingredient"
+			subtitle: "Obtained by crushing the below ingredient"
 			tasks: [{
 				id: "2604BF4A383A1910"
 				item: "create:crushed_raw_zinc"
@@ -1434,7 +1434,7 @@
 		{
 			dependencies: ["2A8E93FC71D54833"]
 			id: "34ED1307014F1CB5"
-			subtitle: "Made by crushing the below ingredient"
+			subtitle: "Obtained by crushing the below ingredient"
 			tasks: [{
 				id: "4F158059B757E6D9"
 				item: "forge_frontier:crushed_palerock"
@@ -1458,7 +1458,7 @@
 		{
 			dependencies: ["4F24248613778C54"]
 			id: "495BC916090D0305"
-			subtitle: "Made by crushing the below ingredient"
+			subtitle: "Obtained by crushing the below ingredient"
 			tasks: [{
 				id: "07DEA43BC033888F"
 				item: "forge_frontier:crushed_pyroclast"
@@ -1518,7 +1518,7 @@
 		{
 			dependencies: ["108E908E18B73903"]
 			id: "543A215F88E10008"
-			subtitle: "Made by crushing the below ingredient"
+			subtitle: "Obtained by crushing the below ingredient"
 			tasks: [{
 				id: "346BD610C5F9FDE2"
 				item: "forge_frontier:crushed_aubrum"
@@ -1602,7 +1602,7 @@
 		{
 			dependencies: ["445CDD25FE68320A"]
 			id: "6FC865CA6C7A6268"
-			subtitle: "Made by crushing the below ingredient"
+			subtitle: "Obtained by crushing the below ingredient"
 			tasks: [{
 				id: "32F7CAEC954577C0"
 				item: "forge_frontier:crushed_radiantite"
@@ -1650,7 +1650,7 @@
 		{
 			dependencies: ["7F14C860F598FF21"]
 			id: "37486CFE9A0344C2"
-			subtitle: "Made by crushing the below ingredient"
+			subtitle: "Obtained by crushing the below ingredient"
 			tasks: [{
 				id: "2EDF478839419397"
 				item: "forge_frontier:crushed_shale"
@@ -1674,7 +1674,7 @@
 		{
 			dependencies: ["5BCD1C6372C47DC7"]
 			id: "2867389A737FE3F0"
-			subtitle: "Made by crushing the below ingredient"
+			subtitle: "Obtained by crushing the below ingredient"
 			tasks: [{
 				id: "58EFE13359F953F2"
 				item: "forge_frontier:crushed_stellaris"
@@ -1959,7 +1959,7 @@
 		{
 			dependencies: ["64F55E65E9CAF390"]
 			id: "6D5E294ADE3522C1"
-			subtitle: "Made by Superheating the below ingredient"
+			subtitle: "Obtained by super-heated mixing the below ingredient"
 			tasks: [{
 				id: "5FE3F8FF13C2D73E"
 				item: "forge_frontier:molten_iron_bucket"
@@ -1971,7 +1971,7 @@
 		{
 			dependencies: ["57AF9BA774A71601"]
 			id: "64F55E65E9CAF390"
-			subtitle: "Made by crushing the below ingredient"
+			subtitle: "Obtained by crushing the below ingredient"
 			tasks: [{
 				id: "6E01CB619816031B"
 				item: "create:crushed_raw_iron"
