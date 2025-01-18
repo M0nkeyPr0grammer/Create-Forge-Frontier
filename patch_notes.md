@@ -36,6 +36,7 @@ The Create - Forge Frontier 2.1.0 update is here! Packed with enhanced quests, e
 - **Molten Mixing**: Started Quests, will complete later
 
 ## KubeJS Updates
+- **Cataclysm**: Merged our Cataclysm Structure Data Tweaks with the mod side Cataclysm Structures changes
 - **Dreams & Desires**: Remove Fluid/Lava Interaction Ponders, to remove confusion
 - **Farmers Delight**: Created Rich Soil Create Compat Mixing Recipe
 - **Botany Pots**: Changed Base Botany Pot Recipe to require Rich Soil
@@ -78,14 +79,17 @@ The Create - Forge Frontier 2.1.0 update is here! Packed with enhanced quests, e
 - **Alex's Caves Delight**: v1.0.23 > v1.0.24
 - **Apotheosis**: v7.4.3 > 7.4.4
 - **Balm**: v7.3.10 > v7.3.11
+- **Cataclysm**: v2.27 > v2.39
 - **Connectivity**: v6.3 > v6.5
 - **Create Contraption Terminals**: v1.0.1 > v1.1.0 
 - **Create Crafts and Additions**: v1.2.4e > v1.2.5
 - **Create Stuff and Additions**: v2.0.5 > v2.0.6
+- **Creative Core**: v2.28 > v2.30
 - **Curios**: v5.11.0 > v5.11.1
+- **Deeper Darker Delight**: v1.2.1 > v1.2.2
 - **Delightful**: v3.6.1 > v3.6.2
 - **EMI**: v1.1.18 > v1.1.19
-- **Every Compat**: v2.7.10 > v2.7.11
+- **Every Compat**: v2.7.10 > v2.7.12
 - **Extended AE**: v1.3.2 > v1.3.3
 - **Fast Async**: v2.1 > v2.3
 - **FTB Library**: v2001.2.6 > v2001.2.7
@@ -95,7 +99,8 @@ The Create - Forge Frontier 2.1.0 update is here! Packed with enhanced quests, e
 - **Integrated Stronghold**: v1.1.1 > v1.1.2
 - **JEI**: v15.20.0.105 > v15.20.0.106
 - **Lithostitched**: v1.3.10 > v1.4
-- **Moonlight**: v2.13.45 > v2.13.49
+- **Moonlight**: v2.13.45 > v2.13.50
+- **Naturalist Delight**: v1.0.3.1 > v1.0.3.2
 - **Oculus**: v1.7 > v1.8
 - **Oculus Flywheel Compat**: v1.1.2 > v1.1.4
 - **Pattern Schematics**: v1.1.16 > v1.1.18
@@ -105,7 +110,7 @@ The Create - Forge Frontier 2.1.0 update is here! Packed with enhanced quests, e
 - **Sophisticated Backpacks**: v3.21.2.1163 > v3.22.0.1172
 - **Sophisticated Core**: v1.0.6.824 > v1.1.1.837
 - **Sophisticated Storage**: v1.0.7.1000 > v1.1.0.1036
-- **Structure Credits**: v1.7 > v2.2
+- **Structure Credits**: v1.7 > v2.2.1
 - **Toms Simple Storage**: v1.6.9 > v1.7.0
 
 ## Drippy Loading Screen Updates
