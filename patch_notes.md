@@ -15,8 +15,10 @@ The Create - Forge Frontier 2.1.0 update is here! Packed with enhanced quests, e
 - [Integrated Cataclysm](https://www.curseforge.com/minecraft/mc-mods/integrated-cataclysm): Integrated Cataclysm is the fourth mod in the Integrated Structures series. Not only does it completely overhaul L_Ender's Cataclysm structures with tons of heavily detailed dungeons to explore, but it integrates Supplementaries/Quark decorations and Create mod doors, puzzles, traps.
 - [Botany Trees](https://www.curseforge.com/minecraft/mc-mods/botany-trees): This mod is an addon for Botany Pots. With this addon you will be able to grow trees from Vanilla and several other mods inside of the Botany Pot. This can be done for decoration or as a mini wood farm.
 - [Acedium](https://github.com/ferriarnus/acedium/tree/1.20.1-neoforge?tab=License-1-ov-file): Acedium is a (neo)forge port of Nvidium. Nvidium is an alternate rendering backing for sodium, it uses cutting edge nvidia features to render huge amounts of terrain geometry at very playable framerates.
+- [FreeCam by Zergatul](https://www.curseforge.com/minecraft/mc-mods/freecam-by-zergatul): This mod allows you to control your camera separately from your player. While it is enabled, you can fly around and travel through blocks within your render distance.
 ## Mod Removal
 - Respawning Structures: Crazy Bug that caused structures to reset while players are inside the structure
+- Freecam: Replaced with FreeCam by Zergatul
 
 ## Quest Updates/Additions
 - **Chapters**: Adjusted Chapter Order to make more sense
