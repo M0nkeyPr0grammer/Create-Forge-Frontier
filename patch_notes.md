@@ -66,6 +66,7 @@ The Create - Forge Frontier 2.1.0 update is here! Packed with enhanced quests, e
 - **Biome Modifiers**: Moved Veridium Vents to Overworld and Crimsite Vents to Plains tags.
 
 ## Config Updates
+- **Friends & Foes**: Disable Check for Updates Feature
 - **Create Crafts & Additions**: Increased Motor Min Consumption, and Lowered Generator Efficiency
 - **Carryon**: Blacklisted Sophisticated Storage, Backpacks, and Sacks
 - **Tom's Simple Storage**: Increased Single Dimension Requirement to even out mechanics usage
