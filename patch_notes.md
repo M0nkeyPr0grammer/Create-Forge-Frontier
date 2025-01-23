@@ -106,8 +106,6 @@ The Create - Forge Frontier 2.1.0 update is here! Packed with enhanced quests, e
 - **Moonlight**: v2.13.45 > v2.13.51
 - **Naturalist Delight**: v1.0.3.1 > v1.0.3.2
 - **Not Enough Animations**: v1.9.0 > v1.9.1
-- **Oculus**: v1.7 > v1.8
-- **Oculus Flywheel Compat**: v1.1.2 > v1.1.4
 - **Pattern Schematics**: v1.1.16 > v1.1.19
 - **Recipe Essentials**: v3.6 > v3.9
 - **Respawning Structures**: v3.3 > v3.5
