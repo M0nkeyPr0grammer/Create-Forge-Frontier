@@ -82,28 +82,30 @@ The Create - Forge Frontier 2.1.0 update is here! Packed with enhanced quests, e
 - **Alex's Caves Delight**: v1.0.23 > v1.0.24
 - **Apotheosis**: v7.4.3 > 7.4.4
 - **Balm**: v7.3.10 > v7.3.11
-- **Cataclysm**: v2.27 > v2.39
+- **Cataclysm**: v2.27 > v2.43
 - **Connectivity**: v6.3 > v6.5
 - **Create Contraption Terminals**: v1.0.1 > v1.1.0 
 - **Create Crafts and Additions**: v1.2.4e > v1.2.5
 - **Create Stuff and Additions**: v2.0.5 > v2.0.6
-- **Creative Core**: v2.28 > v2.30
+- **Creative Core**: v2.28 > v2.31
 - **Curios**: v5.11.0 > v5.11.1
 - **Deeper Darker Delight**: v1.2.1 > v1.2.2
 - **Delightful**: v3.6.1 > v3.6.2
 - **EMI**: v1.1.18 > v1.1.19
-- **Every Compat**: v2.7.10 > v2.7.12
-- **Extended AE**: v1.3.2 > v1.3.3
+- **Every Compat**: v2.7.10 > v2.7.14
+- **Extended AE**: v1.3.2 > v1.3.4
 - **Fast Async**: v2.1 > v2.3
 - **Friends and Foes**: v3.0.6 > v3.0.7
 - **FTB Library**: v2001.2.6 > v2001.2.7
-- **Fusion**: v1.1.1 > v1.2.2
+- **Fusion**: v1.1.1 > v1.2.3
 - **Guard Villagers**: v1.6.9 > v1.6.10
 - **Immersive Aircraft**: v1.1.7 > v1.1.8
 - **Integrated Stronghold**: v1.1.1 > v1.1.2
+- **Jade**: v11.12.2 > v11.12.3
 - **JEI**: v15.20.0.105 > v15.20.0.106
 - **Lithostitched**: v1.3.10 > v1.4
-- **Moonlight**: v2.13.45 > v2.13.51
+- **Memory Settings**: v5.5 > v5.8
+- **Moonlight**: v2.13.45 > v2.13.53
 - **Naturalist Delight**: v1.0.3.1 > v1.0.3.2
 - **Not Enough Animations**: v1.9.0 > v1.9.1
 - **Pattern Schematics**: v1.1.16 > v1.1.19
@@ -111,11 +113,13 @@ The Create - Forge Frontier 2.1.0 update is here! Packed with enhanced quests, e
 - **Respawning Structures**: v3.3 > v3.5
 - **Rubidium Extra**: v0.5.4.3 > v0.5.4.4
 - **Smoothchunk**: v3.8 > v3.9
-- **Sophisticated Backpacks**: v3.21.2.1163 > v3.22.0.1172
+- **Sophisticated Backpacks**: v3.21.2.1163 > v3.22.0.1177
 - **Sophisticated Core**: v1.0.6.824 > v1.1.1.837
-- **Sophisticated Storage**: v1.0.7.1000 > v1.1.0.1036
+- **Sophisticated Storage**: v1.0.7.1000 > v1.1.0.1044
 - **Structure Credits**: v1.7 > v2.2.1
+- **Structure Essentials**: v3.4 > v4.1
 - **Toms Simple Storage**: v1.6.9 > v1.7.0
+- **Xaero's Minimap**: v24.7.1 > v250.0.
 
 ## Drippy Loading Screen Updates
 - Updated version number to 2.1.0
