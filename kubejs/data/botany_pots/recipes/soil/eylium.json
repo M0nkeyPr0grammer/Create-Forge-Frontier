@@ -1,0 +1,13 @@
+{
+"type":"botanypots:soil",
+"input":{
+    "item":"enlightened_end:indigo_eylium"
+},
+"display":{
+    "block":"enlightened_end:indigo_eylium"
+},
+"categories":[
+    "eylium"
+],
+"growthModifier":1
+}

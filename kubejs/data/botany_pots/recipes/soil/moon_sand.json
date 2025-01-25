@@ -1,0 +1,13 @@
+{
+"type":"botanypots:soil",
+"input":{
+    "item":"ad_astra:moon_sand"
+},
+"display":{
+    "block":"ad_astra:moon_sand"
+},
+"categories":[
+    "moon_sand"
+],
+"growthModifier":1
+}
