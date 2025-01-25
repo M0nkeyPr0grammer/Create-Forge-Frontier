@@ -4,8 +4,7 @@
     "item": "ad_astra:strophar_mushroom"
   },
   "categories": [
-    "mushroom",
-    "mulch"
+    "moon_sand"
   ],
   "growthTicks": 2400,
   "display": {
@@ -16,6 +15,18 @@
       "chance": 1,
       "output": {
         "item": "ad_astra:strophar_mushroom"
+      }
+    },
+    {
+      "chance": 1,
+      "output":{
+        "item": "ad_astra:strophar_cap"
+      }
+    },
+    {
+      "chance": 0.50,
+      "output":{
+        "item": "ad_astra:strophar_stem"
       }
     }
   ]
