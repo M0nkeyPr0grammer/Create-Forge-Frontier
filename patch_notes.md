@@ -46,7 +46,9 @@ The Create - Forge Frontier 2.1.0 update is here! Packed with enhanced quests, e
 - **Ad Astra**: 
   - Removed Freezes in Space and Evaporates in Space fluid tags from water to Fix Integrated Cataclysm Create Contraptions in Space
   - Fixed Recipes to use Steel Plates tag
-- **Cataclysm**: Merged our Cataclysm Structure Data Tweaks with the mod side Cataclysm Structures changes, tweaked structure generation to make sure structures generate on the surface.
+- **Cataclysm**: 
+  - Merged our Cataclysm Structure Data Tweaks with the mod side Cataclysm Structures changes, tweaked structure generation to make sure structures generate on the surface.
+  - Adjusted Loot Pool for Burning Arena so dying ember is guaranteed 
 - **Dreams & Desires**: Remove Fluid/Lava Interaction Ponders, to remove confusion
 - **Farmers Delight**: Created Rich Soil Create Compat Mixing Recipe
 - **Botany Pots**: 
