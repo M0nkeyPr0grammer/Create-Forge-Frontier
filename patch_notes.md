@@ -39,6 +39,10 @@ The Create - Forge Frontier 2.1.0 update is here! Packed with enhanced quests, e
 - **Molten Mixing**: Started Quests, will complete later
 
 ## KubeJS Updates
+- **Curios**:
+  - Removed Helium Flamingo Access, due to game breaking mix with another relic
+  - Adjusted Curios Tags for Obsidian Skull, Antidote Vessel, Crystal Heart
+  - Removed Belt Tag from Advanced Terminal to make sure it can only its custom terminal slot
 - **Ad Astra**: Removed Freezes in Space and Evaporates in Space fluid tags from water to Fix Integrated Cataclysm Create Contraptions in Space
 - **Cataclysm**: Merged our Cataclysm Structure Data Tweaks with the mod side Cataclysm Structures changes, tweaked structure generation to make sure structures generate on the surface.
 - **Dreams & Desires**: Remove Fluid/Lava Interaction Ponders, to remove confusion
@@ -56,7 +60,7 @@ The Create - Forge Frontier 2.1.0 update is here! Packed with enhanced quests, e
 - **Forge Frontier**:
   - Added Banana and Ferros Slime to Slime recipes.
   - Tagged Resource Ore Stones with Excavated Variant Stone Type.
-  - Removed Helium Flamingo access and excess Netherite scrap from crushing.
+  - Removed excess Netherite scrap from crushing.
 - **Farming for Blockheads**: Added missing plant compatibility and reorganized market categories.
 - **Apotheosis**: Removed Chainsaw enchantment from Wanderer Trades.
 - **Advanced AE2**: Replaced Quantum Inscriber Recipe with crushing; fixed Sequenced Assembly Recipes for Presses.
