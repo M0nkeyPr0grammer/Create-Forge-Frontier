@@ -39,6 +39,7 @@ The Create - Forge Frontier 2.1.0 update is here! Packed with enhanced quests, e
 - **Molten Mixing**: Started Quests, will complete later
 
 ## KubeJS Updates
+- **Power Loaders(Chunk Loaders)**: Changed Recipes for Andesite and Brass Chunk Loaders to better match the pack, as previous recipe was made for Landscapes Reimagined Forge Frontier
 - **Curios**:
   - Removed Helium Flamingo Access, due to game breaking mix with another relic
   - Adjusted Curios Tags for Obsidian Skull, Antidote Vessel, Crystal Heart
