@@ -77,8 +77,9 @@ The Create - Forge Frontier 2.1.0 update is here! Packed with enhanced quests, e
 - **Quark**: Disabled Hotbar Swapper, and enabled Adjustable Chat
 
 ## Mod Updates
-- **Advanced AE**: v1.0.13> v1.1.0
+- **Advanced AE**: v1.0.13> v1.1.1
 - **Ad Astra Delight**: v1.1.0 > v1.1.1
+- **Ad Astra Giselle Addon**: v6.16 > v6.18
 - **AE2**: v15.3.2 > v15.3.3
 - **AE Delight**: v1.0.4 > v1.0.4.1
 - **Alex's Caves Delight**: v1.0.23 > v1.0.24
@@ -86,6 +87,7 @@ The Create - Forge Frontier 2.1.0 update is here! Packed with enhanced quests, e
 - **Balm**: v7.3.10 > v7.3.11
 - **Cataclysm**: v2.27 > v2.43
 - **Connectivity**: v6.3 > v6.5
+- **Corpse**: v1.0.19 > v1.0.20
 - **Create Contraption Terminals**: v1.0.1 > v1.1.0 
 - **Create Crafts and Additions**: v1.2.4e > v1.2.5
 - **Create Stuff and Additions**: v2.0.5 > v2.0.6
@@ -106,7 +108,7 @@ The Create - Forge Frontier 2.1.0 update is here! Packed with enhanced quests, e
 - **Jade**: v11.12.2 > v11.12.3
 - **JEI**: v15.20.0.105 > v15.20.0.106
 - **Lithostitched**: v1.3.10 > v1.4
-- **Memory Settings**: v5.5 > v5.8
+- **Memory Settings**: v5.5 > v5.9
 - **Moonlight**: v2.13.45 > v2.13.53
 - **Naturalist Delight**: v1.0.3.1 > v1.0.3.2
 - **Not Enough Animations**: v1.9.0 > v1.9.1
@@ -114,10 +116,10 @@ The Create - Forge Frontier 2.1.0 update is here! Packed with enhanced quests, e
 - **Recipe Essentials**: v3.6 > v3.9
 - **Respawning Structures**: v3.3 > v3.5
 - **Rubidium Extra**: v0.5.4.3 > v0.5.4.4
-- **Smoothchunk**: v3.8 > v3.9
-- **Sophisticated Backpacks**: v3.21.2.1163 > v3.22.0.1177
-- **Sophisticated Core**: v1.0.6.824 > v1.1.1.837
-- **Sophisticated Storage**: v1.0.7.1000 > v1.1.0.1044
+- **Smoothchunk**: v3.8 > v4.0
+- **Sophisticated Backpacks**: v3.21.2.1163 > v3.22.0.1179
+- **Sophisticated Core**: v1.0.6.824 > v1.1.1.841
+- **Sophisticated Storage**: v1.0.7.1000 > v1.1.0.1046
 - **Structure Credits**: v1.7 > v2.2.1
 - **Structure Essentials**: v3.4 > v4.1
 - **Toms Simple Storage**: v1.6.9 > v1.7.0
