@@ -47,7 +47,10 @@ The Create - Forge Frontier 2.1.0 update is here! Packed with enhanced quests, e
 - **Cataclysm**: Merged our Cataclysm Structure Data Tweaks with the mod side Cataclysm Structures changes, tweaked structure generation to make sure structures generate on the surface.
 - **Dreams & Desires**: Remove Fluid/Lava Interaction Ponders, to remove confusion
 - **Farmers Delight**: Created Rich Soil Create Compat Mixing Recipe
-- **Botany Pots**: Changed Base Botany Pot Recipe to require Rich Soil
+- **Botany Pots**: 
+  - Changed Base Botany Pot Recipe to require Rich Soil
+  - Added Ennegel Ferns to Botany Pots
+  - Adjusted Ad Astra Mushrooms Products
 - **AE2**: Made AE2 Meteorites more rare
 - **Disenchanting Table**: Changed Recipe to use Apotheosis Enchanting
 - **FTB**: Added in new titles and screenshots for quest work
