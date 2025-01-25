@@ -92,7 +92,7 @@ ServerEvents.recipes(event => {
                 key: {
                     A: Ingredient.of('minecraft:redstone_torch').toJson(),
                     B: Ingredient.of('create:analog_lever').toJson(),
-                    C: Ingredient.of('ad_astra:steel_plate').toJson(),
+                    C: Ingredient.of('#ad_astra:steel_plates').toJson(),
                     D: Ingredient.of('create:mechanical_crafter').toJson(),
                     E: Ingredient.of('minecraft:redstone_block').toJson(),
                     F: Ingredient.of('ad_astra:steel_block').toJson()
@@ -111,7 +111,7 @@ ServerEvents.recipes(event => {
                     'AAA'
                 ],
                 key: {
-                    A: Ingredient.of('ad_astra:steel_plate').toJson(),
+                    A: Ingredient.of('#ad_astra:steel_plates').toJson(),
                     B: Ingredient.of('create:fluid_pipe').toJson(),
                     C: Ingredient.of('createdieselgenerators:diesel_engine').toJson()
                 },
@@ -167,7 +167,7 @@ ServerEvents.recipes(event => {
                     'AEA'
                 ],
                 key: {
-                    A: Ingredient.of('ad_astra:steel_plate').toJson(),
+                    A: Ingredient.of('#ad_astra:steel_plates').toJson(),
                     B: Ingredient.of('ad_astra:fan').toJson(),
                     C: Ingredient.of('ad_astra:gas_tank').toJson(),
                     D: Ingredient.of('createaddition:connector').toJson(),
@@ -224,7 +224,7 @@ ServerEvents.recipes(event => {
                     'ABA'
                 ],
                 key: {
-                    A: Ingredient.of('ad_astra:steel_plate').toJson(),
+                    A: Ingredient.of('#ad_astra:steel_plates').toJson(),
                     B: Ingredient.of('create:smart_chute').toJson(),
                     C: Ingredient.of('minecraft:redstone').toJson(),
                     D: Ingredient.of('ad_astra:nasa_workbench').toJson()
@@ -280,7 +280,7 @@ ServerEvents.recipes(event => {
                 ],
                 key: {
                     A: Ingredient.of('#chipped:blue_stained_glass').toJson(),
-                    B: Ingredient.of('ad_astra:steel_plate').toJson(),
+                    B: Ingredient.of('#ad_astra:steel_plates').toJson(),
                     C: Ingredient.of('ad_astra:desh_plate').toJson()
                 },
                 result: Ingredient.of('ad_astra:solar_panel').toJson(),
