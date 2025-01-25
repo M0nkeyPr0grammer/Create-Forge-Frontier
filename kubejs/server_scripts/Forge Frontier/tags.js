@@ -60,12 +60,28 @@ ServerEvents.tags('item', event => {
     ])
 
     // Remove Flamingo Belt from Curios Slot
-    event.remove('curios:belt',
-      'artifacts:helium_flamingo')
+    event.remove('curios:belt', [
+        'artifacts:helium_flamingo',
+        'artifacts:obsidian_skull',
+        'artifacts:antidote_vessel',
+        'artifacts:crystal_heart',
+        'toms_storage:ts.adv_wireless_terminal'
+    ])
     
     // Remove Flamingo Belt from Artifact Belt Slot
-    event.remove('artifacts:slot/belt',
-        'artifacts:helium_flamingo')
+    event.remove('artifacts:slot/belt', [
+        'artifacts:helium_flamingo',
+        'artifacts:obsidian_skull',
+        'artifacts:antidote_vessel',
+        'artifacts:crystal_heart'
+    ])
+
+    // Adds New Charm Tag
+    event.add('curios:charm',[
+        'artifacts:obsidian_skull',
+        'artifacts:antidote_vessel',
+        'artifacts:crystal_heart'
+    ])
 
     // Removed Goggle Head Tag
     event.remove('curios:head',
