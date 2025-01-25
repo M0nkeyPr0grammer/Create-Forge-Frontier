@@ -26,8 +26,10 @@ The Create - Forge Frontier 2.1.0 update is here! Packed with enhanced quests, e
 ## Quest Updates/Additions
 - **Chapters**: Adjusted Chapter Order to make more sense
 - **Create - Forge Frontier**: Adjusted Image Sizes
+- **FTB Info**: New Quest Page, will complete later
 - **Informational**: Added New Quest Pages for future quests
-- **Molten Vents**: Linked Fluids to Quests, for easier navigation
+- **Create**: New Quests, will be complete by update
+- **Molten Vents**: Linked Fluids to Quests, for easier navigation, and updated biomes for a few vents.
 - **Milkshakes**: Adjusted Dependencies, and Completed Quests
 - **Chocolates**: Completed Quests 
 - **Liquid Fuels**: Completed Quests
@@ -46,7 +48,7 @@ The Create - Forge Frontier 2.1.0 update is here! Packed with enhanced quests, e
 - **Disenchanting Table**: Changed Recipe to use Apotheosis Enchanting
 - **FTB**: Added in new titles and screenshots for quest work
 - **Molten Molding**: Updated recipes for many molten mixing to mold recipes to remove possibility of duping
-- **Molten Vents**: Made non-movable to encourage CarryOn. Replaced Sculk Grime Vent with Resonite Vent (new blocks, resources, and recipes).
+- **Molten Vents**: Made non-movable to encourage CarryOn. Replaced Sculk Grime Vent with Resonite Vent (new blocks, resources, and recipes), and adjusted vent biomes for Ochrum, Verdidium, and Crimsite making them more rare.
 - **Create Integration**:
   - Added Create Goggle Curios Slot and Curios Tag for Create Goggles.
   - Fixed compatibility for Enchantment Industry and Caged Mobs Crystallized Experience.
