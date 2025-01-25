@@ -274,7 +274,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Crimsite Vents are found anywhere in the overworld, especially in plains biomes"
+			subtitle: "Crimsite Vents are found anywhere in the overworld, especially in Plains Biomes"
 			tasks: [{
 				id: "4EA85341DAED5477"
 				observe_type: 0
@@ -364,7 +364,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Ochrum Vents are found anywhere in the overworld, specically in Badland Biomes"
+			subtitle: "Ochrum Vents are found anywhere in the overworld, specically in Savanna Biomes"
 			tasks: [{
 				id: "7E9F73B48C50234A"
 				observe_type: 0
@@ -558,7 +558,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Veridium Vents are found anywhere in the overworld"
+			subtitle: "Veridium Vents are found anywhere in the overworld, especially in Desert Biomes"
 			tasks: [{
 				id: "7F552CF0B2FEDCDC"
 				observe_type: 0
@@ -1119,7 +1119,7 @@
 				xp: 10
 			}]
 			tasks: [{
-				biome: "#minecraft:is_badlands"
+				biome: "#minecraft:is_savanna"
 				id: "2990B9CAC5A94F73"
 				type: "biome"
 			}]
@@ -2688,7 +2688,7 @@
 			dependencies: ["69CE3113324ED800"]
 			id: "7AE2B54E9ABE8172"
 			tasks: [{
-				biome: "#minecraft:is_overworld"
+				biome: "#forge:is_desert"
 				id: "7618865C4EE22237"
 				type: "biome"
 			}]
