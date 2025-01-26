@@ -26,7 +26,7 @@ The Create - Forge Frontier 2.1.0 update is here! Packed with enhanced quests, e
 ## Quest Updates/Additions
 - **Chapters**: Adjusted Chapter Order to make more sense
 - **Create - Forge Frontier**: Adjusted Image Sizes
-- **FTB Info**: New Quest Page, will complete later
+- **FTB Info**: Completed Quests
 - **Informational**: Added New Quest Pages for future quests
 - **Create**: New Quests, will be complete by update
 - **Molten Vents**: Linked Fluids to Quests, for easier navigation, and updated biomes for a few vents.
