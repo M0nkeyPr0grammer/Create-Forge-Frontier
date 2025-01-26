@@ -100,6 +100,7 @@ The Create - Forge Frontier 2.1.0 update is here! Packed with enhanced quests, e
 - **Apotheosis**: v7.4.3 > 7.4.4
 - **Balm**: v7.3.10 > v7.3.11
 - **Cataclysm**: v2.27 > v2.43
+- **Collectors Reap**: v1.3.2 > v1.3.3
 - **Connectivity**: v6.3 > v6.5
 - **Corpse**: v1.0.19 > v1.0.20
 - **Create Contraption Terminals**: v1.0.1 > v1.1.0 
@@ -117,12 +118,14 @@ The Create - Forge Frontier 2.1.0 update is here! Packed with enhanced quests, e
 - **FTB Library**: v2001.2.6 > v2001.2.7
 - **Fusion**: v1.1.1 > v1.2.3
 - **Guard Villagers**: v1.6.9 > v1.6.10
+- **Immediately Fast**: v1.3.3 > v1.3.4
 - **Immersive Aircraft**: v1.1.7 > v1.1.8
 - **Integrated Stronghold**: v1.1.1 > v1.1.2
 - **Jade**: v11.12.2 > v11.12.3
 - **JEI**: v15.20.0.105 > v15.20.0.106
 - **Lithostitched**: v1.3.10 > v1.4
 - **Memory Settings**: v5.5 > v5.9
+- **Modern Fix**: v5.20.0 > v5.20.2
 - **Moonlight**: v2.13.45 > v2.13.53
 - **Naturalist Delight**: v1.0.3.1 > v1.0.3.2
 - **Not Enough Animations**: v1.9.0 > v1.9.1
