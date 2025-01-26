@@ -79,9 +79,9 @@
 		shape: "gear"
 		size: 1.0d
 		tasks: [{
-			id: "4B5EC68E21D1B0E9"
-			title: "Welcome Check"
-			type: "checkmark"
+			dimension: "minecraft:overworld"
+			id: "7E4EE542BF13A4DE"
+			type: "dimension"
 		}]
 		x: 0.0d
 		y: 6.0d
