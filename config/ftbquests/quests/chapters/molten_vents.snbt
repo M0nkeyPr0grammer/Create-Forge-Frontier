@@ -266,7 +266,10 @@
 		}
 		{
 			dependencies: ["3217A6300D17E470"]
-			description: [""]
+			description: [
+				""
+				"{image:ftb:textures/crimsite_vent.png width:226 height:150 align:center}"
+			]
 			icon: "molten_vents:dormant_molten_crimsite"
 			id: "1091314A5D575D4B"
 			rewards: [{
@@ -356,7 +359,10 @@
 		}
 		{
 			dependencies: ["2AE42496027E453C"]
-			description: [""]
+			description: [
+				""
+				"{image:ftb:textures/ochrum_vent.png width:226 height:150 align:center}"
+			]
 			icon: "molten_vents:dormant_molten_ochrum"
 			id: "070BAAF36335CB39"
 			rewards: [{
@@ -462,6 +468,10 @@
 		}
 		{
 			dependencies: ["2913B79A0D9AE74E"]
+			description: [
+				""
+				"{image:ftb:textures/asurine_vent.png width:226 height:150 align:center}"
+			]
 			icon: "molten_vents:dormant_molten_asurine"
 			id: "58E37D66B86362FD"
 			rewards: [{
@@ -551,6 +561,10 @@
 		}
 		{
 			dependencies: ["7AE2B54E9ABE8172"]
+			description: [
+				""
+				"{image:ftb:textures/veridium_vent.png width:226 height:150 align:center}"
+			]
 			icon: "molten_vents:dormant_molten_veridium"
 			id: "6BF481A48C136085"
 			rewards: [{
@@ -640,6 +654,10 @@
 		}
 		{
 			dependencies: ["2913B79A0D9AE74E"]
+			description: [
+				""
+				"{image:ftb:textures/potassic_vent.png width:226 height:150 align:center}"
+			]
 			icon: "molten_vents:dormant_molten_potassic"
 			id: "79632EC457A3A88D"
 			rewards: [{
@@ -745,6 +763,10 @@
 		}
 		{
 			dependencies: ["3BBEFEE675F39759"]
+			description: [
+				""
+				"{image:ftb:textures/verdantine_vent.png width:226 height:150 align:center}"
+			]
 			icon: "molten_vents:dormant_molten_verdantine"
 			id: "12C001857356FF60"
 			rewards: [{
@@ -834,6 +856,10 @@
 		}
 		{
 			dependencies: ["3BBEFEE675F39759"]
+			description: [
+				""
+				"{image:ftb:textures/glacium_vent.png width:226 height:150 align:center}"
+			]
 			icon: "molten_vents:dormant_molten_glacium"
 			id: "0037549384F9FCCF"
 			rewards: [{
@@ -923,6 +949,10 @@
 		}
 		{
 			dependencies: ["3BBEFEE675F39759"]
+			description: [
+				""
+				"{image:ftb:textures/scoria_vent.png width:226 height:150 align:center}"
+			]
 			icon: "molten_vents:dormant_molten_scoria"
 			id: "20EDD6DD2BDC5F24"
 			rewards: [{
@@ -1023,6 +1053,10 @@
 		}
 		{
 			dependencies: ["0BE45E37D29D38DC"]
+			description: [
+				""
+				"{image:ftb:textures/scorchia_vent.png width:226 height:150 align:center}"
+			]
 			icon: "molten_vents:dormant_molten_scorchia"
 			id: "10D2ED18910A5579"
 			rewards: [{
@@ -1030,7 +1064,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Scoria Vents are found anywhere on the Nether Roof, specically in Incendium Biomes"
+			subtitle: "Scorchia Vents are found anywhere on the Nether Roof, specically in Incendium Biomes"
 			tasks: [{
 				id: "4C600B94BF8D1FF4"
 				observe_type: 0
@@ -1038,7 +1072,7 @@
 				to_observe: "molten_vents:dormant_molten_scorchia"
 				type: "observation"
 			}]
-			title: "Find a Scoria Vent"
+			title: "Find a Scorchia Vent"
 			x: -6.0d
 			y: 3.0d
 		}
@@ -1128,6 +1162,10 @@
 		}
 		{
 			dependencies: ["0BE45E37D29D38DC"]
+			description: [
+				""
+				"{image:ftb:textures/debris_vent.png width:226 height:150 align:center}"
+			]
 			icon: "molten_vents:dormant_molten_ancient_debris"
 			id: "6C99623FD144B074"
 			rewards: [{
@@ -1243,6 +1281,10 @@
 		}
 		{
 			dependencies: ["3F3C7C3F33BB9E64"]
+			description: [
+				""
+				"{image:ftb:textures/resonite_vent.png width:226 height:150 align:center}"
+			]
 			icon: "molten_vents:dormant_molten_resonite"
 			id: "66C50363340B22B0"
 			rewards: [{
@@ -1333,6 +1375,10 @@
 		}
 		{
 			dependencies: ["705EE64085E20FA2"]
+			description: [
+				""
+				"{image:ftb:textures/aubrum_vent.png width:226 height:150 align:center}"
+			]
 			icon: "molten_vents:dormant_molten_aubrum"
 			id: "3B0CEEDC47C9AFAE"
 			rewards: [{
@@ -1454,6 +1500,10 @@
 		}
 		{
 			dependencies: ["02912A82870B46F7"]
+			description: [
+				""
+				"{image:ftb:textures/stellaris_vent.png width:226 height:150 align:center}"
+			]
 			icon: "molten_vents:dormant_molten_stellaris"
 			id: "3C81772B0834E434"
 			rewards: [{
@@ -1559,6 +1609,10 @@
 		}
 		{
 			dependencies: ["144708074CDF64FA"]
+			description: [
+				""
+				"{image:ftb:textures/pyroclast_vent.png width:226 height:150 align:center}"
+			]
 			icon: "molten_vents:dormant_molten_pyroclast"
 			id: "0526FF8AE3C0EA67"
 			rewards: [{
@@ -1664,6 +1718,10 @@
 		}
 		{
 			dependencies: ["12C5A144E9E919A0"]
+			description: [
+				""
+				"{image:ftb:textures/frostite_vent.png width:226 height:150 align:center}"
+			]
 			icon: "molten_vents:dormant_molten_frostite"
 			id: "350F1E84CF8BB524"
 			rewards: [{
@@ -1753,6 +1811,10 @@
 		}
 		{
 			dependencies: ["4770A2BCE4F356A2"]
+			description: [
+				""
+				"{image:ftb:textures/radiantite_vent.png width:226 height:150 align:center}"
+			]
 			icon: "molten_vents:dormant_molten_radiantite"
 			id: "0886729EE4407B1B"
 			rewards: [{
@@ -1858,6 +1920,10 @@
 		}
 		{
 			dependencies: ["4770A2BCE4F356A2"]
+			description: [
+				""
+				"{image:ftb:textures/void_shale_vent.png width:226 height:150 align:center}"
+			]
 			icon: "molten_vents:dormant_molten_void_shale"
 			id: "177FD83E945AE2BE"
 			rewards: [{
@@ -1947,6 +2013,10 @@
 		}
 		{
 			dependencies: ["4770A2BCE4F356A2"]
+			description: [
+				""
+				"{image:ftb:textures/palerock_vent.png width:226 height:150 align:center}"
+			]
 			icon: "molten_vents:dormant_molten_palerock"
 			id: "0F87A00F314DD547"
 			rewards: [{
@@ -2036,6 +2106,10 @@
 		}
 		{
 			dependencies: ["6CA23EC46D870FBD"]
+			description: [
+				""
+				"{image:ftb:textures/pearlyte_vent.png width:226 height:150 align:center}"
+			]
 			icon: "molten_vents:dormant_molten_pearlyte"
 			id: "6AE156D8DE1D619A"
 			rewards: [{
@@ -2141,6 +2215,10 @@
 		}
 		{
 			dependencies: ["40DB7FDC0CC426FF"]
+			description: [
+				""
+				"{image:ftb:textures/amberlite_vent.png width:226 height:150 align:center}"
+			]
 			icon: "molten_vents:dormant_molten_amberlite"
 			id: "2589CF5251858E63"
 			rewards: [{
@@ -2230,6 +2308,10 @@
 		}
 		{
 			dependencies: ["0988690A536B7D19"]
+			description: [
+				""
+				"{image:ftb:textures/guanite_vent.png width:226 height:150 align:center}"
+			]
 			icon: "molten_vents:dormant_molten_guanite"
 			id: "229D3F7596608800"
 			rewards: [{
@@ -2319,6 +2401,10 @@
 		}
 		{
 			dependencies: ["434A80C989CFB176"]
+			description: [
+				""
+				"{image:ftb:textures/uraniumnite_vent.png width:226 height:150 align:center}"
+			]
 			icon: "molten_vents:dormant_molten_uraniumnite"
 			id: "70DF75B6AEEF8D39"
 			rewards: [{
@@ -2408,6 +2494,10 @@
 		}
 		{
 			dependencies: ["434A80C989CFB176"]
+			description: [
+				""
+				"{image:ftb:textures/sulphite_vent.png width:226 height:150 align:center}"
+			]
 			icon: "molten_vents:dormant_molten_sulphite"
 			id: "19D60673B8DCB77D"
 			rewards: [{
@@ -2497,6 +2587,10 @@
 		}
 		{
 			dependencies: ["42CE6455938E37CF"]
+			description: [
+				""
+				"{image:ftb:textures/neodyrium_vent.png width:226 height:150 align:center}"
+			]
 			icon: "molten_vents:dormant_molten_neodymrium"
 			id: "08A5AEA1CB0268D8"
 			rewards: [{
@@ -2586,6 +2680,10 @@
 		}
 		{
 			dependencies: ["42CE6455938E37CF"]
+			description: [
+				""
+				"{image:ftb:textures/azurnium_vent.png width:226 height:150 align:center}"
+			]
 			icon: "molten_vents:dormant_molten_azurnium"
 			id: "1F8D8293900A159B"
 			rewards: [{
@@ -2694,6 +2792,32 @@
 			}]
 			x: -18.0d
 			y: 1.5d
+		}
+		{
+			dependencies: ["7AC47553B491EE76"]
+			icon: "alexscaves:small_peppermint"
+			id: "77EB3AE60F0E8FEA"
+			shape: "hexagon"
+			tasks: [{
+				dimension: "forge_frontier:candy_cavity"
+				id: "719C8CDFA8E1BAF6"
+				type: "dimension"
+			}]
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["77EB3AE60F0E8FEA"]
+			id: "3766F65079B7D5AA"
+			subtitle: "This Quest is a placeholder for the future planned Lost Debris Vent"
+			tasks: [{
+				id: "0788D6262C38779A"
+				title: "Check"
+				type: "checkmark"
+			}]
+			title: "Lost Debris Vent Placeholder"
+			x: 20.0d
+			y: 3.0d
 		}
 	]
 	title: "Molten Vents"
