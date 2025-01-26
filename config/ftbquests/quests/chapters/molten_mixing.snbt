@@ -130,6 +130,19 @@
 			dependencies: ["47E39076A0C217BC"]
 			hide_dependent_lines: true
 			id: "6916711BCA96011B"
+			rewards: [
+				{
+					count: 2
+					id: "60A54EFFFB219733"
+					item: "forge_frontier:mold_template"
+					type: "item"
+				}
+				{
+					id: "09FBD858777D59D8"
+					type: "xp"
+					xp: 50
+				}
+			]
 			subtitle: "Obtained by heating compacting the below ingredient"
 			tasks: [{
 				id: "00F354514AE5AAF5"
@@ -141,7 +154,28 @@
 		}
 		{
 			dependencies: ["4E617BFE2D9497FF"]
+			description: [
+				"Your first step into the world of Molten Mixing starts with Compressed 2x Sand—the essential ingredient for crafting your very first mold template. This versatile template serves as the foundation for creating a variety of specialized molds, each tailored to unlock unique crafting possibilities."
+				""
+				"By combining the base mold template with specific compacted items, you'll gain access to an array of custom mold templates, designed to streamline your crafting process and elevate your automation to the next level."
+				""
+				"Embrace the challenge, gather your materials, and take the first step toward mastering this innovative system. The path to limitless creativity and efficiency begins here! 🔧✨"
+			]
 			id: "47E39076A0C217BC"
+			rewards: [
+				{
+					count: 3
+					id: "4789504A70D0E44F"
+					item: "createcompression:compressed_sand_2x"
+					type: "item"
+				}
+				{
+					id: "7C09A6A632659CC4"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "First Step in Creating Molds, Click me for more info!"
 			tasks: [{
 				id: "0998D1CD8D7B3531"
 				item: "createcompression:compressed_sand_2x"
@@ -151,11 +185,26 @@
 			y: -2.5d
 		}
 		{
+			description: [
+				"Unleash the full potential of innovation with Molten Mixing, a feature crafted exclusively for the Create - Forge Frontier modpack. This groundbreaking system introduces a revolutionary approach to crafting, allowing you to transform molten ores into valuable items with unmatched efficiency."
+				""
+				"In this chapter, you’ll learn to master the art of creating mold templates, the key to unlocking the true power of molten mixing. By combining these molds with various molten ores, you can produce essential items at half the standard cost, providing a game-changing advantage to your crafting and automation endeavors."
+				""
+				"Molten Mixing redefines resource management, offering players an immersive, cost-effective, and creative solution for crafting. From maximizing your ore processing efficiency to elevating your industrial workflow, this system embodies the ingenuity of Create."
+				""
+				"Dive into this transformative process, refine your skills, and let Molten Mixing lead the way to a new era of industrial mastery. The future of crafting innovation awaits—are you ready? 🔥Welcome to Forge Frontier's Molten Mixing. Custom to this pack I have developed a new form of molten mixing the molten ores into different items. Below you will learn how to make all the different types of mold templates, which when mixed with different molten ores you will be able to craft different items at half the standard cost."
+			]
 			hide_dependent_lines: true
 			icon: "forge_frontier:mold_template"
 			id: "4E617BFE2D9497FF"
+			rewards: [{
+				id: "66F9FD81F2837081"
+				item: "createcompression:compressed_sand_1x"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 2.0d
+			subtitle: "Molten Mixing is the key to processing molten ores into items, Click me for more info!"
 			tasks: [{
 				id: "60137E686497F3D8"
 				item: "minecraft:sand"
@@ -576,6 +625,19 @@
 				"70801F2C6762E707"
 			]
 			id: "4F582469D2898DCD"
+			rewards: [
+				{
+					id: "469499D5D20B5F14"
+					item: "createcompression:compressed_sand_1x"
+					type: "item"
+				}
+				{
+					id: "37D8F7C95A589591"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Combine with a Molten Ore of your choice to craft a new helmet, at half the cost"
 			tasks: [{
 				id: "741C1A62E5A69E14"
 				item: "forge_frontier:helmet_mold"
@@ -590,6 +652,19 @@
 				"3CC1A14FD175E5B0"
 			]
 			id: "6B524CDBE7381298"
+			rewards: [
+				{
+					id: "398A209B533E4651"
+					item: "createcompression:compressed_sand_1x"
+					type: "item"
+				}
+				{
+					id: "28704FCF1F7040E7"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Combine with a Molten Ore of your choice to craft a new chestplate, at half the cost"
 			tasks: [{
 				id: "37950EDF0DC3DC00"
 				item: "forge_frontier:chestplate_mold"
@@ -604,6 +679,19 @@
 				"2B04087E4B55BD66"
 			]
 			id: "4E318C593DDF6708"
+			rewards: [
+				{
+					id: "6DF561069EC07847"
+					item: "createcompression:compressed_sand_1x"
+					type: "item"
+				}
+				{
+					id: "2060B584BF386783"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Combine with a Molten Ore of your choice to craft new leggings, at half the cost"
 			tasks: [{
 				id: "46C040C6ED81CCBD"
 				item: "forge_frontier:leggings_mold"
@@ -618,6 +706,19 @@
 				"7864415543BF30D2"
 			]
 			id: "5867BC7405687388"
+			rewards: [
+				{
+					id: "4CBBD0236D807A4B"
+					item: "createcompression:compressed_sand_1x"
+					type: "item"
+				}
+				{
+					id: "30869DCC7A26F8AC"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Combine with a Molten Ore of your choice to craft new boots, at half the cost"
 			tasks: [{
 				id: "2CC45A18C81256B3"
 				item: "forge_frontier:boots_mold"
@@ -632,6 +733,19 @@
 				"314B7129D8A8098F"
 			]
 			id: "4B2A757A16DCD6A6"
+			rewards: [
+				{
+					id: "6E6A457D173EA534"
+					item: "createcompression:compressed_sand_1x"
+					type: "item"
+				}
+				{
+					id: "483229B2C38BCD25"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Combine with a Molten Ore of your choice and a stick, to craft a new sword, at half the cost"
 			tasks: [{
 				id: "087A436C02B8D4DB"
 				item: "forge_frontier:sword_mold"
@@ -646,6 +760,19 @@
 				"6BF02ED96BEB997E"
 			]
 			id: "3BCDA7DB65FF8099"
+			rewards: [
+				{
+					id: "7AB0D0F3933E9857"
+					item: "createcompression:compressed_sand_1x"
+					type: "item"
+				}
+				{
+					id: "43EE3061404D4287"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Combine with a Molten Ore of your choice and a stick, to craft a new pickaxe, at half the cost"
 			tasks: [{
 				id: "4AE76EB9AC4C1A3F"
 				item: "forge_frontier:pickaxe_mold"
@@ -660,6 +787,19 @@
 				"429D953735639535"
 			]
 			id: "04902764B74BEFC6"
+			rewards: [
+				{
+					id: "6B8B481450414E68"
+					item: "createcompression:compressed_sand_1x"
+					type: "item"
+				}
+				{
+					id: "11EACC82A5AE183B"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Combine with a Molten Ore of your choice and a stick, to craft a new axe, at half the cost"
 			tasks: [{
 				id: "2AE9F63D992AB069"
 				item: "forge_frontier:axe_mold"
@@ -674,6 +814,19 @@
 				"5DBA9D34B1E81E4A"
 			]
 			id: "1BE771303F5C3DF2"
+			rewards: [
+				{
+					id: "2CF34CF07F438989"
+					item: "createcompression:compressed_sand_1x"
+					type: "item"
+				}
+				{
+					id: "3BA609A411FE07C3"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Combine with a Molten Ore of your choice and a stick, to craft a new shovel, at half the cost"
 			tasks: [{
 				id: "24C086D1A178488D"
 				item: "forge_frontier:shovel_mold"
@@ -688,6 +841,19 @@
 				"1F20E13A9D757020"
 			]
 			id: "0E8C8ED89BE7D1A4"
+			rewards: [
+				{
+					id: "22AB04C001043603"
+					item: "createcompression:compressed_sand_1x"
+					type: "item"
+				}
+				{
+					id: "6E2C2556AAF9EE7F"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Combine with a Molten Ore of your choice and a stick, to craft a new hoe, at half the cost"
 			tasks: [{
 				id: "1226EBF7883E6C8B"
 				item: "forge_frontier:hoe_mold"
@@ -702,6 +868,19 @@
 				"630A83317380F436"
 			]
 			id: "2917F4D6D64E2523"
+			rewards: [
+				{
+					id: "020A6CBBE73DEDB8"
+					item: "createcompression:compressed_sand_1x"
+					type: "item"
+				}
+				{
+					id: "5313F09D215A5F4F"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Combine with Molten Carbon and a log, to craft coal from logs and charcoal"
 			tasks: [{
 				id: "53313208878E2C30"
 				item: "forge_frontier:coal_mold"
@@ -716,6 +895,19 @@
 				"542D9201CD969EB6"
 			]
 			id: "50D3F739C00347B6"
+			rewards: [
+				{
+					id: "2DC3B25D71892DC8"
+					item: "createcompression:compressed_sand_1x"
+					type: "item"
+				}
+				{
+					id: "2D5C215D722C45BC"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Combine with a Molten Ore of your choice to convert into a gem, perfect for max ore processing output, which doubles production of ore."
 			tasks: [{
 				id: "74E4B1312CB7017A"
 				item: "forge_frontier:gem_mold"
@@ -730,6 +922,19 @@
 				"4FC08E705B9B7CCE"
 			]
 			id: "01DDF791C91D5D96"
+			rewards: [
+				{
+					id: "777C5F477199C642"
+					item: "createcompression:compressed_sand_1x"
+					type: "item"
+				}
+				{
+					id: "18BEF6CD015B6043"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Combine with a Molten Ore of your choice to convert into an ingot, perfect for max ore processing output, which doubles production of ore."
 			tasks: [{
 				id: "16CB28983C2D9616"
 				item: "forge_frontier:ingot_mold"
@@ -744,6 +949,19 @@
 				"238C42E232A54937"
 			]
 			id: "7E76CA3AF1B7AD83"
+			rewards: [
+				{
+					id: "517B352BDF1867BC"
+					item: "createcompression:compressed_sand_1x"
+					type: "item"
+				}
+				{
+					id: "59C1FE5BF09555AE"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Combine with a Molten Ore of your choice to convert into a block, perfect for max ore processing output, which doubles production of ore."
 			tasks: [{
 				id: "5E1C533EC86DCEDE"
 				item: "forge_frontier:block_mold"
@@ -758,6 +976,19 @@
 				"4BE14CD75962B61B"
 			]
 			id: "570C7F27303576D9"
+			rewards: [
+				{
+					id: "33DE6B79BDA3D821"
+					item: "createcompression:compressed_sand_1x"
+					type: "item"
+				}
+				{
+					id: "4598194548BA9ADD"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Combine with Molten Carbon, Molten Marrow, and Compressed 2x XP to craft wither skeleton skulls, or combine with Molten Marrow to craft skeleton skulls."
 			tasks: [{
 				id: "0829C4CE51DF9A26"
 				item: "forge_frontier:skull_mold"
@@ -772,6 +1003,19 @@
 				"263CC48061537631"
 			]
 			id: "17800ED11897F11D"
+			rewards: [
+				{
+					id: "48ADEAF3DF479C41"
+					item: "createcompression:compressed_sand_1x"
+					type: "item"
+				}
+				{
+					id: "6C3E5AB061F3AD8B"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Combine with a Molten Ore of your choice to craft the different tiers of netherite templates"
 			tasks: [{
 				id: "1E6387AFEE052D8D"
 				item: "forge_frontier:upgrade_mold"
@@ -786,6 +1030,19 @@
 				"1F6EFC75B5F4F10A"
 			]
 			id: "0B96758023560424"
+			rewards: [
+				{
+					id: "457351DCC574ECD1"
+					item: "createcompression:compressed_sand_1x"
+					type: "item"
+				}
+				{
+					id: "3A0BD289D9D73B4C"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Combine with Compressed 2x XP and Dragons Breath to craft dragon heads"
 			tasks: [{
 				id: "1B5CAE79FC98927D"
 				item: "forge_frontier:head_mold"
