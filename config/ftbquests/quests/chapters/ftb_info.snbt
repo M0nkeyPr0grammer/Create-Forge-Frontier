@@ -35,6 +35,7 @@
 				""
 				"Follow the gear icons to forge your path, complete exciting quests, and make every milestone count—FTB Quests turns your Minecraft journey into a thrilling and organized adventure! ✨"
 			]
+			icon: "ftbquests:book"
 			id: "6F8E433E11AB988B"
 			rewards: [
 				{
@@ -73,13 +74,7 @@
 				""
 				"Take control of your journey, create your perfect network of homes, and enjoy the freedom to explore without losing your footing. Your world, your way! ✨"
 			]
-			icon: {
-				Count: 1
-				id: "alexscaves:gingerbread_helmet"
-				tag: {
-					Damage: 0
-				}
-			}
+			icon: "handcrafted:oak_fancy_bed"
 			id: "0152665A72057299"
 			rewards: [{
 				id: "626F3B3A4B320CEB"
