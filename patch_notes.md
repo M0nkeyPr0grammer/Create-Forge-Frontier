@@ -26,8 +26,10 @@ The Create - Forge Frontier 2.1.0 update is here! Packed with enhanced quests, e
 ## Quest Updates/Additions
 - **Chapters**: Adjusted Chapter Order to make more sense
 - **Create - Forge Frontier**: Adjusted Image Sizes
+- **FTB Info**: Completed Quests
 - **Informational**: Added New Quest Pages for future quests
-- **Molten Vents**: Linked Fluids to Quests, for easier navigation
+- **Create**: New Quests, will be complete by update
+- **Molten Vents**: Linked Fluids to Quests, for easier navigation, and updated biomes for a few vents.
 - **Milkshakes**: Adjusted Dependencies, and Completed Quests
 - **Chocolates**: Completed Quests 
 - **Liquid Fuels**: Completed Quests
@@ -37,16 +39,28 @@ The Create - Forge Frontier 2.1.0 update is here! Packed with enhanced quests, e
 - **Molten Mixing**: Started Quests, will complete later
 
 ## KubeJS Updates
-- **Ad Astra**: Removed Freezes in Space and Evaporates in Space fluid tags from water to Fix Integrated Cataclysm Create Contraptions in Space
-- **Cataclysm**: Merged our Cataclysm Structure Data Tweaks with the mod side Cataclysm Structures changes, tweaked structure generation to make sure structures generate on the surface.
+- **Power Loaders(Chunk Loaders)**: Changed Recipes for Andesite and Brass Chunk Loaders to better match the pack, as previous recipe was made for Landscapes Reimagined Forge Frontier
+- **Curios**:
+  - Removed Helium Flamingo Access, due to game breaking mix with another relic
+  - Adjusted Curios Tags for Obsidian Skull, Antidote Vessel, Crystal Heart
+  - Removed Belt Tag from Advanced Terminal to make sure it can only its custom terminal slot
+- **Ad Astra**: 
+  - Removed Freezes in Space and Evaporates in Space fluid tags from water to Fix Integrated Cataclysm Create Contraptions in Space
+  - Fixed Recipes to use Steel Plates tag
+- **Cataclysm**: 
+  - Merged our Cataclysm Structure Data Tweaks with the mod side Cataclysm Structures changes, tweaked structure generation to make sure structures generate on the surface.
+  - Adjusted Loot Pool for Burning Arena so dying ember is guaranteed 
 - **Dreams & Desires**: Remove Fluid/Lava Interaction Ponders, to remove confusion
 - **Farmers Delight**: Created Rich Soil Create Compat Mixing Recipe
-- **Botany Pots**: Changed Base Botany Pot Recipe to require Rich Soil
+- **Botany Pots**: 
+  - Changed Base Botany Pot Recipe to require Rich Soil
+  - Added Ennegel Ferns to Botany Pots
+  - Adjusted Ad Astra Mushrooms Products
 - **AE2**: Made AE2 Meteorites more rare
 - **Disenchanting Table**: Changed Recipe to use Apotheosis Enchanting
 - **FTB**: Added in new titles and screenshots for quest work
 - **Molten Molding**: Updated recipes for many molten mixing to mold recipes to remove possibility of duping
-- **Molten Vents**: Made non-movable to encourage CarryOn. Replaced Sculk Grime Vent with Resonite Vent (new blocks, resources, and recipes).
+- **Molten Vents**: Made non-movable to encourage CarryOn. Replaced Sculk Grime Vent with Resonite Vent (new blocks, resources, and recipes), and adjusted vent biomes for Ochrum, Verdidium, and Crimsite making them more rare.
 - **Create Integration**:
   - Added Create Goggle Curios Slot and Curios Tag for Create Goggles.
   - Fixed compatibility for Enchantment Industry and Caged Mobs Crystallized Experience.
@@ -54,7 +68,7 @@ The Create - Forge Frontier 2.1.0 update is here! Packed with enhanced quests, e
 - **Forge Frontier**:
   - Added Banana and Ferros Slime to Slime recipes.
   - Tagged Resource Ore Stones with Excavated Variant Stone Type.
-  - Removed Helium Flamingo access and excess Netherite scrap from crushing.
+  - Removed excess Netherite scrap from crushing.
 - **Farming for Blockheads**: Added missing plant compatibility and reorganized market categories.
 - **Apotheosis**: Removed Chainsaw enchantment from Wanderer Trades.
 - **Advanced AE2**: Replaced Quantum Inscriber Recipe with crushing; fixed Sequenced Assembly Recipes for Presses.
@@ -66,6 +80,9 @@ The Create - Forge Frontier 2.1.0 update is here! Packed with enhanced quests, e
 - **Biome Modifiers**: Moved Veridium Vents to Overworld and Crimsite Vents to Plains tags.
 
 ## Config Updates
+- **Natures Compass**: Blacklisted Alexscaves Biomes from the compass
+- **Explorers Compass**: Re-enabled minecraft:ruins to allow Trail Ruins, and Blacklisted Alexcaves Structures, and Integrated Stronghold from the compass
+- **FTB**: Changed Quest Progression Mode from Linear to Flexible to allow for a better experience
 - **Friends & Foes**: Disable Check for Updates Feature
 - **Create Crafts & Additions**: Increased Motor Min Consumption, and Lowered Generator Efficiency
 - **Carryon**: Blacklisted Sophisticated Storage, Backpacks, and Sacks
@@ -75,49 +92,56 @@ The Create - Forge Frontier 2.1.0 update is here! Packed with enhanced quests, e
 - **Quark**: Disabled Hotbar Swapper, and enabled Adjustable Chat
 
 ## Mod Updates
-- **Advanced AE**: v1.0.13> v1.1.0
+- **Advanced AE**: v1.0.13> v1.1.1
 - **Ad Astra Delight**: v1.1.0 > v1.1.1
+- **Ad Astra Giselle Addon**: v6.16 > v6.18
 - **AE2**: v15.3.2 > v15.3.3
 - **AE Delight**: v1.0.4 > v1.0.4.1
 - **Alex's Caves Delight**: v1.0.23 > v1.0.24
 - **Apotheosis**: v7.4.3 > 7.4.4
 - **Balm**: v7.3.10 > v7.3.11
-- **Cataclysm**: v2.27 > v2.39
+- **Cataclysm**: v2.27 > v2.43
+- **Collectors Reap**: v1.3.2 > v1.3.3
 - **Connectivity**: v6.3 > v6.5
+- **Corpse**: v1.0.19 > v1.0.20
 - **Create Contraption Terminals**: v1.0.1 > v1.1.0 
 - **Create Crafts and Additions**: v1.2.4e > v1.2.5
 - **Create Stuff and Additions**: v2.0.5 > v2.0.6
-- **Creative Core**: v2.28 > v2.30
+- **Creative Core**: v2.28 > v2.31
 - **Curios**: v5.11.0 > v5.11.1
 - **Deeper Darker Delight**: v1.2.1 > v1.2.2
 - **Delightful**: v3.6.1 > v3.6.2
 - **EMI**: v1.1.18 > v1.1.19
-- **Every Compat**: v2.7.10 > v2.7.12
-- **Extended AE**: v1.3.2 > v1.3.3
+- **Every Compat**: v2.7.10 > v2.7.14
+- **Extended AE**: v1.3.2 > v1.3.4
 - **Fast Async**: v2.1 > v2.3
 - **Friends and Foes**: v3.0.6 > v3.0.7
 - **FTB Library**: v2001.2.6 > v2001.2.7
-- **Fusion**: v1.1.1 > v1.2.2
+- **Fusion**: v1.1.1 > v1.2.3
 - **Guard Villagers**: v1.6.9 > v1.6.10
+- **Immediately Fast**: v1.3.3 > v1.3.4
 - **Immersive Aircraft**: v1.1.7 > v1.1.8
 - **Integrated Stronghold**: v1.1.1 > v1.1.2
+- **Jade**: v11.12.2 > v11.12.3
 - **JEI**: v15.20.0.105 > v15.20.0.106
 - **Lithostitched**: v1.3.10 > v1.4
-- **Moonlight**: v2.13.45 > v2.13.51
+- **Memory Settings**: v5.5 > v5.9
+- **Modern Fix**: v5.20.0 > v5.20.2
+- **Moonlight**: v2.13.45 > v2.13.53
 - **Naturalist Delight**: v1.0.3.1 > v1.0.3.2
 - **Not Enough Animations**: v1.9.0 > v1.9.1
-- **Oculus**: v1.7 > v1.8
-- **Oculus Flywheel Compat**: v1.1.2 > v1.1.4
 - **Pattern Schematics**: v1.1.16 > v1.1.19
 - **Recipe Essentials**: v3.6 > v3.9
 - **Respawning Structures**: v3.3 > v3.5
 - **Rubidium Extra**: v0.5.4.3 > v0.5.4.4
-- **Smoothchunk**: v3.8 > v3.9
-- **Sophisticated Backpacks**: v3.21.2.1163 > v3.22.0.1172
-- **Sophisticated Core**: v1.0.6.824 > v1.1.1.837
-- **Sophisticated Storage**: v1.0.7.1000 > v1.1.0.1036
+- **Smoothchunk**: v3.8 > v4.0
+- **Sophisticated Backpacks**: v3.21.2.1163 > v3.22.0.1179
+- **Sophisticated Core**: v1.0.6.824 > v1.1.1.841
+- **Sophisticated Storage**: v1.0.7.1000 > v1.1.0.1046
 - **Structure Credits**: v1.7 > v2.2.1
+- **Structure Essentials**: v3.4 > v4.1
 - **Toms Simple Storage**: v1.6.9 > v1.7.0
+- **Xaero's Minimap**: v24.7.1 > v250.0.
 
 ## Drippy Loading Screen Updates
 - Updated version number to 2.1.0
