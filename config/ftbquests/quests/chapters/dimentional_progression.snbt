@@ -519,11 +519,26 @@
 			y: 0.0d
 		}
 		{
+			description: [
+				"Your adventure begins in the Overworld, a vibrant land filled with resources, custom biomes, and structures to explore. As you progress, uncover the mysteries of Nether Remastered, where unique Overworld structures and special loot pave the way to unlocking the Nether itself—a fiery dimension of danger and reward."
+				""
+				"Take your first step toward the stars with the Tier 1 Rocket, granting access to the Ad Astra Planets, where each new world presents unique challenges and opportunities for resource gathering. Venture deeper into the shadows by defeating the Warden, unlocking the portal to the Otherside, an eerie dimension teeming with dark secrets."
+				"{@pagebreak}"
+				"The reimagined End Remastered introduces new mechanics and progression, leading to an intense Dragon Fight in the revamped End Dimension, where improved terrain adds depth to your exploration. From there, craft the Tier 5 Rocket using rare treasures from the End to journey to the Alex’s Caves Planets, each housing a unique biome with extraordinary resources."
+				""
+				"Finally, assemble the ultimate Forge Rocket, a masterpiece of engineering forged from all aspects of the pack, setting the stage for future adventures on the mysterious Forge Planet. This chapter is your guide through the dimensions and the stars—conquer each challenge, unlock new realms, and prepare for the ultimate journey! 🌌🔥"
+			]
 			hide_dependent_lines: true
 			icon: "ad_astra:earth_globe"
 			id: "4FA0AF313BCCF95C"
+			rewards: [{
+				id: "3F55AEEEC97DE53A"
+				type: "xp"
+				xp: 25
+			}]
 			shape: "gear"
 			size: 3.0d
+			subtitle: "Embark on a Journey Through Realms and Beyond 🚀 Click me to learn more!"
 			tasks: [{
 				id: "562A4F1773C428C3"
 				title: "Dimensional Progression"
