@@ -291,7 +291,7 @@
 				"{@pagebreak}"
 				"{image:ftb:textures/hopoportal.png width:192 height:100 align:center}"
 				"Read more about Nether Remastered in its  "
-				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"486542BF23253839\" } }"
+				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"72FE4921BBC7E437\" } }"
 			]
 			icon: "nether_remastered:seal_of_the_underworld_item"
 			id: "486291562456D10A"
@@ -314,19 +314,11 @@
 				}
 			]
 			subtitle: "Nether Remastered: Unlock the Fiery Gates 🔥 Click me for more info!"
-			tasks: [
-				{
-					id: "67812FE4D3BBDC91"
-					item: "nether_remastered:seal_of_the_underworld_item"
-					type: "item"
-				}
-				{
-					advancement: "nether_remastered:seal_of_the_underworld"
-					criterion: ""
-					id: "02A24C5E5402A3BD"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				id: "276FF0A7C1E3F193"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
 			x: -7.5d
 			y: 0.0d
 		}
