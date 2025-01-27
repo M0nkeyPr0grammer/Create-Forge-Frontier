@@ -142,7 +142,7 @@
 				item: "minecraft:netherite_block"
 				type: "item"
 			}]
-			subtitle: "Obtained by mixing the below ingredients"
+			subtitle: "Obtained by mixing the below ingredients, Click me for more info!"
 			tasks: [{
 				id: "20B39381599EBBBC"
 				item: "createaddition:bioethanol_bucket"
@@ -266,7 +266,7 @@
 				item: "minecraft:echo_shard"
 				type: "item"
 			}]
-			subtitle: "Obtained by processing the below ingredients in a cryofreezer"
+			subtitle: "Obtained by processing the below ingredients in a cryofreezer, Click me for more info!"
 			tasks: [{
 				id: "746940CFCDB225E3"
 				item: "ad_astra:cryo_fuel_bucket"
@@ -315,7 +315,7 @@
 				item: "ad_astra:desh_block"
 				type: "item"
 			}]
-			subtitle: "Obtained by compacting the below ingredients"
+			subtitle: "Obtained by compacting the below ingredients, Click me for more info!"
 			tasks: [{
 				id: "1157CD2AA4E5FF68"
 				item: "createdieselgenerators:plant_oil_bucket"
@@ -351,7 +351,7 @@
 				item: "ad_astra:ostrum_block"
 				type: "item"
 			}]
-			subtitle: "Obtained by basin processing the below ingredients"
+			subtitle: "Obtained by basin processing the below ingredients, Click me for more info!"
 			tasks: [{
 				id: "7F19148A7A1BBB3D"
 				item: "createdieselgenerators:ethanol_bucket"
@@ -412,7 +412,7 @@
 				item: "ad_astra:calorite_block"
 				type: "item"
 			}]
-			subtitle: "Obtained by mixing the below ingredients"
+			subtitle: "Obtained by mixing the below ingredients, Click me for more info!"
 			tasks: [{
 				id: "233A3C479F695C62"
 				item: "createdieselgenerators:biodiesel_bucket"
@@ -537,7 +537,7 @@
 				item: "ad_astra:fuel_bucket"
 				type: "item"
 			}]
-			subtitle: "Obtained by heated mixing the below ingredients"
+			subtitle: "Obtained by heated mixing the below ingredients, Click me for more info!"
 			tasks: [{
 				id: "7D77A1AF40ECA8AA"
 				item: "ad_astra:fuel_bucket"
