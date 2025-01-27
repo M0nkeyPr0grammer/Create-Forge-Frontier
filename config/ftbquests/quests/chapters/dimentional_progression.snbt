@@ -416,8 +416,9 @@
 				"{@pagebreak}"
 				"{image:ftb:textures/endframe_screenshot.png width:192 height:100 align:center}"
 				"Read more about End Remastered in its "
-				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0135EFA96E7A28A2\" } }"
+				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"55E1F170D9933E8F\" } }"
 			]
+			icon: "minecraft:end_portal_frame"
 			id: "09EEADB48E883801"
 			rewards: [{
 				id: "38BE604092AB7681"
@@ -426,10 +427,9 @@
 			}]
 			subtitle: "End Remastered: A Journey Redefined for Forge Frontier ✨ Click me for more info!"
 			tasks: [{
-				advancement: "endrem:main/root"
-				criterion: ""
-				id: "140AB7232905B2FD"
-				type: "advancement"
+				id: "7239EA06CCC9AF48"
+				item: "minecraft:ender_pearl"
+				type: "item"
 			}]
 			title: "End Remastered"
 			x: 1.5d
