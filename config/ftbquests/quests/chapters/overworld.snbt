@@ -5,36 +5,25 @@
 	group: "1CB9F27D7DE0AEE8"
 	icon: "minecraft:grass_block"
 	id: "0684E7A732E3B8B1"
-	images: [
-		{
-			height: 10.0d
-			image: "ftb:textures/overworld_title.png"
-			rotation: 0.0d
-			width: 15.0d
-			x: 0.0d
-			y: -9.5d
-		}
-		{
-			height: 10.0d
-			image: "ftb:textures/coming_soon.png"
-			rotation: 0.0d
-			width: 15.0d
-			x: 0.0d
-			y: 0.0d
-		}
-	]
-	order_index: 0
+	images: [{
+		height: 10.0d
+		image: "ftb:textures/overworld_title.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 0.0d
+		y: -9.5d
+	}]
+	order_index: 1
 	quest_links: [ ]
 	quests: [{
-		id: "5EDC9934E7D346D8"
+		id: "49AE9AC116F1D962"
 		tasks: [{
 			dimension: "minecraft:overworld"
-			icon: "minecraft:grass_block"
-			id: "51C81A34247BF70B"
+			id: "1F93F487D64FE376"
 			type: "dimension"
 		}]
 		x: 0.0d
-		y: -3.5d
+		y: -4.5d
 	}]
 	title: "Overworld"
 }
