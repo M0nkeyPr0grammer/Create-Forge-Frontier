@@ -13,7 +13,7 @@
 		{
 			click: "#0A1C7563FC03C5F6"
 			height: 15.0d
-			hover: ["Tier 1 Rocket"]
+			hover: ["Tier 1 Rocket, Click image for more info!"]
 			image: "ftb:textures/tier_1.png"
 			rotation: 0.0d
 			width: 10.95d
@@ -380,7 +380,7 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "Click me to read more"
+			subtitle: "Click me for more info!"
 			tasks: [
 				{
 					id: "4416E9F47934E8B8"
@@ -421,6 +421,19 @@
 			description: ["Get ready for liftoff! The Tier 1 Rocket from Ad Astra will be your ticket to the moon, where an otherworldly adventure awaits! Brace yourself to explore mysterious lunar structures, uncover hidden treasures, and mine rare Desh Ore amidst the lunar dust. Keep an eye out for the elusive Aubrum Molten Ore Vents, bubbling with precious resources—process these vents to unlock the true power of Desh! The moon is filled with secrets, so suit up and prepare for a cosmic journey like no other!"]
 			hide_dependent_lines: true
 			id: "0A1C7563FC03C5F6"
+			rewards: [
+				{
+					id: "6E309BAAF0D64DBD"
+					item: "ad_astra:steel_block"
+					type: "item"
+				}
+				{
+					id: "5303A8CCECF471D8"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Click me for more info!"
 			tasks: [{
 				id: "568E15F89F00A543"
 				title: "Tier 1 Rocket"

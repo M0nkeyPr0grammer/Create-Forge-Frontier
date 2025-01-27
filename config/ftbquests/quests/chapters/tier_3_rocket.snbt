@@ -13,7 +13,7 @@
 		{
 			click: "#4F05B719FF46DED2"
 			height: 15.0d
-			hover: ["Tier 3 Rocket"]
+			hover: ["Tier 3 Rocket, Click image for more info!"]
 			image: "ftb:textures/tier_3.png"
 			rotation: 0.0d
 			width: 10.05d
@@ -419,6 +419,19 @@
 			description: ["Prepare for the ultimate lift-off with the Tier 3 Rocket, unlocking the scorching worlds of Mercury and Venus! Strap in and ignite the engines for a journey to Mercury, where hidden structures and rare treasures await beneath the intense solar glare. But the adventure doesn’t stop there—Venus holds even more, with mysterious ruins and loot, along with rare Calorite and Pyroclast Molten Vents, filled with minerals that can later be refined into powerful Calorite. These fiery worlds are brimming with untold riches and challenges for the bold—are you ready to soar into the heart of the solar system?"]
 			hide_dependent_lines: true
 			id: "4F05B719FF46DED2"
+			rewards: [
+				{
+					id: "36DF50BBD5A3388F"
+					item: "ad_astra:ostrum_block"
+					type: "item"
+				}
+				{
+					id: "05AB5CC4D40E5BD4"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Click me for more info!"
 			tasks: [{
 				id: "07E7DFF0AFE16C8A"
 				title: "Tier 3 Rocket"
