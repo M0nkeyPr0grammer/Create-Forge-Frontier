@@ -66,6 +66,7 @@
 				"47F2883F0BBABEE8"
 				"03DA3832CB5BF4DC"
 			]
+			description: ["Crafted Using Mechanical Crafters"]
 			id: "53D3EEC1993AF3D6"
 			rewards: [
 				{
@@ -79,6 +80,7 @@
 					xp_levels: 5
 				}
 			]
+			subtitle: "Forged by the first blacksmiths of creation, this eye is a relic of their divine craftsmanship. It glows with the fire of creation itself. Click me for more info! "
 			tasks: [{
 				id: "4C44E96AE52088D8"
 				item: {

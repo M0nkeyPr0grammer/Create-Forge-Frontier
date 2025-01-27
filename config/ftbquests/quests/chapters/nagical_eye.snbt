@@ -46,6 +46,7 @@
 	quests: [
 		{
 			dependencies: ["73DF623736B936E9"]
+			description: ["Obtained by Enchanting "]
 			id: "73E9EC9FED2830A0"
 			rewards: [
 				{
@@ -65,6 +66,7 @@
 					xp_levels: 5
 				}
 			]
+			subtitle: "The heart of the Evoker’s dark arts, this enchanted eye brims with raw power. Without it, the sorcerer’s magic lies dormant. Click me for more info! "
 			tasks: [{
 				id: "308FEF3A699D5676"
 				item: {

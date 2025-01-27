@@ -66,6 +66,7 @@
 				"3E7F8F12A1F87209"
 				"1DD476F323AF9D27"
 			]
+			description: ["Crafted Using Mechanical Crafters"]
 			id: "3052DCEA1C676846"
 			rewards: [
 				{
@@ -79,6 +80,7 @@
 					xp_levels: 5
 				}
 			]
+			subtitle: "Cast aside in the fiery battle between the Aether and the Nether, this eye pulses with the wrath of a demon. It smolders with unrelenting power. Click me for more info! "
 			tasks: [{
 				id: "2527A5E2E5B3009A"
 				item: {

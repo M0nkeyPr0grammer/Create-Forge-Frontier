@@ -66,6 +66,7 @@
 				"66AC78E230482059"
 				"467C20FB702D4335"
 			]
+			description: ["Crafted Using Mechanical Crafters"]
 			id: "2575E9C7F4C52FA1"
 			rewards: [
 				{
@@ -79,6 +80,7 @@
 					xp_levels: 5
 				}
 			]
+			subtitle: "Guarded fiercely by the Piglins, this artifact is said to wield destructive power. It radiates with a promise of both ruin and might. Click me for more info! "
 			tasks: [{
 				id: "5B1EF03123AD4FC3"
 				item: {

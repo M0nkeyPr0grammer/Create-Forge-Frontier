@@ -56,7 +56,9 @@
 				"72C5251232D5B5BF"
 				"41DE00CAFE8A0BC3"
 			]
+			description: ["Crafted Using Mechanical Crafters"]
 			id: "4EC3592C15DE2599"
+			subtitle: "Taken from the Warden centuries ago, this eye burns with sorrow. Its absence leaves the creature wandering blindly through eternal darkness. Click me for more info! "
 			tasks: [{
 				id: "1A41B2123DF89C68"
 				item: {

@@ -77,6 +77,7 @@
 				"241A742CA12AE2E3"
 				"56C98E29485174A1"
 			]
+			description: ["Crafted Using Mechanical Crafters"]
 			id: "1F79264655FD327E"
 			rewards: [
 				{
@@ -96,7 +97,7 @@
 				}
 			]
 			shape: "pentagon"
-			subtitle: "Crafted Using Mechanical Crafters"
+			subtitle: "Plundered from the depths of legend, this eye granted the Black Pearl its ghostly sight, guiding it through storms and shadows. Click me for more info! "
 			tasks: [{
 				id: "505CB00E0F1509CA"
 				item: {

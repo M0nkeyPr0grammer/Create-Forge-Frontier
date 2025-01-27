@@ -66,6 +66,7 @@
 				"3B3BBF4DF36E94F5"
 				"1F7976ADA8F4F14F"
 			]
+			description: ["Crafted using Mechanical Crafters"]
 			id: "13FE50BC5ED7CC02"
 			rewards: [
 				{
@@ -79,6 +80,7 @@
 					xp_levels: 5
 				}
 			]
+			subtitle: "Left behind by the elusive Iceologers, this eye holds the last whispers of their frozen magic. It radiates the chill of their vanished realm. Click me for more info! "
 			tasks: [{
 				id: "13DC5B50F38C2683"
 				item: {

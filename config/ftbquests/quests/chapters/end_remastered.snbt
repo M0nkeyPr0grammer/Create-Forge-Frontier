@@ -123,7 +123,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Left behind by the elusive Iceologers, this eye holds the last whispers of their frozen magic. It radiates the chill of their vanished realm."
+			subtitle: "Left behind by the elusive Iceologers, this eye holds the last whispers of their frozen magic. It radiates the chill of their vanished realm. Click me for more info! "
 			tasks: [{
 				id: "54F74342A25DD88D"
 				title: "check"
@@ -152,7 +152,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Cast aside in the fiery battle between the Aether and the Nether, this eye pulses with the wrath of a demon. It smolders with unrelenting power."
+			subtitle: "Cast aside in the fiery battle between the Aether and the Nether, this eye pulses with the wrath of a demon. It smolders with unrelenting power. Click me for more info! "
 			tasks: [{
 				id: "27EE0AC9E77D219B"
 				title: "check"
@@ -181,7 +181,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Torn from the grasp of a mighty Sandworm, this ancient eye carries the essence of deserts long buried by time. It glimmers faintly with the sands of legend."
+			subtitle: "Torn from the grasp of a mighty Sandworm, this ancient eye carries the essence of deserts long buried by time. It glimmers faintly with the sands of legend. Click me for more info! "
 			tasks: [{
 				id: "7ECF60C79A3EEC68"
 				title: "check"
@@ -210,7 +210,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Imbued with the brilliance of our ancestors, this eye once illuminated the birth of Redstone. It hums with the ingenuity of a bygone age."
+			subtitle: "Imbued with the brilliance of our ancestors, this eye once illuminated the birth of Redstone. It hums with the ingenuity of a bygone age. Click me for more info! "
 			tasks: [{
 				id: "5AFB769CB5743393"
 				title: "check"
@@ -239,7 +239,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Guarded fiercely by the Piglins, this artifact is said to wield destructive power. It radiates with a promise of both ruin and might."
+			subtitle: "Guarded fiercely by the Piglins, this artifact is said to wield destructive power. It radiates with a promise of both ruin and might. Click me for more info! "
 			tasks: [{
 				id: "56212865911D1E5B"
 				title: "check"
@@ -268,7 +268,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Revered as a holy artifact, this talisman protects its bearer from misfortune. Its aura wards off curses and dark intentions."
+			subtitle: "Revered as a holy artifact, this talisman protects its bearer from misfortune. Its aura wards off curses and dark intentions. Click me for more info! "
 			tasks: [{
 				id: "73D75A49D1D0858D"
 				title: "check"
@@ -297,7 +297,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Torn from the depths of the sea, this eye has watched countless warriors drown. It gleams with the sorrow of the ocean’s grasp."
+			subtitle: "Torn from the depths of the sea, this eye has watched countless warriors drown. It gleams with the sorrow of the ocean’s grasp. Click me for more info! "
 			tasks: [{
 				id: "7C1348BACF542832"
 				title: "check"
@@ -326,7 +326,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "This eye has guided explorers to their fates, some finding Atlantis, others vanishing forever. Its glimmer hints at the mysteries of the deep."
+			subtitle: "This eye has guided explorers to their fates, some finding Atlantis, others vanishing forever. Its glimmer hints at the mysteries of the deep. Click me for more info! "
 			tasks: [{
 				id: "143D24765B67FADA"
 				title: "check"
@@ -355,7 +355,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Shrouded in enigmatic energy, this eye whispers secrets of a forgotten age. Its gaze sees beyond the veil, unraveling truths that were never meant to be known."
+			subtitle: "Shrouded in enigmatic energy, this eye whispers secrets of a forgotten age. Its gaze sees beyond the veil, unraveling truths that were never meant to be known. Click me for more info! "
 			tasks: [{
 				id: "03C0C5A3BD2F7035"
 				title: "check"
@@ -384,7 +384,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Taken from the Warden centuries ago, this eye burns with sorrow. Its absence leaves the creature wandering blindly through eternal darkness."
+			subtitle: "Taken from the Warden centuries ago, this eye burns with sorrow. Its absence leaves the creature wandering blindly through eternal darkness. Click me for more info! "
 			tasks: [{
 				id: "57A8110A07291177"
 				title: "check"
@@ -413,7 +413,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "The heart of the Evoker’s dark arts, this enchanted eye brims with raw power. Without it, the sorcerer’s magic lies dormant."
+			subtitle: "The heart of the Evoker’s dark arts, this enchanted eye brims with raw power. Without it, the sorcerer’s magic lies dormant. Click me for more info! "
 			tasks: [{
 				id: "21D5ADB69DCD11A2"
 				title: "check"
@@ -442,7 +442,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "A remnant of ancient alchemy, this eye gleamed as it uncovered forbidden brewing arts. Its spark holds the knowledge of lost times."
+			subtitle: "A remnant of ancient alchemy, this eye gleamed as it uncovered forbidden brewing arts. Its spark holds the knowledge of lost times. Click me for more info! "
 			tasks: [{
 				id: "2421A4B940818A5B"
 				title: "check"
@@ -471,7 +471,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "A witness to the destruction of empires, this eye bears the scars of ruin. Its empty gaze holds the echoes of a thousand fallen worlds."
+			subtitle: "A witness to the destruction of empires, this eye bears the scars of ruin. Its empty gaze holds the echoes of a thousand fallen worlds. Click me for more info! "
 			tasks: [{
 				id: "7DB820C32595E0D3"
 				title: "check"
@@ -776,7 +776,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "This eye, once belonging to a king consumed by greed, radiates a dark allure. Its curse promises wealth, but its shadow lingers eternally"
+			subtitle: "This eye, once belonging to a king consumed by greed, radiates a dark allure. Its curse promises wealth, but its shadow lingers eternally. Click me for more info! "
 			tasks: [{
 				id: "14D4B27A993CBDCA"
 				title: "check"
@@ -805,7 +805,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Forged by the first blacksmiths of creation, this eye is a relic of their divine craftsmanship. It glows with the fire of creation itself."
+			subtitle: "Forged by the first blacksmiths of creation, this eye is a relic of their divine craftsmanship. It glows with the fire of creation itself. Click me for more info! "
 			tasks: [{
 				id: "7A1A1516168454BA"
 				title: "check"

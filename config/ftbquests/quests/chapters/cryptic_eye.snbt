@@ -36,6 +36,7 @@
 	quests: [
 		{
 			dependencies: ["2D0E8558F4601424"]
+			description: ["Obtained by Enchanting"]
 			id: "73CBB1994EFB12FD"
 			rewards: [
 				{
@@ -50,6 +51,7 @@
 					xp_levels: 5
 				}
 			]
+			subtitle: "Shrouded in enigmatic energy, this eye whispers secrets of a forgotten age. Its gaze sees beyond the veil, unraveling truths that were never meant to be known. Click me for more info! "
 			tasks: [{
 				id: "397860F5506A9964"
 				item: {

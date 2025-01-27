@@ -66,6 +66,7 @@
 				"654001C24867F118"
 				"7B459C52CF0E2A27"
 			]
+			description: ["Crafted Using Mechanical Crafters"]
 			id: "1EDDECA49014856D"
 			rewards: [
 				{
@@ -89,6 +90,7 @@
 					xp_levels: 5
 				}
 			]
+			subtitle: "Revered as a holy artifact, this talisman protects its bearer from misfortune. Its aura wards off curses and dark intentions. Click me for more info! "
 			tasks: [{
 				id: "7764ACC3B550FF17"
 				item: {

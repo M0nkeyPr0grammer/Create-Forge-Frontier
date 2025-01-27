@@ -36,6 +36,7 @@
 				"6306BD1D1CF93FCE"
 				"11E8CFFC46C79A1F"
 			]
+			description: ["Crafted Using Mechanical Crafters"]
 			id: "06CEED1DBA25D312"
 			rewards: [
 				{
@@ -49,6 +50,7 @@
 					xp_levels: 5
 				}
 			]
+			subtitle: "This eye has guided explorers to their fates, some finding Atlantis, others vanishing forever. Its glimmer hints at the mysteries of the deep. Click me for more info! "
 			tasks: [{
 				id: "233DA4698435C2CB"
 				item: {

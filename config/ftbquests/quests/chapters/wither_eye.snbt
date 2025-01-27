@@ -57,6 +57,7 @@
 				"486779BD201040B0"
 				"000455214D51BB2A"
 			]
+			description: ["Crafted Using Mechanical Crafters"]
 			id: "4605F358C391E792"
 			rewards: [
 				{
@@ -70,7 +71,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "Crafted using the below setup"
+			subtitle: "A witness to the destruction of empires, this eye bears the scars of ruin. Its empty gaze holds the echoes of a thousand fallen worlds. Click me for more info! "
 			tasks: [{
 				id: "239220D7DBEEB013"
 				item: {

@@ -66,6 +66,7 @@
 				"79B273E920F463B9"
 				"42CCD4BAC548B2D7"
 			]
+			description: ["Crafted Using Mechanical Crafters"]
 			id: "116E3F170671542D"
 			rewards: [
 				{
@@ -89,6 +90,7 @@
 					xp_levels: 5
 				}
 			]
+			subtitle: "This eye, once belonging to a king consumed by greed, radiates a dark allure. Its curse promises wealth, but its shadow lingers eternally. Click me for more info! "
 			tasks: [{
 				id: "40439573963FD4EC"
 				item: {

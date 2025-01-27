@@ -66,6 +66,7 @@
 				"07E7F94F03D9F0EF"
 				"2CE29436DFCE4315"
 			]
+			description: ["Crafted Using Mechanical Crafters"]
 			id: "5C659D0836CA815B"
 			rewards: [
 				{
@@ -89,6 +90,7 @@
 					xp_levels: 5
 				}
 			]
+			subtitle: "Imbued with the brilliance of our ancestors, this eye once illuminated the birth of Redstone. It hums with the ingenuity of a bygone age. Click me for more info! "
 			tasks: [{
 				id: "55B9EE85F5B551CE"
 				item: {
