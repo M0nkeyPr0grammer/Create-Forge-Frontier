@@ -48,6 +48,7 @@
 					xp: 25
 				}
 			]
+			shape: "hexagon"
 			subtitle: "The Overworld: Your Gateway to Adventure 🌄 Click me for more info!"
 			tasks: [{
 				dimension: "minecraft:overworld"
@@ -90,6 +91,7 @@
 					xp: 25
 				}
 			]
+			shape: "hexagon"
 			subtitle: "The Nether Dimension: A World of Fire and Fury 🌋 Click me for more info!"
 			tasks: [{
 				dimension: "minecraft:the_nether"
@@ -132,6 +134,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			subtitle: "The End Dimension: A Legendary Challenge and a New Beginning 🐉 Click me for more info!"
 			tasks: [
 				{
@@ -170,6 +173,7 @@
 			]
 			icon: "minecraft:reinforced_deepslate"
 			id: "090A156A3CB027A3"
+			shape: "hexagon"
 			subtitle: "The Otherside: A Dimension of Shadows and Mystery 💎 Click me for more info!"
 			tasks: [{
 				dimension: "deeperdarker:otherside"
@@ -197,6 +201,7 @@
 			]
 			icon: "ad_astra:moon_globe"
 			id: "43160A0A3268A07D"
+			shape: "hexagon"
 			subtitle: "Ad Astra Planets: Worlds Beyond Your Imagination 🌍 Click me for more info!"
 			tasks: [{
 				dimension: "ad_astra:moon"
@@ -246,6 +251,7 @@
 					xp: 100
 				}
 			]
+			shape: "hexagon"
 			subtitle: "Alex’s Caves Planets: Unveil Celestial Wonders 🌌 Click me for more info!"
 			tasks: [{
 				dimension: "forge_frontier:abyssal_chasm"
@@ -264,6 +270,7 @@
 			]
 			icon: "forge_frontier:trophy_block"
 			id: "65764771C8DA0EF1"
+			shape: "hexagon"
 			subtitle: "The Forge, will be coming in v3.0.0"
 			tasks: [{
 				id: "3C6583D0D04AB9CB"
