@@ -37,6 +37,18 @@
 				"11E8CFFC46C79A1F"
 			]
 			id: "06CEED1DBA25D312"
+			rewards: [
+				{
+					id: "166BA4C0CD55AC09"
+					item: "cataclysm:abyssal_egg"
+					type: "item"
+				}
+				{
+					id: "64A708FA7683192A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 			tasks: [{
 				id: "233DA4698435C2CB"
 				item: {

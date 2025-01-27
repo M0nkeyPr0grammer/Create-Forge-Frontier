@@ -74,6 +74,19 @@
 		{
 			dependencies: ["47E6547A4F973D98"]
 			id: "3CFBF1C3EF684129"
+			rewards: [
+				{
+					count: 8
+					id: "0BF06A35E4640D9A"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+				{
+					id: "5547783A615BEC1F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 			tasks: [{
 				entity: "minecraft:warden"
 				id: "03CEEBB2C92E7962"

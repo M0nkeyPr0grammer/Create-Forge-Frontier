@@ -67,6 +67,18 @@
 				"1DD476F323AF9D27"
 			]
 			id: "3052DCEA1C676846"
+			rewards: [
+				{
+					id: "7C4C0D8889D3FEB5"
+					item: "createcompression:compressed_netherite_1x"
+					type: "item"
+				}
+				{
+					id: "680A977452CA14B0"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 			tasks: [{
 				id: "2527A5E2E5B3009A"
 				item: {

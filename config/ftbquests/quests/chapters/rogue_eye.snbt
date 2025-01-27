@@ -67,6 +67,28 @@
 				"2CE29436DFCE4315"
 			]
 			id: "5C659D0836CA815B"
+			rewards: [
+				{
+					id: "1C9FBC252D5ED44B"
+					item: "forge_frontier:compressed_mithril_1x"
+					type: "item"
+				}
+				{
+					id: "34B5736004AB36FD"
+					item: "createcompression:compressed_brass_1x"
+					type: "item"
+				}
+				{
+					id: "4122F13901A0D9B1"
+					item: "create_compressed:mechanism_block"
+					type: "item"
+				}
+				{
+					id: "0C40FB78CBE93840"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 			tasks: [{
 				id: "55B9EE85F5B551CE"
 				item: {
@@ -169,10 +191,10 @@
 			subtitle: "Made by Automating Steel, Chromatic Compound, Bronze, and Glowberry Milkshake. Then superheated mixing with XP nuggets"
 			tasks: [{
 				id: "10CD7E4C067C0EB4"
-				item: "forge_frontier:compressed_mithril_2x"
+				item: "create_dd:mithril_block"
 				type: "item"
 			}]
-			title: "1/2 Compressed Mithril 2x"
+			title: "1/2 Mithril Block"
 			x: -1.5d
 			y: 1.0d
 		}
@@ -183,10 +205,10 @@
 			tasks: [{
 				count: 2L
 				id: "4ACB7818FB85DD92"
-				item: "forge_frontier:compressed_mithril_2x"
+				item: "create_dd:mithril_block"
 				type: "item"
 			}]
-			title: "2/2 Compressed Mithril 2x"
+			title: "2/2 Mithril Block"
 			x: 1.5d
 			y: 1.0d
 		}

@@ -52,6 +52,19 @@
 				"75090B1B4485CAFF"
 			]
 			id: "0B593797B7CC868F"
+			rewards: [
+				{
+					count: 9
+					id: "73C635AB66D6E83D"
+					item: "create_dd:blaze_gold_block"
+					type: "item"
+				}
+				{
+					id: "37BE2CEF9D9F9A3E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 			tasks: [{
 				id: "0CDDE144754A4279"
 				item: {

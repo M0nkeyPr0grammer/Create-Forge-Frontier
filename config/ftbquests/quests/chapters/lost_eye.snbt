@@ -67,6 +67,18 @@
 				"03DA3832CB5BF4DC"
 			]
 			id: "53D3EEC1993AF3D6"
+			rewards: [
+				{
+					id: "48D3070F3172C0C6"
+					item: "cataclysm:netherite_ministrosity_bucket"
+					type: "item"
+				}
+				{
+					id: "0E1CA909A230CE3F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 			tasks: [{
 				id: "4C44E96AE52088D8"
 				item: {

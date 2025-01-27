@@ -67,6 +67,28 @@
 				"42CCD4BAC548B2D7"
 			]
 			id: "116E3F170671542D"
+			rewards: [
+				{
+					id: "2DDB4751931E079B"
+					item: "createcompression:compressed_gold_2x"
+					type: "item"
+				}
+				{
+					id: "5799F13DDC275C88"
+					item: "createcompression:compressed_diamond_2x"
+					type: "item"
+				}
+				{
+					id: "3460762B5EB3BEAF"
+					item: "createcompression:compressed_emerald_2x"
+					type: "item"
+				}
+				{
+					id: "18E7F76EF3D87BE6"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 			tasks: [{
 				id: "40439573963FD4EC"
 				item: {

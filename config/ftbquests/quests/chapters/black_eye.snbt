@@ -78,6 +78,23 @@
 				"56C98E29485174A1"
 			]
 			id: "1F79264655FD327E"
+			rewards: [
+				{
+					id: "6B9526A1B30DB675"
+					item: "supplementaries:cannon"
+					type: "item"
+				}
+				{
+					id: "60EFF91215C3AF64"
+					item: "supplementaries:cannonball"
+					type: "item"
+				}
+				{
+					id: "49CE1958474FCD42"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 			shape: "pentagon"
 			subtitle: "Crafted Using Mechanical Crafters"
 			tasks: [{

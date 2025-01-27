@@ -58,6 +58,18 @@
 				"000455214D51BB2A"
 			]
 			id: "4605F358C391E792"
+			rewards: [
+				{
+					id: "1920062ACCA6567B"
+					item: "createcompression:compressed_nether_star_1x"
+					type: "item"
+				}
+				{
+					id: "6F46634EA020EF20"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 			subtitle: "Crafted using the below setup"
 			tasks: [{
 				id: "239220D7DBEEB013"

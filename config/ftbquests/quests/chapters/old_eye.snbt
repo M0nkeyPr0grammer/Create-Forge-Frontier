@@ -67,6 +67,18 @@
 				"1CC8DF3277A651D3"
 			]
 			id: "11351D359F8A3CCB"
+			rewards: [
+				{
+					id: "47CD85B783EA7699"
+					item: "cataclysm:modern_remnant_bucket"
+					type: "item"
+				}
+				{
+					id: "22DBD6C988BB06D0"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 			tasks: [{
 				id: "6DC27F5B142957B4"
 				item: {

@@ -67,6 +67,29 @@
 				"5AB398D1607807A4"
 			]
 			id: "2B60299370E1A854"
+			rewards: [
+				{
+					count: 9
+					id: "74D77739F1279DB5"
+					item: "minecraft:sponge"
+					type: "item"
+				}
+				{
+					id: "55BA7F39A337B4D5"
+					item: "betterarcheology:guardian_fossil_head"
+					type: "item"
+				}
+				{
+					id: "3C9846DB44D103F0"
+					item: "betterarcheology:guardian_fossil"
+					type: "item"
+				}
+				{
+					id: "32B6F7CDBAC5BD2C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 			tasks: [{
 				id: "570FBC627E6A81E5"
 				item: {

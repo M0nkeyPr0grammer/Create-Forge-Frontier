@@ -67,6 +67,28 @@
 				"7B459C52CF0E2A27"
 			]
 			id: "1EDDECA49014856D"
+			rewards: [
+				{
+					id: "7512A1DC16C32DA3"
+					item: "createcompression:compressed_emerald_2x"
+					type: "item"
+				}
+				{
+					id: "72D8036284EBB344"
+					item: "easy_villagers:villager"
+					type: "item"
+				}
+				{
+					id: "45FD99F357E4C534"
+					item: "easy_villagers:trader"
+					type: "item"
+				}
+				{
+					id: "7909C04BE807F802"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 			tasks: [{
 				id: "7764ACC3B550FF17"
 				item: {

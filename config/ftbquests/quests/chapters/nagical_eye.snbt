@@ -47,6 +47,24 @@
 		{
 			dependencies: ["73DF623736B936E9"]
 			id: "73E9EC9FED2830A0"
+			rewards: [
+				{
+					id: "3C3E11ED54FD3A12"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					count: 9
+					id: "67FC6B6B84538100"
+					item: "create_enchantment_industry:hyper_experience_bottle"
+					type: "item"
+				}
+				{
+					id: "6C50B6E603B99793"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 			tasks: [{
 				id: "308FEF3A699D5676"
 				item: {
