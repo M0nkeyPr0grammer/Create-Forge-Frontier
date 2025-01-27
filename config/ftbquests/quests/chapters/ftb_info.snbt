@@ -130,6 +130,25 @@
 			y: 0.0d
 		}
 		{
+			description: [
+				"This quest page is your ultimate guide to the essential features that will elevate your gameplay in Create - Forge Frontier. Whether you're building sprawling bases, managing your resources, or exploring vast lands, the tools introduced here will make your journey smoother, more efficient, and infinitely more enjoyable."
+				""
+				"Here’s what you’ll learn in this chapter:"
+				"{@pagebreak}"
+				""
+				"- &lFTB Homes&r: Discover how to set and teleport to your personal locations, giving you the freedom to explore without ever losing your way. Learn how to use /sethome and /home to establish key waypoints, from resource hubs to safe havens, with up to four homes available by default."
+				""
+				"- &lFTB Essentials&r: Unlock the potential of survival-enhancing commands. Whether it's teleporting to friends with /tpa and /tpahere, returning to safety with /spawn, or venturing to new lands with /rtp, FTB Essentials ensures you have the tools to thrive in any situation."
+				""
+				"-&l FTB Chunks&r: Learn to claim and protect your land effortlessly, ensuring that your builds are safe and secure. Understand how to use the chunk map for organization, while noting that chunk loading is disabled—you’ll need to explore chunk loader options for automated setups."
+				""
+				"- &lFTB Quests&r: Dive into the structured progression system of the modpack. From following Gear Icons to start your journey in each chapter to exploring milestone quests marked by stars and chests, you'll gain an understanding of how quests guide and reward you as you progress."
+				""
+				"{@pagebreak}"
+				"This chapter provides a comprehensive introduction to these game-changing tools, equipping you with the knowledge to navigate, manage, and master your Minecraft experience with ease. Whether you’re a solo adventurer or part of a team, these features are designed to enhance every aspect of your gameplay."
+				""
+				"Prepare to claim your space, streamline your survival, and embrace a world of organization and efficiency. Let this quest page be your first step toward mastering the tools that will revolutionize your adventure! ✨"
+			]
 			icon: "minecraft:writable_book"
 			id: "2A0238D4FDD5FF80"
 			rewards: [
@@ -146,6 +165,7 @@
 			]
 			shape: "gear"
 			size: 3.0d
+			subtitle: "Master the Tools of Exploration and Progress 🌍 Click me to learn more!"
 			tasks: [{
 				dimension: "minecraft:overworld"
 				id: "569E10C16812CA8B"
