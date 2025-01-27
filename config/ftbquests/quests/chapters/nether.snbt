@@ -138,6 +138,17 @@
 		{
 			dependencies: ["7CE7BBA16C2E61E1"]
 			id: "4022C1C30F94967C"
+			rewards: [{
+				id: "0C49B23BDB787579"
+				item: {
+					Count: 1
+					id: "create_sa:brass_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
 			subtitle: "Found in Treasure Loot Chest in a hidden chamber"
 			tasks: [{
 				id: "664D542ADAFAE4EA"
@@ -151,6 +162,17 @@
 		{
 			dependencies: ["5619CB9F89C25C87"]
 			id: "0F3805049AE28F9F"
+			rewards: [{
+				id: "28FF5441A360D25E"
+				item: {
+					Count: 1
+					id: "create_sa:brass_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
 			subtitle: "Found in Loot Chest in the Vault"
 			tasks: [{
 				id: "5F41087530C12B64"
@@ -164,6 +186,17 @@
 		{
 			dependencies: ["10E12D942E6F9B1B"]
 			id: "2904FAB7D1EEF9DA"
+			rewards: [{
+				id: "345C70E98A45647C"
+				item: {
+					Count: 1
+					id: "create_sa:brass_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
 			subtitle: "Found in Minecart Loot Chest in the Hall"
 			tasks: [{
 				id: "09CF563870F3E88A"
@@ -177,6 +210,17 @@
 		{
 			dependencies: ["2C7C1C96546AD211"]
 			id: "34CAFB5E21900020"
+			rewards: [{
+				id: "35B06815A50CDB78"
+				item: {
+					Count: 1
+					id: "create_sa:brass_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
 			subtitle: "Found in Loot Chest in the Vault"
 			tasks: [{
 				id: "7AD9905782A48872"
@@ -265,6 +309,18 @@
 			description: ["Consume this Seal of the Underworld to unlock the gateway to the Nether and embark on your infernal journey."]
 			hide_dependency_lines: true
 			id: "486542BF23253839"
+			rewards: [
+				{
+					id: "2461196FA76FF3A5"
+					item: "createcompression:compressed_obsidian_1x"
+					type: "item"
+				}
+				{
+					id: "4454A4EA576C782E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 			subtitle: "Click me to read more"
 			tasks: [{
 				consume_items: false
@@ -277,6 +333,17 @@
 		}
 		{
 			id: "767465A8B1032AB3"
+			rewards: [{
+				id: "580AC67D1FBED551"
+				item: {
+					Count: 1
+					id: "create_sa:brass_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
 			subtitle: "Obtained by Crafting Crying Obsidian with Glass"
 			tasks: [{
 				id: "0C9566FCC4B60DB4"
@@ -303,6 +370,11 @@
 				"Congrats on obtaining all the pieces to the seal of the underworld, you can now craft the seal, consume it, then you will be able to freely travel into the nether. Feel free to use this portal as a means of entering into the Nether."
 			]
 			id: "786B2E479D58EC68"
+			rewards: [{
+				id: "14294AA14C1FEF42"
+				item: "minecraft:enchanted_golden_apple"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "Click me to read more"
 			tasks: [
