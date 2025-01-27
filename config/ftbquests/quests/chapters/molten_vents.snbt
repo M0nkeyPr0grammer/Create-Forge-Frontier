@@ -40,9 +40,27 @@
 	quests: [
 		{
 			dependencies: ["7AC47553B491EE76"]
+			description: [
+				"Scattered across the Overworld, eight distinct Molten Vents offer a specialized approach to resource collection and processing. Each vent—Veridium, Crimsite, Ochrum, Asurine, Potassic, Scoria, Verdantine, and Glacium—can be found in specific biomes, encouraging exploration and discovery. "
+				""
+				"For instance, Veridium thrives in the arid deserts, while Glacium emerges in the frozen tundras, and Crimsite can be unearthed in the rolling plains. These vents are not just biome-themed wonders but essential tools for automation and crafting, allowing players to strategically harness their unique properties for maximizing resource yields and expanding their industrial empires."
+			]
 			icon: "minecraft:grass_block"
 			id: "69CE3113324ED800"
+			rewards: [
+				{
+					id: "0493B18426DA0DE1"
+					item: "createcompression:compressed_dirt_1x"
+					type: "item"
+				}
+				{
+					id: "56F3199677425D7A"
+					type: "xp"
+					xp: 25
+				}
+			]
 			shape: "hexagon"
+			subtitle: "Overworld's Molten Vents: Nature’s Resource Wells, Click me for more info!"
 			tasks: [{
 				dimension: "minecraft:overworld"
 				id: "32D2B9D5FBAE7A12"
@@ -53,9 +71,27 @@
 		}
 		{
 			dependencies: ["7AC47553B491EE76"]
+			description: [
+				"Deep within the fiery depths of the Nether, resource-rich molten vents stand as beacons of opportunity. The Scorchia and Ancient Debris vents, while found uniquely on the Nether roof due to programming constraints, offer unparalleled access to vital resources. These vents are pivotal for those daring enough to venture into the Nether, providing the raw materials needed for advanced progression and crafting."
+				""
+				"Explore these molten treasures and harness their potential to fuel your journey through the challenges of the Nether!"
+			]
 			icon: "minecraft:netherrack"
 			id: "0B070C4D8A55E5A8"
+			rewards: [
+				{
+					id: "3FEF08186258E837"
+					item: "createcompression:compressed_netherrack_1x"
+					type: "item"
+				}
+				{
+					id: "5E4DCBC6A71D6B4C"
+					type: "xp"
+					xp: 25
+				}
+			]
 			shape: "hexagon"
+			subtitle: "Nether’s Molten Riches: Scorchia and Ancient Debris Vents, Click me for more info!"
 			tasks: [{
 				dimension: "minecraft:the_nether"
 				id: "5D645E7B057EDD96"
@@ -66,9 +102,28 @@
 		}
 		{
 			dependencies: ["7AC47553B491EE76"]
+			description: [
+				"Hidden within the mysterious depths of the Otherside lies the Resonite Vent, a unique molten vent found exclusively on the roof of this enigmatic dimension. Resonating with untapped potential, the Resonite Vent provides essential materials crucial for advanced crafting and progression. Its placement high above the perilous terrain underscores the dimension's challenges and rewards."
+				""
+				"Uncover the secrets of the Resonite Vent, and let its power guide you deeper into the wonders of the Otherside!"
+			]
 			icon: "deeperdarker:heart_of_the_deep"
 			id: "4D23ABB810220050"
+			rewards: [
+				{
+					count: 9
+					id: "26238ABBABEC8E06"
+					item: "minecraft:sculk"
+					type: "item"
+				}
+				{
+					id: "66C1F715473E09A3"
+					type: "xp"
+					xp: 25
+				}
+			]
 			shape: "hexagon"
+			subtitle: "Otherside’s Resonant Treasures: The Resonite Vent, Click me for more info!"
 			tasks: [{
 				dimension: "deeperdarker:otherside"
 				id: "7DBA6B0F06569E5F"
@@ -79,9 +134,28 @@
 		}
 		{
 			dependencies: ["7AC47553B491EE76"]
+			description: [
+				"The barren surface of the Moon holds a shimmering secret—the Aubrum Vent. Found exclusively on the Moon’s rugged surface, this molten vent offers an invaluable resource for those daring enough to venture beyond Earth’s atmosphere. The vent’s glowing deposits pulse with energy, providing essential materials to fuel advanced technologies and interstellar ambitions."
+				""
+				"Explore the Moon’s desolate expanse, uncover the Aubrum Vent, and harness its celestial power to propel your journey to the stars! 🌌"
+			]
 			icon: "ad_astra:moon_globe"
 			id: "470D358D9308FA68"
+			rewards: [
+				{
+					count: 9
+					id: "307327A523E15756"
+					item: "ad_astra:moon_sand"
+					type: "item"
+				}
+				{
+					id: "38D63D2BACBE8128"
+					type: "xp"
+					xp: 25
+				}
+			]
 			shape: "hexagon"
+			subtitle: "Lunar Riches: The Aubrum Vent, Click me for more info!"
 			tasks: [{
 				dimension: "ad_astra:moon"
 				id: "56EE4C23722F5397"
@@ -92,9 +166,28 @@
 		}
 		{
 			dependencies: ["7AC47553B491EE76"]
+			description: [
+				"Beneath the iconic red sands of Mars lies the extraordinary Stellaris Vent, a molten vent brimming with rare and valuable resources. Found exclusively on the Martian surface, these vents serve as a key to unlocking advanced technologies and interplanetary progress."
+				""
+				"Mars, with its rugged terrain and mysterious allure, offers a challenging yet rewarding destination for pioneers. Locate the Stellaris Vent, harness its rich deposits, and take your exploration and engineering to new cosmic heights! 🚀✨"
+			]
 			icon: "ad_astra:mars_globe"
 			id: "7339FE49A994B794"
+			rewards: [
+				{
+					count: 9
+					id: "1464006920E05211"
+					item: "ad_astra:mars_sand"
+					type: "item"
+				}
+				{
+					id: "2B74E66886345D78"
+					type: "xp"
+					xp: 25
+				}
+			]
 			shape: "hexagon"
+			subtitle: "Martian Treasure: The Stellaris Vent, Click me for more info!"
 			tasks: [{
 				dimension: "ad_astra:mars"
 				id: "1EEB22ACE1F951D6"
@@ -105,9 +198,28 @@
 		}
 		{
 			dependencies: ["7AC47553B491EE76"]
+			description: [
+				"Amid the scorching heat and toxic skies of Venus lies the Pyroclast Vent, a molten vent exuding fiery potential and rare resources. Found exclusively on the planet’s hostile surface, these vents are a testament to Venus's volatile yet resource-rich environment."
+				""
+				"Venus, with its extreme conditions and breathtaking volcanic terrain, offers bold adventurers the chance to extract valuable materials from the Pyroclast Vent. Brave the heat, harvest its fiery riches, and advance your journey through the stars! 🔥🌋✨"
+			]
 			icon: "ad_astra:venus_globe"
 			id: "6B619A2EB40D34C9"
+			rewards: [
+				{
+					count: 9
+					id: "6EE5DE10E5AF34B1"
+					item: "ad_astra:venus_sand"
+					type: "item"
+				}
+				{
+					id: "2E27CEC91FF55B54"
+					type: "xp"
+					xp: 25
+				}
+			]
 			shape: "hexagon"
+			subtitle: "Volcanic Riches: The Pyroclast Vent, Click me for more info!"
 			tasks: [{
 				dimension: "ad_astra:venus"
 				id: "323ADE366797631D"
@@ -118,9 +230,24 @@
 		}
 		{
 			dependencies: ["7AC47553B491EE76"]
+			description: ["On the icy surface of Glacio, the Frostite Vent emerges as a beacon of frozen treasures. Encased within glacial terrain and crystalline beauty, these vents are a vital source of rare resources for daring spacefarers. Navigate the planet's frostbitten landscapes to uncover this vent’s wealth and unlock its frozen potential. ❄🧊✨"]
 			icon: "ad_astra:glacio_globe"
 			id: "744904CCFAFB6BB0"
+			rewards: [
+				{
+					count: 9
+					id: "4F28481B2AAF4946"
+					item: "ad_astra:permafrost"
+					type: "item"
+				}
+				{
+					id: "5A3F45BE2DD0C696"
+					type: "xp"
+					xp: 25
+				}
+			]
 			shape: "hexagon"
+			subtitle: "Frozen Wonders: The Frostite Vent (Glacio), Click me for more info!"
 			tasks: [{
 				dimension: "ad_astra:glacio"
 				id: "7616F73D69F93929"
@@ -131,9 +258,23 @@
 		}
 		{
 			dependencies: ["7AC47553B491EE76"]
+			description: ["The End dimension holds more than its legendary dragon—it is also home to three unique molten vents. The Radiantite Vent, glowing with an otherworldly light, offers unparalleled resources to those who seek it. The Void Shale Vent, dark and mysterious, exudes fragments of the infinite void, while the Palerock Vent, pale and smooth, adds another layer to the End’s hidden depths. Venture through this enigmatic realm to harness these exceptional vents and expand your industrial empire. ✨🐉🌌"]
 			icon: "minecraft:end_stone"
 			id: "15DD51BFD4480F8D"
+			rewards: [
+				{
+					id: "0CC00DBC17CF919B"
+					item: "createcompression:compressed_end_stone_1x"
+					type: "item"
+				}
+				{
+					id: "2347C4752CB464F3"
+					type: "xp"
+					xp: 25
+				}
+			]
 			shape: "hexagon"
+			subtitle: "The End's Radiance: Radiantite, Void Shale, and Palerock Vents, Click me for more info!"
 			tasks: [{
 				dimension: "minecraft:the_end"
 				id: "05A4F792DF06B32F"
@@ -144,9 +285,24 @@
 		}
 		{
 			dependencies: ["7AC47553B491EE76"]
+			description: ["Deep beneath the ocean in the Abyssal Chasm, the Pearlyte Vent glimmers among tube worms and ruins, emanating its marine riches. Accessible only to the bravest, these vents provide rare resources essential for advanced crafting. Dive into the depths, confront the perils of the chasm, and unearth the treasures of the Pearlyte Vent. 🌊🐚✨"]
 			icon: "alexscaves:submarine"
 			id: "6CDC2B37D835F804"
+			rewards: [
+				{
+					count: 9
+					id: "6E599FDA4A4926B9"
+					item: "alexscaves:muck"
+					type: "item"
+				}
+				{
+					id: "637ADCA64945930E"
+					type: "xp"
+					xp: 25
+				}
+			]
 			shape: "hexagon"
+			subtitle: "Oceanic Mystery: The Pearlyte Vent (Abyssal Chasm), Click me for more info!"
 			tasks: [{
 				dimension: "forge_frontier:abyssal_chasm"
 				id: "1A839FCD59353FDF"
@@ -157,9 +313,30 @@
 		}
 		{
 			dependencies: ["7AC47553B491EE76"]
-			icon: "alexscaves:pure_darkness"
+			description: ["Within the lush and prehistoric Primordial Caves, the Amberlite Vent stands as a glowing marvel. Radiating warmth and light, these vents symbolize the ancient energy of the caves. Explore this verdant, dinosaur-filled biome to harvest the vent’s unique offerings and advance your journey through technological eras. 🦖🌳✨"]
+			icon: {
+				Count: 1
+				id: "alexscaves:primordial_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "40DB7FDC0CC426FF"
+			rewards: [
+				{
+					count: 9
+					id: "192F341DD2D88F91"
+					item: "alexscaves:limestone"
+					type: "item"
+				}
+				{
+					id: "32A5B958A699D58B"
+					type: "xp"
+					xp: 25
+				}
+			]
 			shape: "hexagon"
+			subtitle: "Amber’s Glow: The Amberlite Vent (Primordial Caves), Click me for more info!"
 			tasks: [{
 				dimension: "forge_frontier:primordial_caves"
 				id: "54AF1FBD3322EBAC"
@@ -170,15 +347,24 @@
 		}
 		{
 			dependencies: ["7AC47553B491EE76"]
-			icon: {
-				Count: 1
-				id: "alexscaves:primordial_helmet"
-				tag: {
-					Damage: 0
-				}
-			}
+			description: ["In the shadowy depths of the Forlorn Hollows, the Guanite Vent thrives amid ominous forces. Found among the haunting Guanostone, these vents provide valuable yet sinister resources. Traverse this dark, evil-infested biome to harness the power of the Guanite Vent—if you dare. 🌌🕯✨"]
+			icon: "alexscaves:pure_darkness"
 			id: "0988690A536B7D19"
+			rewards: [
+				{
+					count: 9
+					id: "18043FB6D9F5CACC"
+					item: "alexscaves:guanostone"
+					type: "item"
+				}
+				{
+					id: "326D1DC62BED56FB"
+					type: "xp"
+					xp: 25
+				}
+			]
 			shape: "hexagon"
+			subtitle: "Dark Secrets: The Guanite Vent (Forlorn Hollows), Click me for more info!"
 			tasks: [{
 				dimension: "forge_frontier:forlorn_hollows"
 				id: "4A03EBCDD5110DBB"
@@ -189,6 +375,7 @@
 		}
 		{
 			dependencies: ["7AC47553B491EE76"]
+			description: ["Within the perilous Toxic Caves, two molten vents await the bold: the Uraniumnite Vent, glowing with radioactive energy, and the Sulphite Vent, bubbling with acidic fumes. Brave the apocalyptic ruins and hostile creatures to harness these vents and gain access to powerful, rare materials. ☣🛠✨"]
 			icon: {
 				Count: 1
 				id: "alexscaves:hazmat_mask"
@@ -197,7 +384,21 @@
 				}
 			}
 			id: "434A80C989CFB176"
+			rewards: [
+				{
+					count: 9
+					id: "5C2A7BFAB5C3EF7B"
+					item: "alexscaves:radrock"
+					type: "item"
+				}
+				{
+					id: "1BB30DC1849921BD"
+					type: "xp"
+					xp: 25
+				}
+			]
 			shape: "hexagon"
+			subtitle: "Toxic Treasures: The Uraniumnite and Sulphite Vents (Toxic Caves), Click me for more info!"
 			tasks: [{
 				dimension: "forge_frontier:toxic_caves"
 				id: "001E6A2B41C27264"
@@ -208,9 +409,24 @@
 		}
 		{
 			dependencies: ["7AC47553B491EE76"]
+			description: ["The Magnetic Caves boast two extraordinary molten vents: the Neodyrium Vent, crackling with magnetic energy, and the Azurnium Vent, shimmering with mechanical brilliance. These vents hold the key to unlocking advanced crafting and automation, but beware of the powerful mechanical creatures that patrol the caves. ⚡🔧✨"]
 			icon: "alexscaves:telecore"
 			id: "42CE6455938E37CF"
+			rewards: [
+				{
+					count: 9
+					id: "0A14F0A77D8F2E06"
+					item: "alexscaves:galena"
+					type: "item"
+				}
+				{
+					id: "7368F43D615A5035"
+					type: "xp"
+					xp: 25
+				}
+			]
 			shape: "hexagon"
+			subtitle: "Magnetic Marvels: The Neodyrium and Azurnium Vents (Magnetic Caves), Click me for more info!"
 			tasks: [{
 				dimension: "forge_frontier:magnetic_caves"
 				id: "43CBDB5891078EB5"
@@ -224,9 +440,8 @@
 				"Molten Vents is an innovative mod that introduces a renewable source of the orestones found in the Create mod, unlocking endless potential for resource processing. While the base mod focuses on Basic Create Ore Stones, I’ve expanded its capabilities to include molten vents for many high-value resources, offering new opportunities for advanced gameplay."
 				""
 				"Each molten vent is biome and dimension-specific, meaning you’ll need to explore and uncover their hidden locations. Use the guide below to find the molten vent that suits your needs. Once located, activation is simple: ignite TNT on a dormant ore vent to transform it into an active state. Once activated, supply the vent with a steady flow of its designated liquid to begin producing the desired orestone—seamlessly converting liquid into valuable materials."
-				""
+				"{@pagebreak}"
 				"Helpful Features:"
-				""
 				"- Portable Molten Vents: Organize your molten vent factories effortlessly by moving vents with Carry One, only when the vent is activated"
 				"- Mechanical Extruders: Late-game automation becomes a breeze with Mechanical Extruders, which simplify stone generation by requiring only a single fluid source block."
 				""
@@ -235,11 +450,18 @@
 			hide_dependent_lines: true
 			icon: "molten_vents:active_molten_asurine"
 			id: "7AC47553B491EE76"
-			rewards: [{
-				id: "044F3A7E366EB2DB"
-				type: "xp"
-				xp: 25
-			}]
+			rewards: [
+				{
+					id: "044F3A7E366EB2DB"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "3B12084B5C15151A"
+					item: "create:mechanical_drill"
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 3.0d
 			subtitle: "Molten Vents: A New Era of Resource Generation, Click me for more info!"
@@ -310,6 +532,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Click me for more info!"
 			tasks: [
 				{
 					id: "0E8531CC4170D8FE"
@@ -403,6 +626,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Click me for more info!"
 			tasks: [
 				{
 					id: "2614EEE65F6B8560"
@@ -512,6 +736,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Click me for more info!"
 			tasks: [
 				{
 					id: "6469AF29CA677B8C"
@@ -605,6 +830,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Click me for more info!"
 			tasks: [
 				{
 					id: "693945CF2684C424"
@@ -698,6 +924,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Click me for more info!"
 			tasks: [
 				{
 					id: "2502872F486242F0"
@@ -807,6 +1034,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Click me for more info!"
 			tasks: [
 				{
 					id: "1A8A39D7B29AB4B5"
@@ -900,6 +1128,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Click me for more info!"
 			tasks: [
 				{
 					id: "1840911CBD4F55D0"
@@ -993,6 +1222,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Click me for more info!"
 			tasks: [
 				{
 					id: "6045436CC30698AD"
@@ -1097,6 +1327,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Click me for more info!"
 			tasks: [
 				{
 					id: "0CA5CC3437F7D216"
@@ -1206,6 +1437,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Click me for more info!"
 			tasks: [
 				{
 					id: "10EBF6CDC3D10085"
@@ -1325,6 +1557,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Click me for more info!"
 			tasks: [
 				{
 					id: "63414EBC008D64C8"
@@ -1435,6 +1668,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Click me for more info!"
 			tasks: [
 				{
 					id: "4B12FF294B5E3C11"
@@ -1544,6 +1778,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Click me for more info!"
 			tasks: [
 				{
 					id: "51ECC68D118AFD5C"
@@ -1593,6 +1828,7 @@
 		}
 		{
 			dependencies: ["6B619A2EB40D34C9"]
+			description: [""]
 			id: "144708074CDF64FA"
 			rewards: [{
 				id: "69C3AAE4ADE85B7B"
@@ -1653,6 +1889,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Click me for more info!"
 			tasks: [
 				{
 					id: "44965B7AFD9A8E11"
@@ -1702,6 +1939,7 @@
 		}
 		{
 			dependencies: ["744904CCFAFB6BB0"]
+			description: [""]
 			id: "12C5A144E9E919A0"
 			rewards: [{
 				id: "58DFDB3FDFCD6343"
@@ -1762,6 +2000,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Click me for more info!"
 			tasks: [
 				{
 					id: "3CA344D62685964D"
@@ -1855,6 +2094,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Click me for more info!"
 			tasks: [
 				{
 					id: "4AB892918C4AEFC8"
@@ -1964,6 +2204,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Click me for more info!"
 			tasks: [
 				{
 					id: "476609A8F8D6DE07"
@@ -2057,6 +2298,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Click me for more info!"
 			tasks: [
 				{
 					id: "02DF6927766FD305"
@@ -2150,6 +2392,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Click me for more info!"
 			tasks: [
 				{
 					id: "69EDE13D94B7F100"
@@ -2259,6 +2502,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Click me for more info!"
 			tasks: [
 				{
 					id: "7536AB54412250F2"
@@ -2352,6 +2596,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Click me for more info!"
 			tasks: [
 				{
 					id: "2003C89E7D2DD482"
@@ -2445,6 +2690,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Click me for more info!"
 			tasks: [
 				{
 					id: "75E642E557765EEC"
@@ -2538,6 +2784,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Click me for more info!"
 			tasks: [
 				{
 					id: "2DC569213340ECB8"
@@ -2631,6 +2878,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Click me for more info!"
 			tasks: [
 				{
 					id: "01E049AC29960F26"
@@ -2724,6 +2972,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Click me for more info!"
 			tasks: [
 				{
 					id: "7F71E84803A69C09"
@@ -2795,9 +3044,24 @@
 		}
 		{
 			dependencies: ["7AC47553B491EE76"]
+			description: ["The Candy Cavity hides a tantalizing mystery—a Lost Debris Vent, a feature planned for future exploration. This vent, crafted from sweet ingenuity, will unlock rare and exciting resources, expanding your capabilities and reshaping the boundaries of your adventures. 🍬🔮✨"]
 			icon: "alexscaves:small_peppermint"
 			id: "77EB3AE60F0E8FEA"
+			rewards: [
+				{
+					count: 9
+					id: "70E6BD776C14DC1D"
+					item: "alexscaves:cake_layer"
+					type: "item"
+				}
+				{
+					id: "10CAF3D8A46702E7"
+					type: "xp"
+					xp: 25
+				}
+			]
 			shape: "hexagon"
+			subtitle: "Sweet Secrets: The Future Lost Debris Vent (Candy Cavity), Click me for more info!"
 			tasks: [{
 				dimension: "forge_frontier:candy_cavity"
 				id: "719C8CDFA8E1BAF6"
