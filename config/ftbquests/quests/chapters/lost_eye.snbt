@@ -82,7 +82,7 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["7EE0A1125DFCB5AF"]
+			dependencies: ["40C0805A32D59455"]
 			id: "59257860C8B23F83"
 			tasks: [{
 				count: 4L
@@ -95,7 +95,7 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["7EE0A1125DFCB5AF"]
+			dependencies: ["40C0805A32D59455"]
 			id: "0E292FC806D3E893"
 			tasks: [{
 				id: "1E1CBBC32B6CBFB8"
@@ -107,7 +107,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["7EE0A1125DFCB5AF"]
+			dependencies: ["40C0805A32D59455"]
 			id: "47F2883F0BBABEE8"
 			tasks: [{
 				count: 2L
@@ -132,7 +132,7 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["7EE0A1125DFCB5AF"]
+			dependencies: ["40C0805A32D59455"]
 			id: "28B405906F4B6DA1"
 			subtitle: "Crafted and used to locate The Soul Black Smith"
 			tasks: [{
@@ -174,7 +174,7 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["7EE0A1125DFCB5AF"]
+			dependencies: ["40C0805A32D59455"]
 			id: "258A650E322ABBCB"
 			subtitle: "Found on Mars"
 			tasks: [{
@@ -186,7 +186,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["7EE0A1125DFCB5AF"]
+			dependencies: ["40C0805A32D59455"]
 			id: "69904E35F0712829"
 			subtitle: "Found on Mars"
 			tasks: [{
@@ -198,7 +198,7 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["7EE0A1125DFCB5AF"]
+			dependencies: ["40C0805A32D59455"]
 			id: "7D7FE0BFB3F8DCE9"
 			subtitle: "Found on Mars"
 			tasks: [{
@@ -210,7 +210,7 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["7EE0A1125DFCB5AF"]
+			dependencies: ["40C0805A32D59455"]
 			id: "64AAE8BF36CC976D"
 			tasks: [{
 				count: 3L
@@ -223,7 +223,7 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["7EE0A1125DFCB5AF"]
+			dependencies: ["40C0805A32D59455"]
 			id: "03DA3832CB5BF4DC"
 			tasks: [{
 				id: "0FDD4FD4DAA05499"
