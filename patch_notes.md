@@ -69,6 +69,7 @@ The Create - Forge Frontier 2.1.0 update is here! Packed with enhanced quests, e
   - Added Create Goggle Curios Slot and Curios Tag for Create Goggles.
   - Fixed compatibility for Enchantment Industry and Caged Mobs Crystallized Experience.
   - Adjusted Resource Ore Stones crushing for balanced resource processing.
+  - Made Create - New Age magnets wrenchable
 - **Forge Frontier**:
   - Added Banana and Ferros Slime to Slime recipes.
   - Tagged Resource Ore Stones with Excavated Variant Stone Type.
