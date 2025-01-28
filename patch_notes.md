@@ -28,6 +28,9 @@ The Create - Forge Frontier 2.1.0 update is here! Packed with enhanced quests, e
 - **Create - Forge Frontier**: Adjusted Image Sizes
 - **FTB Info**: Completed Quests
 - **Informational**: Added New Quest Pages for future quests
+- **Dimensional Progression**: New Quests, and completed page
+- **Nether Remastered**: Added Rewards for Quests and revamped chapter to match the style of other quest pages
+- **End Remastered**: Improved Main Quest Page, and Added Rewards for all the eyes
 - **Create**: New Quests, will be complete by update
 - **Molten Vents**: Linked Fluids to Quests, for easier navigation, and updated biomes for a few vents.
 - **Milkshakes**: Adjusted Dependencies, and Completed Quests
@@ -39,6 +42,7 @@ The Create - Forge Frontier 2.1.0 update is here! Packed with enhanced quests, e
 - **Molten Mixing**: Started Quests, will complete later
 
 ## KubeJS Updates
+- **End Remastered**: Lowered the difficulty of the Rogue Eye Crafting Recipe to match the other eyes
 - **Power Loaders(Chunk Loaders)**: Changed Recipes for Andesite and Brass Chunk Loaders to better match the pack, as previous recipe was made for Landscapes Reimagined Forge Frontier
 - **Curios**:
   - Removed Helium Flamingo Access, due to game breaking mix with another relic
@@ -82,7 +86,7 @@ The Create - Forge Frontier 2.1.0 update is here! Packed with enhanced quests, e
 ## Config Updates
 - **Natures Compass**: Blacklisted Alexscaves Biomes from the compass
 - **Explorers Compass**: Re-enabled minecraft:ruins to allow Trail Ruins, and Blacklisted Alexcaves Structures, and Integrated Stronghold from the compass
-- **FTB**: Changed Quest Progression Mode from Linear to Flexible to allow for a better experience
+- **FTB**: Changed Quest Progression Mode from Linear to Flexible to allow for a better experience, increase max amount of homes from 2 to 4
 - **Friends & Foes**: Disable Check for Updates Feature
 - **Create Crafts & Additions**: Increased Motor Min Consumption, and Lowered Generator Efficiency
 - **Carryon**: Blacklisted Sophisticated Storage, Backpacks, and Sacks

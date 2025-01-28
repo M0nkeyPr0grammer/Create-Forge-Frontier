@@ -170,7 +170,7 @@ ServerEvents.recipes(event => {
       key: {
         M: Ingredient.of('create_compressed:mechanism_block'),
         B: Ingredient.of('createcompression:compressed_brass_2x'),
-        m: Ingredient.of('forge_frontier:compressed_mithril_2x'),
+        m: Ingredient.of('create_dd:mithril_block'),
         U: Ingredient.of('endrem:undead_soul'),
       },
       result: Ingredient.of('endrem:rogue_eye'),

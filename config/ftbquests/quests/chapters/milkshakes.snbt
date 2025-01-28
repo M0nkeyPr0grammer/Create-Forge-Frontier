@@ -288,7 +288,7 @@
 				item: "minecraft:iron_block"
 				type: "item"
 			}]
-			subtitle: "Obtained by mixing the below ingredients"
+			subtitle: "Obtained by mixing the below ingredients, Click me for more info!"
 			tasks: [{
 				id: "0EC7C41FDA39DA0C"
 				item: "create_dd:strawberry_milkshake_bucket"
@@ -313,7 +313,7 @@
 				item: "minecraft:gold_block"
 				type: "item"
 			}]
-			subtitle: "Obtained by mixing the below ingredients"
+			subtitle: "Obtained by mixing the below ingredients, Click me for more info!"
 			tasks: [{
 				id: "70148D254B508BFE"
 				item: "create_dd:glowberry_milkshake_bucket"
@@ -497,7 +497,7 @@
 				item: "create:zinc_block"
 				type: "item"
 			}]
-			subtitle: "Obtained by mixing the below ingredients"
+			subtitle: "Obtained by mixing the below ingredients, Click me for more info!"
 			tasks: [{
 				id: "3088CA8EFF0CA39D"
 				item: "create_dd:cream_bucket"
@@ -601,7 +601,7 @@
 				item: "minecraft:copper_block"
 				type: "item"
 			}]
-			subtitle: "Obtained by mixing the below ingredients"
+			subtitle: "Obtained by mixing the below ingredients, Click me for more info!"
 			tasks: [{
 				id: "07350188728CDEAC"
 				item: "create_dd:caramel_milkshake_bucket"
@@ -772,7 +772,7 @@
 				item: "create_dd:tin_block"
 				type: "item"
 			}]
-			subtitle: "Obtained by mixing the below ingredients"
+			subtitle: "Obtained by mixing the below ingredients, Click me for more info!"
 			tasks: [{
 				id: "579E35A18E6D68E6"
 				item: "create_dd:vanilla_milkshake_bucket"
@@ -967,7 +967,7 @@
 				item: "minecraft:lapis_block"
 				type: "item"
 			}]
-			subtitle: "Obtained by mixing the below ingredients"
+			subtitle: "Obtained by mixing the below ingredients, Click me for more info!"
 			tasks: [{
 				id: "1A68432CDF382D89"
 				item: "create_dd:chocolate_milkshake_bucket"

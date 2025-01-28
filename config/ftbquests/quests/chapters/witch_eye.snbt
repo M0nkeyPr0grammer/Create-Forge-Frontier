@@ -51,7 +51,22 @@
 				"220E088B8BB3C8C6"
 				"75090B1B4485CAFF"
 			]
+			description: ["Crafted by Superheated Mixing"]
 			id: "0B593797B7CC868F"
+			rewards: [
+				{
+					count: 9
+					id: "73C635AB66D6E83D"
+					item: "create_dd:blaze_gold_block"
+					type: "item"
+				}
+				{
+					id: "37BE2CEF9D9F9A3E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "A remnant of ancient alchemy, this eye gleamed as it uncovered forbidden brewing arts. Its spark holds the knowledge of lost times. Click me for more info! "
 			tasks: [{
 				id: "0CDDE144754A4279"
 				item: {

@@ -11,7 +11,9 @@
 	id: "3A6CBA1C0AA08E91"
 	images: [
 		{
+			click: "#20BB2E7B405CA851"
 			height: 15.0d
+			hover: ["Tier 6 Rocket, Click image for more info!"]
 			image: "ftb:textures/tier_6.png"
 			rotation: 0.0d
 			width: 7.5d
@@ -341,13 +343,26 @@
 			dependencies: ["3E0090F3AF1CDBBE"]
 			description: [
 				"Prepare to enter the most bizarre and hazardous realms yet with the Tier 6 Rocket! This cutting-edge vessel grants you access to the final trio of Alex Caves Planets: Magnetic Caves, Toxic Caves, and the surreal Candy Cavity. These strange and treacherous worlds hold secrets unlike anything you've seen before. For more details, check out the Planet Progression Quests."
-				""
+				"{@pagebreak}"
 				"Venture into the Magnetic Caves, a planet where magnetic fields distort and pull at every step, with strange, metallic structures and magnetic anomalies that make exploration a constant challenge. Next, brave the Toxic Caves, a poisonous, swamp-like landscape blanketed in dense, toxic mists and strange flora, where even the ground seems hostile. Finally, uncover the peculiar world of Candy Cavity, a vivid, candy-colored realm filled with sweet yet eerie caverns, where strange creatures and unnatural formations create an otherworldly experience."
 				""
 				"Each of these planets holds unique resources and bizarre features for those courageous enough to explore their depths. Are you ready to embark on this journey through alien biomes, where danger and wonder lie around every corner? The universe awaits!"
 			]
 			hide_dependent_lines: true
 			id: "20BB2E7B405CA851"
+			rewards: [
+				{
+					id: "2DA87319BB4C06D8"
+					item: "alexscaves:primal_magma"
+					type: "item"
+				}
+				{
+					id: "0636D050D30B37B4"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Click me for more info!"
 			tasks: [{
 				id: "3D05E891252F0A35"
 				title: "Tier 6 Rocket"

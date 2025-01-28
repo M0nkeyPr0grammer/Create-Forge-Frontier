@@ -146,7 +146,7 @@
 				item: "minecraft:emerald_block"
 				type: "item"
 			}]
-			subtitle: "Obtained by heated mixing the below ingredients"
+			subtitle: "Obtained by heated mixing the below ingredients, Click me for more info!"
 			tasks: [{
 				id: "65741235B128968B"
 				item: "create_confectionery:white_chocolate_bucket"
@@ -248,7 +248,7 @@
 				item: "minecraft:diamond_block"
 				type: "item"
 			}]
-			subtitle: "Obtained by heated mixing the below ingredients"
+			subtitle: "Obtained by heated mixing the below ingredients, Click me for more info!"
 			tasks: [{
 				id: "6186A451E1089054"
 				item: "create_confectionery:black_chocolate_bucket"
@@ -345,7 +345,7 @@
 				item: "minecraft:coal_block"
 				type: "item"
 			}]
-			subtitle: "Obtained by heated mixing the below ingredients"
+			subtitle: "Obtained by heated mixing the below ingredients, Click me for more info!"
 			tasks: [{
 				id: "3FDD02F8681243AF"
 				item: "create_dd:hot_chocolate_bucket"
@@ -437,7 +437,7 @@
 				item: "endertrigon:baby_dragon_egg"
 				type: "item"
 			}]
-			subtitle: "Obtained by heated mixing the below ingredients"
+			subtitle: "Obtained by heated mixing the below ingredients, Click me for more info!"
 			tasks: [{
 				id: "2D4599EE7E6BF3E8"
 				item: "create_confectionery:ruby_chocolate_bucket"
@@ -521,7 +521,7 @@
 				item: "createaddition:chocolate_cake"
 				type: "item"
 			}]
-			subtitle: "Obtained by heated mixing the below ingredients"
+			subtitle: "Obtained by heated mixing the below ingredients, Click me for more info!"
 			tasks: [{
 				id: "549E36F7E5A30AE5"
 				item: "create:chocolate_bucket"

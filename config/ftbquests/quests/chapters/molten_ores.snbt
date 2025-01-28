@@ -2011,7 +2011,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Use this to take you to the Vents linked to this molten ore"
+			subtitle: "Use this to take you to the Vents linked to this molten ore, Click me for more info!"
 			tasks: [{
 				id: "27AA6C820F1F9D8A"
 				title: "Check"

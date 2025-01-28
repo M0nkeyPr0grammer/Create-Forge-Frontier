@@ -22,6 +22,14 @@
 			x: 0.0d
 			y: -9.5d
 		}
+		{
+			height: 1.0d
+			image: "ad_astra:textures/gui/sprites/arrow.png"
+			rotation: 0.0d
+			width: 1.6666666666666667d
+			x: 2.5d
+			y: -7.0d
+		}
 	]
 	order_index: 5
 	quest_links: [ ]

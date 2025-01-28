@@ -66,7 +66,31 @@
 				"79B273E920F463B9"
 				"42CCD4BAC548B2D7"
 			]
+			description: ["Crafted Using Mechanical Crafters"]
 			id: "116E3F170671542D"
+			rewards: [
+				{
+					id: "2DDB4751931E079B"
+					item: "createcompression:compressed_gold_2x"
+					type: "item"
+				}
+				{
+					id: "5799F13DDC275C88"
+					item: "createcompression:compressed_diamond_2x"
+					type: "item"
+				}
+				{
+					id: "3460762B5EB3BEAF"
+					item: "createcompression:compressed_emerald_2x"
+					type: "item"
+				}
+				{
+					id: "18E7F76EF3D87BE6"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "This eye, once belonging to a king consumed by greed, radiates a dark allure. Its curse promises wealth, but its shadow lingers eternally. Click me for more info! "
 			tasks: [{
 				id: "40439573963FD4EC"
 				item: {
@@ -82,7 +106,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["7F2348D995E5FE43"]
+			dependencies: ["06710D734D0988CB"]
 			id: "28A5986EC340E0B9"
 			subtitle: "Automated via Ochrum Vents"
 			tasks: [{
@@ -95,7 +119,7 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["7F2348D995E5FE43"]
+			dependencies: ["06710D734D0988CB"]
 			id: "5F40C46F61B5EEDF"
 			subtitle: "Automated via Ochrum Vents"
 			tasks: [{
@@ -109,7 +133,7 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["7F2348D995E5FE43"]
+			dependencies: ["06710D734D0988CB"]
 			id: "4EB8BB9D0F284D79"
 			subtitle: "Automated via Ochrum Vents"
 			tasks: [{
@@ -123,7 +147,7 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["7F2348D995E5FE43"]
+			dependencies: ["06710D734D0988CB"]
 			id: "375E9C457CCCFED3"
 			subtitle: "Automated via Ochrum Vents"
 			tasks: [{
@@ -137,7 +161,7 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["7F2348D995E5FE43"]
+			dependencies: ["06710D734D0988CB"]
 			id: "67F1DA8051FA8379"
 			subtitle: "Automated via Glacium Vents"
 			tasks: [{
@@ -150,7 +174,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["7F2348D995E5FE43"]
+			dependencies: ["06710D734D0988CB"]
 			id: "42CCD4BAC548B2D7"
 			subtitle: "Automated via Glacium Vents"
 			tasks: [{
@@ -164,7 +188,7 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["7F2348D995E5FE43"]
+			dependencies: ["06710D734D0988CB"]
 			id: "79B273E920F463B9"
 			subtitle: "Automated via Verdantine Vents"
 			tasks: [{
@@ -177,7 +201,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["7F2348D995E5FE43"]
+			dependencies: ["06710D734D0988CB"]
 			id: "133957C4DA697C71"
 			subtitle: "Automated via Verdantine Vents"
 			tasks: [{
@@ -191,7 +215,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["7F2348D995E5FE43"]
+			dependencies: ["06710D734D0988CB"]
 			id: "421B3CC685F30DBD"
 			tasks: [{
 				id: "2C22178EBBA57B1F"
