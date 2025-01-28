@@ -83,7 +83,12 @@ ServerEvents.tags('block', event => {
         '#chipped:soul_lantern',
         '#ad_astra:globes',
         '#ad_astra:sliding_doors',
-        'forge_frontier:forge_rocket_casing'
+        'forge_frontier:forge_rocket_casing',
+        'create_new_age:magnetite_block',
+        'create_new_age:redstone_magnet',
+        'create_new_age:layered_magnet',
+        'create_new_age:fluxuated_magnetite',
+        'create_new_age:netherite_magnet'
     ]);
 
 // Create Casing Tag

@@ -433,6 +433,8 @@
 					xp: 25
 				}
 			]
+			shape: "gear"
+			size: 2.0d
 			subtitle: "Click me for more info!"
 			tasks: [{
 				id: "568E15F89F00A543"

@@ -319,6 +319,7 @@
 				item: "minecraft:obsidian"
 				type: "item"
 			}]
+			title: "Nether Remastered"
 			x: -7.5d
 			y: 0.0d
 		}

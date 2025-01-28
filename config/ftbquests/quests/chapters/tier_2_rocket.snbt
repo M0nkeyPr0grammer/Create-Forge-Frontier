@@ -431,6 +431,8 @@
 					xp: 25
 				}
 			]
+			shape: "gear"
+			size: 2.0d
 			tasks: [{
 				id: "413370DE80F48073"
 				title: "Tier 2 Rocket"

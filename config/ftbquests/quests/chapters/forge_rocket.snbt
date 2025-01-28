@@ -566,6 +566,8 @@
 			]
 			hide_dependent_lines: true
 			id: "262FF2B00E853521"
+			shape: "gear"
+			size: 2.0d
 			subtitle: "Click me for more info!"
 			tasks: [{
 				id: "105480D5B0C47382"
