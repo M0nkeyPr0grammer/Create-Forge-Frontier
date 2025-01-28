@@ -85,6 +85,7 @@ The Create - Forge Frontier 2.1.0 update is here! Packed with enhanced quests, e
 - **Biome Modifiers**: Moved Veridium Vents to Overworld and Crimsite Vents to Plains tags.
 
 ## Config Updates
+- **Every Compat**: Disabled Assets Depend on Loaded Packs, to fix block loot table issue
 - **Natures Compass**: Blacklisted Alexscaves Biomes from the compass
 - **Explorers Compass**: Re-enabled minecraft:ruins to allow Trail Ruins, and Blacklisted Alexcaves Structures, and Integrated Stronghold from the compass
 - **FTB**: Changed Quest Progression Mode from Linear to Flexible to allow for a better experience, increase max amount of homes from 2 to 4
