@@ -79,7 +79,7 @@
 			}
 		]
 		shape: "gear"
-		size: 1.0d
+		size: 1.5d
 		tasks: [{
 			dimension: "minecraft:overworld"
 			id: "7E4EE542BF13A4DE"
