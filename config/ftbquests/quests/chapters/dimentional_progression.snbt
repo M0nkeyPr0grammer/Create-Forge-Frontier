@@ -60,7 +60,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["486291562456D10A"]
+			dependencies: ["391748CCFCB25D1A"]
 			description: [
 				"The Nether Dimension is a realm of intense heat, perilous landscapes, and untold treasures waiting to be discovered. With Nether Remastered, this iconic dimension has been reimagined, introducing a host of new terrains and biomes to explore—offering adventures unlike anything you've seen before."
 				""
@@ -278,49 +278,6 @@
 				type: "checkmark"
 			}]
 			x: 9.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["5EDC9934E7D346D8"]
-			description: [
-				"In Nether Remastered, the journey to unlocking the Nether becomes an adventure of its own. Before stepping into the fiery depths, you’ll explore certain key structures scattered throughout the Overworld, each harboring special loot vital to your progression."
-				""
-				"Seek out these hidden treasures and gather unique resources as you prepare for the ultimate step: consuming the Seal of the Underworld, a powerful item that unlocks access to the Nether dimension."
-				""
-				"With this carefully crafted progression system, the Nether is transformed from a simple destination into a rewarding milestone, immersing you in a journey of discovery, challenge, and excitement. Will you earn your place in the depths of the underworld? 🌋✨"
-				"{@pagebreak}"
-				"{image:ftb:textures/hopoportal.png width:192 height:100 align:center}"
-				"Read more about Nether Remastered in its  "
-				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"72FE4921BBC7E437\" } }"
-			]
-			icon: "nether_remastered:seal_of_the_underworld_item"
-			id: "486291562456D10A"
-			rewards: [
-				{
-					id: "73E02E1A4A90930F"
-					type: "xp"
-					xp: 100
-				}
-				{
-					id: "3E1241F71B08C843"
-					item: {
-						Count: 1
-						id: "minecraft:flint_and_steel"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			subtitle: "Nether Remastered: Unlock the Fiery Gates 🔥 Click me for more info!"
-			tasks: [{
-				id: "276FF0A7C1E3F193"
-				item: "minecraft:obsidian"
-				type: "item"
-			}]
-			title: "Nether Remastered"
-			x: -7.5d
 			y: 0.0d
 		}
 		{
@@ -546,6 +503,49 @@
 			}]
 			x: 0.0d
 			y: -6.0d
+		}
+		{
+			dependencies: ["5EDC9934E7D346D8"]
+			description: [
+				"In Nether Remastered, the journey to unlocking the Nether becomes an adventure of its own. Before stepping into the fiery depths, you’ll explore certain key structures scattered throughout the Overworld, each harboring special loot vital to your progression."
+				""
+				"Seek out these hidden treasures and gather unique resources as you prepare for the ultimate step: consuming the Seal of the Underworld, a powerful item that unlocks access to the Nether dimension."
+				""
+				"With this carefully crafted progression system, the Nether is transformed from a simple destination into a rewarding milestone, immersing you in a journey of discovery, challenge, and excitement. Will you earn your place in the depths of the underworld? 🌋✨"
+				"{@pagebreak}"
+				"{image:ftb:textures/hopoportal.png width:192 height:100 align:center}"
+				"Read more about Nether Remastered in its  "
+				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"72FE4921BBC7E437\" } }"
+			]
+			icon: "nether_remastered:seal_of_the_underworld_item"
+			id: "391748CCFCB25D1A"
+			rewards: [
+				{
+					id: "626DB3C5681FCCBC"
+					item: {
+						Count: 1
+						id: "minecraft:flint_and_steel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "495312D573F2BD39"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Nether Remastered: Unlock the Fiery Gates 🔥 Click me for more info!"
+			tasks: [{
+				id: "747844B5BB8915E0"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			title: "Nether Remastered"
+			x: -7.5d
+			y: 0.0d
 		}
 	]
 	title: "Dimensional Progression"
