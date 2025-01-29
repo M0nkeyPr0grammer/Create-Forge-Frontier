@@ -27,7 +27,7 @@
 				"{@pagebreak}"
 				"{image:ftb:textures/overworld_screenshot.png width:192 height:100 align:center}"
 				"Read more about the Overworld in its  "
-				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"49AE9AC116F1D962\" } }"
+				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5DA842A1588FB8BE\" } }"
 			]
 			icon: "minecraft:grass_block"
 			id: "5EDC9934E7D346D8"
