@@ -42,6 +42,7 @@ The Create - Forge Frontier 2.1.0 update is here! Packed with enhanced quests, e
 - **Molten Mixing**: Started Quests, will complete later
 
 ## KubeJS Updates
+- **Create Stuff and Additions**: Updated Textures of all other Jetpacks due to new file arrangement on the mod side, and changed the recipe of the Netherite Jetpack to match the progressin chain 
 - **End Remastered**: Lowered the difficulty of the Rogue Eye Crafting Recipe to match the other eyes
 - **Power Loaders(Chunk Loaders)**: Changed Recipes for Andesite and Brass Chunk Loaders to better match the pack, as previous recipe was made for Landscapes Reimagined Forge Frontier
 - **Curios**:
@@ -85,6 +86,7 @@ The Create - Forge Frontier 2.1.0 update is here! Packed with enhanced quests, e
 - **Biome Modifiers**: Moved Veridium Vents to Overworld and Crimsite Vents to Plains tags.
 
 ## Config Updates
+- **Create Stuffs and Additions**: Adjusted the height and speed parameters for each jetpack tier to ensure a progressive increase in performance with each upgrade. Additionally, expanded the fuel capacity for all tanks, jetpacks, and tools to enhance efficiency and extended usability.
 - **Every Compat**: Disabled Assets Depend on Loaded Packs, to fix block loot table issue
 - **Natures Compass**: Blacklisted Alexscaves Biomes from the compass
 - **Explorers Compass**: Re-enabled minecraft:ruins to allow Trail Ruins, and Blacklisted Alexcaves Structures, and Integrated Stronghold from the compass
