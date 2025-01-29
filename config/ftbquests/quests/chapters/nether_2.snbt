@@ -103,7 +103,7 @@
 			]
 			title: " First Steps into the Unknown"
 			x: -5.0d
-			y: -0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["79796694A2D1F0DE"]
@@ -179,7 +179,7 @@
 			]
 			title: "Nether Survival: The Essentials"
 			x: -3.5d
-			y: -0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4927BD8DBED4A962"]
@@ -231,7 +231,7 @@
 			]
 			title: "Fortresses of Power"
 			x: -2.0d
-			y: -0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1D6068D3F034486B"]
@@ -297,7 +297,7 @@
 			]
 			title: "Bastions and Treasure Hoards"
 			x: -0.5d
-			y: -0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1665A6E78A71E6F5"]
@@ -385,7 +385,7 @@
 			]
 			title: "Harvesting the Nether’s Power"
 			x: 1.0d
-			y: -0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["7BAE261166502E1D"]
@@ -434,7 +434,7 @@
 			]
 			title: "Ancient Remnants of Power"
 			x: 2.5d
-			y: -0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["127DD18CE2DA41ED"]
@@ -508,7 +508,7 @@
 			]
 			title: "Challenge the Nether’s Beasts"
 			x: 4.0d
-			y: -0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3E8BB2ABA5F04447"]
@@ -621,7 +621,7 @@
 			]
 			title: " Conquer the Flames, Claim the Power"
 			x: 5.5d
-			y: -0.5d
+			y: 0.0d
 		}
 	]
 	title: "Nether"
