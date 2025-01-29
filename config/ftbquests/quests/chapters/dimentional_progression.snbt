@@ -497,9 +497,11 @@
 			size: 3.0d
 			subtitle: "Embark on a Journey Through Realms and Beyond 🚀 Click me to learn more!"
 			tasks: [{
-				id: "562A4F1773C428C3"
-				title: "Dimensional Progression"
-				type: "checkmark"
+				id: "6C2D675A19C834AB"
+				secret: true
+				stat: "minecraft:total_world_time"
+				type: "stat"
+				value: 1
 			}]
 			x: 0.0d
 			y: -6.0d
