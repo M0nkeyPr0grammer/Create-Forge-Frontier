@@ -392,6 +392,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["598B697BDE842B0E"]
 			description: [
 				"Gone are the days of simply lighting a portal and stepping into the Nether with ease. Nether Remastered transforms this fiery dimension into an adventure worth earning, drawing inspiration from the incredible End Remastered mod. In this pack, entering the Nether is a journey of preparation, exploration, and discovery."
 				""
