@@ -201,7 +201,10 @@
 		}
 		{
 			dependencies: ["774048801A50E2D4"]
-			description: ["With iron comes a new era of strength and resilience. Smelt your first iron ingots and craft a sturdy set of iron tools. But don’t stop there—forge iron armor to protect yourself against the dangers that await. With newfound durability, you are one step closer to greater challenges! 🛡🔥"]
+			description: [
+				"With iron comes a new era of strength and resilience. Smelt your first iron ingots and craft a sturdy set of iron tools. But don’t stop there—forge iron armor to protect yourself against the dangers that await. With newfound durability, you are one step closer to greater challenges! 🛡🔥 Learn more about tools and armor in its   "
+				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7734042A9B46C0E8\" } }"
+			]
 			id: "795BB1A225B65C14"
 			rewards: [{
 				id: "762B37CFA80EDEEC"
