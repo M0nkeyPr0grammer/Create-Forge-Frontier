@@ -124,7 +124,7 @@ The Create - Forge Frontier 2.1.0 update is here! Packed with enhanced quests, e
 - **Extended AE**: v1.3.2 > v1.3.4
 - **Fast Async**: v2.1 > v2.3
 - **Friends and Foes**: v3.0.6 > v3.0.7
-- **FTB Library**: v2001.2.6 > v2001.2.7
+- **FTB Library**: v2001.2.6 > v2001.2.8
 - **FTB Quests**: v2001.4.9 > v2001.4.10
 - **FTB Team**: v2001.3.0 > v2001.3.1
 - **Fusion**: v1.1.1 > v1.2.3
