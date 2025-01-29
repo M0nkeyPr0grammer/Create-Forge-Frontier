@@ -869,22 +869,15 @@
 		}
 		{
 			dependencies: ["4AADD38DF6D630C8"]
-			icon: "minecraft:dandelion"
+			icon: "neapolitan:dried_vanilla_pods"
 			id: "2ECB8AD4B72DF7DE"
-			subtitle: "Can use Dandelion or Blue Orchids"
-			tasks: [
-				{
-					count: 4L
-					id: "50ED22F01A27A23B"
-					item: "neapolitan:dried_vanilla_pods"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "1C7555341FED0199"
-					type: "checkmark"
-				}
-			]
+			subtitle: "Non-dry version obtained in the market or throughout the Overworld"
+			tasks: [{
+				count: 4L
+				id: "50ED22F01A27A23B"
+				item: "neapolitan:dried_vanilla_pods"
+				type: "item"
+			}]
 			x: 7.5d
 			y: 3.0d
 		}
