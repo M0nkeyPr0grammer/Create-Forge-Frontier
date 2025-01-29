@@ -31,7 +31,9 @@ The Create - Forge Frontier 2.1.0 update is here! Packed with enhanced quests, e
 - **FTB Info**: Completed Quests
 - **Informational**: Added New Quest Pages for future quests
 - **Dimensional Progression**: New Quests, and completed page
+- **Overworld**: Completed Quests
 - **Nether Remastered**: Added Rewards for Quests and revamped chapter to match the style of other quest pages
+- **Nether**: Completed Quests
 - **End Remastered**: Improved Main Quest Page, and Added Rewards for all the eyes
 - **Create**: New Quests, will be complete by update
 - **Molten Vents**: Linked Fluids to Quests, for easier navigation, and updated biomes for a few vents.
