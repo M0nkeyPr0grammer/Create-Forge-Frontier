@@ -3,7 +3,11 @@
 
 # Rising Innovations: Quests, Overhauls, and New Horizons!
 
-The Create - Forge Frontier 2.1.0 update is here! Packed with enhanced quests, exciting new mods like Create: Halitosis and Integrated Cataclysm, and major recipe overhauls, this update refines every aspect of your adventure. Explore revamped Molten Vents, unlock new crafting possibilities, and enjoy a smoother, more immersive gameplay experience. With updates spanning from enhanced mods to innovative mechanics, your journey through the Forge Frontier just got even better. Update now and take your gameplay to the next level!
+The Create - Forge Frontier 2.1.0 Update is here, bringing a massive overhaul to quests, mechanics, and progression! With new mods like Create: Halitosis, Integrated Cataclysm, and Brewin' and Chewin', major KubeJS updates, and expanded Molten Vents, this update pushes the boundaries of innovation and automation.
+
+Prepare for revamped quests, redesigned dimensional progression, and gameplay-enhancing tweaks that refine every aspect of your journey. From reworked molten processing to balanced mod integrations, everything has been fine-tuned to elevate your experience.
+
+Dive into the adventure, master new mechanics, and shape the world in your image. This is Forge Frontier—transformed and ready for the future. 🔥🚀
 
 ### As a standard safety protocol, we advise creating a backup of your saved data prior to updating the modification package to ensure the preservation of your progress.
 
