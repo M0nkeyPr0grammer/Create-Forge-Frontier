@@ -204,7 +204,7 @@ Dive into the adventure, master new mechanics, and shape the world in your image
 - **Delightful**: v3.6.1 > v3.6.2
 - **EMI**: v1.1.18 > v1.1.19
 - **Euphoria Patcher**: v1.4.3-r5.3 > v1.5.2-r5.4
-- **Every Compat**: v2.7.10 > v2.7.14
+- **Every Compat**: v2.7.10 > v2.7.15
 - **Extended AE**: v1.3.2 > v1.3.4
 - **Fast Async**: v2.1 > v2.3
 - **Friends and Foes**: v3.0.6 > v3.0.7
@@ -221,7 +221,7 @@ Dive into the adventure, master new mechanics, and shape the world in your image
 - **Lithostitched**: v1.3.10 > v1.4
 - **Memory Settings**: v5.5 > v5.9
 - **Modern Fix**: v5.20.0 > v5.20.2
-- **Moonlight**: v2.13.45 > v2.13.55
+- **Moonlight**: v2.13.45 > v2.13.56
 - **Naturalist Delight**: v1.0.3.1 > v1.0.3.2
 - **Not Enough Animations**: v1.9.0 > v1.9.1
 - **Pattern Schematics**: v1.1.16 > v1.1.19
@@ -233,6 +233,7 @@ Dive into the adventure, master new mechanics, and shape the world in your image
 - **Sophisticated Core**: v1.0.6.824 > v1.1.1.843
 - **Sophisticated Storage**: v1.0.7.1000 > v1.1.0.1048
 - **Structure Credits**: v1.7 > v2.2.1
+- **Supplementaries**: v3.1.11 > v3.1.12
 - **Structure Essentials**: v3.4 > v4.2
 - **Toms Simple Storage**: v1.6.9 > v1.7.0
 - **Xaero's Minimap**: v24.7.1 > v25.0.0
