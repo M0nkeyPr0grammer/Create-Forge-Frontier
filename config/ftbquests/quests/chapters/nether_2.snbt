@@ -183,7 +183,11 @@
 		}
 		{
 			dependencies: ["4927BD8DBED4A962"]
-			description: ["The most valuable loot in the Nether is hidden within Nether Fortresses, but these structures are also home to Blazes, Wither Skeletons, and swarms of Zombie Piglins. Only the bravest adventurers dare step inside."]
+			description: [
+				"The most valuable loot in the Nether is hidden within Nether Fortresses, but these structures are also home to Blazes, Wither Skeletons, and swarms of Zombie Piglins. Only the bravest adventurers dare step inside."
+				""
+				"{image:ftb:textures/fortress.png width:200 height:120 align:center}"
+			]
 			id: "1D6068D3F034486B"
 			rewards: [
 				{
@@ -235,7 +239,11 @@
 		}
 		{
 			dependencies: ["1D6068D3F034486B"]
-			description: ["Piglins are not just mindless brutes—they are treasure hoarders, and Bastions hide gold, weapons, and powerful enchantments. But be warned—Piglin Brutes do not take kindly to intruders."]
+			description: [
+				"Piglins are not just mindless brutes—they are treasure hoarders, and Bastions hide gold, weapons, and powerful enchantments. But be warned—Piglin Brutes do not take kindly to intruders."
+				""
+				"{image:ftb:textures/bastion_rem.png width:192 height:150 align:center}"
+			]
 			id: "1665A6E78A71E6F5"
 			rewards: [
 				{

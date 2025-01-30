@@ -104,7 +104,11 @@
 		}
 		{
 			dependencies: ["516EFC067D776C8A"]
-			description: ["At the heart of the Deep Dark lies the Ancient City, a vast underground ruin filled with treasure, mystery, and the ever-present danger of the Warden. One wrong move, one careless sound, and the nightmare awakens."]
+			description: [
+				"At the heart of the Deep Dark lies the Ancient City, a vast underground ruin filled with treasure, mystery, and the ever-present danger of the Warden. One wrong move, one careless sound, and the nightmare awakens."
+				""
+				"{image:ftb:textures/ancientcity.png width:192 height:150 align:center}"
+			]
 			id: "14894ADF77BC554B"
 			rewards: [
 				{
@@ -256,7 +260,11 @@
 		}
 		{
 			dependencies: ["6EA9BDB19D85D796"]
-			description: ["The Otherside is unlike any dimension before it. Here, the ground pulses with Sculk-infested stone, and strange creatures lurk in the darkness. If the Deep Dark was terrifying, the Otherside is pure nightmare fuel. But with great danger comes unparalleled power."]
+			description: [
+				"The Otherside is unlike any dimension before it. Here, the ground pulses with Sculk-infested stone, and strange creatures lurk in the darkness. If the Deep Dark was terrifying, the Otherside is pure nightmare fuel. But with great danger comes unparalleled power."
+				""
+				"{image:ftb:textures/otherside_screenshot.png width:192 height:150 align:center}"
+			]
 			id: "0BDAF6E0DAA27F56"
 			rewards: [
 				{

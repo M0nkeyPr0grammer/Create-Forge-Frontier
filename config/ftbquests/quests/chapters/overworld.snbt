@@ -478,7 +478,10 @@
 		{
 			dependencies: ["598B697BDE842B0E"]
 			description: [
-				"The Nether holds immense power, but in this world, reaching it is no simple task. Unlike traditional Minecraft, you cannot just light a portal and walk through. Seek out ancient structures scattered across the Overworld—each hiding valuable loot that will aid you in unlocking the Seal of the Underworld. Read more about these structures in the   "
+				"The Nether holds immense power, but in this world, reaching it is no simple task. Unlike traditional Minecraft, you cannot just light a portal and walk through. Seek out ancient structures scattered across the Overworld—each hiding valuable loot that will aid you in unlocking the Seal of the Underworld. "
+				"{@pagebreak}"
+				"{image:ftb:textures/hopoportal.png width:192 height:150 align:center}"
+				"Read more about these structures in the   "
 				"{ \"text\": \"Nether Remastered Chaper!\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"72FE4921BBC7E437\" } }"
 			]
 			id: "4196DD5F26401205"
