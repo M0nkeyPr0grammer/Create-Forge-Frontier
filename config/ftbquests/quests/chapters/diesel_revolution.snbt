@@ -27,13 +27,15 @@
 	quest_links: [ ]
 	quests: [{
 		id: "29D1C8975264C1E4"
+		shape: "gear"
+		size: 3.0d
 		tasks: [{
 			id: "23E3164AFA8E96CC"
 			item: "createdieselgenerators:diesel_engine"
 			type: "item"
 		}]
 		x: 0.0d
-		y: -7.0d
+		y: -6.0d
 	}]
 	title: "Powering the Revolutions (Create Diesel Generators)"
 }
