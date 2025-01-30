@@ -36,92 +36,147 @@ Dive into the adventure, master new mechanics, and shape the world in your image
 - [Item Filters](https://www.curseforge.com/minecraft/mc-mods/item-filters): Item Filters is a library mod that is used by mods like FTB Quests, Modular Pipes and QNet. It adds a single item, "Item Filter" which allows advanced filtering/item selection. You can easily add your own filters with the API.
 - [Better End Cities Vanilla](https://www.curseforge.com/minecraft/mc-mods/better-end-cities-vanilla): With this Mod installed, the end cities that generate will be much more intricate in design and will include more loot as each loot room has more chests.
 
-## Mod Removals
-- **Respawning Structures**: Crazy Bug that caused structures to reset while players are inside the structure
-- **Freecam**: Replaced with FreeCam by Zergatul
+## Mod Removals  
+- **Respawning Structures**:  
+  - Removed due to a **critical bug** causing structures to reset while players were inside.  
+- **Freecam**:  
+  - Replaced with **FreeCam by Zergatul** for better functionality and stability.  
+  
+## Datapack Removal  
+- **Better End Cities**:  
+  - Replaced with the **Mod Edition** to bypass datapack restrictions and ensure compatibility with **Partnership Server Packs**.  
 
-## Datapack Removal
-- **Better End Cities** - Replaced with Mod Edition to bypass Datapack Restrictions with Partnership Server Packs
 
-## Quest Updates/Additions
-- **Chapters**: Adjusted Chapter Order to make more sense
-- **Create - Forge Frontier**: Adjusted Image Sizes
-- **FTB Info**: Completed Quests
-- **Informational**: Added New Quest Pages for future quests
-- **Dimensional Progression**: New Quests, and completed page
-- **Overworld**: Completed Quests
-- **Nether Remastered**: Added Rewards for Quests and revamped chapter to match the style of other quest pages
-- **Nether**: Completed Quests
-- **Deeper Darker**: Completed Quests
-- **The End**: Completed Quests
-- **End Remastered**: Improved Main Quest Page, and Added Rewards for all the eyes
-- **Create**: New Quests, will be complete by update
-- **Molten Vents**: Linked Fluids to Quests, for easier navigation, and updated biomes for a few vents.
-- **Milkshakes**: Adjusted Dependencies, and Completed Quests
-- **Chocolates**: Completed Quests 
-- **Liquid Fuels**: Completed Quests
-- **Rockets**: Linked with Liquid Fuels Chapter
-- **Molten Ores**: Completed Quests
-- **Other Liquids**: Completed Quests
-- **Molten Mixing**: Completed Quests
+## Quest Updates & Additions
+### General Improvements
+- Chapter Organization: Adjusted the order of chapters for a more logical progression.
+- Informational Pages: Added new quest pages to prepare for future expansions.
+- Visual Enhancements: Adjusted image sizes in Create - Forge Frontier for improved clarity.
+### Dimensional Progression
+- Overworld: All quests now completed.
+- Nether: Fully completed quests, plus a revamped Nether Remastered chapter with improved style and new quest rewards.
+- Deeper Darker: Quests completed.
+- The End: All quests now finished.
+- End Remastered: Upgraded the main quest page and added rewards for all the Eyes of Ender.
+### Create & Industry
+- Create: Fresh new quests—on track for completion in this update!
+- Molten Vents: Improved quest navigation by linking relevant fluids and updating vent biome data.
+- Molten Ores & Mixing: Questlines now fully completed.
+### Food & Fluids
+- Milkshakes & Chocolates: Quest dependencies refined, all quests completed.
+- Liquid Fuels: Questline completed, now integrated with the Rockets chapter.
+- Other Liquids: All quests finalized.
+### Technology & Progression
+- FTB Info & Dimensional Progression: Quest pages now completed.
+- Rockets: Now linked with the Liquid Fuels chapter for better progression.
 
-## KubeJS Updates
-- **Create Stuff and Additions**: Updated Textures of all other Jetpacks due to new file arrangement on the mod side, and changed the recipe of the Netherite Jetpack to match the progressin chain 
-- **End Remastered**: Lowered the difficulty of the Rogue Eye Crafting Recipe to match the other eyes
-- **Power Loaders(Chunk Loaders)**: Changed Recipes for Andesite and Brass Chunk Loaders to better match the pack, as previous recipe was made for Landscapes Reimagined Forge Frontier
-- **Curios**:
-  - Removed Helium Flamingo Access, due to game breaking mix with another relic
-  - Adjusted Curios Tags for Obsidian Skull, Antidote Vessel, Crystal Heart
-  - Removed Belt Tag from Advanced Terminal to make sure it can only its custom terminal slot
-- **Ad Astra**: 
-  - Removed Freezes in Space and Evaporates in Space fluid tags from water to Fix Integrated Cataclysm Create Contraptions in Space
-  - Fixed Recipes to use Steel Plates tag
-- **Cataclysm**: 
-  - Merged our Cataclysm Structure Data Tweaks with the mod side Cataclysm Structures changes, tweaked structure generation to make sure structures generate on the surface.
-  - Adjusted Loot Pool for Burning Arena so dying ember is guaranteed 
-- **Dreams & Desires**: Remove Fluid/Lava Interaction Ponders, to remove confusion
-- **Farmers Delight**: Created Rich Soil Create Compat Mixing Recipe
-- **Botany Pots**: 
-  - Changed Base Botany Pot Recipe to require Rich Soil
-  - Added Ennegel Ferns to Botany Pots
-  - Adjusted Ad Astra Mushrooms Products
-- **AE2**: Made AE2 Meteorites more rare
-- **Disenchanting Table**: Changed Recipe to use Apotheosis Enchanting
-- **FTB**: Added in new titles and screenshots for quest work
-- **Molten Molding**: Updated recipes for many molten mixing to mold recipes to remove possibility of duping
-- **Molten Vents**: Made non-movable to encourage CarryOn. Replaced Sculk Grime Vent with Resonite Vent (new blocks, resources, and recipes), and adjusted vent biomes for Ochrum, Verdidium, and Crimsite making them more rare.
-- **Create Integration**:
-  - Added Create Goggle Curios Slot and Curios Tag for Create Goggles.
-  - Fixed compatibility for Enchantment Industry and Caged Mobs Crystallized Experience.
-  - Adjusted Resource Ore Stones crushing for balanced resource processing.
-  - Made Create - New Age magnets wrenchable
-- **Forge Frontier**:
-  - Added Banana and Ferros Slime to Slime recipes.
-  - Tagged Resource Ore Stones with Excavated Variant Stone Type.
-  - Removed excess Netherite scrap from crushing.
-- **Farming for Blockheads**: Added missing plant compatibility and reorganized market categories.
-- **Apotheosis**: Removed Chainsaw enchantment from Wanderer Trades.
-- **Advanced AE2**: Replaced Quantum Inscriber Recipe with crushing; fixed Sequenced Assembly Recipes for Presses.
-- **Recipes Adjustments**:
-  - Removed Molten Debris to Ancient Debris conversion.
-  - Reduced excess Redstone output from raw redstone crushing.
-  - New recipes for Resonite processing and Crushed Resonite variants.
-- **Dreams & Desires**: Updated Vanilla Milk and Strawberry Milk recipes.
-- **Biome Modifiers**: Moved Veridium Vents to Overworld and Crimsite Vents to Plains tags.
+## KubeJS Updates  
+### General Improvements  
+- **Create Stuff and Additions**:  
+  - Updated textures for all jetpacks due to a new file structure on the mod side.  
+  - Adjusted the **Netherite Jetpack** recipe to better align with the **progression chain**.  
+### End Remastered  
+- Lowered the difficulty of the **Rogue Eye** crafting recipe to match the balance of other eyes.  
+### Power Loaders (Chunk Loaders)  
+- Updated recipes for **Andesite** and **Brass Chunk Loaders** to better fit the modpack, as the previous recipes were designed for *Landscapes Reimagined - Forge Frontier*.  
+### Curios  
+- **Helium Flamingo Access** removed due to game-breaking interaction with another relic.  
+- Adjusted **Curios Tags** for:
+  - *Obsidian Skull*  
+  - *Antidote Vessel*  
+  - *Crystal Heart*  
+- Removed **Belt Tag** from the **Advanced Terminal** to ensure it can only be placed in its custom terminal slot.  
+### Ad Astra  
+- Removed *Freezes in Space* and *Evaporates in Space* fluid tags from **Water** to fix integration with *Cataclysm Create Contraptions in Space*.  
+- Fixed **recipes** to use the correct **Steel Plates tag**.  
+### Cataclysm  
+- Merged **structure data tweaks** with mod-side updates for better compatibility.  
+- Adjusted **structure generation** to ensure all structures generate on the surface.  
+- **Burning Arena** loot pool updated—*Dying Ember* is now **guaranteed**.  
+### Dreams & Desires  
+- Removed **Fluid/Lava Interaction Ponders** to reduce confusion.  
+- Updated **Vanilla Milk** and **Strawberry Milk** recipes.  
+### Farmer’s Delight  
+- Created a **Rich Soil Create Compat Mixing Recipe**.  
+### Botany Pots  
+- Adjusted **Base Botany Pot Recipe** to require **Rich Soil**.  
+- Added **Ennegel Ferns** to Botany Pots.  
+- Updated **Ad Astra Mushrooms** product outputs.  
+### AE2 (Applied Energistics 2)  
+- **Meteorites** are now more rare for better balance.  
+### Disenchanting Table  
+- Recipe updated to use **Apotheosis Enchanting**.  
+### FTB  
+- Added new **titles and screenshots** to improve quest work.  
+### Molten Molding  
+- Updated multiple **molten mixing to mold** recipes to eliminate duplication exploits.  
+### Molten Vents  
+- Made **non-movable** to encourage the use of *CarryOn*.  
+- Replaced **Sculk Grime Vent** with **Resonite Vent** (including new blocks, resources, and recipes).  
+- Adjusted vent biomes for **Ochrum, Verdidium, and Crimsite**, making them **more rare**.  
+### Create Integration  
+- Added **Create Goggle Curios Slot** and a Curios Tag for **Create Goggles**.  
+- Fixed compatibility with **Enchantment Industry** and **Caged Mobs Crystallized Experience**.  
+- Balanced **Resource Ore Stones crushing** for fairer resource processing.  
+- Made **Create - New Age Magnets** wrenchable.  
+### Forge Frontier  
+- Added **Banana** and **Ferros Slime** to slime recipes.  
+- Tagged **Resource Ore Stones** with **Excavated Variant Stone Type**.  
+- Removed **excess Netherite Scrap** from crushing.  
+### Farming for Blockheads  
+- Added missing **plant compatibility**.  
+- Reorganized **market categories** for better usability.  
+### Apotheosis  
+- Removed **Chainsaw Enchantment** from *Wanderer Trades*.  
+### Advanced AE2  
+- Replaced **Quantum Inscriber Recipe** with a **crushing method**.  
+- Fixed **Sequenced Assembly Recipes** for **Presses**.  
+### Recipe Adjustments  
+- Removed **Molten Debris to Ancient Debris conversion**.  
+- Reduced **excess Redstone output** from *raw Redstone crushing*.  
+- Introduced **new recipes** for **Resonite processing** and **Crushed Resonite variants**.  
+### Biome Modifiers  
+- **Veridium Vents** now generate in **Desert** biomes.  
+- **Crimsite Vents** now generate in **Plains** biomes.  
+- **Ochrum Vents** now generate in **Savanna** biomes
 
-## Config Updates
-- **Create Stuffs and Additions**: Adjusted the height and speed parameters for each jetpack tier to ensure a progressive increase in performance with each upgrade. Additionally, expanded the fuel capacity for all tanks, jetpacks, and tools to enhance efficiency and extended usability.
-- **Every Compat**: Disabled Assets Depend on Loaded Packs, to fix block loot table issue
-- **Natures Compass**: Blacklisted Alexscaves Biomes from the compass
-- **Explorers Compass**: Re-enabled minecraft:ruins to allow Trail Ruins, and Blacklisted Alexcaves Structures, and Integrated Stronghold from the compass
-- **FTB**: Changed Quest Progression Mode from Linear to Flexible to allow for a better experience, increase max amount of homes from 2 to 4
-- **Friends & Foes**: Disable Check for Updates Feature
-- **Create Crafts & Additions**: Increased Motor Min Consumption, and Lowered Generator Efficiency
-- **Carryon**: Blacklisted Sophisticated Storage, Backpacks, and Sacks
-- **Tom's Simple Storage**: Increased Single Dimension Requirement to even out mechanics usage
-- **Sophisticated Storage and Backpacks**: Increased the Range of Magnet Upgrade from 3 to 6, and Advanced Magnet Upgrade from 5 to 12
-- **Supplementaries**: Disabled Simple Mode for Flower Boxes, which now allows all flowers not just tall flowers
-- **Quark**: Disabled Hotbar Swapper, and enabled Adjustable Chat
+## Config Updates  
+### General Improvements  
+- **Create Stuffs and Additions**:  
+  - Adjusted **height and speed parameters** for each jetpack tier to ensure a smooth, progressive increase in performance with each upgrade.  
+  - Expanded **fuel capacity** for all **tanks, jetpacks, and tools** to improve efficiency and extend usability.  
+### Compatibility & Fixes  
+- **Every Compat**:  
+  - Disabled *Assets Depend on Loaded Packs* to fix a **block loot table issue**.  
+- **Friends & Foes**:  
+  - Disabled the **Check for Updates** feature.  
+### Navigation & Exploration  
+- **Nature’s Compass**:  
+  - Blacklisted **Alex’s Caves biomes** to prevent unintended navigation.  
+- **Explorer’s Compass**:  
+  - Re-enabled `minecraft:ruins` to allow **Trail Ruins**.  
+  - Blacklisted **Alex’s Caves structures** and **Integrated Strongholds** from the compass.  
+### Questing & Player Experience  
+- **FTB**:  
+  - Changed **Quest Progression Mode** from **Linear** to **Flexible** for a better gameplay experience.  
+  - Increased the **maximum number of homes** from **2 to 4**.  
+### Performance & Balancing  
+- **Create Crafts & Additions**:  
+  - Increased **Motor Minimum Consumption**.  
+  - Lowered **Generator Efficiency** for better balance.  
+### Storage & Item Handling  
+- **CarryOn**:  
+  - Blacklisted **Sophisticated Storage, Backpacks, and Sacks** to prevent unintended interactions.  
+- **Sophisticated Storage & Backpacks**:  
+  - Increased the **Magnet Upgrade range** from **3 to 6**.  
+  - Increased the **Advanced Magnet Upgrade range** from **5 to 12**.  
+### Miscellaneous Adjustments  
+- **Supplementaries**:  
+  - Disabled **Simple Mode** for *Flower Boxes*, now allowing **all flowers**, not just tall flowers.  
+- **Quark**:  
+  - Disabled **Hotbar Swapper**.  
+  - Enabled **Adjustable Chat** for greater customization.  
+
 
 ## Shader Pack Updates
 - **Complementary Unbound**: v5.3 > v5.4 
@@ -180,13 +235,15 @@ Dive into the adventure, master new mechanics, and shape the world in your image
 - **Structure Credits**: v1.7 > v2.2.1
 - **Structure Essentials**: v3.4 > v4.2
 - **Toms Simple Storage**: v1.6.9 > v1.7.0
-- **Xaero's Minimap**: v24.7.1 > v250.0.
+- **Xaero's Minimap**: v24.7.1 > v25.0.0
 
-# Global Updates
-- **Repurposed Structures Better Structure Compats**: Moved all Datapacks of this type to Global Datapacks
+## Global Updates  
+- **Repurposed Structures - Better Structure Compats**:  
+  - Moved all **datapacks of this type** to **Global Datapacks** for better organization and compatibility.  
 
 ## Drippy Loading Screen Updates
 - Updated version number to 2.1.0
+
 ## Fancy Menu Updates
 - Updated version number to 2.1.0
 
