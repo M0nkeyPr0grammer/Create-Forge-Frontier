@@ -139,7 +139,11 @@ Dive into the adventure, master new mechanics, and shape the world in your image
 ### Biome Modifiers  
 - **Veridium Vents** now generate in **Desert** biomes.  
 - **Crimsite Vents** now generate in **Plains** biomes.  
-- **Ochrum Vents** now generate in **Savanna** biomes
+- **Ochrum Vents** now generate in **Savanna** biomes.
+### Regions Unexplored
+- **Ashen Pine Trees** now generate less often
+- **Ashen Trees** now generate less often
+- **Ashed Shrubs** now generate less often
 
 ## Config Updates  
 ### General Improvements  
