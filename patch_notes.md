@@ -58,6 +58,7 @@ Dive into the adventure, master new mechanics, and shape the world in your image
 - Deeper Darker: Quests completed.
 - The End: All quests now finished.
 - End Remastered: Upgraded the main quest page and added rewards for all the Eyes of Ender.
+- Ad Astra Moon: Quests completed.
 ### Create & Industry
 - Create: Fresh new quests—on track for completion in this update!
 - Molten Vents: Improved quest navigation by linking relevant fluids and updating vent biome data.
