@@ -28,6 +28,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["08F62016A6F246E4"]
 			description: [
 				"The first step into the cosmos begins here!"
 				""
