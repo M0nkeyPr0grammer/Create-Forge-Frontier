@@ -20,10 +20,15 @@ The Create - Forge Frontier 2.1.0 update is here! Packed with enhanced quests, e
 - [Brewin' And Chewin'](https://www.curseforge.com/minecraft/mc-mods/brewin-and-chewin): Brewin' and Chewin' is an addon mod for Farmer's Delight. Using a keg, you can brew or ferment many new foods, including liquors, cheese, and fudge!
 - [Quests Additions](https://www.curseforge.com/minecraft/mc-mods/quests-additions): An addon for the FTB quests mod. It adds some tasks and rewards (currently 7 tasks and 3 rewards) that are missing in the base mod.
 - [Item Filters](https://www.curseforge.com/minecraft/mc-mods/item-filters): Item Filters is a library mod that is used by mods like FTB Quests, Modular Pipes and QNet. It adds a single item, "Item Filter" which allows advanced filtering/item selection. You can easily add your own filters with the API.
+- [Better End Cities Vanilla](https://www.curseforge.com/minecraft/mc-mods/better-end-cities-vanilla): With this Mod installed, the end cities that generate will be much more intricate in design and will include more loot as each loot room has more chests.
+- [Bigger Better End Cities](https://www.curseforge.com/minecraft/mc-mods/bigger-better-end-cities): This mod rewrites the generation of end cities to make them much larger and with many more branching paths.
 
-## Mod Removal
-- Respawning Structures: Crazy Bug that caused structures to reset while players are inside the structure
-- Freecam: Replaced with FreeCam by Zergatul
+## Mod Removals
+- **Respawning Structures**: Crazy Bug that caused structures to reset while players are inside the structure
+- **Freecam**: Replaced with FreeCam by Zergatul
+
+## Datapack Removal
+- **Better End Cities** - Replaced with Mod Edition to bypass Datapack Restrictions with Partnership Server Packs
 
 ## Quest Updates/Additions
 - **Chapters**: Adjusted Chapter Order to make more sense
@@ -162,6 +167,9 @@ The Create - Forge Frontier 2.1.0 update is here! Packed with enhanced quests, e
 - **Structure Essentials**: v3.4 > v4.2
 - **Toms Simple Storage**: v1.6.9 > v1.7.0
 - **Xaero's Minimap**: v24.7.1 > v250.0.
+
+# Global Updates
+- **Repurposed Structures Better Structure Compats**: Moved all Datapacks of this type to Global Datapacks
 
 ## Drippy Loading Screen Updates
 - Updated version number to 2.1.0
