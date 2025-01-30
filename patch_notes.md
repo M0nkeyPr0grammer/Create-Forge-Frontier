@@ -44,7 +44,7 @@ The Create - Forge Frontier 2.1.0 update is here! Packed with enhanced quests, e
 - **Rockets**: Linked with Liquid Fuels Chapter
 - **Molten Ores**: Completed Quests
 - **Other Liquids**: Completed Quests
-- **Molten Mixing**: Started Quests, will complete later
+- **Molten Mixing**: Completed Quests
 
 ## KubeJS Updates
 - **Create Stuff and Additions**: Updated Textures of all other Jetpacks due to new file arrangement on the mod side, and changed the recipe of the Netherite Jetpack to match the progressin chain 
