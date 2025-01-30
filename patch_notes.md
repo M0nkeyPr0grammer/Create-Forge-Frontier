@@ -12,6 +12,7 @@ To fully experience all the new changes and improvements, we highly recommend re
 
 - Ad Astra Planets (Moon, Mars, Venus, Glacio)
 - Alex's Caves Planets
+- Deeper Darker's: Otherside Dimension
 - The End Dimension
 
 These resets ensure you have access to new structures, revamped progression, and updated generation without missing any of the latest features!
