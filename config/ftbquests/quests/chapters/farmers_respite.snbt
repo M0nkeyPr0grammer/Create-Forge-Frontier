@@ -27,13 +27,15 @@
 	quest_links: [ ]
 	quests: [{
 		id: "751C34FA40958EDE"
+		shape: "gear"
+		size: 3.0d
 		tasks: [{
 			id: "111363B01DCCE199"
 			item: "farmersrespite:kettle"
 			type: "item"
 		}]
-		x: -0.5d
-		y: -4.5d
+		x: 0.0d
+		y: -6.5d
 	}]
 	title: "Farmer's Respite"
 }

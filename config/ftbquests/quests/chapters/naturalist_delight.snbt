@@ -27,13 +27,15 @@
 	quest_links: [ ]
 	quests: [{
 		id: "04E2F2788CF75F16"
+		shape: "gear"
+		size: 3.0d
 		tasks: [{
 			id: "3B4BE4E4BE56DECA"
 			item: "naturalistdelight:duck_soup"
 			type: "item"
 		}]
 		x: 0.0d
-		y: -5.0d
+		y: -6.5d
 	}]
 	title: "Naturalist Delight"
 }

@@ -27,6 +27,8 @@
 	quest_links: [ ]
 	quests: [{
 		id: "34DBC02826AEE37E"
+		shape: "gear"
+		size: 3.0d
 		tasks: [{
 			icon: "cataclysm:remnant_skull"
 			id: "729AB1421DFCA39C"
@@ -34,7 +36,7 @@
 			type: "structure"
 		}]
 		x: 0.0d
-		y: -5.0d
+		y: -6.5d
 	}]
 	title: "Cursed Pyramid"
 }

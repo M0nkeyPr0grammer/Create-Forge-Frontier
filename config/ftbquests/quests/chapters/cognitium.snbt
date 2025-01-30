@@ -31,13 +31,15 @@
 	quest_links: [ ]
 	quests: [{
 		id: "6141BAD50E3492BE"
+		shape: "gear"
+		size: 3.0d
 		tasks: [{
 			id: "320A7171A6444E9E"
 			item: "experienceobelisk:cognitive_flux"
 			type: "item"
 		}]
 		x: 0.0d
-		y: -4.5d
+		y: -6.5d
 	}]
 	title: "Cognitium"
 }

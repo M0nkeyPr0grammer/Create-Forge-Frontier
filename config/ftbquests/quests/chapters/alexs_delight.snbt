@@ -27,13 +27,15 @@
 	quest_links: [ ]
 	quests: [{
 		id: "09F074C76D09DD6C"
+		shape: "gear"
+		size: 3.0d
 		tasks: [{
 			id: "56EEBA76486DEDED"
 			item: "alexsdelight:raw_bunfungus_drumstick"
 			type: "item"
 		}]
 		x: 0.0d
-		y: -4.5d
+		y: -6.5d
 	}]
 	title: "Alex's Delight"
 }

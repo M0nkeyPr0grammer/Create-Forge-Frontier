@@ -34,6 +34,8 @@
 	quests: [
 		{
 			id: "7F622D9507B3E12E"
+			shape: "gear"
+			size: 3.0d
 			tasks: [{
 				id: "16E5B237C541C3F4"
 				item: {
@@ -45,17 +47,19 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
+			x: -3.0d
 			y: -6.5d
 		}
 		{
 			id: "79AC287A1B47CF36"
+			shape: "gear"
+			size: 3.0d
 			tasks: [{
 				id: "55CB6BDCB9C2FD09"
 				item: "balancedflight:flight_anchor"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 3.0d
 			y: -6.5d
 		}
 	]

@@ -18,6 +18,9 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'tfmg:sequenced_assembly/heavy_plate'});
     event.remove({ id: 'forge_frontier:compacting/iron_plate'});
     event.remove({ id: 'create:pressing/steel_ingot'})
+    event.remove({ id: 'create_things_and_misc:new_trapdoor_andesite'});
+    event.remove({ id: 'create_things_and_misc:new_trapdoor_copper'});
+    event.remove({ id: 'create_things_and_misc:new_trap_door_brass'});
 
     // Compressed Ore Block Shapeless Recipe Fixes
         // Raw Copper

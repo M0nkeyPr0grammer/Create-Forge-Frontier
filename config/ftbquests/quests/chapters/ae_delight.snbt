@@ -33,6 +33,8 @@
 	quest_links: [ ]
 	quests: [{
 		id: "39E9BF7F9294308A"
+		shape: "gear"
+		size: 3.0d
 		tasks: [{
 			id: "23A8BD328299B00E"
 			item: {
@@ -44,8 +46,8 @@
 			}
 			type: "item"
 		}]
-		x: -0.5d
-		y: -5.0d
+		x: 0.0d
+		y: -6.5d
 	}]
 	title: "AE Delight"
 }

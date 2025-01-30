@@ -31,6 +31,8 @@
 	quest_links: [ ]
 	quests: [{
 		id: "095AC2921FF21A9E"
+		shape: "gear"
+		size: 3.0d
 		tasks: [{
 			id: "4252393AE3462BAD"
 			item: {
@@ -41,7 +43,7 @@
 			type: "item"
 		}]
 		x: 0.0d
-		y: -5.5d
+		y: -6.5d
 	}]
 	title: "Jetpacks"
 }

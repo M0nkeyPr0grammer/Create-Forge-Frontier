@@ -33,6 +33,8 @@
 	quest_links: [ ]
 	quests: [{
 		id: "009F937A342007B5"
+		shape: "gear"
+		size: 3.0d
 		tasks: [{
 			id: "6D012884230C5A02"
 			item: {
@@ -45,7 +47,7 @@
 			type: "item"
 		}]
 		x: 0.0d
-		y: -4.0d
+		y: -6.5d
 	}]
 	title: "Delightful"
 }

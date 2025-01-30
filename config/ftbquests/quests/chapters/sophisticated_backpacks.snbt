@@ -27,13 +27,15 @@
 	quest_links: [ ]
 	quests: [{
 		id: "5293F43761080FC7"
+		shape: "gear"
+		size: 3.0d
 		tasks: [{
 			id: "75FF1A32F2B6CE84"
 			item: "sophisticatedbackpacks:backpack"
 			type: "item"
 		}]
 		x: 0.0d
-		y: -5.5d
+		y: -6.5d
 	}]
 	title: "Sophisticated Backpacks"
 }

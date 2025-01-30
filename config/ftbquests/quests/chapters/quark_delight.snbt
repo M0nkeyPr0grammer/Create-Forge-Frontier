@@ -27,13 +27,15 @@
 	quest_links: [ ]
 	quests: [{
 		id: "3BD6D36470089C09"
+		shape: "gear"
+		size: 3.0d
 		tasks: [{
 			id: "6166E7AC3B52BA3E"
 			item: "quarkdelight:cavern_explorer_stew"
 			type: "item"
 		}]
 		x: 0.0d
-		y: -5.0d
+		y: -6.5d
 	}]
 	title: "Quark Delight"
 }

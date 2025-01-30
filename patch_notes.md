@@ -3,7 +3,21 @@
 
 # Rising Innovations: Quests, Overhauls, and New Horizons!
 
-The Create - Forge Frontier 2.1.0 update is here! Packed with enhanced quests, exciting new mods like Create: Halitosis and Integrated Cataclysm, and major recipe overhauls, this update refines every aspect of your adventure. Explore revamped Molten Vents, unlock new crafting possibilities, and enjoy a smoother, more immersive gameplay experience. With updates spanning from enhanced mods to innovative mechanics, your journey through the Forge Frontier just got even better. Update now and take your gameplay to the next level!
+The Create - Forge Frontier 2.1.0 Update is here, bringing a massive overhaul to quests, mechanics, and progression! With new mods like Create: Halitosis, Integrated Cataclysm, and Brewin' and Chewin', major KubeJS updates, and expanded Molten Vents, this update pushes the boundaries of innovation and automation.
+
+Prepare for revamped quests, redesigned dimensional progression, and gameplay-enhancing tweaks that refine every aspect of your journey. From reworked molten processing to balanced mod integrations, everything has been fine-tuned to elevate your experience.
+
+## 🌍 Recommended World Resets!
+To fully experience all the new changes and improvements, we highly recommend resetting the following dimensions:
+
+- Ad Astra Planets (Moon, Mars, Venus, Glacio)
+- Alex's Caves Planets
+- Deeper Darker's: Otherside Dimension
+- The End Dimension
+
+These resets ensure you have access to new structures, revamped progression, and updated generation without missing any of the latest features!
+
+Dive into the adventure, master new mechanics, and shape the world in your image. This is Forge Frontier—transformed and ready for the future. 🔥🚀
 
 ### As a standard safety protocol, we advise creating a backup of your saved data prior to updating the modification package to ensure the preservation of your progress.
 
@@ -18,10 +32,16 @@ The Create - Forge Frontier 2.1.0 update is here! Packed with enhanced quests, e
 - [Acedium](https://github.com/ferriarnus/acedium/tree/1.20.1-neoforge?tab=License-1-ov-file): Acedium is a (neo)forge port of Nvidium. Nvidium is an alternate rendering backing for sodium, it uses cutting edge nvidia features to render huge amounts of terrain geometry at very playable framerates.
 - [FreeCam by Zergatul](https://www.curseforge.com/minecraft/mc-mods/freecam-by-zergatul): This mod allows you to control your camera separately from your player. While it is enabled, you can fly around and travel through blocks within your render distance.
 - [Brewin' And Chewin'](https://www.curseforge.com/minecraft/mc-mods/brewin-and-chewin): Brewin' and Chewin' is an addon mod for Farmer's Delight. Using a keg, you can brew or ferment many new foods, including liquors, cheese, and fudge!
+- [Quests Additions](https://www.curseforge.com/minecraft/mc-mods/quests-additions): An addon for the FTB quests mod. It adds some tasks and rewards (currently 7 tasks and 3 rewards) that are missing in the base mod.
+- [Item Filters](https://www.curseforge.com/minecraft/mc-mods/item-filters): Item Filters is a library mod that is used by mods like FTB Quests, Modular Pipes and QNet. It adds a single item, "Item Filter" which allows advanced filtering/item selection. You can easily add your own filters with the API.
+- [Better End Cities Vanilla](https://www.curseforge.com/minecraft/mc-mods/better-end-cities-vanilla): With this Mod installed, the end cities that generate will be much more intricate in design and will include more loot as each loot room has more chests.
 
-## Mod Removal
-- Respawning Structures: Crazy Bug that caused structures to reset while players are inside the structure
-- Freecam: Replaced with FreeCam by Zergatul
+## Mod Removals
+- **Respawning Structures**: Crazy Bug that caused structures to reset while players are inside the structure
+- **Freecam**: Replaced with FreeCam by Zergatul
+
+## Datapack Removal
+- **Better End Cities** - Replaced with Mod Edition to bypass Datapack Restrictions with Partnership Server Packs
 
 ## Quest Updates/Additions
 - **Chapters**: Adjusted Chapter Order to make more sense
@@ -29,7 +49,11 @@ The Create - Forge Frontier 2.1.0 update is here! Packed with enhanced quests, e
 - **FTB Info**: Completed Quests
 - **Informational**: Added New Quest Pages for future quests
 - **Dimensional Progression**: New Quests, and completed page
+- **Overworld**: Completed Quests
 - **Nether Remastered**: Added Rewards for Quests and revamped chapter to match the style of other quest pages
+- **Nether**: Completed Quests
+- **Deeper Darker**: Completed Quests
+- **The End**: Completed Quests
 - **End Remastered**: Improved Main Quest Page, and Added Rewards for all the eyes
 - **Create**: New Quests, will be complete by update
 - **Molten Vents**: Linked Fluids to Quests, for easier navigation, and updated biomes for a few vents.
@@ -39,9 +63,10 @@ The Create - Forge Frontier 2.1.0 update is here! Packed with enhanced quests, e
 - **Rockets**: Linked with Liquid Fuels Chapter
 - **Molten Ores**: Completed Quests
 - **Other Liquids**: Completed Quests
-- **Molten Mixing**: Started Quests, will complete later
+- **Molten Mixing**: Completed Quests
 
 ## KubeJS Updates
+- **Create Stuff and Additions**: Updated Textures of all other Jetpacks due to new file arrangement on the mod side, and changed the recipe of the Netherite Jetpack to match the progressin chain 
 - **End Remastered**: Lowered the difficulty of the Rogue Eye Crafting Recipe to match the other eyes
 - **Power Loaders(Chunk Loaders)**: Changed Recipes for Andesite and Brass Chunk Loaders to better match the pack, as previous recipe was made for Landscapes Reimagined Forge Frontier
 - **Curios**:
@@ -85,6 +110,8 @@ The Create - Forge Frontier 2.1.0 update is here! Packed with enhanced quests, e
 - **Biome Modifiers**: Moved Veridium Vents to Overworld and Crimsite Vents to Plains tags.
 
 ## Config Updates
+- **Create Stuffs and Additions**: Adjusted the height and speed parameters for each jetpack tier to ensure a progressive increase in performance with each upgrade. Additionally, expanded the fuel capacity for all tanks, jetpacks, and tools to enhance efficiency and extended usability.
+- **Every Compat**: Disabled Assets Depend on Loaded Packs, to fix block loot table issue
 - **Natures Compass**: Blacklisted Alexscaves Biomes from the compass
 - **Explorers Compass**: Re-enabled minecraft:ruins to allow Trail Ruins, and Blacklisted Alexcaves Structures, and Integrated Stronghold from the compass
 - **FTB**: Changed Quest Progression Mode from Linear to Flexible to allow for a better experience, increase max amount of homes from 2 to 4
@@ -96,6 +123,10 @@ The Create - Forge Frontier 2.1.0 update is here! Packed with enhanced quests, e
 - **Supplementaries**: Disabled Simple Mode for Flower Boxes, which now allows all flowers not just tall flowers
 - **Quark**: Disabled Hotbar Swapper, and enabled Adjustable Chat
 
+## Shader Pack Updates
+- **Complementary Unbound**: v5.3 > v5.4 
+- **Complementary Unbound + Euphoria Patches**: v5.3 > v5.4
+
 ## Mod Updates
 - **Advanced AE**: v1.0.13> v1.1.1
 - **Ad Astra Delight**: v1.1.0 > v1.1.1
@@ -103,7 +134,7 @@ The Create - Forge Frontier 2.1.0 update is here! Packed with enhanced quests, e
 - **AE2**: v15.3.2 > v15.3.3
 - **AE Delight**: v1.0.4 > v1.0.4.1
 - **Alex's Caves Delight**: v1.0.23 > v1.0.24
-- **Apotheosis**: v7.4.3 > 7.4.4
+- **Apotheosis**: v7.4.3 > 7.4.5
 - **Balm**: v7.3.10 > v7.3.11
 - **Cataclysm**: v2.27 > v2.43
 - **Collectors Reap**: v1.3.2 > v1.3.3
@@ -111,17 +142,20 @@ The Create - Forge Frontier 2.1.0 update is here! Packed with enhanced quests, e
 - **Corpse**: v1.0.19 > v1.0.20
 - **Create Contraption Terminals**: v1.0.1 > v1.1.0 
 - **Create Crafts and Additions**: v1.2.4e > v1.2.5
-- **Create Stuff and Additions**: v2.0.5 > v2.0.6
+- **Create Stuff and Additions**: v2.0.5 > v2.0.7
 - **Creative Core**: v2.28 > v2.31
 - **Curios**: v5.11.0 > v5.11.1
 - **Deeper Darker Delight**: v1.2.1 > v1.2.2
 - **Delightful**: v3.6.1 > v3.6.2
 - **EMI**: v1.1.18 > v1.1.19
+- **Euphoria Patcher**: v1.4.3-r5.3 > v1.5.2-r5.4
 - **Every Compat**: v2.7.10 > v2.7.14
 - **Extended AE**: v1.3.2 > v1.3.4
 - **Fast Async**: v2.1 > v2.3
 - **Friends and Foes**: v3.0.6 > v3.0.7
-- **FTB Library**: v2001.2.6 > v2001.2.7
+- **FTB Library**: v2001.2.6 > v2001.2.8
+- **FTB Quests**: v2001.4.9 > v2001.4.10
+- **FTB Team**: v2001.3.0 > v2001.3.1
 - **Fusion**: v1.1.1 > v1.2.3
 - **Guard Villagers**: v1.6.9 > v1.6.10
 - **Immediately Fast**: v1.3.3 > v1.3.4
@@ -132,7 +166,7 @@ The Create - Forge Frontier 2.1.0 update is here! Packed with enhanced quests, e
 - **Lithostitched**: v1.3.10 > v1.4
 - **Memory Settings**: v5.5 > v5.9
 - **Modern Fix**: v5.20.0 > v5.20.2
-- **Moonlight**: v2.13.45 > v2.13.53
+- **Moonlight**: v2.13.45 > v2.13.55
 - **Naturalist Delight**: v1.0.3.1 > v1.0.3.2
 - **Not Enough Animations**: v1.9.0 > v1.9.1
 - **Pattern Schematics**: v1.1.16 > v1.1.19
@@ -140,13 +174,16 @@ The Create - Forge Frontier 2.1.0 update is here! Packed with enhanced quests, e
 - **Respawning Structures**: v3.3 > v3.5
 - **Rubidium Extra**: v0.5.4.3 > v0.5.4.4
 - **Smoothchunk**: v3.8 > v4.0
-- **Sophisticated Backpacks**: v3.21.2.1163 > v3.22.0.1179
-- **Sophisticated Core**: v1.0.6.824 > v1.1.1.841
-- **Sophisticated Storage**: v1.0.7.1000 > v1.1.0.1046
+- **Sophisticated Backpacks**: v3.21.2.1163 > v3.22.0.1182
+- **Sophisticated Core**: v1.0.6.824 > v1.1.1.843
+- **Sophisticated Storage**: v1.0.7.1000 > v1.1.0.1048
 - **Structure Credits**: v1.7 > v2.2.1
-- **Structure Essentials**: v3.4 > v4.1
+- **Structure Essentials**: v3.4 > v4.2
 - **Toms Simple Storage**: v1.6.9 > v1.7.0
 - **Xaero's Minimap**: v24.7.1 > v250.0.
+
+# Global Updates
+- **Repurposed Structures Better Structure Compats**: Moved all Datapacks of this type to Global Datapacks
 
 ## Drippy Loading Screen Updates
 - Updated version number to 2.1.0

@@ -5,14 +5,25 @@
 	group: ""
 	icon: "ad_astra:earth_globe"
 	id: "430DE687E9BB5176"
-	images: [{
-		height: 10.0d
-		image: "ftb:textures/dim_travel_title.png"
-		rotation: 0.0d
-		width: 15.0d
-		x: 0.0d
-		y: -9.0d
-	}]
+	images: [
+		{
+			height: 10.0d
+			image: "ftb:textures/dim_travel_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			height: 18.0d
+			image: "ad_astra:textures/painting/the_milky_way.png"
+			order: -1
+			rotation: 0.0d
+			width: 24.0d
+			x: 0.0d
+			y: -6.0d
+		}
+	]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
@@ -27,7 +38,7 @@
 				"{@pagebreak}"
 				"{image:ftb:textures/overworld_screenshot.png width:192 height:100 align:center}"
 				"Read more about the Overworld in its  "
-				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"49AE9AC116F1D962\" } }"
+				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5DA842A1588FB8BE\" } }"
 			]
 			icon: "minecraft:grass_block"
 			id: "5EDC9934E7D346D8"
@@ -60,7 +71,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["486291562456D10A"]
+			dependencies: ["391748CCFCB25D1A"]
 			description: [
 				"The Nether Dimension is a realm of intense heat, perilous landscapes, and untold treasures waiting to be discovered. With Nether Remastered, this iconic dimension has been reimagined, introducing a host of new terrains and biomes to explore—offering adventures unlike anything you've seen before."
 				""
@@ -281,49 +292,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["5EDC9934E7D346D8"]
-			description: [
-				"In Nether Remastered, the journey to unlocking the Nether becomes an adventure of its own. Before stepping into the fiery depths, you’ll explore certain key structures scattered throughout the Overworld, each harboring special loot vital to your progression."
-				""
-				"Seek out these hidden treasures and gather unique resources as you prepare for the ultimate step: consuming the Seal of the Underworld, a powerful item that unlocks access to the Nether dimension."
-				""
-				"With this carefully crafted progression system, the Nether is transformed from a simple destination into a rewarding milestone, immersing you in a journey of discovery, challenge, and excitement. Will you earn your place in the depths of the underworld? 🌋✨"
-				"{@pagebreak}"
-				"{image:ftb:textures/hopoportal.png width:192 height:100 align:center}"
-				"Read more about Nether Remastered in its  "
-				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"72FE4921BBC7E437\" } }"
-			]
-			icon: "nether_remastered:seal_of_the_underworld_item"
-			id: "486291562456D10A"
-			rewards: [
-				{
-					id: "73E02E1A4A90930F"
-					type: "xp"
-					xp: 100
-				}
-				{
-					id: "3E1241F71B08C843"
-					item: {
-						Count: 1
-						id: "minecraft:flint_and_steel"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			subtitle: "Nether Remastered: Unlock the Fiery Gates 🔥 Click me for more info!"
-			tasks: [{
-				id: "276FF0A7C1E3F193"
-				item: "minecraft:obsidian"
-				type: "item"
-			}]
-			title: "Nether Remastered"
-			x: -7.5d
-			y: 0.0d
-		}
-		{
 			dependencies: ["0B3F87B20695A777"]
 			description: [
 				"The Tier 1 Rocket is your first step toward breaking free from the confines of the Overworld and embarking on an interstellar journey in Ad Astra. As the foundational piece of space exploration, this rocket empowers you to reach the Moon and Mars, unlocking new horizons filled with resources, challenges, and awe-inspiring landscapes."
@@ -540,12 +508,57 @@
 			size: 3.0d
 			subtitle: "Embark on a Journey Through Realms and Beyond 🚀 Click me to learn more!"
 			tasks: [{
-				id: "562A4F1773C428C3"
-				title: "Dimensional Progression"
-				type: "checkmark"
+				id: "6C2D675A19C834AB"
+				secret: true
+				stat: "minecraft:total_world_time"
+				type: "stat"
+				value: 1
 			}]
 			x: 0.0d
 			y: -6.0d
+		}
+		{
+			dependencies: ["5EDC9934E7D346D8"]
+			description: [
+				"In Nether Remastered, the journey to unlocking the Nether becomes an adventure of its own. Before stepping into the fiery depths, you’ll explore certain key structures scattered throughout the Overworld, each harboring special loot vital to your progression."
+				""
+				"Seek out these hidden treasures and gather unique resources as you prepare for the ultimate step: consuming the Seal of the Underworld, a powerful item that unlocks access to the Nether dimension."
+				""
+				"With this carefully crafted progression system, the Nether is transformed from a simple destination into a rewarding milestone, immersing you in a journey of discovery, challenge, and excitement. Will you earn your place in the depths of the underworld? 🌋✨"
+				"{@pagebreak}"
+				"{image:ftb:textures/hopoportal.png width:192 height:100 align:center}"
+				"Read more about Nether Remastered in its  "
+				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"72FE4921BBC7E437\" } }"
+			]
+			icon: "nether_remastered:seal_of_the_underworld_item"
+			id: "391748CCFCB25D1A"
+			rewards: [
+				{
+					id: "626DB3C5681FCCBC"
+					item: {
+						Count: 1
+						id: "minecraft:flint_and_steel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "495312D573F2BD39"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Nether Remastered: Unlock the Fiery Gates 🔥 Click me for more info!"
+			tasks: [{
+				id: "747844B5BB8915E0"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			title: "Nether Remastered"
+			x: -7.5d
+			y: 0.0d
 		}
 	]
 	title: "Dimensional Progression"

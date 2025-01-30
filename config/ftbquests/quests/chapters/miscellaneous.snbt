@@ -27,13 +27,15 @@
 	quest_links: [ ]
 	quests: [{
 		id: "610FD2C783821A4E"
+		shape: "gear"
+		size: 3.0d
 		tasks: [{
 			id: "3B5F306A9A4F4F28"
 			item: "create_mechanical_extruder:mechanical_extruder"
 			type: "item"
 		}]
 		x: 0.0d
-		y: -7.0d
+		y: -6.0d
 	}]
 	title: "Masterpieces of the Unseen (Create Miscellaneous Addons)"
 }

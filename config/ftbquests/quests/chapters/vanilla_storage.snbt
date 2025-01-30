@@ -27,13 +27,15 @@
 	quest_links: [ ]
 	quests: [{
 		id: "183F457F923574A9"
+		shape: "gear"
+		size: 3.0d
 		tasks: [{
 			id: "1F92B54A12C93EF6"
 			item: "minecraft:chest"
 			type: "item"
 		}]
 		x: 0.0d
-		y: -6.0d
+		y: -6.5d
 	}]
 	title: "Vanilla Storage"
 }

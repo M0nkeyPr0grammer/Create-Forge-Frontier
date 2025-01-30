@@ -27,13 +27,15 @@
 	quest_links: [ ]
 	quests: [{
 		id: "0157A9E38B635A46"
+		shape: "gear"
+		size: 3.0d
 		tasks: [{
 			id: "303231279144A9EC"
 			item: "create_dd:spectral_ruby"
 			type: "item"
 		}]
 		x: 0.0d
-		y: -7.0d
+		y: -6.0d
 	}]
 	title: "Dreams of Innovation (Create Dreams and Desires)"
 }

@@ -27,6 +27,8 @@
 	quest_links: [ ]
 	quests: [{
 		id: "769D1D5B36D849D2"
+		shape: "gear"
+		size: 3.0d
 		tasks: [{
 			id: "63161C1E2A066AC7"
 			item: "create_connected:brass_gearbox"

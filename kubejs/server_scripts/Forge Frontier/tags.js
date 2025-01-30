@@ -1,4 +1,7 @@
 ServerEvents.tags('item', event => {
+    // MCTB Revertable Workbench
+    event.add('mctb:revertable_workbench','minecraft:crafting_table')
+
     // Excavated Variants Stone Types Tag
     event.add('excavated_variants:stone_stones',[
         'forge_frontier:amberlite', 'forge_frontier:aubrum', 'forge_frontier:azurnium', 'forge_frontier:frostite',

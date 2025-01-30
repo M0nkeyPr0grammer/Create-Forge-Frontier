@@ -27,13 +27,15 @@
 	quest_links: [ ]
 	quests: [{
 		id: "13C4E75E8E452BD9"
+		shape: "gear"
+		size: 3.0d
 		tasks: [{
 			id: "2F689117A9FAA185"
 			item: "silentsdelight:warden_ear"
 			type: "item"
 		}]
 		x: 0.0d
-		y: -4.0d
+		y: -6.5d
 	}]
 	title: "Silent's Delight"
 }

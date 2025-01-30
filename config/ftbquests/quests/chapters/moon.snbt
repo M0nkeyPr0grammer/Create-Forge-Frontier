@@ -28,13 +28,15 @@
 	quests: [{
 		icon: "ad_astra:moon_globe"
 		id: "1523A7C10CEF69AA"
+		shape: "gear"
+		size: 3.0d
 		tasks: [{
 			dimension: "ad_astra:moon"
 			id: "77290E09FAB88833"
 			type: "dimension"
 		}]
 		x: 0.0d
-		y: -4.5d
+		y: -6.5d
 	}]
 	title: "Moon"
 }

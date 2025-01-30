@@ -26,7 +26,7 @@
 			rotation: 0.0d
 			width: 15.0d
 			x: 0.0d
-			y: 2.0d
+			y: 2.5d
 		}
 	]
 	order_index: 1
@@ -41,7 +41,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -6.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["7F705285958AA6F6"]
@@ -58,7 +58,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -5.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["7F705285958AA6F6"]
@@ -75,7 +75,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -4.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["7F705285958AA6F6"]
@@ -92,7 +92,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["7F705285958AA6F6"]
@@ -109,7 +109,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -2.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["7F705285958AA6F6"]
@@ -126,7 +126,25 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -1.0d
+			y: 0.5d
+		}
+		{
+			id: "7DE2962275B5CC9D"
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				id: "090B80D45BF71D72"
+				item: {
+					Count: 1
+					id: "minecraft:wooden_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.5d
 		}
 	]
 	title: "Tool Sets"

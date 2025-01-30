@@ -27,13 +27,15 @@
 	quest_links: [ ]
 	quests: [{
 		id: "11F61A8D675793D1"
+		shape: "gear"
+		size: 3.0d
 		tasks: [{
 			id: "0619CC1FA6C8AB17"
 			item: "create_enchantment_industry:disenchanter"
 			type: "item"
 		}]
-		x: -0.5d
-		y: -4.0d
+		x: 0.0d
+		y: -6.5d
 	}]
 	title: "Create Enchantment Industry"
 }

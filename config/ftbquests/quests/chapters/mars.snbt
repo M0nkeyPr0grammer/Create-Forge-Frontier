@@ -28,13 +28,15 @@
 	quests: [{
 		icon: "ad_astra:mars_globe"
 		id: "6169F8EB0E600750"
+		shape: "gear"
+		size: 3.0d
 		tasks: [{
 			dimension: "ad_astra:mars"
 			id: "0A9F240E2DB2AEE5"
 			type: "dimension"
 		}]
 		x: 0.0d
-		y: -5.0d
+		y: -6.5d
 	}]
 	title: "Mars"
 }
