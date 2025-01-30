@@ -5,14 +5,25 @@
 	group: "1CB9F27D7DE0AEE8"
 	icon: "minecraft:netherrack"
 	id: "2D54D010D189F192"
-	images: [{
-		height: 10.0d
-		image: "ftb:textures/nether_title.png"
-		rotation: 0.0d
-		width: 15.0d
-		x: 0.0d
-		y: -9.5d
-	}]
+	images: [
+		{
+			height: 10.0d
+			image: "ftb:textures/nether_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: -9.5d
+		}
+		{
+			height: 15.0d
+			image: "ftb:textures/nether_screenshot.png"
+			order: -1
+			rotation: 0.0d
+			width: 28.2560706401766d
+			x: 0.0d
+			y: -5.5d
+		}
+	]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
@@ -25,7 +36,6 @@
 				"{@pagebreak}"
 				"Steel yourself against the heat, sharpen your blades, and embrace the challenge—the Nether is waiting. Will you survive the flames or be consumed by them? 🔥💀"
 				""
-				"{image:ftb:textures/nether_screenshot.png width:192 height:150 align:center}"
 			]
 			hide_dependent_lines: true
 			icon: "minecraft:netherrack"
@@ -45,7 +55,7 @@
 			}]
 			title: "The Nether"
 			x: 0.0d
-			y: -6.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["3F3994EDD215FC99"]

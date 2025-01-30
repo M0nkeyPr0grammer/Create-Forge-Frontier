@@ -5,14 +5,25 @@
 	group: "1CB9F27D7DE0AEE8"
 	icon: "minecraft:grass_block"
 	id: "0684E7A732E3B8B1"
-	images: [{
-		height: 10.0d
-		image: "ftb:textures/overworld_title.png"
-		rotation: 0.0d
-		width: 15.0d
-		x: 0.0d
-		y: -9.5d
-	}]
+	images: [
+		{
+			height: 10.0d
+			image: "ftb:textures/overworld_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: -9.5d
+		}
+		{
+			height: 15.0d
+			image: "ftb:textures/overworld_screenshot.png"
+			order: -1
+			rotation: 0.0d
+			width: 28.2560706401766d
+			x: 0.0d
+			y: -5.5d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -54,7 +65,7 @@
 				type: "item"
 			}]
 			title: "Embarking on Your Journey"
-			x: -9.5d
+			x: -8.5d
 			y: 0.0d
 		}
 		{
@@ -107,7 +118,7 @@
 				}
 			]
 			title: "Forging Your First Tools"
-			x: -8.0d
+			x: -7.0d
 			y: 0.0d
 		}
 		{
@@ -146,7 +157,7 @@
 				}
 			]
 			title: "Seeking Shelter from the Shadows"
-			x: -6.5d
+			x: -5.5d
 			y: 0.0d
 		}
 		{
@@ -196,7 +207,7 @@
 				}
 			]
 			title: "Descending into the Depths"
-			x: -5.0d
+			x: -4.0d
 			y: 0.0d
 		}
 		{
@@ -238,7 +249,7 @@
 				}
 			]
 			title: "The Age of Iron Begins"
-			x: -3.5d
+			x: -2.5d
 			y: 0.0d
 		}
 		{
@@ -267,7 +278,7 @@
 				type: "item"
 			}]
 			title: "Sustaining the Adventure"
-			x: -2.0d
+			x: -1.0d
 			y: 0.0d
 		}
 		{
@@ -289,7 +300,7 @@
 				}
 			]
 			title: "Illuminating the Unknown"
-			x: -0.5d
+			x: 0.5d
 			y: 0.0d
 		}
 		{
@@ -330,7 +341,7 @@
 				}
 			]
 			title: "Treasures Beneath the Earth"
-			x: 1.0d
+			x: 2.0d
 			y: 0.0d
 		}
 		{
@@ -365,7 +376,7 @@
 				value: 3L
 			}]
 			title: "The Power of Diamonds"
-			x: 2.5d
+			x: 3.5d
 			y: 0.0d
 		}
 		{
@@ -420,7 +431,7 @@
 				}
 			]
 			title: "Harnessing the Magic of Enchantments"
-			x: 4.0d
+			x: 5.0d
 			y: 0.0d
 		}
 		{
@@ -472,7 +483,7 @@
 				}
 			]
 			title: "Brewing Mystical Elixirs"
-			x: 5.5d
+			x: 6.5d
 			y: 0.0d
 		}
 		{
@@ -505,7 +516,7 @@
 				type: "structure"
 			}]
 			title: "A Path to the Nether Beyond"
-			x: 7.0d
+			x: 8.0d
 			y: 0.0d
 		}
 		{
@@ -534,7 +545,7 @@
 				type: "item"
 			}]
 			title: "Unlocking the Gates to the Underworld"
-			x: 8.5d
+			x: 9.5d
 			y: 0.0d
 		}
 		{
@@ -545,7 +556,6 @@
 				"Your journey will take you from stone tools to iron armor, from simple farms to advanced crafting stations, setting the stage for greater discoveries. But survival isn’t just about gathering materials—you’ll need to cook food, manage your health, and defend yourself from the dangers of the night."
 				"{@pagebreak}"
 				"With every crafted tool and conquered challenge, you inch closer to unlocking the secrets of this world. But remember—this is only the beginning. Survive, build, and prepare for the trials that await beyond the Overworld!"
-				"{image:ftb:textures/overworld_screenshot.png width:192 height:100 align:center}"
 			]
 			hide_dependent_lines: true
 			icon: "minecraft:grass_block"

@@ -5,14 +5,25 @@
 	group: "1CB9F27D7DE0AEE8"
 	icon: "deeperdarker:heart_of_the_deep"
 	id: "0048E3ACE80E27CF"
-	images: [{
-		height: 10.0d
-		image: "ftb:textures/otherside_title.png"
-		rotation: 0.0d
-		width: 15.0d
-		x: 0.0d
-		y: -9.5d
-	}]
+	images: [
+		{
+			height: 10.0d
+			image: "ftb:textures/otherside_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: -9.5d
+		}
+		{
+			height: 15.0d
+			image: "ftb:textures/ancient_city_screenshot.png"
+			order: -1
+			rotation: 0.0d
+			width: 28.2560706401766d
+			x: 0.0d
+			y: -5.0d
+		}
+	]
 	order_index: 3
 	quest_links: [ ]
 	quests: [
@@ -23,7 +34,6 @@
 				"Survival here means staying in the shadows, avoiding sound, and outwitting the Warden’s terrifying wrath. But for those daring enough to challenge this horror, the rewards are beyond measure. Deep within the Ancient Cities, you’ll find the key to an even darker, more mysterious realm—the Otherside. By defeating the Warden and claiming its heart, you’ll unlock the path to a dimension teeming with corrupted magic, eerie landscapes, and challenges unlike anything you’ve ever faced."
 				"{@pagebreak}"
 				"Venture forth with caution, embrace the darkness, and uncover secrets long lost to time. The abyss calls—will you survive its horrors, or become one with the shadows? 🌑👁"
-				"{image:ftb:textures/deepdark_screenshot.png width:192 height:100 align:center}"
 			]
 			hide_dependent_lines: true
 			icon: "minecraft:sculk_sensor"
