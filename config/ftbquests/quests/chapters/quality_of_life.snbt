@@ -28,6 +28,8 @@
 	quest_links: [ ]
 	quests: [{
 		id: "6EE09A4C8D827BE0"
+		shape: "gear"
+		size: 3.0d
 		tasks: [{
 			id: "0BAD94A5F780065F"
 			item: {
@@ -40,7 +42,7 @@
 			type: "item"
 		}]
 		x: 0.0d
-		y: -5.0d
+		y: -6.5d
 	}]
 	title: "Handy Tools"
 }
