@@ -104,6 +104,10 @@ The Create - Forge Frontier 2.1.0 update is here! Packed with enhanced quests, e
 - **Supplementaries**: Disabled Simple Mode for Flower Boxes, which now allows all flowers not just tall flowers
 - **Quark**: Disabled Hotbar Swapper, and enabled Adjustable Chat
 
+## Shader Pack Updates
+- **Complementary Unbound**: v5.3 > v5.4 
+- **Complementary Unbound + Euphoria Patches**: v5.3 > v5.4
+
 ## Mod Updates
 - **Advanced AE**: v1.0.13> v1.1.1
 - **Ad Astra Delight**: v1.1.0 > v1.1.1
@@ -125,6 +129,7 @@ The Create - Forge Frontier 2.1.0 update is here! Packed with enhanced quests, e
 - **Deeper Darker Delight**: v1.2.1 > v1.2.2
 - **Delightful**: v3.6.1 > v3.6.2
 - **EMI**: v1.1.18 > v1.1.19
+- **Euphoria Patcher**: v1.4.3-r5.3 > v1.5.2-r5.4
 - **Every Compat**: v2.7.10 > v2.7.14
 - **Extended AE**: v1.3.2 > v1.3.4
 - **Fast Async**: v2.1 > v2.3
@@ -150,9 +155,9 @@ The Create - Forge Frontier 2.1.0 update is here! Packed with enhanced quests, e
 - **Respawning Structures**: v3.3 > v3.5
 - **Rubidium Extra**: v0.5.4.3 > v0.5.4.4
 - **Smoothchunk**: v3.8 > v4.0
-- **Sophisticated Backpacks**: v3.21.2.1163 > v3.22.0.1179
-- **Sophisticated Core**: v1.0.6.824 > v1.1.1.841
-- **Sophisticated Storage**: v1.0.7.1000 > v1.1.0.1046
+- **Sophisticated Backpacks**: v3.21.2.1163 > v3.22.0.1182
+- **Sophisticated Core**: v1.0.6.824 > v1.1.1.843
+- **Sophisticated Storage**: v1.0.7.1000 > v1.1.0.1048
 - **Structure Credits**: v1.7 > v2.2.1
 - **Structure Essentials**: v3.4 > v4.2
 - **Toms Simple Storage**: v1.6.9 > v1.7.0
