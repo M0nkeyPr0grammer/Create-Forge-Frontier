@@ -27,13 +27,15 @@
 	quest_links: [ ]
 	quests: [{
 		id: "6AC0339E854D3007"
+		shape: "gear"
+		size: 3.0d
 		tasks: [{
 			id: "16AE356FEF118F03"
 			item: "casualness_delight:deep_frying_pan"
 			type: "item"
 		}]
 		x: 0.0d
-		y: -6.0d
+		y: -6.5d
 	}]
 	title: "Casualness Delight"
 }

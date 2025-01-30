@@ -28,13 +28,15 @@
 	quests: [{
 		icon: "cataclysm:cursed_tombstone"
 		id: "659C5018DD271450"
+		shape: "gear"
+		size: 3.0d
 		tasks: [{
 			id: "58D898D7B3C1316F"
 			structure: "cataclysm:frosted_prison"
 			type: "structure"
 		}]
 		x: 0.0d
-		y: -5.0d
+		y: -6.5d
 	}]
 	title: "Frosted Prison"
 }

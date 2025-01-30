@@ -33,6 +33,8 @@
 	quest_links: [ ]
 	quests: [{
 		id: "3E02ACA468C87CBD"
+		shape: "gear"
+		size: 3.0d
 		tasks: [{
 			id: "5637465AF9390D1E"
 			item: {
@@ -45,7 +47,7 @@
 			type: "item"
 		}]
 		x: 0.0d
-		y: -4.5d
+		y: -6.5d
 	}]
 	title: "Alex's Caves Delight"
 }

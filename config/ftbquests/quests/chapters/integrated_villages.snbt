@@ -27,13 +27,15 @@
 	quest_links: [ ]
 	quests: [{
 		id: "34C6D04687F001A3"
+		shape: "gear"
+		size: 3.0d
 		tasks: [{
 			id: "192539E0D83B047A"
 			structure: "integrated_villages:airship_village"
 			type: "structure"
 		}]
 		x: 0.0d
-		y: -7.0d
+		y: -6.5d
 	}]
 	title: "Integrated Villages"
 }

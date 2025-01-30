@@ -27,6 +27,8 @@
 	quest_links: [ ]
 	quests: [{
 		id: "05B5C7A592D2E3DA"
+		shape: "gear"
+		size: 3.0d
 		tasks: [{
 			dimension: "ad_astra:glacio"
 			icon: "ad_astra:glacio_globe"
@@ -34,7 +36,7 @@
 			type: "dimension"
 		}]
 		x: 0.0d
-		y: -6.0d
+		y: -6.5d
 	}]
 	title: "Glacio"
 }

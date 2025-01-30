@@ -33,6 +33,8 @@
 	quest_links: [ ]
 	quests: [{
 		id: "69838A6C4306E75E"
+		shape: "gear"
+		size: 3.0d
 		tasks: [{
 			id: "4AD5E5DA9EBEBC2F"
 			structure: "betterarcheology:archeologist_camp_grassy"

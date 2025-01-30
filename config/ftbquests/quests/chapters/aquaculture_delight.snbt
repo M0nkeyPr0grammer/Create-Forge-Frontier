@@ -33,6 +33,8 @@
 	quest_links: [ ]
 	quests: [{
 		id: "61D6BDECB7D58502"
+		shape: "gear"
+		size: 3.0d
 		tasks: [{
 			id: "6D994859804DB0A5"
 			item: {
@@ -45,7 +47,7 @@
 			type: "item"
 		}]
 		x: 0.0d
-		y: -4.0d
+		y: -6.5d
 	}]
 	title: "Aquaculture Delight"
 }

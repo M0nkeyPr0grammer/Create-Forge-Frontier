@@ -33,6 +33,8 @@
 	quest_links: [ ]
 	quests: [{
 		id: "00A18F900297108B"
+		shape: "gear"
+		size: 3.0d
 		tasks: [{
 			id: "53A2FF0F9DB74737"
 			item: {
@@ -45,7 +47,7 @@
 			type: "item"
 		}]
 		x: 0.0d
-		y: -5.0d
+		y: -6.5d
 	}]
 	title: "Farmer's Delight"
 }

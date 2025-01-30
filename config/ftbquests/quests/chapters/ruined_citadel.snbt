@@ -27,6 +27,8 @@
 	quest_links: [ ]
 	quests: [{
 		id: "3E84B33812C4BCF1"
+		shape: "gear"
+		size: 3.0d
 		tasks: [{
 			icon: "cataclysm:void_infused_end_stone_bricks"
 			id: "76FE7E81E76C4DE5"
@@ -34,7 +36,7 @@
 			type: "structure"
 		}]
 		x: 0.0d
-		y: -4.0d
+		y: -6.5d
 	}]
 	title: "Ruined Citadel"
 }

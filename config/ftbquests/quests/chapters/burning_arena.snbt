@@ -27,6 +27,8 @@
 	quest_links: [ ]
 	quests: [{
 		id: "5840CB45E85E7D1C"
+		shape: "gear"
+		size: 3.0d
 		tasks: [{
 			icon: "cataclysm:altar_of_fire"
 			id: "1E7BE03F14FFE630"
@@ -34,7 +36,7 @@
 			type: "structure"
 		}]
 		x: 0.0d
-		y: -5.0d
+		y: -6.5d
 	}]
 	title: "Burning Arena"
 }

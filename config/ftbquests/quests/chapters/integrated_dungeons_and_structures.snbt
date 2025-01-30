@@ -26,13 +26,15 @@
 	quest_links: [ ]
 	quests: [{
 		id: "4C3A778B5ECB1EE1"
+		shape: "gear"
+		size: 3.0d
 		tasks: [{
 			id: "56ECDEA5FEB983BC"
 			structure: "idas:abandonedhouse"
 			type: "structure"
 		}]
 		x: 0.0d
-		y: -5.5d
+		y: -6.5d
 	}]
 	title: "Integrated Dungeons and Structures"
 }

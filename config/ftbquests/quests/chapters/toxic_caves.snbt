@@ -33,6 +33,8 @@
 	quest_links: [ ]
 	quests: [{
 		id: "1A2C4E8DD4FA3A3A"
+		shape: "gear"
+		size: 3.0d
 		tasks: [{
 			dimension: "forge_frontier:toxic_caves"
 			icon: {

@@ -47,7 +47,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -5.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["7734042A9B46C0E8"]
@@ -64,7 +64,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -4.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["7734042A9B46C0E8"]
@@ -81,7 +81,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -3.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["7734042A9B46C0E8"]
@@ -98,7 +98,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -2.0d
+			y: 0.5d
 		}
 		{
 			id: "7734042A9B46C0E8"
@@ -109,7 +109,25 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -6.0d
+			y: -3.5d
+		}
+		{
+			id: "0D443D9706CC6582"
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				id: "157D9FC5DA16B821"
+				item: {
+					Count: 1
+					id: "minecraft:leather_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.5d
 		}
 	]
 	title: "Armor Sets"

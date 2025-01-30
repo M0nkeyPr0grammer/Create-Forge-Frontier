@@ -33,6 +33,8 @@
 	quest_links: [ ]
 	quests: [{
 		id: "5C5AE7819F0DBBB3"
+		shape: "gear"
+		size: 3.0d
 		tasks: [{
 			icon: {
 				Count: 1
@@ -46,7 +48,7 @@
 			type: "structure"
 		}]
 		x: 0.0d
-		y: -4.0d
+		y: -6.5d
 	}]
 	title: "Soul Blacksmith"
 }

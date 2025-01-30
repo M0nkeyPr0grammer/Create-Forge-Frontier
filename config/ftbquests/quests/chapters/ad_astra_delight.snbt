@@ -27,13 +27,15 @@
 	quest_links: [ ]
 	quests: [{
 		id: "052F57ABF2827532"
+		shape: "gear"
+		size: 3.0d
 		tasks: [{
 			id: "72E4F9466B51EC65"
 			item: "ad_astra:cheese"
 			type: "item"
 		}]
 		x: 0.0d
-		y: -4.5d
+		y: -6.5d
 	}]
 	title: "Ad Astra Delight"
 }

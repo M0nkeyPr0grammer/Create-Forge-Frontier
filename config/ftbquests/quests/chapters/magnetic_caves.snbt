@@ -27,6 +27,8 @@
 	quest_links: [ ]
 	quests: [{
 		id: "14077793D0743DF5"
+		shape: "gear"
+		size: 3.0d
 		tasks: [{
 			dimension: "forge_frontier:magnetic_caves"
 			icon: "alexscaves:telecore"
@@ -34,7 +36,7 @@
 			type: "dimension"
 		}]
 		x: 0.0d
-		y: -5.0d
+		y: -6.5d
 	}]
 	title: "Magnetic Caves"
 }

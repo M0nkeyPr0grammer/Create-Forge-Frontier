@@ -27,13 +27,15 @@
 	quest_links: [ ]
 	quests: [{
 		id: "61933EDA53E50197"
+		shape: "gear"
+		size: 3.0d
 		tasks: [{
 			id: "06532266F2569D92"
 			item: "immersive_aircraft:sail"
 			type: "item"
 		}]
 		x: 0.0d
-		y: -5.5d
+		y: -6.5d
 	}]
 	title: "Immersive Aircrafts"
 }

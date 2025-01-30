@@ -28,13 +28,15 @@
 	quests: [{
 		icon: "cataclysm:emp"
 		id: "2644A94A73CA75EE"
+		shape: "gear"
+		size: 3.0d
 		tasks: [{
 			id: "79521B3C5A3D9F31"
 			structure: "cataclysm:cursed_pyramid"
 			type: "structure"
 		}]
 		x: 0.0d
-		y: -5.0d
+		y: -6.5d
 	}]
 	title: "Ancienty Factory"
 }

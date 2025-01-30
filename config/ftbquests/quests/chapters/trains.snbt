@@ -27,13 +27,15 @@
 	quest_links: [ ]
 	quests: [{
 		id: "494374F4DD7CB345"
+		shape: "gear"
+		size: 3.0d
 		tasks: [{
 			id: "12E8A7E9BA46D488"
 			item: "create:track_station"
 			type: "item"
 		}]
 		x: 0.0d
-		y: -6.0d
+		y: -6.5d
 	}]
 	title: "Trains"
 }
