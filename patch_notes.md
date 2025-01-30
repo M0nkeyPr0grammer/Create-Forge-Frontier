@@ -53,6 +53,7 @@ Dive into the adventure, master new mechanics, and shape the world in your image
 - **Nether Remastered**: Added Rewards for Quests and revamped chapter to match the style of other quest pages
 - **Nether**: Completed Quests
 - **Deeper Darker**: Completed Quests
+- **The End**: Completed Quests
 - **End Remastered**: Improved Main Quest Page, and Added Rewards for all the eyes
 - **Create**: New Quests, will be complete by update
 - **Molten Vents**: Linked Fluids to Quests, for easier navigation, and updated biomes for a few vents.
