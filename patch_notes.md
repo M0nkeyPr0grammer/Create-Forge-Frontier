@@ -7,6 +7,15 @@ The Create - Forge Frontier 2.1.0 Update is here, bringing a massive overhaul to
 
 Prepare for revamped quests, redesigned dimensional progression, and gameplay-enhancing tweaks that refine every aspect of your journey. From reworked molten processing to balanced mod integrations, everything has been fine-tuned to elevate your experience.
 
+## 🌍 Recommended World Resets!
+To fully experience all the new changes and improvements, we highly recommend resetting the following dimensions:
+
+- Ad Astra Planets (Moon, Mars, Venus, Glacio)
+- Alex's Caves Planets
+- The End Dimension
+
+These resets ensure you have access to new structures, revamped progression, and updated generation without missing any of the latest features!
+
 Dive into the adventure, master new mechanics, and shape the world in your image. This is Forge Frontier—transformed and ready for the future. 🔥🚀
 
 ### As a standard safety protocol, we advise creating a backup of your saved data prior to updating the modification package to ensure the preservation of your progress.
