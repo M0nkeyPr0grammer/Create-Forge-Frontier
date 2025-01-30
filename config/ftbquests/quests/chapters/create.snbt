@@ -22,6 +22,190 @@
 			x: 0.0d
 			y: 68.0d
 		}
+		{
+			height: 1.0d
+			image: "ftb:textures/sequenced_assembly_animated.png"
+			rotation: 0.0d
+			width: 0.006201550387596899d
+			x: 1.5d
+			y: 20.0d
+		}
+		{
+			height: 1.0d
+			image: "ftb:textures/sequenced_assembly_animated.png"
+			rotation: 0.0d
+			width: 0.006201550387596899d
+			x: 3.0d
+			y: 18.5d
+		}
+		{
+			height: 1.0d
+			image: "ftb:textures/sequenced_assembly_animated.png"
+			rotation: 0.0d
+			width: 0.006201550387596899d
+			x: -3.0d
+			y: 16.5d
+		}
+		{
+			height: 1.0d
+			image: "ftb:textures/sequenced_assembly_animated.png"
+			rotation: 0.0d
+			width: 0.006201550387596899d
+			x: 0.5d
+			y: 19.0d
+		}
+		{
+			height: 1.0d
+			image: "ftb:textures/sequenced_assembly_animated.png"
+			rotation: 0.0d
+			width: 0.006201550387596899d
+			x: 2.0d
+			y: 17.5d
+		}
+		{
+			height: 1.0d
+			image: "ftb:textures/sequenced_assembly_animated.png"
+			rotation: 0.0d
+			width: 0.006201550387596899d
+			x: 3.0d
+			y: 17.5d
+		}
+		{
+			height: 1.0d
+			image: "ftb:textures/sequenced_assembly_animated.png"
+			rotation: 0.0d
+			width: 0.006201550387596899d
+			x: 0.5d
+			y: 19.0d
+		}
+		{
+			height: 1.0d
+			image: "ftb:textures/sequenced_assembly_animated.png"
+			rotation: 0.0d
+			width: 0.006201550387596899d
+			x: 0.0d
+			y: 20.0d
+		}
+		{
+			height: 1.0d
+			image: "ftb:textures/sequenced_assembly_animated_1.png"
+			rotation: 0.0d
+			width: 0.005333333333333333d
+			x: 0.5d
+			y: 19.5d
+		}
+		{
+			height: 1.0d
+			image: "ftb:textures/sequenced_assembly_animated_1.png"
+			rotation: 0.0d
+			width: 0.005333333333333333d
+			x: 0.5d
+			y: 19.0d
+		}
+		{
+			height: 1.0d
+			image: "ftb:textures/sequenced_assembly_animated.png"
+			rotation: 0.0d
+			width: 0.006201550387596899d
+			x: 1.5d
+			y: 17.5d
+		}
+		{
+			height: 1.0d
+			image: "ftb:textures/sequenced_assembly_animated_1.png"
+			rotation: 0.0d
+			width: 0.005333333333333333d
+			x: 1.0d
+			y: 17.0d
+		}
+		{
+			height: 1.0d
+			image: "ftb:textures/sequenced_assembly_animated.png"
+			rotation: 0.0d
+			width: 0.006201550387596899d
+			x: 0.5d
+			y: 18.5d
+		}
+		{
+			height: 1.0d
+			image: "ftb:textures/sequenced_assembly_animated_1.png"
+			rotation: 0.0d
+			width: 0.005333333333333333d
+			x: 0.5d
+			y: 20.0d
+		}
+		{
+			height: 1.0d
+			image: "ftb:textures/sequenced_assembly_animated_1.png"
+			rotation: 0.0d
+			width: 0.005333333333333333d
+			x: -0.5d
+			y: 18.5d
+		}
+		{
+			height: 1.0d
+			image: "ftb:textures/stupid_dumb_test.png"
+			rotation: 0.0d
+			width: 0.0033333333333333335d
+			x: 0.5d
+			y: 20.5d
+		}
+		{
+			height: 1.0d
+			image: "ftb:textures/sequenced_assembly_animated_1.png"
+			rotation: 0.0d
+			width: 0.005333333333333333d
+			x: 0.5d
+			y: 18.5d
+		}
+		{
+			height: 1.0d
+			image: "ftb:textures/stupid_dumb_test.png"
+			rotation: 0.0d
+			width: 0.0033333333333333335d
+			x: 0.5d
+			y: 21.5d
+		}
+		{
+			height: 1.0d
+			image: "ftb:textures/sequenced_assembly_animated_1.png"
+			rotation: 0.0d
+			width: 0.005333333333333333d
+			x: 0.5d
+			y: 19.0d
+		}
+		{
+			height: 1.0d
+			image: "ftb:textures/stupid_dumb_test.png"
+			rotation: 0.0d
+			width: 0.0033333333333333335d
+			x: 0.5d
+			y: 19.5d
+		}
+		{
+			height: 1.0d
+			image: "ftb:textures/sequenced_assembly_animated_1.png"
+			rotation: 0.0d
+			width: 0.005333333333333333d
+			x: 2.0d
+			y: 19.5d
+		}
+		{
+			height: 1.0d
+			image: "ftb:textures/stupid_dumb_test.png"
+			rotation: 0.0d
+			width: 0.0033333333333333335d
+			x: 0.0d
+			y: 17.0d
+		}
+		{
+			height: 3.13125d
+			image: "forgefrontier:item/test_output"
+			rotation: 0.0d
+			width: 5.0d
+			x: 0.0d
+			y: 17.0d
+		}
 	]
 	order_index: 0
 	quest_links: [ ]
@@ -628,8 +812,8 @@
 				type: "item"
 			}]
 			title: "Stress Progression: Fluid Processing"
-			x: 7.0d
-			y: 1.0d
+			x: -3.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["71D00FF2BEBD3FEA"]
@@ -686,8 +870,8 @@
 				type: "item"
 			}]
 			title: "Stress Progression: Copper Casing"
-			x: 7.0d
-			y: 3.0d
+			x: -3.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["7CEA168D6E09EFEE"]
@@ -703,8 +887,8 @@
 				item: "create:spout"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 4.5d
+			x: -4.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["2D02B7B7507AF99D"]
@@ -770,8 +954,8 @@
 				item: "create:hose_pulley"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 5.0d
+			x: -3.5d
+			y: 7.5d
 		}
 		{
 			id: "47D7F409919DDA7D"
@@ -793,8 +977,8 @@
 				type: "item"
 			}]
 			title: "Stress Progression: Item Drain"
-			x: 8.0d
-			y: 4.5d
+			x: -2.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["1CE141F1163EC938"]
@@ -1213,61 +1397,53 @@
 		}
 		{
 			dependencies: ["12F1FC3A500AF584"]
-			icon: "create:precision_mechanism"
+			icon: "create:deployer"
 			id: "7DFF7AAA079D4BFC"
-			rewards: [{
-				id: "0237104DDFDAD280"
-				item: "create_compressed:mechanism_block"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "2DD729E58C0C2D91"
+					item: "create_compressed:large_cogwheel_block"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2408BDC7F5E3E905"
+					item: "create_compressed:cogwheel_block"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4A754DBE5D6BF351"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "1E4AFFD8E38F710D"
+					item: "create:brass_casing"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			size: 1.25d
-			subtitle: "Precision Mechanism"
+			subtitle: "Precision Machining"
 			tasks: [
 				{
-					count: 2L
-					id: "5B45BA243E733D6A"
-					item: { Count: 8, id: "create:golden_sheet" }
+					count: 3L
+					id: "37C1A5930CE6405C"
+					item: { Count: 3, id: "create:deployer" }
 					type: "item"
 				}
 				{
-					count: 10L
-					id: "1F160153E43CC450"
-					item: { Count: 10, id: "create:cogwheel" }
-					type: "item"
-				}
-				{
-					count: 10L
-					id: "1BA3C65FC3ABB19C"
-					item: { Count: 10, id: "create:large_cogwheel" }
-					type: "item"
-				}
-				{
-					count: 10L
-					id: "41EB576F66AE55FB"
-					item: { Count: 10, id: "minecraft:iron_nugget" }
-					type: "item"
-				}
-				{
-					id: "2538B6E17F39635D"
-					item: "create:precision_mechanism"
+					id: "453DBD73C65B7E9B"
+					item: "create:belt_connector"
 					type: "item"
 				}
 			]
 			title: "Stress Progression: Sequenced Assembly"
 			x: 0.0d
 			y: 15.0d
-		}
-		{
-			id: "00CCE1AF574DA04D"
-			tasks: [{
-				id: "6AB30170ED78079A"
-				item: "create:precision_mechanism"
-				type: "item"
-			}]
-			title: "sequenced assembly image"
-			x: 0.0d
-			y: 17.0d
 		}
 		{
 			dependencies: ["4BD39CC8E17CA1A9"]
@@ -1281,6 +1457,260 @@
 			title: "Stress Progression: Andesite Door"
 			x: -2.0d
 			y: -2.0d
+		}
+		{
+			dependencies: ["7DFF7AAA079D4BFC"]
+			hide_dependency_lines: true
+			icon: "create:precision_mechanism"
+			id: "477EF84B4DD97BF9"
+			rewards: [{
+				id: "186634156AABACEE"
+				item: "create_compressed:mechanism_block"
+				type: "item"
+			}]
+			subtitle: "See Diagram Above"
+			tasks: [
+				{
+					count: 2L
+					id: "036C1B6AD70EAA38"
+					item: { Count: 2, id: "create:golden_sheet" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "64661AF7A7E085B7"
+					item: { Count: 10, id: "create:cogwheel" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "5F953F3514E9940A"
+					item: { Count: 10, id: "create:large_cogwheel" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "1556B8276E0AFF46"
+					item: "minecraft:iron_nugget"
+					type: "item"
+				}
+				{
+					id: "52CDD4B985187E59"
+					item: "create:precision_mechanism"
+					type: "item"
+				}
+			]
+			title: "Stress Progression: Precision Mechanism"
+			x: -1.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["7DFF7AAA079D4BFC"]
+			hide_dependency_lines: true
+			id: "24679CC3DFE86054"
+			rewards: [{
+				count: 8
+				id: "1B523A787C43F79B"
+				item: "create:sturdy_sheet"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F70A633117CA1C6"
+				item: "create:sturdy_sheet"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["24679CC3DFE86054"]
+			id: "1BBD2EE82A1AF187"
+			rewards: [{
+				count: 8
+				id: "718A2C73CA12118F"
+				item: "create:railway_casing"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2D18F231342AD58C"
+				item: "create:railway_casing"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 20.5d
+		}
+		{
+			dependencies: ["1BBD2EE82A1AF187"]
+			icon: "create:controls"
+			id: "339B705BCCB6F736"
+			rewards: [{
+				count: 128
+				id: "04B52DFE17C8C589"
+				item: "create:track"
+				type: "item"
+			}]
+			subtitle: "Run your Trains!"
+			tasks: [{
+				id: "5EAB27263950798D"
+				item: "create:controls"
+				type: "item"
+			}]
+			title: "Stress Progression: Tran Controlling"
+			x: 1.0d
+			y: 22.5d
+		}
+		{
+			dependencies: ["1BBD2EE82A1AF187"]
+			id: "7252AC35321A4F70"
+			tasks: [{
+				id: "32BA699FEAFF7F8F"
+				item: "create:track_station"
+				type: "item"
+			}]
+			title: "Rail Transportation!"
+			x: 0.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["477EF84B4DD97BF9"]
+			id: "11B08625A7B35BFE"
+			rewards: [{
+				count: 8
+				id: "29E8494282E3C9F6"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E1DE7889CDC8B11"
+				item: "create:mechanical_arm"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 20.5d
+		}
+		{
+			dependencies: ["477EF84B4DD97BF9"]
+			id: "3B291AFCCF6200D1"
+			rewards: [{
+				count: 8
+				id: "414081C43CCE9D40"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6930D42CF4660282"
+				item: "create:rotation_speed_controller"
+				type: "item"
+			}]
+			title: "Stress Progression: Rotational Speed Controller"
+			x: -2.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["24679CC3DFE86054"]
+			id: "3A3555D47FCD8B3B"
+			rewards: [{
+				count: 128
+				id: "4A2411A3EBA4176B"
+				item: "create:track"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5BE952D806457DCE"
+				item: "create:track"
+				type: "item"
+			}]
+			title: "Stress Progression: Train Tracks"
+			x: 2.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["1BBD2EE82A1AF187"]
+			icon: "create:track_signal"
+			id: "0C0E89234880A5C5"
+			rewards: [
+				{
+					count: 4
+					id: "61CDFF58875B85BF"
+					item: "create:railway_casing"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7EE1A256E01C4285"
+					item: "minecraft:parrot_spawn_egg"
+					title: "A Conductor"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6A6B5FB6C9E32E28"
+					item: "create:track_signal"
+					type: "item"
+				}
+				{
+					id: "61AF014DD17668E3"
+					item: "create:track_observer"
+					type: "item"
+				}
+				{
+					id: "04F8C8F5BAF6E750"
+					item: "create:schedule"
+					type: "item"
+				}
+				{
+					id: "62A4D96EF07B859C"
+					item: "create:train_door"
+					secret: true
+					type: "item"
+				}
+			]
+			title: "Train Utilities"
+			x: 2.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["7CEA168D6E09EFEE"]
+			id: "4F0504E67CEC97E5"
+			rewards: [{
+				count: 8
+				id: "4EB8B12EB3EA425D"
+				item: "create:copper_casing"
+				type: "item"
+			}]
+			tasks: [{
+				id: "19AC52B896009009"
+				item: "create:copper_door"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5E955070872C95FC"]
+			description: ["The Copper Backtank allows you to breath underwater when charged up with kinetics(Crouch + Use to place) and you are wearing a Diving Helmet."]
+			id: "278D50869BCDD4C6"
+			rewards: [{
+				count: 8
+				id: "1A5CD8B031FCB39C"
+				item: "minecraft:copper_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C05F30F5D908BC1"
+				item: {
+					Count: 1
+					id: "create:copper_backtank"
+					tag: {
+						Air: 900
+					}
+				}
+				type: "item"
+			}]
+			title: "Copper Backtank"
+			x: -4.5d
+			y: 5.0d
 		}
 	]
 	title: "Foundations of Ingenuity (Vanilla Create)"
