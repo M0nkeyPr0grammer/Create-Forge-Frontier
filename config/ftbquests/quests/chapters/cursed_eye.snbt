@@ -19,7 +19,7 @@
 			hover: ["The Bastion Overhaul: Bastion"]
 			image: "ftb:textures/bastion.png"
 			rotation: 0.0d
-			width: 4.67d
+			width: 4.729370008873114d
 			x: -6.5d
 			y: 4.0d
 		}
@@ -29,7 +29,7 @@
 			hover: ["Incendium: Abandoned Tower"]
 			image: "ftb:textures/tower.png"
 			rotation: 0.0d
-			width: 4.0d
+			width: 4.025974025974026d
 			x: 6.5d
 			y: 4.0d
 		}
@@ -39,7 +39,7 @@
 			hover: ["Friends & Foes: Citadel"]
 			image: "ftb:textures/citadel.png"
 			rotation: 0.0d
-			width: 4.35d
+			width: 4.364244741873805d
 			x: 0.0d
 			y: -5.5d
 		}

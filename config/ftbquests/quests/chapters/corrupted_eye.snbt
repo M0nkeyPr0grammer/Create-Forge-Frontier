@@ -19,7 +19,7 @@
 			hover: ["Verdantine Vent: Found in Mountain Biomes"]
 			image: "ftb:textures/verdantine_vent.png"
 			rotation: 0.0d
-			width: 5.75d
+			width: 6.79658952496955d
 			x: 5.5d
 			y: 1.0d
 		}
@@ -29,7 +29,7 @@
 			hover: ["Ochrum Vent: Found in the Overworld"]
 			image: "ftb:textures/ochrum_vent.png"
 			rotation: 0.0d
-			width: 5.6d
+			width: 7.605263157894737d
 			x: -5.5d
 			y: 1.0d
 		}

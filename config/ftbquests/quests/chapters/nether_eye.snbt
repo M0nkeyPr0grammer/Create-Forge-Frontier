@@ -19,7 +19,7 @@
 			hover: ["Incendium: Quartz Kitchen"]
 			image: "ftb:textures/kitchen.png"
 			rotation: 0.0d
-			width: 8.2d
+			width: 8.218984962406015d
 			x: 8.5d
 			y: 3.5d
 		}
@@ -29,7 +29,7 @@
 			hover: ["Hopo: Piglin Ruin"]
 			image: "ftb:textures/piglin_ruin.png"
 			rotation: 0.0d
-			width: 4.55d
+			width: 4.595170454545455d
 			x: -6.5d
 			y: 3.5d
 		}
@@ -39,7 +39,7 @@
 			hover: ["IDAS: Nether Ancient Portal"]
 			image: "ftb:textures/nether_portal.png"
 			rotation: 0.0d
-			width: 7.2d
+			width: 7.2314410480349345d
 			x: 0.0d
 			y: -4.5d
 		}

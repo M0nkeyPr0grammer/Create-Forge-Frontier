@@ -21,7 +21,7 @@
 			hover: ["Asurine Vent"]
 			image: "ftb:textures/asurine_vent.png"
 			rotation: 0.0d
-			width: 6.4d
+			width: 5.8962536023054755d
 			x: -9.5d
 			y: -6.0d
 		}
@@ -31,7 +31,7 @@
 			hover: ["Ancient Debris Vent"]
 			image: "ftb:textures/debris_vent.png"
 			rotation: 0.0d
-			width: 6.4d
+			width: 6.928853754940712d
 			x: 9.5d
 			y: -6.0d
 		}

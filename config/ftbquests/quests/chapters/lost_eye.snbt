@@ -19,7 +19,7 @@
 			hover: ["Cataclysm: Soul Black Smith"]
 			image: "ftb:textures/smith.png"
 			rotation: 0.0d
-			width: 4.95d
+			width: 4.993252361673414d
 			x: -7.0d
 			y: 3.5d
 		}
@@ -29,7 +29,7 @@
 			hover: ["Cataclysm: Netherite Monstrosity"]
 			image: "ftb:textures/monstrosity.png"
 			rotation: 0.0d
-			width: 8.4d
+			width: 8.446658851113716d
 			x: 8.5d
 			y: 3.5d
 		}
@@ -39,7 +39,7 @@
 			hover: ["Ad Astra: Mars Temple"]
 			image: "ftb:textures/mars_temple.png"
 			rotation: 0.0d
-			width: 9.05d
+			width: 9.087499999999999d
 			x: 0.5d
 			y: -4.5d
 		}

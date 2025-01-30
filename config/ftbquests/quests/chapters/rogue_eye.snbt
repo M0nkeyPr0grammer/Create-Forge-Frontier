@@ -19,7 +19,7 @@
 			hover: ["Mithril Automation Setup"]
 			image: "ftb:textures/mithril.png"
 			rotation: 0.0d
-			width: 11.7d
+			width: 11.7353579175705d
 			x: -8.0d
 			y: 1.0d
 		}
@@ -39,7 +39,7 @@
 			hover: ["Precision Mechanism Automation"]
 			image: "ftb:textures/mechanism.png"
 			rotation: 0.0d
-			width: 9.2d
+			width: 9.225352112676056d
 			x: 7.0d
 			y: 1.0d
 		}

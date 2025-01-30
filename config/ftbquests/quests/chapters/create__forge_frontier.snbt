@@ -32,7 +32,7 @@
 			height: 15.0d
 			image: "ftb:textures/pack_title.png"
 			rotation: 0.0d
-			width: 20.0d
+			width: 22.5d
 			x: 0.0d
 			y: -4.0d
 		}

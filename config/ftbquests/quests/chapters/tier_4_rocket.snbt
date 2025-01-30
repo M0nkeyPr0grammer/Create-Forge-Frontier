@@ -17,7 +17,7 @@
 			hover: ["Tier 4 Rocket, Click image for more info!"]
 			image: "ftb:textures/tier_4.png"
 			rotation: 0.0d
-			width: 9.0d
+			width: 8.206018518518519d
 			x: 0.0d
 			y: 0.0d
 		}

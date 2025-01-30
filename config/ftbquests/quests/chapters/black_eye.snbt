@@ -19,7 +19,7 @@
 			hover: ["Seven Seas: Unicorn Galleon"]
 			image: "ftb:textures/unicorn.png"
 			rotation: 0.0d
-			width: 6.75d
+			width: 6.798780487804878d
 			x: 8.0d
 			y: 3.5d
 		}
@@ -29,7 +29,7 @@
 			hover: ["Seven Seas: Corsair Corvette"]
 			image: "ftb:textures/corvette.png"
 			rotation: 0.0d
-			width: 6.1d
+			width: 6.100436681222707d
 			x: -7.5d
 			y: 3.5d
 		}
@@ -39,7 +39,7 @@
 			hover: ["Seven Seas: Victory Frigate"]
 			image: "ftb:textures/frigate.png"
 			rotation: 0.0d
-			width: 5.75d
+			width: 5.788655788655789d
 			x: 0.0d
 			y: 10.0d
 		}
@@ -49,7 +49,7 @@
 			hover: ["Seven Seas: Pirate Junk"]
 			image: "ftb:textures/junk_ship.png"
 			rotation: 0.0d
-			width: 6.65d
+			width: 6.652d
 			x: 0.0d
 			y: -4.5d
 		}

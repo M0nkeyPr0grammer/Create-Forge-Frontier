@@ -18,7 +18,7 @@
 		hover: ["Sunken City"]
 		image: "ftb:textures/sunkencity.png"
 		rotation: 0.0d
-		width: 6.6d
+		width: 6.615384615384615d
 		x: 0.0d
 		y: -3.0d
 	}]

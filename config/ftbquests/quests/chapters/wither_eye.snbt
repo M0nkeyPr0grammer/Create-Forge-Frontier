@@ -19,7 +19,7 @@
 			hover: ["Wither Eye Crafting Setup"]
 			image: "ftb:textures/wither.png"
 			rotation: 0.0d
-			width: 4.5d
+			width: 4.517937219730942d
 			x: 7.0d
 			y: 0.0d
 		}

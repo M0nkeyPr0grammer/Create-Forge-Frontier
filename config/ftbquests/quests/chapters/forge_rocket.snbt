@@ -17,7 +17,7 @@
 			hover: ["Forge Rocket, Click image for more info!"]
 			image: "ftb:textures/forge_rocket.png"
 			rotation: 0.0d
-			width: 7.5d
+			width: 7.647058823529411d
 			x: 0.0d
 			y: -3.25d
 		}

@@ -19,7 +19,7 @@
 			hover: ["IDAS: Desert Pyramid"]
 			image: "ftb:textures/idas_pyramid.png"
 			rotation: 0.0d
-			width: 10.15d
+			width: 10.151356993736954d
 			x: -9.5d
 			y: 3.5d
 		}
@@ -29,7 +29,7 @@
 			hover: ["YUNG's Better Desert Pyramid"]
 			image: "ftb:textures/better_pyramid.png"
 			rotation: 0.0d
-			width: 6.85d
+			width: 6.851063829787234d
 			x: 8.0d
 			y: 3.5d
 		}

@@ -19,7 +19,7 @@
 			hover: ["Better Archeology: Villager Grave"]
 			image: "ftb:textures/grave.png"
 			rotation: 0.0d
-			width: 6.5d
+			width: 6.50692225772098d
 			x: -7.5d
 			y: 0.5d
 		}
@@ -29,7 +29,7 @@
 			hover: ["Integrated Villages: Village"]
 			image: "ftb:textures/village.png"
 			rotation: 0.0d
-			width: 8.3d
+			width: 8.339055793991417d
 			x: 8.0d
 			y: 1.0d
 		}
@@ -39,7 +39,7 @@
 			hover: ["Trail Ruins Overhaul: Trail Ruins"]
 			image: "ftb:textures/trail_ruins.png"
 			rotation: 0.0d
-			width: 5.85d
+			width: 5.881435257410297d
 			x: 0.0d
 			y: -5.5d
 		}

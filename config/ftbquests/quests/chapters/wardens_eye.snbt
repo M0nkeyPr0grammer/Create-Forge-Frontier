@@ -29,7 +29,7 @@
 			hover: ["Ancient City Center"]
 			image: "ftb:textures/ancientcity.png"
 			rotation: 0.0d
-			width: 4.8d
+			width: 4.842738205365402d
 			x: 6.5d
 			y: -2.5d
 		}

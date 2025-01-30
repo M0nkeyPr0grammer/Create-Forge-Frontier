@@ -10,7 +10,7 @@
 			height: 2.0d
 			image: "ftb:textures/_forge_frontier_mechanical_crafting_forge_rocket_nose_cone.png"
 			rotation: 0.0d
-			width: 2.74d
+			width: 3.075d
 			x: -0.5d
 			y: -2.0d
 		}

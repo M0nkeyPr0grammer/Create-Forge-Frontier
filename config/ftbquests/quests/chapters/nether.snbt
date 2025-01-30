@@ -21,7 +21,7 @@
 			hover: ["IDAS: Ancient Mines"]
 			image: "ftb:textures/ancientmines.png"
 			rotation: 0.0d
-			width: 9.0d
+			width: 8.587314662273476d
 			x: -8.0d
 			y: 7.5d
 		}
@@ -31,7 +31,7 @@
 			hover: ["IDAS: Tinker's Workshop"]
 			image: "ftb:textures/tinkersworkshop.png"
 			rotation: 0.0d
-			width: 9.0d
+			width: 9.4186902133922d
 			x: 8.0d
 			y: -1.5d
 		}
@@ -41,7 +41,7 @@
 			hover: ["IDAS: Tinker's Citadel"]
 			image: "ftb:textures/tinkers_citadel.png"
 			rotation: 0.0d
-			width: 6.02d
+			width: 6.049703264094956d
 			x: 7.0d
 			y: 7.0d
 		}
@@ -51,7 +51,7 @@
 			hover: ["IDAS: Ruins of the Deep"]
 			image: "ftb:textures/ruins_of_the_deep.png"
 			rotation: 0.0d
-			width: 7.45d
+			width: 7.454036770583533d
 			x: -7.5d
 			y: -1.5d
 		}

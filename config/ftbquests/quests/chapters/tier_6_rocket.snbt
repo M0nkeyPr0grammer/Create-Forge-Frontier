@@ -17,7 +17,7 @@
 			hover: ["Tier 6 Rocket, Click image for more info!"]
 			image: "ftb:textures/tier_6.png"
 			rotation: 0.0d
-			width: 7.5d
+			width: 7.618332081141999d
 			x: 0.0d
 			y: 0.0d
 		}

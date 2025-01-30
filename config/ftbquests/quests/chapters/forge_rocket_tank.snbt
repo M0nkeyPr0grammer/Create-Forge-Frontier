@@ -10,7 +10,7 @@
 			height: 2.0d
 			image: "ftb:textures/_forge_frontier_mechanical_crafting_forge_rocket_tank.png"
 			rotation: 0.0d
-			width: 3.2d
+			width: 2.9761904761904763d
 			x: 0.0d
 			y: -3.5d
 		}
