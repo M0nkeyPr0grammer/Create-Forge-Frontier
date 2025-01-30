@@ -306,7 +306,7 @@
 				""
 				"{image:ftb:textures/tier_1.png width:130 height:190 align:center}"
 				"Read more about the tier 1 rocket in its  "
-				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3F3994EDD215FC99\" } }"
+				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"782F000AB5EAD236\" } }"
 			]
 			id: "3A09B8EFE2811CB9"
 			rewards: [
