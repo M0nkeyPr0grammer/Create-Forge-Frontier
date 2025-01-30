@@ -136,8 +136,9 @@ Dive into the adventure, master new mechanics, and shape the world in your image
 - Reduced **excess Redstone output** from *raw Redstone crushing*.  
 - Introduced **new recipes** for **Resonite processing** and **Crushed Resonite variants**.  
 ### Biome Modifiers  
-- **Veridium Vents** moved to **Overworld**.  
+- **Veridium Vents** now generate in **Desert** biomes.  
 - **Crimsite Vents** now generate in **Plains** biomes.  
+- **Ochrum Vents** now generate in **Savanna** biomes
 
 ## Config Updates  
 ### General Improvements  
