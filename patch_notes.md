@@ -194,9 +194,10 @@ Dive into the adventure, master new mechanics, and shape the world in your image
 - **AE2**: v15.3.2 > v15.3.3
 - **AE Delight**: v1.0.4 > v1.0.4.1
 - **Alex's Caves Delight**: v1.0.23 > v1.0.24
+- **Amendments**: v1.2.14 > v1.2.16
 - **Apotheosis**: v7.4.3 > 7.4.5
 - **Balm**: v7.3.10 > v7.3.11
-- **Cataclysm**: v2.27 > v2.43
+- **Cataclysm**: v2.27 > v2.45
 - **Collectors Reap**: v1.3.2 > v1.3.3
 - **Connectivity**: v6.3 > v6.5
 - **Corpse**: v1.0.19 > v1.0.20
@@ -234,7 +235,7 @@ Dive into the adventure, master new mechanics, and shape the world in your image
 - **Respawning Structures**: v3.3 > v3.5
 - **Rubidium Extra**: v0.5.4.3 > v0.5.4.4
 - **Smoothchunk**: v3.8 > v4.0
-- **Sophisticated Backpacks**: v3.21.2.1163 > v3.22.0.1182
+- **Sophisticated Backpacks**: v3.21.2.1163 > v3.22.0.1184
 - **Sophisticated Core**: v1.0.6.824 > v1.1.1.843
 - **Sophisticated Storage**: v1.0.7.1000 > v1.1.0.1048
 - **Structure Credits**: v1.7 > v2.2.1
