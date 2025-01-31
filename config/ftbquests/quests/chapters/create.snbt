@@ -13,7 +13,7 @@
 			rotation: 0.0d
 			width: 15.0d
 			x: 0.0d
-			y: -9.5d
+			y: -11.5d
 		}
 		{
 			height: 10.0d
@@ -892,7 +892,10 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["2D02B7B7507AF99D"]
+			dependencies: [
+				"2D02B7B7507AF99D"
+				"66E9DB5E9D5CD5EC"
+			]
 			icon: "create:andesite_funnel"
 			id: "6A90B1DCEF49DA70"
 			rewards: [{
@@ -915,8 +918,8 @@
 				}
 			]
 			title: "Stress Progression: Andesite Logistics"
-			x: 3.0d
-			y: 7.0d
+			x: 2.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["2D02B7B7507AF99D"]
@@ -926,8 +929,8 @@
 				item: "create:belt_connector"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 7.0d
+			x: 4.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["47D7F409919DDA7D"]
@@ -944,8 +947,8 @@
 				type: "item"
 			}]
 			title: "Stress Progression: Dried Kelp"
-			x: 4.0d
-			y: 5.5d
+			x: 3.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["7CEA168D6E09EFEE"]
@@ -966,8 +969,8 @@
 				type: "item"
 			}]
 			title: "Stress Progression: Kelp"
-			x: 4.0d
-			y: 4.5d
+			x: 3.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["7CEA168D6E09EFEE"]
