@@ -195,7 +195,8 @@ Dive into the adventure, master new mechanics, and shape the world in your image
 - **Amendments**: v1.2.14 > v1.2.16
 - **Apotheosis**: v7.4.3 > 7.4.5
 - **Balm**: v7.3.10 > v7.3.11
-- **Cataclysm**: v2.27 > v2.45
+- **Blueprint**: v7.1.0 > v7.1.1
+- **Cataclysm**: v2.27 > v2.46
 - **Collectors Reap**: v1.3.2 > v1.3.3
 - **Connectivity**: v6.3 > v6.5
 - **Corpse**: v1.0.19 > v1.0.20
@@ -225,7 +226,7 @@ Dive into the adventure, master new mechanics, and shape the world in your image
 - **Lithostitched**: v1.3.10 > v1.4
 - **Memory Settings**: v5.5 > v5.9
 - **Modern Fix**: v5.20.0 > v5.20.2
-- **Moonlight**: v2.13.45 > v2.13.56
+- **Moonlight**: v2.13.45 > v2.13.58
 - **Naturalist Delight**: v1.0.3.1 > v1.0.3.2
 - **Not Enough Animations**: v1.9.0 > v1.9.1
 - **Pattern Schematics**: v1.1.16 > v1.1.19
