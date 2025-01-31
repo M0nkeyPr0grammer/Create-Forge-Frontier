@@ -151,8 +151,6 @@ Dive into the adventure, master new mechanics, and shape the world in your image
   - Adjusted **height and speed parameters** for each jetpack tier to ensure a smooth, progressive increase in performance with each upgrade.  
   - Expanded **fuel capacity** for all **tanks, jetpacks, and tools** to improve efficiency and extend usability.  
 ### Compatibility & Fixes  
-- **Every Compat**:  
-  - Disabled *Assets Depend on Loaded Packs* to fix a **block loot table issue**.  
 - **Friends & Foes**:  
   - Disabled the **Check for Updates** feature.  
 ### Navigation & Exploration  
