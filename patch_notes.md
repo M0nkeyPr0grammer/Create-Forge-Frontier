@@ -243,10 +243,6 @@ Dive into the adventure, master new mechanics, and shape the world in your image
 - **Toms Simple Storage**: v1.6.9 > v1.7.0
 - **Xaero's Minimap**: v24.7.1 > v25.0.0
 
-## Global Updates  
-- **Repurposed Structures - Better Structure Compats**:  
-  - Moved all **datapacks of this type** to **Global Datapacks** for better organization and compatibility.  
-
 ## Drippy Loading Screen Updates
 - Updated version number to 2.1.0
 
