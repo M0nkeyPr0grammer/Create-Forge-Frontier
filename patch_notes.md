@@ -253,7 +253,7 @@ Dive into the adventure, master new mechanics, and shape the world in your image
 ## Fancy Menu Updates
 - Updated version number to 2.1.0
 
-### More Details about the changes can be found here: [github repository merge](https://github.com/M0nkeyPr0grammer/Create-Forge-Frontier/pull/?)
+### More Details about the changes can be found here: [github repository merge](https://github.com/M0nkeyPr0grammer/Create-Forge-Frontier/compare/1348aed90bb5...c83b346d2aa7)
 
 ### Note: If you encounter any issues, please request support on our [Discord](https://discord.gg/quenZthXgy). Enjoy the update!
 
