@@ -13,7 +13,7 @@
 			rotation: 0.0d
 			width: 15.0d
 			x: 0.0d
-			y: -11.5d
+			y: -9.0d
 		}
 		{
 			height: 10.0d
@@ -22,182 +22,6 @@
 			width: 15.0d
 			x: 0.0d
 			y: 68.0d
-		}
-		{
-			height: 1.0d
-			image: "ftb:textures/sequenced_assembly_animated.png"
-			rotation: 0.0d
-			width: 0.006201550387596899d
-			x: 1.5d
-			y: 20.0d
-		}
-		{
-			height: 1.0d
-			image: "ftb:textures/sequenced_assembly_animated.png"
-			rotation: 0.0d
-			width: 0.006201550387596899d
-			x: 3.0d
-			y: 18.5d
-		}
-		{
-			height: 1.0d
-			image: "ftb:textures/sequenced_assembly_animated.png"
-			rotation: 0.0d
-			width: 0.006201550387596899d
-			x: -3.0d
-			y: 16.5d
-		}
-		{
-			height: 1.0d
-			image: "ftb:textures/sequenced_assembly_animated.png"
-			rotation: 0.0d
-			width: 0.006201550387596899d
-			x: 0.5d
-			y: 19.0d
-		}
-		{
-			height: 1.0d
-			image: "ftb:textures/sequenced_assembly_animated.png"
-			rotation: 0.0d
-			width: 0.006201550387596899d
-			x: 2.0d
-			y: 17.5d
-		}
-		{
-			height: 1.0d
-			image: "ftb:textures/sequenced_assembly_animated.png"
-			rotation: 0.0d
-			width: 0.006201550387596899d
-			x: 3.0d
-			y: 17.5d
-		}
-		{
-			height: 1.0d
-			image: "ftb:textures/sequenced_assembly_animated.png"
-			rotation: 0.0d
-			width: 0.006201550387596899d
-			x: 0.5d
-			y: 19.0d
-		}
-		{
-			height: 1.0d
-			image: "ftb:textures/sequenced_assembly_animated.png"
-			rotation: 0.0d
-			width: 0.006201550387596899d
-			x: 0.0d
-			y: 20.0d
-		}
-		{
-			height: 1.0d
-			image: "ftb:textures/sequenced_assembly_animated_1.png"
-			rotation: 0.0d
-			width: 0.005333333333333333d
-			x: 0.5d
-			y: 19.5d
-		}
-		{
-			height: 1.0d
-			image: "ftb:textures/sequenced_assembly_animated_1.png"
-			rotation: 0.0d
-			width: 0.005333333333333333d
-			x: 0.5d
-			y: 19.0d
-		}
-		{
-			height: 1.0d
-			image: "ftb:textures/sequenced_assembly_animated.png"
-			rotation: 0.0d
-			width: 0.006201550387596899d
-			x: 1.5d
-			y: 17.5d
-		}
-		{
-			height: 1.0d
-			image: "ftb:textures/sequenced_assembly_animated_1.png"
-			rotation: 0.0d
-			width: 0.005333333333333333d
-			x: 1.0d
-			y: 17.0d
-		}
-		{
-			height: 1.0d
-			image: "ftb:textures/sequenced_assembly_animated.png"
-			rotation: 0.0d
-			width: 0.006201550387596899d
-			x: 0.5d
-			y: 18.5d
-		}
-		{
-			height: 1.0d
-			image: "ftb:textures/sequenced_assembly_animated_1.png"
-			rotation: 0.0d
-			width: 0.005333333333333333d
-			x: 0.5d
-			y: 20.0d
-		}
-		{
-			height: 1.0d
-			image: "ftb:textures/sequenced_assembly_animated_1.png"
-			rotation: 0.0d
-			width: 0.005333333333333333d
-			x: -0.5d
-			y: 18.5d
-		}
-		{
-			height: 1.0d
-			image: "ftb:textures/stupid_dumb_test.png"
-			rotation: 0.0d
-			width: 0.0033333333333333335d
-			x: 0.5d
-			y: 20.5d
-		}
-		{
-			height: 1.0d
-			image: "ftb:textures/sequenced_assembly_animated_1.png"
-			rotation: 0.0d
-			width: 0.005333333333333333d
-			x: 0.5d
-			y: 18.5d
-		}
-		{
-			height: 1.0d
-			image: "ftb:textures/stupid_dumb_test.png"
-			rotation: 0.0d
-			width: 0.0033333333333333335d
-			x: 0.5d
-			y: 21.5d
-		}
-		{
-			height: 1.0d
-			image: "ftb:textures/sequenced_assembly_animated_1.png"
-			rotation: 0.0d
-			width: 0.005333333333333333d
-			x: 0.5d
-			y: 19.0d
-		}
-		{
-			height: 1.0d
-			image: "ftb:textures/stupid_dumb_test.png"
-			rotation: 0.0d
-			width: 0.0033333333333333335d
-			x: 0.5d
-			y: 19.5d
-		}
-		{
-			height: 1.0d
-			image: "ftb:textures/sequenced_assembly_animated_1.png"
-			rotation: 0.0d
-			width: 0.005333333333333333d
-			x: 2.0d
-			y: 19.5d
-		}
-		{
-			height: 1.0d
-			image: "ftb:textures/stupid_dumb_test.png"
-			rotation: 0.0d
-			width: 0.0033333333333333335d
-			x: 0.0d
-			y: 17.0d
 		}
 		{
 			height: 3.13125d
@@ -243,11 +67,15 @@
 				}
 			]
 			title: "Stress Progression: Gears"
-			x: -6.0d
+			x: -5.5d
 			y: -3.5d
 		}
 		{
-			description: ["The completion of this quest marks the beginning of your foray into the mod that forms the foundation of this pack: Create. From andesite alloy springs the rest of your progression here, from shafts to mechanical hands it all starts here. You are going to need a lot of it!"]
+			description: [
+				"[\"\",{\"text\":\"The completion of this quest marks the beginning of your foray into the mod that forms the foundation of this pack: Create. From andesite alloy springs the rest of your progression here: from shafts to mechanical hands it all starts here. You are going to need a lot of it! \\n\\nContinue on to the next page to learn a bit more about the mod!\\n\\n\\n\"}]"
+				"{@pagebreak}"
+				"[\"\",{\"text\":\"Pondering\",\"bold\":true,\"underlined\":true},{\"text\":\"\\n\\nThe best way to learn how Create works in-game is through Create's Ponder Menu. To access this menu, hover over an item from Create that says: \\\"hold \"},{\"keybind\":\"key.forward\"},{\"text\":\" to ponder\\\", and hold \"},{\"keybind\":\"key.forward\"},{\"text\":\". In this menu, you can see how that item works with Create as well as other related items from the mod in the top left. If you find that you do not have enough time to make out the text, you can also turn on \\\"comfy reading\\\" in the bottom right.\"}]"
+			]
 			icon: "create:andesite_alloy"
 			id: "66E9DB5E9D5CD5EC"
 			rewards: [{
@@ -284,7 +112,7 @@
 				type: "item"
 			}]
 			title: "Stress Progression: Shafts"
-			x: -4.5d
+			x: -4.0d
 			y: -4.0d
 		}
 		{
@@ -311,7 +139,21 @@
 		}
 		{
 			dependencies: ["4BD39CC8E17CA1A9"]
+			description: ["The Mechanical Press is an item integral to Create's progression and processing with Create in this pack."]
 			id: "71D00FF2BEBD3FEA"
+			rewards: [
+				{
+					count: 4
+					id: "293050ACE91E19C4"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					id: "455D527DED0047EA"
+					item: "createcompression:compressed_andesite_alloy_1x"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			size: 1.25d
 			subtitle: "swa *THUNK*"
@@ -340,7 +182,7 @@
 				type: "item"
 			}]
 			title: "Stress Progression: Hand Crank"
-			x: -5.5d
+			x: -5.0d
 			y: -2.5d
 		}
 		{
@@ -360,7 +202,7 @@
 				type: "item"
 			}]
 			title: "Stress Progression: Windmill Bearing"
-			x: -4.5d
+			x: -4.0d
 			y: -2.0d
 		}
 		{
@@ -378,7 +220,7 @@
 				type: "item"
 			}]
 			title: "Stress Progression: Water Wheel"
-			x: -3.5d
+			x: -3.0d
 			y: -2.5d
 		}
 		{
@@ -395,12 +237,11 @@
 				type: "item"
 			}]
 			title: "Stress Progression: Large Water Wheel"
-			x: -3.5d
+			x: -3.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["0978BA99255B5D65"]
-			description: [""]
 			id: "7E0A66ADA42FE307"
 			rewards: [{
 				count: 32
@@ -416,11 +257,12 @@
 				type: "item"
 			}]
 			title: "Stress Progression: Windmill Sails"
-			x: -4.5d
+			x: -4.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["71D00FF2BEBD3FEA"]
+			description: ["To produce Iron Plates, throw Iron Ingots or place Iron Ingots on a depot under a mechanical press and supply it with Rotational Force."]
 			icon: "create:iron_sheet"
 			id: "689AB7CC0541BC51"
 			rewards: [{
@@ -452,6 +294,7 @@
 		}
 		{
 			dependencies: ["4BD39CC8E17CA1A9"]
+			description: [""]
 			id: "797B7A3B53705435"
 			subtitle: "Basic Grinding"
 			tasks: [{
@@ -465,7 +308,27 @@
 		}
 		{
 			dependencies: ["4BD39CC8E17CA1A9"]
+			description: ["Mechanical drills will break blocks when supplied with rotation or as a part of a contraption. When used on a contraption, they will put any items they would drop into any storage blocks that are a part of the contraption. See the ponder menu for more information."]
 			id: "40AAB2B0E0E41530"
+			rewards: [
+				{
+					count: 8
+					id: "25517FAD0546CDF6"
+					item: "create:andesite_casing"
+					type: "item"
+				}
+				{
+					id: "0393DB43AB31F3AD"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "523F8E79D1B8B717"
+					item: "create:andesite_alloy_block"
+					type: "item"
+				}
+			]
 			subtitle: "Basic Block Breaking"
 			tasks: [{
 				id: "63B6C58D01E18519"
@@ -611,7 +474,7 @@
 				item: "create:mechanical_plough"
 				type: "item"
 			}]
-			title: "Stress Progression: Mechanical Saw"
+			title: "Stress Progression: Mechanical Plough"
 			x: -2.0d
 			y: 3.0d
 		}
@@ -688,19 +551,28 @@
 		}
 		{
 			dependencies: ["4BD39CC8E17CA1A9"]
-			icon: "create:wrench"
+			icon: "create:stressometer"
 			id: "73E05BE7ED1F382B"
+			rewards: [
+				{
+					id: "4C6AEE37B59789A7"
+					item: "create_compressed:shaft_bundle"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "31A0DD5A6B34C858"
+					item: "create_compressed:cogwheel_block"
+					type: "item"
+				}
+				{
+					id: "2652BB7D04F51B20"
+					item: "create_compressed:large_cogwheel_block"
+					type: "item"
+				}
+			]
+			subtitle: "How stressed is your network?"
 			tasks: [
-				{
-					id: "029A0A10BFA30870"
-					item: "create:goggles"
-					type: "item"
-				}
-				{
-					id: "629B56316E70699C"
-					item: "create:wrench"
-					type: "item"
-				}
 				{
 					id: "76A166F957A8E928"
 					item: "create:stressometer"
@@ -712,7 +584,7 @@
 					type: "item"
 				}
 			]
-			title: "Stress Progression: Tools of the Trade"
+			title: "Stress Progression: Monitoring your Network"
 			x: -2.0d
 			y: -1.0d
 		}
@@ -852,7 +724,7 @@
 				type: "item"
 			}]
 			title: "Stress Progression: Copper Pipe"
-			x: -3.5d
+			x: -3.0d
 			y: 1.5d
 		}
 		{
@@ -896,6 +768,11 @@
 				"2D02B7B7507AF99D"
 				"66E9DB5E9D5CD5EC"
 			]
+			description: [
+				"Andesite funnels and tunnels allow for simple extraction from and insertion into attached inventories, while andesite tunnels allow for splitting item stacks on belts and prevening any unwanted items from getting in the mix of your all-important factory outputs. "
+				""
+				"See their ponder menus for more information!"
+			]
 			icon: "create:andesite_funnel"
 			id: "6A90B1DCEF49DA70"
 			rewards: [{
@@ -923,7 +800,14 @@
 		}
 		{
 			dependencies: ["2D02B7B7507AF99D"]
+			description: ["Belts allow you to move items and transmit stress horizontally for long distances. They also maintain the direction of rotation on any components attached to the belt, and they do not take any stress."]
 			id: "2090AE942CFAEBE9"
+			rewards: [{
+				count: 2
+				id: "290099F285335C5F"
+				item: "create_compressed:belt_block"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6C93DC3282DD3447"
 				item: "create:belt_connector"
@@ -933,7 +817,8 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["47D7F409919DDA7D"]
+			description: ["Kelp, particularly Dried Kelp, is the foundation of Create's item transportation and sorting utility. Beyond "]
+			icon: "minecraft:dried_kelp"
 			id: "2D02B7B7507AF99D"
 			rewards: [{
 				count: 8
@@ -941,11 +826,20 @@
 				item: "minecraft:dried_kelp_block"
 				type: "item"
 			}]
-			tasks: [{
-				id: "3AC4AB096244CD17"
-				item: "minecraft:dried_kelp"
-				type: "item"
-			}]
+			tasks: [
+				{
+					count: 8L
+					id: "725797BE1A98C1A0"
+					item: { Count: 8, id: "minecraft:kelp" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "40E293E6B511CDE0"
+					item: { Count: 8, id: "minecraft:dried_kelp" }
+					type: "item"
+				}
+			]
 			title: "Stress Progression: Dried Kelp"
 			x: 3.0d
 			y: -3.5d
@@ -962,17 +856,6 @@
 			y: 7.5d
 		}
 		{
-			id: "47D7F409919DDA7D"
-			tasks: [{
-				id: "6FF55C1B923D2408"
-				item: "minecraft:kelp"
-				type: "item"
-			}]
-			title: "Stress Progression: Kelp"
-			x: 3.0d
-			y: -4.5d
-		}
-		{
 			dependencies: ["7CEA168D6E09EFEE"]
 			id: "51B169AF55989F98"
 			tasks: [{
@@ -987,7 +870,25 @@
 		{
 			dependencies: ["1CE141F1163EC938"]
 			id: "66040D65CAB24742"
-			subtitle: "Fluid Transportation, really this time"
+			rewards: [
+				{
+					id: "11525C82C4534C35"
+					item: "create_compressed:cogwheel_block"
+					type: "item"
+				}
+				{
+					id: "4B3E0CA29AB1A2C5"
+					item: "create_compressed:shaft_bundle"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "08AB0935FB3CCCC0"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+			]
+			subtitle: "Water Pressure"
 			tasks: [{
 				id: "5F76BF4849E36122"
 				item: "create:mechanical_pump"
@@ -1001,7 +902,12 @@
 			dependencies: ["1CE141F1163EC938"]
 			icon: "create:copper_valve_handle"
 			id: "384F8AD4B5DF3DE9"
-			subtitle: "When will we get half life 3?"
+			rewards: [{
+				id: "08CFB4B26A6F8E7B"
+				item: "minecraft:copper_block"
+				type: "item"
+			}]
+			subtitle: "The Spice (may not) flow!"
 			tasks: [
 				{
 					id: "268AC4F00227379C"
@@ -1016,9 +922,10 @@
 			]
 			title: "Stress Progression: Fluid Valve"
 			x: -4.0d
-			y: 2.5d
+			y: 2.0d
 		}
 		{
+			description: ["Rose Quars is integral to the development of Electron Tubes, providing a simplistic computer allowing for machines and components far smarter than metal alone."]
 			icon: "create:rose_quartz"
 			id: "7F7EB3A77A07CE9E"
 			rewards: [{
@@ -1058,6 +965,7 @@
 			dependencies: ["7F7EB3A77A07CE9E"]
 			id: "3FB6BBE30E606BE7"
 			rewards: [{
+				count: 8
 				id: "71A32D2E6D9BC478"
 				item: "create:electron_tube"
 				type: "item"
@@ -1368,6 +1276,7 @@
 		}
 		{
 			dependencies: ["17BABE8F2B2BD008"]
+			description: ["These components allow for precisely timed mechanisms like redstone clocks, allowing for simplification of redstone normally reserved for the most advanced redstone virtuosos."]
 			icon: "create:pulse_extender"
 			id: "7BED647577A79759"
 			rewards: [
@@ -1395,7 +1304,7 @@
 					type: "item"
 				}
 			]
-			title: "Stress Progression: Advanced Repeating "
+			title: "Stress Progression: Advanced Redstone"
 			x: -2.0d
 			y: 9.0d
 		}
@@ -1451,6 +1360,7 @@
 		}
 		{
 			dependencies: ["4BD39CC8E17CA1A9"]
+			description: [""]
 			id: "1B73DE39098D6A97"
 			subtitle: "Decoration has a place here"
 			tasks: [{
@@ -1713,8 +1623,120 @@
 				type: "item"
 			}]
 			title: "Copper Backtank"
-			x: -4.5d
+			x: -2.5d
 			y: 5.0d
+		}
+		{
+			dependencies: ["71D00FF2BEBD3FEA"]
+			id: "65689AF3CE427A0D"
+			subtitle: "\"Gold Sheet\""
+			tasks: [{
+				id: "0894A19FE96F0CBE"
+				item: "create:golden_sheet"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["689AB7CC0541BC51"]
+			description: ["Chutes function as an upgrade to hoppers, able to transfer items faster and in higher quantities while causing less lag. However, they cannot tranfer items horizontally and will drop items as item entities if there is no container below them. See their ponder entry for more information."]
+			id: "2199CA39A845A583"
+			rewards: [{
+				count: 16
+				id: "6858BD2E7D1E96A5"
+				item: "create:chute"
+				type: "item"
+			}]
+			subtitle: "Chute!"
+			tasks: [{
+				count: 4L
+				id: "4E12FA2E499103A1"
+				item: { Count: 4, id: "create:chute" }
+				type: "item"
+			}]
+			title: "Faster Hoppers"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["65689AF3CE427A0D"]
+			description: [
+				"These tools allow you to easily control your machines and see information about them. Flip through the pages to read more!"
+				"{@pagebreak}"
+				"&l&nWrench&r&r"
+				""
+				"Create's wrench allows you to easily break Create's blocks, as well as other wrenchable blocks, by simply Crouching and Using with the wrench. "
+				""
+				"The wrench can also be used to configure certian components by scrolling such as the rotational speed controller."
+				""
+				"{@pagebreak}"
+				"&l&nGoggles&r&r"
+				""
+				"The Engineer's Goggles let you see information about some of Create's components. They can be worn on your head or in the goggles slot."
+				""
+				"When looking at your machines, you can see their total stress consumption at the speed they are spinning at. When looking at stressometers or speedomers, they show you the exact speed and stress in your network."
+				""
+				"They also allow you to see the amount of fluid in your tank as well as it's remaning capacity."
+			]
+			id: "5DA6EB383B731634"
+			rewards: [{
+				count: 4
+				id: "6FF282710EF1CBFD"
+				item: "create_compressed:gold_sheet_block"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1ABA8487CCE6E165"
+					item: "create:wrench"
+					type: "item"
+				}
+				{
+					id: "58E0E3C08576EB89"
+					item: "create:goggles"
+					type: "item"
+				}
+			]
+			title: "Tools of the Trade"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3FB6BBE30E606BE7"]
+			description: ["These items allow you to display information about your machines and your factory. Right click a display board or set of nixie tubes to link them with a display link, and attach the display link to a block like a depot or belt to display information about them. See their ponder entries for more information."]
+			id: "7AA5B4B6CEEB9BF6"
+			tasks: [
+				{
+					id: "35C0F880DE35AA12"
+					item: "create:display_board"
+					type: "item"
+				}
+				{
+					id: "000224BE2181B992"
+					item: "create:display_link"
+					type: "item"
+				}
+				{
+					id: "44CBF4731C4193CD"
+					item: "create:nixie_tube"
+					type: "item"
+				}
+			]
+			title: "Display Technology"
+			x: 3.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["7CEA168D6E09EFEE"]
+			id: "56B2FCAD55B9D56C"
+			tasks: [{
+				id: "60EDD9508DF0CC89"
+				item: "create:portable_fluid_interface"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.5d
 		}
 	]
 	title: "Foundations of Ingenuity (Vanilla Create)"
