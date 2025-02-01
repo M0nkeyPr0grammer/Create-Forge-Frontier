@@ -55,12 +55,12 @@ Dive into the adventure, master new mechanics, and shape the world in your image
 ### Dimensional Progression
 - Overworld: All quests now completed.
 - Nether: Fully completed quests, plus a revamped Nether Remastered chapter with improved style and new quest rewards.
-- Deeper Darker: Quests completed.
+- Deeper Darker: All quests now completed.
 - The End: All quests now finished.
 - End Remastered: Upgraded the main quest page and added rewards for all the Eyes of Ender.
-- Ad Astra Moon: Quests completed.
+- Ad Astra Moon: All quests now completed.
 ### Create & Industry
-- Create: Fresh new quests—on track for completion in this update!
+- Create: All quests now completed.  - Quest Page created by Gamma02
 - Molten Vents: Improved quest navigation by linking relevant fluids and updating vent biome data.
 - Molten Ores & Mixing: Questlines now fully completed.
 ### Food & Fluids
