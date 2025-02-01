@@ -207,9 +207,10 @@
 		}
 		{
 			dependencies: ["0051FC2DA1337C65"]
+			description: ["Water Wheels are excellent sources of SU to provide a constant supply of rotation and stress, but they don't provide very much. If you surround them with flowing water, they will start producing stress. See the Ponder Menu for more information."]
 			id: "77F6C51EB12B6075"
 			rewards: [{
-				count: 3
+				count: 4
 				id: "1B20BF3247BEF8D8"
 				item: "create:water_wheel"
 				type: "item"
@@ -408,7 +409,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Bulk Smelting and Iron"
+			subtitle: "Bulk Smelting"
 			tasks: [{
 				id: "39B97F5D24B9936F"
 				item: "create:encased_fan"
@@ -426,6 +427,7 @@
 				item: "create:propeller"
 				type: "item"
 			}]
+			subtitle: "I'm a Fan"
 			tasks: [{
 				id: "0CF0CBB4628034D8"
 				item: "create:propeller"
@@ -468,7 +470,14 @@
 		}
 		{
 			dependencies: ["689AB7CC0541BC51"]
+			description: ["On a contraption, Ploughs can automatically pick up blocks like snow layers, rails, and torches that Mechanical Drills will ignore. See the Ponder Menu for more information."]
 			id: "654DC97ABFA2258C"
+			rewards: [{
+				count: 8
+				id: "229BCF843083EC7F"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2B7A2B340626D90D"
 				item: "create:mechanical_plough"
@@ -493,7 +502,18 @@
 		}
 		{
 			dependencies: ["689AB7CC0541BC51"]
-			description: ["Mysteroius Conversion is how you get a blaze burner. After getting to the Nether and finding a Nether Fortress, using an Empty Blaze Burner on a Blaze Spawner will give you your Blaze Burner."]
+			description: [
+				"Mysteroius Conversion is Create's way of obfuscating some in-world interaction recipes, and how you get a blaze burner. After getting to the Nether and finding a Nether Fortress, using an Empty Blaze Burner on a Blaze Spawner will give you your Blaze Burner."
+				""
+				"See the Ponder Menu for more information."
+				""
+				"{@pagebreak}"
+				"&n&lFueling your Blazes&r&r"
+				""
+				"By using furnace fuel like coal or lava buckets on your blaze burner, you can make them produce more heat for things like mixing or boilers. "
+				""
+				"By using a Blaze Cake on a blaze, you can move past just \"heated\" and into \"Superheated\", allowing you to do things like melt metal or make the highest teir Boiler. "
+			]
 			hide_dependency_lines: true
 			icon: "create:blaze_burner"
 			id: "52994525D9DF88FA"
@@ -690,6 +710,7 @@
 		}
 		{
 			dependencies: ["71D00FF2BEBD3FEA"]
+			description: ["Copper and Copper Sheets allow you to craft components like Fluid Tanks, Pipes, and Spouts."]
 			id: "591E0AAB1FE58D9E"
 			rewards: [{
 				count: 8
@@ -697,7 +718,6 @@
 				item: "create_dd:bronze_sheet"
 				type: "item"
 			}]
-			subtitle: "Copper Ghosts"
 			tasks: [{
 				id: "5D705E4818171870"
 				item: "create:copper_sheet"
@@ -709,6 +729,7 @@
 		}
 		{
 			dependencies: ["591E0AAB1FE58D9E"]
+			description: ["Fluid Pipes allow for the transportation of fluids when pressurized through Mechanical Pumps. Right Click with the Wrench to make them clear. See the Ponder Menu for more information."]
 			id: "1CE141F1163EC938"
 			rewards: [{
 				count: 16
@@ -729,6 +750,7 @@
 		}
 		{
 			dependencies: ["5E955070872C95FC"]
+			description: ["These serve as the base for many fluid machines."]
 			id: "7CEA168D6E09EFEE"
 			rewards: [{
 				count: 8
@@ -900,6 +922,7 @@
 		}
 		{
 			dependencies: ["1CE141F1163EC938"]
+			description: ["Fluid Valves allow you to restrict the flow of fluids through pipes, useful for toggling the flow of a fluid to a machine. They can also act like Cranks, providing 256 SU when used."]
 			icon: "create:copper_valve_handle"
 			id: "384F8AD4B5DF3DE9"
 			rewards: [{
@@ -1102,6 +1125,7 @@
 		}
 		{
 			dependencies: ["3FB6BBE30E606BE7"]
+			description: ["Smart Pipes allow you to filter the fluids that run through them like Brass Funnels or Smart Chutes."]
 			id: "0C80A2B055889D44"
 			rewards: [
 				{
@@ -1729,7 +1753,22 @@
 		}
 		{
 			dependencies: ["7CEA168D6E09EFEE"]
+			description: ["These allow stationary components to interact with fluid inventories in contraptions."]
 			id: "56B2FCAD55B9D56C"
+			rewards: [
+				{
+					count: 4
+					id: "5207A9A4860D7976"
+					item: "create:fluid_tank"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "25D3F49089D2C5A1"
+					item: "create:copper_casing"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "60EDD9508DF0CC89"
 				item: "create:portable_fluid_interface"
@@ -1737,6 +1776,71 @@
 			}]
 			x: -1.5d
 			y: 6.5d
+		}
+		{
+			dependencies: ["591E0AAB1FE58D9E"]
+			description: [
+				"Fluid tanks allow you to, well, store fluid. A single tank has a capicty of 4 buckets, but multiple can be merged together in 2x2 and 3x3 slices that stack vertically"
+				""
+				""
+				"{@pagebreak}"
+				"&n&lFluid Storage&r&r"
+				""
+				"Tanks main functionality is to store fluids. Unlike many other mod's tanks, you cannot use buckets on them to insert fluids. Instead, Create provides an Item drain that allows you to drain items like buckets to extract their fluid, which you need to pump fluid out of and into the tank."
+				""
+				"{@pagebreak}"
+				"&n&lBoiler&r&r"
+				""
+				"Tanks are also integral to a boiler setup. Details on the size of these can be found on the Create Wiki and in the Ponder Menu."
+				""
+				"{\"text\":\"Boilers on the Create Wiki\",\"underlined\":true,\"color\":\"blue\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://create.fandom.com/wiki/Steam_Engine\"}}"
+			]
+			id: "77307907B8215388"
+			rewards: [{
+				count: 8
+				id: "7D843070A9A5D1BC"
+				item: "minecraft:copper_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7B797DD770D5F6C1"
+				item: "create:fluid_tank"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["52994525D9DF88FA"]
+			description: [
+				"Steam Engines and Boilers are the most powerful way of generating stress in Create. A top teir Boiler can produce almost 300,000 stress units, but requires Superheated Blaze Burners to function."
+				""
+				"Read more about steam engines and Boilers here:"
+				"{\"text\":\"Boilers on the Create Wiki\",\"underlined\":true,\"color\":\"blue\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://create.fandom.com/wiki/Steam_Engine\"}}"
+			]
+			id: "40F55E8A9F8208B8"
+			rewards: [
+				{
+					count: 4
+					id: "1C0D933E74B24F8D"
+					item: "create:steam_engine"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4B4DD56EB29B1CBF"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0B7B1FB7C1229A63"
+				item: "create:steam_engine"
+				type: "item"
+			}]
+			title: "Steam Power"
+			x: 1.0d
+			y: 7.5d
 		}
 	]
 	title: "Foundations of Ingenuity (Vanilla Create)"
