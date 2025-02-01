@@ -478,7 +478,7 @@
 		slotsInRow = 3
 		#Range around storage in blocks at which magnet will pickup items
 		#Range: 1 ~ 20
-		magnetRange = 3
+		magnetRange = 6
 
 	#Advanced Magnet Upgrade Settings
 	[server.advancedMagnetUpgrade]
@@ -490,7 +490,7 @@
 		slotsInRow = 4
 		#Range around storage in blocks at which magnet will pickup items
 		#Range: 1 ~ 20
-		magnetRange = 5
+		magnetRange = 12
 
 	#Pickup Upgrade Settings
 	[server.pickupUpgrade]
@@ -691,4 +691,13 @@
 		#Maximum stack size that can be transferred in one transfer
 		#Range: 1 ~ 64
 		maxTransferStackSize = 4
+
+	#Advanced Jukebox Upgrade Settings
+	[server.advancedJukeboxUpgrade]
+		#Number of slots for discs in jukebox upgrade
+		#Range: 1 ~ 16
+		numberOfSlots = 12
+		#Number of lots displayed in a row
+		#Range: 1 ~ 6
+		slotsInRow = 4
 

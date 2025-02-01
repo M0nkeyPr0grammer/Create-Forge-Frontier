@@ -1,4 +1,5 @@
 {
+	autofocus_id: "53D3EEC1993AF3D6"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "lost_eye"
@@ -18,7 +19,7 @@
 			hover: ["Cataclysm: Soul Black Smith"]
 			image: "ftb:textures/smith.png"
 			rotation: 0.0d
-			width: 4.95d
+			width: 4.993252361673414d
 			x: -7.0d
 			y: 3.5d
 		}
@@ -28,7 +29,7 @@
 			hover: ["Cataclysm: Netherite Monstrosity"]
 			image: "ftb:textures/monstrosity.png"
 			rotation: 0.0d
-			width: 8.4d
+			width: 8.446658851113716d
 			x: 8.5d
 			y: 3.5d
 		}
@@ -38,7 +39,7 @@
 			hover: ["Ad Astra: Mars Temple"]
 			image: "ftb:textures/mars_temple.png"
 			rotation: 0.0d
-			width: 9.05d
+			width: 9.087499999999999d
 			x: 0.5d
 			y: -4.5d
 		}
@@ -66,7 +67,21 @@
 				"47F2883F0BBABEE8"
 				"03DA3832CB5BF4DC"
 			]
+			description: ["Crafted Using Mechanical Crafters"]
 			id: "53D3EEC1993AF3D6"
+			rewards: [
+				{
+					id: "48D3070F3172C0C6"
+					item: "cataclysm:netherite_ministrosity_bucket"
+					type: "item"
+				}
+				{
+					id: "0E1CA909A230CE3F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Forged by the first blacksmiths of creation, this eye is a relic of their divine craftsmanship. It glows with the fire of creation itself. Click me for more info! "
 			tasks: [{
 				id: "4C44E96AE52088D8"
 				item: {
@@ -82,7 +97,7 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["7EE0A1125DFCB5AF"]
+			dependencies: ["40C0805A32D59455"]
 			id: "59257860C8B23F83"
 			tasks: [{
 				count: 4L
@@ -95,7 +110,7 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["7EE0A1125DFCB5AF"]
+			dependencies: ["40C0805A32D59455"]
 			id: "0E292FC806D3E893"
 			tasks: [{
 				id: "1E1CBBC32B6CBFB8"
@@ -107,7 +122,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["7EE0A1125DFCB5AF"]
+			dependencies: ["40C0805A32D59455"]
 			id: "47F2883F0BBABEE8"
 			tasks: [{
 				count: 2L
@@ -132,7 +147,7 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["7EE0A1125DFCB5AF"]
+			dependencies: ["40C0805A32D59455"]
 			id: "28B405906F4B6DA1"
 			subtitle: "Crafted and used to locate The Soul Black Smith"
 			tasks: [{
@@ -174,7 +189,7 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["7EE0A1125DFCB5AF"]
+			dependencies: ["40C0805A32D59455"]
 			id: "258A650E322ABBCB"
 			subtitle: "Found on Mars"
 			tasks: [{
@@ -186,7 +201,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["7EE0A1125DFCB5AF"]
+			dependencies: ["40C0805A32D59455"]
 			id: "69904E35F0712829"
 			subtitle: "Found on Mars"
 			tasks: [{
@@ -198,7 +213,7 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["7EE0A1125DFCB5AF"]
+			dependencies: ["40C0805A32D59455"]
 			id: "7D7FE0BFB3F8DCE9"
 			subtitle: "Found on Mars"
 			tasks: [{
@@ -210,7 +225,7 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["7EE0A1125DFCB5AF"]
+			dependencies: ["40C0805A32D59455"]
 			id: "64AAE8BF36CC976D"
 			tasks: [{
 				count: 3L
@@ -223,7 +238,7 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["7EE0A1125DFCB5AF"]
+			dependencies: ["40C0805A32D59455"]
 			id: "03DA3832CB5BF4DC"
 			tasks: [{
 				id: "0FDD4FD4DAA05499"

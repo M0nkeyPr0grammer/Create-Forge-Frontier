@@ -27,6 +27,8 @@
 	quest_links: [ ]
 	quests: [{
 		id: "63AD7A0484657B2A"
+		shape: "gear"
+		size: 3.0d
 		tasks: [{
 			id: "3C86CF40B440AE59"
 			item: "create_sa:steam_engine"

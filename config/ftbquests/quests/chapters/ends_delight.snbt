@@ -33,6 +33,8 @@
 	quest_links: [ ]
 	quests: [{
 		id: "407C4A9E381ECA91"
+		shape: "gear"
+		size: 3.0d
 		tasks: [{
 			id: "42F5495D63759A7C"
 			item: {
@@ -45,7 +47,7 @@
 			type: "item"
 		}]
 		x: 0.0d
-		y: -5.5d
+		y: -6.5d
 	}]
 	title: "End's Delight"
 }

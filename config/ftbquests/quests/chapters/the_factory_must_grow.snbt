@@ -33,6 +33,8 @@
 	quest_links: [ ]
 	quests: [{
 		id: "3CA7EA8385B3D90B"
+		shape: "gear"
+		size: 3.0d
 		tasks: [{
 			id: "74376CF13AF32CB3"
 			item: {

@@ -27,6 +27,8 @@
 	quest_links: [ ]
 	quests: [{
 		id: "172EE8617C59F90A"
+		shape: "gear"
+		size: 3.0d
 		tasks: [{
 			dimension: "forge_frontier:forlorn_hollows"
 			icon: "alexscaves:pure_darkness"
@@ -34,7 +36,7 @@
 			type: "dimension"
 		}]
 		x: 0.0d
-		y: -4.0d
+		y: -6.5d
 	}]
 	title: "Forlorn Hollows"
 }

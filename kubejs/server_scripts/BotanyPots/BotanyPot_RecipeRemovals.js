@@ -77,6 +77,81 @@ ServerEvents.recipes(event => {
         event.remove({ id: `botanypots:botanypots/crafting/${potType}_compact_hopper_botany_pot` });
     })
 
+    // Botany Pots - Remove recipes here
+	const compactBotanyPots = [
+        'black_concrete',
+        'black_glazed_terracotta',
+        'black_terracotta',
+        
+        'blue_concrete',
+        'blue_glazed_terracotta',
+        'blue_terracotta',
+
+        'brown_concrete',
+        'brown_glazed_terracotta',
+        'brown_terracotta',
+
+        'cyan_concrete',
+        'cyan_glazed_terracotta',
+        'cyan_terracotta',
+
+        'gray_concrete',
+        'gray_glazed_terracotta',
+        'gray_terracotta',
+
+        'green_concrete',
+        'green_glazed_terracotta',
+        'green_terracotta',
+
+        'light_blue_concrete',
+        'light_blue_glazed_terracotta',
+        'light_blue_terracotta',
+
+        'light_gray_concrete',
+        'light_gray_glazed_terracotta',
+        'light_gray_terracotta',
+
+        'lime_concrete',
+        'lime_glazed_terracotta',
+        'lime_terracotta',
+
+        'magenta_concrete',
+        'magenta_glazed_terracotta',
+        'magenta_terracotta',
+
+        'orange_concrete',
+        'orange_glazed_terracotta',
+        'orange_terracotta',
+
+        'pink_concrete',
+        'pink_glazed_terracotta',
+        'pink_terracotta',
+
+        'purple_concrete',
+        'purple_glazed_terracotta',
+        'purple_terracotta',
+
+        'red_concrete',
+        'red_glazed_terracotta',
+        'red_terracotta',
+
+        'terracotta',
+
+        'white_concrete',
+        'white_glazed_terracotta',
+        'white_terracotta',
+
+        'yellow_concrete',
+        'yellow_glazed_terracotta',
+        'yellow_terracotta',
+
+    ];
+    
+    // Loop through the array and remove each item for Botany Pots
+    compactBotanyPots.forEach(potType => {
+        event.remove({ id: `botanypots:botanypots/crafting/${potType}_botany_pot` });
+    })    
+
     
 // Tiered Botany Pots
 

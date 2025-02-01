@@ -1,0 +1,19 @@
+{
+    "modId": "alexscaves",
+    "group": {
+      "name": "Alex's Caves Flowers",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:emerald"
+      },
+      "defaultCategory": "farmingforblockheads:flowers"
+    },
+    "customEntries": [
+        {
+            "output": "alexscaves:cycad"
+        },
+        {
+            "output": "alexscaves:flytrap"
+        }
+    ]
+}

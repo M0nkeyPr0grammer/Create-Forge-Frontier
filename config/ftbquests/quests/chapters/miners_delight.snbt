@@ -27,13 +27,15 @@
 	quest_links: [ ]
 	quests: [{
 		id: "316A59FE0AD51089"
+		shape: "gear"
+		size: 3.0d
 		tasks: [{
 			id: "615E0A94D89EB924"
 			item: "miners_delight:cave_carrot"
 			type: "item"
 		}]
 		x: 0.0d
-		y: -5.0d
+		y: -6.5d
 	}]
 	title: "Miner's Delight"
 }

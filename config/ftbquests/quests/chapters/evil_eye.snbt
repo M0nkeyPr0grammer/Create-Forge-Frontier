@@ -1,4 +1,5 @@
 {
+	autofocus_id: "1EDDECA49014856D"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "evil_eye"
@@ -18,7 +19,7 @@
 			hover: ["Better Archeology: Villager Grave"]
 			image: "ftb:textures/grave.png"
 			rotation: 0.0d
-			width: 6.5d
+			width: 6.50692225772098d
 			x: -7.5d
 			y: 0.5d
 		}
@@ -28,7 +29,7 @@
 			hover: ["Integrated Villages: Village"]
 			image: "ftb:textures/village.png"
 			rotation: 0.0d
-			width: 8.3d
+			width: 8.339055793991417d
 			x: 8.0d
 			y: 1.0d
 		}
@@ -38,7 +39,7 @@
 			hover: ["Trail Ruins Overhaul: Trail Ruins"]
 			image: "ftb:textures/trail_ruins.png"
 			rotation: 0.0d
-			width: 5.85d
+			width: 5.881435257410297d
 			x: 0.0d
 			y: -5.5d
 		}
@@ -66,7 +67,31 @@
 				"654001C24867F118"
 				"7B459C52CF0E2A27"
 			]
+			description: ["Crafted Using Mechanical Crafters"]
 			id: "1EDDECA49014856D"
+			rewards: [
+				{
+					id: "7512A1DC16C32DA3"
+					item: "createcompression:compressed_emerald_2x"
+					type: "item"
+				}
+				{
+					id: "72D8036284EBB344"
+					item: "easy_villagers:villager"
+					type: "item"
+				}
+				{
+					id: "45FD99F357E4C534"
+					item: "easy_villagers:trader"
+					type: "item"
+				}
+				{
+					id: "7909C04BE807F802"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Revered as a holy artifact, this talisman protects its bearer from misfortune. Its aura wards off curses and dark intentions. Click me for more info! "
 			tasks: [{
 				id: "7764ACC3B550FF17"
 				item: {

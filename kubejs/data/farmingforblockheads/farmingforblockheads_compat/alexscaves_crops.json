@@ -1,0 +1,16 @@
+{
+    "modId": "alexscaves",
+    "group": {
+      "name": "Alex's Caves Crops",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:emerald"
+      },
+      "defaultCategory": "crops"
+    },
+    "customEntries": [
+    {
+        "output": "alexscaves:pine_nuts"
+    }
+]
+}

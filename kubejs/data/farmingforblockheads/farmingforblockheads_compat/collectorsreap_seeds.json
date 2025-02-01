@@ -1,0 +1,19 @@
+{
+    "modId": "collectorsreap",
+    "group": {
+      "name": "Collectors Reap Seeds",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:emerald"
+      },
+      "defaultCategory": "farmingforblockheads:seeds"
+    },
+    "customEntries": [
+    {
+        "output": "collectorsreap:pomegranate_seeds"
+    },
+    {
+        "output": "collectorsreap:lime_seeds"
+    }
+    ]
+}

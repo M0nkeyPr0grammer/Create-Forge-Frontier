@@ -1,0 +1,25 @@
+{
+    "modId": "neapolitan",
+    "group": {
+      "name": "Neapolitan Crops",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:emerald"
+      },
+      "defaultCategory": "crops"
+    },
+    "customEntries": [
+    {
+        "output": "neapolitan:vanilla_pods"
+    },
+    {
+        "output": "neapolitan:banana"
+    },
+    {
+        "output": "neapolitan:strawberries"
+    },
+    {
+        "output": "neapolitan:white_strawberries"
+    }
+]
+}

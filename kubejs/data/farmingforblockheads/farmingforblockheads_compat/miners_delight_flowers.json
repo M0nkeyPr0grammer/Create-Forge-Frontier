@@ -10,9 +10,6 @@
     },
     "customEntries": [
       {
-        "output": "miners_delight:wild_cave_carrots"
-      },
-      {
         "output": "miners_delight:gossypium"
       }
     ]

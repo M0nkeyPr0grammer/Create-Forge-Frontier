@@ -1,0 +1,31 @@
+{
+    "modId": "farmersrespite",
+    "group": {
+      "name": "Farmers Respite Seeds",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:emerald"
+      },
+      "defaultCategory": "farmingforblockheads:seeds"
+    },
+    "customEntries": [
+      {
+        "output": "farmersrespite:green_tea_leaves"
+      },
+      {
+        "output": "farmersrespite:yellow_tea_leaves"
+      },
+      {
+        "output": "farmersrespite:black_tea_leaves"
+      },
+      {
+        "output": "farmersrespite:coffee_beans"
+      },
+      {
+        "output": "farmersrespite:rose_hips"
+      },
+      {
+        "output": "farmersrespite:tea_seeds"
+      }
+    ]
+}

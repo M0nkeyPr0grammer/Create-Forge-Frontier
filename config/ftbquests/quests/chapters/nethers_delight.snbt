@@ -27,13 +27,15 @@
 	quest_links: [ ]
 	quests: [{
 		id: "74C52DA94B0631A9"
+		shape: "gear"
+		size: 3.0d
 		tasks: [{
 			id: "44CD30C3B64ECBC3"
 			item: "nethersdelight:stuffed_hoglin"
 			type: "item"
 		}]
 		x: 0.0d
-		y: -4.5d
+		y: -6.5d
 	}]
 	title: "Nether's Delight"
 }

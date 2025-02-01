@@ -27,13 +27,15 @@
 	quest_links: [ ]
 	quests: [{
 		id: "40F1633DE443AF0E"
+		shape: "gear"
+		size: 3.0d
 		tasks: [{
 			id: "28B7AE98BC6CA91D"
 			structure: "hopo:mineshaft/acacia_mineshaft"
 			type: "structure"
 		}]
 		x: 0.0d
-		y: -5.5d
+		y: -6.5d
 	}]
 	title: "Hopo Better Structures"
 }

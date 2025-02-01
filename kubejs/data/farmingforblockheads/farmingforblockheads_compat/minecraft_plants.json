@@ -34,18 +34,6 @@
         "output": "minecraft:small_dripleaf"
       },
       {
-        "output": "minecraft:brown_mushroom"
-      },
-      {
-        "output": "minecraft:red_mushroom"
-      },
-      {
-        "output": "minecraft:crimson_fungus"
-      },
-      {
-        "output": "minecraft:warped_fungus"
-      },
-      {
         "output": "minecraft:grass"
       },
       {
@@ -83,24 +71,6 @@
       },
       {
         "output": "minecraft:hanging_roots"
-      },
-      {
-        "output": "minecraft:glow_berries"
-      },
-      {
-        "output": "minecraft:sweet_berries"
-      },
-      {
-        "output": "minecraft:apple"
-      },
-      {
-        "output": "minecraft:melon_slice"
-      },
-      {
-        "output": "minecraft:potato"
-      },
-      {
-        "output": "minecraft:carrot"
       }
     ]
   }

@@ -1,4 +1,5 @@
 {
+	autofocus_id: "5C659D0836CA815B"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "rogue_eye"
@@ -18,7 +19,7 @@
 			hover: ["Mithril Automation Setup"]
 			image: "ftb:textures/mithril.png"
 			rotation: 0.0d
-			width: 11.7d
+			width: 11.7353579175705d
 			x: -8.0d
 			y: 1.0d
 		}
@@ -38,7 +39,7 @@
 			hover: ["Precision Mechanism Automation"]
 			image: "ftb:textures/mechanism.png"
 			rotation: 0.0d
-			width: 9.2d
+			width: 9.225352112676056d
 			x: 7.0d
 			y: 1.0d
 		}
@@ -66,7 +67,31 @@
 				"07E7F94F03D9F0EF"
 				"2CE29436DFCE4315"
 			]
+			description: ["Crafted Using Mechanical Crafters"]
 			id: "5C659D0836CA815B"
+			rewards: [
+				{
+					id: "1C9FBC252D5ED44B"
+					item: "forge_frontier:compressed_mithril_1x"
+					type: "item"
+				}
+				{
+					id: "34B5736004AB36FD"
+					item: "createcompression:compressed_brass_1x"
+					type: "item"
+				}
+				{
+					id: "4122F13901A0D9B1"
+					item: "create_compressed:mechanism_block"
+					type: "item"
+				}
+				{
+					id: "0C40FB78CBE93840"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Imbued with the brilliance of our ancestors, this eye once illuminated the birth of Redstone. It hums with the ingenuity of a bygone age. Click me for more info! "
 			tasks: [{
 				id: "55B9EE85F5B551CE"
 				item: {
@@ -169,10 +194,10 @@
 			subtitle: "Made by Automating Steel, Chromatic Compound, Bronze, and Glowberry Milkshake. Then superheated mixing with XP nuggets"
 			tasks: [{
 				id: "10CD7E4C067C0EB4"
-				item: "forge_frontier:compressed_mithril_2x"
+				item: "create_dd:mithril_block"
 				type: "item"
 			}]
-			title: "1/2 Compressed Mithril 2x"
+			title: "1/2 Mithril Block"
 			x: -1.5d
 			y: 1.0d
 		}
@@ -183,10 +208,10 @@
 			tasks: [{
 				count: 2L
 				id: "4ACB7818FB85DD92"
-				item: "forge_frontier:compressed_mithril_2x"
+				item: "create_dd:mithril_block"
 				type: "item"
 			}]
-			title: "2/2 Compressed Mithril 2x"
+			title: "2/2 Mithril Block"
 			x: 1.5d
 			y: 1.0d
 		}

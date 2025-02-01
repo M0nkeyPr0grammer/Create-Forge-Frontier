@@ -1,4 +1,5 @@
 {
+	autofocus_id: "67026EE366909C22"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "tier_2_rocket"
@@ -13,10 +14,10 @@
 		{
 			click: "#67026EE366909C22"
 			height: 15.0d
-			hover: ["Tier 2 Rocket"]
+			hover: ["Tier 2 Rocket, Click image for more info!"]
 			image: "ftb:textures/tier_2.png"
 			rotation: 0.0d
-			width: 10.35d
+			width: 10.364854802680567d
 			x: 0.0d
 			y: 0.0d
 		}
@@ -419,6 +420,20 @@
 			description: ["Prepare for liftoff to Mars with the powerful Tier 2 Rocket! This advanced vessel opens the path to the Red Planet, where a vast, uncharted world awaits. Touch down on Mars and explore its rugged terrain, packed with mysterious structures, ancient relics, and hidden treasures. As you dig deeper, mine for the precious Ostrom Ore, and keep a keen eye out for the rare Molten Stellaris Ore Vents—pulsing with valuable minerals that, when processed, can yield even more Ostrom. Mars is rich with secrets and powerful resources for those brave enough to explore—strap in, ignite the engines, and embark on an unforgettable adventure beyond the stars!"]
 			hide_dependent_lines: true
 			id: "67026EE366909C22"
+			rewards: [
+				{
+					id: "085136CB6EFE916A"
+					item: "ad_astra:desh_block"
+					type: "item"
+				}
+				{
+					id: "040BB9578693A0DB"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "gear"
+			size: 2.0d
 			tasks: [{
 				id: "413370DE80F48073"
 				title: "Tier 2 Rocket"

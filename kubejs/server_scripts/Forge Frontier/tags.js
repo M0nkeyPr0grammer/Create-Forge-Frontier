@@ -1,4 +1,24 @@
 ServerEvents.tags('item', event => {
+    // MCTB Revertable Workbench
+    event.add('mctb:revertable_workbench','minecraft:crafting_table')
+
+    // Excavated Variants Stone Types Tag
+    event.add('excavated_variants:stone_stones',[
+        'forge_frontier:amberlite', 'forge_frontier:aubrum', 'forge_frontier:azurnium', 'forge_frontier:frostite',
+        'forge_frontier:glacium', 'forge_frontier:guanite', 'forge_frontier:neodymrium', 'forge_frontier:pearlyte',
+        'forge_frontier:pyroclast', 'forge_frontier:radiantite', 'forge_frontier:stellaris',
+        'forge_frontier:sulphite', 'forge_frontier:verdantine', 'forge_frontier:uraniumnite',
+        'enlightened_end:palerock', 'create_dd:potassic', 'deeperdarker:sculk_grime',
+        'enlightened_end:void_shale'
+    ])
+    
+    // Create Additions Plant Tag
+    event.add('createaddition:plants',[
+        'quark:chorus_weeds',
+        'quark:chorus_twist',
+        'quark:glow_lichen_growth'
+    ])
+
     // Held Over Head Tags
     event.add('ad_astra:held_over_head',[
         'ad_astra_rocketed:tier_5_rocket',
@@ -41,6 +61,38 @@ ServerEvents.tags('item', event => {
         'ad_astra_giselle_addon:oxygen_can',
         'ad_astra_giselle_addon:netherite_oxygen_can'
     ])
+
+    // Remove Flamingo Belt from Curios Slot
+    event.remove('curios:belt', [
+        'artifacts:helium_flamingo',
+        'artifacts:obsidian_skull',
+        'artifacts:antidote_vessel',
+        'artifacts:crystal_heart',
+        'toms_storage:ts.adv_wireless_terminal'
+    ])
+    
+    // Remove Flamingo Belt from Artifact Belt Slot
+    event.remove('artifacts:slot/belt', [
+        'artifacts:helium_flamingo',
+        'artifacts:obsidian_skull',
+        'artifacts:antidote_vessel',
+        'artifacts:crystal_heart'
+    ])
+
+    // Adds New Charm Tag
+    event.add('curios:charm',[
+        'artifacts:obsidian_skull',
+        'artifacts:antidote_vessel',
+        'artifacts:crystal_heart'
+    ])
+
+    // Removed Goggle Head Tag
+    event.remove('curios:head',
+        'create:goggles')
+
+    // Create Goggles Curios Tag
+    event.add('curios:goggles',
+        'create:goggles')
 
     // New Elytra Curios Tag
     event.add('curios:elytras',
@@ -212,5 +264,7 @@ ServerEvents.tags('fluid', event => {
     // Fluids
     event.add('forge:crude_oil', 'ad_astra:oil');
     event.remove('minecraft:water', 'createaddition:bioethanol');
+    event.remove('ad_astra:freezes_in_space', 'minecraft:water');
+    event.remove('ad_astra:evaporates_in_space', 'minecraft:water')
 
 });

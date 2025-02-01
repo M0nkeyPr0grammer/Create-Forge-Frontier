@@ -33,6 +33,8 @@
 	quest_links: [ ]
 	quests: [{
 		id: "1FE777D1CAD0CE01"
+		shape: "gear"
+		size: 3.0d
 		tasks: [{
 			dimension: "forge_frontier:primordial_caves"
 			icon: {
@@ -46,7 +48,7 @@
 			type: "dimension"
 		}]
 		x: 0.0d
-		y: -4.5d
+		y: -6.5d
 	}]
 	title: "Primordial Caves"
 }

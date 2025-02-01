@@ -28,13 +28,15 @@
 	quests: [{
 		icon: "cataclysm:altar_of_abyss"
 		id: "449BC30FBCC42249"
+		shape: "gear"
+		size: 3.0d
 		tasks: [{
 			id: "70161E4FD138A3FC"
 			structure: "cataclysm:sunken_city"
 			type: "structure"
 		}]
 		x: 0.0d
-		y: -5.0d
+		y: -6.5d
 	}]
 	title: "Sunken City"
 }

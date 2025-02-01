@@ -28,13 +28,15 @@
 	quests: [{
 		icon: "ad_astra:mercury_globe"
 		id: "6B54577F45BDF5E7"
+		shape: "gear"
+		size: 3.0d
 		tasks: [{
 			dimension: "ad_astra:mercury"
 			id: "25AC079DB4FF6B71"
 			type: "dimension"
 		}]
 		x: 0.0d
-		y: -6.0d
+		y: -6.5d
 	}]
 	title: "Mercury"
 }

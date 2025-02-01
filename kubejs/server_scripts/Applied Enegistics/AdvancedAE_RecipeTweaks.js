@@ -1,5 +1,18 @@
 ServerEvents.recipes(event => {
 
+    // Quantum Dust Recipe
+    event.remove({ id: 'advanced_ae:quantum_infused_dust'})
+    event.custom({
+		type: "create:crushing",
+		ingredients: [
+			{ item: 'advanced_ae:shattered_singularity' }
+		],
+		processingTime: 200,
+		results: [
+			{ item: 'advanced_ae:quantum_infused_dust', count: 1 }
+		]
+	}).id('forge_frontier:crushing/quantum_infused_dust');
+
     // New Quantum Processor Recipe
     event.remove({ id: 'advanced_ae:quantum_processor' })
     event.custom({
@@ -78,6 +91,7 @@ ServerEvents.recipes(event => {
         },
         sequence: [
             {
+                keepHeldItem: true,
                 type: 'create:deploying',
                 ingredients: [
                     { item: 'createappliedkinetics:incomplete_silicon_press' },
@@ -115,6 +129,7 @@ ServerEvents.recipes(event => {
         },
         sequence: [
             {
+                "keepHeldItem": true,
                 type: 'create:deploying',
                 ingredients: [
                     { item: 'createappliedkinetics:incomplete_silicon_press' },
@@ -126,6 +141,7 @@ ServerEvents.recipes(event => {
             },
             {
                 type: 'create:deploying',
+                "keepHeldItem": true,
                 ingredients: [
                     { item: 'createappliedkinetics:incomplete_silicon_press' },
                     { item: 'ae2:logic_processor_press' }

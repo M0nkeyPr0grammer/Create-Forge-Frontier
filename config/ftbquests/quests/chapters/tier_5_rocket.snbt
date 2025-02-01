@@ -1,4 +1,5 @@
 {
+	autofocus_id: "7FEE2D38BA934C28"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "tier_5_rocket"
@@ -13,10 +14,10 @@
 		{
 			click: "#7FEE2D38BA934C28"
 			height: 15.0d
-			hover: ["Tier 5 Rocket"]
+			hover: ["Tier 5 Rocket, Click image for more info!"]
 			image: "ftb:textures/tier_5.png"
 			rotation: 0.0d
-			width: 8.1d
+			width: 8.131392604248623d
 			x: 0.0d
 			y: 0.0d
 		}
@@ -427,11 +428,26 @@
 			dependencies: ["295043FECADFDBA3"]
 			description: [
 				"Prepare for the darkest, most enigmatic adventure yet with the Tier 5 Rocket! After conquering the End Dimension, you’re ready to launch into the unknown, accessing three mysterious Alex Caves Planets: Forlorn Hollows, Abyssal Chasm, and Primordial Caves. Each planet harbors its own haunting secrets, and more detailed information about them can be found in the Planet Progression Quests."
-				""
+				"{@pagebreak}"
 				"Descend into Forlorn Hollows, a pitch-black landscape of Guanostone, where malevolent forces lurk and eerie whispers echo through the darkness. Venture further to the submerged Abyssal Chasm, an oceanic abyss lined with strange ruins and home to the elusive Deep Ones. Finally, step into Primordial Caves, an ancient, glowing world full of massive flora and remnants of life untouched by time. Each planet holds unique resources and rare ores, waiting for those bold enough to unlock their secrets. Prepare for a journey into these dark, foreboding worlds—are you ready for the next level of exploration?"
 			]
 			hide_dependent_lines: true
 			id: "7FEE2D38BA934C28"
+			rewards: [
+				{
+					id: "1F324EED60D626ED"
+					item: "enlightened_end:malachite_block"
+					type: "item"
+				}
+				{
+					id: "23F609D85785CBB7"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Click me for more info!"
 			tasks: [{
 				id: "2170AFD35D97E49E"
 				title: "Tier 5 Rocket"

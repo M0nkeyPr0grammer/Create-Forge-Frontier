@@ -1,0 +1,20 @@
+{
+    "modId": "collectorsreap",
+    "group": {
+      "name": "Collectors Reap Fungi",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:emerald",
+        "count": 1
+      },
+      "defaultCategory": "mushrooms"
+    },
+    "customEntries": [
+      {
+        "output": "collectorsreap:portobello_colony"
+      },
+      {
+        "output": "collectorsreap:portobello"
+      }
+    ]
+}

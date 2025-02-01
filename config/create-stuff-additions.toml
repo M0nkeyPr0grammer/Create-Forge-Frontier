@@ -1,0 +1,34 @@
+
+["Jetpack Height Restriction"]
+	brassJetpackMaxHeight = 30.0
+	andesiteJetpackMaxHeight = 25.0
+	copperJetpackMaxHeight = 20.0
+	netheriteJetpackMaxHeight = 50.0
+	enableAboveCloudEnchant = false
+
+["Jetpack/Grapplin Speed"]
+	brassJetpackSpeed = 0.15
+	andesiteJetpackSpeed = 0.1
+	copperJetpackSpeed = 0.05
+	netheriteJetpackSpeed = 0.2
+	grapplinWhiskSpeed = 0.2
+
+["Fuel/Water Capacity"]
+	gadgetCapacity = 2000.0
+	smallTankCapacity = 1000.0
+	mediumTankCapacity = 2000.0
+	largeTankCapacity = 4000.0
+
+[Enchantments]
+	enableDiggingEnchant = true
+	enableImpactEnchant = true
+	enableGravityGunEnchant = true
+	enableHellfireEnchant = true
+
+["Drone Module"]
+	enableDrillDroneModule = true
+	enableFanDroneModule = true
+	enableMagnetDroneModule = true
+	enableVaultDroneModule = true
+	MagnetModuleBlockLimitation = false
+

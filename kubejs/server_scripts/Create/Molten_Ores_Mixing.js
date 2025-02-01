@@ -1535,7 +1535,7 @@ ServerEvents.recipes(event => {
             results: [
                 {
                     fluid: 'forge_frontier:molten_ice_shard',
-                    amount: 200
+                    amount: 100
                 }
             ],
             heatRequirement: "superheated"

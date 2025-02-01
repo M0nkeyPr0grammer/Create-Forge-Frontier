@@ -13,8 +13,6 @@ ServerEvents.recipes(event => {
 	event.remove({ id: 'explorerscompass:explorers_compass' })
 	event.remove({ id: 'cagedmobs:crafting/hopping_mob_cage'})
 	event.remove({ id: 'cagedmobs:crafting/mob_cage'})
-	event.remove({ id: 'create_power_loader:crafting/empty_andesite_chunk_loader'})
-	event.remove({ id: 'create_power_loader:crafting/empty_brass_chunk_loader'})
 	event.remove({ id: 'create_dd:crafting/coal_piece_from_decompacting'})
 	event.remove({ id: 'create_dd:crafting/coal_piece_compacting'})
 	event.remove({ id: 'createteleporters:quantum_fluid_recipe'})
@@ -24,6 +22,57 @@ ServerEvents.recipes(event => {
 	event.remove({ id: 'create_oppenheimered/compacting/amber_from_honey'})
 	event.remove({ id: 'create_dd:superheating/netherite_scrap'})
 	event.remove({ id: 'create_additions_synthetics:tank_conversion' })
+
+	// Disenchanting Table Recipe
+	event.remove({ id: 'disenchanting_table:disenchanting_table'})
+	event.custom({
+		type: "apotheosis:enchanting",
+		input: {
+		  item: "minecraft:enchanting_table"
+		},
+		requirements: {
+		  eterna: 30,
+		  quanta: 15,
+		  arcana: 20,
+		  rectifaction: 0
+		},
+		"max_requirements": {
+		  eterna: 30,
+		  quanta: -1,
+		  arcana: 25,
+		  rectifaction: -1
+		},
+		result: {
+		  item: "disenchanting_table:disenchanting_table",
+		  count: 1
+		}
+	  }).id('forge_frontier:enchanting/disenchanting_table')   		
+
+	// Banana Slime to Slime Recipe
+	event.custom({
+		type:'minecraft:crafting_shapeless',
+		ingredients: [
+			{
+				item: 'alexsmobs:banana_slug_slime'
+			}
+		],
+		result: {
+			item: 'minecraft:slime_ball'
+		}
+	}).id( 'forge_frontier:shapeless/banana_slime')
+
+	// Ferrous Slime to Slime Recipe
+	event.custom({
+		type:'minecraft:crafting_shapeless',
+		ingredients: [
+			{
+				item: 'alexscaves:ferrouslime_ball'
+			}
+		],
+		result: {
+			item: 'minecraft:slime_ball'
+		}
+	}).id( 'forge_frontier:shapeless/ferrous_slime')
 
 	// Rotten Flesh to Leather
 	event.custom({
@@ -350,8 +399,7 @@ ServerEvents.recipes(event => {
         ],
         processingTime: 400,
         results: [
-            { item: 'minecraft:netherite_scrap', count: 4 },
-			{ item: 'minecraft:netherite_scrap', chance: 0.10}
+            { item: 'minecraft:netherite_scrap', count: 4 }
         ],
     }).id('forge_frontier:crushing/netherite');
 
@@ -407,68 +455,6 @@ ServerEvents.recipes(event => {
 		  }
 
 	}).id( 'forge_frontier:shapeless/coal_piece_coal' )
-
-	// Creates Empty Andesite Chunk Loader
-	event.custom({
-		type: 'create:mechanical_crafting',
-		pattern: [
-			'AAA',
-			'ABA',
-			'CDC'
-		],
-		key: {
-			A: Ingredient.of('createcompression:compressed_glass_3x').toJson(),
-			B: Ingredient.of('advancednetherite:netherite_diamond_block').toJson(),
-			C: Ingredient.of('create:andesite_casing').toJson(),
-			D: Ingredient.of('create_compressed:shaft_bundle').toJson()
-		},
-		result: Ingredient.of('create_power_loader:empty_andesite_chunk_loader').toJson(),
-		acceptMirrored: false
-	}).id('forge_frontier:mechancial_crafting/empty_andesite_chunk_loader');
-
-	// Creates Empty Brass Chunk Loader
-	event.custom({
-		type: 'create:mechanical_crafting',
-		pattern: [
-			'AAAAA',
-			'A F A',
-			'A B A',
-			'CDDDC',
-			'CCECC'
-		],
-		key: {
-			A: Ingredient.of('createcompression:compressed_glass_1x').toJson(),
-			B: Ingredient.of('create_power_loader:empty_andesite_chunk_loader').toJson(),
-			C: Ingredient.of('create:brass_casing').toJson(),
-			D: Ingredient.of('create_compressed:mechanism_block').toJson(),
-			E: Ingredient.of('create_compressed:shaft_bundle').toJson(),
-			F: Ingredient.of('advancednetherite:netherite_diamond_block').toJson()
-		},
-		result: Ingredient.of('create_power_loader:empty_brass_chunk_loader').toJson(),
-		acceptMirrored: false
-	}).id('forge_frontier:mechancial_crafting/empty_brass_chunk_loader');
-
-		// Creates Brass Chunk Loader
-		event.custom({
-			type: 'create:mechanical_crafting',
-			pattern: [
-				'AAAAA',
-				'A F A',
-				'A B A',
-				'CDDDC',
-				'CCECC'
-			],
-			key: {
-				A: Ingredient.of('createcompression:compressed_glass_1x').toJson(),
-				B: Ingredient.of('create_power_loader:andesite_chunk_loader').toJson(),
-				C: Ingredient.of('create:brass_casing').toJson(),
-				D: Ingredient.of('create_compressed:mechanism_block').toJson(),
-				E: Ingredient.of('create_compressed:shaft_bundle').toJson(),
-				F: Ingredient.of('advancednetherite:netherite_diamond_block').toJson()
-			},
-			result: Ingredient.of('create_power_loader:brass_chunk_loader').toJson(),
-			acceptMirrored: false
-		}).id('forge_frontier:mechancial_crafting/brass_chunk_loader');
 
 	// Creates Ash Recipe
 	event.custom({

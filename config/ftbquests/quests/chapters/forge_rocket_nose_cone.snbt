@@ -10,7 +10,7 @@
 			height: 2.0d
 			image: "ftb:textures/_forge_frontier_mechanical_crafting_forge_rocket_nose_cone.png"
 			rotation: 0.0d
-			width: 2.74d
+			width: 3.075d
 			x: -0.5d
 			y: -2.0d
 		}
@@ -21,6 +21,14 @@
 			width: 15.0d
 			x: 0.0d
 			y: -9.5d
+		}
+		{
+			height: 1.0d
+			image: "ad_astra:textures/gui/sprites/arrow.png"
+			rotation: 0.0d
+			width: 1.6666666666666667d
+			x: 3.5d
+			y: -6.0d
 		}
 	]
 	order_index: 1
@@ -488,7 +496,6 @@
 			]
 			description: [""]
 			hide_dependency_lines: true
-			hide_dependent_lines: true
 			id: "1A5DCF6D665473DB"
 			subtitle: "The pointed tip of the Forge Rocket, designed for aerodynamic stability and smoother entry through atmospheres. Essential for completing the rocket build. "
 			tasks: [{

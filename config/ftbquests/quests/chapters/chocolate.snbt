@@ -1,4 +1,5 @@
 {
+	autofocus_id: "38225B75D972BB4C"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "chocolate"
@@ -16,57 +17,115 @@
 		}
 		{
 			height: 2.5d
+			hover: ["White Chocolate"]
 			image: "create_confectionery:item/bar_of_white_chocolate"
 			rotation: 0.0d
 			width: 2.5d
-			x: -6.5d
+			x: -7.0d
 			y: -2.0d
 		}
 		{
 			height: 2.5d
+			hover: ["Dark Chocolate"]
 			image: "create_confectionery:item/bar_of_black_chocolate"
 			rotation: 0.0d
 			width: 2.5d
-			x: -2.0d
+			x: -2.5d
 			y: -2.0d
 		}
 		{
 			height: 2.5d
+			hover: ["Hot Chocolate"]
 			image: "farmersdelight:item/hot_cocoa"
 			rotation: 0.0d
 			width: 2.5d
-			x: 7.5d
+			x: 12.5d
 			y: -2.0d
 		}
 		{
 			height: 2.5d
+			hover: ["Ruby Chocolate"]
 			image: "create_confectionery:item/bar_of_ruby_chocolate"
 			rotation: 0.0d
 			width: 2.5d
-			x: 3.0d
+			x: 2.0d
 			y: -2.0d
 		}
 		{
-			height: 10.0d
-			image: "ftb:textures/coming_soon.png"
+			height: 2.5d
+			hover: ["Chocolate"]
+			image: "create:item/bar_of_chocolate"
 			rotation: 0.0d
-			width: 15.0d
-			x: 0.0d
-			y: 8.0d
+			width: 2.5d
+			x: -11.0d
+			y: -2.0d
+		}
+		{
+			height: 3.0d
+			image: "ftb:textures/mechanical_mixer.png"
+			order: 2
+			rotation: 0.0d
+			width: 3.0d
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			height: 2.5d
+			image: "ftb:textures/basin.png"
+			order: 1
+			rotation: 0.0d
+			width: 2.5d
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "ad_astra:textures/gui/sprites/arrow.png"
+			rotation: 180.0d
+			width: 1.6666666666666667d
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "ad_astra:textures/gui/sprites/arrow.png"
+			rotation: 0.0d
+			width: 1.6666666666666667d
+			x: 10.0d
+			y: 0.5d
+		}
+		{
+			height: 2.5d
+			image: "ftb:textures/blaze_burner_heated.png"
+			rotation: 0.0d
+			width: 2.4d
+			x: 7.5d
+			y: 3.0d
 		}
 	]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
+			description: [
+				"In this pack, you'll harness the richness of the chocolates listed below to generate various orestones, either through Molten Vents or Mechanical Extruders. To get started, consult the crafting guide for step-by-step instructions on crafting these delicious chocolates and unlocking their full potential! Click here to learn more about:"
+				"{ \"text\": \"Molten Vents\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7AC47553B491EE76\" } }                                               "
+			]
+			hide_dependent_lines: true
 			icon: "create:bar_of_chocolate"
 			id: "38225B75D972BB4C"
+			rewards: [{
+				id: "6AE3415C1C1EDA89"
+				type: "xp"
+				xp: 25
+			}]
 			shape: "gear"
 			size: 3.0d
+			subtitle: "Chocolate, the key to resources, Click me for more info!"
 			tasks: [{
-				id: "361BB876B192DE52"
-				title: "Check"
-				type: "checkmark"
+				id: "3C9FA69A15C95171"
+				item: "minecraft:cocoa_beans"
+				type: "item"
 			}]
 			title: "Create Confectionery Chocolates"
 			x: 0.0d
@@ -78,14 +137,23 @@
 				"321D7F5DEE37D59F"
 				"1882C5090A305993"
 			]
+			description: [
+				"The White Chocolate is later used in automating Emeralds via a"
+				"{ \"text\": \"Verdantine Molten Vent\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3B0C428AB2EDDA57\" } }"
+			]
 			id: "31FBC673B1E527F6"
-			subtitle: "Obtained by heated mixing the below ingredients"
+			rewards: [{
+				id: "24270ACD10326936"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			subtitle: "Obtained by heated mixing the below ingredients, Click me for more info!"
 			tasks: [{
 				id: "65741235B128968B"
 				item: "create_confectionery:white_chocolate_bucket"
 				type: "item"
 			}]
-			x: -6.5d
+			x: -7.0d
 			y: 0.0d
 		}
 		{
@@ -98,7 +166,7 @@
 				item: { Count: 4, id: "minecraft:sugar" }
 				type: "item"
 			}]
-			x: -7.5d
+			x: -8.0d
 			y: 1.5d
 		}
 		{
@@ -111,11 +179,11 @@
 				item: { Count: 4, id: "create_confectionery:cocoa_butter" }
 				type: "item"
 			}]
-			x: -6.5d
+			x: -7.0d
 			y: 1.5d
 		}
 		{
-			dependencies: ["3B0C428AB2EDDA57"]
+			dependencies: ["38225B75D972BB4C"]
 			id: "1882C5090A305993"
 			subtitle: "Obtained by milking a cow"
 			tasks: [{
@@ -123,11 +191,11 @@
 				item: "minecraft:milk_bucket"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -6.0d
 			y: 1.5d
 		}
 		{
-			dependencies: ["3B0C428AB2EDDA57"]
+			dependencies: ["38225B75D972BB4C"]
 			id: "5F6FEC2217EC3794"
 			tasks: [{
 				count: 4L
@@ -135,8 +203,8 @@
 				item: { Count: 4, id: "minecraft:sugar_cane" }
 				type: "item"
 			}]
-			x: -7.5d
-			y: 3.0d
+			x: -8.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["01919AA59F357552"]
@@ -148,11 +216,11 @@
 				item: { Count: 6, id: "create_confectionery:crushed_cocoa" }
 				type: "item"
 			}]
-			x: -6.5d
+			x: -7.0d
 			y: 3.0d
 		}
 		{
-			dependencies: ["3B0C428AB2EDDA57"]
+			dependencies: ["38225B75D972BB4C"]
 			id: "01919AA59F357552"
 			subtitle: "Obtained from Cocoa Plants"
 			tasks: [{
@@ -161,7 +229,7 @@
 				item: { Count: 6, id: "minecraft:cocoa_beans" }
 				type: "item"
 			}]
-			x: -6.5d
+			x: -7.0d
 			y: 4.5d
 		}
 		{
@@ -171,14 +239,23 @@
 				"3482F5B63380ADCE"
 				"411D95873BF6DD66"
 			]
+			description: [
+				"The Dark Chocolate is later used in automating Diamond via a"
+				"{ \"text\": \"Glacium Molten Vent\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"648ADE5DD685988B\" } }"
+			]
 			id: "13576F3698C89AE7"
-			subtitle: "Obtained by heated mixing the below ingredients"
+			rewards: [{
+				id: "66780161B73FB2A6"
+				item: "minecraft:diamond_block"
+				type: "item"
+			}]
+			subtitle: "Obtained by heated mixing the below ingredients, Click me for more info!"
 			tasks: [{
 				id: "6186A451E1089054"
 				item: "create_confectionery:black_chocolate_bucket"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -2.5d
 			y: 0.0d
 		}
 		{
@@ -191,7 +268,7 @@
 				item: { Count: 4, id: "minecraft:sugar" }
 				type: "item"
 			}]
-			x: -3.5d
+			x: -4.0d
 			y: 1.5d
 		}
 		{
@@ -204,11 +281,11 @@
 				item: { Count: 4, id: "create_confectionery:cocoa_butter" }
 				type: "item"
 			}]
-			x: -2.5d
+			x: -3.0d
 			y: 1.5d
 		}
 		{
-			dependencies: ["7EB3EB70EF62C537"]
+			dependencies: ["38225B75D972BB4C"]
 			id: "05FC14F6359165C8"
 			subtitle: "Obtained by milking a cow"
 			tasks: [{
@@ -216,11 +293,11 @@
 				item: "minecraft:milk_bucket"
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.0d
 			y: 1.5d
 		}
 		{
-			dependencies: ["7EB3EB70EF62C537"]
+			dependencies: ["38225B75D972BB4C"]
 			id: "7FDFA8724588229E"
 			tasks: [{
 				count: 4L
@@ -228,8 +305,8 @@
 				item: { Count: 4, id: "minecraft:sugar_cane" }
 				type: "item"
 			}]
-			x: -3.5d
-			y: 3.0d
+			x: -4.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["7CB3891A82CE160F"]
@@ -241,11 +318,11 @@
 				item: { Count: 6, id: "create_confectionery:crushed_cocoa" }
 				type: "item"
 			}]
-			x: -2.5d
+			x: -3.0d
 			y: 3.0d
 		}
 		{
-			dependencies: ["7EB3EB70EF62C537"]
+			dependencies: ["38225B75D972BB4C"]
 			id: "7CB3891A82CE160F"
 			subtitle: "Obtained from Cocoa Plants"
 			tasks: [{
@@ -254,19 +331,28 @@
 				item: { Count: 14, id: "minecraft:cocoa_beans" }
 				type: "item"
 			}]
-			x: -1.5d
+			x: -2.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["0E013AB8D0047A3B"]
+			description: [
+				"The Hot Chocolate is later used in automating Coal and Cinder Flour via a"
+				"{ \"text\": \"Scorchia Molten Vent\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2F2166D0D6AE208F\" } }"
+			]
 			id: "1D40BCB5E0BF8836"
-			subtitle: "Obtained by heated mixing the below ingredients"
+			rewards: [{
+				id: "62BF313BF50E33DD"
+				item: "minecraft:coal_block"
+				type: "item"
+			}]
+			subtitle: "Obtained by heated mixing the below ingredients, Click me for more info!"
 			tasks: [{
 				id: "3FDD02F8681243AF"
 				item: "create_dd:hot_chocolate_bucket"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 12.5d
 			y: 0.0d
 		}
 		{
@@ -282,7 +368,7 @@
 				item: "create:chocolate_bucket"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 12.5d
 			y: 1.5d
 		}
 		{
@@ -295,11 +381,11 @@
 				item: { Count: 4, id: "minecraft:sugar" }
 				type: "item"
 			}]
-			x: 6.5d
+			x: 11.5d
 			y: 3.0d
 		}
 		{
-			dependencies: ["2F2166D0D6AE208F"]
+			dependencies: ["38225B75D972BB4C"]
 			id: "21BB70EE0088233C"
 			subtitle: "Obtained by milking a cow"
 			tasks: [{
@@ -307,11 +393,11 @@
 				item: "minecraft:milk_bucket"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 12.5d
 			y: 3.0d
 		}
 		{
-			dependencies: ["2F2166D0D6AE208F"]
+			dependencies: ["38225B75D972BB4C"]
 			id: "268E27C059E316AD"
 			subtitle: "Obtained from Cocoa Plants"
 			tasks: [{
@@ -320,11 +406,11 @@
 				item: "minecraft:cocoa_beans"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 13.5d
 			y: 3.0d
 		}
 		{
-			dependencies: ["2F2166D0D6AE208F"]
+			dependencies: ["38225B75D972BB4C"]
 			id: "36FEEB9ADC09104A"
 			tasks: [{
 				count: 4L
@@ -332,7 +418,7 @@
 				item: { Count: 4, id: "minecraft:sugar_cane" }
 				type: "item"
 			}]
-			x: 7.5d
+			x: 11.5d
 			y: 4.5d
 		}
 		{
@@ -342,14 +428,23 @@
 				"4FC803845778C5AF"
 				"72D92B8CE8FCB7C7"
 			]
+			description: [
+				"The Ruby Chocolate is later used in automating End Ores via the"
+				"{ \"text\": \"End Molten Vents\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"15DD51BFD4480F8D\" } }"
+			]
 			id: "17559ED0B5B300D9"
-			subtitle: "Obtained by heated mixing the below ingredients"
+			rewards: [{
+				id: "3FC8DA31FE49E3B3"
+				item: "endertrigon:baby_dragon_egg"
+				type: "item"
+			}]
+			subtitle: "Obtained by heated mixing the below ingredients, Click me for more info!"
 			tasks: [{
 				id: "2D4599EE7E6BF3E8"
 				item: "create_confectionery:ruby_chocolate_bucket"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.0d
 			y: 0.0d
 		}
 		{
@@ -362,11 +457,11 @@
 				item: { Count: 4, id: "minecraft:sugar" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 0.5d
 			y: 1.5d
 		}
 		{
-			dependencies: ["3E23818C313CE507"]
+			dependencies: ["38225B75D972BB4C"]
 			id: "52CCEFD4ED1E5AA5"
 			tasks: [{
 				count: 4L
@@ -374,11 +469,11 @@
 				item: { Count: 4, id: "minecraft:dragon_breath" }
 				type: "item"
 			}]
-			x: 2.5d
+			x: 1.5d
 			y: 1.5d
 		}
 		{
-			dependencies: ["3E23818C313CE507"]
+			dependencies: ["38225B75D972BB4C"]
 			id: "72D92B8CE8FCB7C7"
 			subtitle: "Obtained from Cocoa Plants"
 			tasks: [{
@@ -387,11 +482,11 @@
 				item: { Count: 4, id: "minecraft:cocoa_beans" }
 				type: "item"
 			}]
-			x: 3.5d
+			x: 2.5d
 			y: 1.5d
 		}
 		{
-			dependencies: ["3E23818C313CE507"]
+			dependencies: ["38225B75D972BB4C"]
 			id: "4FC803845778C5AF"
 			subtitle: "Obtained by milking a cow"
 			tasks: [{
@@ -399,11 +494,11 @@
 				item: "minecraft:milk_bucket"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 3.5d
 			y: 1.5d
 		}
 		{
-			dependencies: ["3E23818C313CE507"]
+			dependencies: ["38225B75D972BB4C"]
 			id: "0A15AC902D61B3E9"
 			tasks: [{
 				count: 4L
@@ -411,8 +506,77 @@
 				item: { Count: 4, id: "minecraft:sugar_cane" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 3.0d
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"7A6EB15ABEBA07A6"
+				"590FB1311A0270D4"
+				"7897AA76B7C39A3E"
+			]
+			description: ["The Chocolate is later used in the making many different foods and blocks"]
+			id: "08B39783F0EC6407"
+			rewards: [{
+				id: "7D31000944A801BB"
+				item: "createaddition:chocolate_cake"
+				type: "item"
+			}]
+			subtitle: "Obtained by heated mixing the below ingredients, Click me for more info!"
+			tasks: [{
+				id: "549E36F7E5A30AE5"
+				item: "create:chocolate_bucket"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1D0AACAE126C196B"]
+			id: "7A6EB15ABEBA07A6"
+			tasks: [{
+				count: 4L
+				id: "3268DCD081F1B741"
+				item: "minecraft:sugar"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["38225B75D972BB4C"]
+			id: "7897AA76B7C39A3E"
+			tasks: [{
+				count: 4L
+				id: "2B91BB207EA233DC"
+				item: "minecraft:cocoa_beans"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["38225B75D972BB4C"]
+			id: "590FB1311A0270D4"
+			tasks: [{
+				id: "4A91588B845C79D9"
+				item: "minecraft:milk_bucket"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["38225B75D972BB4C"]
+			id: "1D0AACAE126C196B"
+			tasks: [{
+				count: 4L
+				id: "19E250462BCD79C0"
+				item: { Count: 4, id: "minecraft:sugar_cane" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 4.5d
 		}
 	]
 	title: "Chocolates"

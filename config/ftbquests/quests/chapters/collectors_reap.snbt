@@ -27,13 +27,15 @@
 	quest_links: [ ]
 	quests: [{
 		id: "2461846C5B288CF4"
+		shape: "gear"
+		size: 3.0d
 		tasks: [{
 			id: "229A721AB3EC6B32"
 			item: "collectorsreap:pomegranate_slice"
 			type: "item"
 		}]
 		x: 0.0d
-		y: -3.5d
+		y: -6.5d
 	}]
 	title: "Collector's Reap"
 }

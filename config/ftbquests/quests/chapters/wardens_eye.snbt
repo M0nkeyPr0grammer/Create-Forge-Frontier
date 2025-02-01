@@ -1,4 +1,5 @@
 {
+	autofocus_id: "4EC3592C15DE2599"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "wardens_eye"
@@ -28,7 +29,7 @@
 			hover: ["Ancient City Center"]
 			image: "ftb:textures/ancientcity.png"
 			rotation: 0.0d
-			width: 4.8d
+			width: 4.842738205365402d
 			x: 6.5d
 			y: -2.5d
 		}
@@ -56,7 +57,9 @@
 				"72C5251232D5B5BF"
 				"41DE00CAFE8A0BC3"
 			]
+			description: ["Crafted Using Mechanical Crafters"]
 			id: "4EC3592C15DE2599"
+			subtitle: "Taken from the Warden centuries ago, this eye burns with sorrow. Its absence leaves the creature wandering blindly through eternal darkness. Click me for more info! "
 			tasks: [{
 				id: "1A41B2123DF89C68"
 				item: {
@@ -74,6 +77,19 @@
 		{
 			dependencies: ["47E6547A4F973D98"]
 			id: "3CFBF1C3EF684129"
+			rewards: [
+				{
+					count: 8
+					id: "0BF06A35E4640D9A"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+				{
+					id: "5547783A615BEC1F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 			tasks: [{
 				entity: "minecraft:warden"
 				id: "03CEEBB2C92E7962"

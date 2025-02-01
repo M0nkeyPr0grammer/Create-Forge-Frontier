@@ -1,4 +1,5 @@
 {
+	autofocus_id: "13FE50BC5ED7CC02"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "cold_eye"
@@ -18,7 +19,7 @@
 			hover: ["AE2: Meteor"]
 			image: "ftb:textures/meteor.png"
 			rotation: 0.0d
-			width: 11.2d
+			width: 11.20026525198939d
 			x: 0.0d
 			y: -4.5d
 		}
@@ -28,7 +29,7 @@
 			hover: ["Cataclysm: Maledictus"]
 			image: "ftb:textures/male.png"
 			rotation: 0.0d
-			width: 10.25d
+			width: 10.268256333830104d
 			x: -9.0d
 			y: 3.5d
 		}
@@ -38,7 +39,7 @@
 			hover: ["Cataclysm: Frosted Prison"]
 			image: "ftb:textures/prison.png"
 			rotation: 0.0d
-			width: 5.6d
+			width: 5.6153250773993815d
 			x: 7.0d
 			y: 3.5d
 		}
@@ -66,7 +67,21 @@
 				"3B3BBF4DF36E94F5"
 				"1F7976ADA8F4F14F"
 			]
+			description: ["Crafted using Mechanical Crafters"]
 			id: "13FE50BC5ED7CC02"
+			rewards: [
+				{
+					id: "51B19CD7B92F8D8D"
+					item: "cataclysm:the_annihilator"
+					type: "item"
+				}
+				{
+					id: "045A73D8D6759E70"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Left behind by the elusive Iceologers, this eye holds the last whispers of their frozen magic. It radiates the chill of their vanished realm. Click me for more info! "
 			tasks: [{
 				id: "13DC5B50F38C2683"
 				item: {

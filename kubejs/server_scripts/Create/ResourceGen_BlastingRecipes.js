@@ -5,7 +5,7 @@ ServerEvents.recipes(event => {
         { name: 'crushed_verdantine', input: 'forge_frontier:crushed_verdantine', result: 'minecraft:emerald' },
         { name: 'crushed_glacium', input: 'forge_frontier:crushed_glacium', result: 'minecraft:diamond' },
         { name: 'crushed_debris', input: 'forge_frontier:crushed_debris', result: 'minecraft:netherite_scrap' },
-        { name: 'crushed_grime', input: 'forge_frontier:crushed_grime', result: 'minecraft:echo_shard'},
+        { name: 'crushed_resonite', input: 'forge_frontier:crushed_resonite', result: 'minecraft:echo_shard'},
         { name: 'crushed_aubrum', input: 'forge_frontier:crushed_aubrum', result: 'ad_astra:desh_ingot' },
         { name: 'crushed_pyroclast', input: 'forge_frontier:crushed_pyroclast', result: 'ad_astra:calorite_ingot' },
         { name: 'crushed_frostite', input: 'forge_frontier:crushed_frostite', result: 'ad_astra:ice_shard' },

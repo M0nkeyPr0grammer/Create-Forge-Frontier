@@ -1,4 +1,5 @@
 {
+	autofocus_id: "3052DCEA1C676846"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "nether_eye"
@@ -18,7 +19,7 @@
 			hover: ["Incendium: Quartz Kitchen"]
 			image: "ftb:textures/kitchen.png"
 			rotation: 0.0d
-			width: 8.2d
+			width: 8.218984962406015d
 			x: 8.5d
 			y: 3.5d
 		}
@@ -28,7 +29,7 @@
 			hover: ["Hopo: Piglin Ruin"]
 			image: "ftb:textures/piglin_ruin.png"
 			rotation: 0.0d
-			width: 4.55d
+			width: 4.595170454545455d
 			x: -6.5d
 			y: 3.5d
 		}
@@ -38,7 +39,7 @@
 			hover: ["IDAS: Nether Ancient Portal"]
 			image: "ftb:textures/nether_portal.png"
 			rotation: 0.0d
-			width: 7.2d
+			width: 7.2314410480349345d
 			x: 0.0d
 			y: -4.5d
 		}
@@ -66,7 +67,21 @@
 				"3E7F8F12A1F87209"
 				"1DD476F323AF9D27"
 			]
+			description: ["Crafted Using Mechanical Crafters"]
 			id: "3052DCEA1C676846"
+			rewards: [
+				{
+					id: "7C4C0D8889D3FEB5"
+					item: "createcompression:compressed_netherite_1x"
+					type: "item"
+				}
+				{
+					id: "680A977452CA14B0"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Cast aside in the fiery battle between the Aether and the Nether, this eye pulses with the wrath of a demon. It smolders with unrelenting power. Click me for more info! "
 			tasks: [{
 				id: "2527A5E2E5B3009A"
 				item: {

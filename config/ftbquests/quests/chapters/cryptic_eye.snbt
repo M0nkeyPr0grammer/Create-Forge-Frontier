@@ -1,4 +1,5 @@
 {
+	autofocus_id: "73CBB1994EFB12FD"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "cryptic_eye"
@@ -18,7 +19,7 @@
 			hover: ["Cryptic Eye Enchanting Example"]
 			image: "ftb:textures/cryptic.png"
 			rotation: 0.0d
-			width: 12.25d
+			width: 12.270381836945305d
 			x: 0.0d
 			y: -5.5d
 		}
@@ -36,7 +37,22 @@
 	quests: [
 		{
 			dependencies: ["2D0E8558F4601424"]
+			description: ["Obtained by Enchanting"]
 			id: "73CBB1994EFB12FD"
+			rewards: [
+				{
+					count: 12
+					id: "0EB30D239B8DC03D"
+					item: "create_enchantment_industry:hyper_experience_bottle"
+					type: "item"
+				}
+				{
+					id: "54608EC917AFA9C2"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Shrouded in enigmatic energy, this eye whispers secrets of a forgotten age. Its gaze sees beyond the veil, unraveling truths that were never meant to be known. Click me for more info! "
 			tasks: [{
 				id: "397860F5506A9964"
 				item: {

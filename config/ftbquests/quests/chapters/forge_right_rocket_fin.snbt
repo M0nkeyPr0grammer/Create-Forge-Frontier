@@ -10,7 +10,7 @@
 			height: 2.0d
 			image: "ftb:textures/_forge_frontier_mechanical_crafting_forge_rocket_fin_right.png"
 			rotation: 0.0d
-			width: 3.2d
+			width: 2.9195402298850577d
 			x: 0.0d
 			y: -3.0d
 		}
@@ -21,6 +21,14 @@
 			width: 15.0d
 			x: 0.0d
 			y: -9.5d
+		}
+		{
+			height: 1.0d
+			image: "ad_astra:textures/gui/sprites/arrow.png"
+			rotation: 0.0d
+			width: 1.6666666666666667d
+			x: 3.0d
+			y: -6.0d
 		}
 	]
 	order_index: 8

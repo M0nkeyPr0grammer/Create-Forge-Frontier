@@ -1,4 +1,5 @@
 {
+	autofocus_id: "088C2263FA4E3A27"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "tier_4_rocket"
@@ -13,10 +14,10 @@
 		{
 			click: "#088C2263FA4E3A27"
 			height: 15.0d
-			hover: ["Tier 4 Rocket"]
+			hover: ["Tier 4 Rocket, Click image for more info!"]
 			image: "ftb:textures/tier_4.png"
 			rotation: 0.0d
-			width: 9.0d
+			width: 8.206018518518519d
 			x: 0.0d
 			y: 0.0d
 		}
@@ -416,12 +417,24 @@
 		}
 		{
 			dependencies: ["47347DFDCAF3A384"]
-			description: [
-				""
-				"Prepare for the ultimate icy adventure with the Tier 4 Rocket! This powerful vessel is your gateway to Glacio, a frozen world teeming with wonders. Strap in and ignite the engines as you launch toward a planet blanketed in snow and mystery. Touch down on Glacio and explore its expansive landscape, filled with ancient structures, valuable loot, and rare AE2 meteorites that hide technological secrets. Brave the cold to mine for Ice Shard Ore, and search for the elusive Frostite Molten Ore Vents, which can be processed into valuable ice shards and pure ice. Glacio promises riches and hidden knowledge for the bold—are you ready to dive into this frosty frontier?"
-			]
+			description: ["Prepare for the ultimate icy adventure with the Tier 4 Rocket! This powerful vessel is your gateway to Glacio, a frozen world teeming with wonders. Strap in and ignite the engines as you launch toward a planet blanketed in snow and mystery. Touch down on Glacio and explore its expansive landscape, filled with ancient structures, valuable loot, and rare AE2 meteorites that hide technological secrets. Brave the cold to mine for Ice Shard Ore, and search for the elusive Frostite Molten Ore Vents, which can be processed into valuable ice shards and pure ice. Glacio promises riches and hidden knowledge for the bold—are you ready to dive into this frosty frontier?"]
 			hide_dependent_lines: true
 			id: "088C2263FA4E3A27"
+			rewards: [
+				{
+					id: "1FA64A0057541C0A"
+					item: "ad_astra:calorite_block"
+					type: "item"
+				}
+				{
+					id: "73A33162EC43E780"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Click me for more info!"
 			tasks: [{
 				id: "4879253DA4AEEF16"
 				title: "Tier 4 Rocket"

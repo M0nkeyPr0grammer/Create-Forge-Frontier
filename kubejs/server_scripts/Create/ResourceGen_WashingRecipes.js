@@ -27,8 +27,8 @@ ServerEvents.recipes(event => {
             ]
         },
         {
-            name: 'crushed_grime',
-            input: 'forge_frontier:crushed_grime',
+            name: 'crushed_resonite',
+            input: 'forge_frontier:crushed_resonite',
             results: [
                 { chance: 0.15, item: 'minecraft:echo_shard' },
                 { chance: 0.02, item: 'deeperdarker:warden_carapace' }

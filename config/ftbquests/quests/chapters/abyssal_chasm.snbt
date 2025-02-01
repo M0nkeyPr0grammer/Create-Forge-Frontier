@@ -27,6 +27,8 @@
 	quest_links: [ ]
 	quests: [{
 		id: "308B363D1029D44E"
+		shape: "gear"
+		size: 3.0d
 		tasks: [{
 			dimension: "forge_frontier:abyssal_chasm"
 			icon: "alexscaves:submarine"
@@ -34,7 +36,7 @@
 			type: "dimension"
 		}]
 		x: 0.0d
-		y: -5.0d
+		y: -6.5d
 	}]
 	title: "Abyssal Chasm"
 }

@@ -27,6 +27,8 @@
 	quest_links: [ ]
 	quests: [{
 		id: "008E338B9FA40999"
+		shape: "gear"
+		size: 3.0d
 		tasks: [{
 			id: "1CC7C835D71D7FBF"
 			structure: "betterwitchhuts:witch_hut"

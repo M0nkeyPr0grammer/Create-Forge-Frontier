@@ -27,13 +27,15 @@
 	quest_links: [ ]
 	quests: [{
 		id: "7A0AA0B019DD2B6C"
+		shape: "gear"
+		size: 3.0d
 		tasks: [{
 			id: "1C5083EE7D61952B"
 			structure: "create_easy_structures:big_1"
 			type: "structure"
 		}]
 		x: 0.0d
-		y: -6.0d
+		y: -6.5d
 	}]
 	title: "Create Easy Structures"
 }

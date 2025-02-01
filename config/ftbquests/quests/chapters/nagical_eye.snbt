@@ -1,4 +1,5 @@
 {
+	autofocus_id: "73E9EC9FED2830A0"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "nagical_eye"
@@ -46,7 +47,27 @@
 	quests: [
 		{
 			dependencies: ["73DF623736B936E9"]
+			description: ["Obtained by Enchanting "]
 			id: "73E9EC9FED2830A0"
+			rewards: [
+				{
+					id: "3C3E11ED54FD3A12"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					count: 9
+					id: "67FC6B6B84538100"
+					item: "create_enchantment_industry:hyper_experience_bottle"
+					type: "item"
+				}
+				{
+					id: "6C50B6E603B99793"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "The heart of the Evoker’s dark arts, this enchanted eye brims with raw power. Without it, the sorcerer’s magic lies dormant. Click me for more info! "
 			tasks: [{
 				id: "308FEF3A699D5676"
 				item: {

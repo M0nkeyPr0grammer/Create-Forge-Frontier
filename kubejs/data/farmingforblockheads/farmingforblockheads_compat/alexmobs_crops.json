@@ -1,0 +1,16 @@
+{
+    "modId": "alexsmobs",
+    "group": {
+      "name": "Alex Mobs Crops",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:emerald"
+      },
+      "defaultCategory": "crops"
+    },
+    "customEntries": [
+      {
+        "output": "alexsmobs:banana"
+      }
+    ]
+  }

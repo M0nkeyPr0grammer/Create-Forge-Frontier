@@ -1,4 +1,5 @@
 {
+	autofocus_id: "2575E9C7F4C52FA1"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "cursed_eye"
@@ -18,7 +19,7 @@
 			hover: ["The Bastion Overhaul: Bastion"]
 			image: "ftb:textures/bastion.png"
 			rotation: 0.0d
-			width: 4.67d
+			width: 4.729370008873114d
 			x: -6.5d
 			y: 4.0d
 		}
@@ -28,7 +29,7 @@
 			hover: ["Incendium: Abandoned Tower"]
 			image: "ftb:textures/tower.png"
 			rotation: 0.0d
-			width: 4.0d
+			width: 4.025974025974026d
 			x: 6.5d
 			y: 4.0d
 		}
@@ -38,7 +39,7 @@
 			hover: ["Friends & Foes: Citadel"]
 			image: "ftb:textures/citadel.png"
 			rotation: 0.0d
-			width: 4.35d
+			width: 4.364244741873805d
 			x: 0.0d
 			y: -5.5d
 		}
@@ -66,7 +67,21 @@
 				"66AC78E230482059"
 				"467C20FB702D4335"
 			]
+			description: ["Crafted Using Mechanical Crafters"]
 			id: "2575E9C7F4C52FA1"
+			rewards: [
+				{
+					id: "0C41759245008B18"
+					item: "createcompression:compressed_netherite_1x"
+					type: "item"
+				}
+				{
+					id: "01EEFDEE10C8AB61"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Guarded fiercely by the Piglins, this artifact is said to wield destructive power. It radiates with a promise of both ruin and might. Click me for more info! "
 			tasks: [{
 				id: "5B1EF03123AD4FC3"
 				item: {

@@ -43,15 +43,15 @@ ServerEvents.recipes(event => {
         { name: 'azurnium', input: 'forge_frontier:azurnium', output: 'forge_frontier:crushed_azurnium', additional: 'alexscaves:raw_azure_neodymium' },
         { name: 'uraniumnite', input: 'forge_frontier:uraniumnite', output: 'forge_frontier:crushed_uraniumnite', additional: 'alexscaves:uranium_shard' },
         { name: 'palerock', input: 'enlightened_end:palerock', output: 'forge_frontier:crushed_palerock', additional: 'enlightened_end:bismuth_nugget' },
-        { name: 'sculk_grime', input: 'deeperdarker:sculk_grime', output: 'forge_frontier:crushed_grime' },
+        { name: 'resonite', input: 'forge_frontier:resonite', output: 'forge_frontier:crushed_resonite' },
         { name: 'void_shale', input: 'enlightened_end:void_shale', output: 'forge_frontier:crushed_shale' }
     ];
 
     // Loop through materials and create the crushing recipes
     stones.forEach(stone => {
         const results = [
-            { count: 3, item: stone.output },
-            { count: 1, item: stone.output, chance: 0.25 }
+            { count: 1, item: stone.output },
+            { count: 1, item: stone.output, chance: 0.50 }
         ];
         if (stone.additional) results.push({ count: 1, item: stone.additional });
 
@@ -89,8 +89,9 @@ ServerEvents.recipes(event => {
         ingredients: [{ item: 'minecraft:ancient_debris' }],
         processingTime: 250,
         results: [
-            { count: 2, item: 'forge_frontier:crushed_debris' },
-            { chance: 0.05, item: 'create:crushed_raw_gold' }
+            { count: 1, item: 'forge_frontier:crushed_debris' },
+            { count: 1, item: 'forge_frontier:crushed_debris', chance: 0.25},
+            { chance: 0.10, item: 'create:crushed_raw_gold' }
         ]
     }).id('forge_frontier:crushing/ancient_debris');
 });

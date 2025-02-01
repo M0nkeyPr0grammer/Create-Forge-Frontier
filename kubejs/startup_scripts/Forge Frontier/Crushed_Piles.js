@@ -15,7 +15,7 @@ const materials = [
     'Verdantine', 
     'Glacium',
     'Debris', 
-    'Grime',
+    'Resonite',
     'Aubrum',
     'Pyroclast', 
     'Frostite',

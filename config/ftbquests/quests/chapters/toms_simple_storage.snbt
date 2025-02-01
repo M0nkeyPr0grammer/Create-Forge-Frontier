@@ -27,13 +27,15 @@
 	quest_links: [ ]
 	quests: [{
 		id: "1F543656C8E6BBBD"
+		shape: "gear"
+		size: 3.0d
 		tasks: [{
 			id: "33195D5AB9069652"
 			item: "toms_storage:ts.storage_terminal"
 			type: "item"
 		}]
 		x: 0.0d
-		y: -5.5d
+		y: -6.5d
 	}]
 	title: "Tom's Simple Storage"
 }

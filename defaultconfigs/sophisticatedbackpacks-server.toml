@@ -158,7 +158,7 @@
 		slotsInRow = 3
 		#Range around storage in blocks at which magnet will pickup items
 		#Range: 1 ~ 20
-		magnetRange = 3
+		magnetRange = 6
 
 	#Advanced Magnet Upgrade Settings
 	[server.advancedMagnetUpgrade]
@@ -170,7 +170,7 @@
 		slotsInRow = 4
 		#Range around storage in blocks at which magnet will pickup items
 		#Range: 1 ~ 20
-		magnetRange = 5
+		magnetRange = 12
 
 	#Pickup Upgrade Settings
 	[server.pickupUpgrade]
@@ -436,4 +436,13 @@
 		slownessLevelsPerAdditionalBackpack = 1.0
 		#Determines if active upgrades will only work in the backpack that's worn by the player. Active upgrades are for example magnet, pickup, cooking, feeding upgrades.
 		onlyWornBackpackTriggersUpgrades = false
+
+	#Advanced Jukebox Upgrade Settings
+	[server.advancedJukeboxUpgrade]
+		#Number of slots for discs in jukebox upgrade
+		#Range: 1 ~ 16
+		numberOfSlots = 12
+		#Number of lots displayed in a row
+		#Range: 1 ~ 6
+		slotsInRow = 4
 
