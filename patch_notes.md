@@ -22,7 +22,8 @@ To fully experience all the new changes and improvements, we highly recommend re
 - If any
 
 ## Quest Updates & Additions
-- If any
+### Dimensional Progression
+- The End: New End Reset Command Reward to fix broken Main End Island
 
 ## KubeJS Updates  
 - If any
