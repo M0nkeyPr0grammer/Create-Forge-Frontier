@@ -5,13 +5,18 @@
 
 Description Coming Later
 
+## 🌍 Recommended End Reset!
+To fully experience all the new changes and improvements, we highly recommend resetting the following dimensions:
+- The End Dimension
+
 ### As a standard safety protocol, we advise creating a backup of your saved data prior to updating the modification package to ensure the preservation of your progress.
 
 ## Mod Additions
-- []():
+- [Unusual End](https://www.curseforge.com/minecraft/mc-mods/unusual-end): Unusual End is a mod enhancing the End, by providing more diversity and content to the dimension, while trying to fit Vanilla and Modded End experiences.
 
 ## Mod Removals  
--  Create Track Map: Server-Side Compatibility Issues with Hosting Providers
+- Create Track Map: Server-Side Compatibility Issues with Hosting Providers
+- Endless Biomes: Compatibility Issue with End's Phantasm Causing Crash on Launch
   
 ## Datapack Removal  
 - If any
@@ -31,6 +36,7 @@ Description Coming Later
 - Cataclysm: v2.46 > v2.47 
 - Connectivity: v6.5 > v6.6
 - Corpse Curios Compat: v2.0.1 > v2.1.0
+- End's Phantasm: v0.4.2 > v1.0.1
 - Sophisticated Backpacks: v3.23.1.1184 > v3.23.2.1186
 - Sophisticated Core: v1.2.0.843 > v1.2.2.847
 - Sophisticated Storage: v1.3.0.1048 > v1.3.1.1050
