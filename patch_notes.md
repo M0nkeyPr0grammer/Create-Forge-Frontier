@@ -24,6 +24,8 @@ To fully experience all the new changes and improvements, we highly recommend re
 ## Quest Updates & Additions
 ### Dimensional Progression
 - The End: New End Reset Command Reward to fix broken Main End Island
+### Factory Progression
+- Molten Vents: Fixed Typo in Find a Veridium Vent, allowing completion
 
 ## KubeJS Updates  
 - If any

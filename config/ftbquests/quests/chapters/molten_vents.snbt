@@ -803,7 +803,7 @@
 				id: "7F552CF0B2FEDCDC"
 				observe_type: 0
 				timer: 0L
-				to_observe: "molten_vents:dormant_molten_veridum"
+				to_observe: "molten_vents:dormant_molten_veridium"
 				type: "observation"
 			}]
 			title: "Find a Veridium Vent"
