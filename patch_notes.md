@@ -26,7 +26,14 @@ Description Coming Later
 - If any
 
 ## Mod Updates
-- If any
+- Apotheosis: v7.4.5 > v7.4.6
+- Brewin and Chewin: v3.0.4 > v3.1.2
+- Cataclysm: v2.46 > v2.47 
+- Connectivity: v6.5 > v6.6
+- Corpse Curios Compat: v2.0.1 > v2.1.0
+- Sophisticated Backpacks: v3.23.1.1184 > v3.23.2.1186
+- Sophisticated Core: v1.2.0.843 > v1.2.2.847
+- Sophisticated Storage: v1.3.0.1048 > v1.3.1.1050
 
 ## Drippy Loading Screen Updates
 - Updated version number to 2.1.1
