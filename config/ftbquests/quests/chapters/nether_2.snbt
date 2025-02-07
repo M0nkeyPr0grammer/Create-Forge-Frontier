@@ -305,12 +305,9 @@
 					type: "item"
 				}
 				{
-					checkItem: false
-					entity: "minecraft:piglin"
-					id: "482B10637FD5DF5D"
-					nbt: { }
-					type: "questsadditions:interaction"
-					value: 3L
+					id: "1BBCB545380D7A22"
+					title: "Trade with Piglins"
+					type: "checkmark"
 				}
 			]
 			title: "Bastions and Treasure Hoards"
