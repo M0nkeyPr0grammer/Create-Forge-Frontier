@@ -23,12 +23,26 @@ To fully experience all the new changes and improvements, we highly recommend re
 
 ## Quest Updates & Additions
 ### Dimensional Progression
+- Overworld: Fixed Cobblestone Quest to be Stone
+- Nether: Changed Interact with Piglin Quests with Check Quest, asking players to trade with Piglins
 - The End: New End Reset Command Reward to fix broken Main End Island
 ### Factory Progression
 - Molten Vents: Fixed Typo in Find a Veridium Vent, allowing completion
+### Cataclysm
+- Ancient Factory: Fixed Typo in Structure Quest
 
 ## KubeJS Updates  
-- If any
+### Crushing Recipes
+- Fixed Potassic Recycling Crushing Recipe to match other Recycling Recipes
+- Made Recipes for Processing Brass, Tools and Armor
+### End Remastered
+- Tweaked Apotheosis Related Eye Enchanting Recipes
+### Ethium
+- Fixed Create Compat Recipes for Amethyst Mix and Echo Compound
+### Farmers Delight
+- Adjusted Create Compat Recipe for Rich Soil, and made nether Create Compat Recipe for Soul Soul
+### Dreams and Desires
+- Adjusted Rubber Log and Wood sap recipes to make rubber more useful
 
 ## Config Updates 
 - If any
