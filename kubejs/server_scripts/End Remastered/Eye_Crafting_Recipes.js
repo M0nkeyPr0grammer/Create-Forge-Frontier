@@ -244,13 +244,13 @@ ServerEvents.recipes(event => {
       requirements: {
         eterna: 40,
         quanta: 80,
-        arcana: 84,
+        arcana: 80,
         rectifaction: 40
       },
       "max_requirements": {
         eterna: -1,
         quanta: 100,
-        arcana: -1,
+        arcana: 85,
         rectifaction: 60
       },
       result: {
@@ -364,13 +364,13 @@ ServerEvents.recipes(event => {
       requirements: {
         eterna: 40,
         quanta: 90,
-        arcana: 78,
+        arcana: 75,
         rectifaction: 30
       },
       "max_requirements": {
         eterna: -1,
         quanta: 100,
-        arcana: 78,
+        arcana: 80,
         rectifaction: 50
       },
       result: {
