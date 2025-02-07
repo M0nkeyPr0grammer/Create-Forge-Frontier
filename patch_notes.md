@@ -35,14 +35,28 @@ To fully experience all the new changes and improvements, we highly recommend re
 
 ## Mod Updates
 - Apotheosis: v7.4.5 > v7.4.6
+- Balm: v7.3.11 > v7.3.13
 - Brewin and Chewin: v3.0.4 > v3.1.2
-- Cataclysm: v2.46 > v2.47 
-- Connectivity: v6.5 > v6.6
+- Cataclysm: v2.46 > v2.50 
+- Connectivity: v6.5 > v6.8
+- Copycats: v2.1.4 > v2.2.0
+- Create Connected: v0.9.3 > v0.9.4
 - Corpse Curios Compat: v2.0.1 > v2.1.0
+- Deeper Darker Delight: v1.1.2.2 > v1.1.2.3
+- EMI Loot: v0.7.4 > v0.7.5
+- FTB Chunks: v2001.3.4 > v2001.3.5
+- FTB Library: v2001.2.8 > v2001.2.9
 - End's Phantasm: v0.4.2 > v1.0.1
-- Sophisticated Backpacks: v3.23.1.1184 > v3.23.2.1186
-- Sophisticated Core: v1.2.0.843 > v1.2.2.847
-- Sophisticated Storage: v1.3.0.1048 > v1.3.1.1050
+- Extended AE: v1.3.4 > v1.3.5
+- Farmer's Delight: v1.2.6  > v1.2.7
+- Lithostitched: v1.4 > v1.4.3
+- Packetfixer: 1.4.3 > v1.4.4
+- Patchouli: v84 > v84.1
+- Recipe Essentials: v3.9 > v4.0
+- Sophisticated Backpacks: v3.23.1.1184 > v3.23.2.1193
+- Sophisticated Core: v1.2.0.843 > v1.2.2.858
+- Sophisticated Storage: v1.3.0.1048 > v1.3.1.1058
+- Supplementaries: v3.1.12 > v3.1.13
 
 ## Drippy Loading Screen Updates
 - Updated version number to 2.1.1
