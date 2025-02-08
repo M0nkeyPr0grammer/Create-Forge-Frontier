@@ -1,9 +1,11 @@
 # Modpack Patch Notes: Version 2.1.1
-**Release Date**: February 9th, 2025
+**Release Date**: February 8th or 9th, 2025
 
-# Name Coming: Later!
+# Forging New Frontiers (Minor Patch)
 
-Description Coming Later
+The 2.1.1 update brings a wave of enhancements, stability fixes, and exciting new content to Forge Frontier. This update refines dimensional progression, reworks recipes, and ensures smoother compatibility with key mods. We’ve also streamlined server hosting by integrating server packs directly into future updates.
+
+Prepare for a better End dimension experience with the addition of Unusual End, and enjoy numerous mod updates, quest improvements, and KubeJS tweaks designed to elevate gameplay. Read on for all the details!
 
 ## 🌍 Recommended End Reset!
 To fully experience all the new changes and improvements, we highly recommend resetting the following dimensions:
@@ -12,47 +14,49 @@ To fully experience all the new changes and improvements, we highly recommend re
 ### As a standard safety protocol, we advise creating a backup of your saved data prior to updating the modification package to ensure the preservation of your progress.
 
 ## Mod Additions
-- [Unusual End](https://www.curseforge.com/minecraft/mc-mods/unusual-end): Unusual End is a mod enhancing the End, by providing more diversity and content to the dimension, while trying to fit Vanilla and Modded End experiences.
+- [Unusual End](https://www.curseforge.com/minecraft/mc-mods/unusual-end): Unusual End is a transformative mod that enriches the End Dimension, introducing greater diversity, unique biomes, and expanded content while maintaining a seamless blend with both Vanilla and Modded End experiences. Explore new challenges, stunning landscapes, and exciting additions that breathe new life into the End!
 
-## Mod Removals  
-- Create Track Map: Server-Side Compatibility Issues with Hosting Providers
-- Endless Biomes: Compatibility Issue with End's Phantasm Causing Crash on Launch
-  
-## Datapack Removal  
-- Repurposed Structures - YUNG's Better Structures Compats: Redefined Structure Generation in KubeJS
+## **Mod Removals**  
+- **Create Track Map**: Removed due to server-side compatibility issues with hosting providers.  
+- **Endless Biomes**: Removed to resolve a critical crash on launch caused by incompatibility with **End's Phantasm**.  
 
-## Quest Updates & Additions
-### Dimensional Progression
-- Overworld: Fixed Cobblestone Quest to be Stone
-- Nether: Changed Interact with Piglin Quests with Check Quest, asking players to trade with Piglins
-- The End: New End Reset Command Reward to fix broken Main End Island
-### Factory Progression
-- Molten Vents: Fixed Typo in Find a Veridium Vent, allowing completion
-### Cataclysm
-- Ancient Factory: Fixed Typo in Structure Quest
+## **Datapack Removal**  
+- **Repurposed Structures - YUNG's Better Structures Compats**: Removed to refine structure generation within **KubeJS**, ensuring better integration and world consistency.  
 
-## KubeJS Updates  
-### Crushing Recipes
-- Fixed Potassic Recycling Crushing Recipe to match other Recycling Recipes
-- Made Recipes for Processing Brass, Tools and Armor
-### End Remastered
-- Tweaked Apotheosis Related Eye Enchanting Recipes
-### Ethium
-- Fixed Create Compat Recipes for Amethyst Mix and Echo Compound
-### Farmers Delight
-- Adjusted Create Compat Recipe for Rich Soil, and made nether Create Compat Recipe for Soul Soul
-### Dreams and Desires
-- Adjusted Rubber Log and Wood sap recipes to make rubber more useful
-### New Age
-- Changed Recipes for New Age Magnets to be progression locked
-### Crafts and Additions
-- Changed Recipes to use New Age items for Alternator, Electic Motor, and Tesla Coil
-### Forge Frontier
-- Removed Old Vanilla Item Tags
-- Added Smelting Recipes for Crushed Debris Pile and Crushed Resonite Pile
-- Added Seething Recipes for Crushed Debris Pile and Crushed Resonite Pile
-### Repurosed Structures
-- Redesigned Some structures to fit in with YUNG's Better Structures
+## **Quest Updates & Additions**  
+### **Dimensional Progression**  
+- **Overworld**: Adjusted **Cobblestone Quest** to require **Stone** instead.  
+- **Nether**: Reworked **Piglin Interaction Quests**—now requires players to **trade with Piglins** instead of simply interacting.  
+- **The End**: Added a **new End reset command reward** to fix issues with the **Main End Island**.  
+### **Factory Progression**  
+- **Molten Vents**: Fixed a **typo in the "Find a Veridium Vent" quest**, ensuring proper completion.  
+### **Cataclysm**  
+- **Ancient Factory**: Corrected a **typo in the structure quest** for better clarity.  
+
+## **KubeJS Updates**  
+### **Crushing Recipes**  
+- Fixed **Potassic Recycling** recipe to align with other **recycling recipes**.  
+- Introduced **new processing recipes** for **Brass tools and armor**.  
+### **End Remastered**  
+- Adjusted **Apotheosis-related Eye Enchanting recipes** for better balance.  
+### **Ethium**  
+- Fixed **Create compatibility** recipes for **Amethyst Mix** and **Echo Compound**.  
+### **Farmer’s Delight**  
+- Adjusted **Create compatibility** recipe for **Rich Soil**.  
+- Added a **Create compatibility** recipe for **Rich Soul Soil**.  
+### **Dreams and Desires**  
+- Tweaked **Rubber Log and Wood Sap** recipes to enhance the usefulness of **rubber**.  
+### **New Age**  
+- Reworked **New Age Magnet** recipes to ensure they are **progression-locked**.  
+### **Crafts and Additions**  
+- Updated recipes to **integrate New Age items** for **Alternator, Electric Motor, and Tesla Coil**.  
+### **Forge Frontier**  
+- **Removed outdated Vanilla item tags** to maintain consistency.  
+- **Added Smelting & Seething Recipes** for:  
+  - **Crushed Debris Pile**  
+  - **Crushed Resonite Pile**  
+### **Repurposed Structures**  
+- Redesigned several structures to **better align with YUNG’s Better Structures**, improving overall world integration.  
 
 ## Mod Updates
 - Apotheosis: v7.4.5 > v7.4.6
