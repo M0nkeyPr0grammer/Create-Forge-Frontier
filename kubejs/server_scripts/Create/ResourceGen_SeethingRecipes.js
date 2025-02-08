@@ -165,6 +165,22 @@ ServerEvents.recipes(event => {
     // Seething Recipes
     const seethingPileRecipes = [
         {
+            name: 'crushed_resonite',
+            input: 'forge_frontier:crushed_resonite_pile',
+            results: [
+                {item: 'minecraft:echo_shard', count: 9},
+                { chance: 0.5, item: 'minecraft:echo_shard', count: 9 }
+            ]
+        },
+        {
+            name: 'crushed_debris',
+            input: 'forge_frontier:crushed_debris_pile',
+            results: [
+                {item: 'minecraft:netherite_scrap', count: 9},
+                { chance: 0.5, item: 'minecraft:netherite_scrap', count: 9 }
+            ]
+        },
+        {
             name: 'crushed_verdantine',
             input: 'forge_frontier:crushed_verdantine_pile',
             results: [
