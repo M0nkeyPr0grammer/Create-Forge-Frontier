@@ -19,7 +19,7 @@ To fully experience all the new changes and improvements, we highly recommend re
 - Endless Biomes: Compatibility Issue with End's Phantasm Causing Crash on Launch
   
 ## Datapack Removal  
-- If any
+- Repurposed Structures - YUNG's Better Structures Compats: Redefined Structure Generation in KubeJS
 
 ## Quest Updates & Additions
 ### Dimensional Progression
@@ -49,9 +49,10 @@ To fully experience all the new changes and improvements, we highly recommend re
 - Changed Recipes to use New Age items for Alternator, Electic Motor, and Tesla Coil
 ### Forge Frontier
 - Removed Old Vanilla Item Tags
-
-## Config Updates 
-- If any
+- Added Smelting Recipes for Crushed Debris Pile and Crushed Resonite Pile
+- Added Seething Recipes for Crushed Debris Pile and Crushed Resonite Pile
+### Repurosed Structures
+- Redesigned Some structures to fit in with YUNG's Better Structures
 
 ## Mod Updates
 - Apotheosis: v7.4.5 > v7.4.6
