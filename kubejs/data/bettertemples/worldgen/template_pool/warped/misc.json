@@ -1,0 +1,15 @@
+{
+  "name": "bettertemples:warped/misc",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "bettertemples:warped/misc/minecart",
+        "processors": "bettertemples:warped/main",
+        "projection": "rigid",
+        "element_type": "yungsapi:yung_single_element"
+      }
+    }
+  ]
+}
