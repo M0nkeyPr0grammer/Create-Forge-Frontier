@@ -43,6 +43,10 @@ To fully experience all the new changes and improvements, we highly recommend re
 - Adjusted Create Compat Recipe for Rich Soil, and made nether Create Compat Recipe for Soul Soul
 ### Dreams and Desires
 - Adjusted Rubber Log and Wood sap recipes to make rubber more useful
+### New Age
+- Changed Recipes for New Age Magnets to be progression locked
+### Crafts and Additions
+- Changed Recipes to use New Age items for Alternator, Electic Motor, and Tesla Coil
 
 ## Config Updates 
 - If any
