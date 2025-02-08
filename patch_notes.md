@@ -101,7 +101,7 @@ To fully experience all the new changes and improvements, we highly recommend re
 ## Fancy Menu Updates
 - Updated version number to 2.1.1
 
-### More Details about the changes can be found here: [github repository merge](https://github.com/M0nkeyPr0grammer/Create-Forge-Frontier/compare/?)
+### More Details about the changes can be found here: [github repository merge](https://github.com/M0nkeyPr0grammer/Create-Forge-Frontier/compare/7c2ce5cf0e6c...b589b606a5d9)
 
 ### Note: If you encounter any issues, please request support on our [Discord](https://discord.gg/quenZthXgy). Enjoy the update!
 
