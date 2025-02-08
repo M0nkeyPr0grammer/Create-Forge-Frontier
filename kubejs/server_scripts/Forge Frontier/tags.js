@@ -246,9 +246,6 @@ ServerEvents.tags('item', event => {
     ];
     molds.forEach(mold => event.add('forge_frontier:mold_templates', `forge_frontier:${mold}`));
 
-    // Vanilla Tag
-    event.add('forge_frontier:vanilla', ['minecraft:dandelion', 'minecraft:blue_orchid']);
-
     // Connector Tag
     event.add('forge_frontier:connector', [
         'create_new_age:electrical_connector', 'createaddition:connector', 'createaddition:large_connector', 'tfgm:cable_connector'

@@ -47,6 +47,8 @@ To fully experience all the new changes and improvements, we highly recommend re
 - Changed Recipes for New Age Magnets to be progression locked
 ### Crafts and Additions
 - Changed Recipes to use New Age items for Alternator, Electic Motor, and Tesla Coil
+### Forge Frontier
+- Removed Old Vanilla Item Tags
 
 ## Config Updates 
 - If any
