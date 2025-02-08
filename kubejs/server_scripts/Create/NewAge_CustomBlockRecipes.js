@@ -1,195 +1,73 @@
 // New Age Forge Frontier Custom Block Recipes
 ServerEvents.recipes(event => {
 
-// Shaped Recipes
-  // Creates Overcharged Iron Block Recipe
-  event.shaped(
-      Item.of('forge_frontier:overcharged_iron_block'),
-      [
-          'AAA',
-          'AAA',
-          'AAA'
-      ],
-      {
-          A: 'create_new_age:overcharged_iron'
-      }
-  ).id('forge_frontier:shaped/overcharged_iron_block')
+  // Shaped Recipes for Overcharged Blocks
+  const overchargedBlocks = {
+      overcharged_iron_block: "create_new_age:overcharged_iron",
+      overcharged_gold_block: "create_new_age:overcharged_gold",
+      overcharged_diamond_block: "create_new_age:overcharged_diamond",
+      overcharged_netherite_block: "forge_frontier:overcharged_netherite_ingot"
+  };
 
-  // Creates Overcharged Gold Block Recipe
-  event.shaped(
-      Item.of('forge_frontier:overcharged_gold_block'),
-      [
-          'AAA',
-          'AAA',
-          'AAA'
-      ],
-      {
-          A: 'create_new_age:overcharged_gold'
-      }
-  ).id('forge_frontier:shaped/overcharged_gold_block')
+  Object.entries(overchargedBlocks).forEach(([block, material]) => {
+      event.shaped(Item.of(`forge_frontier:${block}`), ["AAA", "AAA", "AAA"], { A: material })
+          .id(`forge_frontier:shaped/${block}`);
+  });
 
-  // Creates Overcharged Diamond Block Recipe
-  event.shaped(
-      Item.of('forge_frontier:overcharged_diamond_block'),
-      [
-          'AAA',
-          'AAA',
-          'AAA'
-      ],
-      {
-          A: 'create_new_age:overcharged_diamond'
-      }
-  ).id('forge_frontier:shaped/overcharged_diamond_block')
+  // Energising Recipes
+  const energisingRecipes = {
+      overcharged_iron_block: { ingredients: [{ item: "minecraft:iron_block" }], energy_needed: 9000 },
+      overcharged_gold_block: { ingredients: [{ item: "minecraft:gold_block" }], energy_needed: 18000 },
+      overcharged_diamond_block: { ingredients: [{ item: "minecraft:diamond_block" }], energy_needed: 90000 },
+      overcharged_netherite_block: { ingredients: [{ item: "minecraft:netherite_block" }], energy_needed: 450000 },
+      overcharged_netherite_ingot: { ingredients: [{ item: "minecraft:netherite_ingot" }], energy_needed: 50000 }
+  };
 
-  // Creates Overcharged Netherite Block Recipe
-  event.shaped(
-    Item.of('forge_frontier:overcharged_netherite_block'),
-    [
-        'AAA',
-        'AAA',
-        'AAA'
-    ],
-    {
-        A: 'forge_frontier:overcharged_netherite_ingot'
-    }
-  ).id('forge_frontier:shaped/overcharged_netherite_block')
+  Object.entries(energisingRecipes).forEach(([result, recipe]) => {
+      event.custom({
+          type: "create_new_age:energising",
+          energy_needed: recipe.energy_needed,
+          ingredients: recipe.ingredients,
+          results: [{ item: `forge_frontier:${result}` }]
+      }).id(`forge_frontier:energising/${result}`);
+  });
 
-// Energising Recipes
-  // Creates Overcharged Iron Block Charging Recipe
-  event.custom({
-      type: "create_new_age:energising",
-      energy_needed: 9000,
-      ingredients: [
-        {
-          item: 'minecraft:iron_block'
-        }
-      ],
-      results: [
-        {
-          item: 'forge_frontier:overcharged_iron_block'
-        }
-      ]
-    }).id('forge_frontier:energising/overcharged_iron_block')
+  // Shapeless Recipes for Overcharged Materials
+  Object.entries(overchargedBlocks).forEach(([block, material]) => {
+      event.custom({
+          type: "minecraft:crafting_shapeless",
+          ingredients: [{ item: `forge_frontier:${block}` }],
+          result: { item: material, count: 9 }
+      }).id(`forge_frontier:shapeless/${block}`);
+  });
 
-    // Creates Overcharged Gold Block Charging Recipe
+// New Age Forge Frontier Custom Item Application Magnet Recipes
+  // Define Magnet Upgrade Paths as an Array of Objects
+  let magnetUpgrades = [
+    { result: "create_new_age:redstone_magnet", base: "create_new_age:magnetite_block", upgrade: "forge_frontier:overcharged_iron_block" },
+    { result: "create_new_age:layered_magnet", base: "create_new_age:redstone_magnet", upgrade: "forge_frontier:overcharged_gold_block" },
+    { result: "create_new_age:fluxuated_magnetite", base: "create_new_age:layered_magnet", upgrade: "forge_frontier:overcharged_diamond_block" },
+    { result: "create_new_age:netherite_magnet", base: "create_new_age:fluxuated_magnetite", upgrade: "forge_frontier:overcharged_netherite_block" }
+  ];
+
+  // Loop Through Magnet Upgrade Paths
+  for (let i = 0; i < magnetUpgrades.length; i++) {
+    let upgrade = magnetUpgrades[i];
+
+    // Remove Existing Recipes for the Item
+    event.remove({ id: `create_new_age:shaped/${upgrade.result.split(":")[1]}` });
+
+    // Create the New Item Application Recipe
     event.custom({
-        type: "create_new_age:energising",
-        energy_needed: 18000,
+        type: "create:item_application",
         ingredients: [
-          {
-            item: 'minecraft:gold_block'
-          }
+            { item: upgrade.base },
+            { item: upgrade.upgrade }
         ],
         results: [
-          {
-            item: 'forge_frontier:overcharged_gold_block'
-          }
+            { item: upgrade.result }
         ]
-    }).id('forge_frontier:energising/overcharged_gold_block')
+    }).id(`forge_frontier:item_application/${upgrade.result.split(":")[1]}`);
+  }
 
-    // Creates Overcharged Diamond Block Charging Recipe
-    event.custom({
-        type: "create_new_age:energising",
-        energy_needed: 90000,
-        ingredients: [
-          {
-            item: 'minecraft:diamond_block'
-          }
-        ],
-        results: [
-          {
-            item: 'forge_frontier:overcharged_diamond_block'
-          }
-        ]
-      }).id('forge_frontier:energising/overcharged_diamond_block')
-
-    // Creates Overcharged Netherite Block Charging Recipe
-    event.custom({
-      type: "create_new_age:energising",
-      energy_needed: 450000,
-      ingredients: [
-        {
-          item: 'minecraft:netherite_block'
-        }
-      ],
-      results: [
-        {
-          item: 'forge_frontier:overcharged_netherite_block'
-        }
-      ]
-    }).id('forge_frontier:energising/overcharged_netherite_block')
-
-  // Creates Overcharged Netherite Ingot Charging Recipe
-  event.custom({
-    type: "create_new_age:energising",
-    energy_needed: 50000,
-    ingredients: [
-      {
-        item: 'minecraft:netherite_ingot'
-      }
-    ],
-    results: [
-      {
-        item: 'forge_frontier:overcharged_netherite_ingot'
-      }
-    ]
-  }).id('forge_frontier:energising/overcharged_netherite_ingot')
-
-// Shapeless Recipe
-  // Overcharged Iron Block to Overcharged Iron Shapeless Recipe
-  event.custom({
-    type: "minecraft:crafting_shapeless",
-    ingredients: [
-      {
-        item: 'forge_frontier:overcharged_iron_block'
-      }
-    ],
-    result: {
-      item: 'create_new_age:overcharged_iron',
-      count: 9
-      }
-  }).id('forge_frontier:shapeless/overcharged_iron_block')
-
-  // Overcharged Gold Block to Overcharged Gold Shapeless Recipe
-	event.custom({
-		type: "minecraft:crafting_shapeless",
-		ingredients: [
-			{
-				item: 'forge_frontier:overcharged_gold_block'
-			}
-		],
-		result: {
-			item: 'create_new_age:overcharged_gold',
-			count: 9
-		  }
-	}).id('forge_frontier:shapeless/overcharged_gold_block')
-
-  // Overcharged Diamond Block to Overcharged Diamond Shapeless Recipe
-	event.custom({
-		type: "minecraft:crafting_shapeless",
-		ingredients: [
-			{
-				item: 'forge_frontier:overcharged_diamond_block'
-			}
-		],
-		result: {
-			item: 'create_new_age:overcharged_diamond',
-			count: 9
-		  }
-	}).id('forge_frontier:shapeless/overcharged_diamond_block')
-
-  // Overcharged Netherite Block to Overcharged Netherite Shapeless Recipe
-	event.custom({
-		type: "minecraft:crafting_shapeless",
-		ingredients: [
-			{
-				item: 'forge_frontier:overcharged_netherite_block'
-			}
-		],
-		result: {
-			item: 'forge_frontier:overcharged_netherite_ingot',
-			count: 9
-		  }
-	}).id('forge_frontier:shapeless/overcharged_netherite_block')
-
-})
+});

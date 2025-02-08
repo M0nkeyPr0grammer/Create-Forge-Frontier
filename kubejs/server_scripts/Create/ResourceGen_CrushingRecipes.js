@@ -78,8 +78,9 @@ ServerEvents.recipes(event => {
         ingredients: [{ tag: `create_dd:stone_types/potassic` }],
         processingTime: 250,
         results: [
-            { count: 3, item: 'create:crushed_raw_tin' },
-            { count: 1, item: 'create:crushed_raw_tin', chance: 0.25 }
+            { count: 1, item: 'create:crushed_raw_tin' },
+            { count: 1, item: 'create:crushed_raw_tin', chance: 0.50 },
+            {count: 1, item: 'create_dd:tin_nugget'}
         ]
     }).id(`forge_frontier:recycling/potassic_tag`);
 

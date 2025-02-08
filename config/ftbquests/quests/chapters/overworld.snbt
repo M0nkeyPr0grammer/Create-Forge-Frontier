@@ -186,7 +186,7 @@
 			subtitle: "Click me for more info!"
 			tasks: [
 				{
-					block: "minecraft:cobblestone"
+					block: "minecraft:stone"
 					block_type: 0
 					checkItem: false
 					id: "496F054FD5B2BFD4"

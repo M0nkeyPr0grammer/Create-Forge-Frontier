@@ -39,11 +39,19 @@
 			]
 			hide_dependent_lines: true
 			id: "7964AB0D39902EFA"
-			rewards: [{
-				id: "681278DA6D713D88"
-				type: "xp"
-				xp: 500
-			}]
+			rewards: [
+				{
+					id: "681278DA6D713D88"
+					type: "xp"
+					xp: 500
+				}
+				{
+					command: "/end_island reset"
+					elevate_perms: true
+					id: "040777C7B854A2D4"
+					type: "command"
+				}
+			]
 			shape: "gear"
 			size: 3.0d
 			subtitle: "The End: A Realm of Mystery and Power, Click me for more info!"

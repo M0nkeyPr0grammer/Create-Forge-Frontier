@@ -32,7 +32,7 @@
 		size: 3.0d
 		tasks: [{
 			id: "79521B3C5A3D9F31"
-			structure: "cataclysm:cursed_pyramid"
+			structure: "cataclysm:ancient_factory"
 			type: "structure"
 		}]
 		x: 0.0d
