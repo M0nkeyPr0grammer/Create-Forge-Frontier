@@ -56,7 +56,7 @@ To fully experience all the new changes and improvements, we highly recommend re
 
 ## Mod Updates
 - Apotheosis: v7.4.5 > v7.4.6
-- Balm: v7.3.11 > v7.3.13
+- Balm: v7.3.11 > v7.3.14
 - Brewin and Chewin: v3.0.4 > v3.1.2
 - Cataclysm: v2.46 > v2.52 
 - Connectivity: v6.5 > v6.8
@@ -64,8 +64,11 @@ To fully experience all the new changes and improvements, we highly recommend re
 - Create Connected: v0.9.3 > v0.9.4
 - Create Stuff and Additions: v2.0.7 > v2.0.8
 - Corpse Curios Compat: v2.0.1 > v2.1.0
+- Delightful: v3.6.2 > v3.7
 - Deeper Darker Delight: v1.1.2.2 > v1.1.2.3
+- Drippy Loading Screen: v3.0.9 > v3.0.11
 - EMI Loot: v0.7.4 > v0.7.5
+- Fancy Menu: v3.3.2 > v3.4.0
 - Forge Frontier Core: v1.4.1 > v1.5.0
 - FTB Chunks: v2001.3.4 > v2001.3.5
 - FTB Library: v2001.2.8 > v2001.2.9
@@ -76,13 +79,17 @@ To fully experience all the new changes and improvements, we highly recommend re
 - Lithostitched: v1.4 > v1.4.3
 - Loot Integration (Better Archeology): v1.1 > v1.2
 - Loot Integration (Cataclysm): v1.0 > v1.1
-- Packetfixer: 1.4.3 > v1.4.4
+- Loot Integration (Dungeon Crawl): v1.0 > v1.1
+- Loot Integration (Hopo): v1.2 > v1.3
+- Loot Integration (Integrated): v1.2 > v1.3
+- Packetfixer: 1.4.3 > v1.4.5
 - Patchouli: v84 > v84.1
 - Recipe Essentials: v3.9 > v4.0
 - Sophisticated Backpacks: v3.23.1.1184 > v3.23.2.1193
 - Sophisticated Core: v1.2.0.843 > v1.2.2.858
-- Sophisticated Storage: v1.3.0.1048 > v1.3.1.1058
+- Sophisticated Storage: v1.3.0.1048 > v1.3.1.1061
 - Supplementaries: v3.1.12 > v3.1.13
+- Tact: v1.2.1 > v1.2.3
 
 ## Drippy Loading Screen Updates
 - Updated version number to 2.1.1
