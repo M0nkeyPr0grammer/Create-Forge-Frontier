@@ -48,6 +48,7 @@
 				{
 					command: "/end_island reset"
 					elevate_perms: true
+					exclude_from_claim_all: true
 					id: "040777C7B854A2D4"
 					type: "command"
 				}
