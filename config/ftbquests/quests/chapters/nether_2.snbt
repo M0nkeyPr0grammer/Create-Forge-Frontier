@@ -547,27 +547,48 @@
 					type: "item"
 				}
 				{
-					id: "2440E4EFA1D2EAD9"
+					id: "0523409D1C4C6DC5"
+					item: "ad_astra:launch_pad"
+					type: "item"
+				}
+				{
+					id: "10EE50D3D1DFDF26"
 					item: {
 						Count: 1
-						id: "minecraft:spawner"
+						id: "cagedmobs:hopping_mob_cage"
 						tag: {
 							BlockEntityTag: {
-								Delay: 0s
 								ForgeCaps: { }
-								MaxNearbyEntities: 6s
-								MaxSpawnDelay: 800s
-								MinSpawnDelay: 200s
-								RequiredPlayerRange: 16s
-								SpawnCount: 4s
-								SpawnData: {
-									entity: {
-										id: "minecraft:blaze"
-									}
+								Inventory: {
+									Items: [
+										{
+											Count: 1b
+											Slot: 0
+											id: "minecraft:gilded_blackstone"
+										}
+										{
+											Count: 1b
+											Slot: 1
+											id: "cagedmobs:speed_i_upgrade"
+										}
+										{
+											Count: 1b
+											Slot: 2
+											id: "cagedmobs:speed_i_upgrade"
+										}
+										{
+											Count: 1b
+											Slot: 3
+											id: "cagedmobs:looting_upgrade"
+										}
+									]
+									Size: 4
 								}
-								SpawnPotentials: [ ]
-								SpawnRange: 4s
-								id: "minecraft:mob_spawner"
+								color: 0
+								currentGrowTicks: 99
+								entity: "minecraft:blaze"
+								id: "cagedmobs:mob_cage"
+								waitingForHarvest: 0b
 							}
 							display: {
 								Lore: ["\"(+NBT)\""]
@@ -577,12 +598,7 @@
 					type: "item"
 				}
 				{
-					id: "0523409D1C4C6DC5"
-					item: "ad_astra:launch_pad"
-					type: "item"
-				}
-				{
-					id: "6CB0602DBCEE875B"
+					id: "013E21A7CB377E6D"
 					type: "xp_levels"
 					xp_levels: 15
 				}
