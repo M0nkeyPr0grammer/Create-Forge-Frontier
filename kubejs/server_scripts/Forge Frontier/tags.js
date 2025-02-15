@@ -1,4 +1,11 @@
 ServerEvents.tags('item', event => {
+    // Netherite Casing Tag
+    event.add('forge_frontier:netherite_casing_application',[
+        'regions_unexplored:stripped_brimwood_log',
+        'regions_unexplored:stripped_brimwood_wood',
+        'regions_unexplored:stripped_cobalt_log',
+        'regions_unexplored:stripped_cobalt_wood'
+    ])
     // MCTB Revertable Workbench
     event.add('mctb:revertable_workbench','minecraft:crafting_table')
 

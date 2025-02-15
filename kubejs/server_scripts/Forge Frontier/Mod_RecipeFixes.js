@@ -1,5 +1,7 @@
 // Mod Recipe Fixes
 ServerEvents.recipes(event => {
+    // Removes Not Need Cinder Flour Block Recipe
+    event.remove({ id: 'tfmg:compacting/cinderflourblock'})
 
     // Adds Missing Black Steel Block Recipe
     event.shaped(
