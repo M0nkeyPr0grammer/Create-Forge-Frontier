@@ -28,7 +28,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["08F62016A6F246E4"]
+			dependencies: ["0A1C7563FC03C5F6"]
 			description: [
 				"The first step into the cosmos begins here!"
 				""
@@ -335,7 +335,7 @@
 		}
 		{
 			dependencies: ["229BA6C2D9B46694"]
-			description: ["The Moon holds unique resources essential for crafting advanced machinery. One of the most valuable is Aubrum, a molten ore vent exclusive to the Moon. Additionally, Moon Ice provides water for oxygen production, and Cheese Ore—well, that’s just for fun!"]
+			description: ["The Moon holds unique resources essential for crafting advanced machinery. One of the most valuable is Aubrum, a molten ore vent exclusive to the Moon. Additionally, Moon Ice provides water for oxygen production and can be used in creating Cryo Fuel, and Cheese Ore—well, that’s just for fun! "]
 			icon: {
 				Count: 1
 				id: "minecraft:diamond_pickaxe"
