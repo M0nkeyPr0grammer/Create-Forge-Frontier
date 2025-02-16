@@ -24,6 +24,7 @@ Description Coming Later
 - Moon: Added Cryo Fuel Hint in Mining Quest, and new reward for page completion quest
 - Mars: Completed Quests
 - Mercury: Completed Quests
+- Venus: Completed Quests
 
 ## **KubeJS Updates**  
 ### FTB
