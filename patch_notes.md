@@ -21,8 +21,9 @@ Description Coming Later
 - Nether: Adjusted Blaze Spawner Reward to Mob Cage with Speed Upgrades
 - End: Adjusted End Reward to exclude End Island Reset from Claim All
 ## Ad Astra
-- Moon: Added Cryo Fuel Hint in Mining Quest
-- Mars: Completed Quest Chapter
+- Moon: Added Cryo Fuel Hint in Mining Quest, and new reward for page completion quest
+- Mars: Completed Quests
+- Mercury: Completed Quests
 
 ## **KubeJS Updates**  
 ### FTB
