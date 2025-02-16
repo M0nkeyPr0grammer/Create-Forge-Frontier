@@ -24,6 +24,7 @@ Description Coming Later
 
 ## Mod Updates
 - Advancement Plaques: v1.6.7 > v1.6.9
+- AE2 QOL Recipes: v1.2.0 > v1.3.0
 - Ambient Sounds: v6.1.4 > v6.1.6
 - Cataclysm: v2.52 > v2.54
 - Xaeros Minimap: v25.0.0 > v25.1.0
@@ -32,7 +33,7 @@ Description Coming Later
 - Balm: v7.3.14 > v7.3.15
 - Collective: v7.87 > v7.91
 - Corpse Curios Compat: v2.1.0 > v2.1.1
-- Create Additions Synthetics: v3.3.2 > v3.3.3
+- Create Additions Synthetics: v3.3.2 > v3.3.4
 - Create Better Villagers: v1.2.3 > v1.2.4
 - Create Teleporters: v2.2 > v2.3
 - Custom Credits: v1.6 > v1.7
@@ -45,7 +46,7 @@ Description Coming Later
 - Loot Integration (WDA): v1.5 > v1.6
 - Loot Integration (Structory): v1.1 > v1.2
 - Loot Integration (YUNGS): v1.2 > v1.3
-- Moonlight: v2.13.58 > v2.13.63
+- Moonlight: v2.13.58 > v2.13.65
 - Nether Remastered: v2.2 > v2.4
 - Not Enough Animations: v1.9.1 > v1.9.2
 - Packet Fixer: v1.4.5 > v2.0.0
