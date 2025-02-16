@@ -1,5 +1,8 @@
 // Mod Recipe Fixes
 ServerEvents.recipes(event => {
+    // Removes Excess Coke Oven Recipe
+    event.remove({ id: 'tfmg:crafting/coke_oven'})
+    
     // Removes Not Need Cinder Flour Block Recipe
     event.remove({ id: 'tfmg:compacting/cinderflourblock'})
 
