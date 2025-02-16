@@ -50,7 +50,7 @@
 			}]
 			shape: "gear"
 			size: 3.0d
-			subtitle: "Reaching for the Stars 🌕✨ Click me to learn more!"
+			subtitle: "Reaching for the Stars 🌕✨ Click me for more info!"
 			tasks: [{
 				id: "4E06838927C45737"
 				title: "Check"
@@ -424,12 +424,27 @@
 				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6169F8EB0E600750\" } } "
 			]
 			id: "2DC61E3DC8AF2A42"
+			rewards: [{
+				id: "51FEE375DD08737A"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "ad_astra_giselle_addon:space_breathing"
+							lvl: 1
+						}]
+					}
+				}
+				type: "item"
+			}]
 			subtitle: "Click me for more info!"
 			tasks: [{
 				id: "67DCFC3AEAB3B985"
 				title: "Check"
 				type: "checkmark"
 			}]
+			title: "Claiming your Victory on the Moon"
 			x: 4.5d
 			y: 0.0d
 		}

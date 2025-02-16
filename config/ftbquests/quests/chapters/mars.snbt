@@ -38,14 +38,20 @@
 			hide_dependent_lines: true
 			icon: "ad_astra:mars_globe"
 			id: "6169F8EB0E600750"
+			rewards: [{
+				id: "4F14F474001409EB"
+				type: "xp"
+				xp: 25
+			}]
 			shape: "gear"
 			size: 3.0d
-			subtitle: "The next step in your cosmic journey awaits!"
+			subtitle: "The next step in your cosmic journey awaits! Click me for more info!"
 			tasks: [{
 				id: "1A5AFA7A72CF5BF9"
 				title: "Check"
 				type: "checkmark"
 			}]
+			title: "Mars"
 			x: 0.0d
 			y: -6.5d
 		}
@@ -254,12 +260,27 @@
 				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6B54577F45BDF5E7\" } } "
 			]
 			id: "4AD1CCF2DA9C58B2"
+			rewards: [{
+				id: "0DE9D92CE9BA4BC8"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "ad_astra_giselle_addon:gravity_normalizing"
+							lvl: 1
+						}]
+					}
+				}
+				type: "item"
+			}]
 			subtitle: "Click me for more info!"
 			tasks: [{
 				id: "6605C2E4245717B9"
 				title: "Check"
 				type: "checkmark"
 			}]
+			title: "Claiming your Victory on Mars"
 			x: 4.0d
 			y: 0.0d
 		}
