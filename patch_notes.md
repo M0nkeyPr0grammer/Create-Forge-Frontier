@@ -17,7 +17,12 @@ Description Coming Later
 - If any
 
 ## **Quest Updates & Additions**  
-- If any
+### Dimensional Progression
+- Nether: Adjusted Blaze Spawner Reward to Mob Cage with Speed Upgrades
+- End: Adjusted End Reward to exclude End Island Reset from Claim All
+## Ad Astra
+- Moon: Added Cryo Fuel Hint in Mining Quest
+- Mars: Completed Quest Chapter
 
 ## **KubeJS Updates**  
 ### FTB
