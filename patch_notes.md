@@ -20,7 +20,16 @@ Description Coming Later
 - If any
 
 ## **KubeJS Updates**  
-- If any
+### FTB
+- Added any new screenshots for Quests
+### Farming for Block Heads
+- Removed Regions Unexplored Nether Sapplings for Progression Log for Netherite causing
+### Dreams & Desires
+- New Netherite Casing Recipe using Regions Unexplored Nether Wood
+### TFMG
+- Removed Cinder Flour Block Recipe due to recipe conflicts
+### Forge Frontier
+- Created Netherite Casing Application Tag for Regions Unexplored Stripped Nether Wood and Logs
 
 ## Mod Updates
 - Advancement Plaques: v1.6.7 > v1.6.9
