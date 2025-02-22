@@ -7,7 +7,7 @@ Description Coming Later
 
 ### As a standard safety protocol, we advise creating a backup of your saved data prior to updating the modification package to ensure the preservation of your progress.
 
-## Mod Additions
+## **Mod Additions**
 - If any
 
 ## **Mod Removals**  
@@ -39,44 +39,61 @@ Description Coming Later
 ### Forge Frontier
 - Created Netherite Casing Application Tag for Regions Unexplored Stripped Nether Wood and Logs
 
-## Mod Updates
-- Advancement Plaques: v1.6.7 > v1.6.9
+## **Forge Frontier Core Updates**
+- Added in New **Energitic Blaze Burner** for AE2 Machine Processing Recipes, will be removing AE2 machines replaced with Create related Recipes
+- More Coming Soon!
+
+## **Mod Updates**
+- AE Infinity Booster: v1.0.0+21 > v1.0.0+47
 - AE2 QOL Recipes: v1.2.0 > v1.3.0
-- Ambient Sounds: v6.1.4 > v6.1.6
-- Cataclysm: v2.52 > v2.54
-- Xaeros Minimap: v25.0.0 > v25.1.0
+- Advancement Plaques: v1.6.7 > v1.6.9
+- Advanced AE: v1.1.1 > v1.1.2
 - Amendments: v1.2.16 > v1.2.18
+- Ambient Sounds: v6.1.4 > v6.1.6
 - Aquaculture Delight: v1.0.0 > v1.1.0
-- Balm: v7.3.14 > v7.3.15
-- Collective: v7.87 > v7.91
-- Corpse Curios Compat: v2.1.0 > v2.1.1
-- Create Additions Synthetics: v3.3.2 > v3.3.4
+- Balm: v7.3.14 > v7.3.17
+- Cataclysm: v2.52 > v2.56
+- Collective: v7.87 > v7.92
+- Connectivity: v6.8 > v7.0
+- Corpse Curios Compat: v2.1.0 > v2.2.0
+- Create Additions Synthetics: v3.3.2 > v3.4.1
 - Create Better Villagers: v1.2.3 > v1.2.4
+- Create Encased: v1.6.2-fix1 > v1.6.2-fix3
 - Create Teleporters: v2.2 > v2.3
+- Curios: v5.11.1 > v5.12.0
 - Custom Credits: v1.6 > v1.7
+- Easy Piglins: v1.0.13 > v1.1.0
+- EMI: v1.1.19 > v1.1.20
 - Ends Delight: v2.5 > v2.5.1
-- Every Compat: v2.7.15 > v2.7.16
-- Fancy Menu: v3.4.0 > v3.4.4
+- Every Compat: v2.7.15 > v2.7.18
+- Fancy Menu: v3.4.0 > v3.4.5
 - Firespread Tweaks: v2.7 > v2.8
+- Forge Frontier Core: v1.5.0 > v1.6.0
 - Fusion: v1.2.3 > v1.2.4
+- Integrated API: v1.5.1 > v1.5.2
+- Integrated Villages: v1.1.5 > v1.2.0
 - Lithostiched: v1.4.3 > v1.4.4
-- Loot Integration (WDA): v1.5 > v1.6
 - Loot Integration (Structory): v1.1 > v1.2
+- Loot Integration (WDA): v1.5 > v1.6
 - Loot Integration (YUNGS): v1.2 > v1.3
-- Moonlight: v2.13.58 > v2.13.65
+- Moonlight: v2.13.58 > v2.13.68
 - Nether Remastered: v2.2 > v2.4
 - Not Enough Animations: v1.9.1 > v1.9.2
 - Packet Fixer: v1.4.5 > v2.0.0
 - Rhino: v2001.2.3-build.6 > v2001.2.3-build.10
-- Season Hud: v1.11.7 > v1.12.0
-- Sophisticated Backpacks: v3.23.4.1193 > v3.23.5.1200
-- Sophisticated Core: v1.2.6.858 > v1.2.12.872
-- Sophisticated Storage: v1.3.4.1061 > v1.3.8.1074
+- Season Hud: v1.11.7 > v1.12.1
+- Sophisticated Backpacks: v3.23.4.1193 > v3.23.5.1203
+- Sophisticated Core: v1.2.6.858 > v1.2.12.890
+- Sophisticated Storage: v1.3.4.1061 > v1.3.8.1075
+- Supplementaries: v3.1.13 > v3.1.16
+- Trade Cycling: v1.0.15 > v1.0.17
+- Xaeros Minimap: v25.0.0 > v25.1.0
+- Xaeros Worldmap: v1.39.2 > v1.39.4
 
-## Drippy Loading Screen Updates
+## **Drippy Loading Screen Updates**
 - Updated version number to 2.2.0
 
-## Fancy Menu Updates
+## **Fancy Menu Updates**
 - Updated version number to 2.2.0
 
 ### More Details about the changes can be found here: [github repository merge](https://github.com/M0nkeyPr0grammer/Create-Forge-Frontier/compare/?)
