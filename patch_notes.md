@@ -23,10 +23,11 @@ Description Coming Later
 - Deeper Darker: Adjusted Mining Quest Requirement to allow for completion
 - End: Adjusted End Reward to exclude End Island Reset from Claim All
 ### Ad Astra
-- Moon: Added Cryo Fuel Hint in Mining Quest, and new reward for page completion quest
+- Moon: Added Cryo Fuel Hint in Mining Quest, added a new reward for page completion quest, and adjusted intro quest requirement
 - Mars: Completed Quests
 - Mercury: Completed Quests
 - Venus: Completed Quests
+- Glacio: Completed Quests
 ### Rocket Progression
 - Adjusted Intro Quests to require Item Gathering or Dimensional traveling to unlock chapter instead of Checks
 
