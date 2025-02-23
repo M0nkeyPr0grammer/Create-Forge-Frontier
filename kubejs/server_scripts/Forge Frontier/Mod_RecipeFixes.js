@@ -1,5 +1,34 @@
 // Mod Recipe Fixes
 ServerEvents.recipes(event => {
+    // Adjusts Shapeless return recipe for sturdy stone
+    event.remove({ id: 'quark:building/crafting/sturdy_stone_decompress'})
+    event.custom({
+        type: 'minecraft:crafting_shapeless',
+        ingredients: [
+            {
+                item: 'quark:sturdy_stone'
+            }
+        ],
+        result: {
+            item: 'minecraft:cobblestone',
+            count: 4
+        }
+    }).id( 'forge_frontier:shapeless/sturdy_stone' )
+
+    // Fixes Compat issue with Compacting Cobblestone
+    event.remove({ id: 'quark:building/crafting/cobblestone_bricks'}),
+    event.remove({ id: 'quark:building/crafting/sturdy_stone'})
+    event.shaped(
+        Item.of('quark:sturdy_stone'),
+        [
+            'CC',
+            'CC'
+        ],
+        {
+            C: 'minecraft:cobblestone'
+        }
+    ).id( 'forge_frontier:shaped/sturdy_stone')
+    
     // Removes Excess Coke Oven Recipe
     event.remove({ id: 'tfmg:crafting/coke_oven'})
     
