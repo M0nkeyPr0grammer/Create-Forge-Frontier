@@ -16,14 +16,14 @@ ServerEvents.tags('item', event => {
     ])
 
     // Hazmat Protection Tag
-    event.add('create_new_age:nuclear/hazmat_suit',[
-        'ad_astra:freeze_resistant_armor'
-    ])
+    event.add('create_new_age:nuclear/hazmat_suit',
+        '#ad_astra:freeze_resistant_armor'
+    )
 
     // Freeze Immune Equipment
-    event.add('minecraft:freeze_immune_wearables',[
-        'ad_astra:freeze_resistant_armor'
-    ])
+    event.add('minecraft:freeze_immune_wearables',
+        '#ad_astra:freeze_resistant_armor'
+    )
 
     // Netherite Casing Tag
     event.add('forge_frontier:netherite_casing_application',[
