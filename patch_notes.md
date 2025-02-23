@@ -21,7 +21,7 @@ Description Coming Later
 ### Dimensional Progression
 - Nether: Adjusted Blaze Spawner Reward to Mob Cage with Speed Upgrades
 - End: Adjusted End Reward to exclude End Island Reset from Claim All
-## Ad Astra
+### Ad Astra
 - Moon: Added Cryo Fuel Hint in Mining Quest, and new reward for page completion quest
 - Mars: Completed Quests
 - Mercury: Completed Quests
@@ -45,12 +45,14 @@ Description Coming Later
 ### Forge Frontier
 - Created Netherite Casing Application Tag for Regions Unexplored Stripped Nether Wood and Logs
 - Removed Old Broken Limited Barrel Recipes
+- Created Recipe for New Forge Frontier Core: Energetic Blaze Burner
 ### Minecraft
 - Provided Ad Astra and Quantum Armor Freeze Immune Wearables Tag
 ### Ad Astra
 - Provided Quantum Armor Heat and Freeze Resistant Tags for space exploration
 ### Create New Age
 - Provided Ad Astra and Quantum Armor Nuclear Protection Tag
+- Added all Charging Recipes to Energizer
 ### Quark
 - Removed Crafting recipe for Cobbled Bricks, still can use stone cutter
 - Adjusted Sturdy Stone Recipe to use 4 instead of 9 for better compatibility
