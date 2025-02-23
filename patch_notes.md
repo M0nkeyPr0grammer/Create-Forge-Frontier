@@ -8,10 +8,11 @@ Description Coming Later
 ### As a standard safety protocol, we advise creating a backup of your saved data prior to updating the modification package to ensure the preservation of your progress.
 
 ## **Mod Additions**
-- If any
+- [XaeroPlus](https://www.curseforge.com/minecraft/mc-mods/xaeroplus): XaeroPlus is a client-side Minecraft mod that depends on and modifies the Xaero's WorldMap and Minimap mods with extra features and performance improvements
 
 ## **Mod Removals**  
 - FTB Backups - In some specific cases can cause extreme lag while making a backup causing the server to hang and crash
+- Xaero Zoomout - Replaced by XaeroPlus
 
 ## **Datapack Removal**  
 - If any
