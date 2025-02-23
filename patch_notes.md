@@ -20,12 +20,15 @@ Description Coming Later
 ## **Quest Updates & Additions**  
 ### Dimensional Progression
 - Nether: Adjusted Blaze Spawner Reward to Mob Cage with Speed Upgrades
+- Deeper Darker: Adjusted Mining Quest Requirement to allow for completion
 - End: Adjusted End Reward to exclude End Island Reset from Claim All
 ### Ad Astra
 - Moon: Added Cryo Fuel Hint in Mining Quest, and new reward for page completion quest
 - Mars: Completed Quests
 - Mercury: Completed Quests
 - Venus: Completed Quests
+### Rocket Progression
+- Adjusted Intro Quests to require Item Gathering or Dimensional traveling to unlock chapter instead of Checks
 
 ## **Forge Frontier Core Updates**
 - Added in New **Energitic Blaze Burner** for AE2 Machine Processing Recipes, will be removing AE2 machines replaced with Create related Recipes
