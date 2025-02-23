@@ -34,6 +34,7 @@ Description Coming Later
 - Removed Regions Unexplored Nether Sapplings for Progression Log for Netherite causing
 ### Dreams & Desires
 - New Netherite Casing Recipe using Regions Unexplored Nether Wood
+- New Smoked Log Recipe, uses smoking instead of heated mixing
 ### TFMG
 - Removed Cinder Flour Block Recipe due to recipe conflicts
 - Removed Excess Coke Oven Recipe
@@ -46,6 +47,9 @@ Description Coming Later
 - Provided Quantum Armor Heat and Freeze Resistant Tags for space exploration
 ### Create New Age
 - Provided Ad Astra and Quantum Armor Nuclear Protection Tag
+### Quark
+- Removed Crafting recipe for Cobbled Bricks, still can use stone cutter
+- Adjusted Sturdy Stone Recipe to use 4 instead of 9 for better compatibility
 
 ## **Forge Frontier Core Updates**
 - Added in New **Energitic Blaze Burner** for AE2 Machine Processing Recipes, will be removing AE2 machines replaced with Create related Recipes
