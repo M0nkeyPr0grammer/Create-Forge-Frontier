@@ -27,6 +27,10 @@ Description Coming Later
 - Mercury: Completed Quests
 - Venus: Completed Quests
 
+## **Forge Frontier Core Updates**
+- Added in New **Energitic Blaze Burner** for AE2 Machine Processing Recipes, will be removing AE2 machines replaced with Create related Recipes
+- More Coming Soon!
+
 ## **KubeJS Updates**  
 ### FTB
 - Added any new screenshots for Quests
@@ -53,9 +57,9 @@ Description Coming Later
 ### Delightful
 - Adjusted Nut Milk to produce fluid instead of bucket
 
-## **Forge Frontier Core Updates**
-- Added in New **Energitic Blaze Burner** for AE2 Machine Processing Recipes, will be removing AE2 machines replaced with Create related Recipes
-- More Coming Soon!
+## **Config Updates**
+### Carry On
+- Blacklisted Easy Villager and Easy Piglins Blocks
 
 ## **Mod Updates**
 - AE Infinity Booster: v1.0.0+21 > v1.0.0+47
