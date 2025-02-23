@@ -436,10 +436,11 @@
 			size: 2.0d
 			subtitle: "Click me for more info!"
 			tasks: [{
-				id: "07E7DFF0AFE16C8A"
-				title: "Tier 3 Rocket"
-				type: "checkmark"
+				id: "10FFA06106EC95E6"
+				item: "ad_astra:ostrum_ingot"
+				type: "item"
 			}]
+			title: "Tier 3 Rocket"
 			x: 0.0d
 			y: 6.0d
 		}

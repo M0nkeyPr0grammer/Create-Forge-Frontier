@@ -421,6 +421,7 @@
 		{
 			description: ["Get ready for liftoff! The Tier 1 Rocket from Ad Astra will be your ticket to the moon, where an otherworldly adventure awaits! Brace yourself to explore mysterious lunar structures, uncover hidden treasures, and mine rare Desh Ore amidst the lunar dust. Keep an eye out for the elusive Aubrum Molten Ore Vents, bubbling with precious resources—process these vents to unlock the true power of Desh! The moon is filled with secrets, so suit up and prepare for a cosmic journey like no other!"]
 			hide_dependent_lines: true
+			icon: "ad_astra:steel_ingot"
 			id: "0A1C7563FC03C5F6"
 			rewards: [
 				{
@@ -437,11 +438,19 @@
 			shape: "gear"
 			size: 2.0d
 			subtitle: "Click me for more info!"
-			tasks: [{
-				id: "568E15F89F00A543"
-				title: "Tier 1 Rocket"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "5C77D6502E4258A9"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					id: "437C5FA0EAC0CE1F"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			title: "Tier 1 Rocket"
 			x: 0.0d
 			y: 6.0d
 		}

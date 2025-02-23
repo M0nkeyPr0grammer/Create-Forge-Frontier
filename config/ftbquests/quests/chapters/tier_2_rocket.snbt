@@ -434,11 +434,13 @@
 			]
 			shape: "gear"
 			size: 2.0d
+			subtitle: "Click me for more info!"
 			tasks: [{
-				id: "413370DE80F48073"
-				title: "Tier 2 Rocket"
-				type: "checkmark"
+				id: "51F1585544E2A8A4"
+				item: "ad_astra:desh_ingot"
+				type: "item"
 			}]
+			title: "Tier 2 Rocket"
 			x: 0.0d
 			y: 6.0d
 		}

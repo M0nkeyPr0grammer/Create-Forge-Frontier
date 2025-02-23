@@ -367,10 +367,11 @@
 			size: 2.0d
 			subtitle: "Click me for more info!"
 			tasks: [{
-				id: "3D05E891252F0A35"
-				title: "Tier 6 Rocket"
-				type: "checkmark"
+				dimension: "forge_frontier:abyssal_chasm"
+				id: "12EF557C6123BA72"
+				type: "dimension"
 			}]
+			title: "Tier 6 Rocket"
 			x: 0.0d
 			y: 6.0d
 		}
