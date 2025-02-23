@@ -39,6 +39,7 @@ Description Coming Later
 - Removed Excess Coke Oven Recipe
 ### Forge Frontier
 - Created Netherite Casing Application Tag for Regions Unexplored Stripped Nether Wood and Logs
+- Removed Old Broken Limited Barrel Recipes
 
 ## **Forge Frontier Core Updates**
 - Added in New **Energitic Blaze Burner** for AE2 Machine Processing Recipes, will be removing AE2 machines replaced with Create related Recipes
