@@ -15,12 +15,13 @@
 			y: -9.5d
 		}
 		{
-			height: 10.0d
-			image: "ftb:textures/coming_soon.png"
+			height: 15.0d
+			image: "ftb:textures/glacio_screenshot.png"
+			order: -1
 			rotation: 0.0d
-			width: 15.0d
-			x: 0.0d
-			y: 0.0d
+			width: 28.25d
+			x: 1.0d
+			y: -5.5d
 		}
 	]
 	order_index: 4
@@ -30,10 +31,9 @@
 		shape: "gear"
 		size: 3.0d
 		tasks: [{
-			dimension: "ad_astra:glacio"
-			icon: "ad_astra:glacio_globe"
-			id: "0EEA0F055542890B"
-			type: "dimension"
+			id: "374D945D80725F10"
+			title: "Check"
+			type: "checkmark"
 		}]
 		x: 0.0d
 		y: -6.5d
