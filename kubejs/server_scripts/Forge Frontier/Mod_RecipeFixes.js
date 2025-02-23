@@ -1,5 +1,36 @@
 // Mod Recipe Fixes
 ServerEvents.recipes(event => {
+    // Adjusts Heated Mixing Recipe for Nut Milk Recipe
+    event.remove({ id: 'delightful:food/cooking/nut_milk' })
+    event.custom({
+        type: "create:mixing",
+        ingredients: [
+            {
+                item: 'delightful:nut_butter_bottle'
+            },
+            {
+                item: 'delightful:nut_butter_bottle'
+            },
+            {
+                item: 'delightful:nut_butter_bottle'
+            },
+            {
+                item: 'delightful:nut_butter_bottle'
+            },
+            {
+                fluid: 'minecraft:water',
+                amount: 1000
+            }
+        ],
+        results: [
+            {
+                fluid: 'minecraft:milk',
+                amount: 1000
+            }
+        ],
+        heatRequirement: "heated"
+    }).id('forge_frontier:mixing/nut_milk');
+
     // Adjusts Shapeless return recipe for sturdy stone
     event.remove({ id: 'quark:building/crafting/sturdy_stone_decompress'})
     event.custom({

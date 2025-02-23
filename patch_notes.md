@@ -50,6 +50,8 @@ Description Coming Later
 ### Quark
 - Removed Crafting recipe for Cobbled Bricks, still can use stone cutter
 - Adjusted Sturdy Stone Recipe to use 4 instead of 9 for better compatibility
+### Delightful
+- Adjusted Nut Milk to produce fluid instead of bucket
 
 ## **Forge Frontier Core Updates**
 - Added in New **Energitic Blaze Burner** for AE2 Machine Processing Recipes, will be removing AE2 machines replaced with Create related Recipes
