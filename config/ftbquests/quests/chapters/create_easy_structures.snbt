@@ -30,9 +30,9 @@
 		shape: "gear"
 		size: 3.0d
 		tasks: [{
-			id: "1C5083EE7D61952B"
-			structure: "create_easy_structures:big_1"
-			type: "structure"
+			id: "56EFBB3BE7F664DC"
+			item: "create:cogwheel"
+			type: "item"
 		}]
 		x: 0.0d
 		y: -6.5d

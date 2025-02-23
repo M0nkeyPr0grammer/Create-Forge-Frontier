@@ -30,6 +30,8 @@ Description Coming Later
 - Glacio: Completed Quests
 ### Rocket Progression
 - Adjusted Intro Quests to require Item Gathering or Dimensional traveling to unlock chapter instead of Checks
+### Structure Exploration
+- Prepared Quest Chapters for future completion
 
 ## **Forge Frontier Core Updates**
 - Added in New **Energitic Blaze Burner** for AE2 Machine Processing Recipes, will be removing AE2 machines replaced with Create related Recipes

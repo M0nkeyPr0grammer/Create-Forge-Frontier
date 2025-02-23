@@ -5,7 +5,7 @@
 	group: "4FAD6EACDA300DDE"
 	icon: {
 		Count: 1
-		id: "betterarcheology:iron_brush"
+		id: "minecraft:brush"
 		tag: {
 			Damage: 0
 		}
@@ -36,9 +36,15 @@
 		shape: "gear"
 		size: 3.0d
 		tasks: [{
-			id: "4AD5E5DA9EBEBC2F"
-			structure: "betterarcheology:archeologist_camp_grassy"
-			type: "structure"
+			id: "6E652554A43E7089"
+			item: {
+				Count: 1
+				id: "minecraft:brush"
+				tag: {
+					Damage: 0
+				}
+			}
+			type: "item"
 		}]
 		x: 0.0d
 		y: -6.5d

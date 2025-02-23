@@ -30,9 +30,9 @@
 		shape: "gear"
 		size: 3.0d
 		tasks: [{
-			id: "192539E0D83B047A"
-			structure: "integrated_villages:airship_village"
-			type: "structure"
+			id: "3CD564725F64C8C2"
+			item: "minecraft:emerald"
+			type: "item"
 		}]
 		x: 0.0d
 		y: -6.5d

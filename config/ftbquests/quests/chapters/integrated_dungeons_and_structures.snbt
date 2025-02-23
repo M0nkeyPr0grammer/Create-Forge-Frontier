@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "integrated_dungeons_and_structures"
 	group: "4FAD6EACDA300DDE"
+	icon: "minecraft:compass"
 	id: "3DD28C0A059FAE3E"
 	images: [
 		{
@@ -29,9 +30,9 @@
 		shape: "gear"
 		size: 3.0d
 		tasks: [{
-			id: "56ECDEA5FEB983BC"
-			structure: "idas:abandonedhouse"
-			type: "structure"
+			id: "2B1649A9F024169B"
+			item: "minecraft:compass"
+			type: "item"
 		}]
 		x: 0.0d
 		y: -6.5d

@@ -29,11 +29,23 @@
 		id: "40F1633DE443AF0E"
 		shape: "gear"
 		size: 3.0d
-		tasks: [{
-			id: "28B7AE98BC6CA91D"
-			structure: "hopo:mineshaft/acacia_mineshaft"
-			type: "structure"
-		}]
+		tasks: [
+			{
+				id: "4C60952CED0A6BD9"
+				item: "minecraft:rail"
+				type: "item"
+			}
+			{
+				id: "7494B81E2ED140ED"
+				item: "minecraft:obsidian"
+				type: "item"
+			}
+			{
+				id: "5BB887F7555CD3F8"
+				item: "minecraft:kelp"
+				type: "item"
+			}
+		]
 		x: 0.0d
 		y: -6.5d
 	}]
