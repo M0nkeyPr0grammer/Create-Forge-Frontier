@@ -64,6 +64,7 @@ Description Coming Later
 - Blacklisted Easy Villager and Easy Piglins Blocks
 
 ## **Mod Updates**
+- Ad Astra Delight: v1.1.1 > v1.1.2
 - AE Infinity Booster: v1.0.0+21 > v1.0.0+47
 - AE2 QOL Recipes: v1.2.0 > v1.3.0
 - Advancement Plaques: v1.6.7 > v1.6.9
@@ -71,9 +72,9 @@ Description Coming Later
 - Amendments: v1.2.16 > v1.2.18
 - Ambient Sounds: v6.1.4 > v6.1.6
 - Aquaculture Delight: v1.0.0 > v1.1.0
-- Balm: v7.3.14 > v7.3.17
+- Balm: v7.3.14 > v7.3.18
 - Cataclysm: v2.52 > v2.56
-- Collective: v7.87 > v7.92
+- Collective: v7.87 > v7.93
 - Connectivity: v6.8 > v7.0
 - Corpse Curios Compat: v2.1.0 > v2.2.0
 - Create Additions Synthetics: v3.3.2 > v3.4.1
@@ -104,9 +105,10 @@ Description Coming Later
 - Rhino: v2001.2.3-build.6 > v2001.2.3-build.10
 - Season Hud: v1.11.7 > v1.12.1
 - Sophisticated Backpacks: v3.23.4.1193 > v3.23.5.1203
-- Sophisticated Core: v1.2.6.858 > v1.2.12.890
+- Sophisticated Core: v1.2.6.858 > v1.2.12.894
 - Sophisticated Storage: v1.3.4.1061 > v1.3.8.1075
-- Supplementaries: v3.1.13 > v3.1.16
+- Structure Essentials: v4.2 > v4.3
+- Supplementaries: v3.1.13 > v3.1.17
 - Trade Cycling: v1.0.15 > v1.0.17
 - Xaeros Minimap: v25.0.0 > v25.1.0
 - Xaeros Worldmap: v1.39.2 > v1.39.4
