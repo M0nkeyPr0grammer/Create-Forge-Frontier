@@ -88,13 +88,14 @@ Description Coming Later
 - Firespread Tweaks: v2.7 > v2.8
 - Forge Frontier Core: v1.5.0 > v1.6.0
 - Fusion: v1.2.3 > v1.2.4
+- Fzzy Config: v0.5.9 > v0.6.4
 - Integrated API: v1.5.1 > v1.5.2
 - Integrated Villages: v1.1.5 > v1.2.0
 - Lithostiched: v1.4.3 > v1.4.4
 - Loot Integration (Structory): v1.1 > v1.2
 - Loot Integration (WDA): v1.5 > v1.6
 - Loot Integration (YUNGS): v1.2 > v1.3
-- Moonlight: v2.13.58 > v2.13.68
+- Moonlight: v2.13.58 > v2.13.69
 - Nether Remastered: v2.2 > v2.4
 - Not Enough Animations: v1.9.1 > v1.9.2
 - Packet Fixer: v1.4.5 > v2.0.0
