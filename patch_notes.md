@@ -40,6 +40,12 @@ Description Coming Later
 ### Forge Frontier
 - Created Netherite Casing Application Tag for Regions Unexplored Stripped Nether Wood and Logs
 - Removed Old Broken Limited Barrel Recipes
+### Minecraft
+- Provided Ad Astra and Quantum Armor Freeze Immune Wearables Tag
+### Ad Astra
+- Provided Quantum Armor Heat and Freeze Resistant Tags for space exploration
+### Create New Age
+- Provided Ad Astra and Quantum Armor Nuclear Protection Tag
 
 ## **Forge Frontier Core Updates**
 - Added in New **Energitic Blaze Burner** for AE2 Machine Processing Recipes, will be removing AE2 machines replaced with Create related Recipes

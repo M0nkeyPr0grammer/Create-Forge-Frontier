@@ -1,4 +1,30 @@
 ServerEvents.tags('item', event => {
+    // Freeze Resistance Tag
+    event.add('ad_astra:freeze_resistant_armor',[
+        'advanced_ae:quantum_helmet',
+        'advanced_ae:quantum_chestplate',
+        'advanced_ae:quantum_leggings',
+        'advanced_ae:quantum_boots',
+    ])
+
+    // Heat Resistant Armor Tag
+    event.add('ad_astra:heat_resistant_armor',[
+        'advanced_ae:quantum_helmet',
+        'advanced_ae:quantum_chestplate',
+        'advanced_ae:quantum_leggings',
+        'advanced_ae:quantum_boots',
+    ])
+
+    // Hazmat Protection Tag
+    event.add('create_new_age:nuclear/hazmat_suit',[
+        'ad_astra:freeze_resistant_armor'
+    ])
+
+    // Freeze Immune Equipment
+    event.add('minecraft:freeze_immune_wearables',[
+        'ad_astra:freeze_resistant_armor'
+    ])
+
     // Netherite Casing Tag
     event.add('forge_frontier:netherite_casing_application',[
         'regions_unexplored:stripped_brimwood_log',
@@ -6,6 +32,7 @@ ServerEvents.tags('item', event => {
         'regions_unexplored:stripped_cobalt_log',
         'regions_unexplored:stripped_cobalt_wood'
     ])
+
     // MCTB Revertable Workbench
     event.add('mctb:revertable_workbench','minecraft:crafting_table')
 
