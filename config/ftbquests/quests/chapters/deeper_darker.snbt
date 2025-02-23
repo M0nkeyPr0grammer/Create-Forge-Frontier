@@ -332,7 +332,7 @@
 				{
 					count: 32L
 					id: "0F37B278F1524299"
-					item: { Count: 32, id: "deeperdarker:infested_sculk" }
+					item: "deeperdarker:sculk_stone"
 					type: "item"
 				}
 				{
