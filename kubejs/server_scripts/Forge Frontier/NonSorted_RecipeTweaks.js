@@ -405,16 +405,6 @@ ServerEvents.recipes(event => {
 
 	}).id( 'forge_frontier:shapeless/coal_piece_coal' )
 
-	// Creates Ash Recipe
-	event.custom({
-		type: 'minecraft:smoking',
-		cookingtime: 100,
-		ingredient: {
-		  item: 'minecraft:charcoal'
-		},
-		result: 'supplementaries:ash'
-	  }).id( 'forge_frontier:smoking/ash' )
-
 	// Creates Modded Crafting Table Recipe
 	event.shapeless(
 		Item.of('minecraft:crafting_table'),
