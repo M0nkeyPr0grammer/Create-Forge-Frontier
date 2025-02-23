@@ -52,9 +52,9 @@
 			size: 3.0d
 			subtitle: "Reaching for the Stars 🌕✨ Click me for more info!"
 			tasks: [{
-				id: "4E06838927C45737"
-				title: "Check"
-				type: "checkmark"
+				id: "25BEA3A967EBC520"
+				item: "ad_astra:steel_ingot"
+				type: "item"
 			}]
 			title: "The Moon"
 			x: 0.0d

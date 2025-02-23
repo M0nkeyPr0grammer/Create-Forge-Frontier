@@ -47,9 +47,9 @@
 			size: 3.0d
 			subtitle: "The next step in your cosmic journey awaits! Click me for more info!"
 			tasks: [{
-				id: "1A5AFA7A72CF5BF9"
-				title: "Check"
-				type: "checkmark"
+				id: "4C252279091771C2"
+				item: "ad_astra:raw_desh"
+				type: "item"
 			}]
 			title: "Mars"
 			x: 0.0d

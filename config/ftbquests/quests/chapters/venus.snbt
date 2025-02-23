@@ -46,11 +46,11 @@
 			size: 3.0d
 			subtitle: "Surviving the Inferno, Click me for more info!"
 			tasks: [{
-				id: "209BB31057535458"
-				title: "Check"
-				type: "checkmark"
+				id: "552B723D05755AAC"
+				item: "ad_astra:raw_ostrum"
+				type: "item"
 			}]
-			title: "Welcome to Venus"
+			title: "Venus"
 			x: 0.0d
 			y: -6.5d
 		}
@@ -195,7 +195,9 @@
 				"Among these ruins, you’ll find:"
 				"{@pagebreak}"
 				"- Pygro Villages and Towers – Settlements of fiery, heat-resistant beings. They may offer valuable trades, but not all of them are friendly."
+				""
 				"- Incendium Reactor – A massive power facility, housing unstable but incredibly potent energy sources."
+				""
 				"- The Cursed Pyramid – A long-forgotten stronghold containing a fearsome guardian, rare artifacts, and ancient knowledge."
 				""
 				"Dare to explore these locations, and you may unlock new power—but at a great risk."
@@ -323,6 +325,7 @@
 				}
 				type: "item"
 			}]
+			subtitle: "Click me for more info!"
 			tasks: [{
 				id: "4BF590B48BF2AD4D"
 				title: "Check"
