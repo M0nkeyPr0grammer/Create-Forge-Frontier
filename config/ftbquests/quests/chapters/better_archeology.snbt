@@ -190,22 +190,26 @@
 		{
 			dependencies: ["1A07BBBA7A7163D8"]
 			id: "1CD2DB27A3433535"
+			subtitle: "Scattered walls and broken paths tell the story of a long-forgotten settlement."
 			tasks: [{
 				id: "14ACE942C132E71F"
 				structure: "betterarcheology:ruins_sand"
 				type: "structure"
 			}]
+			title: "Ruins in the Sand"
 			x: 0.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["1A07BBBA7A7163D8"]
 			id: "464C6CC633D482AE"
+			subtitle: "The cracked stones of these ruins stand as silent guardians over ancient treasures."
 			tasks: [{
 				id: "455F3F8CE5BCBACA"
 				structure: "betterarcheology:mesa_ruins"
 				type: "structure"
 			}]
+			title: "Mesa Ruins Adventure"
 			x: 1.5d
 			y: -1.5d
 		}
@@ -228,44 +232,52 @@
 		{
 			dependencies: ["6A9B41AD0D004575"]
 			id: "3025F91757F08C0C"
+			subtitle: "Deep underground lies a network of catacombs, where the brave may find ancient treasures—or curses."
 			tasks: [{
 				id: "428222B34BB79161"
 				structure: "betterarcheology:catacombs"
 				type: "structure"
 			}]
+			title: "Descent into the Catacombs"
 			x: 3.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["6A9B41AD0D004575"]
 			id: "763E8CE42C5F8E65"
+			subtitle: "Rising from the sands, this towering obelisk marks the resting place of ancient knowledge."
 			tasks: [{
 				id: "4DBF77BDD308FE4B"
 				structure: "betterarcheology:desert_obelisk"
 				type: "structure"
 			}]
+			title: "Desert Obelisk Discovery"
 			x: 4.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["6A9B41AD0D004575"]
 			id: "178A10677126726B"
+			subtitle: "This temple radiates an ancient light, guiding explorers to its hidden chambers."
 			tasks: [{
 				id: "00B6DEA2CC30B7AC"
 				structure: "betterarcheology:light_temple"
 				type: "structure"
 			}]
+			title: "Light Temple Expedition"
 			x: 6.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["6A9B41AD0D004575"]
 			id: "2C82F9551BEF8539"
+			subtitle: "Vines and moss conceal a temple lost to time—what secrets lie within?"
 			tasks: [{
 				id: "4FF674524FA1E011"
 				structure: "betterarcheology:temple_jungle"
 				type: "structure"
 			}]
+			title: "Jungle Temple Discovery"
 			x: 8.0d
 			y: -1.5d
 		}
@@ -288,39 +300,46 @@
 		{
 			dependencies: ["64A484FDC24E9972"]
 			id: "3E2169A7713490CE"
+			subtitle: "The remains of a long-forgotten creature await excavation."
 			tasks: [{
 				id: "1D6281DE93DC2F8D"
 				structure: "betterarcheology:fossil_chicken"
 				type: "structure"
 			}]
+			title: "Chicken Fossil Hunt"
 			x: -8.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["64A484FDC24E9972"]
 			id: "5FABD907263D5F7D"
+			subtitle: "Hidden within birch forests, these fossils lie undisturbed."
 			tasks: [{
 				id: "1F2C74E2402835DC"
 				structure: "betterarcheology:fossil_chicken_birch"
 				type: "structure"
 			}]
-			x: -6.0d
+			title: " Fossil Chicken (Birch Biome)"
+			x: -7.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["64A484FDC24E9972"]
 			id: "1FACB5BE9C73ECA3"
+			subtitle: "The remains of an ancient predator—what power did it once hold?"
 			tasks: [{
 				id: "7F179D6F9D810FA9"
 				structure: "betterarcheology:fossil_creeper"
 				type: "structure"
 			}]
-			x: -5.0d
+			title: "Creeper Fossil Dig"
+			x: -6.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["64A484FDC24E9972"]
 			id: "47A618C5242E14DA"
+			subtitle: "Deep in the jungle, ancient remains rest beneath the canopy."
 			tasks: [
 				{
 					id: "55405BE17266B7C4"
@@ -333,29 +352,34 @@
 					type: "structure"
 				}
 			]
-			x: -3.0d
+			title: "Jungle Fossils"
+			x: -5.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["64A484FDC24E9972"]
 			id: "1A8B7288C9AEC51F"
+			subtitle: "Even the humble sheep leaves its mark in history."
 			tasks: [{
 				id: "65C61F9F2C825C3E"
 				structure: "betterarcheology:fossil_sheep_0"
 				type: "structure"
 			}]
-			x: -7.0d
+			title: "Sheep Fossil Discovery"
+			x: -4.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["64A484FDC24E9972"]
 			id: "2010B6DDDB5D9500"
+			subtitle: "Bones of an ancient predator rest quietly beneath the earth."
 			tasks: [{
 				id: "468131CEF4339CE0"
 				structure: "betterarcheology:fossil_wolf"
 				type: "structure"
 			}]
-			x: -4.0d
+			title: "Wolf Fossil Expedition"
+			x: -3.0d
 			y: 3.5d
 		}
 		{
@@ -377,39 +401,46 @@
 		{
 			dependencies: ["03FAD5B9F17F1E37"]
 			id: "342AB18BF6A125E2"
+			subtitle: "An ancient stronghold, its crumbling walls still echo with forgotten stories."
 			tasks: [{
 				id: "29BDB2D33D71ADA4"
 				structure: "betterarcheology:mott"
 				type: "structure"
 			}]
+			title: "Mott Ruins"
 			x: -1.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["03FAD5B9F17F1E37"]
 			id: "3F353696BE60D985"
+			subtitle: "These ancient stones stand silent, guarding the secrets of the past."
 			tasks: [{
 				id: "0A5B86843A391CCA"
 				structure: "betterarcheology:stonehenge_grassy"
 				type: "structure"
 			}]
+			title: "Stonehenge Grassy Discovery"
 			x: 0.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["03FAD5B9F17F1E37"]
 			id: "407E0E03E080084C"
+			subtitle: "Beneath this grassy mound lies an ancient burial site."
 			tasks: [{
 				id: "567A33893D41D591"
 				structure: "betterarcheology:tumulus_grassy"
 				type: "structure"
 			}]
+			title: "Tumulus Grassy Adventure"
 			x: 2.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["399D790DDDC2CEAA"]
 			id: "2755C805498F1A4F"
+			subtitle: "Sunken beneath the waves, these ruins hold secrets lost to time."
 			tasks: [
 				{
 					id: "0327AB85C8DC9A70"
@@ -432,6 +463,7 @@
 					type: "structure"
 				}
 			]
+			title: "Deep Dive: Underwater Ruins"
 			x: 5.0d
 			y: 3.5d
 		}
@@ -470,11 +502,13 @@
 		{
 			dependencies: ["71262DE2D349D1A9"]
 			id: "4297B4AFDAC360A7"
+			subtitle: "Even the simplest graves hold stories—will you uncover theirs?"
 			tasks: [{
 				id: "63BEADFF1CC0DB7A"
 				structure: "betterarcheology:villager_grave"
 				type: "structure"
 			}]
+			title: "Villager Grave Expedition"
 			x: 7.5d
 			y: 3.5d
 		}
