@@ -31,6 +31,7 @@ Description Coming Later
 ### Rocket Progression
 - Adjusted Intro Quests to require Item Gathering or Dimensional traveling to unlock chapter instead of Checks
 ### Structure Exploration
+- Better Archeology: Completed Quests
 - Prepared Quest Chapters for future completion
 
 ## **Forge Frontier Core Updates**
