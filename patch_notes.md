@@ -93,7 +93,7 @@ Description Coming Later
 - Easy Piglins: v1.0.13 > v1.1.0
 - EMI: v1.1.19 > v1.1.20
 - Ends Delight: v2.5 > v2.5.1
-- Every Compat: v2.7.15 > v2.7.18
+- Every Compat: v2.7.15 > v2.7.19
 - Fancy Menu: v3.4.0 > v3.4.5
 - Firespread Tweaks: v2.7 > v2.8
 - Forge Frontier Core: v1.5.0 > v1.6.0
@@ -115,7 +115,7 @@ Description Coming Later
 - Sophisticated Core: v1.2.6.858 > v1.2.12.894
 - Sophisticated Storage: v1.3.4.1061 > v1.3.8.1075
 - Structure Essentials: v4.2 > v4.3
-- Supplementaries: v3.1.13 > v3.1.17
+- Supplementaries: v3.1.13 > v3.1.18
 - Trade Cycling: v1.0.15 > v1.0.17
 - Xaeros Minimap: v25.0.0 > v25.1.0
 - Xaeros Worldmap: v1.39.2 > v1.39.4
