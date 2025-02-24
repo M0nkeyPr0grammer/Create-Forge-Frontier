@@ -11,43 +11,473 @@
 		}
 	}
 	id: "59D4894CD3E8DEB5"
-	images: [
-		{
-			height: 10.0d
-			image: "ftb:textures/archeology_title.png"
-			rotation: 0.0d
-			width: 15.0d
-			x: 0.0d
-			y: -9.5d
-		}
-		{
-			height: 10.0d
-			image: "ftb:textures/coming_soon.png"
-			rotation: 0.0d
-			width: 15.0d
-			x: 0.0d
-			y: 0.0d
-		}
-	]
+	images: [{
+		height: 10.0d
+		image: "ftb:textures/archeology_title.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 0.0d
+		y: -9.5d
+	}]
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		id: "69838A6C4306E75E"
-		shape: "gear"
-		size: 3.0d
-		tasks: [{
-			id: "6E652554A43E7089"
-			item: {
-				Count: 1
-				id: "minecraft:brush"
-				tag: {
-					Damage: 0
+	quests: [
+		{
+			id: "69838A6C4306E75E"
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				id: "6E652554A43E7089"
+				item: {
+					Count: 1
+					id: "minecraft:brush"
+					tag: {
+						Damage: 0
+					}
 				}
-			}
-			type: "item"
-		}]
-		x: 0.0d
-		y: -6.5d
-	}]
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			description: [
+				"Scattered across the Overworld, archaeologists have set up camps in grassy plains, red sands, and deserts, eager to uncover ancient secrets. These camps hold supplies, tools, and early clues about the civilizations long gone."
+				""
+				"Begin your archaeological journey by visiting these camps and gathering useful resources for the quests ahead."
+			]
+			id: "6C41F1F50F2083A3"
+			subtitle: "First Camps of Discovery, Click me for more info!"
+			tasks: [{
+				id: "709D8EE5F15A3361"
+				title: "Archaeologist Camps"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6C41F1F50F2083A3"]
+			description: [
+				""
+				"{image:ftb:textures/grassy_camp.png width:250 height:150 align:center}"
+			]
+			id: "18BA76C9AB39F9F2"
+			rewards: [
+				{
+					id: "652B0B5608C0EC34"
+					item: "minecraft:shelter_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "4F0F8AE7F95F4C16"
+					item: "createcompression:compressed_grass_3x"
+					type: "item"
+				}
+				{
+					id: "18C63BE88E9EED4E"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Among the green hills lies a humble camp, filled with tools, tents, and the promise of discovery."
+			tasks: [{
+				id: "4A0440F54AB4A0DE"
+				structure: "betterarcheology:archeologist_camp_grassy"
+				type: "structure"
+			}]
+			title: "Grassy Camp Expedition"
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6C41F1F50F2083A3"]
+			description: [
+				""
+				"{image:ftb:textures/redsand_camp.png width:250 height:150 align:center}"
+			]
+			id: "4A96C273875C91F9"
+			rewards: [
+				{
+					id: "094D9FA0DE4AEC5B"
+					item: "minecraft:explorer_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "15E67E49B4215B8F"
+					item: "createcompression:compressed_red_sand_3x"
+					type: "item"
+				}
+				{
+					id: "31AA7D9705FBFC34"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "The red sands hold stories waiting to be uncovered. The desert heat won’t stop a determined archaeologist!"
+			tasks: [{
+				id: "67DF56DCCFEC534B"
+				structure: "betterarcheology:archeologist_camp_redsand"
+				type: "structure"
+			}]
+			title: "Red Sands Expedition"
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6C41F1F50F2083A3"]
+			description: [
+				""
+				"{image:ftb:textures/sand_camp.png width:250 height:150 align:center}"
+			]
+			id: "3C7B5DFA5502B5B7"
+			rewards: [
+				{
+					id: "5851F795B697DA0A"
+					item: "minecraft:burn_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "1D2BBE7E3C7021AF"
+					item: "createcompression:compressed_sand_3x"
+					type: "item"
+				}
+				{
+					id: "7F3DA3433AA466B2"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "In the golden dunes, archaeologists have pitched their tents, eager to unearth buried secrets."
+			tasks: [{
+				id: "587999C5D737520D"
+				structure: "betterarcheology:archeologist_camp_sand"
+				type: "structure"
+			}]
+			title: "Sands of Time Camp"
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Crumbling walls, buried pathways, and ancient obelisks lie scattered across the world. These ruins are remnants of once-thriving civilizations, now silent and waiting to be rediscovered."
+				""
+				"Explore these ancient sites to find rare artifacts and uncover the stories they hold."
+			]
+			id: "1A07BBBA7A7163D8"
+			subtitle: "Echoes of Forgotten Walls, Click me for more info!"
+			tasks: [{
+				id: "392A9FB84D10EF49"
+				title: "Ruins and Tombs"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1A07BBBA7A7163D8"]
+			id: "45D43D8771DF947D"
+			subtitle: "Time has buried these ruins beneath shifting sands, but determined explorers will find the truth."
+			tasks: [{
+				id: "672C6890DA66E07E"
+				structure: "betterarcheology:buried_ruins_sand"
+				type: "structure"
+			}]
+			title: "Buried Ruins (Sand)"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1A07BBBA7A7163D8"]
+			id: "1CD2DB27A3433535"
+			tasks: [{
+				id: "14ACE942C132E71F"
+				structure: "betterarcheology:ruins_sand"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1A07BBBA7A7163D8"]
+			id: "464C6CC633D482AE"
+			tasks: [{
+				id: "455F3F8CE5BCBACA"
+				structure: "betterarcheology:mesa_ruins"
+				type: "structure"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Beneath the surface lie catacombs and temples, where ancient guardians once stood watch. While time has worn down the walls, the secrets within remain untouched by daylight."
+				""
+				"Venture into these darkened chambers, but tread carefully—danger often lurks alongside treasure."
+			]
+			id: "6A9B41AD0D004575"
+			subtitle: "Descent into Darkness, Click me for more info!"
+			tasks: [{
+				id: "75A09FFA67D77066"
+				title: "Catacombs and Tombs"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6A9B41AD0D004575"]
+			id: "3025F91757F08C0C"
+			tasks: [{
+				id: "428222B34BB79161"
+				structure: "betterarcheology:catacombs"
+				type: "structure"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6A9B41AD0D004575"]
+			id: "763E8CE42C5F8E65"
+			tasks: [{
+				id: "4DBF77BDD308FE4B"
+				structure: "betterarcheology:desert_obelisk"
+				type: "structure"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6A9B41AD0D004575"]
+			id: "178A10677126726B"
+			tasks: [{
+				id: "00B6DEA2CC30B7AC"
+				structure: "betterarcheology:light_temple"
+				type: "structure"
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6A9B41AD0D004575"]
+			id: "2C82F9551BEF8539"
+			tasks: [{
+				id: "4FF674524FA1E011"
+				structure: "betterarcheology:temple_jungle"
+				type: "structure"
+			}]
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Long before the rise of modern creatures, ancient beasts roamed the world. Their remains now lie fossilized in the earth, waiting for a skilled archaeologist to unearth them."
+				""
+				"Embark on a fossil expedition and uncover the skeletal remains of creatures long extinct."
+			]
+			id: "64A484FDC24E9972"
+			subtitle: "Bones of the Past, Click me for more info!"
+			tasks: [{
+				id: "794A04BD7A47B498"
+				title: "Fossil Expeditions"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["64A484FDC24E9972"]
+			id: "3E2169A7713490CE"
+			tasks: [{
+				id: "1D6281DE93DC2F8D"
+				structure: "betterarcheology:fossil_chicken"
+				type: "structure"
+			}]
+			x: -8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["64A484FDC24E9972"]
+			id: "5FABD907263D5F7D"
+			tasks: [{
+				id: "1F2C74E2402835DC"
+				structure: "betterarcheology:fossil_chicken_birch"
+				type: "structure"
+			}]
+			x: -6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["64A484FDC24E9972"]
+			id: "1FACB5BE9C73ECA3"
+			tasks: [{
+				id: "7F179D6F9D810FA9"
+				structure: "betterarcheology:fossil_creeper"
+				type: "structure"
+			}]
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["64A484FDC24E9972"]
+			id: "47A618C5242E14DA"
+			tasks: [
+				{
+					id: "55405BE17266B7C4"
+					structure: "betterarcheology:fossil_jungle_0"
+					type: "structure"
+				}
+				{
+					id: "4607EB6305C9751C"
+					structure: "betterarcheology:fossil_jungle_1"
+					type: "structure"
+				}
+			]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["64A484FDC24E9972"]
+			id: "1A8B7288C9AEC51F"
+			tasks: [{
+				id: "65C61F9F2C825C3E"
+				structure: "betterarcheology:fossil_sheep_0"
+				type: "structure"
+			}]
+			x: -7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["64A484FDC24E9972"]
+			id: "2010B6DDDB5D9500"
+			tasks: [{
+				id: "468131CEF4339CE0"
+				structure: "betterarcheology:fossil_wolf"
+				type: "structure"
+			}]
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"The most remarkable remnants of ancient civilizations stand tall as legendary structures. From Stonehenge-like formations to ancient fortresses, these sites hold the most valuable treasures—and the deepest mysteries."
+				""
+				"Only the most determined explorers will unlock their secrets."
+			]
+			id: "03FAD5B9F17F1E37"
+			subtitle: "Monuments of Time, Click me for more info!"
+			tasks: [{
+				id: "138F3F46DD2912A9"
+				title: "Legendary Structures"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["03FAD5B9F17F1E37"]
+			id: "342AB18BF6A125E2"
+			tasks: [{
+				id: "29BDB2D33D71ADA4"
+				structure: "betterarcheology:mott"
+				type: "structure"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["03FAD5B9F17F1E37"]
+			id: "3F353696BE60D985"
+			tasks: [{
+				id: "0A5B86843A391CCA"
+				structure: "betterarcheology:stonehenge_grassy"
+				type: "structure"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["03FAD5B9F17F1E37"]
+			id: "407E0E03E080084C"
+			tasks: [{
+				id: "567A33893D41D591"
+				structure: "betterarcheology:tumulus_grassy"
+				type: "structure"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["399D790DDDC2CEAA"]
+			id: "2755C805498F1A4F"
+			tasks: [
+				{
+					id: "0327AB85C8DC9A70"
+					structure: "betterarcheology:underwater_0"
+					type: "structure"
+				}
+				{
+					id: "457D810068B66BD5"
+					structure: "betterarcheology:underwater_1"
+					type: "structure"
+				}
+				{
+					id: "5548C06F10B7720C"
+					structure: "betterarcheology:underwater_2"
+					type: "structure"
+				}
+				{
+					id: "5C42C71FAEE5B693"
+					structure: "betterarcheology:underwater_3"
+					type: "structure"
+				}
+			]
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"Not all ruins lie on dry land—many have sunken beneath the sea, preserved in watery silence. Ancient buildings, scattered across the ocean floor, promise rare finds to those brave enough to dive deep."
+				""
+				"Prepare your gear, hold your breath, and explore the underwater ruins."
+			]
+			id: "399D790DDDC2CEAA"
+			subtitle: "Beneath the Waves, Click me for more info!"
+			tasks: [{
+				id: "6A46426DB7934575"
+				type: "checkmark"
+			}]
+			title: "Underwater Expeditions"
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"Even the simplest of graves can hold powerful relics and stories of the past. Some sites, like the Villager Graves, mark the end of one journey and the beginning of another."
+				""
+				"Respect the dead, but don't hesitate to uncover their secrets."
+			]
+			id: "71262DE2D349D1A9"
+			subtitle: "Graves and Secrets, Click me for more info!"
+			tasks: [{
+				id: "2753091DE652A750"
+				title: "Final Reseting Place"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["71262DE2D349D1A9"]
+			id: "4297B4AFDAC360A7"
+			tasks: [{
+				id: "63BEADFF1CC0DB7A"
+				structure: "betterarcheology:villager_grave"
+				type: "structure"
+			}]
+			x: 7.5d
+			y: 3.5d
+		}
+	]
 	title: "Better Archeology"
 }
