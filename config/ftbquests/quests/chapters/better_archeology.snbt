@@ -176,6 +176,10 @@
 		}
 		{
 			dependencies: ["1A07BBBA7A7163D8"]
+			description: [
+				""
+				"{image:ftb:textures/buried_ruins_sand.png width:250 height:150 align:center}"
+			]
 			id: "45D43D8771DF947D"
 			subtitle: "Time has buried these ruins beneath shifting sands, but determined explorers will find the truth."
 			tasks: [{
@@ -189,6 +193,10 @@
 		}
 		{
 			dependencies: ["1A07BBBA7A7163D8"]
+			description: [
+				""
+				"{image:ftb:textures/ruins_sand.png width:250 height:150 align:center}"
+			]
 			id: "1CD2DB27A3433535"
 			subtitle: "Scattered walls and broken paths tell the story of a long-forgotten settlement."
 			tasks: [{
@@ -202,6 +210,10 @@
 		}
 		{
 			dependencies: ["1A07BBBA7A7163D8"]
+			description: [
+				""
+				"{image:ftb:textures/mesa_ruins.png width:250 height:150 align:center}"
+			]
 			id: "464C6CC633D482AE"
 			subtitle: "The cracked stones of these ruins stand as silent guardians over ancient treasures."
 			tasks: [{
@@ -231,6 +243,10 @@
 		}
 		{
 			dependencies: ["6A9B41AD0D004575"]
+			description: [
+				""
+				"{image:ftb:textures/catacombs.png width:250 height:150 align:center}"
+			]
 			id: "3025F91757F08C0C"
 			subtitle: "Deep underground lies a network of catacombs, where the brave may find ancient treasures—or curses."
 			tasks: [{
@@ -244,6 +260,10 @@
 		}
 		{
 			dependencies: ["6A9B41AD0D004575"]
+			description: [
+				""
+				"{image:ftb:textures/desert_obelisk.png width:250 height:150 align:center}"
+			]
 			id: "763E8CE42C5F8E65"
 			subtitle: "Rising from the sands, this towering obelisk marks the resting place of ancient knowledge."
 			tasks: [{
@@ -257,6 +277,10 @@
 		}
 		{
 			dependencies: ["6A9B41AD0D004575"]
+			description: [
+				""
+				"{image:ftb:textures/light_temple.png width:250 height:150 align:center}"
+			]
 			id: "178A10677126726B"
 			subtitle: "This temple radiates an ancient light, guiding explorers to its hidden chambers."
 			tasks: [{
@@ -270,6 +294,10 @@
 		}
 		{
 			dependencies: ["6A9B41AD0D004575"]
+			description: [
+				""
+				"{image:ftb:textures/temple_jungle.png width:250 height:150 align:center}"
+			]
 			id: "2C82F9551BEF8539"
 			subtitle: "Vines and moss conceal a temple lost to time—what secrets lie within?"
 			tasks: [{
@@ -299,6 +327,10 @@
 		}
 		{
 			dependencies: ["64A484FDC24E9972"]
+			description: [
+				""
+				"{image:ftb:textures/fossil_chicken.png width:250 height:150 align:center}"
+			]
 			id: "3E2169A7713490CE"
 			subtitle: "The remains of a long-forgotten creature await excavation."
 			tasks: [{
@@ -312,6 +344,10 @@
 		}
 		{
 			dependencies: ["64A484FDC24E9972"]
+			description: [
+				""
+				"{image:ftb:textures/fossil_chicken_birch.png width:250 height:150 align:center}"
+			]
 			id: "5FABD907263D5F7D"
 			subtitle: "Hidden within birch forests, these fossils lie undisturbed."
 			tasks: [{
@@ -325,6 +361,10 @@
 		}
 		{
 			dependencies: ["64A484FDC24E9972"]
+			description: [
+				""
+				"{image:ftb:textures/fossil_creeper.png width:250 height:150 align:center}"
+			]
 			id: "1FACB5BE9C73ECA3"
 			subtitle: "The remains of an ancient predator—what power did it once hold?"
 			tasks: [{
@@ -338,6 +378,10 @@
 		}
 		{
 			dependencies: ["64A484FDC24E9972"]
+			description: [
+				""
+				"{image:ftb:textures/jungle_fossil.png width:250 height:150 align:center}"
+			]
 			id: "47A618C5242E14DA"
 			subtitle: "Deep in the jungle, ancient remains rest beneath the canopy."
 			tasks: [
@@ -358,6 +402,10 @@
 		}
 		{
 			dependencies: ["64A484FDC24E9972"]
+			description: [
+				""
+				"{image:ftb:textures/fossil_sheep.png width:250 height:150 align:center}"
+			]
 			id: "1A8B7288C9AEC51F"
 			subtitle: "Even the humble sheep leaves its mark in history."
 			tasks: [{
@@ -371,6 +419,10 @@
 		}
 		{
 			dependencies: ["64A484FDC24E9972"]
+			description: [
+				""
+				"{image:ftb:textures/fossil_wolf.png width:250 height:150 align:center}"
+			]
 			id: "2010B6DDDB5D9500"
 			subtitle: "Bones of an ancient predator rest quietly beneath the earth."
 			tasks: [{
@@ -400,6 +452,10 @@
 		}
 		{
 			dependencies: ["03FAD5B9F17F1E37"]
+			description: [
+				""
+				"{image:ftb:textures/mott.png width:250 height:150 align:center}"
+			]
 			id: "342AB18BF6A125E2"
 			subtitle: "An ancient stronghold, its crumbling walls still echo with forgotten stories."
 			tasks: [{
@@ -413,6 +469,10 @@
 		}
 		{
 			dependencies: ["03FAD5B9F17F1E37"]
+			description: [
+				""
+				"{image:ftb:textures/stonehenge_grassy.png width:250 height:150 align:center}"
+			]
 			id: "3F353696BE60D985"
 			subtitle: "These ancient stones stand silent, guarding the secrets of the past."
 			tasks: [{
@@ -426,6 +486,10 @@
 		}
 		{
 			dependencies: ["03FAD5B9F17F1E37"]
+			description: [
+				""
+				"{image:ftb:textures/tumulus_grassy.png width:250 height:150 align:center}"
+			]
 			id: "407E0E03E080084C"
 			subtitle: "Beneath this grassy mound lies an ancient burial site."
 			tasks: [{
@@ -439,6 +503,10 @@
 		}
 		{
 			dependencies: ["399D790DDDC2CEAA"]
+			description: [
+				""
+				"{image:ftb:textures/underwater_ruins.png width:250 height:150 align:center}"
+			]
 			id: "2755C805498F1A4F"
 			subtitle: "Sunken beneath the waves, these ruins hold secrets lost to time."
 			tasks: [
@@ -501,6 +569,10 @@
 		}
 		{
 			dependencies: ["71262DE2D349D1A9"]
+			description: [
+				""
+				"{image:ftb:textures/villager_grave.png width:250 height:150 align:center}"
+			]
 			id: "4297B4AFDAC360A7"
 			subtitle: "Even the simplest graves hold stories—will you uncover theirs?"
 			tasks: [{
