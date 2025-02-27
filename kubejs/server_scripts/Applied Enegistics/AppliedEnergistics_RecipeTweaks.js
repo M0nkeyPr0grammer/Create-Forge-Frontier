@@ -4,6 +4,14 @@ ServerEvents.recipes(event => {
 event.remove({ id: 'expatternprovider:cobblestone_cell'})
 event.remove({ id: 'expattenprovider:ex_inscriber'})
 
+// Remove In - World Transformation Liquid Recipes
+event.remove({ id: 'ae2:transform/fluix_crystals'})
+event.remove({ id: 'ae2:transform/fluix_crystal'})
+event.remove({ id: 'ae2:transform/flawed_budding_quartz'})
+event.remove({ id: 'ae2:transform/chipped_budding_quartz'})
+event.remove({ id: 'ae2:transform/damaged_budding_quartz'})
+event.remove({ id: 'ae2:transform/certus_quartz_crystals'})
+
 
 // New Charger Recipe
 event.remove({ id: 'ae2:network/blocks/crystal_processing_charger'})
