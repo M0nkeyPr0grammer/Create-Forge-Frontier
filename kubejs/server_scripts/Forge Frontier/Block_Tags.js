@@ -94,4 +94,8 @@ ServerEvents.tags('block', event => {
 // Create Casing Tag
 event.add('create:casing','forge_frontier:forge_rocket_casing')
 
+// Adds Fan Processing Catalysts
+event.add('create_dd:fan_processing_catalysts_freezing', 'create_connected:fan_freezing_catalyst')
+event.add('create_dd:fan_processing_catalysts_superheating', 'create_connected:fan_seething_catalyst')
+
 });
