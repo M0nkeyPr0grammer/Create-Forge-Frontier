@@ -71,6 +71,8 @@ Description Coming Later
 ## **Config Updates**
 ### Carry On
 - Blacklisted Easy Villager and Easy Piglins Blocks
+### End Phantasm
+- Disabled Outer End Teleport Feature, so players will now spawn on the Main End Island when entering the End
 
 ## **Mod Updates**
 - Ad Astra Delight: v1.1.1 > v1.1.2
