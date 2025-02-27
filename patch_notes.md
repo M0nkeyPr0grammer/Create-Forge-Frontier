@@ -42,7 +42,9 @@ Description Coming Later
 
 ## **KubeJS Updates**  
 ### **Ad Astra**  
-- Provided Quantum Armor Heat and Freeze Resistant Tags for space exploration  
+- Provided Quantum Armor Heat and Freeze Resistant Tags for space exploration
+### **Advanced AE**
+- Removed Circuit Slicer recipe to use Sequenced Assembly Recipes instead  
 ### **AE2**  
 - Removed In-world transformation liquid recipes, requiring mixing instead  
 ### **Applied Flux**  
@@ -54,7 +56,10 @@ Description Coming Later
 - Adjusted Nut Milk to produce fluid instead of bucket  
 ### **Dreams & Desires**  
 - New Netherite Casing Recipe using Regions Unexplored Nether Wood  
-- New Smoked Log Recipe, uses smoking instead of heated mixing  
+- New Smoked Log Recipe, uses smoking instead of heated mixing
+### **Extended Pattern Provider**
+- Removed Circuit Slicer recipes to use Sequenced Assembly Recipes instead
+- Removed Circuit Slicer as recipes were removed
 ### **Farming for Block Heads**  
 - Removed Regions Unexplored Nether Saplings for Progression Log for Netherite causing  
 ### **Forge Frontier**  

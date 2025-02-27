@@ -1,5 +1,8 @@
 ServerEvents.recipes(event => {
 
+    // Removes Circut Slicer Recipe
+    event.remove({ id: 'advanced_ae:quantum_processor_print_eae'})
+
     // Quantum Dust Recipe
     event.remove({ id: 'advanced_ae:quantum_infused_dust'})
     event.custom({
