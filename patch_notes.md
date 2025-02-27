@@ -48,7 +48,7 @@ Description Coming Later
 ### **AE2**  
 - Removed In-world transformation liquid recipes, requiring mixing instead  
 ### **Applied Flux**  
-- Removed In-world transformation liquid recipe, requiring mixing instead  
+- Removed In-world transformation liquid recipe, requiring mixing instead
 ### **Create New Age**  
 - Provided Ad Astra and Quantum Armor Nuclear Protection Tag  
 - Added all Charging Recipes to Energizer  
@@ -65,7 +65,8 @@ Description Coming Later
 ### **Forge Frontier**  
 - Created Netherite Casing Application Tag for Regions Unexplored Stripped Nether Wood and Logs  
 - Created Recipe for New Forge Frontier Core: Energetic Blaze Burner  
-- Removed Old Broken Limited Barrel Recipes  
+- Removed Old Broken Limited Barrel Recipes
+- Fixed Create Connected Dreams and Desire Catalyst tags, so catalyst now work  
 ### **FTB**  
 - Added any new screenshots for Quests  
 ### **Minecraft**  
