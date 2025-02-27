@@ -41,32 +41,36 @@ Description Coming Later
 - More Coming Soon!
 
 ## **KubeJS Updates**  
-### FTB
-- Added any new screenshots for Quests
-### Farming for Block Heads
-- Removed Regions Unexplored Nether Sapplings for Progression Log for Netherite causing
-### Dreams & Desires
-- New Netherite Casing Recipe using Regions Unexplored Nether Wood
-- New Smoked Log Recipe, uses smoking instead of heated mixing
-### TFMG
-- Removed Cinder Flour Block Recipe due to recipe conflicts
-- Removed Excess Coke Oven Recipe
-### Forge Frontier
-- Created Netherite Casing Application Tag for Regions Unexplored Stripped Nether Wood and Logs
-- Removed Old Broken Limited Barrel Recipes
-- Created Recipe for New Forge Frontier Core: Energetic Blaze Burner
-### Minecraft
-- Provided Ad Astra and Quantum Armor Freeze Immune Wearables Tag
-### Ad Astra
-- Provided Quantum Armor Heat and Freeze Resistant Tags for space exploration
-### Create New Age
-- Provided Ad Astra and Quantum Armor Nuclear Protection Tag
-- Added all Charging Recipes to Energizer
-### Quark
-- Removed Crafting recipe for Cobbled Bricks, still can use stone cutter
-- Adjusted Sturdy Stone Recipe to use 4 instead of 9 for better compatibility
-### Delightful
-- Adjusted Nut Milk to produce fluid instead of bucket
+### **Ad Astra**  
+- Provided Quantum Armor Heat and Freeze Resistant Tags for space exploration  
+### **AE2**  
+- Removed In-world transformation liquid recipes, requiring mixing instead  
+### **Applied Flux**  
+- Removed In-world transformation liquid recipe, requiring mixing instead  
+### **Create New Age**  
+- Provided Ad Astra and Quantum Armor Nuclear Protection Tag  
+- Added all Charging Recipes to Energizer  
+### **Delightful**  
+- Adjusted Nut Milk to produce fluid instead of bucket  
+### **Dreams & Desires**  
+- New Netherite Casing Recipe using Regions Unexplored Nether Wood  
+- New Smoked Log Recipe, uses smoking instead of heated mixing  
+### **Farming for Block Heads**  
+- Removed Regions Unexplored Nether Saplings for Progression Log for Netherite causing  
+### **Forge Frontier**  
+- Created Netherite Casing Application Tag for Regions Unexplored Stripped Nether Wood and Logs  
+- Created Recipe for New Forge Frontier Core: Energetic Blaze Burner  
+- Removed Old Broken Limited Barrel Recipes  
+### **FTB**  
+- Added any new screenshots for Quests  
+### **Minecraft**  
+- Provided Ad Astra and Quantum Armor Freeze Immune Wearables Tag  
+### **Quark**  
+- Adjusted Sturdy Stone Recipe to use 4 instead of 9 for better compatibility  
+- Removed Crafting recipe for Cobbled Bricks, still can use stone cutter  
+### **TFMG**  
+- Removed Cinder Flour Block Recipe due to recipe conflicts  
+- Removed Excess Coke Oven Recipe  
 
 ## **Config Updates**
 ### Carry On
