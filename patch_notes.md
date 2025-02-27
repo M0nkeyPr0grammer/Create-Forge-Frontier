@@ -57,6 +57,7 @@ Description Coming Later
 ### **Dreams & Desires**  
 - New Netherite Casing Recipe using Regions Unexplored Nether Wood  
 - New Smoked Log Recipe, uses smoking instead of heated mixing
+- New Infernal Mechanism Recipe, now uses rubber in the recipe
 ### **Extended Pattern Provider**
 - Removed Circuit Slicer recipes to use Sequenced Assembly Recipes instead
 - Removed Circuit Slicer as recipes were removed
