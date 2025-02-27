@@ -80,40 +80,47 @@ Description Coming Later
 - Advanced AE: v1.1.1 > v1.1.2
 - Amendments: v1.2.16 > v1.2.18
 - Ambient Sounds: v6.1.4 > v6.1.6
+- Aquaculture: v2.5.3 > v2.5.4
 - Aquaculture Delight: v1.0.0 > v1.1.0
 - Balm: v7.3.14 > v7.3.18
+- Brewin and Chewin: v3.1.2 > v3.2.1
 - Cataclysm: v2.52 > v2.56
 - Collective: v7.87 > v7.93
-- Connectivity: v6.8 > v7.0
-- Corpse Curios Compat: v2.1.0 > v2.2.0
+- Connectivity: v6.8 > v7.1
+- Corpse Curios Compat: v2.1.0 > v2.2.1
 - Create Additions Synthetics: v3.3.2 > v3.4.1
 - Create Better Villagers: v1.2.3 > v1.2.4
 - Create Encased: v1.6.2-fix1 > v1.6.2-fix3
 - Create Teleporters: v2.2 > v2.3
-- Curios: v5.11.1 > v5.12.0
+- Curios: v5.11.1 > v5.12.1
 - Custom Credits: v1.6 > v1.7
 - Easy Piglins: v1.0.13 > v1.1.0
 - EMI: v1.1.19 > v1.1.20
 - Ends Delight: v2.5 > v2.5.1
+- Entity Culling: v1.7.2 > v1.7.3
 - Every Compat: v2.7.15 > v2.7.19
-- Fancy Menu: v3.4.0 > v3.4.5
+- Fancy Menu: v3.4.0 > v3.4.6
 - Firespread Tweaks: v2.7 > v2.8
 - Forge Frontier Core: v1.5.0 > v1.6.0
 - Fusion: v1.2.3 > v1.2.4
 - Fzzy Config: v0.5.9 > v0.6.4
+- Immediately Fast: v1.3.4 > v1.3.5
+- Immersive Aircraft: 1.1.8 > v1.2.1
 - Integrated API: v1.5.1 > v1.5.2
 - Integrated Villages: v1.1.5 > v1.2.0
 - Lithostiched: v1.4.3 > v1.4.4
 - Loot Integration (Structory): v1.1 > v1.2
 - Loot Integration (WDA): v1.5 > v1.6
 - Loot Integration (YUNGS): v1.2 > v1.3
-- Moonlight: v2.13.58 > v2.13.69
+- Moonlight: v2.13.58 > v2.13.70
 - Nether Remastered: v2.2 > v2.4
 - Not Enough Animations: v1.9.1 > v1.9.2
 - Packet Fixer: v1.4.5 > v2.0.0
+- Resourceful Config: v2.1.2 > v2.1.3
 - Rhino: v2001.2.3-build.6 > v2001.2.3-build.10
 - Season Hud: v1.11.7 > v1.12.1
-- Sophisticated Backpacks: v3.23.4.1193 > v3.23.5.1203
+- Serene Seasons: v9.1.0.0 > v9.1.0.1
+- Sophisticated Backpacks: v3.23.4.1193 > v3.23.5.1205
 - Sophisticated Core: v1.2.6.858 > v1.2.12.894
 - Sophisticated Storage: v1.3.4.1061 > v1.3.8.1075
 - Structure Essentials: v4.2 > v4.3
