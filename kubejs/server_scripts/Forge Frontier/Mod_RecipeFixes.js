@@ -1,5 +1,10 @@
 // Mod Recipe Fixes
 ServerEvents.recipes(event => {
+
+    // Removes Fan Sanding Catalyst Recipes
+    event.remove({ id: 'create_connected:item_application/sanding_catalyst_fan_empty_using_deployer' })
+    event.remove({ id: 'create_connected:item_application/sanding_catalyst_fan_empty' })
+    
     // Adjusts Heated Mixing Recipe for Nut Milk Recipe
     event.remove({ id: 'delightful:food/cooking/nut_milk' })
     event.custom({
