@@ -51,7 +51,10 @@ Description Coming Later
 - Removed In-world transformation liquid recipe, requiring mixing instead
 ### **Create New Age**  
 - Provided Ad Astra and Quantum Armor Nuclear Protection Tag  
-- Added all Charging Recipes to Energizer  
+- Added all Charging Recipes to Energizer
+### **Create Connected**
+- Fixed Create Connected Dreams and Desire Catalyst tags, so catalyst now work  
+- Removed Sanding Catalyst Recipe, due to it not being functional
 ### **Delightful**  
 - Adjusted Nut Milk to produce fluid instead of bucket  
 ### **Dreams & Desires**  
@@ -67,7 +70,6 @@ Description Coming Later
 - Created Netherite Casing Application Tag for Regions Unexplored Stripped Nether Wood and Logs  
 - Created Recipe for New Forge Frontier Core: Energetic Blaze Burner  
 - Removed Old Broken Limited Barrel Recipes
-- Fixed Create Connected Dreams and Desire Catalyst tags, so catalyst now work  
 ### **FTB**  
 - Added any new screenshots for Quests  
 ### **Minecraft**  
