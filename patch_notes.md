@@ -1,5 +1,5 @@
 # Modpack Patch Notes: Version 2.2.0
-**Release Date**: March 1st, 2025
+**Release Date**: March 3st, 2025
 
 # Name Coming Later
 
