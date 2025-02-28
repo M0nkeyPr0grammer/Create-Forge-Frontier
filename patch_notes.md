@@ -44,7 +44,8 @@ Description Coming Later
 ### **Ad Astra**  
 - Provided Quantum Armor Heat and Freeze Resistant Tags for space exploration
 ### **Advanced AE**
-- Removed Circuit Slicer recipe to use Sequenced Assembly Recipes instead  
+- Removed Circuit Slicer recipe to use Sequenced Assembly Recipes instead
+- Replaced Reaction Chamber Recipes with Forge Frontier Energetic Mixing Recipes  
 ### **AE2**  
 - Removed In-world transformation liquid recipes, requiring mixing instead  
 ### **Applied Flux**  
@@ -75,6 +76,7 @@ Description Coming Later
 - Remove Crushing Recipe for Amethyst
 - Create New Seething Recipes for Amethyst, Flint, Quartz, Rose Quartz, Spectral Ruby, and Stellarite
 - Fix Molten Malachite Compacting Recipe
+- Created New Energetic Recipes replacing Reaction Chamber Recipes
 ### **FTB**  
 - Added any new screenshots for Quests  
 ### **Minecraft**  
