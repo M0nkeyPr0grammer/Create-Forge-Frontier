@@ -110,6 +110,7 @@ Description Coming Later
 - Create Teleporters: v2.2 > v2.3
 - Curios: v5.11.1 > v5.12.1
 - Custom Credits: v1.6 > v1.7
+- Delightful: v3.7 > v3.7.1
 - Easy Piglins: v1.0.13 > v1.1.0
 - EMI: v1.1.19 > v1.1.20
 - Ends Delight: v2.5 > v2.5.1
@@ -136,7 +137,7 @@ Description Coming Later
 - Rhino: v2001.2.3-build.6 > v2001.2.3-build.10
 - Season Hud: v1.11.7 > v1.12.1
 - Serene Seasons: v9.1.0.0 > v9.1.0.1
-- Sophisticated Backpacks: v3.23.4.1193 > v3.23.5.1205
+- Sophisticated Backpacks: v3.23.4.1193 > v3.23.5.1210
 - Sophisticated Core: v1.2.6.858 > v1.2.12.894
 - Sophisticated Storage: v1.3.4.1061 > v1.3.8.1075
 - Structure Essentials: v4.2 > v4.3
