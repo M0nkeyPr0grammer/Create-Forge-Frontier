@@ -57,6 +57,8 @@ Description Coming Later
 - Fixed Create Connected Dreams and Desire Catalyst tags, so catalyst now work  
 - Removed Sanding Catalyst Recipe, due to it not being functional
 - Updated Dreams and Desires Catalysts' Tooltips so players know how to use them
+### **Curios**
+- Created New Jetpack Curios Slot
 ### **Delightful**  
 - Adjusted Nut Milk to produce fluid instead of bucket  
 ### **Dreams & Desires**  
