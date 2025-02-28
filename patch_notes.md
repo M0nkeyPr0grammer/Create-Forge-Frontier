@@ -50,13 +50,15 @@ Description Coming Later
 - Removed In-world transformation liquid recipes, requiring mixing instead  
 ### **Applied Flux**  
 - Removed In-world transformation liquid recipe, requiring mixing instead
-### **Create New Age**  
-- Provided Ad Astra and Quantum Armor Nuclear Protection Tag  
-- Added all Charging Recipes to Energizer
+### **Create - Balanced Flight**
+- New Flight Ring recipe, replaced Bismuth Jetpack with Netherite Jetpack
 ### **Create Connected**
 - Fixed Create Connected Dreams and Desire Catalyst tags, so catalyst now work  
 - Removed Sanding Catalyst Recipe, due to it not being functional
 - Updated Dreams and Desires Catalysts' Tooltips so players know how to use them
+### **Create New Age**  
+- Provided Ad Astra and Quantum Armor Nuclear Protection Tag  
+- Added all Charging Recipes to Energizer
 ### **Curios**
 - Created New Jetpack Curios Slot
 ### **Delightful**  
@@ -80,6 +82,7 @@ Description Coming Later
 - Fix Molten Malachite Compacting Recipe
 - Created New Energetic Recipes replacing Reaction Chamber Recipes
 - Created New Jetpack curios slot, and added Jetpacks to said slot
+- Adjusted Forge Rocket Engine Recipe to use Netherite Jetpack instead of Bismuth Jetpack
 ### **FTB**  
 - Added any new screenshots for Quests  
 ### **Minecraft**  
