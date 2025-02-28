@@ -77,6 +77,7 @@ Description Coming Later
 - Create New Seething Recipes for Amethyst, Flint, Quartz, Rose Quartz, Spectral Ruby, and Stellarite
 - Fix Molten Malachite Compacting Recipe
 - Created New Energetic Recipes replacing Reaction Chamber Recipes
+- Created New Jetpack curios slot, and added Jetpacks to said slot
 ### **FTB**  
 - Added any new screenshots for Quests  
 ### **Minecraft**  
