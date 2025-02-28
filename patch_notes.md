@@ -62,6 +62,7 @@ Description Coming Later
 - New Netherite Casing Recipe using Regions Unexplored Nether Wood  
 - New Smoked Log Recipe, uses smoking instead of heated mixing
 - New Infernal Mechanism Recipe, now uses rubber in the recipe
+- Remove Seething Recipes for Rose Quartz and Spectral Ruby
 ### **Extended Pattern Provider**
 - Removed Circuit Slicer recipes to use Sequenced Assembly Recipes instead
 - Removed Circuit Slicer as recipes were removed
@@ -71,6 +72,9 @@ Description Coming Later
 - Created Netherite Casing Application Tag for Regions Unexplored Stripped Nether Wood and Logs  
 - Created Recipe for New Forge Frontier Core: Energetic Blaze Burner  
 - Removed Old Broken Limited Barrel Recipes
+- Remove Crushing Recipe for Amethyst
+- Create New Seething Recipes for Amethyst, Flint, Quartz, Rose Quartz, Spectral Ruby, and Stellarite
+- Fix Molten Malachite Compacting Recipe
 ### **FTB**  
 - Added any new screenshots for Quests  
 ### **Minecraft**  
