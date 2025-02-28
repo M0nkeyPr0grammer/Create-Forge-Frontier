@@ -133,7 +133,16 @@ ServerEvents.tags('item', event => {
         '#elytraslot:elytra')
 
     // New Curious Back Slot tag
-    event.add('curios:back', '#create:pressurized_air_sources')
+    event.add('curios:back', [
+        'create:copper_backtank',
+        'create:nether_backtank',
+        'createqol:shadow_radiance_chestplate',
+        'creategoggles:chainmail_backtank',
+        'creategoggles:diamond_backtank',
+        'creategoggles:golden_backtank',
+        'creategoggles:iron_backtank',
+        'creategoggles:leather_backtank'
+    ])
 
     // New Curious Terminals Tags
     event.add('curios:terminals',[
@@ -174,6 +183,13 @@ ServerEvents.tags('item', event => {
         'alexsmobs:tarantula_hawk_elytra',
         'deeperdarker:soul_elytra'
     ])
+
+    // Removes Netherite Jetpack from Back and Head Curios
+    event.remove('curios:back', 'create_sa:netherite_jetpack_chestplate')
+    event.remove('curios:head', 'create_sa:netherite_jetpack_chestplate')
+    
+    // Adds Jetpacks to custom jetpack slot
+    event.add('curios:jetpacks', '#create_sa:jetpack')
 
     // Create Stone Types
     const createStones = [
