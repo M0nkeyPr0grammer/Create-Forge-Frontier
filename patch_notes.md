@@ -1,5 +1,5 @@
 # Modpack Patch Notes: Version 2.2.0
-**Release Date**: March 3st, 2025
+**Release Date**: March 3rd, 2025
 
 # Name Coming Later
 
@@ -9,7 +9,6 @@ Description Coming Later
 
 ## **Mod Additions**
 - [XaeroPlus](https://www.curseforge.com/minecraft/mc-mods/xaeroplus): XaeroPlus is a client-side Minecraft mod that depends on and modifies the Xaero's WorldMap and Minimap mods with extra features and performance improvements
-- [Ponder for KubeJS](https://www.curseforge.com/minecraft/mc-mods/ponder): Create custom Create Ponder scenes with KubeJS.
 
 ## **Mod Removals**  
 - FTB Backups - In some specific cases can cause extreme lag while making a backup causing the server to hang and crash
