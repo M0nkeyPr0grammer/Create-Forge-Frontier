@@ -51,7 +51,7 @@
 			subtitle: "Frozen Frontiers: Welcome to Glacio! Click me for more info!"
 			tasks: [{
 				id: "3074F6246F1E821A"
-				item: "ad_astra:raw_calorite"
+				item: "ad_astra:calorite_ingot"
 				type: "item"
 			}]
 			title: "Glacio"

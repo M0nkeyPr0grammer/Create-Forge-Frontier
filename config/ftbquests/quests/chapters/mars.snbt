@@ -48,7 +48,7 @@
 			subtitle: "The next step in your cosmic journey awaits! Click me for more info!"
 			tasks: [{
 				id: "4C252279091771C2"
-				item: "ad_astra:raw_desh"
+				item: "ad_astra:desh_ingot"
 				type: "item"
 			}]
 			title: "Mars"

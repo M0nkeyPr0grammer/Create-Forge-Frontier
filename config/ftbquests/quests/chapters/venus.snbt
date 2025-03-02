@@ -47,7 +47,7 @@
 			subtitle: "Surviving the Inferno, Click me for more info!"
 			tasks: [{
 				id: "552B723D05755AAC"
-				item: "ad_astra:raw_ostrum"
+				item: "ad_astra:ostrum_ingot"
 				type: "item"
 			}]
 			title: "Venus"

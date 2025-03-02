@@ -8,9 +8,7 @@
 	id: "7FDAAF267EECFF92"
 	images: [
 		{
-			click: "#0DAD6C803C532FAC"
 			height: 17.7d
-			hover: ["Click me to learn more!"]
 			image: "ftb:textures/title_background.png"
 			rotation: 0.0d
 			width: 32.0d
@@ -20,12 +18,12 @@
 		{
 			click: "https://discord.gg/quenZthXgy"
 			height: 1.0d
-			hover: ["Clickable Discord Link"]
+			hover: ["Need Support or want to join our community, click me to join the Discord!"]
 			image: "supplementaries:textures/gui/book/icon/discord.png"
 			rotation: 0.0d
 			width: 1.0d
 			x: 0.0d
-			y: 7.0d
+			y: 7.2d
 		}
 		{
 			click: "#0DAD6C803C532FAC"
@@ -81,11 +79,13 @@
 		]
 		shape: "gear"
 		size: 1.5d
+		subtitle: "Click me to learn more about the pack!"
 		tasks: [{
 			dimension: "minecraft:overworld"
 			id: "7E4EE542BF13A4DE"
 			type: "dimension"
 		}]
+		title: "Pack Introduction"
 		x: 0.0d
 		y: 6.0d
 	}]

@@ -43,7 +43,7 @@
 			subtitle: "A Scorched Frontier, Click me for more info!"
 			tasks: [{
 				id: "42455C9E0B92FBD0"
-				item: "ad_astra:raw_ostrum"
+				item: "ad_astra:ostrum_ingot"
 				type: "item"
 			}]
 			title: "Mercury"
