@@ -126,6 +126,7 @@ This update includes key **configuration improvements**, **gameplay refinements*
 ### **Fancy Menu**  
 - 🖥️ **Refined Interface:** Upgraded to **version 2.2.0**, to match pack version.  
 These updates refine **gameplay balance, UI performance, and overall stability**—enjoy the adventure! 🚀  
+---
 
 ## 🔄 **Mod Updates & Enhancements**  
 This update brings numerous **mod improvements**, **compatibility fixes**, and **performance optimizations** to ensure a **smoother, more immersive gameplay experience**.  
@@ -193,6 +194,7 @@ This update brings numerous **mod improvements**, **compatibility fixes**, and *
 - **Bug Fixes & Compatibility** – Key updates to improve mod stability and integration.  
 - **New Content** – Additional features in the updated mods.  
 These updates bring **greater stability, refined mechanics, and improved compatibility** to enhance your Forge Frontier experience! 🎮✨  
+---
 
 ### 📜 **Learn More About the Changes**  
 For a full breakdown of the latest updates, check out the **[GitHub repository merge](https://github.com/M0nkeyPr0grammer/Create-Forge-Frontier/compare/?)**.  
