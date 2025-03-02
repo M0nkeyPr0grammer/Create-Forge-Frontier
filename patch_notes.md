@@ -111,8 +111,7 @@ Description Coming Later
 ### **TFMG**  
 - ❌ Removed **Cinder Flour Block Recipe** due to **recipe conflicts**.  
 - ❌ Removed **Excess Coke Oven Recipe** to streamline crafting progression.  
-
-These changes **enhance performance, balance progression, and improve mod compatibility**—ensuring a more **immersive** and **stable** Forge Frontier experience! 🚀✨  
+### These changes **enhance performance, balance progression, and improve mod compatibility**—ensuring a more **immersive** and **stable** Forge Frontier experience! 🚀✨  
 ---
 
 ## ⚙️ **Configuration & UI Updates**  
@@ -125,8 +124,7 @@ This update includes key **configuration improvements**, **gameplay refinements*
 - 🎨 **Visual Enhancements:** Updated to **version 2.2.0**, to match pack version.  
 ### **Fancy Menu**  
 - 🖥️ **Refined Interface:** Upgraded to **version 2.2.0**, to match pack version.  
-
-These updates refine **gameplay balance, UI performance, and overall stability**—enjoy the adventure! 🚀  
+### These updates refine **gameplay balance, UI performance, and overall stability**—enjoy the adventure! 🚀  
 ---
 
 ## 🔄 **Mod Updates & Enhancements**  
@@ -194,7 +192,7 @@ This update brings numerous **mod improvements**, **compatibility fixes**, and *
 - **Performance Enhancements** – Optimizations across multiple mods for smoother gameplay.  
 - **Bug Fixes & Compatibility** – Key updates to improve mod stability and integration.  
 - **New Content** – Additional features in the updated mods.  
-These updates bring **greater stability, refined mechanics, and improved compatibility** to enhance your Forge Frontier experience! 🎮✨  
+### These updates bring **greater stability, refined mechanics, and improved compatibility** to enhance your Forge Frontier experience! 🎮✨  
 ---
 
 ### 📜 **Learn More About the Changes**  
