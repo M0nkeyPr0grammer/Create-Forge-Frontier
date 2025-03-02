@@ -125,7 +125,7 @@ Description Coming Later
 - Connectivity: v6.8 > v7.1
 - Corpse Curios Compat: v2.1.0 > v2.2.1
 - Create Additions Synthetics: v3.3.2 > v3.4.1
-- Create Better Villagers: v1.2.3 > v1.2.4
+- Create Better Villagers: v1.2.3 > v1.2.7
 - Create Encased: v1.6.2-fix1 > v1.6.2-fix3
 - Create Teleporters: v2.2 > v2.3
 - Curios: v5.11.1 > v5.12.1
@@ -138,7 +138,7 @@ Description Coming Later
 - Every Compat: v2.7.15 > v2.7.19
 - Fancy Menu: v3.4.0 > v3.4.6
 - Firespread Tweaks: v2.7 > v2.8
-- Forge Frontier Core: v1.5.0 > v1.6.0
+- Forge Frontier Core: v1.5.0 > v1.7.0
 - Fusion: v1.2.3 > v1.2.4
 - Fzzy Config: v0.5.9 > v0.6.4
 - Immediately Fast: v1.3.4 > v1.3.5
@@ -151,6 +151,7 @@ Description Coming Later
 - Loot Integration (YUNGS): v1.2 > v1.3
 - Moonlight: v2.13.58 > v2.13.70
 - Nether Remastered: v2.2 > v2.4
+- Neapolotan: v5.0.0 > v5.1.0
 - Not Enough Animations: v1.9.1 > v1.9.2
 - Packet Fixer: v1.4.5 > v2.0.0
 - Resourceful Config: v2.1.2 > v2.1.3
