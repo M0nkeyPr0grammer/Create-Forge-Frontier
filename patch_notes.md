@@ -17,6 +17,9 @@ Description Coming Later
 ## **Datapack Removal**  
 - If any
 
+## Forge Loader Update
+- v47.3.11 > v47.3.33
+
 ## **Quest Updates & Additions**
 ### Informational
 - Artifacts: Completed Quests  
@@ -36,6 +39,8 @@ Description Coming Later
 - Create - Easy Structures: Completed Quests
 - Better Archeology: Completed Quests
 - Prepared Quest Chapters for future completion
+### End Remastered
+- End Remastered: Added in Background image
 
 ## **Forge Frontier Core Updates**
 - Added in New **Energitic Blaze Burner** for AE2 Machine Processing Recipes, will be removing AE2 machines replaced with Create related Recipes
