@@ -16,30 +16,764 @@
 			y: -9.5d
 		}
 		{
-			height: 10.0d
-			image: "ftb:textures/coming_soon.png"
+			height: 1.0d
+			hover: ["Charm Slot Artifacts"]
+			image: "curios:slot/empty_charm_slot"
 			rotation: 0.0d
-			width: 15.0d
+			width: 1.0d
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			hover: ["Necklace Slot Artifacts"]
+			image: "curios:slot/empty_necklace_slot"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			hover: ["Head Slot Artifacts"]
+			image: "curios:slot/empty_head_slot"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			hover: ["Hand Slot Artifacts"]
+			image: "curios:slot/empty_hands_slot"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			hover: ["Feet Slot Artifacts"]
+			image: "relics:slot/empty_feet_slot"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			hover: ["Belt Slot Artifacts"]
+			image: "curios:slot/empty_belt_slot"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "polylib:textures/gui/widgets/slot_large.png"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "polylib:textures/gui/widgets/slot_large.png"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.5d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "polylib:textures/gui/widgets/slot_large.png"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "polylib:textures/gui/widgets/slot_large.png"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "polylib:textures/gui/widgets/slot_large.png"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "polylib:textures/gui/widgets/slot_large.png"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "polylib:textures/gui/widgets/slot_large.png"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			hover: ["Item Artifacts"]
+			image: "curios:slot/empty_ring_slot"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.5d
+			y: -3.0d
+		}
+		{
+			height: 15.0d
+			image: "ftb:textures/artifact_screenshot.png"
+			order: -2
+			rotation: 0.0d
+			width: 28.25d
 			x: 0.0d
-			y: -1.5d
+			y: -5.0d
 		}
 	]
 	order_index: 1
 	quest_links: [ ]
-	quests: [{
-		hide_dependency_lines: true
-		hide_until_deps_visible: false
-		id: "3CE72BF099174999"
-		shape: "gear"
-		size: 3.0d
-		tasks: [{
-			entity: "artifacts:mimic"
-			id: "4A2E530015E86C2B"
-			type: "kill"
-			value: 1L
-		}]
-		x: 0.0d
-		y: -6.5d
-	}]
+	quests: [
+		{
+			description: [
+				"In the world of &lForge Frontier&r, hidden across the lands are powerful relics— &lArtifacts&r, each imbued with magical properties that enhance your abilities in unique ways. These rare items are scattered throughout dungeons, ruins, and secret vaults, waiting for an adventurer worthy enough to uncover them."
+				""
+				"From boots that let you walk on water to rings that grant you unparalleled speed, each artifact is a game-changer in your journey. Unlike ordinary gear, artifacts don't require armor slots and can be worn alongside your usual equipment, making them invaluable tools for any explorer."
+				"{@pagebreak}"
+				"Your quest? &lSeek out these legendary items&r, test their abilities, and harness their power to push the boundaries of what you thought possible. Will you stumble upon a fire-resistant pendant in a Nether fortress? Or perhaps a lucky scarf buried deep within a forgotten ruin?"
+			]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			hide_until_deps_visible: false
+			id: "3CE72BF099174999"
+			rewards: [{
+				icon: "artifacts:mimic_spawn_egg"
+				id: "75BCE9FA7FF50E57"
+				table_id: 3902646239047479605L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 3.0d
+			subtitle: "Unlocking Hidden Treasures: The Power of Artifacts, Click me to learn more!"
+			tasks: [{
+				entity: "artifacts:mimic"
+				id: "4A2E530015E86C2B"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Artifacts"
+			x: -0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			id: "551F7FBE16A5CDDF"
+			tasks: [{
+				id: "106DDBA2BB51F18C"
+				item: "artifacts:umbrella"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			id: "304AF5F8562E4A5C"
+			tasks: [
+				{
+					id: "076BC2B2C007C355"
+					item: "artifacts:everlasting_beef"
+					type: "item"
+				}
+				{
+					id: "60146246EE772976"
+					item: "artifacts:eternal_steak"
+					type: "item"
+				}
+			]
+			x: -10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			id: "4AFB48769D3E1EB9"
+			tasks: [{
+				id: "07EAA6F92BEE9C37"
+				item: {
+					Count: 1
+					id: "artifacts:plastic_drinking_hat"
+					tag: {
+						abilities: {
+							drinking: {
+								points: 0
+								stats: {
+									speed: 0.34533d
+								}
+							}
+							nutrition: {
+								points: 0
+								stats: {
+									hunger: 1.0313d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			id: "2B10DC9D89A33E4F"
+			tasks: [{
+				id: "5A26ED8F9CAB9F76"
+				item: {
+					Count: 1
+					id: "artifacts:novelty_drinking_hat"
+					tag: {
+						abilities: {
+							drinking: {
+								points: 0
+								stats: {
+									speed: 0.34063d
+								}
+							}
+							nutrition: {
+								points: 0
+								stats: {
+									hunger: 2.7086d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			id: "0556FA9731E38AF1"
+			tasks: [{
+				id: "70AF155C793A167C"
+				item: {
+					Count: 1
+					id: "artifacts:snorkel"
+					tag: {
+						abilities: {
+							diving: {
+								points: 0
+								stats: {
+									duration: 8.63115d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			id: "084957F68D52D6A7"
+			tasks: [{
+				id: "3C37758007BCA486"
+				item: "artifacts:night_vision_goggles"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			id: "2BC238F3FDD58DDB"
+			tasks: [{
+				id: "2DF676F5F25E72A7"
+				item: {
+					Count: 1
+					id: "artifacts:villager_hat"
+					tag: {
+						abilities: {
+							discount: {
+								points: 0
+								stats: {
+									multiplier: 14.06291d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			id: "7EEBEE5ADECCC5CB"
+			tasks: [{
+				id: "03BA7A46686F077A"
+				item: {
+					Count: 1
+					id: "artifacts:superstitious_hat"
+					tag: {
+						abilities: {
+							looting: {
+								points: 0
+								stats: {
+									chance: 0.17021d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			id: "516D480B3D1E4232"
+			tasks: [{
+				id: "0EE686322DB74A90"
+				item: "artifacts:cowboy_hat"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			id: "2AC644E3091C6EEB"
+			tasks: [{
+				id: "6A4D323877D24DF1"
+				item: {
+					Count: 1
+					id: "artifacts:anglers_hat"
+					tag: {
+						abilities: {
+							catch: {
+								points: 0
+								stats: {
+									chance: 0.14439d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			id: "651C17AD95CCA5BD"
+			tasks: [{
+				id: "34F7865E6A414D11"
+				item: {
+					Count: 1
+					id: "artifacts:lucky_scarf"
+					tag: {
+						abilities: {
+							luck: {
+								points: 0
+								stats: {
+									chance: 0.1172d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			id: "363154F272ECBCFD"
+			tasks: [{
+				id: "23C29CA00F705EB4"
+				item: {
+					Count: 1
+					id: "artifacts:scarf_of_invisibility"
+					tag: {
+						abilities: {
+							invisible: {
+								points: 0
+								stats: {
+									radius: 5.89417d
+									threshold: 0.07044d
+								}
+								temp: {
+									ticking: 1b
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			id: "07535567CA8B5C62"
+			tasks: [{
+				id: "2CE64FF923888914"
+				item: "artifacts:cross_necklace"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			id: "72717A659397B964"
+			tasks: [{
+				id: "2AEFE41D50A13ECC"
+				item: "artifacts:panic_necklace"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			id: "7DD3EB098362A2CC"
+			tasks: [{
+				id: "156CCD6D5249DCCE"
+				item: "artifacts:shock_pendant"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			id: "089B63519CD22E49"
+			tasks: [{
+				id: "06290B923F0B4F26"
+				item: "artifacts:flame_pendant"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			id: "2435737159CE92D3"
+			tasks: [{
+				id: "47BE53798147F320"
+				item: "artifacts:thorn_pendant"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			id: "23FECF2363C2523D"
+			tasks: [{
+				id: "714A8626EA1A6102"
+				item: "artifacts:charm_of_sinking"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			id: "3BC08394D7BD5DE6"
+			tasks: [{
+				id: "54AB4A749A8E7348"
+				item: "artifacts:cloud_in_a_bottle"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			id: "1F62F933D3D69A35"
+			tasks: [{
+				id: "7DC73A063006B37D"
+				item: "artifacts:obsidian_skull"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			id: "10975C51192EBF6A"
+			tasks: [{
+				id: "27511EBE5E030C10"
+				item: "artifacts:antidote_vessel"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			id: "7A2B21D760F85D2A"
+			tasks: [{
+				id: "2A80C4627439AF58"
+				item: "artifacts:universal_attractor"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			id: "236549855FD2818F"
+			tasks: [{
+				id: "31C6CFDE9B1E346C"
+				item: "artifacts:crystal_heart"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			id: "0B2F5DB2E8CF0A32"
+			tasks: [{
+				id: "7C0A2DDB90E807FA"
+				item: "artifacts:chorus_totem"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			id: "1F16C54999AD56A1"
+			tasks: [{
+				id: "11176A58AB256962"
+				item: "artifacts:digging_claws"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			id: "50F6CD93C229C356"
+			tasks: [{
+				id: "666C73F2F5EF26EE"
+				item: "artifacts:feral_claws"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			id: "28556125D00A894D"
+			tasks: [{
+				id: "3E8D454F6216C844"
+				item: "artifacts:power_glove"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			id: "4C233BEEF78A4911"
+			tasks: [{
+				id: "47999C698048E249"
+				item: "artifacts:fire_gauntlet"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			id: "728434AC176C4EF4"
+			tasks: [{
+				id: "4FE1D00912CFB146"
+				item: "artifacts:pocket_piston"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			id: "39C4D7FA7620C375"
+			tasks: [{
+				id: "5611F33C2E7344D6"
+				item: "artifacts:vampiric_glove"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			id: "4A2EB1CE90E85E58"
+			tasks: [{
+				id: "7D1E45BBFD9DB33D"
+				item: "artifacts:golden_hook"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			id: "406D98F95463C7E0"
+			tasks: [{
+				id: "78D033966D85FA7D"
+				item: "artifacts:onion_ring"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			id: "10D0EC683BD0AEFA"
+			tasks: [{
+				id: "522F7133BED2ADC8"
+				item: "artifacts:pickaxe_heater"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			id: "5A6F33FA75FCEBF6"
+			tasks: [{
+				id: "5B06841E6182CA75"
+				item: "artifacts:aqua_dashers"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			id: "6AB6F1516D6BEC66"
+			tasks: [{
+				id: "6B7091A83489DB5F"
+				item: "artifacts:bunny_hoppers"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			id: "1ED05F2E1E550B23"
+			tasks: [{
+				id: "1651C6EF70956E71"
+				item: "artifacts:kitty_slippers"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			id: "7FA44BFC7DC01A17"
+			tasks: [{
+				id: "70751A3E59124CFF"
+				item: "artifacts:running_shoes"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			id: "4AE89A74B46FDF1B"
+			tasks: [{
+				id: "135D759316A0B771"
+				item: "artifacts:snowshoes"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			id: "2F72CB515C4AF0DF"
+			tasks: [{
+				id: "75BE8BC65F45F3FB"
+				item: "artifacts:steadfast_spikes"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			id: "6EB889CEDFBD05C7"
+			tasks: [{
+				id: "52ACE4051E2A5865"
+				item: "artifacts:rooted_boots"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			id: "3959426A63A0F441"
+			tasks: [{
+				id: "2712591D68263532"
+				item: "artifacts:whoopee_cushion"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			id: "34F551A0011C6DD5"
+			tasks: [{
+				id: "2796E48443C72999"
+				item: "artifacts:flippers"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -0.5d
+		}
+	]
 	title: "Artifacts"
 }
