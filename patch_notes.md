@@ -203,4 +203,4 @@ If you encounter any issues or have questions, feel free to request support on o
 
 ### 🌍 **Set Up Your Own Server!**  
 Want to experience **Create - Forge Frontier** with friends? Easily set up your own server with our **official hosting partner, BisectHosting!** Click the banner below to get started.  
-[![BisectHosting Code](https://raw.githubusercontent.com/M0nkeyPr0grammer/Landscapes-Reimagined/main/BH_Landscape_Reimagined.png)](https://bisecthosting.com/M0nkeyPr0grammer?r=curseforge+changelog)  
+[![BisectHosting Code](https://www.bisecthosting.com/images/CF/CREATE_FORGE_FRONTIER/CREATE_FORGE_FRONTIER_Promo.webp)](https://bisecthosting.com/M0nkeyPr0grammer?r=curseforge+changelog)  
