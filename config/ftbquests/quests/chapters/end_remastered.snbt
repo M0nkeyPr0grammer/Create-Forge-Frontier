@@ -107,9 +107,10 @@
 			}]
 			subtitle: "Plundered from the depths of legend, this eye granted the Black Pearl its ghostly sight, guiding it through storms and shadows. Click me for more info! "
 			tasks: [{
-				id: "7C0CE60981BBF33A"
-				title: "check"
-				type: "checkmark"
+				id: "3ADA06695EB061C1"
+				stat: "minecraft:boat_one_cm"
+				type: "stat"
+				value: 10
 			}]
 			title: "Black Eye"
 			x: -6.5d
@@ -136,9 +137,11 @@
 			}]
 			subtitle: "Left behind by the elusive Iceologers, this eye holds the last whispers of their frozen magic. It radiates the chill of their vanished realm. Click me for more info! "
 			tasks: [{
-				id: "54F74342A25DD88D"
-				title: "check"
-				type: "checkmark"
+				id: "613AA0ECF6319E9D"
+				observe_type: 0
+				timer: 0L
+				to_observe: "minecraft:snow"
+				type: "observation"
 			}]
 			title: "Cold Eye"
 			x: -4.5d
@@ -165,9 +168,11 @@
 			}]
 			subtitle: "Cast aside in the fiery battle between the Aether and the Nether, this eye pulses with the wrath of a demon. It smolders with unrelenting power. Click me for more info! "
 			tasks: [{
-				id: "27EE0AC9E77D219B"
-				title: "check"
-				type: "checkmark"
+				id: "699239B8436B37A2"
+				observe_type: 0
+				timer: 0L
+				to_observe: "minecraft:netherrack"
+				type: "observation"
 			}]
 			title: "Nether Eye"
 			x: 4.5d
@@ -194,9 +199,11 @@
 			}]
 			subtitle: "Torn from the grasp of a mighty Sandworm, this ancient eye carries the essence of deserts long buried by time. It glimmers faintly with the sands of legend. Click me for more info! "
 			tasks: [{
-				id: "7ECF60C79A3EEC68"
-				title: "check"
-				type: "checkmark"
+				id: "1EA60D8885CD3B3E"
+				observe_type: 0
+				timer: 0L
+				to_observe: "minecraft:sand"
+				type: "observation"
 			}]
 			title: "Old Eye"
 			x: 6.5d
@@ -223,9 +230,9 @@
 			}]
 			subtitle: "Imbued with the brilliance of our ancestors, this eye once illuminated the birth of Redstone. It hums with the ingenuity of a bygone age. Click me for more info! "
 			tasks: [{
-				id: "5AFB769CB5743393"
-				title: "check"
-				type: "checkmark"
+				id: "285406B696FD873D"
+				item: "create:brass_ingot"
+				type: "item"
 			}]
 			title: "Rogue Eye"
 			x: 7.5d
@@ -252,9 +259,11 @@
 			}]
 			subtitle: "Guarded fiercely by the Piglins, this artifact is said to wield destructive power. It radiates with a promise of both ruin and might. Click me for more info! "
 			tasks: [{
-				id: "56212865911D1E5B"
-				title: "check"
-				type: "checkmark"
+				id: "72488260E6B67599"
+				observe_type: 0
+				timer: 0L
+				to_observe: "minecraft:netherrack"
+				type: "observation"
 			}]
 			title: "Cursed Eye"
 			x: 7.5d
@@ -281,9 +290,9 @@
 			}]
 			subtitle: "Revered as a holy artifact, this talisman protects its bearer from misfortune. Its aura wards off curses and dark intentions. Click me for more info! "
 			tasks: [{
-				id: "73D75A49D1D0858D"
-				title: "check"
-				type: "checkmark"
+				id: "4CD760A1596D61A4"
+				item: "minecraft:emerald"
+				type: "item"
 			}]
 			title: "Evil Eye"
 			x: 6.5d
@@ -310,9 +319,9 @@
 			}]
 			subtitle: "Torn from the depths of the sea, this eye has watched countless warriors drown. It gleams with the sorrow of the ocean’s grasp. Click me for more info! "
 			tasks: [{
-				id: "7C1348BACF542832"
-				title: "check"
-				type: "checkmark"
+				id: "78CD11529DC549F0"
+				structure: "betteroceanmonuments:ocean_monument"
+				type: "structure"
 			}]
 			title: "Guardian Eye"
 			x: 4.5d
@@ -339,9 +348,9 @@
 			}]
 			subtitle: "This eye has guided explorers to their fates, some finding Atlantis, others vanishing forever. Its glimmer hints at the mysteries of the deep. Click me for more info! "
 			tasks: [{
-				id: "143D24765B67FADA"
-				title: "check"
-				type: "checkmark"
+				id: "7F13121FEF50188C"
+				item: "minecraft:prismarine_shard"
+				type: "item"
 			}]
 			title: "Aetheric Eye"
 			x: -7.5d
@@ -368,9 +377,9 @@
 			}]
 			subtitle: "Shrouded in enigmatic energy, this eye whispers secrets of a forgotten age. Its gaze sees beyond the veil, unraveling truths that were never meant to be known. Click me for more info! "
 			tasks: [{
-				id: "03C0C5A3BD2F7035"
-				title: "check"
-				type: "checkmark"
+				id: "2203B49578F70086"
+				item: "minecraft:ender_pearl"
+				type: "item"
 			}]
 			title: "Cryptic Eye"
 			x: -7.5d
@@ -397,9 +406,9 @@
 			}]
 			subtitle: "Taken from the Warden centuries ago, this eye burns with sorrow. Its absence leaves the creature wandering blindly through eternal darkness. Click me for more info! "
 			tasks: [{
-				id: "57A8110A07291177"
-				title: "check"
-				type: "checkmark"
+				biome: "minecraft:deep_dark"
+				id: "5B619F85A78FFAE0"
+				type: "biome"
 			}]
 			title: "Warden Eye"
 			x: -6.5d
@@ -426,9 +435,9 @@
 			}]
 			subtitle: "The heart of the Evoker’s dark arts, this enchanted eye brims with raw power. Without it, the sorcerer’s magic lies dormant. Click me for more info! "
 			tasks: [{
-				id: "21D5ADB69DCD11A2"
-				title: "check"
-				type: "checkmark"
+				id: "4E85FAA086E0F5EB"
+				item: "minecraft:totem_of_undying"
+				type: "item"
 			}]
 			title: "Magical Eye"
 			x: 2.0d
@@ -455,9 +464,11 @@
 			}]
 			subtitle: "A remnant of ancient alchemy, this eye gleamed as it uncovered forbidden brewing arts. Its spark holds the knowledge of lost times. Click me for more info! "
 			tasks: [{
-				id: "2421A4B940818A5B"
-				title: "check"
-				type: "checkmark"
+				id: "4758A06FE544D95F"
+				observe_type: 0
+				timer: 0L
+				to_observe: "minecraft:brewing_stand"
+				type: "observation"
 			}]
 			title: "Witch Eye"
 			x: -4.5d
@@ -484,9 +495,9 @@
 			}]
 			subtitle: "A witness to the destruction of empires, this eye bears the scars of ruin. Its empty gaze holds the echoes of a thousand fallen worlds. Click me for more info! "
 			tasks: [{
-				id: "7DB820C32595E0D3"
-				title: "check"
-				type: "checkmark"
+				id: "27E277AAC11B9CAD"
+				item: "minecraft:wither_skeleton_skull"
+				type: "item"
 			}]
 			title: "Wither Eye"
 			x: -2.0d
@@ -789,9 +800,9 @@
 			}]
 			subtitle: "This eye, once belonging to a king consumed by greed, radiates a dark allure. Its curse promises wealth, but its shadow lingers eternally. Click me for more info! "
 			tasks: [{
-				id: "14D4B27A993CBDCA"
-				title: "check"
-				type: "checkmark"
+				id: "0817132788E977AD"
+				item: "minecraft:gold_ingot"
+				type: "item"
 			}]
 			title: "Corrupted Eye"
 			x: -2.0d
@@ -818,9 +829,11 @@
 			}]
 			subtitle: "Forged by the first blacksmiths of creation, this eye is a relic of their divine craftsmanship. It glows with the fire of creation itself. Click me for more info! "
 			tasks: [{
-				id: "7A1A1516168454BA"
-				title: "check"
-				type: "checkmark"
+				id: "1228CA203A8488A8"
+				observe_type: 0
+				timer: 0L
+				to_observe: "ad_astra:mars_sand"
+				type: "observation"
 			}]
 			title: "Lost Eye"
 			x: 2.0d

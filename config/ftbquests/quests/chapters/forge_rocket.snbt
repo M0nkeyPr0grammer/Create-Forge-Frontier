@@ -571,10 +571,11 @@
 			size: 2.0d
 			subtitle: "Click me for more info!"
 			tasks: [{
-				id: "105480D5B0C47382"
-				title: "Forge Rocket"
-				type: "checkmark"
+				dimension: "forge_frontier:candy_cavity"
+				id: "79DD67456A860C4E"
+				type: "dimension"
 			}]
+			title: "Forge Rocket Introduction"
 			x: 0.0d
 			y: 2.75d
 		}

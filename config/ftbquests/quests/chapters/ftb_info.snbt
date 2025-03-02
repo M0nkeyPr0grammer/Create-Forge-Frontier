@@ -52,9 +52,10 @@
 			]
 			subtitle: "FTB Quests: Your Path to Adventure and Mastery 🌟 Click me to learn more!"
 			tasks: [{
-				id: "1EFCF49EF739F737"
-				title: "check"
-				type: "checkmark"
+				id: "6764FBD81806FBBD"
+				stat: "minecraft:sprint_one_cm"
+				type: "stat"
+				value: 100
 			}]
 			title: "FTB Quests"
 			x: 3.0d
@@ -84,10 +85,12 @@
 			}]
 			subtitle: "Claim Your Space with FTB Homes 🏠 Click me to learn more!"
 			tasks: [{
-				id: "0D931090A7AD2D0A"
-				title: "FTB Homes"
-				type: "checkmark"
+				advancement: "minecraft:adventure/sleep_in_bed"
+				criterion: ""
+				id: "16F8B441C6369F1D"
+				type: "advancement"
 			}]
+			title: "FTB Homes"
 			x: -3.0d
 			y: 0.0d
 		}
@@ -123,10 +126,12 @@
 			}]
 			subtitle: "FTB Chunks: Protect, Manage, and Explore Your World 🗺 Click me for more info!"
 			tasks: [{
-				id: "3EADB4E8990DF11C"
-				title: "FTB Chunks"
-				type: "checkmark"
+				advancement: "lootr:1barrel"
+				criterion: ""
+				id: "438746993C0538B9"
+				type: "advancement"
 			}]
+			title: "FTB Chunks"
 			x: 1.0d
 			y: 0.0d
 		}
@@ -207,10 +212,12 @@
 			}]
 			subtitle: "Empower Your Adventure with FTB Essentials ⚒ Click me to learn more!"
 			tasks: [{
-				id: "1785C019FEE227B3"
-				title: "FTB Essentials"
-				type: "checkmark"
+				advancement: "lootr:1barrel"
+				criterion: ""
+				id: "07235051A143B2D6"
+				type: "advancement"
 			}]
+			title: "FTB Essentials"
 			x: -1.0d
 			y: 0.0d
 		}
