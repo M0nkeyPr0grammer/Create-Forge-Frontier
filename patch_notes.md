@@ -17,7 +17,9 @@ Description Coming Later
 ## **Datapack Removal**  
 - If any
 
-## **Quest Updates & Additions**  
+## **Quest Updates & Additions**
+### Informational
+- Artifacts: Completed Quests  
 ### Dimensional Progression
 - Nether: Adjusted Blaze Spawner Reward to Mob Cage with Speed Upgrades
 - Deeper Darker: Adjusted Mining Quest Requirement to allow for completion
