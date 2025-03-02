@@ -43,8 +43,11 @@ Description Coming Later
 - End Remastered: Added in Background image
 
 ## **Forge Frontier Core Updates**
-- Added in New **Energitic Blaze Burner** for Advanced AE Machine Processing Recipes
--
+- Added in New **Energitic Blaze Burner** for Advanced AE Machine Processing Recipes, Ponder included
+- Added the ability to use the Jetpack in the new Jetpack Curios slot
+- Added the ability to fuel/fill the Jetpack while the Jetpack is in its custom slot
+- Added the ability to process items on belts and depots when using Dreams and Desire Sails
+- Removal of Test Animation items/files
 
 ## **KubeJS Updates**
 ### **Artifacts**
@@ -61,7 +64,7 @@ Description Coming Later
 ### **Create - Balanced Flight**
 - New Flight Ring recipe, replaced Bismuth Jetpack with Netherite Jetpack
 ### **Create Connected**
-- Fixed Create Connected Dreams and Desire Catalyst tags, so catalyst now work  
+- Fixed Create Connected Dreams and Desire Catalyst tags, so the catalysts now work  
 - Removed Sanding Catalyst Recipe, due to it not being functional
 - Updated Dreams and Desires Catalysts' Tooltips so players know how to use them
 ### **Create New Age**  
@@ -85,9 +88,9 @@ Description Coming Later
 - Created Netherite Casing Application Tag for Regions Unexplored Stripped Nether Wood and Logs  
 - Created Recipe for New Forge Frontier Core: Energetic Blaze Burner  
 - Removed Old Broken Limited Barrel Recipes
-- Remove Crushing Recipe for Amethyst
-- Create New Seething Recipes for Amethyst, Flint, Quartz, Rose Quartz, Spectral Ruby, and Stellarite
-- Fix Molten Malachite Compacting Recipe
+- Removed Crushing Recipe for Amethyst
+- Created New Seething Recipes for Amethyst, Flint, Quartz, Rose Quartz, Spectral Ruby, and Stellarite
+- Fixed Molten Malachite Compacting Recipe
 - Created New Energetic Recipes replacing Reaction Chamber Recipes
 - Created New Jetpack curios slot, and added Jetpacks to said slot
 - Adjusted Forge Rocket Engine Recipe to use Netherite Jetpack instead of Bismuth Jetpack
