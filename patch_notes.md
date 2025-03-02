@@ -149,14 +149,15 @@ Description Coming Later
 - Loot Integration (Structory): v1.1 > v1.2
 - Loot Integration (WDA): v1.5 > v1.6
 - Loot Integration (YUNGS): v1.2 > v1.3
-- Moonlight: v2.13.58 > v2.13.70
+- Moonlight: v2.13.58 > v2.13.71
 - Nether Remastered: v2.2 > v2.4
 - Neapolotan: v5.0.0 > v5.1.0
 - Not Enough Animations: v1.9.1 > v1.9.2
 - Packet Fixer: v1.4.5 > v2.0.0
+- Personality: v4.0.0 > v4.1.0
 - Resourceful Config: v2.1.2 > v2.1.3
 - Rhino: v2001.2.3-build.6 > v2001.2.3-build.10
-- Season Hud: v1.11.7 > v1.12.1
+- Season Hud: v1.11.7 > v1.12.2
 - Serene Seasons: v9.1.0.0 > v9.1.0.1
 - Sophisticated Backpacks: v3.23.4.1193 > v3.23.5.1210
 - Sophisticated Core: v1.2.6.858 > v1.2.12.894
