@@ -6,14 +6,25 @@
 	group: "56FECAF3F592F5B2"
 	icon: "minecraft:end_portal_frame"
 	id: "01DD8338C9E8DE75"
-	images: [{
-		height: 10.0d
-		image: "ftb:textures/end_remastered_title.png"
-		rotation: 0.0d
-		width: 15.0d
-		x: 0.0d
-		y: -9.5d
-	}]
+	images: [
+		{
+			height: 10.0d
+			image: "ftb:textures/end_remastered_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: -9.5d
+		}
+		{
+			height: 38.0d
+			image: "ftb:textures/endportalframe.png"
+			order: -1
+			rotation: 0.0d
+			width: 68.7d
+			x: 0.0d
+			y: 5.0d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -40,7 +51,6 @@
 				"The Ender Dragon fight in Create - Forge Frontier has been strengthened to provide a thrilling and strategic battle. Before entering the End, make sure you are fully prepared with powerful gear, plenty of supplies, and a solid strategy."
 				""
 				"Don't forget to use the Totem of Undying reward—it could make the difference between victory and defeat in this epic encounter. Gather your courage, sharpen your skills, and get ready to face the ultimate test! 🛡🔥"
-				"{image:ftb:textures/endportalframe.png width:226 height:100 align:center}"
 			]
 			icon: "minecraft:end_portal_frame"
 			id: "0135EFA96E7A28A2"
