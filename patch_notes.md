@@ -1,11 +1,18 @@
-# Modpack Patch Notes: Version 2.2.0
-**Release Date**: March 3rd, 2025
+# **Modpack Patch Notes: Version 2.2.0**  
+**Release Date**: March 3rd, 2025  
 
-# Name Coming Later
+# **Forging the Future: Update 2.2.0**  
 
-Description Coming Later
+The **Forge Frontier 2.2.0 Update** continues to expand and refine the modpack, introducing new **automation tools, quality-of-life improvements, and extensive quest enhancements**. This update focuses on **optimizing performance**, **improving gameplay balance**, and **introducing new mechanics** to enhance your adventure.  
 
-### As a standard safety protocol, we advise creating a backup of your saved data prior to updating the modification package to ensure the preservation of your progress.
+Key highlights include:  
+✅ **New Jetpack Integration** – A dedicated **Curios Jetpack Slot** with advanced fueling mechanics.  
+✅ **New Energetic Blaze Burner** – Enhances **Advanced AE Processing Recipes** with Ponder integration.  
+✅ **Expanded Quest System** – More detailed objectives, better progression flow, and new rewards.  
+✅ **Mod Optimizations & Additions** – Upgrades across multiple mods, including the replacement of **Xaero Zoomout** with the superior **XaeroPlus**.  
+
+> **🚨 Reminder:** Before updating, we highly recommend **backing up your world** to preserve your progress.  
+---
 
 ## 🆕 **Mod Additions**  
 - **[XaeroPlus](https://www.curseforge.com/minecraft/mc-mods/xaeroplus)**: Enhances **Xaero’s World Map** and **Minimap** with additional **features and performance improvements**, making navigation smoother and more efficient.  
