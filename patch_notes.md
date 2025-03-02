@@ -111,9 +111,8 @@ Description Coming Later
 ### **TFMG**  
 - ❌ Removed **Cinder Flour Block Recipe** due to **recipe conflicts**.  
 - ❌ Removed **Excess Coke Oven Recipe** to streamline crafting progression.  
----
 These changes **enhance performance, balance progression, and improve mod compatibility**—ensuring a more **immersive** and **stable** Forge Frontier experience! 🚀✨  
-
+---
 
 ## ⚙️ **Configuration & UI Updates**  
 This update includes key **configuration improvements**, **gameplay refinements**, and **UI enhancements** for a more seamless experience.  
