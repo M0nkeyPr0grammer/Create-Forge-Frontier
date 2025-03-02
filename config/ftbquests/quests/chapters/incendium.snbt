@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	filename: "incendium"
 	group: "4FAD6EACDA300DDE"
-	icon: "minecraft:map"
+	icon: "minecraft:netherrack"
 	id: "6D4F73F81FE66E40"
 	images: [
 		{
@@ -23,16 +23,16 @@
 			y: 0.0d
 		}
 	]
-	order_index: 3
+	order_index: 6
 	quest_links: [ ]
 	quests: [{
 		id: "3A170A8EF5BDC035"
 		shape: "gear"
 		size: 3.0d
 		tasks: [{
-			id: "42AEBF486F05CC9D"
-			structure: "incendium:abandoned_tower"
-			type: "structure"
+			id: "2C12C0BE85F8380F"
+			item: "minecraft:netherrack"
+			type: "item"
 		}]
 		x: 0.0d
 		y: -6.5d

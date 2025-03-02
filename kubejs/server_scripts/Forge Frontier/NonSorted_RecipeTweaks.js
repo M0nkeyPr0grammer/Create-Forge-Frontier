@@ -119,57 +119,6 @@ ServerEvents.recipes(event => {
 			count: 1
 		  }
 	}).id( 'forge_frontier:shapeless/chipped_vanilla_barrel' )
-
-
-	// Sophisticated Spruce Barrel to Limited Barrel Recipes
-
-		const createBarrelRecipe = (ingredients, resultItem, idSuffix) => {
-			event.custom({
-				type: 'minecraft:crafting_shapeless',
-				ingredients: ingredients.map(ingredient =>
-					ingredient.item
-						? { item: ingredient.item, nbt: ingredient.nbt || undefined }
-						: { tag: ingredient.tag }
-				),
-				result: {
-					item: resultItem.item,
-					count: 1,
-					nbt: resultItem.nbt
-				}
-			}).id(`forge_frontier:shapeless/${idSuffix}`);
-		};
-
-	// Limited Barrel Recipes
-		createBarrelRecipe([
-			{ tag: 'sophisticatedstorage:barrel'},
-			{ tag: 'minecraft:wooden_slabs' }
-		], 
-		{ item: 'sophisticatedstorage:limited_barrel_1', nbt: { woodType: "spruce" } }, 
-		'spruce_limited_barrel_1');
-
-		createBarrelRecipe([
-			{ tag: 'sophisticatedstorage:barrel' },
-			{ tag: 'minecraft:planks' }
-		], 
-		{ item: 'sophisticatedstorage:limited_barrel_2', nbt: { woodType: "spruce" } }, 
-		'spruce_limited_barrel_2');
-
-		createBarrelRecipe([
-			{ tag: 'sophisticatedstorage:barrel'},
-			{ tag: 'minecraft:wooden_slabs' },
-			{ tag: 'minecraft:wooden_slabs' }
-		], 
-		{ item: 'sophisticatedstorage:limited_barrel_3', nbt: { woodType: "spruce" } }, 
-		'spruce_limited_barrel_3');
-
-		createBarrelRecipe([
-			{ tag: 'sophisticatedstorage:barrel'},
-			{ tag: 'minecraft:planks' },
-			{ tag: 'minecraft:planks' }
-		], 
-		{ item: 'sophisticatedstorage:limited_barrel_4', nbt: { woodType: "spruce" } }, 
-		'spruce_limited_barrel_4');
-
 		
 	// New Reinforced Hang Glider Recipe
 	event.remove({ id: 'hangglider:reinforced_hang_glider'})
@@ -455,16 +404,6 @@ ServerEvents.recipes(event => {
 		  }
 
 	}).id( 'forge_frontier:shapeless/coal_piece_coal' )
-
-	// Creates Ash Recipe
-	event.custom({
-		type: 'minecraft:smoking',
-		cookingtime: 100,
-		ingredient: {
-		  item: 'minecraft:charcoal'
-		},
-		result: 'supplementaries:ash'
-	  }).id( 'forge_frontier:smoking/ash' )
 
 	// Creates Modded Crafting Table Recipe
 	event.shapeless(

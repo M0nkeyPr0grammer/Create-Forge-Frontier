@@ -1,11 +1,15 @@
 {
-  "entities": ["player"],
+  "entities": [
+    "player",
+    "minecraft:armor_stand"
+  ],
   "slots": [
     "tanks",
     "oxygen_cans",
     "terminals",
     "flight_ring",
     "elytras",
-    "goggles"
+    "goggles",
+    "jetpacks"
   ]
 }

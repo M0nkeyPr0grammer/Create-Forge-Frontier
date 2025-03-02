@@ -121,7 +121,7 @@ ServerEvents.recipes(event => {
                 C: Ingredient.of('ad_astra:calorite_block').toJson(),
                 O: Ingredient.of('forge_frontier:overcharged_netherite_block').toJson(),
                 N: Ingredient.of('minecraft:nether_star').toJson(),
-                E: Ingredient.of('create_sa:brass_jetpack_chestplate').toJson(),
+                E: Ingredient.of('create_sa:netherite_jetpack_chestplate').toJson(),
                 S: Ingredient.of('forge_frontier:overcharged_netherite_ingot').toJson()
             },
             result: Ingredient.of('balancedflight:ascended_flight_ring').toJson(),

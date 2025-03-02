@@ -436,10 +436,11 @@
 			size: 2.0d
 			subtitle: "Click me for more info!"
 			tasks: [{
-				id: "4879253DA4AEEF16"
-				title: "Tier 4 Rocket"
-				type: "checkmark"
+				id: "00EE61918468D602"
+				item: "ad_astra:calorite_ingot"
+				type: "item"
 			}]
+			title: "Tier 4 Rocket Introduction"
 			x: 0.0d
 			y: 6.0d
 		}

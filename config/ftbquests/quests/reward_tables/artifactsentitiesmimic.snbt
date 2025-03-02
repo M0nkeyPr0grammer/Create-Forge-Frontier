@@ -1,0 +1,11 @@
+{
+	id: "3628FC13CA707135"
+	loot_size: 1
+	order_index: 0
+	rewards: [{
+		command: "/loot give @p loot artifacts:entities/mimic"
+		title: "Random Artifact Loot"
+		type: "command"
+	}]
+	title: "artifacts:entities/mimic"
+}

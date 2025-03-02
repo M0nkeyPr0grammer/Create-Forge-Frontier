@@ -449,10 +449,11 @@
 			size: 2.0d
 			subtitle: "Click me for more info!"
 			tasks: [{
-				id: "2170AFD35D97E49E"
-				title: "Tier 5 Rocket"
-				type: "checkmark"
+				dimension: "minecraft:the_end"
+				id: "486CA6A5B434776C"
+				type: "dimension"
 			}]
+			title: "Tier 5 Rocket Introduction"
 			x: 0.0d
 			y: 6.0d
 		}

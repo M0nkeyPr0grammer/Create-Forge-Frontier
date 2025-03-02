@@ -253,7 +253,7 @@ ServerEvents.recipes(event => {
                     B: Ingredient.of("immersive_aircraft:biplane"),
                     F: Ingredient.of("balancedflight:flight_anchor"),
                     G: Ingredient.of("hangglider:reinforced_hang_glider"),
-                    j: Ingredient.of("create_sa:brass_jetpack_chestplate"),
+                    j: Ingredient.of("create_sa:netherite_jetpack_chestplate"),
                     R: Ingredient.of("balancedflight:ascended_flight_ring"),
                     E: Ingredient.of("minecraft:elytra"),
                     S: Ingredient.of("create:track_station"),

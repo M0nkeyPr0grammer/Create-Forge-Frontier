@@ -132,6 +132,7 @@
 				item: "minecraft:bucket"
 				type: "item"
 			}]
+			title: "Other Liquids"
 			x: 0.0d
 			y: -6.0d
 		}

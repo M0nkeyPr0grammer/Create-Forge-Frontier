@@ -1,6 +1,76 @@
 // Mod Recipe Fixes
 ServerEvents.recipes(event => {
 
+    // Removes Fan Sanding Catalyst Recipes
+    event.remove({ id: 'create_connected:item_application/sanding_catalyst_fan_empty_using_deployer' })
+    event.remove({ id: 'create_connected:item_application/sanding_catalyst_fan_empty' })
+    
+    // Adjusts Heated Mixing Recipe for Nut Milk Recipe
+    event.remove({ id: 'delightful:food/cooking/nut_milk' })
+    event.custom({
+        type: "create:mixing",
+        ingredients: [
+            {
+                item: 'delightful:nut_butter_bottle'
+            },
+            {
+                item: 'delightful:nut_butter_bottle'
+            },
+            {
+                item: 'delightful:nut_butter_bottle'
+            },
+            {
+                item: 'delightful:nut_butter_bottle'
+            },
+            {
+                fluid: 'minecraft:water',
+                amount: 1000
+            }
+        ],
+        results: [
+            {
+                fluid: 'minecraft:milk',
+                amount: 1000
+            }
+        ],
+        heatRequirement: "heated"
+    }).id('forge_frontier:mixing/nut_milk');
+
+    // Adjusts Shapeless return recipe for sturdy stone
+    event.remove({ id: 'quark:building/crafting/sturdy_stone_decompress'})
+    event.custom({
+        type: 'minecraft:crafting_shapeless',
+        ingredients: [
+            {
+                item: 'quark:sturdy_stone'
+            }
+        ],
+        result: {
+            item: 'minecraft:cobblestone',
+            count: 4
+        }
+    }).id( 'forge_frontier:shapeless/sturdy_stone' )
+
+    // Fixes Compat issue with Compacting Cobblestone
+    event.remove({ id: 'quark:building/crafting/cobblestone_bricks'}),
+    event.remove({ id: 'quark:building/crafting/sturdy_stone'})
+    event.shaped(
+        Item.of('quark:sturdy_stone'),
+        [
+            'CC',
+            'CC'
+        ],
+        {
+            C: 'minecraft:cobblestone'
+        }
+    ).id( 'forge_frontier:shaped/sturdy_stone')
+    
+    // Removes Excess Coke Oven Recipe
+    event.remove({ id: 'tfmg:crafting/coke_oven'})
+    
+    // Removes Not Need Cinder Flour Block Recipe
+    event.remove({ id: 'tfmg:compacting/cinderflourblock'})
+
     // Adds Missing Black Steel Block Recipe
     event.shaped(
 		Item.of('cataclysm:black_steel_block'),
