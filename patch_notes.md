@@ -58,11 +58,11 @@ Key highlights include:
 ## 🔥 **Forge Frontier Core Updates**  
 - **🛠️ New Feature:** Added **Energetic Blaze Burner** for **Advanced AE Machine Processing Recipes** (Includes Ponder).  
 - **🚀 Jetpack Integration:**  
-  - Added **Jetpack compatibility** for the new **Jetpack Curios slot**.  
-  - **Jetpacks can now be refueled** while in their custom slot.  
+- Added **Jetpack compatibility** for the new **Jetpack Curios slot**.  
+- **Jetpacks can now be refueled** while in their custom slot.  
 - **⚙️ Mechanical Enhancements:**  
-  - Enabled **belt & depot processing** with **Dreams & Desires sails**.  
-  - Removed **test animation files** to optimize performance.  
+- Enabled **belt & depot processing** with **Dreams & Desires sails**.  
+- Removed **test animation files** to optimize performance.  
 ---
 
 ## ⚙️ **KubeJS Updates**  
@@ -103,7 +103,7 @@ Key highlights include:
 - ❌ Removed **old broken Limited Barrel Recipes**.  
 - ❌ Removed **Crushing Recipe for Amethyst**.  
 - 🔥 **New Seething Recipes** for:  
-  - **Amethyst, Flint, Quartz, Rose Quartz, Spectral Ruby, and Stellarite**.  
+- **Amethyst, Flint, Quartz, Rose Quartz, Spectral Ruby, and Stellarite**.  
 - ⚙️ Fixed **Molten Malachite Compacting Recipe**.  
 - 🔄 Replaced **Reaction Chamber Recipes** with **Energetic Mixing Recipes**.  
 - 🚀 Implemented **Jetpack Curios Slot** and added **Jetpacks to the slot**.  
