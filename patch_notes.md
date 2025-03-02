@@ -203,7 +203,7 @@ This update brings numerous **mod improvements**, **compatibility fixes**, and *
 ---
 
 ### 📜 **Learn More About the Changes**  
-For a full breakdown of the latest updates, check out the **[GitHub repository merge](https://github.com/M0nkeyPr0grammer/Create-Forge-Frontier/compare/?)**.  
+For a full breakdown of the latest updates, check out the **[GitHub repository merge](https://github.com/M0nkeyPr0grammer/Create-Forge-Frontier/commit/1e1f54620a2188a3bb4314be75b60d3b56674ffa)**.  
 
 ### 🛠 **Need Help?**  
 If you encounter any issues or have questions, feel free to request support on our **[Discord](https://discord.gg/quenZthXgy)**. We're here to help—enjoy the update! 🚀  
