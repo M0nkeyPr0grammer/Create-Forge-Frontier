@@ -1,4 +1,10 @@
 ServerEvents.tags('item', event => {
+    // Removes All Tag from Woopie Cushion
+    event.remove('artifacts:slot/all', 'artifacts:whoopee_cushion')
+
+    // Adds Charm Tag to Woopie Cushion
+    event.add('curios:charm', 'artifacts:whoopee_cushion')
+
     // Freeze Resistance Tag
     event.add('ad_astra:freeze_resistant_armor',[
         'advanced_ae:quantum_helmet',

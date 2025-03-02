@@ -39,7 +39,9 @@ Description Coming Later
 - Added in New **Energitic Blaze Burner** for AE2 Machine Processing Recipes, will be removing AE2 machines replaced with Create related Recipes
 - More Coming Soon!
 
-## **KubeJS Updates**  
+## **KubeJS Updates**
+### **Artifacts**
+- Changed Woopee Cushion Tag from Slot/all to Charm  
 ### **Ad Astra**  
 - Provided Quantum Armor Heat and Freeze Resistant Tags for space exploration
 ### **Advanced AE**
