@@ -1,5 +1,5 @@
 # **Modpack Patch Notes: Version 2.2.0**  
-**Release Date**: March 3rd, 2025  
+**Release Date**: March 2nd, 2025  
 
 # **Forging the Future: Update 2.2.0**  
 
