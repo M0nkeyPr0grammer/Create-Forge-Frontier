@@ -43,8 +43,8 @@ Description Coming Later
 - End Remastered: Added in Background image
 
 ## **Forge Frontier Core Updates**
-- Added in New **Energitic Blaze Burner** for AE2 Machine Processing Recipes, will be removing AE2 machines replaced with Create related Recipes
-- More Coming Soon!
+- Added in New **Energitic Blaze Burner** for Advanced AE Machine Processing Recipes
+-
 
 ## **KubeJS Updates**
 ### **Artifacts**
