@@ -4,6 +4,7 @@
 	order_index: 0
 	rewards: [{
 		command: "/loot give @p loot artifacts:entities/mimic"
+		elevate_perms: true
 		title: "Random Artifact Loot"
 		type: "command"
 	}]
