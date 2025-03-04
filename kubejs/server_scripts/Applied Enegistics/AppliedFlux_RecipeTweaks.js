@@ -4,34 +4,6 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'ad_astra_giselle_addon:compat/ae2/inscriber/sky_stone_dust' })
     event.remove({ id: 'appflux:transform/redstone_crystal'})
 
-    // Redstone Crystal Create Compat Recipe
-    event.custom({
-        type: "create:mixing",
-        ingredients: [
-          {
-            item: "minecraft:redstone_block"
-          },
-          {
-            fluid: "minecraft:water",
-            nbt: {},
-            amount: 250
-          },
-          {
-            item: "ae2:fluix_dust"
-          },
-          {
-            item: "ae2:sky_dust"
-          }
-        ],
-        results: [
-          {
-            item: "appflux:redstone_crystal",
-            count: 1
-          }
-        ],
-        heatRequirement: "none"
-      }).id('forge_frontier:mixing/redstone_crystal')
-
     // Inscriber Energy Press Duplication Create Energistics Compat Recipe
     event.remove({ id: 'appflux:inscriber/energy_press' })
     event.remove({ id: 'appflux:charger/energy_press'})
