@@ -48,7 +48,8 @@ This update brings numerous **mod improvements**, **compatibility fixes**, and *
 ### 🛠 **Updated Mods:**
 - **Aquaculutre Delight**: v1.1.0 > v1.1.1
 - **Cataclysm**: v2.56 > v2.57
-- **Forge Frontier Core**: v1.7.0 → v1.7.2
+- **Forge Frontier Core**: v1.7.0 → v1.7.3
+- **FTB Quest**: v2001.4.11 > v2001.4.12
 - **Loot Integration**: v4.0 > v4.2
 
 ### 🔥 **What’s New?**  
