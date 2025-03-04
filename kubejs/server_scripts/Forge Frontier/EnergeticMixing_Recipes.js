@@ -2,6 +2,7 @@ ServerEvents.recipes(event =>
     {
         // Remove Recipes
         event.remove({ id: 'forgefrontier:test_recipe'})
+        event.remove({ id: 'create:mixing/compat/ae2/fluix_crystal'})
 
         // Forge Frontier - Energetic Mixing Recipes
             const energeticMixingRecipes = [
@@ -51,6 +52,7 @@ ServerEvents.recipes(event =>
                 {
                     id: "fluix_crystals_from_dust",
                     energy: 100000,
+                    remove: "forgefrontier:fluix_quartz_duplication",
                     ingredients: [
                         { item: "ae2:charged_certus_quartz_crystal", count: 32 },
                         { item: "ae2:fluix_dust", count: 32 },
